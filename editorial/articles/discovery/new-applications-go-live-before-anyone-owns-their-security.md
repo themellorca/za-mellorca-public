@@ -1,0 +1,134 @@
+---
+hub: discovery
+record_id: DISC-370
+slug: new-applications-go-live-before-anyone-owns-their-security
+title: New applications go live before anyone owns their security
+description: Go-live checklists cover function and training but not who owns access, patching, logging and incidents. Make named security ownership a gate and check existing systems against it.
+lead: Go-live checklists cover function and training but not who owns access, patching, logging and incidents. Make named security ownership a gate and check existing systems against it.
+category: Security & Compliance Operations
+published_date: 2026-11-12
+updated_date: 2026-11-12
+eyebrow: Security & Compliance Operations
+problem_domain: Security & Compliance Operations
+problem_owner: IT security and risk manager
+budget_owner: CIO, with the CFO involved at insurance renewal
+sources:
+  - https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf | https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
+  - https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview | https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview
+summary: Go-live checklists cover function and training but not who owns access, patching, logging and incidents. Make named security ownership a gate and check existing systems against it.
+layout: plain
+---
+Picture the IT security manager at a Johannesburg wholesaler in the weeks before the cyber-insurance renewal. The broker's questionnaire asks, for each system that holds customer or financial data, who is responsible for reviewing user access, applying security updates, monitoring alerts and leading the response if something goes wrong. For the older systems she can fill in names. For the three newest, a customer portal launched in the spring, a new HR platform and an expense tool, she can only find a project manager and a vendor support contact. The project manager has moved on to other work, and nobody in IT or the business ever agreed to take the rest.
+
+She then finds that the portal vendor's notice about a security update went to a project mailbox that nobody reads any more. The update has not been applied. The system passed its go-live checklist: it works, staff were trained, and the sign-off sheet is complete. Nothing on the checklist asked who would look after its security once the project team left.
+
+The operating condition is plain: applications reach go-live with no named owner for access, updates, monitoring or incident response. That matters to the CIO and the CFO because the gap is invisible until something forces the question, such as an insurance renewal, an audit or an incident, and by then the newest systems are already in production.
+
+## The problem in plain language
+
+When a business launches a new application, a project team builds or configures it, tests it, trains the users and hands it to the business. The checklist for that handover is about whether the system works: do the features behave as specified, can people log in, has the data been loaded, do the users know what to do.
+
+Security ownership is a different kind of question. It asks who, after the project ends, will do four things. Someone has to decide and periodically review who has access. Someone has to apply the vendor's security updates, known as patches. Someone has to watch the logs and alerts the system produces. And someone has to lead the response if the system is attacked or misused.
+
+On a new system these four jobs fall between the cracks. The project team assumes IT operations will take over. IT operations assumes the business owner will. The business owner assumes the vendor handles it. Each assumption is reasonable and none has been agreed, so for weeks or months the system runs with no one actually responsible.
+
+This is different from [application owners who leave without handing over](/discovery/application-owners-leave-without-transfer/), where an owner existed and left. Here there was never an owner for security, and the gap is built into how the system went live.
+
+## What the buyer is actually trying to solve
+
+IT security and risk managers describe this in practical terms. Who owns this system's security? Who will answer when the insurer asks? Why did nobody notice a vendor update was not installed? How do we stop the next system going live in the same state?
+
+The outcome they want is modest and specific. For every system, they can name who owns access reviews, updates, monitoring and incident response, and a new system cannot go live until those names are recorded. They also need to find out which existing systems have no such names today.
+
+## Evidence and system mechanism
+
+### Ownership is a named requirement in security frameworks
+
+The NIST Cybersecurity Framework 2.0 treats ownership as part of governance. Its category on roles, responsibilities and authorities includes an outcome (GV.RR-02) stating that roles, responsibilities and authorities for cybersecurity risk management should be established, communicated, understood and enforced. The full text is in the [framework document](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf), which also notes that the framework describes outcomes and does not prescribe how an organisation should achieve them.
+
+The four verbs in that outcome matter. A name on a spreadsheet is "established". A person who knows they hold the role is "communicated" and "understood". A go-live gate that stops a system without a name is "enforced". A go-live checklist that does not ask the question produces none of them.
+
+### Access reviews depend on knowing who reviews
+
+Reviewing who has access is the clearest example of a job that needs a named person. Microsoft's documentation on [access reviews in Microsoft Entra](https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview) says organisations must proactively engage with resource owners so that those owners regularly review who has access to their resources. It describes recurring reviews at set frequencies such as weekly, monthly, quarterly or annually, in which reviewers approve or deny continued access.
+
+The tool can schedule the review, but it cannot decide who the reviewer is. If a new application has no owner, there is nobody to appoint, and the review either never starts or lands with someone who does not know the system. That second case is the risk described in [admin access reviewed without knowing the application](/discovery/why-administrator-access-reviews-fail-when-reviewers-cannot-see-the-application/).
+
+| Gap | Effect |
+| --- | --- |
+| No named owner for access reviews | Leavers and role changers keep access to a new system |
+| No named owner for patching | Vendor updates sit unapplied, sometimes unnoticed |
+| No named owner for monitoring | Alerts are generated and nobody acts on them |
+| No named owner for incident response | Response starts with a search for who is in charge |
+| Go-live checklist silent on security | The gap is created on every new launch |
+
+### What South African law expects of the safeguards
+
+POPIA gives these ownership questions a legal edge. The [Protection of Personal Information Act, 4 of 2013](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf) requires, in section 19, that a responsible party secure the integrity and confidentiality of personal information in its possession by taking appropriate, reasonable technical and organisational measures. It must identify reasonably foreseeable risks, put safeguards in place, verify regularly that they work and update them when new risks appear.
+
+Section 22 covers what happens when safeguards fail. Where there are reasonable grounds to believe that personal information has been accessed or acquired by an unauthorised person, the responsible party must notify the Information Regulator and the affected people as soon as reasonably possible after discovering the compromise.
+
+Both sections assume somebody is doing the work. A system with no owner for access reviews or monitoring has no one who would verify its safeguards, and no one who would notice a compromise early enough to meet the notification duty.
+
+## Why this becomes urgent
+
+A cyber-insurance renewal is the usual trigger. The insurer or broker asks, system by system, who owns access, patching and monitoring. For the established systems, the IT team can usually answer. For the newest ones, nobody can, and the honest answer is that nobody has been assigned.
+
+That answer can have consequences. A renewal form that cannot be completed truthfully may lead to higher premiums, extra conditions or exclusions, and the person signing the form is accountable for what it says. The CFO becomes involved because the cost lands in the budget, and the CIO because the gap points to a process failure, not a one-off oversight.
+
+The pressure rises with the number of new systems. Every launch without a gate adds another unowned system, and the backlog is only discovered when someone asks for the full list.
+
+## Economic consequence
+
+The cost of unowned systems shows up after the fact, in several places:
+
+- **Insurance.** Higher premiums, added conditions or exclusions when the business cannot show who owns the controls the insurer asks about.
+- **Access.** Unreviewed accounts for leavers, contractors and people who changed roles, each a route in that nobody checks.
+- **Updates.** Vendor patches that arrive and wait, leaving known weaknesses open for longer than necessary.
+- **Alerts.** Warnings that the system raises and nobody reads, so a small problem becomes a large one.
+- **Incident response.** Time lost working out who is in charge, which systems are affected and whom to call, while the incident continues.
+
+As an illustrative example only, suppose it takes two days to establish who is responsible for a system that has just been breached, because the project team has disbanded and the vendor contact does not know the business. Those two days are added to the time the incident runs, to the time the business is exposed and to the cost of the response. A named owner and a one-page record would have cut that to minutes. Where the system's only knowledge sits with a supplier, related issues appear in [business capabilities that depend on tools nobody supports](/discovery/business-capabilities-depend-on-tools-with-no-support-owner/).
+
+## Root cause
+
+The root cause is that go-live checklists cover function and training but not who owns access reviews, patching, logging and incident response for the new system. The checklist was designed to answer "does it work?" and has never been extended to answer "who looks after it?"
+
+A second cause is the way projects end. A project has a budget, a manager and a finish date. Security ownership is an operational duty with no end date, and it belongs to a team that is rarely represented in the project. When the project closes, the duty has nowhere to land unless somebody arranged that in advance.
+
+A third cause is that responsibility is assumed to sit elsewhere. Software-as-a-service vendors secure their own infrastructure, which leads buyers to assume that the vendor handles everything. The customer still has to decide who has access, review that access, watch for misuse of accounts and respond when something happens. Those jobs cannot be outsourced to the vendor's default settings.
+
+## Practical intervention
+
+### Practical next actions
+
+1. **Define the four ownership roles.** For every system, record a named owner (a role, with a deputy) for access reviews, for updates, for monitoring and alerts, and for incident response. These can be the same person on a small system, but each must be written down.
+2. **Add the record to the go-live checklist as a gate.** A system does not go live until the record is complete and the named people have confirmed they accept the role. Treat it as a blocker, not a recommendation.
+3. **Keep the record to one page.** Include the system name, the data it holds, who the business owner is, the four owners, where the vendor's security notices are sent, how access is reviewed and how often, and where logs and alerts go. A short record gets filled in and kept up to date.
+4. **Send vendor notices to a shared role mailbox.** Use a mailbox that belongs to the update owner's team, not a project mailbox or an individual. Test it by asking the vendor to send a notice.
+5. **Check existing systems against the record.** List every system that holds customer, financial or staff data and fill in the record for each. Mark the systems with gaps, and prioritise those that are exposed to the internet or hold personal information.
+6. **Schedule the first access review for each new system.** Set the date at go-live, assign the reviewer from the record and use the tools you already have to run recurring reviews.
+7. **Review the records regularly and when roles change.** Check them at least once a year, before the insurance renewal, and whenever a named person changes role or leaves.
+
+## Diagnostic questions
+
+- For our three most recently launched systems, can we name who reviews access, who applies updates, who watches alerts and who leads incident response?
+- Does our go-live checklist ask who owns security after the project ends, and can a launch proceed if the answer is blank?
+- Where do vendor security notices go for each system, and who reads them?
+- When did we last review who has access to our newest systems, and who did the review?
+- If the insurer asked us today to name the owners of access, patching and monitoring for every system, which systems could we not answer for?
+- If one of these systems were breached tonight, who would be called first, and do they know they are responsible?
+
+## What good looks like
+
+Every system, new or old, has a one-page record naming the owner of access reviews, updates, monitoring and incident response. A new system cannot be signed off until the record is complete and the named people have accepted their roles. Vendor notices go to a monitored shared mailbox, and the first access review is scheduled on the day the system goes live.
+
+You can measure the result. The insurance questionnaire is completed from the records in an afternoon instead of weeks of enquiries. No system in production lacks a named owner for any of the four roles. Vendor updates are applied within a time the business has set, and access reviews happen on schedule with results recorded. When an incident occurs, the first call goes to a known person within minutes.
+
+## Where Mellorca fits
+
+If you do not know which of your systems lack security owners, a [digital systems audit](/services/digital-systems-audit/) can list them, fill in the ownership record for each and rank the gaps by risk. Once the records exist, [digital operations improvement](/services/digital-operations-improvement/) can build the go-live gate, the shared notice mailboxes and the review calendar into the way projects close, so new systems do not slip through again.
+
+## Method note
+
+This article draws on the NIST Cybersecurity Framework 2.0, Microsoft's documentation on access reviews in Microsoft Entra and the text of the Protection of Personal Information Act. The scenarios and the timing example are illustrative and not measured. The description of cyber-insurance renewal questions reflects the general kind of information insurers ask for and is not drawn from any specific insurer's form, so check your own renewal documents. The article does not claim that any product is needed to fix the problem or that it behaves the same way in your environment. It is general information and not legal advice: confirm your obligations under the Protection of Personal Information Act with your information officer or legal adviser.
