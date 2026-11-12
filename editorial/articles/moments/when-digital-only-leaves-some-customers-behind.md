@@ -1,0 +1,91 @@
+---
+hub: moments
+record_id: STORY-ANGLE-000170
+slug: when-digital-only-leaves-some-customers-behind
+title: When Digital-Only Leaves Some Customers Behind
+description: Moving customer follow-up to apps and email can make service more predictable for many and less reachable for some. Designing digital service so nobody has to fall out of it.
+lead: Moving customer follow-up to apps and email can make service more predictable for many and less reachable for some. Designing digital service so nobody has to fall out of it.
+category: Inclusion & Access
+published_date: 2026-10-03
+updated_date: 2026-10-03
+eyebrow: Inclusion & Access
+thematic_domain: inclusion_and_access
+human_situation: A customer who relies on limited, costly mobile data stops receiving reminders, statements or updates after a business moves its follow-up to an app or email only.
+human_dividend: Predictability: customers know where they stand and what happens next, through a channel they can actually use.
+trade_off: Keeping several channels costs more and can fragment records; low-tech channels like SMS have limits on detail and security; assisted service takes staff time; over-segmenting customers risks stereotyping.
+epistemic_state: INFERRED: connectivity and data-cost figures are observed in Stats SA data as reported and in Freedom House's 2024 report; the effect on particular businesses' customers is inferred.
+sources:
+  - South African households have become more connected | https://www.engineeringnews.co.za/article/south-african-households-have-become-more-connected-2024-06-14
+  - South Africa: Freedom on the Net 2024 Country Report - Freedom House | https://freedomhouse.org/country/south-africa/freedom-net/2024
+related:
+  - Why Holidays Still Need a Laptop in the Suitcase | /moments/why-holidays-still-need-a-laptop-in-the-suitcase/
+  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - When Every Day Starts by Rebuilding Yesterday's Context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
+summary: Moving customer follow-up to apps and email can make service more predictable for many and less reachable for some. Designing digital service so nobody has to fall out of it.
+layout: plain
+---
+For many businesses, moving customer communication online is one of the clearest improvements available. Statements arrive automatically. Reminders go out on time. Customers can check their own balance or booking without phoning. Fewer calls, fewer letters, fewer things for staff to chase.
+
+For most customers, that is genuinely better. For some, it is the moment the business goes quiet.
+
+This piece is about those customers: the people for whom a switch to app-only or email-only follow-up does not make the relationship more predictable, but less. It is not an argument against digital service. It is an argument for noticing who it reaches and who it does not.
+
+## Connected, but not equally
+
+South Africa is far more connected than it was a decade ago. Reporting on the 2023 General Household Survey from Statistics South Africa, Engineering News noted that 78.6% of households had at least one member with internet access by some means. Mobile internet was by far the most common route, available to 72.6% of households, while only 14.5% had a fixed connection at home.
+
+The same figures show uneven access. Mobile internet access stood at 66.3% in rural areas compared with 76.1% in urban areas. Provincially, access was highest in the Western Cape at 88.1% and lowest in Limpopo at 69.7% and the Eastern Cape at 70.2%.
+
+Household access is also not the same as individual access. A household where one member has a phone with data is counted as connected, even if the person who needs to receive a statement is not the person holding the phone.
+
+Cost is the other part of the picture. Freedom House's 2024 report on South Africa noted that the average cost of 1GB of mobile data in 2023 was R34.69, and that among people earning less than R2,500 a month, 59% said data costs were their main limitation in using the internet.
+
+These figures do not say that any particular business's customers are cut off. They do show that being reachable online is, for a significant group of South Africans, intermittent, shared or costly.
+
+## How follow-up drifts out of reach
+
+Consider an illustrative case: a furniture and appliance retailer with several branches in the Eastern Cape, selling on credit. It used to post monthly statements and send SMS reminders before each instalment. To cut costs, it launches an app where customers can see their balance and receive notifications, and stops the posted statements and most SMS messages.
+
+Many customers download the app and like it. Some never do. Their phone is shared, or low on storage, or out of data for part of the month. For them, the reminders simply stop. A missed instalment that would once have been prevented by an SMS now becomes an arrears notice, a phone call from collections, and a conversation that starts with the customer on the back foot.
+
+The root causes are design choices, not bad faith:
+
+- **One channel treated as universal.** The app was designed for the typical customer and assumed to reach everyone.
+- **Costs shifted silently.** The business saved on printing and SMS; part of the cost of staying informed moved to customers' data budgets.
+- **No record of reachability.** The business did not track which customers were actually receiving and opening messages.
+- **Follow-up designed for the happy path.** When a customer did not engage, there was no fallback until something had already gone wrong.
+
+The project probably looked like a success on its own measures. App downloads rose, printing costs fell, and call volumes dropped. What those measures could not show was the group of customers who had gone silent, because silence does not appear in a dashboard until it turns into arrears. By the time it does, the link between the channel change and the missed payments is easy to miss, and the explanation that reaches management is that some customers are simply unreliable.
+
+## The human tax: access and dignity
+
+The first tax is access. Information that used to arrive now has to be fetched, and fetching it costs something.
+
+The second is predictability. A customer who cannot see their balance or reminders cannot plan for them. Uncertainty about where they stand may be a small irritation for some and a real source of strain for others, especially where money is tight. That is an inference about how people may experience it, not a finding about any group.
+
+The third is harder to measure: dignity. Being treated as a late payer when the business stopped telling you when payment was due is a particular kind of unfairness. So is being made to feel that the problem lies with your phone, rather than with a service that was not designed with you in mind.
+
+## What could change
+
+The aim is not to keep every old channel forever. It is to make sure predictability does not depend on one channel.
+
+1. **Offer a low-data fallback.** Short SMS reminders and USSD balance checks work on basic phones and do not use mobile data.
+2. **Let customers choose their channel** and record that choice, so the system knows how each person prefers to be reached.
+3. **Watch for silence.** If a customer has not opened or received any message for a period, switch to another channel before a problem arises.
+4. **Keep an assisted route.** A branch counter or a phone number with a person on it remains important for customers who need help.
+5. **Use zero-rated or lightweight services** where possible, so checking an account does not cost the customer data.
+
+Mellorca has argued in [why proactive communication can remove entire support workloads](/patterns/why-proactive-communication-can-remove-entire-support-workloads/) that telling customers what is happening before they have to ask is good for both sides. The same principle applies here. It just has to reach everyone, not only those with the best connections. When it does not, the result is the pattern in [why customers have to ask what is happening](/patterns/why-customers-have-to-ask-what-is-happening/), and the cost lands on collections, as described in [inconsistent payment follow-up](/impact/inconsistent-payment-follow-up-cash-flow-cost/).
+
+## Trade-offs
+
+- **More channels cost more.** SMS, printed statements and assisted service all carry real costs, and smaller businesses must choose carefully.
+- **Records can fragment.** Communications across several channels need to land in one customer record, or staff lose track of what was said.
+- **Simpler channels carry less.** An SMS cannot hold a full statement, and some channels are less secure for personal information.
+- **Assumptions can become stereotypes.** Deciding that a customer needs a low-tech channel because of age, location or income is presumptuous. Asking is better than guessing.
+
+## Why it matters
+
+The business case for inclusive follow-up is concrete: fewer avoidable arrears, fewer collection calls, and customers who stay. The human case is about something simpler. A person should be able to know where they stand with a business they deal with, without that knowledge depending on how much data they can afford this month.
+
+That is the dividend here: predictability, delivered through a channel the customer can use. Digital service can provide it better than any posted letter ever did. It only fails when the design assumes everyone is connected in the same way.

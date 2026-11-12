@@ -1,0 +1,94 @@
+---
+hub: insights
+record_id: INS-055
+slug: when-copy-and-paste-is-really-an-integration-problem
+title: When Copy-and-Paste Is Really an Integration Problem
+description: Not every copy-and-paste job needs an integration, and building the wrong one can make things worse. A practical way to tell integration problems apart from ownership, reporting and design problems, and what to settle before connecting anything.
+lead: Not every copy-and-paste job needs an integration, and building the wrong one can make things worse. A practical way to tell integration problems apart from ownership, reporting and design problems, and what to settle before connecting anything.
+category: Systems & Integration
+published_date: 2026-10-03
+updated_date: 2026-10-03
+eyebrow: Systems & Integration
+sources:
+  - Connectors overview | https://learn.microsoft.com/en-us/connectors/overview
+  - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
+related:
+  - How a CRM Turns Into an Expensive Address Book | /insights/how-a-crm-turns-into-an-expensive-address-book/
+  - When a Spreadsheet Is a Useful Tool—and When It Becomes Infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
+  - Key-person dependency is a systems problem | /insights/key-person-dependency-is-a-systems-problem/
+summary: Not every copy-and-paste job needs an integration, and building the wrong one can make things worse. A practical way to tell integration problems apart from ownership, reporting and design problems, and what to settle before connecting anything.
+layout: plain
+---
+Watch almost any administrative team for an hour and you will see it. A customer's details copied from an email into the CRM. An accepted quote retyped as a sales order. Invoice totals pasted from the accounting system into a management spreadsheet. A new employee's details keyed into payroll, then into the leave system, then into the access control system.
+
+It is tempting to treat every instance as an integration waiting to be built. Sometimes it is. Often it is something else, and connecting two systems without understanding why people are copying between them can simply automate a confusion that already exists. The pattern itself is described in [when copy-and-paste becomes part of the job description](/patterns/when-copy-and-paste-becomes-part-of-the-job-description/). This article is about diagnosis: working out which kind of problem the copying actually represents.
+
+## Five reasons people copy data
+
+When Mellorca reviews recurring copy-and-paste work, it usually falls into one of five categories. Only the first is a straightforward integration problem.
+
+### 1. The same record genuinely needs to exist in two systems
+
+A won deal in the CRM must become a customer and a sales order in the accounting system. A new hire in the HR system must become a user in payroll. Each system has a legitimate reason to hold the record, and the information should flow from one to the other without being retyped. This is an integration problem in the proper sense. The re-keying of quotes into orders, for example, is explored in [why sales quotes have to be re-keyed before orders](/discovery/why-sales-quotes-have-to-be-re-keyed-before-orders/).
+
+### 2. Nobody has decided which system owns the information
+
+Staff copy customer contact details in both directions because sales updates the CRM and accounts updates the billing system, and neither is treated as the authority. Building a two-way synchronisation here does not resolve the conflict. It automates it, so that a wrong value can overwrite a right one in seconds. The prior question is ownership, covered in [how to decide which system owns which data](/insights/how-to-decide-which-system-owns-which-data/).
+
+### 3. The copying is really reporting
+
+Figures pasted from several systems into a spreadsheet each week are not usually an integration problem between those systems. They are a reporting problem. The answer might be a reporting layer that reads from each source, rather than pushing data from one operational system into another.
+
+### 4. The copying feeds a step that should not exist
+
+Sometimes information is transferred to complete a form, a register or an approval that no longer serves a purpose. Integrating it would preserve the unnecessary step. Removing the step is cheaper and more robust.
+
+### 5. The work is low volume and needs judgement
+
+Copying a handful of records a month, where each one needs interpretation, may be best left manual with a clear checklist. Integration has a build cost and a maintenance cost. Below a certain volume, those costs exceed the time saved.
+
+## A quick triage
+
+| If you observe this | The problem is probably | Start with |
+| --- | --- | --- |
+| Data moves one way, from a system that creates it to one that needs it | Integration | Defining the trigger, fields and failure handling |
+| Data is edited in both systems and copied back and forth | Ownership | Choosing one system of record per data item |
+| Data is copied into spreadsheets to be summarised | Reporting | A single reporting source that reads from each system |
+| Data is copied into a form nobody uses afterwards | Process design | Removing or redesigning the step |
+| Few records, each needing interpretation | Possibly none | A checklist and an owner |
+
+## Why the distinction matters
+
+Duplicate copies of information do not only waste time. They diverge. Once a customer's address exists in three places, it will eventually be correct in one, outdated in another and mistyped in the third. For personal information, South Africa's Protection of Personal Information Act adds a compliance dimension: [section 16](https://popia.co.za/section-16-quality-of-information/) requires a responsible party to take reasonably practicable steps to ensure personal information is complete, accurate, not misleading and updated where necessary. Every uncontrolled copy makes that harder to demonstrate.
+
+A well-designed integration reduces the number of places information is created and keeps copies consistent. A poorly designed one multiplies the speed at which inconsistency spreads.
+
+## What to settle before connecting anything
+
+Once copying is confirmed as a genuine integration need, the technical options are wider than they used to be. Integration platforms offer prebuilt connectors for many business applications. Microsoft's [connector overview](https://learn.microsoft.com/en-us/connectors/overview), for example, describes connectors that expose triggers, such as when a new item is added, and actions, such as creating a file, and distinguishes prebuilt connectors from custom ones built for systems that are not already covered. Other platforms work on similar principles.
+
+Availability of a connector does not answer the business questions. Before building, define:
+
+1. **Direction.** Which system is the source, which is the destination, and is the flow genuinely one-way?
+2. **Trigger.** What event starts the transfer: a status change, a new record, a schedule?
+3. **Matching.** How will the destination recognise a record it already holds? Without a reliable shared identifier, integrations create duplicates.
+4. **Field mapping.** Which fields move, how are differences in format or code lists translated, and what happens to fields that have no equivalent?
+5. **Updates and deletions.** Does a later change in the source flow through, and what happens if a record is cancelled?
+6. **Failure handling.** Who is told when a transfer fails, and how is it corrected without retyping everything?
+7. **Ownership.** Who maintains the connection when either application changes?
+
+These decisions are worth writing down. A fuller checklist is set out in [what to document before connecting two business platforms](/insights/what-to-document-before-connecting-two-business-platforms/).
+
+## An illustrative example
+
+Consider a hypothetical Cape Town office furniture supplier with a sales team working in a CRM and a finance team working in an accounting package. When a quote is accepted, a sales administrator retypes it as a sales order. Customer details are also updated by both teams in both systems, and nobody is sure which is current.
+
+The first instinct is to buy a two-way synchronisation between the two applications. Triage suggests two separate problems. Quote-to-order is a clean one-way integration: an accepted quote in the CRM should create a sales order in accounting, matched on a customer account number. Customer details are an ownership problem: finance should own billing details, sales should own contact people, and each field should be edited in one place only.
+
+Solving them in that order, ownership first and integration second, avoids an automated synchronisation silently overwriting good data with bad. This is an illustrative scenario, not a client case study.
+
+## When to act
+
+Copy-and-paste work deserves attention when it happens daily, when errors from it reach customers or invoices, when the same data is copied in both directions, or when a single person has become the only one who knows how the transfer is done. Those are signs that the business depends on a manual integration that nobody designed.
+
+The right fix depends on the diagnosis. Sometimes it is a connector. Sometimes it is a decision about ownership, a reporting source or the removal of a step. Mellorca's [systems implementation and integration](/services/systems-implementation-integration/) work starts from that distinction, so that what gets connected is what should be connected.

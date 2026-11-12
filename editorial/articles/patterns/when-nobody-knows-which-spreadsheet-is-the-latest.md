@@ -1,0 +1,98 @@
+---
+hub: patterns
+record_id: PAT-255
+slug: when-nobody-knows-which-spreadsheet-is-the-latest
+title: When Nobody Knows Which Spreadsheet Is the Latest
+description: Files named final, final_v2 and final_USE THIS ONE circulate by email while decisions get made on the wrong numbers. Here is why version confusion happens and how to end it.
+lead: Files named final, final_v2 and final_USE THIS ONE circulate by email while decisions get made on the wrong numbers. Here is why version confusion happens and how to end it.
+category: Data, Reporting & Decision Visibility
+published_date: 2026-10-08
+updated_date: 2026-10-08
+eyebrow: Data, Reporting & Decision Visibility
+pattern_family: Data, Reporting & Decision Visibility
+observable_condition: Several copies of the same spreadsheet circulate by email with names like final and v2, and people discover in meetings that they worked from different versions.
+primary_identification: Unmanaged copies of a shared record: a business-critical file is distributed by copying with no single home, owner, controlled editing or change history.
+commercial_value_dimensions: Decision quality, margin protection, rework avoidance, control and trust in shared data
+sources:
+  - What is Microsoft Dataverse? - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
+  - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - Plan an intelligent SharePoint intranet - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/plan-intranet
+  - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
+related:
+  - Why Reporting Problems Often Begin With Data Capture | /patterns/why-reporting-problems-often-begin-with-data-capture/
+  - When Only One Person Knows Where the Report's Numbers Come From | /patterns/when-only-one-person-knows-where-the-reports-numbers-come-from/
+  - When Your Dashboard Is Really a Manually Updated Spreadsheet | /patterns/when-your-dashboard-is-really-a-manually-updated-spreadsheet/
+summary: Files named final, final_v2 and final_USE THIS ONE circulate by email while decisions get made on the wrong numbers. Here is why version confusion happens and how to end it.
+layout: plain
+---
+## Observable condition
+
+The file is called Budget_2027_FINAL. Next to it in the folder sit Budget_2027_FINAL_v2, Budget_2027_final_JM_edits and Budget_2027_USE_THIS_ONE. Three of them were emailed on Monday. Two managers have each updated a copy and sent it back. The finance director opens the one that arrived last, discovers that the freight assumption is from August, and spends the morning finding out who changed what.
+
+The same thing happens with price lists, stock take sheets, project trackers, commission calculations and customer contact lists. Everyone is working in good faith. Everyone believes theirs is current. The meeting begins with a pause while someone checks the date in the corner of the file, and sometimes ends with the discovery that a decision has already been made on stale numbers.
+
+An illustrative example: a Johannesburg events and exhibitions company runs quotations from a pricing spreadsheet that the sales team copies to their laptops each quarter. When the supplier rates change, the owner updates the master and emails it. Two salespeople do not open the email. For three weeks they quote at the old rates, and the shortfall only shows up when the margin on a large contract is reviewed.
+
+## Realisation
+
+A spreadsheet is a very good place to build something and a poor place to keep the one true copy of anything. Each time a file is saved under a new name, emailed or copied to a memory stick, a branch is created. Branches are easy to make and nearly impossible to merge by hand. The business ends up with several plausible versions and no reliable way to tell which one reflects what is actually true.
+
+The confusion is not carelessness. It is what happens when a file is used as both a working scratchpad and the shared record. People can edit freely, which is why they love spreadsheets, but nobody has agreed which copy is the record, who is allowed to change it, or how everyone else gets the update. In practice the latest version is whatever the last person to talk to the owner is working on.
+
+**Realisation prompt:** if you asked five people for the current version of your most important spreadsheet, how many different files would you receive?
+
+## Identification
+
+This is a pattern of unmanaged copies of a shared record. The visible symptom is version uncertainty: file names with suffixes, emails asking which one is correct, and numbers that differ between meetings. The common assumption is that people should be more disciplined about naming and saving. The structural cause is that a business-critical record lives in a file that is distributed by copying, with no single location, no controlled editing and no history of who changed what.
+
+The published Pattern [when a spreadsheet becomes a business-critical system](/patterns/when-a-spreadsheet-becomes-a-business-critical-system/) describes how a convenience tool gets promoted to infrastructure, and the Pattern [the hidden risk of one file controlling an operation](/patterns/the-hidden-risk-of-one-file-controlling-an-operation/) covers the dependency risk. This article focuses on the confusion that results when the same file exists in many places at once.
+
+## Diagnosis
+
+- **Distribution by attachment.** The file is sent to people rather than shared from one place, so every recipient holds an independent copy that starts ageing immediately.
+- **Naming as version control.** Suffixes such as final, v2 and initials carry the burden of showing which file is current, and they fail the first time two people choose different conventions.
+- **No owner of the master.** Several people can and do change the numbers. Nobody is accountable for the agreed version.
+- **No change history.** When a figure differs, there is no way to see who altered it, when and why, so the discussion becomes about blame instead of about the number.
+- **Dependants copy values.** Other sheets and reports paste figures from the master rather than linking to it, so an update does not flow through.
+
+## Commercial impact
+
+The commercial value at stake is decision quality, margin protection, rework avoidance and control. The most direct cost is rework. Reconciling two versions of a model, rebuilding a quote, or redoing a calculation that used old inputs consumes hours that add nothing to the business. The Impact page on [conflicting document versions, rework and decision cost](/impact/conflicting-document-versions-rework-decision-cost/) sets out how those hours accumulate, and the Moment [the late night spent reconciling two spreadsheets](/moments/the-late-night-spent-reconciling-two-spreadsheets/) will be familiar to anyone who has lived it.
+
+The costlier outcome is a wrong decision made with confidence. A quote at last quarter's rates, an order against an outdated stock count or a commission paid on the wrong table is an actual loss, and it often goes unnoticed until months later. For employers, errors in figures that feed payroll or tax submissions can carry penalties and interest, which is why SARS encourages employers to ensure payroll and employee information is accurate and up to date before filing.
+
+The situation also erodes trust. When people know the numbers might be stale, they double-check everything, keep private copies as insurance and stop relying on shared data at all. That multiplies the number of versions further.
+
+## Common misidentification
+
+The first instinct is to enforce a naming convention: dates in the file name, initials, a folder called Archive. This helps for about a month. It depends entirely on everyone following the rule on the busiest day of the quarter, and it does not stop the file being copied.
+
+The second is to move the same spreadsheet to a shared drive and call the problem solved. A shared location reduces copying, but it does not decide who may edit, does not record changes in a way the business can use, and does nothing for the sheets that paste values from it. The Insight [when a spreadsheet is a useful tool and when it becomes infrastructure](/insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/) helps decide which spreadsheets need more than that.
+
+## Possibility
+
+In a better state, every important data set has one agreed home, one named owner and a defined way of changing it. People read from the master and do not carry copies. Edits are made in that one place, and the system records who changed what and when. Where the data is a list of prices, customers or projects, it lives in a table with controlled fields rather than loose cells, and anyone who needs it sees the current values at the moment they look.
+
+Business application platforms are built for this. Microsoft describes Dataverse as a place to securely store and manage data used by business applications, in tables, with role-based security so that users see and change data only if they have been granted access. Changes that need sign-off can be routed through approval workflows, and Microsoft's documentation on Power Automate approvals lists sign-off of documents among the common uses. Spreadsheet-based workings can continue as analysis tools that read from the master instead of replacing it.
+
+For the events company, this would mean one rate table maintained by one person, quotes that read from it, and a record of when each rate changed.
+
+## Intervention
+
+1. **Identify the files that matter.** List the five or six spreadsheets whose numbers drive pricing, payments, stock or planning. Ignore the personal scratch files.
+2. **Decide the system of record.** For each, say where the master lives and who owns it. The Insight [how to decide what should be the system of record](/insights/how-to-decide-what-should-be-the-system-of-record/) offers a simple way to choose.
+3. **Stop sending the file.** Share a link to the master, not an attachment. Ask recipients to delete their saved copies.
+4. **Control who can edit.** Give read access to most people and edit access to a few, with a short request route for changes.
+5. **Keep a change log.** Use the version history and a simple record of what changed and why for anything that affects price or payment.
+6. **Link, do not paste.** Make dependent sheets and reports read from the master, so updates flow through. Review after a month and retire the copies that remain.
+
+## Diagnostic questions
+
+- Which file would cause the most damage if a team worked from an old version of it?
+- Who is accountable for the agreed current version of each key spreadsheet?
+- Can you see who changed a figure last, and when?
+- How many copies of the pricing file exist on laptops and phones?
+
+## Bottom line
+
+When nobody knows which spreadsheet is the latest, the business has no shared record, only a collection of copies. Naming rules will not repair that. One agreed home for each important data set, a named owner, controlled editing and a visible history will. The effort is small compared with the cost of one quote, order or payment made on the wrong numbers.

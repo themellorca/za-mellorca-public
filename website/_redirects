@@ -1,0 +1,57 @@
+# Legacy URL migration
+# Both .html and extensionless forms are retained because Cloudflare Pages canonicalizes HTML routes.
+/pages/what-i-do.html /services/ 301
+/pages/what-i-do /services/ 301
+/pages/founder-letter.html /insights/hidden-cost-of-operational-friction/ 301
+/pages/founder-letter /insights/hidden-cost-of-operational-friction/ 301
+/pages/article-preview.html /insights/hidden-cost-of-operational-friction/ 301
+/pages/article-preview /insights/hidden-cost-of-operational-friction/ 301
+/pages/landing-page.html /services/digital-systems-audit/ 301
+/pages/landing-page /services/digital-systems-audit/ 301
+/pages/detailed-explainer.html /services/ 301
+/pages/detailed-explainer /services/ 301
+/pages/revenue-systems-audit.html /services/digital-systems-audit/ 301
+/pages/revenue-systems-audit /services/digital-systems-audit/ 301
+/pages/audit-application.html /contact/?intent=digital-systems-audit 301
+/pages/audit-application /contact/?intent=digital-systems-audit 301
+/pages/faq.html /services/ 301
+/pages/faq /services/ 301
+/pages/about.html /about/ 301
+/pages/about /about/ 301
+/pages/referral-partners.html /contact/?intent=partnership-referral-other 301
+/pages/referral-partners /contact/?intent=partnership-referral-other 301
+/pages/contact.html /contact/ 301
+/pages/contact /contact/ 301
+/pages/resources.html /insights/ 301
+/pages/resources /insights/ 301
+/pages/thank-you-audit.html /contact/thank-you/ 301
+/pages/thank-you-audit /contact/thank-you/ 301
+/pages/thank-you-article.html /insights/ 301
+/pages/thank-you-article /insights/ 301
+/legal/privacy.html /legal/privacy/ 301
+/legal/privacy /legal/privacy/ 301
+/legal/terms.html /legal/terms/ 301
+/legal/terms /legal/terms/ 301
+/legal/data-handling.html /legal/data-handling/ 301
+/legal/data-handling /legal/data-handling/ 301
+
+# Operational manager identity migration
+# Current canonical route: /about/qwaname-kenobisan/
+/about/qwan-kenobisan/ /about/qwaname-kenobisan/ 301
+/about/qwan-kenobisan /about/qwaname-kenobisan/ 301
+/about/qwan-kenobisan.html /about/qwaname-kenobisan/ 301
+/qwan-kenobisan/ /about/qwaname-kenobisan/ 301
+/qwan-kenobisan /about/qwaname-kenobisan/ 301
+/qwan-kenobisan.html /about/qwaname-kenobisan/ 301
+/about/aba-radebe/ /about/qwaname-kenobisan/ 301
+/about/aba-radebe /about/qwaname-kenobisan/ 301
+/about/aba-radebe.html /about/qwaname-kenobisan/ 301
+/aba-radebe/ /about/qwaname-kenobisan/ 301
+/aba-radebe /about/qwaname-kenobisan/ 301
+/aba-radebe.html /about/qwaname-kenobisan/ 301
+/about/aba-radede/ /about/qwaname-kenobisan/ 301
+/about/aba-radede /about/qwaname-kenobisan/ 301
+/about/aba-radede.html /about/qwaname-kenobisan/ 301
+/aba-radede/ /about/qwaname-kenobisan/ 301
+/aba-radede /about/qwaname-kenobisan/ 301
+/aba-radede.html /about/qwaname-kenobisan/ 301

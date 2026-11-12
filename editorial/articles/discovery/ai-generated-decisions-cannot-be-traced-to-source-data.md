@@ -1,0 +1,104 @@
+---
+hub: discovery
+record_id: DISC-470
+slug: ai-generated-decisions-cannot-be-traced-to-source-data
+title: AI-generated decisions cannot be traced to source data
+description: When AI tools keep the answer but not the evidence, challenged decisions cannot be explained. How to design decision records that link AI outputs to source data, rules and approvers.
+lead: When AI tools keep the answer but not the evidence, challenged decisions cannot be explained. How to design decision records that link AI outputs to source data, rules and approvers.
+category: AI, Automation & Agent Operations
+published_date: 2026-10-03
+updated_date: 2026-10-03
+eyebrow: AI, Automation & Agent Operations
+problem_domain: AI, Automation & Agent Operations
+problem_owner: Decision owner (credit, finance or service manager) with the AI tool administrator
+budget_owner: CFO/COO
+sources:
+  - PROV-Overview | https://www.w3.org/TR/prov-overview/
+  - Section 71 Automated decision making - POPIA | https://popia.co.za/section-71-automated-decision-making/
+  - Article 12: Record-Keeping - EU Artificial Intelligence Act | https://artificialintelligenceact.eu/article/12/
+related:
+  - Why AI Tools Fail Without Authoritative Data | /discovery/why-ai-tools-fail-without-authoritative-data/
+  - Why AI Agents Can Answer Questions but Cannot Complete Work Across Business Systems | /discovery/why-ai-agents-cannot-complete-work-across-business-systems/
+  - Prompt and configuration changes made without version control | /discovery/prompt-and-configuration-changes-made-without-version-control/
+summary: When AI tools keep the answer but not the evidence, challenged decisions cannot be explained. How to design decision records that link AI outputs to source data, rules and approvers.
+layout: plain
+---
+An AI tool recommends declining a credit application, flags a supplier invoice as a likely duplicate, or ranks which overdue accounts to chase first. A week later someone asks why. Which customer record did it read? Which version of the price list? Was the bank statement it relied on the final one or a draft? In many businesses nobody can answer, because the AI's output was kept but the evidence behind it was not.
+
+## The problem in plain language
+
+A decision is traceable when you can follow it back to the data and rules that produced it. Conventional systems do this reasonably well: an invoice links to an order, an order links to a customer, a journal links to its source document. AI-assisted decisions often break that chain. The tool pulls information from several places, combines it, and produces a recommendation or action. What is stored afterwards is usually just the result, perhaps with a short explanation the model generated itself.
+
+The symptoms show up when a decision is challenged: a customer disputes a declined application, an auditor queries an AI-suggested adjustment, or a manager wants to know why the assistant gave two customers different answers. Staff then try to reconstruct the inputs from memory and system logs, and frequently cannot.
+
+## What the buyer is actually trying to solve
+
+The person searching is usually a finance director, compliance or risk lead, or the operations manager responsible for an AI-assisted process. Their searches sound like "AI audit trail", "explain AI decision to customer", "AI decision logging", "data lineage for AI" or "how to show what data the AI used".
+
+They want to be able to answer three questions for any material AI-assisted decision: what information was used, where it came from and in what state, and who or what acted on the result.
+
+## Evidence and system mechanism
+
+The concept of provenance is well established. The W3C PROV family of specifications defines provenance as information about the entities, activities and people involved in producing a piece of data or thing, which can be used to assess its quality, reliability or trustworthiness ([W3C PROV Overview](https://www.w3.org/TR/prov-overview/)). An AI-assisted decision is exactly such a thing, and it needs the same record.
+
+Regulation points in the same direction. Section 71 of South Africa's Protection of Personal Information Act restricts decisions with legal consequences or substantial effect that are based solely on automated processing intended to profile a person, such as their creditworthiness or reliability. Where an exception applies, the responsible party must give the person an opportunity to make representations and provide sufficient information about the underlying logic of the automated processing ([POPIA, Section 71](https://popia.co.za/section-71-automated-decision-making/)). Explaining the logic of a specific decision is very hard if the inputs were never recorded.
+
+For businesses selling into Europe, Article 12 of the EU AI Act requires high-risk AI systems to allow automatic recording of events over the system's lifetime, at a level of traceability appropriate to the intended purpose ([EU AI Act, Article 12](https://artificialintelligenceact.eu/article/12/)). Most South African small and mid-sized businesses will not run high-risk systems in that sense, but the standard shows what regulators now consider normal.
+
+The mechanism behind the gap is technical and simple. AI tools typically fetch data at the moment of the request, from live systems that keep changing. Unless the tool records which records and versions it used, the inputs disappear as soon as the underlying data is updated. A generated explanation is not a substitute: it is another model output, not a record of what was actually read.
+
+## Problem owner and why now
+
+The problem owner is the manager accountable for the decision, such as the credit manager, finance manager or service lead, supported by whoever administers the AI tool and the data it reads. Budget usually sits with the CFO or COO, because the cost of untraceable decisions lands in disputes, audit effort and regulatory exposure.
+
+The trigger is rapid tool adoption. AI features that recommend or act are being switched on inside accounting, CRM and collections tools, often without changes to what gets logged. The issue surfaces with the first customer challenge, an external audit, an Information Regulator enquiry, or a decision that later turns out to be wrong.
+
+## Economic consequence
+
+- **Investigation effort:** each challenged decision takes hours of reconstruction across systems and people.
+- **Dispute outcomes:** if a business cannot show why it decided something, it is in a weak position with customers, suppliers and auditors.
+- **Regulatory exposure:** obligations to explain automated decisions about people are hard to meet without input records.
+- **Inability to fix errors:** when a bad decision cannot be traced to bad data, the same data keeps producing bad decisions.
+- **Lost confidence:** staff stop trusting the tool and recheck everything, removing its benefit.
+
+The same pattern affects ordinary reporting; see [the audit cost of untraceable reporting numbers](/impact/untraceable-reporting-number-audit-cost/).
+
+## Root cause
+
+- **Output-only logging:** the tool stores the answer, not the inputs, rules and versions behind it.
+- **Unclear systems of record:** the AI reads from copies, exports or spreadsheets, so even a recorded input may not point to the authoritative source.
+- **Vendor defaults:** logging is configured for troubleshooting, with short retention, rather than for decision evidence.
+- **Decision not designed as a record:** nobody decided that an AI-assisted decision is a business record that must be kept like an invoice or approval.
+
+## Practical intervention
+
+1. **Identify the decisions that matter.** Focus on those affecting money, customers, employees or compliance. Not every AI draft needs full lineage.
+2. **Define a decision record.** For each, capture the request, the identifiers and versions of source records used, the rule or policy version applied, the model or tool version, the output, and the person or system that accepted or acted on it.
+3. **Read from authoritative sources.** Point AI tools at systems of record rather than copies; see [how to decide what should be the system of record](/insights/how-to-decide-what-should-be-the-system-of-record/).
+4. **Store the record with the business transaction.** Attach it to the customer, invoice or case it concerns, not only to the AI tool's own logs. This complements keeping [agent conversations connected to durable business records](/discovery/agent-conversations-not-connected-to-durable-business-records/).
+5. **Set retention to match the decision.** Keep decision records as long as the related business records, within POPIA's retention limits.
+6. **Test traceability.** Pick a past decision each quarter and see whether someone unfamiliar with it can reconstruct why it was made.
+
+### An illustrative example
+
+*Illustrative:* a Pretoria building-supplies wholesaler uses an AI feature to recommend credit limits for new trade accounts. A contractor disputes a low limit. The tool shows the recommendation but not which bureau report or trading history it used. The business changes the process so each recommendation is saved on the account with the report reference, the payment-history period read, the policy version and the approving credit controller.
+
+## Diagnostic questions
+
+- For a decision your AI tools made last month, could you list the exact records it used?
+- Do AI tools read from systems of record or from exports and copies?
+- Is the policy or rule version applied to each decision recorded?
+- Where AI affects people, could you explain the logic of a specific decision to them?
+- How long are AI tool logs kept, and who controls them?
+
+## What good looks like
+
+Material AI-assisted decisions are stored as business records, linked to the transaction they affect, with references to the source data, rule version, tool version and human approver. Anyone authorised can follow a decision back to its evidence in minutes. Data errors found this way are corrected at source, and explanations to customers or regulators rest on records rather than recollection.
+
+## Where Mellorca fits
+
+Mellorca helps businesses design decision records, connect AI tools to authoritative systems and make sure the evidence lands where auditors and managers can find it. That work is part of [digital systems architecture and roadmap](/services/digital-systems-architecture-roadmap/) planning and is implemented through [business automation and AI workflows](/services/business-automation-ai-workflows/).
+
+## Method note
+
+POPIA section 71 applies to decisions about people based solely on automated profiling; not every AI-assisted business decision falls within it. EU AI Act obligations apply to high-risk systems and to businesses within its scope. This article is not legal advice. The example is illustrative and no statistics are quoted.

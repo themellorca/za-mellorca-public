@@ -1,0 +1,85 @@
+name: Visual and Lighthouse comparison
+
+# Reproducible before/after evidence for design changes (T-0006 and later):
+# screenshots at 375, 768 and 1280px plus Lighthouse (mobile and desktop,
+# three runs each, median reported) for two site origins. Read-only: it only
+# fetches public pages and uploads the results as a workflow artifact.
+on:
+  workflow_dispatch:
+    inputs:
+      before:
+        description: Origin of the "before" site, e.g. https://example.pages.dev
+        required: true
+      after:
+        description: Origin of the "after" site, e.g. https://mellorca.com
+        required: true
+      paths:
+        description: Space-separated paths to compare
+        default: "/ /insights/apis-webhooks-and-integrations-what-business-leaders-actually-need-to-know/ /discovery/"
+
+permissions:
+  contents: read
+
+jobs:
+  compare:
+    if: vars.ESTATE_ACTIONS_MODE != 'lean'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Lighthouse
+        run: npm install -g lighthouse@13
+      - name: Screenshots and Lighthouse
+        env:
+          BEFORE: ${{ inputs.before }}
+          AFTER: ${{ inputs.after }}
+          PATHS: ${{ inputs.paths }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          CHROME="$(command -v google-chrome || command -v chromium)"
+          mkdir -p out/shots out/lighthouse
+          i=0
+          for path in $PATHS; do
+            i=$((i+1))
+            for side in before after; do
+              origin=$([ "$side" = before ] && echo "$BEFORE" || echo "$AFTER")
+              for w in 375 768 1280; do
+                "$CHROME" --headless=new --no-sandbox --disable-gpu --hide-scrollbars \
+                  --screenshot="out/shots/page$i-$side-$w.png" --window-size="$w,2400" "$origin$path" >/dev/null 2>&1 || true
+              done
+              for preset in mobile desktop; do
+                for run in 1 2 3; do
+                  extra=""; [ "$preset" = desktop ] && extra="--preset=desktop"
+                  CHROME_PATH="$CHROME" lighthouse "$origin$path" --quiet --chrome-flags="--headless=new --no-sandbox" \
+                    --only-categories=performance,accessibility,best-practices,seo $extra \
+                    --output=json --output-path="out/lighthouse/page$i-$side-$preset-$run.json" || true
+                done
+              done
+            done
+          done
+          python3 - "$PATHS" >> "$GITHUB_STEP_SUMMARY" <<'PY'
+          import glob, json, statistics, sys
+          paths = sys.argv[1].split()
+          print("| Page | Preset | Category | Before (median) | After (median) |\n|---|---|---|---|---|")
+          for i, path in enumerate(paths, 1):
+              for preset in ("mobile", "desktop"):
+                  for cat in ("performance", "accessibility", "best-practices", "seo"):
+                      cells = []
+                      for side in ("before", "after"):
+                          scores = []
+                          for f in glob.glob(f"out/lighthouse/page{i}-{side}-{preset}-*.json"):
+                              try:
+                                  scores.append(json.load(open(f))["categories"][cat]["score"] * 100)
+                              except Exception:
+                                  pass
+                          cells.append(f"{statistics.median(scores):.0f} ({', '.join(f'{s:.0f}' for s in scores)})" if scores else "n/a")
+                      print(f"| `{path}` | {preset} | {cat} | {cells[0]} | {cells[1]} |")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: visual-compare
+          path: out/
+          retention-days: 90

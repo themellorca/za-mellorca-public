@@ -1,0 +1,74 @@
+name: Link audit
+
+# IMPROVEMENTS #15 and #257: once a month, check every external source cited by a published
+# article, keep one open issue listing the ones that no longer resolve, and open a PR that
+# refreshes each source's "last verified" date shown on the page (merged by the site bot
+# once its checks pass).
+on:
+  schedule:
+    # 1st of the month, 05:17 UTC (07:17 SAST).
+    - cron: '17 5 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: link-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    if: vars.ESTATE_ACTIONS_MODE != 'lean'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r content-architecture/requirements.txt
+      - name: Audit cited sources
+        run: python3 tools/estate/link_audit.py --output "$RUNNER_TEMP/link-audit.md" --json "$RUNNER_TEMP/link-audit.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: link-audit
+          path: |
+            ${{ runner.temp }}/link-audit.md
+            ${{ runner.temp }}/link-audit.json
+      - name: Keep one issue with the dead links
+        run: |
+          set -euo pipefail
+          title="Link audit: cited sources that no longer resolve"
+          dead=$(grep -c '^| https' "$RUNNER_TEMP/link-audit.md" || true)
+          existing=$(gh issue list --state open --search "\"$title\" in:title" --json number -q '.[0].number // empty')
+          if [ "$dead" = "0" ]; then
+            [ -n "$existing" ] && gh issue close "$existing" --comment "The latest audit found every cited source still resolves."
+            exit 0
+          fi
+          body=$(head -c 60000 "$RUNNER_TEMP/link-audit.md")
+          if [ -n "$existing" ]; then
+            gh issue edit "$existing" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body"
+          fi
+      - name: Open a PR refreshing the last-verified dates
+        run: |
+          set -euo pipefail
+          git config user.name "Mellorca site bot"
+          git config user.email "mellorca-site-bot@users.noreply.github.com"
+          git diff --quiet editorial/source-verification.json && exit 0
+          npm run articles:render > /dev/null
+          branch="link-audit/$(date -u +%Y-%m)"
+          git checkout -b "$branch"
+          git add editorial/source-verification.json editorial/articles website
+          git commit -m "Link audit: refresh last-verified dates for cited sources"
+          git push origin "$branch"
+          gh pr create --title "Link audit: refresh last-verified dates" --body "Monthly refresh of the dates shown beside each cited source (IMPROVEMENTS #15, #257). Only sources that resolved this month get a new date."

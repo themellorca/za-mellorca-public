@@ -1,0 +1,20 @@
+{
+  "name": "mellorca-site-build",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node tools/build-site.mjs",
+    "validate:site-build": "node tools/validate-site-build.mjs",
+    "verify": "npm run articles:check && npm run build && npm run validate:site-build && npm run test:site",
+    "test:site": "node --test tools/site-*.test.mjs",
+    "articles:render": "node tools/render-articles.mjs",
+    "articles:check": "node tools/render-articles.mjs --check",
+    "check:all": "bash tools/check-all.sh",
+    "check:quick": "bash tools/check-all.sh --quick",
+    "check:integrity": "node tools/site-integrity.mjs"
+  }
+}

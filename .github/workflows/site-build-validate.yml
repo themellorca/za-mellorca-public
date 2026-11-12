@@ -1,0 +1,65 @@
+name: Site build validation
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'website/**'
+      - 'functions/api/contact.js'
+      - 'tools/build-site.mjs'
+      - 'tools/validate-site-build.mjs'
+      - 'tools/site-*.mjs'
+      - 'tools/article-source.mjs'
+      - 'tools/render-articles.mjs'
+      - 'editorial/articles/**'
+      - 'package.json'
+      - '.github/workflows/site-build-validate.yml'
+  push:
+    branches:
+      - goal-04-mellorca-site-design-system
+    paths:
+      - 'website/**'
+      - 'functions/api/contact.js'
+      - 'tools/build-site.mjs'
+      - 'tools/validate-site-build.mjs'
+      - 'tools/site-*.mjs'
+      - 'tools/article-source.mjs'
+      - 'tools/render-articles.mjs'
+      - 'editorial/articles/**'
+      - 'package.json'
+      - '.github/workflows/site-build-validate.yml'
+
+permissions:
+  contents: read
+
+# Cancel a superseded run of the same PR (saves Actions minutes); pushes and dispatches never share a group.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    defaults:
+      run:
+        working-directory: Mellorca Build Space Test
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          path: Mellorca Build Space Test
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Build and validate static site
+        run: npm run verify
+      - name: Upload generated site for review
+        if: ${{ always() && !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: mellorca-site-${{ github.run_id }}-${{ github.run_attempt }}
+          path: Mellorca Build Space Test/dist/
+          retention-days: 7
+          if-no-files-found: error

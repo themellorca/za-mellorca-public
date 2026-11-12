@@ -1,0 +1,104 @@
+---
+hub: impact
+record_id: CPS-172
+slug: not-knowing-hourly-cost-of-downtime
+title: Not Knowing Your Hourly Cost of Downtime
+description: Why resilience investment is difficult to prioritise when the business has not estimated which operations are critical and what interruption actually costs.
+lead: A recovery target is difficult to defend when nobody has estimated what stops, how quickly consequences accumulate and which services must return first.
+category: Business Continuity
+published_date: 2026-09-05
+updated_date: 2026-09-05
+tags:
+  - Downtime
+  - BIA
+  - Resilience
+cta_label: Architecture & Roadmap
+cta_href: /services/digital-systems-architecture-roadmap/
+side_title: Cost mechanisms
+sources:
+  - Using Business Impact Analysis to Inform Risk Prioritization and Response | https://www.nist.gov/publications/using-business-impact-analysis-inform-risk-prioritization-and-response-0
+  - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+related:
+  - Backups Nobody Has Tested: The Cost When Recovery Fails | /impact/backups-never-tested-restore-financial-cost/
+  - Backups in the Same Place as the Data: The Risk of Losing Both | /impact/backups-same-environment-losing-both-copies-risk/
+  - Two Departments, Same Work: The Payroll Cost of Duplicated Effort | /impact/departments-duplicating-same-work-payroll-cost/
+---
+## The tolerated pain
+
+Technology resilience is often discussed using generic labels such as critical, high priority or must always be available. Those labels are insufficient when investment decisions require a trade-off between recovery capability and cost.
+
+Most businesses know, in a general sense, that an outage is bad. Far fewer can say what one hour without the order system costs compared with one hour without email, or at what point a delay turns into a contractual penalty. Without that baseline, resilience conversations fall back on instinct, supplier recommendations or whoever argues most persuasively.
+
+## Why businesses tolerate it
+
+Downtime costing feels difficult because it crosses departments. Finance holds the revenue and payroll figures, operations knows which processes stop, IT knows which systems they depend on, and sales knows which customers will be affected. No single person owns the full picture, so the exercise is postponed until an incident forces it.
+
+There is also a reasonable suspicion of dramatic headline numbers. Generic industry figures for the cost of downtime are rarely relevant to a specific business, and leaders are right to distrust them. The answer is not to avoid the calculation but to do it with the business's own data.
+
+## Operational consequence
+
+Without a business impact view, every system can appear equally important. Recovery sequencing becomes political, resilience spending is difficult to justify and teams may invest heavily in low-impact services while leaving true operational bottlenecks exposed.
+
+The practical symptoms include:
+
+- recovery objectives that were set by a supplier template rather than by the business;
+- no agreed order in which systems should be restored after a wider failure;
+- resilience proposals that are approved or rejected on cost alone, because the benefit side is blank;
+- single points of failure that nobody has priced, such as one internet link. See [the downtime risk of a single internet connection](/impact/single-internet-connection-business-downtime-risk/);
+- backups that exist but whose restore time has never been measured against what the business can tolerate.
+
+## Financial consequence
+
+Estimate interruption by business function rather than applying a universal industry number.
+
+> downtime exposure = lost contribution + idle payroll + recovery cost + contractual or service impact + time-sensitive downstream effects
+
+Not every component rises linearly by the hour. Some consequences appear only after thresholds. Model those thresholds explicitly.
+
+### An illustrative cost model
+
+Every value below is an **illustrative assumption** for a hypothetical distributor whose order-processing platform fails during trading hours. It is not a benchmark.
+
+- **Lost contribution:** the platform supports R480,000 of gross contribution over a 10-hour trading day, or R48,000 an hour. Assume 60% of orders are deferred and recovered later and 40% are lost, so lost contribution is 40% × R48,000 = R19,200 an hour.
+- **Idle payroll:** 25 staff cannot work productively × R250 an hour fully loaded = R6,250 an hour.
+- **Recovery cost:** a fixed R40,000 per incident for overtime and supplier call-out.
+- **Contractual threshold:** a service-level penalty of R75,000 is triggered once an outage reaches four hours.
+- **Downstream threshold:** after a full trading day, expedited freight to meet customer commitments costs R60,000.
+
+The hourly running cost is R19,200 + R6,250 = R25,450.
+
+| Interruption | Calculation | Illustrative exposure |
+| --- | --- | --- |
+| 1 hour | R25,450 × 1 + R40,000 recovery | R65,450 |
+| 4 hours | R25,450 × 4 + R40,000 + R75,000 penalty | R216,800 |
+| 1 trading day (10 hours) | R25,450 × 10 + R40,000 + R75,000 + R60,000 freight | R429,500 |
+
+Two things stand out. First, the cost is not a straight line: moving from one hour to four hours more than triples the exposure because the penalty threshold is crossed. Second, the 60% recovery assumption is generous for a long outage, since customers are more likely to go elsewhere as delay grows. A more careful model would reduce it for longer interruptions.
+
+The model then supports a real decision. Suppose a standby option costing R150,000 a year would reduce a typical outage from four hours to one hour. The saving per incident is R216,800 − R65,450 = R151,350. If the business expects about one such outage a year, the option roughly breaks even. If it expects two or three, the case is strong. If it expects one every few years, it may not be justified. The number does not make the decision; it makes the decision proportional.
+
+The same method also works in the other direction. A process whose one-day exposure is modest may be over-protected by an expensive high-availability design, and the saving from simplifying it can fund recovery capability where the thresholds are steeper.
+
+## Urgency
+
+> **Commercial trigger**
+> If leaders cannot explain what one hour, four hours and one day of interruption mean for a critical process, resilience investment is being prioritised without a business baseline.
+
+This becomes urgent when a resilience or disaster recovery proposal is on the table, when a customer contract introduces service-level penalties, when an insurer asks for recovery objectives, or when a recent incident revealed that the business did not know which system to restore first.
+
+## Resolution
+
+NIST's report [Using Business Impact Analysis to Inform Risk Prioritization and Response](https://www.nist.gov/publications/using-business-impact-analysis-inform-risk-prioritization-and-response-0) (NISTIR 8286D) frames BIA around the functions that are critical to the enterprise mission and the assets that enable them, and uses the results to prioritise risk response. That is the right starting point for deciding which technology interruptions deserve the strongest recovery capability. NIST's [Contingency Planning Guide (SP 800-34 Rev. 1)](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final) places business impact analysis within contingency planning and provides a supplemental BIA template that smaller organisations can adapt.
+
+1. Identify essential business functions.
+2. Map the systems, data, people and suppliers they depend on.
+3. Estimate impact over realistic interruption windows.
+4. Define tolerable recovery objectives from the business impact.
+5. Prioritise recovery architecture accordingly.
+6. Test assumptions during exercises and real incidents.
+
+A first pass need not be elaborate. For each critical process, a half-day workshop with finance, operations and IT can agree the hourly running cost, the thresholds and the recovery order. Those figures can then inform the recovery design in a [Digital Systems Architecture & Roadmap](/services/digital-systems-architecture-roadmap/).
+
+## Bottom line
+
+The purpose of downtime costing is not to manufacture a dramatic number. It is to make resilience decisions proportional to actual business consequence. A business that knows its one-hour, four-hour and one-day exposure for each critical process can spend on recovery where it matters, stop over-protecting what does not, and defend both choices with its own numbers.
