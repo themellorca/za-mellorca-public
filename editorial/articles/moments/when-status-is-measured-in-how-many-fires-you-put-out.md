@@ -15,9 +15,13 @@ human_dividend: Predictability and dignity: calmer weeks, recognition for preven
 trade_off: Prevention shows results slowly; some emergencies are genuine; a shift in recognition can feel like criticism; logging incidents costs effort and must be acted on.
 epistemic_state: HYPOTHESISED: reasoned from occupational research on job demands and control, not from a survey of South African workplaces; the worked example is illustrative.
 sources:
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
-  - https://en.wikipedia.org/wiki/Job_demands-resources_model | https://en.wikipedia.org/wiki/Job_demands-resources_model
-  - https://www.hse.gov.uk/stress/standards/control.htm | https://www.hse.gov.uk/stress/standards/control.htm
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Job demands-resources model - Wikipedia | https://en.wikipedia.org/wiki/Job_demands-resources_model
+  - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
+related:
+  - Why Re-Keying Data Is Not a Career | /moments/why-re-keying-data-is-not-a-career-and-what-replaces-it/
+  - The Junior Employee Whose Day Is All Admin | /moments/the-junior-employee-whose-days-are-all-admin/
+  - Why Being Blamed for System Errors Wears People Down | /moments/why-being-blamed-for-system-errors-wears-people-down/
 summary: In some workplaces the person who rescues the day earns the praise, and the person who prevents the crisis earns none. Why that happens and how to change it.
 layout: plain
 ---

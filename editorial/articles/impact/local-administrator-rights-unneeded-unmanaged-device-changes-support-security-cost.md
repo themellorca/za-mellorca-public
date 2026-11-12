@@ -13,9 +13,13 @@ commercial_domain: Technology Operations
 primary_pain: Employees hold local administrator rights they do not need, so devices change without approval or record
 primary_cost_mechanism: Slower support from undocumented changes, duplicate or unlicensed software, silently disabled security controls, and breach and compliance exposure
 sources:
-  - https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-least-privilege-administrative-models | https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-least-privilege-administrative-models
-  - https://csrc.nist.gov/glossary/term/least_privilege | https://csrc.nist.gov/glossary/term/least_privilege
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Implementing Least-Privilege Administrative Models | https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-least-privilege-administrative-models
+  - least privilege - Glossary - CSRC | https://csrc.nist.gov/glossary/term/least_privilege
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - Staff Using Personal Laptops for Work: The Security and Support Cost of Inadequate Devices | /impact/staff-personal-computers-for-company-work-inadequate-business-devices-security-support-cost/
+  - Laptops That Leave With Employees: The Cost of No Return Process | /impact/devices-issued-without-return-process-equipment-lost-when-employees-leave-cost/
+  - Which Devices Can Reach Your Data? The Risk of Unmanaged Endpoints | /impact/not-knowing-which-devices-access-company-information-unmanaged-endpoint-risk-cost/
 summary: When staff hold local administrator rights they do not need, laptops drift apart, controls switch off quietly, and support time and breach exposure rise.
 layout: plain
 ---

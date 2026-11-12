@@ -10,9 +10,13 @@ published_date: 2026-11-12
 updated_date: 2026-11-12
 eyebrow: Systems and Data
 sources:
-  - https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html | https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html
-  - https://www.inforegulator.org.za/popia/ | https://www.inforegulator.org.za/popia/
-  - https://learn.microsoft.com/en-us/dynamics365/sales/overview | https://learn.microsoft.com/en-us/dynamics365/sales/overview
+  - Understanding Success Criterion 3.3.7: Redundant Entry - WAI - W3C | https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html
+  - Who makes an application to process Special Personal Information? | https://www.inforegulator.org.za/popia/
+  - Welcome to Dynamics 365 Sales | https://learn.microsoft.com/en-us/dynamics365/sales/overview
+related:
+  - How CRM Ownership Should Work | /insights/how-crm-ownership-should-work-roles-decisions-and-permissions/
+  - How Duplicate Customer Records Are Created | /insights/how-duplicate-customer-records-are-created/
+  - How Manual Data Entry Creates Downstream Problems | /insights/how-one-typing-error-becomes-a-disputed-invoice-and-a-wrong-report/
 summary: Typing the same customer details into four systems creates errors, not just extra work. Here is how to capture each fact once and let every system use it.
 layout: plain
 ---

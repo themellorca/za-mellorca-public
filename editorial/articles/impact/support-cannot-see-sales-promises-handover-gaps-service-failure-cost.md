@@ -13,9 +13,13 @@ commercial_domain: Customer service and sales operations
 primary_pain: Support teams cannot see what sales promised the customer, so handovers fail and the customer experiences the gap as a service failure.
 primary_cost_mechanism: Rework, goodwill credits, escalation time, delayed onboarding and lost renewals caused by commitments that support only discovers when the customer complains.
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/ | https://learn.microsoft.com/en-us/dynamics365/sales/
+  - Dynamics 365 Sales documentation | https://learn.microsoft.com/en-us/dynamics365/sales/
   - https://help.salesforce.com/s/articleView?id=sales.sales_core_opportunity_notes.htm | https://help.salesforce.com/s/articleView?id=sales.sales_core_opportunity_notes.htm
-  - https://www.gov.za/documents/consumer-protection-act | https://www.gov.za/documents/consumer-protection-act
+  - Consumer Protection Act 68 of 2008 - South African Government | https://www.gov.za/documents/consumer-protection-act
+related:
+  - "Just Checking on My Order": The Labour Cost of Manual Progress Updates | /impact/manual-customer-progress-updates-status-message-labour-cost/
+  - Phone Calls Recorded on Notepads: The Cost of Incomplete Customer Records | /impact/phone-call-notes-not-recorded-in-shared-system-cost/
+  - Leads Nobody Has Touched: The Revenue Cost of Invisible Follow-Up Failure | /impact/untouched-leads-invisible-follow-up-failure-revenue-cost/
 summary: When support cannot see what sales agreed with a customer, every promise becomes a surprise, and the cost lands in rework, credits, escalations and lost renewals.
 layout: plain
 ---

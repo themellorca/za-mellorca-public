@@ -15,9 +15,13 @@ human_dividend: Predictability: the same quality of service on any day, colleagu
 trade_off: Writing things down takes time; translation can distort meaning; some relationships rest on trust in a person; shared records need privacy limits.
 epistemic_state: HYPOTHESISED: reasoned from general accessibility and handover guidance, not measured in any South African business; the worked example is illustrative.
 sources:
-  - https://www.gov.za/documents/constitution/chapter-1-founding-provisions | https://www.gov.za/documents/constitution/chapter-1-founding-provisions
-  - https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html | https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html
-  - https://www.hse.gov.uk/humanfactors/topics/shift-handover.htm | https://www.hse.gov.uk/humanfactors/topics/shift-handover.htm
+  - Constitution of the Republic of South Africa, 1996 - Chapter 1: Founding Provisions - South African Government | https://www.gov.za/documents/constitution/chapter-1-founding-provisions
+  - Understanding Success Criterion 3.1.1: Language of Page - WAI - W3C | https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html
+  - Shift handover - HSE | https://www.hse.gov.uk/humanfactors/topics/shift-handover.htm
+related:
+  - Why Language Barriers Show Up in Software Choices | /moments/why-language-barriers-show-up-in-the-software-a-business-chooses/
+  - The Small Business Priced Out of Its Own Tools | /moments/the-small-business-priced-out-of-the-tools-built-to-help-it/
+  - When Rural Connectivity Decides Who Can Work Remotely | /moments/when-a-weak-signal-decides-who-gets-flexible-work/
 summary: Notes, relationships and instructions held in a single language leave colleagues stranded when that person is away. How to share what matters without flattening languages.
 layout: plain
 ---

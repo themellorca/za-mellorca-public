@@ -14,9 +14,13 @@ observable_condition: When an employee changes name, bank account, address, depa
 primary_identification: No single source of truth for employee data: each system holds its own copy, and changes are passed between them by hand, so delay and mismatch are built in.
 commercial_value_dimensions: Administrator time, payroll accuracy, access security, staff experience and compliance with data accuracy duties
 sources:
-  - https://learn.microsoft.com/en-us/entra/identity/app-provisioning/what-is-hr-driven-provisioning | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/what-is-hr-driven-provisioning
-  - https://learn.microsoft.com/en-us/entra/identity/app-provisioning/how-provisioning-works | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/how-provisioning-works
-  - https://learn.microsoft.com/en-us/entra/identity/app-provisioning/user-provisioning | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/user-provisioning
+  - What is HR-driven provisioning with Microsoft Entra ID? - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/what-is-hr-driven-provisioning
+  - Understand how Application Provisioning in Microsoft Entra ID - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/how-provisioning-works
+  - What is automated app user provisioning in Microsoft Entra ID - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/user-provisioning
+related:
+  - Why Important Information Is Trapped in PDFs and Attachments | /patterns/why-important-information-stays-trapped-in-pdfs-and-email-attachments/
+  - The Cost of Waiting for Timesheets, Approvals or Delivery Data | /patterns/what-it-costs-when-invoicing-waits-for-timesheets-approvals-and-delivery-proof/
+  - The Cost of Manual Consolidation Across Workbooks | /patterns/the-hidden-cost-of-combining-figures-from-many-workbooks-by-hand/
 summary: When an employee changes their bank, address or job title, someone retypes it into payroll, HR, email and more. Here is what that costs and how to make one change flow through.
 layout: plain
 ---

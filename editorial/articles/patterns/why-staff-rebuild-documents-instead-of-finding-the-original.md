@@ -14,9 +14,13 @@ observable_condition: A staff member cannot find a document the business already
 primary_identification: Unfindable originals: files are named, placed and described by the author, so nobody else can locate finished work and rebuilding becomes the rational choice.
 commercial_value_dimensions: Staff time, consistency of client documents, tender and quote response speed, and retained know-how
 sources:
-  - https://learn.microsoft.com/en-us/sharepoint/dev/general-development/search-in-sharepoint | https://learn.microsoft.com/en-us/sharepoint/dev/general-development/search-in-sharepoint
-  - https://support.google.com/drive/answer/2375091 | https://support.google.com/drive/answer/2375091
-  - https://learn.microsoft.com/en-us/purview/retention | https://learn.microsoft.com/en-us/purview/retention
+  - Search in SharePoint | https://learn.microsoft.com/en-us/sharepoint/dev/general-development/search-in-sharepoint
+  - Organize your files in Google Drive - Computer - Google Drive Help | https://support.google.com/drive/answer/2375091
+  - Learn about retention policies & labels to retain or delete | https://learn.microsoft.com/en-us/purview/retention
+related:
+  - When Files Are Organized by People Instead of Processes | /patterns/why-folders-named-after-people-hide-the-work-they-hold/
+  - When One Employee Becomes the Company’s Search Engine | /patterns/when-one-person-is-the-only-way-to-find-anything-in-the-business/
+  - When Leadership Cannot See Bottlenecks Until Customers Complain | /patterns/why-bottlenecks-surface-as-customer-complaints-first/
 summary: When the original cannot be found, rebuilding it feels faster than searching. Here is why that choice is rational, what it costs, and how to make finished work findable.
 layout: plain
 ---

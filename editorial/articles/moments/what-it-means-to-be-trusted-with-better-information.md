@@ -15,10 +15,14 @@ human_dividend: Autonomy: being able to see how the work is going and to choose 
 trade_off: Visibility can feel exposing; wrong numbers shared widely damage trust; privacy limits remain; some people prefer not to see more figures.
 epistemic_state: HYPOTHESISED: reasoned from general research on job control and support, not from a survey of South African employers; the dispatch example is hypothetical.
 sources:
-  - https://www.hse.gov.uk/stress/standards/control.htm | https://www.hse.gov.uk/stress/standards/control.htm
-  - https://www.hse.gov.uk/stress/standards/support.htm | https://www.hse.gov.uk/stress/standards/support.htm
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
+  - Management Standards - Support - HSE | https://www.hse.gov.uk/stress/standards/support.htm
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - When Fixing Other People's Data Becomes Your Job | /moments/when-fixing-other-peoples-data-quietly-becomes-your-job/
+  - When Overtime Is the Business Continuity Plan | /moments/when-overtime-is-the-business-continuity-plan/
+  - When Work Is Judged by Output the System Prevents | /moments/when-work-is-judged-by-output-the-system-prevents/
 summary: Reports that reach only the top leave everyone else guessing. What changes when the people doing the work see the figures too, and what has to be true first.
 layout: plain
 ---

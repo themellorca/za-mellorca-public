@@ -15,10 +15,14 @@ human_dividend: Predictability and dignity: knowing that when something goes wro
 trade_off: Recording contributing conditions takes more time than ticking a box; some errors really are lapses of care and should be named; blameless review needs a manager willing to hear about their own processes; small teams may lack the time to analyse every entry.
 epistemic_state: HYPOTHESISED: reasoned from general human-factors guidance, not from a survey of South African businesses; the worked example is illustrative.
 sources:
-  - https://www.hse.gov.uk/humanfactors/topics/humanfail.htm | https://www.hse.gov.uk/humanfactors/topics/humanfail.htm
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
-  - https://www.ncsc.gov.uk/collection/incident-management | https://www.ncsc.gov.uk/collection/incident-management
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
+  - Managing human failures: Overview - HSE | https://www.hse.gov.uk/humanfactors/topics/humanfail.htm
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Incident management | https://www.ncsc.gov.uk/collection/incident-management
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+related:
+  - Why Re-Keying Data Is Not a Career | /moments/why-re-keying-data-is-not-a-career-and-what-replaces-it/
+  - The Engineer Who Became the Integration | /moments/the-engineer-who-became-the-link-between-two-systems/
+  - The Receptionist Juggling Four Booking Systems | /moments/the-receptionist-who-keeps-four-booking-systems-in-sync/
 summary: When a form, screen or handover invites a mistake, the log still names the person who made it. Why that happens, what it costs, and how to record causes honestly.
 layout: plain
 ---

@@ -15,9 +15,13 @@ human_dividend: Optionality and dignity: visible evidence of what the person can
 trade_off: Not all routine can be removed; redesign costs time and money; visibility can raise expectations; a hidden talent may lie outside what the business needs.
 epistemic_state: HYPOTHESISED: reasoned from job design and occupational research, not from a survey of South African finance teams; the worked example is illustrative.
 sources:
-  - https://www.hse.gov.uk/stress/standards/control.htm | https://www.hse.gov.uk/stress/standards/control.htm
-  - https://en.wikipedia.org/wiki/Job_enrichment | https://en.wikipedia.org/wiki/Job_enrichment
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
+  - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
+  - Job enrichment - Wikipedia | https://en.wikipedia.org/wiki/Job_enrichment
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+related:
+  - The Bookkeeper Who Knows Every Workaround | /moments/the-bookkeeper-who-carries-every-workaround-in-their-head/
+  - Why Recognition Rarely Reaches the People Who Prevent Problems | /moments/why-recognition-rarely-reaches-the-people-who-prevent-problems/
+  - The Payroll Clerk Who Never Gets to Close the Month Cleanly | /moments/the-payroll-clerk-who-never-closes-the-month-cleanly/
 summary: When a capable person spends their week on routine capture and checking, the business never sees what else they can do. How to make room for it.
 layout: plain
 ---

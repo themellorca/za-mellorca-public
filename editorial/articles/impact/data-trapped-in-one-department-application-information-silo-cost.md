@@ -13,9 +13,13 @@ commercial_domain: Data and Information
 primary_pain: Important business data trapped inside one department's application and unavailable to the rest of the business
 primary_cost_mechanism: Staff time spent requesting, exporting and re-keying data, delayed and conflicting answers, decisions taken on partial information, duplicated data capture, and dependence on one team or one person to reach the data
 sources:
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query | https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query
-  - https://learn.microsoft.com/en-us/purview/data-governance-overview | https://learn.microsoft.com/en-us/purview/data-governance-overview
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - What Is Power Query? - Power Query | https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query
+  - Learn about data governance with Microsoft Purview | https://learn.microsoft.com/en-us/purview/data-governance-overview
+related:
+  - Collecting Data Nobody Uses: What Useless Information Costs | /impact/collecting-large-amounts-of-data-nobody-uses-storage-labour-cost/
+  - Guests on the Business Network: The Hidden Cost of Poor Separation | /impact/guest-devices-sharing-network-with-business-systems-poor-network-separation-financial-security-risk/
+  - Sales, Finance and Operations Each With Their Own Customer: The Cost | /impact/departments-separate-customer-records-financial-impact/
 summary: When one team's application holds information everyone else needs, the cost appears as re-keying, slow answers, conflicting figures and decisions made on partial facts.
 layout: plain
 ---

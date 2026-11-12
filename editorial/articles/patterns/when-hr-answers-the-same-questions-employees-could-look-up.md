@@ -14,9 +14,13 @@ observable_condition: The HR inbox and desk fill with routine questions about le
 primary_identification: HR as a human lookup service: information employees are entitled to exists in payroll records and policies, but there is no route for employees to reach it directly.
 commercial_value_dimensions: HR capacity, employee experience, response time, consistency of answers and cost of administration
 sources:
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+related:
+  - Why Leave Requests Still Travel Through Messages and Spreadsheets | /patterns/why-leave-requests-are-still-handled-through-chat-messages-and-spreadsheets/
+  - When Offboarding Leaves Digital Access Behind | /patterns/when-offboarding-leaves-digital-access-behind/
+  - When Customers Call for Records Your Systems Already Hold | /patterns/when-customers-call-for-records-your-systems-already-hold/
 summary: Leave balances, policy wording, payslip dates and letter requests all arrive in the HR inbox. Most of the answers already exist. Employees just cannot reach them.
 layout: plain
 ---

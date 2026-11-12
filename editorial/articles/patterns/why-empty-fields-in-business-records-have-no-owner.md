@@ -14,9 +14,13 @@ observable_condition: Invoices are rejected, deliveries fail or payments are ski
 primary_identification: Unassigned data responsibility: fields are defined without a named role to supply, check or maintain them, so completeness depends on memory and goodwill.
 commercial_value_dimensions: Cash flow, customer experience, staff chasing time and reporting accuracy
 sources:
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-fields | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-fields
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/types-of-fields | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/types-of-fields
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
+  - How to create and edit columns for Microsoft Dataverse - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-fields
+  - Column data types in Microsoft Dataverse - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/types-of-fields
+  - What is Microsoft Dataverse? - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
+related:
+  - Why Handoffs Create More Delay Than the Work Itself | /patterns/why-waiting-between-people-takes-longer-than-the-work/
+  - The Cost of Processes That Move Through Email | /patterns/the-cost-of-running-business-processes-through-email-threads/
+  - When Order Status Lives in Several Systems | /patterns/when-the-true-status-of-an-order-is-spread-across-several-systems/
 summary: A blank delivery contact or VAT number is rarely carelessness. It is a question nobody was asked to answer. Here is the cost and a way to give each field an owner.
 layout: plain
 ---

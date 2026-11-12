@@ -13,8 +13,12 @@ problem_domain: Integration & API Operations
 problem_owner: Head of integration or enterprise architecture lead
 budget_owner: CIO, with the CFO as co-sponsor
 sources:
-  - https://learn.microsoft.com/azure/api-center/overview | https://learn.microsoft.com/azure/api-center/overview
-  - https://backstage.io/docs/features/software-catalog/descriptor-format | https://backstage.io/docs/features/software-catalog/descriptor-format
+  - Azure API Center - Overview - Azure API Center | https://learn.microsoft.com/azure/api-center/overview
+  - Descriptor Format of Catalog Entities - Backstage Software Catalog and Developer Platform | https://backstage.io/docs/features/software-catalog/descriptor-format
+related:
+  - When teams consume events without knowing their delivery guarantees | /discovery/event-consumers-do-not-know-the-delivery-guarantees/
+  - The same customer data is integrated through several different interfaces | /discovery/why-one-customer-record-ends-up-flowing-through-many-different-connections/
+  - APIs change without downstream teams being warned | /discovery/apis-change-without-downstream-teams-being-warned/
 summary: Teams rebuild connections that already exist because no one can find them. A simple catalogue with named owners, checked at project start, stops the duplicates.
 layout: plain
 ---

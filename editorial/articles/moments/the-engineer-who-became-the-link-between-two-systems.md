@@ -15,9 +15,13 @@ human_dividend: Time and presence: early mornings, evenings and weekends no long
 trade_off: Automation costs money and upkeep; a documented manual step may be cheaper for rare transfers; some people value being indispensable; hand-made corrections may hold knowledge that must be captured first.
 epistemic_state: HYPOTHESISED: reasoned from general reliability and workplace wellbeing guidance, not from a survey of South African employers; the worked example is illustrative.
 sources:
-  - https://learn.microsoft.com/en-us/azure/architecture/patterns/retry | https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles | https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles
+  - Retry pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Reliability design principles - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles
+related:
+  - The Receptionist Juggling Four Booking Systems | /moments/the-receptionist-who-keeps-four-booking-systems-in-sync/
+  - Why Re-Keying Data Is Not a Career | /moments/why-re-keying-data-is-not-a-career-and-what-replaces-it/
+  - The Employee Who Dreads Being the Only One Who Knows | /moments/the-employee-who-dreads-being-the-only-one-who-knows/
 summary: When a skilled person is the only connection between two systems, the business gains a working bridge and loses a fragile one. What it costs them, and how to move the link into the business.
 layout: plain
 ---

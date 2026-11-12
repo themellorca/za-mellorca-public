@@ -14,9 +14,13 @@ observable_condition: Each new client is set up with its own forms, folders, inv
 primary_identification: Absent standard core: there is no defined baseline process for client administration, so every client is treated as a special case and the know-how stays with whoever did the last one.
 commercial_value_dimensions: Time to first billing, staff capacity, error rate, consistency of service and ability to take on more clients without more admin staff
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
-  - https://learn.microsoft.com/en-us/power-automate/get-started-approvals | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
-  - https://learn.microsoft.com/en-us/sharepoint/introduction | https://learn.microsoft.com/en-us/sharepoint/introduction
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - Introduction to SharePoint and OneDrive in Microsoft 365 for administrators - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/introduction
+related:
+  - How Disconnected Tools Quietly Limit Scale | /patterns/how-disconnected-tools-quietly-limit-scale/
+  - The Hidden Cost of Repeating HR Administration for Every New Hire | /patterns/the-hidden-cost-of-repeating-hr-administration-for-every-new-hire/
+  - When New Business Brings More Paperwork Than Profit | /patterns/when-new-business-brings-more-paperwork-than-profit/
 summary: If each new client is set up differently, growth multiplies admin instead of revenue. Here is how the habit forms, what it costs, and how to build a standard core with room for exceptions.
 layout: plain
 ---

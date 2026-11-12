@@ -13,8 +13,12 @@ problem_domain: Data, Reporting & Decision Systems
 problem_owner: Head of financial planning and analysis
 budget_owner: CFO
 sources:
-  - https://docs.getdbt.com/docs/build/sources | https://docs.getdbt.com/docs/build/sources
-  - https://learn.microsoft.com/en-gb/power-BI/connect-data/refresh-scheduled-refresh | https://learn.microsoft.com/en-gb/power-BI/connect-data/refresh-scheduled-refresh
+  - Add sources to your DAG - dbt Developer Hub | https://docs.getdbt.com/docs/build/sources
+  - Configure scheduled refresh - Power BI | https://learn.microsoft.com/en-gb/power-BI/connect-data/refresh-scheduled-refresh
+related:
+  - Why the data pipelines behind your dashboards need an operational owner | /discovery/data-pipelines-have-no-clear-operational-owner/
+  - How to find out which of your reports anyone actually uses | /discovery/teams-cannot-tell-which-reports-are-actually-used/
+  - Why dashboards refresh at different times without anyone knowing | /discovery/why-dashboards-refresh-at-different-times-without-anyone-knowing/
 summary: When nobody tracks the age of forecast inputs, a failed load looks like fresh data. Here is how to record as-of times, set freshness limits and flag old inputs.
 layout: plain
 ---

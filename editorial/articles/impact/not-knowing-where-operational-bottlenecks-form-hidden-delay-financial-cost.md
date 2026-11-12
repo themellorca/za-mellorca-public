@@ -13,9 +13,13 @@ commercial_domain: Operations management and process visibility
 primary_pain: Management does not know where work is stalling, so delays are attributed to effort or people and the real constraint is never addressed.
 primary_cost_mechanism: Idle labour, late delivery, overtime and misdirected improvement spending caused by problems that are invisible to the people who could fix them.
 sources:
-  - https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview | https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview
-  - https://learn.microsoft.com/en-us/power-automate/getting-started | https://learn.microsoft.com/en-us/power-automate/getting-started
-  - https://www.nist.gov/itl/smallbusinesscyber | https://www.nist.gov/itl/smallbusinesscyber
+  - What is Power BI? - Power BI | https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview
+  - Explore the Power Automate home page - Power Automate | https://learn.microsoft.com/en-us/power-automate/getting-started
+  - Small Business Cybersecurity Corner | https://www.nist.gov/itl/smallbusinesscyber
+related:
+  - When Nobody Knows Who Owns the Next Action, Work Stalls or Gets Done Twice | /impact/employees-unsure-who-owns-next-action-unclear-accountability-labour-cost/
+  - Customers Who Cannot See Where Their Request Stands Keep Phoning to Ask | /impact/customers-do-not-know-request-status-inbound-follow-up-and-lost-trust-cost/
+  - "I Thought You Were Doing It": The Labour Cost of Unclear Responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
 summary: When management cannot see where work queues up, delays are blamed on people, and the Rand cost sits in idle time, late deliveries and fixes aimed at the wrong step.
 layout: plain
 ---

@@ -15,9 +15,13 @@ human_dividend: Presence and predictability: leave that is actually restful, sic
 trade_off: Documentation takes scarce time; sharing can feel exposing; notes never capture all judgement; training a backup costs time from their own work.
 epistemic_state: HYPOTHESISED: reasoned from occupational research on job support and demands and from statutory leave provisions, not from a survey of South African employees; the worked example is illustrative.
 sources:
-  - https://www.hse.gov.uk/stress/standards/support.htm | https://www.hse.gov.uk/stress/standards/support.htm
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Management Standards - Support - HSE | https://www.hse.gov.uk/stress/standards/support.htm
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+related:
+  - The Bookkeeper Who Knows Every Workaround | /moments/the-bookkeeper-who-carries-every-workaround-in-their-head/
+  - The Engineer Who Became the Integration | /moments/the-engineer-who-became-the-link-between-two-systems/
+  - The Payroll Clerk Who Never Gets to Close the Month Cleanly | /moments/the-payroll-clerk-who-never-closes-the-month-cleanly/
 summary: Being the only person who understands a task feels like job security until you need a day off. What sole knowledge costs the person, and how to share it.
 layout: plain
 ---

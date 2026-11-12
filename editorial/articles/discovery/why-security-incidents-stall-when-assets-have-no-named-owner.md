@@ -13,9 +13,13 @@ problem_domain: Security & Compliance Operations
 problem_owner: Information security officer or IT manager responsible for security operations
 budget_owner: Managing director or financial director accountable for risk and insurance
 sources:
-  - https://www.nist.gov/cyberframework | https://www.nist.gov/cyberframework
-  - https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final | https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Cybersecurity Framework | https://www.nist.gov/cyberframework
+  - SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations - CSRC | https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - New applications go live before anyone owns their security | /discovery/new-applications-go-live-before-anyone-owns-their-security/
+  - Why Vulnerability Severity Needs Business Criticality | /discovery/why-vulnerability-severity-needs-business-criticality/
+  - Why Policy Acknowledgements Need a Reliable System Record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
 summary: When an alert fires, the first question is who owns the affected system. How to give critical assets named business and technical owners before the next incident or insurance renewal.
 layout: plain
 ---

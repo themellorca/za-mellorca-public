@@ -13,8 +13,12 @@ problem_domain: SaaS & Application Portfolio Management
 problem_owner: Head of IT or operations, with the data owner
 budget_owner: CFO or COO
 sources:
-  - https://learn.microsoft.com/power-apps/developer/data-platform/virtual-entities/get-started-ve | https://learn.microsoft.com/power-apps/developer/data-platform/virtual-entities/get-started-ve
-  - https://powerlaw.africa/2025/04/22/new-popia-regulations/ | https://powerlaw.africa/2025/04/22/new-popia-regulations/
+  - Get started with virtual tables (entities) (Microsoft Dataverse) - Power Apps | https://learn.microsoft.com/power-apps/developer/data-platform/virtual-entities/get-started-ve
+  - South Africa: New POPIA regulations issued • Power Law Africa - Free. Human. Potential. | https://powerlaw.africa/2025/04/22/new-popia-regulations/
+related:
+  - Why departments buy overlapping software for the same capability | /discovery/departments-buy-overlapping-software-for-the-same-capability/
+  - Anyone can become a SaaS admin and nobody keeps a record | /discovery/anyone-can-become-a-saas-admin-and-nobody-keeps-a-record/
+  - Business capabilities that depend on tools nobody supports | /discovery/business-capabilities-depend-on-tools-with-no-support-owner/
 summary: Each new tool got its own copy of customer data, so nobody knows which is right. Map the copies, pick a system of record per data type and connect the rest to it.
 layout: plain
 ---

@@ -15,9 +15,13 @@ human_dividend: Predictability and dignity: steady preventive work is acknowledg
 trade_off: Counting avoided problems is imprecise; some people dislike attention; thanks without fair reward can feel hollow; a near-miss log takes effort.
 epistemic_state: HYPOTHESISED: reasoned from general research on feedback, role clarity and support at work, not from a survey of South African employers; the logistics office example is hypothetical.
 sources:
-  - https://www.hse.gov.uk/stress/standards/support.htm | https://www.hse.gov.uk/stress/standards/support.htm
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Management Standards - Support - HSE | https://www.hse.gov.uk/stress/standards/support.htm
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+related:
+  - Why Repetitive Work Hides Real Talent | /moments/why-repetitive-work-hides-real-talent/
+  - The Bookkeeper Who Knows Every Workaround | /moments/the-bookkeeper-who-carries-every-workaround-in-their-head/
+  - Why Respect Shows Up in the Tools You Give People | /moments/why-respect-shows-up-in-the-tools-you-give-people/
 summary: The person who fixes a crisis is thanked. The person whose checks meant there was no crisis usually is not. Why prevention goes unseen and how to make it visible.
 layout: plain
 ---

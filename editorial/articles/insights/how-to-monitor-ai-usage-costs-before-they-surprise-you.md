@@ -10,9 +10,13 @@ published_date: 2026-11-12
 updated_date: 2026-11-12
 eyebrow: AI and Automation
 sources:
-  - https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets | https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets
-  - https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html | https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html
-  - https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-analysis-common-uses | https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-analysis-common-uses
+  - Tutorial - Create and manage budgets - Microsoft Cost Management | https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets
+  - Managing your costs with AWS Budgets - AWS Cost Management | https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html
+  - Common cost analysis uses in Cost Management - Microsoft Cost Management | https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-analysis-common-uses
+related:
+  - How to Give AI the Context It Needs Without Giving It Everything | /insights/how-to-give-ai-the-context-it-needs-without-giving-it-everything/
+  - How to Design Alerts for Automation Failures | /insights/how-to-design-alerts-for-automation-failures/
+  - Why Giving AI Access to More Systems Is Not Automatically Better | /insights/why-giving-ai-access-to-more-systems-is-not-automatically-better/
 summary: Usage-priced AI services can grow a bill without anyone deciding to spend more. Here is how to see the spending early and act on it.
 layout: plain
 ---

@@ -13,9 +13,13 @@ commercial_domain: Data and Information
 primary_pain: Collecting large amounts of data that nobody uses to make decisions
 primary_cost_mechanism: Staff time capturing and maintaining unused fields and reports, storage and licence cost, backup and security overhead for data with no value, slower systems, and legal exposure from holding personal information longer than needed
 sources:
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://learn.microsoft.com/en-us/purview/retention | https://learn.microsoft.com/en-us/purview/retention
-  - https://learn.microsoft.com/en-us/purview/data-governance-overview | https://learn.microsoft.com/en-us/purview/data-governance-overview
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - Learn about retention policies & labels to retain or delete | https://learn.microsoft.com/en-us/purview/retention
+  - Learn about data governance with Microsoft Purview | https://learn.microsoft.com/en-us/purview/data-governance-overview
+related:
+  - When Important Data Is Trapped in One Department's App | /impact/data-trapped-in-one-department-application-information-silo-cost/
+  - Staff Using AI with Company Data Nobody Governs | /impact/uncontrolled-ai-company-data-financial-risk/
+  - Gone but Still Logged In: The Cost of Incomplete Employee Offboarding | /impact/former-employees-still-active-systems-incomplete-offboarding-cost/
 summary: Data that is captured, stored and maintained but never used to decide anything still costs money in storage, licences, staff time and legal exposure.
 layout: plain
 ---

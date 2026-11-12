@@ -10,9 +10,13 @@ published_date: 2026-11-12
 updated_date: 2026-11-12
 eyebrow: AI and Automation
 sources:
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://www.nist.gov/itl/ai-risk-management-framework | https://www.nist.gov/itl/ai-risk-management-framework
-  - https://learn.microsoft.com/en-us/microsoft-365-copilot/microsoft-365-copilot-privacy | https://learn.microsoft.com/en-us/microsoft-365-copilot/microsoft-365-copilot-privacy
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
+  - Data, Privacy, and Security for Microsoft Copilot | https://learn.microsoft.com/en-us/microsoft-365-copilot/microsoft-365-copilot-privacy
+related:
+  - How to Monitor AI Usage Costs Before They Surprise You | /insights/how-to-monitor-ai-usage-costs-before-they-surprise-you/
+  - How to Design Alerts for Automation Failures | /insights/how-to-design-alerts-for-automation-failures/
+  - What Should Be Automated Inside a CRM? | /insights/crm-tasks-worth-automating-first/
 summary: An AI assistant is only as useful as the context it can see, but more access means more risk. Here is how to decide what to share and what to hold back.
 layout: plain
 ---

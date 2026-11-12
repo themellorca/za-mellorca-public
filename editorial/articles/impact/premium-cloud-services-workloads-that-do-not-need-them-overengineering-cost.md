@@ -13,9 +13,13 @@ commercial_domain: Cloud and Infrastructure
 primary_pain: Premium cloud services used for workloads that do not require them
 primary_cost_mechanism: Monthly premium tier charges, duplicated always-on environments, added operational complexity, lock-in and exit cost, and Rand exposure on dollar-billed services
 sources:
-  - https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles | https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles
-  - https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html | https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html
-  - https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/optimize-component-costs | https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/optimize-component-costs
+  - Cost Optimization design principles - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles
+  - Cost Optimization Pillar - AWS Well-Architected Framework - Cost Optimization Pillar | https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html
+  - Architecture strategies for optimizing component costs. - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/optimize-component-costs
+related:
+  - Paying Twice for Hosting: The Cost of Duplicated Environments | /impact/duplicated-hosting-environments-consolidation-infrastructure-cost/
+  - Business Data Locked in Apps Nobody Understands: The Cost of Vendor Dependency | /impact/business-data-locked-in-applications-nobody-understands-export-vendor-dependency-risk/
+  - Storage That Only Grows: The Cost of Data You No Longer Need | /impact/cloud-storage-growing-without-retention-rules-cost-of-keeping-unneeded-data/
 summary: Choosing premium cloud tiers for workloads that do not need them locks in a monthly premium, extra complexity and exit cost for resilience the business never priced.
 layout: plain
 ---

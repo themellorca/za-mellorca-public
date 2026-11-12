@@ -10,9 +10,13 @@ published_date: 2026-11-12
 updated_date: 2026-11-12
 eyebrow: Automation and Workflow
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/getting-started | https://learn.microsoft.com/en-us/power-automate/getting-started
-  - https://www.inforegulator.org.za/popia/ | https://www.inforegulator.org.za/popia/
-  - https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/ | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/
+  - Explore the Power Automate home page - Power Automate | https://learn.microsoft.com/en-us/power-automate/getting-started
+  - Who makes an application to process Special Personal Information? | https://www.inforegulator.org.za/popia/
+  - Operational excellence quick links - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/
+related:
+  - How to Automate Notifications Without Creating Noise | /insights/how-to-automate-notifications-without-creating-noise-tiers-recipients-and-channels/
+  - How to Automate Approvals Without Losing Control | /insights/how-to-automate-approvals-without-losing-control/
+  - How to Find Steps That Exist Only Because the System Is Bad | /insights/how-to-find-steps-that-exist-only-because-the-system-is-bad/
 summary: Automating a step you did not need only makes it permanent. Here are six kinds of step to question before building anything, and a four-question test to apply.
 layout: plain
 ---

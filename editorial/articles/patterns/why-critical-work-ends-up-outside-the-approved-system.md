@@ -14,9 +14,13 @@ observable_condition: A critical task such as quoting, approvals or status track
 primary_identification: Unmet process needs: the approved system was configured without a clear view of how the work is done, so people use whatever tool lets them finish the task.
 commercial_value_dimensions: Control of critical information, continuity, reporting accuracy, data protection exposure and return on system spend
 sources:
-  - https://learn.microsoft.com/en-us/defender-cloud-apps/set-up-cloud-discovery | https://learn.microsoft.com/en-us/defender-cloud-apps/set-up-cloud-discovery
-  - https://learn.microsoft.com/en-us/defender-cloud-apps/cloud-discovery-policies | https://learn.microsoft.com/en-us/defender-cloud-apps/cloud-discovery-policies
-  - https://learn.microsoft.com/en-us/power-platform/admin/wp-data-loss-prevention | https://learn.microsoft.com/en-us/power-platform/admin/wp-data-loss-prevention
+  - Cloud app discovery overview - Microsoft Defender for Cloud Apps | https://learn.microsoft.com/en-us/defender-cloud-apps/set-up-cloud-discovery
+  - Create cloud discovery policies - Microsoft Defender for Cloud Apps | https://learn.microsoft.com/en-us/defender-cloud-apps/cloud-discovery-policies
+  - Data policies - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/wp-data-loss-prevention
+related:
+  - The Cost of Not Knowing Who Can See What | /patterns/the-cost-of-not-being-able-to-say-who-can-open-which-files/
+  - When Field Work Happens Outside the System | /patterns/when-field-work-happens-outside-the-system/
+  - When Access Requests Depend on Messages and Memory | /patterns/when-system-access-is-granted-through-chat-messages-and-memory/
 summary: Spreadsheets and chat groups often carry the work the approved system cannot. Here is why that happens, the risk it creates, and how to bring it back under control.
 layout: plain
 ---

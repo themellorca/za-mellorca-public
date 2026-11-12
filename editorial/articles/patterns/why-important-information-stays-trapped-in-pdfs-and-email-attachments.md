@@ -14,9 +14,13 @@ observable_condition: Orders, quotes, invoices and signed forms arrive as PDFs o
 primary_identification: Information is captured as a picture of a page instead of as structured data, so every downstream use depends on a person reading and re-keying it.
 commercial_value_dimensions: Staff time, error and rework cost, speed of response, cash collection and the ability to report on what the business has committed to
 sources:
-  - https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview | https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview
-  - https://learn.microsoft.com/en-us/sharepoint/introduction | https://learn.microsoft.com/en-us/sharepoint/introduction
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - What Is Azure Document Intelligence in Foundry Tools? - Foundry Tools | https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview
+  - Introduction to SharePoint and OneDrive in Microsoft 365 for administrators - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/introduction
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+related:
+  - Why Customer Data Quality Degrades as Systems Multiply | /patterns/why-customer-data-gets-worse-with-every-system-you-add/
+  - The Cost of Manual Employee Data Updates Across Systems | /patterns/the-cost-of-updating-employee-details-by-hand-in-every-system/
+  - The Hidden Cost of Re-Keying Order Information | /patterns/the-hidden-cost-of-re-keying-order-information/
 summary: Quotes, orders and contracts arrive as PDFs, and the facts inside them reach your systems only when someone retypes them. Here is why, what it costs, and how to loosen the grip.
 layout: plain
 ---

@@ -10,9 +10,13 @@ published_date: 2026-11-12
 updated_date: 2026-11-12
 eyebrow: Data Quality
 sources:
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
-  - https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/control-text-input | https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/control-text-input
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - What is Microsoft Dataverse? - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
+  - Text input control in Power Apps - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/control-text-input
+related:
+  - What Data Should Be Required at the Point of Capture? | /insights/what-data-should-be-required-at-the-point-of-capture-and-what-can-wait/
+  - Why More Fields Usually Do Not Fix Data Quality | /insights/why-more-fields-usually-do-not-fix-data-quality/
+  - How to Clean Data Without Creating a Never-Ending Cleanup Project | /insights/how-to-clean-data-without-creating-a-never-ending-cleanup-project/
 summary: Making a field mandatory guarantees only that something is typed into it. Here is how to design forms that produce data people can actually rely on.
 layout: plain
 ---

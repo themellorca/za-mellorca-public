@@ -13,9 +13,13 @@ commercial_domain: Automation
 primary_pain: One step of a process automated while the surrounding steps stay manual, so the bottleneck moves elsewhere
 primary_cost_mechanism: Unrealised savings from queues shifting downstream, overtime and temporary labour at the new constraint, faster error propagation and unmet customer expectations
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
-  - https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling | https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Employ robust error handling - Power Automate | https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+related:
+  - Automation With No Proof of Return: Measure Before You Build More | /impact/automation-without-measured-time-saved-errors-reduced-unproven-return/
+  - The Flow Nobody Can Explain: What Undocumented Automations Cost to Fix and Change | /impact/undocumented-automations-slow-troubleshooting-risky-changes-cost/
+  - Automating the Easy Things First: The Opportunity Cost of Leaving Bottlenecks Alone | /impact/automation-chosen-for-convenience-not-costly-bottlenecks-opportunity-cost/
 summary: Automating a single step in a manual process often just relocates the queue, so the business pays for the tool and still waits on the next step.
 layout: plain
 ---

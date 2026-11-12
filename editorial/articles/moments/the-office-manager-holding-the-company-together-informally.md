@@ -15,9 +15,13 @@ human_dividend: Predictability and dignity: a role with known boundaries, named 
 trade_off: Formalising changes a flexible arrangement; fair grading and cover cost money; handed-over tasks may be done worse at first; the role regrows unless the owner's delegation changes.
 epistemic_state: HYPOTHESISED: reasoned from occupational research on role clarity and from employment-law basics, not from a survey of South African firms; the worked example is illustrative.
 sources:
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
-  - https://www.hse.gov.uk/stress/standards/relationships.htm | https://www.hse.gov.uk/stress/standards/relationships.htm
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+  - Management Standards - Relationships - HSE | https://www.hse.gov.uk/stress/standards/relationships.htm
+related:
+  - The Bookkeeper Who Knows Every Workaround | /moments/the-bookkeeper-who-carries-every-workaround-in-their-head/
+  - When Night-Shift Exceptions Fall on the Same Few People | /moments/when-night-shift-exceptions-keep-landing-on-the-same-few-people/
+  - The Employee Who Dreads Being the Only One Who Knows | /moments/the-employee-who-dreads-being-the-only-one-who-knows/
 summary: In many owner-led firms the office manager quietly does the job of several functions with no title for it. What that costs, and how to formalise it fairly.
 layout: plain
 ---

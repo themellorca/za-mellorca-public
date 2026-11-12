@@ -14,7 +14,11 @@ problem_owner: Business continuity or risk lead, with the head of information se
 budget_owner: COO or CIO
 sources:
   - https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-34r1.pdf | https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-34r1.pdf
-  - https://www.cisa.gov/stopransomware/ransomware-guide | https://www.cisa.gov/stopransomware/ransomware-guide
+  - #StopRansomware Guide - CISA | https://www.cisa.gov/stopransomware/ransomware-guide
+related:
+  - RTO targets are copied from templates rather than business impact | /discovery/why-recovery-time-targets-should-come-from-business-impact-not-templates/
+  - Why critical services end up depending on one cloud region by accident | /discovery/critical-services-depend-on-one-cloud-region-by-accident/
+  - Why pricing rules end up copied across the CRM, spreadsheets and the ERP | /discovery/why-the-same-pricing-rules-are-maintained-in-three-places-and-drift-apart/
 summary: Two teams keep two plans with different service lists, priorities and contacts. Agree one list of critical services and targets, link both plans to it and rehearse ransomware together.
 layout: plain
 ---

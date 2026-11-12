@@ -13,9 +13,13 @@ commercial_domain: IT infrastructure and workplace productivity
 primary_pain: Old switches and routers limit network speed and reliability across the office, but because they still work they are rarely blamed, so staff lose time and money to a constraint nobody has identified.
 primary_cost_mechanism: Paid staff time lost to slow file access, video calls and cloud applications; repeated support effort aimed at the wrong cause; and a higher chance of an outright failure that stops the whole office.
 sources:
-  - https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview | https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview
-  - https://learn.microsoft.com/en-us/windows-server/networking/technologies/network-subsystem/net-sub-performance-tuning-nics | https://learn.microsoft.com/en-us/windows-server/networking/technologies/network-subsystem/net-sub-performance-tuning-nics
-  - https://www.ncsc.gov.uk/collection/device-security-guidance/infrastructure | https://www.ncsc.gov.uk/collection/device-security-guidance/infrastructure
+  - Azure Network Watcher Overview | https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-overview
+  - Network Adapter Performance Tuning in Windows Server | https://learn.microsoft.com/en-us/windows-server/networking/technologies/network-subsystem/net-sub-performance-tuning-nics
+  - Infrastructure | https://www.ncsc.gov.uk/collection/device-security-guidance/infrastructure
+related:
+  - When Routine IT Support Takes Days: The Productivity Bill Nobody Counts | /impact/routine-it-support-delays-productivity-cost/
+  - Bottlenecks You Cannot See: The Price of Problems Management Misses | /impact/not-knowing-where-operational-bottlenecks-form-hidden-delay-financial-cost/
+  - Guests on the Business Network: The Hidden Cost of Poor Separation | /impact/guest-devices-sharing-network-with-business-systems-poor-network-separation-financial-security-risk/
 summary: Ageing switches and routers rarely fail outright. They slow everything quietly, and the productivity cost is paid in waiting, dropped calls and fixes aimed at the wrong thing.
 layout: plain
 ---

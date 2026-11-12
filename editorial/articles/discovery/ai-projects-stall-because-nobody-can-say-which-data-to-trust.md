@@ -13,8 +13,12 @@ problem_domain: Data, Reporting & Decision Systems
 problem_owner: Head of data or digital
 budget_owner: COO or CIO
 sources:
-  - https://learn.microsoft.com/en-us/purview/data-quality-overview | https://learn.microsoft.com/en-us/purview/data-quality-overview
+  - Data Quality in Microsoft Purview Unified Catalog | https://learn.microsoft.com/en-us/purview/data-quality-overview
   - https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf | https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf
+related:
+  - Why business users cannot trace a dashboard number back to its source | /discovery/why-business-users-cannot-trace-a-dashboard-number-to-its-source/
+  - Why the data pipelines behind your dashboards need an operational owner | /discovery/data-pipelines-have-no-clear-operational-owner/
+  - How to find out which of your reports anyone actually uses | /discovery/teams-cannot-tell-which-reports-are-actually-used/
 summary: AI pilots stall when every project must investigate whether the data is reliable. Rate key data sets for fitness for automation, publish the rating and gate projects on it.
 layout: plain
 ---

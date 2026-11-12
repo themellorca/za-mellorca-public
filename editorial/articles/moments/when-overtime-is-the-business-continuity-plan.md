@@ -15,9 +15,13 @@ human_dividend: Time and presence: a written plan for absence lets people leave 
 trade_off: Cross-training and documentation take time; some people welcome extra hours; very small teams lack depth; procedures go stale without an owner.
 epistemic_state: HYPOTHESISED: reasoned from general research on working hours and fatigue, not from a survey of South African employers; the insurer branch example is hypothetical.
 sources:
-  - https://www.hse.gov.uk/humanfactors/topics/fatigue.htm | https://www.hse.gov.uk/humanfactors/topics/fatigue.htm
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
+  - Fatigue - HSE | https://www.hse.gov.uk/humanfactors/topics/fatigue.htm
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+related:
+  - What It Means to Be Trusted With Better Information | /moments/what-it-means-to-be-trusted-with-better-information/
+  - Why Being Blamed for System Errors Wears People Down | /moments/why-being-blamed-for-system-errors-wears-people-down/
+  - The Employee Who Dreads Being the Only One Who Knows | /moments/the-employee-who-dreads-being-the-only-one-who-knows/
 summary: If the only plan for a colleague's absence is that someone stays late, cover is being paid for in people's evenings. How to see it and replace it.
 layout: plain
 ---

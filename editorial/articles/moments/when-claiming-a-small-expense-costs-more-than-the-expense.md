@@ -15,9 +15,13 @@ human_dividend: Time: a claim captured in minutes at the point of purchase and r
 trade_off: Lighter checks let some errors through and need sampling; expense tools cost money; company cards add reconciliation and discipline; tax documentary rules change and need review.
 epistemic_state: HYPOTHESISED: reasoned from general administration and tax record-keeping guidance, not measured in any South African business; the worked example is illustrative.
 sources:
-  - https://www.sars.gov.za/types-of-tax/value-added-tax/ | https://www.sars.gov.za/types-of-tax/value-added-tax/
-  - https://learn.microsoft.com/en-us/power-automate/get-started-approvals | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Value-Added Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/
+  - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+related:
+  - The Small Joy of a Form That Remembers You | /moments/the-small-joy-of-a-follow-up-form-that-remembers-you/
+  - Why Every New Hire Starts With a Week of Waiting | /moments/why-the-first-week-of-a-new-job-is-spent-waiting/
+  - The Relief of a Password You Don't Have to Reset | /moments/the-relief-of-a-password-you-dont-have-to-reset/
 summary: A two-hundred-rand claim can swallow an hour of combined effort. Where the time goes in small expense claims and how to lighten the process without losing control.
 layout: plain
 ---

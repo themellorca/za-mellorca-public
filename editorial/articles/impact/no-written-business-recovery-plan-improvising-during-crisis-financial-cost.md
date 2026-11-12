@@ -13,9 +13,13 @@ commercial_domain: Risk management and business continuity
 primary_pain: The business has no written plan for how it will keep serving customers and restore operations after a serious disruption, so every decision is made under pressure.
 primary_cost_mechanism: Extended downtime, duplicated effort, poor decisions made in a panic, lost customers and slower insurance and supplier engagement, all multiplied by the hours spent working out who does what.
 sources:
-  - https://www.ready.gov/business/emergency-plans/continuity-planning | https://www.ready.gov/business/emergency-plans/continuity-planning
-  - https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
-  - https://www.nist.gov/itl/smallbusinesscyber | https://www.nist.gov/itl/smallbusinesscyber
+  - Business Continuity Planning | https://www.ready.gov/business/emergency-plans/continuity-planning
+  - Architecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+  - Small Business Cybersecurity Corner | https://www.nist.gov/itl/smallbusinesscyber
+related:
+  - How Much Data Could You Lose? The Cost of an Undefined Recovery Point | /impact/undefined-recovery-point-how-much-data-business-can-lose-financial-risk/
+  - The Spreadsheet Only One Person Understands: Financial and Continuity Risk | /impact/business-run-on-spreadsheet-one-person-understands-financial-continuity-risk/
+  - A Recovery Plan That Depends on One Person Is Not a Plan | /impact/recovery-plan-depends-on-one-employee-unavailable-person-financial-risk/
 summary: When a fire, outage or cyber incident hits a business with no written recovery plan, decisions are made under stress and the Rand cost grows with every hour of confusion.
 layout: plain
 ---

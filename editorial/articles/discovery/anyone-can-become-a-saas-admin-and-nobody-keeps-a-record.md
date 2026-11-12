@@ -13,8 +13,12 @@ problem_domain: SaaS & Application Portfolio Management
 problem_owner: IT security or identity lead
 budget_owner: CIO
 sources:
-  - https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/best-practices | https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/best-practices
-  - https://support.google.com/a/answer/9011373?hl=en-uk | https://support.google.com/a/answer/9011373?hl=en-uk
+  - Best practices for Microsoft Entra roles - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/best-practices
+  - Security best practices for administrator accounts - User management - Google Workspace Help | https://support.google.com/a/answer/9011373?hl=en-uk
+related:
+  - Business capabilities that depend on tools nobody supports | /discovery/business-capabilities-depend-on-tools-with-no-support-owner/
+  - Customer data is copied into too many applications to track | /discovery/customer-data-is-copied-into-too-many-applications-to-track/
+  - Why application inventories leave out shadow IT and AI tools | /discovery/why-application-inventories-leave-out-shadow-it/
 summary: Admin rights inside SaaS tools are handed out by whoever set them up, outside access reviews. List admins per tool, have the owner approve each, and keep them few and named.
 layout: plain
 ---

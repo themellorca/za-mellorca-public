@@ -10,9 +10,13 @@ published_date: 2026-11-12
 updated_date: 2026-11-12
 eyebrow: Automation and Workflow
 sources:
-  - https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview
-  - https://www.inforegulator.org.za/popia/ | https://www.inforegulator.org.za/popia/
-  - https://learn.microsoft.com/en-us/power-automate/getting-started | https://learn.microsoft.com/en-us/power-automate/getting-started
+  - Overview of Azure Monitor alerts - Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview
+  - Who makes an application to process Special Personal Information? | https://www.inforegulator.org.za/popia/
+  - Explore the Power Automate home page - Power Automate | https://learn.microsoft.com/en-us/power-automate/getting-started
+related:
+  - Which Process Steps Should Be Removed Before Automation | /insights/which-process-steps-should-be-removed-before-automation-six-candidates-and-a-test/
+  - What Should Be Automated Inside a CRM? | /insights/crm-tasks-worth-automating-first/
+  - How to Automate Approvals Without Losing Control | /insights/how-to-automate-approvals-without-losing-control/
 summary: When every event triggers a message, the important ones get missed. Here is how to tier notifications, name recipients and keep the volume low enough to be useful.
 layout: plain
 ---

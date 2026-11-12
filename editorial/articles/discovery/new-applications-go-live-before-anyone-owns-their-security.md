@@ -14,7 +14,11 @@ problem_owner: IT security and risk manager
 budget_owner: CIO, with the CFO involved at insurance renewal
 sources:
   - https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf | https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
-  - https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview | https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview
+  - What are access reviews? - Microsoft Entra - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview
+related:
+  - Security incidents lack reliable asset ownership data | /discovery/why-security-incidents-stall-when-assets-have-no-named-owner/
+  - Why Compliance Evidence Should Not Depend on Screenshots | /discovery/why-compliance-evidence-should-not-depend-on-screenshots/
+  - Why IT asset registers miss cloud and SaaS services | /discovery/why-it-asset-registers-miss-cloud-and-saas-services/
 summary: Go-live checklists cover function and training but not who owns access, patching, logging and incidents. Make named security ownership a gate and check existing systems against it.
 layout: plain
 ---

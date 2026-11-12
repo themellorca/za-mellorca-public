@@ -14,9 +14,13 @@ observable_condition: The CRM contains years of contact and deal records, but fo
 primary_identification: A record store treated as a destination: data is entered after the work is done, and the system neither prompts the next step nor assigns who takes it.
 commercial_value_dimensions: Follow-up reliability, sales productivity, revenue timing, data quality and return on software spend
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/overview | https://learn.microsoft.com/en-us/dynamics365/sales/overview
-  - https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales | https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Welcome to Dynamics 365 Sales | https://learn.microsoft.com/en-us/dynamics365/sales/overview
+  - Understand the sales process | https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - The Operational Gap Between Sales and Service Delivery | /patterns/what-gets-lost-between-the-sale-and-the-start-of-service/
+  - Why Signed Deals Stall Before Delivery Begins | /patterns/why-signed-deals-sit-idle-between-acceptance-and-the-first-day-of-delivery/
+  - Why Sales Forecasts Change Depending on Who You Ask | /patterns/why-the-sales-forecast-depends-on-which-person-you-ask/
 summary: The CRM holds thousands of contacts and nobody is told what to do next. It stores the past well and directs none of the future.
 layout: plain
 ---

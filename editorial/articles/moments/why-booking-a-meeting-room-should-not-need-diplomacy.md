@@ -15,9 +15,13 @@ human_dividend: Time: a booking that takes seconds, is visible to everyone and d
 trade_off: Open booking can let a few people hold slots they do not use; rules need an owner and occasional enforcement; a booking tool costs money or set-up time; some businesses have a room so scarce that even a fair system leaves people disappointed.
 epistemic_state: HYPOTHESISED: reasoned from general workplace guidance and product documentation, not from a survey of South African offices; the worked example is illustrative.
 sources:
-  - https://learn.microsoft.com/en-us/exchange/recipients/room-mailboxes | https://learn.microsoft.com/en-us/exchange/recipients/room-mailboxes
-  - https://www.hse.gov.uk/stress/standards/relationships.htm | https://www.hse.gov.uk/stress/standards/relationships.htm
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Create and manage room mailboxes | https://learn.microsoft.com/en-us/exchange/recipients/room-mailboxes
+  - Management Standards - Relationships - HSE | https://www.hse.gov.uk/stress/standards/relationships.htm
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+related:
+  - When Ordering Supplies Takes Five Emails | /moments/when-ordering-supplies-takes-five-emails/
+  - The Expense Claim That Costs More Than the Expense | /moments/when-claiming-a-small-expense-costs-more-than-the-expense/
+  - The Relief of a Password You Don't Have to Reset | /moments/the-relief-of-a-password-you-dont-have-to-reset/
 summary: When room bookings depend on who asks, who is senior and who sends the best message, time and goodwill drain away. How a visible, simple booking system fixes it.
 layout: plain
 ---

@@ -15,10 +15,14 @@ human_dividend: Predictability: a published cut-off, a rule for late changes and
 trade_off: Hard cut-offs can feel harsh and need an exception route; managers may resist; integrating leave, overtime and payroll costs effort; delaying a late change may leave an employee short.
 epistemic_state: HYPOTHESISED: reasoned from general research on workload and role clarity and from published SARS requirements, not from a survey of South African employers; the building supplier example is hypothetical.
 sources:
-  - https://www.sars.gov.za/types-of-tax/pay-as-you-earn/ | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+related:
+  - The Employee Who Dreads Being the Only One Who Knows | /moments/the-employee-who-dreads-being-the-only-one-who-knows/
+  - Why Re-Keying Data Is Not a Career | /moments/why-re-keying-data-is-not-a-career-and-what-replaces-it/
+  - Why Repetitive Work Hides Real Talent | /moments/why-repetitive-work-hides-real-talent/
 summary: Late changes, missing approvals and fixed tax deadlines mean payroll rarely closes in one pass. What that does to the person running it, and how to give them a clean cut-off.
 layout: plain
 ---

@@ -15,10 +15,14 @@ human_dividend: Optionality and time: hours freed from needless keystrokes go to
 trade_off: Admin cannot be removed entirely; mentoring costs senior time; not every junior wants a bigger role; automation takes effort and may need phasing in a very small firm.
 epistemic_state: HYPOTHESISED: reasoned from general research on role design and job control, not from a survey of South African employers; the accounting practice example is hypothetical.
 sources:
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://www.hse.gov.uk/stress/standards/control.htm | https://www.hse.gov.uk/stress/standards/control.htm
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+related:
+  - When Status Is Measured in How Many Fires You Put Out | /moments/when-status-is-measured-in-how-many-fires-you-put-out/
+  - The Employee Who Dreads Being the Only One Who Knows | /moments/the-employee-who-dreads-being-the-only-one-who-knows/
+  - Why Repetitive Work Hides Real Talent | /moments/why-repetitive-work-hides-real-talent/
 summary: Many first jobs are mostly filing, capturing and chasing. What that does to a young employee's growth, and how to build a route to real work.
 layout: plain
 ---

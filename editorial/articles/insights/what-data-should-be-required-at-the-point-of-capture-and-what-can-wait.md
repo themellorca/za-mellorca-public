@@ -10,9 +10,13 @@ published_date: 2026-11-12
 updated_date: 2026-11-12
 eyebrow: Data Quality
 sources:
-  - https://www.gov.uk/service-manual/design/form-structure | https://www.gov.uk/service-manual/design/form-structure
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use | https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use
+  - Structuring forms | https://www.gov.uk/service-manual/design/form-structure
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - 4. Make the service simple to use | https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use
+related:
+  - Why Required Fields Do Not Automatically Create Good Data | /insights/why-required-fields-do-not-automatically-create-good-data/
+  - How Manual Data Entry Creates Downstream Problems | /insights/how-one-typing-error-becomes-a-disputed-invoice-and-a-wrong-report/
+  - Why More Fields Usually Do Not Fix Data Quality | /insights/why-more-fields-usually-do-not-fix-data-quality/
 summary: Every required field is a trade-off between data you can trust later and people who stop filling in the form. Here is how to choose.
 layout: plain
 ---

@@ -14,9 +14,13 @@ observable_condition: Every new enquiry, whatever the channel, waits until one p
 primary_identification: Unwritten allocation rules: the criteria for who should take an enquiry exist only as one person's judgement, so distribution cannot happen without that person.
 commercial_value_dimensions: Speed to first response, conversion of enquiries, sales capacity, manager time and revenue continuity
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
-  - https://learn.microsoft.com/en-us/power-automate/sharepoint-overview | https://learn.microsoft.com/en-us/power-automate/sharepoint-overview
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Use SharePoint and Power Automate to build workflows - Power Automate | https://learn.microsoft.com/en-us/power-automate/sharepoint-overview
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+related:
+  - When Onboarding Depends on a Checklist in Someone’s Head | /patterns/when-the-onboarding-checklist-exists-only-in-one-persons-memory/
+  - The Cost of Manual Employee Data Updates Across Systems | /patterns/the-cost-of-updating-employee-details-by-hand-in-every-system/
+  - Why Leave Requests Still Travel Through Messages and Spreadsheets | /patterns/why-leave-requests-are-still-handled-through-chat-messages-and-spreadsheets/
 summary: Enquiries arrive through the website, email and phone, then wait for someone to decide who should take them. This article explains why, and how to make the hand-out automatic.
 layout: plain
 ---

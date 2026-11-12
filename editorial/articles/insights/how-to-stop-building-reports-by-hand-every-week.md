@@ -10,9 +10,13 @@ published_date: 2026-11-12
 updated_date: 2026-11-12
 eyebrow: Reporting and Dashboards
 sources:
-  - https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-scheduled-refresh | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-scheduled-refresh
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
-  - https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
+  - Configure scheduled refresh - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-scheduled-refresh
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
+related:
+  - When Copy-and-Paste Is Really an Integration Problem | /insights/when-copy-and-paste-is-really-an-integration-problem/
+  - What Data Should Be Required at the Point of Capture? | /insights/what-data-should-be-required-at-the-point-of-capture-and-what-can-wait/
+  - How to Avoid Creating a Fragile Automation Stack | /insights/how-to-avoid-creating-a-fragile-automation-stack/
 summary: A weekly report assembled from exports and copy-paste is slow and fragile. Here is a staged way to move it onto a refresh that runs without anyone's Friday afternoon.
 layout: plain
 ---

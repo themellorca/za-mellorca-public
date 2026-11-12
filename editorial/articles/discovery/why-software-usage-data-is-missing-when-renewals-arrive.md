@@ -13,9 +13,13 @@ problem_domain: SaaS & Application Portfolio Management
 problem_owner: IT or operations manager who administers the application, with the finance manager owning the renewal approval
 budget_owner: Financial director or the department head who signs the purchase order
 sources:
-  - https://learn.microsoft.com/en-us/entra/identity/monitoring-health/concept-sign-ins | https://learn.microsoft.com/en-us/entra/identity/monitoring-health/concept-sign-ins
-  - https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/manage-application-permissions | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/manage-application-permissions
-  - https://learn.microsoft.com/en-us/entra/identity/app-provisioning/what-is-hr-driven-provisioning | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/what-is-hr-driven-provisioning
+  - Sign-in logs in Microsoft Entra ID - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/monitoring-health/concept-sign-ins
+  - Review permissions granted to enterprise applications - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/manage-application-permissions
+  - What is HR-driven provisioning with Microsoft Entra ID? - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/what-is-hr-driven-provisioning
+related:
+  - Paying for unused software features because contracts are bundled | /discovery/why-bundled-software-contracts-hide-unused-features/
+  - Data-export limits are discovered only when leaving a vendor | /discovery/data-export-limits-discovered-only-when-leaving-a-vendor/
+  - Why departments buy overlapping software for the same capability | /discovery/departments-buy-overlapping-software-for-the-same-capability/
 summary: Renewal quotes arrive long before anyone can say how many seats are really used. How to gather usage evidence in time to keep, reduce or drop each application.
 layout: plain
 ---

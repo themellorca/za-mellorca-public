@@ -10,9 +10,13 @@ published_date: 2026-11-12
 updated_date: 2026-11-12
 eyebrow: Data Quality
 sources:
-  - https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
-  - https://popia.co.za/section-16-quality-of-information/ | https://popia.co.za/section-16-quality-of-information/
-  - https://popia.co.za/section-10-minimality/ | https://popia.co.za/section-10-minimality/
+  - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
+  - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
+  - Section 10 Minimality - POPIA | https://popia.co.za/section-10-minimality/
+related:
+  - Why Required Fields Do Not Automatically Create Good Data | /insights/why-required-fields-do-not-automatically-create-good-data/
+  - What Data Should Be Required at the Point of Capture? | /insights/what-data-should-be-required-at-the-point-of-capture-and-what-can-wait/
+  - How Manual Data Entry Creates Downstream Problems | /insights/how-one-typing-error-becomes-a-disputed-invoice-and-a-wrong-report/
 summary: Adding and requiring more fields raises completion, not accuracy. Here is why, and what to change instead.
 layout: plain
 ---

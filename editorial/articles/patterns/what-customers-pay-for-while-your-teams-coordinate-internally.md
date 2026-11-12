@@ -14,9 +14,13 @@ observable_condition: A customer request that takes minutes of actual work waits
 primary_identification: Serial internal coordination: the request travels from person to person by message, with no single owner, no visible status and no agreed time limit at each step.
 commercial_value_dimensions: Customer retention, response time, staff capacity, revenue timing and service reputation
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
-  - https://learn.microsoft.com/en-us/power-automate/get-started-approvals | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/overview | https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/overview
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - Welcome to Dynamics 365 Customer Service | https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/overview
+related:
+  - When Customers Can See the Gaps Between Your Systems | /patterns/when-customers-can-see-the-gaps-between-your-systems/
+  - Why One Customer Question Has to Travel Through Three Departments | /patterns/why-a-single-customer-question-gets-passed-between-three-departments/
+  - When Client Onboarding Becomes a Growth Constraint | /patterns/when-client-onboarding-becomes-a-growth-constraint/
 summary: A customer asks for something simple and waits days. The delay is rarely effort. It is the time the request spends travelling between people who each hold one piece of the answer.
 layout: plain
 ---

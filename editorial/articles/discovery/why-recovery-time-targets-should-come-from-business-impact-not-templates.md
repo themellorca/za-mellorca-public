@@ -13,9 +13,13 @@ problem_domain: Business Continuity & Resilience
 problem_owner: IT or operations manager who maintains the continuity plan, with business function heads supplying the impact assessment
 budget_owner: Managing director or financial director who approves resilience spending
 sources:
-  - https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_planning_for_recovery_objective_defined_recovery.html | https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_planning_for_recovery_objective_defined_recovery.html
-  - https://learn.microsoft.com/en-us/azure/well-architected/reliability/metrics | https://learn.microsoft.com/en-us/azure/well-architected/reliability/metrics
-  - https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+  - REL13-BP01 Define recovery objectives for downtime and data loss - Reliability Pillar | https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_planning_for_recovery_objective_defined_recovery.html
+  - Architecture strategies for defining reliability targets - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/metrics
+  - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+related:
+  - Continuity and cyber recovery plans disagree on what comes first | /discovery/continuity-and-cyber-recovery-plans-disagree-on-what-comes-first/
+  - When your cloud accounts reflect history instead of who owns what | /discovery/cloud-accounts-structured-by-history-not-ownership/
+  - Why teams cannot trace one business transaction across several systems | /discovery/teams-cannot-trace-a-business-transaction-across-systems/
 summary: A four-hour RTO on every system looks tidy until an auditor asks where it came from. How to set recovery time targets that business owners have chosen and can defend.
 layout: plain
 ---

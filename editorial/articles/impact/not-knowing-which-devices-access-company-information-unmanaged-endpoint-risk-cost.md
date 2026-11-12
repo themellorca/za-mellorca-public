@@ -13,9 +13,13 @@ commercial_domain: IT management and information security
 primary_pain: The business has no reliable list of the devices that can open company email, files and applications, so unmanaged endpoints sit outside any security or recovery process.
 primary_cost_mechanism: Breach response, data loss from lost or stolen devices, regulatory exposure under POPIA, wasted licences and support time spent identifying devices after something has gone wrong.
 sources:
-  - https://learn.microsoft.com/en-us/intune/fundamentals/what-is-intune | https://learn.microsoft.com/en-us/intune/fundamentals/what-is-intune
-  - https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices | https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - What is Microsoft Intune? - Microsoft Intune | https://learn.microsoft.com/en-us/intune/fundamentals/what-is-intune
+  - Managing deployed devices | https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - Lost Laptops and Unknown Devices: What Untracked Equipment Costs | /impact/business-devices-not-tracked-lost-laptops-phones-replacement-cost/
+  - Laptops That Leave With Employees: The Cost of No Return Process | /impact/devices-issued-without-return-process-equipment-lost-when-employees-leave-cost/
+  - Guests on the Business Network: The Hidden Cost of Poor Separation | /impact/guest-devices-sharing-network-with-business-systems-poor-network-separation-financial-security-risk/
 summary: If you cannot list the laptops, phones and tablets that open your business data, you cannot secure, recover or retire them, and the cost arrives as a breach or a lost device.
 layout: plain
 ---

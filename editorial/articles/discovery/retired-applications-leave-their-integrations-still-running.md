@@ -13,8 +13,12 @@ problem_domain: Integration & API Operations
 problem_owner: Integration lead
 budget_owner: CIO
 sources:
-  - https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_finding-unused.html | https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_finding-unused.html
-  - https://learn.microsoft.com/en-sg/entra/identity/monitoring-health/recommendation-remove-unused-credential-from-apps | https://learn.microsoft.com/en-sg/entra/identity/monitoring-health/recommendation-remove-unused-credential-from-apps
+  - Find unused AWS credentials - AWS Identity and Access Management | https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_finding-unused.html
+  - Recommendation to remove unused credentials from apps - Microsoft Entra ID | https://learn.microsoft.com/en-sg/entra/identity/monitoring-health/recommendation-remove-unused-credential-from-apps
+related:
+  - Legacy integrations block application upgrades | /discovery/why-legacy-integrations-stop-businesses-from-upgrading-their-applications/
+  - Why Critical Integrations Need a Named Operational Owner | /discovery/why-critical-integrations-need-a-named-operational-owner/
+  - Why your integrations multiply faster than your applications | /discovery/point-to-point-integrations-multiply-faster-than-applications/
 summary: Decommission plans switch off the application but not the connections, credentials and schedules around it. Add an integration step to every retirement and record the closure.
 layout: plain
 ---

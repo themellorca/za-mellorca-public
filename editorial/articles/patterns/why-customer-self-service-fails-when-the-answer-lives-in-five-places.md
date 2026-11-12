@@ -14,9 +14,13 @@ observable_condition: A self-service page, portal or chatbot is planned or launc
 primary_identification: Fragmented information: the facts behind a customer's common questions are spread across separate systems, spreadsheets and inboxes, so nothing can present one answer without a person assembling it.
 commercial_value_dimensions: Staff time, support volume, response time, customer experience and capacity to grow without adding admin headcount
 sources:
-  - https://learn.microsoft.com/en-us/power-pages/introduction | https://learn.microsoft.com/en-us/power-pages/introduction
-  - https://learn.microsoft.com/en-us/sharepoint/introduction | https://learn.microsoft.com/en-us/sharepoint/introduction
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - What is Power Pages? | https://learn.microsoft.com/en-us/power-pages/introduction
+  - Introduction to SharePoint and OneDrive in Microsoft 365 for administrators - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/introduction
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+related:
+  - Why One Customer Question Has to Travel Through Three Departments | /patterns/why-a-single-customer-question-gets-passed-between-three-departments/
+  - When Infrastructure Problems First Appear as Customer Complaints | /patterns/when-infrastructure-faults-are-first-reported-by-customers-not-by-monitoring/
+  - Why Do Customers Have to Ask You What Is Happening? | /patterns/why-customers-have-to-ask-what-is-happening/
 summary: A business can build a portal in a week and still not offer self-service, because the facts a customer needs sit in separate tools. Here is how to tell, and what to fix first.
 layout: plain
 ---

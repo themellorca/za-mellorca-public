@@ -10,9 +10,13 @@ published_date: 2026-11-12
 updated_date: 2026-11-12
 eyebrow: Process Improvement
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - What is Microsoft Dataverse? - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - Which Process Steps Should Be Removed Before Automation | /insights/which-process-steps-should-be-removed-before-automation-six-candidates-and-a-test/
+  - Why Repeated Workarounds Are a Warning Sign | /insights/why-repeated-workarounds-are-a-warning-sign/
+  - Why technology implementations fail after go-live | /insights/why-technology-implementations-fail-after-go-live/
 summary: Many process steps are workarounds for software that does not fit the work. Here is how to spot them, test them and decide what to do about each.
 layout: plain
 ---

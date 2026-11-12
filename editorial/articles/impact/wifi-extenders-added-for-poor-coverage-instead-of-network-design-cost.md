@@ -13,9 +13,13 @@ commercial_domain: Technology Infrastructure
 primary_pain: Adding Wi-Fi extenders every time coverage is poor instead of designing the network properly
 primary_cost_mechanism: Repeated purchase and installation of extenders, shared-airtime slowdowns that reduce speed for everyone, staff time lost to dropped connections and troubleshooting, support callouts for intermittent faults, and later replacement of the whole setup
 sources:
-  - https://csrc.nist.gov/pubs/sp/800/153/final | https://csrc.nist.gov/pubs/sp/800/153/final
-  - https://www.wi-fi.org/discover-wi-fi/wi-fi-easymesh | https://www.wi-fi.org/discover-wi-fi/wi-fi-easymesh
-  - https://learn.microsoft.com/en-us/windows/client-management/mdm/wifi-csp | https://learn.microsoft.com/en-us/windows/client-management/mdm/wifi-csp
+  - SP 800-153, Guidelines for Securing Wireless Local Area Networks (WLANs) - CSRC | https://csrc.nist.gov/pubs/sp/800/153/final
+  - Alternative Topologies - Wi-Fi Alliance | https://www.wi-fi.org/discover-wi-fi/wi-fi-easymesh
+  - WiFi CSP | https://learn.microsoft.com/en-us/windows/client-management/mdm/wifi-csp
+related:
+  - Meetings That Decide Nothing: The Payroll Cost of Meeting Overload | /impact/meetings-without-decisions-payroll-cost/
+  - Paying Twice: What It Costs When Nobody Knows What Your Plan Already Includes | /impact/paying-extra-for-features-already-in-your-plan-entitlement-check-cost/
+  - Cloud Costs Rising Every Month Without an Explanation | /impact/cloud-costs-rising-without-explanation/
 summary: Each extender fixes one dead spot and can degrade the rest, so patching coverage complaints one at a time often costs more than a proper design would have.
 layout: plain
 ---

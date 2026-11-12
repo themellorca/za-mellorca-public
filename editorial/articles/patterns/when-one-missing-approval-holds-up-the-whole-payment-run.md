@@ -14,9 +14,13 @@ observable_condition: The scheduled payment run is postponed or partly released 
 primary_identification: Single point of approval: the payment cycle treats the batch as one unit and each invoice depends on one named approver, so one absence or oversight stops many payments.
 commercial_value_dimensions: Supplier relationships, early-payment discounts, late-payment penalties, finance team time and cash planning accuracy
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/modern-approvals | https://learn.microsoft.com/en-us/power-automate/modern-approvals
-  - https://learn.microsoft.com/en-us/power-automate/sequential-modern-approvals | https://learn.microsoft.com/en-us/power-automate/sequential-modern-approvals
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
+  - Create and test an approval workflow with Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/modern-approvals
+  - Manage sequential approvals with Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/sequential-modern-approvals
+  - Approve or reject documents in workflows - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
+related:
+  - Why Your Business Has Data but No Single View of Operations | /patterns/why-a-business-with-plenty-of-data-still-has-no-single-view-of-operations/
+  - Why Does Sending an Invoice Require So Much Work? | /patterns/why-sending-an-invoice-requires-so-much-work/
+  - Why Supplier Invoices Still Need So Many Hands Before They Are Paid | /patterns/why-supplier-invoices-still-need-so-many-hands-before-they-are-paid/
 summary: A single unsigned invoice can stall a weekly payment run, strain supplier relationships and tie up the finance team. Here is why it happens and how to stop one gap blocking everything.
 layout: plain
 ---

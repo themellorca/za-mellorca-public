@@ -13,9 +13,13 @@ problem_domain: Security & Compliance Operations
 problem_owner: IT manager or compliance and risk lead responsible for evidencing data handling
 budget_owner: Financial director or managing director
 sources:
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://learn.microsoft.com/en-us/purview/retention | https://learn.microsoft.com/en-us/purview/retention
-  - https://learn.microsoft.com/en-us/purview/retention-policies-sharepoint | https://learn.microsoft.com/en-us/purview/retention-policies-sharepoint
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - Learn about retention policies & labels to retain or delete | https://learn.microsoft.com/en-us/purview/retention
+  - Learn about retention for SharePoint and OneDrive | https://learn.microsoft.com/en-us/purview/retention-policies-sharepoint
+related:
+  - When every system owner reads the same compliance rule differently | /discovery/when-every-system-owner-reads-compliance-rules-differently/
+  - Security controls are duplicated across teams | /discovery/why-the-same-security-control-gets-built-and-evidenced-by-several-teams/
+  - Access logs that disappear before the auditor asks for them | /discovery/access-logs-that-disappear-before-the-auditor-asks/
 summary: A retention policy on paper means little if email, file shares, the CRM and the accounting system each keep or delete data on their own terms. How to find the gaps and close them.
 layout: plain
 ---

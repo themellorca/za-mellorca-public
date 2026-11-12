@@ -10,9 +10,13 @@ published_date: 2026-11-12
 updated_date: 2026-11-12
 eyebrow: Reporting
 sources:
-  - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema | https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
-  - https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-data-culture | https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-data-culture
-  - https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-governance | https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-governance
+  - Understand star schema and the importance for Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
+  - Microsoft Fabric adoption roadmap: Data culture - Power BI | https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-data-culture
+  - Microsoft Fabric adoption roadmap: Governance - Power BI | https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-governance
+related:
+  - Why Data Quality Gets Worse as a Business Grows | /insights/why-business-data-quality-declines-with-growth/
+  - How to Eliminate Repeated Data Entry | /insights/how-to-eliminate-repeated-data-entry-one-source-of-truth-per-fact/
+  - How to Map the Flow of Information Between Business Systems | /insights/how-to-map-the-flow-of-information-between-business-systems/
 summary: Reports built on data nobody maintains are fiction. Start from the systems where work really happens and build outward.
 layout: plain
 ---

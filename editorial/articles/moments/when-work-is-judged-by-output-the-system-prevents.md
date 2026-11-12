@@ -15,9 +15,13 @@ human_dividend: Predictability and confidence: a standard the person can actuall
 trade_off: Extra measures add effort; some shortfalls are personal; context can become an excuse; fixing causes may need money or changes in authority.
 epistemic_state: HYPOTHESISED: reasoned from occupational research and measurement theory, not from a survey of South African workplaces; the worked example is illustrative.
 sources:
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://en.wikipedia.org/wiki/Goodhart%27s_law | https://en.wikipedia.org/wiki/Goodhart%27s_law
-  - https://www.hse.gov.uk/stress/standards/control.htm | https://www.hse.gov.uk/stress/standards/control.htm
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Goodhart's law - Wikipedia | https://en.wikipedia.org/wiki/Goodhart%27s_law
+  - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
+related:
+  - Why Respect Shows Up in the Tools You Give People | /moments/why-respect-shows-up-in-the-tools-you-give-people/
+  - Why Re-Keying Data Is Not a Career | /moments/why-re-keying-data-is-not-a-career-and-what-replaces-it/
+  - The Customer Service Agent Apologising for a Broken System | /moments/the-service-agent-who-apologises-for-a-system-they-cannot-fix/
 summary: Targets and reports can punish people for results that slow systems, missing data and broken handoffs make impossible. How to measure fairly.
 layout: plain
 ---

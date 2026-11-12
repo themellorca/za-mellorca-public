@@ -10,9 +10,13 @@ published_date: 2026-11-12
 updated_date: 2026-11-12
 eyebrow: CRM and Customer Systems
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/security-roles-for-sales | https://learn.microsoft.com/en-us/dynamics365/sales/security-roles-for-sales
-  - https://www.inforegulator.org.za/popia/ | https://www.inforegulator.org.za/popia/
-  - https://learn.microsoft.com/en-us/dynamics365/sales/overview | https://learn.microsoft.com/en-us/dynamics365/sales/overview
+  - Predefined security roles for Sales | https://learn.microsoft.com/en-us/dynamics365/sales/security-roles-for-sales
+  - Who makes an application to process Special Personal Information? | https://www.inforegulator.org.za/popia/
+  - Welcome to Dynamics 365 Sales | https://learn.microsoft.com/en-us/dynamics365/sales/overview
+related:
+  - When to Reconfigure a CRM and When to Replace It | /insights/when-to-reconfigure-a-crm-and-when-to-replace-it-a-decision-guide/
+  - How to Decide Which Software to Keep | /insights/how-to-decide-which-software-to-keep/
+  - How to Eliminate Repeated Data Entry | /insights/how-to-eliminate-repeated-data-entry-one-source-of-truth-per-fact/
 summary: A CRM that belongs to everyone belongs to no one. Here is how to split ownership into four clear roles, with decision rights and a simple routine to keep them alive.
 layout: plain
 ---

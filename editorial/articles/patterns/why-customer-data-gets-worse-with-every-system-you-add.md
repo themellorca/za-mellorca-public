@@ -14,9 +14,13 @@ observable_condition: Each time a new system is added, it receives a copy of the
 primary_identification: Customer data has no designated master: every system is allowed to create and change customer details, and the number of possible disagreements grows with every system added.
 commercial_value_dimensions: Billing accuracy, customer communication, collections, sales effectiveness, reporting trust and compliance with data protection duties
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-unification | https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-unification
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
-  - https://learn.microsoft.com/en-us/dynamics365/sales/overview | https://learn.microsoft.com/en-us/dynamics365/sales/overview
+  - Data unification overview - Dynamics 365 Customer Insights | https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-unification
+  - What is Microsoft Dataverse? - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
+  - Welcome to Dynamics 365 Sales | https://learn.microsoft.com/en-us/dynamics365/sales/overview
+related:
+  - Why Important Information Is Trapped in PDFs and Attachments | /patterns/why-important-information-stays-trapped-in-pdfs-and-email-attachments/
+  - When One Change Has to Be Made in Every System You Own | /patterns/when-one-change-has-to-be-made-in-every-system-you-own/
+  - Why Does the Same Customer Have Three Different Names in Your Systems? | /patterns/why-does-the-same-customer-have-three-different-names-in-your-systems/
 summary: Each new system that stores customer details adds another place for names, numbers and addresses to drift apart. Here is why quality decays, what it costs, and how to slow it.
 layout: plain
 ---

@@ -14,9 +14,13 @@ observable_condition: The delivery team learns what was promised during the sale
 primary_identification: A hand-over that transfers the order but not the commitments, context and expectations built up during selling.
 commercial_value_dimensions: Customer satisfaction, early-stage churn, rework cost, margin on delivered work and referral value
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/overview | https://learn.microsoft.com/en-us/dynamics365/sales/overview
-  - https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales | https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/overview | https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/overview
+  - Welcome to Dynamics 365 Sales | https://learn.microsoft.com/en-us/dynamics365/sales/overview
+  - Understand the sales process | https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales
+  - Welcome to Dynamics 365 Customer Service | https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/overview
+related:
+  - Why Signed Deals Stall Before Delivery Begins | /patterns/why-signed-deals-sit-idle-between-acceptance-and-the-first-day-of-delivery/
+  - Why Sales Forecasts Change Depending on Who You Ask | /patterns/why-the-sales-forecast-depends-on-which-person-you-ask/
+  - When the CRM Is Used as a Database Instead of an Operating System | /patterns/when-the-crm-stores-records-but-does-not-run-the-work/
 summary: Sales sells what the customer needs to hear. Delivery inherits what is on the order form. The gap between the two becomes the customer's first problem.
 layout: plain
 ---

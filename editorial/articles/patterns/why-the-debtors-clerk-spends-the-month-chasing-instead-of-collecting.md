@@ -14,9 +14,13 @@ observable_condition: The person responsible for accounts receivable spends most
 primary_identification: Reactive collections: late payment is handled one customer at a time after the due date, while the upstream causes (invoice errors, unclear terms, no approved contact) are left in place.
 commercial_value_dimensions: Cash flow, days sales outstanding, finance capacity, customer relationships and borrowing cost
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances
-  - https://learn.microsoft.com/en-us/dynamics365/finance/accounts-receivable/cm-credit-and-collections-overview | https://learn.microsoft.com/en-us/dynamics365/finance/accounts-receivable/cm-credit-and-collections-overview
-  - https://www.sars.gov.za/types-of-tax/value-added-tax/ | https://www.sars.gov.za/types-of-tax/value-added-tax/
+  - Collect outstanding balances - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances
+  - Credit and collections overview - Finance - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/finance/accounts-receivable/cm-credit-and-collections-overview
+  - Value-Added Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/
+related:
+  - Why Does Winning a Customer Create an Internal Scramble? | /patterns/why-does-winning-a-customer-create-an-internal-scramble/
+  - Why Fulfilment Problems Begin Before the Warehouse | /patterns/why-fulfilment-problems-begin-before-the-warehouse/
+  - When Finance Teams Become Data Clean-Up Teams | /patterns/when-finance-teams-become-data-clean-up-teams/
 summary: Invoices go out, payments do not come in, and the accounts receivable role turns into reminders, calls and explanations. The cause usually sits upstream of the debtor.
 layout: plain
 ---

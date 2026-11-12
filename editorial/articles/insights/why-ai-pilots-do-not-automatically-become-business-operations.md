@@ -10,9 +10,13 @@ published_date: 2026-11-12
 updated_date: 2026-11-12
 eyebrow: AI in Business Operations
 sources:
-  - https://www.nist.gov/itl/ai-risk-management-framework | https://www.nist.gov/itl/ai-risk-management-framework
-  - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy
-  - https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/machine-learning-operations-v2 | https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/machine-learning-operations-v2
+  - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
+  - AI strategy - Guidance to set your organization's AI strategy - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy
+  - Machine learning operations - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/machine-learning-operations-v2
+related:
+  - Why Software Consolidation Is an Operations Project, Not Just an IT Project | /insights/why-software-consolidation-is-an-operations-project-not-just-an-it-project/
+  - What Information Must Move With the Work? | /insights/what-information-must-move-with-the-work/
+  - Why Cheap SaaS Can Become Expensive Operations | /insights/why-cheap-saas-can-become-expensive-operations/
 summary: A successful AI pilot proves a tool can work, not that the business can run it. Here is what the pilot hides and how to plan the move into daily operation.
 layout: plain
 ---

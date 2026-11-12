@@ -13,9 +13,13 @@ commercial_domain: Security and Compliance
 primary_pain: Staff using personal email accounts for business information
 primary_cost_mechanism: Loss of control over business records, inability to retrieve or preserve email after staff leave or in a dispute, breach exposure through accounts without company security controls, personal information safeguard duties not met, and lost customer history and continuity
 sources:
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview | https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview
-  - https://learn.microsoft.com/en-us/purview/ediscovery | https://learn.microsoft.com/en-us/purview/ediscovery
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - Microsoft Entra Conditional Access: Zero Trust Policy Engine - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview
+  - Microsoft Purview eDiscovery legacy solutions | https://learn.microsoft.com/en-us/purview/ediscovery
+related:
+  - Customer Records in Salespeople's Spreadsheets: The Revenue and Continuity Cost | /impact/salespeople-personal-spreadsheets-customer-records-cost/
+  - Onboarding New Customers by Email: The Labour and Revenue Cost of a Slow Start | /impact/manual-customer-onboarding-email-checklists-revenue-delay-cost/
+  - When Customers Have to Repeat Themselves Every Time | /impact/pain-of-customers-repeating-information-disconnected-records/
 summary: When staff send and receive business information through personal email accounts, the business loses control of its own records, and the cost appears in breaches, disputes and handovers.
 layout: plain
 ---

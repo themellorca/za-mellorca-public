@@ -13,10 +13,14 @@ commercial_domain: Cloud and Data
 primary_pain: Cloud storage growing indefinitely because nobody manages retention
 primary_cost_mechanism: Rising storage and backup charges, staff time lost searching duplicate and stale files, and exposure from holding personal information longer than necessary
 sources:
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html | https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html
-  - https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview | https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview
-  - https://learn.microsoft.com/en-us/purview/retention | https://learn.microsoft.com/en-us/purview/retention
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - Managing the lifecycle of objects - Amazon Simple Storage Service | https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html
+  - Azure Blob Storage lifecycle management overview - Azure Blob Storage | https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview
+  - Learn about retention policies & labels to retain or delete | https://learn.microsoft.com/en-us/purview/retention
+related:
+  - Backups in the Same Place as the Data: The Risk of Losing Both | /impact/backups-same-environment-losing-both-copies-risk/
+  - Premium Plans for Basic Work: The Cost of Overbuying Software | /impact/premium-software-plans-basic-needs-overbuying-cost/
+  - Software Bought Without Approval: The Financial and Security Cost of Shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
 summary: When nobody sets retention rules, cloud storage grows without limit, and the business pays for capacity, backup and risk on data it no longer needs.
 layout: plain
 ---

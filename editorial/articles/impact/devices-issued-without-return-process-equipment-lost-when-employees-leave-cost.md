@@ -13,10 +13,14 @@ commercial_domain: IT Operations
 primary_pain: Devices issued to employees with no signed record or return process, so equipment is lost when they leave
 primary_cost_mechanism: Replacement purchases, staff time spent tracing equipment, unmanaged business data on missing devices, and weak evidence of safeguarding personal information
 sources:
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://learn.microsoft.com/en-us/intune/device-management/actions/retire | https://learn.microsoft.com/en-us/intune/device-management/actions/retire
-  - https://learn.microsoft.com/en-us/intune/device-management/actions/wipe | https://learn.microsoft.com/en-us/intune/device-management/actions/wipe
-  - https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices | https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - Device Action: Retire - Microsoft Intune | https://learn.microsoft.com/en-us/intune/device-management/actions/retire
+  - Wipe devices with Microsoft Intune - Microsoft Intune | https://learn.microsoft.com/en-us/intune/device-management/actions/wipe
+  - Managing deployed devices | https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices
+related:
+  - Staff Using Personal Laptops for Work: The Security and Support Cost of Inadequate Devices | /impact/staff-personal-computers-for-company-work-inadequate-business-devices-security-support-cost/
+  - Lost Laptops and Unknown Devices: What Untracked Equipment Costs | /impact/business-devices-not-tracked-lost-laptops-phones-replacement-cost/
+  - Local Administrator Rights Nobody Reviewed: The Cost of Unmanaged Devices | /impact/local-administrator-rights-unneeded-unmanaged-device-changes-support-security-cost/
 summary: When devices are handed out without a signed record or a return step, laptops and accessories walk out with leavers, and the cost lands in replacement spend, chasing time and unmanaged data.
 layout: plain
 ---

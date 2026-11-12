@@ -13,9 +13,13 @@ problem_domain: SaaS & Application Portfolio Management
 problem_owner: Head of IT or application portfolio lead
 budget_owner: CIO or CFO
 sources:
-  - https://learn.microsoft.com/en-us/purview/deploymentmodels/depmod-data-leak-shadow-ai-step1 | https://learn.microsoft.com/en-us/purview/deploymentmodels/depmod-data-leak-shadow-ai-step1
-  - https://learn.microsoft.com/en-us/security/security-for-ai/discover | https://learn.microsoft.com/en-us/security/security-for-ai/discover
-  - https://cms.law/en/zaf/legal-updates/Managing-cross-border-data-transfers | https://cms.law/en/zaf/legal-updates/Managing-cross-border-data-transfers
+  - Step 1: Discover AI apps - Prevent data leak to shadow AI | https://learn.microsoft.com/en-us/purview/deploymentmodels/depmod-data-leak-shadow-ai-step1
+  - How do I discover AI apps and the sensitive data these use in my organization? | https://learn.microsoft.com/en-us/security/security-for-ai/discover
+  - Managing cross-border data transfers | https://cms.law/en/zaf/legal-updates/Managing-cross-border-data-transfers
+related:
+  - Anyone can become a SaaS admin and nobody keeps a record | /discovery/anyone-can-become-a-saas-admin-and-nobody-keeps-a-record/
+  - Vendors change packaging and pricing faster than budgets adapt | /discovery/why-vendor-pricing-changes-outrun-software-budgets/
+  - Applications are retained because migration effort is unknown | /discovery/why-applications-stay-because-migration-effort-is-unknown/
 summary: AI tools are approved as additions, so the older tools they were meant to replace keep running. Make every request name what it replaces, set a retirement date and track overlap.
 layout: plain
 ---

@@ -13,9 +13,13 @@ commercial_domain: Business Continuity
 primary_pain: Having a recovery plan that depends on one specific employee
 primary_cost_mechanism: Extended downtime when the person is on leave, unreachable or gone, lost trading hours and revenue, idle staff wages during the outage, emergency outside support at premium rates, and lost data when recovery is improvised
 sources:
-  - https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
-  - https://learn.microsoft.com/en-us/entra/identity/authentication/concept-resilient-controls | https://learn.microsoft.com/en-us/entra/identity/authentication/concept-resilient-controls
-  - https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+  - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+  - Create a resilient access control management strategy - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/authentication/concept-resilient-controls
+  - Architecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+related:
+  - Backups Nobody Has Tested: The Cost When Recovery Fails | /impact/backups-never-tested-restore-financial-cost/
+  - Not Knowing Your Hourly Cost of Downtime | /impact/not-knowing-hourly-cost-of-downtime/
+  - The Spreadsheet Only One Person Understands: Financial and Continuity Risk | /impact/business-run-on-spreadsheet-one-person-understands-financial-continuity-risk/
 summary: If only one employee knows how to restore your systems, every outage is a gamble on that person's availability, and the cost of the gamble is paid in extended downtime.
 layout: plain
 ---

@@ -13,9 +13,13 @@ problem_domain: Integration & API Operations
 problem_owner: IT or integration manager responsible for the application estate
 budget_owner: Chief information officer, operations director or managing director
 sources:
-  - https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online | https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online
-  - https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer | https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer
-  - https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig | https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig
+  - Deprecation of Basic authentication in Exchange Online | https://learn.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online
+  - Anti-Corruption Layer Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer
+  - Strangler Fig Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig
+related:
+  - Retired applications leave their integrations still running | /discovery/retired-applications-leave-their-integrations-still-running/
+  - Why Critical Integrations Need a Named Operational Owner | /discovery/why-critical-integrations-need-a-named-operational-owner/
+  - The same customer data is integrated through several different interfaces | /discovery/why-one-customer-record-ends-up-flowing-through-many-different-connections/
 summary: The application is ready for a new release, but the connections around it are not. How to map, isolate and migrate legacy integrations so upgrades stop being a risk to everything else.
 layout: plain
 ---

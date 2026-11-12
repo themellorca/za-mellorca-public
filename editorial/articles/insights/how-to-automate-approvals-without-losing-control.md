@@ -10,9 +10,13 @@ published_date: 2026-11-12
 updated_date: 2026-11-12
 eyebrow: Workflow Automation
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/get-started-approvals | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
-  - https://www.nist.gov/itl/ai-risk-management-framework | https://www.nist.gov/itl/ai-risk-management-framework
+  - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
+related:
+  - How to Reduce Manual Status Checking | /insights/how-to-reduce-manual-status-checking-across-your-team/
+  - How to Avoid Creating a Fragile Automation Stack | /insights/how-to-avoid-creating-a-fragile-automation-stack/
+  - Before you automate, understand how the work actually moves | /insights/before-you-automate-understand-how-the-work-actually-moves/
 summary: Automating an approval should make the decision faster and better recorded, not weaker. Here is how to design approval workflows that keep real control.
 layout: plain
 ---

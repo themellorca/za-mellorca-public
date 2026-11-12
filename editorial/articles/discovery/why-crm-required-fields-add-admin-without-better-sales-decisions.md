@@ -13,9 +13,13 @@ problem_domain: Sales Operations & CRM
 problem_owner: Sales operations manager or sales director responsible for the CRM form design
 budget_owner: Sales director or managing director
 sources:
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-field-portal | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-field-portal
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-create-business-rule | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-create-business-rule
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Create and edit columns in Dataverse using Power Apps - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-field-portal
+  - Create a business rule in Microsoft Dataverse - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-create-business-rule
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - Salespeople update the CRM only before forecast meetings | /discovery/why-crm-updates-happen-only-before-forecast-meetings/
+  - Account hierarchies do not reflect real customer relationships | /discovery/why-crm-account-hierarchies-miss-how-customers-are-really-connected/
+  - Win-loss reasons in the CRM are too vague to change strategy | /discovery/win-loss-reasons-in-the-crm-are-too-vague-to-change-strategy/
 summary: Mandatory CRM fields guarantee that something is entered, not that it is true. How to decide which fields earn a place on the form before you replace or tidy your CRM.
 layout: plain
 ---
