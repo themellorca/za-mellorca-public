@@ -1,0 +1,101 @@
+---
+hub: discovery
+record_id: DISC-152
+slug: payment-reminders-sent-manually-from-individual-inboxes
+title: Payment reminders are still sent by hand from individual inboxes
+description: When each overdue reminder is typed and sent from a personal mailbox, timing depends on who is at their desk and nobody can see what a customer was told. Here is how to move reminders into the ledger and a shared address.
+lead: When each overdue reminder is typed and sent from a personal mailbox, timing depends on who is at their desk and nobody can see what a customer was told. Here is how to move reminders into the ledger and a shared address.
+category: Accounts Receivable & Collections
+published_date: 2026-11-13
+updated_date: 2026-11-13
+eyebrow: Accounts Receivable & Collections
+problem_domain: Accounts Receivable & Collections
+problem_owner: Credit controller or finance manager
+budget_owner: Financial director or CFO
+sources:
+  - https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances
+  - https://learn.microsoft.com/en-us/dynamics365/business-central/finance-automate-reminders | https://learn.microsoft.com/en-us/dynamics365/business-central/finance-automate-reminders
+  - https://learn.microsoft.com/en-us/microsoft-365/admin/email/about-shared-mailboxes | https://learn.microsoft.com/en-us/microsoft-365/admin/email/about-shared-mailboxes
+summary: When each overdue reminder is typed and sent from a personal mailbox, timing depends on who is at their desk and nobody can see what a customer was told. Here is how to move reminders into the ledger and a shared address.
+layout: plain
+---
+In many South African businesses with a few hundred active customers, the overdue list is printed or exported on a Monday morning. The credit controller works down it, opens Outlook, finds the last invoice email, types a polite note and attaches a statement. On a good week every overdue account hears from the business. On a week with a VAT submission, a month-end close or a sick day, half the list is skipped and nobody notices until cash comes in short.
+
+The reminders do go out, so the process looks as if it works. But each one lives in one person's sent items, the timing depends on who had time, and the wording depends on who wrote it. When a customer disputes what they were told, or a director asks how many times a large debtor has been chased, the answer has to be pieced together from inboxes.
+
+## The problem in plain language
+
+A payment reminder is a simple message: this invoice is due or overdue, here is the amount, here is how to pay. Most accounting systems can produce and send one. Yet in a great many businesses the reminder is still a manual email written by a person, sent from that person's own mailbox, on a day that person chooses.
+
+The symptoms are familiar. Some customers get three reminders in a week and others none for a month. A reminder goes to a customer who paid yesterday because nobody checked the bank first. A new credit clerk uses a sharper tone than the old one. When the person who sends the reminders resigns, their mailbox, and the history of every conversation in it, goes with them or sits in an archive nobody searches.
+
+## What the buyer is actually trying to solve
+
+A finance manager searching for this problem rarely uses the words "dunning automation". They ask how to stop chasing customers by hand, how to make sure every overdue invoice gets a reminder on time, and how to see what each customer was told without asking the credit controller. Underneath those questions is a cash question: invoices that are reminded on time are paid sooner, and the business needs that cash.
+
+The outcome they want is a reminder process that runs on a schedule whether or not a particular person is in the office, that sends from an address the customer recognises as the business rather than an individual, and that leaves a record against the customer account showing what was sent and when.
+
+## Evidence and system mechanism
+
+### Accounting systems already model reminder stages
+
+Microsoft's documentation for Business Central on [collecting outstanding balances](https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances) shows how a mid-market accounting system treats reminders. Reminder terms are set up and assigned to customers. Each term has levels, and each level carries rules about when the reminder is issued, what fees apply and whether interest is calculated. Levels include a grace period so that a reminder is not sent for a bill the customer has already paid. Entries placed on hold, for example because of a dispute, do not prompt a reminder by themselves. When a reminder is issued, an entry is recorded against the customer ledger entry it relates to.
+
+The same page notes that it describes a mostly manual process, and points to a separate feature for automation. The guidance on [automating reminders in collections](https://learn.microsoft.com/en-us/dynamics365/business-central/finance-automate-reminders) describes creating, issuing and sending reminders as steps that run through a job queue on a weekly, monthly or custom cadence, with filters by reminder term, a log of every run and the option to attach overdue invoices as PDFs. Other accounting products used by South African businesses offer comparable features under different names; check your own system's documentation for its exact behaviour.
+
+### Shared mailboxes keep the conversation with the business
+
+The second half of the mechanism is where replies land. Microsoft's guidance on [shared mailboxes in Microsoft 365](https://learn.microsoft.com/en-us/microsoft-365/admin/email/about-shared-mailboxes) describes them as the right tool when several people need access to the same mailbox, such as a support address, and notes that permitted users can send as or on behalf of the shared mailbox. A shared mailbox does not need its own licence below 50 GB, supports up to 25 users, and should never be signed into directly. One limitation matters for finance teams: users cannot be prevented from deleting messages in a shared mailbox, so the mailbox is not a substitute for a record in the ledger.
+
+Put together, the mechanism is clear. The accounting system knows which invoices are overdue, which are on hold and which have been paid, and can schedule and record reminders. A shared address keeps customer replies visible to the whole team. When reminders are typed by hand from personal mailboxes, both of those capabilities are bypassed.
+
+## Why this becomes urgent
+
+Cash-flow pressure is the usual trigger. When a large customer pays late, a loan covenant tightens or the business takes on a big order that needs working capital, the directors look at the debtors book and ask why so much is overdue. The answer is often that reminders were late or missing for accounts nobody had time to reach.
+
+Staff change is the other trigger. When the one person who knew which customers to chase and how leaves or goes on leave, follow-up stops. That pattern is covered in more depth in [why collections follow-up changes whenever the credit controller is away](/discovery/why-collections-follow-up-changes-whenever-the-credit-controller-is-away/).
+
+## Economic consequence
+
+- **Slower cash.** Invoices that are not reminded on time tend to be paid later, which lengthens the time between invoicing and cash in the bank.
+- **Labour spent on routine messages.** Hours each week go on writing near-identical emails that a system could send.
+- **Customer friction.** Reminders to customers who have paid, inconsistent tone and duplicate messages damage relationships, as described in [why paying customers still get overdue invoice reminders](/discovery/why-paying-customers-still-get-overdue-invoice-reminders/).
+- **Weak evidence.** When an account goes to a collections agent or attorney, the business needs to show what was sent and when. Searching personal inboxes for that evidence is slow and incomplete.
+
+As an illustration only, a credit controller who spends six hours a week sending routine reminders spends roughly three hundred hours a year on work that a configured schedule could do, time that could go to the accounts that need a phone call.
+
+## Root cause
+
+The root cause is usually not a lack of software. It is that reminder terms were never set up properly in the accounting system, customers were never assigned to them, or the business never trusted the system's view of what is overdue. Payments are allocated late, disputes are not flagged, and so the system would send reminders to the wrong people. Staff then fall back on their own judgement and their own inbox, which works until volume grows.
+
+A second cause is that nobody owns the reminder process as a process. The credit controller owns the task of chasing, but nobody owns the rules: how many stages, at what intervals, with what wording, sent from which address, and with which exceptions.
+
+## Practical next actions
+
+1. **Write down the reminder stages you actually want.** For example, a courtesy note before the due date, a first reminder a few days after, a firmer reminder later and a final notice before the account is escalated. Agree the timing and wording with the financial director and sales.
+2. **Clean up payment allocation first.** Make sure receipts are allocated to invoices daily, so that the system's overdue list is trustworthy before it sends anything.
+3. **Use the hold or dispute flag.** Agree who may place an invoice on hold, and make it a rule that disputed invoices are flagged in the system so they are excluded from automatic reminders.
+4. **Set up reminder terms and assign every customer.** Configure the stages in your accounting system, with grace periods, and assign each customer to the right term. Key accounts can have a separate term that alerts the account manager instead of emailing the customer.
+5. **Send from a shared collections address.** Create a shared mailbox such as accounts@ for outgoing reminders and customer replies, with access for everyone in credit control, and block direct sign-in to it.
+6. **Run the schedule and review exceptions.** Let the system create and send reminders on a fixed cadence, and have the credit controller review the run log and the replies rather than writing messages.
+7. **Measure the effect.** Track overdue balances by age band and the share of overdue invoices that received a reminder on time, month by month.
+
+## Diagnostic questions
+
+- If the credit controller were away for two weeks, would any reminders go out?
+- Can you see, on the customer account, every reminder sent in the last six months?
+- How many reminders last month went to customers who had already paid or were in dispute?
+- Are reminder stages and wording written down and agreed, or do they live in one person's head?
+- Do customer replies go to a shared address the whole team can see?
+
+## What good looks like
+
+Every customer is assigned to a reminder term. Receipts are allocated daily, and disputes are flagged in the system. Reminders are created and sent on schedule from a shared address, with a record on each customer account. The credit controller spends time on the exceptions that need judgement, using a view like the one described in [collections teams chase customers without a priority queue](/discovery/collections-teams-chase-customers-without-a-priority-queue/), and the financial director can see at any moment what each overdue customer has been told.
+
+## Where Mellorca fits
+
+To set up reminder terms, payment allocation rules and the run schedule in your accounting system, [business automation and AI workflows](/services/business-automation-ai-workflows/) can configure and test the automation with your finance team. To agree the stages, ownership and exception rules across finance and sales, [digital operations improvement](/services/digital-operations-improvement/) can design the process and help it stick.
+
+## Method note
+
+This article uses Microsoft documentation for Business Central and Microsoft 365 to illustrate how reminder terms, reminder automation and shared mailboxes work. Other accounting and email products have comparable features with different names and limits, so check your own vendor's documentation. The time figure is illustrative, not measured. Interest and fees on overdue accounts are subject to your contracts and to South African law, so take advice before adding charges to reminders.
