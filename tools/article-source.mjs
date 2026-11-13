@@ -157,6 +157,24 @@ export function validateArticle(meta, file = 'article') {
   }
 }
 
+// Mirrors COMMON_WORDS and title_case_word() in tools/mellorca-controller/editorial_synthesis.py.
+const DESCRIPTION_CHARS = 160;
+const COMMON_WORDS = new Set(`a about after all an and are as at be because before between but by can cannot cost costs do does
+every for from get gets has have how in into is it its keep keeps make makes more no nobody not of on one only or
+other own same should still than that the their them they this through to too up what when where which while who
+why will with without work works you your`.split(/\s+/));
+
+export function titleCaseWord(title) {
+  let start = true;
+  for (const token of title.split(/\s+/).filter(Boolean)) {
+    const word = token.replace(/[^A-Za-z]/g, '');
+    if (/^["“‘]/.test(token)) start = true; // a quoted phrase starts with a capital
+    if (!start && /^[A-Z]/.test(word) && COMMON_WORDS.has(word.toLowerCase()) && word !== word.toUpperCase()) return word;
+    start = /[:?!]["”’)]?$/.test(token);
+  }
+  return '';
+}
+
 // layout: plain (W2 slice 5c) is the older page layout: no side card, a hub-only
 // breadcrumb, a <p> eyebrow and a byline of the publisher and the ISO date.
 const PLAIN_EXCLUDES = ['tags', 'cta_label', 'cta_href', 'side_title', 'side_text', 'side_notes', 'side_text_position', 'byline_category'];
@@ -381,8 +399,13 @@ export function renderArticlePage(meta, bodyHtml, tailHtml = '') {
   const related = meta.related
     ? `<h2>Related Mellorca reading</h2><ul>${meta.related.map(parseSource).map(({ label, url: href }) => `<li><a href="${escapeHtml(href)}">${escapeHtml(label)}</a></li>`).join('')}</ul>`
     : '';
+  // The summary text only shows when it says something the lead under the headline does not; most sources repeat
+  // the lead word for word, and then the box keeps only its two calls to action.
+  const sameText = (a, b) => String(a || '').replace(/\s+/g, ' ').trim().toLowerCase() === String(b || '').replace(/\s+/g, ' ').trim().toLowerCase();
+  const summaryText = meta.summary && !sameText(meta.summary, meta.lead)
+    ? `<strong>Article summary</strong><span class="muted">${escapeHtml(meta.summary)}</span>` : '';
   const summary = meta.summary
-    ? `<div class="callout"><strong>Article summary</strong><span class="muted">${escapeHtml(meta.summary)}</span><div class="tag-row">`
+    ? `<div class="callout">${summaryText}<div class="tag-row">`
       + '<a class="btn btn-secondary" href="/solutions/">Explore our solutions</a><a class="btn btn-primary" href="/contact/">Start a conversation</a></div></div>'
     : '';
   // sources_heading keeps an older page's own heading (W2 slice 5d); related_position: before_sources
@@ -413,7 +436,7 @@ export function renderArticlePage(meta, bodyHtml, tailHtml = '') {
     + '</main><div data-site-footer></div><script src="/assets/js/site.js" defer></script></body></html>\n';
 }
 
-// IMPROVEMENTS #13: the lead sits directly above the body, so a first paragraph that
+// The lead sits directly above the body, so a first paragraph that
 // restates it reads as a stutter. Overlap is the share of the smaller word set found in the other.
 export function leadOverlap(lead, body) {
   const firstParagraph = body.trim().split(/\n\s*\n/).find(block => !/^\s*([#>|*-]|\d+\.)/.test(block)) || '';

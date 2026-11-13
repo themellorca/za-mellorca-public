@@ -196,7 +196,7 @@ const htmlCount = validateSourceAndBuiltHtml();
 validateCsp();
 validateFunctionRouting();
 validateDeterminism();
-// IMPROVEMENTS #259: the site feed and one feed per hub must exist and be well-formed XML.
+// The site feed and one feed per hub must exist and be well-formed XML.
 function assertWellFormedXml(label, xml) {
   if (!xml.startsWith('<?xml version="1.0" encoding="UTF-8"?>')) fail(`${label}: missing XML declaration`);
   const stack = [];

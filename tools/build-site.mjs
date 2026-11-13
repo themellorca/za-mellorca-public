@@ -11,6 +11,8 @@ import { resolve, relative, join, sep } from 'node:path';
 import process from 'node:process';
 import { fileURLToPath } from 'node:url';
 import { renderLayout } from './site-layout.mjs';
+import { renderSeo } from './site-seo.mjs';
+import { topicLinker } from './topic-pages.mjs';
 import { createHash } from 'node:crypto';
 
 export function sharedAssetUrls(directory) {
@@ -82,6 +84,13 @@ function inject(html) {
     .replace(/<body\b[^>]*>/i, (tag) => `${tag}\n${GTM_BODY}`);
 }
 
+// Article sources carry an editorial provenance comment (record ids, source file
+// paths, workflow fields). Tooling reads it from website/, but visitors should
+// never see it in the deployed page source, so it is removed at build time only.
+export function stripProvenance(html) {
+  return html.replace(/<!--(?:(?!-->)[\s\S])*?"?content_type"?\s*:(?:(?!-->)[\s\S])*-->/g, '');
+}
+
 function assertBuiltPage(file, html) {
   const checks = [
     [GTM_CONTAINER_ID, 2],
@@ -106,7 +115,7 @@ function assertBuiltPage(file, html) {
   }
 }
 
-// IMPROVEMENTS #258: give every sitemap URL a <lastmod> taken from the page's own
+// Give every sitemap URL a <lastmod> taken from the page's own
 // updated_date (provenance comment or front-matter render), at build time only,
 // so the source sitemap that batch PRs edit stays a plain list of URLs.
 export function sitemapWithLastmod(sitemapXml, pageFor) {
@@ -117,7 +126,7 @@ export function sitemapWithLastmod(sitemapXml, pageFor) {
   });
 }
 
-// IMPROVEMENTS #259: RSS 2.0 feeds per hub and site-wide, built from each article's
+// RSS 2.0 feeds per hub and site-wide, built from each article's
 // own title, description and datePublished. Dates come from the pages, so two builds
 // of the same source produce identical feeds.
 export const FEED_HUBS = { insights: 'Insights', impact: 'Impact', patterns: 'Patterns', discovery: 'Discovery', moments: 'Moments' };
@@ -199,6 +208,7 @@ export function buildSite({ sourceDirectory = 'website', outputDirectory = 'dist
   const sourceHtmlFiles = listFiles(source).filter((file) => file.toLowerCase().endsWith('.html'));
   if (sourceHtmlFiles.length === 0) throw new Error('No HTML files found in website source');
   const assets = sharedAssetUrls(source);
+  const linkTopics = topicLinker(source);
 
   for (const sourceFile of sourceHtmlFiles) {
     const rel = relative(source, sourceFile);
@@ -206,7 +216,7 @@ export function buildSite({ sourceDirectory = 'website', outputDirectory = 'dist
     const html = readFileSync(sourceFile, 'utf8');
     assertSourceIsClean(rel, html);
     const route = '/' + rel.split(sep).join('/').replace(/index\.html$/, '');
-    let built = inject(renderLayout(html, route));
+    let built = inject(renderSeo(linkTopics(renderLayout(stripProvenance(html), route), route), route));
     for (const [path, versioned] of assets) {
       built = built.replaceAll(`"${path}"`, `"${versioned}"`);
     }

@@ -82,6 +82,22 @@ test('JSON acknowledgement follows upstream acceptance and forwards normalized f
   assert.ok(Number.isFinite(Date.parse(payload.receivedAt)));
 });
 
+test('buyer context fields are forwarded, trimmed and optional', async t => {
+  const upstream = intercept(t);
+  const context = { industry: ' logistics-transport ', company_size: '51-200', role: 'operations', referral: 'article', briefing: 'yes' };
+  await onRequestPost({ request: request(JSON.stringify({ ...enquiry, ...context })), env });
+  const payload = JSON.parse(upstream.mock.calls[0].arguments[1].body);
+  assert.equal(payload.industry, 'logistics-transport');
+  assert.equal(payload.companySize, '51-200');
+  assert.equal(payload.role, 'operations');
+  assert.equal(payload.referral, 'article');
+  assert.equal(payload.briefing, true);
+  await onRequestPost({ request: request(), env });
+  const bare = JSON.parse(upstream.mock.calls[1].arguments[1].body);
+  assert.equal(bare.industry, '');
+  assert.equal(bare.briefing, false);
+});
+
 test('native URL-encoded and multipart forms redirect only after upstream acceptance', async t => {
   const upstream = intercept(t);
   const encoded = request(new URLSearchParams(enquiry), 'application/x-www-form-urlencoded', 'text/html');

@@ -1,3 +1,4 @@
+import {deliver} from '../_lib/delivery.js';
 const jsonHeaders={"content-type":"application/json; charset=utf-8","cache-control":"no-store"};
 const respond=(status,body)=>new Response(JSON.stringify(body),{status,headers:jsonHeaders});
 const text=(value,max)=>typeof value==='string'?value.trim().slice(0,max):'';
@@ -20,7 +21,6 @@ function pagePath(input,request){
   return '';
 }
 
-// Briefing sign-ups use the same delivery webhook as enquiries unless a separate one is set.
 export async function onRequestPost({request,env}){
   let input;
   try{input=await readInput(request);}catch{return respond(400,{message:'The sign-up could not be read.'});}
@@ -29,13 +29,11 @@ export async function onRequestPost({request,env}){
   const payload={type:'briefing-signup',email:text(input.email,160),industry:text(input.industry,120),role:text(input.role,120),page:pagePath(input,request),source:'mellorca.com',receivedAt:new Date().toISOString()};
   if(!validEmail(payload.email)) return respond(400,{message:'Please enter a valid email address.'});
   const webhook=env.SUBSCRIBE_WEBHOOK_URL||env.CONTACT_WEBHOOK_URL;
-  if(!webhook) return respond(503,{message:'Sign-up is not available yet. Your email has not been saved.'});
-  const headers={"content-type":"application/json","accept":"application/json"};
-  const auth=env.SUBSCRIBE_WEBHOOK_URL?env.SUBSCRIBE_WEBHOOK_AUTH:env.CONTACT_WEBHOOK_AUTH;
-  if(auth) headers.authorization=auth;
-  let upstream;
-  try{upstream=await fetch(webhook,{method:'POST',headers,body:JSON.stringify(payload)});}catch{return respond(502,{message:'Sign-up is temporarily unavailable. Please try again later.'});}
-  if(!upstream.ok) return respond(502,{message:'Sign-up is temporarily unavailable. Please try again later.'});
+  const webhookAuth=env.SUBSCRIBE_WEBHOOK_URL?env.SUBSCRIBE_WEBHOOK_AUTH:env.CONTACT_WEBHOOK_AUTH;
+  // Sign-ups are stored; the owner is emailed per sign-up only when NOTIFY_SIGNUPS is set.
+  const result=await deliver(env,'briefing-signup',payload,{webhook,webhookAuth,notify:Boolean(env.NOTIFY_SIGNUPS)});
+  if(!result.configured) return respond(503,{message:'Sign-up is not available yet. Your email has not been saved.'});
+  if(!result.delivered) return respond(502,{message:'Sign-up is temporarily unavailable. Please try again later.'});
   const accepts=request.headers.get('accept')||'';
   if(!accepts.includes('application/json')) return Response.redirect(new URL('/briefing/thank-you/',request.url),303);
   return respond(200,{ok:true});

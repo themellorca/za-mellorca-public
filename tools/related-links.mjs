@@ -1,4 +1,4 @@
-// IMPROVEMENTS #256: give every article source without a `related` list three
+// Give every article source without a `related` list three
 // "Related Mellorca reading" links, chosen from the other article sources by
 // shared words in title, category, tags and description, preferring the same
 // hub and category. Sources that already have `related` are left alone, so

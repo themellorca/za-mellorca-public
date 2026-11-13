@@ -48,6 +48,46 @@
     });
   }
 
+  // Article libraries: keyword search and topic filter over the static card list.
+  const hubPath=/^\/(insights|impact|patterns|discovery|moments)\/$/.test(window.location.pathname||'');
+  const hubCards=hubPath?[...document.querySelectorAll('main .card-link')]:[];
+  if(hubCards.length>12){
+    const topicOf=card=>(card.querySelector('.kicker')?.textContent||'').trim();
+    const counts=new Map();
+    hubCards.forEach(card=>{const t=topicOf(card);if(t) counts.set(t,(counts.get(t)||0)+1);});
+    const bar=document.createElement('div');
+    bar.className='hub-filter';
+    bar.innerHTML='<div class="field"><label for="hub-search">Search this library</label><input id="hub-search" type="search" placeholder="Try invoices, onboarding or reporting" autocomplete="off"></div><div class="field"><label for="hub-topic">Topic</label><select id="hub-topic"><option value="">All topics</option></select></div><p class="hub-count" aria-live="polite"></p>';
+    const select=bar.querySelector('#hub-topic');
+    [...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).forEach(([topic,n])=>{
+      const option=document.createElement('option');
+      option.value=topic;option.textContent=topic+' ('+n+')';
+      select.appendChild(option);
+    });
+    const search=bar.querySelector('#hub-search');
+    const count=bar.querySelector('.hub-count');
+    const apply=()=>{
+      const words=search.value.toLowerCase().split(/\s+/).filter(Boolean);
+      const topic=select.value;
+      let shown=0;
+      hubCards.forEach(card=>{
+        const text=card.textContent.toLowerCase();
+        const match=(!topic||topicOf(card)===topic)&&words.every(w=>text.includes(w));
+        card.hidden=!match;
+        if(match) shown++;
+      });
+      count.textContent=shown===hubCards.length?hubCards.length+' articles':'Showing '+shown+' of '+hubCards.length+' articles';
+    };
+    search.addEventListener('input',apply);
+    select.addEventListener('change',apply);
+    hubCards[0].parentElement.before(bar);
+    // ?q= and ?topic= let emails and other pages link to a filtered view.
+    const preset=new URLSearchParams(window.location.search);
+    search.value=preset.get('q')||'';
+    if(counts.has(preset.get('topic'))) select.value=preset.get('topic');
+    apply();
+  }
+
   const params=new URLSearchParams(window.location.search);
   const intent=params.get('intent');
   const intentSelect=document.querySelector('[name="intent"]');
@@ -55,6 +95,50 @@
     const match=[...intentSelect.options].find(o=>o.value===intent);
     if(match) intentSelect.value=intent;
   }
+
+  // Readiness checklist: live score and a print button.
+  const readiness=document.querySelector('[data-readiness]');
+  if(readiness){
+    const boxes=[...readiness.querySelectorAll('input[type="checkbox"]')];
+    const score=readiness.querySelector('[data-readiness-score]');
+    const note=readiness.querySelector('[data-readiness-note]');
+    function update(){
+      const n=boxes.filter(b=>b.checked).length;
+      if(score) score.textContent=String(n);
+      const d=readiness.dataset;
+      if(note) note.textContent=n>=17?(d.noteHigh||'A strong foundation. Automation is likely to pay off quickly.'):n>=11?(d.noteMid||'Some gaps worth fixing before you automate.'):n>0?(d.noteLow||'Your systems are probably costing time every week. A diagnosis will show where to start.'):'Tick each statement that is true for your business today.';
+    }
+    readiness.addEventListener('change',update);
+    readiness.addEventListener('submit',e=>e.preventDefault());
+    const print=readiness.querySelector('[data-print]');
+    if(print) print.addEventListener('click',()=>window.print());
+  }
+
+  document.querySelectorAll('[data-signup-form]').forEach(signup=>{
+    const note=signup.querySelector('[data-form-status]');
+    const button=signup.querySelector('button[type="submit"]');
+    const page=signup.querySelector('[name="page"]');
+    if(page) page.value=window.location.pathname||page.value;
+    let busy=false;
+    signup.addEventListener('submit',async(event)=>{
+      event.preventDefault();
+      if(busy||!signup.reportValidity()) return;
+      busy=true;
+      if(button){button.disabled=true;button.textContent='Signing up…';}
+      try{
+        const response=await fetch('/api/subscribe',{method:'POST',headers:{'content-type':'application/json','accept':'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(signup).entries()))});
+        const data=await response.json().catch(()=>({}));
+        if(!response.ok||data?.ok!==true) throw new Error(data?.message||'Sign-up could not be confirmed. Please try again later.');
+        signup.reset();
+        if(note){note.textContent='Thank you. You are signed up for The Mellorca Briefing.';note.className='form-status is-visible success';}
+      }catch(error){
+        if(note){note.textContent=error instanceof TypeError ? 'Sign-up could not be confirmed. Please try again later.' : error.message;note.className='form-status is-visible error';}
+      }finally{
+        busy=false;
+        if(button){button.disabled=false;button.textContent='Get the briefing';}
+      }
+    });
+  });
 
   const form=document.querySelector('[data-contact-form]');
   if(!form) return;

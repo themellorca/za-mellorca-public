@@ -3,7 +3,7 @@ import { test } from 'node:test';
 import { cpSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { renderArticleSource, renderMarkdown } from './article-source.mjs';
+import { renderArticleSource, renderMarkdown, titleCaseWord } from './article-source.mjs';
 import { renderArticles } from './render-articles.mjs';
 import { buildSite } from './build-site.mjs';
 import { canonicalBody, extractArticle, extractHub, parseHtml, parseProvenance } from './extract-article-source.mjs';
@@ -13,7 +13,7 @@ const fixture = `---
 hub: discovery
 record_id: DISC-900
 slug: why-test-articles-render-from-markdown
-title: Why Test Articles Render From Markdown
+title: Why test articles render from Markdown
 description: A fixture proving that Markdown article sources render into canonical hub pages.
 lead: Article sources keep content as data so hubs, sitemaps and structured data can be generated.
 category: Integration & API Operations
@@ -62,6 +62,13 @@ test('article source renders the canonical hub page with metadata and JSON-LD', 
   assert.match(html, /&lt;script&gt;alert\(1\)&lt;\/script&gt;/);
 });
 
+test('sentence-case titles keep proper nouns, acronyms and capitals after a colon', () => {
+  assert.equal(titleCaseWord('Why Power BI reports drift: What finance should check'), '');
+  assert.equal(titleCaseWord('A guide to SARS eFiling for SMEs'), '');
+  assert.equal(titleCaseWord('When "The system won’t let me" becomes the answer'), '');
+  assert.equal(titleCaseWord('Why Approvals Stall When Nobody Owns Them'), 'When');
+});
+
 for (const [label, mutate, expected] of [
   ['missing sources', text => text.replace(/sources:\n(  - .*\n)+/, ''), /missing required front-matter key: sources/],
   ['unknown key', text => text.replace('hub: discovery', 'hub: discovery\nauthor: x'), /unknown front-matter key: author/],
@@ -92,6 +99,13 @@ for (const [label, mutate, expected] of [
 
 const migratedFixture = fixture.replace('hub: discovery', 'hub: discovery\neditorial_system: commercial-problem-intelligence\nproblem_owner: Integration Lead')
   .replace('sources:', 'related:\n  - Rate limits in practice | /patterns/signs-your-business-needs-an-operating-system-not-another-app/\n  - /services/systems-implementation-integration/\nsummary: Rate limits cause intermittent failures; pace and queue requests.\nsources:');
+
+test('a summary that repeats the lead keeps the calls to action but not the repeated text', () => {
+  const lead = fixture.match(/^lead: (.*)$/m)[1];
+  const { html } = renderArticleSource(fixture.replace('sources:', `summary: ${lead}\nsources:`), 'fixture.md');
+  assert.match(html, /<div class="callout"><div class="tag-row"><a class="btn btn-secondary" href="\/solutions\/">Explore our solutions<\/a><a class="btn btn-primary" href="\/contact\/">Start a conversation<\/a><\/div><\/div>/);
+  assert.doesNotMatch(html, /Article summary/);
+});
 
 test('provenance fields, related reading and summary callout carry over from existing pages', () => {
   const { html } = renderArticleSource(migratedFixture, 'fixture.md');
@@ -186,7 +200,7 @@ test('render adds hub listing cards newest first, once, and check fails while on
   writeHub(siteRoot);
   assert.equal(renderArticles({ sourceRoot, siteRoot }).hubsUpdated, 1);
   const once = readFileSync(hub, 'utf8');
-  assert.match(once, /<div class="grid grid-2"><a class="card card-link" href="\/discovery\/newer-test-article\/"><span class="kicker">Data &amp; &lt;Reporting&gt;<\/span><h3>Why Test Articles Render From Markdown<\/h3><p>A fixture proving/);
+  assert.match(once, /<div class="grid grid-2"><a class="card card-link" href="\/discovery\/newer-test-article\/"><span class="kicker">Data &amp; &lt;Reporting&gt;<\/span><h3>Why test articles render from Markdown<\/h3><p>A fixture proving/);
   assert.ok(once.indexOf('/discovery/newer-test-article/') < once.indexOf('/discovery/why-test-articles-render-from-markdown/'), 'newest first');
   assert.ok(once.indexOf('/discovery/why-test-articles-render-from-markdown/') < once.indexOf('/discovery/older/'), 'existing cards stay below');
   assert.equal(renderArticles({ sourceRoot, siteRoot }).hubsUpdated, 0);
@@ -215,12 +229,12 @@ test('a rendered article passes the production build and front-end quality gate'
   assert.doesNotThrow(() => validateSiteQuality(output));
 }));
 
-const handAuthored = body => '<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Signs Of A Test Pattern | Mellorca Patterns</title>'
+const handAuthored = body => '<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Signs of a test pattern | Mellorca Patterns</title>'
   + '<meta name="description" content="A hand-authored fixture page &amp; its metadata."></head><body data-current="patterns"><!--\n'
   + 'content_type: pattern\neditorial_system: mellorca-pattern-engine\ntopic_id: PAT-901\npattern_family: Data & Reporting\n'
   + 'published_date: 2026-09-01\nupdated_date: 2026-09-02\nsources:\n  - https://example.org/a\nrelated_impact: []\n-->'
   + '<main id="main"><section class="detail-hero"><div class="shell"><div class="breadcrumbs"><a href="/patterns/">Patterns</a><span>›</span>Data &amp; Reporting</div>'
-  + '<div class="eyebrow">PAT-901 · Pattern</div><h1>Signs Of A Test Pattern</h1><p class="lead">The standfirst.</p>'
+  + '<div class="eyebrow">PAT-901 · Pattern</div><h1>Signs of a test pattern</h1><p class="lead">The standfirst.</p>'
   + '<div class="detail-meta"><span>Mellorca Patterns</span><span>·</span><span>Data &amp; Reporting</span><span>·</span><span>1 September 2026</span></div></div></section>'
   + `<article class="prose">${body}<h2>Sources and further reading</h2><ul><li><a href="https://example.org/a">Example &amp; Co — A</a></li></ul>`
   + '<h2>Related Mellorca reading</h2><ul><li><a href="/insights/some-article/">Some Article</a></li></ul>'
@@ -439,7 +453,7 @@ test('every live page that extracts cleanly renders as a valid source', () => {
   }
 });
 
-test('a first paragraph that repeats the lead fails the render (IMPROVEMENTS #13)', async () => {
+test('a first paragraph that repeats the lead fails the render', async () => {
   const { leadOverlap } = await import('./article-source.mjs');
   const lead = 'Late invoices drain cash before anyone notices the pattern.';
   assert.ok(leadOverlap(lead, `${lead}\n\nSecond paragraph.`) > 0.7);
