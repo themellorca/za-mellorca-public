@@ -13,10 +13,14 @@ problem_domain: Quote-to-Cash & Revenue Operations
 problem_owner: Revenue operations or sales operations lead
 budget_owner: CRO, CFO or COO
 sources:
-  - https://learn.microsoft.com/en-us/training/modules/set-up-order-cash-supply-chain-management/order-promising | https://learn.microsoft.com/en-us/training/modules/set-up-order-cash-supply-chain-management/order-promising
+  - Order promising concepts - Training | https://learn.microsoft.com/en-us/training/modules/set-up-order-cash-supply-chain-management/order-promising
   - https://www.sars.gov.za/legal-intr-in-31-documentary-proof-required-for-the-zero-rating-of-goods-or-services/ | https://www.sars.gov.za/legal-intr-in-31-documentary-proof-required-for-the-zero-rating-of-goods-or-services/
   - https://thesait.org.za/wp-content/uploads/2025/04/SAIT-Slides-Cross-border-supplies.pdf | https://thesait.org.za/wp-content/uploads/2025/04/SAIT-Slides-Cross-border-supplies.pdf
-  - https://www.sars.gov.za/businesses-and-employers/tax-invoices/ | https://www.sars.gov.za/businesses-and-employers/tax-invoices/
+  - Tax Invoices - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/tax-invoices/
+related:
+  - Why revenue leakage only shows up at month-end reconciliation | /discovery/why-revenue-leakage-only-shows-up-at-month-end-reconciliation/
+  - When every sales team builds its own version of the same product bundle | /discovery/when-every-sales-team-builds-its-own-product-bundle/
+  - Why sales quotes have to be re-keyed before an order can start | /discovery/why-sales-quotes-have-to-be-re-keyed-before-orders/
 summary: Sales quote delivery dates from a lead-time table or a guess, so export orders miss them. Check dates against stock, capacity and transport, and promise only what can be kept.
 layout: plain
 ---

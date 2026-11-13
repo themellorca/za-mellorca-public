@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: CRM Operations
 sources:
-  - https://sre.google/sre-book/monitoring-distributed-systems/ | https://sre.google/sre-book/monitoring-distributed-systems/
-  - https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications | https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications
-  - https://learn.microsoft.com/en-us/azure/architecture/patterns/retry | https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
+  - Google SRE monitoring ditributed system - sre golden signals | https://sre.google/sre-book/monitoring-distributed-systems/
+  - Send In-App Notifications Within Model-Driven Apps - Power Apps | https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications
+  - Retry pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
+related:
+  - How to Keep a CRM Clean After the Cleanup Project Ends | /insights/how-to-keep-a-crm-clean-after-the-cleanup-project-ends/
+  - How to Reduce Manual Customer Follow-Up | /insights/how-to-reduce-manual-customer-follow-up-rules-sequences-and-stop-conditions/
+  - What Data Should Be Required at the Point of Capture? | /insights/what-data-should-be-required-at-the-point-of-capture-and-what-can-wait/
 summary: When the CRM pings people about every field change, they stop reading any of it, including the alert about a key customer. Here is how to audit CRM notifications and keep only the ones that prompt action.
 layout: plain
 ---

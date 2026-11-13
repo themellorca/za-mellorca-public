@@ -13,9 +13,13 @@ problem_domain: Business Continuity & Resilience
 problem_owner: Business continuity or IT service management lead
 budget_owner: COO, CIO or CFO
 sources:
-  - https://learn.microsoft.com/en-us/azure/service-health/alerts-activity-log-service-notifications-portal | https://learn.microsoft.com/en-us/azure/service-health/alerts-activity-log-service-notifications-portal
-  - https://www.cisa.gov/stopransomware/ransomware-guide | https://www.cisa.gov/stopransomware/ransomware-guide
+  - Create Service Health alerts for Azure service notifications - Azure Service Health | https://learn.microsoft.com/en-us/azure/service-health/alerts-activity-log-service-notifications-portal
+  - #StopRansomware Guide - CISA | https://www.cisa.gov/stopransomware/ransomware-guide
   - https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf | https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf
+related:
+  - Recovery environments drift from production | /discovery/why-recovery-environments-quietly-drift-away-from-production/
+  - Recovery only works while one specialist is reachable | /discovery/recovery-only-works-while-one-specialist-is-reachable/
+  - Third-party recovery commitments are not linked to contracts | /discovery/when-a-suppliers-recovery-promise-is-not-written-into-your-contract/
 summary: Recovery contact lists still name data-centre vendors and departed staff, while cloud provider alerts go to whoever signed up. Rebuild the tree around the new estate and test it by calling.
 layout: plain
 ---

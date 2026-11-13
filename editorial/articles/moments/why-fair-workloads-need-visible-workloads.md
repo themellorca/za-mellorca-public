@@ -15,9 +15,13 @@ human_dividend: Predictability: a shared, simple view of who is working on what,
 trade_off: Tracking work takes effort and can feel like surveillance; visible workloads may expose uncomfortable differences; some work is hard to size; a view is useless if managers do not act on it.
 epistemic_state: HYPOTHESISED: reasoned from general research on workload and organisational interventions, not from a study of South African teams; the example is hypothetical.
 sources:
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
-  - https://www.hse.gov.uk/stress/causes.htm | https://www.hse.gov.uk/stress/causes.htm
-  - https://www.who.int/publications/i/item/9789240053052 | https://www.who.int/publications/i/item/9789240053052
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Work-related stress and how to manage it - HSE | https://www.hse.gov.uk/stress/causes.htm
+  - Guidelines on mental health at work | https://www.who.int/publications/i/item/9789240053052
+related:
+  - The Employee Who Dreads Being the Only One Who Knows | /moments/the-employee-who-dreads-being-the-only-one-who-knows/
+  - Why Good People Leave Jobs Built on Workarounds | /moments/why-good-people-leave-jobs-built-on-workarounds/
+  - When Overtime Is the Business Continuity Plan | /moments/when-overtime-is-the-business-continuity-plan/
 summary: Managers cannot share work fairly if they cannot see who is carrying what. Why invisible workloads drift toward the willing and the capable, and how simple visibility makes fairer allocation possible.
 layout: plain
 ---

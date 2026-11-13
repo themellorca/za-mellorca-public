@@ -14,9 +14,13 @@ observable_condition: The service team runs daily checks and corrections on othe
 primary_identification: Buffering: the service team has informally taken on the job of catching upstream process failures, which keeps those failures unrecorded and unfixed.
 commercial_value_dimensions: Service staffing cost, operational fragility, staff retention, recurring fault cost and customer exposure
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/overview | https://learn.microsoft.com/en-us/dynamics365/customer-service/overview
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - Welcome to Dynamics 365 Customer Service | https://learn.microsoft.com/en-us/dynamics365/customer-service/overview
+related:
+  - Why Customers Should Not Need Your Org Chart to Get an Answer | /patterns/why-customers-should-not-need-your-org-chart-to-get-an-answer/
+  - When Your Service Team Repeats the Same Answer Hundreds of Times | /patterns/when-your-service-team-repeats-the-same-answer-hundreds-of-times/
+  - The Business Cost of Customers Chasing You | /patterns/the-business-cost-of-customers-chasing-you/
 summary: When internal processes fail, the service team absorbs the impact so customers do not see it. That protects the customer but hides the fault. Here is how to make it visible.
 layout: plain
 ---

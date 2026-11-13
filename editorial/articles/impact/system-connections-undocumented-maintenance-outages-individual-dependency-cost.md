@@ -14,7 +14,11 @@ primary_pain: Systems are connected without anyone documenting how the connectio
 primary_cost_mechanism: Longer outages while connections are reverse-engineered, breakages from changes made without knowing dependencies, contractor discovery fees, dependency on one individual, and unreviewed service accounts and keys
 sources:
   - https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf | https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
-  - https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/view-applications-portal | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/view-applications-portal
+  - Quickstart: View enterprise applications - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/view-applications-portal
+related:
+  - Local Administrator Rights Nobody Reviewed: The Cost of Unmanaged Devices | /impact/local-administrator-rights-unneeded-unmanaged-device-changes-support-security-cost/
+  - A Recovery Plan That Depends on One Person Is Not a Plan | /impact/recovery-plan-depends-on-one-employee-unavailable-person-financial-risk/
+  - The spreadsheet only one person understands: Financial and continuity risk | /impact/business-run-on-spreadsheet-one-person-understands-financial-continuity-risk/
 summary: When nobody has written down how your systems are connected, every change is a gamble, every outage takes longer to fix, and one person's knowledge becomes a business risk.
 layout: plain
 ---

@@ -13,8 +13,12 @@ commercial_domain: Risk and Continuity
 primary_pain: Business processes stop completely whenever one application is unavailable
 primary_cost_mechanism: Idle paid staff during outages, lost and deferred revenue, recovery rework and unbilled work, missed service commitments, and weaker position at contract renewal
 sources:
-  - https://learn.microsoft.com/en-us/microsoft-365/enterprise/view-service-health | https://learn.microsoft.com/en-us/microsoft-365/enterprise/view-service-health
-  - https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/design-principles.html | https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/design-principles.html
+  - How to check Microsoft 365 service health - Microsoft 365 Enterprise | https://learn.microsoft.com/en-us/microsoft-365/enterprise/view-service-health
+  - Design principles - Reliability Pillar | https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/design-principles.html
+related:
+  - No Written Recovery Plan: What Improvising in a Crisis Costs | /impact/no-written-business-recovery-plan-improvising-during-crisis-financial-cost/
+  - The spreadsheet only one person understands: Financial and continuity risk | /impact/business-run-on-spreadsheet-one-person-understands-financial-continuity-risk/
+  - How much data could you lose? The cost of an undefined recovery point | /impact/undefined-recovery-point-how-much-data-business-can-lose-financial-risk/
 summary: If quoting, invoicing and dispatch all stop the moment one application is unavailable, the business has a hidden single point of failure, and every outage costs more than it should.
 layout: plain
 ---

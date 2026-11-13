@@ -14,9 +14,13 @@ observable_condition: HR receives the same requests every month from line manage
 primary_identification: Gatekept information: managers are entitled to see their team's data, but access has not been designed to give them a secure, current view without HR preparing it.
 commercial_value_dimensions: HR capacity, managerial decision speed, personal information protection and workforce planning quality
 sources:
-  - https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security | https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security
-  - https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Row-level security (RLS) with Power BI - Microsoft Fabric | https://learn.microsoft.com/en-us/fabric/security/service-admin-row-level-security
+  - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - Why Leave Requests Still Travel Through Messages and Spreadsheets | /patterns/why-leave-requests-are-still-handled-through-chat-messages-and-spreadsheets/
+  - When every department reports the same metric differently | /patterns/when-every-department-reports-the-same-metric-differently/
+  - Why Staff Have to Chase Stock Availability | /patterns/why-staff-end-up-phoning-around-to-find-out-whats-in-stock/
 summary: When line managers have to request headcount, leave and overtime figures from HR every month, HR becomes a report factory. Here is why it happens and how to give managers their own view.
 layout: plain
 ---

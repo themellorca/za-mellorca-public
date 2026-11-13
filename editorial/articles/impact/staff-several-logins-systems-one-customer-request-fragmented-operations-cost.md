@@ -13,8 +13,12 @@ commercial_domain: Customer Operations
 primary_pain: Staff need several separate logins and systems to complete one ordinary customer request
 primary_cost_mechanism: Paid minutes lost to sign-ins on every request, longer customer waiting times, password reset and lock-out effort, slower onboarding and incomplete offboarding, and weaker password habits
 sources:
-  - https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on
-  - https://asana.com/resources/why-work-about-work-is-bad | https://asana.com/resources/why-work-about-work-is-bad
+  - What is single sign-on in Microsoft Entra ID? - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on
+  - How Work About Work Gets in the Way of Real Work [2026] • Asana | https://asana.com/resources/why-work-about-work-is-bad
+related:
+  - Customers Who Cannot See Where Their Request Stands Keep Phoning to Ask | /impact/customers-do-not-know-request-status-inbound-follow-up-and-lost-trust-cost/
+  - Answering the same customer questions daily: The labour cost of hidden knowledge | /impact/support-teams-answering-same-questions-daily-undocumented-knowledge-labour-cost/
+  - Urgent Customer Issues Treated Like Routine Questions: The Revenue Cost | /impact/urgent-customer-issues-queued-like-routine-questions-prioritisation-revenue-cost/
 summary: When answering one customer means signing in to several systems, staff lose minutes on every request, customers wait longer, and password resets and access mistakes multiply.
 layout: plain
 ---

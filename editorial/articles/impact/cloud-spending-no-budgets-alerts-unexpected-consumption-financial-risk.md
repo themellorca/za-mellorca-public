@@ -13,8 +13,12 @@ commercial_domain: Cloud and Infrastructure
 primary_pain: Cloud spending runs without budgets or alerts, so unusual consumption is only discovered on the invoice
 primary_cost_mechanism: Weeks of paying for forgotten or runaway resources, unbudgeted invoices that hit cash flow and currency exposure, investigation time after the fact, and reduced confidence in cloud investment
 sources:
-  - https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html | https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html
-  - https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets | https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets
+  - Managing your costs with AWS Budgets - AWS Cost Management | https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html
+  - Tutorial - Create and manage budgets - Microsoft Cost Management | https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets
+related:
+  - Paying Twice for Hosting: The Cost of Duplicated Environments | /impact/duplicated-hosting-environments-consolidation-infrastructure-cost/
+  - Premium Cloud Tiers for Modest Workloads: The Cost of Overengineering | /impact/premium-cloud-services-workloads-that-do-not-need-them-overengineering-cost/
+  - Approving Expenses Without Seeing the Budget: How Spending Drifts Out of Control | /impact/expenses-approved-without-budget-visibility-uncontrolled-spending-financial-cost/
 summary: Cloud platforms bill for what is used, and usage can climb quickly. Without budgets and alerts, the first warning of runaway spending is the invoice at month end.
 layout: plain
 ---

@@ -13,10 +13,14 @@ problem_domain: Business Continuity & Resilience
 problem_owner: Business continuity or IT service management lead
 budget_owner: COO, CIO or CFO
 sources:
-  - https://learn.microsoft.com/en-us/power-platform/well-architected/reliability/metrics | https://learn.microsoft.com/en-us/power-platform/well-architected/reliability/metrics
+  - Define reliability targets recommendation for Power Platform workloads - Power Platform | https://learn.microsoft.com/en-us/power-platform/well-architected/reliability/metrics
   - https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-34r1.pdf | https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-34r1.pdf
   - https://www.masthead.co.za/wp-content/uploads/2023/11/Joint_Communication_4_of_2023_Publication_of_Joint_Standard_1_of_2023.pdf | https://www.masthead.co.za/wp-content/uploads/2023/11/Joint_Communication_4_of_2023_Publication_of_Joint_Standard_1_of_2023.pdf
   - https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf | https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf
+related:
+  - Continuity and cyber recovery plans disagree on what comes first | /discovery/continuity-and-cyber-recovery-plans-disagree-on-what-comes-first/
+  - Cyber recovery and disaster recovery runbooks give conflicting instructions | /discovery/cyber-recovery-and-disaster-recovery-runbooks-give-conflicting-instructions/
+  - Data recovery points are not aligned with transaction criticality | /discovery/why-one-recovery-point-for-every-system-hides-your-most-valuable-data/
 summary: The business rates systems by customer impact and IT by technical weight, so the two lists differ. Agree one scale, rate services first and reconcile the differences before an audit.
 layout: plain
 ---

@@ -15,9 +15,13 @@ human_dividend: Predictability: systems that reliably carry work through to its 
 trade_off: Reliability costs money and attention; no system is perfect; a focus on reliability can slow new initiatives; some pride comes from heroics that reliable systems make unnecessary.
 epistemic_state: HYPOTHESISED: reasoned from international guidance on decent work and workplace support, not from research in South African firms; the example is hypothetical.
 sources:
-  - https://www.ilo.org/topics/decent-work | https://www.ilo.org/topics/decent-work
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://www.hse.gov.uk/stress/standards/support.htm | https://www.hse.gov.uk/stress/standards/support.htm
+  - Decent work and the 2030 Agenda for sustainable development | https://www.ilo.org/topics/decent-work
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Management Standards - Support - HSE | https://www.hse.gov.uk/stress/standards/support.htm
+related:
+  - The Team That Fixes the Same Mistake Every Week | /moments/the-team-that-fixes-the-same-mistake-every-week/
+  - What It Means to Be Trusted With Better Information | /moments/what-it-means-to-be-trusted-with-better-information/
+  - When Fixing Other People's Data Becomes Your Job | /moments/when-fixing-other-peoples-data-quietly-becomes-your-job/
 summary: People take pride in work they can stand behind. When systems drop orders, lose notes or produce wrong figures, careful people cannot finish well. Why reliability is a condition for pride, and how to build it.
 layout: plain
 ---

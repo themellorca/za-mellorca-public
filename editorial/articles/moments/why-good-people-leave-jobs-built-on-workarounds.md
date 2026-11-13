@@ -15,9 +15,13 @@ human_dividend: Optionality: workarounds turned into proper fixes, so staying be
 trade_off: Fixing root causes costs money and attention; some workarounds protect customers in ways that are hard to replace; capable people may still leave for other reasons; redesign can feel like criticism of those who built the workarounds.
 epistemic_state: HYPOTHESISED: reasoned from general research on job demands, skill use and stress, not from turnover data in South African businesses; the distribution company example is hypothetical.
 sources:
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
-  - https://www.hse.gov.uk/stress/causes.htm | https://www.hse.gov.uk/stress/causes.htm
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Work-related stress and how to manage it - HSE | https://www.hse.gov.uk/stress/causes.htm
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+related:
+  - Why Being Blamed for System Errors Wears People Down | /moments/why-being-blamed-for-system-errors-wears-people-down/
+  - The Junior Employee Whose Day Is All Admin | /moments/the-junior-employee-whose-days-are-all-admin/
+  - What It Means to Be Trusted With Better Information | /moments/what-it-means-to-be-trusted-with-better-information/
 summary: The most capable staff are often the ones who build the workarounds that keep a business running, and the ones who tire of them first. Why that wears people down and what makes them want to stay.
 layout: plain
 ---

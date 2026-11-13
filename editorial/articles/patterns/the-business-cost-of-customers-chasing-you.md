@@ -14,8 +14,12 @@ observable_condition: Customers regularly contact the business to ask where thei
 primary_identification: Outsourced follow-up: promised dates are not recorded or monitored, so the customer becomes the only alarm when a step runs late.
 commercial_value_dimensions: Staff time, quote conversion, cash collection speed, customer trust and repeat business
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/define-service-level-agreements | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/define-service-level-agreements
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Configure service-level agreements in Dynamics 365 Customer Service | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/define-service-level-agreements
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+related:
+  - When a Customer Portal Would Not Fix the Underlying Problem | /patterns/when-a-customer-portal-would-not-fix-the-underlying-problem/
+  - Why Service Teams Become the Buffer for Broken Processes | /patterns/why-service-teams-become-the-buffer-for-broken-processes/
+  - Why Customers Should Not Need Your Org Chart to Get an Answer | /patterns/why-customers-should-not-need-your-org-chart-to-get-an-answer/
 summary: Every time a customer has to chase a quote, a delivery or a refund, the business pays twice: once in staff time and again in trust. Here is how to count it and reduce it.
 layout: plain
 ---

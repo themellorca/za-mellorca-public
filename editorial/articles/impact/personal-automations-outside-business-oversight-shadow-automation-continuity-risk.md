@@ -13,9 +13,13 @@ commercial_domain: Automation and Integration
 primary_pain: Employees create personal automations outside business oversight and the business depends on them without knowing
 primary_cost_mechanism: Lost continuity when the builder leaves, business data passing to unmanaged services, silent errors feeding decisions, and duplicated effort and licence sprawl
 sources:
-  - https://learn.microsoft.com/en-us/power-platform/admin/wp-data-loss-prevention | https://learn.microsoft.com/en-us/power-platform/admin/wp-data-loss-prevention
-  - https://learn.microsoft.com/en-us/power-platform/guidance/coe/starter-kit | https://learn.microsoft.com/en-us/power-platform/guidance/coe/starter-kit
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Data policies - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/wp-data-loss-prevention
+  - Microsoft Power Platform Center of Excellence (CoE) Starter Kit transition to Power Platform admin center - Power Platform | https://learn.microsoft.com/en-us/power-platform/guidance/coe/starter-kit
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - The Integration That Is Always Being Fixed: Paying for Poorly Designed Connections | /impact/custom-integrations-constantly-need-repair-poorly-designed-connections-cost/
+  - When Customers Find the Broken Integration Before You Do | /impact/integrations-breaking-silently-customers-report-failure-first-cost/
+  - Export, Fix, Import: The Hidden Cost of Spreadsheets Connecting Core Systems | /impact/spreadsheet-exports-imports-connecting-core-systems-manual-integration-cost/
 summary: Employees' personal automations solve real problems, but when they run unseen on personal accounts, the business inherits continuity gaps, data exposure and silent errors.
 layout: plain
 ---

@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: Data Quality
 sources:
-  - https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
-  - https://knowledge.hubspot.com/records/deduplication-of-records | https://knowledge.hubspot.com/records/deduplication-of-records
-  - https://www.inforegulator.org.za/popia/ | https://www.inforegulator.org.za/popia/
+  - Set up duplicate detection rules to keep your data clean - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
+  - Deduplicate records in HubSpot | https://knowledge.hubspot.com/records/deduplication-of-records
+  - Who makes an application to process Special Personal Information? | https://www.inforegulator.org.za/popia/
+related:
+  - Why Required Fields Do Not Automatically Create Good Data | /insights/why-required-fields-do-not-automatically-create-good-data/
+  - Why More Fields Usually Do Not Fix Data Quality | /insights/why-more-fields-usually-do-not-fix-data-quality/
+  - What Data Should Be Required at the Point of Capture? | /insights/what-data-should-be-required-at-the-point-of-capture-and-what-can-wait/
 summary: Two records for the same customer split the history, the credit exposure and the conversation. Here is what duplicates actually cost across sales, service and finance, and the controls that keep them down.
 layout: plain
 ---

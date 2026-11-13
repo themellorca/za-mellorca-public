@@ -14,8 +14,12 @@ observable_condition: New clients or employees have a smooth start with one staf
 primary_identification: Person-dependent process: onboarding steps, order and standards exist only as individual habits, so outcomes vary by who runs them.
 commercial_value_dimensions: Early client and employee retention, time to first value, rework, staff time and reputation
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+related:
+  - When Every New Client Requires a Custom Administrative Process | /patterns/when-every-new-client-needs-its-own-administrative-process/
+  - The business process that only works because someone remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
+  - When client onboarding starts with a chain of emails | /patterns/when-client-onboarding-starts-with-a-chain-of-emails/
 summary: When a new client or employee has a good start with one person and a poor start with another, the business has no onboarding process, only individual habits. Here is how to fix that.
 layout: plain
 ---

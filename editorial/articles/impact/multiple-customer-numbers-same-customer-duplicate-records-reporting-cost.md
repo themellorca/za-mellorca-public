@@ -13,8 +13,12 @@ commercial_domain: Finance
 primary_pain: The same customer holds several customer numbers or records, so its activity is split across accounts
 primary_cost_mechanism: Unapproved combined credit exposure, slower collections and unallocated receipts, pricing and rebate errors, overstated customer counts and misranked key accounts, and personal information accuracy risk
 sources:
-  - https://knowledge.hubspot.com/records/deduplication-of-records | https://knowledge.hubspot.com/records/deduplication-of-records
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Deduplicate records in HubSpot | https://knowledge.hubspot.com/records/deduplication-of-records
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - Cash Trouble You See Too Late: What Delayed Warning Costs | /impact/not-seeing-cash-flow-problems-until-urgent-cost-of-delayed-financial-warning/
+  - Paying the same supplier invoice twice: The direct cost of weak controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
+  - When the books do not match the business: The cost of constant reconciliation | /impact/accounting-records-not-matching-operations-reconciliation-decision-uncertainty-cost/
 summary: When the same customer holds several account numbers, credit limits are breached, statements are split, collections stall and sales reports overstate how many customers you really have.
 layout: plain
 ---

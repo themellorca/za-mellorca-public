@@ -15,9 +15,13 @@ human_dividend: Time and predictability: routine reminders sent on a schedule by
 trade_off: Automated reminders can feel impersonal or pushy if badly worded; some customers respond only to a person; setting up rules takes time; reminders cannot fix a customer who will not pay.
 epistemic_state: HYPOTHESISED: reasoned from general research on job demands and support, not from a study of South African service firms; the practice example is hypothetical.
 sources:
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
-  - https://www.hse.gov.uk/stress/standards/support.htm | https://www.hse.gov.uk/stress/standards/support.htm
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Management Standards - Support - HSE | https://www.hse.gov.uk/stress/standards/support.htm
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+related:
+  - Why Respect Shows Up in the Tools You Give People | /moments/why-respect-shows-up-in-the-tools-you-give-people/
+  - When Customers See the Mess Before Staff Can Explain It | /moments/when-customers-see-the-mess-before-staff-can-explain-it/
+  - Why Good People Leave Jobs Built on Workarounds | /moments/why-good-people-leave-jobs-built-on-workarounds/
 summary: Chasing customers for documents, signatures and payments casts staff as nags. How follow-up that runs by itself protects relationships and the self-respect of the people who used to do the chasing.
 layout: plain
 ---

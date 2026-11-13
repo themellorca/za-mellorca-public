@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: Workflow Design
 sources:
-  - https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem | https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - 2. Solve a whole problem for users | https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+related:
+  - What Should Trigger After a Customer Says Yes? | /insights/what-should-trigger-after-a-customer-says-yes/
+  - How to Route Work to the Right Person Automatically | /insights/how-to-route-work-to-the-right-person-automatically/
+  - Why sales, operations and service need different views of the same customer | /insights/one-customer-record-three-teams-three-useful-views/
 summary: When each team optimises its own step, the customer waits in the gaps. Here is how to define a workflow by the result it delivers, give it an end-to-end owner and measure it as one thing.
 layout: plain
 ---

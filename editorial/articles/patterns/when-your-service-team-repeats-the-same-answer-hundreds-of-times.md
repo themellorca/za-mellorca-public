@@ -14,8 +14,12 @@ observable_condition: Service agents type the same handful of answers many times
 primary_identification: Unrecorded operational knowledge: standard answers are personal property rather than an owned, reviewed and shared business asset.
 commercial_value_dimensions: Agent time, answer consistency, onboarding speed, error and complaint cost, and knowledge retention
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/set-up-knowledge-management-embedded-knowledge-search | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/set-up-knowledge-management-embedded-knowledge-search
-  - https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio | https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio
+  - Configure knowledge management | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/set-up-knowledge-management-embedded-knowledge-search
+  - Overview - Microsoft Copilot Studio | https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio
+related:
+  - Why One Customer Question Has to Travel Through Three Departments | /patterns/why-a-single-customer-question-gets-passed-between-three-departments/
+  - Why Service Teams Become the Buffer for Broken Processes | /patterns/why-service-teams-become-the-buffer-for-broken-processes/
+  - Why Customers Should Not Need Your Org Chart to Get an Answer | /patterns/why-customers-should-not-need-your-org-chart-to-get-an-answer/
 summary: A service team that types the same reply hundreds of times a month is holding knowledge the business has never written down. Here is what that costs and how to change it.
 layout: plain
 ---

@@ -13,8 +13,12 @@ commercial_domain: Business Continuity
 primary_pain: The business has never practised how it would operate during a technology outage, so every outage is handled by improvisation
 primary_cost_mechanism: Longer interruptions, paid staff waiting, errors from improvised work-arounds, customer goodwill lost through confused communication, and slower catch-up after systems return
 sources:
-  - https://csrc.nist.gov/pubs/sp/800/84/final | https://csrc.nist.gov/pubs/sp/800/84/final
-  - https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages | https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages
+  - SP 800-84, Guide to Test, Training, and Exercise Programs for IT Plans and Capabilities - CSRC | https://csrc.nist.gov/pubs/sp/800/84/final
+  - CISA Tabletop Exercise Packages - CISA | https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages
+related:
+  - A Recovery Plan That Depends on One Person Is Not a Plan | /impact/recovery-plan-depends-on-one-employee-unavailable-person-financial-risk/
+  - Backups nobody has tested: The cost when recovery fails | /impact/backups-never-tested-restore-financial-cost/
+  - Backups in the same place as the data: The risk of losing both | /impact/backups-same-environment-losing-both-copies-risk/
 summary: Many businesses have never walked through how they would trade if email, the accounting system or the internet went down. The first rehearsal ends up being the real outage.
 layout: plain
 ---

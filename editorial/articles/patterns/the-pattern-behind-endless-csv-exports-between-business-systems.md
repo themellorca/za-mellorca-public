@@ -14,9 +14,13 @@ observable_condition: Staff regularly export CSV files from one system, tidy the
 primary_identification: The CSV file is acting as an unofficial integration between systems that have no automated connection, with a person as the scheduler, translator and error checker.
 commercial_value_dimensions: Staff time, data timeliness, error and rework cost, reporting trust, dependence on key individuals and scalability of operations
 sources:
-  - https://datatracker.ietf.org/doc/html/rfc4180 | https://datatracker.ietf.org/doc/html/rfc4180
-  - https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query | https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - RFC 4180: Common Format and MIME Type for Comma-Separated Values (CSV) Files | https://datatracker.ietf.org/doc/html/rfc4180
+  - What Is Power Query? - Power Query | https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+related:
+  - When staff get blamed for errors their systems created | /patterns/when-staff-get-blamed-for-errors-their-systems-created/
+  - When Every New Client Requires a Custom Administrative Process | /patterns/when-every-new-client-needs-its-own-administrative-process/
+  - Why Customer Data Quality Degrades as Systems Multiply | /patterns/why-customer-data-gets-worse-with-every-system-you-add/
 summary: When staff keep exporting CSV files to move data around, the file is a sign that the systems cannot talk to each other. Here is what the habit hides, what it costs, and what to do instead.
 layout: plain
 ---

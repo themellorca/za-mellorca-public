@@ -15,8 +15,12 @@ human_dividend: Autonomy: responsibility matched with written authority and the 
 trade_off: Giving authority means accepting different decisions and some mistakes; spending limits still need controls; owners may feel loss of control; some outcomes depend on factors nobody inside the business controls.
 epistemic_state: HYPOTHESISED: reasoned from general research on role clarity and job control, not from a study of South African managers; the example is hypothetical.
 sources:
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://www.hse.gov.uk/stress/standards/control.htm | https://www.hse.gov.uk/stress/standards/control.htm
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
+related:
+  - Why Being Blamed for System Errors Wears People Down | /moments/why-being-blamed-for-system-errors-wears-people-down/
+  - When a Job Description and the Real Job Drift Apart | /moments/when-a-job-description-and-the-real-job-drift-apart/
+  - When Overtime Is the Business Continuity Plan | /moments/when-overtime-is-the-business-continuity-plan/
 summary: A manager is answerable for a result but cannot approve the spend, change the process or move the people that would deliver it. Why that gap drains energy, and how to match responsibility with the power to act.
 layout: plain
 ---

@@ -14,9 +14,13 @@ observable_condition: Deliveries go to outdated addresses, customers exist twice
 primary_identification: Unowned information: core records and figures have no owner, agreed definition, master source or access rule, so errors recur in different forms across operations.
 commercial_value_dimensions: Operational accuracy, decision quality, personal information compliance and return on systems and automation
 sources:
-  - https://learn.microsoft.com/en-us/purview/data-governance-overview | https://learn.microsoft.com/en-us/purview/data-governance-overview
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query | https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query
+  - Learn about data governance with Microsoft Purview | https://learn.microsoft.com/en-us/purview/data-governance-overview
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - What Is Power Query? - Power Query | https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query
+related:
+  - When duplicate records become an operational issue | /patterns/when-duplicate-records-start-causing-operational-problems/
+  - Why your business has data but no single view of operations | /patterns/why-a-business-with-plenty-of-data-still-has-no-single-view-of-operations/
+  - When customers know less than your internal systems do | /patterns/when-customers-know-less-than-your-internal-systems-do/
 summary: Data governance can sound like a corporate exercise, but wrong delivery addresses, duplicate customers and disputed numbers are what it looks like when nobody does it. Here is the practical version.
 layout: plain
 ---

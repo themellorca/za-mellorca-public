@@ -15,8 +15,12 @@ human_dividend: Time and predictability: the error designed out at its source, s
 trade_off: Finding root causes takes time up front; some errors come from outside the business, such as supplier data; changing a system can introduce new errors; a team may lose a routine that felt safe.
 epistemic_state: HYPOTHESISED: reasoned from general human-factors guidance on error and task design, not from measured data in South African firms; the example is hypothetical.
 sources:
-  - https://www.hse.gov.uk/humanfactors/topics/humanfail.htm | https://www.hse.gov.uk/humanfactors/topics/humanfail.htm
-  - https://www.hse.gov.uk/stress/standards/control.htm | https://www.hse.gov.uk/stress/standards/control.htm
+  - Managing human failures: Overview - HSE | https://www.hse.gov.uk/humanfactors/topics/humanfail.htm
+  - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
+related:
+  - Why Being Blamed for System Errors Wears People Down | /moments/why-being-blamed-for-system-errors-wears-people-down/
+  - When Night-Shift Exceptions Fall on the Same Few People | /moments/when-night-shift-exceptions-keep-landing-on-the-same-few-people/
+  - Why Respect Shows Up in the Tools You Give People | /moments/why-respect-shows-up-in-the-tools-you-give-people/
 summary: Every Friday the same report is wrong in the same way, and the same people correct it. Why recurring errors persist, what repeated correction does to a team, and how to design the error out.
 layout: plain
 ---

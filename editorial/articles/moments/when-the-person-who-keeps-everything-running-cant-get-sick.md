@@ -15,9 +15,13 @@ human_dividend: Presence and predictability: a trained backup and written proced
 trade_off: Training a backup takes time from busy people; documentation needs keeping current; some tasks need access rights that must be controlled; a backup may never be as fast as the expert.
 epistemic_state: HYPOTHESISED: reasoned from general guidance on workplace support and statutory leave, not from a study of South African firms; the example is hypothetical. Not legal advice.
 sources:
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://www.hse.gov.uk/stress/standards/support.htm | https://www.hse.gov.uk/stress/standards/support.htm
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Management Standards - Support - HSE | https://www.hse.gov.uk/stress/standards/support.htm
+related:
+  - The Bookkeeper Who Knows Every Workaround | /moments/the-bookkeeper-who-carries-every-workaround-in-their-head/
+  - When Fixing Other People's Data Becomes Your Job | /moments/when-fixing-other-peoples-data-quietly-becomes-your-job/
+  - Why Errors Caused by Systems Get Logged as Human Error | /moments/why-system-caused-errors-end-up-logged-as-human-error/
 summary: Some people work through illness because nobody else knows how to run payroll, open the system or keep orders moving. Why that happens, what it costs them, and how cover and documentation make rest possible.
 layout: plain
 ---

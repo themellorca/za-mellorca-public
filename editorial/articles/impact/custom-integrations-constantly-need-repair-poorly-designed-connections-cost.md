@@ -13,8 +13,12 @@ commercial_domain: Automation and Integration
 primary_pain: Custom integrations between business systems constantly break and need paid repair
 primary_cost_mechanism: Recurring developer repair and call-out fees, stalled orders and invoices during failures, duplicate and missing record clean-up, staff double-checking output, and delayed improvements built on an unreliable connection
 sources:
-  - https://shopify.dev/docs/api/usage/versioning | https://shopify.dev/docs/api/usage/versioning
-  - https://docs.stripe.com/api/versioning | https://docs.stripe.com/api/versioning
+  - About Shopify API versioning | https://shopify.dev/docs/api/usage/versioning
+  - Versioning - Stripe API Reference | https://docs.stripe.com/api/versioning
+related:
+  - When Customers Find the Broken Integration Before You Do | /impact/integrations-breaking-silently-customers-report-failure-first-cost/
+  - Shadow Automations: The Hidden Risk of Workflows Built Outside Oversight | /impact/personal-automations-outside-business-oversight-shadow-automation-continuity-risk/
+  - Export, Fix, Import: The Hidden Cost of Spreadsheets Connecting Core Systems | /impact/spreadsheet-exports-imports-connecting-core-systems-manual-integration-cost/
 summary: Some custom integrations need a developer every few weeks. The repair invoices are only part of the cost; the rest is stalled work, data fixes and a supplier relationship built on breakdowns.
 layout: plain
 ---

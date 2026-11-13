@@ -14,8 +14,12 @@ observable_condition: Each week or month, finance staff export reports from seve
 primary_identification: Manual data preparation: identical cleaning steps are performed by memory on new data each period instead of being captured once as a repeatable, refreshable process.
 commercial_value_dimensions: Finance capacity, reporting timeliness, figure accuracy and key-person risk
 sources:
-  - https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query | https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query
-  - https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
+  - What Is Power Query? - Power Query | https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query
+  - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
+related:
+  - Why Accounts Receivable Becomes a Chasing Function | /patterns/why-the-debtors-clerk-spends-the-month-chasing-instead-of-collecting/
+  - When every department reports the same metric differently | /patterns/when-every-department-reports-the-same-metric-differently/
+  - Why Managers Keep Asking HR for the Same Reports | /patterns/why-managers-keep-asking-hr-for-the-same-reports/
 summary: When finance staff export the same reports every week and spend hours cleaning them before they can use them, the work is repeatable but is being repeated by hand. Here is how to change it.
 layout: plain
 ---

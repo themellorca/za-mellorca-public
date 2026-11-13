@@ -14,8 +14,12 @@ problem_owner: Head of IT operations or infrastructure
 budget_owner: CIO
 sources:
   - https://www.masthead.co.za/wp-content/uploads/2023/11/Joint_Communication_4_of_2023_Publication_of_Joint_Standard_1_of_2023.pdf | https://www.masthead.co.za/wp-content/uploads/2023/11/Joint_Communication_4_of_2023_Publication_of_Joint_Standard_1_of_2023.pdf
-  - https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_planning_for_recovery_dr_tested.html | https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_planning_for_recovery_dr_tested.html
-  - https://sre.google/sre-book/addressing-cascading-failures/ | https://sre.google/sre-book/addressing-cascading-failures/
+  - REL13-BP03 Test disaster recovery implementation to validate the implementation - AWS Well-Architected Framework | https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_planning_for_recovery_dr_tested.html
+  - Google SRE - Cascading Failures: Reducing System Outage | https://sre.google/sre-book/addressing-cascading-failures/
+related:
+  - Recovery environments drift from production | /discovery/why-recovery-environments-quietly-drift-away-from-production/
+  - Manual recovery steps are not timed during tests | /discovery/why-manual-recovery-steps-need-a-stopwatch-during-every-test/
+  - Continuity exercises generate actions that are never closed | /discovery/what-happens-to-the-actions-from-your-continuity-exercise/
 summary: Failover is tested off-peak with little traffic, so the standby's limits stay hidden. Define the load a failover must carry, test at that load on a schedule and fix what the test finds.
 layout: plain
 ---

@@ -15,9 +15,13 @@ human_dividend: Autonomy: a clear, safe route to question or adapt a rule, so fo
 trade_off: Some rules exist for audit, tax or safety reasons and cannot bend; an exception route takes management time; more discretion means more variation; not everyone wants to carry the extra decisions.
 epistemic_state: HYPOTHESISED: reasoned from general research on job control and role clarity, not from a survey of South African employers; the wholesale example is hypothetical.
 sources:
-  - https://www.hse.gov.uk/stress/standards/control.htm | https://www.hse.gov.uk/stress/standards/control.htm
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+related:
+  - The Employee Who Dreads Being the Only One Who Knows | /moments/the-employee-who-dreads-being-the-only-one-who-knows/
+  - The Technician Whose Expertise Is Spent on Password Resets | /moments/the-technician-whose-expertise-is-spent-on-password-resets/
+  - Why Repetitive Work Hides Real Talent | /moments/why-repetitive-work-hides-real-talent/
 summary: A capable employee sees a better way, raises it, and is told to stick to the process. What that does to a person over time, and how to keep rules without switching off judgement.
 layout: plain
 ---

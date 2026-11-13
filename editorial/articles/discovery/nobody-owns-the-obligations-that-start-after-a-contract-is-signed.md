@@ -14,9 +14,13 @@ problem_owner: Legal operations or commercial manager
 budget_owner: CFO, general counsel or COO
 sources:
   - https://www.gov.za/sites/default/files/32186_467.pdf | https://www.gov.za/sites/default/files/32186_467.pdf
-  - https://www.acts.co.za/consumer-protection/14_expiry_and_renewal_of_fixed_term_agreements | https://www.acts.co.za/consumer-protection/14_expiry_and_renewal_of_fixed_term_agreements
-  - https://info.worldcc.com/contract-management-aug-2025 | https://info.worldcc.com/contract-management-aug-2025
-  - https://www2.deloitte.com/us/en/pages/tax/articles/post-signature-contract-management.html | https://www2.deloitte.com/us/en/pages/tax/articles/post-signature-contract-management.html
+  - Consumer Protection Act, 2008 (Act No. 68 of 2008) - 14. Expiry and renewal of fixed-term agreements - Acts Online | https://www.acts.co.za/consumer-protection/14_expiry_and_renewal_of_fixed_term_agreements
+  - Contract Management Whitepaper - August 2025 | https://info.worldcc.com/contract-management-aug-2025
+  - Post-Signature Contract Management | https://www2.deloitte.com/us/en/pages/tax/articles/post-signature-contract-management.html
+related:
+  - Signed agreements are scattered across inboxes and shared drives | /discovery/why-signed-agreements-end-up-scattered-and-how-to-gather-them/
+  - Why software renewals need a confirmed business owner | /discovery/why-software-renewals-need-a-confirmed-business-owner/
+  - Renewal calendars are disconnected from architecture roadmaps | /discovery/why-renewal-calendars-and-architecture-roadmaps-drift-apart/
 summary: Notice periods, reporting duties and renewal dates sit in signed PDFs nobody watches. Name an owner per contract, extract the obligations into a register and alert ahead of each deadline.
 layout: plain
 ---

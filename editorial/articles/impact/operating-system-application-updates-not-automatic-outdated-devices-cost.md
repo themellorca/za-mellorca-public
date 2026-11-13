@@ -13,8 +13,12 @@ commercial_domain: IT Operations
 primary_pain: Operating-system and application updates are not installed automatically, so devices drift into many different and outdated states
 primary_cost_mechanism: Slower support diagnosis, repeated incidents that vendor fixes already solve, technician time for manual emergency patching, unplanned device replacement, and exposure to actively exploited vulnerabilities
 sources:
-  - https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-client-policies | https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-client-policies
-  - https://www.cisa.gov/known-exploited-vulnerabilities-catalog | https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+  - Windows Update client policies | https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-client-policies
+  - Known Exploited Vulnerabilities Catalog - CISA | https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+related:
+  - Laptops That Leave With Employees: The Cost of No Return Process | /impact/devices-issued-without-return-process-equipment-lost-when-employees-leave-cost/
+  - Staff Using Personal Laptops for Work: The Security and Support Cost of Inadequate Devices | /impact/staff-personal-computers-for-company-work-inadequate-business-devices-security-support-cost/
+  - Which Devices Can Reach Your Data? The Risk of Unmanaged Endpoints | /impact/not-knowing-which-devices-access-company-information-unmanaged-endpoint-risk-cost/
 summary: When laptops and desktops only update when their users get round to it, the business carries a fleet in many different states, with more support tickets and known security holes left open.
 layout: plain
 ---

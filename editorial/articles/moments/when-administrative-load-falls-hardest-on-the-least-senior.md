@@ -15,9 +15,13 @@ human_dividend: Time: administrative work shrunk where possible and shared by an
 trade_off: Senior time is expensive and some delegation is sensible; rotation can reduce quality on specialist tasks; reducing admin takes investment; some staff value admin roles they are good at.
 epistemic_state: HYPOTHESISED: reasoned from general research on demands and role clarity, not from a survey of South African teams; the law firm example is hypothetical.
 sources:
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+related:
+  - When Night-Shift Exceptions Fall on the Same Few People | /moments/when-night-shift-exceptions-keep-landing-on-the-same-few-people/
+  - Why Repetitive Work Hides Real Talent | /moments/why-repetitive-work-hides-real-talent/
+  - The Team That Fixes the Same Mistake Every Week | /moments/the-team-that-fixes-the-same-mistake-every-week/
 summary: Across a team, routine admin tends to settle on whoever has the least power to refuse it. How that pattern forms, why it is unfair as well as inefficient, and how to share and shrink the load.
 layout: plain
 ---

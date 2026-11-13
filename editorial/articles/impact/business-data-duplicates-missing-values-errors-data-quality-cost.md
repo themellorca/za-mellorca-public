@@ -13,8 +13,12 @@ commercial_domain: Data and Information
 primary_pain: Important business data contains duplicates, missing values and errors that staff have to work around
 primary_cost_mechanism: Daily checking and correction labour, failed deliveries and mispriced quotes, wasted marketing and per-record software spend, unreliable reports and slower decisions, and exposure under personal information accuracy duties
 sources:
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://www.gov.uk/government/publications/the-government-data-quality-framework | https://www.gov.uk/government/publications/the-government-data-quality-framework
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework
+related:
+  - Collecting Data Nobody Uses: What Useless Information Costs | /impact/collecting-large-amounts-of-data-nobody-uses-storage-labour-cost/
+  - When Important Data Is Trapped in One Department's App | /impact/data-trapped-in-one-department-application-information-silo-cost/
+  - The cost of retyping customer details into every system | /impact/pain-duplication-of-customer-data-entry/
 summary: Duplicate records, empty fields and simple errors in core business data rarely look urgent. Their cost appears as rework, failed deliveries, wasted marketing and reports nobody trusts.
 layout: plain
 ---

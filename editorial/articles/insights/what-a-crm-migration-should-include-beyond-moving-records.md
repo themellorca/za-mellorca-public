@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: Systems Implementation
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-configuration-data-migration | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-configuration-data-migration
-  - https://learn.microsoft.com/en-us/power-platform/architecture/key-concepts/data-migration/ | https://learn.microsoft.com/en-us/power-platform/architecture/key-concepts/data-migration/
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Manage configuration and migration data for Dynamics 365 projects - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management-configuration-data-migration
+  - CRM data migration to Dataverse: Key insights and best practices - Power Platform | https://learn.microsoft.com/en-us/power-platform/architecture/key-concepts/data-migration/
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - What Belongs in an Implementation Plan | /insights/the-parts-of-a-sound-systems-implementation-plan/
+  - How to scope a systems implementation properly | /insights/how-to-scope-a-systems-implementation-properly-before-you-sign/
+  - How to Prevent Requirements From Growing Without Control | /insights/how-to-prevent-requirements-from-growing-without-control/
 summary: Copying contacts and deals into a new CRM is the easy part. The automations, reports, integrations, permissions and habits around the old system also have to move, or be deliberately retired.
 layout: plain
 ---

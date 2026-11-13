@@ -14,8 +14,12 @@ observable_condition: Support contacts per customer increase month after month, 
 primary_identification: Self-generated demand: silent process steps, first replies that do not resolve, and undocumented exceptions create contacts that scale faster than the customer base.
 commercial_value_dimensions: Service cost per customer, account margin, response time, staff retention and customer retention
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/overview | https://learn.microsoft.com/en-us/dynamics365/customer-service/overview
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/set-up-knowledge-management-embedded-knowledge-search | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/set-up-knowledge-management-embedded-knowledge-search
+  - Welcome to Dynamics 365 Customer Service | https://learn.microsoft.com/en-us/dynamics365/customer-service/overview
+  - Configure knowledge management | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/set-up-knowledge-management-embedded-knowledge-search
+related:
+  - When a Customer Portal Would Not Fix the Underlying Problem | /patterns/when-a-customer-portal-would-not-fix-the-underlying-problem/
+  - When Your Service Team Repeats the Same Answer Hundreds of Times | /patterns/when-your-service-team-repeats-the-same-answer-hundreds-of-times/
+  - The Business Cost of Customers Chasing You | /patterns/the-business-cost-of-customers-chasing-you/
 summary: When support tickets rise faster than customer numbers, the extra contacts are usually created inside the business. Here is how to find where they come from and how to stop them.
 layout: plain
 ---

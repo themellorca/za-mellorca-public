@@ -14,8 +14,12 @@ observable_condition: A customer portal is proposed to reduce status calls while
 primary_identification: Front-end remedy for a back-end condition: the information customers want is not captured reliably at the source, so a portal would display stale or contradictory records.
 commercial_value_dimensions: Technology investment risk, customer trust, service workload, dispute risk and opportunity cost
 sources:
-  - https://learn.microsoft.com/en-us/power-pages/introduction | https://learn.microsoft.com/en-us/power-pages/introduction
-  - https://www.gov.za/documents/consumer-protection-act | https://www.gov.za/documents/consumer-protection-act
+  - What is Power Pages? | https://learn.microsoft.com/en-us/power-pages/introduction
+  - Consumer Protection Act 68 of 2008 - South African Government | https://www.gov.za/documents/consumer-protection-act
+related:
+  - Why Customers Should Not Need Your Org Chart to Get an Answer | /patterns/why-customers-should-not-need-your-org-chart-to-get-an-answer/
+  - The Business Cost of Customers Chasing You | /patterns/the-business-cost-of-customers-chasing-you/
+  - Why Service Teams Become the Buffer for Broken Processes | /patterns/why-service-teams-become-the-buffer-for-broken-processes/
 summary: A customer portal shows customers what your systems know. If the systems are late, incomplete or inconsistent, a portal exposes the problem rather than solving it. Here is how to tell.
 layout: plain
 ---

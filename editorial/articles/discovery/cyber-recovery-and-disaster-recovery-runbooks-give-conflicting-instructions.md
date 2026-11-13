@@ -13,9 +13,13 @@ problem_domain: Business Continuity & Resilience
 problem_owner: Head of IT operations, with the information security lead
 budget_owner: CIO or COO
 sources:
-  - https://learn.microsoft.com/en-us/security/ransomware/protect-against-ransomware-phase1 | https://learn.microsoft.com/en-us/security/ransomware/protect-against-ransomware-phase1
-  - https://csrc.nist.gov/pubs/sp/800/61/r3/final | https://csrc.nist.gov/pubs/sp/800/61/r3/final
+  - Prepare for ransomware attacks with a backup and recovery plan | https://learn.microsoft.com/en-us/security/ransomware/protect-against-ransomware-phase1
+  - SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile - CSRC | https://csrc.nist.gov/pubs/sp/800/61/r3/final
   - https://www.masthead.co.za/wp-content/uploads/2023/11/Joint_Communication_4_of_2023_Publication_of_Joint_Standard_1_of_2023.pdf | https://www.masthead.co.za/wp-content/uploads/2023/11/Joint_Communication_4_of_2023_Publication_of_Joint_Standard_1_of_2023.pdf
+related:
+  - Manual recovery steps are not timed during tests | /discovery/why-manual-recovery-steps-need-a-stopwatch-during-every-test/
+  - Recovery only works while one specialist is reachable | /discovery/recovery-only-works-while-one-specialist-is-reachable/
+  - Third-party recovery commitments are not linked to contracts | /discovery/when-a-suppliers-recovery-promise-is-not-written-into-your-contract/
 summary: The disaster recovery runbook says fail over and restore fast; the cyber response plan says isolate, preserve evidence and restore only from clean copies. Reconcile the steps before an attack forces the choice.
 layout: plain
 ---

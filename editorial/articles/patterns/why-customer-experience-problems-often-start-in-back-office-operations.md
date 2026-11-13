@@ -14,9 +14,13 @@ observable_condition: Complaints about late, short or incorrectly invoiced order
 primary_identification: Upstream failure surfacing downstream: back-office steps generate errors that customers see, while measurement and improvement focus only on the front line.
 commercial_value_dimensions: Customer retention, rework and credit note cost, service workload, dispute risk and staff morale
 sources:
-  - https://www.gov.za/documents/consumer-protection-act | https://www.gov.za/documents/consumer-protection-act
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-make-offers | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-make-offers
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/overview | https://learn.microsoft.com/en-us/dynamics365/customer-service/overview
+  - Consumer Protection Act 68 of 2008 - South African Government | https://www.gov.za/documents/consumer-protection-act
+  - Make sales quotes - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-make-offers
+  - Welcome to Dynamics 365 Customer Service | https://learn.microsoft.com/en-us/dynamics365/customer-service/overview
+related:
+  - Why One Customer Question Has to Travel Through Three Departments | /patterns/why-a-single-customer-question-gets-passed-between-three-departments/
+  - When a Customer Portal Would Not Fix the Underlying Problem | /patterns/when-a-customer-portal-would-not-fix-the-underlying-problem/
+  - Why Service Teams Become the Buffer for Broken Processes | /patterns/why-service-teams-become-the-buffer-for-broken-processes/
 summary: Late deliveries, wrong invoices and broken promises reach the customer through the front desk, but most begin in stock, billing and scheduling. Here is how to trace them back.
 layout: plain
 ---

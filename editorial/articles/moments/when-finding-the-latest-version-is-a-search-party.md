@@ -15,8 +15,12 @@ human_dividend: Time and attention: one place, one file, with its history kept i
 trade_off: Moving to one shared library takes effort and some discipline; people lose the comfort of their own copy; version history needs sensible retention settings; offline and external sharing still need rules.
 epistemic_state: HYPOTHESISED: reasoned from how common document tools handle versions and from general workplace experience, not from a measured study; the quoting example is hypothetical.
 sources:
-  - https://learn.microsoft.com/en-us/sharepoint/document-library-version-history-limits | https://learn.microsoft.com/en-us/sharepoint/document-library-version-history-limits
-  - https://support.google.com/drive/answer/2409045 | https://support.google.com/drive/answer/2409045
+  - Version history limits for document library and OneDrive overview - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/document-library-version-history-limits
+  - Check activity & file versions - Computer - Google Drive Help | https://support.google.com/drive/answer/2409045
+related:
+  - The relief of a password you don't have to reset | /moments/the-relief-of-a-password-you-dont-have-to-reset/
+  - Why Booking a Meeting Room Shouldn't Need Diplomacy | /moments/why-booking-a-meeting-room-should-not-need-diplomacy/
+  - Why every new hire starts with a week of waiting | /moments/why-the-first-week-of-a-new-job-is-spent-waiting/
 summary: Final, final-v2, final-FINAL. How a simple question about which file is current turns into messages, guesses and rework, and what lets people find the right version first time.
 layout: plain
 ---

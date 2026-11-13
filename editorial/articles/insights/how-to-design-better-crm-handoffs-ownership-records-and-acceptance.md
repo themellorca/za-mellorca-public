@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: CRM and Customer Systems
 sources:
-  - https://www.hse.gov.uk/humanfactors/topics/shift-handover.htm | https://www.hse.gov.uk/humanfactors/topics/shift-handover.htm
-  - https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales | https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Shift handover - HSE | https://www.hse.gov.uk/humanfactors/topics/shift-handover.htm
+  - Understand the sales process | https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - How CRM Ownership Should Work | /insights/how-crm-ownership-should-work-roles-decisions-and-permissions/
+  - When to Reconfigure a CRM and When to Replace It | /insights/when-to-reconfigure-a-crm-and-when-to-replace-it-a-decision-guide/
+  - Why Your CRM Reports Do Not Match Reality | /insights/why-your-crm-reports-do-not-match-reality-and-how-to-close-the-gap/
 summary: Every time a customer record changes hands inside the CRM, context can leak out. Here is how to design handoffs with a clear trigger, a minimum record and an accept-or-return step.
 layout: plain
 ---

@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: Customer Operations
 sources:
-  - https://www.gov.uk/service-manual/design/form-structure | https://www.gov.uk/service-manual/design/form-structure
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use | https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use
+  - Structuring forms | https://www.gov.uk/service-manual/design/form-structure
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - 4. Make the service simple to use | https://www.gov.uk/service-manual/service-standard/point-4-make-the-service-simple-to-use
+related:
+  - How to Automate Customer Onboarding Without Making It Impersonal | /insights/how-to-automate-client-onboarding-and-keep-the-human-touch/
+  - How to Reduce Manual Customer Follow-Up | /insights/how-to-reduce-manual-customer-follow-up-rules-sequences-and-stop-conditions/
+  - What Should Trigger After a Customer Says Yes? | /insights/what-should-trigger-after-a-customer-says-yes/
 summary: The first conversation with a new customer sets up everything that follows. Intake should collect the right facts once and trigger the right next steps.
 layout: plain
 ---

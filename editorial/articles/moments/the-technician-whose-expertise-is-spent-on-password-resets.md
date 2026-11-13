@@ -15,8 +15,12 @@ human_dividend: Time and optionality: routine resets handled by users themselves
 trade_off: Self-service needs licences, setup and staff registration; badly configured recovery can weaken security; some users will still need help; removing forced password changes needs other safeguards such as multi-factor sign-in.
 epistemic_state: HYPOTHESISED: reasoned from vendor documentation and published identity guidance, not from measured help-desk data in South African firms; the example firm is hypothetical.
 sources:
-  - https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks | https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks
-  - https://pages.nist.gov/800-63-3/sp800-63b.html | https://pages.nist.gov/800-63-3/sp800-63b.html
+  - Self-service password reset deep dive - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks
+  - NIST Special Publication 800-63B | https://pages.nist.gov/800-63-3/sp800-63b.html
+related:
+  - When 'Just Following the Process' Feels Like Giving Up | /moments/when-just-following-the-process-feels-like-giving-up/
+  - The Craftsperson Buried in Quoting Paperwork | /moments/the-craftsperson-buried-in-quoting-paperwork/
+  - Why Re-Keying Data Is Not a Career | /moments/why-re-keying-data-is-not-a-career-and-what-replaces-it/
 summary: A skilled IT technician hired to keep systems healthy spends the morning unlocking accounts. Why that happens, what it does to the person, and how self-service and better password rules return the time.
 layout: plain
 ---

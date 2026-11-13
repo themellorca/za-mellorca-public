@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: CRM Operations
 sources:
-  - https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
-  - https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
+  - Set up duplicate detection rules to keep your data clean - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+related:
+  - How to Design CRM Notifications Without Creating Alert Fatigue | /insights/how-to-design-crm-notifications-without-creating-alert-fatigue/
+  - How to Clean Data Without Creating a Never-Ending Cleanup Project | /insights/how-to-clean-data-without-creating-a-never-ending-cleanup-project/
+  - How Duplicate Contacts and Companies Damage Operations | /insights/how-duplicate-contacts-and-companies-damage-operations-costs-and-controls/
 summary: A CRM clean-up usually lasts about six months before the old mess returns. Here is how to turn a one-off project into a few small, permanent controls that keep data in shape.
 layout: plain
 ---

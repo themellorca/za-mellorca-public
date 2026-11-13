@@ -13,8 +13,12 @@ commercial_domain: IT Infrastructure
 primary_pain: Network performance is not monitored, so problems are only discovered when employees complain
 primary_cost_mechanism: Lost productive time from slow and unreliable connections, repeated reactive support tickets, spending on bandwidth or equipment that does not fix the real cause, and poor call quality with customers
 sources:
-  - https://learn.microsoft.com/en-us/microsoftteams/prepare-network | https://learn.microsoft.com/en-us/microsoftteams/prepare-network
-  - https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles | https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles
+  - Prepare your organization's network for Teams - Microsoft Teams | https://learn.microsoft.com/en-us/microsoftteams/prepare-network
+  - Microsoft 365 network connectivity principles - Microsoft 365 Enterprise | https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles
+related:
+  - Old Switches and Routers: The Hidden Slowdown in Your Office | /impact/old-network-switches-routers-hidden-office-bottleneck-productivity-cost/
+  - Slow computers turn small delays into paid waiting | /impact/slow-computers-paid-waiting-cost/
+  - Automating the Easy Things First: The Opportunity Cost of Leaving Bottlenecks Alone | /impact/automation-chosen-for-convenience-not-costly-bottlenecks-opportunity-cost/
 summary: When the only network monitoring is staff saying the system is slow, problems are found late, diagnosed by guesswork and paid for twice: once in lost work and again in support time.
 layout: plain
 ---

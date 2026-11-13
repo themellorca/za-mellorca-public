@@ -15,8 +15,12 @@ human_dividend: Time and autonomy: field staff carry the information and the pre
 trade_off: Mobile tools and data cost money; poor signal limits real-time access; on-site decisions can be wrong and need clear limits; some approvals must stay with the office for cost or safety reasons.
 epistemic_state: HYPOTHESISED: reasoned from general research on job control and support, not from a study of South African field service businesses; the example is hypothetical.
 sources:
-  - https://www.hse.gov.uk/stress/standards/control.htm | https://www.hse.gov.uk/stress/standards/control.htm
-  - https://www.hse.gov.uk/stress/standards/support.htm | https://www.hse.gov.uk/stress/standards/support.htm
+  - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
+  - Management Standards - Support - HSE | https://www.hse.gov.uk/stress/standards/support.htm
+related:
+  - The customer service agent apologising for a broken system | /moments/the-service-agent-who-apologises-for-a-system-they-cannot-fix/
+  - What It Means to Be Trusted With Better Information | /moments/what-it-means-to-be-trusted-with-better-information/
+  - When Customers See the Mess Before Staff Can Explain It | /moments/when-customers-see-the-mess-before-staff-can-explain-it/
 summary: A technician on site can see what needs doing but has to wait for the office to confirm the part, the price or the go-ahead. What that wait costs the worker and the customer, and how to give field staff the information to decide.
 layout: plain
 ---

@@ -15,8 +15,12 @@ human_dividend: Predictability: staff hear about exceptions before customers do 
 trade_off: Internal alerts add noise if badly tuned; holding customer messages until staff are ready can delay good news too; some failures will always surface first through customers; clear scripts can feel rigid.
 epistemic_state: HYPOTHESISED: reasoned from consumer-protection principles and research on workplace support, not from a study of South African customer service teams; the retailer example is hypothetical.
 sources:
-  - https://www.gov.za/documents/consumer-protection-act | https://www.gov.za/documents/consumer-protection-act
-  - https://www.hse.gov.uk/stress/standards/support.htm | https://www.hse.gov.uk/stress/standards/support.htm
+  - Consumer Protection Act 68 of 2008 - South African Government | https://www.gov.za/documents/consumer-protection-act
+  - Management Standards - Support - HSE | https://www.hse.gov.uk/stress/standards/support.htm
+related:
+  - The Field Worker Waiting for the Office to Confirm | /moments/the-field-worker-waiting-for-the-office-to-confirm/
+  - The Dignity of Not Having to Chase | /moments/the-dignity-of-not-having-to-chase/
+  - When a Job Description and the Real Job Drift Apart | /moments/when-a-job-description-and-the-real-job-drift-apart/
 summary: An automatic email tells the customer their order has shipped when it has not. The staff member who answers the call learns about it from the customer. What that does to confidence, and how to close the gap.
 layout: plain
 ---

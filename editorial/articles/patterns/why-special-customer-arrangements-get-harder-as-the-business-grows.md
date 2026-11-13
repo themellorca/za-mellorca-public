@@ -14,9 +14,13 @@ observable_condition: Special prices, payment terms and delivery rules for indiv
 primary_identification: Unmanaged exceptions: concessions are agreed informally, not recorded where the process can see them, and never reviewed, so handling cost rises faster than customer numbers.
 commercial_value_dimensions: Margin, error rates, training time, staff capacity and growth efficiency
 sources:
-  - https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/ | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/
-  - https://learn.microsoft.com/en-us/power-automate/modern-approvals | https://learn.microsoft.com/en-us/power-automate/modern-approvals
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Operational excellence quick links - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/
+  - Create and test an approval workflow with Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/modern-approvals
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+related:
+  - When Growth Exposes Systems That Were “Good Enough” | /patterns/what-growth-reveals-about-systems-that-were-good-enough/
+  - The Business Cost of Customers Chasing You | /patterns/the-business-cost-of-customers-chasing-you/
+  - Why a process that works for 20 customers breaks at 200 | /patterns/why-a-process-that-works-for-20-customers-breaks-at-200/
 summary: Special prices, terms and delivery rules are easy at ten customers and costly at two hundred. Here is why exceptions multiply, and how to keep the useful ones.
 layout: plain
 ---

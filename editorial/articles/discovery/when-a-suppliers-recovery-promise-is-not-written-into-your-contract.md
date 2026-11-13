@@ -13,9 +13,13 @@ problem_domain: Business Continuity & Resilience
 problem_owner: Head of operations or IT manager who owns the continuity plan together with the contract owner
 budget_owner: Chief financial officer or managing director
 sources:
-  - https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
-  - https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
-  - https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-is-different-in-the-cloud.html | https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-is-different-in-the-cloud.html
+  - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+  - Architecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+  - Disaster recovery is different in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud | https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-is-different-in-the-cloud.html
+related:
+  - RTO targets are copied from templates rather than business impact | /discovery/why-recovery-time-targets-should-come-from-business-impact-not-templates/
+  - Cyber recovery and disaster recovery runbooks give conflicting instructions | /discovery/cyber-recovery-and-disaster-recovery-runbooks-give-conflicting-instructions/
+  - After a cloud migration, nobody updates who to call in a crisis | /discovery/after-a-cloud-migration-nobody-updates-who-to-call-in-a-crisis/
 summary: A hosting provider says it can restore you in four hours, but the contract says nothing. How to trace every outside recovery promise to a clause you can rely on.
 layout: plain
 ---

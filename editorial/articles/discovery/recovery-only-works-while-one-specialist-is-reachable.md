@@ -14,8 +14,12 @@ problem_owner: IT operations manager or continuity lead
 budget_owner: CIO
 sources:
   - https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-34r1.pdf | https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-34r1.pdf
-  - https://learn.microsoft.com/en-us/power-platform/well-architected/reliability/disaster-recovery | https://learn.microsoft.com/en-us/power-platform/well-architected/reliability/disaster-recovery
+  - Design a disaster recovery strategy recommendation for Power Platform workloads - Power Platform | https://learn.microsoft.com/en-us/power-platform/well-architected/reliability/disaster-recovery
   - https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf | https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf
+related:
+  - Manual recovery steps are not timed during tests | /discovery/why-manual-recovery-steps-need-a-stopwatch-during-every-test/
+  - Restore tests prove the files return, not that the service works | /discovery/restore-tests-prove-the-files-return-not-that-the-service-works/
+  - Continuity and cyber recovery plans disagree on what comes first | /discovery/continuity-and-cyber-recovery-plans-disagree-on-what-comes-first/
 summary: Recovery steps live in one specialist's head and only they run the tests. Write runbooks per critical service, have someone else run the next test from the page alone and rotate the role.
 layout: plain
 ---

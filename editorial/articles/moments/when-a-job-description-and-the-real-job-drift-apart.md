@@ -15,9 +15,13 @@ human_dividend: Predictability: a role that is reviewed regularly and written to
 trade_off: Role reviews take time; written roles can become rigid; formalising drift may raise questions about pay and grading; some flexibility is useful in a small business.
 epistemic_state: HYPOTHESISED: reasoned from general guidance on role clarity and change, not from a survey of South African employers; the example is hypothetical. Not legal advice.
 sources:
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://www.hse.gov.uk/stress/standards/change.htm | https://www.hse.gov.uk/stress/standards/change.htm
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Management Standards - Change - HSE | https://www.hse.gov.uk/stress/standards/change.htm
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+related:
+  - The Dignity of Work That Adds Something New | /moments/the-dignity-of-work-that-adds-something-new/
+  - The Engineer Who Became the Integration | /moments/the-engineer-who-became-the-link-between-two-systems/
+  - Why Being Accountable Without Authority Is Exhausting | /moments/why-being-accountable-without-authority-is-exhausting/
 summary: The job on paper says one thing; the job people actually do says another. How roles drift as systems, people and customers change, why the gap matters, and how to bring the two back together.
 layout: plain
 ---

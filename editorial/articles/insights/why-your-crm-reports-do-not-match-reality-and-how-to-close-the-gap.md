@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: CRM and Customer Systems
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/project-accurate-revenue-sales-forecasting | https://learn.microsoft.com/en-us/dynamics365/sales/project-accurate-revenue-sales-forecasting
-  - https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
-  - https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales | https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales
+  - Sales forecasting overview | https://learn.microsoft.com/en-us/dynamics365/sales/project-accurate-revenue-sales-forecasting
+  - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
+  - Understand the sales process | https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales
+related:
+  - Why Your CRM Needs Operating Rules, Not Just Configuration | /insights/why-your-crm-needs-operating-rules-not-just-configuration/
+  - When to Reconfigure a CRM and When to Replace It | /insights/when-to-reconfigure-a-crm-and-when-to-replace-it-a-decision-guide/
+  - How CRM Ownership Should Work | /insights/how-crm-ownership-should-work-roles-decisions-and-permissions/
 summary: The dashboard says the quarter is on track; the sales team knows it is not. The gap usually comes from how records are kept, not from the reporting tool. Here is where it opens and how to close it.
 layout: plain
 ---

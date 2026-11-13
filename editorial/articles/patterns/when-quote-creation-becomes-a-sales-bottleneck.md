@@ -14,9 +14,13 @@ observable_condition: Representatives build each quote by copying an earlier one
 primary_identification: Manual document assembly at a commercial choke point: the facts needed for a quote are not held in one source the quote can draw from.
 commercial_value_dimensions: Win rate, sales capacity, pricing accuracy, margin protection and order accuracy
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/create-edit-quote-sales | https://learn.microsoft.com/en-us/dynamics365/sales/create-edit-quote-sales
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-make-offers | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-make-offers
-  - https://learn.microsoft.com/en-us/power-automate/modern-approvals | https://learn.microsoft.com/en-us/power-automate/modern-approvals
+  - Create or edit quotes in Dynamics 365 Sales | https://learn.microsoft.com/en-us/dynamics365/sales/create-edit-quote-sales
+  - Make sales quotes - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-make-offers
+  - Create and test an approval workflow with Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/modern-approvals
+related:
+  - The Operational Gap Between Sales and Service Delivery | /patterns/what-gets-lost-between-the-sale-and-the-start-of-service/
+  - Why Signed Deals Stall Before Delivery Begins | /patterns/why-signed-deals-sit-idle-between-acceptance-and-the-first-day-of-delivery/
+  - Why Sales Forecasts Change Depending on Who You Ask | /patterns/why-the-sales-forecast-depends-on-which-person-you-ask/
 summary: When every quote is built by hand from old documents, price lists and phone calls, sales can only move as fast as the person who writes them. Here is how to tell and what to change.
 layout: plain
 ---

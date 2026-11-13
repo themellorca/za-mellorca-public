@@ -13,9 +13,13 @@ commercial_domain: Automation and Integration
 primary_pain: Spreadsheet exports and imports are used as the connection between core business systems
 primary_cost_mechanism: Recurring weekly labour at busy periods, import and transformation errors that reach payroll, invoices and stock, reconciliation rework, dependency on one person, and uncontrolled copies of personal information
 sources:
-  - https://support.microsoft.com/topic/1bf7b935-36e1-4985-842f-5dfa51f85fe7 | https://support.microsoft.com/topic/1bf7b935-36e1-4985-842f-5dfa51f85fe7
-  - https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query | https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Keeping leading zeros and large numbers - Microsoft Support | https://support.microsoft.com/topic/1bf7b935-36e1-4985-842f-5dfa51f85fe7
+  - What Is Power Query? - Power Query | https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - When Customers Find the Broken Integration Before You Do | /impact/integrations-breaking-silently-customers-report-failure-first-cost/
+  - The Integration That Is Always Being Fixed: Paying for Poorly Designed Connections | /impact/custom-integrations-constantly-need-repair-poorly-designed-connections-cost/
+  - Shadow Automations: The Hidden Risk of Workflows Built Outside Oversight | /impact/personal-automations-outside-business-oversight-shadow-automation-continuity-risk/
 summary: When the link between two business systems is a person exporting a file, adjusting it in Excel and importing it elsewhere, every transfer costs time and creates a fresh chance of error.
 layout: plain
 ---

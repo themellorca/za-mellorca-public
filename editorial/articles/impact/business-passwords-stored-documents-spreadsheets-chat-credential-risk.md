@@ -13,9 +13,13 @@ commercial_domain: Information Security
 primary_pain: Business passwords are kept in documents, spreadsheets, email and chat messages where anyone who reaches them can read them
 primary_cost_mechanism: Payment fraud and account takeover risk, incident response and password reset labour, external specialist fees, personal information compromise duties, and lost accountability on shared logins
 sources:
-  - https://attack.mitre.org/techniques/T1552/001/ | https://attack.mitre.org/techniques/T1552/001/
-  - https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers | https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Unsecured Credentials: Credentials In Files, Sub-technique T1552.001 - Enterprise - MITRE ATT&CK® | https://attack.mitre.org/techniques/T1552/001/
+  - Managing your passwords | https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - Guests on the Business Network: The Hidden Cost of Poor Separation | /impact/guest-devices-sharing-network-with-business-systems-poor-network-separation-financial-security-risk/
+  - One Click, Real Rands: What Weak Phishing Awareness Costs a Business | /impact/employees-clicking-fraudulent-links-weak-security-awareness-phishing-fraud-interruption-cost/
+  - Five Logins for One Request: The Productivity Cost of Fragmented Systems | /impact/staff-several-logins-systems-one-customer-request-fragmented-operations-cost/
 summary: A spreadsheet of logins or a password pasted into a group chat is convenient. It also hands anyone who reaches that file or chat the keys to banking, email and customer systems.
 layout: plain
 ---

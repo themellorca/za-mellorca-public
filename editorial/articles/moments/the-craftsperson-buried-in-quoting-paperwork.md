@@ -15,8 +15,12 @@ human_dividend: Time: quotes built faster from templates, current price lists an
 trade_off: Templates take setup time and need maintaining; standard pricing may miss unusual jobs; quoting software costs money; a quick quote can feel less personal to some customers.
 epistemic_state: HYPOTHESISED: reasoned from general research on job demands and consumer-protection principles, not from a study of South African trade businesses; the example is hypothetical. Not legal advice.
 sources:
-  - https://www.gov.za/documents/consumer-protection-act | https://www.gov.za/documents/consumer-protection-act
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Consumer Protection Act 68 of 2008 - South African Government | https://www.gov.za/documents/consumer-protection-act
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+related:
+  - The Technician Whose Expertise Is Spent on Password Resets | /moments/the-technician-whose-expertise-is-spent-on-password-resets/
+  - Why Re-Keying Data Is Not a Career | /moments/why-re-keying-data-is-not-a-career-and-what-replaces-it/
+  - Why Repetitive Work Hides Real Talent | /moments/why-repetitive-work-hides-real-talent/
 summary: A skilled tradesperson spends evenings measuring up, pricing materials and typing quotes, many of which never become work. Why quoting swallows craft time and how templates and better information can give it back.
 layout: plain
 ---

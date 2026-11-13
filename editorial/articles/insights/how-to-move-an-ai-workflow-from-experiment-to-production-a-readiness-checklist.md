@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: AI and Automation
 sources:
-  - https://www.nist.gov/itl/ai-risk-management-framework | https://www.nist.gov/itl/ai-risk-management-framework
-  - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy
-  - https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments
+  - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
+  - AI strategy - Guidance to set your organization's AI strategy - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy
+  - Architecture strategies for safe deployment practices - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments
+related:
+  - How to Give AI the Context It Needs Without Giving It Everything | /insights/how-to-give-ai-the-context-it-needs-without-giving-it-everything/
+  - Why giving AI access to more systems is not automatically better | /insights/why-giving-ai-access-to-more-systems-is-not-automatically-better/
+  - How to design alerts for automation failures | /insights/how-to-design-alerts-for-automation-failures/
 summary: A promising AI test is not yet something the business can rely on. Here are the decisions, tests and controls that turn an experiment into a workflow people can depend on every day.
 layout: plain
 ---

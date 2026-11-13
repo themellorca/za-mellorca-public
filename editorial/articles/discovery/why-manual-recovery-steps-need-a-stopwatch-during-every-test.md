@@ -13,10 +13,14 @@ problem_domain: Business Continuity & Resilience
 problem_owner: IT or operations manager who owns the recovery plan and its test
 budget_owner: Operations director, chief financial officer or managing director
 sources:
-  - https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
-  - https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html | https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html
-  - https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
-  - https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-test-failover-to-azure | https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-test-failover-to-azure
+  - Architecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+  - Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud | https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html
+  - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+  - Run a test failover (disaster recovery drill) to Azure in Azure Site Recovery - Azure Site Recovery | https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-test-failover-to-azure
+related:
+  - Recovery only works while one specialist is reachable | /discovery/recovery-only-works-while-one-specialist-is-reachable/
+  - Restore tests prove the files return, not that the service works | /discovery/restore-tests-prove-the-files-return-not-that-the-service-works/
+  - Cyber recovery and disaster recovery runbooks give conflicting instructions | /discovery/cyber-recovery-and-disaster-recovery-runbooks-give-conflicting-instructions/
 summary: A recovery test that records only pass or fail hides the slowest, most human part of recovery. How to time manual steps so the recovery time you quote is one you have actually seen.
 layout: plain
 ---

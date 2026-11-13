@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: Customer Operations
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/create-and-activate-a-sequence | https://learn.microsoft.com/en-us/dynamics365/sales/create-and-activate-a-sequence
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
-  - https://www.inforegulator.org.za/popia/ | https://www.inforegulator.org.za/popia/
+  - Sequence creation and activation in the sales accelerator | https://learn.microsoft.com/en-us/dynamics365/sales/create-and-activate-a-sequence
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Who makes an application to process Special Personal Information? | https://www.inforegulator.org.za/popia/
+related:
+  - How to Automate Customer Onboarding Without Making It Impersonal | /insights/how-to-automate-client-onboarding-and-keep-the-human-touch/
+  - Why customers keep being asked for the same information | /insights/why-customers-are-asked-to-repeat-their-details/
+  - How to Design Better New-Customer Intake | /insights/how-to-design-a-new-customer-intake-that-collects-once-and-starts-right/
 summary: Chasing quotes, documents and payments by memory wastes hours and still misses customers. Here is how to sort follow-ups by type, automate the predictable ones and keep people on the ones that need judgement.
 layout: plain
 ---

@@ -13,9 +13,13 @@ problem_domain: Business Continuity & Resilience
 problem_owner: IT operations or infrastructure manager
 budget_owner: CIO, with the CFO for insurance
 sources:
-  - https://docs.aws.amazon.com/aws-backup/latest/devguide/restore-testing.html | https://docs.aws.amazon.com/aws-backup/latest/devguide/restore-testing.html
-  - https://docs.aws.amazon.com/aws-backup/latest/devguide/restore-testing-validation.html | https://docs.aws.amazon.com/aws-backup/latest/devguide/restore-testing-validation.html
+  - Restore testing - AWS Backup | https://docs.aws.amazon.com/aws-backup/latest/devguide/restore-testing.html
+  - Restore testing validation - AWS Backup | https://docs.aws.amazon.com/aws-backup/latest/devguide/restore-testing-validation.html
   - https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf | https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf
+related:
+  - Recovery only works while one specialist is reachable | /discovery/recovery-only-works-while-one-specialist-is-reachable/
+  - Manual recovery steps are not timed during tests | /discovery/why-manual-recovery-steps-need-a-stopwatch-during-every-test/
+  - Continuity and cyber recovery plans disagree on what comes first | /discovery/continuity-and-cyber-recovery-plans-disagree-on-what-comes-first/
 summary: Restore tests pass one server at a time, yet the service may not run. Map each critical service's chain, restore it in order and time how long it takes to work.
 layout: plain
 ---

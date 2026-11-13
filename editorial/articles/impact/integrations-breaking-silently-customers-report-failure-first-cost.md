@@ -13,8 +13,12 @@ commercial_domain: Automation and Integration
 primary_pain: Integrations between core systems stop passing data without any visible error, and the failure is first noticed when customers complain
 primary_cost_mechanism: Reconciliation and replay labour, customer service time, cancelled or delayed orders, decisions made on incomplete data, and manual checking that returns after trust in the integration is lost
 sources:
-  - https://shopify.dev/docs/apps/build/webhooks/troubleshooting-webhooks | https://shopify.dev/docs/apps/build/webhooks/troubleshooting-webhooks
-  - https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview
+  - Troubleshoot webhooks | https://shopify.dev/docs/apps/build/webhooks/troubleshooting-webhooks
+  - Overview of Azure Monitor alerts - Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview
+related:
+  - Export, Fix, Import: The Hidden Cost of Spreadsheets Connecting Core Systems | /impact/spreadsheet-exports-imports-connecting-core-systems-manual-integration-cost/
+  - The Integration That Is Always Being Fixed: Paying for Poorly Designed Connections | /impact/custom-integrations-constantly-need-repair-poorly-designed-connections-cost/
+  - Shadow Automations: The Hidden Risk of Workflows Built Outside Oversight | /impact/personal-automations-outside-business-oversight-shadow-automation-continuity-risk/
 summary: A connection between two business systems can stop passing data without any error anyone sees. The cost grows every hour until a customer complains, and it is mostly a detection problem.
 layout: plain
 ---

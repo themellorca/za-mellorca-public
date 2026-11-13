@@ -13,9 +13,13 @@ problem_domain: Business Continuity & Resilience
 problem_owner: Infrastructure or IT manager responsible for the standby environment and its upkeep
 budget_owner: IT director, operations director or managing director
 sources:
-  - https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html | https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html
-  - https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-test-failover-to-azure | https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-test-failover-to-azure
-  - https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+  - Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud | https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html
+  - Run a test failover (disaster recovery drill) to Azure in Azure Site Recovery - Azure Site Recovery | https://learn.microsoft.com/en-us/azure/site-recovery/site-recovery-test-failover-to-azure
+  - Architecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+related:
+  - Continuity and cyber recovery plans disagree on what comes first | /discovery/continuity-and-cyber-recovery-plans-disagree-on-what-comes-first/
+  - After a cloud migration, nobody updates who to call in a crisis | /discovery/after-a-cloud-migration-nobody-updates-who-to-call-in-a-crisis/
+  - Manual recovery steps are not timed during tests | /discovery/why-manual-recovery-steps-need-a-stopwatch-during-every-test/
 summary: A standby environment that matched production last year rarely matches it now. How configuration drift defeats recovery, and how to keep the two in step during a cloud migration.
 layout: plain
 ---

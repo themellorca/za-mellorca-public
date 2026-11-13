@@ -13,9 +13,13 @@ problem_domain: Contracts & Obligation Management
 problem_owner: Procurement lead, commercial manager or financial manager responsible for supplier agreements
 budget_owner: Financial director or managing director
 sources:
-  - https://www.gov.za/documents/electronic-communications-and-transactions-act | https://www.gov.za/documents/electronic-communications-and-transactions-act
-  - https://learn.microsoft.com/en-us/purview/retention | https://learn.microsoft.com/en-us/purview/retention
-  - https://learn.microsoft.com/en-us/purview/retention-policies-sharepoint | https://learn.microsoft.com/en-us/purview/retention-policies-sharepoint
+  - Electronic Communications and Transactions Act 25 of 2002 - South African Government | https://www.gov.za/documents/electronic-communications-and-transactions-act
+  - Learn about retention policies & labels to retain or delete | https://learn.microsoft.com/en-us/purview/retention
+  - Learn about retention for SharePoint and OneDrive | https://learn.microsoft.com/en-us/purview/retention-policies-sharepoint
+related:
+  - Nobody owns the obligations that start after a contract is signed | /discovery/nobody-owns-the-obligations-that-start-after-a-contract-is-signed/
+  - Software usage data is unavailable before renewals | /discovery/why-software-usage-data-is-missing-when-renewals-arrive/
+  - API credentials are shared across unrelated integrations | /discovery/api-credentials-shared-across-unrelated-integrations/
 summary: Before a supplier consolidation, nobody can say where the signed contracts are. How to collect them, centralise them and keep a register of the dates and terms that matter.
 layout: plain
 ---

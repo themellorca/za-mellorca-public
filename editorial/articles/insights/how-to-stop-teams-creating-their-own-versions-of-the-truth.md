@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: Data and Systems
 sources:
-  - https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-data-culture | https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-data-culture
-  - https://learn.microsoft.com/en-us/purview/data-governance-overview | https://learn.microsoft.com/en-us/purview/data-governance-overview
-  - https://www.gov.uk/guidance/make-better-use-of-data | https://www.gov.uk/guidance/make-better-use-of-data
+  - Microsoft Fabric adoption roadmap: Data culture - Power BI | https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-data-culture
+  - Learn about data governance with Microsoft Purview | https://learn.microsoft.com/en-us/purview/data-governance-overview
+  - Make better use of data | https://www.gov.uk/guidance/make-better-use-of-data
+related:
+  - What a System of Record Is and Why It Matters | /insights/what-a-system-of-record-is-and-why-it-matters/
+  - Why teams stop trusting the CRM | /insights/why-teams-stop-trusting-the-crm/
+  - How Manual Data Entry Creates Downstream Problems | /insights/how-one-typing-error-becomes-a-disputed-invoice-and-a-wrong-report/
 summary: Private spreadsheets and team-specific reports appear when the official numbers are late, hard to reach or not trusted. Here is how to remove those reasons rather than ban the spreadsheets.
 layout: plain
 ---

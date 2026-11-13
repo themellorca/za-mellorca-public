@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: Systems Integration
 sources:
-  - https://learn.microsoft.com/en-us/graph/throttling | https://learn.microsoft.com/en-us/graph/throttling
-  - https://learn.microsoft.com/en-us/power-automate/limits-and-config | https://learn.microsoft.com/en-us/power-automate/limits-and-config
-  - https://learn.microsoft.com/en-us/azure/architecture/patterns/retry | https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
+  - Microsoft Graph throttling guidance - Microsoft Graph | https://learn.microsoft.com/en-us/graph/throttling
+  - Limits of automated, scheduled, and instant flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/limits-and-config
+  - Retry pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
+related:
+  - How integration errors turn into customer problems | /insights/from-rejected-message-to-unhappy-customer-how-integration-errors-reach-customers/
+  - When an integration platform makes sense—and when it does not | /insights/when-an-integration-platform-is-worth-buying-and-when-it-is-not/
+  - How to design integrations for change, not just for launch | /insights/how-to-design-integrations-that-survive-supplier-and-business-change/
 summary: Software platforms cap how many requests your integrations and automations can make. When volume grows, those caps quietly turn into late orders, stale stock figures and missed messages. Here is how to plan for them.
 layout: plain
 ---

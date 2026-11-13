@@ -13,9 +13,13 @@ problem_domain: Business Continuity & Resilience
 problem_owner: Risk, continuity or operations manager who runs the exercises and tracks follow-up
 budget_owner: Operations director, chief risk officer or managing director
 sources:
-  - https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
-  - https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_testing_resiliency_failure_injection_resiliency.html | https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_testing_resiliency_failure_injection_resiliency.html
-  - https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+  - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+  - REL12-BP04 Test resiliency using chaos engineering - Reliability Pillar | https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_testing_resiliency_failure_injection_resiliency.html
+  - Architecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+related:
+  - Recovery plans list systems but not the business services they support | /discovery/why-recovery-plans-should-be-organised-around-business-services-not-servers/
+  - Failover is tested quietly and fails when real load arrives | /discovery/failover-is-tested-quietly-and-fails-when-real-load-arrives/
+  - Business and IT use different definitions of criticality | /discovery/business-and-it-use-different-definitions-of-criticality/
 summary: Exercises find real weaknesses, and then the action list sits in a folder. How to turn continuity exercise findings into owned, dated, verified fixes before the next incident.
 layout: plain
 ---

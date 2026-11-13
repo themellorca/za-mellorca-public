@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: Data Quality
 sources:
-  - https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept/accuracy-confidence | https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept/accuracy-confidence
-  - https://www.sars.gov.za/businesses-and-employers/tax-invoices/ | https://www.sars.gov.za/businesses-and-employers/tax-invoices/
-  - https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
+  - Interpret and improve model accuracy and confidence scores - Foundry Tools | https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept/accuracy-confidence
+  - Tax Invoices - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/tax-invoices/
+  - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
+related:
+  - Why Required Fields Do Not Automatically Create Good Data | /insights/why-required-fields-do-not-automatically-create-good-data/
+  - Why More Fields Usually Do Not Fix Data Quality | /insights/why-more-fields-usually-do-not-fix-data-quality/
+  - What Data Should Be Required at the Point of Capture? | /insights/what-data-should-be-required-at-the-point-of-capture-and-what-can-wait/
 summary: Reading invoices, orders and forms automatically saves hours, but a wrong extracted value travels straight into your systems. Here is how to design document automation that checks before it posts.
 layout: plain
 ---

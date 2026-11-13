@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: Reporting and Decision-Making
 sources:
-  - https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content | https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content
-  - https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-data-culture | https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-data-culture
-  - https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand | https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand
+  - Endorse your content - Power BI | https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content
+  - Microsoft Fabric adoption roadmap: Data culture - Power BI | https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-data-culture
+  - Semantic Models in the Power BI Service - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand
+related:
+  - When two tools are doing the job of one | /insights/when-two-tools-are-doing-the-job-of-one/
+  - Why teams stop trusting the CRM | /insights/why-teams-stop-trusting-the-crm/
+  - Why sales, operations and service need different views of the same customer | /insights/one-customer-record-three-teams-three-useful-views/
 summary: When two teams bring different figures to the same meeting, a repeatable process settles the dispute and prevents the next one.
 layout: plain
 ---

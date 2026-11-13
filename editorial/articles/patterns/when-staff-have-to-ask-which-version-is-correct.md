@@ -14,8 +14,12 @@ observable_condition: Staff find several copies of the same price list, policy o
 primary_identification: Version sprawl: documents are shared as copies rather than links to one owned source, so new versions are added alongside old ones instead of replacing them.
 commercial_value_dimensions: Pricing accuracy, compliance exposure, staff time and dispute cost
 sources:
-  - https://learn.microsoft.com/en-us/sharepoint/document-library-version-history-limits | https://learn.microsoft.com/en-us/sharepoint/document-library-version-history-limits
-  - https://learn.microsoft.com/en-us/purview/data-governance-overview | https://learn.microsoft.com/en-us/purview/data-governance-overview
+  - Version history limits for document library and OneDrive overview - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/document-library-version-history-limits
+  - Learn about data governance with Microsoft Purview | https://learn.microsoft.com/en-us/purview/data-governance-overview
+related:
+  - When Files Are Organized by People Instead of Processes | /patterns/why-folders-named-after-people-hide-the-work-they-hold/
+  - Why can nobody find the document they know exists? | /patterns/why-can-nobody-find-the-document-they-know-exists/
+  - Why Document Storage Is Not the Same as Knowledge Management | /patterns/why-a-full-document-archive-still-leaves-staff-asking-each-other/
 summary: When the same price list, policy or contract exists in several copies and staff must ask which one to trust, every decision carries a hidden risk. Here is why it happens and how to end it.
 layout: plain
 ---

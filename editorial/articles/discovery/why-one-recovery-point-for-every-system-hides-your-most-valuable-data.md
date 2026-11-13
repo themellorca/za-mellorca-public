@@ -13,9 +13,13 @@ problem_domain: Business Continuity & Resilience
 problem_owner: Finance or operations lead accountable for transaction records, working with the IT manager
 budget_owner: Chief financial officer or managing director
 sources:
-  - https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
-  - https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html | https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html
-  - https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+  - Architecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+  - Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud | https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html
+  - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+related:
+  - RTO targets are copied from templates rather than business impact | /discovery/why-recovery-time-targets-should-come-from-business-impact-not-templates/
+  - After a cloud migration, nobody updates who to call in a crisis | /discovery/after-a-cloud-migration-nobody-updates-who-to-call-in-a-crisis/
+  - Third-party recovery commitments are not linked to contracts | /discovery/when-a-suppliers-recovery-promise-is-not-written-into-your-contract/
 summary: Treating all data as equally recoverable leaves payments and orders as exposed as archive folders. How to set recovery points that follow the value of each transaction.
 layout: plain
 ---

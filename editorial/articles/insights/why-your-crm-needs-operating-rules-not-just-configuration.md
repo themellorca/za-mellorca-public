@@ -10,9 +10,13 @@ published_date: 2026-11-13
 updated_date: 2026-11-13
 eyebrow: CRM and Customer Systems
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales | https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales
-  - https://learn.microsoft.com/en-us/dynamics365/sales/security-roles-for-sales | https://learn.microsoft.com/en-us/dynamics365/sales/security-roles-for-sales
-  - https://www.inforegulator.org.za/popia/ | https://www.inforegulator.org.za/popia/
+  - Understand the sales process | https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales
+  - Predefined security roles for Sales | https://learn.microsoft.com/en-us/dynamics365/sales/security-roles-for-sales
+  - Who makes an application to process Special Personal Information? | https://www.inforegulator.org.za/popia/
+related:
+  - Why Your CRM Reports Do Not Match Reality | /insights/why-your-crm-reports-do-not-match-reality-and-how-to-close-the-gap/
+  - When to Reconfigure a CRM and When to Replace It | /insights/when-to-reconfigure-a-crm-and-when-to-replace-it-a-decision-guide/
+  - How to Design Better CRM Handoffs | /insights/how-to-design-better-crm-handoffs-ownership-records-and-acceptance/
 summary: Configuration controls what the software allows. Operating rules decide what people actually do with it: when to log, who closes, what counts as qualified. Here is how to write a short rulebook the team will follow.
 layout: plain
 ---

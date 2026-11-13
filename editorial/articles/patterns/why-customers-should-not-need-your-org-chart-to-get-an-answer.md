@@ -14,8 +14,12 @@ observable_condition: Customers choose between several departmental email addres
 primary_identification: Structure leaking to the customer: there is no single front door or owner responsible for routing requests internally, so customers must navigate the organisation themselves.
 commercial_value_dimensions: Customer effort, response time, staff time on redirection, lost requests and loyalty
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/overview-unified-routing | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/overview-unified-routing
-  - https://learn.microsoft.com/en-us/exchange/collaboration-exo/shared-mailboxes | https://learn.microsoft.com/en-us/exchange/collaboration-exo/shared-mailboxes
+  - Overview of unified routing | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/overview-unified-routing
+  - Shared mailboxes in Exchange Online | https://learn.microsoft.com/en-us/exchange/collaboration-exo/shared-mailboxes
+related:
+  - When a Customer Portal Would Not Fix the Underlying Problem | /patterns/when-a-customer-portal-would-not-fix-the-underlying-problem/
+  - Why Service Teams Become the Buffer for Broken Processes | /patterns/why-service-teams-become-the-buffer-for-broken-processes/
+  - When Your Service Team Repeats the Same Answer Hundreds of Times | /patterns/when-your-service-team-repeats-the-same-answer-hundreds-of-times/
 summary: When customers must know which department, person or email address handles their issue, the business has passed its internal structure on to them. Here is how to take it back.
 layout: plain
 ---

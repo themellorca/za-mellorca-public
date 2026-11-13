@@ -13,9 +13,13 @@ commercial_domain: AI Governance
 primary_pain: AI tools purchased separately by every department with no shared register, rules or data standards
 primary_cost_mechanism: Overlapping subscriptions and duplicated learning effort, unremoved access after staff leave, inconsistent handling of personal and confidential data, and inability to answer client or regulator questions
 sources:
-  - https://www.nist.gov/itl/ai-risk-management-framework | https://www.nist.gov/itl/ai-risk-management-framework
-  - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/govern | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/govern
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
+  - Govern AI - Guidance to set up your organization's AI governance process - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/govern
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - No Rules for AI Tools: The Cost of Uncontrolled Data Entry | /impact/no-rules-for-company-information-entered-into-ai-tools-compliance-cost/
+  - Buying AI because competitors are: The cost of spending without a business case | /impact/buying-ai-without-defined-business-problem-cost/
+  - Fluent, confident and wrong: The cost of sending AI output to customers unchecked | /impact/ai-drafted-customer-messages-sent-without-review-correction-and-trust-cost/
 summary: When each team buys its own AI tools, the business pays for overlap and ends up with no single view of cost, rules or the data being entered.
 layout: plain
 ---

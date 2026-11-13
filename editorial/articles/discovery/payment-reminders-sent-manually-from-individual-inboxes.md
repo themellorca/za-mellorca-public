@@ -13,9 +13,13 @@ problem_domain: Accounts Receivable & Collections
 problem_owner: Credit controller or finance manager
 budget_owner: Financial director or CFO
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/finance-automate-reminders | https://learn.microsoft.com/en-us/dynamics365/business-central/finance-automate-reminders
-  - https://learn.microsoft.com/en-us/microsoft-365/admin/email/about-shared-mailboxes | https://learn.microsoft.com/en-us/microsoft-365/admin/email/about-shared-mailboxes
+  - Collect outstanding balances - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances
+  - Automate reminders in collections - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/finance-automate-reminders
+  - About shared mailboxes in Microsoft 365 - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/email/about-shared-mailboxes
+related:
+  - Sales promises payment extensions that finance cannot see | /discovery/how-informal-payment-extensions-from-sales-undermine-collections/
+  - Disputes are tracked separately from invoice status | /discovery/why-invoice-disputes-live-in-email-while-the-ledger-says-overdue/
+  - Failed direct debits do not automatically create follow-up work | /discovery/failed-direct-debits-do-not-automatically-create-follow-up-work/
 summary: When each overdue reminder is typed and sent from a personal mailbox, timing depends on who is at their desk and nobody can see what a customer was told. Here is how to move reminders into the ledger and a shared address.
 layout: plain
 ---
