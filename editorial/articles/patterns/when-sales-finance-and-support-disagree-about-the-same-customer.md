@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-035
 slug: when-sales-finance-and-support-disagree-about-the-same-customer
-title: When Sales, Finance and Support Disagree About the Same Customer
-description: Sales treats a customer as a growing account, finance has them on credit hold and support sees an unhappy client with open complaints. When each department keeps its own picture of the customer, each acts correctly on information the others cannot see.
+title: When sales, finance and support disagree about the same customer
+description: Sales sees a growing account, finance a credit hold and support an unhappy client. Each acts correctly on a partial picture the others cannot see.
 lead: Sales treats a customer as a growing account, finance has them on credit hold and support sees an unhappy client with open complaints. When each department keeps its own picture of the customer, each acts correctly on information the others cannot see.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-05
@@ -18,9 +18,9 @@ sources:
   - Data unification overview - Dynamics 365 Customer Insights | https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-unification
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
 related:
-  - When One Change Has to Be Made in Every System You Own | /patterns/when-one-change-has-to-be-made-in-every-system-you-own/
-  - When Disconnected Systems Let the Business Act on Old Information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
-  - Why Information Has to Be Copied From One System to Another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
+  - When one change has to be made in every system you own | /patterns/when-one-change-has-to-be-made-in-every-system-you-own/
+  - When disconnected systems let the business act on old information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
+  - Why information has to be copied from one system to another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
 summary: Sales treats a customer as a growing account, finance has them on credit hold and support sees an unhappy client with open complaints. When each department keeps its own picture of the customer, each acts correctly on information the others cannot see.
 layout: plain
 ---
@@ -38,9 +38,9 @@ An illustrative example: a Western Cape professional-services firm with around s
 
 A customer is not one piece of data. It is a relationship that each department touches from a different angle, and each angle carries information the others need. When that information stays inside each department, the business does not have one view of the customer that is sometimes out of date. It has several views, each complete in its own terms and each missing something important.
 
-IBM describes data silos as isolated collections of data that prevent sharing between departments, systems and business units, and notes that they commonly form when teams such as marketing and sales run their own systems. The consequences it lists include weaker data quality, lower efficiency and decisions made on incomplete information.
+[IBM describes data silos as isolated collections of data](https://www.ibm.com/think/topics/data-silos) that prevent sharing between departments, systems and business units, and notes that they commonly form when teams such as marketing and sales run their own systems. The consequences it lists include weaker data quality, lower efficiency and decisions made on incomplete information.
 
-Platforms built to address this, such as Microsoft's Customer Insights, describe a process of bringing customer data from several sources together: finding duplicates, matching records across sources and deciding which fields make up a single combined profile. The interesting part is not the tool. It is that the process forces a business to decide what each field means and which source should be believed.
+Platforms built to address this, such as [Microsoft's Customer Insights](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-unification), describe a process of bringing customer data from several sources together: finding duplicates, matching records across sources and deciding which fields make up a single combined profile. The interesting part is not the tool. It is that the process forces a business to decide what each field means and which source should be believed.
 
 **Realisation prompt:** could anyone in your business, today, see a single customer's sales history, account standing and open complaints on one screen?
 
@@ -64,7 +64,7 @@ The commercial value at stake is revenue, cash flow, retention and risk.
 
 Selling more to customers who are not paying increases credit exposure. Chasing payment from a customer whose complaint is unresolved can turn a dispute into a lost account. Missing early signs of dissatisfaction, visible to support but not to sales, removes the chance to retain a valuable customer. Conflicting customer counts weaken forecasts and planning.
 
-Customer experience suffers in a way customers notice: being sold to while in dispute, or asked for details they have already given another department. For personal information, POPIA section 16 also requires reasonably practicable steps to keep it complete, accurate and updated, which is harder when several departments keep their own versions.
+Customer experience suffers in a way customers notice: being sold to while in dispute, or asked for details they have already given another department. For personal information, [POPIA section 16](https://popia.co.za/section-16-quality-of-information/) also requires reasonably practicable steps to keep it complete, accurate and updated, which is harder when several departments keep their own versions.
 
 The related Pattern on [when your CRM knows something your finance system does not](/patterns/when-your-crm-knows-something-your-finance-system-does-not/) looks at the specific gap between sales and finance records.
 

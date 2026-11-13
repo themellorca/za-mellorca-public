@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-181
 slug: how-to-choose-a-business-process-for-an-ai-agent
-title: How to Choose a Business Process for an AI Agent
-description: The first AI agent a business deploys should be chosen for fit, not novelty. Seven criteria for comparing candidate processes, starting with whether the process needs an agent at all, and a simple way to score them side by side.
+title: How to choose a business process for an AI agent
+description: Choose your first AI agent for fit, not novelty. Seven criteria for comparing candidate processes, starting with whether one needs an agent at all.
 lead: The first AI agent a business deploys should be chosen for fit, not novelty. Seven criteria for comparing candidate processes, starting with whether the process needs an agent at all, and a simple way to score them side by side.
 category: Automation & AI
 published_date: 2026-10-03
@@ -12,10 +12,12 @@ eyebrow: Automation & AI
 sources:
   - Building Effective AI Agents | https://www.anthropic.com/engineering/building-effective-agents
   - https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf | https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf
+  - AI Agent Orchestration Patterns - Azure Architecture Center | Microsoft Learn | https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns
 related:
-  - What AI Agents Need Before They Can Do Useful Work | /insights/what-ai-agents-need-before-they-can-do-useful-work/
-  - Why Automating a Broken Process Makes the Problem Worse | /insights/why-automating-a-broken-process-makes-the-problem-worse/
+  - What AI agents need before they can do useful work | /insights/what-ai-agents-need-before-they-can-do-useful-work/
+  - Why automating a broken process makes the problem worse | /insights/why-automating-a-broken-process-makes-the-problem-worse/
   - What business processes need documentation first? | /insights/what-business-processes-need-documentation-first/
+  - What makes an automation worth building | /insights/what-makes-an-automation-worth-building/
 summary: The first AI agent a business deploys should be chosen for fit, not novelty. Seven criteria for comparing candidate processes, starting with whether the process needs an agent at all, and a simple way to score them side by side.
 layout: plain
 ---
@@ -25,7 +27,9 @@ Too often the first process is chosen because it is visible, because a vendor de
 
 ## First, does the process need an agent at all?
 
-An AI agent, in the sense used by the major model providers, is a system in which a language model decides for itself which steps to take and which tools to use to complete a task. Anthropic's guidance on [building effective agents](https://www.anthropic.com/engineering/building-effective-agents) distinguishes these from workflows, in which models and tools follow predefined paths. It recommends starting with the simplest solution and adding agentic complexity only when simpler approaches fall short, noting that agents trade higher cost and latency, and a risk of compounding errors, for flexibility on open-ended problems.
+An AI agent, in the sense used by the major model providers, is a system in which a language model decides for itself which steps to take and which tools to use to complete a task. Anthropic's guidance on [building effective agents](https://www.anthropic.com/engineering/building-effective-agents) distinguishes these from workflows, in which models and tools follow predefined paths.
+
+It recommends starting with the simplest solution and adding agentic complexity only when simpler approaches fall short, noting that agents trade higher cost and latency, and a risk of compounding errors, for flexibility on open-ended problems. Microsoft's [architecture guidance on agent patterns](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns) says the same: use the lowest level of complexity that reliably meets the requirements, and if prompt engineering can solve the problem, you do not need an agent.
 
 OpenAI's [practical guide to building agents](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf) offers three signals that a use case may justify an agent: decisions involving nuanced judgement and exceptions, rule sets that have become too complex to maintain, and heavy reliance on unstructured information such as documents and natural language. Where none of these apply, the guide suggests a deterministic solution may be enough.
 

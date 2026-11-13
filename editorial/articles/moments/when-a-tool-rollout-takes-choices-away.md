@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000056
 slug: when-a-tool-rollout-takes-choices-away
-title: When a Tool Rollout Takes Choices Away
-description: A new finance system arrives and the clerk's carefully refined way of working disappears with the old software. What standardised tools remove from the people who use them, and how learning current methods first keeps the choices that matter.
+title: When a tool rollout takes choices away
+description: A new finance system arrives and the clerk's refined way of working vanishes with the old software. What standard tools remove, and how to keep it.
 lead: A new finance system arrives and the clerk's carefully refined way of working disappears with the old software. What standardised tools remove from the people who use them, and how learning current methods first keeps the choices that matter.
 category: Human Agency
 published_date: 2026-10-07
@@ -20,9 +20,10 @@ sources:
   - Learning about users and their needs | https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs
   - User Control and Freedom (Usability Heuristic #3) | https://www.nngroup.com/articles/user-control-and-freedom/
 related:
-  - When Software Workarounds Replace Professional Discretion | /moments/when-software-workarounds-replace-professional-discretion/
-  - What Real Delegation Requires From Systems | /moments/what-real-delegation-requires-from-systems/
-  - The Freedom That Comes From Knowing Where Things Stand | /moments/the-freedom-that-comes-from-knowing-where-things-stand/
+  - When software workarounds replace professional discretion | /moments/when-software-workarounds-replace-professional-discretion/
+  - What real delegation requires from systems | /moments/what-real-delegation-requires-from-systems/
+  - The freedom that comes from knowing where things stand | /moments/the-freedom-that-comes-from-knowing-where-things-stand/
+  - When automation removes a choice people wanted to keep | /moments/when-automation-removes-a-choice-people-wanted-to-keep/
 summary: A new finance system arrives and the clerk's carefully refined way of working disappears with the old software. What standardised tools remove from the people who use them, and how learning current methods first keeps the choices that matter.
 layout: plain
 ---
@@ -62,7 +63,7 @@ In this scenario, the purchasing officer discovers that she can no longer split 
 
 1. **Learn the current method before replacing it.** Sit with the people who do the work and ask what they do, in what order and why. Some of their choices will be habit. Others will be protecting against real problems.
 2. **Decide deliberately which choices to keep.** Not every personal method should survive, but the ones that matter should be built into the new configuration rather than lost by default.
-3. **Leave room for safe flexibility.** Where risk allows, let people choose their own order of work, save drafts, or undo mistakes easily. Nielsen Norman Group's guidance on user control and freedom stresses clearly marked ways to exit, cancel and undo, because people who feel trapped by an interface become frustrated.
+3. **Leave room for safe flexibility.** Where risk allows, let people choose their own order of work, save drafts, or undo mistakes easily. Nielsen Norman Group's guidance on [user control and freedom](https://www.nngroup.com/articles/user-control-and-freedom/) stresses clearly marked ways to exit, cancel and undo, because people who feel trapped by an interface become frustrated.
 4. **Explain the reasons.** When a choice must be removed, say why. A mandatory field that exists for VAT compliance is easier to accept than one that seems arbitrary.
 5. **Plan a review after go-live.** Ask users after a few weeks what is not working, and change the configuration where it makes sense.
 

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-401
 slug: what-digital-infrastructure-means-for-a-modern-business
-title: What Digital Infrastructure Means for a Modern Business
-description: Digital infrastructure is more than servers and Wi-Fi. A plain-language guide to the six layers every modern business depends on, how they fail, and the questions an owner should be able to answer about each.
+title: What digital infrastructure means for a modern business
+description: Digital infrastructure is more than servers and Wi-Fi. A plain guide to the six layers a business depends on, how they fail and what to ask about each.
 lead: Digital infrastructure is more than servers and Wi-Fi. A plain-language guide to the six layers every modern business depends on, how they fail, and the questions an owner should be able to answer about each.
 category: Digital Infrastructure
 published_date: 2026-10-07
@@ -15,8 +15,9 @@ sources:
   - Small Business Cybersecurity Corner | https://www.nist.gov/itl/smallbusinesscyber
 related:
   - Why every important integration needs an owner | /insights/why-every-important-integration-needs-an-owner/
-  - How to Build a Business Application Inventory That Is Actually Useful | /insights/how-to-build-a-business-application-inventory-that-is-actually-useful/
+  - How to build a business application inventory that is actually useful | /insights/how-to-build-a-business-application-inventory-that-is-actually-useful/
   - How to decide what should be the system of record | /insights/how-to-decide-what-should-be-the-system-of-record/
+  - Why SaaS applications are part of your operating infrastructure | /insights/why-saas-applications-are-part-of-your-operating-infrastructure-not-just-subscriptions/
 summary: Digital infrastructure is more than servers and Wi-Fi. A plain-language guide to the six layers every modern business depends on, how they fail, and the questions an owner should be able to answer about each.
 layout: plain
 ---
@@ -53,7 +54,7 @@ The business applications themselves, whether cloud subscriptions or on-premises
 
 ### 6. Security and recovery controls
 
-The protective layer across everything else: firewalls, malware protection, monitoring, incident response and recovery plans. NIST's Small Business Cybersecurity Corner organises its guidance for small firms around topics such as multi-factor authentication, ransomware, cloud security, protecting data and devices, and incident response. These are not extras for large companies. They are the baseline that lets a small business recover from a bad day.
+The protective layer across everything else: firewalls, malware protection, monitoring, incident response and recovery plans. NIST's [Small Business Cybersecurity Corner](https://www.nist.gov/itl/smallbusinesscyber) organises its guidance for small firms around topics such as multi-factor authentication, ransomware, cloud security, protecting data and devices, and incident response. These are not extras for large companies. They are the baseline that lets a small business recover from a bad day.
 
 ## How infrastructure actually fails
 

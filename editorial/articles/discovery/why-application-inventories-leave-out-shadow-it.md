@@ -17,9 +17,10 @@ sources:
   - View discovered apps on the Cloud discovery dashboard - Microsoft Defender for Cloud Apps | https://learn.microsoft.com/en-us/defender-cloud-apps/discovered-apps
   - Asset management | https://www.ncsc.gov.uk/collection/10-steps/asset-management
 related:
-  - Why Businesses Cannot Produce a Complete List of the Applications They Use | /discovery/why-businesses-cannot-list-all-applications-they-use/
+  - Why businesses cannot produce a complete list of the applications they use | /discovery/why-businesses-cannot-list-all-applications-they-use/
   - Application owners leave without transferring responsibility | /discovery/application-owners-leave-without-transfer/
-  - Why Application Risk Assessments Cannot Be One-Time Reviews | /discovery/why-application-risk-assessments-cannot-be-one-time/
+  - Why application risk assessments cannot be one-time reviews | /discovery/why-application-risk-assessments-cannot-be-one-time/
+  - Expense-card software purchases bypass central visibility | /discovery/why-software-bought-on-company-cards-never-reaches-the-application-register/
 summary: An inventory built from purchase orders cannot see the tools people adopt themselves, including AI assistants. How to find them and keep the list true.
 layout: plain
 ---
@@ -33,7 +34,7 @@ Shadow IT is software or cloud services used for work without the knowledge or a
 
 An inventory that excludes it gives a false sense of control. Decisions about risk, cost, offboarding and incident response are made against a list that is incomplete in exactly the places where problems arise.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The IT manager, information officer or COO usually wants to be able to answer four questions: which applications hold our data, who uses them, who is accountable for each, and what happens to the data when someone leaves or a tool is withdrawn. For many, the immediate prompt is a board or customer asking what the business is doing about AI tools, and discovering that nobody knows which ones are already in use.
 

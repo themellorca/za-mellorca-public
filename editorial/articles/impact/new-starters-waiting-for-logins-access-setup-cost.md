@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-376
 slug: new-starters-waiting-for-logins-access-setup-cost
-title: New Starters Waiting for Logins: The Payroll Cost of Slow Access Setup
-description: When accounts, permissions and sign-in methods are set up only after a new employee arrives, the business pays a full salary for days of waiting. Driving access from the hire record fixes it.
+title: New starters waiting for logins: The payroll cost of slow access setup
+description: Setting up accounts and permissions only after a new employee arrives means paying a full salary for days of waiting. Drive access from the hire record.
 lead: When accounts, permissions and sign-in methods are set up only after a new employee arrives, the business pays a full salary for days of waiting. Driving access from the hire record fixes it.
 category: Digital Operations
 published_date: 2026-10-07
@@ -17,9 +17,10 @@ sources:
   - Plan cloud HR application to Microsoft Entra user provisioning - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/plan-cloud-hr-provision
   - Configure a Temporary Access Pass in Microsoft Entra ID to register passwordless authentication methods - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/authentication/howto-authentication-temporary-access-pass
 related:
-  - Answering the Same Question Again: The Payroll Cost of Undocumented Know-How | /impact/same-internal-questions-undocumented-knowledge-cost/
-  - Waiting Weeks for Management Reports: What Late Visibility Costs the Business | /impact/waiting-weeks-for-management-reports-late-visibility-cost/
-  - Catching Up Before Starting: The Cost of Poor Handovers and Scattered Updates | /impact/catching-up-after-absence-poor-handover-cost/
+  - Answering the same question again: The payroll cost of undocumented know-how | /impact/same-internal-questions-undocumented-knowledge-cost/
+  - Waiting weeks for management reports: What late visibility costs the business | /impact/waiting-weeks-for-management-reports-late-visibility-cost/
+  - Catching up before starting: The cost of poor handovers and scattered updates | /impact/catching-up-after-absence-poor-handover-cost/
+  - When access requests depend on messages and memory | /patterns/when-system-access-is-granted-through-chat-messages-and-memory/
 summary: When accounts, permissions and sign-in methods are set up only after a new employee arrives, the business pays a full salary for days of waiting. Driving access from the hire record fixes it.
 layout: plain
 ---

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-055
 slug: when-copy-and-paste-is-really-an-integration-problem
-title: When Copy-and-Paste Is Really an Integration Problem
-description: Not every copy-and-paste job needs an integration, and building the wrong one can make things worse. A practical way to tell integration problems apart from ownership, reporting and design problems, and what to settle before connecting anything.
+title: When copy-and-paste is really an integration problem
+description: Not every copy-and-paste job needs an integration, and the wrong one hurts. How to tell integration problems from ownership and design problems.
 lead: Not every copy-and-paste job needs an integration, and building the wrong one can make things worse. A practical way to tell integration problems apart from ownership, reporting and design problems, and what to settle before connecting anything.
 category: Systems & Integration
 published_date: 2026-10-03
@@ -12,9 +12,10 @@ eyebrow: Systems & Integration
 sources:
   - Connectors overview | https://learn.microsoft.com/en-us/connectors/overview
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
+  - Dataverse as a master data system - Dynamics 365 - Microsoft Learn | https://learn.microsoft.com/en-us/dynamics365/guidance/reference-architectures/dataverse-master-data-system
 related:
-  - How a CRM Turns Into an Expensive Address Book | /insights/how-a-crm-turns-into-an-expensive-address-book/
-  - When a Spreadsheet Is a Useful Tool—and When It Becomes Infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
+  - How a CRM turns into an expensive address book | /insights/how-a-crm-turns-into-an-expensive-address-book/
+  - When a spreadsheet is a useful tool—and when it becomes infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
   - Key-person dependency is a systems problem | /insights/key-person-dependency-is-a-systems-problem/
 summary: Not every copy-and-paste job needs an integration, and building the wrong one can make things worse. A practical way to tell integration problems apart from ownership, reporting and design problems, and what to settle before connecting anything.
 layout: plain
@@ -33,7 +34,7 @@ A won deal in the CRM must become a customer and a sales order in the accounting
 
 ### 2. Nobody has decided which system owns the information
 
-Staff copy customer contact details in both directions because sales updates the CRM and accounts updates the billing system, and neither is treated as the authority. Building a two-way synchronisation here does not resolve the conflict. It automates it, so that a wrong value can overwrite a right one in seconds. The prior question is ownership, covered in [how to decide which system owns which data](/insights/how-to-decide-which-system-owns-which-data/).
+Staff copy customer contact details in both directions because sales updates the CRM and accounts updates the billing system, and neither is treated as the authority. Building a two-way synchronisation here does not resolve the conflict. It automates it, so that a wrong value can overwrite a right one in seconds. The prior question is ownership, covered in [how to decide which system owns which data](/insights/how-to-decide-which-system-owns-which-data/). Microsoft's reference design for a [master data system](https://learn.microsoft.com/en-us/dynamics365/guidance/reference-architectures/dataverse-master-data-system) shows the alternative: one system maintains the data and the others receive each change from it.
 
 ### 3. The copying is really reporting
 

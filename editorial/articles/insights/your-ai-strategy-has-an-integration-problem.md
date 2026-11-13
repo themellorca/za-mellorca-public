@@ -21,6 +21,7 @@ side_text: Related capability: [Business Automation](/services/business-automati
 sources:
   - AI Agent Adoption Guidance for Organizations - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/
   - Guidelines for secure AI system development | https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development
+  - What is the Model Context Protocol (MCP)? - Model Context Protocol | https://modelcontextprotocol.io/introduction
 related:
   - Is your business actually ready for AI agents? | /insights/is-your-business-actually-ready-for-ai-agents/
   - Why bad data becomes more dangerous when AI can take actions | /insights/why-bad-data-becomes-more-dangerous-when-ai-can-take-actions/
@@ -36,7 +37,7 @@ None of those jobs is solved by language generation alone.
 
 ## Why AI demos look easier than AI operations
 
-A demonstration can work with a clean prompt, a small set of documents and a carefully prepared path. Production operations are different. Data exists across multiple systems. Records conflict. Permissions matter. APIs fail. Business rules contain exceptions. Actions need owners and audit trails.
+A demonstration can work with a clean prompt, a small set of documents and a carefully prepared path. Production operations are different. Data exists across multiple systems. Records conflict. Permissions matter. APIs fail. Business rules contain exceptions. Actions need owners and audit trails. The open [Model Context Protocol](https://modelcontextprotocol.io/introduction) illustrates the connection layer: it is a standard for connecting AI applications to external systems, including data sources, tools and workflows.
 
 Microsoft's guidance on adopting AI agents describes an agent as a combination of a model with instructions, retrieval of grounding data, actions through functions and APIs, and memory. Three of those components are about the surrounding environment rather than the model itself. The same guidance notes that because agents decide which knowledge and tools to use at each step, they introduce non-deterministic behaviour that needs robust testing and governance.
 
@@ -94,7 +95,7 @@ Know which platforms own customer, transaction, product and operational data. If
 
 ### 2. Stable interfaces
 
-Agents need reliable ways to retrieve information and trigger actions. APIs, connectors and controlled data access should be designed as reusable capabilities rather than one-off shortcuts. The UK National Cyber Security Centre's guidelines for secure AI system development also highlight securing the supply chain when systems are built on external tools and APIs, which is another reason to know exactly what each interface does.
+Agents need reliable ways to retrieve information and trigger actions. APIs, connectors and controlled data access should be designed as reusable capabilities rather than one-off shortcuts. The UK National Cyber Security Centre's [guidelines for secure AI system development](https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development) also highlight securing the supply chain when systems are built on external tools and APIs, which is another reason to know exactly what each interface does.
 
 ### 3. Data quality and meaning
 

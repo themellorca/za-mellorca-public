@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-082
 slug: when-customers-know-less-than-your-internal-systems-do
-title: When Customers Know Less Than Your Internal Systems Do
-description: Your systems know the order has shipped, the invoice is issued and the ticket is resolved, yet the customer is still in the dark and phones to ask. Here is why information stays inside.
+title: When customers know less than your internal systems do
+description: Your systems know the order has shipped and the ticket is resolved, yet customers still phone to ask. Here is why information stays inside.
 lead: Your systems know the order has shipped, the invoice is issued and the ticket is resolved, yet the customer is still in the dark and phones to ask. Here is why information stays inside.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-09
@@ -18,9 +18,10 @@ sources:
   - What Is Customer Relationship Management (CRM)? - IBM | https://www.ibm.com/think/topics/crm
   - Section 23 Access to personal information - POPIA | https://popia.co.za/section-23-access-to-personal-information/
 related:
-  - Why Finance Reconciles Information That Systems Already Hold | /patterns/why-finance-reconciles-information-that-systems-already-hold/
-  - Why New Clients Wait While Internal Teams Coordinate | /patterns/why-new-clients-wait-while-internal-teams-coordinate/
-  - When Sales Data Is Complete but the Pipeline Is Still Unreliable | /patterns/when-sales-data-is-complete-but-the-pipeline-is-still-unreliable/
+  - Why finance reconciles information that systems already hold | /patterns/why-finance-reconciles-information-that-systems-already-hold/
+  - Why new clients wait while internal teams coordinate | /patterns/why-new-clients-wait-while-internal-teams-coordinate/
+  - When sales data is complete but the pipeline is still unreliable | /patterns/when-sales-data-is-complete-but-the-pipeline-is-still-unreliable/
+  - When order status lives in several systems | /patterns/when-the-true-status-of-an-order-is-spread-across-several-systems/
 summary: Your systems know the order has shipped, the invoice is issued and the ticket is resolved, yet the customer is still in the dark and phones to ask. Here is why information stays inside.
 layout: plain
 ---
@@ -38,7 +39,7 @@ The realisation is that the business has treated information as something it hol
 
 The result is an asymmetry. The company knows a great deal and says very little, and the customer fills the silence with phone calls, emails and, eventually, doubts about reliability. A delivery that arrives on time can still feel late if the customer was never told it was coming.
 
-This is the kind of contact that service-improvement writers call failure demand: demand created by a failure to do something right, or to communicate it, the first time. The calls are not customers being difficult. They are customers doing the business's communication for it.
+This is the kind of contact that service-improvement writers call [failure demand](https://beyondcommandandcontrol.com/failure-demand/): demand created by a failure to do something right, or to communicate it, the first time. The calls are not customers being difficult. They are customers doing the business's communication for it.
 
 **Realisation prompt:** list the last ten reasons a customer contacted you. How many of them were asking for something your systems already knew?
 
@@ -55,7 +56,7 @@ The published Pattern [why customers have to ask what is happening](/patterns/wh
 - **Messages are manual.** Where notifications exist, they depend on a staff member remembering to send them. On a busy day, they are the first thing to slip.
 - **Bad news travels slowest.** A delay is recorded internally but nobody is assigned to tell the customer, because telling them feels like admitting a problem.
 - **Internal wording is unusable.** Statuses such as "picked, awaiting consolidation" mean something to the warehouse and nothing to a customer.
-- **Privacy is used as a reason for silence.** Teams sometimes hesitate to share information because they are unsure what the law allows. POPIA does not forbid telling a customer about their own order. Its provisions on access to personal information, for example, exist to give people reasonable access to what is held about them.
+- **Privacy is used as a reason for silence.** Teams sometimes hesitate to share information because they are unsure what the law allows. POPIA does not forbid telling a customer about their own order. Its provisions on [access to personal information](https://popia.co.za/section-23-access-to-personal-information/), for example, exist to give people reasonable access to what is held about them.
 
 ## Commercial impact
 

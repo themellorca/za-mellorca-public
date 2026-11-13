@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-065
 slug: paying-consultants-to-maintain-unnecessary-software-complexity-recurring-cost
-title: Paying Consultants to Keep Unnecessary Software Complexity Running
+title: Paying consultants to keep unnecessary software complexity running
 description: An over-customised technology environment turns every change into a paid job, and the premium for keeping it complicated can be measured and reduced.
 lead: An over-customised technology environment turns every change into a paid job, and the premium for keeping it complicated can be measured and reduced.
 category: Digital Operations
@@ -17,9 +17,9 @@ sources:
   - Introduction to the Success by Design framework - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/success-by-design
   - FinOps Foundation - What is FinOps? | https://www.finops.org/introduction/what-is-finops/
 related:
-  - Every Team Picks Its Own Software: The Cost of Having No Integration Standards | /impact/every-team-chooses-own-software-no-integration-standards-fragmented-data-cost/
-  - Long Software Contracts Signed Before Adoption Is Proven | /impact/long-software-contracts-signed-before-adoption-proven-paying-for-unused-capacity/
-  - Software Bought Before the Process Was Defined: What Failed Implementations Cost | /impact/technology-bought-before-process-defined-failed-implementation-wasted-licences/
+  - Every team picks its own software: The cost of having no integration standards | /impact/every-team-chooses-own-software-no-integration-standards-fragmented-data-cost/
+  - Long software contracts signed before adoption is proven | /impact/long-software-contracts-signed-before-adoption-proven-paying-for-unused-capacity/
+  - Software bought before the process was defined: What failed implementations cost | /impact/technology-bought-before-process-defined-failed-implementation-wasted-licences/
 summary: An over-customised technology environment turns every change into a paid job, and the premium for keeping it complicated can be measured and reduced.
 layout: plain
 ---

@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000078
 slug: why-people-need-to-be-able-to-undo-mistakes
-title: Why People Need to Be Able to Undo Mistakes
+title: Why people need to be able to undo mistakes
 description: When an error cannot be taken back, people slow down, over-check and hide mistakes. How reversibility, review steps and clear records change behaviour.
 lead: When an error cannot be taken back, people slow down, over-check and hide mistakes. How reversibility, review steps and clear records change behaviour.
 category: Human Agency
@@ -20,9 +20,9 @@ sources:
   - Check answers – GOV.UK Design System | https://design-system.service.gov.uk/patterns/check-answers/
   - Error-Message Guidelines | https://www.nngroup.com/articles/error-message-guidelines/
 related:
-  - When the System Decides What You Can Do Today | /moments/when-the-system-decides-what-you-can-do-today/
-  - Why Approval Chains Make Capable People Wait | /moments/why-approval-chains-make-capable-people-wait/
-  - Why Clear Ownership Gives People Room to Decide | /moments/why-clear-ownership-gives-people-room-to-decide/
+  - When the system decides what you can do today | /moments/when-the-system-decides-what-you-can-do-today/
+  - Why approval chains make capable people wait | /moments/why-approval-chains-make-capable-people-wait/
+  - Why clear ownership gives people room to decide | /moments/why-clear-ownership-gives-people-room-to-decide/
 summary: When an error cannot be taken back, people slow down, over-check and hide mistakes. How reversibility, review steps and clear records change behaviour.
 layout: plain
 ---
@@ -34,7 +34,7 @@ This piece argues that the ability to undo mistakes is a quiet foundation of hum
 
 If an action cannot be reversed, every action carries more weight. People slow down, ask for second opinions and avoid anything unfamiliar. In some contexts that is exactly right. Where a payment leaves an account irrevocably, care is proportionate. But where the cost of an error is small and the cost of fear is large, an irreversible system makes people timid for no good reason.
 
-Nielsen Norman Group's usability heuristic on user control and freedom puts it plainly: users often act by mistake and need a clearly marked emergency exit to leave the unwanted action. Good designs support undo and redo, and make the way out easy to find. The same group's guidance on error prevention adds that the best designs stop problems before they happen, either by removing error-prone conditions or by asking for confirmation before a user commits, and that preventing the highest-cost errors first is sensible.
+Nielsen Norman Group's usability heuristic on user control and freedom puts it plainly: users often act by mistake and need a clearly marked emergency exit to leave the unwanted action. Good designs support undo and redo, and make the way out easy to find. The same group's guidance on [error prevention](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data.html) adds that the best designs stop problems before they happen, either by removing error-prone conditions or by asking for confirmation before a user commits, and that preventing the highest-cost errors first is sensible.
 
 These are usability principles, but they describe a human situation. A person who knows they can step back from an error acts with more confidence. A person who knows they cannot acts with more fear.
 
@@ -42,7 +42,7 @@ These are usability principles, but they describe a human situation. A person wh
 
 The idea is not only a design preference. The Web Content Accessibility Guidelines include a success criterion on error prevention for legal, financial and data submissions. It applies where a page creates a legal commitment or financial transaction, or changes or deletes user-controllable data, and it asks that at least one of three things be true: the submission can be undone, the entered data is checked and the user can correct errors, or the user can review, confirm and correct information before submission is final. The standard is written for websites, but the three safeguards are a useful checklist for any business system that holds consequential data.
 
-The GOV.UK Design System makes a related point in its guidance on the check answers pattern. A page that lets people review their answers before they submit increases confidence, since they can see that everything is complete, and reduces errors by giving a second chance to spot and fix mistakes. It also recommends being transparent that the transaction is not complete until the user confirms.
+The GOV.UK Design System makes a related point in its guidance on the [check answers](https://design-system.service.gov.uk/patterns/check-answers/) pattern. A page that lets people review their answers before they submit increases confidence, since they can see that everything is complete, and reduces errors by giving a second chance to spot and fix mistakes. It also recommends being transparent that the transaction is not complete until the user confirms.
 
 The common thread is that reversal can happen at three moments: before the action is final, as the action is made, and after it. Each one gives the person a different kind of room.
 
@@ -83,7 +83,7 @@ Mellorca has looked at a neighbouring theme in [when software workarounds replac
 2. **Add a review step before finality.** A "check your entry" screen or a held batch is cheap and catches many errors.
 3. **Allow routine corrections without escalation.** Give the person who made the entry a defined window to correct it, with a record.
 4. **Write down what cannot be undone.** People should know where the point of no return lies.
-5. **Make the error message useful.** Nielsen Norman Group advises stating the specific problem, suggesting a way forward and keeping the user's input so they can edit rather than start over.
+5. **Make the [error message](https://www.nngroup.com/articles/error-message-guidelines/) useful.** Nielsen Norman Group advises stating the specific problem, suggesting a way forward and keeping the user's input so they can edit rather than start over.
 
 ## Interpreting the pattern
 

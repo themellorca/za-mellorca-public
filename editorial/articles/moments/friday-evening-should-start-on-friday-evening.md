@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000001
 slug: friday-evening-should-start-on-friday-evening
-title: Friday Evening Should Start on Friday Evening
-description: When work can happen anywhere, one test of a better operating system is whether work can also stop—and what that operating improvement gives back to the human being.
+title: Friday evening should start on Friday evening
+description: When work can happen anywhere, a better operating system is one where work can also stop. What that improvement gives back to the person doing the work.
 lead: When work can happen anywhere, one test of a better operating system is whether work can also stop.
 category: Time & Attention
 published_date: 2026-09-06
@@ -31,9 +31,9 @@ sources:
   - World Health Organization / International Labour Organization — Healthy telework guidance (2022) | https://www.who.int/news/item/02-02-2022-crucial-changes-needed-to-protect-workers-health-while-teleworking
   - International Labour Organization / World Health Organization — Long working hours and cardiovascular risk (2021) | https://www.ilo.org/resource/news/long-working-hours-can-increase-deaths-heart-disease-and-stroke-say-ilo-and
 related:
-  - The Evening Spent Chasing Signatures | /moments/the-evening-spent-chasing-signatures/
-  - What Changes When Status Updates Stop Being a Chore | /moments/what-changes-when-status-updates-stop-being-a-chore/
-  - The Weekend That Exists Only on Paper | /moments/the-weekend-that-exists-only-on-paper/
+  - The evening spent chasing signatures | /moments/the-evening-spent-chasing-signatures/
+  - What changes when status updates stop being a chore | /moments/what-changes-when-status-updates-stop-being-a-chore/
+  - The weekend that exists only on paper | /moments/the-weekend-that-exists-only-on-paper/
 ---
 There is a simple test for whether a business really runs well: **can its work stop?**
 
@@ -43,9 +43,9 @@ Can the work itself reach a point where Friday evening is allowed to become Frid
 
 That is a different question.
 
-Digital work has given organisations something genuinely valuable: flexibility. Work can move across locations. People can avoid some commutes, handle responsibilities differently and, in many roles, choose where focused work happens. Eurofound's research on ICT-enabled flexible work has documented those benefits alongside an awkward trade-off: when work can happen anywhere, working time can also become more porous, irregular and intensified.
+Digital work has given organisations something genuinely valuable: flexibility. Work can move across locations. People can avoid some commutes, handle responsibilities differently and, in many roles, choose where focused work happens. [Eurofound's research on ICT-enabled flexible work](https://www.eurofound.europa.eu/en/publications/all/telework-and-ict-based-mobile-work-flexible-working-digital-age) has documented those benefits alongside an awkward trade-off: when work can happen anywhere, working time can also become more porous, irregular and intensified.
 
-The boundary problem is not imaginary. In Eurofound's 2023 study of selected teleworkable sectors in Belgium, France, Italy and Spain, more than 80% of surveyed workers reported receiving work-related communications outside contractual hours in a typical week. Almost half regularly worked more hours than contracted, and 37% reported doing additional work to finish tasks they could not complete during contractual hours.
+The boundary problem is not imaginary. In [Eurofound's 2023 study](https://www.eurofound.europa.eu/en/publications/all/right-disconnect-implementation-and-impact-company-level) of selected teleworkable sectors in Belgium, France, Italy and Spain, more than 80% of surveyed workers reported receiving work-related communications outside contractual hours in a typical week. Almost half regularly worked more hours than contracted, and 37% reported doing additional work to finish tasks they could not complete during contractual hours.
 
 Those numbers should not be universalised. They describe a specific study population, not every worker in every country. But they are strong enough to expose a useful operating question: **why is the work still crossing the boundary?**
 
@@ -89,7 +89,7 @@ There is a trap here.
 
 The answer to permanent availability is not necessarily a rigid universal rule that everybody must work in exactly the same way. Eurofound's earlier research describes what is sometimes called the autonomy paradox: digital flexibility can increase autonomy while also contributing to work intensification and blurred working time.
 
-WHO and ILO make a similar distinction in their guidance on healthy telework. Telework can improve flexibility and work-life balance, but poorly organised telework can also create health and well-being risks. Their recommendations include management practices, sufficient rest and the ability to disconnect.
+WHO and ILO make a similar distinction in their [guidance on healthy telework](https://www.who.int/news/item/02-02-2022-crucial-changes-needed-to-protect-workers-health-while-teleworking). Telework can improve flexibility and work-life balance, but poorly organised telework can also create health and well-being risks. Their recommendations include management practices, sufficient rest and the ability to disconnect.
 
 So the design target is not **maximum disconnection**. It is a better relationship between workload, process, expectations, autonomy and rest.
 
@@ -107,7 +107,7 @@ The test is whether the operating cause changes.
 
 And then whether the human consequence changes with it.
 
-WHO and ILO have also published population-level evidence linking sustained working weeks of 55 hours or more with increased cardiovascular risk compared with 35–40 hours. That evidence is important context about prolonged excessive working time. It should not be distorted into a claim that one evening email causes a health outcome. The responsible conclusion is simpler: sustained working-time patterns matter, which is another reason not to treat chronic overflow as a harmless feature of modern work.
+WHO and ILO have also published population-level evidence linking [sustained working weeks of 55 hours or more](https://www.ilo.org/resource/news/long-working-hours-can-increase-deaths-heart-disease-and-stroke-say-ilo-and) with increased cardiovascular risk compared with 35–40 hours. That evidence is important context about prolonged excessive working time. It should not be distorted into a claim that one evening email causes a health outcome. The responsible conclusion is simpler: sustained working-time patterns matter, which is another reason not to treat chronic overflow as a harmless feature of modern work.
 
 ## The human dividend
 

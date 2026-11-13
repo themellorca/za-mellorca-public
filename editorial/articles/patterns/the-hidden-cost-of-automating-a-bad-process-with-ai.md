@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-378
 slug: the-hidden-cost-of-automating-a-bad-process-with-ai
-title: The Hidden Cost of Automating a Bad Process With AI
-description: Adding AI to a process that is already confused does not fix it; it makes the confusion faster and harder to see. Here is where the cost hides and what to settle before you build.
+title: The hidden cost of automating a bad process with AI
+description: Adding AI to a confused process does not fix it. It makes the confusion faster and harder to see. Where the cost hides and what to settle before you build.
 lead: Adding AI to a process that is already confused does not fix it; it makes the confusion faster and harder to see. Here is where the cost hides and what to settle before you build.
 category: AI, Automation & Systems Readiness
 published_date: 2026-10-09
@@ -18,9 +18,9 @@ sources:
   - What is Process Mining? - IBM | https://www.ibm.com/think/topics/process-mining
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
 related:
-  - The Hidden Cost of Re-Keying Order Information | /patterns/the-hidden-cost-of-re-keying-order-information/
-  - The Hidden Cost of Repeating HR Administration for Every New Hire | /patterns/the-hidden-cost-of-repeating-hr-administration-for-every-new-hire/
-  - The Hidden Commercial Cost of Fragile Infrastructure | /patterns/the-hidden-commercial-cost-of-fragile-infrastructure/
+  - The hidden cost of re-keying order information | /patterns/the-hidden-cost-of-re-keying-order-information/
+  - The hidden cost of repeating HR administration for every new hire | /patterns/the-hidden-cost-of-repeating-hr-administration-for-every-new-hire/
+  - The hidden commercial cost of fragile infrastructure | /patterns/the-hidden-commercial-cost-of-fragile-infrastructure/
 summary: Adding AI to a process that is already confused does not fix it; it makes the confusion faster and harder to see. Here is where the cost hides and what to settle before you build.
 layout: plain
 ---
@@ -36,7 +36,7 @@ In each case the technology did what it was asked. The trouble is what it was as
 
 A process that is unclear, inconsistent or full of workarounds depends on people quietly filling the gaps. They know which customers are exceptions, which form is out of date and which figure to distrust. They do this without noticing, and that unwritten knowledge is part of the process. When the process is handed to AI, the gaps do not disappear. They are now filled by a model that has never met the customer, does not know the exceptions, and answers confidently anyway.
 
-IBM's description of intelligent automation lists AI alongside business process management and robotic process automation as components that work together to streamline decisions. The point in that framing is that automation sits on top of a defined process. Where the underlying process is not defined, there is nothing for the layers above to streamline.
+IBM's description of [intelligent automation](https://www.ibm.com/think/topics/intelligent-automation) lists AI alongside business process management and robotic process automation as components that work together to streamline decisions. The point in that framing is that automation sits on top of a defined process. Where the underlying process is not defined, there is nothing for the layers above to streamline.
 
 **Realisation prompt:** if you asked three experienced staff to describe how an order query is handled, would they give the same steps, the same exceptions and the same decision rules?
 
@@ -51,9 +51,9 @@ The Insight [why automating a broken process makes the problem worse](/insights/
 - **Rules live in people's heads.** Discount limits, exception customers, credit holds and escalation thresholds are known by long-serving staff. Once such rules are pasted into an AI prompt, they become harder to find and audit.
 - **Inputs are inconsistent.** Product names, customer records and prices differ across systems. A model repeats whatever it is given, so poor data becomes poor answers.
 - **Nobody has defined a correct output.** Without a standard for what a good reply, record or decision looks like, quality is judged by impression, and problems surface through customer complaints.
-- **The process has unnecessary steps.** Duplicate approvals, re-keying and legacy checks are automated along with the real work. IBM's overview of process mining describes using event data to see how a process actually runs, which often reveals steps and loops that nobody intended.
+- **The process has unnecessary steps.** Duplicate approvals, re-keying and legacy checks are automated along with the real work. IBM's overview of [process mining](https://www.ibm.com/think/topics/process-mining) describes using event data to see how a process actually runs, which often reveals steps and loops that nobody intended.
 - **Exceptions are a large share of the work.** The routine cases may be few. If a third of cases need human judgement, an AI tool built for the standard path increases handling of the rest.
-- **Risk is not mapped.** The NIST AI Risk Management Framework asks organisations to identify and manage the risks of AI systems in their context. In a poorly understood process, those risks are difficult to name.
+- **Risk is not mapped.** The NIST [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) asks organisations to identify and manage the risks of AI systems in their context. In a poorly understood process, those risks are difficult to name.
 
 ## Commercial impact
 

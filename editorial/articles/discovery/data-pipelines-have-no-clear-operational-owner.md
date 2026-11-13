@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-262
 slug: data-pipelines-have-no-clear-operational-owner
 title: Why the data pipelines behind your dashboards need an operational owner
-description: The overnight loads that feed management dashboards are often built as projects and never handed over. Why reporting pipelines end up ownerless, and how to give them an owner, a freshness target and alerts.
+description: Overnight loads feeding management dashboards are built as projects and never handed over. How to give them an owner, a freshness target and alerts.
 lead: The overnight loads that feed management dashboards are often built as projects and never handed over. Why reporting pipelines end up ownerless, and how to give them an owner, a freshness target and alerts.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-05
@@ -42,9 +42,9 @@ The signs are recognisable:
 
 This is related to, but different from, the integrations that move transactions between operational systems, discussed in [why critical integrations need a named operational owner](/discovery/why-critical-integrations-need-a-named-operational-owner/). A failed integration usually stops an order or an invoice. A failed reporting pipeline lets everything carry on, with management making decisions on old or incomplete data.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches such as "who owns data pipelines", "dashboard not refreshing who is responsible" or "data pipeline ownership model" come from finance, operations and IT leaders who are tired of discovering problems late. They want one named person or team who watches each important pipeline, knows when it has failed or fallen behind, coordinates the fix with source-system owners and vendors, and approves changes that could affect it.
+Questions such as "who owns the data pipelines?", "the dashboard is not refreshing, who is responsible?" or "what is our data pipeline ownership model?" come from finance, operations and IT leaders who are tired of discovering problems late. They want one named person or team who watches each important pipeline, knows when it has failed or fallen behind, coordinates the fix with source-system owners and vendors, and approves changes that could affect it.
 
 ## Evidence and system mechanism
 

@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-240
 slug: when-nobody-owns-the-definition-of-a-business-metric
-title: When Nobody Owns the Definition of a Business Metric
+title: When nobody owns the definition of a business metric
 description: When teams use the same KPI name but calculate it differently, the business may have a metric-definition and data-governance ownership problem.
 lead: If the same KPI produces different answers depending on the report, the disagreement may start with ownership of the definition rather than the dashboard.
 category: Data Quality, Ownership & Governance
@@ -23,10 +23,11 @@ commercial_value_dimensions: Decision quality, Management capacity, Automation r
 sources:
   - dbt Semantic Layer - dbt Developer Hub | https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl
   - Promote and Certify Power BI Content with Endorsement - Power BI | https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorsement-overview
+  - Power BI usage scenarios: Managed self-service BI - Power BI | https://learn.microsoft.com/en-us/power-bi/guidance/powerbi-implementation-planning-usage-scenario-managed-self-service-bi
 related:
-  - When Poor Data Quality Becomes an Automation Failure | /patterns/when-poor-data-quality-becomes-an-automation-failure/
-  - When Nobody Knows Which System Holds the Correct Data | /patterns/when-nobody-knows-which-system-holds-the-correct-data/
-  - Why Can Nobody Find the Document They Know Exists? | /patterns/why-can-nobody-find-the-document-they-know-exists/
+  - When poor data quality becomes an automation failure | /patterns/when-poor-data-quality-becomes-an-automation-failure/
+  - When nobody knows which system holds the correct data | /patterns/when-nobody-knows-which-system-holds-the-correct-data/
+  - Why can nobody find the document they know exists? | /patterns/why-can-nobody-find-the-document-they-know-exists/
 summary: Conflicting KPI values often begin with conflicting definitions, not broken dashboards. Assigning ownership to metric meaning and calculation rules can improve decision trust and make reporting, automation and AI more dependable.
 ---
 ## Observable condition
@@ -87,7 +88,7 @@ A second misidentification is to treat the problem as data cleansing. Clean data
 
 A stronger operating model gives important metrics explicit semantic ownership. Each metric has a documented definition, source events, calculation logic, exclusions, refresh expectation and accountable owner. Systems can then implement the definition consistently instead of inventing it independently.
 
-Current analytics tooling already supports this way of working. The dbt Semantic Layer, for example, is documented as centralising metric definitions in the modelling layer so that downstream tools draw on the same definition, and a change made once is reflected wherever the metric is used. Microsoft documents Power BI endorsement, where certified content is treated as meeting the organisation's quality standards and regarded as authoritative. Neither feature resolves disagreement by itself. Both assume the business has already decided what the metric means and who may certify it.
+Current analytics tooling already supports this way of working. The [dbt Semantic Layer](https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl), for example, is documented as centralising metric definitions in the modelling layer so that downstream tools draw on the same definition, and a change made once is reflected wherever the metric is used. Microsoft documents [Power BI](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorsement-overview) endorsement, where certified content is treated as meeting the organisation's quality standards and regarded as authoritative. Neither feature resolves disagreement by itself. Both assume the business has already decided what the metric means and who may certify it. Microsoft's guidance on [managed self-service BI](https://learn.microsoft.com/en-us/power-bi/guidance/powerbi-implementation-planning-usage-scenario-managed-self-service-bi) similarly aims at a single version of the truth, with shared semantic models maintained by a central team and certified content marked as trustworthy.
 
 ## Trade-offs
 

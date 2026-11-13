@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000037
 slug: what-a-week-without-firefighting-would-feel-like
-title: What a Week Without Firefighting Would Feel Like
-description: In some businesses every week is shaped by whatever breaks. Plans slip, the same people rescue the same problems, and Friday arrives with nothing planned done. Why firefighting repeats, and what a calmer week would give back.
+title: What a week without firefighting would feel like
+description: In some businesses every week is shaped by whatever breaks, and Friday arrives with nothing planned done. Why firefighting repeats, and what calm gives.
 lead: In some businesses every week is shaped by whatever breaks. Plans slip, the same people rescue the same problems, and Friday arrives with nothing planned done. Why firefighting repeats, and what a calmer week would give back.
 category: Time & Attention
 published_date: 2026-10-06
@@ -20,9 +20,9 @@ sources:
   - Google SRE - Blameless Postmortem for System Resilience | https://sre.google/sre-book/postmortem-culture/
   - Root Cause Analysis - PSNet | https://psnet.ahrq.gov/primer/root-cause-analysis
 related:
-  - The Report Someone Rebuilds by Hand Every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
-  - The Saturday Morning Spent on Invoices | /moments/the-saturday-morning-spent-on-invoices/
-  - When Month-End Swallows the Whole Week | /moments/when-month-end-swallows-the-whole-week/
+  - The report someone rebuilds by hand every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - The Saturday morning spent on invoices | /moments/the-saturday-morning-spent-on-invoices/
+  - When month-end swallows the whole week | /moments/when-month-end-swallows-the-whole-week/
 summary: In some businesses every week is shaped by whatever breaks. Plans slip, the same people rescue the same problems, and Friday arrives with nothing planned done. Why firefighting repeats, and what a calmer week would give back.
 layout: plain
 ---
@@ -65,7 +65,7 @@ Ending firefighting is less about technology than about creating a small amount 
 
 1. **Write every fire down.** A simple log: date, what broke, what was done, how long it took. After a month, the repeat offenders become obvious.
 2. **Pick the top recurring fire and investigate it properly.** One problem at a time. Ask why it happened, and why that happened, until a cause is found that can be changed.
-3. **Hold a short, blameless review.** Google's chapter on postmortem culture describes reviews whose purpose is to document what happened, understand the contributing causes and put preventive actions in place, without assigning fault to individuals. Healthcare's guidance on root cause analysis makes the same point, and adds a warning: reviews often end in weak actions, such as more training or restating existing policies, which rarely produce lasting change.
+3. **Hold a short, blameless review.** Google's chapter on postmortem culture describes reviews whose purpose is to document what happened, understand the contributing causes and put preventive actions in place, without assigning fault to individuals. Healthcare's guidance on [root cause analysis](https://psnet.ahrq.gov/primer/root-cause-analysis) makes the same point, and adds a warning: reviews often end in weak actions, such as more training or restating existing policies, which rarely produce lasting change.
 4. **Protect time for prevention.** Even half a day a week, kept free of urgent work, gives someone the chance to fix causes rather than symptoms.
 5. **Spread the knowledge.** If only one person knows the workaround, write it down so others can apply it, and so the expert can be away without the business stalling.
 

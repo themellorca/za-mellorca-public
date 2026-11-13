@@ -2,8 +2,8 @@
 hub: discovery
 record_id: DISC-001
 slug: why-new-employees-wait-for-system-access
-title: Why New Employees Wait Days for Access to the Systems They Need
-description: When a new employee is ready to work but access arrives application by application, the real problem is usually identity lifecycle design rather than onboarding effort.
+title: Why new employees wait days for access to the systems they need
+description: When a new starter is ready but access arrives application by application, the cause is usually identity lifecycle design rather than onboarding effort.
 lead: When a new employee is ready to work but still waiting for email, shared drives, finance tools, CRM access or specialist applications, the visible problem is onboarding delay. The deeper problem is usually that identity lifecycle events are not connected to the systems that grant access.
 category: Identity & Access Lifecycle
 published_date: 2026-09-02
@@ -29,8 +29,8 @@ closing_title: Method note
 closing_text: This article diagnoses a class of operating problem. The cited platform documentation demonstrates current workflow and integration mechanisms; it does not prove that every organisation has the same failure mode. Quantify impact from your own process, transaction, labour and exception data.
 related:
   - Why integration costs stay hidden inside application projects | /discovery/integration-costs-hidden-inside-application-projects/
-  - Why Free Trials Become Production Dependencies | /discovery/why-free-trials-become-production-dependencies/
-  - Why AI Agents Can Answer Questions but Cannot Complete Work Across Business Systems | /discovery/why-ai-agents-cannot-complete-work-across-business-systems/
+  - Why free trials become production dependencies | /discovery/why-free-trials-become-production-dependencies/
+  - Why AI agents can answer questions but cannot complete work across business systems | /discovery/why-ai-agents-cannot-complete-work-across-business-systems/
 ---
 ## The problem in plain language
 
@@ -40,9 +40,9 @@ This is often treated as an onboarding inconvenience. That framing is too shallo
 
 Consider a 200-person financial advisory firm. A new paraplanner starts on the first of the month. Her laptop is ready and she can log in to email. On day two she finds she cannot open the client document library. On day three she discovers the financial planning software needs a separate licence that only one person in IT can assign. On day five she still has no access to the compliance system because the approver is on leave. None of this was unknown on the day her contract was signed. It simply was not turned into actions until she ran into each gap.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The search language around this problem tends to be practical rather than architectural: "new employee access takes too long", "automate employee provisioning", "joiner mover leaver workflow", "HR to IT onboarding automation", or "how to give new starters the right system access". Those searches are different descriptions of the same control gap.
+The complaints around this problem tend to be practical rather than architectural: "new employee access takes too long", "we need to automate employee provisioning", "we need a joiner, mover and leaver workflow", "HR and IT onboarding is not automated", or "how do we give new starters the right system access?" Those complaints are different descriptions of the same control gap.
 
 The commercial signal is strong when onboarding repeatedly requires tickets, spreadsheets, email approvals or a person who knows which applications each role normally needs. Equipment often suffers from the same gap; see [the cost of new employees starting without equipment](/impact/new-employees-without-equipment-onboarding-cost/).
 

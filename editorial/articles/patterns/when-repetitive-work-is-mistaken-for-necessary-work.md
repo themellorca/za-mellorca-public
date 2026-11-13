@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-008
 slug: when-repetitive-work-is-mistaken-for-necessary-work
-title: When Repetitive Work Is Mistaken for Necessary Work
-description: Recurring reports, checks and copies are often defended as necessary because they once served a real need. Here is how to separate the need from the method, and find the repetitive work that can stop.
+title: When repetitive work is mistaken for necessary work
+description: Recurring reports, checks and copies are often kept because they once served a need. Separate the need from the method to find work that can stop.
 lead: Recurring reports, checks and copies are often defended as necessary because they once served a real need. Here is how to separate the need from the method, and find the repetitive work that can stop.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -18,9 +18,9 @@ sources:
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
 related:
-  - The Business Process That Only Works Because Someone Remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
-  - Why Teams Keep Building Manual Workarounds | /patterns/why-teams-keep-building-manual-workarounds/
-  - The Cost of Work That Adds No New Information | /patterns/the-cost-of-work-that-adds-no-new-information/
+  - The business process that only works because someone remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
+  - Why teams keep building manual workarounds | /patterns/why-teams-keep-building-manual-workarounds/
+  - The cost of work that adds no new information | /patterns/the-cost-of-work-that-adds-no-new-information/
 summary: Recurring reports, checks and copies are often defended as necessary because they once served a real need. Here is how to separate the need from the method, and find the repetitive work that can stop.
 layout: plain
 ---
@@ -75,7 +75,7 @@ The opposite mistake is to cut tasks wholesale in a drive for efficiency, withou
 
 In a better state, every recurring task has a named purpose and a named user of its output. The business reviews its recurring work regularly and asks three questions of each task: is the purpose still valid, does this method serve it best, and is this the right frequency? Some tasks are stopped. Some are replaced with a cheaper method, such as a system validation instead of a manual check. Some are reduced in frequency or scope. The rest are kept deliberately, and the people doing them know why.
 
-Two practical techniques help. Value-stream mapping, in the Lean Enterprise Institute's description, diagrams every step in the material and information flow from order to delivery, so teams can see the whole process rather than optimising steps in isolation. Process mining, as described in Microsoft's Power Automate documentation, extracts event data from business systems to show how processes are actually executed, including bottlenecks and repeated steps. Both make it easier to see which tasks contribute to the outcome and which merely recur.
+Two practical techniques help. Value-stream mapping, in the Lean Enterprise Institute's description, diagrams every step in the material and information flow from order to delivery, so teams can see the whole process rather than optimising steps in isolation. [Process mining](https://learn.microsoft.com/en-us/power-automate/process-mining-overview), as described in Microsoft's Power Automate documentation, extracts event data from business systems to show how processes are actually executed, including bottlenecks and repeated steps. Both make it easier to see which tasks contribute to the outcome and which merely recur.
 
 For the financial services intermediary, the result might be a smaller monthly pack built from the pages managers actually use, generated directly from the source systems, with the analysts' first week redirected to interpreting the numbers.
 

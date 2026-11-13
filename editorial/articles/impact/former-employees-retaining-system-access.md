@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-128
 slug: former-employees-retaining-system-access
-title: When Former Employees Still Have System Access
+title: When former employees still have system access
 description: How incomplete offboarding creates avoidable security, audit and continuity exposure when former employees retain access to business systems.
 lead: Offboarding is incomplete when payroll ends but accounts, tokens, shared credentials, devices or third-party access remain active.
 category: Access Control
@@ -19,10 +19,11 @@ side_title: Cost mechanisms
 sources:
   - Identity and access management | https://www.ncsc.gov.uk/collection/10-steps/identity-and-access-management
   - https://www.verizon.com/business/resources/reports/2025-dbir-executive-summary.pdf | https://www.verizon.com/business/resources/reports/2025-dbir-executive-summary.pdf
+  - Threat Actor Leverages Compromised Account of Former Employee to Access State Government Organization - CISA | https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-046a
 related:
-  - The Cost of Retyping Customer Details into Every System | /impact/pain-duplication-of-customer-data-entry/
-  - Backups Nobody Has Tested: The Cost When Recovery Fails | /impact/backups-never-tested-restore-financial-cost/
-  - The Cost of Business Systems That Do Not Talk to Each Other | /impact/business-systems-do-not-talk-integration-cost/
+  - The cost of retyping customer details into every system | /impact/pain-duplication-of-customer-data-entry/
+  - Backups nobody has tested: The cost when recovery fails | /impact/backups-never-tested-restore-financial-cost/
+  - The cost of business systems that do not talk to each other | /impact/business-systems-do-not-talk-integration-cost/
 ---
 ## The tolerated pain
 
@@ -44,7 +45,7 @@ The organisation loses confidence in who can reach sensitive systems and data. I
 
 When an auditor or customer asks for evidence that leavers lost access, someone has to reconstruct it system by system. When a suspicious login appears, the first hours of response are spent working out whose account it is and whether that person still works for the business. Integrations quietly break months later when a leaver's account is finally removed and an automation running under their identity stops. Licences continue to be paid for people who are no longer there, a pattern covered in [the financial waste of unused software licences](/impact/unused-software-licences-financial-waste/).
 
-The UK National Cyber Security Centre's guidance on identity and access management recommends a joiners, movers and leavers policy, revoking access when it is no longer needed, and reviewing user accounts and systems for unnecessary privileges on a regular basis. Those are not advanced controls. They are the baseline that incomplete offboarding fails to meet.
+The UK National Cyber Security Centre's guidance on [identity and access management](https://www.ncsc.gov.uk/collection/10-steps/identity-and-access-management) recommends a joiners, movers and leavers policy, revoking access when it is no longer needed, and reviewing user accounts and systems for unnecessary privileges on a regular basis. Those are not advanced controls. They are the baseline that incomplete offboarding fails to meet. In a February 2024 [advisory from the US Cybersecurity and Infrastructure Security Agency](https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-046a), a threat actor used a former employee's administrator account, which the victim said was not disabled immediately after the employee left, to reach a state government network.
 
 ## How it becomes money
 

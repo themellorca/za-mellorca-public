@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-151
 slug: collections-teams-chase-customers-without-a-priority-queue
 title: Collections teams chase customers without a reliable priority queue
-description: An ageing report shows what is old, not which call is worth making. How to segment the debtors ledger, separate disputes and build a daily ranked contact list that moves cash.
+description: An ageing report shows what is old, not which call is worth making. How to build a daily ranked contact list that moves cash.
 lead: An ageing report shows what is old, not which call is worth making. How to segment the debtors ledger, separate disputes and build a daily ranked contact list that moves cash.
 category: Accounts Receivable & Collections
 published_date: 2026-10-08
@@ -20,6 +20,7 @@ related:
   - Why analysts keep rebuilding the same data joins in separate spreadsheets | /discovery/why-analysts-keep-rebuilding-the-same-data-joins-in-spreadsheets/
   - Why revenue leakage only shows up at month-end reconciliation | /discovery/why-revenue-leakage-only-shows-up-at-month-end-reconciliation/
   - Why data lineage gets rebuilt by hand every time the auditors arrive | /discovery/data-lineage-reconstructed-manually-during-audits/
+  - Disputes are tracked separately from invoice status | /discovery/why-invoice-disputes-live-in-email-while-the-ledger-says-overdue/
 summary: An ageing report shows what is old, not which call is worth making. How to segment the debtors ledger, separate disputes and build a daily ranked contact list that moves cash.
 layout: plain
 ---
@@ -31,7 +32,7 @@ This article looks at that operating condition: collections teams chasing custom
 
 A collections team has limited hours. How those hours are allocated across customers decides how much cash comes in. An ageing report shows how old each balance is, but age alone does not say which call is most valuable. A priority queue combines more information: how much is owed, how overdue it is, whether the customer has a history of paying after a reminder, whether there is an open dispute, whether a promise to pay has been broken, and what is at stake commercially. Without that ordering, effort follows habit, noise or the loudest voice.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 Financial directors, credit controllers and owners want to bring cash in faster, reduce the proportion of old debt, and make the collections team's day predictable. They are usually not looking for software first. They are looking for an answer to a simple operational question: "who should we contact today, and why?"
 

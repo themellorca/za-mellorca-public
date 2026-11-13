@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000038
 slug: the-evening-email-that-sets-tomorrows-mood
-title: The Evening Email That Sets Tomorrow's Mood
-description: A manager clears their inbox at nine at night. By morning, half the team has read a message that changes their day before it starts. Why evening emails carry more weight than their senders intend, and simple ways to send them differently.
+title: The evening email that sets tomorrow's mood
+description: A manager clears their inbox at nine at night, and the team reads it before their day starts. Why evening emails weigh more than intended, and what to do.
 lead: A manager clears their inbox at nine at night. By morning, half the team has read a message that changes their day before it starts. Why evening emails carry more weight than their senders intend, and simple ways to send them differently.
 category: Time & Attention
 published_date: 2026-10-06
@@ -15,14 +15,14 @@ human_dividend: Presence in the evening for recipients, and the predictability o
 trade_off: Scheduled messages can pile up at the start of the day; some people prefer to know in the evening; delaying sends does not fix the sender's own evening work; norms can harden into judged rules.
 epistemic_state: HYPOTHESISED: the effect of evening messages on recipients' presence and mood is plausible but not measured here; the misreading of out-of-hours urgency is OBSERVED as guidance in the Irish code; after-hours message volumes are OBSERVED in global vendor telemetry; tool features are OBSERVED in vendor documentation; the events-hire example is illustrative.
 sources:
-  - https://www.workplacerelations.ie/en/what_you_should_know/codes_practice/code-of-practice-for-employers-and-employees-on-the-right-to-disconnect.pdf | https://www.workplacerelations.ie/en/what_you_should_know/codes_practice/code-of-practice-for-employers-and-employees-on-the-right-to-disconnect.pdf
+  - Code of Practice on the Right to Disconnect - Department of Enterprise, Tourism and Employment | https://enterprise.gov.ie/en/Publications/Code-of-Practice-on-the-Right-to-Disconnect.html
   - Delay or schedule sending email messages in Outlook - Microsoft Support | https://support.microsoft.com/en-us/office/delay-or-schedule-sending-email-messages-in-outlook-026af69f-c287-490a-a72f-6c65793744ba
   - Schedule emails to send - iPhone & iPad - Gmail Help | https://support.google.com/mail/answer/9214606
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
 related:
-  - When Sunday Evening Becomes Monday Morning | /moments/when-sunday-evening-becomes-monday-morning/
-  - The Evening Spent Chasing Signatures | /moments/the-evening-spent-chasing-signatures/
-  - When Every Day Starts by Rebuilding Yesterday's Context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
+  - When Sunday evening becomes Monday morning | /moments/when-sunday-evening-becomes-monday-morning/
+  - The evening spent chasing signatures | /moments/the-evening-spent-chasing-signatures/
+  - When every day starts by rebuilding yesterday's context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
 summary: A manager clears their inbox at nine at night. By morning, half the team has read a message that changes their day before it starts. Why evening emails carry more weight than their senders intend, and simple ways to send them differently.
 layout: plain
 ---
@@ -36,9 +36,9 @@ To the people receiving them, the same messages may land very differently. The s
 
 This is a scene, not a study, and it would be wrong to say every evening email is received as a worry. Many are read with complete indifference, and plenty of people prefer to see what is coming before they arrive at work. The point is narrower. An evening message from someone with authority carries weight that the sender does not see, because the sender reads it with full context and the receiver reads it with none.
 
-Ireland's Code of Practice on the right to disconnect, published by its Workplace Relations Commission, names this directly. It advises that the tone and sense of urgency of communications sent outside working hours should be proportionate, and notes that messages sent outside normal hours may easily be misread by the recipient as to how urgent they are. It is a code for Irish employers, not a South African rule, but the observation travels well.
+Ireland's [Code of Practice](https://enterprise.gov.ie/en/Publications/Code-of-Practice-on-the-Right-to-Disconnect.html) on the right to disconnect, drawn up by its Workplace Relations Commission, names this directly. It advises that the tone and sense of urgency of communications sent outside working hours should be proportionate, and notes that messages sent outside normal hours may easily be misread by the recipient as to how urgent they are. It is a code for Irish employers, not a South African rule, but the observation travels well.
 
-Microsoft's research on what it calls the infinite workday gives a sense of scale. In its telemetry, the average worker receives more than 50 messages outside core business hours, and around 40% of people online at 6 am are reviewing email for the day's priorities. Those are global figures from one vendor's software users and say nothing about how the messages felt. They do suggest that a great many working days now begin with something sent the night before.
+Microsoft's research on what it calls the [infinite workday](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) gives a sense of scale. In its telemetry, the average worker receives more than 50 messages outside core business hours, and around 40% of people online at 6 am are reviewing email for the day's priorities. Those are global figures from one vendor's software users and say nothing about how the messages felt. They do suggest that a great many working days now begin with something sent the night before.
 
 ## Why the evening email gets sent
 

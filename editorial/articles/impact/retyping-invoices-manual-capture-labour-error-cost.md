@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-357
 slug: retyping-invoices-manual-capture-labour-error-cost
-title: Retyping Invoices Into the Accounting System: The Labour and Error Cost
-description: Finance teams that retype supplier invoices pay twice: once in capture hours and again in corrections. Extraction with human review of exceptions moves effort from typing to checking.
+title: Retyping invoices into the accounting system: The labour and error cost
+description: Retyping supplier invoices means paying twice, in capture hours and corrections. Extraction with human review of exceptions shifts effort to checking.
 lead: Finance teams that retype supplier invoices pay twice: once in capture hours and again in corrections. Extraction with human review of exceptions moves effort from typing to checking.
 category: Finance Operations
 published_date: 2026-10-07
@@ -18,9 +18,10 @@ sources:
   - Invoice processing prebuilt AI model | https://learn.microsoft.com/en-us/ai-builder/prebuilt-invoice-processing
   - Use OCR to turn PDF into e-invoices - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-ocr-pdf-images-files
 related:
-  - Typing Invoices From Data You Already Hold: The Labour and Billing Delay Cost | /impact/invoices-retyped-from-existing-records-billing-labour-cost/
-  - Commissions and Fees Worked Out in Spreadsheets: The Payroll and Error Cost | /impact/fees-commissions-charges-calculated-in-spreadsheets-error-cost/
-  - The Payroll Cost of a Slow, Spreadsheet-Heavy Month-End | /impact/manual-month-end-close-payroll-cost/
+  - Typing invoices from data you already hold: The labour and billing delay cost | /impact/invoices-retyped-from-existing-records-billing-labour-cost/
+  - Commissions and fees worked out in spreadsheets: The payroll and error cost | /impact/fees-commissions-charges-calculated-in-spreadsheets-error-cost/
+  - The payroll cost of a slow, spreadsheet-heavy month-end | /impact/manual-month-end-close-payroll-cost/
+  - Why supplier invoices still need so many hands before they are paid | /patterns/why-supplier-invoices-still-need-so-many-hands-before-they-are-paid/
 summary: Finance teams that retype supplier invoices pay twice: once in capture hours and again in corrections. Extraction with human review of exceptions moves effort from typing to checking.
 layout: plain
 ---

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-201
 slug: why-can-nobody-find-the-document-they-know-exists
-title: Why Can Nobody Find the Document They Know Exists?
-description: When teams know information exists but cannot retrieve the right version at the point of work, the business may have a knowledge retrieval and information architecture problem.
+title: Why can nobody find the document they know exists?
+description: When teams know information exists but cannot find the right version at the point of work, the problem is how knowledge is structured and retrieved.
 lead: When people know the answer is somewhere in the business but still need to search folders, inboxes and colleagues, storage has not become usable knowledge.
 category: Knowledge, Documents & Information Retrieval
 published_date: 2026-09-04
@@ -23,10 +23,11 @@ commercial_value_dimensions: Time, Dependency, Decision quality, Operational con
 sources:
   - Overview of search in SharePoint - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/overview-of-search
   - Enable content on a site to be searchable - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/make-site-content-searchable
+  - Introduction to SharePoint information architecture - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/information-architecture-modern-experience
 related:
-  - When Business Knowledge Lives in Inbox History | /patterns/when-business-knowledge-lives-in-inbox-history/
-  - When Nobody Owns the Definition of a Business Metric | /patterns/when-nobody-owns-the-definition-of-a-business-metric/
-  - Why Do Field Teams Still Phone the Office for Information? | /patterns/why-field-teams-still-phone-the-office-for-information/
+  - When business knowledge lives in inbox history | /patterns/when-business-knowledge-lives-in-inbox-history/
+  - When nobody owns the definition of a business metric | /patterns/when-nobody-owns-the-definition-of-a-business-metric/
+  - Why do field teams still phone the office for information? | /patterns/why-field-teams-still-phone-the-office-for-information/
 summary: A document repository is not automatically a knowledge system. When the right version is hard to retrieve, content ownership, metadata, permissions and lifecycle design deserve attention.
 ---
 ## Observable condition
@@ -49,7 +50,7 @@ This is a **knowledge retrieval and information architecture problem**. The visi
 
 ## Diagnosis
 
-Typical causes include inconsistent locations, weak metadata, duplicate documents, unclear ownership, poor naming conventions and permission boundaries that users do not understand. Microsoft’s SharePoint search documentation explains that content and metadata are crawled into a search index and that searchability and permissions determine what can appear. Search quality therefore depends on the underlying information environment, not only on a search box.
+Typical causes include inconsistent locations, weak metadata, duplicate documents, unclear ownership, poor naming conventions and permission boundaries that users do not understand. Microsoft’s SharePoint search documentation explains that content and metadata are crawled into a search index and that searchability and permissions determine what can appear. Search quality therefore depends on the underlying information environment, not only on a search box. Microsoft's introduction to [SharePoint information architecture](https://learn.microsoft.com/en-us/sharepoint/information-architecture-modern-experience) adds that columns and content types are the two most important metadata elements for organising documents, and that deeply nested folder structures create a significant discoverability burden.
 
 The mechanism is worth stating precisely. Microsoft describes how search crawls lists and libraries, adds site columns and their values to the search index, and maps those columns to managed properties that queries can use. Content must be in the index for users to find it. If documents carry no meaningful columns, such as document type, client, status or owner, there is little beyond the filename and body text for search to work with.
 

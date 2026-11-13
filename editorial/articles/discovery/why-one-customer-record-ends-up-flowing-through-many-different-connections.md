@@ -18,8 +18,9 @@ sources:
   - Anti-Corruption Layer Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer
 related:
   - Why teams cannot trace one business transaction across several systems | /discovery/teams-cannot-trace-a-business-transaction-across-systems/
-  - Why Integration Incidents Require Several Vendors to Diagnose | /discovery/why-integration-incidents-require-several-vendors-to-diagnose/
+  - Why integration incidents require several vendors to diagnose | /discovery/why-integration-incidents-require-several-vendors-to-diagnose/
   - Why integration costs stay hidden inside application projects | /discovery/integration-costs-hidden-inside-application-projects/
+  - The signs that show your business needs an integration layer | /patterns/the-signs-your-business-needs-an-integration-layer/
 summary: When customer data is wired into each application separately, the copies drift apart. How to map the connections, name an owning system and consolidate.
 layout: plain
 ---
@@ -31,9 +32,9 @@ The problem has become more visible as businesses prepare to let AI assistants a
 
 When the same customer data is connected to several applications through several different interfaces, each connection has its own field mappings, its own timing, its own error handling and sometimes its own owner. A change to one connection does not change the others. Over time the copies drift apart, and the business loses a single trustworthy answer about its customers. Fixing a defect in one interface leaves identical defects in the rest.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The operations director, head of IT or digital lead searching for this wants a customer record that is the same everywhere, a connection landscape that is understandable enough to change safely, and readiness for AI tools that need reliable, consistent access to customer information. They also want to stop paying for the same integration to be built, fixed and explained more than once.
+The operations director, head of IT or digital lead facing this wants a customer record that is the same everywhere, a connection landscape that is understandable enough to change safely, and readiness for AI tools that need reliable, consistent access to customer information. They also want to stop paying for the same integration to be built, fixed and explained more than once.
 
 ## Evidence and system mechanism
 

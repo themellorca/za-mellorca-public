@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-038
 slug: what-happens-when-every-department-chooses-its-own-tools
-title: What Happens When Every Department Chooses Its Own Tools
-description: Department-led software choices usually work well inside each team. The problems appear between departments: customers in several versions, reports that disagree, access nobody can account for and renewals nobody sees. How to keep local choice with a few shared rules.
+title: What happens when every department chooses its own tools
+description: Team-led software choices work locally. Trouble appears between teams: split customer records, clashing reports, unseen renewals. Add a few shared rules.
 lead: Department-led software choices usually work well inside each team. The problems appear between departments: customers in several versions, reports that disagree, access nobody can account for and renewals nobody sees. How to keep local choice with a few shared rules.
 category: Digital Operations
 published_date: 2026-10-05
@@ -16,7 +16,7 @@ sources:
 related:
   - Why shared inboxes become operational bottlenecks | /insights/why-shared-inboxes-become-operational-bottlenecks/
   - Why CRM adoption problems are often workflow problems | /insights/why-crm-adoption-problems-are-often-workflow-problems/
-  - Why Software Consolidation Is an Operations Project, Not Just an IT Project | /insights/why-software-consolidation-is-an-operations-project-not-just-an-it-project/
+  - Why software consolidation is an operations project, not just an IT project | /insights/why-software-consolidation-is-an-operations-project-not-just-an-it-project/
 summary: Department-led software choices usually work well inside each team. The problems appear between departments: customers in several versions, reports that disagree, access nobody can account for and renewals nobody sees. How to keep local choice with a few shared rules.
 layout: plain
 ---

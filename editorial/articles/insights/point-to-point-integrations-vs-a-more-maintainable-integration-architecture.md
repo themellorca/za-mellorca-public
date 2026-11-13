@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-058
 slug: point-to-point-integrations-vs-a-more-maintainable-integration-architecture
-title: Point-to-Point Integrations vs a More Maintainable Integration Architecture
-description: Direct connections between systems are quick to build but multiply fast. How point-to-point compares with a central, loosely coupled approach, and when to switch.
+title: Point-to-point integrations vs a more maintainable integration architecture
+description: Bad records usually come from how work is done: rushed capture, unclear ownership and processes that never ask for the right fact. Fix operations first.
 lead: Direct connections between systems are quick to build but multiply fast. How point-to-point compares with a central, loosely coupled approach, and when to switch.
 category: Integration
 published_date: 2026-10-06
@@ -14,9 +14,10 @@ sources:
   - Publisher-Subscriber Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber
   - REL04-BP02 Implement loosely coupled dependencies - Reliability Pillar | https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_prevent_interaction_failure_loosely_coupled_system.html
 related:
-  - How to Connect Systems Without Creating a Fragile Web of Dependencies | /insights/how-to-connect-systems-without-creating-a-fragile-web-of-dependencies/
-  - Why Integration Projects Fail at the Handoffs | /insights/why-integration-projects-fail-at-the-handoffs/
-  - Why Integrations Break After They Seem to Be Working | /insights/why-integrations-break-after-they-seem-to-be-working/
+  - How to connect systems without creating a fragile web of dependencies | /insights/how-to-connect-systems-without-creating-a-fragile-web-of-dependencies/
+  - Why integration projects fail at the handoffs | /insights/why-integration-projects-fail-at-the-handoffs/
+  - Why integrations break after they seem to be working | /insights/why-integrations-break-after-they-seem-to-be-working/
+  - The signs that show your business needs an integration layer | /patterns/the-signs-your-business-needs-an-integration-layer/
 summary: Direct connections between systems are quick to build but multiply fast. How point-to-point compares with a central, loosely coupled approach, and when to switch.
 layout: plain
 ---
@@ -28,7 +29,7 @@ That direct approach is called point-to-point integration. It is not wrong. For 
 
 In a point-to-point design, each system that needs information from another is connected to it directly. The store calls the accounting package. The CRM calls the marketing tool. If the warehouse system also needs orders, another connection is built from the store to the warehouse. Each connection contains its own mapping of fields, its own error handling and its own credentials.
 
-IBM's explanation of integration platforms summarises the main drawback: with point-to-point integration, organisations must build new custom connectors each time a service is added, and applications can become tightly coupled. Tight coupling means that a change to one system forces changes to every system connected to it.
+[IBM's explanation of integration platforms](https://www.ibm.com/think/topics/ipaas) summarises the main drawback: with point-to-point integration, organisations must build new custom connectors each time a service is added, and applications can become tightly coupled. Tight coupling means that a change to one system forces changes to every system connected to it.
 
 ## Why it becomes hard to maintain
 
@@ -56,9 +57,9 @@ Instead of every system connecting to every other, systems connect to one interm
 
 ### Events rather than direct calls, where timing allows
 
-Microsoft's publisher-subscriber pattern describes systems announcing that something has happened, such as "order placed", without knowing who needs to know. Interested systems subscribe. Microsoft lists the benefits as decoupling, fault isolation and the ability to add consumers without changing the sender, with the broker holding messages until a recovering subscriber is ready.
+[Microsoft's publisher-subscriber pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber) describes systems announcing that something has happened, such as "order placed", without knowing who needs to know. Interested systems subscribe. Microsoft lists the benefits as decoupling, fault isolation and the ability to add consumers without changing the sender, with the broker holding messages until a recovering subscriber is ready.
 
-AWS's reliability guidance makes a similar recommendation, describing loose coupling as a way to isolate a component's behaviour from the components that depend on it, and listing direct API calls between tiers with no failover or asynchronous handling as a common anti-pattern.
+[AWS's reliability guidance](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_prevent_interaction_failure_loosely_coupled_system.html) makes a similar recommendation, describing loose coupling as a way to isolate a component's behaviour from the components that depend on it, and listing direct API calls between tiers with no failover or asynchronous handling as a common anti-pattern.
 
 ### One agreed definition per business object
 

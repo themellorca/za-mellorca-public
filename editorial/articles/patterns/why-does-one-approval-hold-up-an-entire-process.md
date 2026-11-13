@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-301
 slug: why-does-one-approval-hold-up-an-entire-process
-title: Why Does One Approval Hold Up an Entire Process?
+title: Why does one approval hold up an entire process?
 description: A Pattern exploring approval bottlenecks that stall end-to-end processes, with practical governance and automation fixes.
 lead: A Pattern exploring approval bottlenecks that stall end-to-end processes, with practical governance and automation fixes.
 category: Process governance
@@ -18,9 +18,9 @@ sources:
   - Create parallel approval workflows - Power Automate | https://learn.microsoft.com/en-us/power-automate/parallel-modern-approvals
   - Insights | https://www.bain.com/insights
 related:
-  - Why Routine Admin Expands as the Business Grows | /patterns/why-routine-admin-expands-as-the-business-grows/
-  - When One Missing Item Stops a Larger Process | /patterns/when-one-missing-item-stops-a-larger-process/
-  - Why One Number Requires Three People and Four Systems | /patterns/why-one-number-requires-three-people-and-four-systems/
+  - Why routine admin expands as the business grows | /patterns/why-routine-admin-expands-as-the-business-grows/
+  - When one missing item stops a larger process | /patterns/when-one-missing-item-stops-a-larger-process/
+  - Why one number requires three people and four systems | /patterns/why-one-number-requires-three-people-and-four-systems/
 summary: A Pattern exploring approval bottlenecks that stall end-to-end processes, with practical governance and automation fixes.
 layout: plain
 ---

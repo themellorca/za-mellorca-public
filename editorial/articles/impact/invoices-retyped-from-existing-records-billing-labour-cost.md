@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-038
 slug: invoices-retyped-from-existing-records-billing-labour-cost
-title: Typing Invoices From Data You Already Hold: The Labour and Billing Delay Cost
-description: When quotes, job cards, timesheets and delivery notes already hold the billing details, retyping them into invoices costs paid hours, introduces errors and slows billing.
+title: Typing invoices from data you already hold: The labour and billing delay cost
+description: When quotes, job cards, timesheets and delivery notes already hold the billing details, retyping them into invoices costs paid hours and adds errors.
 lead: When quotes, job cards, timesheets and delivery notes already hold the billing details, retyping them into invoices costs paid hours, introduces errors and slows billing.
 category: Finance Operations
 published_date: 2026-10-05
@@ -18,9 +18,10 @@ sources:
   - Create a project sales invoice to invoice a project - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/projects-how-invoice-jobs
   - Invoice sales - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-invoice-sales
 related:
-  - The Payroll Cost of a Slow, Spreadsheet-Heavy Month-End | /impact/manual-month-end-close-payroll-cost/
-  - Paying the Same Supplier Invoice Twice: The Direct Cost of Weak Controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
-  - Creating the Same Documents by Hand: The Labour Cost of Repeat Paperwork | /impact/same-documents-created-by-hand-repeat-paperwork-cost/
+  - The payroll cost of a slow, spreadsheet-heavy month-end | /impact/manual-month-end-close-payroll-cost/
+  - Paying the same supplier invoice twice: The direct cost of weak controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
+  - Creating the same documents by hand: The labour cost of repeat paperwork | /impact/same-documents-created-by-hand-repeat-paperwork-cost/
+  - Why supplier invoices still need so many hands before they are paid | /patterns/why-supplier-invoices-still-need-so-many-hands-before-they-are-paid/
 summary: When quotes, job cards, timesheets and delivery notes already hold the billing details, retyping them into invoices costs paid hours, introduces errors and slows billing.
 layout: plain
 ---
@@ -49,7 +50,7 @@ The symptoms are familiar to anyone who has worked in a small finance team:
 - **Invoices bounce back.** Large customers reject invoices with a missing order number, a wrong entity name or a VAT number that does not match their records.
 - **Credit notes multiply.** Every wrong price or quantity has to be reversed and reissued.
 
-Rejected invoices matter in South Africa because a VAT-registered customer needs a valid tax invoice to claim input tax. SARS's checklist for VAT invoices lists what a full tax invoice must contain once the supply exceeds R5,000, including the supplier's and recipient's names, addresses and VAT numbers, a serial number and date, an accurate description, the quantity or volume supplied, and the value, VAT and total. Every one of those fields is a chance to mistype something that was already correct elsewhere.
+Rejected invoices matter in South Africa because a VAT-registered customer needs a valid [tax invoice](https://www.sars.gov.za/wp-content/uploads/Docs/Government/Tax-Invoice-Checklist-Version-2-29032016.pdf) to claim input tax. SARS's checklist for VAT invoices lists what a full tax invoice must contain once the supply exceeds R5,000, including the supplier's and recipient's names, addresses and VAT numbers, a serial number and date, an accurate description, the quantity or volume supplied, and the value, VAT and total. Every one of those fields is a chance to mistype something that was already correct elsewhere.
 
 ## How the pain becomes money
 
@@ -91,7 +92,9 @@ Retyped invoices also weaken the audit trail. When an invoice is typed rather th
 
 ## What better looks like
 
-The principle is simple: create the invoice from the record that already holds the data, rather than retyping it. Most accounting and business systems already support this. Microsoft's documentation for Business Central, for example, describes converting an accepted sales quote into a sales invoice or order, after which the invoice carries the number of the quote it came from. The same documentation describes an optional setting that makes the customer's external document number mandatory, so an invoice cannot be posted without the order reference a corporate customer needs. For project work, Microsoft describes creating sales invoices directly from project planning lines, including a batch job that invoices several projects at once once work is complete or an invoicing date is reached.
+The principle is simple: create the invoice from the record that already holds the data, rather than retyping it. Most accounting and business systems already support this. Microsoft's documentation for Business Central, for example, describes converting an accepted sales quote into a sales invoice or order, after which the invoice carries the number of the quote it came from.
+
+The same documentation describes an optional setting that makes the customer's external document number mandatory, so an invoice cannot be posted without the order reference a corporate customer needs. For project work, Microsoft describes creating sales invoices directly from project planning lines, including a batch job that invoices several projects at once once work is complete or an invoicing date is reached.
 
 The product is not the point. The point is that the business's own system can carry the quote, the order reference, the hours and the quantities forward without a person retyping them. Where operations work in a separate tool, the same result comes from an integration or a structured import, as discussed in [why sending an invoice requires so much work](/patterns/why-sending-an-invoice-requires-so-much-work/).
 

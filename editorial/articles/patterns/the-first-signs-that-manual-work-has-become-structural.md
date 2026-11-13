@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-025
 slug: the-first-signs-that-manual-work-has-become-structural
-title: The First Signs That Manual Work Has Become Structural
-description: Temporary manual fixes harden into permanent routines through names, schedules, cover, documentation and dependants. Spotting those signs early keeps the cost of removing them low.
+title: The first signs that manual work has become structural
+description: Temporary manual fixes harden into permanent routines through names, schedules, cover and dependants. Spotting the signs early keeps removal cheap.
 lead: Temporary manual fixes harden into permanent routines through names, schedules, cover, documentation and dependants. Spotting those signs early keeps the cost of removing them low.
 category: Manual Work & Administrative Load
 published_date: 2026-10-05
@@ -18,9 +18,9 @@ sources:
   - Overview of task mining - Power Automate | https://learn.microsoft.com/en-us/power-automate/task-mining-overview
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
 related:
-  - Why Small Tasks Become Expensive at Scale | /patterns/why-small-tasks-become-expensive-at-scale/
-  - Why Teams Keep Building Manual Workarounds | /patterns/why-teams-keep-building-manual-workarounds/
-  - When Admin Becomes the Bottleneck That Limits the Whole Business | /patterns/when-admin-becomes-the-bottleneck-that-limits-the-whole-business/
+  - Why small tasks become expensive at scale | /patterns/why-small-tasks-become-expensive-at-scale/
+  - Why teams keep building manual workarounds | /patterns/why-teams-keep-building-manual-workarounds/
+  - When admin becomes the bottleneck that limits the whole business | /patterns/when-admin-becomes-the-bottleneck-that-limits-the-whole-business/
 summary: Temporary manual fixes harden into permanent routines through names, schedules, cover, documentation and dependants. Spotting those signs early keeps the cost of removing them low.
 layout: plain
 ---

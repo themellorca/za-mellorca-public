@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-316
 slug: patch-exceptions-that-never-expire
 title: Why patch exceptions stay open long after anyone remembers the reason
-description: Servers and applications excluded from patching for a good reason often stay excluded for years. Why patch exceptions drift into permanent risk, and how to give each one an owner, an expiry date and an exit plan.
+description: Systems excluded from patching for good reason often stay excluded for years. How to give every patch exception an owner, an expiry date and an exit plan.
 lead: Servers and applications excluded from patching for a good reason often stay excluded for years. Why patch exceptions drift into permanent risk, and how to give each one an owner, an expiry date and an exit plan.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-07
@@ -15,10 +15,12 @@ budget_owner: Chief information officer or chief operating officer
 sources:
   - SP 800-40 Rev. 4, Guide to Enterprise Patch Management Planning: Preventive Maintenance for Technology - CSRC | https://csrc.nist.gov/pubs/sp/800/40/r4/final
   - Vulnerability management guidance | https://www.ncsc.gov.uk/collection/vulnerability-management/guidance
+  - Exceptions in Microsoft Defender Vulnerability Management - Microsoft Learn | https://learn.microsoft.com/en-us/defender-vulnerability-management/tvm-exception-overview
 related:
   - Why servers get upsized when nobody trusts the utilisation data | /discovery/server-capacity-added-because-utilisation-data-is-not-trusted/
   - Why development environments keep running after projects stop | /discovery/development-environments-keep-running-after-projects-stop/
   - Why certificates expire when nobody clearly owns their renewal | /discovery/certificates-expire-because-nobody-owns-renewal/
+  - Security exceptions have no clear compensating controls | /discovery/why-every-security-exception-needs-a-named-compensating-control-before-renewal/
 summary: Servers and applications excluded from patching for a good reason often stay excluded for years. Why patch exceptions drift into permanent risk, and how to give each one an owner, an expiry date and an exit plan.
 layout: plain
 ---
@@ -37,9 +39,9 @@ A patch exception is a decision not to apply updates to a system, usually becaus
 - unsupported operating systems or applications still running in production;
 - exceptions carried unchanged into new platforms during migrations.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for how to manage patching exceptions, what to do with servers that cannot be patched, how to document risk acceptance for unpatched systems, or how long a patch exception should last. IT managers want a smaller list of unpatched systems. Security leads want each one justified and protected. Auditors want evidence that someone with authority accepted the risk. The underlying need is a lifecycle: every exception is time-limited, owned, protected and either closed or deliberately renewed.
+The questions usually asked are how to manage patching exceptions, what to do with servers that cannot be patched, how to document risk acceptance for unpatched systems, or how long a patch exception should last. IT managers want a smaller list of unpatched systems. Security leads want each one justified and protected. Auditors want evidence that someone with authority accepted the risk. The underlying need is a lifecycle: every exception is time-limited, owned, protected and either closed or deliberately renewed.
 
 ## Evidence and system mechanism
 
@@ -53,7 +55,7 @@ The US Cybersecurity and Infrastructure Security Agency's [Binding Operational D
 
 ### Not patching is a senior risk decision
 
-The UK National Cyber Security Centre's [vulnerability management guidance](https://www.ncsc.gov.uk/collection/vulnerability-management/guidance) sets updating as soon as possible, ideally automatically, as the default. It accepts that there can be legitimate reasons not to update, but states that the decision not to is a senior-level risk decision that should fit the organisation's wider risk management.
+The UK National Cyber Security Centre's [vulnerability management guidance](https://www.ncsc.gov.uk/collection/vulnerability-management/guidance) sets updating as soon as possible, ideally automatically, as the default. It accepts that there can be legitimate reasons not to update, but states that the decision not to is a senior-level risk decision that should fit the organisation's wider risk management. Microsoft's [exceptions feature in Defender Vulnerability Management](https://learn.microsoft.com/en-us/defender-vulnerability-management/tvm-exception-overview) follows the same logic: each exception is recorded with a stated justification, such as an alternate mitigation, accepted risk or planned remediation.
 
 ## Problem owner and why-now trigger
 

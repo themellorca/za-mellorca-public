@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-226
 slug: why-does-the-same-customer-have-three-different-names-in-your-systems
-title: Why Does the Same Customer Have Three Different Names in Your Systems?
+title: Why does the same customer have three different names in your systems?
 description: Analyzes data identity fragmentation across systems, its impact on customer understanding, and practical steps to unify identities.
 lead: Analyzes data identity fragmentation across systems, its impact on customer understanding, and practical steps to unify identities.
 category: Data Quality & Master Data
@@ -20,9 +20,9 @@ sources:
   - What is Entity Resolution? | https://www.reltio.com/glossary/data-quality/what-is-entity-resolution/
   - Record linkage - Wikipedia | https://en.wikipedia.org/wiki/Record_linkage
 related:
-  - The Hidden Cost of Re-entering the Same Information | /patterns/the-hidden-cost-of-reentering-the-same-information/
-  - Why One Number Requires Three People and Four Systems | /patterns/why-one-number-requires-three-people-and-four-systems/
-  - When Your CRM Knows Something Your Finance System Does Not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
+  - The hidden cost of re-entering the same information | /patterns/the-hidden-cost-of-reentering-the-same-information/
+  - Why one number requires three people and four systems | /patterns/why-one-number-requires-three-people-and-four-systems/
+  - When your CRM knows something your finance system does not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
 summary: Analyzes data identity fragmentation across systems, its impact on customer understanding, and practical steps to unify identities.
 layout: plain
 ---

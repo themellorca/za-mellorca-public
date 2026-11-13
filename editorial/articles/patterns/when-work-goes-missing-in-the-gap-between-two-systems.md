@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-033
 slug: when-work-goes-missing-in-the-gap-between-two-systems
-title: When Work Goes Missing in the Gap Between Two Systems
-description: An order leaves the website but never reaches the warehouse system; a job is closed in one tool but never invoiced in another. When handoffs between systems have no owner and no failure path, work disappears quietly until a customer notices.
+title: When work goes missing in the gap between two systems
+description: Orders that never reach the warehouse and jobs never invoiced vanish quietly when handoffs have no owner. Give each handoff an owner and a failure path.
 lead: An order leaves the website but never reaches the warehouse system; a job is closed in one tool but never invoiced in another. When handoffs between systems have no owner and no failure path, work disappears quietly until a customer notices.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-05
@@ -18,9 +18,9 @@ sources:
   - Service Bus Dead-Letter Queues - Azure Service Bus | https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dead-letter-queues
   - Webhooks | https://woocommerce.com/document/webhooks/
 related:
-  - Why Information Has to Be Copied From One System to Another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
-  - Why Staff Keep a Spreadsheet Between Two Business Systems | /patterns/why-staff-keep-a-spreadsheet-between-two-business-systems/
-  - When Disconnected Systems Let the Business Act on Old Information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
+  - Why information has to be copied from one system to another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
+  - Why staff keep a spreadsheet between two business systems | /patterns/why-staff-keep-a-spreadsheet-between-two-business-systems/
+  - When disconnected systems let the business act on old information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
 summary: An order leaves the website but never reaches the warehouse system; a job is closed in one tool but never invoiced in another. When handoffs between systems have no owner and no failure path, work disappears quietly until a customer notices.
 layout: plain
 ---
@@ -38,7 +38,7 @@ An illustrative example: a Durban-based distributor with around forty staff ran 
 
 Connecting two systems does not remove the handoff between them. It moves the handoff from a person to a piece of software, and it changes what failure looks like. When a person drops a handoff, someone usually remembers asking. When a connection drops one, there is often nothing to remember: no email, no task, no unanswered question.
 
-Integration platforms are built with this in mind. The Enterprise Integration Patterns catalogue describes a *dead letter channel*: a place where a messaging system moves messages it cannot deliver, so they are not lost. Microsoft's documentation for Azure Service Bus explains that its dead-letter queue holds messages that could not be delivered or processed, and that there is no automatic clean-up; messages stay there until someone retrieves and deals with them. WooCommerce documents that a webhook which fails to deliver more than five times in a row is disabled.
+Integration platforms are built with this in mind. The Enterprise Integration Patterns catalogue describes a *[dead letter channel](https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html)*: a place where a messaging system moves messages it cannot deliver, so they are not lost. Microsoft's documentation for Azure [Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dead-letter-queues) explains that its dead-letter queue holds messages that could not be delivered or processed, and that there is no automatic clean-up; messages stay there until someone retrieves and deals with them. WooCommerce documents that a webhook which fails to deliver more than five times in a row is disabled.
 
 These are sensible engineering choices. But each one assumes that someone in the business is watching the place where failed work ends up. In many small and mid-sized businesses, nobody is.
 

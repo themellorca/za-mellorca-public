@@ -20,6 +20,7 @@ related:
   - Warehouse adjustments do not reach ecommerce systems quickly | /discovery/why-stock-corrections-in-the-warehouse-take-hours-to-reach-the-online-shop/
   - Why sales and warehouse systems need one product identifier | /discovery/why-sales-and-warehouse-systems-need-one-product-identifier/
   - Why warehouses with different location codes cannot share stock data | /discovery/why-warehouses-with-different-location-codes-cannot-share-stock-data/
+  - Stock exceptions are only found when month-end arrives | /discovery/finding-stock-exceptions-during-the-month-instead-of-at-month-end/
 summary: Counting finds the difference, but booking it away teaches nothing and the same variance returns. How reason codes and a monthly review turn counts into fixes.
 layout: plain
 ---
@@ -33,13 +34,15 @@ A cycle count is a regular check of a small part of the stock, designed to find 
 
 Symptoms: a steady stream of adjustments with generic reasons such as "count difference", the same locations and items appearing repeatedly, and a stock accuracy figure that stays flat despite constant counting.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People searching phrase it as "cycle count variances keep happening", "how to find the cause of inventory discrepancies", "stock adjustments without explanation" or "improve inventory accuracy". They want counting to reduce the number of errors over time, not just report them.
+People phrase it as "cycle count variances keep happening", "how do we find the cause of inventory discrepancies?", "stock adjustments come without explanation" or "how do we improve inventory accuracy?" They want counting to reduce the number of errors over time, not just report them.
 
 ## Evidence and system mechanism
 
-Warehouse software supports the counting process, but the root-cause step is largely left to the business. Microsoft's Dynamics 365 documentation describes cycle counting as a process of creating counting work, performing the count on a mobile device, and resolving differences. Work can be created from thresholds, for example when the quantity in a location drops below a set level, or from plans that set how often locations are recounted. Counted quantities that fall outside a worker's deviation limits, or that differ from on-hand when no limits are set, go to a "pending review" status for a supervisor to adjust, accept or reject. The documentation also notes that the system never shows the expected quantity to the counter, which discourages miscounts made to match the book, and that a worker can be allowed more than one attempt ([cycle counting in Dynamics 365](https://learn.microsoft.com/en-us/dynamics365/supply-chain/warehousing/cycle-counting)).
+Warehouse software supports the counting process, but the root-cause step is largely left to the business. Microsoft's Dynamics 365 documentation describes cycle counting as a process of creating counting work, performing the count on a mobile device, and resolving differences. Work can be created from thresholds, for example when the quantity in a location drops below a set level, or from plans that set how often locations are recounted.
+
+Counted quantities that fall outside a worker's deviation limits, or that differ from on-hand when no limits are set, go to a "pending review" status for a supervisor to adjust, accept or reject. The documentation also notes that the system never shows the expected quantity to the counter, which discourages miscounts made to match the book, and that a worker can be allowed more than one attempt ([cycle counting in Dynamics 365](https://learn.microsoft.com/en-us/dynamics365/supply-chain/warehousing/cycle-counting)).
 
 The same page describes a feature that matters for investigation: workers can add stock that the system does not expect in a location, so surplus is found and recorded rather than ignored. It also states that on-hand stock in a location is not blocked while counting work is open, which means picks and movements can continue during the count. That is convenient, and it is also a classic source of timing differences: a pick processed between the count and the review will make the counted number look wrong when it was right at the time.
 

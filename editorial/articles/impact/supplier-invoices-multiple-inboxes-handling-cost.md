@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-354
 slug: supplier-invoices-multiple-inboxes-handling-cost
-title: Scattered Supplier Invoices Create Handling Cost and Payment Uncertainty
-description: When the same supplier invoice reaches several inboxes, finance must establish what arrived, who owns it and whether it is already being processed before it can confidently arrange payment.
+title: Scattered supplier invoices create handling cost and payment uncertainty
+description: When one supplier invoice reaches several inboxes, finance must work out what arrived, who owns it and whether it is in process before paying.
 lead: When the same supplier invoice reaches several inboxes, finance must establish what arrived, who owns it and whether it is already being processed before it can confidently arrange payment.
 category: Digital Operations
 published_date: 2026-09-06
@@ -23,10 +23,11 @@ evidence_basis: original qualitative analysis and transparent input-based cost m
 sources:
   - Tax Invoices - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/government/tax-invoices/
   - Invoice automation for scanned documents - Finance - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/vendor-invoice-automation
+  - Obligations of a VAT vendor - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/obligations-of-a-vat-vendor/
 related:
-  - Manual Payment Matching Turns Cash Visibility into Reconciliation Work | /impact/manual-payment-matching-reconciliation-cost/
-  - Which Version Is Final? The Cost of Teams Working From Different Copies | /impact/conflicting-document-versions-rework-decision-cost/
-  - Two Departments, Same Work: The Payroll Cost of Duplicated Effort | /impact/departments-duplicating-same-work-payroll-cost/
+  - Manual payment matching turns cash visibility into reconciliation work | /impact/manual-payment-matching-reconciliation-cost/
+  - Which version is final? The cost of teams working from different copies | /impact/conflicting-document-versions-rework-decision-cost/
+  - Two departments, same work: The payroll cost of duplicated effort | /impact/departments-duplicating-same-work-payroll-cost/
 ---
 ## The tolerated pain
 
@@ -36,7 +37,7 @@ Businesses tolerate this because each instance is small and the people involved 
 
 ## Why the invoice record matters
 
-A supplier invoice is not just a request for money. In South Africa, SARS describes the tax invoice as the most important document in the VAT system and states that without a proper tax invoice a business cannot deduct input tax on business expenses. SARS also lists the details a valid tax invoice must carry, including a serial number and date of issue. Those identifiers are exactly what an orderly intake process should rely on—and exactly what becomes hard to reconcile when several copies, reminders and revised versions circulate in different mailboxes.
+A supplier invoice is not just a request for money. In South Africa, SARS describes the tax invoice as the most important document in the VAT system and states that without a proper tax invoice a business cannot deduct input tax on business expenses. SARS also lists the details a valid tax invoice must carry, including a serial number and date of issue. Those identifiers are exactly what an orderly intake process should rely on—and exactly what becomes hard to reconcile when several copies, reminders and revised versions circulate in different mailboxes. SARS also states that a VAT vendor must [retain records, including tax invoices, for five years](https://www.sars.gov.za/types-of-tax/value-added-tax/obligations-of-a-vat-vendor/).
 
 ## Operational consequence
 
@@ -83,7 +84,7 @@ Growth is a common trigger. Adding suppliers, sites or entities multiplies the r
 
 Define one authoritative payable record and make every supported intake channel feed it. Retain source messages as evidence. Match on a reviewed combination such as supplier identity, invoice reference and amount; handle credit notes, reused references and corrections explicitly. Route uncertain matches for review rather than silently dropping them. Record an owner and status, check existing payment evidence before releasing funds, and keep the required approval controls intact.
 
-Finance platforms support this design directly. Microsoft documents an invoice automation interface for Dynamics 365 Finance that accepts invoice header, line and attachment data from external capture services, together with a dedicated list of vendor invoices that failed to import so that the accounts payable team can correct them and create pending invoices. The specific product matters less than the principle: intake feeds one record, and failures land in a visible exception queue rather than an individual's inbox.
+Finance platforms support this design directly. Microsoft documents an [invoice automation](https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/vendor-invoice-automation) interface for Dynamics 365 Finance that accepts invoice header, line and attachment data from external capture services, together with a dedicated list of vendor invoices that failed to import so that the accounts payable team can correct them and create pending invoices. The specific product matters less than the principle: intake feeds one record, and failures land in a visible exception queue rather than an individual's inbox.
 
 The trade-off is supplier behaviour. A single intake address only works if suppliers are told about it and old routes are monitored during the transition. Strict matching rules reduce duplicates but increase items held for review; set the threshold with the exception team, not in isolation.
 

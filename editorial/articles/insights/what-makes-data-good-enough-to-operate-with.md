@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-229
 slug: what-makes-data-good-enough-to-operate-with
-title: What Makes Data Good Enough to Operate With?
-description: Waiting for perfect data means waiting forever. Data is good enough when it fits a defined use, meets an agreed threshold and has a named owner. Six questions and an example table to test it.
+title: What makes data good enough to operate with?
+description: Waiting for perfect data means waiting forever. Data is good enough when it fits a defined use, meets an agreed threshold and has an owner. Six tests.
 lead: Waiting for perfect data means waiting forever. Data is good enough when it fits a defined use, meets an agreed threshold and has a named owner. Six questions and an example table to test it.
 category: Data and Reporting
 published_date: 2026-10-08
@@ -14,9 +14,9 @@ sources:
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
   - Manage your data in Dynamics 365 implementation projects - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management
 related:
-  - How to Decide What Should Be on an Operations Dashboard | /insights/how-to-decide-what-should-be-on-an-operations-dashboard/
-  - What Digital Infrastructure Means for a Modern Business | /insights/what-digital-infrastructure-means-for-a-modern-business/
-  - What Managed Digital Operations Actually Means | /insights/what-managed-digital-operations-actually-means/
+  - How to decide what should be on an operations dashboard | /insights/how-to-decide-what-should-be-on-an-operations-dashboard/
+  - What digital infrastructure means for a modern business | /insights/what-digital-infrastructure-means-for-a-modern-business/
+  - What managed digital operations actually means | /insights/what-managed-digital-operations-actually-means/
 summary: Waiting for perfect data means waiting forever. Data is good enough when it fits a defined use, meets an agreed threshold and has a named owner. Six questions and an example table to test it.
 layout: plain
 ---
@@ -29,7 +29,7 @@ The more useful question is the one in the title: what makes data good enough to
 
 ## Fitness for use, not perfection
 
-The UK government's Data Quality Framework, written to help public bodies assess and improve the data they rely on, starts from the idea that quality must be understood in relation to the purpose the data serves. It sets out dimensions to examine, including completeness, uniqueness, consistency, timeliness, validity and accuracy. These are a helpful vocabulary for a business too, as long as they are applied against a real use case rather than as an abstract audit.
+The UK government's [Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework), written to help public bodies assess and improve the data they rely on, starts from the idea that quality must be understood in relation to the purpose the data serves. It sets out dimensions to examine, including completeness, uniqueness, consistency, timeliness, validity and accuracy. These are a helpful vocabulary for a business too, as long as they are applied against a real use case rather than as an abstract audit.
 
 Consider a customer table. For a monthly newsletter, a few missing phone numbers and some out-of-date job titles hardly matter. For a debt collection process, a wrong contact person or a missing account number is a real problem. For an AI assistant that drafts replies to customers, duplicated or conflicting records could lead to confident but wrong answers. The same table is good enough for one purpose and not for another.
 

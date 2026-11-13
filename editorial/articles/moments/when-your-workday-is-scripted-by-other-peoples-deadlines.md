@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000059
 slug: when-your-workday-is-scripted-by-other-peoples-deadlines
-title: When Your Workday Is Scripted by Other People's Deadlines
-description: Some people end each day having done a great deal and decided almost none of it. How approvals and inbox requests turn a working day into someone else's script, and how to give some of it back.
+title: When your workday is scripted by other people's deadlines
+description: Some people end each day having done a great deal and decided almost none of it. How approvals and inbox requests script the day, and how to give it back.
 lead: Some people end each day having done a great deal and decided almost none of it. How approvals and inbox requests turn a working day into someone else's script, and how to give some of it back.
 category: Human Agency
 published_date: 2026-10-08
@@ -20,9 +20,9 @@ sources:
   - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
   - Approve or reject documents in workflows - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
 related:
-  - When the System Decides What You Can Do Today | /moments/when-the-system-decides-what-you-can-do-today/
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
-  - Why Teams Stop Suggesting Improvements | /moments/why-teams-stop-suggesting-improvements/
+  - When the system decides what you can do today | /moments/when-the-system-decides-what-you-can-do-today/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - Why teams stop suggesting improvements | /moments/why-teams-stop-suggesting-improvements/
 summary: Some people end each day having done a great deal and decided almost none of it. How approvals and inbox requests turn a working day into someone else's script, and how to give some of it back.
 layout: plain
 ---
@@ -38,7 +38,7 @@ Two channels do most of the scripting: approvals and the inbox.
 
 **The inbox** turns every sender's urgency into the recipient's agenda. A message arrives with a deadline attached by someone else, and the reader decides whether to respond now or risk being the bottleneck.
 
-Research by Gloria Mark and colleagues at the University of California, Irvine, observed office workers and found that they were interrupted frequently and often switched to a different activity before finishing the first. Microsoft's Work Trend Index, using aggregated Microsoft 365 data, describes a working day heavily shaped by meetings, email and chat, with many people reporting too little uninterrupted focus time. Both bodies of research describe general knowledge work, not any one South African business, but they match what many owners and managers say about their days.
+Research by Gloria Mark and colleagues at the University of California, Irvine, observed office workers and found that they were interrupted frequently and often switched to a different activity before finishing the first. Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday), using aggregated Microsoft 365 data, describes a working day heavily shaped by meetings, email and chat, with many people reporting too little uninterrupted focus time. Both bodies of research describe general knowledge work, not any one South African business, but they match what many owners and managers say about their days.
 
 ## An illustrative scenario
 

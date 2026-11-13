@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000025
 slug: when-payroll-week-means-late-nights-for-one-person
-title: When Payroll Week Means Late Nights for One Person
-description: In many smaller businesses, payroll lands on one person in the last days of the month. What that week takes from them, why it concentrates on a single desk, and what makes it predictable instead of heroic.
+title: When payroll week means late nights for one person
+description: In many smaller businesses, payroll lands on one person in the last days of the month. What that week takes from them, and what makes it predictable.
 lead: In many smaller businesses, payroll lands on one person in the last days of the month. What that week takes from them, why it concentrates on a single desk, and what makes it predictable instead of heroic.
 category: Time & Attention
 published_date: 2026-10-05
@@ -19,9 +19,9 @@ sources:
   - Basic Guide to Pay Slips | https://www.labour.gov.za/DocumentCenter/Pages/Basic-Guide-to-Pay-Slips.aspx
   - Basic Guide to Annual Leave | https://www.labour.gov.za/DocumentCenter/Pages/Basic-Guide-to-Annual-Leave.aspx
 related:
-  - When Month-End Swallows the Whole Week | /moments/when-month-end-swallows-the-whole-week/
-  - The Report Someone Rebuilds by Hand Every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
-  - The Quiet Cost of Always Being Reachable | /moments/the-quiet-cost-of-always-being-reachable/
+  - When month-end swallows the whole week | /moments/when-month-end-swallows-the-whole-week/
+  - The report someone rebuilds by hand every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - The quiet cost of always being reachable | /moments/the-quiet-cost-of-always-being-reachable/
 summary: In many smaller businesses, payroll lands on one person in the last days of the month. What that week takes from them, why it concentrates on a single desk, and what makes it predictable instead of heroic.
 layout: plain
 ---
@@ -37,7 +37,7 @@ Payroll is unusual among business processes because its deadlines are not negoti
 
 The deadlines are external. SARS requires employers to declare PAYE, UIF and Skills Development Levy amounts on the monthly EMP201 and to pay within seven days after the end of the month in which the tax was deducted. Twice a year there is a reconciliation on top of that: SARS's PAYE page sets the interim EMP501 period from 21 September to 31 October, and the annual period from 1 April to 31 May, with penalties for late submission. Employees, quite reasonably, expect to be paid on the agreed day.
 
-The payslip itself has to carry real detail. The Department of Employment and Labour's basic guide to pay slips lists what must be shown in writing: the period covered, gross pay, deductions, net pay and, where they affect the calculation, ordinary and overtime hours, rates, and hours worked on Sundays or public holidays.
+The payslip itself has to carry real detail. The Department of Employment and Labour's [basic guide to pay slips](https://www.labour.gov.za/DocumentCenter/Pages/Basic-Guide-to-Pay-Slips.aspx) lists what must be shown in writing: the period covered, gross pay, deductions, net pay and, where they affect the calculation, ordinary and overtime hours, rates, and hours worked on Sundays or public holidays.
 
 The inputs, meanwhile, come from everywhere. Hours from supervisors. Overtime approvals from managers. Leave from whoever keeps the leave record, which in some businesses is still a book or a spreadsheet. Starters, leavers and changes in banking details from whoever spoke to the employee. Commission from sales. Each input has its own owner, and each owner has a different sense of when "end of the month" begins.
 

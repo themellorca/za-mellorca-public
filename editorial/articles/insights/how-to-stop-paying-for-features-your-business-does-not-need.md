@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-049
 slug: how-to-stop-paying-for-features-your-business-does-not-need
-title: How to Stop Paying for Features Your Business Does Not Need
-description: Unused licences are easy to spot. Unused features are not: higher plan tiers, add-ons and premium bundles that were bought for one reason and kept by default. How to find out which paid features are actually used, how to right-size plans safely and what to check before downgrading.
+title: How to stop paying for features your business does not need
+description: Unused licences are easy to spot, unused features are not. How to find which paid features get used, right-size plans safely and check before downgrading.
 lead: Unused licences are easy to spot. Unused features are not: higher plan tiers, add-ons and premium bundles that were bought for one reason and kept by default. How to find out which paid features are actually used, how to right-size plans safely and what to check before downgrading.
 category: Operations
 published_date: 2026-10-06
@@ -14,9 +14,10 @@ sources:
   - Switch to Business Starter edition - Billing & subscriptions - Google Workspace Help | https://knowledge.workspace.google.com/admin/billing/switch-to-business-starter-edition
   - New commerce license-based overview - Partner Center | https://learn.microsoft.com/en-us/partner-center/customers/new-commerce-license-based
 related:
-  - The Real Cost of Paying for Software Nobody Uses Properly | /insights/the-real-cost-of-paying-for-software-nobody-uses-properly/
-  - What to Fix First When Everything Feels Broken | /insights/what-to-fix-first-when-everything-feels-broken/
-  - Why Cheap SaaS Can Become Expensive Operations | /insights/why-cheap-saas-can-become-expensive-operations/
+  - The real cost of paying for software nobody uses properly | /insights/the-real-cost-of-paying-for-software-nobody-uses-properly/
+  - What to fix first when everything feels broken | /insights/what-to-fix-first-when-everything-feels-broken/
+  - Why cheap SaaS can become expensive operations | /insights/why-cheap-saas-can-become-expensive-operations/
+  - Paying twice: What it costs when nobody knows what your plan already includes | /impact/paying-extra-for-features-already-in-your-plan-entitlement-check-cost/
 summary: Unused licences are easy to spot. Unused features are not: higher plan tiers, add-ons and premium bundles that were bought for one reason and kept by default. How to find out which paid features are actually used, how to right-size plans safely and what to check before downgrading.
 layout: plain
 ---

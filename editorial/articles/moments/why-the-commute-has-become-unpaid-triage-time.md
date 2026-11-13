@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000009
 slug: why-the-commute-has-become-unpaid-triage-time
-title: Why the Commute Has Become Unpaid Triage Time
-description: Head down on the train, sorting overnight messages before the morning meeting. Why the journey to work fills with triage, what it takes from commuters, and how to give the commute back.
+title: Why the commute has become unpaid triage time
+description: Head down on the train, sorting overnight messages before the morning meeting. Why the commute fills with triage, what it costs, and how to give it back.
 lead: Head down on the train, sorting overnight messages before the morning meeting. Why the journey to work fills with triage, what it takes from commuters, and how to give the commute back.
 category: Time & Attention
 published_date: 2026-10-04
@@ -19,9 +19,10 @@ sources:
   - Exploring the possibility of “Right to Disconnect” in South Africa | https://cklaw.co.za/work-life-harmony-exploring-the-possibility-of-right-to-disconnect-in-south-africa/
   - Quiet time in Microsoft Teams for mobile devices - Microsoft Support | https://support.microsoft.com/en-us/office/quiet-time-in-microsoft-teams-for-mobile-devices-174c4d2d-c7c1-4228-80a7-031c14f9bcf2
 related:
-  - The Evening Spent Chasing Signatures | /moments/the-evening-spent-chasing-signatures/
-  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
-  - When Every Day Starts by Rebuilding Yesterday's Context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
+  - The evening spent chasing signatures | /moments/the-evening-spent-chasing-signatures/
+  - The lunch break eaten by approval requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - When every day starts by rebuilding yesterday's context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
+  - When waiting rooms are where real work gets done | /moments/when-waiting-rooms-are-where-real-work-gets-done/
 summary: Head down on the train, sorting overnight messages before the morning meeting. Why the journey to work fills with triage, what it takes from commuters, and how to give the commute back.
 layout: plain
 ---
@@ -33,11 +34,11 @@ This piece looks at why that happens, what it takes from the people doing it, an
 
 ## What the evidence shows
 
-Microsoft's Work Trend Index analysis of the infinite workday gives one view of how early the working day now starts. In its Microsoft 365 data, Microsoft reports that 40% of people online at 6am were reviewing email to work out the day's priorities. The same analysis found that the average worker sent or received more than 50 messages outside core business hours.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) analysis of the infinite workday gives one view of how early the working day now starts. In its Microsoft 365 data, Microsoft reports that 40% of people online at 6am were reviewing email to work out the day's priorities. The same analysis found that the average worker sent or received more than 50 messages outside core business hours.
 
 Those are global figures from one vendor's tools, not a survey of South African commuters. They do not tell us where people were when they opened their mail. What they do establish is that sorting the day's messages before the formal day begins is a common pattern, and that out-of-hours message volume is substantial. For people with long journeys to work, it is reasonable to infer that some of that early sorting happens in transit, though no source cited here measures it.
 
-South African law does not currently provide a specific right to disconnect. A 2024 article from CK Law reviewing the debate notes that some employers already address after-hours availability in their own policies even without a statutory obligation, and points to Australia's approach, which allows contact outside hours but asks whether expecting a response is reasonable. The legal question belongs to employment lawyers. The operational question, why the commute fills with triage in the first place, belongs to the business.
+South African law does not currently provide a specific [right to disconnect](https://cklaw.co.za/work-life-harmony-exploring-the-possibility-of-right-to-disconnect-in-south-africa/). A 2024 article from CK Law reviewing the debate notes that some employers already address after-hours availability in their own policies even without a statutory obligation, and points to Australia's approach, which allows contact outside hours but asks whether expecting a response is reasonable. The legal question belongs to employment lawyers. The operational question, why the commute fills with triage in the first place, belongs to the business.
 
 ## Why the commute becomes triage time
 
@@ -76,7 +77,7 @@ The useful changes reduce the amount of sorting that only one person can do, and
 - **Give the queue an owner and a start time.** Overnight items are triaged at a set time at the start of the working day, by a named person, as part of their paid hours.
 - **Move the first meeting.** A short delay to the morning meeting can leave time to sort at a desk rather than on a train.
 - **Agree what urgent means.** A genuine emergency route, such as a phone call to a named person, means nobody needs to watch the full stream just in case. Mellorca's piece on [why shared inboxes become operational bottlenecks](/insights/why-shared-inboxes-become-operational-bottlenecks/) covers the queue design.
-- **Use the tools' quiet settings.** Microsoft Teams, for example, lets people schedule quiet hours on mobile devices so that notifications are silenced at set times. A setting does not change expectations by itself, but combined with an agreed team norm it can.
+- **Use the tools' quiet settings.** Microsoft Teams, for example, lets people schedule quiet hours on [mobile devices](https://support.microsoft.com/en-us/office/quiet-time-in-microsoft-teams-for-mobile-devices-174c4d2d-c7c1-4228-80a7-031c14f9bcf2) so that notifications are silenced at set times. A setting does not change expectations by itself, but combined with an agreed team norm it can.
 
 ## The first consequence, and the business outcome
 

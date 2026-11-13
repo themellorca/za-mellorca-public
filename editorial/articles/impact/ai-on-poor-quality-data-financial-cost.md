@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-280
 slug: ai-on-poor-quality-data-financial-cost
-title: AI on Poor-Quality Data: Faster Decisions, Unreliable Results
-description: AI does not repair weak source data by itself. Incomplete, inconsistent or poorly governed business data can make automated analysis faster without making it more reliable.
+title: AI on poor-quality data: Faster decisions, unreliable results
+description: AI does not repair weak source data. Incomplete or poorly governed data makes automated analysis faster, but no more reliable.
 lead: AI can accelerate analysis, classification and decision support. If the underlying business data is incomplete, inconsistent or poorly understood, the organisation can simply reach unreliable conclusions faster.
 category: AI Governance
 published_date: 2026-09-02
@@ -29,9 +29,10 @@ sources:
 closing_title: Method note
 closing_text: No generic AI-error benchmark is used. Measure correction rates, rework, data defects and business consequences in the specific use case.
 related:
-  - Staff Using AI with Company Data Nobody Governs | /impact/uncontrolled-ai-company-data-financial-risk/
-  - When Revenue Is Visible but Profitability Is Not | /impact/no-visibility-into-customer-product-profitability/
-  - When Customer Details Differ Between Applications | /impact/pain-customer-details-different-applications-cost-mistakes/
+  - Staff using AI with company data nobody governs | /impact/uncontrolled-ai-company-data-financial-risk/
+  - When revenue is visible but profitability is not | /impact/no-visibility-into-customer-product-profitability/
+  - When customer details differ between applications | /impact/pain-customer-details-different-applications-cost-mistakes/
+  - Why AI cannot fix data nobody trusts | /patterns/why-an-ai-tool-cannot-rescue-records-your-own-staff-do-not-believe/
 ---
 ## The tolerated pain is treating data as available when it is not fit for purpose
 

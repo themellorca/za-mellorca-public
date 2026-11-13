@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-172
 slug: not-knowing-hourly-cost-of-downtime
-title: Not Knowing Your Hourly Cost of Downtime
+title: Not knowing your hourly cost of downtime
 description: Why resilience investment is difficult to prioritise when the business has not estimated which operations are critical and what interruption actually costs.
 lead: A recovery target is difficult to defend when nobody has estimated what stops, how quickly consequences accumulate and which services must return first.
 category: Business Continuity
@@ -18,10 +18,11 @@ side_title: Cost mechanisms
 sources:
   - Using Business Impact Analysis to Inform Risk Prioritization and Response | https://www.nist.gov/publications/using-business-impact-analysis-inform-risk-prioritization-and-response-0
   - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+  - REL13-BP01 Define recovery objectives for downtime and data loss - AWS Well-Architected Framework | https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_planning_for_recovery_objective_defined_recovery.html
 related:
-  - Backups Nobody Has Tested: The Cost When Recovery Fails | /impact/backups-never-tested-restore-financial-cost/
-  - Backups in the Same Place as the Data: The Risk of Losing Both | /impact/backups-same-environment-losing-both-copies-risk/
-  - Two Departments, Same Work: The Payroll Cost of Duplicated Effort | /impact/departments-duplicating-same-work-payroll-cost/
+  - Backups nobody has tested: The cost when recovery fails | /impact/backups-never-tested-restore-financial-cost/
+  - Backups in the same place as the data: The risk of losing both | /impact/backups-same-environment-losing-both-copies-risk/
+  - Two departments, same work: The payroll cost of duplicated effort | /impact/departments-duplicating-same-work-payroll-cost/
 ---
 ## The tolerated pain
 
@@ -37,7 +38,7 @@ There is also a reasonable suspicion of dramatic headline numbers. Generic indus
 
 ## Operational consequence
 
-Without a business impact view, every system can appear equally important. Recovery sequencing becomes political, resilience spending is difficult to justify and teams may invest heavily in low-impact services while leaving true operational bottlenecks exposed.
+Without a business impact view, every system can appear equally important. Recovery sequencing becomes political, resilience spending is difficult to justify and teams may invest heavily in low-impact services while leaving true operational bottlenecks exposed. AWS's Well-Architected guidance takes the same approach: [understand the impact of downtime and data loss](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_planning_for_recovery_objective_defined_recovery.html) in financial, reputational, operational and regulatory terms before setting recovery objectives.
 
 The practical symptoms include:
 

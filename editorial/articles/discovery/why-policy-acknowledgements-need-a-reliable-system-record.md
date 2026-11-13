@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-358
 slug: why-policy-acknowledgements-need-a-reliable-system-record
-title: Why Policy Acknowledgements Need a Reliable System Record
+title: Why policy acknowledgements need a reliable system record
 description: Inconsistent policy acknowledgement records make assurance and follow-up harder than they need to be.
 lead: A policy programme becomes difficult to govern when acknowledgements are scattered across email, spreadsheets, forms and learning systems.
 category: Security & Compliance Operations
@@ -19,9 +19,9 @@ sources:
   - https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf | https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
   - Cybersecurity Framework | https://www.nist.gov/cyberframework
 related:
-  - Why Security Architecture Decisions Need Linked Risk Exception Records | /discovery/why-security-architecture-decisions-need-linked-risk-exception-records/
-  - Why Supplier Access Survives After the Supplier Engagement Ends | /discovery/why-supplier-access-survives-after-engagements-end/
-  - Why Vulnerability Severity Needs Business Criticality | /discovery/why-vulnerability-severity-needs-business-criticality/
+  - Why security architecture decisions need linked risk exception records | /discovery/why-security-architecture-decisions-need-linked-risk-exception-records/
+  - Why supplier access survives after the supplier engagement ends | /discovery/why-supplier-access-survives-after-engagements-end/
+  - Why vulnerability severity needs business criticality | /discovery/why-vulnerability-severity-needs-business-criticality/
 ---
 ## The problem in plain language
 
@@ -29,9 +29,9 @@ Employees confirm policies through different channels. Some acknowledge an accep
 
 The result is that control owners must reconcile who received which version, who acknowledged it and who still requires action. When the policy changes, the reconciliation starts again. The work is rarely visible until someone needs a definitive answer quickly.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer needs one reproducible record that links a person, a policy version, an acknowledgement event, a date and a follow-up status. In search terms this shows up as “track policy acknowledgements”, “policy attestation software”, “prove employees read the security policy”, “policy sign-off audit evidence” or “automate policy acknowledgement reminders”.
+You need one reproducible record that links a person, a policy version, an acknowledgement event, a date and a follow-up status. The need usually shows up as “track policy acknowledgements”, “policy attestation software”, “prove employees read the security policy”, “policy sign-off audit evidence” or “automate policy acknowledgement reminders”.
 
 The underlying need is not a nicer form. It is the ability to answer, at any point, “who is currently covered by which version of this policy, and who is not?” without assembling spreadsheets.
 
@@ -39,11 +39,11 @@ The underlying need is not a nicer form. It is the ability to answer, at any poi
 
 ISO-aligned management systems and security frameworks emphasise controlled documentation, awareness and evidence. The detail in established control catalogues shows why a durable record matters.
 
-NIST SP 800-53 Revision 5, control PL-4 (Rules of Behavior), asks organisations to receive a documented acknowledgement from individuals, indicating that they have read, understood and agreed to abide by the rules, before authorising access to the system. It also asks for the rules to be reviewed and updated, and for people who acknowledged a previous version to re-acknowledge it at a defined frequency or when the rules are revised. The supporting discussion notes that documented acknowledgements can include electronic signatures and electronic check boxes, and that the acknowledgement may be satisfied through training programmes if that training includes the rules.
+[NIST SP 800-53 Revision 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final), control PL-4 (Rules of Behavior), asks organisations to receive a documented acknowledgement from individuals, indicating that they have read, understood and agreed to abide by the rules, before authorising access to the system. It also asks for the rules to be reviewed and updated, and for people who acknowledged a previous version to re-acknowledge it at a defined frequency or when the rules are revised. The supporting discussion notes that documented acknowledgements can include electronic signatures and electronic check boxes, and that the acknowledgement may be satisfied through training programmes if that training includes the rules.
 
 Two operational requirements follow from that wording. First, acknowledgement is version-specific: a record that someone accepted “the policy” at some point is weaker than a record of which version they accepted. Second, acknowledgement can be a precondition for access, which ties it to the identity lifecycle rather than to a one-off communication.
 
-The NIST Cybersecurity Framework 2.0 makes a similar point at a higher level. Its Govern function includes a Policy category in which cybersecurity risk policy is established, communicated and enforced, and is reviewed, updated, communicated and enforced to reflect changes in requirements, threats, technology and organisational mission. Its Protect function includes awareness and training outcomes for personnel. The operational requirement is not a particular tool; it is a durable, version-aware record that can be reproduced without manual reconstruction.
+The [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) makes a similar point at a higher level. Its Govern function includes a Policy category in which cybersecurity risk policy is established, communicated and enforced, and is reviewed, updated, communicated and enforced to reflect changes in requirements, threats, technology and organisational mission. Its Protect function includes awareness and training outcomes for personnel. The operational requirement is not a particular tool; it is a durable, version-aware record that can be reproduced without manual reconstruction.
 
 ## Problem owner and why now
 

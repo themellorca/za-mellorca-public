@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-002
 slug: how-to-tell-whether-you-have-a-people-problem-or-a-systems-problem
-title: How to Tell Whether You Have a People Problem or a Systems Problem
+title: How to tell whether you have a people problem or a systems problem
 description: A diagnostic framework to distinguish people-related inefficiencies from system design or process flaws, with actionable steps.
 lead: A diagnostic framework to distinguish people-related inefficiencies from system design or process flaws, with actionable steps.
 category: Operations
@@ -12,10 +12,11 @@ eyebrow: Operations
 sources:
   - Dr. W. Edwards Deming and Profound Knowledge – Part 2 – SPC | https://www.spcforexcel.com/knowledge/dr-w-edwards-deming/profound-knowledge-part-2/
   - Google SRE - Blameless Postmortem for System Resilience | https://sre.google/sre-book/postmortem-culture/
+  - Root Cause Analysis - PSNet, Agency for Healthcare Research and Quality | https://psnet.ahrq.gov/primer/root-cause-analysis
 related:
-  - Why Your CRM Is Not the Problem You Think It Is | /insights/why-your-crm-is-not-the-problem-you-think-it-is/
-  - What Your Recurring Problems Are Telling You About Your Systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
-  - Why Work Gets Lost Between Teams | /insights/why-work-gets-lost-between-teams/
+  - Why your CRM is not the problem you think it is | /insights/why-your-crm-is-not-the-problem-you-think-it-is/
+  - What your recurring problems are telling you about your systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
+  - Why work gets lost between teams | /insights/why-work-gets-lost-between-teams/
 summary: A diagnostic framework to distinguish people-related inefficiencies from system design or process flaws, with actionable steps.
 layout: plain
 ---
@@ -35,7 +36,7 @@ Most operational failures are visible at the point where a person acts. Someone 
 
 W. Edwards Deming's distinction between common-cause and special-cause variation is a useful way to think about this. As summarised in [this explanation of Deming's profound knowledge](https://www.spcforexcel.com/knowledge/dr-w-edwards-deming/profound-knowledge-part-2/), common-cause variation arises from the way the process was designed and is managed, and reducing it requires changing the system, which is management's responsibility. Special causes are abnormalities outside the normal process. Deming estimated that 94% of problems are due to common causes. That is his estimate rather than a measured statistic for any business, but the direction of the argument is important: most recurring problems are built into the way work is organised.
 
-Google's site reliability engineering guidance reaches a similar conclusion from a different starting point. Its approach to [blameless postmortems](https://sre.google/sre-book/postmortem-culture/) assumes that people involved in an incident acted with good intentions on the information they had, and asks why that information was incomplete or incorrect. Its central observation is that you cannot fix people, but you can fix systems and processes to better support people making the right choices.
+Google's site reliability engineering guidance reaches a similar conclusion from a different starting point. Its approach to [blameless postmortems](https://sre.google/sre-book/postmortem-culture/) assumes that people involved in an incident acted with good intentions on the information they had, and asks why that information was incomplete or incorrect. Its central observation is that you cannot fix people, but you can fix systems and processes to better support people making the right choices. Patient safety work makes the same point: AHRQ's [primer on root cause analysis](https://psnet.ahrq.gov/primer/root-cause-analysis) stresses avoiding the trap of focusing on mistakes by individuals and looking instead for weaknesses in the system.
 
 Neither source says that individual performance never matters. They say that blaming individuals for system-generated problems leaves the cause in place and teaches people to hide problems.
 

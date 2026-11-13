@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000461
 slug: the-teacher-who-became-a-data-entry-clerk
-title: The Teacher Who Became a Data-Entry Clerk
-description: When a trained educator spends the week capturing marks, attendance and forms, the loss is not only hours. A look at what repeated capture does to professional dignity, and what can realistically be changed.
+title: The teacher who became a data-entry clerk
+description: When a trained educator spends the week capturing marks, attendance and forms, the loss is more than hours. What repeated capture does to dignity.
 lead: When a trained educator spends the week capturing marks, attendance and forms, the loss is not only hours. A look at what repeated capture does to professional dignity, and what can realistically be changed.
 category: Meaning, Purpose & Identity
 published_date: 2026-10-08
@@ -19,9 +19,9 @@ sources:
   - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
 related:
-  - When the Founder's Identity Is Fused With Every Task | /moments/when-the-founders-identity-is-fused-with-every-task/
-  - Why Nobody Trains for the Job of Being Human Middleware | /moments/why-nobody-trains-for-the-job-of-being-human-middleware/
-  - Why “I'll Do It Tonight” Became the Default Plan | /moments/why-ill-do-it-tonight-became-the-default-plan/
+  - When the founder's identity is fused with every task | /moments/when-the-founders-identity-is-fused-with-every-task/
+  - Why nobody trains for the job of being human middleware | /moments/why-nobody-trains-for-the-job-of-being-human-middleware/
+  - Why “I'll do it tonight” became the default plan | /moments/why-ill-do-it-tonight-became-the-default-plan/
 summary: When a trained educator spends the week capturing marks, attendance and forms, the loss is not only hours. A look at what repeated capture does to professional dignity, and what can realistically be changed.
 layout: plain
 ---
@@ -43,7 +43,7 @@ It would be too easy to claim that research proves capture work destroys profess
 
 The UK Health and Safety Executive's management standards for work-related stress treat **control** and **role clarity** as two of the main areas where working conditions affect wellbeing. The standard on role asks whether people understand their role and whether the organisation avoids giving them conflicting roles. The standard on control concerns how much say people have in the way they do their work. These are general workplace standards, not teacher-specific findings, but they give a vocabulary for what many people describe informally: the job they were hired to do and the job they actually do have drifted apart.
 
-Microsoft's Work Trend Index adds a picture of how a modern working day is spent. In its analysis of Microsoft 365 data, people spent more of their time communicating than creating, and large shares of surveyed workers said they struggled to find the time and energy to do their job. The data comes from knowledge workers in office software, so it describes teachers only loosely. It is better read as evidence that coordination work expands to fill the time available.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) adds a picture of how a modern working day is spent. In its analysis of Microsoft 365 data, people spent more of their time communicating than creating, and large shares of surveyed workers said they struggled to find the time and energy to do their job. The data comes from knowledge workers in office software, so it describes teachers only loosely. It is better read as evidence that coordination work expands to fill the time available.
 
 Neither source proves that any one teacher, or any one bookkeeper, feels diminished. That is a hypothesis, and it is worth treating as one. The concern is the person whose training sits unused while the keyboard gets the hours.
 

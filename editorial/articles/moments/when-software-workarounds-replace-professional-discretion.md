@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000048
 slug: when-software-workarounds-replace-professional-discretion
-title: When Software Workarounds Replace Professional Discretion
-description: An experienced bookkeeper knows the right treatment, but the accounting system as configured will not record it, so the judgement ends up in a suspense account and a spreadsheet. What that takes from finance professionals, and how to bring discretion back inside the system.
+title: When software workarounds replace professional discretion
+description: A bookkeeper knows the right treatment, but the system as configured will not record it, so judgement ends up in a suspense account. How to restore it.
 lead: An experienced bookkeeper knows the right treatment, but the accounting system as configured will not record it, so the judgement ends up in a suspense account and a spreadsheet. What that takes from finance professionals, and how to bring discretion back inside the system.
 category: Human Agency
 published_date: 2026-10-06
@@ -19,9 +19,9 @@ sources:
   - Correct or cancel a posted sales invoice - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-correct-cancel-sales-invoice
   - Undo a posting using a reversing entry - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/finance-how-reverse-journal-posting
 related:
-  - When the System Decides What You Can Do Today | /moments/when-the-system-decides-what-you-can-do-today/
-  - Why Good Judgement Gets Buried Under Process | /moments/why-good-judgement-gets-buried-under-process/
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - When the system decides what you can do today | /moments/when-the-system-decides-what-you-can-do-today/
+  - Why good judgement gets buried under process | /moments/why-good-judgement-gets-buried-under-process/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
 summary: An experienced bookkeeper knows the right treatment, but the accounting system as configured will not record it, so the judgement ends up in a suspense account and a spreadsheet. What that takes from finance professionals, and how to bring discretion back inside the system.
 layout: plain
 ---
@@ -35,7 +35,7 @@ This piece is about that moment, repeated many times: when software, or the way 
 
 Accounting systems are deliberately strict, and much of that strictness is valuable. The South African Revenue Service, for example, sets out the particulars a valid tax invoice must contain, from supplier and recipient details to a serial number, description, quantity, value and VAT, and requires it within 21 days of the supply. A business cannot simply edit an issued invoice to suit a later conversation.
 
-Software reflects those requirements. Microsoft's Business Central documentation explains that an unpaid, unshipped posted sales invoice can be cancelled or corrected, which automatically creates a corrective credit memo, but that once an invoice is partially or fully paid it cannot be corrected from the invoice itself, and a credit memo must be created manually. Similarly, its documentation on reversing journal postings explains that an entry can be reversed only once, and only if it originated from a general journal.
+Software reflects those requirements. Microsoft's Business Central documentation explains that an unpaid, unshipped [posted sales invoice](https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-correct-cancel-sales-invoice) can be cancelled or corrected, which automatically creates a corrective credit memo, but that once an invoice is partially or fully paid it cannot be corrected from the invoice itself, and a credit memo must be created manually. Similarly, its documentation on reversing journal postings explains that an entry can be reversed only once, and only if it originated from a general journal.
 
 These rules protect the audit trail. Every correction leaves a visible, traceable record. That is a good thing. The difficulty arises when the legitimate correction a professional needs to make is not one the system, as configured, supports cleanly, or when doing it properly requires permissions, steps or knowledge that the person does not have.
 

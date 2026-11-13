@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-050
 slug: the-signs-your-business-needs-an-integration-layer
-title: The Signs That Show Your Business Needs an Integration Layer
-description: When every change to one system breaks a link somewhere else, the business has outgrown point-to-point connections. Here are the signals that an integration layer is due, and how to introduce one gradually.
+title: The signs that show your business needs an integration layer
+description: When every change to one system breaks a link elsewhere, point-to-point connections have run out. Learn the signs and how to add integration gradually.
 lead: When every change to one system breaks a link somewhere else, the business has outgrown point-to-point connections. Here are the signals that an integration layer is due, and how to introduce one gradually.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-06
@@ -18,9 +18,10 @@ sources:
   - What Is iPaaS (Integration Platform as a Service)? - IBM | https://www.ibm.com/think/topics/ipaas
   - Basic Enterprise Integration on Azure - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/enterprise-integration/basic-enterprise-integration
 related:
-  - When One Change Has to Be Made in Every System You Own | /patterns/when-one-change-has-to-be-made-in-every-system-you-own/
-  - Why Information Has to Be Copied From One System to Another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
-  - How Disconnected Tools Quietly Limit Scale | /patterns/how-disconnected-tools-quietly-limit-scale/
+  - When one change has to be made in every system you own | /patterns/when-one-change-has-to-be-made-in-every-system-you-own/
+  - Why information has to be copied from one system to another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
+  - How disconnected tools quietly limit scale | /patterns/how-disconnected-tools-quietly-limit-scale/
+  - The same customer data is integrated through several different interfaces | /discovery/why-one-customer-record-ends-up-flowing-through-many-different-connections/
 summary: When every change to one system breaks a link somewhere else, the business has outgrown point-to-point connections. Here are the signals that an integration layer is due, and how to introduce one gradually.
 layout: plain
 ---
@@ -56,7 +57,7 @@ Several signals together suggest that the business has reached the point where a
 - **Integration tools have multiplied.** Different teams have used different connector services, scripts and plug-ins, so knowledge of how data moves is spread across people and accounts. This is a recognised risk, described in [automation platforms that proliferate without architectural standards](/discovery/automation-platforms-proliferate-without-architectural-standards/).
 - **New systems are expensive to add.** Each new application needs custom links to several existing ones.
 
-IBM describes the limitation of traditional point-to-point integration as requiring custom work for each connection, which makes the result hard to scale and maintain and leaves services tightly coupled and inflexible. Microsoft's reference architecture for basic enterprise integration shows the alternative shape: an API gateway that gives clients a consistent interface to back-end systems, and a workflow layer that orchestrates calls between them through connectors, reducing the need for custom code. The point for a small or mid-sized business is not to copy that architecture, but to recognise its logic: separate the systems from the connections, and manage the connections in one place.
+IBM describes the limitation of traditional point-to-point integration as requiring custom work for each connection, which makes the result hard to scale and maintain and leaves services tightly coupled and inflexible. Microsoft's reference architecture for [basic enterprise integration](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/enterprise-integration/basic-enterprise-integration) shows the alternative shape: an API gateway that gives clients a consistent interface to back-end systems, and a workflow layer that orchestrates calls between them through connectors, reducing the need for custom code. The point for a small or mid-sized business is not to copy that architecture, but to recognise its logic: separate the systems from the connections, and manage the connections in one place.
 
 ## An illustrative example
 

@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000042
 slug: the-price-of-never-fully-switching-off-on-leave
-title: The Price of Never Fully Switching Off on Leave
-description: A glance at the phone over breakfast, a two-line reply from the beach. Leave that is taken on paper but only partly received. What keeps capable employees half-connected on holiday, and how to make leave something people actually get.
+title: The price of never fully switching off on leave
+description: Leave is taken on paper but only partly received: a glance at the phone at breakfast, a reply from the beach. What keeps staff half-connected, and the fix.
 lead: A glance at the phone over breakfast, a two-line reply from the beach. Leave that is taken on paper but only partly received. What keeps capable employees half-connected on holiday, and how to make leave something people actually get.
 category: Time & Attention
 published_date: 2026-10-06
@@ -19,9 +19,9 @@ sources:
   - Crucial changes needed to protect workers’ health while teleworking | https://www.who.int/news/item/02-02-2022-crucial-changes-needed-to-protect-workers-health-while-teleworking
   - Delay or schedule sending email messages in Outlook - Microsoft Support | https://support.microsoft.com/en-us/office/delay-or-schedule-sending-email-messages-in-outlook-026af69f-c287-490a-a72f-6c65793744ba
 related:
-  - The Weekend That Exists Only on Paper | /moments/the-weekend-that-exists-only-on-paper/
-  - The Notification You Check Before You Sleep | /moments/the-notification-you-check-before-you-sleep/
-  - When Your Calendar Belongs to Other People's Systems | /moments/when-your-calendar-belongs-to-other-peoples-systems/
+  - The weekend that exists only on paper | /moments/the-weekend-that-exists-only-on-paper/
+  - The notification you check before you sleep | /moments/the-notification-you-check-before-you-sleep/
+  - When your calendar belongs to other people's systems | /moments/when-your-calendar-belongs-to-other-peoples-systems/
 summary: A glance at the phone over breakfast, a two-line reply from the beach. Leave that is taken on paper but only partly received. What keeps capable employees half-connected on holiday, and how to make leave something people actually get.
 layout: plain
 ---
@@ -31,7 +31,7 @@ And yet something about the break does not quite arrive. This piece is about tha
 
 ## Leave is meant to be time away
 
-South African law treats annual leave as a real entitlement, not a scheduling convenience. The Department of Employment and Labour's guide to annual leave under the Basic Conditions of Employment Act sets out a minimum of 21 consecutive days a year, or one day for every 17 days worked by agreement. Leave must be granted within six months of the end of the leave cycle, and employers may not pay employees instead of granting leave, except when employment ends.
+South African law treats [annual leave](https://www.labour.gov.za/DocumentCenter/Pages/Basic-Guide-to-Annual-Leave.aspx) as a real entitlement, not a scheduling convenience. The Department of Employment and Labour's guide to annual leave under the Basic Conditions of Employment Act sets out a minimum of 21 consecutive days a year, or one day for every 17 days worked by agreement. Leave must be granted within six months of the end of the leave cycle, and employers may not pay employees instead of granting leave, except when employment ends.
 
 That last rule is telling. The law does not allow leave to be cashed in during employment, which suggests the point is the time away itself. Leave that is half-spent on work is still counted as leave. Whether it does what leave is for is a different question.
 

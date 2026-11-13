@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000002
 slug: the-inbox-that-follows-you-home
-title: The Inbox That Follows You Home
-description: When the inbox doubles as the business's task list, unfinished commitments travel home with the person who holds them. What changes when work has somewhere else to live.
+title: The inbox that follows you home
+description: When the inbox doubles as the task list, unfinished commitments travel home with the person. What changes when work has somewhere else to live.
 lead: When the inbox doubles as the business's task list, unfinished commitments travel home with the person who holds them. What changes when work has somewhere else to live.
 category: Time & Attention
 published_date: 2026-10-03
@@ -17,10 +17,11 @@ epistemic_state: HYPOTHESISED: the link between inbox-as-task-list and after-hou
 sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
+  - Crucial changes needed to protect workers' health while teleworking - World Health Organization | https://www.who.int/news/item/02-02-2022-crucial-changes-needed-to-protect-workers-health-while-teleworking
 related:
-  - The Report Someone Rebuilds by Hand Every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
-  - The Meeting That Could Have Been a Shared Record | /moments/the-meeting-that-could-have-been-a-shared-record/
-  - Why Holidays Still Need a Laptop in the Suitcase | /moments/why-holidays-still-need-a-laptop-in-the-suitcase/
+  - The report someone rebuilds by hand every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - The meeting that could have been a shared record | /moments/the-meeting-that-could-have-been-a-shared-record/
+  - Why holidays still need a laptop in the suitcase | /moments/why-holidays-still-need-a-laptop-in-the-suitcase/
 summary: When the inbox doubles as the business's task list, unfinished commitments travel home with the person who holds them. What changes when work has somewhere else to live.
 layout: plain
 ---
@@ -32,9 +33,9 @@ In many businesses, the inbox is not only a place where messages arrive. It is t
 
 ## What the data shows, and what it does not
 
-Microsoft's Work Trend Index has published telemetry on how working patterns spill past the working day. In its analysis of what it calls the infinite workday, Microsoft reports that nearly 20% of employees who are actively working at the weekend check email before noon on Saturday and Sunday, and that over 5% are back in their email on Sunday evening after 6pm. The average worker in that data sends or receives more than 50 messages outside core business hours.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) has published telemetry on how working patterns spill past the working day. In its analysis of what it calls the infinite workday, Microsoft reports that nearly 20% of employees who are actively working at the weekend check email before noon on Saturday and Sunday, and that over 5% are back in their email on Sunday evening after 6pm. The average worker in that data sends or receives more than 50 messages outside core business hours.
 
-The same body of research found that people spend a large share of their working time communicating rather than making things. In an earlier Work Trend Index report, Microsoft found that 57% of time in its Microsoft 365 data went on communicating, through meetings, chat and email, and that 68% of surveyed people said they did not have enough uninterrupted focus time in the working day.
+The same body of research found that people spend a large share of their working time communicating rather than making things. In an earlier [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) report, Microsoft found that 57% of time in its Microsoft 365 data went on communicating, through meetings, chat and email, and that 68% of surveyed people said they did not have enough uninterrupted focus time in the working day.
 
 Those figures describe users of one vendor's tools across many countries. They are not a measurement of South African small businesses, and they do not tell us why any individual opened their mail on a Sunday. What they do establish is that after-hours inbox activity is a pattern, not a quirk, and that a great deal of the working day is spent moving information between people rather than acting on it.
 
@@ -64,7 +65,7 @@ What can be said with more confidence is that the arrangement places the burden 
 
 ## What could change
 
-The interventions that help are mostly about giving work a home outside the inbox, and they are not all technical.
+The interventions that help are mostly about giving work a home outside the inbox, and they are not all technical. The World Health Organization's [guidance on teleworking](https://www.who.int/news/item/02-02-2022-crucial-changes-needed-to-protect-workers-health-while-teleworking) likewise says employers should establish a right to disconnect as a protective measure.
 
 - **Turn requests into records.** A complaint, quote request or approval that arrives by email can be logged as a ticket, task or case with a named owner and a status. That can be done with a simple shared tracker or a helpdesk tool; the important part is that the item exists somewhere visible.
 - **Make ownership explicit.** Being copied on a message should not mean owning it. A rule about who picks up what, and a short daily check of unassigned items, removes much of the guesswork.

@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-451
 slug: unclear-accountability-technology-decisions-cost
-title: Who Decides on Technology? The Cost of Unclear Accountability for IT Choices
-description: When nobody is clearly accountable for technology decisions, choices are made by default, by vendors or not at all, and the business pays for reversals and stalled projects. Clear decision rights and a decision log fix it.
+title: Who decides on technology? The cost of unclear accountability for IT choices
+description: When nobody is accountable for technology decisions, choices are made by default or by vendors, and reversals follow. Clear decision rights and a log help.
 lead: When nobody is clearly accountable for technology decisions, choices are made by default, by vendors or not at all, and the business pays for reversals and stalled projects. Clear decision rights and a decision log fix it.
 category: Digital Infrastructure
 published_date: 2026-10-07
@@ -17,9 +17,9 @@ sources:
   - Maintain an architecture decision record (ADR) - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record
   - Architectural decision record process - AWS Prescriptive Guidance | https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html
 related:
-  - Software Bought Without Approval: The Financial and Security Cost of Shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
-  - Shared Passwords at Work: The Cost of Losing Accountability and Control | /impact/shared-passwords-lost-accountability-breach-exposure/
-  - Subscriptions That Outlive the Employee: The Cost of Orphaned Software | /impact/orphaned-software-subscriptions-after-employee-leaves-cost/
+  - Software bought without approval: The financial and security cost of shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
+  - Shared passwords at work: The cost of losing accountability and control | /impact/shared-passwords-lost-accountability-breach-exposure/
+  - Subscriptions that outlive the employee: The cost of orphaned software | /impact/orphaned-software-subscriptions-after-employee-leaves-cost/
 summary: When nobody is clearly accountable for technology decisions, choices are made by default, by vendors or not at all, and the business pays for reversals and stalled projects. Clear decision rights and a decision log fix it.
 layout: plain
 ---

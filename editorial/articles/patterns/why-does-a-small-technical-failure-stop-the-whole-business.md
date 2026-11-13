@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-326
 slug: why-does-a-small-technical-failure-stop-the-whole-business
-title: Why Does a Small Technical Failure Stop the Whole Business?
-description: When a printer, internet line, connector or expired licence halts the entire operation, the business has hard dependencies and no degraded mode. Designing fallbacks for core functions turns stoppages into slowdowns.
+title: Why does a small technical failure stop the whole business?
+description: When a printer, internet line or expired licence halts everything, the business has hard dependencies and no degraded mode. Design fallbacks for core work.
 lead: When a printer, internet line, connector or expired licence halts the entire operation, the business has hard dependencies and no degraded mode. Designing fallbacks for core functions turns stoppages into slowdowns.
 category: Cloud, Infrastructure & Reliability
 published_date: 2026-10-03
@@ -16,10 +16,11 @@ commercial_value_dimensions: resilience, revenue, customer experience, capacity,
 sources:
   - REL05-BP01 Implement graceful degradation to transform applicable hard dependencies into soft dependencies - Reliability Pillar | https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_mitigate_interaction_failure_graceful_degradation.html
   - Google SRE - Cascading Failures: Reducing System Outage | https://sre.google/sre-book/addressing-cascading-failures/
+  - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - NIST CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
 related:
-  - Why Backups Do Not Equal Business Resilience | /patterns/why-backups-do-not-equal-business-resilience/
-  - The Hidden Risk of One File Controlling an Operation | /patterns/the-hidden-risk-of-one-file-controlling-an-operation/
-  - When Poor Data Quality Becomes an Automation Failure | /patterns/when-poor-data-quality-becomes-an-automation-failure/
+  - Why backups do not equal business resilience | /patterns/why-backups-do-not-equal-business-resilience/
+  - The hidden risk of one file controlling an operation | /patterns/the-hidden-risk-of-one-file-controlling-an-operation/
+  - When poor data quality becomes an automation failure | /patterns/when-poor-data-quality-becomes-an-automation-failure/
 summary: When a printer, internet line, connector or expired licence halts the entire operation, the business has hard dependencies and no degraded mode. Designing fallbacks for core functions turns stoppages into slowdowns.
 layout: plain
 ---
@@ -53,7 +54,7 @@ The visible symptom is a full stop caused by a small fault. The common assumptio
 - **No manual fallback.** Paper or offline procedures were removed when systems went in and never replaced with a tested alternative.
 - **Unknown dependencies.** The business does not know which processes depend on which components, the problem explored in [when nobody knows which services depend on which systems](/patterns/when-nobody-knows-which-services-depend-on-which-systems/).
 
-Reliability engineering has a name for the missing capability: graceful degradation. AWS's Well-Architected guidance, in [REL05-BP01](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_mitigate_interaction_failure_graceful_degradation.html), recommends that components keep performing their core function when dependencies become unavailable, perhaps with stale, alternate or no data, so that localised failures only minimally impede overall function. It lists anti-patterns including not identifying the core business functionality needed and not testing that components still work during dependency failures. It also stresses that deciding what should happen when not every requirement can be met is as much a business discussion as a technical one.
+Reliability engineering has a name for the missing capability: graceful degradation. AWS's Well-Architected guidance, in [REL05-BP01](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_mitigate_interaction_failure_graceful_degradation.html), recommends that components keep performing their core function when dependencies become unavailable, perhaps with stale, alternate or no data, so that localised failures only minimally impede overall function. It lists anti-patterns including not identifying the core business functionality needed and not testing that components still work during dependency failures. It also stresses that deciding what should happen when not every requirement can be met is as much a business discussion as a technical one. NIST's [contingency planning guide](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final) takes the business-side view, helping organisations assess their systems and operations to determine contingency planning requirements and priorities.
 
 Google's Site Reliability Engineering book, in its chapter on [addressing cascading failures](https://sre.google/sre-book/addressing-cascading-failures/), describes how a failure in one part of a system can increase the probability of failure elsewhere, spreading through feedback. Its remedies include shedding load, serving degraded results and limiting retries. These are written for large online services, but the principle carries directly to a small business: a failure should be contained where it starts, not allowed to propagate through every process connected to it.
 

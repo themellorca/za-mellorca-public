@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-459
 slug: agent-permissions-broader-than-task-requires
 title: Agent permissions are broader than the task requires
-description: Explains how overly broad permissions in automated agents create risk and friction, and outlines practical steps to enforce least-privilege access across automation layers.
+description: Overly broad permissions on bots and AI agents create risk and friction. How to apply least-privilege access across your automation.
 lead: Explains how overly broad permissions in automated agents create risk and friction, and outlines practical steps to enforce least-privilege access across automation layers.
 category: AI, Automation & Agent Operations
 published_date: 2026-10-01
@@ -18,7 +18,7 @@ sources:
   - Identity and access management | https://www.nist.gov/topics/identity-access-management
   - CIS Controls | https://www.cisecurity.org/controls/
 related:
-  - Why AI Agents Can Answer Questions but Cannot Complete Work Across Business Systems | /discovery/why-ai-agents-cannot-complete-work-across-business-systems/
+  - Why AI agents can answer questions but cannot complete work across business systems | /discovery/why-ai-agents-cannot-complete-work-across-business-systems/
   - The same workflow is automated independently by multiple teams | /discovery/the-same-workflow-is-automated-independently-by-multiple-teams/
   - Automation incident response is improvised | /discovery/automation-incident-response-improvised/
 summary: Explains how overly broad permissions in automated agents create risk and friction, and outlines practical steps to enforce least-privilege access across automation layers.
@@ -30,9 +30,9 @@ In modern automation, digital agents—workflow bots, integration service accoun
 
 This is not merely a theoretical concern. When automation relies on wide privileges, the cost of misbehaviour or abuse scales with the number and variety of workflows that use those privileges. An agent that only needed to read invoices but can also approve payments turns a minor error into a financial one.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer is typically trying to achieve predictable, low-friction automation that delivers value without creating new risk. The search language often centres on balancing speed and safety: “least privilege for service accounts”, “AI agent permissions”, “how to scope automation access” or “bot has admin rights”. The underlying question is how to automate more without opening paths to unintended actions or data exfiltration.
+Most people in this position are trying to achieve predictable, low-friction automation that delivers value without creating new risk. The concern often centres on balancing speed and safety, and sounds like “how do we apply least privilege to service accounts?”, “what should an AI agent be allowed to do?”, “how do we scope automation access?” or “this bot has admin rights”. The underlying question is how to automate more without opening paths to unintended actions or data exfiltration.
 
 The tension is real because many platforms have historically made it easy to grant broad rights so that tasks run without friction, and much harder to constrain those rights once environments become complex.
 

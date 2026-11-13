@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000089
 slug: the-service-agent-who-apologises-for-a-system-they-cannot-fix
-title: The Customer Service Agent Apologising for a Broken System
+title: The customer service agent apologising for a broken system
 description: Front-line staff often absorb customer anger for faults they cannot fix. Why it happens, what it costs, and how to move the fix upstream.
 lead: Front-line staff often absorb customer anger for faults they cannot fix. Why it happens, what it costs, and how to move the fix upstream.
 category: Work and Dignity
@@ -20,9 +20,10 @@ sources:
   - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
   - Google SRE - Blameless Postmortem for System Resilience | https://sre.google/sre-book/postmortem-culture/
 related:
-  - When Your Best Work Is Invisible Because It's Repair Work | /moments/when-your-best-work-is-invisible-because-its-repair-work/
-  - The Manager Who Can't Act Without the Founder | /moments/the-manager-who-cant-act-without-the-founder/
-  - The Owner Who Can Finally Say No to Work | /moments/the-owner-who-can-finally-say-no-to-work/
+  - When your best work is invisible because it's repair work | /moments/when-your-best-work-is-invisible-because-its-repair-work/
+  - The manager who can't act without the founder | /moments/the-manager-who-cant-act-without-the-founder/
+  - The owner who can finally say no to work | /moments/the-owner-who-can-finally-say-no-to-work/
+  - When "The system won't let me" becomes the answer | /moments/when-the-system-wont-let-me-becomes-the-answer/
 summary: Front-line staff often absorb customer anger for faults they cannot fix. Why it happens, what it costs, and how to move the fix upstream.
 layout: plain
 ---
@@ -38,11 +39,11 @@ Mellorca's pattern on [customers who know their order is late before the team do
 
 ## What the research says about effort and loyalty
 
-A well-known Harvard Business Review article, "Stop Trying to Delight Your Customers", argues that customer loyalty is driven more by how little effort it takes to get a problem solved than by how impressive the service feels. Its practical lesson is that companies should reduce the work customers must do, such as repeating details, being transferred, or chasing for updates. That is mainly a lesson about systems and processes, not about friendliness. An agent can be warm and still unable to help if the system gives them nothing to work with.
+A well-known Harvard Business Review article, "[Stop Trying to Delight Your Customers](https://hbr.org/2010/07/stop-trying-to-delight-your-customers)", argues that customer loyalty is driven more by how little effort it takes to get a problem solved than by how impressive the service feels. Its practical lesson is that companies should reduce the work customers must do, such as repeating details, being transferred, or chasing for updates. That is mainly a lesson about systems and processes, not about friendliness. An agent can be warm and still unable to help if the system gives them nothing to work with.
 
 The same point works from the employee's side. Gallup's burnout research identifies unmanageable workload, unclear expectations, lack of manager support and unfair treatment as leading causes of exhaustion. A role that consists of taking responsibility for decisions made elsewhere, without any power to change them, is a textbook case of unclear expectations paired with unfairness. The person is accountable for an outcome they cannot influence.
 
-The World Health Organization's guidance on mental health at work adds that excessive workloads, unclear job roles and lack of control over job design are risk factors for poor mental health. A front-line job with a rotating queue of upset customers, and no ability to fix the cause, combines several of these at once.
+The World Health Organization's guidance on [mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) adds that excessive workloads, unclear job roles and lack of control over job design are risk factors for poor mental health. A front-line job with a rotating queue of upset customers, and no ability to fix the cause, combines several of these at once.
 
 ## An illustrative case
 

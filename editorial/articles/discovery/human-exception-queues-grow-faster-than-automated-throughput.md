@@ -3,8 +3,8 @@ hub: discovery
 record_id: DISC-454
 slug: human-exception-queues-grow-faster-than-automated-throughput
 title: Human exception queues grow faster than automated throughput
-description: Discovery of escalating human-driven exceptions that outpace automated processing, signaling gaps in automation breadth and governance.
-lead: Discovery of escalating human-driven exceptions that outpace automated processing, signaling gaps in automation breadth and governance.
+description: Automation handles more work each month, yet the queue of exceptions left for people grows faster. What that signals and how to bring it back under control.
+lead: Automation handles more work each month, yet the queue of exceptions left for people grows faster. What that signals and how to bring it back under control.
 category: AI, Automation & Agent Operations
 published_date: 2026-09-08
 updated_date: 2026-09-08
@@ -15,11 +15,12 @@ budget_owner: Operations Budget Owner
 sources:
   - Google SRE - What is Toil in SRE: Understanding Its Impact | https://sre.google/sre-book/eliminating-toil/
   - Using Amazon Augmented AI for Human Review - Amazon SageMaker AI | https://docs.aws.amazon.com/sagemaker/latest/dg/a2i-use-augmented-ai-a2i-human-review-loops.html
+  - Employ robust error handling - Power Automate | https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling
 related:
   - Agent conversations are not connected to durable business records | /discovery/agent-conversations-not-connected-to-durable-business-records/
   - Automation incident response is improvised | /discovery/automation-incident-response-improvised/
   - Automation candidates are chosen by novelty instead of business value | /discovery/automation-candidates-are-chosen-by-novelty-instead-of-business-value/
-summary: Discovery of escalating human-driven exceptions that outpace automated processing, signaling gaps in automation breadth and governance.
+summary: Automation handles more work each month, yet the queue of exceptions left for people grows faster. What that signals and how to bring it back under control.
 layout: plain
 ---
 ## The problem in plain language
@@ -28,9 +29,9 @@ As automation programmes mature, the rate of human exception handling can outstr
 
 Teams often notice the symptom before they understand it: the automation dashboard looks healthy while the exception inbox keeps getting longer.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer wants to rebalance the workload, reduce queue growth and extend automation coverage to more of the end-to-end process, without sacrificing governance or risk controls. Search language includes “automation exceptions backlog”, “too many manual exceptions after RPA”, “human in the loop queue management”, “exception handling automation” and “why automation did not reduce headcount effort”.
+The buyer wants to rebalance the workload, reduce queue growth and extend automation coverage to more of the end-to-end process, without sacrificing governance or risk controls. The concerns sound like “we have an automation exceptions backlog”, “there are too many manual exceptions after RPA”, “how do we manage the human-in-the-loop queue?”, “how do we automate exception handling?” and “why did automation not reduce headcount effort?”
 
 The underlying question is whether the organisation is automating the work or simply moving the difficult part of the work into a different queue.
 
@@ -38,9 +39,11 @@ The underlying question is whether the organisation is automating the work or si
 
 Initial automation often targets a subset of process paths. As volume grows and edge cases accumulate, human intervention increases. The arithmetic is straightforward: if a stable share of items fall out of the automated path, exception arrivals rise in step with volume. If the people handling exceptions do not scale, or the exceptions are harder per item than the work they replaced, the queue grows.
 
-Google's Site Reliability Engineering guidance gives a useful lens. It defines toil as work that is manual, repetitive, automatable, tactical and without enduring value, and notes that if the work involved in a task scales up linearly with service size, traffic volume or user count, that task is probably toil. Exception handling that grows with every additional transaction fits that description. The same guidance describes Google's practice of keeping operational work below half of an engineer's time, so that the remainder can go into engineering that reduces future toil. The specific target is Google's own; the principle that recurring manual work must be deliberately engineered down applies more widely.
+Google's Site Reliability Engineering guidance gives a useful lens. It defines toil as work that is manual, repetitive, automatable, tactical and without enduring value, and notes that if the work involved in a task scales up linearly with service size, traffic volume or user count, that task is probably toil. Exception handling that grows with every additional transaction fits that description.
 
-Human review can be designed rather than left to accumulate. Amazon's documentation for Augmented AI describes human review workflows that are triggered when a model cannot make a high-confidence prediction, or for random samples used to audit results, with reviews handled by defined work teams. AWS notes that the service is no longer open to new customers, so it is cited here for the mechanism rather than as a recommendation: routing to people follows explicit conditions, the review work is structured, and results can be fed back to improve the automated path.
+The same guidance describes Google's practice of keeping operational work below half of an engineer's time, so that the remainder can go into engineering that reduces future toil. The specific target is Google's own; the principle that recurring manual work must be deliberately engineered down applies more widely. Microsoft's guidance on [robust error handling in Power Automate](https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling) similarly says to use Run after settings to decide what happens when an action fails, times out or is skipped, so that failures are routed deliberately.
+
+Human review can be designed rather than left to accumulate. Amazon's documentation for [Augmented AI](https://docs.aws.amazon.com/sagemaker/latest/dg/a2i-use-augmented-ai-a2i-human-review-loops.html) describes human review workflows that are triggered when a model cannot make a high-confidence prediction, or for random samples used to audit results, with reviews handled by defined work teams. AWS notes that the service is no longer open to new customers, so it is cited here for the mechanism rather than as a recommendation: routing to people follows explicit conditions, the review work is structured, and results can be fed back to improve the automated path.
 
 The mechanism behind growing queues therefore includes narrow coverage, insufficient routing and a lack of end-to-end orchestration between automated and human tasks.
 

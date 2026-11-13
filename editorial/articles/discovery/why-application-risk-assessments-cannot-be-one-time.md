@@ -2,8 +2,8 @@
 hub: discovery
 record_id: DISC-338
 slug: why-application-risk-assessments-cannot-be-one-time
-title: Why Application Risk Assessments Cannot Be One-Time Reviews
-description: Applications change after purchase: integrations, data, users, vendors and threats evolve. Risk review must therefore continue through the application lifecycle.
+title: Why application risk assessments cannot be one-time reviews
+description: Applications change after purchase as integrations, data, users, vendors and threats evolve. Why risk review must continue through the whole lifecycle.
 lead: A software risk assessment performed at purchase can become stale as the application adds data, integrations, users, privileges and business-critical workflows.
 category: SaaS & Application Portfolio Management
 published_date: 2026-09-03
@@ -27,9 +27,9 @@ sources:
 closing_title: Method note
 closing_text: Review frequency should reflect the organisation's risk tolerance, material changes and regulatory context. This article does not prescribe a universal review interval.
 related:
-  - Why Businesses Cannot Produce a Complete List of the Applications They Use | /discovery/why-businesses-cannot-list-all-applications-they-use/
-  - Why Legacy Applications Remain Live Without an Owner | /discovery/why-legacy-applications-remain-live-without-an-owner/
-  - Why Free Trials Become Production Dependencies | /discovery/why-free-trials-become-production-dependencies/
+  - Why businesses cannot produce a complete list of the applications they use | /discovery/why-businesses-cannot-list-all-applications-they-use/
+  - Why legacy applications remain live without an owner | /discovery/why-legacy-applications-remain-live-without-an-owner/
+  - Why free trials become production dependencies | /discovery/why-free-trials-become-production-dependencies/
 ---
 ## The problem in plain language
 
@@ -37,17 +37,17 @@ A SaaS product passes security and architecture review when first purchased. Two
 
 Nobody has done anything obviously wrong. The purchase was reviewed, the questionnaire was answered and the contract was signed. The difficulty is that the review described the application as it was on the day it was bought, while the business has gone on using it in new ways ever since.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches such as “continuous application risk assessment”, “SaaS risk review frequency”, “ongoing third party risk monitoring” and “reassess software security risk” reflect a lifecycle-governance problem rather than a procurement checklist problem.
+Questions such as “how do we assess application risk continuously?”, “how often should SaaS risk be reviewed?”, “how do we monitor third-party risk?” and “how do we reassess software security risk?” reflect a lifecycle-governance problem rather than a procurement checklist problem.
 
-Behind those searches is usually a practical question from the CIO office, an auditor or a risk committee: *is the risk decision we are relying on still true?* If the honest answer is “we would have to go and find out”, the organisation does not have a current view of application risk. It has an archive of past approvals.
+Behind those questions is usually a practical question from the CIO office, an auditor or a risk committee: *is the risk decision we are relying on still true?* If the honest answer is “we would have to go and find out”, the organisation does not have a current view of application risk. It has an archive of past approvals.
 
 ## Evidence and system mechanism
 
-NIST SP 800-137 describes continuous monitoring as ongoing awareness of assets, threats, vulnerabilities and control effectiveness so risk decisions can respond to change. Its stated purpose is to provide ongoing assurance that implemented controls stay aligned with the organisation's risk tolerance, and to supply the information needed to respond in time when they do not.
+NIST SP 800-137 describes [continuous monitoring](https://www.nist.gov/publications/information-security-continuous-monitoring-iscm-federal-information-systems-and) as ongoing awareness of assets, threats, vulnerabilities and control effectiveness so risk decisions can respond to change. Its stated purpose is to provide ongoing assurance that implemented controls stay aligned with the organisation's risk tolerance, and to supply the information needed to respond in time when they do not.
 
-NIST Cybersecurity Framework 2.0 makes the same point in lifecycle language. It includes maintaining inventories of software, services and supplier-provided services as part of risk management, and managing systems, software, services and data throughout their life cycles. Its supply-chain outcomes go further: the risks posed by a supplier and its products are to be understood, recorded, prioritised, assessed, responded to and monitored *over the course of the relationship*, and changes and exceptions are to be assessed for risk impact, recorded and tracked.
+NIST [Cybersecurity Framework](https://csrc.nist.gov/Projects/cybersecurity-framework/Filters) 2.0 makes the same point in lifecycle language. It includes maintaining inventories of software, services and supplier-provided services as part of risk management, and managing systems, software, services and data throughout their life cycles. Its supply-chain outcomes go further: the risks posed by a supplier and its products are to be understood, recorded, prioritised, assessed, responded to and monitored *over the course of the relationship*, and changes and exceptions are to be assessed for risk impact, recorded and tracked.
 
 The practical mechanism is change: application risk changes when data, integrations, access, ownership, business criticality, vendor conditions or threat information changes. A one-time review captures none of those movements.
 

@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-322
 slug: cloud-resource-quotas-discovered-when-deployments-fail
 title: Why cloud resource quotas are only discovered when a deployment fails
-description: Cloud and cluster quotas stay invisible until a release or scaling event hits them. How quotas work, what surprise limits cost, and how to monitor and raise them before they cause failures.
+description: Cloud quotas stay invisible until a release or scaling event hits them. How to monitor and raise limits before a deployment fails.
 lead: Cloud and cluster quotas stay invisible until a release or scaling event hits them. How quotas work, what surprise limits cost, and how to monitor and raise them before they cause failures.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-07
@@ -40,9 +40,9 @@ Signs that quotas are being managed by surprise include:
 - the recovery region has default quotas far below what production needs;
 - no one can say how close each account is to its limits.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for the exact error text, then for "how to monitor cloud quotas", "quota exceeded deployment failed" or "request quota increase before go-live". The real need is to stop limits from surprising them: to know which quotas matter, how close they are, and to raise them in advance as part of normal planning.
+The first reaction is usually to look up the exact error text, then to ask "how do we monitor cloud quotas?", "why did the deployment fail with quota exceeded?" or "how do we request a quota increase before go-live?" The real need is to stop limits from surprising them: to know which quotas matter, how close they are, and to raise them in advance as part of normal planning.
 
 ## Evidence and system mechanism
 

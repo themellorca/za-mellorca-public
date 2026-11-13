@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-108
 slug: the-real-price-of-capturing-a-prospect-in-two-places
-title: The Cost of Entering the Same Prospect Information Twice
-description: A prospect's details are typed into one tool at first contact and again into another when the deal closes. The cost is more than minutes: it is errors, delay and lost momentum.
+title: The cost of entering the same prospect information twice
+description: Typing a prospect's details into one tool, then again when the deal closes, costs more than minutes. It brings errors, delay and lost momentum.
 lead: A prospect's details are typed into one tool at first contact and again into another when the deal closes. The cost is more than minutes: it is errors, delay and lost momentum.
 category: Sales, Lead & Client Operations
 published_date: 2026-10-10
@@ -18,9 +18,10 @@ sources:
   - What Is Data Quality? - IBM | https://www.ibm.com/think/topics/data-quality
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
 related:
-  - The Hidden Cost of Re-Keying Order Information | /patterns/the-hidden-cost-of-re-keying-order-information/
-  - The Hidden Cost of Asking Customers for the Same Information Twice | /patterns/the-hidden-cost-of-asking-customers-for-the-same-information-twice/
-  - Why New Clients Wait While Internal Teams Coordinate | /patterns/why-new-clients-wait-while-internal-teams-coordinate/
+  - The hidden cost of re-keying order information | /patterns/the-hidden-cost-of-re-keying-order-information/
+  - The hidden cost of asking customers for the same information twice | /patterns/the-hidden-cost-of-asking-customers-for-the-same-information-twice/
+  - Why new clients wait while internal teams coordinate | /patterns/why-new-clients-wait-while-internal-teams-coordinate/
+  - How to reduce re-entry of the same information across systems | /insights/how-to-stop-the-same-information-being-typed-into-several-systems/
 summary: A prospect's details are typed into one tool at first contact and again into another when the deal closes. The cost is more than minutes: it is errors, delay and lost momentum.
 layout: plain
 ---
@@ -48,7 +49,7 @@ The general case is covered in [the hidden cost of re-entering the same informat
 
 ## Diagnosis
 
-- **Two systems, two purposes, no bridge.** The CRM is built for pursuing deals; the accounting or operations tool is built for serving and billing customers. Without a connection, the details travel by hand.
+- **Two systems, two purposes, no bridge.** The [CRM](https://www.ibm.com/think/topics/crm), which IBM describes as a group of connected technologies for recording, tracking and managing relationships with current and prospective customers, is built for pursuing deals; the accounting or operations tool is built for serving and billing customers. Without a connection, the details travel by hand.
 - **Lead capture is deliberately light.** Sales tools favour speed and ask for few fields. Operations needs many more. The gap is filled at conversion by whoever has time.
 - **Required fields are not collected early.** Nobody asks for the company registration or tax number during the sales conversation, because it feels premature. It is then chased after the customer has said yes.
 - **Prospects exist in unofficial places.** Business cards, spreadsheets, a shared mailbox and WhatsApp threads hold the first capture, and the CRM entry is a retyped version of that.
@@ -61,7 +62,7 @@ The commercial value at stake is speed to revenue, data accuracy, administrative
 
 The most obvious cost is delay. If a new customer cannot be set up until a form is completed and verified, the first order, project start or invoice waits. The Pattern [the cost of delayed handoffs after a deal is won](/patterns/the-cost-of-delayed-handoffs-after-a-deal-is-won/) describes the revenue timing effect, which is often measured in days, not minutes.
 
-The second cost is error. Retyped details drift. A transposed digit in a bank account number or a misspelt company name leads to a rejected payment, a returned invoice or a contract in the wrong entity's name. Correcting these costs more than the original typing. Where personal information is involved, the POPIA principle of information quality in section 16 expects a responsible party to take reasonably practicable steps to ensure that personal information is complete, accurate and not misleading, and parallel copies make that harder to demonstrate.
+The second cost is error. Retyped details drift. A transposed digit in a bank account number or a misspelt company name leads to a rejected payment, a returned invoice or a contract in the wrong entity's name. Correcting these costs more than the original typing. [IBM's overview of data quality](https://www.ibm.com/think/topics/data-quality) lists accuracy, consistency and uniqueness among the dimensions on which data should be judged. Where personal information is involved, the POPIA principle of [information quality in section 16](https://popia.co.za/section-16-quality-of-information/) expects a responsible party to take reasonably practicable steps to ensure that personal information is complete, accurate and not misleading, and parallel copies make that harder to demonstrate.
 
 The third cost is experience. The customer who has just signed is asked again for their address, their contact person and their purchase order process. It signals that the business's left hand does not know what the right hand has been told, and it happens at precisely the point when the relationship is most receptive.
 

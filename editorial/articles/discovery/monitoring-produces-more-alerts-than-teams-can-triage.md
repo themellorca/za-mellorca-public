@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-317
 slug: monitoring-produces-more-alerts-than-teams-can-triage
 title: When monitoring produces more alerts than your team can triage
-description: Cloud monitoring can generate hundreds of alerts a week, most needing no action. How alert noise hides real incidents, drives up cost, and how to cut it back to signals people act on.
+description: Cloud monitoring can raise hundreds of alerts a week, most needing no action. How noise hides real incidents and how to cut back to signals people act on.
 lead: Cloud monitoring can generate hundreds of alerts a week, most needing no action. How alert noise hides real incidents, drives up cost, and how to cut it back to signals people act on.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-07
@@ -41,9 +41,9 @@ Typical signs include:
 
 This article is about volume and signal quality. Who should receive each alert is a related but separate question, covered in our piece on [why integration failures should not route to personal inboxes](/discovery/why-integration-failures-should-not-route-to-personal-inboxes/).
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for phrases such as "too many monitoring alerts", "alert fatigue in operations", "how to reduce alert noise" or "why are our monitoring costs going up". Behind the search is usually a specific moment: an outage that was alerted but missed, a monthly observability bill that has jumped, or an engineer who has resigned partly because of out-of-hours interruptions.
+The complaint usually sounds like "there are too many monitoring alerts", "our operations team has alert fatigue", "how do we reduce the noise?" or "why are our monitoring costs going up?" Behind it is usually a specific moment: an outage that was alerted but missed, a monthly observability bill that has jumped, or an engineer who has resigned partly because of out-of-hours interruptions.
 
 What they need is a smaller number of alerts that each mean something, with the rest turned into dashboards, tickets or nothing at all.
 

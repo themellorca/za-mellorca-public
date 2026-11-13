@@ -2,9 +2,9 @@
 hub: impact
 record_id: CPS-326
 slug: pain-of-customers-repeating-information-disconnected-records
-title: When Customers Have to Repeat Themselves Every Time
-description: Explores how fragmented customer data forces repeated information requests, triggering service frictions and hidden costs as disconnected records degrade the customer experience.
-lead: Explores how fragmented customer data forces repeated information requests, triggering service frictions and hidden costs as disconnected records degrade the customer experience.
+title: When customers have to repeat themselves every time
+description: When customer records are scattered across systems, customers have to repeat themselves every time. The service friction and hidden cost it creates.
+lead: When customer records are scattered across systems, customers have to repeat themselves every time. The service friction and hidden cost it creates.
 category: Customer Experience and CRM
 published_date: 2026-10-02
 updated_date: 2026-10-02
@@ -17,10 +17,10 @@ sources:
   - What Is Data Quality? - IBM | https://www.ibm.com/think/topics/data-quality
   - What to do after someone dies | https://www.gov.uk/after-a-death/organisations-you-need-to-contact-and-tell-us-once
 related:
-  - Customer Requests Lost in Shared Inboxes: The Cost of Missed Service Work | /impact/customer-requests-lost-shared-inbox-missed-service-work/
-  - Predictable Appointments Still Carry a Cost When Staff Arrange Every Slot | /impact/manual-appointment-scheduling-administration-cost/
-  - When Customer Details Differ Between Applications | /impact/pain-customer-details-different-applications-cost-mistakes/
-summary: Explores how fragmented customer data forces repeated information requests, triggering service frictions and hidden costs as disconnected records degrade the customer experience.
+  - Customer requests lost in shared inboxes: The cost of missed service work | /impact/customer-requests-lost-shared-inbox-missed-service-work/
+  - Predictable appointments still carry a cost when staff arrange every slot | /impact/manual-appointment-scheduling-administration-cost/
+  - When customer details differ between applications | /impact/pain-customer-details-different-applications-cost-mistakes/
+summary: When customer records are scattered across systems, customers have to repeat themselves every time. The service friction and hidden cost it creates.
 layout: plain
 ---
 The pain of customers having to repeat the same information every time they contact your business is more than a mild annoyance. It is a symptom of fragmented data environments that fail to present a single, trusted view of the customer. When separate systems for sales, service, marketing and billing hold conflicting or incomplete facts, staff are forced to ask for the same details again and again.
@@ -31,7 +31,9 @@ This friction compounds across channels. A phone call demands one set of details
 
 Operational teams feel the impact in real time. A support agent must pause to reconcile data, pass the customer to another function, or re-collect identity details and preferences that should already be on file. The same experience plays out in sales, where misaligned information leads to duplicated outreach, inconsistent quotes and lost momentum. When the same data is stored in silos rather than in a unified customer view, every interaction multiplies the chance of error and delays the response.
 
-Consider a mid-sized insurance broker with a policy administration system, a separate CRM used by the sales team, an accounting package for premium collection and a shared inbox for claims. A client phones to report a change of address. The call-centre agent updates the CRM. Two weeks later the client logs a claim by email; the claims handler, working from the policy system, asks for the address again because it is still the old one there. A month after that, a premium reminder goes to the old address because the accounting package was never updated. From the client's side, they told the business once and it did not listen. From the inside, three people each did their job correctly in their own system.
+Consider a mid-sized insurance broker with a policy administration system, a separate CRM used by the sales team, an accounting package for premium collection and a shared inbox for claims. A client phones to report a change of address. The call-centre agent updates the CRM. Two weeks later the client logs a claim by email; the claims handler, working from the policy system, asks for the address again because it is still the old one there.
+
+A month after that, a premium reminder goes to the old address because the accounting package was never updated. From the client's side, they told the business once and it did not listen. From the inside, three people each did their job correctly in their own system.
 
 A second example: a regional equipment-hire company where customers book by phone, by WhatsApp and through a web form. Each channel feeds a different place. The depot staff have the delivery details, the office has the account and credit terms, and the driver has a printed job sheet. When a customer calls to extend a hire, nobody can see the whole picture, so the customer is asked for the site address, the order number and the account name again, sometimes by two different people in the same call.
 

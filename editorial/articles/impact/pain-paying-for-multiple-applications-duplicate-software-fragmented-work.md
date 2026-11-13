@@ -2,25 +2,25 @@
 hub: impact
 record_id: CPS-053
 slug: pain-paying-for-multiple-applications-duplicate-software-fragmented-work
-title: Paying for Several Applications That Do the Same Job
-description: An editorial examination of the hidden costs when organizations maintain overlapping software tools across teams, leading to data fragmentation, inconsistent experiences and unnecessary license spend.
-lead: An editorial examination of the hidden costs when organizations maintain overlapping software tools across teams, leading to data fragmentation, inconsistent experiences and unnecessary license spend.
+title: Paying for several applications that do the same job
+description: When teams pay for several tools that do the same job, the business pays twice: once in licences, and again in scattered data and inconsistent work.
+lead: When teams pay for several tools that do the same job, the business pays twice: once in licences, and again in scattered data and inconsistent work.
 category: Enterprise IT & Digital Operations
 published_date: 2026-10-02
 updated_date: 2026-10-02
 eyebrow: Digital Operations
 commercial_domain: Enterprise IT & Digital Operations
 primary_pain: Duplication of apps across departments creating data fragmentation, inconsistent user experiences and higher operational costs.
-primary_cost_mechanism: License proliferation and maintenance costs; labor costs due to context switching and duplicated workflows; security and governance risks.
+primary_cost_mechanism: License proliferation and maintenance costs; labour costs due to context switching and duplicated workflows; security and governance risks.
 sources:
   - Shadow IT guidance | https://www.ncsc.gov.uk/guidance/shadow-it
   - Architecture strategies for consolidation - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/consolidation
   - Share, reuse and collaborate | https://www.gov.uk/guidance/share-and-reuse-technology
 related:
-  - Paying for Software Licences Nobody Uses | /impact/unused-software-licences-financial-waste/
-  - AI Tool Sprawl: Paying for Overlapping AI Subscriptions Without Measuring Value | /impact/ai-subscription-sprawl-unmeasured-value-cost/
-  - Which Version Is Final? The Cost of Teams Working From Different Copies | /impact/conflicting-document-versions-rework-decision-cost/
-summary: An editorial examination of the hidden costs when organizations maintain overlapping software tools across teams, leading to data fragmentation, inconsistent experiences and unnecessary license spend.
+  - Paying for software licences nobody uses | /impact/unused-software-licences-financial-waste/
+  - AI tool sprawl: Paying for overlapping AI subscriptions without measuring value | /impact/ai-subscription-sprawl-unmeasured-value-cost/
+  - Which version is final? The cost of teams working from different copies | /impact/conflicting-document-versions-rework-decision-cost/
+summary: When teams pay for several tools that do the same job, the business pays twice: once in licences, and again in scattered data and inconsistent work.
 layout: plain
 ---
 The reality of modern business is that teams often acquire and maintain software tools to solve near-term needs. Over time, however, this leads to tool sprawl: multiple applications performing the same job across departments, each with its own data silo, its own login, and its own maintenance cycle. The pain is not only in the price tag on licences, but in the operational drag that comes from context switching, reconciliation across systems, and inconsistent customer experiences.
@@ -38,13 +38,15 @@ Some warning signs are easy to miss because they look like normal work. A manage
 
 ### A worked example
 
-Consider a professional services firm of around 60 people in Johannesburg. Over five years it has accumulated two file-sharing services, a project-management tool used by one division and a different one used by another, a CRM that sales uses and a contact list inside the billing system that the accounts team trusts more, and three separate e-signature subscriptions bought by different partners. None of these is expensive on its own. The real cost shows up elsewhere: project managers re-typing client details into the billing system, partners chasing which version of a proposal was signed, and IT spending time on access reviews, password resets and offboarding across tools that duplicate each other. When a staff member leaves, someone has to remember every system they had access to, and one forgotten account becomes a security exposure.
+Consider a professional services firm of around 60 people in Johannesburg. Over five years it has accumulated two file-sharing services, a project-management tool used by one division and a different one used by another, a CRM that sales uses and a contact list inside the billing system that the accounts team trusts more, and three separate e-signature subscriptions bought by different partners. None of these is expensive on its own.
+
+The real cost shows up elsewhere: project managers re-typing client details into the billing system, partners chasing which version of a proposal was signed, and IT spending time on access reviews, password resets and offboarding across tools that duplicate each other. When a staff member leaves, someone has to remember every system they had access to, and one forgotten account becomes a security exposure.
 
 ## Economic Mechanisms
 
 The financial impact of duplicative applications is multi-faceted. Licence proliferation inflates annual software spend; duplicate integrations and data pipelines increase maintenance costs; and the time staff waste switching between tools erodes productivity. In security terms, more tools mean more points of vulnerability and governance complexity, which translates into higher risk and potential remediation costs.
 
-The UK National Cyber Security Centre describes shadow IT as unknown assets used for business purposes outside official asset management, and notes that it usually grows from legitimate needs, such as sanctioned tools lacking a required function or approval processes being too slow. That framing matters. Duplication is rarely carelessness; it is a signal that the official toolset or buying process is not meeting people's needs. Cutting tools without addressing the need simply moves the workaround somewhere else.
+The UK [National Cyber Security Centre describes shadow IT](https://www.ncsc.gov.uk/guidance/shadow-it) as unknown assets used for business purposes outside official asset management, and notes that it usually grows from legitimate needs, such as sanctioned tools lacking a required function or approval processes being too slow. That framing matters. Duplication is rarely carelessness; it is a signal that the official toolset or buying process is not meeting people's needs. Cutting tools without addressing the need simply moves the workaround somewhere else.
 
 It also helps to separate the visible and hidden costs:
 
@@ -78,7 +80,9 @@ The third question is the most useful. A tool that nobody would miss is a straig
 - Establish data governance to create a single source of truth for key entities and processes.
 - Invest in user training and a change-management approach to reduce resistance to consolidation.
 
-Microsoft's Well-Architected guidance on consolidation makes a point that applies well beyond cloud infrastructure: the primary objective of consolidation is optimisation, not reduction. It recommends assessing what exists, evaluating whether the benefit of each consolidation justifies the effort, then communicating and implementing the change. It also warns that consolidation has trade-offs. Over-consolidation can limit the flexibility of individual teams by forcing them onto central standards that do not suit their work. In practice, that means some deliberate duplication may be justified, for example where a specialist team needs a capability the main platform genuinely lacks. The test is whether the duplication is chosen and documented, not accidental.
+[Microsoft's Well-Architected guidance on consolidation](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/consolidation) makes a point that applies well beyond cloud infrastructure: the primary objective of consolidation is optimisation, not reduction. It recommends assessing what exists, evaluating whether the benefit of each consolidation justifies the effort, then communicating and implementing the change. It also warns that consolidation has trade-offs. Over-consolidation can limit the flexibility of individual teams by forcing them onto central standards that do not suit their work.
+
+In practice, that means some deliberate duplication may be justified, for example where a specialist team needs a capability the main platform genuinely lacks. The test is whether the duplication is chosen and documented, not accidental. The UK government's [guidance on sharing and reusing technology](https://www.gov.uk/guidance/share-and-reuse-technology) takes a similar view, encouraging organisations to reuse what already exists rather than pay to duplicate it.
 
 Software asset management does not need to be heavy for a small or mid-sized business. A maintained register of every subscription, with an owner, a renewal date, a cost, the data it holds and the process it supports, covers most of the value. The NCSC likewise recommends keeping asset registers current as part of managing shadow IT. Tie the register to the renewal calendar so that every renewal triggers a short review rather than an automatic payment; Mellorca's note on [why software renewals need a confirmed business owner](/discovery/why-software-renewals-need-a-confirmed-business-owner/) explains why this single control prevents much of the drift.
 

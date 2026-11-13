@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-072
 slug: why-two-correct-management-reports-still-contradict-each-other
-title: The Pattern Behind Conflicting Management Reports
-description: When two competent people produce different totals from the same business, the cause is usually how the reports are built, not who made a mistake. Learn how to trace and remove the divergence.
+title: The pattern behind conflicting management reports
+description: When two competent people produce different totals from the same business, the cause is usually how reports are built, not a mistake. Trace the divergence.
 lead: When two competent people produce different totals from the same business, the cause is usually how the reports are built, not who made a mistake. Learn how to trace and remove the divergence.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-10
@@ -19,9 +19,10 @@ sources:
   - What is Master Data Management? - IBM | https://www.ibm.com/think/topics/master-data-management
   - What is Data Governance? - IBM | https://www.ibm.com/think/topics/data-governance
 related:
-  - When Your Metrics Arrive After the Decision Was Needed | /patterns/when-the-number-arrives-after-the-decision-is-made/
-  - Why Real-Time Operations Still Depend on Friday Reports | /patterns/why-live-data-still-gets-managed-from-a-weekly-report/
-  - When People Debate the Number Instead of the Decision | /patterns/when-meetings-argue-about-the-figure-and-never-reach-the-decision/
+  - When your metrics arrive after the decision was needed | /patterns/when-the-number-arrives-after-the-decision-is-made/
+  - Why real-time operations still depend on Friday reports | /patterns/why-live-data-still-gets-managed-from-a-weekly-report/
+  - When people debate the number instead of the decision | /patterns/when-meetings-argue-about-the-figure-and-never-reach-the-decision/
+  - The signs that your reporting model has become a bottleneck | /patterns/how-to-tell-when-your-reporting-set-up-has-outgrown-the-business/
 summary: When two competent people produce different totals from the same business, the cause is usually how the reports are built, not who made a mistake. Learn how to trace and remove the divergence.
 layout: plain
 ---
@@ -60,19 +61,21 @@ Look for these mechanisms. Most conflicts are a combination of two or three.
 
 The commercial value at stake is speed, risk, margin and productivity.
 
-Speed suffers because decisions are held while the figures are reconciled. Productivity suffers because skilled people spend hours tracing differences instead of analysing them, and the same investigation is repeated each period. Margin and risk are exposed when the number that wins the argument is the one that is presented most confidently rather than the one that is best supported. For a business that borrows against its receivables, reports to a funder or prepares for an audit, a figure that cannot be traced is a risk in its own right. The meeting-level cost is set out in [departments reporting different numbers for the same metric](/impact/departments-reporting-different-numbers-same-metric-meeting-decision-cost/), and the question of trust in [why your reports cannot agree on the same number](/insights/why-your-reports-cannot-agree-on-the-same-number/).
+Speed suffers because decisions are held while the figures are reconciled. Productivity suffers because skilled people spend hours tracing differences instead of analysing them, and the same investigation is repeated each period. Margin and risk are exposed when the number that wins the argument is the one that is presented most confidently rather than the one that is best supported.
+
+For a business that borrows against its receivables, reports to a funder or prepares for an audit, a figure that cannot be traced is a risk in its own right. The meeting-level cost is set out in [departments reporting different numbers for the same metric](/impact/departments-reporting-different-numbers-same-metric-meeting-decision-cost/), and the question of trust in [why your reports cannot agree on the same number](/insights/why-your-reports-cannot-agree-on-the-same-number/).
 
 ## Common misidentification
 
 The usual response is to appoint a referee: the finance manager's number becomes "the" number. That ends the argument but not the divergence. The other reports continue to be produced, and people continue to use them quietly because they match what the department sees on the ground.
 
-The second misidentification is to buy a reporting tool. A new tool connected to the same unreconciled sources, with the same filters rebuilt from scratch, will produce its own version of the figure. Microsoft's endorsement feature, which allows an organisation to certify content that meets its quality standards, is useful, but it presupposes that someone has first decided what deserves a certificate.
+The second misidentification is to buy a reporting tool. A new tool connected to the same unreconciled sources, with the same filters rebuilt from scratch, will produce its own version of the figure. [Microsoft's endorsement feature](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content), which allows an organisation to certify content that meets its quality standards, is useful, but it presupposes that someone has first decided what deserves a certificate.
 
 ## Possibility
 
-In a better arrangement, the figures that matter are produced once, from one governed set of records, and everyone else consumes them. Each headline number has a short written description of its scope, source and cut-off. Every report states when it was produced. Where a departmental view legitimately differs, for example sales by acceptance date versus revenue by invoice date, the difference is named and a reconciliation line shows how one becomes the other.
+In a better arrangement, the figures that matter are produced once, from one governed set of records, and everyone else consumes them. IBM's overviews of [master data management](https://www.ibm.com/think/topics/master-data-management) and [data governance](https://www.ibm.com/think/topics/data-governance) describe the same idea: a single trusted version of core data, managed under agreed rules for its quality, security and availability. Each headline number has a short written description of its scope, source and cut-off. Every report states when it was produced. Where a departmental view legitimately differs, for example sales by acceptance date versus revenue by invoice date, the difference is named and a reconciliation line shows how one becomes the other.
 
-Microsoft's description of managed self-service captures the principle neatly as discipline at the core and flexibility at the edge. A central team maintains the shared data, while departments build their own views on top of it. For the refrigeration company, that would allow the sales manager to keep a sales-by-acceptance view while seeing, in the same model, how it reconciles to invoiced revenue.
+[Microsoft's description of managed self-service](https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-content-ownership-and-management) captures the principle neatly as discipline at the core and flexibility at the edge. A central team maintains the shared data, while departments build their own views on top of it. For the refrigeration company, that would allow the sales manager to keep a sales-by-acceptance view while seeing, in the same model, how it reconciles to invoiced revenue.
 
 ## Intervention
 

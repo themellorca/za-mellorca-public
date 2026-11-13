@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-278
 slug: why-a-manual-process-gets-harder-to-run-every-time-volume-grows
-title: Why a Manual Process Gets Harder to Run Every Time Volume Grows
-description: When a manual process scales by adding people, checkers, trackers and training, its cost per transaction stops falling. Standardising the work, separating routine from exception and then automating the routine path restores operating leverage.
+title: Why a manual process gets harder to run every time volume grows
+description: When a manual process grows by adding people, checkers and training, cost per transaction stops falling. Standardise, then automate the routine path.
 lead: When a manual process scales by adding people, checkers, trackers and training, its cost per transaction stops falling. Standardising the work, separating routine from exception and then automating the routine path restores operating leverage.
 category: Growth, Scale & Headcount Efficiency
 published_date: 2026-10-07
@@ -18,9 +18,9 @@ sources:
   - What Is Business Process Automation? - IBM | https://www.ibm.com/think/topics/business-process-automation
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
 related:
-  - The Process That Gets Slower Every Time Volume Increases | /patterns/the-process-that-gets-slower-every-time-volume-increases/
-  - The Operational Tax Hidden Inside Everyday Admin | /patterns/the-operational-tax-hidden-inside-everyday-admin/
-  - When Every Department Optimizes Its Part but the Whole Process Gets Worse | /patterns/when-every-department-optimizes-its-part-but-the-whole-process-gets-worse/
+  - The process that gets slower every time volume increases | /patterns/the-process-that-gets-slower-every-time-volume-increases/
+  - The operational tax hidden inside everyday admin | /patterns/the-operational-tax-hidden-inside-everyday-admin/
+  - When every department optimizes its part but the whole process gets worse | /patterns/when-every-department-optimizes-its-part-but-the-whole-process-gets-worse/
 summary: When a manual process scales by adding people, checkers, trackers and training, its cost per transaction stops falling. Standardising the work, separating routine from exception and then automating the routine path restores operating leverage.
 layout: plain
 ---
@@ -46,7 +46,7 @@ This is a manual-process scaling problem: a process whose cost is driven by huma
 
 The visible symptom is more people needed for the same process. The common assumption is that more volume simply needs more hands. The structural causes are more specific:
 
-- **No standard way of doing the work.** When one person did the task, the method lived in their head. With several people, each develops their own variation, which makes checking necessary and quality uneven. The Lean Enterprise Institute's definition of [standardized work](https://www.lean.org/lexicon-terms/standardized-work/) describes establishing precise procedures and notes benefits including reduced variability, easier training and a baseline for improvement.
+- **No standard way of doing the work.** When one person did the task, the method lived in their head. With several people, each develops their own variation, which makes checking necessary and quality uneven. The Lean Enterprise Institute's definition of [standardised work](https://www.lean.org/lexicon-terms/standardized-work/) describes establishing precise procedures and notes benefits including reduced variability, easier training and a baseline for improvement.
 - **Controls added instead of design.** Each error that occurs at higher volume prompts a new check or sign-off, adding cost to every transaction rather than removing the cause.
 - **Training load on experienced staff.** Every new hire draws on the time of the people who know the process, reducing their own capacity during each growth step.
 - **Exceptions multiply.** More customers bring more special cases, and in a manual process each one is handled individually. The pattern is described in [when manual exceptions become the normal process](/patterns/when-manual-exceptions-become-the-normal-process/).

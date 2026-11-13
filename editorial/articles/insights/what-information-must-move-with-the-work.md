@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-304
 slug: what-information-must-move-with-the-work
-title: What Information Must Move With the Work?
-description: Across the life of a job, order or case, six kinds of information must stay attached to the work: identity, intent, commitments, decisions, open questions and evidence. Here is how to move references rather than copies, and what to leave behind.
+title: What information must move with the work?
+description: Six kinds of information must travel with the work: identity, intent, commitments, decisions, open questions and evidence. Move references not copies.
 lead: Across the life of a job, order or case, six kinds of information must stay attached to the work: identity, intent, commitments, decisions, open questions and evidence. Here is how to move references rather than copies, and what to leave behind.
 category: Digital Operations
 published_date: 2026-10-07
@@ -15,7 +15,7 @@ sources:
   - Section 10 Minimality - POPIA | https://popia.co.za/section-10-minimality/
 related:
   - How to design workflows that can survive staff changes | /insights/how-to-design-workflows-that-can-survive-staff-changes/
-  - What Should a CEO Understand About Digital Operations? | /insights/what-should-a-ceo-understand-about-digital-operations/
+  - What should a CEO understand about digital operations? | /insights/what-should-a-ceo-understand-about-digital-operations/
   - Why CRM adoption problems are often workflow problems | /insights/why-crm-adoption-problems-are-often-workflow-problems/
 summary: Across the life of a job, order or case, six kinds of information must stay attached to the work: identity, intent, commitments, decisions, open questions and evidence. Here is how to move references rather than copies, and what to leave behind.
 layout: plain
@@ -31,7 +31,7 @@ Most advice on this subject focuses on the moment of handoff. This article looks
 
 When information does not travel, three things happen. People interrupt each other to fill the gaps, which slows both the asker and the person asked. Customers are asked again for things they have already said. And some gaps are never noticed, so work is done on the wrong assumption: the wrong delivery address, the old price, the scope before the customer changed it. The last of these is the most expensive, because it surfaces as rework or a complaint.
 
-Handoffs are a well-studied risk in healthcare. The Agency for Healthcare Research and Quality's patient safety primer on handoffs notes that communication failures between providers have been found to be a leading cause of preventable error in some settings. Business work is rarely life-or-death, but the mechanism is the same: the receiver acts on an incomplete picture.
+Handoffs are a well-studied risk in healthcare. [The Agency for Healthcare Research and Quality's patient safety primer on handoffs](https://psnet.ahrq.gov/primer/handoffs-and-signouts) notes that communication failures between providers have been found to be a leading cause of preventable error in some settings. Business work is rarely life-or-death, but the mechanism is the same: the receiver acts on an incomplete picture.
 
 ## Six kinds of information that should move with the work
 
@@ -63,13 +63,13 @@ The documents the next step depends on: the signed quote, the approved drawing, 
 
 The instinct is to copy information forward: paste the customer's details into the job card, forward the email chain to the next team, re-key the order into the next system. Each copy is correct on the day it is made and starts drifting the day after. When the customer changes their contact person, the original record is updated and the copies are not.
 
-Google's guidance on managing incidents offers a useful model. It describes a live incident state document, kept by the person in charge, editable by several people at once, as that person's most important responsibility. Everyone works from the same living record rather than passing messages. When command passes to someone else, the handover is explicit and acknowledged, and the record goes with it.
+[Google's guidance on managing incidents](https://sre.google/sre-book/managing-incidents/) offers a useful model. It describes a live incident state document, kept by the person in charge, editable by several people at once, as that person's most important responsibility. Everyone works from the same living record rather than passing messages. When command passes to someone else, the handover is explicit and acknowledged, and the record goes with it.
 
 For business work, the equivalent is a single work record, such as a job, case or order, that every stage reads from and adds to. Information moves with the work because the work item points to it, not because someone copied it. That depends on knowing which system holds the authoritative version of each piece of information, a question addressed in [how to decide what should be the system of record](/insights/how-to-decide-what-should-be-the-system-of-record/).
 
 ## What should not move with the work
 
-Moving everything is not the answer. A job card carrying the entire email history makes the important details harder to find. There is also a legal limit. Section 10 of the Protection of Personal Information Act says personal information may only be processed if, given the purpose, it is adequate, relevant and not excessive. A delivery driver needs an address and a contact number. They do not need the customer's identity number or credit history.
+Moving everything is not the answer. A job card carrying the entire email history makes the important details harder to find. There is also a legal limit. [Section 10 of the Protection of Personal Information Act](https://popia.co.za/section-10-minimality/) says personal information may only be processed if, given the purpose, it is adequate, relevant and not excessive. A delivery driver needs an address and a contact number. They do not need the customer's identity number or credit history.
 
 A practical rule is that each stage should see what it needs to act and know where to find the rest if it needs it. That means deciding, for each stage, which information is shown, which is available on request and which is not visible at all.
 

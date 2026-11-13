@@ -32,9 +32,9 @@ An automation backlog usually contains dozens of candidates: invoice approvals, 
 
 The symptom is not a lack of enthusiasm. It is that nobody can say, with evidence, why one process may run unattended from start to finish while another should keep a person in the loop. Decisions are made on the strength of a demonstration, the persuasiveness of a sponsor or the convenience of a connector. When something goes wrong, the organisation discovers that it never agreed what “safe” meant in the first place.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer looking to improve automation safety typically seeks pragmatic criteria, governance gates and a shared mental model for evaluating process risk before automating. Search language tends to be direct: “which processes should we automate”, “automation readiness assessment”, “process risk scoring for automation”, “human in the loop or full automation”, or “how to decide what to automate safely”.
+Anyone looking to improve automation safety typically seeks pragmatic criteria, governance gates and a shared mental model for evaluating process risk before automating. The questions tend to be direct: “which processes should we automate”, “automation readiness assessment”, “process risk scoring for automation”, “human in the loop or full automation”, or “how to decide what to automate safely”.
 
 Underneath those phrases sits one question: how can business owners and platform teams make the same decision about the same process, and be able to defend it later?
 

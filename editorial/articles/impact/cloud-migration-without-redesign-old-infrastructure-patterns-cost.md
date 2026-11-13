@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-231
 slug: cloud-migration-without-redesign-old-infrastructure-patterns-cost
-title: Cloud Prices for Old Infrastructure: The Cost of Moving Without Redesign
-description: Copying a server to the cloud changes where it runs but not how it works. The business keeps its old inefficiencies and pays an hourly rate for them, plus overlap costs and manual work that was meant to disappear.
+title: Cloud prices for old infrastructure: The cost of moving without redesign
+description: Moving a server to the cloud changes where it runs, not how it works. You keep the old inefficiencies, pay hourly for them and still do the manual work.
 lead: Copying a server to the cloud changes where it runs but not how it works. The business keeps its old inefficiencies and pays an hourly rate for them, plus overlap costs and manual work that was meant to disappear.
 category: Digital Operations
 published_date: 2026-10-08
@@ -17,9 +17,10 @@ sources:
   - Cost Optimization design principles - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles
   - Plan your migration - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/plan-migration
 related:
-  - The Automation Only One Person Understands: The Hidden Cost of Dependency | /impact/automation-understood-by-one-employee-continuity-maintenance-cost/
-  - The Cost of Work Waiting for Approval | /impact/approval-queues-blocked-capacity-cost/
-  - Which Version Is Final? The Cost of Teams Working From Different Copies | /impact/conflicting-document-versions-rework-decision-cost/
+  - The automation only one person understands: The hidden cost of dependency | /impact/automation-understood-by-one-employee-continuity-maintenance-cost/
+  - The cost of work waiting for approval | /impact/approval-queues-blocked-capacity-cost/
+  - Which version is final? The cost of teams working from different copies | /impact/conflicting-document-versions-rework-decision-cost/
+  - The server nobody can explain: What forgotten infrastructure costs every year | /impact/servers-running-nobody-remembers-why-forgotten-infrastructure-cost-risk/
 summary: Copying a server to the cloud changes where it runs but not how it works. The business keeps its old inefficiencies and pays an hourly rate for them, plus overlap costs and manual work that was meant to disappear.
 layout: plain
 ---
@@ -42,7 +43,7 @@ An on-premises server is a sunk cost. Once bought, running it at ten per cent ut
 - **Heavy data movement.** Applications that chat constantly with other systems, or users who download large files, can create network and storage charges that never existed in the building.
 - **Paying twice.** The old licences, support contracts and hardware are often still running while the cloud copy is paid for as well.
 
-Amazon's [cost optimization whitepaper](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html) describes a cost-optimised workload as one that fully uses its resources, achieves its outcome at the lowest price point and meets its functional requirements. It also notes that traditional on-premises environments make cost optimisation difficult because you must predict future capacity and business needs and manage complex procurement. A workload that is simply moved, without adjusting how it is sized and run, rarely meets the first of those descriptions.
+Amazon's [cost optimisation whitepaper](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html) describes a cost-optimised workload as one that fully uses its resources, achieves its outcome at the lowest price point and meets its functional requirements. It also notes that traditional on-premises environments make cost optimisation difficult because you must predict future capacity and business needs and manage complex procurement. A workload that is simply moved, without adjusting how it is sized and run, rarely meets the first of those descriptions.
 
 ## Why businesses tolerate it
 
@@ -84,7 +85,7 @@ This example is **illustrative**. Every figure is an assumption for a hypothetic
 - Manual operations: 6 × R280 × 48 = R80,640 a year
 - **Illustrative total: about R265,000 in the first year**, of which perhaps two thirds is realistically recoverable
 
-Microsoft's [cost optimization principles](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles) recommend starting with a cost model that segments expenses and forecasts total cost of ownership, including infrastructure, support and implementation, so that cost drivers are visible early. The same document warns that tactical approaches are reactive and reduce cost only in the short term. The rows above are the cost drivers such a model should expose.
+Microsoft's [cost optimisation principles](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles) recommend starting with a cost model that segments expenses and forecasts total cost of ownership, including infrastructure, support and implementation, so that cost drivers are visible early. The same document warns that tactical approaches are reactive and reduce cost only in the short term. The rows above are the cost drivers such a model should expose.
 
 ## When it becomes commercially urgent
 

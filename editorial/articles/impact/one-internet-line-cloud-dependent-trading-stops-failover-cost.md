@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-181
 slug: one-internet-line-cloud-dependent-trading-stops-failover-cost
-title: When the Line Drops and Nothing Works: The Cost of One Internet Connection
-description: If sales, stock and telephones all live online, one failed connection stops the whole business, and the wages, lost trade and catch-up work add up faster than a second path would cost.
+title: When the line drops and nothing works: The cost of one Internet connection
+description: If sales, stock and telephones all live online, one failed connection stops the business. Wages, lost trade and catch-up work cost more than a second path.
 lead: If sales, stock and telephones all live online, one failed connection stops the whole business, and the wages, lost trade and catch-up work add up faster than a second path would cost.
 category: Digital Operations
 published_date: 2026-10-09
@@ -17,9 +17,10 @@ sources:
   - Architecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
   - Architecture strategies for defining reliability targets - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/metrics
 related:
-  - The Automation Only One Person Understands: The Hidden Cost of Dependency | /impact/automation-understood-by-one-employee-continuity-maintenance-cost/
-  - Which Version Is Final? The Cost of Teams Working From Different Copies | /impact/conflicting-document-versions-rework-decision-cost/
-  - Two Departments, Same Work: The Payroll Cost of Duplicated Effort | /impact/departments-duplicating-same-work-payroll-cost/
+  - The automation only one person understands: The hidden cost of dependency | /impact/automation-understood-by-one-employee-continuity-maintenance-cost/
+  - Which version is final? The cost of teams working from different copies | /impact/conflicting-document-versions-rework-decision-cost/
+  - Two departments, same work: The payroll cost of duplicated effort | /impact/departments-duplicating-same-work-payroll-cost/
+  - Slow network, unknown cause: What it costs when nobody can see who uses the bandwidth | /impact/network-capacity-use-not-visible-slowdowns-cannot-be-diagnosed-cost/
 summary: If sales, stock and telephones all live online, one failed connection stops the whole business, and the wages, lost trade and catch-up work add up faster than a second path would cost.
 layout: plain
 ---

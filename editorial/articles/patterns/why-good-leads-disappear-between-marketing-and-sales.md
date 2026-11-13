@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-101
 slug: why-good-leads-disappear-between-marketing-and-sales
-title: Why Do Good Leads Disappear Between Marketing and Sales?
-description: When qualified demand reaches the business but ownership and next actions remain unclear, lead loss may be a workflow and handoff problem rather than a demand problem.
+title: Why do good leads disappear between marketing and sales?
+description: When qualified demand arrives but ownership and next actions are unclear, leads are lost. That is a workflow and handoff problem, not a demand problem.
 lead: When demand reaches the business but no reliable operating mechanism converts that event into ownership and action, the leak may sit inside the handoff rather than the market.
 category: Sales, Leads & Revenue Handoffs
 published_date: 2026-09-03
@@ -23,10 +23,12 @@ commercial_value_dimensions: Revenue, Conversion, Sales capacity, Pipeline veloc
 sources:
   - Work assignment overview | https://learn.microsoft.com/en-us/dynamics365/sales/work-assignment-intro
   - Understand record distribution in assignment rules | https://learn.microsoft.com/en-us/dynamics365/sales/understand-lead-distributions-assignment-rules
+  - Create records and activities from journeys - Dynamics 365 Customer Insights | Microsoft Learn | https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-optimize-lead-management
 related:
-  - Why Salespeople Spend Time Updating Systems Instead of Selling | /patterns/why-salespeople-spend-time-updating-systems-instead-of-selling/
-  - The Cost of Delayed Handoffs After a Deal Is Won | /patterns/the-cost-of-delayed-handoffs-after-a-deal-is-won/
-  - Why Does Sending an Invoice Require So Much Work? | /patterns/why-sending-an-invoice-requires-so-much-work/
+  - Why salespeople spend time updating systems instead of selling | /patterns/why-salespeople-spend-time-updating-systems-instead-of-selling/
+  - The cost of delayed handoffs after a deal is won | /patterns/the-cost-of-delayed-handoffs-after-a-deal-is-won/
+  - Why does sending an invoice require so much work? | /patterns/why-sending-an-invoice-requires-so-much-work/
+  - When lead routing depends on someone checking an inbox | /patterns/when-lead-routing-depends-on-someone-checking-an-inbox/
 summary: When qualified demand can enter the business without immediate, visible ownership, revenue leakage may begin in the handoff between marketing and sales. A controlled lead workflow makes routing, accountability and exceptions explicit. If this condition is familiar, explore Mellorca's solutions or start a conversation so we can examine where the handoff breaks.
 ---
 ## Observable condition
@@ -66,7 +68,9 @@ Typical causes include unclear definitions of a qualified lead, multiple capture
 
 Microsoft's documentation for Dynamics 365 Sales shows what explicit routing looks like. Its [work assignment overview](https://learn.microsoft.com/en-us/dynamics365/sales/work-assignment-intro) describes segments that categorise records by criteria such as source and location, sequences of follow-up steps, and assignment rules that distribute matching records to sellers or teams. Its guidance on [record distribution in assignment rules](https://learn.microsoft.com/en-us/dynamics365/sales/understand-lead-distributions-assignment-rules) explains round-robin and load-balancing distribution, and options that consider seller capacity and work schedules.
 
-The same documentation contains a detail that illustrates this Pattern precisely. If capacity or availability options are switched on and no matching seller qualifies, the record is left unassigned. Its worked example describes a Friday-evening website enquiry that remains unassigned because no matching seller is available within the rule's 48-hour limit. Automation does not remove the need for a fallback owner; it makes the gap explicit. The important lesson is not the product choice; it is that routing can be made explicit and machine-executable rather than informal, and that every routing design needs an answer for the case where the rules find nobody.
+The same documentation contains a detail that illustrates this Pattern precisely. If capacity or availability options are switched on and no matching seller qualifies, the record is left unassigned. Its worked example describes a Friday-evening website enquiry that remains unassigned because no matching seller is available within the rule's 48-hour limit. Automation does not remove the need for a fallback owner; it makes the gap explicit.
+
+Microsoft's [documentation on creating records from journeys](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-optimize-lead-management) similarly describes automatically creating a phone call or task for a sales representative when a high-value lead acts, so that sales can follow up while the lead's interest is at its peak. The important lesson is not the product choice; it is that routing can be made explicit and machine-executable rather than informal, and that every routing design needs an answer for the case where the rules find nobody.
 
 The mechanisms that combine most often are:
 

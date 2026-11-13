@@ -20,6 +20,7 @@ side_title: Topics
 sources:
   - Open Standards principles | https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles
   - Make use of open standards | https://www.gov.uk/guidance/make-use-of-open-standards
+  - The Technology Code of Practice - GOV.UK | https://www.gov.uk/guidance/the-technology-code-of-practice
 related:
   - Why technology spend does not automatically create business value | /insights/why-technology-spend-does-not-automatically-create-business-value/
   - How to decide what technology problem to solve first | /insights/how-to-decide-what-technology-problem-to-solve-first/
@@ -53,7 +54,7 @@ That is why [system-of-record decisions](/insights/how-to-decide-which-system-ow
 
 Open standards exist partly to improve interoperability and reduce dependence on a specific supplier or technology. GOV.UK's [Open Standards Principles](https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles) explicitly identify avoiding vendor lock-in, improving interoperability and supporting data sharing as benefits of standards-based design, and list simplifying exit and migration costs among the reasons for adopting them.
 
-The government's guidance on how to [make use of open standards](https://www.gov.uk/guidance/make-use-of-open-standards) adds practical detail that transfers well to commercial buying: be clear what data your systems will hold and which identifiers are in place, avoid duplicating data, be clear about its approved source, and prefer RESTful APIs for integration where possible.
+The government's guidance on how to [make use of open standards](https://www.gov.uk/guidance/make-use-of-open-standards) adds practical detail that transfers well to commercial buying: be clear what data your systems will hold and which identifiers are in place, avoid duplicating data, be clear about its approved source, and prefer RESTful APIs for integration where possible. Its [Technology Code of Practice](https://www.gov.uk/guidance/the-technology-code-of-practice) also asks buyers to define a purchasing strategy that accounts for contractual limitations.
 
 A commercial business does not need to adopt government technology policy wholesale to use the principle. Ask whether the platform supports documented APIs, standard data formats, practical export, stable authentication methods, event mechanisms and integration patterns that do not require proprietary workarounds for every connection. Our checklist of [what to ask about APIs before buying business software](/insights/what-to-ask-about-apis-before-buying-business-software/) is a useful starting point.
 

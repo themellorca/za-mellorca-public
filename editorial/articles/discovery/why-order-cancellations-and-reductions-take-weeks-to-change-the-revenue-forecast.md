@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-092
 slug: why-order-cancellations-and-reductions-take-weeks-to-change-the-revenue-forecast
 title: Why cancelled and reduced orders take so long to reach the revenue forecast
-description: A customer halves an order and the forecast still shows the original number at month end. How to close the gap between operational changes and the revenue view leadership relies on.
+description: A customer halves an order and the forecast still shows the original at month end. How to close the gap between operational changes and the revenue view.
 lead: A customer halves an order and the forecast still shows the original number at month end. How to close the gap between operational changes and the revenue view leadership relies on.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-10
@@ -31,7 +31,7 @@ This article looks at that operating condition: cancelled or reduced orders that
 
 A forecast is only as current as the last change somebody remembered to enter. When an order is amended, several records should change at once: the order itself, the fulfilment plan, the expected invoice and the forecast. In many businesses only the first two change, because they are the ones the customer is waiting on. The forecast sits in a different tool, owned by a different person, and is refreshed on a calendar rather than when something happens.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 Leadership wants a number it can trust early enough to act on. If a shortfall is visible in week two, the business can pursue substitute orders, adjust purchasing or warn the bank. If it appears in week five, the only choices left are to explain it. The buyer is therefore not looking for a better forecasting model. They want changes to flow into the forecast within a day or two of being agreed, with an audit trail showing what changed and why.
 

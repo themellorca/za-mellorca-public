@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-293
 slug: why-integration-incidents-require-several-vendors-to-diagnose
-title: Why Integration Incidents Require Several Vendors to Diagnose
+title: Why integration incidents require several vendors to diagnose
 description: Cross-system incidents become slow to diagnose when no owner can trace a business transaction across integration boundaries.
 lead: When every platform looks healthy in isolation, a broken end-to-end transaction can leave multiple suppliers pointing at each other.
 category: Integration & API Operations
@@ -21,7 +21,7 @@ sources:
   - Architecture strategies for monitoring workload reliability - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/architecture/framework/resiliency/monitoring
 related:
   - Why teams cannot trace one business transaction across several systems | /discovery/teams-cannot-trace-a-business-transaction-across-systems/
-  - Why Integration Failures Should Not Route to Personal Inboxes | /discovery/why-integration-failures-should-not-route-to-personal-inboxes/
+  - Why integration failures should not route to personal inboxes | /discovery/why-integration-failures-should-not-route-to-personal-inboxes/
   - API credentials are shared across unrelated integrations | /discovery/api-credentials-shared-across-unrelated-integrations/
 ---
 ## The problem in plain language
@@ -30,9 +30,9 @@ A customer order, invoice, lead or service request fails somewhere between syste
 
 What follows is familiar: a ticket with one supplier, then another, then a conference call where each party shares its own dashboard. Every dashboard is green. The customer is still waiting.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer needs end-to-end ownership and observability across system boundaries, not separate dashboards for each technical component. Search phrasing tends to reflect frustration rather than architecture: “vendors blaming each other integration”, “how to troubleshoot integration between two SaaS systems”, “end-to-end transaction monitoring”, “who owns integration failures” or “trace order across systems”.
+You need end-to-end ownership and observability across system boundaries, not separate dashboards for each technical component. The phrasing tends to reflect frustration rather than architecture: “vendors blaming each other integration”, “how to troubleshoot integration between two SaaS systems”, “end-to-end transaction monitoring”, “who owns integration failures” or “trace order across systems”.
 
 The real question is: when a business transaction fails, who can see the whole path, identify the failing step and hand the right evidence to the right supplier?
 
@@ -40,7 +40,7 @@ The real question is: when a business transaction fails, who can see the whole p
 
 Software engineering already has a well-documented answer for tracing work across components. OpenTelemetry describes a trace as the path of a request through an application, made up of spans that each represent a unit of work. Its documentation explains that context propagation is what allows spans created in different places to be correlated and assembled into a single trace, by passing the trace and span identifiers across process and service boundaries.
 
-The W3C Trace Context recommendation exists precisely because of a multi-vendor problem. It explains that before a shared format, tracing vendors used their own propagation formats, so traces crossing vendor boundaries could not be correlated and context could be lost at intermediaries. The standard defines a portable *traceparent* header for the shared identifier and a *tracestate* header for vendor-specific data, so different tools can take part in the same trace.
+The W3C [Trace Context](https://www.w3.org/TR/trace-context/) recommendation exists precisely because of a multi-vendor problem. It explains that before a shared format, tracing vendors used their own propagation formats, so traces crossing vendor boundaries could not be correlated and context could be lost at intermediaries. The standard defines a portable *traceparent* header for the shared identifier and a *tracestate* header for vendor-specific data, so different tools can take part in the same trace.
 
 The operational principle extends to business integrations. Shared correlation identifiers, recorded transaction state and clear ownership reduce diagnostic ambiguity. Many business integrations, however, pass data between SaaS platforms, middleware and file transfers that do not share any identifier beyond the business data itself, and that may not support technical trace propagation at all. Where that is the case, a business-level correlation key, such as an order reference carried through every hop and logged at every stage, does the same job.
 

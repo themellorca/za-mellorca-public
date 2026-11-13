@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-255
 slug: what-to-measure-at-each-stage-of-a-business-workflow
-title: What Should Be Measured at Each Stage of a Workflow?
-description: Measuring only the end result tells you something went wrong but not where. A stage-by-stage guide to the few measures that make a workflow visible: volume, waiting time, rework and completion.
+title: What should be measured at each stage of a workflow?
+description: Measuring only the end result shows that something went wrong, not where. The few stage measures that make a workflow visible: volume, waiting, rework.
 lead: Measuring only the end result tells you something went wrong but not where. A stage-by-stage guide to the few measures that make a workflow visible: volume, waiting time, rework and completion.
 category: Process Measurement
 published_date: 2026-10-09
@@ -14,9 +14,9 @@ sources:
   - How to choose incident management KPIs and metrics - Atlassian | https://www.atlassian.com/incident-management/kpis
   - Measure and communicate the business value of Power Platform solutions - Power Platform | https://learn.microsoft.com/en-us/power-platform/guidance/adoption/business-value
 related:
-  - What a Good Workflow Map Should Show | /insights/what-a-useful-workflow-map-contains-and-what-it-leaves-out/
-  - Why Growth Exposes Problems That Were Already There | /insights/why-growth-exposes-problems-that-were-already-there/
-  - What Digital Infrastructure Means for a Modern Business | /insights/what-digital-infrastructure-means-for-a-modern-business/
+  - What a good workflow map should show | /insights/what-a-useful-workflow-map-contains-and-what-it-leaves-out/
+  - Why growth exposes problems that were already there | /insights/why-growth-exposes-problems-that-were-already-there/
+  - What digital infrastructure means for a modern business | /insights/what-digital-infrastructure-means-for-a-modern-business/
 summary: Measuring only the end result tells you something went wrong but not where. A stage-by-stage guide to the few measures that make a workflow visible: volume, waiting time, rework and completion.
 layout: plain
 ---
@@ -29,7 +29,7 @@ Measuring a workflow stage by stage is not about producing more reports. It is a
 
 ## First, define the stages
 
-Before measuring anything, list the stages a piece of work moves through, using words the people involved would recognise. A quote-to-cash workflow might read: enquiry received, quote prepared, quote accepted, order fulfilled, invoice sent, payment received. A stage is a place where an item can wait, where ownership changes, or where a decision happens. Lean practitioners use value stream mapping to set out each step and the time spent in it, and the discipline works for office processes as well as factories. If you have not yet drawn the flow, [understand how the work actually moves](/insights/before-you-automate-understand-how-the-work-actually-moves/) before choosing measures.
+Before measuring anything, list the stages a piece of work moves through, using words the people involved would recognise. A quote-to-cash workflow might read: enquiry received, quote prepared, quote accepted, order fulfilled, invoice sent, payment received. A stage is a place where an item can wait, where ownership changes, or where a decision happens. Lean practitioners use [value stream mapping](https://www.lean.org/lexicon-terms/value-stream-mapping/) to set out each step and the time spent in it, and the discipline works for office processes as well as factories. If you have not yet drawn the flow, [understand how the work actually moves](/insights/before-you-automate-understand-how-the-work-actually-moves/) before choosing measures.
 
 Keep the list short. Six to eight stages are enough. More than that, and the measurement becomes a project of its own.
 
@@ -63,7 +63,7 @@ At the final stage, the question is whether the outcome was achieved and whether
 - **Outcome quality.** Corrections after delivery, credit notes issued, complaints or returns. This is the result that confirms whether speed was bought at the expense of accuracy.
 - **Cost or effort per item.** Even a rough estimate of staff hours at a Rand rate per hour will turn the other measures into a business case.
 
-Microsoft's adoption guidance on business value for the Power Platform makes the same point in general terms: value claims need measurable outcomes defined before the work starts, so that improvement can be demonstrated rather than assumed.
+Microsoft's adoption guidance on business value for the [Power Platform](https://learn.microsoft.com/en-us/power-platform/guidance/adoption/business-value) makes the same point in general terms: value claims need measurable outcomes defined before the work starts, so that improvement can be demonstrated rather than assumed.
 
 ## Avoid measuring activity as if it were results
 

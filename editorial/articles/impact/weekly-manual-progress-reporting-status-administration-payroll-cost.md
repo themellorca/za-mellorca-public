@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-403
 slug: weekly-manual-progress-reporting-status-administration-payroll-cost
-title: Forty Minutes a Week Each: The Payroll Cost of Manual Progress Reporting
-description: When teams write, collate and question weekly progress reports by hand, the payroll cost adds up and the information is stale on arrival. Capturing status once removes most of the effort.
+title: Forty minutes a week each: The payroll cost of manual progress reporting
+description: When teams write, collate and question weekly progress reports by hand, the payroll cost adds up and the information is stale on arrival. Capture it once.
 lead: When teams write, collate and question weekly progress reports by hand, the payroll cost adds up and the information is stale on arrival. Capturing status once removes most of the effort.
 category: Management Reporting
 published_date: 2026-10-08
@@ -17,9 +17,9 @@ sources:
   - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
   - Microsoft Search Overview | https://learn.microsoft.com/en-us/microsoftsearch/overview-microsoft-search
 related:
-  - Four Departments, Four Numbers: The Cost of Arguing About Data Instead of Acting | /impact/departments-reporting-different-numbers-same-metric-meeting-decision-cost/
-  - The Labour Cost of Manually Reconciling Two Systems | /impact/manual-reconciliation-between-systems-labour-cost/
-  - Two Departments, Same Work: The Payroll Cost of Duplicated Effort | /impact/departments-duplicating-same-work-payroll-cost/
+  - Four departments, four numbers: The cost of arguing about data instead of acting | /impact/departments-reporting-different-numbers-same-metric-meeting-decision-cost/
+  - The labour cost of manually reconciling two systems | /impact/manual-reconciliation-between-systems-labour-cost/
+  - Two departments, same work: The payroll cost of duplicated effort | /impact/departments-duplicating-same-work-payroll-cost/
 summary: When teams write, collate and question weekly progress reports by hand, the payroll cost adds up and the information is stale on arrival. Capturing status once removes most of the effort.
 layout: plain
 ---

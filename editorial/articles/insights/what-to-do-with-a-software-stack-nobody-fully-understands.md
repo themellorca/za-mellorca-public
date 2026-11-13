@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-045
 slug: what-to-do-with-a-software-stack-nobody-fully-understands
-title: What to Do With a Software Stack Nobody Fully Understands
-description: Many businesses run on a collection of systems that nobody can fully explain: built up over years, by different people, with little written down. A practical sequence for regaining control without breaking anything: secure access, map what runs, find what matters, check support, then simplify.
+title: What to do with a software stack nobody fully understands
+description: Many businesses run on systems nobody can fully explain. How to regain control without breaking anything, from securing access to simplifying.
 lead: Many businesses run on a collection of systems that nobody can fully explain: built up over years, by different people, with little written down. A practical sequence for regaining control without breaking anything: secure access, map what runs, find what matters, check support, then simplify.
 category: Digital Operations
 published_date: 2026-10-06
@@ -15,8 +15,8 @@ sources:
   - Fixed Lifecycle Policy - Microsoft Lifecycle | https://learn.microsoft.com/en-us/lifecycle/policies/fixed
   - Shadow IT guidance | https://www.ncsc.gov.uk/guidance/shadow-it
 related:
-  - What Good Digital Operations Look Like Before You Buy Anything New | /insights/what-good-digital-operations-look-like-before-you-buy-anything-new/
-  - How to Rationalise Software Without Breaking the Business | /insights/how-to-rationalise-software-without-breaking-the-business/
+  - What good digital operations look like before you buy anything new | /insights/what-good-digital-operations-look-like-before-you-buy-anything-new/
+  - How to rationalise software without breaking the business | /insights/how-to-rationalise-software-without-breaking-the-business/
   - How to find the manual work nobody is measuring | /insights/how-to-find-the-manual-work-nobody-is-measuring/
 summary: Many businesses run on a collection of systems that nobody can fully explain: built up over years, by different people, with little written down. A practical sequence for regaining control without breaking anything: secure access, map what runs, find what matters, check support, then simplify.
 layout: plain

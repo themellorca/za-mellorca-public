@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-226
 slug: unused-cloud-resources-financial-waste
-title: Paying for Cloud Resources Nobody Uses
-description: Idle cloud resources keep billing even when they create no operating value. Visibility, ownership and recurring rightsizing turn silent consumption into controlled spend.
+title: Paying for cloud resources nobody uses
+description: Idle cloud resources keep billing even when they create no value. Visibility, ownership and recurring rightsizing turn silent use into controlled spend.
 lead: Cloud makes capacity easy to create. It does not automatically make old capacity disappear. Idle compute, unattached storage and oversized resources can keep charging long after their business purpose has ended.
 category: Cloud Infrastructure
 published_date: 2026-09-01
@@ -30,9 +30,9 @@ sources:
 closing_title: Method note
 closing_text: No generic cloud-waste percentage is applied. Use actual billing, utilisation and validated workload requirements to calculate avoidable spend.
 related:
-  - Paying for Server Capacity the Business Does Not Use | /impact/overprovisioned-server-capacity-cost/
-  - When Nobody Owns the Business Software You Pay For | /impact/pain-unclear-ownership-technology-spending/
-  - How Many Software Subscriptions Do You Pay For? The Cost of Not Knowing | /impact/unknown-software-subscriptions-invisible-recurring-cost/
+  - Paying for server capacity the business does not use | /impact/overprovisioned-server-capacity-cost/
+  - When nobody owns the business software you pay for | /impact/pain-unclear-ownership-technology-spending/
+  - How many software subscriptions do you pay for? The cost of not knowing | /impact/unknown-software-subscriptions-invisible-recurring-cost/
 ---
 ## The meter keeps running after the need disappears
 
@@ -46,7 +46,7 @@ For a small or mid-sized business the amounts may look modest month by month, wh
 
 Provisioning is often distributed across engineering and operations while the invoice arrives centrally. Teams can therefore understand what a resource does without seeing its full cost, while finance sees the cost without knowing whether the resource is still required.
 
-AWS Compute Optimizer is designed to analyse resource configuration and utilisation in order to provide rightsizing recommendations and identify idle resources. AWS's Well-Architected guidance recommends decommissioning unused resources, triggered by events such as periodic audits or changes in usage, and notes that the effort spent searching for unused resources should reflect the potential savings. Microsoft's Azure Advisor does similar work on its platform, flagging virtual machines that show very low utilisation for shutdown or resizing. The common principle is not vendor-specific: cloud optimisation is an operating discipline, not a once-off migration task.
+AWS [Compute Optimizer](https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html) is designed to analyse resource configuration and utilisation in order to provide rightsizing recommendations and identify idle resources. AWS's Well-Architected guidance recommends decommissioning unused resources, triggered by events such as periodic audits or changes in usage, and notes that the effort spent searching for unused resources should reflect the potential savings. Microsoft's Azure Advisor does similar work on its platform, flagging virtual machines that show very low utilisation for shutdown or resizing. The common principle is not vendor-specific: cloud optimisation is an operating discipline, not a once-off migration task.
 
 The UK National Cyber Security Centre adds a security angle that is easy to overlook. In its asset management guidance it observes that assets which are no longer required become liabilities, because they can open up vulnerabilities or expose information without any corresponding benefit. An orphaned server is a cost line and an unpatched entry point at the same time.
 

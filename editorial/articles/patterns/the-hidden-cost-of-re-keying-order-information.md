@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-403
 slug: the-hidden-cost-of-re-keying-order-information
-title: The Hidden Cost of Re-Keying Order Information
-description: When the same order is typed into several systems, the cost shows up as labour, errors and delay rather than as a line item. Here is how to see it and where to start fixing it.
+title: The hidden cost of re-keying order information
+description: When the same order is typed into several systems, the cost shows up as labour, errors and delay, not a line item. How to see it and where to start fixing.
 lead: When the same order is typed into several systems, the cost shows up as labour, errors and delay rather than as a line item. Here is how to see it and where to start fixing it.
 category: Order-to-Cash, Manual Work & Data Flow
 published_date: 2026-10-08
@@ -18,9 +18,9 @@ sources:
   - Google SRE - What is Toil in SRE: Understanding Its Impact | https://sre.google/sre-book/eliminating-toil/
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
 related:
-  - The Hidden Cost of Re-entering the Same Information | /patterns/the-hidden-cost-of-reentering-the-same-information/
-  - Why the Same Problems Return After You Replace the System | /patterns/why-the-same-problems-return-after-you-replace-the-system/
-  - The Hidden Cost of Asking Customers for the Same Information Twice | /patterns/the-hidden-cost-of-asking-customers-for-the-same-information-twice/
+  - The hidden cost of re-entering the same information | /patterns/the-hidden-cost-of-reentering-the-same-information/
+  - Why the same problems return after you replace the system | /patterns/why-the-same-problems-return-after-you-replace-the-system/
+  - The hidden cost of asking customers for the same information twice | /patterns/the-hidden-cost-of-asking-customers-for-the-same-information-twice/
 summary: When the same order is typed into several systems, the cost shows up as labour, errors and delay rather than as a line item. Here is how to see it and where to start fixing it.
 layout: plain
 ---
@@ -36,7 +36,7 @@ An illustrative example: a Port Elizabeth building-supplies company with about e
 
 Re-keying looks like a clerical task, but it is really a copying process with an error rate. Every time data is typed again, there is a chance it differs from the original, and a cost to find and fix it when it does. The labour of typing is the visible cost. The less visible costs are the checking that grows around it, the corrections that follow it, and the delay that builds up because each retyping waits for someone to get round to it.
 
-Lean thinking offers a useful lens. The Lean Enterprise Institute describes poka-yoke as mistake-proofing: designing the process so that errors are prevented or caught at the source instead of being inspected for later. Re-keying is the reverse. It builds the opportunity for error into the process and then relies on vigilance to catch it. The Site Reliability Engineering literature describes toil as manual, repetitive work that scales linearly with volume and has no enduring value. Order re-keying fits that description exactly: double the orders, double the typing.
+Lean thinking offers a useful lens. The Lean Enterprise Institute describes [poka-yoke](https://www.lean.org/lexicon-terms/poka-yoke/) as mistake-proofing: designing the process so that errors are prevented or caught at the source instead of being inspected for later. Re-keying is the reverse. It builds the opportunity for error into the process and then relies on vigilance to catch it. The Site Reliability Engineering literature [describes toil](https://sre.google/sre-book/eliminating-toil/) as manual, repetitive work that scales linearly with volume and has no enduring value. Order re-keying fits that description exactly: double the orders, double the typing.
 
 **Realisation prompt:** how many times is a single order's information typed by a person between the customer's request and the invoice being paid?
 
@@ -79,7 +79,7 @@ For the supplies company, a structured order form for regular customers, an auto
 
 ## Intervention
 
-1. **Trace one order.** Follow a typical order from first request to payment and mark every point where someone types the information again.
+1. **Trace one order.** Follow a typical order from first request to payment and mark every point where someone types the information again. This is the same idea as [value-stream mapping](https://www.lean.org/lexicon-terms/value-stream-mapping/), which charts every step in the flow from order to delivery.
 2. **Count and cost it.** Estimate the minutes per order at each point, multiply by weekly volume and add the cost of corrections and credit notes.
 3. **Find the cheapest connections.** Check whether your order and accounting systems already support imports, integrations or scheduled transfers.
 4. **Standardise the input.** Offer repeat customers a form, portal or template, so that orders arrive in a structured format.

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-302
 slug: why-work-gets-lost-between-teams
-title: Why Work Gets Lost Between Teams
-description: Work rarely disappears inside a team. It disappears in the space between teams, where no queue, owner or system takes responsibility for it. Why that space exists, and how to design it out.
+title: Why work gets lost between teams
+description: Work rarely vanishes inside a team. It vanishes between teams, where no queue, owner or system takes charge. Why that gap exists and how to design it out.
 lead: Work rarely disappears inside a team. It disappears in the space between teams, where no queue, owner or system takes responsibility for it. Why that space exists, and how to design it out.
 category: Operations
 published_date: 2026-10-03
@@ -14,9 +14,9 @@ sources:
   - Key concepts and practices for applying a Team Topologies approach to team-of-teams org design — Team Topologies - Organizing for fast flow | https://teamtopologies.com/key-concepts
   - The Kanban Guide - May 2025 (latest) - Kanban Guides | https://kanbanguides.org/english/
 related:
-  - How Much Manual Work Is Hiding Inside Your Business? | /insights/how-much-manual-work-is-hiding-inside-your-business/
-  - How to Tell Whether You Have a People Problem or a Systems Problem | /insights/how-to-tell-whether-you-have-a-people-problem-or-a-systems-problem/
-  - Why Your Business Feels Harder to Run Than It Should | /insights/why-your-business-feels-harder-to-run-than-it-should/
+  - How much manual work is hiding inside your business? | /insights/how-much-manual-work-is-hiding-inside-your-business/
+  - How to tell whether you have a people problem or a systems problem | /insights/how-to-tell-whether-you-have-a-people-problem-or-a-systems-problem/
+  - Why your business feels harder to run than it should | /insights/why-your-business-feels-harder-to-run-than-it-should/
 summary: Work rarely disappears inside a team. It disappears in the space between teams, where no queue, owner or system takes responsibility for it. Why that space exists, and how to design it out.
 layout: plain
 ---
@@ -37,7 +37,7 @@ That gap is where most cross-team problems live: the request that was sent to so
 
 ### Systems are shaped like the organisation
 
-Conway's Law, as Martin Fowler explains it, observes that any organisation that designs a system will produce a design that copies the organisation's communication structure. Business systems follow the same logic when they are chosen team by team. Sales picks a CRM, operations a job-management tool, finance an accounting package, support a helpdesk. Each fits its team well. The connections between them, which is where the cross-team work travels, are nobody's design responsibility and are often an email, an export or a person.
+[Conway's Law](https://martinfowler.com/bliki/ConwaysLaw.html), as Martin Fowler explains it, observes that any organisation that designs a system will produce a design that copies the organisation's communication structure. Business systems follow the same logic when they are chosen team by team. Sales picks a CRM, operations a job-management tool, finance an accounting package, support a helpdesk. Each fits its team well. The connections between them, which is where the cross-team work travels, are nobody's design responsibility and are often an email, an export or a person.
 
 ### Requests travel through side channels
 
@@ -67,7 +67,7 @@ The fix was not more effort from the buyer. Special orders were created as recor
 
 ### 1. Make the cross-team flow one piece of work
 
-The Kanban Guide asks teams to define what a work item is, when it starts and finishes, and the states it passes through, and to make that workflow transparent. Apply this to the whole cross-team journey rather than each team's part of it. An order, a case or a request should be one item with one record, from the moment it is created until the customer has the result, even as it moves between teams.
+[The Kanban Guide](https://kanbanguides.org/english/) asks teams to define what a work item is, when it starts and finishes, and the states it passes through, and to make that workflow transparent. Apply this to the whole cross-team journey rather than each team's part of it. An order, a case or a request should be one item with one record, from the moment it is created until the customer has the result, even as it moves between teams.
 
 ### 2. Give the in-between states an owner
 
@@ -75,7 +75,7 @@ States such as "awaiting acceptance by operations" or "waiting for finance appro
 
 ### 3. Agree how teams ask each other for things
 
-Team Topologies describes deliberate interaction modes between teams, such as close collaboration for a defined period, or one team providing something "as a service" that another consumes with minimal interaction. Small businesses do not need the vocabulary, but the principle helps: decide how each team should request work from each other team, and route those requests to a queue that can be seen, rather than to individuals.
+Team Topologies describes [deliberate interaction modes](https://teamtopologies.com/key-concepts) between teams, such as close collaboration for a defined period, or one team providing something "as a service" that another consumes with minimal interaction. Small businesses do not need the vocabulary, but the principle helps: decide how each team should request work from each other team, and route those requests to a queue that can be seen, rather than to individuals.
 
 ### 4. Name an end-to-end owner
 

@@ -2,9 +2,9 @@
 hub: insights
 record_id: INS-054
 slug: apis-webhooks-and-integrations-what-business-leaders-actually-need-to-know
-title: APIs, Webhooks and Integrations: What Business Leaders Actually Need to Know
-description: Executive guide to how APIs, webhooks, and integrations shape strategic outcomes, risk, and operating rhythm for modern organizations.
-lead: Executive guide to how APIs, webhooks, and integrations shape strategic outcomes, risk, and operating rhythm for modern organizations.
+title: APIs, webhooks and integrations: What business leaders actually need to know
+description: Executive guide to how APIs, webhooks, and integrations shape strategic outcomes, risk, and operating rhythm for modern organisations.
+lead: Executive guide to how APIs, webhooks, and integrations shape strategic outcomes, risk, and operating rhythm for modern organisations.
 category: Executive technology strategy
 published_date: 2026-10-02
 updated_date: 2026-10-02
@@ -17,7 +17,7 @@ related:
   - Why technology spend does not automatically create business value | /insights/why-technology-spend-does-not-automatically-create-business-value/
   - How to build a business case for systems improvement | /insights/how-to-build-a-business-case-for-systems-improvement/
   - How to buy business software without letting the demo make the decision | /insights/how-to-buy-business-software-without-letting-the-demo-make-the-decision/
-summary: Executive guide to how APIs, webhooks, and integrations shape strategic outcomes, risk, and operating rhythm for modern organizations.
+summary: Executive guide to how APIs, webhooks, and integrations shape strategic outcomes, risk, and operating rhythm for modern organisations.
 layout: plain
 ---
 In modern organisations, APIs, webhooks and integrations are not merely technical utilities. They are the connective tissue that enables fast cycles, partner collaboration and data-driven decision making. For business leaders, understanding how these elements interact, and where to invest effort, is essential for outcomes such as faster launches, reliable data flows and safer operations.
@@ -51,7 +51,7 @@ Each of these is a design gap rather than bad luck. [Silent automation failures]
 
 ## Design patterns that reduce risk
 
-- **Version and deprecation policies:** communicate API lifecycles and avoid sudden breaking changes. Microsoft's API design guidance sets out several versioning approaches and notes that existing addresses should keep working when a new version is introduced. The UK Government Digital Service recommends keeping the number of active versions small and retiring old ones once usage drops.
+- **Version and deprecation policies:** communicate API lifecycles and avoid sudden breaking changes. Microsoft's [API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design) guidance sets out several versioning approaches and notes that existing addresses should keep working when a new version is introduced. The UK Government Digital Service recommends keeping the number of active versions small and retiring old ones once usage drops.
 - **Idempotency and retry:** ensure repeated messages do not create duplicates. Microsoft's guidance defines an idempotent request as one that produces the same result no matter how many times it is submitted. In business terms, a retried "create invoice" message should not create a second invoice.
 - **Observability by design:** instrument endpoints, events and payloads with structured telemetry. GDS guidance also recommends logging API usage, which supports investigation and compliance.
 - **Boundary-aware governance:** separate external contracts from internal implementations to reduce ripple effects. A partner should not need to change anything because you reorganised your database.

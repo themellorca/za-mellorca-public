@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000254
 slug: when-screens-sit-between-colleagues-who-sit-together
-title: When Screens Sit Between Colleagues Who Sit Together
+title: When screens sit between colleagues who sit together
 description: Colleagues share a table but each faces a laptop, answering the queue that will not wait. Why meetings lose their people, and what gives presence back.
 lead: Colleagues share a table but each faces a laptop, answering the queue that will not wait. Why meetings lose their people, and what gives presence back.
 category: Human Connection
@@ -17,10 +17,11 @@ epistemic_state: INFERRED: multitasking prevalence and its link to meeting size 
 sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/hybrid-work-is-just-work | https://www.microsoft.com/en-us/worklab/work-trend-index/hybrid-work-is-just-work
   - Large Scale Analysis of Multitasking Behavior During Remote Meetings | https://arxiv.org/abs/2101.11865
+  - Multitasking: Switching costs - American Psychological Association | https://www.apa.org/topics/research/multitasking
 related:
-  - Friday Evening Should Start on Friday Evening | /moments/friday-evening-should-start-on-friday-evening/
-  - When the System Decides What You Can Do Today | /moments/when-the-system-decides-what-you-can-do-today/
-  - The Meeting That Could Have Been a Shared Record | /moments/the-meeting-that-could-have-been-a-shared-record/
+  - Friday evening should start on Friday evening | /moments/friday-evening-should-start-on-friday-evening/
+  - When the system decides what you can do today | /moments/when-the-system-decides-what-you-can-do-today/
+  - The meeting that could have been a shared record | /moments/the-meeting-that-could-have-been-a-shared-record/
 summary: Colleagues share a table but each faces a laptop, answering the queue that will not wait. Why meetings lose their people, and what gives presence back.
 layout: plain
 ---
@@ -32,9 +33,9 @@ It is an ordinary scene in many offices. It is also a curious one. People who sh
 
 ## What the evidence shows
 
-Microsoft's Work Trend Index has tracked how people use meetings. In its report on hybrid work, it found that in an average week, 42% of meeting participants multitask by actively sending an email or a chat message during a meeting. The same report noted large increases in the number of meetings and in double-booked meetings since the pandemic.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/hybrid-work-is-just-work) has tracked how people use meetings. In its report on hybrid work, it found that in an average week, 42% of meeting participants multitask by actively sending an email or a chat message during a meeting. The same report noted large increases in the number of meetings and in double-booked meetings since the pandemic.
 
-A peer-reviewed study by Microsoft researchers, published as a large-scale analysis of multitasking during remote meetings, combined telemetry from US Microsoft employees with a diary study of 715 people. It found that multitasking was related to features of the meeting itself: its size, length, time of day and type. Larger and longer meetings saw more multitasking. The researchers also found that multitasking could have both positive and negative effects, which is an important qualification.
+A peer-reviewed study by Microsoft researchers, published as a large-scale [analysis of multitasking](https://arxiv.org/abs/2101.11865) during remote meetings, combined telemetry from US Microsoft employees with a diary study of 715 people. It found that multitasking was related to features of the meeting itself: its size, length, time of day and type. Larger and longer meetings saw more multitasking. The researchers also found that multitasking could have both positive and negative effects, which is an important qualification. The American Psychological Association's summary of [switching costs](https://www.apa.org/topics/research/multitasking) similarly notes that repeated task switching can take more total time and produce more errors than it appears to.
 
 Both sources focus mainly on remote and hybrid meetings and on one company's tools and staff. They do not directly measure what happens in a South African boardroom where everyone is physically present. But they establish two useful points: multitasking in meetings is common, and it is shaped by how meetings are designed, not only by individual habit.
 

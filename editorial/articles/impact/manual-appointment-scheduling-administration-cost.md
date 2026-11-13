@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-040
 slug: manual-appointment-scheduling-administration-cost
-title: Predictable Appointments Still Carry a Cost When Staff Arrange Every Slot
-description: If appointments follow stable availability and duration rules, repeated messages to find a slot can absorb staff time without improving the service the customer actually receives.
+title: Predictable appointments still carry a cost when staff arrange every slot
+description: If appointments follow stable availability and duration rules, repeated messages to find a slot absorb staff time without improving the customer's service.
 lead: If appointments follow stable availability and duration rules, repeated messages to find a slot can absorb staff time without improving the service the customer actually receives.
 category: Business Automation
 published_date: 2026-09-06
@@ -23,10 +23,11 @@ evidence_basis: original qualitative analysis and transparent input-based cost m
 sources:
   - Create an appointment schedule - Google Calendar Help | https://support.google.com/calendar/answer/10729749
   - Microsoft Bookings | https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview
+  - Allowing customers to manage their bookings in Shared Bookings - Microsoft Learn | https://learn.microsoft.com/en-us/microsoft-365/bookings/customers-manage-booking?view=o365-worldwide
 related:
-  - Rebuilding the Same Report Every Month: The Labour Cost of Manual Reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
-  - Gathering Information Before Work Can Start: The Payroll Cost of Preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
-  - From Inbox to System by Hand: The Labour Cost of Retyping Emails | /impact/copying-email-details-into-business-systems-admin-cost/
+  - Rebuilding the same report every month: The labour cost of manual reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
+  - Gathering information before work can start: The payroll cost of preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
+  - From inbox to system by hand: The labour cost of retyping emails | /impact/copying-email-details-into-business-systems-admin-cost/
 ---
 ## The tolerated pain
 
@@ -82,7 +83,9 @@ Typical trigger points include a new location or service line, the loss of the p
 
 ## What better looks like
 
-Current scheduling tools already treat the rules as configuration. Google's help documentation for [Calendar appointment schedules](https://support.google.com/calendar/answer/10729749) describes setting appointment duration, availability, a scheduling window with minimum lead time, buffer time between appointments, a maximum number of bookings per day and checking calendars for availability to avoid conflicts. Microsoft describes [Bookings](https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview) as a web booking page integrated with Outlook calendars, with email and SMS notifications. The point is not the product. It is that duration, buffers, capacity and availability can be stated once and applied consistently, rather than renegotiated by a person for every slot.
+Current scheduling tools already treat the rules as configuration. Google's help documentation for [Calendar appointment schedules](https://support.google.com/calendar/answer/10729749) describes setting appointment duration, availability, a scheduling window with minimum lead time, buffer time between appointments, a maximum number of bookings per day and checking calendars for availability to avoid conflicts. Microsoft describes [Bookings](https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview) as a web booking page integrated with Outlook calendars, with email and SMS notifications.
+
+The point is not the product. It is that duration, buffers, capacity and availability can be stated once and applied consistently, rather than renegotiated by a person for every slot. Microsoft's documentation on [letting customers manage their own bookings](https://learn.microsoft.com/en-us/microsoft-365/bookings/customers-manage-booking?view=o365-worldwide) describes the same approach for changes: the confirmation email carries a Manage booking button that lets the customer reschedule or cancel, and the staff member is notified.
 
 In a better state, routine appointments are self-booked or confirmed in one step against a single source of availability, reschedules follow the same rules, and staff handle the cases that genuinely need judgement.
 

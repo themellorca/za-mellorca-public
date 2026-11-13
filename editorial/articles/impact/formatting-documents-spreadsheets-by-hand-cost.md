@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-021
 slug: formatting-documents-spreadsheets-by-hand-cost
-title: Hours Lost to Formatting: The Cost of Tidying Documents and Spreadsheets by Hand
-description: Fixing fonts, headings, column widths and cell colours by hand looks trivial, but across a team it adds up to weeks of paid time a year. Styles, tables and rules in tools you already own remove most of it.
+title: Hours lost to formatting: The cost of tidying documents and spreadsheets by hand
+description: Fixing fonts, headings, column widths and colours by hand looks trivial but adds up to weeks of paid time a year. Styles and tables you already own fix it.
 lead: Fixing fonts, headings, column widths and cell colours by hand looks trivial, but across a team it adds up to weeks of paid time a year. Styles, tables and rules in tools you already own remove most of it.
 category: Digital Operations
 published_date: 2026-10-04
@@ -17,9 +17,9 @@ sources:
   - Format an Excel table - Microsoft Support | https://support.microsoft.com/en-us/excel/format-an-excel-table
   - Use conditional formatting to highlight information in Excel - Microsoft Support | https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-in-excel-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f
 related:
-  - Meetings That Decide Nothing: The Payroll Cost of Meeting Overload | /impact/meetings-without-decisions-payroll-cost/
-  - Fixing Avoidable Mistakes Instead of Serving Customers: The Cost of Rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
-  - Recreating Documents Nobody Can Find: The Cost of Duplicated Work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
+  - Meetings that decide nothing: The payroll cost of meeting overload | /impact/meetings-without-decisions-payroll-cost/
+  - Fixing avoidable mistakes instead of serving customers: The cost of rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
+  - Recreating documents nobody can find: The cost of duplicated work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
 summary: Fixing fonts, headings, column widths and cell colours by hand looks trivial, but across a team it adds up to weeks of paid time a year. Styles, tables and rules in tools you already own remove most of it.
 layout: plain
 ---

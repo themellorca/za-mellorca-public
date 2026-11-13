@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-256
 slug: undocumented-automations-slow-troubleshooting-risky-changes-cost
-title: The Flow Nobody Can Explain: What Undocumented Automations Cost to Fix and Change
-description: When automations have no written record of what they do and why, every failure takes longer to diagnose and every change risks breaking something nobody knew depended on it.
+title: The flow nobody can explain: What undocumented automations cost to fix and change
+description: When automations have no written record of what they do and why, every failure takes longer to diagnose and every change risks breaking something unknown.
 lead: When automations have no written record of what they do and why, every failure takes longer to diagnose and every change risks breaking something nobody knew depended on it.
 category: Automation
 published_date: 2026-10-09
@@ -17,9 +17,9 @@ sources:
   - Use consistent naming for flow components - Power Automate | https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/use-consistent-naming-conventions
   - Operational Excellence quick links - Power Platform | https://learn.microsoft.com/en-us/power-platform/well-architected/operational-excellence/
 related:
-  - Late Payments Nobody Follows Up: The Cost of Slow Collections | /impact/inconsistent-payment-follow-up-cash-flow-cost/
-  - Five Laptop Models, Three Chargers: What Inconsistent Hardware Costs a Business | /impact/mixed-laptop-models-and-accessories-support-and-procurement-cost/
-  - One Spreadsheet, Three Jobs: The Cost of Using Excel as Form, Database and Workflow | /impact/spreadsheet-as-form-database-workflow-errors-maintenance-cost/
+  - Late payments nobody follows up: The cost of slow collections | /impact/inconsistent-payment-follow-up-cash-flow-cost/
+  - Five laptop models, three chargers: What inconsistent hardware costs a business | /impact/mixed-laptop-models-and-accessories-support-and-procurement-cost/
+  - One spreadsheet, three jobs: The cost of using Excel as form, database and workflow | /impact/spreadsheet-as-form-database-workflow-errors-maintenance-cost/
 summary: When automations have no written record of what they do and why, every failure takes longer to diagnose and every change risks breaking something nobody knew depended on it.
 layout: plain
 ---

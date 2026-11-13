@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-128
 slug: why-copying-data-between-systems-is-more-expensive-than-it-looks
-title: Why Copying Data Between Systems Is More Expensive Than It Looks
-description: Retyping an order or pasting a customer's details looks like a few minutes of admin. The typing is the cheapest part. Checking, correcting, reconciling, waiting and depending on one person cost far more. A way to see the full cost of copying data, layer by layer.
+title: Why copying data between systems is more expensive than it looks
+description: Retyping an order looks like minutes of admin, but typing is the cheapest part. Checking, correcting, reconciling and waiting cost more. See the full cost.
 lead: Retyping an order or pasting a customer's details looks like a few minutes of admin. The typing is the cheapest part. Checking, correcting, reconciling, waiting and depending on one person cost far more. A way to see the full cost of copying data, layer by layer.
 category: Systems & Integration
 published_date: 2026-10-07
@@ -14,9 +14,10 @@ sources:
   - What Are Data Silos? - IBM | https://www.ibm.com/think/topics/data-silos
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
 related:
-  - How to Map the Flow of Information Between Business Systems | /insights/how-to-map-the-flow-of-information-between-business-systems/
-  - How Duplicate Software Creates Duplicate Work | /insights/how-duplicate-software-creates-duplicate-work/
-  - How a CRM Turns Into an Expensive Address Book | /insights/how-a-crm-turns-into-an-expensive-address-book/
+  - How to map the flow of information between business systems | /insights/how-to-map-the-flow-of-information-between-business-systems/
+  - How duplicate software creates duplicate work | /insights/how-duplicate-software-creates-duplicate-work/
+  - How a CRM turns into an expensive address book | /insights/how-a-crm-turns-into-an-expensive-address-book/
+  - How to reduce re-entry of the same information across systems | /insights/how-to-stop-the-same-information-being-typed-into-several-systems/
 summary: Retyping an order or pasting a customer's details looks like a few minutes of admin. The typing is the cheapest part. Checking, correcting, reconciling, waiting and depending on one person cost far more. A way to see the full cost of copying data, layer by layer.
 layout: plain
 ---

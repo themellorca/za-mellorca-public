@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-010
 slug: why-repeated-workarounds-are-a-warning-sign
-title: Why Repeated Workarounds Are a Warning Sign
-description: One workaround is often a sensible fix. The same workaround used every week for months is an unmanaged part of the business, and a signal that a system, rule or handoff no longer fits the work. How to read that signal and decide what to do about it.
+title: Why repeated workarounds are a warning sign
+description: One workaround is often sensible. The same one used every week for months is an unmanaged part of the business and a sign something no longer fits.
 lead: One workaround is often a sensible fix. The same workaround used every week for months is an unmanaged part of the business, and a signal that a system, rule or handoff no longer fits the work. How to read that signal and decide what to do about it.
 category: Operations
 published_date: 2026-10-04
@@ -14,9 +14,9 @@ sources:
   - ITIL problem management: Definition, process flow & benefits | https://www.manageengine.com/products/service-desk/itsm/what-is-problem-management.html
   - Systems Approach - PSNet | https://psnet.ahrq.gov/primer/systems-approach
 related:
-  - What Your Recurring Problems Are Telling You About Your Systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
-  - Why Work Gets Lost Between Teams | /insights/why-work-gets-lost-between-teams/
-  - Why Your Business Feels Harder to Run Than It Should | /insights/why-your-business-feels-harder-to-run-than-it-should/
+  - What your recurring problems are telling you about your systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
+  - Why work gets lost between teams | /insights/why-work-gets-lost-between-teams/
+  - Why your business feels harder to run than it should | /insights/why-your-business-feels-harder-to-run-than-it-should/
 summary: One workaround is often a sensible fix. The same workaround used every week for months is an unmanaged part of the business, and a signal that a system, rule or handoff no longer fits the work. How to read that signal and decide what to do about it.
 layout: plain
 ---

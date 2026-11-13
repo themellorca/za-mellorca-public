@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-353
 slug: the-hidden-risk-of-shared-accounts
-title: The Hidden Risk of Shared Accounts
-description: One login used by many people is convenient until something goes wrong and nobody can say who did what. Here is why shared accounts create hidden risk and how to replace them.
+title: The hidden risk of shared accounts
+description: One login shared by many people is convenient until something goes wrong and nobody can say who did what. Here is how to replace shared accounts.
 lead: One login used by many people is convenient until something goes wrong and nobody can say who did what. Here is why shared accounts create hidden risk and how to replace them.
 category: Security, Access & Accountability
 published_date: 2026-10-08
@@ -18,9 +18,10 @@ sources:
   - NIST Special Publication 800-63B | https://pages.nist.gov/800-63-3/sp800-63b.html
   - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
 related:
-  - When AI Agents Can Act but Governance Cannot See Them | /patterns/when-ai-agents-can-act-but-governance-cannot-see-them/
-  - When Nobody Knows Which Spreadsheet Is the Latest | /patterns/when-nobody-knows-which-spreadsheet-is-the-latest/
-  - When Offboarding Leaves Digital Access Behind | /patterns/when-offboarding-leaves-digital-access-behind/
+  - When AI agents can act but governance cannot see them | /patterns/when-ai-agents-can-act-but-governance-cannot-see-them/
+  - When nobody knows which spreadsheet is the latest | /patterns/when-nobody-knows-which-spreadsheet-is-the-latest/
+  - When offboarding leaves digital access behind | /patterns/when-offboarding-leaves-digital-access-behind/
+  - One admin login, several people: The accountability and security cost | /impact/single-administrator-account-shared-between-staff-accountability-security-exposure-cost/
 summary: One login used by many people is convenient until something goes wrong and nobody can say who did what. Here is why shared accounts create hidden risk and how to replace them.
 layout: plain
 ---
@@ -38,7 +39,7 @@ A shared account hides who did what. The risk is not only that an outsider might
 
 The US Cybersecurity and Infrastructure Security Agency advises that every account should have its own strong password and that people should not reuse passwords across accounts. The UK National Cyber Security Centre's guidance on passwords makes a similar point from the angle of practicality: systems should be designed around how people actually behave, rather than leaving them to find workarounds. Sharing is the workaround. People share because the alternative, a separate login for each person for each tool, is slow or costs another licence.
 
-Access control law is also relevant. South Africa's Protection of Personal Information Act requires responsible parties to secure the integrity and confidentiality of personal information in their care by taking appropriate, reasonable technical and organisational measures. A login that a dozen people know, and nobody can attribute, is difficult to describe as an appropriate measure.
+Access control law is also relevant. South Africa's [Protection of Personal Information Act](https://www.gov.za/documents/protection-personal-information-act) requires responsible parties to secure the integrity and confidentiality of personal information in their care by taking appropriate, reasonable technical and organisational measures. A login that a dozen people know, and nobody can attribute, is difficult to describe as an appropriate measure.
 
 **Realisation prompt:** for your most important shared login, can you say who used it last Tuesday?
 

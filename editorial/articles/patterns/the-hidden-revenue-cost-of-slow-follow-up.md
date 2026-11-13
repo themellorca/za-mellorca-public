@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-103
 slug: the-hidden-revenue-cost-of-slow-follow-up
-title: The Hidden Revenue Cost of Slow Follow-Up
+title: The hidden revenue cost of slow follow-up
 description: A Pattern that links follow-up speed to revenue velocity, clarifying the revenue leakage that occurs when interactions lag behind opportunities.
 lead: A Pattern that links follow-up speed to revenue velocity, clarifying the revenue leakage that occurs when interactions lag behind opportunities.
 category: Revenue acceleration
@@ -18,9 +18,9 @@ sources:
   - Understand the sales process | https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales
   - Insights | https://www.bain.com/insights
 related:
-  - The Hidden Cost of Re-entering the Same Information | /patterns/the-hidden-cost-of-reentering-the-same-information/
-  - The Cost of Delayed Handoffs After a Deal Is Won | /patterns/the-cost-of-delayed-handoffs-after-a-deal-is-won/
-  - The Hidden Cost of Waiting for Management Information | /patterns/the-hidden-cost-of-waiting-for-management-information/
+  - The hidden cost of re-entering the same information | /patterns/the-hidden-cost-of-reentering-the-same-information/
+  - The cost of delayed handoffs after a deal is won | /patterns/the-cost-of-delayed-handoffs-after-a-deal-is-won/
+  - The hidden cost of waiting for management information | /patterns/the-hidden-cost-of-waiting-for-management-information/
 summary: A Pattern that links follow-up speed to revenue velocity, clarifying the revenue leakage that occurs when interactions lag behind opportunities.
 layout: plain
 ---

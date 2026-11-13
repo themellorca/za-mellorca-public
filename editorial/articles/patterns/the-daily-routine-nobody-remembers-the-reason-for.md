@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-011
 slug: the-daily-routine-nobody-remembers-the-reason-for
-title: The Daily Routine Nobody Remembers the Reason For
-description: Many businesses run daily tasks that were set up for a reason that no longer exists. Asking what each routine is for, and who still uses its output, is often the cheapest improvement available.
+title: The daily routine nobody remembers the reason for
+description: Many businesses run daily tasks set up for reasons that no longer exist. Asking what each is for, and who uses its output, is often the cheapest fix.
 lead: Many businesses run daily tasks that were set up for a reason that no longer exists. Asking what each routine is for, and who still uses its output, is often the cheapest improvement available.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -19,9 +19,10 @@ sources:
   - Standardized Work - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/standardized-work/
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
 related:
-  - Why Small Tasks Become Expensive at Scale | /patterns/why-small-tasks-become-expensive-at-scale/
-  - The Business Process That Only Works Because Someone Remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
-  - When Your Team Is Busy but Output Is Not Increasing | /patterns/when-your-team-is-busy-but-output-is-not-increasing/
+  - Why small tasks become expensive at scale | /patterns/why-small-tasks-become-expensive-at-scale/
+  - The business process that only works because someone remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
+  - When your team is busy but output is not increasing | /patterns/when-your-team-is-busy-but-output-is-not-increasing/
+  - The first signs that manual work has become structural | /patterns/the-first-signs-that-manual-work-has-become-structural/
 summary: Many businesses run daily tasks that were set up for a reason that no longer exists. Asking what each routine is for, and who still uses its output, is often the cheapest improvement available.
 layout: plain
 ---
@@ -37,7 +38,7 @@ An illustrative example: a KwaZulu-Natal property management company with about 
 
 A routine is a decision that was made once and then stopped being examined. When it was set up, it probably solved a real problem: a missing report, an unreliable system, a control the auditors asked for, a manager who wanted visibility. Since then the business has changed. Systems have been replaced, people have moved on, reporting has improved. The routine has not, because nothing in the business is designed to ask whether it is still needed.
 
-Google's site reliability engineering workbook makes the point directly: it advises that it is important to periodically question toil-intensive business processes. The emphasis is on periodically. A routine that was justified five years ago is not justified today simply because it once was.
+Google's site reliability engineering [workbook](https://sre.google/workbook/eliminating-toil/) makes the point directly: it advises that it is important to periodically question toil-intensive business processes. The emphasis is on periodically. A routine that was justified five years ago is not justified today simply because it once was.
 
 The cost is not only the time spent. Inherited routines also shape how people think about their work. A team that spends its first hour every day on tasks it does not understand learns that the job is to follow the routine, not to improve the outcome. That makes the next unnecessary routine easier to add.
 
@@ -57,7 +58,7 @@ It differs from [why does this task still need a person every time](/patterns/wh
 - **Systems change underneath the routine.** New software often makes an old workaround redundant, but implementation projects focus on the new system, not on the manual habits built around the old one.
 - **Silence is read as satisfaction.** When a report is emailed and nobody replies, the sender assumes it is being used. Often it is simply being ignored.
 
-The Lean Enterprise Institute describes the five whys as asking why repeatedly to get beyond the obvious symptoms to the root cause. Applied to a routine, the questions run in reverse: why do we do this, why was that needed, and is that reason still true?
+The Lean Enterprise Institute describes the [five whys](https://www.lean.org/lexicon-terms/five-whys/) as asking why repeatedly to get beyond the obvious symptoms to the root cause. Applied to a routine, the questions run in reverse: why do we do this, why was that needed, and is that reason still true?
 
 ## Commercial impact
 
@@ -73,7 +74,7 @@ They can also be mistaken for a performance issue. A manager sees that the team 
 
 ## Possibility
 
-In a better state, every recurring task has a short record of what it is for, who uses its output and who can decide to stop it. Routines are reviewed whenever a related system changes and at least once a year in any case. Retiring a routine is treated as normal housekeeping, not a risk. Where a routine is still needed, it is documented as standard work, which the Lean Enterprise Institute describes as a baseline from which improvement can start.
+In a better state, every recurring task has a short record of what it is for, who uses its output and who can decide to stop it. Routines are reviewed whenever a related system changes and at least once a year in any case. Retiring a routine is treated as normal housekeeping, not a risk. Where a routine is still needed, it is documented as [standard work](https://www.lean.org/lexicon-terms/standardized-work/), which the Lean Enterprise Institute describes as a baseline from which improvement can start.
 
 For the property management company, that meant stopping the Monday schedule, showing both recipients where to find the same information in the software and using the freed morning for tenant arrears follow-up.
 
@@ -86,7 +87,7 @@ For the property management company, that meant stopping the Monday schedule, sh
 5. **Check against current systems.** For tasks that are still needed, check whether a current system already produces the same result, and whether the task could be removed at source rather than automated.
 6. **Make retirement routine.** Add a review of related manual routines to every system change and to an annual operations review.
 
-Mapping the end-to-end flow of work, as value-stream mapping does, often exposes these routines because they appear as steps that feed nothing downstream. A lighter version is described in [how to map a business workflow without making it complicated](/insights/how-to-map-a-business-workflow-without-making-it-complicated/).
+Mapping the end-to-end flow of work, as [value-stream mapping](https://www.lean.org/lexicon-terms/value-stream-mapping/) does, often exposes these routines because they appear as steps that feed nothing downstream. A lighter version is described in [how to map a business workflow without making it complicated](/insights/how-to-map-a-business-workflow-without-making-it-complicated/).
 
 ## Diagnostic questions
 

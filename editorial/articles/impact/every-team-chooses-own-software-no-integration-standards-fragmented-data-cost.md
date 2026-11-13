@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-074
 slug: every-team-chooses-own-software-no-integration-standards-fragmented-data-cost
-title: Every Team Picks Its Own Software: The Cost of Having No Integration Standards
-description: Teams that choose tools independently are not the problem; tools that cannot share data are. See which minimum standards keep records consistent and cut re-keying.
+title: Every team picks its own software: The cost of having no integration standards
+description: Teams choosing tools independently is not the problem; tools that cannot share data are. Minimum standards keep records consistent and cut re-keying.
 lead: Teams that choose tools independently are not the problem; tools that cannot share data are. See which minimum standards keep records consistent and cut re-keying.
 category: Digital Operations
 published_date: 2026-10-10
@@ -17,9 +17,9 @@ sources:
   - Microsoft Graph overview - Microsoft Graph | https://learn.microsoft.com/en-us/graph/overview
   - Connector classification - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/dlp-connector-classification
 related:
-  - One Spreadsheet, Three Jobs: The Cost of Using Excel as Form, Database and Workflow | /impact/spreadsheet-as-form-database-workflow-errors-maintenance-cost/
-  - Re-keying Orders After the Sale: The Labour and Fulfilment Cost of Disconnected Systems | /impact/orders-rekeyed-after-sale-fulfilment-risk-cost/
-  - Paying Consultants to Keep Unnecessary Software Complexity Running | /impact/paying-consultants-to-maintain-unnecessary-software-complexity-recurring-cost/
+  - One spreadsheet, three jobs: The cost of using Excel as form, database and workflow | /impact/spreadsheet-as-form-database-workflow-errors-maintenance-cost/
+  - Re-keying orders after the sale: The labour and fulfilment cost of disconnected systems | /impact/orders-rekeyed-after-sale-fulfilment-risk-cost/
+  - Paying consultants to keep unnecessary software complexity running | /impact/paying-consultants-to-maintain-unnecessary-software-complexity-recurring-cost/
 summary: Teams that choose tools independently are not the problem; tools that cannot share data are. See which minimum standards keep records consistent and cut re-keying.
 layout: plain
 ---
@@ -54,7 +54,7 @@ Our insight on [the hidden cost of apps that do not share data](/insights/the-hi
 
 An integration standard is not a technology project. It is a short list of requirements that any new business tool must meet before it is bought. Good candidates are:
 
-1. **A documented way to exchange data.** Many modern services publish an application programming interface. The OpenAPI Initiative describes the OpenAPI Specification as a standard, programming-language-agnostic interface description for REST APIs that lets people and machines understand what a service can do without reading its code. A vendor that publishes an interface description is far easier to connect than one that does not.
+1. **A documented way to exchange data.** Many modern services publish an application programming interface. [The OpenAPI Initiative](https://www.openapis.org/faq) describes the OpenAPI Specification as a standard, programming-language-agnostic interface description for REST APIs that lets people and machines understand what a service can do without reading its code. A vendor that publishes an interface description is far easier to connect than one that does not.
 2. **A usable export.** Data can be extracted in a structured format without raising a support ticket.
 3. **A shared identifier.** Customers, products, suppliers and staff carry one agreed reference that appears in every system.
 4. **A named master.** For each kind of record, one system is the source of truth. See [deciding what should be the system of record](/insights/how-to-decide-what-should-be-the-system-of-record/).
@@ -63,7 +63,7 @@ An integration standard is not a technology project. It is a short list of requi
 
 ## Platforms already govern this, if you look
 
-Larger platforms show what controlled connection looks like. Microsoft Graph, for example, is described by Microsoft as the gateway to data in services such as Microsoft Entra and Microsoft 365, exposing a single endpoint for many core services. In the Power Platform, Microsoft documents data policies that sort connectors into Business, Non-Business and Blocked groups, and states that connectors in the same group can share data while those in different groups cannot. You do not need those products to take the lesson: deciding in advance which tools may exchange data, and which may not, is a design choice that can be made once instead of argued about every time.
+Larger platforms show what controlled connection looks like. [Microsoft Graph](https://learn.microsoft.com/en-us/graph/overview), for example, is described by Microsoft as the gateway to data in services such as Microsoft Entra and Microsoft 365, exposing a single endpoint for many core services. In the Power Platform, Microsoft [documents data policies](https://learn.microsoft.com/en-us/power-platform/admin/dlp-connector-classification) that sort connectors into Business, Non-Business and Blocked groups, and states that connectors in the same group can share data while those in different groups cannot. You do not need those products to take the lesson: deciding in advance which tools may exchange data, and which may not, is a design choice that can be made once instead of argued about every time.
 
 ## The financial chain
 

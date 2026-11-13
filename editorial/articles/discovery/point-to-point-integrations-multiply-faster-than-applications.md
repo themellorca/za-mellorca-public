@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-279
 slug: point-to-point-integrations-multiply-faster-than-applications
 title: Why your integrations multiply faster than your applications
-description: Each new system gets its own direct connections to the others, until the links outnumber the applications many times over. Why point-to-point integration grows this way and how to bring it back under control.
+description: Each new system gets its own direct connections until links outnumber applications. Why point-to-point integration grows this way and how to rein it in.
 lead: Each new system gets its own direct connections to the others, until the links outnumber the applications many times over. Why point-to-point integration grows this way and how to bring it back under control.
 category: Integration & API Operations
 published_date: 2026-10-06
@@ -20,6 +20,7 @@ related:
   - Why batch integrations leave your systems hours out of date | /discovery/batch-integrations-leave-systems-hours-out-of-date/
   - Why retry logic creates duplicate transactions at the receiving end | /discovery/retry-logic-creates-duplicate-transactions-at-the-receiving-end/
   - API credentials are shared across unrelated integrations | /discovery/api-credentials-shared-across-unrelated-integrations/
+  - The same customer data is integrated through several different interfaces | /discovery/why-one-customer-record-ends-up-flowing-through-many-different-connections/
 summary: Each new system gets its own direct connections to the others, until the links outnumber the applications many times over. Why point-to-point integration grows this way and how to bring it back under control.
 layout: plain
 ---
@@ -33,15 +34,17 @@ A point-to-point integration connects one system directly to another. For two or
 
 Each link has its own mapping, credentials, error handling, schedule and owner, or lack of one. Changing any system means finding and changing every link that touches it.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-IT managers and operations leads search for how to manage too many integrations, whether to use middleware or an integration platform, or how to integrate an acquired company's systems. Finance asks why every system change costs so much. The practical need is a way of connecting systems where adding or replacing an application means changing one connection, not a dozen, and where the business can see all its data flows in one place.
+IT managers and operations leads ask how to manage too many integrations, whether to use middleware or an integration platform, or how to integrate an acquired company's systems. Finance asks why every system change costs so much. The practical need is a way of connecting systems where adding or replacing an application means changing one connection, not a dozen, and where the business can see all its data flows in one place.
 
 ## Evidence and system mechanism
 
 ### Direct connections couple systems together
 
-Microsoft's architecture guidance on the [publisher-subscriber pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber) describes the problem directly: when a sender communicates with its consumers, it must know the identity and endpoint of every consumer, deliver messages to each and manage failures individually, and adding or removing a consumer requires changes to the sender. Its solution is an intermediary, a message broker or event bus, that copies each message to every interested subscriber. Benefits it lists include decoupling subsystems, isolating faults so that one subscriber's failure does not affect others, and supporting integration between different platforms. It also lists the costs: ordering is not guaranteed, at-least-once delivery can create duplicates, schemas evolve independently and need versioning, and correlation IDs are needed to trace a message end to end.
+Microsoft's architecture guidance on the [publisher-subscriber pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber) describes the problem directly: when a sender communicates with its consumers, it must know the identity and endpoint of every consumer, deliver messages to each and manage failures individually, and adding or removing a consumer requires changes to the sender. Its solution is an intermediary, a message broker or event bus, that copies each message to every interested subscriber.
+
+Benefits it lists include decoupling subsystems, isolating faults so that one subscriber's failure does not affect others, and supporting integration between different platforms. It also lists the costs: ordering is not guaranteed, at-least-once delivery can create duplicates, schemas evolve independently and need versioning, and correlation IDs are needed to trace a message end to end.
 
 ### A central broker reduces the number of links
 

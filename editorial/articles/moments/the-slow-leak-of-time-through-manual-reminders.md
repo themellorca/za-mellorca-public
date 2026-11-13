@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000034
 slug: the-slow-leak-of-time-through-manual-reminders
-title: The Slow Leak of Time Through Manual Reminders
-description: Phone alarms, sticky notes and flagged emails keep customer promises alive in many small businesses. Each reminder costs seconds. Together they cost attention all day. What changes when a follow-up becomes a record instead of a memory.
+title: The slow leak of time through manual reminders
+description: Phone alarms, sticky notes and flagged emails keep customer promises alive, at a cost to attention all day. What changes when a follow-up becomes a record.
 lead: Phone alarms, sticky notes and flagged emails keep customer promises alive in many small businesses. Each reminder costs seconds. Together they cost attention all day. What changes when a follow-up becomes a record instead of a memory.
 category: Time & Attention
 published_date: 2026-10-05
@@ -19,9 +19,9 @@ sources:
   - Set up task reminders and daily task digest emails | https://knowledge.hubspot.com/tasks/task-reminders-and-daily-digest
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
 related:
-  - When Every Day Starts by Rebuilding Yesterday's Context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
-  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
-  - The Meeting That Could Have Been a Shared Record | /moments/the-meeting-that-could-have-been-a-shared-record/
+  - When every day starts by rebuilding yesterday's context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
+  - The lunch break eaten by approval requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - The meeting that could have been a shared record | /moments/the-meeting-that-could-have-been-a-shared-record/
 summary: Phone alarms, sticky notes and flagged emails keep customer promises alive in many small businesses. Each reminder costs seconds. Together they cost attention all day. What changes when a follow-up becomes a record instead of a memory.
 layout: plain
 ---
@@ -35,7 +35,7 @@ The obvious cost is the minute or two it takes to set the reminder and later act
 
 The less obvious cost is everything around the reminder. The person has to decide which method to use for this promise. They have to re-read the context when the alarm goes off, because an alarm that says "call Mrs N" does not say what was promised. They have to check whether a colleague already dealt with it. They have to reschedule the reminder when the customer does not answer. And between setting the reminder and acting on it, part of their attention stays with the open promise, because the method is only as reliable as the person who set it.
 
-That last point is offered as a reasoned observation rather than a measured one. No source cited here measures the attention cost of informal reminders in South African businesses. Microsoft's Work Trend Index does report that 68% of people in its survey said they lacked enough uninterrupted focus time during the workday, and that 62% said they spent too much time searching for information. Those are global figures from users of one vendor's software, and they do not isolate reminders. They suggest that fragmented attention and hunting for context are common features of office work, and manual reminders produce both.
+That last point is offered as a reasoned observation rather than a measured one. No source cited here measures the attention cost of informal reminders in South African businesses. Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) does report that 68% of people in its survey said they lacked enough uninterrupted focus time during the workday, and that 62% said they spent too much time searching for information. Those are global figures from users of one vendor's software, and they do not isolate reminders. They suggest that fragmented attention and hunting for context are common features of office work, and manual reminders produce both.
 
 ## An illustrative case
 

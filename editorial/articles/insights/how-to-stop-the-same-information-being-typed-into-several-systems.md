@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-073
 slug: how-to-stop-the-same-information-being-typed-into-several-systems
-title: How to Reduce Re-Entry of the Same Information Across Systems
-description: A five-step programme for finding repeated data entry, ranking it by risk and choosing the most effective fix, from removing the field to a safe automatic transfer.
+title: How to reduce re-entry of the same information across systems
+description: A five-step programme for finding repeated data entry, ranking it by risk and choosing the best fix, from removing the field to a safe automatic transfer.
 lead: A five-step programme for finding repeated data entry, ranking it by risk and choosing the most effective fix, from removing the field to a safe automatic transfer.
 category: Data and Process Efficiency
 published_date: 2026-10-10
@@ -14,8 +14,8 @@ sources:
   - Extract, transform, load (ETL) - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl
   - Idempotent Consumer Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/idempotent-consumer
 related:
-  - How to Identify the Systems Your Business Actually Depends On | /insights/how-to-identify-the-systems-your-business-actually-depends-on/
-  - Broken Handoffs Are Systems Problems | /insights/broken-handoffs-are-systems-problems/
+  - How to identify the systems your business actually depends on | /insights/how-to-identify-the-systems-your-business-actually-depends-on/
+  - Broken handoffs are systems problems | /insights/broken-handoffs-are-systems-problems/
   - How to decide what should be the system of record | /insights/how-to-decide-what-should-be-the-system-of-record/
 summary: A five-step programme for finding repeated data entry, ranking it by risk and choosing the most effective fix, from removing the field to a safe automatic transfer.
 layout: plain
@@ -67,7 +67,7 @@ Where one system needs to show another's information, it can often refer to it b
 
 Where a copy must exist, move it by connection, not by hand. A scheduled or event-based transfer takes over the typing, and, if designed well, handles the checks as well. Microsoft's guidance on extract, transform and load processes notes that transformation commonly includes cleaning, deduplicating and validating data as it moves. Those steps are where a connection can do better than a person: it applies the same rule every time.
 
-One design detail matters a great deal. A transfer should update an existing record where one exists and create a new one only where none does, matched on a business identifier. Microsoft's description of the idempotent consumer pattern notes that an upsert keyed on a business identifier produces the same result whether it runs once or many times, which makes it naturally safe to repeat. Without this, a retry or a re-run creates duplicates, and you have exchanged re-entry for clean-up work. The risk is described in [how duplicate data gets into business systems](/insights/how-duplicate-data-gets-into-business-systems/).
+One design detail matters a great deal. A transfer should update an existing record where one exists and create a new one only where none does, matched on a business identifier. Microsoft's description of the [idempotent consumer pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/idempotent-consumer) notes that an upsert keyed on a business identifier produces the same result whether it runs once or many times, which makes it naturally safe to repeat. Without this, a retry or a re-run creates duplicates, and you have exchanged re-entry for clean-up work. The risk is described in [how duplicate data gets into business systems](/insights/how-duplicate-data-gets-into-business-systems/).
 
 ### Standardise what remains
 
@@ -75,7 +75,7 @@ Some re-entry cannot be removed for now. Make it safer by providing pick-lists i
 
 ## Step 4: Protect accuracy while you change things
 
-Removing re-entry changes who is responsible for the quality of information, and that must be made explicit. If sales now capture the customer's details once and everyone else relies on them, sales need to know that their accuracy has become everyone's problem, and need the tools, such as required fields and format checks, to get it right.
+Removing re-entry changes who is responsible for the [quality of information](https://popia.co.za/section-16-quality-of-information/), and that must be made explicit. If sales now capture the customer's details once and everyone else relies on them, sales need to know that their accuracy has become everyone's problem, and need the tools, such as required fields and format checks, to get it right.
 
 There is a legal dimension for South African businesses. Section 16 of the Protection of Personal Information Act requires a responsible party to take reasonably practicable steps to ensure that personal information is complete, accurate, not misleading and updated where necessary, having regard to the purpose for which it is collected or used. A business holding the same customer's details in four systems, typed four times, has four chances to fall short of that standard. One well-maintained source, with others drawing from it, makes the obligation far easier to meet.
 
@@ -85,7 +85,9 @@ Before changing anything, record a baseline for each repeat you tackle: how ofte
 
 ## An illustrative example
 
-Consider a hypothetical Centurion training company where learner details were typed into an enquiry spreadsheet, again into the booking system, again into the invoicing package and finally onto certificates. Tracing one learner showed twelve fields repeated, and a wrong ID number typed in one place caused rejected certificates every quarter. The company worked down the options. Two fields were removed because nobody used them. The booking system became the single place of capture, with a format check on ID numbers. Invoicing drew learner and company details from bookings through a nightly transfer that updated existing accounts instead of creating new ones. Certificates pulled directly from bookings. Typing per learner dropped from four entries to one, and certificate rejections fell to the occasional genuine error.
+Consider a hypothetical Centurion training company where learner details were typed into an enquiry spreadsheet, again into the booking system, again into the invoicing package and finally onto certificates. Tracing one learner showed twelve fields repeated, and a wrong ID number typed in one place caused rejected certificates every quarter. The company worked down the options. Two fields were removed because nobody used them.
+
+The booking system became the single place of capture, with a format check on ID numbers. Invoicing drew learner and company details from bookings through a nightly transfer that updated existing accounts instead of creating new ones. Certificates pulled directly from bookings. Typing per learner dropped from four entries to one, and certificate rejections fell to the occasional genuine error.
 
 ## A closing test
 

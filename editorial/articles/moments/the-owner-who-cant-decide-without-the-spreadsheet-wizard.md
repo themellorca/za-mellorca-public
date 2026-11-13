@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000050
 slug: the-owner-who-cant-decide-without-the-spreadsheet-wizard
-title: The Owner Who Can't Decide Without the Spreadsheet Wizard
-description: When the business's real numbers live in a workbook only one person understands, the owner's decisions run on that person's diary. What this takes from both people, and what shared, checkable figures give back.
+title: The owner who can't decide without the spreadsheet wizard
+description: When the real numbers live in a workbook only one person understands, the owner's decisions run on that person's diary. What shared, checkable figures do.
 lead: When the business's real numbers live in a workbook only one person understands, the owner's decisions run on that person's diary. What this takes from both people, and what shared, checkable figures give back.
 category: Human Agency
 published_date: 2026-10-06
@@ -20,9 +20,9 @@ sources:
   - Collaborate on Excel workbooks at the same time with co-authoring - Microsoft Support | https://support.microsoft.com/en-us/office/collaborate-on-excel-workbooks-at-the-same-time-with-co-authoring-7152aa8b-b791-414c-a3bb-3024e46fb104
   - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
 related:
-  - What Real Delegation Requires From Systems | /moments/what-real-delegation-requires-from-systems/
-  - Why Teams Stop Suggesting Improvements | /moments/why-teams-stop-suggesting-improvements/
-  - When the System Decides What You Can Do Today | /moments/when-the-system-decides-what-you-can-do-today/
+  - What real delegation requires from systems | /moments/what-real-delegation-requires-from-systems/
+  - Why teams stop suggesting improvements | /moments/why-teams-stop-suggesting-improvements/
+  - When the system decides what you can do today | /moments/when-the-system-decides-what-you-can-do-today/
 summary: When the business's real numbers live in a workbook only one person understands, the owner's decisions run on that person's diary. What this takes from both people, and what shared, checkable figures give back.
 layout: plain
 ---
@@ -54,7 +54,7 @@ There is a confidence tax too, and it is shared. When the figures cannot be chec
 
 ## What larger organisations learned the hard way
 
-Public bodies have faced a version of this problem at much larger scale. In 2013 HM Treasury published a review of quality assurance of the analytical models that inform government policy, led by its Permanent Secretary, setting out best practice and recommending steps to make sure models are robust and trustworthy. The guidance that followed, the AQuA Book, was updated in July 2025. It describes separate roles for the person who commissions analysis, the analyst who builds it, an assurer who reviews it, and an approver who confirms it has been assured, and it states that the analyst and assurer roles should be separate.
+Public bodies have faced a version of this problem at much larger scale. In 2013 HM Treasury published a [review of quality assurance](https://www.gov.uk/government/publications/review-of-quality-assurance-of-government-models) of the analytical models that inform government policy, led by its Permanent Secretary, setting out best practice and recommending steps to make sure models are robust and trustworthy. The guidance that followed, the [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government), was updated in July 2025. It describes separate roles for the person who commissions analysis, the analyst who builds it, an assurer who reviews it, and an approver who confirms it has been assured, and it states that the analyst and assurer roles should be separate.
 
 A twelve-person South African business does not need four roles and a governance framework. But the principle travels well: analysis that drives significant decisions should not depend on a single person being both the only builder and the only checker. Separating those roles, even informally, is what lets other people rely on the result.
 
@@ -70,7 +70,7 @@ The goal is not to take the workbook away from the person who built it, or to re
 
 1. **Write down what the key figures mean.** A single page explaining where each figure comes from, what is included and what is excluded. This alone lets an owner read the workbook with more confidence.
 2. **Move the file somewhere shared and versioned.** Microsoft's guidance on co-authoring explains that workbooks stored in OneDrive or SharePoint Online can be opened by several people at once, with version history that lets earlier versions be restored. That does not fix the logic, but it ends the situation where the only current copy lives on one laptop.
-3. **Automate the inputs where the source system allows it.** Reporting tools can pull data on a schedule. Microsoft's documentation for Power BI, for example, notes that models on shared capacity can be refreshed up to eight times a day on a schedule. The point is not the tool; it is that figures stop depending on someone remembering to paste.
+3. **Automate the inputs where the source system allows it.** Reporting tools can pull data on a schedule. Microsoft's documentation for [Power BI](https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data), for example, notes that models on shared capacity can be refreshed up to eight times a day on a schedule. The point is not the tool; it is that figures stop depending on someone remembering to paste.
 4. **Introduce a second pair of eyes.** Ask someone else to check the main outputs once a month against the source system. This is the small-business version of separating the builder from the checker.
 5. **Teach the owner to answer three questions alone.** Pick the questions that most often wait. Make sure the owner can answer them without help, and confirm they trust the answer.
 

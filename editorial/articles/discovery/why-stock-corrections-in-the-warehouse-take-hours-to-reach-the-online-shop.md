@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-103
 slug: why-stock-corrections-in-the-warehouse-take-hours-to-reach-the-online-shop
 title: Warehouse adjustments do not reach ecommerce systems quickly
-description: A cycle count corrects the warehouse system, but the online shop keeps selling the old number. Why stock adjustments lag and how to make corrections flow to every sales channel.
+description: A cycle count corrects the warehouse system, but the online shop keeps selling the old number. Why adjustments lag and how to reach every sales channel.
 lead: A cycle count corrects the warehouse system, but the online shop keeps selling the old number. Why stock adjustments lag and how to make corrections flow to every sales channel.
 category: Inventory & Order Operations
 published_date: 2026-10-09
@@ -20,6 +20,7 @@ related:
   - Why teams cannot trace one business transaction across several systems | /discovery/teams-cannot-trace-a-business-transaction-across-systems/
   - Why system timestamps put transactions in the wrong reporting period | /discovery/source-system-timestamps-create-inconsistent-period-reporting/
   - Why dashboards keep running after the process they measure has changed | /discovery/dashboards-outlive-the-process-they-measure/
+  - Why cycle-count adjustments need a recorded root cause | /discovery/why-cycle-count-adjustments-need-a-recorded-root-cause/
 summary: A cycle count corrects the warehouse system, but the online shop keeps selling the old number. Why stock adjustments lag and how to make corrections flow to every sales channel.
 layout: plain
 ---
@@ -31,9 +32,9 @@ This article looks at that operating condition: warehouse stock adjustments that
 
 Stock changes for many reasons besides sales: counts, damage, returns, transfers between sites, goods received late, theft. The warehouse system is usually where these are recorded first. The online shop only learns about them if something carries the change across. In many businesses that something is a scheduled batch job, a spreadsheet upload or a person, so the shop's number lags the real one. Normal sales are often handled correctly because orders flow through the connection. It is the adjustments, which are less frequent and less visible, that fall through the gaps.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-An operations manager or ecommerce lead searching for this wants to stop selling stock that does not exist, and to stop the reverse, listing items as out of stock when the warehouse has them. They also want to know how fast is fast enough. A fashion retailer with thousands of orders a day has different needs from a hardware wholesaler with a few dozen. The goal is not instant synchronisation everywhere, but a defined and reliable delay that matches the speed at which stock actually sells.
+An operations manager or ecommerce lead facing this wants to stop selling stock that does not exist, and to stop the reverse, listing items as out of stock when the warehouse has them. They also want to know how fast is fast enough. A fashion retailer with thousands of orders a day has different needs from a hardware wholesaler with a few dozen. The goal is not instant synchronisation everywhere, but a defined and reliable delay that matches the speed at which stock actually sells.
 
 ## Evidence and system mechanism
 

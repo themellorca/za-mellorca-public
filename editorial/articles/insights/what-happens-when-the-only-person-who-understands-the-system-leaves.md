@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-328
 slug: what-happens-when-the-only-person-who-understands-the-system-leaves
-title: What Happens When the Only Person Who Understands the System Leaves?
-description: When the one person who understands a critical system leaves, problems unfold in stages: lost admin access, automations failing on their account, then a system nobody dares change. Here is what to secure, and in what order.
+title: What happens when the only person who understands the system leaves?
+description: When the one person who knows a critical system leaves, trouble comes in stages, from lost admin access to failing automations. What to secure first.
 lead: When the one person who understands a critical system leaves, problems unfold in stages: lost admin access, automations failing on their account, then a system nobody dares change. Here is what to secure, and in what order.
 category: Digital Operations
 published_date: 2026-10-07
@@ -14,8 +14,8 @@ sources:
   - Change the owner of a cloud flow in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/change-cloud-flow-owner
   - Remove a former employee - Overview - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee
 related:
-  - What to Do With a Software Stack Nobody Fully Understands | /insights/what-to-do-with-a-software-stack-nobody-fully-understands/
-  - What Happens When Every Department Chooses Its Own Tools | /insights/what-happens-when-every-department-chooses-its-own-tools/
+  - What to do with a software stack nobody fully understands | /insights/what-to-do-with-a-software-stack-nobody-fully-understands/
+  - What happens when every department chooses its own tools | /insights/what-happens-when-every-department-chooses-its-own-tools/
   - Why uncontrolled configuration changes create operational risk | /insights/why-uncontrolled-configuration-changes-create-operational-risk/
 summary: When the one person who understands a critical system leaves, problems unfold in stages: lost admin access, automations failing on their account, then a system nobody dares change. Here is what to secure, and in what order.
 layout: plain
@@ -31,15 +31,15 @@ The question is worth answering concretely, because the consequences do not arri
 
 The first problems are usually about accounts and permissions. The departing person may hold the only administrator account for a platform, the login to the domain registrar, or the account that owns the company's automation subscriptions. If their account is disabled as part of normal offboarding, those things may become unreachable.
 
-Microsoft's guidance on emergency access accounts for Microsoft Entra ID lists, among the reasons an organisation can lose administrative access, the situation in which the person with the most recent Global Administrator access leaves the organisation. Microsoft recommends two or more emergency access accounts that are not tied to any individual, with credentials stored where several authorised people can reach them, and tested regularly. The principle applies to every critical system: administrative access must never depend on one person's account.
+Microsoft's guidance on [emergency access](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access) accounts for Microsoft Entra ID lists, among the reasons an organisation can lose administrative access, the situation in which the person with the most recent Global Administrator access leaves the organisation. Microsoft recommends two or more emergency access accounts that are not tied to any individual, with credentials stored where several authorised people can reach them, and tested regularly. The principle applies to every critical system: administrative access must never depend on one person's account.
 
-There is also the opposite risk. If the person's access is not removed, a former employee still holds the keys to the business's systems. That pattern is described in [why former employees still have access](/patterns/why-do-former-employees-still-have-access/). Both problems come from the same gap: nobody has a list of what the person had access to.
+There is also the opposite risk. If the person's access is not removed, a [former employee](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee) still holds the keys to the business's systems. That pattern is described in [why former employees still have access](/patterns/why-do-former-employees-still-have-access/). Both problems come from the same gap: nobody has a list of what the person had access to.
 
 ## The first weeks: things that were running on their name
 
 Next, automations and integrations start to fail. Many were built under the departing person's account and run with their permissions, connections and licences.
 
-Microsoft's documentation for Power Automate shows how this plays out. When a flow is created, the creator becomes its owner. For scheduled and automated flows, the flow runs under the owner's licence and request limits. Ownership can be transferred, but for flows that are not part of a solution, Microsoft notes the owner cannot be changed in place because the owner is part of the flow's identity; the flow has to be recreated or moved first. Microsoft suggests a service principal, a non-human identity, as an owner that is not tied to a person who could leave.
+Microsoft's documentation for [Power Automate](https://learn.microsoft.com/en-us/power-automate/change-cloud-flow-owner) shows how this plays out. When a flow is created, the creator becomes its owner. For scheduled and automated flows, the flow runs under the owner's licence and request limits. Ownership can be transferred, but for flows that are not part of a solution, Microsoft notes the owner cannot be changed in place because the owner is part of the flow's identity; the flow has to be recreated or moved first. Microsoft suggests a service principal, a non-human identity, as an owner that is not tied to a person who could leave.
 
 Similar dependencies exist in most automation tools. Connections authenticated with a person's password stop working when the password is reset. Reports emailed from their mailbox stop arriving. Alerts that went to them now go nowhere. The general risk is explored in [why automations should not run on personal credentials](/discovery/why-automations-should-not-run-on-personal-credentials/).
 

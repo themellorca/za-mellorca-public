@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-013
 slug: copying-email-details-into-business-systems-admin-cost
-title: From Inbox to System by Hand: The Labour Cost of Retyping Emails
-description: When orders, bookings and enquiries arrive by email and staff retype them into business systems, the business pays in admin hours, keying errors and delay. How to measure it and what to automate first.
+title: From inbox to system by hand: The labour cost of retyping emails
+description: When orders, bookings and enquiries arrive by email and staff retype them, you pay in admin hours, keying errors and delay. Measure it, then automate.
 lead: When orders, bookings and enquiries arrive by email and staff retype them into business systems, the business pays in admin hours, keying errors and delay. How to measure it and what to automate first.
 category: Business Automation
 published_date: 2026-10-04
@@ -18,9 +18,10 @@ sources:
   - Specify which emails are automatically tracked - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/email-message-filtering-correlation
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
 related:
-  - Paper Forms Captured Twice: The Cost of Double Handling | /impact/paper-forms-captured-twice-double-handling-cost/
-  - Rebuilding the Same Report Every Month: The Labour Cost of Manual Reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
-  - Gathering Information Before Work Can Start: The Payroll Cost of Preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
+  - Paper forms captured twice: The cost of double handling | /impact/paper-forms-captured-twice-double-handling-cost/
+  - Rebuilding the same report every month: The labour cost of manual reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
+  - Gathering information before work can start: The payroll cost of preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
+  - When information reaches your systems only because someone carried it | /patterns/when-information-reaches-your-systems-only-because-someone-carried-it/
 summary: When orders, bookings and enquiries arrive by email and staff retype them into business systems, the business pays in admin hours, keying errors and delay. How to measure it and what to automate first.
 layout: plain
 ---

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-105
 slug: what-a-useful-workflow-map-contains-and-what-it-leaves-out
-title: What a Good Workflow Map Should Show
-description: A workflow map is a working tool, not a diagram for the wall. What it should show, from owners and systems to waiting time and exceptions, and what it should leave out.
+title: What a good workflow map should show
+description: A workflow map is a working tool, not wall decoration. What it should show, from owners and systems to waiting time and exceptions, and what to leave out.
 lead: A workflow map is a working tool, not a diagram for the wall. What it should show, from owners and systems to waiting time and exceptions, and what it should leave out.
 category: Process Mapping
 published_date: 2026-10-09
@@ -15,8 +15,8 @@ sources:
   - Implement a solution based on business processes - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution
   - Five Focusing Steps, a Process of On-Going Improvement | https://www.tocinstitute.org/five-focusing-steps.html
 related:
-  - Why Software Configuration Should Follow Workflow Design | /insights/why-software-configuration-should-follow-workflow-design/
-  - What Should Be Measured at Each Stage of a Workflow? | /insights/what-to-measure-at-each-stage-of-a-business-workflow/
+  - Why software configuration should follow workflow design | /insights/why-software-configuration-should-follow-workflow-design/
+  - What should be measured at each stage of a workflow? | /insights/what-to-measure-at-each-stage-of-a-business-workflow/
   - The hidden cost of operational friction in digital systems | /insights/hidden-cost-of-operational-friction/
 summary: A workflow map is a working tool, not a diagram for the wall. What it should show, from owners and systems to waiting time and exceptions, and what it should leave out.
 layout: plain
@@ -45,7 +45,7 @@ The companion exercise is mapping how information moves between systems rather t
 
 ## Show the waiting, not only the doing
 
-Lean practitioners use value stream mapping to separate the time work is being actively processed from the time it waits. The distinction matters because in most administrative processes the work is touched for minutes and waits for days. A quote that takes ten minutes to prepare may sit for three days in someone's inbox before it is approved.
+Lean practitioners use [value stream mapping](https://www.lean.org/lexicon-terms/value-stream-mapping/) to separate the time work is being actively processed from the time it waits. The distinction matters because in most administrative processes the work is touched for minutes and waits for days. A quote that takes ten minutes to prepare may sit for three days in someone's inbox before it is approved.
 
 A good map therefore carries at least two kinds of information on each step: roughly how long the work takes, and roughly how long it waits before the step starts. Estimates are fine to begin with. What matters is that the waiting is visible, because that is where the largest gains usually lie. Waiting is also the most common casualty of approvals, a pattern covered in [why approval processes become bottlenecks](/insights/why-approval-processes-become-bottlenecks/).
 

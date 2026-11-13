@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-101
 slug: pain-decision-making-with-outdated-information
-title: The Cost of Deciding with Outdated Information
+title: The cost of deciding with outdated information
 description: Explains how decision latency from stale data erodes competitiveness, with downstream effects on opportunity capture and revenue realization.
 lead: Explains how decision latency from stale data erodes competitiveness, with downstream effects on opportunity capture and revenue realization.
 category: decision-support
@@ -17,9 +17,9 @@ sources:
   - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
   - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
 related:
-  - Which Business Numbers Can You Trust? The Cost of Deciding on Bad Data | /impact/untrusted-business-numbers-unreliable-decision-cost/
-  - When Nobody Owns the Business Software You Pay For | /impact/pain-unclear-ownership-technology-spending/
-  - The Cost of Automations That Stop Silently | /impact/silent-automation-failures-financial-impact/
+  - Which business numbers can you trust? The cost of deciding on bad data | /impact/untrusted-business-numbers-unreliable-decision-cost/
+  - When nobody owns the business software you pay for | /impact/pain-unclear-ownership-technology-spending/
+  - The cost of automations that stop silently | /impact/silent-automation-failures-financial-impact/
 summary: Explains how decision latency from stale data erodes competitiveness, with downstream effects on opportunity capture and revenue realization.
 layout: plain
 ---
@@ -42,9 +42,9 @@ Leaders experience longer cycles from insight to action, dashboards that trail e
 - reports that cannot agree because they were extracted at different times, a problem examined in [why your reports cannot agree on the same number](/insights/why-your-reports-cannot-agree-on-the-same-number/);
 - decisions deferred to the next reporting cycle rather than taken when the signal appears.
 
-The UK government's Data Quality Framework treats timeliness as a core data quality dimension, describing it as the degree to which data reflects the period it represents and is up to date, and asks whether the lag between collection and availability suits the intended use. That framing is helpful because it avoids the trap of demanding real-time data everywhere. Fitness for purpose is the test.
+The UK government's [Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework) treats timeliness as a core data quality dimension, describing it as the degree to which data reflects the period it represents and is up to date, and asks whether the lag between collection and availability suits the intended use. That framing is helpful because it avoids the trap of demanding real-time data everywhere. Fitness for purpose is the test.
 
-IBM defines data latency as the time it takes for data to become available and ready for use after it is generated or requested, and identifies batch processing, transformation bottlenecks and fragmented data silos among its causes. Tooling limits matter too. Microsoft's Power BI documentation, for instance, states that semantic models on shared capacity are limited to eight scheduled refreshes a day, with up to 48 on Premium or Fabric capacity. Whatever the tool, a report can only be as current as its last refresh and the source data behind it.
+IBM defines data latency as the time it takes for data to become available and ready for use after it is generated or requested, and identifies batch processing, transformation bottlenecks and fragmented data silos among its causes. Tooling limits matter too. Microsoft's [Power BI](https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data) documentation, for instance, states that semantic models on shared capacity are limited to eight scheduled refreshes a day, with up to 48 on Premium or Fabric capacity. Whatever the tool, a report can only be as current as its last refresh and the source data behind it.
 
 ## Financial mechanism
 

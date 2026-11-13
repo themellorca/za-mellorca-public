@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-079
 slug: the-hidden-cost-of-repetitive-customer-questions
-title: The Hidden Cost of Repetitive Customer Questions
-description: When customers ask the same questions every day, the cause is usually upstream: a quote, invoice, form or policy that did not tell them. Treat the questions as evidence.
+title: The hidden cost of repetitive customer questions
+description: When customers ask the same questions daily, the cause is usually upstream: a quote, invoice, form or policy that did not tell them. Treat it as evidence.
 lead: When customers ask the same questions every day, the cause is usually upstream: a quote, invoice, form or policy that did not tell them. Treat the questions as evidence.
 category: Customer Service, Status & Self-Service
 published_date: 2026-10-03
@@ -16,10 +16,11 @@ commercial_value_dimensions: capacity, customer experience, revenue, scalability
 sources:
   - Failure demand - Wikipedia | https://en.wikipedia.org/wiki/Failure_demand
   - FAQ - Wikipedia | https://en.wikipedia.org/wiki/FAQ
+  - HMRC customer service and call routing, Annual Report and Accounts 2017-18 - HM Revenue and Customs | https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/724949/HMRC_ARA_2017-18_-_HMRC_customer_service_and_call_routing.pdf
 related:
-  - When Service Quality Depends on Who Picks Up the Ticket | /patterns/when-service-quality-depends-on-who-picks-up-the-ticket/
-  - The Hidden Cost of Re-entering the Same Information | /patterns/the-hidden-cost-of-reentering-the-same-information/
-  - The Hidden Cost of Waiting for Management Information | /patterns/the-hidden-cost-of-waiting-for-management-information/
+  - When service quality depends on who picks up the ticket | /patterns/when-service-quality-depends-on-who-picks-up-the-ticket/
+  - The hidden cost of re-entering the same information | /patterns/the-hidden-cost-of-reentering-the-same-information/
+  - The hidden cost of waiting for management information | /patterns/the-hidden-cost-of-waiting-for-management-information/
 summary: When customers ask the same questions every day, the cause is usually upstream: a quote, invoice, form or policy that did not tell them. Treat the questions as evidence.
 layout: plain
 ---
@@ -35,9 +36,9 @@ An illustrative example: a Durban-based supplier of office furniture with a smal
 
 A repeated question is information about the business, not just a task to clear. If many customers ask the same thing, something upstream did not tell them, told them unclearly, or told them in a place they do not look. The question is the symptom. The quote, invoice, form, website page or policy that created it is the cause.
 
-The service-design writer John Seddon gave this a name. He distinguished *value demand*, the requests a business exists to serve, from *failure demand*, the demand created by a failure to do something or to do it right for the customer. Many repetitive questions are failure demand in this sense. They exist because an earlier communication failed to answer them.
+The service-design writer John Seddon gave this a name. He distinguished *value demand*, the requests a business exists to serve, from *[failure demand](https://en.wikipedia.org/wiki/Failure_demand)*, the demand created by a failure to do something or to do it right for the customer. Many repetitive questions are failure demand in this sense. They exist because an earlier communication failed to answer them.
 
-That changes how the work should be managed. Value demand should be served well. Failure demand should be removed at its source, because every answer given is effort spent on something the customer would rather not have needed to ask.
+That changes how the work should be managed. Value demand should be served well. Failure demand should be removed at its source, because every answer given is effort spent on something the customer would rather not have needed to ask. HM Revenue and Customs, for instance, set out a plan to [reduce low-value failure demand](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/724949/HMRC_ARA_2017-18_-_HMRC_customer_service_and_call_routing.pdf), citing progress chasing and reassurance contact as examples.
 
 > Realisation prompt: of the last fifty customer messages your team handled, how many asked something that a document you already sent could have answered?
 

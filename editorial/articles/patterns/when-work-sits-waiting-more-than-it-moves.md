@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-302
 slug: when-work-sits-waiting-more-than-it-moves
-title: When Work Sits Waiting More Than It Moves
-description: When requests take days but involve only hours of actual work, the delay lives in queues and handoffs. Measuring waiting, making queues visible, limiting work in progress and triggering handoffs shortens turnaround without working harder.
+title: When work sits waiting more than it moves
+description: When requests take days but need only hours of work, the delay is in queues and handoffs. Make queues visible and limit work in progress.
 lead: When requests take days but involve only hours of actual work, the delay lives in queues and handoffs. Measuring waiting, making queues visible, limiting work in progress and triggering handoffs shortens turnaround without working harder.
 category: Approvals, Handoffs & Bottlenecks
 published_date: 2026-10-03
@@ -18,9 +18,9 @@ sources:
   - Little's law - Wikipedia | https://en.wikipedia.org/wiki/Little%27s_law
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
 related:
-  - When Your Team Is Busy but Output Is Not Increasing | /patterns/when-your-team-is-busy-but-output-is-not-increasing/
-  - When Growth Makes the Business Feel Less Efficient | /patterns/when-growth-makes-the-business-feel-less-efficient/
-  - The Process That Gets Slower Every Time Volume Increases | /patterns/the-process-that-gets-slower-every-time-volume-increases/
+  - When your team is busy but output is not increasing | /patterns/when-your-team-is-busy-but-output-is-not-increasing/
+  - When growth makes the business feel less efficient | /patterns/when-growth-makes-the-business-feel-less-efficient/
+  - The process that gets slower every time volume increases | /patterns/the-process-that-gets-slower-every-time-volume-increases/
 summary: When requests take days but involve only hours of actual work, the delay lives in queues and handoffs. Measuring waiting, making queues visible, limiting work in progress and triggering handoffs shortens turnaround without working harder.
 layout: plain
 ---

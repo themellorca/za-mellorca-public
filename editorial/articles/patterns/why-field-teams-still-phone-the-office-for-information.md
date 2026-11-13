@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-451
 slug: why-field-teams-still-phone-the-office-for-information
-title: Why Do Field Teams Still Phone the Office for Information?
+title: Why do field teams still phone the office for information?
 description: When field employees must call the office for job, customer or asset information, the condition may reveal a distributed-work information-flow problem.
 lead: When mobile employees cannot reliably access the information needed at the point of work, office staff become a manual information bridge between field activity and business systems.
 category: Field Operations & Distributed Work
@@ -25,9 +25,10 @@ sources:
   - Dynamics 365 Field Service mobile app overview | https://learn.microsoft.com/en-us/dynamics365/field-service/mobile/overview
   - Dynamics 365 Field Service mobile app overview | https://learn.microsoft.com/en-us/dynamics365/field-service/mobile-power-app-use
 related:
-  - Why Do Customers Have to Ask You What Is Happening? | /patterns/why-customers-have-to-ask-what-is-happening/
-  - Why Does Sending an Invoice Require So Much Work? | /patterns/why-sending-an-invoice-requires-so-much-work/
-  - Why Can Nobody Find the Document They Know Exists? | /patterns/why-can-nobody-find-the-document-they-know-exists/
+  - Why do customers have to ask you what is happening? | /patterns/why-customers-have-to-ask-what-is-happening/
+  - Why does sending an invoice require so much work? | /patterns/why-sending-an-invoice-requires-so-much-work/
+  - Why can nobody find the document they know exists? | /patterns/why-can-nobody-find-the-document-they-know-exists/
+  - The hidden cost of paper-based field updates | /patterns/the-job-card-that-is-typed-up-three-days-later/
 summary: Repeated field-to-office calls often indicate that operational information is not available where the work happens. Connecting mobile work, back-office records and downstream events can improve capacity, visibility and service flow. If this condition is familiar, explore Mellorca's solutions or start a conversation so we can examine how information moves across your distributed operations.
 ---
 ## Observable condition
@@ -64,7 +65,7 @@ This is a **distributed-work information-flow and field-operations visibility pr
 
 Common causes include paper-based job packs, mobile interfaces that expose too little context, disconnected scheduling and customer systems, unreliable connectivity, permissions designed only for office users and no event flow from field completion back to operations.
 
-Field service platforms illustrate a current implementation pattern. Microsoft's [Dynamics 365 Field Service overview](https://learn.microsoft.com/en-us/dynamics365/field-service/overview) describes mobile technicians viewing location, step-by-step instructions, customer assets and service history for each work order, capturing photos, video and signatures, and downloading information for offline work. When work is marked complete, dispatch can see the change, equipment history and inventory update, and closing the work order generates an invoice for parts and labour used. The [mobile app overview](https://learn.microsoft.com/en-us/dynamics365/field-service/mobile/overview) also makes clear that offline working depends on an administrator configuring an offline profile that chooses which tables, filters and relationships synchronise.
+[Field service](https://learn.microsoft.com/en-us/dynamics365/field-service/mobile-power-app-use) platforms illustrate a current implementation pattern. Microsoft's [Dynamics 365 Field Service overview](https://learn.microsoft.com/en-us/dynamics365/field-service/overview) describes mobile technicians viewing location, step-by-step instructions, customer assets and service history for each work order, capturing photos, video and signatures, and downloading information for offline work. When work is marked complete, dispatch can see the change, equipment history and inventory update, and closing the work order generates an invoice for parts and labour used. The [mobile app overview](https://learn.microsoft.com/en-us/dynamics365/field-service/mobile/overview) also makes clear that offline working depends on an administrator configuring an offline profile that chooses which tables, filters and relationships synchronise.
 
 That last detail matters beyond any single product. Offline access is not a switch; someone has to decide which information should travel with the work. The principle is portable: information should travel with the work, and completion should travel back as structured events rather than conversations.
 

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-069
 slug: how-to-design-integrations-that-survive-supplier-and-business-change
-title: How to Design Integrations for Change, Not Just for Launch
-description: Suppliers rename fields, businesses change rules and both are normal. How to build connections that tolerate additions, flag breaking changes and stay owned after launch.
+title: How to design integrations for change, not just for launch
+description: Suppliers rename fields and businesses change rules. How to build integrations that tolerate additions, flag breaking changes and stay owned after launch.
 lead: Suppliers rename fields, businesses change rules and both are normal. How to build connections that tolerate additions, flag breaking changes and stay owned after launch.
 category: Systems Integration
 published_date: 2026-10-10
@@ -15,9 +15,9 @@ sources:
   - Versioning - Stripe API Reference | https://docs.stripe.com/api/versioning
   - Anti-Corruption Layer Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer
 related:
-  - When an Integration Platform Makes Sense—and When It Does Not | /insights/when-an-integration-platform-is-worth-buying-and-when-it-is-not/
-  - Batch Sync vs Real-Time Sync: Which Does the Business Actually Need? | /insights/batch-or-real-time-sync-how-fast-does-each-data-flow-need-to-be/
-  - How to Handle Failed Integrations Without Losing Work | /insights/how-to-handle-failed-integrations-without-losing-the-work-in-flight/
+  - When an integration platform makes sense—and when it does not | /insights/when-an-integration-platform-is-worth-buying-and-when-it-is-not/
+  - Batch sync vs real-time sync: Which does the business actually need? | /insights/batch-or-real-time-sync-how-fast-does-each-data-flow-need-to-be/
+  - How to handle failed integrations without losing work | /insights/how-to-handle-failed-integrations-without-losing-the-work-in-flight/
 summary: Suppliers rename fields, businesses change rules and both are normal. How to build connections that tolerate additions, flag breaking changes and stay owned after launch.
 layout: plain
 ---
@@ -33,7 +33,7 @@ Not all change is equally dangerous. It helps to separate three kinds, because e
 - **Breaking changes.** A field is renamed, removed or changes meaning, or a required value is added that the other side does not supply. These stop a connection, or worse, let it carry wrong data without stopping.
 - **Business changes.** The systems are unchanged, but the rules are not: a new discount structure, a new branch, a new tax treatment. The connection still works technically, but it now moves the wrong thing.
 
-Microsoft's guidance on web API design draws the first two apart clearly. Adding content to an existing resource might not be a breaking change, because client applications that are not expecting the new content ignore it. But more drastic changes, such as removing or renaming fields or altering relationships between resources, can be breaking changes. The practical consequence is that the first design aim is to make your side of the connection tolerant of additions, and the second is to make breaking changes visible before they hit.
+Microsoft's guidance on [web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design) draws the first two apart clearly. Adding content to an existing resource might not be a breaking change, because client applications that are not expecting the new content ignore it. But more drastic changes, such as removing or renaming fields or altering relationships between resources, can be breaking changes. The practical consequence is that the first design aim is to make your side of the connection tolerant of additions, and the second is to make breaking changes visible before they hit.
 
 ## Read only what you need
 
@@ -57,7 +57,9 @@ The contract has a second use: it is the thing you compare against when somethin
 
 Suppliers handle change in different ways, and it pays to know how each of your suppliers does it. Microsoft's design guidance lists several approaches to versioning an API, including putting a version number in the address, in a query string, in a header or in the media type, and notes that each has trade-offs. Simple internal interfaces may not need versioning at all.
 
-A well-documented example from the payments company Stripe shows the principle at work. Its documentation states that, since a 2024 change in process, it releases new API versions monthly with no breaking changes and issues a new major release twice a year that does contain them, so customers can upgrade to monthly releases without updating their code but must plan for major ones. Requests use the account's default version unless the caller sets a version explicitly, webhook events use the version set when the endpoint was created, and the documentation advises using versioning to test a new version before committing to an upgrade. You do not need to be a payments company to take the lesson: an integration should state which version of the other side it expects, so that the supplier's upgrade does not silently become your outage.
+A well-documented example from the payments company Stripe shows the principle at work. Its documentation states that, since a 2024 change in process, it releases new API versions monthly with no breaking changes and issues a new major release twice a year that does contain them, so customers can upgrade to monthly releases without updating their code but must plan for major ones.
+
+Requests use the account's default version unless the caller sets a version explicitly, webhook events use the version set when the endpoint was created, and the documentation advises using versioning to test a new version before committing to an upgrade. You do not need to be a payments company to take the lesson: an integration should state which version of the other side it expects, so that the supplier's upgrade does not silently become your outage.
 
 For your own suppliers, three questions are worth asking before you sign:
 
@@ -87,7 +89,9 @@ The last point deserves emphasis because business change is the one the technolo
 
 ## An illustrative example
 
-Consider a hypothetical Port Elizabeth retailer that connects its web shop to a courier's booking system. In the first design, the shop sends every order field it holds and the connection rejects any message that does not match the courier's exact expected layout. When the courier adds an optional field for delivery instructions, the connection starts failing and parcels are not booked for two days. In the redesign, the shop sends only the eight fields the courier needs, ignores anything extra in the reply, records the courier's interface version in the integration notes, and sends a test parcel on the first working day of each month. A named operations coordinator receives a message if no bookings arrive within a set time. When the courier next changes its interface, the monthly test catches it before customers do.
+Consider a hypothetical Port Elizabeth retailer that connects its web shop to a courier's booking system. In the first design, the shop sends every order field it holds and the connection rejects any message that does not match the courier's exact expected layout. When the courier adds an optional field for delivery instructions, the connection starts failing and parcels are not booked for two days.
+
+In the redesign, the shop sends only the eight fields the courier needs, ignores anything extra in the reply, records the courier's interface version in the integration notes, and sends a test parcel on the first working day of each month. A named operations coordinator receives a message if no bookings arrive within a set time. When the courier next changes its interface, the monthly test catches it before customers do.
 
 ## The principle
 

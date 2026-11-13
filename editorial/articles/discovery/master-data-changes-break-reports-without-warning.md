@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-258
 slug: master-data-changes-break-reports-without-warning
 title: Why master data changes break downstream reports without warning
-description: A new product category or a reshuffled sales region can quietly distort every report that depends on it. Why reference-list changes go unnoticed, and how to make them visible before month-end.
+description: A new product category or sales region can quietly distort every dependent report. How to make reference-list changes visible before month-end.
 lead: A new product category or a reshuffled sales region can quietly distort every report that depends on it. Why reference-list changes go unnoticed, and how to make them visible before month-end.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-05
@@ -40,15 +40,17 @@ The trouble is that the people who change these lists rarely know which reports 
 - a dashboard filter that silently drops a new category because it was hard-coded;
 - an analyst who spends the first days of every month checking mappings before anyone trusts the numbers.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The people searching for this, often financial directors, BI leads or operations managers, phrase it as "reports broke after we added a new product category", "new cost centre not showing in Power BI" or "how do we know which reports a master data change will affect". What they want is simple to state: when a list changes, the right people should know in advance which reports are affected, and the reports should either handle the change or fail loudly rather than mislead.
+The people asking, often financial directors, BI leads or operations managers, phrase it as "reports broke after we added a new product category", "new cost centre not showing in Power BI" or "how do we know which reports a master data change will affect". What they want is simple to state: when a list changes, the right people should know in advance which reports are affected, and the reports should either handle the change or fail loudly rather than mislead.
 
 The need often becomes urgent when a business starts an AI or analytics initiative. Models and assistants trained or grounded on reporting data inherit any silent misclassification, and the problem moves from one wrong chart to many automated answers. We cover that wider risk in [why AI tools fail without authoritative data](/discovery/why-ai-tools-fail-without-authoritative-data/).
 
 ## Evidence and system mechanism
 
-Most reporting models separate facts (transactions such as sales lines or journal entries) from dimensions (the descriptive lists used to group and filter them). Microsoft's guidance on [modelling dimension tables](https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-dimension-tables) explains the mechanics that make silent breakage possible. A transaction is linked to a dimension through a key. When a load cannot find a matching dimension member, the recommended practice is to assign it to a special member such as "Unknown", rather than reject it. That keeps the totals complete, but it also means that a new product code missing from the product list appears under "Unknown" instead of stopping the load. The same guidance notes that foreign keys in that warehouse are not enforced, so the load process itself has to test integrity between related tables.
+Most reporting models separate facts (transactions such as sales lines or journal entries) from dimensions (the descriptive lists used to group and filter them). Microsoft's guidance on [modelling dimension tables](https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-dimension-tables) explains the mechanics that make silent breakage possible. A transaction is linked to a dimension through a key. When a load cannot find a matching dimension member, the recommended practice is to assign it to a special member such as "Unknown", rather than reject it.
+
+That keeps the totals complete, but it also means that a new product code missing from the product list appears under "Unknown" instead of stopping the load. The same guidance notes that foreign keys in that warehouse are not enforced, so the load process itself has to test integrity between related tables.
 
 The same article describes how overwriting a dimension attribute, for example moving a salesperson to a new region, changes how all their historical sales roll up. A reference change made for this month's purposes can therefore alter last year's regional totals as well.
 

@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-277
 slug: ai-subscription-sprawl-unmeasured-value-cost
-title: AI Tool Sprawl: Paying for Overlapping AI Subscriptions Without Measuring Value
-description: AI subscriptions bought team by team overlap, renew quietly and are rarely tied to outcomes. Usage data and a short value review turn AI spend from a habit into an investment.
+title: AI tool sprawl: Paying for overlapping AI subscriptions without measuring value
+description: AI subscriptions bought team by team overlap, renew quietly and are rarely tied to outcomes. Usage data and a value review turn spend into investment.
 lead: AI subscriptions bought team by team overlap, renew quietly and are rarely tied to outcomes. Usage data and a short value review turn AI spend from a habit into an investment.
 category: Software Spend
 published_date: 2026-10-03
@@ -15,10 +15,11 @@ primary_cost_mechanism: Technology waste on inactive and duplicate seats, curren
 sources:
   - Microsoft Copilot Usage Report - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
+  - Microsoft 365 admin center usage reports overview - Microsoft Learn | https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports
 related:
-  - How Many Software Subscriptions Do You Pay For? The Cost of Not Knowing | /impact/unknown-software-subscriptions-invisible-recurring-cost/
-  - Paying for Several Applications That Do the Same Job | /impact/pain-paying-for-multiple-applications-duplicate-software-fragmented-work/
-  - Paying Suppliers Without Measuring Performance | /impact/supplier-performance-not-measured/
+  - How many software subscriptions do you pay for? The cost of not knowing | /impact/unknown-software-subscriptions-invisible-recurring-cost/
+  - Paying for several applications that do the same job | /impact/pain-paying-for-multiple-applications-duplicate-software-fragmented-work/
+  - Paying suppliers without measuring performance | /impact/supplier-performance-not-measured/
 summary: AI subscriptions bought team by team overlap, renew quietly and are rarely tied to outcomes. Usage data and a short value review turn AI spend from a habit into an investment.
 layout: plain
 ---
@@ -56,7 +57,9 @@ This article is about the spending and value side of that problem. The data-prot
 
 ## Usage data is available, but rarely read
 
-Some vendors provide the evidence needed to start. Microsoft's [Copilot usage report](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage) in the Microsoft 365 admin centre shows *enabled users* (people holding a Copilot licence), *active users* (licensed people who used a user-initiated Copilot feature) and the *active users rate*, which divides one by the other. It can be viewed over the last 7, 28, 90 or 180 days, lists each licensed user's last activity date by app and can be exported to a spreadsheet. Microsoft counts a user as active only when they take an intentional action, such as submitting a prompt, not merely opening the Copilot pane.
+Some vendors provide the evidence needed to start. Microsoft's [Copilot usage report](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage) in the Microsoft 365 admin centre shows *enabled users* (people holding a Copilot licence), *active users* (licensed people who used a user-initiated Copilot feature) and the *active users rate*, which divides one by the other. It can be viewed over the last 7, 28, 90 or 180 days, lists each licensed user's last activity date by app and can be exported to a spreadsheet.
+
+Microsoft counts a user as active only when they take an intentional action, such as submitting a prompt, not merely opening the Copilot pane. Microsoft's [overview of its admin usage reports](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports) notes that they show who uses a service fully and who barely uses it and might not need a licence.
 
 That is a useful starting point, and comparable admin reporting exists in some other platforms. But it measures adoption, not value. A person can submit many prompts and save no meaningful time. Value has to be defined by the business, in terms of the work the tool is supposed to change.
 
@@ -86,7 +89,9 @@ In this example, the agency pays for 58 seats and sees activity on 29. If inacti
 
 ## What better looks like
 
-The business keeps one list of AI tools, with owner, cost, seats, billing currency and renewal date. Each tool has a stated purpose and one or two measures of value tied to real work, such as proposal turnaround time or hours spent on meeting minutes. Seats are reviewed quarterly against usage. New requests are checked against tools already owned. New AI tools start as time-limited pilots with a named owner, a small number of seats and an agreed review date. At the review, the pilot either shows evidence against its measure and is expanded, or it is cancelled before it quietly becomes a permanent subscription. AI costs are attributed to the outcomes they support, a theme explored in [why AI usage costs are not allocated to business outcomes](/discovery/ai-usage-costs-not-allocated-to-business-outcomes/).
+The business keeps one list of AI tools, with owner, cost, seats, billing currency and renewal date. Each tool has a stated purpose and one or two measures of value tied to real work, such as proposal turnaround time or hours spent on meeting minutes. Seats are reviewed quarterly against usage. New requests are checked against tools already owned.
+
+New AI tools start as time-limited pilots with a named owner, a small number of seats and an agreed review date. At the review, the pilot either shows evidence against its measure and is expanded, or it is cancelled before it quietly becomes a permanent subscription. AI costs are attributed to the outcomes they support, a theme explored in [why AI usage costs are not allocated to business outcomes](/discovery/ai-usage-costs-not-allocated-to-business-outcomes/).
 
 ## Practical next actions
 

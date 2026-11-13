@@ -21,6 +21,7 @@ side_text: Useful next read: [common systems problems Mellorca works on](/soluti
 sources:
   - Google SRE - What is Toil in SRE: Understanding Its Impact | https://sre.google/sre-book/eliminating-toil/
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
+  - The Eight Wastes of Lean - Lean Enterprise Institute | https://www.lean.org/the-lean-post/articles/the-eight-wastes-of-lean/
 closing_title: Related Mellorca service
 closing_text: If the symptoms are clear but the underlying cause is not, the [Digital Systems Audit](/services/digital-systems-audit/) is the diagnostic entry point.
 related:
@@ -36,7 +37,7 @@ These are not isolated annoyances when they happen repeatedly. They are signals 
 
 A manual workaround can look harmless when ten transactions move through it. At a hundred, it becomes a workload. Add more staff, customers, software and handoffs, and the business starts paying for every ambiguity in the process.
 
-Google's site reliability engineering book has a useful name for this kind of work. It calls it [toil](https://sre.google/sre-book/eliminating-toil/): work that is manual, repetitive, automatable, reactive, without lasting value, and that scales linearly as the service grows. The last property is the one that hurts a growing business. Toil does not get cheaper with volume. It grows in step with it.
+Google's site reliability engineering book has a useful name for this kind of work. It calls it [toil](https://sre.google/sre-book/eliminating-toil/): work that is manual, repetitive, automatable, reactive, without lasting value, and that scales linearly as the service grows. The last property is the one that hurts a growing business. Toil does not get cheaper with volume. It grows in step with it. Lean thinking has a related idea in [over-processing](https://www.lean.org/the-lean-post/articles/the-eight-wastes-of-lean/), which the Lean Enterprise Institute describes as physical or mental work performed that has no customer or purpose.
 
 The cost is not only labour. It appears as delayed responses, duplicate work, inconsistent customer experiences, weak reporting, management time spent reconstructing reality, and dependence on the people who happen to know how everything works.
 

@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-023
 slug: specialists-pulled-into-routine-requests-expertise-cost
-title: When Your Experts Become the Help Desk: The Cost of Routine Requests
-description: When every routine request goes straight to the most knowledgeable person, the business pays specialist rates for simple work and delays the projects only they can do. A simple front door and triage protect expert time.
+title: When your experts become the help desk: The cost of routine requests
+description: When every routine request goes to the most knowledgeable person, you pay specialist rates for simple work. A front door and triage protect expert time.
 lead: When every routine request goes straight to the most knowledgeable person, the business pays specialist rates for simple work and delays the projects only they can do. A simple front door and triage protect expert time.
 category: Digital Operations
 published_date: 2026-10-05
@@ -17,9 +17,9 @@ sources:
   - What Is a Help Desk? - IBM | https://www.ibm.com/think/topics/help-desk
   - Set up a knowledge base for self-service - Jira Service Management Data Center 11.3 - Atlassian Documentation | https://confluence.atlassian.com/servicemanagementserver/set-up-a-knowledge-base-for-self-service-956713310.html
 related:
-  - The Human Dispatcher: The Cost of Manually Routing Every Incoming Request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
-  - When Every Decision Waits for One Person: The Cost of a Decision Bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
-  - Recurring Tasks That Live in Someone's Memory: The Cost of Missed Work | /impact/recurring-tasks-relying-on-memory-missed-work-cost/
+  - The human dispatcher: The cost of manually routing every incoming request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
+  - When every decision waits for one person: The cost of a decision bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
+  - Recurring tasks that live in someone's memory: The cost of missed work | /impact/recurring-tasks-relying-on-memory-missed-work-cost/
 summary: When every routine request goes straight to the most knowledgeable person, the business pays specialist rates for simple work and delays the projects only they can do. A simple front door and triage protect expert time.
 layout: plain
 ---

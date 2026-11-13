@@ -3,7 +3,7 @@ hub: insights
 record_id: INS-326
 slug: key-person-dependency-is-a-systems-problem
 title: Key-person dependency is a systems problem.
-description: Why critical operating knowledge living in one person's head creates business fragility—and how documentation, ownership and system design reduce the dependency.
+description: When critical operating knowledge lives in one person's head, the business is fragile. How documentation, ownership and system design reduce that risk.
 lead: When one person is the only reliable source of process knowledge, system logic, exceptions or recovery steps, the business does not merely have an important employee. It has an undocumented operational dependency.
 category: Digital Operations
 published_date: 2026-08-31
@@ -26,7 +26,7 @@ sources:
 related:
   - Why business systems need ongoing stewardship | /insights/why-business-systems-need-ongoing-stewardship/
   - Why recurring systems maintenance is cheaper than emergency repair | /insights/why-recurring-systems-maintenance-is-cheaper-than-emergency-repair/
-  - How to Know Whether Your Business Depends Too Much on One Person | /insights/how-to-know-whether-your-business-depends-too-much-on-one-person/
+  - How to know whether your business depends too much on one person | /insights/how-to-know-whether-your-business-depends-too-much-on-one-person/
 ---
 Every growing business has people who know more than everyone else.
 
@@ -63,7 +63,7 @@ That can work surprisingly well while the team is small. People communicate info
 
 Growth changes the economics. More people, customers, tools and handoffs make it harder for one person’s memory to act as the control layer for the operation.
 
-IBM’s overview of knowledge management draws a helpful distinction between tacit knowledge, gained through experience and hard to articulate, and explicit knowledge, which is written down and easily shared. Key-person risk sits mostly in the tacit category, which is why simply asking someone to “write it all down” rarely works on its own.
+[IBM’s overview of knowledge management](https://www.ibm.com/think/topics/knowledge-management) draws a helpful distinction between tacit knowledge, gained through experience and hard to articulate, and explicit knowledge, which is written down and easily shared. Key-person risk sits mostly in the tacit category, which is why simply asking someone to “write it all down” rarely works on its own.
 
 ## How to diagnose your dependencies
 
@@ -106,9 +106,9 @@ A senior operator should not be the only person who knows where a file belongs, 
 
 ## Business continuity makes the underlying principle explicit
 
-International business-continuity guidance provides a useful wider frame. ISO 22301 specifies requirements for a documented business continuity management system that helps an organisation prepare for, respond to and recover from disruptions, and that is monitored, reviewed and continually improved rather than assuming operations will continue because particular individuals happen to be available.
+International business-continuity guidance provides a useful wider frame. [ISO 22301](https://en.wikipedia.org/wiki/ISO_22301) specifies requirements for a documented business continuity management system that helps an organisation prepare for, respond to and recover from disruptions, and that is monitored, reviewed and continually improved rather than assuming operations will continue because particular individuals happen to be available.
 
-NIST’s contingency-planning guide for information systems places system recovery within wider organisational resilience and examines how it relates to other security and emergency plans. The US government’s Ready.gov business continuity guidance similarly sets out a process that includes organising team roles and responsibilities and testing the plan through exercises.
+[NIST’s contingency-planning guide for information systems](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final) places system recovery within wider organisational resilience and examines how it relates to other security and emergency plans. The US government’s Ready.gov business continuity guidance similarly sets out a process that includes organising team roles and responsibilities and testing the plan through exercises.
 
 These frameworks are broader than ordinary operational documentation, but the principle translates directly: critical capability should be recoverable and understandable.
 

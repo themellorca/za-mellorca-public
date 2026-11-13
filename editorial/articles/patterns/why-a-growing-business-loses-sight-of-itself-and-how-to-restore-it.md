@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-074
 slug: why-a-growing-business-loses-sight-of-itself-and-how-to-restore-it
-title: Why Operational Visibility Becomes More Important as You Scale
-description: Informal awareness works in a small team and quietly stops working as sites, shifts and systems multiply. Learn which signals to capture so a growing business can still see itself.
+title: Why operational visibility becomes more important as you scale
+description: Informal awareness works in a small team and stops as sites, shifts and systems multiply. Capture the right signals so a growing business can see itself.
 lead: Informal awareness works in a small team and quietly stops working as sites, shifts and systems multiply. Learn which signals to capture so a growing business can still see itself.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-10
@@ -19,9 +19,9 @@ sources:
   - What is Data Governance? - IBM | https://www.ibm.com/think/topics/data-governance
   - Set data alerts in the Power BI service - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
 related:
-  - Why Real-Time Operations Still Depend on Friday Reports | /patterns/why-live-data-still-gets-managed-from-a-weekly-report/
-  - Why Finance Reconciles Information That Systems Already Hold | /patterns/why-finance-reconciles-information-that-systems-already-hold/
-  - When Your Metrics Arrive After the Decision Was Needed | /patterns/when-the-number-arrives-after-the-decision-is-made/
+  - Why real-time operations still depend on Friday reports | /patterns/why-live-data-still-gets-managed-from-a-weekly-report/
+  - Why finance reconciles information that systems already hold | /patterns/why-finance-reconciles-information-that-systems-already-hold/
+  - When your metrics arrive after the decision was needed | /patterns/when-the-number-arrives-after-the-decision-is-made/
 summary: Informal awareness works in a small team and quietly stops working as sites, shifts and systems multiply. Learn which signals to capture so a growing business can still see itself.
 layout: plain
 ---
@@ -72,9 +72,9 @@ The third is to hire a layer of supervisors. That may be right in some cases, bu
 
 ## Possibility
 
-A better arrangement treats visibility as something designed into the way work is done. A small number of measures describe the health of each process: how much work is arriving, how long it is waiting, how often it goes wrong, and how close the team is to its capacity. These are captured as a by-product of the work, not compiled afterwards. They are visible to the people who run the process and summarised for the people above them. Thresholds trigger notifications, so that a growing backlog reaches a manager before it reaches a customer.
+A better arrangement treats visibility as something designed into the way work is done. A small number of measures describe the health of each process: how much work is arriving, how long it is waiting, how often it goes wrong, and how close the team is to its capacity. These are captured as a by-product of the work, not compiled afterwards. They are visible to the people who run the process and summarised for the people above them. Thresholds trigger notifications, much as [data alerts in Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts) can be set on KPIs and gauges, so that a growing backlog reaches a manager before it reaches a customer.
 
-The four categories above are an adaptation of the "golden signals" that Google's guidance recommends for monitoring a service: latency, traffic, errors and saturation. They translate well to a pump workshop: jobs arriving, days waiting, jobs returned for rework, and the share of workshop hours already committed.
+The four categories above are an adaptation of the ["golden signals" that Google's guidance recommends for monitoring a service](https://sre.google/sre-book/monitoring-distributed-systems/): latency, traffic, errors and saturation. They translate well to a pump workshop: jobs arriving, days waiting, jobs returned for rework, and the share of workshop hours already committed. IBM's overview of [observability](https://www.ibm.com/think/topics/observability) describes the same idea of understanding the internal state of a complex system from the logs, traces and metrics it produces.
 
 ## Intervention
 

@@ -18,6 +18,7 @@ side_title: Topics
 sources:
   - Little’s Law – A Practical Approach to Understanding Production System Performance - Project Production Institute | https://projectproduction.org/journal/littles-law-a-practical-approach-to-understanding-production-system-performance/
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
+  - Visual Management - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/visual-management/
 closing_title: Explore Mellorca
 closing_text: [Explore our solutions](/solutions/) or [start a conversation](/contact/).
 related:
@@ -25,7 +26,7 @@ related:
   - Why growth breaks systems that worked when the business was smaller | /insights/why-growth-breaks-systems-that-worked-when-the-business-was-smaller/
   - Why shared inboxes become operational bottlenecks | /insights/why-shared-inboxes-become-operational-bottlenecks/
 ---
-Management systems usually show completed transactions more clearly than the friction required to complete them. A dashboard may show an order as delivered without showing the manual chasing, duplicate entry and exception handling that made delivery possible. The outcome is visible; the effort and fragility underneath it are not.
+Management systems usually show completed transactions more clearly than the friction required to complete them. A dashboard may show an order as delivered without showing the manual chasing, duplicate entry and exception handling that made delivery possible. The outcome is visible; the effort and fragility underneath it are not. The Lean Enterprise Institute describes [visual management](https://www.lean.org/lexicon-terms/visual-management/) as placing indicators of production system performance in plain view so that the status of the system can be understood at a glance by everyone involved.
 
 That gap matters because cost does not wait to become visible before it accumulates. By the time it reaches a margin report, a customer complaint or a resignation letter, it has usually been building for months in places the business was not looking.
 

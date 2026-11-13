@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-080
 slug: when-customers-call-for-records-your-systems-already-hold
-title: When Customers Call for Records Your Systems Already Hold
-description: Requests for statements, invoice copies, certificates and account details are answered by staff who look the record up and send it. The information is already held; what is missing is a safe way for customers to reach it.
+title: When customers call for records your systems already hold
+description: Staff answer requests for statements, invoice copies and certificates by looking up records the business already holds. Give customers safe access instead.
 lead: Requests for statements, invoice copies, certificates and account details are answered by staff who look the record up and send it. The information is already held; what is missing is a safe way for customers to reach it.
 category: Customer Service, Status & Self-Service
 published_date: 2026-10-06
@@ -18,9 +18,9 @@ sources:
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
   - What is Power Pages? | https://learn.microsoft.com/en-us/power-pages/introduction
 related:
-  - When Service Quality Depends on Who Picks Up the Ticket | /patterns/when-service-quality-depends-on-who-picks-up-the-ticket/
-  - When Customers Can See the Gaps Between Your Systems | /patterns/when-customers-can-see-the-gaps-between-your-systems/
-  - When Sales, Finance and Support Disagree About the Same Customer | /patterns/when-sales-finance-and-support-disagree-about-the-same-customer/
+  - When service quality depends on who picks up the ticket | /patterns/when-service-quality-depends-on-who-picks-up-the-ticket/
+  - When customers can see the gaps between your systems | /patterns/when-customers-can-see-the-gaps-between-your-systems/
+  - When sales, finance and support disagree about the same customer | /patterns/when-sales-finance-and-support-disagree-about-the-same-customer/
 summary: Requests for statements, invoice copies, certificates and account details are answered by staff who look the record up and send it. The information is already held; what is missing is a safe way for customers to reach it.
 layout: plain
 ---
@@ -38,7 +38,7 @@ These requests are different from the status questions customers ask while an or
 
 That makes the work entirely avoidable in principle. The staff member adds no judgement; they act as a manual retrieval service between the customer and the business's own records. And because the requests arrive by phone, email and messaging, they interrupt the people who should be collecting cash, resolving disputes and serving new orders.
 
-There is also a legal backdrop. POPIA gives a person the right to ask a responsible party to confirm whether it holds personal information about them and to request a record or description of that information. Most routine record requests are not formal requests under the Act, but the principle is the same: customers increasingly expect to see what a business holds about them without having to ask.
+There is also a legal backdrop. POPIA gives a person the right to ask a responsible party to confirm whether it holds [personal information](https://popia.co.za/section-23-access-to-personal-information/) about them and to request a record or description of that information. Most routine record requests are not formal requests under the Act, but the principle is the same: customers increasingly expect to see what a business holds about them without having to ask.
 
 **Realisation prompt:** of the requests your team handled last week, how many asked for a document or figure that already existed and only needed to be found and sent?
 
@@ -60,7 +60,9 @@ Neighbouring Patterns cover related ground. [Why customers have to ask what is h
 
 The commercial value at stake is service cost, response time, customer experience, cash flow and information security.
 
-Service cost is the staff time spent retrieving and sending records. Response time matters because a customer waiting for a statement or invoice copy is often a customer waiting to pay, so slow retrieval can delay cash coming in. Customer experience suffers when simple requests take a day. Information security is also at stake: sending records by email on the strength of an unverified request risks disclosing one customer's information to the wrong person. POPIA requires appropriate, reasonable technical and organisational measures to protect the integrity and confidentiality of personal information, and an informal process of emailing documents on request is hard to defend. Lost requests in shared mailboxes add their own cost, as described in [customer requests lost in a shared inbox](/impact/customer-requests-lost-shared-inbox-missed-service-work/).
+Service cost is the staff time spent retrieving and sending records. Response time matters because a customer waiting for a statement or invoice copy is often a customer waiting to pay, so slow retrieval can delay cash coming in. Customer experience suffers when simple requests take a day. Information security is also at stake: sending records by email on the strength of an unverified request risks disclosing one customer's information to the wrong person.
+
+POPIA requires appropriate, reasonable technical and organisational measures to protect the [integrity and confidentiality of personal information](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/), and an informal process of emailing documents on request is hard to defend. Lost requests in shared mailboxes add their own cost, as described in [customer requests lost in a shared inbox](/impact/customer-requests-lost-shared-inbox-missed-service-work/).
 
 ## Common misidentification
 

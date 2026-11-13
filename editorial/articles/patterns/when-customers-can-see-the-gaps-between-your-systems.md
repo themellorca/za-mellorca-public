@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-048
 slug: when-customers-can-see-the-gaps-between-your-systems
-title: When Customers Can See the Gaps Between Your Systems
-description: A complaint is logged, then a sales email arrives, then a reminder for a disputed invoice, and the next caller asks for the same details again. When marketing, service, billing and delivery each hold their own view of the customer, fragmentation becomes something customers experience.
+title: When customers can see the gaps between your systems
+description: Marketing, service, billing and delivery each hold their own view of the customer, so customers repeat themselves and get mixed messages. Here is the fix.
 lead: A complaint is logged, then a sales email arrives, then a reminder for a disputed invoice, and the next caller asks for the same details again. When marketing, service, billing and delivery each hold their own view of the customer, fragmentation becomes something customers experience.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-06
@@ -18,9 +18,9 @@ sources:
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
   - Data unification overview - Dynamics 365 Customer Insights | https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-unification
 related:
-  - When Sales, Finance and Support Disagree About the Same Customer | /patterns/when-sales-finance-and-support-disagree-about-the-same-customer/
-  - The Hidden Cost of Signing In to Every System Separately | /patterns/the-hidden-cost-of-signing-in-to-every-system-separately/
-  - Why Teams Keep Switching Between Apps to Finish One Task | /patterns/why-teams-keep-switching-between-apps-to-finish-one-task/
+  - When sales, finance and support disagree about the same customer | /patterns/when-sales-finance-and-support-disagree-about-the-same-customer/
+  - The hidden cost of signing in to every system separately | /patterns/the-hidden-cost-of-signing-in-to-every-system-separately/
+  - Why teams keep switching between apps to finish one task | /patterns/why-teams-keep-switching-between-apps-to-finish-one-task/
 summary: A complaint is logged, then a sales email arrives, then a reminder for a disputed invoice, and the next caller asks for the same details again. When marketing, service, billing and delivery each hold their own view of the customer, fragmentation becomes something customers experience.
 layout: plain
 ---
@@ -36,7 +36,7 @@ An illustrative example: a Cape Town home-services company with about thirty-fiv
 
 Inside the business, fragmentation feels like an efficiency problem: extra work, duplicate capture, slow reports. Outside, it is experienced as inconsistency. Customers repeat themselves, receive messages that contradict each other, get different answers from different channels and are asked for information they have already given. Each of these is a direct view of the gaps between the business's systems.
 
-Some of these gaps carry legal weight. Section 69 of the Protection of Personal Information Act requires that people receiving electronic direct marketing are given a reasonable opportunity to object, on each communication, and contact details through which they can ask for communications to stop. If an objection is recorded in one system and marketing runs from another, honouring it depends on someone copying it across. Section 16 also requires reasonably practicable steps to keep personal information complete, accurate, not misleading and updated, which is harder when the same customer exists in several versions.
+Some of these gaps carry legal weight. Section 69 of the Protection of Personal Information Act requires that people receiving electronic [direct marketing](https://popia.co.za/section-69-direct-marketing-by-means-of-unsolicited-electronic-communications/) are given a reasonable opportunity to object, on each communication, and contact details through which they can ask for communications to stop. If an objection is recorded in one system and marketing runs from another, honouring it depends on someone copying it across. Section 16 also requires reasonably practicable steps to keep personal information complete, accurate, not misleading and updated, which is harder when the same customer exists in several versions.
 
 The tools to close these gaps exist. Microsoft describes data unification in its customer data platform as combining customer data sources to create a single customer profile, removing duplicates and matching records across tables. Platforms differ, but the principle is general: the customer should be one record, or one connected view, across the systems that talk to them.
 

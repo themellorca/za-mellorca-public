@@ -75,7 +75,7 @@ For example, before creating an invoice, search for the business’s unique invo
 
 The check must use a reliable key. Matching on vague text, timestamps or names is usually too weak for business-critical duplicate prevention.
 
-Microsoft’s Idempotent Consumer pattern adds a useful refinement for steps that call external systems: record the operation key as “in progress” before the external call, then mark it “completed” with the outcome. On a later attempt, a completed record means skip; an in-progress record means a previous attempt may have partly finished, so reconcile before writing again or route the case to a person.
+Microsoft’s [Idempotent Consumer pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/idempotent-consumer) adds a useful refinement for steps that call external systems: record the operation key as “in progress” before the external call, then mark it “completed” with the outcome. On a later attempt, a completed record means skip; an in-progress record means a previous attempt may have partly finished, so reconcile before writing again or route the case to a person.
 
 ## Do not treat every error as retryable
 

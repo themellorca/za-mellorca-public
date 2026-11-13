@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000170
 slug: when-digital-only-leaves-some-customers-behind
-title: When Digital-Only Leaves Some Customers Behind
-description: Moving customer follow-up to apps and email can make service more predictable for many and less reachable for some. Designing digital service so nobody has to fall out of it.
+title: When digital-only leaves some customers behind
+description: Moving customer follow-up to apps and email can make service more predictable for many and less reachable for some. How to design it so nobody falls out.
 lead: Moving customer follow-up to apps and email can make service more predictable for many and less reachable for some. Designing digital service so nobody has to fall out of it.
 category: Inclusion & Access
 published_date: 2026-10-03
@@ -17,10 +17,11 @@ epistemic_state: INFERRED: connectivity and data-cost figures are observed in St
 sources:
   - South African households have become more connected | https://www.engineeringnews.co.za/article/south-african-households-have-become-more-connected-2024-06-14
   - South Africa: Freedom on the Net 2024 Country Report - Freedom House | https://freedomhouse.org/country/south-africa/freedom-net/2024
+  - General Household Survey 2023 media release - Statistics South Africa | https://www.statssa.gov.za/publications/P0318/MEDIA%20RELEASE%20-%20%20GHS%202023.pdf
 related:
-  - Why Holidays Still Need a Laptop in the Suitcase | /moments/why-holidays-still-need-a-laptop-in-the-suitcase/
-  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
-  - When Every Day Starts by Rebuilding Yesterday's Context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
+  - Why holidays still need a laptop in the suitcase | /moments/why-holidays-still-need-a-laptop-in-the-suitcase/
+  - The lunch break eaten by approval requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - When every day starts by rebuilding yesterday's context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
 summary: Moving customer follow-up to apps and email can make service more predictable for many and less reachable for some. Designing digital service so nobody has to fall out of it.
 layout: plain
 ---
@@ -32,7 +33,7 @@ This piece is about those customers: the people for whom a switch to app-only or
 
 ## Connected, but not equally
 
-South Africa is far more connected than it was a decade ago. Reporting on the 2023 General Household Survey from Statistics South Africa, Engineering News noted that 78.6% of households had at least one member with internet access by some means. Mobile internet was by far the most common route, available to 72.6% of households, while only 14.5% had a fixed connection at home.
+South Africa is far [more connected](https://www.engineeringnews.co.za/article/south-african-households-have-become-more-connected-2024-06-14) than it was a decade ago. Reporting on the [2023 General Household Survey](https://www.statssa.gov.za/publications/P0318/MEDIA%20RELEASE%20-%20%20GHS%202023.pdf) from Statistics South Africa, Engineering News noted that 78.6% of households had at least one member with internet access by some means. Mobile internet was by far the most common route, available to 72.6% of households, while only 14.5% had a fixed connection at home.
 
 The same figures show uneven access. Mobile internet access stood at 66.3% in rural areas compared with 76.1% in urban areas. Provincially, access was highest in the Western Cape at 88.1% and lowest in Limpopo at 69.7% and the Eastern Cape at 70.2%.
 

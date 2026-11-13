@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-029
 slug: before-you-buy-another-tool-ask-these-questions
-title: Before You Buy Another Tool, Ask These Questions
-description: Most software purchases are decided before anyone evaluates a product. Ten questions to ask at the moment someone says "we need a tool for this", so the business buys only when buying is the right answer.
+title: Before you buy another tool, ask these questions
+description: Most software purchases are settled before anyone looks at a product. Ten questions to ask so you buy a tool only when buying is the right answer.
 lead: Most software purchases are decided before anyone evaluates a product. Ten questions to ask at the moment someone says "we need a tool for this", so the business buys only when buying is the right answer.
 category: Technology & Operations
 published_date: 2026-10-03
@@ -14,8 +14,8 @@ sources:
   - The Technology Code of Practice | https://www.gov.uk/guidance/the-technology-code-of-practice
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
 related:
-  - Why More Software Can Make the Business Harder to Run | /insights/why-more-software-can-make-the-business-harder-to-run/
-  - Poor Data Is an Operations Problem, Not Just a Data Problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
+  - Why more software can make the business harder to run | /insights/why-more-software-can-make-the-business-harder-to-run/
+  - Poor data is an operations problem, not just a data problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
   - What to ask about APIs before buying business software | /insights/what-to-ask-about-apis-before-buying-business-software/
 summary: Most software purchases are decided before anyone evaluates a product. Ten questions to ask at the moment someone says "we need a tool for this", so the business buys only when buying is the right answer.
 layout: plain

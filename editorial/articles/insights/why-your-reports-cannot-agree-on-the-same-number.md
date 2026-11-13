@@ -20,12 +20,13 @@ side_title: Topics
 sources:
   - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
   - Promote and Certify Power BI Content with Endorsement - Power BI | https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorsement-overview
+  - About MetricFlow - dbt Developer Hub | https://docs.getdbt.com/docs/build/about-metricflow
 related:
   - Why uncontrolled configuration changes create operational risk | /insights/why-uncontrolled-configuration-changes-create-operational-risk/
-  - Seven Signs Your Digital Systems Are Slowing the Business Down | /insights/seven-signs-your-digital-systems-are-slowing-the-business-down/
+  - Seven signs your digital systems are slowing the business down | /insights/seven-signs-your-digital-systems-are-slowing-the-business-down/
   - Why recurring systems maintenance is cheaper than emergency repair | /insights/why-recurring-systems-maintenance-is-cheaper-than-emergency-repair/
 ---
-A reporting dispute often looks like an analytics problem. In an illustrative case, one dashboard says 1,240 customers, another says 1,198 and a spreadsheet says 1,311. The instinct is to fix the report. But all three outputs may be faithfully representing three different definitions or data paths. Nobody made an arithmetic mistake; the organisation simply never agreed what it was counting.
+A reporting dispute often looks like an analytics problem. In an illustrative case, one dashboard says 1,240 customers, another says 1,198 and a spreadsheet says 1,311. The instinct is to fix the report. But all three outputs may be faithfully representing three different definitions or data paths. Nobody made an arithmetic mistake; the organisation simply never agreed what it was counting. dbt's documentation on [MetricFlow](https://docs.getdbt.com/docs/build/about-metricflow) describes the same remedy: metrics defined once and kept in version control, so everyone can see and approve them as the one source of information, rather than each analyst writing their own ad hoc query.
 
 Poor data quality is widely recognised as an obstacle to getting value from digital initiatives, and the practical lesson is that reporting trust is built upstream, long before anyone opens a dashboard.
 

@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-106
 slug: why-damaged-stock-keeps-showing-as-available-to-customers
 title: Why damaged stock keeps showing as available to customers
-description: Cracked, returned or quarantined units are still on the shelf, so the shop keeps selling them. How to give damaged stock its own status that every sales channel respects.
+description: Cracked, returned or quarantined units sit on the shelf, so the shop keeps selling them. How to give damaged stock a status every sales channel respects.
 lead: Cracked, returned or quarantined units are still on the shelf, so the shop keeps selling them. How to give damaged stock its own status that every sales channel respects.
 category: Inventory & Order Operations
 published_date: 2026-10-10
@@ -20,6 +20,7 @@ related:
   - Why sales and warehouse systems need one product identifier | /discovery/why-sales-and-warehouse-systems-need-one-product-identifier/
   - Why goods received do not reach customer availability promptly | /discovery/why-goods-received-do-not-reach-customer-availability-promptly/
   - Reserved stock is treated as available stock | /discovery/why-reserved-stock-keeps-showing-as-available-to-sell/
+  - Why cycle-count adjustments need a recorded root cause | /discovery/why-cycle-count-adjustments-need-a-recorded-root-cause/
 summary: Cracked, returned or quarantined units are still on the shelf, so the shop keeps selling them. How to give damaged stock its own status that every sales channel respects.
 layout: plain
 ---
@@ -33,9 +34,9 @@ Damaged goods exist in a grey zone. They are physically in the building, they ar
 
 The symptom is easy to spot: orders that cannot be completed in full, cancellations that follow a physical check, and staff who learn to distrust the available figure. The cause is harder to see, because it sits in how stock is classified rather than how it is counted.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People who reach this problem rarely search for "stock classification model". They type phrases such as "damaged stock showing as available", "how to stop selling damaged items online" or "quarantine stock in inventory system". What they want is simple: when a unit is found to be unsellable, customers must stop being offered it within minutes, and finance must still see it as an asset that needs a decision.
+People who reach this problem rarely talk about a "stock classification model". They say things like "damaged stock showing as available", "how to stop selling damaged items online" or "quarantine stock in inventory system". What they want is simple: when a unit is found to be unsellable, customers must stop being offered it within minutes, and finance must still see it as an asset that needs a decision.
 
 ## How the systems are meant to work
 

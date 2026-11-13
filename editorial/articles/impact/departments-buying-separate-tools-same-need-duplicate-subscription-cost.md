@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-061
 slug: departments-buying-separate-tools-same-need-duplicate-subscription-cost
-title: Four Tools, One Job: The Real Cost of Departments Buying Their Own Software
-description: When each department solves the same problem with its own software, the business pays for overlapping subscriptions and ends up with customer and work data scattered across products that disagree.
+title: Four tools, one job: The real cost of departments buying their own software
+description: When each department solves the same problem with its own software, you pay for overlapping subscriptions and customer data ends up scattered.
 lead: When each department solves the same problem with its own software, the business pays for overlapping subscriptions and ends up with customer and work data scattered across products that disagree.
 category: Digital Operations
 published_date: 2026-10-08
@@ -17,9 +17,10 @@ sources:
   - What is application management? - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-application-management
   - Overview of the Microsoft Entra application gallery - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/overview-application-gallery
 related:
-  - Two Departments, Same Work: The Payroll Cost of Duplicated Effort | /impact/departments-duplicating-same-work-payroll-cost/
-  - Catching Up Before Starting: The Cost of Poor Handovers and Scattered Updates | /impact/catching-up-after-absence-poor-handover-cost/
-  - Which Version Is Final? The Cost of Teams Working From Different Copies | /impact/conflicting-document-versions-rework-decision-cost/
+  - Two departments, same work: The payroll cost of duplicated effort | /impact/departments-duplicating-same-work-payroll-cost/
+  - Catching up before starting: The cost of poor handovers and scattered updates | /impact/catching-up-after-absence-poor-handover-cost/
+  - Which version is final? The cost of teams working from different copies | /impact/conflicting-document-versions-rework-decision-cost/
+  - What a smaller, better-connected software stack looks like | /insights/what-a-smaller-better-connected-software-stack-looks-like/
 summary: When each department solves the same problem with its own software, the business pays for overlapping subscriptions and ends up with customer and work data scattered across products that disagree.
 layout: plain
 ---

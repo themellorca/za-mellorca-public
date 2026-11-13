@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000063
 slug: the-employee-whose-expertise-is-trapped-in-data-entry
-title: The Employee Whose Expertise Is Trapped in Data Entry
-description: Some of the most knowledgeable people in a business spend their days retyping information between screens. How that happens, what it costs them, and how to free their judgement.
+title: The employee whose expertise is trapped in data entry
+description: Some of the most knowledgeable people in a business spend their days retyping information between screens. What it costs, and how to free their judgement.
 lead: Some of the most knowledgeable people in a business spend their days retyping information between screens. How that happens, what it costs them, and how to free their judgement.
 category: Human Agency
 published_date: 2026-10-09
@@ -20,9 +20,10 @@ sources:
   - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
   - Job enrichment - Wikipedia | https://en.wikipedia.org/wiki/Job_enrichment
 related:
-  - The Difference Between Being Informed and Being in Control | /moments/the-difference-between-being-informed-and-being-in-control/
-  - Why Clear Ownership Gives People Room to Decide | /moments/why-clear-ownership-gives-people-room-to-decide/
-  - The Manager Who Can't Act Without the Founder | /moments/the-manager-who-cant-act-without-the-founder/
+  - The difference between being informed and being in control | /moments/the-difference-between-being-informed-and-being-in-control/
+  - Why clear ownership gives people room to decide | /moments/why-clear-ownership-gives-people-room-to-decide/
+  - The manager who can't act without the founder | /moments/the-manager-who-cant-act-without-the-founder/
+  - The dignity of work that adds something new | /moments/the-dignity-of-work-that-adds-something-new/
 summary: Some of the most knowledgeable people in a business spend their days retyping information between screens. How that happens, what it costs them, and how to free their judgement.
 layout: plain
 ---
@@ -47,7 +48,7 @@ The UK Health and Safety Executive's management standards identify control, mean
 
 The idea of deskilling, in the broader literature on work, describes the way tasks can be broken down and simplified until the skill of the person doing them is no longer needed or used. Data entry is a textbook case: the description of a data entry role is, by design, one where accuracy and speed matter and discretion does not. When a person with years of experience is placed in that role by default, the organisation is treating a rich resource as a simple one.
 
-The opposite concept is job enrichment, which describes redesigning a role to give people more variety, responsibility and a visible whole piece of work. It is not a perk; it is a way of using skill that already exists. Neither source quantifies the effect in a South African small business, and this article does not claim that it can be quantified, only that the direction is well understood.
+The opposite concept is [job enrichment](https://en.wikipedia.org/wiki/Job_enrichment), which describes redesigning a role to give people more variety, responsibility and a visible whole piece of work. It is not a perk; it is a way of using skill that already exists. Neither source quantifies the effect in a South African small business, and this article does not claim that it can be quantified, only that the direction is well understood.
 
 ## An illustrative case
 

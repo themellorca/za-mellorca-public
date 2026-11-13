@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-254
 slug: why-teams-build-spreadsheets-after-the-business-buys-enterprise-software
-title: Why Teams Build Spreadsheets After the Business Buys Enterprise Software
-description: When spreadsheets reappear after an ERP or CRM goes live, each one marks a gap between the system as implemented and how the work is done. Treating them as requirements and closing the gaps deliberately recovers the value of the investment.
+title: Why teams build spreadsheets after the business buys enterprise software
+description: When spreadsheets reappear after an ERP or CRM goes live, each marks a gap between the system and the work. Treat them as requirements and close the gaps.
 lead: When spreadsheets reappear after an ERP or CRM goes live, each one marks a gap between the system as implemented and how the work is done. Treating them as requirements and closing the gaps deliberately recovers the value of the investment.
 category: Spreadsheet Dependency & Shadow Operations
 published_date: 2026-10-07
@@ -18,9 +18,9 @@ sources:
   - Optimize your implementation with a fit-to-standard and fit-gap analysis - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis
   - Apply change management with effectivity and success - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/change-management
 related:
-  - The Hidden Risk of One File Controlling an Operation | /patterns/the-hidden-risk-of-one-file-controlling-an-operation/
-  - When Work Goes Missing in the Gap Between Two Systems | /patterns/when-work-goes-missing-in-the-gap-between-two-systems/
-  - When Disconnected Systems Let the Business Act on Old Information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
+  - The hidden risk of one file controlling an operation | /patterns/the-hidden-risk-of-one-file-controlling-an-operation/
+  - When work goes missing in the gap between two systems | /patterns/when-work-goes-missing-in-the-gap-between-two-systems/
+  - When disconnected systems let the business act on old information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
 summary: When spreadsheets reappear after an ERP or CRM goes live, each one marks a gap between the system as implemented and how the work is done. Treating them as requirements and closing the gaps deliberately recovers the value of the investment.
 layout: plain
 ---

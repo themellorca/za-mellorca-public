@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-132
 slug: single-administrator-account-shared-between-staff-accountability-security-exposure-cost
-title: One Admin Login, Several People: The Accountability and Security Cost
-description: When several people share one administrator login, the business cannot tell who changed what, every departure becomes a security event and one leaked password hands over full control.
+title: One admin login, several people: The accountability and security cost
+description: When several people share one administrator login, you cannot tell who changed what, every departure is a security event and one leak hands over control.
 lead: When several people share one administrator login, the business cannot tell who changed what, every departure becomes a security event and one leaked password hands over full control.
 category: Security and Access
 published_date: 2026-10-09
@@ -18,9 +18,9 @@ sources:
   - Learn about the audit logs in Microsoft Entra ID - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/monitoring-health/concept-audit-logs
   - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
 related:
-  - Gone but Still Logged In: The Cost of Incomplete Employee Offboarding | /impact/former-employees-still-active-systems-incomplete-offboarding-cost/
-  - Which Business Numbers Can You Trust? The Cost of Deciding on Bad Data | /impact/untrusted-business-numbers-unreliable-decision-cost/
-  - Reused Passwords: How One Stolen Login Becomes a Business-Wide Risk | /impact/reused-passwords-single-credential-business-risk/
+  - Gone but still logged in: The cost of incomplete employee offboarding | /impact/former-employees-still-active-systems-incomplete-offboarding-cost/
+  - Which business numbers can you trust? The cost of deciding on bad data | /impact/untrusted-business-numbers-unreliable-decision-cost/
+  - Reused passwords: How one stolen login becomes a business-wide risk | /impact/reused-passwords-single-credential-business-risk/
 summary: When several people share one administrator login, the business cannot tell who changed what, every departure becomes a security event and one leaked password hands over full control.
 layout: plain
 ---

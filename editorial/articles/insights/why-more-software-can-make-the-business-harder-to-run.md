@@ -2,9 +2,9 @@
 hub: insights
 record_id: INS-027
 slug: why-more-software-can-make-the-business-harder-to-run
-title: Why More Software Can Make the Business Harder to Run
-description: Explores the risks of software sprawl, integration debt, and the importance of disciplined architecture and standardization.
-lead: Explores the risks of software sprawl, integration debt, and the importance of disciplined architecture and standardization.
+title: Why more software can make the business harder to run
+description: Each new application can add work as well as remove it. How software sprawl and integration debt build up, and how disciplined architecture keeps them in check.
+lead: Each new application can add work as well as remove it. How software sprawl and integration debt build up, and how disciplined architecture keeps them in check.
 category: Technology & Operations
 published_date: 2026-10-01
 updated_date: 2026-10-01
@@ -14,10 +14,10 @@ sources:
   - Salesforce Research Reveals Organizations Today Use Over 1,000 Applications - But 70% Remain Disconnected from One Another and the Core Busi | https://www.salesforce.com/news/stories/connectivity-report-2023/
   - Application Integration vs. Data Integration - IBM | https://www.ibm.com/think/topics/application-integration-vs-data-integration
 related:
-  - Before You Buy Another Tool, Ask These Questions | /insights/before-you-buy-another-tool-ask-these-questions/
-  - How to Know When You Have Too Many Business Apps | /insights/how-to-know-when-you-have-too-many-business-apps/
+  - Before you buy another tool, ask these questions | /insights/before-you-buy-another-tool-ask-these-questions/
+  - How to know when you have too many business apps | /insights/how-to-know-when-you-have-too-many-business-apps/
   - How to buy business software without letting the demo make the decision | /insights/how-to-buy-business-software-without-letting-the-demo-make-the-decision/
-summary: Explores the risks of software sprawl, integration debt, and the importance of disciplined architecture and standardization.
+summary: Each new application can add work as well as remove it. How software sprawl and integration debt build up, and how disciplined architecture keeps them in check.
 layout: plain
 ---
 Software sprawl is not a universal cure; it often becomes a source of complexity that raises coordination costs, fragments data and creates brittle integrations. As organisations add tools, the interfaces between systems multiply, making governance harder and end-user experiences inconsistent. Rather than chasing every new capability, leaders benefit from a disciplined architecture that emphasises standard interfaces, shared data models and lean integrations.

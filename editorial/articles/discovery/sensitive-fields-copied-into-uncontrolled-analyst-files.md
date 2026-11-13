@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-267
 slug: sensitive-fields-copied-into-uncontrolled-analyst-files
 title: Why sensitive customer and staff data ends up in analysts' spreadsheets
-description: ID numbers, salaries and bank details often leave governed systems inside analyst exports. Why it happens, what it risks under POPIA, and how to give analysts what they need without the copies.
+description: ID numbers, salaries and bank details leave governed systems inside analyst exports. The POPIA risk and how to give analysts what they need without copies.
 lead: ID numbers, salaries and bank details often leave governed systems inside analyst exports. Why it happens, what it risks under POPIA, and how to give analysts what they need without the copies.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-05
@@ -21,6 +21,7 @@ related:
   - Why analysts keep rebuilding the same data joins in separate spreadsheets | /discovery/why-analysts-keep-rebuilding-the-same-data-joins-in-spreadsheets/
   - Why the data pipelines behind your dashboards need an operational owner | /discovery/data-pipelines-have-no-clear-operational-owner/
   - When a drop in the numbers is late data, not a business problem | /discovery/reports-cannot-tell-data-delay-from-business-decline/
+  - Why routine data access requests take days instead of hours | /discovery/data-access-requests-take-too-long-for-routine-analysis/
 summary: ID numbers, salaries and bank details often leave governed systems inside analyst exports. Why it happens, what it risks under POPIA, and how to give analysts what they need without the copies.
 layout: plain
 ---
@@ -34,9 +35,9 @@ Most businesses protect their core systems reasonably well. The ERP, payroll and
 
 The symptom is easy to recognise: personal or commercially sensitive fields, such as South African ID numbers, salaries, bank account details, medical aid information or customer pricing, turning up in files on laptops, shared drives and email threads, with no owner and no expiry.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Data and finance leads search for ways to stop sensitive data leaving reporting systems, control Excel exports, or apply POPIA to analytics. Information officers want to know where personal information actually lives. Analysts, for their part, are not trying to break rules. They need answers quickly and the controlled tools do not give them a way to get those answers. The practical goal is to let analysts do real analysis on the data they need, with the identifying fields they do not need left behind, and with any copies that must exist carrying protection with them.
+Data and finance leads look for ways to stop sensitive data leaving reporting systems, control Excel exports, or apply POPIA to analytics. Information officers want to know where personal information actually lives. Analysts, for their part, are not trying to break rules. They need answers quickly and the controlled tools do not give them a way to get those answers. The practical goal is to let analysts do real analysis on the data they need, with the identifying fields they do not need left behind, and with any copies that must exist carrying protection with them.
 
 ## Evidence and system mechanism
 

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-020
 slug: the-process-that-gets-slower-every-time-volume-increases
-title: The Process That Gets Slower Every Time Volume Increases
-description: When turnaround grows much faster than volume, a process has usually lost its headroom. Knowing its capacity, separating simple from complex work and reducing effort per item restores the margin to grow.
+title: The process that gets slower every time volume increases
+description: When turnaround grows much faster than volume, a process has lost its headroom. Separating simple from complex work restores the margin to grow.
 lead: When turnaround grows much faster than volume, a process has usually lost its headroom. Knowing its capacity, separating simple from complex work and reducing effort per item restores the margin to grow.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -18,9 +18,10 @@ sources:
   - Google SRE: Load Balancing with Client Side Throttling | https://sre.google/sre-book/handling-overload/
   - Takt Time - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/takt-time/
 related:
-  - When Copy-and-Paste Becomes Part of the Job Description | /patterns/when-copy-and-paste-becomes-part-of-the-job-description/
-  - When New Business Brings More Paperwork Than Profit | /patterns/when-new-business-brings-more-paperwork-than-profit/
-  - When Manual Exceptions Become the Normal Process | /patterns/when-manual-exceptions-become-the-normal-process/
+  - When copy-and-paste becomes part of the job description | /patterns/when-copy-and-paste-becomes-part-of-the-job-description/
+  - When new business brings more paperwork than profit | /patterns/when-new-business-brings-more-paperwork-than-profit/
+  - When manual exceptions become the normal process | /patterns/when-manual-exceptions-become-the-normal-process/
+  - Why systems slow down at the moment demand increases | /patterns/why-systems-slow-down-at-the-moment-demand-increases/
 summary: When turnaround grows much faster than volume, a process has usually lost its headroom. Knowing its capacity, separating simple from complex work and reducing effort per item restores the margin to grow.
 layout: plain
 ---

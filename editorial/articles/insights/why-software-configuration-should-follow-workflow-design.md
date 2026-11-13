@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-354
 slug: why-software-configuration-should-follow-workflow-design
-title: Why Software Configuration Should Follow Workflow Design
-description: When software is configured before the workflow is designed, the tool ends up defining the process by accident. A practical sequence for designing first and configuring second.
+title: Why software configuration should follow workflow design
+description: Configuring software before designing the workflow lets the tool define the process by accident. How to design first and configure second.
 lead: When software is configured before the workflow is designed, the tool ends up defining the process by accident. A practical sequence for designing first and configuring second.
 category: Systems Design
 published_date: 2026-10-08
@@ -16,7 +16,7 @@ sources:
 related:
   - The hidden cost of operational friction in digital systems | /insights/hidden-cost-of-operational-friction/
   - Before you automate, understand how the work actually moves | /insights/before-you-automate-understand-how-the-work-actually-moves/
-  - Why Your CRM Is Not the Problem You Think It Is | /insights/why-your-crm-is-not-the-problem-you-think-it-is/
+  - Why your CRM is not the problem you think it is | /insights/why-your-crm-is-not-the-problem-you-think-it-is/
 summary: When software is configured before the workflow is designed, the tool ends up defining the process by accident. A practical sequence for designing first and configuring second.
 layout: plain
 ---
@@ -94,7 +94,7 @@ Under pressure, someone adds a quick rule to stop an immediate problem. That is 
 
 ## Keep the design alive after go-live
 
-Workflow design is not a one-off document. Microsoft's guidance on application lifecycle management describes a cycle of plan, develop, test, deploy, operate and monitor, with governance covering change tracking, review and rollback. The same logic applies to business configuration even where no developers are involved: changes should start from the design, be tested, be recorded and be reversible.
+Workflow design is not a one-off document. Microsoft's guidance on [application lifecycle management](https://learn.microsoft.com/en-us/power-platform/alm/overview-alm) describes a cycle of plan, develop, test, deploy, operate and monitor, with governance covering change tracking, review and rollback. The same logic applies to business configuration even where no developers are involved: changes should start from the design, be tested, be recorded and be reversible.
 
 A light-touch version is enough for most small businesses. Keep the workflow design in one shared place. Require that any change to a core setting is described against that design before it is made. Review the design twice a year against what the system actually does.
 

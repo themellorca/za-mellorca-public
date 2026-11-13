@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-476
 slug: why-is-the-ceo-still-chasing-operational-updates
-title: Why Is the CEO Still Chasing Operational Updates?
-description: When the chief executive spends the morning asking managers what happened, the business has no defined way of pushing operational signals to leadership. Here is why that happens and how to change it.
+title: Why is the CEO still chasing operational updates?
+description: When the chief executive spends the morning asking managers what happened, nothing pushes operational signals to leadership. Here is how to change that.
 lead: When the chief executive spends the morning asking managers what happened, the business has no defined way of pushing operational signals to leadership. Here is why that happens and how to change it.
 category: Executive Operating Model, Decisions & Resilience
 published_date: 2026-10-07
@@ -18,9 +18,10 @@ sources:
   - Gemba - What Does It Mean? - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/gemba/
   - Set data alerts in the Power BI service - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
 related:
-  - The Signs That Your Business Needs an Operating System, Not Another App | /patterns/signs-your-business-needs-an-operating-system-not-another-app/
-  - When Every Department Optimizes Its Part but the Whole Process Gets Worse | /patterns/when-every-department-optimizes-its-part-but-the-whole-process-gets-worse/
-  - Why Decision-Makers Keep Asking for Status Updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
+  - The signs that your business needs an operating system, not another app | /patterns/signs-your-business-needs-an-operating-system-not-another-app/
+  - When every department optimizes its part but the whole process gets worse | /patterns/when-every-department-optimizes-its-part-but-the-whole-process-gets-worse/
+  - Why decision-makers keep asking for status updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
+  - When leadership meetings are used to reconstruct what happened | /patterns/why-leadership-meetings-spend-their-first-hour-on-what-happened/
 summary: When the chief executive spends the morning asking managers what happened, the business has no defined way of pushing operational signals to leadership. Here is why that happens and how to change it.
 layout: plain
 ---
@@ -74,7 +75,7 @@ Another is to buy a dashboard tool. A dashboard helps only if the underlying dat
 
 In a better state, the CEO opens one view each morning that shows the handful of measures that matter, drawn directly from the systems where work is recorded, and current enough to trust. Normal days need no questions. When something crosses a defined threshold, an alert reaches the CEO and the responsible manager at the same time, with a link to the detail. Management meetings start from shared facts and focus on decisions.
 
-Common business intelligence tools support this pattern already. Microsoft's Power BI documentation, for example, describes data alerts that notify a user when a value on a dashboard tile crosses a threshold they set, with a link to the data. The technology is not the hard part; agreeing the measures, thresholds and owners is.
+Common business intelligence tools support this pattern already. Microsoft's [Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts) documentation, for example, describes data alerts that notify a user when a value on a dashboard tile crosses a threshold they set, with a link to the data. The technology is not the hard part; agreeing the measures, thresholds and owners is.
 
 For the logistics business, that could mean a daily view of orders dispatched against plan per site, open incidents, staff attendance and cash received, with alerts for missed dispatch cut-offs and safety incidents.
 

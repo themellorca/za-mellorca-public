@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000212
 slug: the-stress-of-not-knowing-if-the-backup-worked
-title: The Stress of Not Knowing if the Backup Worked
-description: In a crisis, the person responsible for the backup finds out whether it works at the worst possible moment. What changes when recovery is tested and visible in advance.
+title: The stress of not knowing if the backup worked
+description: In a crisis, the person responsible for the backup learns whether it works at the worst moment. What changes when recovery is tested in advance.
 lead: In a crisis, the person responsible for the backup finds out whether it works at the worst possible moment. What changes when recovery is tested and visible in advance.
 category: Health, Safety & Wellbeing
 published_date: 2026-10-03
@@ -16,10 +16,12 @@ trade_off: Restore testing takes time and sometimes money; tests can disrupt wor
 epistemic_state: INFERRED: backup and testing practice is observed in NCSC and CISA guidance; the stress carried by responsible individuals is inferred and not measured.
 sources:
   - Backing up your data | https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/backing-up-your-data
+  - Offline backups in an online world - NCSC | https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world
+  - #StopRansomware Guide - CISA | https://www.cisa.gov/stopransomware/ransomware-guide
 related:
-  - The Inbox That Follows You Home | /moments/the-inbox-that-follows-you-home/
-  - The Report Someone Rebuilds by Hand Every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
-  - The Skilled Professional Reduced to Copy-and-Paste | /moments/the-skilled-professional-reduced-to-copy-and-paste/
+  - The inbox that follows you home | /moments/the-inbox-that-follows-you-home/
+  - The report someone rebuilds by hand every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - The skilled professional reduced to copy-and-paste | /moments/the-skilled-professional-reduced-to-copy-and-paste/
 summary: In a crisis, the person responsible for the backup finds out whether it works at the worst possible moment. What changes when recovery is tested and visible in advance.
 layout: plain
 ---
@@ -35,9 +37,9 @@ This piece is about that gap between thinking and knowing, and about the person 
 
 Security guidance has been consistent about one point: a backup is only as good as the ability to restore from it.
 
-The UK's National Cyber Security Centre, in its guidance for small organisations, stresses that it is important to know how to restore your data and to check that the backup contains all your important data. It recommends keeping more than one backup, for example online and on a storage device, and advises that a storage device should not stay connected when not in use, because some malware can reach connected devices.
+The UK's National Cyber Security Centre, in its guidance for small organisations, stresses that it is important to know how to restore your data and to check that the backup contains all your important data. It recommends keeping more than one backup, for example online and on a storage device, and advises that a storage device should not stay connected when not in use, because some malware can reach connected devices. The NCSC makes the same case in [Offline backups in an online world](https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world), adding that backups should be tested regularly to check they work as expected.
 
-The US Cybersecurity and Infrastructure Security Agency, in its ransomware guide, makes a similar case more sharply. It recommends maintaining offline, encrypted backups of critical data and regularly testing their availability and integrity in a disaster recovery scenario. It explains why: many ransomware variants attempt to find and delete or encrypt any backups they can reach.
+The US Cybersecurity and Infrastructure Security Agency, in its [ransomware guide](https://www.cisa.gov/stopransomware/ransomware-guide), makes a similar case more sharply. It recommends maintaining offline, encrypted backups of critical data and regularly testing their availability and integrity in a disaster recovery scenario. It explains why: many ransomware variants attempt to find and delete or encrypt any backups they can reach.
 
 Neither source suggests that a backup job reporting success is enough. Both point to a second, separate activity: proving that recovery works.
 

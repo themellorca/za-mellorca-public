@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-279
 slug: ai-pilots-stuck-in-demonstration-stage-experimentation-cost
-title: AI Pilots That Never Ship: The Cost of Experiments With No Operational Payoff
-description: Repeated AI demonstrations and pilots that never reach daily use add up to licences, consultants and staff time with no return. A clear owner, measure and end date turn experiments into decisions.
+title: AI pilots that never ship: The cost of experiments with no operational payoff
+description: AI demos and pilots that never reach daily use add up to licences, consultants and staff time for no return. An owner, measure and end date fix that.
 lead: Repeated AI demonstrations and pilots that never reach daily use add up to licences, consultants and staff time with no return. A clear owner, measure and end date turn experiments into decisions.
 category: Digital Operations
 published_date: 2026-10-08
@@ -14,12 +14,13 @@ primary_pain: AI projects remaining in demonstrations and pilots that never reac
 primary_cost_mechanism: Licences, consulting and staff time spent with no operational return, plus the benefits delayed while pilots drift
 sources:
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
   - Cost Optimization design principles - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles
 related:
-  - Meetings That Decide Nothing: The Payroll Cost of Meeting Overload | /impact/meetings-without-decisions-payroll-cost/
-  - Policing Routine Work: The Management Cost of Checking Recurring Tasks by Hand | /impact/checking-recurring-tasks-completed-management-policing-cost/
-  - Thirty People, Five-Person Processes: The Cost of Systems That Did Not Grow | /impact/five-person-processes-growing-business-scaling-cost/
+  - Meetings that decide nothing: The payroll cost of meeting overload | /impact/meetings-without-decisions-payroll-cost/
+  - Policing routine work: The management cost of checking recurring tasks by hand | /impact/checking-recurring-tasks-completed-management-policing-cost/
+  - Thirty people, five-person processes: The cost of systems that did not grow | /impact/five-person-processes-growing-business-scaling-cost/
+  - Why AI pilots keep failing to become operations | /patterns/why-ai-pilots-stall-before-they-become-everyday-operations/
 summary: Repeated AI demonstrations and pilots that never reach daily use add up to licences, consultants and staff time with no return. A clear owner, measure and end date turn experiments into decisions.
 layout: plain
 ---
@@ -115,7 +116,7 @@ Getting a pilot to production is mostly about management, not technology.
 6. **Set an end date and a decision rule.** At the end of the pilot, scale it, change it or stop it. Record what was learned either way.
 7. **Check readiness first.** The questions in [is your business actually ready for AI agents](/insights/is-your-business-actually-ready-for-ai-agents/) catch most blockers before money is spent.
 
-Microsoft's [cost optimization principles](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles) add a useful discipline: build a cost model that includes infrastructure, support and implementation, and treat cost management as a continuing practice with monitoring and repeatable processes. An AI pilot with no cost model and no review point does not meet that standard.
+Microsoft's [cost optimisation principles](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles) add a useful discipline: build a cost model that includes infrastructure, support and implementation, and treat cost management as a continuing practice with monitoring and repeatable processes. An AI pilot with no cost model and no review point does not meet that standard.
 
 ## Practical next actions
 

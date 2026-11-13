@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000076
 slug: when-the-system-wont-let-me-becomes-the-answer
-title: When "The System Won't Let Me" Becomes the Answer
-description: A sentence that ends customer conversations and quietly drains the person who has to say it. What lies behind it and how to tell a real control from a stale rule.
+title: When "The system won't let me" becomes the answer
+description: A sentence that ends customer conversations and drains the person who must say it. What lies behind it, and how to tell a real control from a stale rule.
 lead: A sentence that ends customer conversations and quietly drains the person who has to say it. What lies behind it and how to tell a real control from a stale rule.
 category: Human Agency
 published_date: 2026-10-10
@@ -20,9 +20,10 @@ sources:
   - Error-Message Guidelines | https://www.nngroup.com/articles/error-message-guidelines/
   - Consumer Protection Act 68 of 2008 - South African Government | https://www.gov.za/documents/consumer-protection-act
 related:
-  - The Difference Between Being Informed and Being in Control | /moments/the-difference-between-being-informed-and-being-in-control/
-  - Why Agency Starts With Reliable Information | /moments/why-reliable-information-comes-before-real-agency/
-  - The Employee Who Needs Permission for Every Small Fix | /moments/the-employee-who-needs-permission-for-every-small-fix/
+  - The difference between being informed and being in control | /moments/the-difference-between-being-informed-and-being-in-control/
+  - Why agency starts with reliable information | /moments/why-reliable-information-comes-before-real-agency/
+  - The employee who needs permission for every small fix | /moments/the-employee-who-needs-permission-for-every-small-fix/
+  - Why people need to be able to undo mistakes | /moments/why-people-need-to-be-able-to-undo-mistakes/
 summary: A sentence that ends customer conversations and quietly drains the person who has to say it. What lies behind it and how to tell a real control from a stale rule.
 layout: plain
 ---
@@ -36,7 +37,7 @@ This piece explores that sentence and what it does to the people on both sides o
 
 Behind the sentence is a gap between what a person is trusted to do and what the tool allows. In some businesses that gap is deliberate. A refund limit, a locked field or a mandatory status can protect against fraud, error or inconsistency. In others, it is accidental: a rule configured years ago for a situation that no longer exists, or a limitation that no one has ever thought to question.
 
-The World Health Organization's fact sheet on mental health at work names lack of control over job design or workload, and an unclear role, among the risks to mental health at work. The UK Health and Safety Executive's control standard describes the aim that people feel able to influence how they carry out their work, and to use their abilities and initiative. A person whose standard reply is "the system won't let me" has been placed, by design or by neglect, in the opposite position.
+The World Health Organization's fact sheet on [mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) names lack of control over job design or workload, and an unclear role, among the risks to mental health at work. The UK Health and Safety Executive's control standard describes the aim that people feel able to influence how they carry out their work, and to use their abilities and initiative. A person whose standard reply is "the system won't let me" has been placed, by design or by neglect, in the opposite position.
 
 ## An illustrative example
 
@@ -52,7 +53,7 @@ There is more at stake than efficiency. When people are asked to carry out a cus
 
 It would be too strong to claim that every employee who says this sentence feels diminished. Some find it a relief to have a clear boundary. The claim is narrower: where the boundary is unexplained, unreasonable or immovable, it tends to cost people their sense of being able to do the job well.
 
-Customers, for their part, are entitled to fair dealing. The Consumer Protection Act, which the government summary describes as aiming to promote a fair marketplace and improve standards of consumer information, is not a customer-service manual. But a business that routinely answers legitimate complaints with a refusal it cannot explain is working against the spirit of that purpose.
+Customers, for their part, are entitled to fair dealing. The [Consumer Protection Act](https://www.gov.za/documents/consumer-protection-act), which the government summary describes as aiming to promote a fair marketplace and improve standards of consumer information, is not a customer-service manual. But a business that routinely answers legitimate complaints with a refusal it cannot explain is working against the spirit of that purpose.
 
 ## What messages do help
 

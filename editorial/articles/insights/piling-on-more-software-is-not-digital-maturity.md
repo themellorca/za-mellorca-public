@@ -3,7 +3,7 @@ hub: insights
 record_id: INS-026
 slug: piling-on-more-software-is-not-digital-maturity
 title: Piling on more software is not digital maturity.
-description: Why adding more business software can increase cost, duplication and operational friction—and how to decide what to keep, improve, integrate, automate, replace or remove.
+description: Adding more software can raise cost, duplication and friction. How to decide what to keep, improve, integrate, automate, replace or remove.
 lead: A growing software stack can look like progress while quietly increasing duplication, cost, confusion and dependency. Digital maturity is not the number of applications a business owns. It is how coherently the operating environment works.
 category: Systems & Strategy
 published_date: 2026-08-31
@@ -24,7 +24,7 @@ sources:
   - The Technology Code of Practice | https://www.gov.uk/guidance/the-technology-code-of-practice
 related:
   - The hidden cost of operational friction in digital systems | /insights/hidden-cost-of-operational-friction/
-  - What Keep, Fix, Integrate, Automate, Replace or Remove Means in Practice | /insights/what-keep-fix-integrate-automate-replace-or-remove-means-in-practice/
+  - What keep, fix, integrate, automate, replace or remove means in practice | /insights/what-keep-fix-integrate-automate-replace-or-remove-means-in-practice/
   - How to separate urgent systems problems from merely annoying ones | /insights/how-to-separate-urgent-systems-problems-from-merely-annoying-ones/
 ---
 Most businesses do not set out to create an unnecessarily complicated software estate. It happens one reasonable decision at a time.

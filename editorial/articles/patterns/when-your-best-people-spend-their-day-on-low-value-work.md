@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-005
 slug: when-your-best-people-spend-their-day-on-low-value-work
-title: When Your Best People Spend Their Day on Low-Value Work
-description: When routine work has no designed home, it collects around the most capable people. The result is scarce senior capacity spent on chasing, correcting and formatting.
+title: When your best people spend their day on low-value work
+description: Routine work with no designed home collects around the most capable people. Senior time gets spent chasing, correcting and formatting.
 lead: When routine work has no designed home, it collects around the most capable people. The result is scarce senior capacity spent on chasing, correcting and formatting.
 category: Manual Work & Administrative Load
 published_date: 2026-10-03
@@ -16,10 +16,11 @@ commercial_value_dimensions: capacity, revenue, margin, risk, scalability
 sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
   - Anatomy of Work 2023 - Rise of the Connected Enterprise | https://asana.com/resources/anatomy-of-work
+  - The social economy: Unlocking value and productivity through social technologies - McKinsey Global Institute | https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy
 related:
-  - When Manual Exceptions Become the Normal Process | /patterns/when-manual-exceptions-become-the-normal-process/
-  - When People Are Used to Move Data Instead of Make Decisions | /patterns/when-people-are-used-to-move-data-instead-of-make-decisions/
-  - The Work Your Staff Do Because Your Systems Don't | /patterns/the-work-your-staff-do-because-your-systems-dont/
+  - When manual exceptions become the normal process | /patterns/when-manual-exceptions-become-the-normal-process/
+  - When people are used to move data instead of make decisions | /patterns/when-people-are-used-to-move-data-instead-of-make-decisions/
+  - The work your staff do because your systems don't | /patterns/the-work-your-staff-do-because-your-systems-dont/
 summary: When routine work has no designed home, it collects around the most capable people. The result is scarce senior capacity spent on chasing, correcting and formatting.
 layout: plain
 ---
@@ -37,7 +38,9 @@ The usual reading of this condition is personal. The person is too helpful, does
 
 Work flows to the point of least resistance. If a task has no defined home, no clear owner, no reliable instructions and no system that can do it, it goes to whoever can finish it without asking questions. In most businesses that is the most experienced person. The organisation is therefore spending its scarcest capacity on its least valuable work, and it is doing so automatically, every day, without anyone deciding that it should.
 
-This is a common experience rather than an unusual one. Microsoft's *Work Trend Index*, based on a survey of 31,000 workers in 31 countries, reported that 64% of people say they struggle with having the time and energy to do their job, and 62% say they spend too much time searching for information during the workday. Asana's *Anatomy of Work* research, drawing on a survey of 9,615 knowledge workers, makes a similar point: a large part of the working week goes on coordination and repetitive tasks rather than the skilled work people were hired to do.
+This is a common experience rather than an unusual one. Microsoft's *[Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work)*, based on a survey of 31,000 workers in 31 countries, reported that 64% of people say they struggle with having the time and energy to do their job, and 62% say they spend too much time searching for information during the workday.
+
+Asana's *Anatomy of Work* research, drawing on a survey of 9,615 knowledge workers, makes a similar point: a large part of the working week goes on coordination and repetitive tasks rather than the skilled work people were hired to do. The McKinsey Global Institute's earlier study, [The social economy](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy), estimated that interaction workers spend nearly 20% of their week looking for internal information or tracking down colleagues.
 
 > Realisation prompt: if your most capable person had one free day a week, what would the business ask them to do with it, and why is that not happening now?
 

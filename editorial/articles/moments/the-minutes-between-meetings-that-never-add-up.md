@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000022
 slug: the-minutes-between-meetings-that-never-add-up
-title: The Minutes Between Meetings That Never Add Up
-description: Fifteen minutes here, twenty there. On paper the calendar has plenty of free time. In practice those fragments are too short to do anything that needs thought. What a scattered calendar takes, and what shaping it differently gives back.
+title: The minutes between meetings that never add up
+description: The calendar looks free, yet fifteen-minute fragments are too short for thinking. What a scattered calendar takes, and what shaping it differently returns.
 lead: Fifteen minutes here, twenty there. On paper the calendar has plenty of free time. In practice those fragments are too short to do anything that needs thought. What a scattered calendar takes, and what shaping it differently gives back.
 category: Time and Attention
 published_date: 2026-10-05
@@ -19,9 +19,9 @@ sources:
   - Make all your events shorter automatically - Microsoft Support | https://support.microsoft.com/en-us/outlook/make-all-your-events-shorter-automatically
   - Maker's Schedule, Manager's Schedule | https://www.paulgraham.com/makersschedule.html
 related:
-  - Ten Open Tabs and Five Logins: What the Morning Sign-In Takes | /moments/ten-open-tabs-and-five-logins/
-  - Why Some People Never Get an Uninterrupted Hour | /moments/why-some-people-never-get-an-uninterrupted-hour/
-  - The Late Night Spent Reconciling Two Spreadsheets | /moments/the-late-night-spent-reconciling-two-spreadsheets/
+  - Ten open tabs and five logins: What the morning sign-in takes | /moments/ten-open-tabs-and-five-logins/
+  - Why some people never get an uninterrupted hour | /moments/why-some-people-never-get-an-uninterrupted-hour/
+  - The late night spent reconciling two spreadsheets | /moments/the-late-night-spent-reconciling-two-spreadsheets/
 summary: Fifteen minutes here, twenty there. On paper the calendar has plenty of free time. In practice those fragments are too short to do anything that needs thought. What a scattered calendar takes, and what shaping it differently gives back.
 layout: plain
 ---
@@ -33,13 +33,13 @@ This piece looks at those gaps: why fragmented free time behaves so differently 
 
 ## Why a gap is not the same as an hour
 
-An essay by the programmer and investor Paul Graham, written in 2009, gave this problem a name that has stuck. He described a manager's schedule, organised in hourly slots where a meeting is simply one more appointment, and a maker's schedule, where people who write, design, analyse or build need long uninterrupted stretches. For someone on a maker's schedule, he argued, a single meeting can break a morning or afternoon into pieces too small for real work.
+An [essay by the programmer and investor Paul Graham](https://www.paulgraham.com/makersschedule.html), written in 2009, gave this problem a name that has stuck. He described a manager's schedule, organised in hourly slots where a meeting is simply one more appointment, and a maker's schedule, where people who write, design, analyse or build need long uninterrupted stretches. For someone on a maker's schedule, he argued, a single meeting can break a morning or afternoon into pieces too small for real work.
 
 The essay is an argument, not a study, and its categories are broad. Most people in small and mid-sized businesses do some of both kinds of work in the same day. But it captures something many people recognise: time that is broken into fragments can be used for responding, but rarely for thinking.
 
 ## What the transitions themselves cost
 
-There is also evidence that the moments between meetings carry a cost of their own. Microsoft's Human Factors Lab ran a small study in 2021 with fourteen people wearing EEG caps. In one session, participants attended four half-hour video meetings back to back. In another, the same meetings were separated by ten-minute breaks, which participants spent meditating.
+There is also evidence that the moments between meetings carry a cost of their own. [Microsoft's Human Factors Lab ran a small study in 2021](https://www.microsoft.com/en-us/worklab/work-trend-index/brain-research) with fourteen people wearing EEG caps. In one session, participants attended four half-hour video meetings back to back. In another, the same meetings were separated by ten-minute breaks, which participants spent meditating.
 
 Microsoft reported that without breaks, beta-wave activity, which the researchers associate with stress, built up over the course of the sessions. The transition from one meeting to the next caused a spike in that activity, which the researchers attributed to people anticipating the next meeting while the current one was ending. With breaks, the build-up did not occur in the same way, and measures associated with engagement were more positive.
 
@@ -65,7 +65,7 @@ Some people thrive on a full, varied calendar and prefer it to long stretches of
 
 ## What could realistically change
 
-1. **Shorten meetings by default.** Microsoft's support documentation describes an Outlook setting that ends events a few minutes early or starts them a few minutes late, with separate durations for short and long meetings, to build in travel or buffer time. Other calendar tools offer similar options. It is a small change that gives every transition some room.
+1. **Shorten meetings by default.** [Microsoft's support documentation](https://support.microsoft.com/en-us/outlook/make-all-your-events-shorter-automatically) describes an Outlook setting that ends events a few minutes early or starts them a few minutes late, with separate durations for short and long meetings, to build in travel or buffer time. Other calendar tools offer similar options. It is a small change that gives every transition some room.
 2. **Cluster meetings.** Grouping meetings into particular mornings or afternoons leaves other blocks intact. A team might agree that internal check-ins happen after three, or that one morning a week is kept clear.
 3. **Protect blocks for focused work.** Booking time for one's own work in the calendar, and treating it as seriously as a meeting, makes it visible to colleagues.
 4. **Question the default length.** Not every meeting needs thirty minutes. Some updates can be fifteen; some do not need a meeting at all.

@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-193
 slug: when-staff-need-to-ask-who-approves-what
-title: When Staff Need to Ask Who Approves What
+title: When staff need to ask who approves what
 description: Repeated questions about who can approve routine work often reveal unclear decision rights and an approval workflow that still depends on memory.
 lead: If routine work repeatedly pauses while people search for the right approver, the problem may be unclear decision rights rather than employee knowledge.
 category: People Operations & Internal Service
@@ -25,9 +25,9 @@ sources:
   - Change approval settings for an access package in entitlement management - Microsoft Entra - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-access-package-approval-policy
   - Separation of Duty (SOD) - Glossary - CSRC | https://csrc.nist.gov/glossary/term/separation_of_duty
 related:
-  - When Offboarding Leaves Digital Access Behind | /patterns/when-offboarding-leaves-digital-access-behind/
-  - Why Does Hiring Someone Create So Much Internal Admin? | /patterns/why-does-hiring-someone-create-so-much-internal-admin/
-  - When Copy-and-Paste Becomes Part of the Job Description | /patterns/when-copy-and-paste-becomes-part-of-the-job-description/
+  - When offboarding leaves digital access behind | /patterns/when-offboarding-leaves-digital-access-behind/
+  - Why does hiring someone create so much internal admin? | /patterns/why-does-hiring-someone-create-so-much-internal-admin/
+  - When copy-and-paste becomes part of the job description | /patterns/when-copy-and-paste-becomes-part-of-the-job-description/
 summary: Repeated uncertainty about approvers can reveal missing decision rights, ownership and escalation rules. Making those rules explicit can reduce waiting and management interruption while improving governance as the business scales.
 ---
 ## Observable condition
@@ -58,7 +58,7 @@ Several specific mechanisms tend to appear together:
 - **Exception creep.** One-off decisions become precedents without becoming rules, so similar requests receive different treatment.
 - **Control intent is unstated.** Approval steps exist, but nobody can say which risk each one controls, so nobody feels able to simplify them.
 
-Some approval design is deliberately about independence. NIST describes separation of duty as the principle that no user should hold enough privilege to misuse a system alone, giving the example that the person authorising a payment should not also prepare it. Clear decision rights make that kind of control easier to apply consistently, because the rule specifies who must *not* approve as well as who may.
+Some approval design is deliberately about independence. NIST describes [separation of duty](https://csrc.nist.gov/glossary/term/separation_of_duty) as the principle that no user should hold enough privilege to misuse a system alone, giving the example that the person authorising a payment should not also prepare it. Clear decision rights make that kind of control easier to apply consistently, because the rule specifies who must *not* approve as well as who may.
 
 ## Commercial impact
 
@@ -88,7 +88,7 @@ The following is an illustrative scenario, not a client case. A services busines
 
 A stronger model makes decision rights part of the workflow. The request type, amount, risk level, business unit or exception class can determine the correct approver and escalation path. Staff should not need institutional memory to discover the next step.
 
-Current workflow tooling already supports this kind of design. Microsoft's Power Automate approvals, for example, distinguish between requiring every approver, accepting the first response and sequential approval in a fixed order. Microsoft Entra entitlement management lets an approval policy name alternate approvers, forward pending requests to them on a schedule and set how many days a decision may take before the request expires. The tools are not the point; the point is that routing, absence and time limits can be explicit design choices rather than improvisation.
+Current workflow tooling already supports this kind of design. Microsoft's [Power Automate approvals](https://learn.microsoft.com/en-us/power-automate/get-started-approvals), for example, distinguish between requiring every approver, accepting the first response and sequential approval in a fixed order. Microsoft Entra entitlement management lets an approval policy name alternate approvers, forward pending requests to them on a schedule and set how many days a decision may take before the request expires. The tools are not the point; the point is that routing, absence and time limits can be explicit design choices rather than improvisation.
 
 ## Intervention
 

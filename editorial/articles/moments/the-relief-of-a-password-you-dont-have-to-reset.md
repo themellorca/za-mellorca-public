@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000128
 slug: the-relief-of-a-password-you-dont-have-to-reset
-title: The Relief of a Password You Don't Have to Reset
-description: Forced password changes take time and attention and, according to current guidance, add little security. What people get back when access is designed around them.
+title: The relief of a password you don't have to reset
+description: Forced password changes cost time and attention and, by current guidance, add little security. What people get back when access is designed around them.
 lead: Forced password changes take time and attention and, according to current guidance, add little security. What people get back when access is designed around them.
 category: Relief from Friction
 published_date: 2026-10-03
@@ -17,10 +17,11 @@ epistemic_state: INFERRED: the security position is observed in NCSC and NIST gu
 sources:
   - Password policy: updating your approach | https://www.ncsc.gov.uk/collection/passwords/updating-your-approach
   - NIST Special Publication 800-63B | https://pages.nist.gov/800-63-4/sp800-63b.html
+  - Password policy recommendations - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations
 related:
-  - When Your Calendar Belongs to Other People's Systems | /moments/when-your-calendar-belongs-to-other-peoples-systems/
-  - What Changes When Status Updates Stop Being a Chore | /moments/what-changes-when-status-updates-stop-being-a-chore/
-  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - When your calendar belongs to other people's systems | /moments/when-your-calendar-belongs-to-other-peoples-systems/
+  - What changes when status updates stop being a chore | /moments/what-changes-when-status-updates-stop-being-a-chore/
+  - The lunch break eaten by approval requests | /moments/the-lunch-break-eaten-by-approval-requests/
 summary: Forced password changes take time and attention and, according to current guidance, add little security. What people get back when access is designed around them.
 layout: plain
 ---
@@ -32,7 +33,7 @@ It is a small ordeal. It is also, according to current guidance from two of the 
 
 ## What the guidance now says
 
-The UK's National Cyber Security Centre, in its guidance on updating password policy, states plainly that regular password changing harms rather than improves security. Its reasoning is practical. When people are forced to change passwords often, they tend to make small, predictable variations of the old one. And if a password has been stolen, it is usually used quickly, so a change months later does little to prevent harm.
+The UK's National Cyber Security Centre, in its guidance on updating password policy, states plainly that regular password changing harms rather than improves security. Its reasoning is practical. When people are forced to change passwords often, they tend to make small, predictable variations of the old one. And if a password has been stolen, it is usually used quickly, so a change months later does little to prevent harm. Microsoft's [password policy recommendations](https://learn.microsoft.com/en-us/microsoft-365/admin/misc/password-policy-recommendations) reach the same conclusion for cloud-only accounts, recommending that passwords never expire.
 
 The US National Institute of Standards and Technology goes further in its digital identity guidelines, SP 800-63B. It says that verifiers shall not require users to change passwords periodically, and shall not impose composition rules such as requiring a mixture of character types. It does require a change when there is evidence that a password has been compromised. The emphasis instead falls on length, on checking new passwords against lists of known compromised values, and on additional factors of authentication.
 

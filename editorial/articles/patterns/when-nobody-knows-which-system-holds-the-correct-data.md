@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-227
 slug: when-nobody-knows-which-system-holds-the-correct-data
-title: When Nobody Knows Which System Holds the Correct Data
-description: When stock, prices or contact details differ between systems and staff must check each one, the cause is usually undeclared data authority. Naming a system of record and an owner for each data element removes the guesswork.
+title: When nobody knows which system holds the correct data
+description: When stock, prices or contacts differ between systems, nobody knows which to trust. Name a system of record and an owner for each data element.
 lead: When stock, prices or contact details differ between systems and staff must check each one, the cause is usually undeclared data authority. Naming a system of record and an owner for each data element removes the guesswork.
 category: Data Quality, Ownership & Governance
 published_date: 2026-10-03
@@ -16,10 +16,12 @@ commercial_value_dimensions: speed, capacity, customer experience, revenue, risk
 sources:
   - What is Master Data Management? - IBM | https://www.ibm.com/think/topics/master-data-management
   - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
+  - Master Data Management in Microsoft Purview - Microsoft Learn | https://learn.microsoft.com/en-us/purview/data-governance-master-data-management
 related:
-  - When Nobody Owns the Definition of a Business Metric | /patterns/when-nobody-owns-the-definition-of-a-business-metric/
-  - When Poor Data Quality Becomes an Automation Failure | /patterns/when-poor-data-quality-becomes-an-automation-failure/
-  - Why Information Has to Be Copied From One System to Another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
+  - When nobody owns the definition of a business metric | /patterns/when-nobody-owns-the-definition-of-a-business-metric/
+  - When poor data quality becomes an automation failure | /patterns/when-poor-data-quality-becomes-an-automation-failure/
+  - Why information has to be copied from one system to another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
+  - Why AI cannot fix data nobody trusts | /patterns/why-an-ai-tool-cannot-rescue-records-your-own-staff-do-not-believe/
 summary: When stock, prices or contact details differ between systems and staff must check each one, the cause is usually undeclared data authority. Naming a system of record and an owner for each data element removes the guesswork.
 layout: plain
 ---
@@ -53,7 +55,9 @@ The visible symptom is staff checking several systems. The common assumption is 
 - **No named owner.** Nobody is responsible for the correctness of a given data element across the business. Each team looks after its own system and assumes the others are someone else's concern.
 - **Quality is not measured.** Errors are discovered when they cause a problem, not through routine checks.
 
-Established data-management practice describes this gap clearly. IBM's overview of [master data management](https://www.ibm.com/think/topics/master-data-management) describes core business entities such as customers, products, suppliers and locations, and the aim of a single source of truth so that everyone works from the same information. It also notes that keeping several copies aligned across systems requires deliberate integration, deduplication and synchronisation. The UK government's [Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework) frames quality as fitness for purpose, lists dimensions including consistency, timeliness and accuracy, and recommends solving data quality issues at source rather than applying temporary fixes. A business without declared authority cannot fix problems at source, because nobody agrees where the source is.
+Established data-management practice describes this gap clearly. IBM's overview of [master data management](https://www.ibm.com/think/topics/master-data-management) describes core business entities such as customers, products, suppliers and locations, and the aim of a single source of truth so that everyone works from the same information. It also notes that keeping several copies aligned across systems requires deliberate integration, deduplication and synchronisation.
+
+The UK government's [Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework) frames quality as fitness for purpose, lists dimensions including consistency, timeliness and accuracy, and recommends solving data quality issues at source rather than applying temporary fixes. A business without declared authority cannot fix problems at source, because nobody agrees where the source is. Microsoft Purview's [master data management](https://learn.microsoft.com/en-us/purview/data-governance-master-data-management) documentation describes the same aim: a deduplicated set of master data records, or golden records, against which other data can be checked.
 
 ## Commercial impact
 

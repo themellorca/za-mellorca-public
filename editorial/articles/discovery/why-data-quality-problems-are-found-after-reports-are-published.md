@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-257
 slug: why-data-quality-problems-are-found-after-reports-are-published
 title: Why data-quality problems are found only after the report has gone out
-description: When a reader spots duplicated sales or missing branches after the pack is circulated, the correction costs credibility. How to test data before reports are published.
+description: When a reader spots duplicated sales or missing branches after a pack goes out, the correction costs credibility. How to test data before publishing.
 lead: When a reader spots duplicated sales or missing branches after the pack is circulated, the correction costs credibility. How to test data before reports are published.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-05
@@ -32,9 +32,9 @@ This article looks at that operating condition: data-quality problems that are d
 
 Reports are usually checked for presentation: formatting, totals that add up, commentary. They are less often checked for whether the underlying data is complete, current and plausible. So missing records, duplicates, stale extracts and broken mappings pass straight through to the published report. The first quality check is effectively the reader. By then the figures may have been discussed, forwarded or used in a decision.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Finance and reporting leads search for how to catch data errors before reports are sent, automate data validation, or set up data quality checks for reporting. Executives want reports that do not need correcting. The underlying need is a set of automatic checks that run before publication, with clear rules about what blocks a report and what only raises a warning.
+Finance and reporting leads ask how to catch data errors before reports are sent, automate data validation, or set up data quality checks for reporting. Executives want reports that do not need correcting. The underlying need is a set of automatic checks that run before publication, with clear rules about what blocks a report and what only raises a warning.
 
 ## Evidence and system mechanism
 

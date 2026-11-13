@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-306
 slug: monitoring-alerts-without-a-clear-response-owner
 title: When monitoring alerts fire and nobody knows who should respond
-description: Alerts that go to a shared mailbox or a whole team often get no response, because everyone assumes someone else has it. How to give every alert an owner, an action and a route.
+description: Alerts sent to a shared mailbox or whole team often get no response. How to give every alert an owner, an action and a route.
 lead: Alerts that go to a shared mailbox or a whole team often get no response, because everyone assumes someone else has it. How to give every alert an owner, an action and a route.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-06
@@ -39,9 +39,9 @@ An alert is a request for someone to do something. For that to work, three thing
 
 The result is a monitoring system that records problems accurately and changes nothing.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for how to reduce alert fatigue, who should receive monitoring alerts, how to set up on-call for a small team, or why incidents are found by users before IT. Managers notice the symptom after an outage: the system had warned about it, sometimes hours earlier, and nobody acted. The real need is a simple model that gives every alert an owner and a response, with routing that matches how the team actually works.
+The questions usually sound like "how do we reduce alert fatigue?", "who should receive monitoring alerts?", "how do we set up on-call for a small team?" or "why do users find incidents before IT does?" Managers notice the symptom after an outage: the system had warned about it, sometimes hours earlier, and nobody acted. The real need is a simple model that gives every alert an owner and a response, with routing that matches how the team actually works.
 
 ## Evidence and system mechanism
 

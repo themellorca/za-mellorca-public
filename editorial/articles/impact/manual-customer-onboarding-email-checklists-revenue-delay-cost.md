@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-049
 slug: manual-customer-onboarding-email-checklists-revenue-delay-cost
-title: Onboarding New Customers by Email: The Labour and Revenue Cost of a Slow Start
+title: Onboarding new customers by email: The labour and revenue cost of a slow start
 description: When every new customer is set up through emailed forms and checklists, the business pays in staff hours and in revenue that waits to be invoiced.
 lead: When every new customer is set up through emailed forms and checklists, the business pays in staff hours and in revenue that waits to be invoiced.
 category: Business Automation
@@ -14,12 +14,12 @@ primary_pain: Each new customer is onboarded manually through emailed forms, che
 primary_cost_mechanism: Labour cost per onboarding and revenue delay before the first invoice, with error and data-protection risk
 sources:
   - Tax Invoices - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/government/tax-invoices/
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
   - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
 related:
-  - Paper Forms Captured Twice: The Cost of Double Handling | /impact/paper-forms-captured-twice-double-handling-cost/
-  - Gathering Information Before Work Can Start: The Payroll Cost of Preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
-  - Predictable Appointments Still Carry a Cost When Staff Arrange Every Slot | /impact/manual-appointment-scheduling-administration-cost/
+  - Paper forms captured twice: The cost of double handling | /impact/paper-forms-captured-twice-double-handling-cost/
+  - Gathering information before work can start: The payroll cost of preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
+  - Predictable appointments still carry a cost when staff arrange every slot | /impact/manual-appointment-scheduling-administration-cost/
 summary: When every new customer is set up through emailed forms and checklists, the business pays in staff hours and in revenue that waits to be invoiced.
 layout: plain
 ---
@@ -97,7 +97,7 @@ Look at onboarding seriously when new-customer volume is rising, when sales are 
 
 - **One structured intake:** a single online form that collects the details once, checks required fields and accepts uploads securely, instead of attachments by email.
 - **Automatic record creation:** data from the form flows into the accounting or CRM system without retyping.
-- **Routed approvals:** credit or contract approvals go to the right person with the information attached. Microsoft's Power Automate documentation, for example, describes approval flows where approvers are notified and can respond from email, Teams or an action centre, with sequential and parallel options.
+- **Routed approvals:** credit or contract approvals go to the right person with the information attached. Microsoft's [Power Automate](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) documentation, for example, describes approval flows where approvers are notified and can respond from email, Teams or an action centre, with sequential and parallel options.
 - **Visible status:** anyone can see where each new customer is and what is missing.
 - **A measured cycle time:** days from signed quote to first invoice, reviewed monthly.
 

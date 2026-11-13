@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-284
 slug: manual-file-transfers-inside-automated-processes
 title: Why manual file transfers survive inside otherwise automated processes
-description: Downloading a file from one system and uploading it to another is often the only manual step left in an automated process. Why it survives, what it costs and how to close the gap.
+description: Downloading a file from one system and uploading it to another is often the last manual step. Why it survives, what it costs and how to close it.
 lead: Downloading a file from one system and uploading it to another is often the only manual step left in an automated process. Why it survives, what it costs and how to close the gap.
 category: Integration & API Operations
 published_date: 2026-10-06
@@ -38,9 +38,9 @@ A manual file transfer is any point where a person has to move data from one sys
 
 Each system on either side may be well run. The hand-off between them depends on memory, timing and a person's judgement about whether the file looks correct. There is usually no record of who moved which file, when, or whether it was changed on the way.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People rarely search for "manual file transfer". They ask how to automate a download from a supplier portal, how to stop an import failing when someone forgets the file, or why a process is "automated but still slow". Operations and finance managers describe the symptom as a process that only works when a particular person is in. The real question underneath is how to make the whole process run end to end, with a reliable record of every hand-off, without replacing the systems on either side. A broader view of the same pattern is in [when your staff become the integration between software platforms](/patterns/when-your-staff-become-the-integration-between-software-platforms/).
+Nobody calls it "manual file transfer". They ask how to automate a download from a supplier portal, how to stop an import failing when someone forgets the file, or why a process is "automated but still slow". Operations and finance managers describe the symptom as a process that only works when a particular person is in. The real question underneath is how to make the whole process run end to end, with a reliable record of every hand-off, without replacing the systems on either side. A broader view of the same pattern is in [when your staff become the integration between software platforms](/patterns/when-your-staff-become-the-integration-between-software-platforms/).
 
 ## Evidence and system mechanism
 

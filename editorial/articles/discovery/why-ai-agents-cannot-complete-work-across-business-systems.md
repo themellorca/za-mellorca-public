@@ -2,8 +2,8 @@
 hub: discovery
 record_id: DISC-451
 slug: why-ai-agents-cannot-complete-work-across-business-systems
-title: Why AI Agents Can Answer Questions but Cannot Complete Work Across Business Systems
-description: When an AI agent can answer questions but cannot complete work, the missing layer is often governed access to business systems, workflows, permissions and exception handling.
+title: Why AI agents can answer questions but cannot complete work across business systems
+description: AI agents can answer questions but not complete work when they lack governed access to systems, workflows and permissions. What to put in place.
 lead: An agent may understand the request perfectly yet still stop at advice because the business has not connected it safely to the systems, actions and controls required to finish the job.
 category: AI, Automation & Agent Operations
 published_date: 2026-09-03
@@ -28,7 +28,7 @@ sources:
 closing_title: Method note
 closing_text: The sources establish current agent integration and risk-management mechanisms. They do not prove prevalence or ROI. Quantify value from the specific workflow's completion rate, human effort, exceptions and business outcomes.
 related:
-  - Why AI Tools Fail Without Authoritative Data | /discovery/why-ai-tools-fail-without-authoritative-data/
+  - Why AI tools fail without authoritative data | /discovery/why-ai-tools-fail-without-authoritative-data/
   - Manual work persists because automation covers only the happy path | /discovery/manual-work-persists-because-automation-covers-the-happy-path/
   - AI-generated decisions cannot be traced to source data | /discovery/ai-generated-decisions-cannot-be-traced-to-source-data/
 ---
@@ -38,11 +38,11 @@ The organisation launches an AI assistant that can retrieve policy, explain a cu
 
 Users notice quickly. The assistant is helpful for reading and summarising, but the work they are measured on still happens in the same screens, with the same copying between systems. The agent becomes a faster way to find out what to do, not a way to get it done.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches such as "AI agent integrate with business systems", "agent actions across applications", "AI agent workflow automation" and "connect AI agents to APIs" point to the same requirement: move from conversational assistance to controlled execution.
+Requests such as "make the AI agent work with our business systems", "let agents act across applications", "automate workflows with AI agents" and "connect AI agents to APIs" point to the same requirement: move from conversational assistance to controlled execution.
 
-The buyer is rarely asking for a cleverer model. They are asking why the pilot that impressed in a demonstration has not changed cycle time, handling effort or backlog in the live operation.
+The business is rarely asking for a cleverer model. They are asking why the pilot that impressed in a demonstration has not changed cycle time, handling effort or backlog in the live operation.
 
 ## Evidence and system mechanism
 

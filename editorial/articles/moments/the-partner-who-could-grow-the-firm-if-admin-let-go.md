@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000074
 slug: the-partner-who-could-grow-the-firm-if-admin-let-go
-title: The Partner Who Could Grow the Firm If Admin Let Go
-description: In many small firms the person best placed to win new work is the one buried in approvals and reconciliations. What it takes to free that time, and what it costs.
+title: The partner who could grow the firm if admin let go
+description: In many small firms the person best placed to win new work is buried in approvals and reconciliations. What it takes to free that time, and what it costs.
 lead: In many small firms the person best placed to win new work is the one buried in approvals and reconciliations. What it takes to free that time, and what it costs.
 category: Human Agency
 published_date: 2026-10-10
@@ -20,9 +20,10 @@ sources:
   - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
   - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
 related:
-  - Why Standardisation Can Free or Confine | /moments/when-standardisation-frees-people-and-when-it-confines-them/
-  - Why Good Judgement Gets Buried Under Process | /moments/why-good-judgement-gets-buried-under-process/
-  - The Quiet Power of Choosing When to Respond | /moments/the-quiet-power-of-choosing-when-to-respond/
+  - Why standardisation can free or confine | /moments/when-standardisation-frees-people-and-when-it-confines-them/
+  - Why good judgement gets buried under process | /moments/why-good-judgement-gets-buried-under-process/
+  - The quiet power of choosing when to respond | /moments/the-quiet-power-of-choosing-when-to-respond/
+  - The small business owner choosing growth on their own terms | /moments/the-owner-choosing-growth-on-their-own-terms/
 summary: In many small firms the person best placed to win new work is the one buried in approvals and reconciliations. What it takes to free that time, and what it costs.
 layout: plain
 ---
@@ -36,7 +37,7 @@ For some owners, the administrative load is not dramatic. It is a steady, reason
 
 The cost shows up as things that do not happen. The conversation with a prospective client does not take place. The new service line stays at the idea stage. The partner who might have mentored a junior colleague or spent a day thinking about direction spends that day on reconciliations. The firm is stable, but it is not growing in the way its principal could in theory make it grow.
 
-The UK Health and Safety Executive's standard on demands describes the aim that employees have workloads manageable within agreed working hours and jobs that match their skills and abilities. It is written about employee stress, but the underlying idea applies to owners too: a job design where the most valuable skills are used least is a design problem, not a personal failing.
+The UK Health and Safety Executive's [standard on demands](https://www.hse.gov.uk/stress/standards/demands.htm) describes the aim that employees have workloads manageable within agreed working hours and jobs that match their skills and abilities. It is written about employee stress, but the underlying idea applies to owners too: a job design where the most valuable skills are used least is a design problem, not a personal failing. The [WHO fact sheet on mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) lists excessive workloads and low job control among the working conditions that pose a risk to mental health.
 
 ## An illustrative example
 
@@ -55,7 +56,7 @@ Several ordinary reasons keep administrative work with senior people.
 - **The systems do not support delegation.** If approvals, access or reporting only work through one login, the owner holds the keys because the tools demand it. Dependency on one person is discussed in [key-person dependency is a systems problem](/insights/key-person-dependency-is-a-systems-problem/).
 - **Identity.** For some founders, being across every detail is part of how they understand their role. This is explored in [when the founder's identity is fused with every task](/moments/when-the-founders-identity-is-fused-with-every-task/).
 
-The self-determination research summarised at selfdeterminationtheory.org describes autonomy, competence and relatedness as basic psychological needs, and says that contexts supporting them tend to foster better engagement and performance. It does not say that every owner wants to hand off administration, and it would be a mistake to assume so. Some owners find a sense of competence and control in the detail. The argument here is conditional: for owners who want to grow and are blocked by admin, handing it off can restore choice.
+The self-determination research [summarised at selfdeterminationtheory.org](https://selfdeterminationtheory.org/theory/) describes autonomy, competence and relatedness as basic psychological needs, and says that contexts supporting them tend to foster better engagement and performance. It does not say that every owner wants to hand off administration, and it would be a mistake to assume so. Some owners find a sense of competence and control in the detail. The argument here is conditional: for owners who want to grow and are blocked by admin, handing it off can restore choice.
 
 ## What letting go requires from the business
 

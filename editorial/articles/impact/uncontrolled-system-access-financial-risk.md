@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-127
 slug: uncontrolled-system-access-financial-risk
-title: Not Knowing Who Still Has Access to Your Systems
-description: When nobody can reliably show who still has access to business systems, old accounts and excessive permissions become a hidden operating, security and audit cost.
+title: Not knowing who still has access to your systems
+description: When nobody can show who still has access to business systems, old accounts and excess permissions become a hidden operating, security and audit cost.
 lead: Access accumulates quietly. Employees change roles, contractors finish projects, old accounts remain, and permissions that once made sense continue long after the business need has disappeared.
 category: Cybersecurity
 published_date: 2026-09-02
@@ -29,9 +29,9 @@ sources:
 closing_title: Method note
 closing_text: This article does not use a generic breach-cost benchmark. Quantify direct access-administration and licence costs from your own records, then model security scenarios separately.
 related:
-  - When Former Employees Still Have System Access | /impact/former-employees-retaining-system-access/
-  - Reused Passwords: How One Stolen Login Becomes a Business-Wide Risk | /impact/reused-passwords-single-credential-business-risk/
-  - When Security Spend Runs Ahead of Basic Controls | /impact/security-products-without-basic-controls/
+  - When former employees still have system access | /impact/former-employees-retaining-system-access/
+  - Reused passwords: How one stolen login becomes a business-wide risk | /impact/reused-passwords-single-credential-business-risk/
+  - When security spend runs ahead of basic controls | /impact/security-products-without-basic-controls/
 ---
 ## The tolerated pain is access nobody can confidently explain
 
@@ -45,7 +45,7 @@ A typical example: a 70-person property management company in Pretoria. Its book
 
 Access is usually granted at moments of urgency and reviewed at moments of inconvenience. Managers focus on getting people productive. IT teams avoid removing permissions unless ownership is clear. Smaller organisations may have no central identity-governance process at all, so each application develops its own history of users, roles and exceptions.
 
-The UK National Cyber Security Centre’s guidance on identity and access management recommends formal processes for joiners, movers and leavers, so that access is changed when people move and revoked when it is no longer needed, and advises reviewing user accounts regularly for unnecessary privileges. NIST, in SP 800-53, defines least privilege as granting each entity only the minimum authorisations it needs to perform its function, and treats account management and least privilege as core controls.
+The UK National Cyber Security Centre’s guidance on [identity and access management](https://www.ncsc.gov.uk/collection/10-steps/identity-and-access-management) recommends formal processes for joiners, movers and leavers, so that access is changed when people move and revoked when it is no longer needed, and advises reviewing user accounts regularly for unnecessary privileges. NIST, in SP 800-53, defines [least privilege](https://csrc.nist.gov/glossary/term/least_privilege) as granting each entity only the minimum authorisations it needs to perform its function, and treats account management and least privilege as core controls.
 
 Several habits keep the problem alive:
 

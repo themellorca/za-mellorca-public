@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000010
 slug: the-lunch-break-eaten-by-approval-requests
-title: The Lunch Break Eaten by Approval Requests
-description: For many managers, lunch is the only quiet gap in the day, so it becomes the time to clear approvals. What that habit says about how approvals are designed, and how to give the hour back.
+title: The lunch break eaten by approval requests
+description: For many managers, lunch is the only quiet gap, so it becomes the time to clear approvals. What that says about approval design, and how to give it back.
 lead: For many managers, lunch is the only quiet gap in the day, so it becomes the time to clear approvals. What that habit says about how approvals are designed, and how to give the hour back.
 category: Time & Attention
 published_date: 2026-10-04
@@ -20,9 +20,10 @@ sources:
   - Specify when and how to receive workflow notifications - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-to-specify-when-and-how-to-receive-notifications
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
 related:
-  - Why the Commute Has Become Unpaid Triage Time | /moments/why-the-commute-has-become-unpaid-triage-time/
-  - The Evening Spent Chasing Signatures | /moments/the-evening-spent-chasing-signatures/
-  - The Half-Hour Lost to Finding the Right File | /moments/the-half-hour-lost-to-finding-the-right-file/
+  - Why the commute has become unpaid triage time | /moments/why-the-commute-has-become-unpaid-triage-time/
+  - The evening spent chasing signatures | /moments/the-evening-spent-chasing-signatures/
+  - The half-hour lost to finding the right file | /moments/the-half-hour-lost-to-finding-the-right-file/
+  - When waiting rooms are where real work gets done | /moments/when-waiting-rooms-are-where-real-work-gets-done/
 summary: For many managers, lunch is the only quiet gap in the day, so it becomes the time to clear approvals. What that habit says about how approvals are designed, and how to give the hour back.
 layout: plain
 ---
@@ -34,13 +35,13 @@ This piece is about that particular habit: approvals that drift into the one gap
 
 ## The break the law describes, and the break people take
 
-South Africa's Basic Conditions of Employment Act sets out a meal interval for employees who work continuously for more than five hours: at least one continuous hour, which a written agreement may reduce to not less than 30 minutes. During that interval an employee may be required or permitted to perform only duties that cannot be left unattended and cannot be performed by another employee. If they are required to work or be available for work during the interval, it must be paid.
+South Africa's [Basic Conditions of Employment Act](https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf) sets out a meal interval for employees who work continuously for more than five hours: at least one continuous hour, which a written agreement may reduce to not less than 30 minutes. During that interval an employee may be required or permitted to perform only duties that cannot be left unattended and cannot be performed by another employee. If they are required to work or be available for work during the interval, it must be paid.
 
 Many managers and owners are senior enough that the detail of these provisions is not what governs their day, and an owner is not an employee at all. The point here is not legal compliance. It is that the Act describes the meal interval as time away from duties that someone else could do, and approvals are very often exactly that kind of duty: work that could be done by another person, at another time, if the system allowed it.
 
 ## Why approvals end up at lunch
 
-Microsoft's Work Trend Index analysis of anonymised Microsoft 365 activity found that half of all meetings in its data take place between 9 and 11 in the morning and between 1 and 3 in the afternoon, and that workers are interrupted roughly every two minutes during core hours. These are global figures from one vendor's product data, not a measurement of South African firms. They do describe a day that leaves little room for anything that needs a few quiet minutes, and the midday gap is one of the few places such minutes still exist.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) analysis of anonymised Microsoft 365 activity found that half of all meetings in its data take place between 9 and 11 in the morning and between 1 and 3 in the afternoon, and that workers are interrupted roughly every two minutes during core hours. These are global figures from one vendor's product data, not a measurement of South African firms. They do describe a day that leaves little room for anything that needs a few quiet minutes, and the midday gap is one of the few places such minutes still exist.
 
 Consider an illustrative case: a Johannesburg distribution business with about 35 staff. The operations manager approves purchase orders above a set value, supplier payments, credit notes and leave. Each request arrives as its own email the moment someone submits it. Mornings go to the warehouse and customer calls; afternoons to supplier meetings. By lunch there are a dozen unread approval emails, and the people who sent them have started following up on chat.
 

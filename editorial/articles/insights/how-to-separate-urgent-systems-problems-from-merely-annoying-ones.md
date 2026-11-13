@@ -3,7 +3,7 @@ hub: insights
 record_id: INS-017
 slug: how-to-separate-urgent-systems-problems-from-merely-annoying-ones
 title: How to separate urgent systems problems from merely annoying ones
-description: A practical way to distinguish genuinely urgent digital systems problems from operational annoyances using business impact, failure probability, dependency and reversibility.
+description: A practical way to tell genuinely urgent systems problems from operational annoyances, using business impact, likelihood, dependency and reversibility.
 lead: The loudest technology complaint is not always the most important problem. Prioritisation improves when the business separates inconvenience from threats to revenue, control, continuity, data integrity and customer outcomes.
 category: Systems & Strategy
 published_date: 2026-09-05

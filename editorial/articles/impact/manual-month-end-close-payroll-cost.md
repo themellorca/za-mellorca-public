@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-361
 slug: manual-month-end-close-payroll-cost
-title: The Payroll Cost of a Slow, Spreadsheet-Heavy Month-End
-description: When month-end depends on spreadsheet consolidation, manual reconciliations and inbox-based task chasing, finance pays repeatedly in labour, delay and weak decision visibility.
+title: The payroll cost of a slow, spreadsheet-heavy month-end
+description: When month-end depends on spreadsheet consolidation, manual reconciliations and chasing tasks by email, finance pays in labour, delay and weak visibility.
 lead: Month-end becomes expensive when finance spends days collecting files, chasing approvals, reconciling data and rebuilding the same reporting pack instead of reviewing exceptions and explaining performance.
 category: Finance Operations
 published_date: 2026-09-02
@@ -27,9 +27,9 @@ sources:
 closing_title: Method note
 closing_text: No generic close-time benchmark is assumed. Measure the actual hours, rework and decision delay in your own close, and preserve necessary control and judgement work.
 related:
-  - Paying the Same Supplier Invoice Twice: The Direct Cost of Weak Controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
-  - Late Payments Nobody Follows Up: The Cost of Slow Collections | /impact/inconsistent-payment-follow-up-cash-flow-cost/
-  - Manual Payment Matching Turns Cash Visibility into Reconciliation Work | /impact/manual-payment-matching-reconciliation-cost/
+  - Paying the same supplier invoice twice: The direct cost of weak controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
+  - Late payments nobody follows up: The cost of slow collections | /impact/inconsistent-payment-follow-up-cash-flow-cost/
+  - Manual payment matching turns cash visibility into reconciliation work | /impact/manual-payment-matching-reconciliation-cost/
 ---
 ## The tolerated pain is a close process rebuilt every month
 

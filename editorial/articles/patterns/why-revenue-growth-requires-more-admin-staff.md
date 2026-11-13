@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-276
 slug: why-revenue-growth-requires-more-admin-staff
-title: Why Does Revenue Growth Always Require More Admin Staff?
-description: If every increase in customers or transactions requires a similar increase in back-office coordination, the business may be growing without creating operating leverage.
+title: Why does revenue growth always require more admin staff?
+description: If every rise in customers or transactions needs a similar rise in back-office coordination, the business is growing without operating leverage.
 lead: If every increase in customers or transactions requires a similar increase in back-office coordination, the business may be growing without creating operating leverage.
 category: Growth, Scale & Headcount Efficiency
 published_date: 2026-09-01
@@ -25,10 +25,12 @@ commercial_value_dimensions: Scalability, Margin, Capacity, Growth
 sources:
   - What Is Operational Efficiency? - IBM | https://www.ibm.com/think/topics/operational-efficiency
   - What Is Workflow Automation? - IBM | https://www.ibm.com/think/topics/workflow-automation
+  - Get started with Power Automate approvals - Power Automate | Microsoft Learn | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
 related:
   - Why Growth Breaks Systems That Worked When the Business Was Smaller | /insights/why-growth-breaks-systems-that-worked-when-the-business-was-smaller/
   - How to Calculate the Business Case for Automation | /insights/how-to-calculate-the-business-case-for-automation/
   - The Pain of Repeatable Manual Work | /impact/repeatable-manual-work-payroll-cost-automation/
+  - Why bigger teams create more coordination work | /patterns/why-adding-people-adds-more-coordination-than-capacity/
 summary: If every increase in revenue requires another layer of administration, the business may be growing without enough operating leverage. The opportunity is to redesign repeatable work so capacity can increase faster than overhead. If this condition is familiar in your business, explore Mellorca's solutions or start a conversation with us. We can look at how your operations work today, identify where the constraint sits and see how Mellorca can help.
 ---
 ## Observable condition
@@ -97,7 +99,7 @@ A second misidentification is to blame the people: "the team is slow" or "we nee
 
 A more scalable operating model standardises the common path, automates deterministic steps, gives teams shared operational visibility and reserves human effort for exceptions, relationships and judgement. Volume can rise without every administrative activity rising at the same rate.
 
-IBM's overview of [workflow automation](https://www.ibm.com/think/topics/workflow-automation) lists the kinds of work that suit this treatment: repetitive processes such as manual data entry and routine approvals, rule-based workflows such as notifications and compliance checks, and administrative functions such as invoice processing. These are often exactly the tasks that drive linear hiring.
+IBM's overview of [workflow automation](https://www.ibm.com/think/topics/workflow-automation) lists the kinds of work that suit this treatment: repetitive processes such as manual data entry and routine approvals, rule-based workflows such as notifications and compliance checks, and administrative functions such as invoice processing. These are often exactly the tasks that drive linear hiring. Microsoft's documentation on [Power Automate approvals](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) gives a concrete example: when an approval is submitted in a flow, approvers are notified and can review and act on the request, without anyone chasing sign-off by hand.
 
 In the logistics broker example, the redesign was not exotic. Bookings moved from free-text email to a structured form that created the job directly. Rate tables moved from per-client spreadsheets into the operational system. Status updates were sent automatically from job events. Invoices were generated from completed jobs. The administrators stayed, but their work shifted to exceptions, carrier problems and client relationships, and the next 30 clients did not require the next three hires.
 

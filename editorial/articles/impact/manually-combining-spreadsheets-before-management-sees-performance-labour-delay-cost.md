@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-106
 slug: manually-combining-spreadsheets-before-management-sees-performance-labour-delay-cost
-title: Stitching Spreadsheets Together: The Labour and Delay Behind Management Reports
-description: When performance can only be seen after someone merges a dozen spreadsheets by hand, the business pays in skilled hours, late decisions and the risk of copy-and-paste errors.
+title: Stitching spreadsheets together: The labour and delay behind management reports
+description: When performance is visible only after someone merges a dozen spreadsheets by hand, you pay in skilled hours, late decisions and copy-and-paste errors.
 lead: When performance can only be seen after someone merges a dozen spreadsheets by hand, the business pays in skilled hours, late decisions and the risk of copy-and-paste errors.
 category: Digital Operations
 published_date: 2026-10-10
@@ -17,9 +17,9 @@ sources:
   - What Is Power Query? - Power Query | https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query
   - Combine files overview - Power Query | https://learn.microsoft.com/en-us/power-query/combine-files-overview
 related:
-  - Waiting Weeks for Management Reports: What Late Visibility Costs the Business | /impact/waiting-weeks-for-management-reports-late-visibility-cost/
-  - The Labour Cost Hidden Behind Software That Needs Constant Workarounds | /impact/software-needing-constant-manual-workarounds-hidden-labour-cost-behind-licence-fee/
-  - Re-keying Orders After the Sale: The Labour and Fulfilment Cost of Disconnected Systems | /impact/orders-rekeyed-after-sale-fulfilment-risk-cost/
+  - Waiting weeks for management reports: What late visibility costs the business | /impact/waiting-weeks-for-management-reports-late-visibility-cost/
+  - The labour cost hidden behind software that needs constant workarounds | /impact/software-needing-constant-manual-workarounds-hidden-labour-cost-behind-licence-fee/
+  - Re-keying orders after the sale: The labour and fulfilment cost of disconnected systems | /impact/orders-rekeyed-after-sale-fulfilment-risk-cost/
 summary: When performance can only be seen after someone merges a dozen spreadsheets by hand, the business pays in skilled hours, late decisions and the risk of copy-and-paste errors.
 layout: plain
 ---

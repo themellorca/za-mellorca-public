@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000214
 slug: why-burnout-often-starts-as-an-operations-problem
-title: Why Burnout Often Starts as an Operations Problem
-description: Exhaustion is often framed as personal, yet after-hours work usually traces back to how operations are organised. Where it comes from and what a business can change.
+title: Why burnout often starts as an operations problem
+description: Exhaustion is often framed as personal, yet after-hours work usually traces back to how operations are organised. Where it comes from and what to change.
 lead: Exhaustion is often framed as personal, yet after-hours work usually traces back to how operations are organised. Where it comes from and what a business can change.
 category: Health, Safety & Wellbeing
 published_date: 2026-10-08
@@ -20,9 +20,10 @@ sources:
   - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
   - Occupational Health and Safety Act 85 of 1993 - South African Government | https://www.gov.za/documents/occupational-health-and-safety-act
 related:
-  - When Constant Alerts Become Background Anxiety | /moments/when-constant-alerts-become-background-anxiety/
-  - The Stress of Not Knowing if the Backup Worked | /moments/the-stress-of-not-knowing-if-the-backup-worked/
-  - The Weekend That Exists Only on Paper | /moments/the-weekend-that-exists-only-on-paper/
+  - When constant alerts become background anxiety | /moments/when-constant-alerts-become-background-anxiety/
+  - The stress of not knowing if the backup worked | /moments/the-stress-of-not-knowing-if-the-backup-worked/
+  - The weekend that exists only on paper | /moments/the-weekend-that-exists-only-on-paper/
+  - When flexible work comes with invisible rules | /moments/when-flexible-work-comes-with-unwritten-after-hours-rules/
 summary: Exhaustion is often framed as personal, yet after-hours work usually traces back to how operations are organised. Where it comes from and what a business can change.
 layout: plain
 ---
@@ -45,13 +46,13 @@ Mellorca has looked at several faces of this: [when the working day has no natur
 
 ## What the evidence says, and its limits
 
-Gallup's research on employee burnout, based on a study of nearly 7,500 full-time employees in the United States, found that 23% reported feeling burned out at work very often or always, and a further 44% sometimes. Those are American figures and say nothing directly about South Africa. What is more useful for our purposes is the finding that the strongest correlates of burnout had less to do with hard work than with how people are managed. The five most highly correlated factors were unfair treatment, an unmanageable workload, unclear roles, a lack of communication and support from a manager, and unreasonable time pressure.
+Gallup's research on [employee burnout](https://www.gallup.com/workplace/237059/employee-burnout-causes.aspx), based on a study of nearly 7,500 full-time employees in the United States, found that 23% reported feeling burned out at work very often or always, and a further 44% sometimes. Those are American figures and say nothing directly about South Africa. What is more useful for our purposes is the finding that the strongest correlates of burnout had less to do with hard work than with how people are managed. The five most highly correlated factors were unfair treatment, an unmanageable workload, unclear roles, a lack of communication and support from a manager, and unreasonable time pressure.
 
 Several of those are operational. An unmanageable workload and unreasonable time pressure are, to a large extent, outcomes of how work is routed, scheduled and staffed. Gallup also reports that employees who said they often or always have enough time to do their work were about 70% less likely to experience high burnout. Correlation is not cause, and the study is not about after-hours work specifically, but the direction is consistent with the argument here.
 
-Microsoft's Work Trend Index adds some context: in its survey, 64% of respondents said they struggled to have the time and energy to do their job, and in its Microsoft 365 data people spent 57% of their time communicating rather than creating. Neither figure is about burnout, and neither is South African.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) adds some context: in its survey, 64% of respondents said they struggled to have the time and energy to do their job, and in its Microsoft 365 data people spent 57% of their time communicating rather than creating. Neither figure is about burnout, and neither is South African.
 
-The legal frame is worth a mention. The Basic Conditions of Employment Act sets minimum conditions of employment in South Africa, including rules on working hours, and the Occupational Health and Safety Act places duties on employers regarding health and safety at work. Both are published on the Government site. How they apply to a given arrangement is a question for qualified advice. The operational point is that a business which relies on unrecorded after-hours work is relying on something it has probably not designed on purpose.
+The legal frame is worth a mention. The [Basic Conditions of Employment Act](https://www.gov.za/documents/basic-conditions-employment-act) sets minimum conditions of employment in South Africa, including rules on working hours, and the [Occupational Health and Safety Act](https://www.gov.za/documents/occupational-health-and-safety-act) places duties on employers regarding health and safety at work. Both are published on the Government site. How they apply to a given arrangement is a question for qualified advice. The operational point is that a business which relies on unrecorded after-hours work is relying on something it has probably not designed on purpose.
 
 ## An illustrative case
 

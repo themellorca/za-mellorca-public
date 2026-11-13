@@ -2,9 +2,9 @@
 hub: insights
 record_id: INS-179
 slug: what-ai-agents-need-before-they-can-do-useful-work
-title: What AI Agents Need Before They Can Do Useful Work
-description: Explores prerequisites for AI agents to operate usefully, focusing on planning, tool use, safety, and reliability in operational workflows.
-lead: Explores prerequisites for AI agents to operate usefully, focusing on planning, tool use, safety, and reliability in operational workflows.
+title: What AI agents need before they can do useful work
+description: What has to be in place before an AI agent can do useful work: clear tasks, the right tools, safety limits and reliable data.
+lead: What has to be in place before an AI agent can do useful work: clear tasks, the right tools, safety limits and reliable data.
 category: Automation & AI
 published_date: 2026-10-02
 updated_date: 2026-10-02
@@ -14,13 +14,13 @@ sources:
   - Building Effective AI Agents | https://www.anthropic.com/engineering/building-effective-agents
   - Least privilege for AI agents with Microsoft Entra Agent ID | https://learn.microsoft.com/en-us/security/zero-trust/sfi/least-privilege-for-ai-agents
 related:
-  - How to Choose a Business Process for an AI Agent | /insights/how-to-choose-a-business-process-for-an-ai-agent/
+  - How to choose a business process for an AI agent | /insights/how-to-choose-a-business-process-for-an-ai-agent/
   - Who watches the automations? | /insights/who-watches-the-automations/
   - What business processes need documentation first? | /insights/what-business-processes-need-documentation-first/
-summary: Explores prerequisites for AI agents to operate usefully, focusing on planning, tool use, safety, and reliability in operational workflows.
+summary: What has to be in place before an AI agent can do useful work: clear tasks, the right tools, safety limits and reliable data.
 layout: plain
 ---
-AI agents do not magically infer every intent. They need a foundation of capabilities before they are useful in real work, and most of that foundation sits outside the model itself. This article sets out the prerequisites that separate an aspiring agent from a dependable participant in operations, and how a small or mid-sized business can tell which of them it already has.
+[AI agents](https://learn.microsoft.com/en-us/security/zero-trust/sfi/least-privilege-for-ai-agents) do not magically infer every intent. They need a foundation of capabilities before they are useful in real work, and most of that foundation sits outside the model itself. This article sets out the prerequisites that separate an aspiring agent from a dependable participant in operations, and how a small or mid-sized business can tell which of them it already has.
 
 The distinction matters because agent projects tend to start with a demonstration. A model reads a request, calls a tool and produces a plausible result. The demonstration proves that the model can reason about the task. It does not prove that the business can give the agent a clear goal, trustworthy information, safe access to systems and a way to notice when something goes wrong.
 

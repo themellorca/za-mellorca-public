@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000046
 slug: why-good-judgement-gets-buried-under-process
-title: Why Good Judgement Gets Buried Under Process
-description: Approval steps are added one incident at a time, until an expert's routine work needs three sign-offs that change nothing. How process can bury experienced judgement, what that takes from professionals, and how to keep safeguards in proportion.
+title: Why good judgement gets buried under process
+description: Approvals get added one incident at a time, until routine expert work needs three sign-offs that change nothing. How to keep safeguards in proportion.
 lead: Approval steps are added one incident at a time, until an expert's routine work needs three sign-offs that change nothing. How process can bury experienced judgement, what that takes from professionals, and how to keep safeguards in proportion.
 category: Human Agency
 published_date: 2026-10-06
@@ -19,9 +19,9 @@ sources:
   - Set up approval users - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-to-set-up-approval-users
   - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
 related:
-  - When Software Workarounds Replace Professional Discretion | /moments/when-software-workarounds-replace-professional-discretion/
-  - What Real Delegation Requires From Systems | /moments/what-real-delegation-requires-from-systems/
-  - When the System Decides What You Can Do Today | /moments/when-the-system-decides-what-you-can-do-today/
+  - When software workarounds replace professional discretion | /moments/when-software-workarounds-replace-professional-discretion/
+  - What real delegation requires from systems | /moments/what-real-delegation-requires-from-systems/
+  - When the system decides what you can do today | /moments/when-the-system-decides-what-you-can-do-today/
 summary: Approval steps are added one incident at a time, until an expert's routine work needs three sign-offs that change nothing. How process can bury experienced judgement, what that takes from professionals, and how to keep safeguards in proportion.
 layout: plain
 ---
@@ -39,7 +39,7 @@ Mellorca's pattern on [when staff need to ask who approves what](/patterns/when-
 
 ## What the evidence says about influence over work
 
-There is no South African dataset on approval layers and professional confidence, so this piece does not claim one. There is broader evidence that influence over one's own work differs sharply by position. Eurostat's statistics on job autonomy, based on the 2019 EU Labour Force Survey, found that 43.7% of employees had some or a large influence on the content and order of their tasks, compared with 83.0% of self-employed people and 78.6% of managers.
+There is no South African dataset on approval layers and professional confidence, so this piece does not claim one. There is broader evidence that influence over one's own work differs sharply by position. Eurostat's statistics on [job autonomy](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Job_autonomy_and_pressure_at_work_-_statistics), based on the 2019 EU Labour Force Survey, found that 43.7% of employees had some or a large influence on the content and order of their tasks, compared with 83.0% of self-employed people and 78.6% of managers.
 
 Those figures are European and concern autonomy in general, not approvals specifically. They are useful mainly as a reminder that control over one's work is unevenly distributed, and that the way work is organised, including how decisions are approved, is one of the things that shapes it.
 
@@ -59,8 +59,8 @@ The estimators adapt. Some stop sanity-checking their own figures as closely, be
 
 ## What could realistically change
 
-1. **Match the approval to the risk.** Routine work within agreed parameters should not need the same scrutiny as large or unusual work. Business systems can support this directly. Microsoft's Business Central documentation, for example, describes approval users with sales and purchase amount limits, so that requests within a person's limit are approved by them and larger ones go up the chain.
-2. **Approve once, not three times.** Several approvers looking at the same thing for the same reason add delay without adding much assurance. Approval tools can be configured so that one response is enough; Microsoft's Power Automate documentation distinguishes approvals where everyone must approve from those where the first response completes the request.
+1. **Match the approval to the risk.** Routine work within agreed parameters should not need the same scrutiny as large or unusual work. Business systems can support this directly. Microsoft's Business Central documentation, for example, describes [approval users](https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-to-set-up-approval-users) with sales and purchase amount limits, so that requests within a person's limit are approved by them and larger ones go up the chain.
+2. **Approve once, not three times.** Several approvers looking at the same thing for the same reason add delay without adding much assurance. Approval tools can be configured so that one response is enough; Microsoft's [Power Automate](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) documentation distinguishes approvals where everyone must approve from those where the first response completes the request.
 3. **Review samples, not everything.** A periodic review of a sample of decisions can catch drift without putting every decision in a queue.
 4. **Give each rule an expiry date.** When an approval step is added after an incident, decide when it will be reviewed. If the original risk has been addressed in another way, the step can go.
 5. **Make the criteria explicit.** If the estimator knows what makes a quote high-risk, such as value, margin, client type or unusual scope, she can flag those herself. Mellorca's guide on [reducing human error without removing human judgement](/insights/how-to-reduce-human-error-without-removing-human-judgment/) develops this idea.

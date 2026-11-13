@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-231
 slug: why-business-data-quality-declines-with-growth
-title: Why Data Quality Gets Worse as a Business Grows
-description: Data rarely gets worse because people become careless. It gets worse because growth adds people, systems, products and exceptions faster than it adds rules. How the decline happens and how to slow it.
+title: Why data quality gets worse as a business grows
+description: Data rarely worsens through carelessness. It worsens because growth adds people, systems and exceptions faster than rules. How to slow it.
 lead: Data rarely gets worse because people become careless. It gets worse because growth adds people, systems, products and exceptions faster than it adds rules. How the decline happens and how to slow it.
 category: Data Quality
 published_date: 2026-10-09
@@ -15,9 +15,10 @@ sources:
   - What Are Data Silos? - IBM | https://www.ibm.com/think/topics/data-silos
   - What is Data Governance? - IBM | https://www.ibm.com/think/topics/data-governance
 related:
-  - How Bad CRM Data Gets Created | /insights/how-bad-crm-data-gets-created/
-  - Why Automating a Broken Process Makes the Problem Worse | /insights/why-automating-a-broken-process-makes-the-problem-worse/
-  - How Piling On AI Tools Creates a New Layer of Software Mess | /insights/how-piling-on-ai-tools-creates-a-new-layer-of-software-mess/
+  - How bad CRM data gets created | /insights/how-bad-crm-data-gets-created/
+  - Why automating a broken process makes the problem worse | /insights/why-automating-a-broken-process-makes-the-problem-worse/
+  - How piling on AI tools creates a new layer of software mess | /insights/how-piling-on-ai-tools-creates-a-new-layer-of-software-mess/
+  - Account hierarchies do not reflect real customer relationships | /discovery/why-crm-account-hierarchies-miss-how-customers-are-really-connected/
 summary: Data rarely gets worse because people become careless. It gets worse because growth adds people, systems, products and exceptions faster than it adds rules. How the decline happens and how to slow it.
 layout: plain
 ---
@@ -58,7 +59,7 @@ The answer is not a large data project. A handful of controls, introduced early,
 
 1. **Name an owner for each core data set.** Customers, suppliers, products and staff each need one accountable person who decides the rules and approves changes.
 2. **Replace free text with controlled choices.** Use drop-downs for province, industry, payment terms and product category. Validate formats for phone numbers, VAT numbers and email addresses at the point of entry.
-3. **Detect duplicates automatically.** Many CRMs offer matching rules. Microsoft's documentation on duplicate detection rules in Power Platform describes how rules compare fields and warn users before a duplicate is created. Switch such features on, and review the matches regularly.
+3. **Detect duplicates automatically.** Many CRMs offer matching rules. Microsoft's documentation on [duplicate detection rules](https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean) in Power Platform describes how rules compare fields and warn users before a duplicate is created. Switch such features on, and review the matches regularly.
 4. **Decide which system is the master.** For each item, choose the one place where it is created and changed, and have other systems read from it.
 5. **Measure a few quality indicators.** Count duplicates, records missing a mandatory field and contacts not confirmed in the past 12 months. Report the trend monthly.
 6. **Make cleaning part of a rhythm.** A quarterly review costs far less than a one-off rescue before an audit or a system migration.

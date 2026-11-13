@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-046
 slug: the-hidden-cost-of-signing-in-to-every-system-separately
-title: The Hidden Cost of Signing In to Every System Separately
-description: Email, accounting, CRM, payroll and supplier portals each have their own login, password rules and verification codes. When every application manages its own identity, staff lose time, shortcuts weaken security and removing leavers becomes guesswork.
+title: The hidden cost of signing in to every system separately
+description: Every application has its own login and password rules. Staff lose time, shortcuts weaken security and removing leavers becomes guesswork.
 lead: Email, accounting, CRM, payroll and supplier portals each have their own login, password rules and verification codes. When every application manages its own identity, staff lose time, shortcuts weaken security and removing leavers becomes guesswork.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-06
@@ -16,10 +16,12 @@ commercial_value_dimensions: Productivity, risk, onboarding speed and management
 sources:
   - What is single sign-on in Microsoft Entra ID? - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on
   - NIST Special Publication 800-63B | https://pages.nist.gov/800-63-4/sp800-63b.html
+  - Password policy: updating your approach - NCSC | https://www.ncsc.gov.uk/collection/passwords/updating-your-approach
 related:
-  - When Disconnected Systems Let the Business Act on Old Information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
-  - When Automation Stops at the Edge of Each System | /patterns/when-automation-stops-at-the-edge-of-each-system/
-  - When One Change Has to Be Made in Every System You Own | /patterns/when-one-change-has-to-be-made-in-every-system-you-own/
+  - When disconnected systems let the business act on old information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
+  - When automation stops at the edge of each system | /patterns/when-automation-stops-at-the-edge-of-each-system/
+  - When one change has to be made in every system you own | /patterns/when-one-change-has-to-be-made-in-every-system-you-own/
+  - Why single sign-on coverage lags behind the SaaS portfolio | /discovery/why-sso-coverage-lags-behind-the-saas-portfolio/
 summary: Email, accounting, CRM, payroll and supplier portals each have their own login, password rules and verification codes. When every application manages its own identity, staff lose time, shortcuts weaken security and removing leavers becomes guesswork.
 layout: plain
 ---
@@ -37,7 +39,7 @@ Each sign-in seems trivial, but the pattern is not. Every separate login is a se
 
 The risk side is significant. CISA's guidance on multi-factor authentication explains that requiring more than one authenticator makes users significantly less likely to be hacked, and recommends phishing-resistant methods where possible. But when every system has its own login and its own verification method, applying strong authentication consistently becomes hard, and staff fatigue encourages workarounds such as shared accounts and reused passwords.
 
-The alternative is well established. Microsoft's documentation describes single sign-on as letting users sign in once with one set of credentials and then open every assigned application without signing in again. It lists fewer credentials, consistent security policies, central access management and fewer password resets reaching the help desk as benefits. NIST's digital identity guidelines also advise against forcing periodic password changes without evidence of compromise, a common source of lock-outs and forgotten passwords.
+The alternative is well established. Microsoft's documentation describes single sign-on as letting users sign in once with one set of credentials and then open every assigned application without signing in again. It lists fewer credentials, consistent security policies, central access management and fewer password resets reaching the help desk as benefits. NIST's digital identity guidelines also advise against forcing periodic password changes without evidence of compromise, a common source of lock-outs and forgotten passwords. The NCSC's [password policy guidance](https://www.ncsc.gov.uk/collection/passwords/updating-your-approach) notes that single sign-on reduces the pressure to create and remember many passwords, but recommends that it be implemented to require multi-factor authentication.
 
 **Realisation prompt:** how many separate usernames and passwords does a typical member of your team use in a day?
 

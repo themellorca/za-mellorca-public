@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-426
 slug: why-does-buying-something-internally-take-so-long
-title: Why Does Buying Something Internally Take So Long?
-description: When a routine internal purchase takes weeks, the cause is rarely one slow approver. It is a buying process that is rebuilt from scratch for every request. Here is how to recognise it and fix it.
+title: Why does buying something internally take so long?
+description: When a routine internal purchase takes weeks, the cause is rarely one slow approver. The buying process is rebuilt for every request. Here is the fix.
 lead: When a routine internal purchase takes weeks, the cause is rarely one slow approver. It is a buying process that is rebuilt from scratch for every request. Here is how to recognise it and fix it.
 category: Procurement, Suppliers & Inventory
 published_date: 2026-10-07
@@ -18,9 +18,10 @@ sources:
   - Procurement catalogs overview - Supply Chain Management - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/supply-chain/procurement/procurement-catalogs
   - Business events overview - Finance & Operations - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/business-events/home-page
 related:
-  - When One Missing Item Stops a Larger Process | /patterns/when-one-missing-item-stops-a-larger-process/
-  - Why Does Winning a Customer Create an Internal Scramble? | /patterns/why-does-winning-a-customer-create-an-internal-scramble/
-  - The Operational Tax Hidden Inside Everyday Admin | /patterns/the-operational-tax-hidden-inside-everyday-admin/
+  - When one missing item stops a larger process | /patterns/when-one-missing-item-stops-a-larger-process/
+  - Why does winning a customer create an internal scramble? | /patterns/why-does-winning-a-customer-create-an-internal-scramble/
+  - The operational tax hidden inside everyday admin | /patterns/the-operational-tax-hidden-inside-everyday-admin/
+  - When procurement starts with an email request | /patterns/how-purchase-requests-get-lost-in-an-inbox/
 summary: When a routine internal purchase takes weeks, the cause is rarely one slow approver. It is a buying process that is rebuilt from scratch for every request. Here is how to recognise it and fix it.
 layout: plain
 ---
@@ -55,7 +56,7 @@ The published Pattern [why does one approval hold up an entire process](/pattern
 - **No visible status.** Once a request is sent, it disappears. Requesters chase, the buyer answers, and both lose time.
 - **The purchase order is retyped.** Details agreed in email are keyed again into the accounting system, which introduces errors and another delay.
 
-Business systems already model this journey in detail. Microsoft's Dynamics 365 documentation, for instance, describes a purchase requisition as an internal document that authorises purchasing to buy, which moves through statuses such as draft, in review, approved and closed, and generates a purchase order once approved. The same software describes procurement catalogues that define what employees may order for internal use, so that policy is enforced by the catalogue rather than by the buyer's memory. A small business does not need an enterprise suite to apply the same ideas.
+Business systems already model this journey in detail. Microsoft's Dynamics 365 documentation, for instance, describes [a purchase requisition as an internal document that authorises purchasing to buy](https://learn.microsoft.com/en-us/dynamics365/supply-chain/procurement/purchase-requisitions-overview), which moves through statuses such as draft, in review, approved and closed, and generates a purchase order once approved. The same software describes [procurement catalogues](https://learn.microsoft.com/en-us/dynamics365/supply-chain/procurement/procurement-catalogs) that define what employees may order for internal use, so that policy is enforced by the catalogue rather than by the buyer's memory. A small business does not need an enterprise suite to apply the same ideas.
 
 ## Commercial impact
 
@@ -73,7 +74,7 @@ The opposite response is to remove controls for speed. That trades a visible cos
 
 ## Possibility
 
-In a better state, every internal request enters through one simple form that asks for the information the buyer needs. Routine items are chosen from a short catalogue of approved products and suppliers at agreed prices, and go straight to ordering within set limits. Requests above defined value or risk thresholds route automatically to the right approver, with quotes attached. Approved requests become purchase orders without retyping, and requesters can see the status at any time.
+In a better state, every internal request enters through one simple form that asks for the information the buyer needs. Routine items are chosen from a short catalogue of approved products and suppliers at agreed prices, and go straight to ordering within set limits. Requests above defined value or risk thresholds route automatically to the right approver, with quotes attached. Approved requests become purchase orders without retyping, and requesters can see the status at any time. Dynamics 365 also describes [business events](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/business-events/home-page) that let external systems receive notifications from its finance and operations apps, the kind of mechanism that can tell a requester when a request has moved on.
 
 For the engineering services company, that might mean a catalogue for safety equipment and standard IT kit, a fast route for low-value repeat items, and a fuller route with quotes and technical review for sub-contracted services and capital items. The buyer's time shifts from clarification to supplier management.
 

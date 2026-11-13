@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000028
 slug: the-quiet-cost-of-always-being-reachable
-title: The Quiet Cost of Always Being Reachable
-description: In many businesses one person becomes the one everyone can reach, at any hour, without anyone ever deciding it. What unwritten availability takes from that person, and how making reachability explicit can give some of it back.
+title: The quiet cost of always being reachable
+description: One person often becomes reachable at any hour without anyone deciding it. What unwritten availability takes from them, and how to make it explicit.
 lead: In many businesses one person becomes the one everyone can reach, at any hour, without anyone ever deciding it. What unwritten availability takes from that person, and how making reachability explicit can give some of it back.
 category: Time & Attention
 published_date: 2026-10-05
@@ -19,9 +19,9 @@ sources:
   - Escalation Policy Basics | https://support.pagerduty.com/main/docs/escalation-policies
   - Quiet time in Microsoft Teams for mobile devices - Microsoft Support | https://support.microsoft.com/en-us/office/quiet-time-in-microsoft-teams-for-mobile-devices-174c4d2d-c7c1-4228-80a7-031c14f9bcf2
 related:
-  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
-  - What a Reliable Handover Gives Back on a Friday Afternoon | /moments/what-a-reliable-handover-gives-back-on-a-friday-afternoon/
-  - The Half-Hour Lost to Finding the Right File | /moments/the-half-hour-lost-to-finding-the-right-file/
+  - The lunch break eaten by approval requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - What a reliable handover gives back on a Friday afternoon | /moments/what-a-reliable-handover-gives-back-on-a-friday-afternoon/
+  - The half-hour lost to finding the right file | /moments/the-half-hour-lost-to-finding-the-right-file/
 summary: In many businesses one person becomes the one everyone can reach, at any hour, without anyone ever deciding it. What unwritten availability takes from that person, and how making reachability explicit can give some of it back.
 layout: plain
 ---
@@ -70,7 +70,7 @@ The aim is not to make the business unreachable. Some situations genuinely need 
 - **Decide what genuinely needs an out-of-hours response.** A burst pipe may; a question about next month's levy statement does not. A short written list makes it easier for everyone, including the person answering, to say "that can wait until morning".
 - **Route out-of-hours contact to a role, not a person.** A dedicated number or shared address that can be passed between people, rather than one individual's cellphone.
 - **Share the load.** Even a simple rotation between two or three people means each has weeks that are genuinely off. Where that is not possible, an agreed arrangement with a contractor or answering service may be.
-- **Make availability visible.** Microsoft's support documentation for Teams describes quiet time on mobile devices, which silences notifications on a schedule, and notes that others cannot see that someone is in quiet time, so a status message is needed to communicate availability. The tool is useful, but the documentation makes the deeper point: switching off only works if other people know.
+- **Make availability visible.** Microsoft's support documentation for Teams describes [quiet time](https://support.microsoft.com/en-us/office/quiet-time-in-microsoft-teams-for-mobile-devices-174c4d2d-c7c1-4228-80a7-031c14f9bcf2) on mobile devices, which silences notifications on a schedule, and notes that others cannot see that someone is in quiet time, so a status message is needed to communicate availability. The tool is useful, but the documentation makes the deeper point: switching off only works if other people know.
 - **Recognise the role.** If someone is genuinely on standby, that is work. Treating it as such, in contracts, time off or pay, makes the arrangement honest.
 
 ## What changes first, and for the business

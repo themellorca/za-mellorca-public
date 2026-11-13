@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-019
 slug: departments-duplicating-same-work-payroll-cost
-title: Two Departments, Same Work: The Payroll Cost of Duplicated Effort
-description: Sales, finance and operations often build the same lists, reports and checks separately without knowing it. The business pays twice for the work and then pays again to reconcile the differences.
+title: Two departments, same work: The payroll cost of duplicated effort
+description: Sales, finance and operations often build the same lists, reports and checks without knowing it. You pay twice, then again to reconcile the differences.
 lead: Sales, finance and operations often build the same lists, reports and checks separately without knowing it. The business pays twice for the work and then pays again to reconcile the differences.
 category: Digital Operations
 published_date: 2026-10-04
@@ -18,9 +18,9 @@ sources:
   - What are the 7 Wastes in Lean? - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/seven-wastes/
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
 related:
-  - "I Thought You Were Doing It": The Labour Cost of Unclear Responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
-  - Answering the Same Question Again: The Payroll Cost of Undocumented Know-How | /impact/same-internal-questions-undocumented-knowledge-cost/
-  - Recurring Tasks That Live in Someone's Memory: The Cost of Missed Work | /impact/recurring-tasks-relying-on-memory-missed-work-cost/
+  - "I thought you were doing it": The labour cost of unclear responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
+  - Answering the same question again: The payroll cost of undocumented know-how | /impact/same-internal-questions-undocumented-knowledge-cost/
+  - Recurring tasks that live in someone's memory: The cost of missed work | /impact/recurring-tasks-relying-on-memory-missed-work-cost/
 summary: Sales, finance and operations often build the same lists, reports and checks separately without knowing it. The business pays twice for the work and then pays again to reconcile the differences.
 layout: plain
 ---

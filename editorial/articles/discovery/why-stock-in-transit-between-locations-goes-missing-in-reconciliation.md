@@ -15,10 +15,12 @@ budget_owner: Operations director or financial director
 sources:
   - Transfer items between locations - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-transfer-between-locations
   - Apps in inventory management | https://shopify.dev/docs/apps/build/orders-fulfillment/inventory-management-apps
+  - Transfers - Shopify Help Center | https://help.shopify.com/en/manual/products/inventory/transfers
 related:
   - How bundles and kits distort component stock counts | /discovery/how-bundles-and-kits-distort-component-stock-counts/
   - Why goods received do not reach customer availability promptly | /discovery/why-goods-received-do-not-reach-customer-availability-promptly/
   - Reserved stock is treated as available stock | /discovery/why-reserved-stock-keeps-showing-as-available-to-sell/
+  - Drop-ship stock is counted as if it sits in your own warehouse | /discovery/how-to-keep-drop-ship-stock-out-of-your-own-inventory-counts/
 summary: Stock leaves one branch and never quite arrives in the books. How to model transit, tie shipment to receipt and clear open transfers daily.
 layout: plain
 ---
@@ -32,13 +34,15 @@ A transfer between locations has at least three moments: the goods leave, they t
 
 The symptoms: stock that "should have arrived", growing lists of unreconciled transfers, discrepancies at the end of each month, and branches that stop trusting the transfer process and phone each other instead.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for "inventory transfer between warehouses not showing", "stock in transit tracking", "transfer discrepancies between locations" and "how to reconcile inter-branch stock transfers". They want to know where every unit is at every moment, and to have discrepancies surface on the day, not at month-end.
+People ask "why is the inventory transfer between warehouses not showing?", "how do we track stock in transit?", "why are there transfer discrepancies between locations?" and "how do we reconcile inter-branch stock transfers?" They want to know where every unit is at every moment, and to have discrepancies surface on the day, not at month-end.
 
 ## Evidence and system mechanism
 
-Inventory software is designed around the idea that transit is a place in its own right. Microsoft's Business Central documentation describes transfer orders that can ship from one location and receive at another, tracking a quantity in transit. When the shipment is posted, the items are in transit between the two locations, and they are unavailable while there. The receiving worker then posts the receipt. The documentation also describes four item ledger entries for a transfer with an in-transit location: out of the origin, into transit, out of transit, and into the destination. It adds that a mistaken shipment quantity can be corrected through an undo-shipment action as long as the shipment has not yet been received ([Business Central transfer documentation](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-transfer-between-locations)). The same page contrasts this with a direct transfer that posts shipment and receipt together, which is simpler but gives no visibility of the journey.
+Inventory software is designed around the idea that transit is a place in its own right. Microsoft's Business Central documentation describes transfer orders that can ship from one location and receive at another, tracking a quantity in transit. When the shipment is posted, the items are in transit between the two locations, and they are unavailable while there. The receiving worker then posts the receipt.
+
+The documentation also describes four item ledger entries for a transfer with an in-transit location: out of the origin, into transit, out of transit, and into the destination. It adds that a mistaken shipment quantity can be corrected through an undo-shipment action as long as the shipment has not yet been received ([Business Central transfer documentation](https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-transfer-between-locations)). The same page contrasts this with a direct transfer that posts shipment and receipt together, which is simpler but gives no visibility of the journey.
 
 Shopify's help documentation on transfers describes a comparable idea at a smaller scale: transfers move and track stock between locations, can be marked in transit, ready to ship or transferred, support full or partial receipt at the destination, and can be split into multiple shipments ([Shopify transfers](https://help.shopify.com/en/manual/products/inventory/transfers)). Its developer documentation likewise treats incoming stock as a separate state that is not sellable until received ([Shopify inventory states](https://shopify.dev/docs/apps/build/orders-fulfillment/inventory-management-apps)).
 

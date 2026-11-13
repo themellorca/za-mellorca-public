@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000459
 slug: when-the-founders-identity-is-fused-with-every-task
-title: When the Founder's Identity Is Fused With Every Task
-description: Being needed for everything can feel like being essential. For some founders it slowly becomes the reason they cannot choose anything else. What untangling person from process can give back.
+title: When the founder's identity is fused with every task
+description: Being needed for everything can feel like being essential, yet it can stop a founder choosing anything else. What untangling person from process gives.
 lead: Being needed for everything can feel like being essential. For some founders it slowly becomes the reason they cannot choose anything else. What untangling person from process can give back.
 category: Meaning, Purpose & Identity
 published_date: 2026-10-03
@@ -17,10 +17,12 @@ epistemic_state: HYPOTHESISED for the identity and optionality effects on founde
 sources:
   - The Founder’s Dilemma | https://hbr.org/2008/02/the-founders-dilemma
   - What Buyers Really Think When a Business Depends on Its Owner | https://www.vikingmergers.com/blog/owner-dependency-business-valuation/
+  - How we identify and mitigate single-points-of-failure (SPOF) - Ministry of Justice Digital and Technology | https://mojdigital.blog.gov.uk/2021/08/03/how-we-identify-and-mitigate-single-points-of-failure-spof/
 related:
-  - When the System Decides What You Can Do Today | /moments/when-the-system-decides-what-you-can-do-today/
-  - The Inbox That Follows You Home | /moments/the-inbox-that-follows-you-home/
-  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - When the system decides what you can do today | /moments/when-the-system-decides-what-you-can-do-today/
+  - The inbox that follows you home | /moments/the-inbox-that-follows-you-home/
+  - The lunch break eaten by approval requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - The owner who wants choices, not just more revenue | /moments/the-owner-who-wants-choices-not-just-more-revenue/
 summary: Being needed for everything can feel like being essential. For some founders it slowly becomes the reason they cannot choose anything else. What untangling person from process can give back.
 layout: plain
 ---
@@ -39,7 +41,7 @@ Consider an illustrative founder of a Johannesburg engineering services firm wit
 - Staff ask the founder before making decisions that are well within their competence, because the boundary of their authority has never been written down.
 - Pricing logic, supplier history and the reasons behind past decisions exist mainly in the founder's memory.
 
-Nothing about this is unusual. It is close to the condition Mellorca describes in its work on [key-person operational dependency](/impact/key-person-operational-dependency/) and in the pattern of [staff needing to ask who approves what](/patterns/when-staff-need-to-ask-who-approves-what/).
+Nothing about this is unusual. It is close to the condition Mellorca describes in its work on [key-person operational dependency](/impact/key-person-operational-dependency/) and in the pattern of [staff needing to ask who approves what](/patterns/when-staff-need-to-ask-who-approves-what/). The UK Ministry of Justice's digital team describes the same signs when it looks for [single points of failure](https://mojdigital.blog.gov.uk/2021/08/03/how-we-identify-and-mitigate-single-points-of-failure-spof/): work stalls when one person is away, and the experts who hold a service's knowledge and history become linchpins.
 
 What is less often discussed is what the arrangement does to the founder's own room to move.
 

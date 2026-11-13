@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-254
 slug: why-analysts-keep-rebuilding-the-same-data-joins-in-spreadsheets
 title: Why analysts keep rebuilding the same data joins in separate spreadsheets
-description: When every analyst matches customers, products and transactions in their own workbook, the same numbers come out differently. How to build the joins once and share them.
+description: When every analyst matches customers, products and transactions in their own workbook, numbers differ. Build the joins once and share them.
 lead: When every analyst matches customers, products and transactions in their own workbook, the same numbers come out differently. How to build the joins once and share them.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-04
@@ -21,6 +21,7 @@ related:
   - Why sales, finance and operations each define revenue differently | /discovery/sales-finance-and-operations-define-revenue-differently/
   - Why dashboards refresh at different times without anyone knowing | /discovery/why-dashboards-refresh-at-different-times-without-anyone-knowing/
   - Why business users cannot trace a dashboard number back to its source | /discovery/why-business-users-cannot-trace-a-dashboard-number-to-its-source/
+  - Spreadsheet extracts become unofficial reporting systems | /discovery/how-spreadsheet-extracts-quietly-become-the-reporting-system/
 summary: When every analyst matches customers, products and transactions in their own workbook, the same numbers come out differently. How to build the joins once and share them.
 layout: plain
 ---
@@ -32,9 +33,9 @@ This article looks at that operating condition: analysts rebuilding the same dat
 
 Most useful business questions need data from more than one system: sales with customers, orders with products, costs with stock. Joining those sources means deciding how records match, what to do with records that do not match, and which version of a value to use. In many businesses those decisions are made again by every analyst for every report, inside private workbooks. The joins are invisible, inconsistent and lost when the analyst moves on.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Finance and reporting leads search for ways to stop duplicate spreadsheet work, create a single source of truth for reporting, or standardise how data from different systems is combined. Analysts want to spend their time on analysis rather than VLOOKUPs. The underlying need is to build each important join once, in a shared place, with agreed rules, so that every report starts from the same combined data.
+Finance and reporting leads want ways to stop duplicate spreadsheet work, create a single source of truth for reporting, or standardise how data from different systems is combined. Analysts want to spend their time on analysis rather than VLOOKUPs. The underlying need is to build each important join once, in a shared place, with agreed rules, so that every report starts from the same combined data.
 
 ## Evidence and system mechanism
 

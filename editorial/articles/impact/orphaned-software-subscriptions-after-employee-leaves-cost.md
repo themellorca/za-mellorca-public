@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-057
 slug: orphaned-software-subscriptions-after-employee-leaves-cost
-title: Subscriptions That Outlive the Employee: The Cost of Orphaned Software
+title: Subscriptions that outlive the employee: The cost of orphaned software
 description: Software bought and owned by an employee keeps billing and renewing after they leave. Here is how orphaned subscriptions build up and how to stop them.
 lead: Software bought and owned by an employee keeps billing and renewing after they leave. Here is how orphaned subscriptions build up and how to stop them.
 category: Digital Infrastructure
@@ -17,9 +17,9 @@ sources:
   - Buy or remove licenses for a Microsoft business subscription | https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/buy-licenses
   - Delete or remove a user from your organization - User management - Google Workspace Help | https://knowledge.workspace.google.com/admin/users/delete-or-remove-a-user-from-your-organization
 related:
-  - Automatic Software Renewals: The Cost of Paying for Yesterday's Requirements | /impact/automatic-software-renewals-without-value-review-cost/
-  - Software Bought Without Approval: The Financial and Security Cost of Shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
-  - Paying for Tools You Already Own: The Cost of Underused Software Platforms | /impact/expensive-tools-for-tasks-existing-platform-handles-cost/
+  - Automatic software renewals: The cost of paying for yesterday's requirements | /impact/automatic-software-renewals-without-value-review-cost/
+  - Software bought without approval: The financial and security cost of shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
+  - Paying for tools you already own: The cost of underused software platforms | /impact/expensive-tools-for-tasks-existing-platform-handles-cost/
 summary: Software bought and owned by an employee keeps billing and renewing after they leave. Here is how orphaned subscriptions build up and how to stop them.
 layout: plain
 ---
@@ -50,7 +50,7 @@ Mellorca has covered the security side of departures in [when former employees s
 
 Many businesses assume that removing a leaver's account ends the cost. Vendor documentation shows why it often does not.
 
-Microsoft's guidance on removing a former employee explains that after you unassign a licence you can either give it to someone else or delete it from the subscription. To stop paying, a separate step is needed: reducing the number of licences in the subscription under billing. Microsoft's licensing documentation adds that for some billing account types licences can only be removed within seven days of buying or renewing; outside that window the reduction takes effect at renewal. It also notes that the person who signed up for a subscription automatically becomes a billing account owner, which is exactly why a subscription started by an employee can leave with them.
+Microsoft's guidance on removing a [former employee](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee-step-6) explains that after you unassign a licence you can either give it to someone else or delete it from the subscription. To stop paying, a separate step is needed: reducing the number of licences in the subscription under billing. Microsoft's licensing documentation adds that for some billing account types licences can only be removed within seven days of buying or renewing; outside that window the reduction takes effect at renewal. It also notes that the person who signed up for a subscription automatically becomes a billing account owner, which is exactly why a subscription started by an employee can leave with them.
 
 Google Workspace's help for administrators makes a similar point. On flexible plans, deleting a user's account prorates the monthly charge. On annual or fixed-term plans, deleting an account does not reduce the number of licences and does not affect billing. Google also notes that to keep a departing user's Gmail or Drive data, it must be transferred to another user, because deleted data cannot be recovered.
 

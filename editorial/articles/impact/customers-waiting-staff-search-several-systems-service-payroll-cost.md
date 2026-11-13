@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-329
 slug: customers-waiting-staff-search-several-systems-service-payroll-cost
-title: Customers on Hold While Staff Search Five Systems: The Cost of Scattered Answers
-description: When the answer to a simple customer question is spread across several systems, customers wait and staff time disappears. The cost shows up in service delays, repeat contacts and payroll.
+title: Customers on hold while staff search five systems: The cost of scattered answers
+description: When the answer to a simple customer question is spread across several systems, customers wait and staff time disappears into delays and repeat contacts.
 lead: When the answer to a simple customer question is spread across several systems, customers wait and staff time disappears. The cost shows up in service delays, repeat contacts and payroll.
 category: Customer Operations
 published_date: 2026-10-08
@@ -16,11 +16,12 @@ sources:
   - Microsoft Search Overview | https://learn.microsoft.com/en-us/microsoftsearch/overview-microsoft-search
   - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
   - What is Power BI? - Power BI | https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
 related:
-  - The Cost of Retyping Customer Details into Every System | /impact/pain-duplication-of-customer-data-entry/
-  - Thirty People, Five-Person Processes: The Cost of Systems That Did Not Grow | /impact/five-person-processes-growing-business-scaling-cost/
-  - Walking the Paperwork Around: The Cost of Moving People to Move Information | /impact/walking-for-signatures-information-movement-waiting-cost/
+  - The cost of retyping customer details into every system | /impact/pain-duplication-of-customer-data-entry/
+  - Thirty people, five-person processes: The cost of systems that did not grow | /impact/five-person-processes-growing-business-scaling-cost/
+  - Walking the paperwork around: The cost of moving people to move information | /impact/walking-for-signatures-information-movement-waiting-cost/
+  - Customers who cannot see where their request stands keep phoning to ask | /impact/customers-do-not-know-request-status-inbound-follow-up-and-lost-trust-cost/
 summary: When the answer to a simple customer question is spread across several systems, customers wait and staff time disappears. The cost shows up in service delays, repeat contacts and payroll.
 layout: plain
 ---

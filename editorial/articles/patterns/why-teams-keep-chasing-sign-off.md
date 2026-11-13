@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-304
 slug: why-teams-keep-chasing-sign-off
-title: Why Teams Keep Chasing Sign-Off
-description: When nobody can see where a request is waiting, people fill the gap by asking. Here is why chasing sign-off becomes routine and how to make approval status visible instead.
+title: Why teams keep chasing sign-off
+description: When nobody can see where a request is waiting, people fill the gap by asking. Make approval status visible so chasing sign-off stops.
 lead: When nobody can see where a request is waiting, people fill the gap by asking. Here is why chasing sign-off becomes routine and how to make approval status visible instead.
 category: Workflow, Approvals & Handoffs
 published_date: 2026-10-08
@@ -18,9 +18,9 @@ sources:
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
   - Kanban - What Is it? - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/kanban/
 related:
-  - Why Decision-Makers Keep Asking for Status Updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
-  - Why Teams Keep Asking the Same Internal Questions | /patterns/why-teams-keep-asking-the-same-internal-questions/
-  - Why Service Teams Spend Their Day Chasing Internal Answers | /patterns/why-service-teams-spend-their-day-chasing-internal-answers/
+  - Why decision-makers keep asking for status updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
+  - Why teams keep asking the same internal questions | /patterns/why-teams-keep-asking-the-same-internal-questions/
+  - Why service teams spend their day chasing internal answers | /patterns/why-service-teams-spend-their-day-chasing-internal-answers/
 summary: When nobody can see where a request is waiting, people fill the gap by asking. Here is why chasing sign-off becomes routine and how to make approval status visible instead.
 layout: plain
 ---
@@ -36,7 +36,7 @@ An illustrative example: a Durban civil engineering contractor with about ninety
 
 Chasing is a symptom of invisibility. When a request leaves your hands and enters someone else's inbox, you cannot see where it is. You do not know whether it has been opened, whether it is waiting on a third person, or whether it has been quietly forgotten. The only way to find out is to ask, so people ask, and the asking becomes a routine part of the job.
 
-This is different from a slow approver. A fast approver who is not told that something is waiting is just as stuck as a slow one. The delay often sits in the gap between the request being sent and the approver becoming aware that it needs them. Lean thinking describes waiting as one of the classic forms of waste, work that consumes time without adding value, and the Lean Enterprise Institute lists it alongside the other forms of muda. Chasing is the labour that people add to compensate for that waiting.
+This is different from a slow approver. A fast approver who is not told that something is waiting is just as stuck as a slow one. The delay often sits in the gap between the request being sent and the approver becoming aware that it needs them. Lean thinking describes waiting as one of the classic forms of waste, work that consumes time without adding value, and [the Lean Enterprise Institute lists it alongside the other forms of muda](https://www.lean.org/lexicon-terms/muda/). Chasing is the labour that people add to compensate for that waiting.
 
 There is also a quiet social cost. Repeated chasing puts the sender in the position of nagging someone more senior, which people avoid. They wait a day longer than they should, then chase more urgently than they would like. Relationships take a small knock each time.
 
@@ -73,9 +73,11 @@ Another response is to remove the approval altogether. Some approvals protect th
 
 ## Possibility
 
-In a better state, a request becomes a tracked item the moment it is raised. The sender can see who currently holds it, how long it has been there and what happens next. The approver has a single list of items awaiting their decision, with the oldest and largest at the top. Reminders go out automatically after an agreed time, and escalate to a named delegate if nothing happens. The sender no longer needs to ask, because the answer is on the screen.
+In a better state, a request becomes a tracked item the moment it is raised. The sender can see who currently holds it, how long it has been there and what happens next. The approver has a single list of items awaiting their decision, with the oldest and largest at the top. Reminders go out automatically after an agreed time, and escalate to a named delegate if nothing happens.
 
-Value-stream mapping, as the Lean Enterprise Institute describes it, shows both the time work spends being worked on and the time it spends waiting between steps. Applied to sign-off, the exercise usually reveals that waiting dwarfs processing: the approval itself takes two minutes, but the item sits for three days. Once that is visible, it is easier to agree what to change.
+The sender no longer needs to ask, because the answer is on the screen. The Lean Enterprise Institute describes a [kanban](https://www.lean.org/lexicon-terms/kanban/) as a signalling device that gives authorisation and instructions, in a card, a plate or an electronic signal, which is a useful picture of an approval queue that shows its own state.
+
+[Value-stream mapping, as the Lean Enterprise Institute describes it](https://www.lean.org/lexicon-terms/value-stream-mapping/), shows both the time work spends being worked on and the time it spends waiting between steps. Applied to sign-off, the exercise usually reveals that waiting dwarfs processing: the approval itself takes two minutes, but the item sits for three days. Once that is visible, it is easier to agree what to change.
 
 For the contractor, that could mean variation orders raised in a shared workflow, routed to the project manager and quantity surveyor at the same time, with a rand threshold that automatically adds the director. Each approver gets a daily list of what is waiting, and the site administrator's tracking becomes a glance rather than a morning of phone calls.
 

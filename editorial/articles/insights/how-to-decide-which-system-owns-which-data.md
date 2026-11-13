@@ -48,7 +48,7 @@ Before choosing an owner, define the object. "Customer" may mean a prospect to s
 
 List the critical data domains and define what each represents. Typical examples include customer identity, billing account, product master, employee identity, contract, order, invoice, payment, service case and inventory position.
 
-UK government guidance on identifying and recording critical data assets emphasises named accountability for important data and recording, for each asset, a description, an owner and the purposes it supports, with that information reviewed annually. The context is government, but the operating principle applies broadly: important data needs explicit accountability rather than accidental ownership by whichever application was implemented first.
+UK government guidance on [identifying and recording critical data assets](https://www.gov.uk/government/publications/identify-and-record-critical-data-assets/identifying-and-recording-critical-data-assets) emphasises named accountability for important data and recording, for each asset, a description, an owner and the purposes it supports, with that information reviewed annually. The context is government, but the operating principle applies broadly: important data needs explicit accountability rather than accidental ownership by whichever application was implemented first.
 
 ### Signs that ownership is undefined
 - Staff keep a personal spreadsheet because they "don't trust" a system's copy.
@@ -90,7 +90,7 @@ Being able to trace changes helps. IBM describes data lineage as tracking where 
 
 ## Assign human accountability as well as system authority
 
-System ownership is not enough. A named business owner should be accountable for definitions, quality expectations, access rules and change decisions for each critical data domain. The UK government's data ownership model similarly distinguishes accountable ownership from the systems through which data is stored and shared. It describes data owners as senior leaders accountable for a grouping of data, data stewards as subject-matter experts who manage it day to day, and data custodians as those who manage the technical storage and access.
+System ownership is not enough. A named business owner should be accountable for definitions, quality expectations, access rules and change decisions for each critical data domain. The UK government's [data ownership model](https://www.gov.uk/government/publications/data-ownership-in-government/data-ownership-model) similarly distinguishes accountable ownership from the systems through which data is stored and shared. It describes data owners as senior leaders accountable for a grouping of data, data stewards as subject-matter experts who manage it day to day, and data custodians as those who manage the technical storage and access.
 
 This human layer matters because architecture cannot decide whether a field's meaning should change or whether two departments are actually measuring different things. In a mid-sized business, the roles may sit with a handful of people: the financial director owning billing and payment data, the sales manager owning customer relationship data, an operations lead owning fulfilment data, with IT or an external partner acting as custodian.
 

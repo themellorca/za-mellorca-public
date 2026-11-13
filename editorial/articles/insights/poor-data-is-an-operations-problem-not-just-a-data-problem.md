@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-226
 slug: poor-data-is-an-operations-problem-not-just-a-data-problem
-title: Poor Data Is an Operations Problem, Not Just a Data Problem
-description: Bad records are usually created by the way work is done: rushed capture, unclear ownership and processes that never ask for the right fact at the right moment. Fixing data therefore starts with fixing operations.
+title: Poor data is an operations problem, not just a data problem
+description: Bad records usually come from how work is done: rushed capture, unclear ownership and processes that never ask for the right fact. Fix operations first.
 lead: Bad records are usually created by the way work is done: rushed capture, unclear ownership and processes that never ask for the right fact at the right moment. Fixing data therefore starts with fixing operations.
 category: Operations
 published_date: 2026-10-03
@@ -14,9 +14,9 @@ sources:
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
   - Only 3% of Companies’ Data Meets Basic Quality Standards | https://hbr.org/2017/09/only-3-of-companies-data-meets-basic-quality-standards
 related:
-  - What Your Recurring Problems Are Telling You About Your Systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
-  - Why Fixing Symptoms Without Mapping the System Rarely Works | /insights/why-fixing-symptoms-without-mapping-the-system-rarely-works/
-  - What to Fix First When Everything Feels Broken | /insights/what-to-fix-first-when-everything-feels-broken/
+  - What your recurring problems are telling you about your systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
+  - Why fixing symptoms without mapping the system rarely works | /insights/why-fixing-symptoms-without-mapping-the-system-rarely-works/
+  - What to fix first when everything feels broken | /insights/what-to-fix-first-when-everything-feels-broken/
 summary: Bad records are usually created by the way work is done: rushed capture, unclear ownership and processes that never ask for the right fact at the right moment. Fixing data therefore starts with fixing operations.
 layout: plain
 ---
@@ -29,7 +29,7 @@ They come back because the data was not the cause. The data was the symptom. Rec
 
 ## Where bad data actually comes from
 
-It helps to be specific about what "bad" means. The UK Government Data Quality Framework describes six dimensions: completeness (are the records and values present?), uniqueness (is each thing recorded once?), consistency (do values contradict each other?), timeliness (is the data current enough for its use?), validity (is it in the expected format and range?) and accuracy (does it match reality?). Each of these failures has an operational origin.
+It helps to be specific about what "bad" means. The UK [Government Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework) describes six dimensions: completeness (are the records and values present?), uniqueness (is each thing recorded once?), consistency (do values contradict each other?), timeliness (is the data current enough for its use?), validity (is it in the expected format and range?) and accuracy (does it match reality?). Each of these failures has an operational origin.
 
 | Defect | Typical operational cause |
 | --- | --- |
@@ -72,7 +72,7 @@ That obligation is met, or missed, in daily operations: in how customer details 
 
 ### 1. Measure it where it is created
 
-Do not start with the warehouse or the report. Start with recent records from one team. The HBR article on companies' data quality standards suggests a simple exercise: assemble the last 100 data records your department completed and work through each one looking for errors. A manager who does this for an afternoon usually learns more than a year of complaints revealed.
+Do not start with the warehouse or the report. Start with recent records from one team. The HBR article on companies' data [quality standards](https://hbr.org/2017/09/only-3-of-companies-data-meets-basic-quality-standards) suggests a simple exercise: assemble the last 100 data records your department completed and work through each one looking for errors. A manager who does this for an afternoon usually learns more than a year of complaints revealed.
 
 ### 2. Trace each defect to a step
 

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-106
 slug: why-qualified-opportunities-go-cold-during-internal-handoffs
-title: Why Qualified Opportunities Go Cold During Internal Handoffs
-description: A prospect has been qualified and then nothing happens for days. The delay sits in the internal hand-off between teams, not in the customer. Here is why it happens and how to design it out.
+title: Why qualified opportunities go cold during internal handoffs
+description: A prospect is qualified and then nothing happens for days. The delay is in the internal hand-off, not the customer. Here is how to design it out.
 lead: A prospect has been qualified and then nothing happens for days. The delay sits in the internal hand-off between teams, not in the customer. Here is why it happens and how to design it out.
 category: Sales, Pipeline & Revenue Conversion
 published_date: 2026-10-08
@@ -16,10 +16,11 @@ commercial_value_dimensions: Conversion rate, sales-cycle length, revenue, retur
 sources:
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
   - Business events overview - Finance & Operations - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/business-events/home-page
+  - The Short Life of Online Sales Leads - Harvard Business Review | https://hbr.org/2011/03/the-short-life-of-online-sales-leads
 related:
-  - Why Service Teams Spend Their Day Chasing Internal Answers | /patterns/why-service-teams-spend-their-day-chasing-internal-answers/
-  - The Cost of Delayed Handoffs After a Deal Is Won | /patterns/the-cost-of-delayed-handoffs-after-a-deal-is-won/
-  - Why Salespeople Spend Time Updating Systems Instead of Selling | /patterns/why-salespeople-spend-time-updating-systems-instead-of-selling/
+  - Why service teams spend their day chasing internal answers | /patterns/why-service-teams-spend-their-day-chasing-internal-answers/
+  - The cost of delayed handoffs after a deal is won | /patterns/the-cost-of-delayed-handoffs-after-a-deal-is-won/
+  - Why salespeople spend time updating systems instead of selling | /patterns/why-salespeople-spend-time-updating-systems-instead-of-selling/
 summary: A prospect has been qualified and then nothing happens for days. The delay sits in the internal hand-off between teams, not in the customer. Here is why it happens and how to design it out.
 layout: plain
 ---
@@ -35,7 +36,7 @@ An illustrative example: a Pretoria company that installs solar and battery syst
 
 When a deal goes cold after qualification, the cause is usually blamed on the customer ("they were not serious") or the salesperson ("they did not follow up"). But the lead was already qualified: the customer had shown need, budget and interest. What changed was the speed and clarity of the business's response. The hand-off between teams is a part of the sales process that nobody designed, so it runs on whoever happens to notice.
 
-Lean thinking uses value stream mapping to separate the time work is actually being done from the time it is waiting. The Lean Enterprise Institute describes the technique as a way to see the flow of material and information and to expose delays between steps. In many services businesses, the wait between steps is longer than the work in the steps, and the hand-off is where it sits.
+Lean thinking uses [value stream mapping](https://www.lean.org/lexicon-terms/value-stream-mapping/) to separate the time work is actually being done from the time it is waiting. The Lean Enterprise Institute describes the technique as a way to see the flow of material and information and to expose delays between steps. In many services businesses, the wait between steps is longer than the work in the steps, and the hand-off is where it sits.
 
 **Realisation prompt:** for your last ten qualified opportunities, how long did each wait between being qualified and receiving the next substantive action from your side?
 
@@ -60,7 +61,7 @@ The commercial value at stake is conversion rate, sales-cycle length, revenue an
 
 By the time an opportunity is qualified, the business has paid for the advert, the enquiry and the salesperson's time. Losing it in a hand-off is the most expensive kind of loss, because the cost is already sunk. A modest improvement in the share of qualified opportunities that reach a proposal in good time can be worth more than a large increase in new leads.
 
-Speed matters because the buyer's attention does not wait. A prospect who is comparing three suppliers will treat responsiveness as a preview of the service they will receive. The Pattern [the hidden revenue cost of slow follow-up](/patterns/the-hidden-revenue-cost-of-slow-follow-up/) and the Impact page on [unassigned sales enquiries and leads going cold](/impact/unassigned-sales-enquiries-leads-going-cold/) describe how delays turn into lost revenue.
+Speed matters because the buyer's attention does not wait. A prospect who is comparing three suppliers will treat responsiveness as a preview of the service they will receive. The Pattern [the hidden revenue cost of slow follow-up](/patterns/the-hidden-revenue-cost-of-slow-follow-up/) and the Impact page on [unassigned sales enquiries and leads going cold](/impact/unassigned-sales-enquiries-leads-going-cold/) describe how delays turn into lost revenue. Harvard Business Review's [research on online sales leads](https://hbr.org/2011/03/the-short-life-of-online-sales-leads) found that most companies respond far too slowly.
 
 There is a forecasting cost as well. A pipeline padded with opportunities that have effectively died makes revenue forecasts unreliable, and planning for stock, staff or cash is then based on deals that will not close.
 

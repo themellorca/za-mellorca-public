@@ -2,9 +2,9 @@
 hub: patterns
 record_id: PAT-102
 slug: when-a-lead-enters-the-crm-but-nobody-acts
-title: When a Lead Enters the CRM but Nobody Acts
-description: Examines the consequences of unacted leads and the gap between entry and action, with attention to data quality, routing, and ownership.
-lead: Examines the consequences of unacted leads and the gap between entry and action, with attention to data quality, routing, and ownership.
+title: When a lead enters the CRM but nobody acts
+description: A lead arrives in the CRM and then waits. Why the gap between entry and action opens, and how routing, ownership and data quality close it.
+lead: A lead arrives in the CRM and then waits. Why the gap between entry and action opens, and how routing, ownership and data quality close it.
 category: Sales & CRM Hygiene
 published_date: 2026-09-08
 updated_date: 2026-09-08
@@ -18,10 +18,10 @@ sources:
   - Work assignment overview | https://learn.microsoft.com/en-us/dynamics365/sales/work-assignment-intro
   - Lead Qualification & Routing Strategies | https://trailhead.salesforce.com/content/learn/modules/opportunity-management/qualify-and-route-leads-to-your-reps
 related:
-  - When Nobody Knows Which System Holds the Correct Data | /patterns/when-nobody-knows-which-system-holds-the-correct-data/
-  - When Nobody Owns the Definition of a Business Metric | /patterns/when-nobody-owns-the-definition-of-a-business-metric/
-  - Why Salespeople Spend Time Updating Systems Instead of Selling | /patterns/why-salespeople-spend-time-updating-systems-instead-of-selling/
-summary: Examines the consequences of unacted leads and the gap between entry and action, with attention to data quality, routing, and ownership.
+  - When nobody knows which system holds the correct data | /patterns/when-nobody-knows-which-system-holds-the-correct-data/
+  - When nobody owns the definition of a business metric | /patterns/when-nobody-owns-the-definition-of-a-business-metric/
+  - Why salespeople spend time updating systems instead of selling | /patterns/why-salespeople-spend-time-updating-systems-instead-of-selling/
+summary: A lead arrives in the CRM and then waits. Why the gap between entry and action opens, and how routing, ownership and data quality close it.
 layout: plain
 ---
 ## Observable condition

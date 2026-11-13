@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-024
 slug: how-to-prioritise-digital-improvements-when-budget-is-limited
-title: How to Prioritise Digital Improvements When Budget Is Limited
-description: When there is money for one or two improvements a year, the order matters more than the list. How to rank digital improvements by cost of delay against effort, start with what you already pay for, count the full cost of ownership and phase work so early wins fund later ones.
+title: How to prioritise digital improvements when budget is limited
+description: With money for one or two improvements a year, the order matters more than the list. How to rank by cost of delay against effort and phase work sensibly.
 lead: When there is money for one or two improvements a year, the order matters more than the list. How to rank digital improvements by cost of delay against effort, start with what you already pay for, count the full cost of ownership and phase work so early wins fund later ones.
 category: Systems & Strategy
 published_date: 2026-10-05

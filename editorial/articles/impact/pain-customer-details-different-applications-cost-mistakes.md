@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-078
 slug: pain-customer-details-different-applications-cost-mistakes
-title: When Customer Details Differ Between Applications
+title: When customer details differ between applications
 description: Inconsistent customer data across applications creates operational friction, undermines service quality, and leads to unreliable reporting.
 lead: Inconsistent customer data across applications creates operational friction, undermines service quality, and leads to unreliable reporting.
 category: Data & Customer Experience
@@ -18,9 +18,9 @@ sources:
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
   - Principle (d): Accuracy | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/accuracy/
 related:
-  - The Cost of Retyping Customer Details into Every System | /impact/pain-duplication-of-customer-data-entry/
-  - Sales, Finance and Operations Each With Their Own Customer: The Cost | /impact/departments-separate-customer-records-financial-impact/
-  - The Labour Cost of Manually Reconciling Two Systems | /impact/manual-reconciliation-between-systems-labour-cost/
+  - The cost of retyping customer details into every system | /impact/pain-duplication-of-customer-data-entry/
+  - Sales, finance and operations each with their own customer: The cost | /impact/departments-separate-customer-records-financial-impact/
+  - The labour cost of manually reconciling two systems | /impact/manual-reconciliation-between-systems-labour-cost/
 summary: Inconsistent customer data across applications creates operational friction, undermines service quality, and leads to unreliable reporting.
 layout: plain
 ---
@@ -54,7 +54,7 @@ The customer-facing side of this is covered in [the pain of customers repeating 
 
 The financial footprint includes wasted labour, rework and missed opportunities. Time spent reconciling data is time not spent on value-add activities such as personalised customer experiences or strategic analytics. Reporting confidence erodes when stakeholders rely on conflicting subsets of data, which can slow decision-making and erode governance credibility. Over time, the cost of misalignment compounds, affecting margins, customer satisfaction and the organisation's ability to scale.
 
-There is also a compliance dimension. Data protection law generally expects personal information to be accurate and kept up to date where the purpose requires it; section 16 of South Africa's POPIA requires reasonably practicable steps to keep personal information complete, accurate, not misleading and updated where necessary, and the UK regulator's guidance on the equivalent accuracy principle asks organisations to take reasonable steps to correct inaccurate data promptly and to record where information came from. Three conflicting addresses for one person make that harder to demonstrate.
+There is also a compliance dimension. Data protection law generally expects personal information to be accurate and kept up to date where the purpose requires it; [section 16 of South Africa's POPIA](https://popia.co.za/section-16-quality-of-information/) requires reasonably practicable steps to keep personal information complete, accurate, not misleading and updated where necessary, and [the UK regulator's guidance on the equivalent accuracy principle](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/accuracy/) asks organisations to take reasonable steps to correct inaccurate data promptly and to record where information came from. Three conflicting addresses for one person make that harder to demonstrate.
 
 ### Estimating the cost in your own business
 
@@ -62,7 +62,7 @@ Avoid borrowed industry averages. Instead, measure a sample month: how many reco
 
 ## How to diagnose the problem
 
-IBM's data quality guidance lists dimensions that make diagnosis concrete. For customer records, three matter most:
+[IBM's data quality guidance](https://www.ibm.com/think/topics/data-quality) lists dimensions that make diagnosis concrete. For customer records, three matter most:
 
 - **Uniqueness:** how many duplicate customers exist within each system and across systems?
 - **Consistency:** do the same fields agree between systems for the same customer?
@@ -72,7 +72,7 @@ A practical exercise is to take fifty active customers and compare their name, r
 
 ## Remediation actions
 
-Addressing this pain begins with establishing a trusted, single source of truth for customer identity. Actions include implementing identity resolution, creating a *golden record* for core customer attributes, and standardising data definitions across systems. IBM describes master data management as consolidating customer details through deduplication, reconciliation, standardisation and integration, so that one authoritative version exists.
+Addressing this pain begins with establishing a trusted, single source of truth for customer identity. Actions include implementing identity resolution, creating a *golden record* for core customer attributes, and standardising data definitions across systems. [IBM describes master data management](https://www.ibm.com/think/topics/master-data-management) as consolidating customer details through deduplication, reconciliation, standardisation and integration, so that one authoritative version exists.
 
 Technical steps involve data validation at entry points, regular deduplication, and parent-child relationship mapping across apps, such as linking branches to a head office account. Process-wise, align ownership for customer data, enforce governance policies, and embed data quality checks into both onboarding and ongoing operations. Practical diagnostics include mapping data lineage, identifying high-friction touchpoints, and validating critical attributes against a trusted reference.
 

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-034
 slug: when-one-change-has-to-be-made-in-every-system-you-own
-title: When One Change Has to Be Made in Every System You Own
-description: A price increase, a new supplier bank account or a customer's change of address has to be updated in four places, and one is always missed. Duplicate copies of the same business data multiply every change and quietly drift apart.
+title: When one change has to be made in every system you own
+description: A price rise or new supplier bank account must be updated in four places, and one is always missed. Duplicate data multiplies every change.
 lead: A price increase, a new supplier bank account or a customer's change of address has to be updated in four places, and one is always missed. Duplicate copies of the same business data multiply every change and quietly drift apart.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-05
@@ -18,9 +18,9 @@ sources:
   - Use Microsoft Dataverse to detect duplicate records and merge - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/detect-duplicate-records
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
 related:
-  - Why the Same Problems Return After You Replace the System | /patterns/why-the-same-problems-return-after-you-replace-the-system/
-  - Why Information Has to Be Copied From One System to Another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
-  - When Your CRM Knows Something Your Finance System Does Not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
+  - Why the same problems return after you replace the system | /patterns/why-the-same-problems-return-after-you-replace-the-system/
+  - Why information has to be copied from one system to another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
+  - When your CRM knows something your finance system does not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
 summary: A price increase, a new supplier bank account or a customer's change of address has to be updated in four places, and one is always missed. Duplicate copies of the same business data multiply every change and quietly drift apart.
 layout: plain
 ---
@@ -38,9 +38,9 @@ An illustrative example: a Gauteng hardware and building-supplies business with 
 
 When the same data lives in several platforms, the business has not just stored it several times. It has committed to changing it several times, forever. Every price change, every new product, every updated contact detail becomes a small project with as many steps as there are copies.
 
-The copies also drift. IBM's explanation of master data management describes how, without a single authoritative record for key entities such as customers and products, organisations end up with duplicated and inconsistent records spread across systems, and how that leads to problems like incorrect billing and misdirected shipments. Microsoft's documentation for Dataverse notes that duplicates creep in through ordinary manual entry and bulk imports, which is why it offers rules to detect them when records are created or updated.
+The copies also drift. [IBM's explanation of master data management](https://www.ibm.com/think/topics/master-data-management) describes how, without a single authoritative record for key entities such as customers and products, organisations end up with duplicated and inconsistent records spread across systems, and how that leads to problems like incorrect billing and misdirected shipments. [Microsoft's documentation for Dataverse](https://learn.microsoft.com/en-us/power-platform/admin/detect-duplicate-records) describes how duplicate customer and contact records can be detected when they are entered manually and then merged into one.
 
-For personal information, drift is also a compliance matter. Section 16 of the Protection of Personal Information Act requires a responsible party to take reasonably practicable steps to ensure personal information is complete, accurate, not misleading and updated where necessary. Every extra copy is another place where that obligation has to be met.
+For personal information, drift is also a compliance matter. [Section 16 of the Protection of Personal Information Act](https://popia.co.za/section-16-quality-of-information/) requires a responsible party to take reasonably practicable steps to ensure personal information is complete, accurate, not misleading and updated where necessary. Every extra copy is another place where that obligation has to be met.
 
 **Realisation prompt:** how many systems would need to be updated if one of your top suppliers changed its prices tomorrow, and who would update each one?
 

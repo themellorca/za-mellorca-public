@@ -3,7 +3,7 @@ hub: insights
 record_id: INS-423
 slug: what-to-ask-about-apis-before-buying-business-software
 title: What to ask about APIs before buying business software
-description: A practical API due-diligence checklist for business software buyers covering access, documentation, authentication, limits, events, data portability, versioning and commercial constraints.
+description: An API checklist for software buyers covering API access, documentation, security, limits, events, data portability and versioning.
 lead: A platform can look excellent in a demo and still become expensive to connect, automate or leave. API capability should therefore be evaluated before purchase, while the buyer still has leverage and alternatives.
 category: Systems & Strategy
 published_date: 2026-09-03
@@ -25,7 +25,7 @@ sources:
 related:
   - How to decide which software to remove | /insights/how-to-decide-which-software-to-remove/
   - How to avoid vendor-led architecture | /insights/how-to-avoid-vendor-led-architecture/
-  - When a Spreadsheet Is a Useful Tool—and When It Becomes Infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
+  - When a spreadsheet is a useful tool—and when it becomes infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
 ---
 Most software buying conversations focus on features inside the application. The operating problem appears later, when the business needs the platform to exchange data with CRM, finance, identity, service management, reporting tools or automation workflows.
 
@@ -71,7 +71,7 @@ If events are available, understand delivery guarantees, retry behaviour, duplic
 
 ## Ask about versioning and deprecation
 
-Every important integration will eventually encounter platform change. Ask how API versions are managed, how long deprecated endpoints remain available, how customers are notified and whether breaking changes are documented in advance. Microsoft's API design guidance describes several versioning approaches and stresses that existing clients should keep working when a new version is introduced. Ask the vendor which approach they use and how much notice they give before retiring a version.
+Every important integration will eventually encounter platform change. Ask how API versions are managed, how long deprecated endpoints remain available, how customers are notified and whether breaking changes are documented in advance. Microsoft's [API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design) guidance describes several versioning approaches and stresses that existing clients should keep working when a new version is introduced. Ask the vendor which approach they use and how much notice they give before retiring a version.
 
 This matters because a stable API today is only valuable if the vendor has a credible process for changing it tomorrow. It also connects directly to [why every important integration needs an owner](/insights/why-every-important-integration-needs-an-owner/): someone must receive and act on those notices.
 

@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-378
 slug: what-managed-digital-operations-actually-means
-title: What Managed Digital Operations Actually Means
+title: What managed digital operations actually means
 description: Managed digital operations is more than IT support and more than a monthly fee. What it should include, what it should not, and the questions to ask a provider.
 lead: Managed digital operations is more than IT support and more than a monthly fee. What it should include, what it should not, and the questions to ask a provider.
 category: Digital Operations
@@ -15,9 +15,9 @@ sources:
   - Cyber Security Toolkit for Boards | https://www.ncsc.gov.uk/collection/board-toolkit
   - Cybersecurity Framework | https://www.nist.gov/cyberframework
 related:
-  - What Should a CEO Understand About Digital Operations? | /insights/what-should-a-ceo-understand-about-digital-operations/
+  - What should a CEO understand about digital operations? | /insights/what-should-a-ceo-understand-about-digital-operations/
   - Before you automate, understand how the work actually moves | /insights/before-you-automate-understand-how-the-work-actually-moves/
-  - What a Digital Systems Audit Should Actually Tell You | /insights/what-a-digital-systems-audit-should-actually-tell-you/
+  - What a digital systems audit should actually tell you | /insights/what-a-digital-systems-audit-should-actually-tell-you/
 summary: Managed digital operations is more than IT support and more than a monthly fee. What it should include, what it should not, and the questions to ask a provider.
 layout: plain
 ---
@@ -45,7 +45,7 @@ Nobody can look after what they cannot list. The starting point is a current reg
 
 ### 2. Monitoring of the things that matter
 
-Management means finding out about a failure before the customer does. That requires checks on the outcomes that matter: did last night's sync complete, did invoices generate, did the backup finish, did the booking form deliver enquiries to the right inbox? Microsoft's operational excellence guidance for the Azure platform treats observability as a core principle for exactly this reason: you cannot operate what you cannot see. For a business, the translation is covered in [what should you monitor in an automated business process](/insights/what-should-you-monitor-in-an-automated-business-process/).
+Management means finding out about a failure before the customer does. That requires checks on the outcomes that matter: did last night's sync complete, did invoices generate, did the backup finish, did the booking form deliver enquiries to the right inbox? Microsoft's [operational excellence](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/) guidance for the Azure platform treats observability as a core principle for exactly this reason: you cannot operate what you cannot see. For a business, the translation is covered in [what should you monitor in an automated business process](/insights/what-should-you-monitor-in-an-automated-business-process/).
 
 ### 3. Routine maintenance on a calendar
 
@@ -53,7 +53,7 @@ Patching, licence reviews, access reviews, certificate and domain renewals, back
 
 ### 4. Controlled change
 
-Systems change all the time: vendors update software, staff request new fields, integrations get new endpoints. Managed operations means changes are requested, assessed, tested and recorded rather than made ad hoc. Microsoft's application lifecycle guidance for its Power Platform describes governance as including change tracking, review, audit, deployment control and rollback. A small business does not need heavy tooling, but it does need the habit.
+Systems change all the time: vendors update software, staff request new fields, integrations get new endpoints. Managed operations means changes are requested, assessed, tested and recorded rather than made ad hoc. Microsoft's application lifecycle guidance for its [Power Platform](https://learn.microsoft.com/en-us/power-platform/alm/overview-alm) describes governance as including change tracking, review, audit, deployment control and rollback. A small business does not need heavy tooling, but it does need the habit.
 
 ### 5. Defined response and recovery
 
@@ -86,7 +86,7 @@ The last two matter more than they seem. The Protection of Personal Information 
 
 ## Governance still sits with leadership
 
-The UK National Cyber Security Centre's toolkit for boards makes the point that resilience and risk management must be embedded across people, systems, processes and technologies, and that senior leaders are responsible for them. NIST's Cybersecurity Framework gives governance its own function, alongside identifying, protecting, detecting, responding and recovering. These are cybersecurity frameworks, but the principle carries over to all digital operations: a provider can run the controls, while the business must decide what level of risk it will accept and check that the controls work.
+The UK National Cyber Security Centre's [toolkit for boards](https://www.ncsc.gov.uk/collection/board-toolkit) makes the point that resilience and risk management must be embedded across people, systems, processes and technologies, and that senior leaders are responsible for them. NIST's Cybersecurity Framework gives governance its own function, alongside identifying, protecting, detecting, responding and recovering. These are cybersecurity frameworks, but the principle carries over to all digital operations: a provider can run the controls, while the business must decide what level of risk it will accept and check that the controls work.
 
 ## An illustrative example
 

@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-176
 slug: pain-poor-office-wi-fi-slowing-employees-down
-title: The Hidden Productivity Cost of Poor Office Wi-Fi
+title: The hidden productivity cost of poor office Wi-Fi
 description: A persistent, seemingly minor IT friction: inconsistent Wi‑Fi performance that quietly erodes daily productivity and project momentum.
 lead: A persistent, seemingly minor IT friction: inconsistent Wi‑Fi performance that quietly erodes daily productivity and project momentum.
 category: mellorca.com
@@ -15,10 +15,11 @@ primary_cost_mechanism: productivity loss, workflow delays
 sources:
   - Prepare your organization's network for Teams - Microsoft Teams | https://learn.microsoft.com/en-us/microsoftteams/prepare-network
   - Wi-Fi CERTIFIED 6™ delivers new Wi-Fi® era - Wi-Fi Alliance | https://www.wi-fi.org/news-events/newsroom/wi-fi-certified-6-delivers-new-wi-fi-era
+  - Understand Site Survey Guidelines for WLAN Deployment - Cisco | https://www.cisco.com/c/en/us/support/docs/wireless/5500-series-wireless-controllers/116057-site-survey-guidelines-wlan-00.html
 related:
-  - The Cost of Retyping Customer Details into Every System | /impact/pain-duplication-of-customer-data-entry/
-  - Backing Up Data but Not the Systems That Use It | /impact/pain-backing-up-data-without-systems/
-  - Projects Run Through Email Threads and Private Spreadsheets | /impact/pain-projects-managed-through-email-spreadsheets/
+  - The cost of retyping customer details into every system | /impact/pain-duplication-of-customer-data-entry/
+  - Backing up data but not the systems that use it | /impact/pain-backing-up-data-without-systems/
+  - Projects run through email threads and private spreadsheets | /impact/pain-projects-managed-through-email-spreadsheets/
 summary: A persistent, seemingly minor IT friction: inconsistent Wi‑Fi performance that quietly erodes daily productivity and project momentum.
 layout: plain
 ---
@@ -78,7 +79,7 @@ Remediation and what better looks like include a deliberate refresh of wireless 
 Practical steps:
 
 1. Log complaints with time, location and application for a few weeks, so the problem has evidence behind it.
-2. Commission a site survey to map coverage, interference and channel overlap.
+2. Commission a [site survey](https://www.cisco.com/c/en/us/support/docs/wireless/5500-series-wireless-controllers/116057-site-survey-guidelines-wlan-00.html) to map coverage, interference and channel overlap.
 3. Follow Microsoft's Wi‑Fi guidance: prioritise media with QoS or Wi‑Fi Multimedia, favour the 5 GHz band with enough access points, consider band steering and keep neighbouring access points on non-overlapping channels.
 4. Size capacity for peak concurrent video use, not average browsing.
 5. Assess whether equipment is due for replacement. The [Wi‑Fi Alliance](https://www.wi-fi.org/news-events/newsroom/wi-fi-certified-6-delivers-new-wi-fi-era) describes Wi‑Fi 6 as delivering nearly four times the capacity of Wi‑Fi 5, with features designed to lower latency in high-demand environments.

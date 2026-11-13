@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-064
 slug: what-it-costs-to-run-a-business-on-last-nights-numbers
-title: The Cost of Managing Yesterday’s Information
-description: When stock, prices, rosters and balances are a day old by the time anyone acts on them, the business pays in small errors every hour. Here is where the lag comes from and how to shorten it.
+title: The cost of managing yesterday’s information
+description: When stock, prices and balances are a day old by the time anyone acts, the business pays in small errors every hour. Find the lag and shorten it.
 lead: When stock, prices, rosters and balances are a day old by the time anyone acts on them, the business pays in small errors every hour. Here is where the lag comes from and how to shorten it.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-10
@@ -18,9 +18,9 @@ sources:
   - What Is Data Quality? - IBM | https://www.ibm.com/think/topics/data-quality
   - Configure scheduled refresh - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-scheduled-refresh
 related:
-  - The Cost of Manual Consolidation Across Workbooks | /patterns/the-hidden-cost-of-combining-figures-from-many-workbooks-by-hand/
-  - Why Your Business Has Data but No Single View of Operations | /patterns/why-a-business-with-plenty-of-data-still-has-no-single-view-of-operations/
-  - When Customers Know Less Than Your Internal Systems Do | /patterns/when-customers-know-less-than-your-internal-systems-do/
+  - The cost of manual consolidation across workbooks | /patterns/the-hidden-cost-of-combining-figures-from-many-workbooks-by-hand/
+  - Why your business has data but no single view of operations | /patterns/why-a-business-with-plenty-of-data-still-has-no-single-view-of-operations/
+  - When customers know less than your internal systems do | /patterns/when-customers-know-less-than-your-internal-systems-do/
 summary: When stock, prices, rosters and balances are a day old by the time anyone acts on them, the business pays in small errors every hour. Here is where the lag comes from and how to shorten it.
 layout: plain
 ---
@@ -87,7 +87,7 @@ This does not demand a large new platform. It begins with deciding which decisio
 2. **Record the age of each figure.** Find out when it was last refreshed and by what mechanism: batch, manual export, live link.
 3. **Rank by cost of being wrong.** A mistaken stock figure at the counter costs more than a mistaken monthly overhead. Spend effort in that order.
 4. **Show the timestamp.** Add a visible "last updated" to the screens and reports that matter. This costs almost nothing and changes how people trust what they see.
-5. **Shorten the path for the top few.** Replace overnight copying with more frequent or event-driven updates for those figures, and leave the rest alone. Microsoft's documentation on scheduled refresh is a reminder that refresh frequency is a setting that someone has to choose and monitor.
+5. **Shorten the path for the top few.** Replace overnight copying with more frequent or event-driven updates for those figures, and leave the rest alone. Microsoft's documentation on [scheduled refresh](https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-scheduled-refresh) is a reminder that refresh frequency is a setting that someone has to choose and monitor.
 6. **Alert on failure.** If a sync does not run, tell a named person that morning.
 
 ## Diagnostic questions

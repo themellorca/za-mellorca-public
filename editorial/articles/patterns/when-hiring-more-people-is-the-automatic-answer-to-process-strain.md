@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-280
 slug: when-hiring-more-people-is-the-automatic-answer-to-process-strain
-title: When Headcount Becomes the Default Fix for Process Problems
-description: Pressure in a team leads to another hire before anyone asks why the work arrives the way it does. Here is how to tell capacity problems from process problems, and what to check before recruiting.
+title: When headcount becomes the default fix for process problems
+description: Pressure in a team often leads to another hire before anyone asks why work arrives as it does. Tell capacity problems from process problems first.
 lead: Pressure in a team leads to another hire before anyone asks why the work arrives the way it does. Here is how to tell capacity problems from process problems, and what to check before recruiting.
 category: Growth, Scaling & Capacity
 published_date: 2026-10-09
@@ -18,9 +18,9 @@ sources:
   - Muda, Mura, Muri - Get a Quick Introduction - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/muda-mura-muri/
   - Parkinson's Law - Wikipedia | https://en.wikipedia.org/wiki/Parkinson%27s_law
 related:
-  - Why a Process That Works for 20 Customers Breaks at 200 | /patterns/why-a-process-that-works-for-20-customers-breaks-at-200/
-  - The Hidden Cost of Automating a Bad Process With AI | /patterns/the-hidden-cost-of-automating-a-bad-process-with-ai/
-  - When Customers Know Their Order Is Late Before Your Team Does | /patterns/when-customers-know-their-order-is-late-before-your-team-does/
+  - Why a process that works for 20 customers breaks at 200 | /patterns/why-a-process-that-works-for-20-customers-breaks-at-200/
+  - The hidden cost of automating a bad process with AI | /patterns/the-hidden-cost-of-automating-a-bad-process-with-ai/
+  - When customers know their order is late before your team does | /patterns/when-customers-know-their-order-is-late-before-your-team-does/
 summary: Pressure in a team leads to another hire before anyone asks why the work arrives the way it does. Here is how to tell capacity problems from process problems, and what to check before recruiting.
 layout: plain
 ---
@@ -36,7 +36,7 @@ An illustrative example: a Sandton professional-services firm adds three adminis
 
 The realisation is that headcount answers a question about capacity, while the problem may be about how work is designed. If a process produces rework, waiting and unnecessary handoffs, more people simply run the same flawed process in parallel. The output rises slightly, the cost rises permanently, and the defects that created the load remain.
 
-Fred Brooks observed a related effect in software projects: adding people to a late project tends to make it later, because communication and training costs grow faster than useful output. The finding, commonly called Brooks's law, was about one setting, but it points to a general truth about coordination overhead that most operations managers will recognise in their own teams.
+Fred Brooks observed a related effect in software projects: [adding people to a late project tends to make it later](https://en.wikipedia.org/wiki/Brooks%27s_law), because communication and training costs grow faster than useful output. The finding, commonly called Brooks's law, was about one setting, but it points to a general truth about coordination overhead that most operations managers will recognise in their own teams.
 
 **Realisation prompt:** for the last role you added to relieve pressure, what share of its time goes on work that would disappear if the process were fixed?
 
@@ -49,8 +49,8 @@ The published Patterns [why more headcount does not always create more capacity]
 ## Diagnosis
 
 - **Hiring is the visible lever.** A manager can approve a role in a meeting. Redesigning a process needs analysis, cooperation from several teams and tolerance for a period of disruption.
-- **Workload is measured as volume, not as value.** Counting tickets, calls or invoices processed says nothing about how many were caused by an earlier error. Lean thinking separates work that adds value from waste, such as waiting, rework and over-processing, and treats the latter as a target for removal rather than as a staffing need.
-- **Effort is read as proof of need.** Busy people look like understaffed people. Parkinson's observation that work expands to fill the time available is a reminder that visible busyness is not the same as necessary work.
+- **Workload is measured as volume, not as value.** Counting tickets, calls or invoices processed says nothing about how many were caused by an earlier error. [Lean thinking](https://www.lean.org/lexicon-terms/muda-mura-muri/) separates work that adds value from waste, such as waiting, rework and over-processing, and treats the latter as a target for removal rather than as a staffing need.
+- **Effort is read as proof of need.** Busy people look like understaffed people. [Parkinson's observation that work expands to fill the time available](https://en.wikipedia.org/wiki/Parkinson%27s_law) is a reminder that visible busyness is not the same as necessary work.
 - **Ownership is fragmented.** Each department sees its own queue. The person who could remove the cause, in another team, does not feel the load, so the team that feels it asks for people.
 - **Budget and process sit in different hands.** Headcount is a line in a departmental budget. The cost of redesign has no natural owner, and the saving shows up somewhere else.
 - **The labour market feels like the solution.** In South Africa, with plentiful applicants for administrative roles, hiring can seem cheap compared with systems work, even though the real cost includes training, supervision, equipment and the compounding salary bill.

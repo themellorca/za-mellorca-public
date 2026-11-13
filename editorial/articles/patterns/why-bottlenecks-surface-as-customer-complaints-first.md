@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-065
 slug: why-bottlenecks-surface-as-customer-complaints-first
-title: When Leadership Cannot See Bottlenecks Until Customers Complain
+title: When leadership cannot see bottlenecks until customers complain
 description: Waiting work makes no noise, so a stuck stage is usually found by the customer long before it appears on a management report.
 lead: Waiting work makes no noise, so a stuck stage is usually found by the customer long before it appears on a management report.
 category: Data & Reporting
@@ -18,9 +18,9 @@ sources:
   - Google SRE monitoring ditributed system - sre golden signals | https://sre.google/sre-book/monitoring-distributed-systems/
   - Set data alerts in the Power BI service - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
 related:
-  - Why Manual Reporting Creates Invisible Risk | /patterns/the-risk-inside-reports-that-are-assembled-by-hand/
-  - The Operational Blind Spots Created by Periodic Reporting | /patterns/what-happens-between-reporting-periods-that-nobody-sees/
-  - When KPI Tracking Becomes a Data Collection Exercise | /patterns/when-measuring-performance-means-collecting-numbers-all-month/
+  - Why manual reporting creates invisible risk | /patterns/the-risk-inside-reports-that-are-assembled-by-hand/
+  - The operational blind spots created by periodic reporting | /patterns/what-happens-between-reporting-periods-that-nobody-sees/
+  - When KPI tracking becomes a data collection exercise | /patterns/when-measuring-performance-means-collecting-numbers-all-month/
 summary: Waiting work makes no noise, so a stuck stage is usually found by the customer long before it appears on a management report.
 layout: plain
 ---
@@ -71,7 +71,7 @@ We make no estimate of what a specific business loses to late discovery; that ne
 
 ## Possibility: let the process raise its own hand
 
-If each stage had an expected time, and the system could compare the age of open items with it, a stuck queue would announce itself. Reporting tools already support this kind of logic. Microsoft's documentation on Power BI data alerts, for instance, explains that alerts can notify you when data on a dashboard tile crosses a threshold you set, and that they work on gauges, KPIs and cards. It also notes that alerts only work on refreshed data and only on numeric values, which is a helpful reminder that a signal is only as current as the data feeding it.
+If each stage had an expected time, and the system could compare the age of open items with it, a stuck queue would announce itself. Reporting tools already support this kind of logic. Microsoft's documentation on [Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts) data alerts, for instance, explains that alerts can notify you when data on a dashboard tile crosses a threshold you set, and that they work on gauges, KPIs and cards. It also notes that alerts only work on refreshed data and only on numeric values, which is a helpful reminder that a signal is only as current as the data feeding it.
 
 Alerts of that kind are not the point on their own. The Google SRE guidance is equally clear that alerts should be urgent, actionable and need a human to think, and that less urgent matters belong on a dashboard. A good early-warning design for a business is therefore small: a handful of age-based measures with sensible thresholds, each owned by a person who knows what to do when it trips.
 

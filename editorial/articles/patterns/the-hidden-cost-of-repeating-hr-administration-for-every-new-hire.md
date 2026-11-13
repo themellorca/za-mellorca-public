@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-178
 slug: the-hidden-cost-of-repeating-hr-administration-for-every-new-hire
-title: The Hidden Cost of Repeating HR Administration for Every New Hire
-description: When every new starter triggers the same forms, emails and re-typed details, HR time disappears into repetition. Here is why it happens and how to build the routine once.
+title: The hidden cost of repeating HR administration for every new hire
+description: When every new starter triggers the same forms, emails and retyped details, HR time disappears into repetition. Why, and how to build the routine once.
 lead: When every new starter triggers the same forms, emails and re-typed details, HR time disappears into repetition. Here is why it happens and how to build the routine once.
 category: Workflow, Process & Handoff Design
 published_date: 2026-10-08
@@ -17,11 +17,12 @@ sources:
   - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
   - Overview of building a model-driven app with Power Apps - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/model-driven-app-overview
   - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
 related:
-  - The Hidden Cost of Asking Customers for the Same Information Twice | /patterns/the-hidden-cost-of-asking-customers-for-the-same-information-twice/
-  - The Operational Tax Hidden Inside Everyday Admin | /patterns/the-operational-tax-hidden-inside-everyday-admin/
-  - The Hidden Cost of Re-Keying Order Information | /patterns/the-hidden-cost-of-re-keying-order-information/
+  - The hidden cost of asking customers for the same information twice | /patterns/the-hidden-cost-of-asking-customers-for-the-same-information-twice/
+  - The operational tax hidden inside everyday admin | /patterns/the-operational-tax-hidden-inside-everyday-admin/
+  - The hidden cost of re-keying order information | /patterns/the-hidden-cost-of-re-keying-order-information/
+  - Typing employee details into four systems: The duplicate admin cost in HR | /impact/hr-entering-same-employee-details-into-multiple-systems-duplicate-admin-error-cost/
 summary: When every new starter triggers the same forms, emails and re-typed details, HR time disappears into repetition. Here is why it happens and how to build the routine once.
 layout: plain
 ---
@@ -73,7 +74,7 @@ Another is to buy a full HR suite and expect it to fix onboarding. If forms stil
 
 In a better state, a new hire's details are captured once, by the employee, through a structured form that checks for missing fields. That single record becomes the source for payroll set-up, leave entitlement, access requests and the manager's welcome notice. A workflow created on confirmation of the offer assigns tasks to HR, IT, finance and the line manager with due dates relative to the start date, and shows at a glance what is still outstanding.
 
-Standard business tools already support this shape. Microsoft's Power Automate documentation describes approvals that send sign-off requests to the right people, notify them, and record the decision, with sign-off of documents and expense reports among its own examples. Its documentation for model-driven apps names the onboarding of new employees as a typical process well suited to that kind of application. The technology is not the hard part. Agreeing what a complete hire record contains, and who owns each step, is.
+Standard business tools already support this shape. Microsoft's [Power Automate](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) documentation describes approvals that send sign-off requests to the right people, notify them, and record the decision, with sign-off of documents and expense reports among its own examples. Its documentation for model-driven apps names the onboarding of new employees as a typical process well suited to that kind of application. The technology is not the hard part. Agreeing what a complete hire record contains, and who owns each step, is.
 
 For the distribution company, that would mean the half-day of re-keying shrinks to a review of an already-complete record, the laptop request goes out automatically when the offer is accepted, and the administrator is no longer the only person who knows the sequence.
 

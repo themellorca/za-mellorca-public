@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-177
 slug: when-a-new-employees-first-months-run-on-emails-and-memory
-title: When a New Employee's First Months Run on Emails and Memory
-description: Onboarding does not end on day one. Training, introductions, policy sign-offs, check-ins and probation reviews often depend on a manager remembering, so they happen late, unevenly or not at all.
+title: When a new employee's first months run on emails and memory
+description: Onboarding does not end on day one. When training, check-ins and sign-offs rely on a manager remembering, they happen late, unevenly or not at all.
 lead: Onboarding does not end on day one. Training, introductions, policy sign-offs, check-ins and probation reviews often depend on a manager remembering, so they happen late, unevenly or not at all.
 category: People Operations & Internal Service
 published_date: 2026-10-07
@@ -18,9 +18,9 @@ sources:
   - What are lifecycle workflows? - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
 related:
-  - When Staff Need to Ask Who Approves What | /patterns/when-staff-need-to-ask-who-approves-what/
-  - When Offboarding Leaves Digital Access Behind | /patterns/when-offboarding-leaves-digital-access-behind/
-  - Why Does Winning a Customer Create an Internal Scramble? | /patterns/why-does-winning-a-customer-create-an-internal-scramble/
+  - When staff need to ask who approves what | /patterns/when-staff-need-to-ask-who-approves-what/
+  - When offboarding leaves digital access behind | /patterns/when-offboarding-leaves-digital-access-behind/
+  - Why does winning a customer create an internal scramble? | /patterns/why-does-winning-a-customer-create-an-internal-scramble/
 summary: Onboarding does not end on day one. Training, introductions, policy sign-offs, check-ins and probation reviews often depend on a manager remembering, so they happen late, unevenly or not at all.
 layout: plain
 ---
@@ -38,7 +38,7 @@ Many businesses have improved what happens before a new person arrives: contract
 
 That is exactly the kind of work memory handles badly. It is easy to remember to do something today. It is hard to remember, among everything else, that a review is due in six weeks for someone who joined in a busy month.
 
-Some of these steps carry obligations, not just good intentions. The Basic Conditions of Employment Act requires an employer to supply written particulars of employment when the employee starts, and to revise them and give the employee a copy when any of those particulars change. If a role, hours or pay is adjusted at the end of probation by an informal conversation, that obligation is easy to miss. And the employee information gathered during onboarding is personal information that POPIA requires to be protected with appropriate, reasonable safeguards, not scattered across emails.
+Some of these steps carry obligations, not just good intentions. The [Basic Conditions of Employment Act](https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf) requires an employer to supply written particulars of employment when the employee starts, and to revise them and give the employee a copy when any of those particulars change. If a role, hours or pay is adjusted at the end of probation by an informal conversation, that obligation is easy to miss. And the employee information gathered during onboarding is [personal information](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/) that POPIA requires to be protected with appropriate, reasonable safeguards, not scattered across emails.
 
 **Realisation prompt:** for the last person you hired, could you show on which date each part of their first three months was completed, and who did it?
 
@@ -61,7 +61,9 @@ It continues where an existing Pattern stops. [Why does hiring someone create so
 
 The commercial value at stake is time to productivity, employee retention, management capacity, compliance and consistency.
 
-Time to productivity lengthens when training and introductions happen late, so the business pays a full salary for partial output for longer than necessary. Retention suffers because the early months shape whether a new person feels supported and competent; a business that loses people early repeats the cost of recruitment and the admin of hiring. Management capacity is spent improvising onboarding each time instead of following a prepared plan. Compliance risk arises when written particulars are not updated, safety rules are not demonstrably communicated or personal information is held in uncontrolled places. Consistency suffers because each new person's experience depends on which manager they report to. The experience of joining without time or structure to learn is captured in [the employee who never has time to learn](/moments/the-employee-who-never-has-time-to-learn/).
+Time to productivity lengthens when training and introductions happen late, so the business pays a full salary for partial output for longer than necessary. Retention suffers because the early months shape whether a new person feels supported and competent; a business that loses people early repeats the cost of recruitment and the admin of hiring. Management capacity is spent improvising onboarding each time instead of following a prepared plan.
+
+Compliance risk arises when written particulars are not updated, safety rules are not demonstrably communicated or personal information is held in uncontrolled places. Consistency suffers because each new person's experience depends on which manager they report to. The experience of joining without time or structure to learn is captured in [the employee who never has time to learn](/moments/the-employee-who-never-has-time-to-learn/).
 
 ## Common misidentification
 
@@ -71,7 +73,9 @@ Another is to buy an HR system and assume onboarding is solved. Many HR and iden
 
 ## Possibility
 
-In a better state, each common role has a written onboarding journey covering the first three months: what training happens when, who the new person should meet, which policies they must acknowledge, and when check-ins and the probation review take place. When an employee's start date is recorded, the tasks are created automatically, each with an owner and a due date, and reminders go to managers before they are due. Identity platforms already work this way for access, with joiner workflows that run tasks a set number of days before or after the hire date and keep a history for audit. Completion is recorded, so HR can see who is on track. When probation ends or terms change, updating the written particulars is a task in the same journey.
+In a better state, each common role has a written onboarding journey covering the first three months: what training happens when, who the new person should meet, which policies they must acknowledge, and when check-ins and the probation review take place. When an employee's start date is recorded, the tasks are created automatically, each with an owner and a due date, and reminders go to managers before they are due.
+
+Identity platforms already work this way for access, with joiner workflows that run tasks a set number of days before or after the hire date and keep a history for audit. Completion is recorded, so HR can see who is on track. When probation ends or terms change, updating the written particulars is a task in the same journey.
 
 For the medical supplies distributor, that might mean separate twelve-week journeys for sales and warehouse roles, product training scheduled in the first fortnight, and probation reviews that appear in managers' task lists two weeks before they are due.
 

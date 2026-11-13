@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-409
 slug: why-returns-become-a-cross-department-investigation
-title: Why Returns Become a Cross-Department Investigation
-description: When every return requires customer service, warehouse, sales and finance to reconstruct what happened, reverse logistics may lack a connected event and information flow.
+title: Why returns become a cross-department investigation
+description: When every return makes service, warehouse, sales and finance reconstruct what happened, returns lack a connected flow of events and information.
 lead: A return should be an identifiable business event. When teams have to reconstruct it manually, the reverse flow may be disconnected from the original order and inventory records.
 category: Orders, Fulfilment & Logistics
 published_date: 2026-09-06
@@ -23,10 +23,11 @@ commercial_value_dimensions: Fulfilment cost, Cash flow, Service quality, Invent
 sources:
   - https://ref.gs1.org/standards/epcis/ | https://ref.gs1.org/standards/epcis/
   - https://ref.gs1.org/sme-guidance/2d-retail-systems-playbook/ | https://ref.gs1.org/sme-guidance/2d-retail-systems-playbook/
+  - Process sales returns or cancellations - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-process-sales-returns-cancellations
 related:
-  - When Finance Teams Become Data Clean-Up Teams | /patterns/when-finance-teams-become-data-clean-up-teams/
-  - Why Does Sending an Invoice Require So Much Work? | /patterns/why-sending-an-invoice-requires-so-much-work/
-  - When Service Quality Depends on Who Picks Up the Ticket | /patterns/when-service-quality-depends-on-who-picks-up-the-ticket/
+  - When finance teams become data clean-up teams | /patterns/when-finance-teams-become-data-clean-up-teams/
+  - Why does sending an invoice require so much work? | /patterns/why-sending-an-invoice-requires-so-much-work/
+  - When service quality depends on who picks up the ticket | /patterns/when-service-quality-depends-on-who-picks-up-the-ticket/
 summary: Returns become expensive to coordinate when the reverse journey is disconnected from the order, item, inventory and financial event history. A shared return lifecycle can reduce investigation and make the next action visible across departments.
 ---
 ## Observable condition
@@ -62,7 +63,7 @@ This is a **reverse-logistics event and information-flow problem**.
 
 The underlying mechanism is often fragmented records and unclear state transitions. The order may exist in one system, delivery proof in another, customer communication in email, inventory status in a warehouse platform and financial adjustment in the accounting system. Returns become difficult when the reverse journey cannot inherit that context.
 
-Supply-chain standards treat visibility as a sequence of recorded events. GS1's [EPCIS standard](https://ref.gs1.org/standards/epcis/) describes each visibility event in terms of what object it concerns, when and where it happened, the business context (why) and the condition of the object (how). A return that arrives at the warehouse with only "what" and "where" known, and no "why", leaves every other team to rediscover the missing dimensions.
+Supply-chain standards treat visibility as a sequence of recorded events. GS1's [EPCIS standard](https://ref.gs1.org/standards/epcis/) describes each visibility event in terms of what object it concerns, when and where it happened, the business context (why) and the condition of the object (how). A return that arrives at the warehouse with only "what" and "where" known, and no "why", leaves every other team to rediscover the missing dimensions. Microsoft's Business Central documentation on [processing sales returns](https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-process-sales-returns-cancellations) shows the finance side of the same link: a credit memo applies to the posted sales documents, and exact cost reversing points back to the original sales entry.
 
 GS1's [playbook for retail POS host and backend systems](https://ref.gs1.org/sme-guidance/2d-retail-systems-playbook/) makes the same point from the systems side. Its returns and reverse-logistics checklist expects returned items to be validated against original transactions, disposition decisions to apply the relevant rules, and inventory updates to reflect the correct post-return status. Each of those is an information requirement, not a warehouse task.
 

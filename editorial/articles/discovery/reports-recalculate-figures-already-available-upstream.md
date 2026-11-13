@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-268
 slug: reports-recalculate-figures-already-available-upstream
 title: Why reports keep recalculating figures your systems already produce
-description: When reports rebuild margin, ageing or stock value that the ERP or warehouse already calculates, numbers drift and effort doubles. How to spot duplicated logic and move reports onto shared calculations.
+description: When reports rebuild margin, ageing or stock value that the ERP already calculates, numbers drift and effort doubles. How to move to shared calculations.
 lead: When reports rebuild margin, ageing or stock value that the ERP or warehouse already calculates, numbers drift and effort doubles. How to spot duplicated logic and move reports onto shared calculations.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-05
@@ -33,9 +33,9 @@ Business systems calculate a great deal: gross margin per invoice line, stock va
 
 The result is two or more implementations of one calculation. They start out close and drift apart as each is changed independently.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Finance and reporting leads search for why reports do not match the system, how to reuse calculations across reports, or how to stop rebuilding the same measures. Operations managers want the margin on the dashboard to equal the margin on the invoice. The underlying need is that each business calculation is performed once, in the most appropriate place, and that every report reuses that result rather than reproducing it.
+Finance and reporting leads ask why reports do not match the system, how to reuse calculations across reports, or how to stop rebuilding the same measures. Operations managers want the margin on the dashboard to equal the margin on the invoice. The underlying need is that each business calculation is performed once, in the most appropriate place, and that every report reuses that result rather than reproducing it.
 
 ## Evidence and system mechanism
 

@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-302
 slug: development-environments-keep-running-after-projects-stop
 title: Why development environments keep running after projects stop
-description: Test and development servers are created quickly for a project, then left running at nights, weekends and long after go-live. Schedules and expiry dates stop paying for idle environments.
+description: Test and development servers run through nights, weekends and long after go-live. Schedules and expiry dates stop you paying for idle environments.
 lead: Test and development servers are created quickly for a project, then left running at nights, weekends and long after go-live. Schedules and expiry dates stop paying for idle environments.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-06
@@ -33,9 +33,9 @@ Development, test, training and demonstration environments are usually needed du
 
 This differs from the wider problem of [unused cloud resources](/impact/unused-cloud-resources-financial-waste/) and from [infrastructure with no clear business owner](/discovery/infrastructure-resources-without-a-clear-business-owner/), though it overlaps with both. Here the resources often do have an owner and a purpose. The problem is that nothing about how they were created tells them when to stop.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches such as "development environments running continuously", "shut down dev servers at night" or "cloud test environment costs after project" usually follow a cost spike. The buyer, often an IT manager or financial director, wants to cut spend quickly without slowing developers down, and wants a rule that stops the waste coming back.
+The concern usually follows a cost spike and sounds like "our development environments run continuously", "should we shut down dev servers at night?" or "why do test environments still cost money after the project?" The person asking, often an IT manager or financial director, wants to cut spend quickly without slowing developers down, and wants a rule that stops the waste coming back.
 
 ## Evidence and system mechanism
 

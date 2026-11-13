@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-456
 slug: why-automations-should-not-run-on-personal-credentials
-title: Why Automations Should Not Run on Personal Credentials
+title: Why automations should not run on personal credentials
 description: Automations tied to personal accounts create avoidable access, continuity and ownership risk.
 lead: A workflow that depends on one employee’s account may be automated technically while remaining fragile operationally.
 category: AI, Automation & Agent Operations
@@ -19,7 +19,7 @@ sources:
   - Managed identities for Azure resources - Managed identities for Azure resources | https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview
   - Managed identities for Azure resources - Managed identities for Azure resources | https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview
 related:
-  - Why AI Tools Fail Without Authoritative Data | /discovery/why-ai-tools-fail-without-authoritative-data/
+  - Why AI tools fail without authoritative data | /discovery/why-ai-tools-fail-without-authoritative-data/
   - Automations break when application interfaces change | /discovery/automations-break-when-application-interfaces-change/
   - Agent permissions are broader than the task requires | /discovery/agent-permissions-broader-than-task-requires/
 ---
@@ -29,15 +29,15 @@ Automations are often built by the person closest to the problem, using the acce
 
 A bot, integration or scheduled workflow authenticates using an employee's username, password, token or mailbox. When that person changes role, resets their credentials or leaves, the automation can fail, or it can keep access it no longer needs. Either outcome is usually discovered by accident: an invoice run that did not happen, a report that stopped arriving, or an access review that finds a departed employee's account still active because “something depends on it”.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer needs non-human workloads to have durable identities, least-privilege permissions, accountable ownership and lifecycle controls that do not depend on individual employees. Search phrases include “service account best practice”, “automation broke when employee left”, “Power Automate running under user account”, “non-human identity management” or “replace personal credentials in integrations”.
+Non-human workloads need to have durable identities, least-privilege permissions, accountable ownership and lifecycle controls that do not depend on individual employees. Typical phrasing includes “service account best practice”, “automation broke when employee left”, “Power Automate running under user account”, “non-human identity management” or “replace personal credentials in integrations”.
 
 The goal is continuity and control: the process should outlive any one person's employment, and its access should be visible and justifiable.
 
 ## Evidence and system mechanism
 
-Microsoft and the major cloud platforms distinguish workload identities, service principals and managed identities from human accounts. Microsoft's overview of [workload identities](https://learn.microsoft.com/en-us/entra/workload-id/workload-identities-overview) defines a workload identity as one assigned to software, such as an application, service, script or container, so it can authenticate to other services. It separates these machine identities from human identities and explains why they are harder to secure: a workload may need several credentials that must be stored securely, and it is hard to track when a workload identity was created or when it should be revoked. The same page notes that attackers increasingly target non-human identities, and describes access reviews for service principals and, for AI agents, identities with enforced human sponsorship.
+Microsoft and the major cloud platforms distinguish workload identities, service principals and [managed identities](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview) from human accounts. Microsoft's overview of [workload identities](https://learn.microsoft.com/en-us/entra/workload-id/workload-identities-overview) defines a workload identity as one assigned to software, such as an application, service, script or container, so it can authenticate to other services. It separates these machine identities from human identities and explains why they are harder to secure: a workload may need several credentials that must be stored securely, and it is hard to track when a workload identity was created or when it should be revoked. The same page notes that attackers increasingly target non-human identities, and describes access reviews for service principals and, for AI agents, identities with enforced human sponsorship.
 
 Microsoft's documentation on [managed identities for Azure resources](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview) states plainly that manual handling of secrets and certificates is a known source of security issues and outages. Managed identities let workloads obtain tokens without anyone managing a credential, and a system-assigned identity shares the lifecycle of the resource it belongs to.
 

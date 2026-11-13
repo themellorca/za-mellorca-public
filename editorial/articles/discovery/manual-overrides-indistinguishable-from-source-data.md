@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-264
 slug: manual-overrides-indistinguishable-from-source-data
 title: When manual overrides in reports look exactly like source data
-description: Adjustments typed into a reporting spreadsheet carry no author, reason or expiry, and soon nobody can tell measured figures from judgements. How to keep overrides possible but visible and traceable.
+description: Adjustments typed into a reporting spreadsheet carry no author, reason or expiry. How to keep overrides possible but visible and traceable.
 lead: Adjustments typed into a reporting spreadsheet carry no author, reason or expiry, and soon nobody can tell measured figures from judgements. How to keep overrides possible but visible and traceable.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-05
@@ -39,9 +39,9 @@ Once made, these overrides look exactly like everything else. They carry no labe
 - month-end packs that only one person can rebuild;
 - auditors or lenders asking for support behind management figures that has to be reconstructed from email.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The people searching for this, typically financial directors, financial controllers and heads of reporting, use phrases like "track manual adjustments in reports", "audit trail for spreadsheet overrides" or "separate adjustments from source data in Power BI". They want overrides to remain possible, because the business needs them, but to be visible, explained, approved where material, and removed when no longer needed.
+The people facing this, typically financial directors, financial controllers and heads of reporting, ask questions like "how do we track manual adjustments in reports?", "where is the audit trail for spreadsheet overrides?" or "how do we separate adjustments from source data in Power BI?" They want overrides to remain possible, because the business needs them, but to be visible, explained, approved where material, and removed when no longer needed.
 
 ## Evidence and system mechanism
 

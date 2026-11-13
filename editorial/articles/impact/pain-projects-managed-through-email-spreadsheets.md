@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-401
 slug: pain-projects-managed-through-email-spreadsheets
-title: Projects Run Through Email Threads and Private Spreadsheets
+title: Projects run through email threads and private spreadsheets
 description: Email-centric project management hinders visibility, coordination, and timely delivery across teams and initiatives.
 lead: Email-centric project management hinders visibility, coordination, and timely delivery across teams and initiatives.
 category: mellorca.com
@@ -11,15 +11,15 @@ updated_date: 2026-10-01
 eyebrow: Digital Operations
 commercial_domain: mellorca.com
 primary_pain: Projects managed in silos via email/spreadsheets, reducing visibility
-primary_cost_mechanism: labor inefficiency, missed milestones, revenue impact
+primary_cost_mechanism: labour inefficiency, missed milestones, revenue impact
 sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
   - How Work About Work Gets in the Way of Real Work [2026] • Asana | https://asana.com/resources/why-work-about-work-is-bad
   - Spreadsheet Errors: What We Know. What We Think We Can Do | https://arxiv.org/abs/0802.3457
 related:
-  - Invoice Approvals Stuck in Inboxes | /impact/pain-invoice-approvals-in-inboxes/
-  - The Hidden Productivity Cost of Poor Office Wi-Fi | /impact/pain-poor-office-wi-fi-slowing-employees-down/
-  - The Cost of Retyping Customer Details into Every System | /impact/pain-duplication-of-customer-data-entry/
+  - Invoice approvals stuck in inboxes | /impact/pain-invoice-approvals-in-inboxes/
+  - The hidden productivity cost of poor office Wi-Fi | /impact/pain-poor-office-wi-fi-slowing-employees-down/
+  - The cost of retyping customer details into every system | /impact/pain-duplication-of-customer-data-entry/
 summary: Email-centric project management hinders visibility, coordination, and timely delivery across teams and initiatives.
 layout: plain
 ---
@@ -42,7 +42,7 @@ The visible symptoms include duplicated effort, misaligned timelines and frequen
 
 Status meetings become the only place where the true picture is assembled, so more meetings are added. Project managers spend their time collecting and reconciling updates rather than managing risk. When a key person is away, their spreadsheet and inbox go with them. Leaders receive a status report that was accurate when it was compiled and has been drifting since.
 
-Survey evidence points in the same direction. Microsoft's 2023 Work Trend Index found that the average employee spends 57% of their time in Microsoft 365 apps communicating through meetings, email and chat, and that 62% of respondents say they struggle with too much time spent searching for information. Asana, a work-management vendor whose findings should be read with that interest in mind, reports in its Anatomy of Work Index that 88% of knowledge workers agree time-sensitive projects and large initiatives have fallen behind or through the cracks because of the volume of tasks on their plate.
+Survey evidence points in the same direction. Microsoft's 2023 [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) found that the average employee spends 57% of their time in Microsoft 365 apps communicating through meetings, email and chat, and that 62% of respondents say they struggle with too much time spent searching for information. Asana, a work-management vendor whose findings should be read with that interest in mind, reports in its Anatomy of Work Index that 88% of knowledge workers agree time-sensitive projects and large initiatives have fallen behind or through the cracks because of the volume of tasks on their plate.
 
 Private spreadsheets add a separate risk. Raymond Panko's long-running research on spreadsheet errors concluded that such errors are both common and non-trivial. A project tracker that only one person maintains, with no review, is exactly the kind of spreadsheet in which an error can sit unnoticed until a deadline is missed.
 

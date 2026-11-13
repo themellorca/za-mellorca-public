@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000382
 slug: why-fair-rosters-need-transparent-systems
-title: Why Fair Rosters Need Transparent Systems
+title: Why fair rosters need transparent systems
 description: When someone is absent, a roster becomes a fairness test. Why the openness of the system behind it matters as much as the intentions of whoever builds it.
 lead: When someone is absent, a roster becomes a fairness test. Why the openness of the system behind it matters as much as the intentions of whoever builds it.
 category: Trust, Fairness & Clarity
@@ -20,9 +20,10 @@ sources:
   - Employee scheduling software - Wikipedia | https://en.wikipedia.org/wiki/Employee_scheduling_software
   - Working time and rest - Acas | https://www.acas.org.uk/working-hours
 related:
-  - When Nobody Can Say Which Number Is True | /moments/when-nobody-can-say-which-number-is-true/
-  - The Customer Who Gets a Different Answer From Every Person | /moments/the-customer-who-gets-a-different-answer-from-every-person/
-  - When Sunday Evening Becomes Monday Morning | /moments/when-sunday-evening-becomes-monday-morning/
+  - When nobody can say which number is true | /moments/when-nobody-can-say-which-number-is-true/
+  - The customer who gets a different answer from every person | /moments/the-customer-who-gets-a-different-answer-from-every-person/
+  - When Sunday evening becomes Monday morning | /moments/when-sunday-evening-becomes-monday-morning/
+  - The employee who can't see their own leave balance | /moments/the-employee-who-cant-see-their-own-leave-balance/
 summary: When someone is absent, a roster becomes a fairness test. Why the openness of the system behind it matters as much as the intentions of whoever builds it.
 layout: plain
 ---

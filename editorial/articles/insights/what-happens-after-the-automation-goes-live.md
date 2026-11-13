@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-376
 slug: what-happens-after-the-automation-goes-live
-title: What Happens After the Automation Goes Live?
-description: Go-live is the start of an automation's working life, not the end of the project. A practical guide to the first weeks, the first quarter and the first year of running a business automation.
+title: What happens after the automation goes live?
+description: Go-live is the start of an automation's working life, not the end of the project. A practical guide to its first weeks, first quarter and first year.
 lead: Go-live is the start of an automation's working life, not the end of the project. A practical guide to the first weeks, the first quarter and the first year of running a business automation.
 category: Business Automation
 published_date: 2026-10-07
@@ -65,11 +65,13 @@ The automation now depends on things it does not control: the fields in the CRM,
 
 ### A first benefits check
 
-At around the ninety-day mark, compare the process before and after. Power Platform's business-value guidance suggests straightforward before-and-after measures: time taken per task, error rates, and output in a given period. If nobody recorded a baseline before launch, reconstruct a rough one from staff estimates and historical volumes, and label it as an estimate.
+At around the ninety-day mark, compare the process before and after. [Power Platform](https://learn.microsoft.com/en-us/power-platform/guidance/adoption/business-value)'s business-value guidance suggests straightforward before-and-after measures: time taken per task, error rates, and output in a given period. If nobody recorded a baseline before launch, reconstruct a rough one from staff estimates and historical volumes, and label it as an estimate.
 
 ## An illustrative example
 
-The following is a hypothetical case. A Durban logistics business with about 60 staff automates the creation of delivery notes from confirmed orders. The first week goes well. In week two, a large customer starts sending orders with two delivery addresses, and the automation picks the first one every time. Because the dispatch team checks every run during hypercare, they catch it on the second day, and the developer adds a rule that sends split-address orders to a person instead. Three months later, the owner notices exceptions creeping up again. The cause is a new product category with no weight recorded in the system, so the automation cannot assign a vehicle. The fix is a data rule rather than an automation change. Neither problem was a failure of the build. Both were the normal life of an automation in production.
+The following is a hypothetical case. A Durban logistics business with about 60 staff automates the creation of delivery notes from confirmed orders. The first week goes well. In week two, a large customer starts sending orders with two delivery addresses, and the automation picks the first one every time. Because the dispatch team checks every run during hypercare, they catch it on the second day, and the developer adds a rule that sends split-address orders to a person instead.
+
+Three months later, the owner notices exceptions creeping up again. The cause is a new product category with no weight recorded in the system, so the automation cannot assign a vehicle. The fix is a data rule rather than an automation change. Neither problem was a failure of the build. Both were the normal life of an automation in production.
 
 ## The first year: keep it fit for purpose
 
@@ -84,7 +86,7 @@ A quarterly review of fifteen minutes per important automation is usually enough
 
 ## Measuring whether it was worth it
 
-The Automation Kit that Microsoft built for its automation platform was designed explicitly to monitor automations and estimate money saved and return on investment. The tooling is specific to that platform, but the idea is general: an automation should be able to show what it delivers. That means counting the work it completes, the time it saves, the errors it removes and the cost of running and supporting it, including the hours staff spend on its exceptions.
+The [Automation Kit](https://learn.microsoft.com/en-us/power-automate/guidance/automation-kit/overview/introduction) that Microsoft built for its automation platform was designed explicitly to monitor automations and estimate money saved and return on investment. The tooling is specific to that platform, but the idea is general: an automation should be able to show what it delivers. That means counting the work it completes, the time it saves, the errors it removes and the cost of running and supporting it, including the hours staff spend on its exceptions.
 
 If the numbers are disappointing, the answer is not always to abandon the automation. Often the exception rate points to a data or process problem upstream, and fixing that unlocks the expected value.
 

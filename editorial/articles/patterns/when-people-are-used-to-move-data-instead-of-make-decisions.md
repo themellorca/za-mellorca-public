@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-019
 slug: when-people-are-used-to-move-data-instead-of-make-decisions
-title: When People Are Used to Move Data Instead of Make Decisions
+title: When people are used to move data instead of make decisions
 description: Repeated manual transfer of information between systems can turn skilled employees into human data pipelines.
 lead: If skilled employees repeatedly move information between systems, the business may be using people as an integration layer rather than as decision-makers.
 category: Manual Work & Administrative Load
@@ -25,9 +25,9 @@ sources:
   - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
   - Explore the Power Automate home page - Power Automate | https://learn.microsoft.com/en-us/power-automate/getting-started
 related:
-  - When Manual Exceptions Become the Normal Process | /patterns/when-manual-exceptions-become-the-normal-process/
-  - Why Teams Keep Building Manual Workarounds | /patterns/why-teams-keep-building-manual-workarounds/
-  - Why Staff Keep Checking the Same Things Over and Over | /patterns/why-staff-keep-checking-the-same-things-over-and-over/
+  - When manual exceptions become the normal process | /patterns/when-manual-exceptions-become-the-normal-process/
+  - Why teams keep building manual workarounds | /patterns/why-teams-keep-building-manual-workarounds/
+  - Why staff keep checking the same things over and over | /patterns/why-staff-keep-checking-the-same-things-over-and-over/
 summary: Repeated manual transfer is often a systems-and-workflow design issue rather than a people-capacity issue. Reducing unnecessary data movement can release capacity, improve consistency and make growth less dependent on administrative headcount.
 ---
 ## Observable condition

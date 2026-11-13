@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-003
 slug: the-hidden-cost-of-reentering-the-same-information
-title: The Hidden Cost of Re-entering the Same Information
+title: The hidden cost of re-entering the same information
 description: A Pattern on how repetitive data entry drains productivity, hides errors, and erodes customer experience, with practical steps to reduce friction.
 lead: A Pattern on how repetitive data entry drains productivity, hides errors, and erodes customer experience, with practical steps to reduce friction.
 category: Operational friction
@@ -18,9 +18,9 @@ sources:
   - Principle (d): Accuracy | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/accuracy/
   - What to do after someone dies | https://www.gov.uk/after-a-death/organisations-you-need-to-contact-and-tell-us-once
 related:
-  - Why Does an Order Need So Many Manual Touches? | /patterns/why-does-an-order-need-so-many-manual-touches/
-  - Why Does the Same Customer Have Three Different Names in Your Systems? | /patterns/why-does-the-same-customer-have-three-different-names-in-your-systems/
-  - The Hidden Cost of Repetitive Customer Questions | /patterns/the-hidden-cost-of-repetitive-customer-questions/
+  - Why does an order need so many manual touches? | /patterns/why-does-an-order-need-so-many-manual-touches/
+  - Why does the same customer have three different names in your systems? | /patterns/why-does-the-same-customer-have-three-different-names-in-your-systems/
+  - The hidden cost of repetitive customer questions | /patterns/the-hidden-cost-of-repetitive-customer-questions/
 summary: A Pattern on how repetitive data entry drains productivity, hides errors, and erodes customer experience, with practical steps to reduce friction.
 layout: plain
 ---

@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-352
 slug: control-owners-cannot-produce-evidence-without-manual-searching
 title: Control owners cannot produce evidence without manual searching
-description: When proof that a control operated lives in inboxes and personal folders, every audit becomes a search exercise. How to capture evidence as the work happens and retrieve it on demand.
+description: When proof a control operated sits in inboxes and personal folders, every audit becomes a search. How to capture evidence as the work happens.
 lead: When proof that a control operated lives in inboxes and personal folders, every audit becomes a search exercise. How to capture evidence as the work happens and retrieve it on demand.
 category: Security & Compliance Operations
 published_date: 2026-10-08
@@ -18,7 +18,7 @@ sources:
   - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
 related:
   - Why third-party security reviews keep starting from scratch | /discovery/third-party-security-reviews-keep-starting-from-scratch/
-  - Why Policy Acknowledgements Need a Reliable System Record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
+  - Why policy acknowledgements need a reliable system record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
   - Risk acceptances expire without reassessment | /discovery/why-accepted-risks-need-expiry-dates-and-reassessment/
 summary: When proof that a control operated lives in inboxes and personal folders, every audit becomes a search exercise. How to capture evidence as the work happens and retrieve it on demand.
 layout: plain
@@ -31,9 +31,9 @@ This article looks at that operating condition: control owners who cannot produc
 
 A control is only as useful as the proof that it operated. Proof usually has to show what was done, by whom, on what date and against which system or population. When evidence is scattered across inboxes and personal folders, the control owner becomes the search engine. The business depends on that person's memory and goodwill, and every audit request, customer questionnaire or regulator query starts a fresh hunt.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Compliance officers, information officers and finance directors search for ways to prepare for audits faster, reduce findings and stop treating evidence as a once-a-year scramble. The underlying need is simple to state: for every control that matters, the proof should be created as a by-product of doing the work, stored in one findable place, and retrievable by someone other than the person who performed it.
+Compliance officers, information officers and finance directors want ways to prepare for audits faster, reduce findings and stop treating evidence as a once-a-year scramble. The underlying need is simple to state: for every control that matters, the proof should be created as a by-product of doing the work, stored in one findable place, and retrievable by someone other than the person who performed it.
 
 ## Evidence and system mechanism
 

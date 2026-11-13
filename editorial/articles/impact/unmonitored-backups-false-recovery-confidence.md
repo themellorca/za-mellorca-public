@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-165
 slug: unmonitored-backups-false-recovery-confidence
-title: Unmonitored Backups Create False Recovery Confidence
+title: Unmonitored backups create false recovery confidence
 description: A scheduled backup is not evidence of a usable recovery copy if failures are not monitored, investigated and tested.
 lead: A backup job can be scheduled every night and still fail quietly. The operational risk begins when the business treats the schedule itself as evidence that recovery data exists.
 category: Digital Infrastructure
@@ -25,9 +25,9 @@ sources:
   - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
   - Monitoring and reporting solutions for Azure Backup - Azure Backup | https://learn.microsoft.com/en-us/azure/backup/monitoring-and-alerts-overview
 related:
-  - New Employees Without Equipment Create Paid Onboarding Delay | /impact/new-employees-without-equipment-onboarding-cost/
-  - Manual Device Setup Adds Labour and Repeat Work to Every Rollout | /impact/manual-device-setup-labour-rework-cost/
-  - Old Computers Kept Too Long: The False Saving on Hardware | /impact/ageing-computers-false-hardware-savings-cost/
+  - New employees without equipment create paid onboarding delay | /impact/new-employees-without-equipment-onboarding-cost/
+  - Manual device setup adds labour and repeat work to every rollout | /impact/manual-device-setup-labour-rework-cost/
+  - Old computers kept too long: The false saving on hardware | /impact/ageing-computers-false-hardware-savings-cost/
 ---
 ## The tolerated pain
 
@@ -43,7 +43,7 @@ Common failure paths are mundane rather than dramatic:
 - **Credentials:** a service account password is changed or expires, and the job can no longer read the source.
 - **Unreachable targets:** a network change, moved server or cloud configuration update breaks the path to the backup destination.
 - **Configuration drift:** a new system, database or file share is added but never included in the backup selection.
-- **Alerting changes:** the notification mechanism itself changes or stops. Microsoft's Azure Backup documentation, for example, notes that classic alerts were deprecated on 31 March 2026 and recommends moving to Azure Monitor alerts, a reminder that alert paths need maintenance too.
+- **Alerting changes:** the notification mechanism itself changes or stops. Microsoft's [Azure Backup](https://learn.microsoft.com/en-us/azure/backup/monitoring-and-alerts-overview) documentation, for example, notes that classic alerts were deprecated on 31 March 2026 and recommends moving to Azure Monitor alerts, a reminder that alert paths need maintenance too.
 
 The same pattern appears in other automated processes, as our analysis of [silent automation failures](/impact/silent-automation-failures-financial-impact/) describes.
 

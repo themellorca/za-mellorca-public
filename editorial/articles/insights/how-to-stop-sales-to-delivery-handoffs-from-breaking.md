@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-279
 slug: how-to-stop-sales-to-delivery-handoffs-from-breaking
-title: How to Stop Sales-to-Delivery Handoffs From Breaking
-description: The moment a deal closes is where promises, assumptions and context are most often lost. Six things that go missing, and five design choices that keep the knowledge moving to delivery.
+title: How to stop sales-to-delivery handoffs from breaking
+description: The moment a deal closes is where promises, assumptions and context are most often lost. Six things that go missing and five design choices that stop it.
 lead: The moment a deal closes is where promises, assumptions and context are most often lost. Six things that go missing, and five design choices that keep the knowledge moving to delivery.
 category: Operations Design
 published_date: 2026-10-08
@@ -15,8 +15,8 @@ sources:
   - RACI Chart: What is it & How to Use - The Workstream | https://www.atlassian.com/work-management/project-management/raci-chart
 related:
   - Why CRM adoption problems are often workflow problems | /insights/why-crm-adoption-problems-are-often-workflow-problems/
-  - Where Customer Information Gets Lost During Onboarding | /insights/where-customer-information-gets-lost-during-onboarding/
-  - Why Work Gets Lost Between Teams | /insights/why-work-gets-lost-between-teams/
+  - Where customer information gets lost during onboarding | /insights/where-customer-information-gets-lost-during-onboarding/
+  - Why work gets lost between teams | /insights/why-work-gets-lost-between-teams/
 summary: The moment a deal closes is where promises, assumptions and context are most often lost. Six things that go missing, and five design choices that keep the knowledge moving to delivery.
 layout: plain
 ---
@@ -62,7 +62,7 @@ A form is not a conversation. Schedule 30 minutes between the salesperson, the d
 
 ### 4. Make roles explicit
 
-Decide who is responsible for what at each step, and who must be consulted or kept informed. A simple RACI chart, described in Atlassian's guidance on RACI charts, sets out who is Responsible, Accountable, Consulted and Informed for each task. For this handoff, it should answer: who writes the record, who accepts it as complete, who contacts the client first and who owns the relationship in the first 60 days. A named person at each point stops responsibility from falling between the teams.
+Decide who is responsible for what at each step, and who must be consulted or kept informed. A simple [RACI chart](https://www.atlassian.com/work-management/project-management/raci-chart), described in Atlassian's guidance on RACI charts, sets out who is Responsible, Accountable, Consulted and Informed for each task. For this handoff, it should answer: who writes the record, who accepts it as complete, who contacts the client first and who owns the relationship in the first 60 days. A named person at each point stops responsibility from falling between the teams.
 
 ### 5. Close the loop back to sales
 

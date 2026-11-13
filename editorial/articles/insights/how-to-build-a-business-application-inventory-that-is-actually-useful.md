@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-044
 slug: how-to-build-a-business-application-inventory-that-is-actually-useful
-title: How to Build a Business Application Inventory That Is Actually Useful
-description: Most application lists are built once, go stale within months and never inform a decision. How to design an inventory around the questions it must answer, which fields matter, how to gather the information and how to keep it current without a dedicated tool.
+title: How to build a business application inventory that is actually useful
+description: Most application lists go stale within months and never inform a decision. How to build an inventory around the questions it must answer and keep it fresh.
 lead: Most application lists are built once, go stale within months and never inform a decision. How to design an inventory around the questions it must answer, which fields matter, how to gather the information and how to keep it current without a dedicated tool.
 category: Digital Infrastructure
 published_date: 2026-10-05

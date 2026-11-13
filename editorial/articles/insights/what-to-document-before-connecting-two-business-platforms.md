@@ -3,7 +3,7 @@ hub: insights
 record_id: INS-064
 slug: what-to-document-before-connecting-two-business-platforms
 title: What to document before connecting two business platforms
-description: What to document before integrating two business platforms: ownership, data models, identifiers, events, failure paths, security, reconciliation and change dependencies.
+description: What to document before joining two business platforms: ownership, data models, identifiers, events, failure paths, security and reconciliation.
 lead: An integration is easier to maintain when the business can explain what moves, why it moves, which system owns it, how records are matched and what should happen when the connection fails.
 category: Digital Infrastructure
 published_date: 2026-09-05
@@ -20,6 +20,7 @@ side_title: Topics
 sources:
   - Retry pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
   - Idempotent requests - Stripe API Reference | https://docs.stripe.com/api/idempotent_requests
+  - Service Bus Dead-Letter Queues - Azure Service Bus | Microsoft Learn | https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dead-letter-queues
 closing_title: Related Mellorca services
 closing_text: [Systems Implementation & Integration](/services/systems-implementation-integration/) can design and implement controlled system connections, while [Managed Digital Operations](/services/managed-digital-operations/) can maintain monitoring, ownership and recovery procedures after launch.
 related:
@@ -59,7 +60,11 @@ This reduces accidental side effects. A record being edited is not always equiva
 
 Every important integration should document retry behaviour, error ownership, duplicate prevention, reconciliation and safe recovery. The destination may be temporarily unavailable, credentials can expire, validation rules can change and network calls can return uncertain outcomes.
 
-Retries and duplicates are linked. Microsoft's [Retry pattern guidance](https://learn.microsoft.com/en-us/azure/architecture/patterns/retry) warns that a service might receive a request and process it successfully but fail to send a response, so a retry can cause the operation to run twice unless the operation is idempotent. It also advises cancelling rather than retrying when a fault is not transient, and logging early failed attempts as informational while treating only the final failure as an error. Stripe's documentation on [idempotent requests](https://docs.stripe.com/api/idempotent_requests) shows one concrete mechanism: the client sends a unique key with each create or update, the server saves the result of the first request for that key, and later requests with the same key return the same result instead of performing the operation again. Stripe also notes that keys can be removed once they are at least 24 hours old, which is itself a detail worth documenting, because a retry after that window is treated as a new request.
+Retries and duplicates are linked. Microsoft's [Retry pattern guidance](https://learn.microsoft.com/en-us/azure/architecture/patterns/retry) warns that a service might receive a request and process it successfully but fail to send a response, so a retry can cause the operation to run twice unless the operation is idempotent. It also advises cancelling rather than retrying when a fault is not transient, and logging early failed attempts as informational while treating only the final failure as an error.
+
+Stripe's documentation on [idempotent requests](https://docs.stripe.com/api/idempotent_requests) shows one concrete mechanism: the client sends a unique key with each create or update, the server saves the result of the first request for that key, and later requests with the same key return the same result instead of performing the operation again. Stripe also notes that keys can be removed once they are at least 24 hours old, which is itself a detail worth documenting, because a retry after that window is treated as a new request.
+
+Recovery needs a place for failed items to wait. Microsoft's documentation on [dead-letter queues](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dead-letter-queues) describes holding messages that could not be processed so that they can be inspected, corrected and resubmitted once the cause is fixed.
 
 Connect this design to [explicit failure paths](/insights/why-every-automation-needs-a-failure-path/). A technically successful API call is not enough if the resulting business state cannot be confirmed.
 

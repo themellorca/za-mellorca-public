@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-329
 slug: how-to-move-operational-knowledge-out-of-peoples-heads
-title: How to Move Operational Knowledge Out of People's Heads
-description: Every business has knowledge that exists only in one person's head. How to find the knowledge that would hurt most to lose, capture it in a usable form, and keep it current.
+title: How to move operational knowledge out of people's heads
+description: Every business has knowledge that lives in one person's head. How to find what would hurt most to lose, capture it in a usable form and keep it current.
 lead: Every business has knowledge that exists only in one person's head. How to find the knowledge that would hurt most to lose, capture it in a usable form, and keep it current.
 category: Operating Model
 published_date: 2026-10-08
@@ -14,9 +14,9 @@ sources:
   - Operational excellence quick links - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/
   - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
 related:
-  - How to Make Ownership Clear at Every Stage | /insights/how-to-make-ownership-clear-at-every-stage/
-  - Why Every Systems Improvement Project Needs a Current-State Map | /insights/why-every-systems-improvement-project-needs-a-current-state-map/
-  - How to Stop Sales-to-Delivery Handoffs From Breaking | /insights/how-to-stop-sales-to-delivery-handoffs-from-breaking/
+  - How to make ownership clear at every stage | /insights/how-to-make-ownership-clear-at-every-stage/
+  - Why every systems improvement project needs a current-state map | /insights/why-every-systems-improvement-project-needs-a-current-state-map/
+  - How to stop sales-to-delivery handoffs from breaking | /insights/how-to-stop-sales-to-delivery-handoffs-from-breaking/
 summary: Every business has knowledge that exists only in one person's head. How to find the knowledge that would hurt most to lose, capture it in a usable form, and keep it current.
 layout: plain
 ---
@@ -86,7 +86,7 @@ Assign each page to a named owner, normally the person who performs the task mos
 
 Some of the most dangerous undocumented knowledge sits in software configuration rather than in people: why a workflow rule exists, which fields feed which report, what an automation does when a record fails. The person who built it remembers. Nobody else does.
 
-Microsoft's guidance on formalising operational tasks in its operational excellence material makes the same point in a technical setting: repeatable operations should be standardised and written down rather than left to individual habit. For a business, a brief description of each automation, its trigger, what it changes and who to call when it breaks, is enough. The risk when this is missing is described in [what happens when the only person who understands the system leaves](/insights/what-happens-when-the-only-person-who-understands-the-system-leaves/).
+Microsoft's guidance on formalising operational tasks in its [operational excellence](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/) material makes the same point in a technical setting: repeatable operations should be standardised and written down rather than left to individual habit. For a business, a brief description of each automation, its trigger, what it changes and who to call when it breaks, is enough. The risk when this is missing is described in [what happens when the only person who understands the system leaves](/insights/what-happens-when-the-only-person-who-understands-the-system-leaves/).
 
 ## Make sharing safe and rewarded
 

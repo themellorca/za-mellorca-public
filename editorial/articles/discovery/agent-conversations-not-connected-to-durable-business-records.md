@@ -3,8 +3,8 @@ hub: discovery
 record_id: DISC-469
 slug: agent-conversations-not-connected-to-durable-business-records
 title: Agent conversations are not connected to durable business records
-description: Discovery of disconnected agent dialogues from durable business records, undermining traceability and governance.
-lead: Discovery of disconnected agent dialogues from durable business records, undermining traceability and governance.
+description: When AI agent conversations are not tied to the customer, order or case they concern, the business loses the trail of what was said, decided and done.
+lead: When AI agent conversations are not tied to the customer, order or case they concern, the business loses the trail of what was said, decided and done.
 category: AI, Automation & Agent Operations
 published_date: 2026-09-08
 updated_date: 2026-09-08
@@ -20,7 +20,8 @@ related:
   - Automation incident response is improvised | /discovery/automation-incident-response-improvised/
   - Human exception queues grow faster than automated throughput | /discovery/human-exception-queues-grow-faster-than-automated-throughput/
   - AI usage costs are not allocated to business outcomes | /discovery/ai-usage-costs-not-allocated-to-business-outcomes/
-summary: Discovery of disconnected agent dialogues from durable business records, undermining traceability and governance.
+  - How to track AI agent actions | /insights/how-to-keep-a-reliable-record-of-what-your-ai-agents-did/
+summary: When AI agent conversations are not tied to the customer, order or case they concern, the business loses the trail of what was said, decided and done.
 layout: plain
 ---
 ## The problem in plain language
@@ -29,15 +30,15 @@ Conversations with automation agents often happen in isolation, without any reli
 
 At first this looks like a reporting gap. In practice it undermines traceability, compliance and the long-term value an organisation should capture from automated interactions. When a customer disputes what they were told, when an auditor asks why a record changed, or when a manager wants to know which conversations led to which outcomes, the answer has to be reconstructed by hand, if it can be reconstructed at all.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer wants a coherent record of agent activity that persists alongside business transactions. That record should support auditability, a complete customer history and governance oversight. In search terms the problem tends to appear as “link chatbot conversations to CRM records”, “AI agent audit trail”, “store agent transcripts with tickets”, “agent conversation history retention” or “how to prove what an AI agent did”.
+The buyer wants a coherent record of agent activity that persists alongside business transactions. That record should support auditability, a complete customer history and governance oversight. The problem tends to sound like “how do we link chatbot conversations to CRM records?”, “where is the AI agent audit trail?”, “how do we store agent transcripts with tickets?”, “how long do we keep agent conversation history?” or “how can we prove what an AI agent did?”
 
 Underneath those phrases is a simpler question: when an agent takes part in a business event, can the organisation later show what was asked, what the agent did, which record changed and who was responsible for checking it?
 
 ## Evidence and system mechanism
 
-The mechanism is visible in how current agent platforms store conversation data. Microsoft's Copilot Studio documentation states that session downloads from Copilot Studio cover the past 28 days, and that transcript data is retained in Copilot Studio storage for up to 28 days before being deleted automatically. Longer retention and fuller activity data are handled through Dataverse, where the retention period can be changed. The same documentation lists the fields in a session export, such as a session identifier, start time, outcome (resolved, escalated, abandoned or unengaged), topic and channel, and notes that each agent response in the exported transcript field is truncated to 512 characters.
+The mechanism is visible in how current agent platforms store conversation data. Microsoft's [Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-transcripts-studio) documentation states that session downloads from Copilot Studio cover the past 28 days, and that transcript data is retained in Copilot Studio storage for up to 28 days before being deleted automatically. Longer retention and fuller activity data are handled through Dataverse, where the retention period can be changed. The same documentation lists the fields in a session export, such as a session identifier, start time, outcome (resolved, escalated, abandoned or unengaged), topic and channel, and notes that each agent response in the exported transcript field is truncated to 512 characters.
 
 None of this is a criticism of one product. It illustrates a general pattern: agent platforms record sessions in their own terms, for their own operational purposes and over their own retention windows. The documented export fields describe the conversation; they do not, by themselves, identify the order, case or account that changed as a result. Unless someone designs that link, the organisation ends up with dispersed agent logs, ephemeral data stores and inconsistent mapping between conversations and outcomes such as orders or tickets.
 

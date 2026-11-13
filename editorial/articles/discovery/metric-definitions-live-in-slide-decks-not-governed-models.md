@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-261
 slug: metric-definitions-live-in-slide-decks-not-governed-models
 title: When KPI definitions live in slide decks instead of the reporting model
-description: The definitions slide at the back of the board pack describes how KPIs should be calculated. The reports may calculate them differently. Why definitions drift from logic, and how to make them one and the same.
+description: The definitions slide in the board pack may not match how reports calculate KPIs. How to make the definition and the logic one and the same.
 lead: The definitions slide at the back of the board pack describes how KPIs should be calculated. The reports may calculate them differently. Why definitions drift from logic, and how to make them one and the same.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-05
@@ -39,9 +39,9 @@ Typical signs include:
 - board members or investors ask "how is this calculated?" and the answer takes days;
 - nobody can say who last approved a definition, or when.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The person searching is often a financial director, company secretary or managing director preparing for tougher board or investor reporting. Their searches sound like "KPI definitions document", "metrics dictionary for board reporting" or "how to govern KPI definitions in Power BI". The underlying need is assurance: when the board reads a number, the business should be able to show, quickly and convincingly, exactly how it was calculated, from which data, under which approved definition.
+The person facing this is often a financial director, company secretary or managing director preparing for tougher board or investor reporting. Their questions sound like "where is our KPI definitions document?", "do we need a metrics dictionary for board reporting?" or "how do we govern KPI definitions in Power BI?" The underlying need is assurance: when the board reads a number, the business should be able to show, quickly and convincingly, exactly how it was calculated, from which data, under which approved definition.
 
 ## Evidence and system mechanism
 

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-377
 slug: when-employees-use-ai-but-the-operating-model-stays-the-same
-title: When Employees Use AI but the Operating Model Stays the Same
-description: Staff are already using AI tools on their own, yet processes, checks and roles are unchanged. Here is why that leaves the benefits with individuals and the risks with the business.
+title: When employees use AI but the operating model stays the same
+description: Staff already use AI tools on their own, but processes and roles are unchanged. That leaves the benefits with individuals and the risks with the business.
 lead: Staff are already using AI tools on their own, yet processes, checks and roles are unchanged. Here is why that leaves the benefits with individuals and the risks with the business.
 category: AI Adoption, Governance & Operating Model
 published_date: 2026-10-08
@@ -15,12 +15,12 @@ primary_identification: Bottom-up AI use without operating-model change: benefit
 commercial_value_dimensions: Productivity capture, data protection, quality consistency, competitiveness and risk exposure
 sources:
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
   - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
 related:
-  - When Your Staff Become the Integration Between Software Platforms | /patterns/when-your-staff-become-the-integration-between-software-platforms/
-  - Why Staff Keep Checking the Same Things Over and Over | /patterns/why-staff-keep-checking-the-same-things-over-and-over/
-  - When Nobody Owns the Definition of a Business Metric | /patterns/when-nobody-owns-the-definition-of-a-business-metric/
+  - When your staff become the integration between software platforms | /patterns/when-your-staff-become-the-integration-between-software-platforms/
+  - Why staff keep checking the same things over and over | /patterns/why-staff-keep-checking-the-same-things-over-and-over/
+  - When nobody owns the definition of a business metric | /patterns/when-nobody-owns-the-definition-of-a-business-metric/
 summary: Staff are already using AI tools on their own, yet processes, checks and roles are unchanged. Here is why that leaves the benefits with individuals and the risks with the business.
 layout: plain
 ---
@@ -36,7 +36,7 @@ An illustrative example: a Johannesburg accounting and advisory firm with about 
 
 When individuals use AI inside an unchanged operating model, the gains stay with individuals and the risks stay with the business. A person who saves an hour may bank it as a longer lunch, more email or a lighter day. The business sees no change in output, cost or quality. At the same time it carries the exposure: client information pasted into tools nobody has approved, inconsistent quality, and decisions made on outputs nobody checked.
 
-The NIST AI Risk Management Framework is built around the idea that AI risk is an organisational matter, not a technology matter. It describes governance as a cross-cutting function: policies, accountability, roles and processes that sit around the technology. It asks organisations to map where AI is used, measure its effects and manage the risks, none of which can happen if use is invisible. In South Africa, there is a legal dimension too: the Information Regulator's POPIA guidance expects personal information to be protected wherever it goes, including into a third-party tool.
+The NIST [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) is built around the idea that AI risk is an organisational matter, not a technology matter. It describes governance as a cross-cutting function: policies, accountability, roles and processes that sit around the technology. It asks organisations to map where AI is used, measure its effects and manage the risks, none of which can happen if use is invisible. In South Africa, there is a legal dimension too: the Information Regulator's POPIA guidance expects [personal information](https://www.gov.za/documents/protection-personal-information-act) to be protected wherever it goes, including into a third-party tool.
 
 **Realisation prompt:** could you list, today, which AI tools your staff use, for which tasks, and what company or client information goes into them?
 

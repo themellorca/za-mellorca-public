@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-252
 slug: sales-finance-and-operations-define-revenue-differently
 title: Why sales, finance and operations each define revenue differently
-description: Sales counts signed deals, operations counts shipments and finance counts recognised revenue. Each figure is right for its purpose, but without a bridge the business argues about which one is true.
+description: Sales counts signed deals, operations shipments and finance recognised revenue. Without a bridge between them, the business argues over which is true.
 lead: Sales counts signed deals, operations counts shipments and finance counts recognised revenue. Each figure is right for its purpose, but without a bridge the business argues about which one is true.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-04
@@ -33,9 +33,9 @@ A sale passes through several events. A deal is signed. An order is placed and c
 
 The symptoms include commission disputes, forecasts that never match the accounts, budgets built on one definition and tracked on another, and dashboards that disagree depending on which system feeds them.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches like "revenue defined differently by sales and finance", "bookings vs billings vs revenue" or "why CRM revenue doesn't match accounting" come from financial directors, revenue operations leads and business owners who are tired of the argument. They want a common language, a way to move from one figure to the next, and reports that label clearly which figure is which. The need often comes to a head during a data platform change, a new BI tool or a new ERP, when somebody has to decide which "revenue" the new dashboards will show.
+Complaints like "sales and finance define revenue differently", "what is the difference between bookings, billings and revenue?" or "why doesn't CRM revenue match accounting?" come from financial directors, revenue operations leads and business owners who are tired of the argument. They want a common language, a way to move from one figure to the next, and reports that label clearly which figure is which. The need often comes to a head during a data platform change, a new BI tool or a new ERP, when somebody has to decide which "revenue" the new dashboards will show.
 
 ## Evidence and system mechanism
 

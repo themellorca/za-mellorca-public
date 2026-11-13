@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-297
 slug: when-file-names-and-folders-quietly-run-integrations
 title: When file names and folders quietly run your integrations
-description: When a file's name or folder decides which process runs, a renamed file can stop an integration without any error. How to find, specify and monitor these hidden rules.
+description: When a file's name or folder decides which process runs, a rename can stop an integration silently. How to find, specify and monitor these hidden rules.
 lead: When a file's name or folder decides which process runs, a renamed file can stop an integration without any error. How to find, specify and monitor these hidden rules.
 category: Integration & API Operations
 published_date: 2026-10-06
@@ -38,9 +38,9 @@ File-based integration is still common, and for good reason. Banks, payroll bure
 
 Each rule is reasonable on its own. Together they form integration logic that is invisible to most of the business, cannot be tested, and breaks silently when someone renames, resaves or relocates a file.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People rarely search for this problem by name. They search for why an automated import stopped working, why a file was processed twice, why a flow did not trigger, or how to make an SFTP integration more reliable. Finance and operations managers describe the symptom as data that "sometimes doesn't come through". What they are really trying to establish is which files drive which business processes, what rules those files must follow, and how they would know when a rule is broken.
+People rarely describe this problem by name. They ask why an automated import stopped working, why a file was processed twice, why a flow did not trigger, or how to make an SFTP integration more reliable. Finance and operations managers describe the symptom as data that "sometimes doesn't come through". What they are really trying to establish is which files drive which business processes, what rules those files must follow, and how they would know when a rule is broken.
 
 ## Evidence and system mechanism
 

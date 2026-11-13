@@ -20,6 +20,7 @@ side_title: Topics
 sources:
   - Operational excellence - AWS Well-Architected Framework | https://docs.aws.amazon.com/wellarchitected/2025-02-25/framework/operational-excellence.html
   - OPS07-BP03 Use runbooks to perform procedures - Operational Excellence Pillar | https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_use_runbooks.html
+  - Architecture strategies for enabling and implementing automation - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/automate-tasks
 related:
   - Why chasing people for updates is a systems failure | /insights/why-chasing-people-for-updates-is-a-systems-failure/
   - Key-person dependency is a systems problem | /insights/key-person-dependency-is-a-systems-problem/
@@ -55,7 +56,7 @@ Planned maintenance does much of the same work, but at a time the business choos
 
 A recurring review can identify low-cost corrections before they become incidents: an integration approaching a limit, an unused account with excessive access, a workflow whose error rate is rising, a vendor change that requires testing, a stale runbook or an automation that still runs even though the process has changed.
 
-The point is not to create maintenance theatre. Reviews should focus on systems whose failure would interrupt real work and on evidence that indicates drift, risk or avoidable cost. A short review of the right signals is worth more than a long checklist nobody reads. Silent failures are the most dangerous class, because nothing prompts anyone to look—see [how silent automation failures damage operations](/insights/how-silent-automation-failures-damage-operations/).
+The point is not to create maintenance theatre. Reviews should focus on systems whose failure would interrupt real work and on evidence that indicates drift, risk or avoidable cost. A short review of the right signals is worth more than a long checklist nobody reads. Silent failures are the most dangerous class, because nothing prompts anyone to look—see [how silent automation failures damage operations](/insights/how-silent-automation-failures-damage-operations/). Microsoft's Azure Well-Architected [guidance on automation](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/automate-tasks) makes a related point: automations that are regularly bypassed should be reviewed or retired, and failures in platform tools may not appear in pipeline logs, so they need to be fed into monitoring.
 
 ## Runbooks reduce the cost of recovery
 

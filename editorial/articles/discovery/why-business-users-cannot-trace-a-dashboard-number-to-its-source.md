@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-256
 slug: why-business-users-cannot-trace-a-dashboard-number-to-its-source
 title: Why business users cannot trace a dashboard number back to its source
-description: When a manager asks where a dashboard figure comes from and only the report builder can answer, trust erodes. How to give the people reading the dashboard a path to the source.
+description: When only the report builder can say where a dashboard figure comes from, trust erodes. How to give readers a path back to the source.
 lead: When a manager asks where a dashboard figure comes from and only the report builder can answer, trust erodes. How to give the people reading the dashboard a path to the source.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-04
@@ -32,9 +32,9 @@ This article looks at that operating condition: business users who cannot trace 
 
 A dashboard figure is the end of a chain: source systems, extracts, transformations, filters, a calculation and a refresh. The people who build reports can usually follow that chain, at least for their own work. The people who read reports usually cannot. They see a number with no definition, no indication of which systems it came from, no date, and no way to drill down to the records behind it. When they doubt it, their only option is to ask a person.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Finance and reporting leads search for ways to show where dashboard data comes from, add drill-through to source, or document report lineage. Department heads want to check a surprising figure themselves. Directors want confidence that what they approve is grounded in records. The underlying need is that any reader of an important dashboard can answer four questions without asking anyone: what does this number mean, where did it come from, how current is it, and which records make it up?
+Finance and reporting leads look for ways to show where dashboard data comes from, add drill-through to source, or document report lineage. Department heads want to check a surprising figure themselves. Directors want confidence that what they approve is grounded in records. The underlying need is that any reader of an important dashboard can answer four questions without asking anyone: what does this number mean, where did it come from, how current is it, and which records make it up?
 
 ## Evidence and system mechanism
 

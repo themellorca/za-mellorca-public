@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-204
 slug: why-teams-keep-asking-the-same-internal-questions
-title: Why Teams Keep Asking the Same Internal Questions
-description: When colleagues ask the same how-do-I and where-is-it questions every week, the answers exist only in people's heads. Here is why that happens and how to give them a findable home.
+title: Why teams keep asking the same internal questions
+description: When colleagues ask the same how-do-I and where-is-it questions every week, the answers live in people's heads. Give them a findable home.
 lead: When colleagues ask the same how-do-I and where-is-it questions every week, the answers exist only in people's heads. Here is why that happens and how to give them a findable home.
 category: Knowledge, Records & Information Flow
 published_date: 2026-10-08
@@ -18,9 +18,10 @@ sources:
   - Plan an intelligent SharePoint intranet - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/plan-intranet
   - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
 related:
-  - Why Decision-Makers Keep Asking for Status Updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
-  - The Hidden Cost of Asking Customers for the Same Information Twice | /patterns/the-hidden-cost-of-asking-customers-for-the-same-information-twice/
-  - Why Service Teams Spend Their Day Chasing Internal Answers | /patterns/why-service-teams-spend-their-day-chasing-internal-answers/
+  - Why decision-makers keep asking for status updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
+  - The hidden cost of asking customers for the same information twice | /patterns/the-hidden-cost-of-asking-customers-for-the-same-information-twice/
+  - Why service teams spend their day chasing internal answers | /patterns/why-service-teams-spend-their-day-chasing-internal-answers/
+  - Answering the same customer questions daily: The labour cost of hidden knowledge | /impact/support-teams-answering-same-questions-daily-undocumented-knowledge-labour-cost/
 summary: When colleagues ask the same how-do-I and where-is-it questions every week, the answers exist only in people's heads. Here is why that happens and how to give them a findable home.
 layout: plain
 ---
@@ -72,7 +73,7 @@ Another is to introduce a new messaging channel for questions. That makes asking
 
 In a better state, the ten questions that account for most of the interruptions each have a short, current answer in one internal location. The answer says what to do, who approves it, which form or template to use and what to do when the case is unusual. Each has a named owner who updates it when the process changes, and a date showing when it was last reviewed. The help channel still exists, but the standard reply to a repeated question is a link.
 
-The tools needed are modest. Microsoft's guidance for planning a SharePoint intranet recommends starting with a key scenario, planning for governance, and piloting with real users before scaling. That is the right scale of ambition for an internal answers site: one scenario, one owner, one pilot group. Where the answer is really a task, such as requesting access or submitting a change, an automated cloud flow can collect the request and route it, instead of describing how to email someone.
+The tools needed are modest. Microsoft's guidance for planning a [SharePoint intranet](https://learn.microsoft.com/en-us/sharepoint/plan-intranet) recommends starting with a key scenario, planning for governance, and piloting with real users before scaling. That is the right scale of ambition for an internal answers site: one scenario, one owner, one pilot group. Where the answer is really a task, such as requesting access or submitting a change, an automated cloud flow can collect the request and route it, instead of describing how to email someone.
 
 For the engineering firm, this would mean a one-page guide per recurring topic, a short search-friendly title for each, and a rule that a question answered twice is written up the second time.
 

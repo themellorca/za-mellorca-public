@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-289
 slug: integration-test-environments-do-not-match-production
 title: Why integrations pass testing and then fail in production
-description: When test environments use different versions, stubs or sandboxes from production, integrations pass testing and fail on go-live. How to close the gap without cloning everything.
+description: When test environments use different versions, stubs or sandboxes, integrations pass testing and fail at go-live. How to close the gap sensibly.
 lead: When test environments use different versions, stubs or sandboxes from production, integrations pass testing and fail on go-live. How to close the gap without cloning everything.
 category: Integration & API Operations
 published_date: 2026-10-06
@@ -19,7 +19,7 @@ sources:
 related:
   - Why manual file transfers survive inside otherwise automated processes | /discovery/manual-file-transfers-inside-automated-processes/
   - API credentials are shared across unrelated integrations | /discovery/api-credentials-shared-across-unrelated-integrations/
-  - Why Critical Integrations Need a Named Operational Owner | /discovery/why-critical-integrations-need-a-named-operational-owner/
+  - Why critical integrations need a named operational owner | /discovery/why-critical-integrations-need-a-named-operational-owner/
 summary: When test environments use different versions, stubs or sandboxes from production, integrations pass testing and fail on go-live. How to close the gap without cloning everything.
 layout: plain
 ---
@@ -39,9 +39,9 @@ Every integration depends on other things: the systems at each end, their versio
 
 Tests pass. The integration is approved. The first real transaction finds the difference.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for why an integration works in test but not in production, how to set up a realistic test environment, or why go-lives keep needing emergency fixes. Project sponsors describe it as "testing didn't catch it". What they want is confidence that a passed test means something, at a cost proportionate to the risk, and an honest view of which differences between test and production they are accepting.
+The questions usually asked are why an integration works in test but not in production, how to set up a realistic test environment, or why go-lives keep needing emergency fixes. Project sponsors describe it as "testing didn't catch it". What they want is confidence that a passed test means something, at a cost proportionate to the risk, and an honest view of which differences between test and production they are accepting.
 
 ## Evidence and system mechanism
 

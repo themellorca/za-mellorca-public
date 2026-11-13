@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-303
 slug: server-capacity-added-because-utilisation-data-is-not-trusted
 title: Why servers get upsized when nobody trusts the utilisation data
-description: After a slowdown, the safe-looking fix is a bigger server, because nobody trusts the utilisation graphs. Why the data is often incomplete, and how to make it good enough to decide on.
+description: After a slowdown the safe fix is a bigger server because nobody trusts the utilisation graphs. How to make that data good enough to decide on.
 lead: After a slowdown, the safe-looking fix is a bigger server, because nobody trusts the utilisation graphs. Why the data is often incomplete, and how to make it good enough to decide on.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-06
@@ -40,9 +40,9 @@ Most servers, cloud or hosted, have some utilisation monitoring. The trouble is 
 
 When an incident happens and the numbers look fine, people conclude the numbers are wrong. Adding capacity feels like the only safe move. The cost of that decision is described in [paying for server capacity the business does not use](/impact/overprovisioned-server-capacity-cost/); this article is about the measurement problem underneath it.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for why a server is slow when CPU is low, how to monitor memory on a cloud server, whether they need a bigger virtual machine, or why cloud recommendations say a server is underused when it feels overloaded. The real need is evidence good enough to make a sizing decision and defend it, both when adding capacity and when reducing it.
+The questions are why a server is slow when CPU is low, how to monitor memory on a cloud server, whether a bigger virtual machine is needed, or why cloud recommendations say a server is underused when it feels overloaded. The real need is evidence good enough to make a sizing decision and defend it, both when adding capacity and when reducing it.
 
 ## Evidence and system mechanism
 

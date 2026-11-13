@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-204
 slug: buying-devices-only-when-they-break-emergency-replacement-cost
-title: Replacing Devices Only When They Break: The Real Price of Emergency Buying
-description: Waiting for a laptop, router or phone to fail before replacing it moves the cost from a budget line to a crisis, with premium prices, downtime, rebuild labour and unsupported equipment left in service.
+title: Replacing devices only when they break: The real price of emergency buying
+description: Waiting for a laptop, router or phone to fail turns a budget line into a crisis of premium prices, downtime, rebuild labour and unsupported equipment.
 lead: Waiting for a laptop, router or phone to fail before replacing it moves the cost from a budget line to a crisis, with premium prices, downtime, rebuild labour and unsupported equipment left in service.
 category: Digital Operations
 published_date: 2026-10-08
@@ -17,9 +17,10 @@ sources:
   - Cost Optimization design principles - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles
   - Reliability design principles - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles
 related:
-  - The Human Dispatcher: The Cost of Manually Routing Every Incoming Request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
-  - Recreating Documents Nobody Can Find: The Cost of Duplicated Work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
-  - Four Tools, One Job: The Real Cost of Departments Buying Their Own Software | /impact/departments-buying-separate-tools-same-need-duplicate-subscription-cost/
+  - The human dispatcher: The cost of manually routing every incoming request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
+  - Recreating documents nobody can find: The cost of duplicated work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
+  - Four tools, one job: The real cost of departments buying their own software | /impact/departments-buying-separate-tools-same-need-duplicate-subscription-cost/
+  - Staff using personal laptops for work: The security and support cost of inadequate devices | /impact/staff-personal-computers-for-company-work-inadequate-business-devices-security-support-cost/
 summary: Waiting for a laptop, router or phone to fail before replacing it moves the cost from a budget line to a crisis, with premium prices, downtime, rebuild labour and unsupported equipment left in service.
 layout: plain
 ---
@@ -113,7 +114,7 @@ Planned replacement does not mean replacing everything early. It means knowing w
 5. **Standardise the setup.** A documented build, with software and settings ready, shortens the time from unboxing to working. See [the labour cost of manual device setup](/impact/manual-device-setup-labour-rework-cost/).
 6. **Buy on quotes.** A planned order allows comparison, volume terms and the right specification for the role.
 
-Microsoft's [cost optimization design principles](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles) make a general point that fits here: tactical approaches are reactive and reduce costs only in the short term, while long-term financial discipline comes from a strategy with prioritisation, continuous monitoring and repeatable processes. Hardware spend is no different, and the same vendor's [reliability principles](https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles) remind us that failures are not realistic to rule out, so recovery has to be planned.
+Microsoft's [cost optimisation design principles](https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles) make a general point that fits here: tactical approaches are reactive and reduce costs only in the short term, while long-term financial discipline comes from a strategy with prioritisation, continuous monitoring and repeatable processes. Hardware spend is no different, and the same vendor's [reliability principles](https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles) remind us that failures are not realistic to rule out, so recovery has to be planned.
 
 ## Practical next actions
 

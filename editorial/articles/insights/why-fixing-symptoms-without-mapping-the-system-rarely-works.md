@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-007
 slug: why-fixing-symptoms-without-mapping-the-system-rarely-works
-title: Why Fixing Symptoms Without Mapping the System Rarely Works
-description: Late invoices, angry customers and messy data are usually symptoms of something further upstream. Why fixing them where they appear tends to fail, and how to trace a symptom back through the system before acting.
+title: Why fixing symptoms without mapping the system rarely works
+description: Late invoices, angry customers and messy data are usually symptoms of something upstream. Why fixing them where they appear fails, and how to trace them.
 lead: Late invoices, angry customers and messy data are usually symptoms of something further upstream. Why fixing them where they appear tends to fail, and how to trace a symptom back through the system before acting.
 category: Operations
 published_date: 2026-10-04
@@ -15,9 +15,9 @@ sources:
   - Google SRE - Troubleshooting Methodology: A Learning Path | https://sre.google/sre-book/effective-troubleshooting/
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
 related:
-  - Poor Data Is an Operations Problem, Not Just a Data Problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
-  - What Your Recurring Problems Are Telling You About Your Systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
-  - Why Work Gets Lost Between Teams | /insights/why-work-gets-lost-between-teams/
+  - Poor data is an operations problem, not just a data problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
+  - What your recurring problems are telling you about your systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
+  - Why work gets lost between teams | /insights/why-work-gets-lost-between-teams/
 summary: Late invoices, angry customers and messy data are usually symptoms of something further upstream. Why fixing them where they appear tends to fail, and how to trace a symptom back through the system before acting.
 layout: plain
 ---
@@ -48,7 +48,7 @@ Pushing one team to go faster often just moves the queue to the next team. A sal
 
 ### They optimise a part at the expense of the whole
 
-The Lean Enterprise Institute's description of value stream mapping stresses that it is about improving the whole, not just optimising the parts. A department can improve its own numbers while making the end-to-end flow worse, a pattern described in [when every department optimises its part but the whole process gets worse](/patterns/when-every-department-optimizes-its-part-but-the-whole-process-gets-worse/).
+The Lean Enterprise Institute's description of [value stream mapping](https://www.lean.org/lexicon-terms/value-stream-mapping/) stresses that it is about improving the whole, not just optimising the parts. A department can improve its own numbers while making the end-to-end flow worse, a pattern described in [when every department optimises its part but the whole process gets worse](/patterns/when-every-department-optimizes-its-part-but-the-whole-process-gets-worse/).
 
 ### They target the wrong cause
 
@@ -69,7 +69,7 @@ A simple table is usually enough for this. Our guide to [how to map a business w
 
 ## Use the evidence the systems already hold
 
-Where the process runs through software, the systems often contain a record of what actually happened: timestamps on status changes, who edited what, how long records sat in each state. Microsoft describes process mining as a way of extracting this event data to visualise how processes actually run, compare them and determine the root causes of inefficiencies. A small business may not need a process mining tool, but the principle applies: a few exports of dates and statuses can reveal where cases really stall, which is often different from where people believe they stall.
+Where the process runs through software, the systems often contain a record of what actually happened: timestamps on status changes, who edited what, how long records sat in each state. Microsoft describes [process mining](https://learn.microsoft.com/en-us/power-automate/process-mining-overview) as a way of extracting this event data to visualise how processes actually run, compare them and determine the root causes of inefficiencies. A small business may not need a process mining tool, but the principle applies: a few exports of dates and statuses can reveal where cases really stall, which is often different from where people believe they stall.
 
 ## An illustrative example
 

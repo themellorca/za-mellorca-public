@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000071
 slug: the-team-leader-who-quietly-shields-the-team-from-bad-tools
-title: The Team Leader Who Protects Their Team From Bad Tools
-description: Many teams run smoothly because one leader absorbs the friction of tools nobody chose. How to make that hidden effort visible, share it, and give leaders a say in what they are asked to use.
+title: The team leader who protects their team from bad tools
+description: Many teams run smoothly because one leader absorbs the friction of tools nobody chose. How to make that effort visible, share it, and give leaders a say.
 lead: Many teams run smoothly because one leader absorbs the friction of tools nobody chose. How to make that hidden effort visible, share it, and give leaders a say in what they are asked to use.
 category: Human Agency
 published_date: 2026-10-10
@@ -20,9 +20,10 @@ sources:
   - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
   - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
 related:
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
-  - When a Request Disappears Into a Queue Nobody Can See | /moments/when-a-request-disappears-into-a-queue-nobody-can-see/
-  - The Founder Who Wants to Step Back but Can't | /moments/the-founder-who-wants-to-step-back-but-cant/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - When a request disappears into a queue nobody can see | /moments/when-a-request-disappears-into-a-queue-nobody-can-see/
+  - The founder who wants to step back but can't | /moments/the-founder-who-wants-to-step-back-but-cant/
+  - Why being asked beats being assigned a new tool | /moments/why-being-asked-beats-being-assigned-a-new-tool/
 summary: Many teams run smoothly because one leader absorbs the friction of tools nobody chose. How to make that hidden effort visible, share it, and give leaders a say in what they are asked to use.
 layout: plain
 ---
@@ -44,11 +45,11 @@ None of this appears in a job description. It is also not trivial. Each act remo
 
 ## The human tax: autonomy and energy
 
-The cost to the team leader is energy. The Gallup research on employee burnout identifies unmanageable workload, unclear expectations and lack of manager support among its leading causes. A team leader who is absorbing the friction of several tools is carrying an extra workload that nobody has agreed to, and often has no one to turn to for support. The article on [why nobody trains for the job of being human middleware](/moments/why-nobody-trains-for-the-job-of-being-human-middleware/) describes what it feels like to be the connection between systems that do not talk to each other.
+The cost to the team leader is energy. The Gallup research on [employee burnout](https://www.gallup.com/workplace/237059/employee-burnout-causes.aspx) identifies unmanageable workload, unclear expectations and lack of manager support among its leading causes. A team leader who is absorbing the friction of several tools is carrying an extra workload that nobody has agreed to, and often has no one to turn to for support. The article on [why nobody trains for the job of being human middleware](/moments/why-nobody-trains-for-the-job-of-being-human-middleware/) describes what it feels like to be the connection between systems that do not talk to each other.
 
 The cost to the leader's autonomy is subtler. A leader who cannot change the tools, cannot remove the duplicate reporting and cannot say no to a new system has limited say over how their own team works. The UK Health and Safety Executive's management standards for work-related stress treat control as a core condition of a healthy workplace, and they pair it with support: from managers, from colleagues and from the organisation. The leader who shields others often has the least of both.
 
-The World Health Organization's guidance on mental health at work also names low job control and limited support as risks. The people most likely to experience both are often the ones who hold the team together.
+The World Health Organization's guidance on [mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) also names low job control and limited support as risks. The people most likely to experience both are often the ones who hold the team together.
 
 ## An illustrative case
 

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-079
 slug: how-bad-crm-data-gets-created
-title: How Bad CRM Data Gets Created
-description: Poor CRM data is rarely the work of one careless person. Six mechanisms, from free-text fields to silent integrations, explain how it gets in, and each needs a different fix.
+title: How bad CRM data gets created
+description: Poor CRM data is rarely one careless person's fault. Six mechanisms, from free-text fields to silent integrations, explain how it gets in.
 lead: Poor CRM data is rarely the work of one careless person. Six mechanisms, from free-text fields to silent integrations, explain how it gets in, and each needs a different fix.
 category: Data Quality
 published_date: 2026-10-08
@@ -14,9 +14,10 @@ sources:
   - Set up duplicate detection rules to keep your data clean - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
   - What Are Data Silos? - IBM | https://www.ibm.com/think/topics/data-silos
 related:
-  - How Duplicate Data Gets Into Business Systems | /insights/how-duplicate-data-gets-into-business-systems/
-  - How Repetitive Admin Work Accumulates Across a Team | /insights/how-repetitive-admin-work-accumulates-across-a-team/
-  - How to Map the Flow of Information Between Business Systems | /insights/how-to-map-the-flow-of-information-between-business-systems/
+  - How duplicate data gets into business systems | /insights/how-duplicate-data-gets-into-business-systems/
+  - How repetitive admin work accumulates across a team | /insights/how-repetitive-admin-work-accumulates-across-a-team/
+  - How to map the flow of information between business systems | /insights/how-to-map-the-flow-of-information-between-business-systems/
+  - How manual data entry creates downstream problems | /insights/how-one-typing-error-becomes-a-disputed-invoice-and-a-wrong-report/
 summary: Poor CRM data is rarely the work of one careless person. Six mechanisms, from free-text fields to silent integrations, explain how it gets in, and each needs a different fix.
 layout: plain
 ---
@@ -33,7 +34,7 @@ When a field accepts anything, it receives everything. "Johannesburg", "Jhb", "J
 
 ## Mechanism 2: duplicates created at the front door
 
-Duplicates arise whenever a record can be created without first checking whether it already exists. Two salespeople meet the same prospect at an expo. A web form creates a new contact while the existing one sits under a slightly different email address. An import from a spreadsheet adds every row as new. Microsoft's documentation for Dynamics 365 and Power Platform includes duplicate detection rules precisely because this is a default behaviour of record-based systems, not an exception. More detail on how the problem spreads is in [how duplicate customer records are created](/insights/how-duplicate-customer-records-are-created/).
+Duplicates arise whenever a record can be created without first checking whether it already exists. Two salespeople meet the same prospect at an expo. A web form creates a new contact while the existing one sits under a slightly different email address. An import from a spreadsheet adds every row as new. Microsoft's documentation for Dynamics 365 and Power Platform includes [duplicate detection rules](https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean) precisely because this is a default behaviour of record-based systems, not an exception. More detail on how the problem spreads is in [how duplicate customer records are created](/insights/how-duplicate-customer-records-are-created/).
 
 ## Mechanism 3: required fields that people fill dishonestly
 
@@ -53,7 +54,7 @@ People change jobs, companies change addresses, and mobile numbers lapse. A reco
 
 ## Why this is also a compliance matter
 
-For South African businesses, data quality is not only a commercial concern. Section 16 of the Protection of Personal Information Act sets out the quality of information requirement: a responsible party must take reasonably practicable steps to ensure that personal information is complete, accurate, not misleading and updated where necessary. A CRM full of outdated or duplicated personal details makes that duty harder to demonstrate. A person who asks what you hold about them, or asks for a correction, should not trigger a search across five versions of the same record.
+For South African businesses, data quality is not only a commercial concern. Section 16 of the Protection of Personal Information Act sets out the [quality of information](https://popia.co.za/section-16-quality-of-information/) requirement: a responsible party must take reasonably practicable steps to ensure that personal information is complete, accurate, not misleading and updated where necessary. A CRM full of outdated or duplicated personal details makes that duty harder to demonstrate. A person who asks what you hold about them, or asks for a correction, should not trigger a search across five versions of the same record.
 
 ## What to do about it, in order
 

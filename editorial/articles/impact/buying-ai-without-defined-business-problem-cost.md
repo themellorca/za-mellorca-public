@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-278
 slug: buying-ai-without-defined-business-problem-cost
-title: Buying AI Because Competitors Are: The Cost of Spending Without a Business Case
-description: When AI is bought to keep up rather than to solve a named problem, the business pays for licences and pilots it cannot evaluate. A problem statement, baseline and success measure change that.
+title: Buying AI because competitors are: The cost of spending without a business case
+description: Buying AI to keep up, not to solve a named problem, means paying for pilots you cannot evaluate. A problem statement, baseline and measure fix that.
 lead: When AI is bought to keep up rather than to solve a named problem, the business pays for licences and pilots it cannot evaluate. A problem statement, baseline and success measure change that.
 category: AI Governance
 published_date: 2026-10-07
@@ -17,9 +17,10 @@ sources:
   - Plan for AI adoption - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/plan
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
 related:
-  - Staff Using AI with Company Data Nobody Governs | /impact/uncontrolled-ai-company-data-financial-risk/
-  - The Cost of Business Systems That Do Not Talk to Each Other | /impact/business-systems-do-not-talk-integration-cost/
-  - Software Bought Without Approval: The Financial and Security Cost of Shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
+  - Staff using AI with company data nobody governs | /impact/uncontrolled-ai-company-data-financial-risk/
+  - The cost of business systems that do not talk to each other | /impact/business-systems-do-not-talk-integration-cost/
+  - Software bought without approval: The financial and security cost of shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
+  - AI pilots that never ship: The cost of experiments with no operational payoff | /impact/ai-pilots-stuck-in-demonstration-stage-experimentation-cost/
 summary: When AI is bought to keep up rather than to solve a named problem, the business pays for licences and pilots it cannot evaluate. A problem statement, baseline and success measure change that.
 layout: plain
 ---

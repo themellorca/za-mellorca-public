@@ -19,7 +19,8 @@ sources:
 related:
   - Applications are retained because migration effort is unknown | /discovery/why-applications-stay-because-migration-effort-is-unknown/
   - Data-export limits are discovered only when leaving a vendor | /discovery/data-export-limits-discovered-only-when-leaving-a-vendor/
-  - Why Application Costs Cannot Be Allocated to Business Units | /discovery/why-application-costs-cannot-be-allocated-to-business-units/
+  - Why application costs cannot be allocated to business units | /discovery/why-application-costs-cannot-be-allocated-to-business-units/
+  - AI add-ons increase software spend outside original budgets | /discovery/ai-add-ons-push-software-spend-beyond-the-approved-budget/
 summary: Suites and tiers bundle features nobody uses, and the cost surfaces only in a merger or renewal. How to break a contract into features, usage and owners.
 layout: plain
 ---
@@ -33,7 +34,7 @@ Software vendors commonly sell suites. A customer who needs invoicing also recei
 
 Over time the original reason fades. Staff who asked for the extra features move on. The renewal arrives at roughly the same price, perhaps with an annual increase, and is approved because the system is clearly in use. What nobody checks is how much of the system is in use.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The finance director, COO or integration lead usually wants to answer three questions: what are we paying for, what are we using, and what would it cost to pay only for what we use. Before a transaction they also want to show a buyer or investor a clean software cost base. After one, they need to merge two sets of contracts without paying twice for the same capability.
 

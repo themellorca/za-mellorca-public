@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-009
 slug: unclear-responsibilities-duplicated-dropped-work-cost
-title: "I Thought You Were Doing It": The Labour Cost of Unclear Responsibilities
-description: When responsibilities are unclear, two people do the same task while another task is done by nobody. The business pays for duplicated effort, delays and dropped work. Mapping who owns what is cheap and fast.
+title: "I thought you were doing it": The labour cost of unclear responsibilities
+description: When responsibilities are unclear, two people do one task while another goes undone, costing duplicated effort, delays and dropped work. Map who owns what.
 lead: When responsibilities are unclear, two people do the same task while another task is done by nobody. The business pays for duplicated effort, delays and dropped work. Mapping who owns what is cheap and fast.
 category: Digital Operations
 published_date: 2026-10-04
@@ -17,9 +17,9 @@ sources:
   - Obsolete Annual Reviews: Gallup's Advice | https://www.gallup.com/workplace/236567/obsolete-annual-reviews-gallup-advice.aspx
   - https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf | https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf
 related:
-  - Two Departments, Same Work: The Payroll Cost of Duplicated Effort | /impact/departments-duplicating-same-work-payroll-cost/
-  - Recreating Documents Nobody Can Find: The Cost of Duplicated Work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
-  - The Cost of Work Waiting for Approval | /impact/approval-queues-blocked-capacity-cost/
+  - Two departments, same work: The payroll cost of duplicated effort | /impact/departments-duplicating-same-work-payroll-cost/
+  - Recreating documents nobody can find: The cost of duplicated work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
+  - The cost of work waiting for approval | /impact/approval-queues-blocked-capacity-cost/
 summary: When responsibilities are unclear, two people do the same task while another task is done by nobody. The business pays for duplicated effort, delays and dropped work. Mapping who owns what is cheap and fast.
 layout: plain
 ---

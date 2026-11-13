@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-076
 slug: business-systems-do-not-talk-integration-cost
-title: The Cost of Business Systems That Do Not Talk to Each Other
+title: The cost of business systems that do not talk to each other
 description: When systems cannot share information, employees become the integration layer and the business pays through copying, reconciliation, errors and delays.
 lead: When systems cannot share information, employees become the integration layer. The business pays for that gap through copying, reconciling, delays, errors and poor customer handovers.
 category: Systems Integration
@@ -27,9 +27,9 @@ sources:
 closing_title: Method note
 closing_text: Financial examples are illustrative. Use your own labour, transaction, error and contribution-margin data when quantifying the business case.
 related:
-  - The Labour Cost of Manually Reconciling Two Systems | /impact/manual-reconciliation-between-systems-labour-cost/
-  - From Inbox to System by Hand: The Labour Cost of Retyping Emails | /impact/copying-email-details-into-business-systems-admin-cost/
-  - Paper Forms Captured Twice: The Cost of Double Handling | /impact/paper-forms-captured-twice-double-handling-cost/
+  - The labour cost of manually reconciling two systems | /impact/manual-reconciliation-between-systems-labour-cost/
+  - From inbox to system by hand: The labour cost of retyping emails | /impact/copying-email-details-into-business-systems-admin-cost/
+  - Paper forms captured twice: The cost of double handling | /impact/paper-forms-captured-twice-double-handling-cost/
 ---
 ## The employee becomes the integration layer
 
@@ -43,7 +43,7 @@ Consider a 35-person office-furniture supplier in Cape Town. A sales representat
 
 Fragmentation usually arrives through reasonable local decisions. Sales chooses the best CRM for sales. Finance chooses accounting software. Operations adopts a scheduling or inventory system. Marketing adds forms and campaign tools. Each choice can make sense in isolation while producing a poor system at company level.
 
-Salesforce’s small-business research reports that the average small business uses seven different apps to run daily operations, and that half of the leaders it surveyed report data inconsistencies between their tools. Vendor research is not a universal law, but the operational mechanism is easy to verify inside any business: if employees keep moving the same data between applications, integration debt already exists.
+[Salesforce’s small-business research](https://www.salesforce.com/au/small-business/business-statistics/) reports that the average small business uses seven different apps to run daily operations, and that half of the leaders it surveyed report data inconsistencies between their tools. Vendor research is not a universal law, but the operational mechanism is easy to verify inside any business: if employees keep moving the same data between applications, integration debt already exists.
 
 There are other reasons the situation persists. The person doing the copying is often quick and reliable, so the cost looks small. Integration projects sound technical and expensive, while retyping sounds like ordinary admin. And nobody owns the whole process, so nobody sees the full cost.
 
@@ -101,7 +101,7 @@ Priority rises when transaction volumes increase, customers experience repeated 
 
 A good environment has a clear system of record for important entities such as customers, products, employees and financial transactions. Systems exchange data through documented integrations, shared identifiers and controlled workflows. Exceptions are visible instead of silent. Employees handle judgement and exceptions rather than routine copying.
 
-IBM describes master data management as creating one authoritative “golden record” for core entities such as customers and products, and warns that without it, organisations maintain several potentially inconsistent versions of the same data. A small business does not need an enterprise programme to apply the principle. It needs to decide, field by field, where the truth lives; our guide on [how to decide what should be the system of record](/insights/how-to-decide-what-should-be-the-system-of-record/) walks through that choice.
+[IBM describes master data management](https://www.ibm.com/think/topics/master-data-management) as creating one authoritative “golden record” for core entities such as customers and products, and warns that without it, organisations maintain several potentially inconsistent versions of the same data. A small business does not need an enterprise programme to apply the principle. It needs to decide, field by field, where the truth lives; our guide on [how to decide what should be the system of record](/insights/how-to-decide-what-should-be-the-system-of-record/) walks through that choice.
 
 ### Trade-offs in how you connect systems
 

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-129
 slug: how-repetitive-admin-work-accumulates-across-a-team
-title: How Repetitive Admin Work Accumulates Across a Team
-description: Repetitive admin rarely arrives as one big decision. Six mechanisms explain how small steps pile up across a team, why the total stays hidden, and how to measure and reduce it.
+title: How repetitive admin work accumulates across a team
+description: Repetitive admin is rarely one big decision. Six mechanisms show how small steps pile up across a team, why the total stays hidden and how to cut it.
 lead: Repetitive admin rarely arrives as one big decision. Six mechanisms explain how small steps pile up across a team, why the total stays hidden, and how to measure and reduce it.
 category: Operational Efficiency
 published_date: 2026-10-08
@@ -14,9 +14,9 @@ sources:
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
   - Measure and communicate the business value of Power Platform solutions - Power Platform | https://learn.microsoft.com/en-us/power-platform/guidance/adoption/business-value
 related:
-  - How Bad CRM Data Gets Created | /insights/how-bad-crm-data-gets-created/
-  - How to Find the Real Bottleneck in a Digital Operation | /insights/how-to-find-the-real-bottleneck-in-a-digital-operation/
-  - Why Work Gets Lost Between Teams | /insights/why-work-gets-lost-between-teams/
+  - How bad CRM data gets created | /insights/how-bad-crm-data-gets-created/
+  - How to find the real bottleneck in a digital operation | /insights/how-to-find-the-real-bottleneck-in-a-digital-operation/
+  - Why work gets lost between teams | /insights/why-work-gets-lost-between-teams/
 summary: Repetitive admin rarely arrives as one big decision. Six mechanisms explain how small steps pile up across a team, why the total stays hidden, and how to measure and reduce it.
 layout: plain
 ---
@@ -61,7 +61,7 @@ Three features keep accumulated admin out of sight.
 - **It is not tracked.** Time sheets record projects and clients, not the invisible work of reconciling, re-keying and chasing.
 - **It is personally absorbed.** Capable people compensate quietly, working through lunch or in the evening. The business sees the output and not the effort behind it.
 
-The scale is often underestimated. A useful way to think about it is through the idea of a constraint: in Goldratt's theory of constraints, the performance of a system is limited by its tightest point. When admin consumes the time of the people who also do the valuable work, such as your best salesperson or your most experienced technician, it effectively becomes the constraint on the whole business. The Theory of Constraints Institute describes the five focusing steps as a way of identifying that limit and deciding how to relieve it.
+The scale is often underestimated. A useful way to think about it is through the idea of a constraint: in Goldratt's theory of constraints, the performance of a system is limited by its tightest point. When admin consumes the time of the people who also do the valuable work, such as your best salesperson or your most experienced technician, it effectively becomes the constraint on the whole business. The Theory of Constraints Institute describes the [five focusing steps](https://www.tocinstitute.org/five-focusing-steps.html) as a way of identifying that limit and deciding how to relieve it.
 
 ## How to measure it without a big project
 

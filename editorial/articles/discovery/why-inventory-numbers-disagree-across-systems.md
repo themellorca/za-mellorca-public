@@ -2,8 +2,8 @@
 hub: discovery
 record_id: DISC-101
 slug: why-inventory-numbers-disagree-across-systems
-title: Why Inventory Numbers Disagree Across Sales, Warehouse and Finance
-description: Inventory disagreement is rarely fixed by another spreadsheet reconciliation. It usually means stock events, dimensions or ownership rules are inconsistent across systems.
+title: Why inventory numbers disagree across sales, warehouse and finance
+description: Another spreadsheet reconciliation rarely fixes inventory disagreement. It usually means stock events, dimensions or ownership rules differ across systems.
 lead: When sales sees stock available, the warehouse sees less, and finance reports a third number, the organisation does not have one inventory problem. It has several systems applying different rules to the same physical reality.
 category: Inventory & Order Operations
 published_date: 2026-09-02
@@ -30,6 +30,7 @@ related:
   - Why executives get different answers to the same KPI question | /discovery/executives-get-different-answers-to-the-same-kpi-question/
   - Why sales, finance and operations each define revenue differently | /discovery/sales-finance-and-operations-define-revenue-differently/
   - When sales and finance work from different product and price data | /discovery/sales-and-finance-use-different-product-and-price-data/
+  - Finance and operations report different stock ageing for the same goods | /discovery/how-finance-and-operations-end-up-with-two-inventory-ageing-reports/
 ---
 ## The problem in plain language
 
@@ -39,9 +40,9 @@ The instinct is to ask which number is correct. That is necessary, but it is not
 
 Take a mid-sized hardware wholesaler selling through a trade counter, an online store and field reps. The online store shows 40 units of a particular drill. The warehouse system shows 40 on hand, but 25 are already picked for a large contractor order that has not yet been invoiced, and 3 are in the returns bay awaiting inspection. Finance's stock valuation reflects the last posted transactions, which do not yet include yesterday's receipt. Every system is "right" by its own rules. The online customer who orders 20 drills will still be disappointed.
 
-## What buyers search for
+## How the problem is usually described
 
-Problem-aware searches include "inventory numbers don't match", "sync inventory between systems", "ecommerce stock different from warehouse", "real-time inventory visibility", "ERP WMS inventory integration" and "inventory reconciliation automation". The searcher is trying to make availability dependable enough for customers and operations to act on it.
+The problem is usually put as "our inventory numbers don't match", "how do we sync inventory between systems?", "ecommerce stock is different from the warehouse", "real-time [inventory visibility](https://learn.microsoft.com/en-us/dynamics365/supply-chain/inventory/inventory-visibility-inventory-summary)", "how do we integrate ERP and WMS inventory?" and "can inventory reconciliation be automated?" The person asking is trying to make availability dependable enough for customers and operations to act on it.
 
 ## Evidence: current inventory platforms expose synchronisation as an explicit architecture problem
 

@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-358
 slug: customers-becoming-payment-risks-late-action-overdue-accounts-cost
-title: Which Customers Are Becoming Payment Risks? The Cost of Acting Late on Overdue Accounts
-description: Most businesses see overdue invoices only after they have failed. Without an early view of deteriorating accounts, bad debt, funding costs and collection effort all grow.
+title: Which customers are becoming payment risks? The cost of acting late on overdue accounts
+description: Most businesses see overdue invoices only after they have failed. Without an early view of deteriorating accounts, bad debt and collection effort grow.
 lead: Most businesses see overdue invoices only after they have failed. Without an early view of deteriorating accounts, bad debt, funding costs and collection effort all grow.
 category: Finance Operations
 published_date: 2026-10-08
@@ -18,9 +18,9 @@ sources:
   - What is Power BI? - Power BI | https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview
   - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
 related:
-  - Paying the Same Supplier Invoice Twice: The Direct Cost of Weak Controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
-  - Typing Invoices From Data You Already Hold: The Labour and Billing Delay Cost | /impact/invoices-retyped-from-existing-records-billing-labour-cost/
-  - Retyping Invoices Into the Accounting System: The Labour and Error Cost | /impact/retyping-invoices-manual-capture-labour-error-cost/
+  - Paying the same supplier invoice twice: The direct cost of weak controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
+  - Typing invoices from data you already hold: The labour and billing delay cost | /impact/invoices-retyped-from-existing-records-billing-labour-cost/
+  - Retyping invoices into the accounting system: The labour and error cost | /impact/retyping-invoices-manual-capture-labour-error-cost/
 summary: Most businesses see overdue invoices only after they have failed. Without an early view of deteriorating accounts, bad debt, funding costs and collection effort all grow.
 layout: plain
 ---

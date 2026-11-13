@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-457
 slug: the-same-workflow-is-automated-independently-by-multiple-teams
 title: The same workflow is automated independently by multiple teams
-description: A governance gap emerges when several teams independently automate the same workflow, duplicating effort, fragmenting visibility, and increasing risk. This article explains the problem, why it matters now, and practical steps to unify automation strategy without stifling teams.
+description: Several teams automate the same workflow independently, duplicating effort and cutting visibility. How to unify automation strategy without stifling teams.
 lead: A governance gap emerges when several teams independently automate the same workflow, duplicating effort, fragmenting visibility, and increasing risk. This article explains the problem, why it matters now, and practical steps to unify automation strategy without stifling teams.
 category: AI, Automation & Agent Operations
 published_date: 2026-10-02
@@ -29,7 +29,7 @@ In a mid-sized business this rarely looks dramatic. It looks like three slightly
 
 ## The problem in plain language
 
-From a buyer's perspective, the symptom is straightforward: two or more teams implement the same business process automation without a single source of truth or shared governance. Rather than a single, well-understood workflow, there is a portfolio of similar automations that do not interoperate, making change management unpredictable and costlier over time. This fragmentation undermines effort to measure outcomes and to improve efficiency at scale.
+From the business's perspective, the symptom is straightforward: two or more teams implement the same business process automation without a single source of truth or shared governance. Rather than a single, well-understood workflow, there is a portfolio of similar automations that do not interoperate, making change management unpredictable and costlier over time. This fragmentation undermines effort to measure outcomes and to improve efficiency at scale.
 
 ### A worked example
 
@@ -37,9 +37,9 @@ Take a Johannesburg financial services firm with around 150 staff. Sales operati
 
 The underlying pattern, where each function improves its own step while the overall process gets harder to run, is described in [when every department optimises its part but the whole process gets worse](/patterns/when-every-department-optimizes-its-part-but-the-whole-process-gets-worse/).
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Leaders want predictable delivery of automation at scale, with a clear ownership boundary, a reusable set of templates, a versioned catalogue of automations, and a governance model that prevents redundant work. The buyer searches for assurance that each automation aligns with enterprise standards and contributes to measurable business outcomes rather than local victories.
+Leaders want predictable delivery of automation at scale, with a clear ownership boundary, a reusable set of templates, a versioned catalogue of automations, and a governance model that prevents redundant work. The business needs assurance that each automation aligns with enterprise standards and contributes to measurable business outcomes rather than local victories.
 
 ## Evidence and system mechanism
 
@@ -47,7 +47,7 @@ Leaders want predictable delivery of automation at scale, with a clear ownership
 - Disparate tool choices across teams create compatibility and security risks and hinder cross-team reuse.
 - Without version control or a shared framework, tracing decisions and validating outcomes becomes error-prone.
 
-Operationally, systems that enable this pattern often rely on independent runbooks, separate event schemas, and divergent logging. Low-code platforms make this especially likely because they put automation in the hands of many makers at once. Microsoft's guidance for its Power Platform reflects this: it recommends a Center of Excellence that provides standards, consistency and governance, maintains visibility of apps and flows across environments, and helps identify orphaned resources so they can be assigned new owners. The principle applies whichever platform you use.
+Operationally, systems that enable this pattern often rely on independent runbooks, separate event schemas, and divergent logging. Low-code platforms make this especially likely because they put automation in the hands of many makers at once. Microsoft's guidance for its [Power Platform](https://learn.microsoft.com/en-us/power-platform/guidance/adoption/coe) reflects this: it recommends a [Center of Excellence](https://learn.microsoft.com/en-us/power-platform/guidance/coe/overview) that provides standards, consistency and governance, maintains visibility of apps and flows across environments, and helps identify orphaned resources so they can be assigned new owners. The principle applies whichever platform you use.
 
 ### Warning signs
 
@@ -71,7 +71,7 @@ The maintenance cost is the one most often missed. Every duplicate needs to be u
 
 ## Root cause
 
-The root cause is a missing enterprise-wide automation governance model: no central catalog, no version-controlled templates, and no shared standards for runtimes, data models, or observability. This creates duplication and inhibits cross-functional reuse.
+The root cause is a missing enterprise-wide automation governance model: no central catalogue, no version-controlled templates, and no shared standards for runtimes, data models, or observability. This creates duplication and inhibits cross-functional reuse.
 
 A second, quieter cause is that teams cannot easily tell which processes are already automated or safe to automate. Without that visibility, building locally is the rational choice; see [teams cannot tell which processes are safe to automate](/discovery/teams-cannot-tell-processes-safe-to-automate/).
 
@@ -79,12 +79,12 @@ A second, quieter cause is that teams cannot easily tell which processes are alr
 
 1. **Inventory by event, not by tool.** List the business events that trigger automation (deal closed, invoice raised, employee hired) and record every automation that reacts to each one.
 2. **Check platform admin views.** Most automation platforms can list flows, owners and connections. Look for similar names and identical triggers.
-3. **Use event data where you have it.** Process mining extracts event data from systems of record to show how processes actually run, which can reveal parallel paths and repeated steps that workshops miss.
+3. **Use event data where you have it.** [Process mining](https://learn.microsoft.com/en-us/power-automate/process-mining-overview) extracts event data from systems of record to show how processes actually run, which can reveal parallel paths and repeated steps that workshops miss.
 4. **Interview the makers.** Ask what each automation does, what it writes to and who relies on it.
 
 ## Practical intervention
 
-Implement a centralized automation catalog with versioned templates, enforce architectural standards, and establish a single owning team responsible for governance. Promote reuse through standardized components, shared runtimes, and unified logging/metrics. Adopt a federated model where teams propose automations but register them in a common platform with a review gate before deployment.
+Implement a centralised automation catalogue with versioned templates, enforce architectural standards, and establish a single owning team responsible for governance. Promote reuse through standardised components, shared runtimes, and unified logging/metrics. Adopt a federated model where teams propose automations but register them in a common platform with a review gate before deployment.
 
 For a smaller business, "central team" may mean one operations lead with a few hours a week, and "catalogue" may be a well-kept register. That is enough if it is used. Each critical automation also needs a named support owner, as argued in [why critical low-code automations need support ownership](/discovery/why-critical-low-code-automations-need-support-ownership/).
 
@@ -94,7 +94,7 @@ Centralising too hard has a cost. A review gate that takes weeks will push teams
 
 ## Diagnostic questions
 
-- Is there a single catalog of automations with version history?
+- Is there a single catalogue of automations with version history?
 - Do all teams adhere to a standard set of templates and runtimes?
 - Can changes be traced to a change record with impact assessment?
 - Is there a defined owner for automation governance and a clear path to reuse?
@@ -102,7 +102,7 @@ Centralising too hard has a cost. A review gate that takes weeks will push teams
 
 ## What good looks like
 
-A mature state features a single automation catalog, institutionally enforced version control, and a governance body that approves new automations and enforces reuse of templates and runtimes. Observability and auditability are uniform across teams, enabling cost controls and faster improvement cycles. Someone is also explicitly responsible for watching the automations once they run, the theme of [who watches the automations](/insights/who-watches-the-automations/).
+A mature state features a single automation catalogue, institutionally enforced version control, and a governance body that approves new automations and enforces reuse of templates and runtimes. Observability and auditability are uniform across teams, enabling cost controls and faster improvement cycles. Someone is also explicitly responsible for watching the automations once they run, the theme of [who watches the automations](/insights/who-watches-the-automations/).
 
 ## What to do first
 

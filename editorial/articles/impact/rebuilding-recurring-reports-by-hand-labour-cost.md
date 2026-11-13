@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-020
 slug: rebuilding-recurring-reports-by-hand-labour-cost
-title: Rebuilding the Same Report Every Month: The Labour Cost of Manual Reporting
-description: Weekly and monthly reports that are rebuilt by hand consume skilled hours, introduce errors and depend on one person. Most can be built once and refreshed, freeing that time for analysis.
+title: Rebuilding the same report every month: The labour cost of manual reporting
+description: Weekly and monthly reports rebuilt by hand consume skilled hours, introduce errors and depend on one person. Build once, refresh, and free time to analyse.
 lead: Weekly and monthly reports that are rebuilt by hand consume skilled hours, introduce errors and depend on one person. Most can be built once and refreshed, freeing that time for analysis.
 category: Business Automation
 published_date: 2026-10-04
@@ -17,9 +17,10 @@ sources:
   - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
   - Email Subscriptions for Reports and Dashboards in the Power BI Service - Power BI | https://learn.microsoft.com/en-us/power-bi/collaborate-share/end-user-subscribe
 related:
-  - From Inbox to System by Hand: The Labour Cost of Retyping Emails | /impact/copying-email-details-into-business-systems-admin-cost/
-  - Paper Forms Captured Twice: The Cost of Double Handling | /impact/paper-forms-captured-twice-double-handling-cost/
-  - Predictable Appointments Still Carry a Cost When Staff Arrange Every Slot | /impact/manual-appointment-scheduling-administration-cost/
+  - From inbox to system by hand: The labour cost of retyping emails | /impact/copying-email-details-into-business-systems-admin-cost/
+  - Paper forms captured twice: The cost of double handling | /impact/paper-forms-captured-twice-double-handling-cost/
+  - Predictable appointments still carry a cost when staff arrange every slot | /impact/manual-appointment-scheduling-administration-cost/
+  - How to stop building management reports by hand | /insights/how-to-replace-the-monthly-spreadsheet-assembly-behind-management-reports/
 summary: Weekly and monthly reports that are rebuilt by hand consume skilled hours, introduce errors and depend on one person. Most can be built once and refreshed, freeing that time for analysis.
 layout: plain
 ---

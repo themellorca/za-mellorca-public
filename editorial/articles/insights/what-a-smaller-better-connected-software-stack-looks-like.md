@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-050
 slug: what-a-smaller-better-connected-software-stack-looks-like
-title: What a Smaller, Better-Connected Software Stack Looks Like
-description: Consolidation stalls without a clear destination. The five layers of a smaller, better-connected software stack, what changes for staff, and how to describe your own target.
+title: What a smaller, better-connected software stack looks like
+description: Consolidation stalls without a clear destination. The five layers of a smaller, better-connected software stack, and how to define yours.
 lead: Consolidation stalls without a clear destination. The five layers of a smaller, better-connected software stack, what changes for staff, and how to describe your own target.
 category: Systems Strategy
 published_date: 2026-10-06
@@ -15,7 +15,7 @@ sources:
   - Cloud app discovery overview - Microsoft Defender for Cloud Apps | https://learn.microsoft.com/en-us/defender-cloud-apps/set-up-cloud-discovery
 related:
   - Your AI strategy has an integration problem | /insights/your-ai-strategy-has-an-integration-problem/
-  - Why Software Consolidation Is an Operations Project, Not Just an IT Project | /insights/why-software-consolidation-is-an-operations-project-not-just-an-it-project/
+  - Why software consolidation is an operations project, not just an IT project | /insights/why-software-consolidation-is-an-operations-project-not-just-an-it-project/
   - Why your systems do not talk to each other | /insights/why-your-systems-do-not-talk-to-each-other/
 summary: Consolidation stalls without a clear destination. The five layers of a smaller, better-connected software stack, what changes for staff, and how to describe your own target.
 layout: plain
@@ -47,7 +47,7 @@ For a growing business, the operational benefit is just as important. When someo
 
 Core systems need to exchange information, and in a healthy stack they do so in a deliberate, visible way. That may be native connectors, an integration platform or a carefully governed automation tool. What matters is that connections are known, documented, owned and monitored, rather than built ad hoc whenever someone needs a report.
 
-The UK Government's Technology Code of Practice expresses the principle well: technology should work with existing technologies, processes and infrastructure in the organisation, and adapt to future demands. It also encourages sharing and reusing technology to avoid duplicating effort and unnecessary cost. Those two ideas, fit and reuse, sit at the heart of a smaller stack.
+The UK Government's [Technology Code of Practice](https://www.gov.uk/guidance/the-technology-code-of-practice) expresses the principle well: technology should work with existing technologies, processes and infrastructure in the organisation, and adapt to future demands. It also encourages sharing and reusing technology to avoid duplicating effort and unnecessary cost. Those two ideas, fit and reuse, sit at the heart of a smaller stack.
 
 ### 4. A short list of approved supporting tools
 

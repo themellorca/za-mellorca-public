@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-033
 slug: manually-moving-files-between-folders-systems-filing-cost
-title: Digital Filing by Hand: The Labour Cost of Moving Files Between Folders and Systems
-description: Downloading, renaming and moving files from inboxes to folders and from one system to another is paid digital filing work that creates duplicates, misfiles and record-keeping risk.
+title: Digital filing by hand: The labour cost of moving files between folders and systems
+description: Downloading, renaming and moving files between inboxes, folders and systems is paid filing work that creates duplicates, misfiles and record-keeping risk.
 lead: Downloading, renaming and moving files from inboxes to folders and from one system to another is paid digital filing work that creates duplicates, misfiles and record-keeping risk.
 category: Business Automation
 published_date: 2026-10-05
@@ -17,9 +17,9 @@ sources:
   - Record keeping - South African Revenue Service | https://www.sars.gov.za/client-segments/record-keeping/
   - Section 14 Retention and restriction of records - POPIA | https://popia.co.za/section-14-retention-and-restriction-of-records/
 related:
-  - From Inbox to System by Hand: The Labour Cost of Retyping Emails | /impact/copying-email-details-into-business-systems-admin-cost/
-  - Creating the Same Documents by Hand: The Labour Cost of Repeat Paperwork | /impact/same-documents-created-by-hand-repeat-paperwork-cost/
-  - Sending Routine Reminders by Hand: The Payroll Cost of Repetitive Follow-Up | /impact/manual-routine-reminders-repetitive-follow-up-payroll-cost/
+  - From inbox to system by hand: The labour cost of retyping emails | /impact/copying-email-details-into-business-systems-admin-cost/
+  - Creating the same documents by hand: The labour cost of repeat paperwork | /impact/same-documents-created-by-hand-repeat-paperwork-cost/
+  - Sending routine reminders by hand: The payroll cost of repetitive follow-up | /impact/manual-routine-reminders-repetitive-follow-up-payroll-cost/
 summary: Downloading, renaming and moving files from inboxes to folders and from one system to another is paid digital filing work that creates duplicates, misfiles and record-keeping risk.
 layout: plain
 ---
@@ -90,7 +90,7 @@ The best file movement is the one that never happens. Where possible, documents 
 
 ### Automate the rule-based moves
 
-Where files must move, rules can do it. Microsoft's documentation for the SharePoint connector in Power Automate lists triggers such as *When a file is created (properties only)* and actions including *Move file*, *Copy file* and *Create file*, which can file documents based on their properties. The same documentation notes practical limits: moving a file between libraries does not change its metadata and does not trigger flows in the destination library, and flows may batch several changes into one run. Designs need to allow for these behaviours rather than assume instant, one-for-one processing.
+Where files must move, rules can do it. Microsoft's documentation for the [SharePoint connector](https://learn.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/sharepoint-connector-actions-triggers) in Power Automate lists triggers such as *When a file is created (properties only)* and actions including *Move file*, *Copy file* and *Create file*, which can file documents based on their properties. The same documentation notes practical limits: moving a file between libraries does not change its metadata and does not trigger flows in the destination library, and flows may batch several changes into one run. Designs need to allow for these behaviours rather than assume instant, one-for-one processing.
 
 ### Agree naming and ownership
 

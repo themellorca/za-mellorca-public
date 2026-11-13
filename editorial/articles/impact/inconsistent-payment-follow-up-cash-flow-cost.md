@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-352
 slug: inconsistent-payment-follow-up-cash-flow-cost
-title: Late Payments Nobody Follows Up: The Cost of Slow Collections
-description: Inconsistent debtor follow-up leaves cash trapped in receivables for longer and pushes finance teams into reactive chasing. A controlled collections workflow improves visibility and cash discipline.
+title: Late payments nobody follows up: The cost of slow collections
+description: Inconsistent debtor follow-up keeps cash in receivables longer and forces reactive chasing. A controlled collections workflow improves visibility.
 lead: Once an invoice is due, silence is not a collections strategy. Inconsistent follow-up can leave cash tied up in receivables while the business continues paying payroll, suppliers and operating costs.
 category: Cash Flow
 published_date: 2026-09-01
@@ -27,9 +27,10 @@ sources:
 closing_title: Method note
 closing_text: Delayed receivables are not automatically lost revenue. Model working-capital and financing effects separately from bad debt, using your own sales, ageing and funding data.
 related:
-  - The Payroll Cost of a Slow, Spreadsheet-Heavy Month-End | /impact/manual-month-end-close-payroll-cost/
-  - Paying the Same Supplier Invoice Twice: The Direct Cost of Weak Controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
-  - Paying for Cloud Resources Nobody Uses | /impact/unused-cloud-resources-financial-waste/
+  - The payroll cost of a slow, spreadsheet-heavy month-end | /impact/manual-month-end-close-payroll-cost/
+  - Paying the same supplier invoice twice: The direct cost of weak controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
+  - Paying for cloud resources nobody uses | /impact/unused-cloud-resources-financial-waste/
+  - Disputes are tracked separately from invoice status | /discovery/why-invoice-disputes-live-in-email-while-the-ledger-says-overdue/
 ---
 ## The sale is complete but the cash is still outside the business
 

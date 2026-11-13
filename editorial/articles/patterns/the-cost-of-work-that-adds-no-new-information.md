@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-017
 slug: the-cost-of-work-that-adds-no-new-information
-title: The Cost of Work That Adds No New Information
-description: Reports, summaries, status updates and confirmations often restate facts that already sit in a system. Testing each for what it genuinely adds frees skilled time for interpretation and action.
+title: The cost of work that adds no new information
+description: Reports, summaries and status updates often restate facts already in a system. Testing each for what it adds frees skilled time for interpretation.
 lead: Reports, summaries, status updates and confirmations often restate facts that already sit in a system. Testing each for what it genuinely adds frees skilled time for interpretation and action.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -18,9 +18,9 @@ sources:
   - Failure Demand | https://beyondcommandandcontrol.com/failure-demand/
   - Email Subscriptions for Reports and Dashboards in the Power BI Service - Power BI | https://learn.microsoft.com/en-us/power-bi/collaborate-share/end-user-subscribe
 related:
-  - When New Business Brings More Paperwork Than Profit | /patterns/when-new-business-brings-more-paperwork-than-profit/
-  - When Repetitive Work Is Mistaken for Necessary Work | /patterns/when-repetitive-work-is-mistaken-for-necessary-work/
-  - When People Are Used to Move Data Instead of Make Decisions | /patterns/when-people-are-used-to-move-data-instead-of-make-decisions/
+  - When new business brings more paperwork than profit | /patterns/when-new-business-brings-more-paperwork-than-profit/
+  - When repetitive work is mistaken for necessary work | /patterns/when-repetitive-work-is-mistaken-for-necessary-work/
+  - When people are used to move data instead of make decisions | /patterns/when-people-are-used-to-move-data-instead-of-make-decisions/
 summary: Reports, summaries, status updates and confirmations often restate facts that already sit in a system. Testing each for what it genuinely adds frees skilled time for interpretation and action.
 layout: plain
 ---

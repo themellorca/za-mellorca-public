@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-016
 slug: why-growth-exposes-problems-that-were-already-there
-title: Why Growth Exposes Problems That Were Already There
-description: Many problems blamed on growth were present all along, hidden by spare capacity, a few capable people, proximity and low volume. What masks defects in a smaller business, why more volume makes them visible, and how to find them before the next stage of growth does.
+title: Why growth exposes problems that were already there
+description: Many problems blamed on growth were there all along, hidden by spare capacity, capable people and low volume. How to find them before growth does.
 lead: Many problems blamed on growth were present all along, hidden by spare capacity, a few capable people, proximity and low volume. What masks defects in a smaller business, why more volume makes them visible, and how to find them before the next stage of growth does.
 category: Digital Operations
 published_date: 2026-10-04
@@ -15,7 +15,7 @@ sources:
   - https://people.cs.umass.edu/~emery/classes/cmpsci691st/readings/OS/Littles-Law-50-Years-Later.pdf | https://people.cs.umass.edu/~emery/classes/cmpsci691st/readings/OS/Littles-Law-50-Years-Later.pdf
 related:
   - How to find the manual work nobody is measuring | /insights/how-to-find-the-manual-work-nobody-is-measuring/
-  - Why Operations Become Fragile Before They Become Obviously Broken | /insights/why-operations-become-fragile-before-they-become-obviously-broken/
+  - Why operations become fragile before they become obviously broken | /insights/why-operations-become-fragile-before-they-become-obviously-broken/
   - Before you automate, understand how the work actually moves | /insights/before-you-automate-understand-how-the-work-actually-moves/
 summary: Many problems blamed on growth were present all along, hidden by spare capacity, a few capable people, proximity and low volume. What masks defects in a smaller business, why more volume makes them visible, and how to find them before the next stage of growth does.
 layout: plain

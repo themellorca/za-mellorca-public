@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000298
 slug: why-documented-processes-help-people-grow-into-roles
-title: Why Documented Processes Help People Grow Into Roles
-description: Staff absence shows which roles can only be learned by being in the room. How written processes give learners something to practise against and the business more than one capable person.
+title: Why documented processes help people grow into roles
+description: Staff absence shows which roles can only be learned in the room. How written processes give learners something to practise against and the business cover.
 lead: Staff absence shows which roles can only be learned by being in the room. How written processes give learners something to practise against and the business more than one capable person.
 category: Learning, Capability & Growth
 published_date: 2026-10-08
@@ -20,9 +20,9 @@ sources:
   - Tacit knowledge - Wikipedia | https://en.wikipedia.org/wiki/Tacit_knowledge
   - 3 Ways to Use Knowledge Sharing - The Workstream | https://www.atlassian.com/work-management/knowledge-sharing
 related:
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
-  - When the Out-of-Office Reply Doesn't Stop the Work | /moments/when-the-out-of-office-reply-doesnt-stop-the-work/
-  - Why Nobody Trains for the Job of Being Human Middleware | /moments/why-nobody-trains-for-the-job-of-being-human-middleware/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - When the out-of-office reply doesn't stop the work | /moments/when-the-out-of-office-reply-doesnt-stop-the-work/
+  - Why nobody trains for the job of being human middleware | /moments/why-nobody-trains-for-the-job-of-being-human-middleware/
 summary: Staff absence shows which roles can only be learned by being in the room. How written processes give learners something to practise against and the business more than one capable person.
 layout: plain
 ---

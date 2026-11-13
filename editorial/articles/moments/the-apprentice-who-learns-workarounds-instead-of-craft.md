@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000299
 slug: the-apprentice-who-learns-workarounds-instead-of-craft
-title: The Apprentice Who Learns Workarounds Instead of Craft
+title: The apprentice who learns workarounds instead of craft
 description: New finance and admin staff are often taught the patches before the principles. Why that limits their growth, and how an office can teach the real work.
 lead: New finance and admin staff are often taught the patches before the principles. Why that limits their growth, and how an office can teach the real work.
 category: Learning and Growth
@@ -20,9 +20,10 @@ sources:
   - Situated learning - Wikipedia | https://en.wikipedia.org/wiki/Situated_learning
   - Cognitive apprenticeship - Wikipedia | https://en.wikipedia.org/wiki/Cognitive_apprenticeship
 related:
-  - The Owner Who Can Finally Say No to Work | /moments/the-owner-who-can-finally-say-no-to-work/
-  - The Employee Who Never Has Time to Learn | /moments/the-employee-who-never-has-time-to-learn/
-  - When Your Best Work Is Invisible Because It's Repair Work | /moments/when-your-best-work-is-invisible-because-its-repair-work/
+  - The owner who can finally say no to work | /moments/the-owner-who-can-finally-say-no-to-work/
+  - The employee who never has time to learn | /moments/the-employee-who-never-has-time-to-learn/
+  - When your best work is invisible because it's repair work | /moments/when-your-best-work-is-invisible-because-its-repair-work/
+  - When craft businesses spend more time on software than craft | /moments/when-craft-businesses-spend-more-time-on-software-than-craft/
 summary: New finance and admin staff are often taught the patches before the principles. Why that limits their growth, and how an office can teach the real work.
 layout: plain
 ---
@@ -46,7 +47,7 @@ Mellorca's work on [why repeated workarounds are a warning sign](/insights/why-r
 
 Apprenticeship, in its traditional sense, combines practice with gradual access to the reasoning of an experienced practitioner. General reference material describes it as a system of training in which a learner works under a skilled person while building toward full competence in a trade or profession. The learner is meant to see the whole job, not only the repetitive parts.
 
-Research on situated learning and cognitive apprenticeship goes further. It argues that people learn best when expertise is made visible: when the expert explains their thinking, the learner tries tasks with support, and the support is gradually withdrawn. The learner needs to see why decisions are made, not only what is done. An office that hands over a procedure without its reasoning delivers the first part of an apprenticeship and leaves out the part that builds judgement.
+Research on [situated learning](https://en.wikipedia.org/wiki/Situated_learning) and [cognitive apprenticeship](https://en.wikipedia.org/wiki/Cognitive_apprenticeship) goes further. It argues that people learn best when expertise is made visible: when the expert explains their thinking, the learner tries tasks with support, and the support is gradually withdrawn. The learner needs to see why decisions are made, not only what is done. An office that hands over a procedure without its reasoning delivers the first part of an apprenticeship and leaves out the part that builds judgement.
 
 Reference material on workarounds describes them as methods used to overcome a problem or limitation in a system, often temporary in intent but lasting in practice. A newcomer cannot tell which steps are essential and which are patches. To them, everything looks equally arbitrary. No survey of South African finance teams is cited here; this is an inference from general learning research.
 

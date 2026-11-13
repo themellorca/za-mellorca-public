@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-013
 slug: when-one-simple-request-turns-into-five-separate-jobs
-title: When One Simple Request Turns Into Five Separate Jobs
-description: A customer changes their billing contact and five people in three systems have to act. When small requests fan out into many manual actions, the business is missing a single place where a change is recorded once.
+title: When one simple request turns into five separate jobs
+description: One customer change means five people in three systems must act. Small requests fan out into manual work when a change is not recorded once.
 lead: A customer changes their billing contact and five people in three systems have to act. When small requests fan out into many manual actions, the business is missing a single place where a change is recorded once.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -19,9 +19,9 @@ sources:
   - Explore the Power Automate home page - Power Automate | https://learn.microsoft.com/en-us/power-automate/getting-started
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
 related:
-  - Why Teams Keep Building Manual Workarounds | /patterns/why-teams-keep-building-manual-workarounds/
-  - When Repetitive Work Is Mistaken for Necessary Work | /patterns/when-repetitive-work-is-mistaken-for-necessary-work/
-  - Why High-Value Employees Become Human Middleware | /patterns/why-high-value-employees-become-human-middleware/
+  - Why teams keep building manual workarounds | /patterns/why-teams-keep-building-manual-workarounds/
+  - When repetitive work is mistaken for necessary work | /patterns/when-repetitive-work-is-mistaken-for-necessary-work/
+  - Why high-value employees become human middleware | /patterns/why-high-value-employees-become-human-middleware/
 summary: A customer changes their billing contact and five people in three systems have to act. When small requests fan out into many manual actions, the business is missing a single place where a change is recorded once.
 layout: plain
 ---
@@ -77,7 +77,7 @@ Another response is to buy an all-in-one system so that everything lives in one 
 
 In a better state, a change is recorded once, in the system that owns that information, and flows from there to every system that needs it. The request comes in through a structured form or a portal rather than free text, so it is clear from the start what is changing and from when. The business can see, for any request, whether it has been completed everywhere.
 
-Workflow tools make this practical for smaller businesses. IBM describes workflow automation as software executing all or part of a process to replace manual tasks. Microsoft's documentation describes Power Automate as a service for creating automated workflows between apps and services to synchronise files, collect data and send notifications. For the engineering firm, that could mean a site-addition form that creates the scheduling record, updates the contract and roster and notifies accounts in one step, with a person reviewing only the commercial terms.
+Workflow tools make this practical for smaller businesses. IBM describes [workflow automation](https://www.ibm.com/think/topics/workflow-automation) as software executing all or part of a process to replace manual tasks. Microsoft's documentation describes [Power Automate](https://learn.microsoft.com/en-us/power-automate/getting-started) as a service for creating automated workflows between apps and services to synchronise files, collect data and send notifications. For the engineering firm, that could mean a site-addition form that creates the scheduling record, updates the contract and roster and notifies accounts in one step, with a person reviewing only the commercial terms.
 
 ## Intervention
 

@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-156
 slug: undefined-recovery-point-how-much-data-business-can-lose-financial-risk
-title: How Much Data Could You Lose? The Cost of an Undefined Recovery Point
-description: Most businesses have backups but have never decided how many hours of work they can afford to lose, so the real answer is set by an old default schedule and discovered on the worst day.
+title: How much data could you lose? The cost of an undefined recovery point
+description: Most businesses have backups but never decided how many hours of work they can afford to lose, so an old default schedule sets the answer on the worst day.
 lead: Most businesses have backups but have never decided how many hours of work they can afford to lose, so the real answer is set by an old default schedule and discovered on the worst day.
 category: Risk and Continuity
 published_date: 2026-10-09
@@ -16,11 +16,12 @@ sources:
   - Architecture strategies for defining reliability targets - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/metrics
   - Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud | https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html
   - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
 related:
-  - The Spreadsheet Only One Person Understands: Financial and Continuity Risk | /impact/business-run-on-spreadsheet-one-person-understands-financial-continuity-risk/
-  - Recurring Tasks That Live in Someone's Memory: The Cost of Missed Work | /impact/recurring-tasks-relying-on-memory-missed-work-cost/
-  - One Backup Method, No Fallback: The Financial Cost of a Single Point of Recovery | /impact/single-backup-method-no-recovery-fallback-cost/
+  - The spreadsheet only one person understands: Financial and continuity risk | /impact/business-run-on-spreadsheet-one-person-understands-financial-continuity-risk/
+  - Recurring tasks that live in someone's memory: The cost of missed work | /impact/recurring-tasks-relying-on-memory-missed-work-cost/
+  - One backup method, no fallback: The financial cost of a single point of recovery | /impact/single-backup-method-no-recovery-fallback-cost/
+  - Recovery plans list systems but not the business services they support | /discovery/why-recovery-plans-should-be-organised-around-business-services-not-servers/
 summary: Most businesses have backups but have never decided how many hours of work they can afford to lose, so the real answer is set by an old default schedule and discovered on the worst day.
 layout: plain
 ---

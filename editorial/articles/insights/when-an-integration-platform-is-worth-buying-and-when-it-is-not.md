@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-066
 slug: when-an-integration-platform-is-worth-buying-and-when-it-is-not
-title: When an Integration Platform Makes Sense—and When It Does Not
-description: An integration platform can tame a tangle of connections, or become one more system to maintain. How to judge which, based on the number of systems, shared events, ownership and cost.
+title: When an integration platform makes sense—and when it does not
+description: An integration platform can tame a tangle of connections or become one more system to maintain. How to judge which, by systems, events, ownership and cost.
 lead: An integration platform can tame a tangle of connections, or become one more system to maintain. How to judge which, based on the number of systems, shared events, ownership and cost.
 category: Systems Integration
 published_date: 2026-10-09
@@ -15,9 +15,10 @@ sources:
   - Optimize your implementation with a fit-to-standard and fit-gap analysis - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis
   - What Are Data Silos? - IBM | https://www.ibm.com/think/topics/data-silos
 related:
-  - How to Integrate a New Platform Into an Existing Business | /insights/how-to-integrate-a-new-platform-into-an-existing-business/
+  - How to integrate a new platform into an existing business | /insights/how-to-integrate-a-new-platform-into-an-existing-business/
   - How to decide what should be the system of record | /insights/how-to-decide-what-should-be-the-system-of-record/
   - What management cannot see usually becomes expensive | /insights/what-management-cannot-see-usually-becomes-expensive/
+  - How to design a business application architecture | /insights/designing-the-architecture-behind-a-business-application/
 summary: An integration platform can tame a tangle of connections, or become one more system to maintain. How to judge which, based on the number of systems, shared events, ownership and cost.
 layout: plain
 ---
@@ -36,9 +37,9 @@ The alternative is not "no integration". It is usually one of three things: the 
 A platform tends to earn its keep when several of the following are true at once.
 
 - **Three or more systems exchange data.** With two systems, one connection is enough. With five systems, direct connections can multiply into ten, each with its own logic and its own failure mode. The pattern is described in [point-to-point integrations versus a more maintainable integration architecture](/insights/point-to-point-integrations-vs-a-more-maintainable-integration-architecture/).
-- **The same event matters to more than one system.** A confirmed order may need to reach stock, invoicing, the courier and the customer's notification. Microsoft's architecture guidance describes the publisher-subscriber pattern for this situation: the sender announces an event once, and each interested system receives it, rather than the sender knowing about every receiver.
+- **The same event matters to more than one system.** A confirmed order may need to reach stock, invoicing, the courier and the customer's notification. Microsoft's architecture guidance describes the [publisher-subscriber pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber) for this situation: the sender announces an event once, and each interested system receives it, rather than the sender knowing about every receiver.
 - **Systems change often.** If you expect to swap the billing tool or add a new sales channel within two years, putting the connections in one managed layer makes each swap a change in one place instead of five.
-- **Volumes are uneven.** Month-end, a Black Friday promotion or a payroll run can produce bursts that a simple direct connection cannot absorb. Microsoft's queue-based load levelling pattern describes how a queue between systems smooths such bursts so the receiver is not overwhelmed.
+- **Volumes are uneven.** Month-end, a Black Friday promotion or a payroll run can produce bursts that a simple direct connection cannot absorb. Microsoft's [queue-based load levelling pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling) describes how a queue between systems smooths such bursts so the receiver is not overwhelmed.
 - **Someone will own it.** A platform needs a named person or team who understands the flows, watches for failures and approves changes. Without that, even a good platform decays.
 
 ## When it does not
@@ -55,11 +56,11 @@ There are equally clear signs that a platform is premature.
 
 The licence fee is the visible cost. The hidden ones are larger. Connectors rarely cover every field you care about, so custom mapping is needed. Foreign-currency platforms bill in dollars or euros, so a weaker Rand quietly raises the price each renewal. Staff or contractors need training, and the person who builds the flows becomes a dependency, a risk explored in [key-person dependency is a systems problem](/insights/key-person-dependency-is-a-systems-problem/). There is also the matter of lock-in: flows built in a vendor's proprietary canvas cannot usually be exported and run elsewhere.
 
-Microsoft's implementation guidance on fit-to-standard analysis makes a point that applies here as well. Where a standard capability meets the requirement, use it, and customise only where the gap is genuine. Applied to integration, that means asking whether native connections already cover most of the need before building a layer on top of them.
+Microsoft's [implementation guidance on fit-to-standard analysis](https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis) makes a point that applies here as well. Where a standard capability meets the requirement, use it, and customise only where the gap is genuine. Applied to integration, that means asking whether native connections already cover most of the need before building a layer on top of them.
 
 ## Data protection does not disappear
 
-An integration platform becomes a place where personal information passes through, and in many designs a place where it is stored temporarily in logs or queues. Under the Protection of Personal Information Act, a business remains responsible for the personal information it hands to an operator. Ask where the platform's servers are, what it logs, how long failed messages are kept, and who at the vendor can see them. The IBM overview of data silos is a useful reminder of the opposite risk too: when systems are not connected, the same personal information is duplicated across disconnected stores, each of which must be kept accurate and secured.
+An integration platform becomes a place where personal information passes through, and in many designs a place where it is stored temporarily in logs or queues. Under the Protection of Personal Information Act, a business remains responsible for the personal information it hands to an operator. Ask where the platform's servers are, what it logs, how long failed messages are kept, and who at the vendor can see them. The [IBM overview of data silos](https://www.ibm.com/think/topics/data-silos) is a useful reminder of the opposite risk too: when systems are not connected, the same personal information is duplicated across disconnected stores, each of which must be kept accurate and secured.
 
 ## A short decision test
 
@@ -78,7 +79,9 @@ If the answers point to several systems, shared events, frequent change and a cl
 
 The following is a hypothetical case. A Gqeberha company selling industrial fasteners runs an online store, a separate stock system, an accounting package and a courier portal. Orders are retyped into the stock system by two staff members each morning. The owner is shown an integration platform and told it will remove the retyping.
 
-Mapping the flows shows that the store and the accounting package already have a maintained connector, which the company had simply never switched on. The stock system has a basic export that can feed the courier portal. Only one flow, orders into stock, has no off-the-shelf option. The company builds that single connection with a developer, documents it and assigns an owner. It spends a fraction of the platform's annual cost and removes the retyping within a month. Two years later, with a second warehouse and a marketplace channel added, the number of systems has grown to six, and a platform is now a reasonable discussion. The decision was right at both points because it followed the business, not the brochure.
+Mapping the flows shows that the store and the accounting package already have a maintained connector, which the company had simply never switched on. The stock system has a basic export that can feed the courier portal. Only one flow, orders into stock, has no off-the-shelf option. The company builds that single connection with a developer, documents it and assigns an owner.
+
+It spends a fraction of the platform's annual cost and removes the retyping within a month. Two years later, with a second warehouse and a marketplace channel added, the number of systems has grown to six, and a platform is now a reasonable discussion. The decision was right at both points because it followed the business, not the brochure.
 
 ## The point
 

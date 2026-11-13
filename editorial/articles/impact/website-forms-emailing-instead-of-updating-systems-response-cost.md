@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-081
 slug: website-forms-emailing-instead-of-updating-systems-response-cost
-title: Forms That Email Instead of Update: The Cost of Slow Replies and Lost Enquiries
-description: When a website form only sends an email, enquiries wait in an inbox, get retyped by hand and go cold. Connecting the form to a record with an owner and a clock removes most of the delay.
+title: Forms that email instead of update: The cost of slow replies and lost enquiries
+description: When a website form only sends an email, enquiries wait in an inbox, get retyped and go cold. Linking the form to an owned record cuts the delay.
 lead: When a website form only sends an email, enquiries wait in an inbox, get retyped by hand and go cold. Connecting the form to a record with an owner and a clock removes most of the delay.
 category: Digital Operations
 published_date: 2026-10-08
@@ -15,11 +15,12 @@ primary_cost_mechanism: Slow response and lost enquiries, re-keying labour, data
 sources:
   - Triggers - Power Automate | https://learn.microsoft.com/en-us/power-automate/triggers-introduction
   - Explore the Power Automate home page - Power Automate | https://learn.microsoft.com/en-us/power-automate/getting-started
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
 related:
-  - Fixing Avoidable Mistakes Instead of Serving Customers: The Cost of Rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
-  - New Starters Waiting for Logins: The Payroll Cost of Slow Access Setup | /impact/new-starters-waiting-for-logins-access-setup-cost/
-  - Hours Lost to Formatting: The Cost of Tidying Documents and Spreadsheets by Hand | /impact/formatting-documents-spreadsheets-by-hand-cost/
+  - Fixing avoidable mistakes instead of serving customers: The cost of rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
+  - New starters waiting for logins: The payroll cost of slow access setup | /impact/new-starters-waiting-for-logins-access-setup-cost/
+  - Hours lost to formatting: The cost of tidying documents and spreadsheets by hand | /impact/formatting-documents-spreadsheets-by-hand-cost/
+  - Slow website, lost visitors: The revenue cost of poor page speed | /impact/slow-website-visitors-leave-before-enquiring-page-speed-revenue-cost/
 summary: When a website form only sends an email, enquiries wait in an inbox, get retyped by hand and go cold. Connecting the form to a record with an owner and a clock removes most of the delay.
 layout: plain
 ---

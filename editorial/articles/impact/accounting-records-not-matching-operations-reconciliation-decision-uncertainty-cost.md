@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-082
 slug: accounting-records-not-matching-operations-reconciliation-decision-uncertainty-cost
-title: When the Books Do Not Match the Business: The Cost of Constant Reconciliation
-description: When accounting figures disagree with stock, sales and service records, finance staff lose days to reconciliation and owners make decisions on numbers they do not fully trust.
+title: When the books do not match the business: The cost of constant reconciliation
+description: When accounting figures disagree with stock, sales and service records, finance loses days to reconciliation and owners decide on doubtful numbers.
 lead: When accounting figures disagree with stock, sales and service records, finance staff lose days to reconciliation and owners make decisions on numbers they do not fully trust.
 category: Finance Operations
 published_date: 2026-10-09
@@ -17,9 +17,9 @@ sources:
   - Reconcile bank accounts - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately
   - Value-Added Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/
 related:
-  - Paying the Same Supplier Invoice Twice: The Direct Cost of Weak Controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
-  - Chasing Staff for Receipts: The Payroll Cost of Expense Administration | /impact/chasing-employees-for-receipts-expense-information-payroll-cost/
-  - Retyping Invoices Into the Accounting System: The Labour and Error Cost | /impact/retyping-invoices-manual-capture-labour-error-cost/
+  - Paying the same supplier invoice twice: The direct cost of weak controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
+  - Chasing staff for receipts: The payroll cost of expense administration | /impact/chasing-employees-for-receipts-expense-information-payroll-cost/
+  - Retyping invoices into the accounting system: The labour and error cost | /impact/retyping-invoices-manual-capture-labour-error-cost/
 summary: When accounting figures disagree with stock, sales and service records, finance staff lose days to reconciliation and owners make decisions on numbers they do not fully trust.
 layout: plain
 ---

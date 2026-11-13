@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-094
 slug: why-metered-usage-data-is-disconnected-from-the-contract-it-should-be-billed-against
 title: Why usage-based billing data never quite matches the customer contract
-description: Usage records arrive from one system and contract terms sit in another, so every metered invoice needs a human to reconcile them. How to connect the two and stop the disputes.
+description: Usage records and contract terms sit in different systems, so every metered invoice needs a human to reconcile it. How to connect them and stop disputes.
 lead: Usage records arrive from one system and contract terms sit in another, so every metered invoice needs a human to reconcile them. How to connect the two and stop the disputes.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-10
@@ -32,9 +32,9 @@ This article looks at that operating condition: usage-based billing data that is
 
 Usage billing needs two things to meet: a measurement, and a rule. The measurement comes from an operational system. The rule comes from the contract: the unit price, the free allowance, the tiers, the minimum monthly charge, the date the new rate takes effect. In many businesses these live in different places and are joined by a person with a spreadsheet. The join is slow, and every manual step is a chance for the wrong rate, the wrong period or the wrong customer.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer is trying to issue a usage invoice that the customer accepts without questions, on the day it should go out. That requires the contract terms to be machine-readable enough that the billing step can apply them, and the usage records to be traceable to a customer, a contract and a period. The goal is not a more elaborate pricing scheme. It is a dependable link between what was agreed and what was measured.
+The business is trying to issue a usage invoice that the customer accepts without questions, on the day it should go out. That requires the contract terms to be machine-readable enough that the billing step can apply them, and the usage records to be traceable to a customer, a contract and a period. The goal is not a more elaborate pricing scheme. It is a dependable link between what was agreed and what was measured.
 
 ## Evidence and system mechanism
 

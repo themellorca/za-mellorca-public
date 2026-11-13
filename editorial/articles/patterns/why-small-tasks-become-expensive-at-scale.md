@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-006
 slug: why-small-tasks-become-expensive-at-scale
-title: Why Small Tasks Become Expensive at Scale
-description: A two-minute task looks too small to fix, but its cost is set by how often it runs, who does it and what it interrupts. Counting the multiplier shows which small tasks have quietly become large ones.
+title: Why small tasks become expensive at scale
+description: A two-minute task looks too small to fix, but its cost depends on how often it runs, who does it and what it interrupts. Count the multiplier.
 lead: A two-minute task looks too small to fix, but its cost is set by how often it runs, who does it and what it interrupts. Counting the multiplier shows which small tasks have quietly become large ones.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -18,9 +18,10 @@ sources:
   - Muda, Mura, Muri - Get a Quick Introduction - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/muda/
   - What Is Task Mining? - IBM | https://www.ibm.com/think/topics/task-mining
 related:
-  - The Daily Routine Nobody Remembers the Reason For | /patterns/the-daily-routine-nobody-remembers-the-reason-for/
-  - The Cost of Work That Adds No New Information | /patterns/the-cost-of-work-that-adds-no-new-information/
-  - Why Recurring Tasks Should Trigger a Process Review | /patterns/why-recurring-tasks-should-trigger-a-process-review/
+  - The daily routine nobody remembers the reason for | /patterns/the-daily-routine-nobody-remembers-the-reason-for/
+  - The cost of work that adds no new information | /patterns/the-cost-of-work-that-adds-no-new-information/
+  - Why recurring tasks should trigger a process review | /patterns/why-recurring-tasks-should-trigger-a-process-review/
+  - The first signs that manual work has become structural | /patterns/the-first-signs-that-manual-work-has-become-structural/
 summary: A two-minute task looks too small to fix, but its cost is set by how often it runs, who does it and what it interrupts. Counting the multiplier shows which small tasks have quietly become large ones.
 layout: plain
 ---
@@ -78,7 +79,7 @@ For the building-supplies distributor, that might mean a single order view that 
 
 ## Intervention
 
-1. **Count before you choose.** For one or two weeks, have each team tally the small tasks they repeat. A simple sheet with task name and tick marks is enough. Where systems allow it, task mining tools can record step-level activity, but a manual count is a perfectly good start. The Insight [how to find the manual work nobody is measuring](/insights/how-to-find-the-manual-work-nobody-is-measuring/) sets out other methods.
+1. **Count before you choose.** For one or two weeks, have each team tally the small tasks they repeat. A simple sheet with task name and tick marks is enough. Where systems allow it, [task mining](https://www.ibm.com/think/topics/task-mining) tools can record step-level activity, but a manual count is a perfectly good start. The Insight [how to find the manual work nobody is measuring](/insights/how-to-find-the-manual-work-nobody-is-measuring/) sets out other methods.
 2. **Multiply.** For each task, estimate minutes per instance times instances per day times working days. Add a note on how often it goes wrong and what it holds up.
 3. **Ask why the task exists.** For the top five, identify the missing information or link that makes the task necessary.
 4. **Remove, then automate.** First ask whether the step can be dropped or merged. Only then consider automating what remains, using the approach in [how to calculate the real cost of a repetitive task](/insights/how-to-calculate-the-real-cost-of-a-repetitive-task/) to decide whether it is worth it.

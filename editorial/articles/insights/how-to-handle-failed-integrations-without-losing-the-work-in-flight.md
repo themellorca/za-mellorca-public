@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-067
 slug: how-to-handle-failed-integrations-without-losing-the-work-in-flight
-title: How to Handle Failed Integrations Without Losing Work
-description: Every integration fails eventually. What matters is whether the order, invoice or customer update that was in flight is held safely, visible to a named person and recoverable without retyping.
+title: How to handle failed integrations without losing work
+description: Every integration fails eventually. What matters is whether the order or invoice in flight is held safely, visible to a named person and recoverable.
 lead: Every integration fails eventually. What matters is whether the order, invoice or customer update that was in flight is held safely, visible to a named person and recoverable without retyping.
 category: Systems Integration
 published_date: 2026-10-10
@@ -15,9 +15,10 @@ sources:
   - Compensating Transaction Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction
   - Handle Workflow Errors and Exceptions - Azure Logic Apps | https://learn.microsoft.com/en-us/azure/logic-apps/error-exception-handling
 related:
-  - How to Integrate a New Platform Into an Existing Business | /insights/how-to-integrate-a-new-platform-into-an-existing-business/
-  - How to Design Integrations for Change, Not Just for Launch | /insights/how-to-design-integrations-that-survive-supplier-and-business-change/
-  - How Integration Errors Turn Into Customer Problems | /insights/from-rejected-message-to-unhappy-customer-how-integration-errors-reach-customers/
+  - How to integrate a new platform into an existing business | /insights/how-to-integrate-a-new-platform-into-an-existing-business/
+  - How to design integrations for change, not just for launch | /insights/how-to-design-integrations-that-survive-supplier-and-business-change/
+  - How integration errors turn into customer problems | /insights/from-rejected-message-to-unhappy-customer-how-integration-errors-reach-customers/
+  - How to build a maintenance plan for business automations | /insights/a-maintenance-plan-for-the-automations-you-already-run/
 summary: Every integration fails eventually. What matters is whether the order, invoice or customer update that was in flight is held safely, visible to a named person and recoverable without retyping.
 layout: plain
 ---
@@ -61,7 +62,9 @@ Recovery has two parts: getting held work moving again, and cleaning up where an
 
 For the first part, the replay step must be safe. If an order was processed by the receiver just before the connection dropped, replaying it may create a duplicate. Identify each message with a unique reference, such as the order number, and make the receiving side check whether that reference has already been handled. Without this, a recovery effort can double-bill customers or double-book stock.
 
-For the second part, consider a process that runs in several steps: create the customer, reserve the stock, raise the invoice. If the third step fails, the first two have already happened. Microsoft's description of the compensating transaction pattern addresses this: where steps span separate systems you cannot simply roll everything back, so you define in advance how to undo each completed step, and apply those reversals in reverse order if something later fails. For a small business, the compensating action may be as simple as a written instruction: "if the invoice step fails, release the stock reservation and flag the order for a person". What matters is that it is decided in advance, not improvised at 17:30 on a Friday.
+For the second part, consider a process that runs in several steps: create the customer, reserve the stock, raise the invoice. If the third step fails, the first two have already happened. Microsoft's description of the [compensating transaction pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction) addresses this: where steps span separate systems you cannot simply roll everything back, so you define in advance how to undo each completed step, and apply those reversals in reverse order if something later fails.
+
+For a small business, the compensating action may be as simple as a written instruction: "if the invoice step fails, release the stock reservation and flag the order for a person". What matters is that it is decided in advance, not improvised at 17:30 on a Friday.
 
 ## Keep a manual route alive
 
@@ -87,7 +90,9 @@ Testing deserves a special mention. The simplest test is to switch a connection 
 
 ## An illustrative example
 
-The following is a hypothetical case. A Cape Town company that sells office furniture sends confirmed web orders into its accounting package. After a software update, a field is renamed and every order is rejected. In the original design, the rejected orders vanish into a log file. In the redesigned version, rejected orders are saved whole to a failed-items sheet, and a message goes to the shared operations channel within fifteen minutes: "9 orders rejected, reason: unknown field". The operations coordinator sees it at the next check, the developer corrects the mapping, and the coordinator replays the nine orders. Because each carries its order number and the accounting package refuses duplicates, nothing is entered twice. The delay is under two hours. The customers never know.
+The following is a hypothetical case. A Cape Town company that sells office furniture sends confirmed web orders into its accounting package. After a software update, a field is renamed and every order is rejected. In the original design, the rejected orders vanish into a log file.
+
+In the redesigned version, rejected orders are saved whole to a failed-items sheet, and a message goes to the shared operations channel within fifteen minutes: "9 orders rejected, reason: unknown field". The operations coordinator sees it at the next check, the developer corrects the mapping, and the coordinator replays the nine orders. Because each carries its order number and the accounting package refuses duplicates, nothing is entered twice. The delay is under two hours. The customers never know.
 
 ## The point
 

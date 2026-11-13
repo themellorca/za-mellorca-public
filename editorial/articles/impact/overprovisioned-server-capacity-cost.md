@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-228
 slug: overprovisioned-server-capacity-cost
-title: Paying for Server Capacity the Business Does Not Use
-description: Servers sized for an imagined peak keep billing at full size every month. Utilisation data, sensible headroom and a rightsizing routine turn insurance capacity into a deliberate decision.
+title: Paying for server capacity the business does not use
+description: Servers sized for an imagined peak bill at full size every month. Utilisation data, sensible headroom and a rightsizing routine make capacity deliberate.
 lead: Servers sized for an imagined peak keep billing at full size every month. Utilisation data, sensible headroom and a rightsizing routine turn insurance capacity into a deliberate decision.
 category: Digital Infrastructure
 published_date: 2026-10-03
@@ -17,9 +17,10 @@ sources:
   - What is AWS Compute Optimizer? - AWS Compute Optimizer | https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html
   - Select the correct resource type, size, and number - Cost Optimization Pillar | https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/select-the-correct-resource-type-size-and-number.html
 related:
-  - Manual Device Setup Adds Labour and Repeat Work to Every Rollout | /impact/manual-device-setup-labour-rework-cost/
-  - Slow Computers Turn Small Delays into Paid Waiting | /impact/slow-computers-paid-waiting-cost/
-  - New Employees Without Equipment Create Paid Onboarding Delay | /impact/new-employees-without-equipment-onboarding-cost/
+  - Manual device setup adds labour and repeat work to every rollout | /impact/manual-device-setup-labour-rework-cost/
+  - Slow computers turn small delays into paid waiting | /impact/slow-computers-paid-waiting-cost/
+  - New employees without equipment create paid onboarding delay | /impact/new-employees-without-equipment-onboarding-cost/
+  - The server nobody can explain: What forgotten infrastructure costs every year | /impact/servers-running-nobody-remembers-why-forgotten-infrastructure-cost-risk/
 summary: Servers sized for an imagined peak keep billing at full size every month. Utilisation data, sensible headroom and a rightsizing routine turn insurance capacity into a deliberate decision.
 layout: plain
 ---

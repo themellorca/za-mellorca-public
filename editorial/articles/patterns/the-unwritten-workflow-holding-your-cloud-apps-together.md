@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-042
 slug: the-unwritten-workflow-holding-your-cloud-apps-together
-title: The Unwritten Workflow Holding Your Cloud Apps Together
-description: A form emails an inbox, someone posts it in a chat group, a thumbs-up means approved and a coordinator creates the project. When separate cloud tools are linked only by habits and notifications, the real process is invisible, fragile and hard to hand over.
+title: The unwritten workflow holding your cloud apps together
+description: When cloud tools are linked only by habits and notifications, the real process is invisible, fragile and hard to hand over. Here is how to see it.
 lead: A form emails an inbox, someone posts it in a chat group, a thumbs-up means approved and a coordinator creates the project. When separate cloud tools are linked only by habits and notifications, the real process is invisible, fragile and hard to hand over.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-05
@@ -18,9 +18,9 @@ sources:
   - Guide to Slack Workflow Builder | https://slack.com/help/articles/360035692513-Guide-to-Slack-Workflow-Builder
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
 related:
-  - When the Next Step Waits for Someone to Check Another System | /patterns/when-the-next-step-waits-for-someone-to-check-another-system/
-  - When Your Website Promises What Your Back Office Cannot See | /patterns/when-your-website-promises-what-your-back-office-cannot-see/
-  - When APIs Exist but the Business Still Works Manually | /patterns/when-apis-exist-but-the-business-still-works-manually/
+  - When the next step waits for someone to check another system | /patterns/when-the-next-step-waits-for-someone-to-check-another-system/
+  - When your website promises what your back office cannot see | /patterns/when-your-website-promises-what-your-back-office-cannot-see/
+  - When APIs exist but the business still works manually | /patterns/when-apis-exist-but-the-business-still-works-manually/
 summary: A form emails an inbox, someone posts it in a chat group, a thumbs-up means approved and a coordinator creates the project. When separate cloud tools are linked only by habits and notifications, the real process is invisible, fragile and hard to hand over.
 layout: plain
 ---
@@ -36,9 +36,9 @@ An illustrative example: a Pretoria marketing agency with about twenty staff ran
 
 When a business adopts separate cloud tools for forms, email, chat, projects, files and billing, the process does not disappear. It moves into the spaces between those tools. Because none of the tools is responsible for the whole flow, the flow is held together by people's knowledge of what to do when a certain notification appears.
 
-That has a consequence that is easy to miss: the real workflow becomes invisible to the business's own records. Microsoft describes process mining as a way to understand how processes actually run by extracting event data from systems of record. It can only see what the systems record. A thumbs-up in a chat group or a forwarded email that prompts someone to act leaves little or no trace in the systems that hold the official process.
+That has a consequence that is easy to miss: the real workflow becomes invisible to the business's own records. Microsoft describes [process mining](https://learn.microsoft.com/en-us/power-automate/process-mining-overview) as a way to understand how processes actually run by extracting event data from systems of record. It can only see what the systems record. A thumbs-up in a chat group or a forwarded email that prompts someone to act leaves little or no trace in the systems that hold the official process.
 
-Many cloud tools now offer their own workflow features. Slack's Workflow Builder, for example, can automate routine steps and connect to other apps. These features can help, but only once someone has decided what the workflow is. Without that decision, each tool's automation tends to copy one fragment of the unwritten process.
+Many cloud tools now offer their own workflow features. Slack's [Workflow Builder](https://slack.com/help/articles/360035692513-Guide-to-Slack-Workflow-Builder), for example, can automate routine steps and connect to other apps. These features can help, but only once someone has decided what the workflow is. Without that decision, each tool's automation tends to copy one fragment of the unwritten process.
 
 **Realisation prompt:** if you watched one client request from start to finish, how many steps would happen in chat, email or someone's memory rather than in a system?
 
@@ -62,7 +62,7 @@ The commercial value at stake is resilience, capacity, risk and scalability.
 
 An unwritten workflow is fragile. When the person who carries it is away, leaves or is simply busy, work stalls. Growth makes the problem worse: more requests mean more notifications and messages, and the chance of something being missed rises with volume. Adding staff helps less than expected, because each new person must learn the unwritten rules by observation.
 
-There is also compliance exposure. Section 19 of the Protection of Personal Information Act requires a responsible party to secure the integrity and confidentiality of personal information through appropriate, reasonable technical and organisational measures. Client information copied into chat groups and personal folders is harder to secure, track and remove. The Insight on [why work gets lost between teams](/insights/why-work-gets-lost-between-teams/) describes how these gaps lose work as well as data.
+There is also compliance exposure. Section 19 of the Protection of Personal Information Act requires a responsible party to secure the [integrity and confidentiality of personal information](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/) through appropriate, reasonable technical and organisational measures. Client information copied into chat groups and personal folders is harder to secure, track and remove. The Insight on [why work gets lost between teams](/insights/why-work-gets-lost-between-teams/) describes how these gaps lose work as well as data.
 
 Finally, the business cannot improve what it cannot see. Managers may conclude that the tools are at fault and buy another, adding a further gap to an already invisible process.
 

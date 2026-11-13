@@ -18,6 +18,7 @@ side_title: Topics
 sources:
   - https://ics.uci.edu/~gmark/chi08-mark.pdf | https://ics.uci.edu/~gmark/chi08-mark.pdf
   - The Kanban Guide - May 2025 (latest) - Kanban Guides | https://kanbanguides.org/english/
+  - Visual Management - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/visual-management/
 closing_title: Make status a system capability
 closing_text: [Explore our solutions](/solutions/) or [start a conversation](/contact/).
 related:
@@ -27,7 +28,7 @@ related:
 ---
 “Any update?” looks harmless until it becomes part of the operating model. Sales asks operations. Operations asks finance. Managers ask teams. Customers ask service. Every request consumes attention because the system cannot answer a basic question: what state is this work in now?
 
-Most organisations treat this as a communication issue. They ask people to be more proactive, introduce a weekly status meeting, or set up a shared channel for updates. Those measures can help for a while, but they treat the symptom. If the only way to learn where work stands is to ask a person, the business has made status a manual task, and manual tasks degrade when people are busy.
+Most organisations treat this as a communication issue. They ask people to be more proactive, introduce a weekly status meeting, or set up a shared channel for updates. Those measures can help for a while, but they treat the symptom. If the only way to learn where work stands is to ask a person, the business has made status a manual task, and manual tasks degrade when people are busy. The Lean Enterprise Institute's description of [visual management](https://www.lean.org/lexicon-terms/visual-management/) puts the aim plainly: the status of the system should be understandable at a glance by everyone involved.
 
 ## Status chasing is a visibility gap
 

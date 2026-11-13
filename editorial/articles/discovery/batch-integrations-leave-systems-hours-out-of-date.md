@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-287
 slug: batch-integrations-leave-systems-hours-out-of-date
 title: Why batch integrations leave your systems hours out of date
-description: Nightly and hourly integration jobs mean stock, orders and customer records disagree for hours. The answer is not real time everywhere, but the right timing for each flow.
+description: Nightly and hourly jobs leave stock, orders and customer records disagreeing for hours. The answer is the right timing per flow, not real time everywhere.
 lead: Nightly and hourly integration jobs mean stock, orders and customer records disagree for hours. The answer is not real time everywhere, but the right timing for each flow.
 category: Integration & API Operations
 published_date: 2026-10-04
@@ -33,9 +33,9 @@ Each batch job opens a window in which two systems disagree. A nightly job can l
 
 The symptoms are familiar: "it will show up tomorrow", staff told to wait for the sync before acting, manual workarounds to push urgent records through, and reports that are out of date when they are opened. This is related to, but distinct from, slow management reporting, which we cover in [when the weekly report is already out of date](/patterns/when-the-weekly-report-is-already-out-of-date/). Here the delay is between operational systems, during the working day.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches such as "batch integration data latency", "nightly sync too slow" or "real-time integration between ERP and e-commerce" usually come from an operations or IT lead after a visible failure, such as an oversold item, a delayed order or a missed credit hold. They want to know which integrations need to be faster, what it will cost, and how to get there without rebuilding everything.
+The concern usually comes from an operations or IT lead after a visible failure, and sounds like "the batch integration data is too slow", "the nightly sync is too slow" or "we need real-time integration between ERP and e-commerce". The failure is something like an oversold item, a delayed order or a missed credit hold. They want to know which integrations need to be faster, what it will cost, and how to get there without rebuilding everything.
 
 ## Evidence and system mechanism
 

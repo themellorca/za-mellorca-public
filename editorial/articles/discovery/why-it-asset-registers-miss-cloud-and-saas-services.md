@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-361
 slug: why-it-asset-registers-miss-cloud-and-saas-services
 title: Why IT asset registers miss cloud and SaaS services
-description: Asset registers built around hardware often omit the SaaS applications and cloud resources that hold most business data. How to close the gap before an audit finds it.
+description: Asset registers built around hardware often omit the SaaS and cloud services that hold most business data. How to close the gap before an audit finds it.
 lead: Asset registers built around hardware often omit the SaaS applications and cloud resources that hold most business data. How to close the gap before an audit finds it.
 category: Security & Compliance Operations
 published_date: 2026-10-07
@@ -20,7 +20,8 @@ sources:
 related:
   - Access logs that disappear before the auditor asks for them | /discovery/access-logs-that-disappear-before-the-auditor-asks/
   - Why third-party security reviews keep starting from scratch | /discovery/third-party-security-reviews-keep-starting-from-scratch/
-  - Why Policy Acknowledgements Need a Reliable System Record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
+  - Why policy acknowledgements need a reliable system record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
+  - Why SaaS applications are part of your operating infrastructure | /insights/why-saas-applications-are-part-of-your-operating-infrastructure-not-just-subscriptions/
 summary: Asset registers built around hardware often omit the SaaS applications and cloud resources that hold most business data. How to close the gap before an audit finds it.
 layout: plain
 ---
@@ -32,9 +33,9 @@ This article looks at that operating condition: asset inventories that omit clou
 
 The asset register lists what the business bought and can touch. Meanwhile much of its data and processing has moved to services it subscribes to: SaaS applications signed up for by departments, cloud storage, hosted data stores, virtual machines, backups held by a provider. These are assets in every sense that matters for security and compliance. They hold data, they have access controls, they can be misconfigured, and they need an owner. But because there is no serial number and often no purchase order, they never reach the register.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Buyers usually arrive here from an audit or insurance questionnaire. They search for how to build a complete IT asset inventory, how to include cloud services in an asset register, or how to respond to an asset management finding. Underneath, the need is simple: one reliable list of everything that stores or processes the business's data, with an owner for each item, that stays current without a heroic annual effort.
+The question usually arises from an audit or insurance questionnaire. People ask how to build a complete IT asset inventory, how to include cloud services in an asset register, or how to respond to an asset management finding. Underneath, the need is simple: one reliable list of everything that stores or processes the business's data, with an owner for each item, that stays current without a heroic annual effort.
 
 ## Evidence and system mechanism
 

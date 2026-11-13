@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000029
 slug: why-ill-do-it-tonight-became-the-default-plan
-title: Why “I'll Do It Tonight” Became the Default Plan
-description: For some people the evening has quietly become part of the working plan: the place where the real work goes when the day is used up by everything else. How that habit forms, what it takes, and what would let the day hold the work again.
+title: Why “I'll do it tonight” became the default plan
+description: For some people the evening has become where real work goes once the day is used up. How that habit forms, what it takes, and what lets the day hold it.
 lead: For some people the evening has quietly become part of the working plan: the place where the real work goes when the day is used up by everything else. How that habit forms, what it takes, and what would let the day hold the work again.
 category: Time & Attention
 published_date: 2026-10-05
@@ -19,9 +19,9 @@ sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
   - Crucial changes needed to protect workers’ health while teleworking | https://www.who.int/news/item/02-02-2022-crucial-changes-needed-to-protect-workers-health-while-teleworking
 related:
-  - The Time Tax of Re-Explaining the Same Thing | /moments/the-time-tax-of-re-explaining-the-same-thing/
-  - When Travel Days Become Catch-Up Days | /moments/when-travel-days-become-catch-up-days/
-  - When the Working Day Has No Natural End | /moments/when-the-working-day-has-no-natural-end/
+  - The time tax of re-explaining the same thing | /moments/the-time-tax-of-re-explaining-the-same-thing/
+  - When travel days become catch-up days | /moments/when-travel-days-become-catch-up-days/
+  - When the working day has no natural end | /moments/when-the-working-day-has-no-natural-end/
 summary: For some people the evening has quietly become part of the working plan: the place where the real work goes when the day is used up by everything else. How that habit forms, what it takes, and what would let the day hold the work again.
 layout: plain
 ---
@@ -33,13 +33,13 @@ That shift is easy to miss, because it rarely involves a decision. It is a habit
 
 ## The evening as a planned shift
 
-Microsoft researchers noticed a version of this pattern in their own workforce. In a 2021 WorkLab article on what they called the "triple peak day", they reported that about 30 percent of the Microsoft employees they studied showed a third spike of work activity in the evening, alongside the familiar morning and afternoon peaks. The same article reported a rise in Teams chats sent after hours.
+Microsoft researchers noticed a version of this pattern in their own workforce. In a 2021 WorkLab article on what they called the "[triple peak day](https://www.microsoft.com/en-us/worklab/triple-peak-day)", they reported that about 30 percent of the Microsoft employees they studied showed a third spike of work activity in the evening, alongside the familiar morning and afternoon peaks. The same article reported a rise in Teams chats sent after hours.
 
 That research describes one company's employees during a particular period, when hybrid work patterns were forming, and the authors noted that some of the evening activity reflected genuine flexibility, such as people fitting work around childcare. It should not be stretched into a claim about South African businesses. But it illustrates something worth taking seriously: the evening can become a structural part of the working day rather than an occasional overflow.
 
 ## Why the day stops holding the work
 
-The more useful question is why focused work migrates to the evening. Microsoft's 2023 Work Trend Index offers part of an answer. Based on Microsoft 365 activity data, it reported that people spent 57 percent of their time communicating, in meetings, email and chat, and 43 percent creating. In the accompanying survey, 68 percent said they did not have enough uninterrupted focus time during the workday, and 64 percent said they struggled to have the time and energy to do their job.
+The more useful question is why focused work migrates to the evening. Microsoft's 2023 [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) offers part of an answer. Based on Microsoft 365 activity data, it reported that people spent 57 percent of their time communicating, in meetings, email and chat, and 43 percent creating. In the accompanying survey, 68 percent said they did not have enough uninterrupted focus time during the workday, and 64 percent said they struggled to have the time and energy to do their job.
 
 Those figures describe a large, global sample of software users, not any particular business. Read carefully, they suggest a mechanism rather than a verdict. If most of the day goes on responding to other people, the work that needs a clear run of attention gets pushed to whenever the responding stops. For many people, that is after hours.
 

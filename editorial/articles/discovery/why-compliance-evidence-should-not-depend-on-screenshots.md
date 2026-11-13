@@ -2,9 +2,9 @@
 hub: discovery
 record_id: DISC-363
 slug: why-compliance-evidence-should-not-depend-on-screenshots
-title: Why Compliance Evidence Should Not Depend on Screenshots
+title: Why compliance evidence should not depend on screenshots
 description: Screenshots can support an assessment, but weak evidence systems make it difficult to reproduce what was observed, from which source and at what point in time.
-lead: A screenshot may show what someone saw, but it can be a weak operating record when the organization cannot reproduce the source, context, timing and assessment trail behind it.
+lead: A screenshot may show what someone saw, but it can be a weak operating record when the organisation cannot reproduce the source, context, timing and assessment trail behind it.
 category: Security & Compliance Operations
 published_date: 2026-09-06
 updated_date: 2026-09-06
@@ -20,10 +20,11 @@ budget_owner: CRO / CISO / compliance leadership
 sources:
   - SP 800-53A Rev. 5, Assessing Security and Privacy Controls in Information Systems and Organizations - CSRC | https://csrc.nist.gov/pubs/sp/800/53/a/r5/final
   - Assessment Results Model | https://pages.nist.gov/OSCAL/learn/concepts/layer/assessment/assessment-results/
+  - Information Security Continuous Monitoring (ISCM) for Federal Information Systems and Organizations - CSRC | https://csrc.nist.gov/pubs/sp/800/137/final
 related:
-  - Why Security Architecture Decisions Need Linked Risk Exception Records | /discovery/why-security-architecture-decisions-need-linked-risk-exception-records/
-  - Why Supplier Access Survives After the Supplier Engagement Ends | /discovery/why-supplier-access-survives-after-engagements-end/
-  - Why Vulnerability Severity Needs Business Criticality | /discovery/why-vulnerability-severity-needs-business-criticality/
+  - Why security architecture decisions need linked risk exception records | /discovery/why-security-architecture-decisions-need-linked-risk-exception-records/
+  - Why supplier access survives after the supplier engagement ends | /discovery/why-supplier-access-survives-after-engagements-end/
+  - Why vulnerability severity needs business criticality | /discovery/why-vulnerability-severity-needs-business-criticality/
 ---
 ## The problem in plain language
 
@@ -31,9 +32,9 @@ During an audit or control review, teams collect screenshots from admin consoles
 
 The same exercise is then repeated next cycle, often by different people, because the previous screenshots cannot be refreshed—only replaced. Evidence collection becomes a seasonal scramble rather than a by-product of how the business already runs its systems.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer needs compliance evidence that is attributable, repeatable and connected to the assessment decision—not merely a collection of images that looked persuasive at one point in time. In practice the search language is closer to “audit evidence collection takes too long”, “how to automate compliance evidence”, “continuous control monitoring” or “auditor rejected our screenshots”. Behind each phrase is the same need: to show, with confidence and without heroics, that a control operated as intended.
+You need compliance evidence that is attributable, repeatable and connected to the assessment decision—not merely a collection of images that looked persuasive at one point in time. In practice the complaint is closer to “audit evidence collection takes too long”, “how to automate compliance evidence”, “continuous control monitoring” or “auditor rejected our screenshots”. Behind each phrase is the same need: to show, with confidence and without heroics, that a control operated as intended.
 
 ## Evidence and system mechanism
 

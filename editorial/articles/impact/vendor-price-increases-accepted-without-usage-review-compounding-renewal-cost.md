@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-071
 slug: vendor-price-increases-accepted-without-usage-review-compounding-renewal-cost
-title: Accepting Every Price Rise: How Unreviewed Renewals Compound Year After Year
+title: Accepting every price rise: How unreviewed renewals compound year after year
 description: A modest increase at each renewal looks harmless, yet it builds on itself. Learn what to check before paying and how to keep leverage with software suppliers.
 lead: A modest increase at each renewal looks harmless, yet it builds on itself. Learn what to check before paying and how to keep leverage with software suppliers.
 category: Digital Infrastructure
@@ -17,9 +17,10 @@ sources:
   - Microsoft to raise prices for some flagship products | https://techcentral.co.za/?p=170937
   - Microsoft 365 Admin Center Usage Reports Overview - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports
 related:
-  - Software Nobody Measured: Paying for Tools Without Knowing What They Return | /impact/software-return-never-measured-before-after-baseline-technology-spending-cost/
-  - Paying for Server Capacity the Business Does Not Use | /impact/overprovisioned-server-capacity-cost/
-  - Manual Device Setup Adds Labour and Repeat Work to Every Rollout | /impact/manual-device-setup-labour-rework-cost/
+  - Software nobody measured: Paying for tools without knowing what they return | /impact/software-return-never-measured-before-after-baseline-technology-spending-cost/
+  - Paying for server capacity the business does not use | /impact/overprovisioned-server-capacity-cost/
+  - Manual device setup adds labour and repeat work to every rollout | /impact/manual-device-setup-labour-rework-cost/
+  - The small business priced out of its own tools | /moments/the-small-business-priced-out-of-the-tools-built-to-help-it/
 summary: A modest increase at each renewal looks harmless, yet it builds on itself. Learn what to check before paying and how to keep leverage with software suppliers.
 layout: plain
 ---
@@ -31,7 +32,7 @@ Vendors raise prices for many reasons, some of them fair. Costs change, features
 
 ## Recent examples show how these changes arrive
 
-Major vendors announce increases openly, and the pattern is familiar. In August 2021, TechCentral reported that Microsoft would raise prices for Microsoft 365 commercial customers by as much as 20 per cent, describing it as the first increase since the service launched a decade earlier and quoting a Microsoft executive saying the new pricing reflected increased value delivered. In December 2025, RCP Magazine reported that Microsoft would raise prices on many commercial Microsoft 365 and Office 365 subscriptions from July 2026, with the company pointing to new AI, security and management features. The coverage notes that the changes apply globally with local market adjustments, and that it does not explain how existing contracts or billing cycles will be handled.
+Major vendors announce increases openly, and the pattern is familiar. In August 2021, [TechCentral reported](https://techcentral.co.za/?p=170937) that Microsoft would raise prices for Microsoft 365 commercial customers by as much as 20 per cent, describing it as the first increase since the service launched a decade earlier and quoting a Microsoft executive saying the new pricing reflected increased value delivered. In December 2025, [RCP Magazine reported](https://rcpmag.com/articles/2025/12/09/microsoft-365-commercial-subscription-prices-set-to-hike-mid-2026.aspx) that Microsoft would raise prices on many commercial Microsoft 365 and Office 365 subscriptions from July 2026, with the company pointing to new AI, security and management features. The coverage notes that the changes apply globally with local market adjustments, and that it does not explain how existing contracts or billing cycles will be handled.
 
 That last point is the practical one. Announcements describe the headline. What actually happens to your own plan, billing period and currency exposure depends on your agreement and your reseller. Few owners read that far.
 
@@ -70,7 +71,9 @@ The numbers below are assumptions for a hypothetical 40-person South African fir
 | 3 | 44 | R302 | R159 456 |
 | 4 | 46 | R332 | R183 264 |
 
-Over four years the annual bill rises by about 53 per cent, although headcount has grown by 15 per cent and the tool is unchanged. Suppose a review in year 4 finds that 9 of the 46 seats are never used. At R332 a month, that is roughly R35 800 a year of avoidable spend. Suppose a lower tier would meet the needs of half the remaining users at 30 per cent less. That is a further saving of about R22 000 a year. Neither figure is a prediction; both come from the stated assumptions. The point is that a short review can recover a meaningful amount, and that skipping it for several years makes the recoverable amount larger every time.
+Over four years the annual bill rises by about 53 per cent, although headcount has grown by 15 per cent and the tool is unchanged. Suppose a review in year 4 finds that 9 of the 46 seats are never used. At R332 a month, that is roughly R35 800 a year of avoidable spend.
+
+Suppose a lower tier would meet the needs of half the remaining users at 30 per cent less. That is a further saving of about R22 000 a year. Neither figure is a prediction; both come from the stated assumptions. The point is that a short review can recover a meaningful amount, and that skipping it for several years makes the recoverable amount larger every time.
 
 ## Secondary consequences
 
@@ -90,7 +93,7 @@ A business that handles increases well has no special expertise, only a routine.
 
 1. **Build a renewal calendar.** List every platform, its renewal date, notice period, term and contact. Set reminders 120 and 60 days ahead. Include the cancellation notice window, which is often shorter than people assume.
 2. **Name an owner for each platform.** This should be someone who can say yes or no, not only whoever pays the invoice.
-3. **Pull usage before negotiating.** Microsoft documents usage reports in its 365 admin centre that show who uses a service heavily and who barely uses it. Compare against seats held, and remove unused ones before the renewal, not after.
+3. **Pull usage before negotiating.** Microsoft documents [usage reports in its 365 admin centre](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports) that show who uses a service heavily and who barely uses it. Compare against seats held, and remove unused ones before the renewal, not after.
 4. **Check the plan again.** Look at what the lower tiers include. Our article on [premium plans bought for basic needs](/impact/premium-software-plans-basic-needs-overbuying-cost/) explains how to tell.
 5. **Get one alternative quote.** Even if you do not intend to switch, a real comparison gives you something to put on the table.
 6. **Ask for what you want.** Annual billing in exchange for a lower rate, a price cap on the next renewal, or a phased seat reduction. Ask in writing and keep the answer.

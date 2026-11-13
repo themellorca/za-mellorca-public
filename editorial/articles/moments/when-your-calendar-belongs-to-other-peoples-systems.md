@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000017
 slug: when-your-calendar-belongs-to-other-peoples-systems
-title: When Your Calendar Belongs to Other People's Systems
-description: Open slots get filled by booking links, recurring invites and scheduling tools that only see that you are free. What it means when your calendar is arranged by other people's systems, and how to take some of it back.
+title: When your calendar belongs to other people's systems
+description: Booking links, recurring invites and scheduling tools fill open slots because they only see that you are free. How to take your calendar back.
 lead: Open slots get filled by booking links, recurring invites and scheduling tools that only see that you are free. What it means when your calendar is arranged by other people's systems, and how to take some of it back.
 category: Time & Attention
 published_date: 2026-10-04
@@ -20,9 +20,9 @@ sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
   - The Surprising Impact of Meeting-Free Days | https://sloanreview.mit.edu/article/the-surprising-impact-of-meeting-free-days/
 related:
-  - The Meeting That Could Have Been a Shared Record | /moments/the-meeting-that-could-have-been-a-shared-record/
-  - What Changes When Status Updates Stop Being a Chore | /moments/what-changes-when-status-updates-stop-being-a-chore/
-  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - The meeting that could have been a shared record | /moments/the-meeting-that-could-have-been-a-shared-record/
+  - What changes when status updates stop being a chore | /moments/what-changes-when-status-updates-stop-being-a-chore/
+  - The lunch break eaten by approval requests | /moments/the-lunch-break-eaten-by-approval-requests/
 summary: Open slots get filled by booking links, recurring invites and scheduling tools that only see that you are free. What it means when your calendar is arranged by other people's systems, and how to take some of it back.
 layout: plain
 ---
@@ -34,11 +34,11 @@ The scene is illustrative. This piece is about what happens when the calendar, w
 
 ## Systems that only know "free" and "busy"
 
-Modern scheduling tools are genuinely useful. Microsoft's documentation for Bookings, for example, describes booking pages that let customers, clients or colleagues see availability and book a time, removing the back and forth of arranging appointments, with staff availability and business hours configured by the organisation. Outlook lets people set their working hours and location, and the scheduling assistant shows that information to organisers planning meetings. Other calendar products work in similar ways.
+Modern scheduling tools are genuinely useful. Microsoft's documentation for Bookings, for example, describes booking pages that let customers, clients or colleagues see availability and book a time, removing the back and forth of arranging appointments, with staff availability and business hours configured by the organisation. Outlook lets people set their working [hours and location](https://support.microsoft.com/en-us/office/change-your-working-hours-and-location-in-outlook-af2fddf9-249e-4710-9c95-5911edfd76f6), and the scheduling assistant shows that information to organisers planning meetings. Other calendar products work in similar ways.
 
 These tools are built on a simple model: a slot is either free or busy. A slot with nothing in it is free. That model is efficient for the person booking. It is less kind to the person being booked, because the time they meant for thinking, preparing or finishing work usually has nothing in it, so it looks free.
 
-Microsoft's Work Trend Index analysis of anonymised Microsoft 365 activity found that half of all meetings in its data take place between 9 and 11 in the morning and between 1 and 3 in the afternoon, and that 57% of meetings were ad hoc calls without a calendar invitation. These are global figures from one vendor's data, not a measure of South African businesses. They suggest two pressures at once: scheduled meetings cluster in the same hours, and much of the remaining time is taken by unscheduled calls.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) analysis of anonymised Microsoft 365 activity found that half of all meetings in its data take place between 9 and 11 in the morning and between 1 and 3 in the afternoon, and that 57% of meetings were ad hoc calls without a calendar invitation. These are global figures from one vendor's data, not a measure of South African businesses. They suggest two pressures at once: scheduled meetings cluster in the same hours, and much of the remaining time is taken by unscheduled calls.
 
 ## How the calendar slips out of your hands
 

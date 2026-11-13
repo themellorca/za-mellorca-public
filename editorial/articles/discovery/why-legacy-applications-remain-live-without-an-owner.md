@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-333
 slug: why-legacy-applications-remain-live-without-an-owner
-title: Why Legacy Applications Remain Live Without an Owner
+title: Why legacy applications remain live without an owner
 description: Legacy applications can remain in production long after their value declines when nobody owns the retirement decision and dependency map.
 lead: An application can survive for years after its original purpose changes because the cost, dependencies and retirement decision belong to nobody end to end.
 category: SaaS & Application Portfolio Management
@@ -20,8 +20,9 @@ sources:
   - Select your cloud migration strategies - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/digital-estate/5-rs-of-rationalization
 related:
   - Business capabilities that depend on tools nobody supports | /discovery/business-capabilities-depend-on-tools-with-no-support-owner/
-  - Why Application Risk Assessments Cannot Be One-Time Reviews | /discovery/why-application-risk-assessments-cannot-be-one-time/
-  - Why Businesses Cannot Produce a Complete List of the Applications They Use | /discovery/why-businesses-cannot-list-all-applications-they-use/
+  - Why application risk assessments cannot be one-time reviews | /discovery/why-application-risk-assessments-cannot-be-one-time/
+  - Why businesses cannot produce a complete list of the applications they use | /discovery/why-businesses-cannot-list-all-applications-they-use/
+  - Old applications kept alive because moving the data feels hard | /impact/old-applications-kept-because-data-migration-feels-difficult-delay-maintenance-risk-cost/
 ---
 Most organisations have at least one application that nobody quite owns. It is still licensed, hosted, patched and supported, yet the person who sponsored it has moved on and nobody can say with confidence whether the business still needs it. The cost continues because stopping it feels riskier than paying for it.
 
@@ -31,11 +32,11 @@ A legacy application remains licensed, hosted, patched and supported even though
 
 The symptom is not simply “old technology”. Plenty of old systems are well run and worth keeping. The symptom is a live system without a decision behind it.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer needs accountable application ownership and enough dependency evidence to decide whether a system should be kept and invested in, tolerated, migrated or retired. Search language tends to be practical: “application rationalisation”, “how to decommission a legacy application”, “who owns this application”, “application portfolio clean-up” or “retire unused software safely”.
+The business needs accountable application ownership and enough dependency evidence to decide whether a system should be kept and invested in, tolerated, migrated or retired. The language tends to be practical: “application rationalisation”, “how to decommission a legacy application”, “who owns this application”, “application portfolio clean-up” or “retire unused software safely”.
 
-Underneath those searches is a governance question. The organisation does not lack an opinion that the system is probably unneeded; it lacks someone entitled to make the call and the facts to make it safely.
+Underneath those phrases is a governance question. The organisation does not lack an opinion that the system is probably unneeded; it lacks someone entitled to make the call and the facts to make it safely.
 
 ## Evidence and system mechanism
 

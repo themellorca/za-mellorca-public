@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-455
 slug: ai-outputs-accepted-without-defined-review-thresholds
 title: AI outputs are accepted without defined review thresholds
-description: When nobody decides which AI outputs need checking and how closely, review drifts to habit. How to set consequence-based review thresholds and enforce them in the workflow.
+description: Without agreed thresholds, AI output review drifts into habit. How to set review levels by consequence and enforce them in the workflow.
 lead: When nobody decides which AI outputs need checking and how closely, review drifts to habit. How to set consequence-based review thresholds and enforce them in the workflow.
 category: AI, Automation & Agent Operations
 published_date: 2026-10-03
@@ -17,9 +17,10 @@ sources:
   - Article 14: Human Oversight - EU Artificial Intelligence Act | https://artificialintelligenceact.eu/article/14/
   - Manage - AIRC | https://airc.nist.gov/airmf-resources/playbook/manage/
 related:
-  - Why Critical Low-Code Automations Need Support Ownership | /discovery/why-critical-low-code-automations-need-support-ownership/
+  - Why critical low-code automations need support ownership | /discovery/why-critical-low-code-automations-need-support-ownership/
   - Manual work persists because automation covers only the happy path | /discovery/manual-work-persists-because-automation-covers-the-happy-path/
-  - Why AI Agent Handoffs Need Enough Business Context | /discovery/why-ai-agent-handoffs-need-enough-business-context/
+  - Why AI agent handoffs need enough business context | /discovery/why-ai-agent-handoffs-need-enough-business-context/
+  - Trusting the AI answer: What unchecked facts cost before anyone notices | /impact/employees-trust-ai-answers-without-checking-critical-facts-confident-mistakes-cost/
 summary: When nobody decides which AI outputs need checking and how closely, review drifts to habit. How to set consequence-based review thresholds and enforce them in the workflow.
 layout: plain
 ---
@@ -33,9 +34,9 @@ The visible symptoms are familiar: a customer receives a confident but wrong ans
 
 What is missing is a **review threshold**: a stated rule for each type of AI output that says whether it may be used directly, must be sampled, must be fully reviewed, or must not be used for this purpose at all.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The operations director, finance manager or head of customer service is rarely searching for "AI governance framework". They are asking narrower, more practical questions: "how much of the AI output should we check?", "when is human review of AI required?", "can we let AI send emails without approval?", "how do we stop staff blindly trusting AI?" and "how do we prove someone reviewed an AI decision?"
+The operations director, finance manager or head of customer service rarely asks for an "AI governance framework". They are asking narrower, more practical questions: "how much of the AI output should we check?", "when is human review of AI required?", "can we let AI send emails without approval?", "how do we stop staff blindly trusting AI?" and "how do we prove someone reviewed an AI decision?"
 
 Underneath all of these is the same need: to use AI at the speed it offers without letting unreviewed errors leak into customers, money or compliance records, and to be able to show afterwards that the level of checking was a deliberate choice.
 

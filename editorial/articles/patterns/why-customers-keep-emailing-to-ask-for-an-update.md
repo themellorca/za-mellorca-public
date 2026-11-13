@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-083
 slug: why-customers-keep-emailing-to-ask-for-an-update
-title: The Operational Reason “Any Update?” Emails Keep Arriving
-description: Repeated status-chasing emails are rarely about impatient customers. They point to a gap in how the business records and shares progress. Here is how to read that signal and remove the cause.
+title: The operational reason “Any update?” Emails keep arriving
+description: Repeated status-chasing emails are rarely about impatient customers. They show a gap in how progress is recorded and shared. Remove the cause.
 lead: Repeated status-chasing emails are rarely about impatient customers. They point to a gap in how the business records and shares progress. Here is how to read that signal and remove the cause.
 category: Customer Experience & Service Operations
 published_date: 2026-10-10
@@ -18,9 +18,10 @@ sources:
   - What Is Customer Relationship Management (CRM)? - IBM | https://www.ibm.com/think/topics/crm
   - What is Order Management? - IBM | https://www.ibm.com/think/topics/order-management
 related:
-  - When Customer Frustration Is Really an Information Flow Problem | /patterns/reading-customer-complaints-as-signs-of-missing-information/
-  - Why Decision-Makers Keep Asking for Status Updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
-  - Why Service Teams Spend Their Day Chasing Internal Answers | /patterns/why-service-teams-spend-their-day-chasing-internal-answers/
+  - When customer frustration is really an information flow problem | /patterns/reading-customer-complaints-as-signs-of-missing-information/
+  - Why decision-makers keep asking for status updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
+  - Why service teams spend their day chasing internal answers | /patterns/why-service-teams-spend-their-day-chasing-internal-answers/
+  - The cost of processes that move through email | /patterns/the-cost-of-running-business-processes-through-email-threads/
 summary: Repeated status-chasing emails are rarely about impatient customers. They point to a gap in how the business records and shares progress. Here is how to read that signal and remove the cause.
 layout: plain
 ---
@@ -36,7 +37,7 @@ An illustrative example: a Midrand company that installs solar and backup power 
 
 The realisation is that an "any update?" email is a symptom of a process whose progress lives in people's heads, not in a place the customer or the front-line staff can see. If the information existed in a shared, current form, the customer would be told before they needed to ask, or could look it up themselves.
 
-The idea has a name in service management. John Seddon's concept of failure demand describes the work that arrives because the organisation did not do something right or clearly the first time, as distinct from value demand, which is the work customers actually want. A chase email is a textbook example: the customer does not want to write it, and the business does not want to read it.
+The idea has a name in service management. John Seddon's concept of [failure demand](https://beyondcommandandcontrol.com/failure-demand/) describes the work that arrives because the organisation did not do something right or clearly the first time, as distinct from value demand, which is the work customers actually want. A chase email is a textbook example: the customer does not want to write it, and the business does not want to read it.
 
 This reframes the question. Instead of asking how to reply to updates faster, the business can ask why the update was not already there.
 

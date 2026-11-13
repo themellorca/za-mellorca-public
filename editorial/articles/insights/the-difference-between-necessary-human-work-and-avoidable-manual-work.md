@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-127
 slug: the-difference-between-necessary-human-work-and-avoidable-manual-work
-title: The Difference Between Necessary Human Work and Avoidable Manual Work
-description: Some work needs a person because it requires judgement, a relationship or accountability. Much more work needs a person only because systems do not connect or inputs arrive incomplete. A practical test for telling them apart, task by task.
+title: The difference between necessary human work and avoidable manual work
+description: Some work needs a person for judgement, relationships or accountability. Much only needs one because systems do not connect. A test to tell them apart.
 lead: Some work needs a person because it requires judgement, a relationship or accountability. Much more work needs a person only because systems do not connect or inputs arrive incomplete. A practical test for telling them apart, task by task.
 category: Automation
 published_date: 2026-10-03
@@ -14,9 +14,9 @@ sources:
   - Muda, Mura, Muri - Get a Quick Introduction - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/muda/
   - https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf | https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf
 related:
-  - How to Know Whether an Automation Actually Ran | /insights/how-to-know-whether-an-automation-actually-ran/
-  - What Business Automation Should Actually Solve | /insights/what-business-automation-should-actually-solve/
-  - Why Automating a Broken Process Makes the Problem Worse | /insights/why-automating-a-broken-process-makes-the-problem-worse/
+  - How to know whether an automation actually ran | /insights/how-to-know-whether-an-automation-actually-ran/
+  - What business automation should actually solve | /insights/what-business-automation-should-actually-solve/
+  - Why automating a broken process makes the problem worse | /insights/why-automating-a-broken-process-makes-the-problem-worse/
 summary: Some work needs a person because it requires judgement, a relationship or accountability. Much more work needs a person only because systems do not connect or inputs arrive incomplete. A practical test for telling them apart, task by task.
 layout: plain
 ---

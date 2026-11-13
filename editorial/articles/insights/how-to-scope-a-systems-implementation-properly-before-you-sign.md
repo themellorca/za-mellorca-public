@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-355
 slug: how-to-scope-a-systems-implementation-properly-before-you-sign
-title: How to Scope a Systems Implementation Properly
-description: Most implementation overruns are scoping failures that surface later as change requests. A practical way to define what a systems project includes, excludes and depends on before a contract is signed.
+title: How to scope a systems implementation properly
+description: Most implementation overruns are scoping failures that surface later as change requests. How to define what a project includes, excludes and depends on.
 lead: Most implementation overruns are scoping failures that surface later as change requests. A practical way to define what a systems project includes, excludes and depends on before a contract is signed.
 category: Systems Implementation
 published_date: 2026-10-09
@@ -14,9 +14,10 @@ sources:
   - Plan a a Dynamics 365 implementation strategy - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/implementation-strategy
   - Implement a solution based on business processes - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution
 related:
-  - When a Spreadsheet Is a Useful Tool—and When It Becomes Infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
-  - How to Measure Whether Software Is Paying for Itself | /insights/how-to-measure-whether-software-is-paying-for-itself/
-  - Why Giving AI Access to More Systems Is Not Automatically Better | /insights/why-giving-ai-access-to-more-systems-is-not-automatically-better/
+  - When a spreadsheet is a useful tool—and when it becomes infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
+  - How to measure whether software is paying for itself | /insights/how-to-measure-whether-software-is-paying-for-itself/
+  - Why giving AI access to more systems is not automatically better | /insights/why-giving-ai-access-to-more-systems-is-not-automatically-better/
+  - What belongs in an implementation plan | /insights/the-parts-of-a-sound-systems-implementation-plan/
 summary: Most implementation overruns are scoping failures that surface later as change requests. A practical way to define what a systems project includes, excludes and depends on before a contract is signed.
 layout: plain
 ---
@@ -83,11 +84,13 @@ Then agree how changes will be handled before anyone requests one. A simple rule
 
 ## Phase the work and keep the first phase small
 
-Large, single-release scopes are more fragile than staged ones. A phased scope that delivers one process end to end, proves it in live use and then moves to the next gives the business learning at each step and a natural stopping point if priorities change. Microsoft's implementation guidance on implementation strategy describes the benefit of choosing an approach and rollout pattern deliberately, based on risk and complexity, rather than defaulting to a single go-live. For a practical view of staging, see [how to implement a new business system without disrupting operations](/insights/how-to-implement-a-new-business-system-without-disrupting-operations/).
+Large, single-release scopes are more fragile than staged ones. A phased scope that delivers one process end to end, proves it in live use and then moves to the next gives the business learning at each step and a natural stopping point if priorities change. Microsoft's implementation guidance on [implementation strategy](https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/implementation-strategy) describes the benefit of choosing an approach and rollout pattern deliberately, based on risk and complexity, rather than defaulting to a single go-live. For a practical view of staging, see [how to implement a new business system without disrupting operations](/insights/how-to-implement-a-new-business-system-without-disrupting-operations/).
 
 ## An illustrative example
 
-The following is a hypothetical case. A Cape Town building-supplies firm buys a new stock and invoicing system and receives a quote that lists “implementation, data migration and training”. Before signing, the operations manager runs a scoping session. It turns up three items the quote did not cover: roughly 4,000 duplicate stock codes, a nightly export that the branch accountant depends on, and a credit-limit check done by phone. The firm adds a data clean-up task owned by the stores supervisor, lists the export as in scope, and defers the credit-check automation to phase two with a note of what it requires. The price rises modestly at the outset, but the project avoids the three change requests that would otherwise have arrived in the middle of the rollout.
+The following is a hypothetical case. A Cape Town building-supplies firm buys a new stock and invoicing system and receives a quote that lists “implementation, data migration and training”. Before signing, the operations manager runs a scoping session. It turns up three items the quote did not cover: roughly 4,000 duplicate stock codes, a nightly export that the branch accountant depends on, and a credit-limit check done by phone.
+
+The firm adds a data clean-up task owned by the stores supervisor, lists the export as in scope, and defers the credit-check automation to phase two with a note of what it requires. The price rises modestly at the outset, but the project avoids the three change requests that would otherwise have arrived in the middle of the rollout.
 
 ## Questions to ask before signing
 

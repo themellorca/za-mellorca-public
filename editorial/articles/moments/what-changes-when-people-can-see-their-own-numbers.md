@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000064
 slug: what-changes-when-people-can-see-their-own-numbers
-title: What Changes When People Can See Their Own Numbers
-description: When a team can see the figures that describe its own work, in time to act on them, decisions move closer to the people doing the job. What that looks like and what it needs.
+title: What changes when people can see their own numbers
+description: When a team sees the figures describing its own work in time to act, decisions move closer to the people doing the job. What that looks like and needs.
 lead: When a team can see the figures that describe its own work, in time to act on them, decisions move closer to the people doing the job. What that looks like and what it needs.
 category: Human Agency
 published_date: 2026-10-09
@@ -20,9 +20,9 @@ sources:
   - Self-determination theory - Wikipedia | https://en.wikipedia.org/wiki/Self-determination_theory
   - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
 related:
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
-  - What Real Delegation Requires From Systems | /moments/what-real-delegation-requires-from-systems/
-  - When Monitoring Replaces Trust | /moments/when-monitoring-replaces-trust-in-the-reporting-line/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - What real delegation requires from systems | /moments/what-real-delegation-requires-from-systems/
+  - When monitoring replaces trust | /moments/when-monitoring-replaces-trust-in-the-reporting-line/
 summary: When a team can see the figures that describe its own work, in time to act on them, decisions move closer to the people doing the job. What that looks like and what it needs.
 layout: plain
 ---
@@ -34,7 +34,7 @@ This piece looks at what changes when that arrangement flips and the people doin
 
 A team packing orders knows roughly how it is going. It can feel when the day is slow. What it cannot feel is whether it is a tenth below the usual rate, or whether the returns this week are twice last week's. Those facts are in a system somewhere, but they are not in front of the people who could do something about them.
 
-Descriptions of the business dashboard make the intent clear: it is a way of presenting key information in one place so that those looking at it can understand status at a glance. A key performance indicator, similarly, is a measure chosen to show how well an objective is being achieved. Neither concept says the viewer must be a senior manager. Where the viewer is the person whose work the measure describes, the loop between action and result becomes short enough to learn from.
+Descriptions of the business dashboard make the intent clear: it is a way of presenting key information in one place so that those looking at it can understand status at a glance. A key [performance indicator](https://en.wikipedia.org/wiki/Key_performance_indicator), similarly, is a measure chosen to show how well an objective is being achieved. Neither concept says the viewer must be a senior manager. Where the viewer is the person whose work the measure describes, the loop between action and result becomes short enough to learn from.
 
 The article on [the difference between being informed and being in control](/moments/the-difference-between-being-informed-and-being-in-control/) draws the useful distinction: being told how things went is not the same as being able to influence them. Giving people their own figures is a step from the first towards the second.
 

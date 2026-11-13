@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-329
 slug: why-systems-slow-down-at-the-moment-demand-increases
-title: Why Systems Slow Down at the Moment Demand Increases
-description: A busy month should be good news, yet the business gets slower, errors rise and the team works late. Here is why throughput falls just as demand climbs, and what to change first.
+title: Why systems slow down at the moment demand increases
+description: A busy month should be good news, yet the business slows, errors rise and the team works late. Here is why throughput falls as demand climbs.
 lead: A busy month should be good news, yet the business gets slower, errors rise and the team works late. Here is why throughput falls just as demand climbs, and what to change first.
 category: Scale, Capacity & Growth
 published_date: 2026-10-09
@@ -18,9 +18,10 @@ sources:
   - Queue-Based Load Leveling Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling
   - Autoscaling Guidance - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling
 related:
-  - Why a Process That Works for 20 Customers Breaks at 200 | /patterns/why-a-process-that-works-for-20-customers-breaks-at-200/
-  - When Customers Know Their Order Is Late Before Your Team Does | /patterns/when-customers-know-their-order-is-late-before-your-team-does/
-  - When Staff Get Blamed for Errors Their Systems Created | /patterns/when-staff-get-blamed-for-errors-their-systems-created/
+  - Why a process that works for 20 customers breaks at 200 | /patterns/why-a-process-that-works-for-20-customers-breaks-at-200/
+  - When customers know their order is late before your team does | /patterns/when-customers-know-their-order-is-late-before-your-team-does/
+  - When staff get blamed for errors their systems created | /patterns/when-staff-get-blamed-for-errors-their-systems-created/
+  - Which processes usually break first during growth | /insights/which-business-processes-break-first-when-a-company-grows/
 summary: A busy month should be good news, yet the business gets slower, errors rise and the team works late. Here is why throughput falls just as demand climbs, and what to change first.
 layout: plain
 ---
@@ -36,7 +37,7 @@ The unsettling part is the shape of the curve. Output does not rise gently and l
 
 A business that handles volume comfortably is often one that is only barely handling it. Slack, in the form of idle time, spare capacity and quiet hours, is what allows small hiccups to be absorbed. Once demand uses up that slack, every hiccup turns into a queue, every queue creates rework, and rework becomes more demand on the same people and systems.
 
-Google's engineering guidance on cascading failures describes the same dynamic in software: when part of a system is overloaded and begins to fail, the remaining parts take on its work, become overloaded themselves, and fail in turn. The mechanism is not limited to servers. Staff, approvals and spreadsheets all behave this way when pushed past what they can absorb.
+[Google's engineering guidance on cascading failures](https://sre.google/sre-book/addressing-cascading-failures/) describes the same dynamic in software: when part of a system is overloaded and begins to fail, the remaining parts take on its work, become overloaded themselves, and fail in turn. The mechanism is not limited to servers. Staff, approvals and spreadsheets all behave this way when pushed past what they can absorb.
 
 **Realisation prompt:** think of your last unusually busy week. Did the work take twice as long, or did it take far longer than twice, with more mistakes and more chasing?
 
@@ -75,7 +76,7 @@ A third response is to blame the promotion for being too successful. The better 
 
 In a better state, the business knows the capacity of its narrowest steps, in orders per hour or jobs per day, and knows how close a normal day runs to that limit. Peaks are anticipated: the sales calendar is shared with operations and IT, and extra capacity is arranged before the campaign launches, not during it.
 
-Work that arrives faster than it can be handled waits in an orderly queue, with customers told what to expect, rather than failing silently. Repeat work is low because failures are rare and visible. A rise in demand is welcome, because the team has rehearsed what happens when it arrives.
+Work that arrives faster than it can be handled waits in an orderly queue, with customers told what to expect, rather than failing silently. Microsoft's [queue-based load levelling pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling) describes using a queue as a buffer between a task and the service it calls, which smooths intermittent heavy loads. Its [autoscaling guidance](https://learn.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling) covers adding resources as load grows, while cautioning that autoscaling is not an instant solution. Repeat work is low because failures are rare and visible. A rise in demand is welcome, because the team has rehearsed what happens when it arrives.
 
 ## Intervention
 

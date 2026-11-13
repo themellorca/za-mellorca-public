@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-156
 slug: why-automations-that-worked-in-the-demo-stop-working-in-production
-title: Why Automation Projects Fail After the Demo
-description: The demo shows the happy path on clean data. Production brings exceptions, untidy records, outages and staff who were never involved. Why automations fail afterwards, and what to ask before you sign.
+title: Why automation projects fail after the demo
+description: The demo shows the happy path on clean data. Production brings exceptions, messy records and outages. Why automations fail afterwards, and what to ask.
 lead: The demo shows the happy path on clean data. Production brings exceptions, untidy records, outages and staff who were never involved. Why automations fail afterwards, and what to ask before you sign.
 category: Automation
 published_date: 2026-10-09
@@ -15,9 +15,9 @@ sources:
   - Overview of the Automation Kit - Power Automate | https://learn.microsoft.com/en-us/power-automate/guidance/automation-kit/overview/introduction
   - Develop your own training strategy for your implementations - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/training-strategy
 related:
-  - Why Automating a Broken Process Makes the Problem Worse | /insights/why-automating-a-broken-process-makes-the-problem-worse/
-  - What Business Automation Should Actually Solve | /insights/what-business-automation-should-actually-solve/
-  - How to Know Whether an Automation Actually Ran | /insights/how-to-know-whether-an-automation-actually-ran/
+  - Why automating a broken process makes the problem worse | /insights/why-automating-a-broken-process-makes-the-problem-worse/
+  - What business automation should actually solve | /insights/what-business-automation-should-actually-solve/
+  - How to know whether an automation actually ran | /insights/how-to-know-whether-an-automation-actually-ran/
 summary: The demo shows the happy path on clean data. Production brings exceptions, untidy records, outages and staff who were never involved. Why automations fail afterwards, and what to ask before you sign.
 layout: plain
 ---
@@ -39,7 +39,7 @@ Test with a real extract, including the untidy parts, before go-live. Microsoft'
 
 ## Nobody designed for failure
 
-Every automation will eventually fail: a password expires, an external service is unavailable, a field is renamed after a software update, or the power drops during load-shedding while a job is running. The question is what happens next. Microsoft's guidance on error handling in automated flows stresses designing explicit paths for errors rather than letting the flow stop silently, and Azure's architecture guidance describes the retry pattern, in which a failed operation is attempted again under defined limits, rather than abandoned or repeated endlessly.
+Every automation will eventually fail: a password expires, an external service is unavailable, a field is renamed after a software update, or the power drops during load-shedding while a job is running. The question is what happens next. Microsoft's guidance on [error handling](https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling) in automated flows stresses designing explicit paths for errors rather than letting the flow stop silently, and Azure's architecture guidance describes the retry pattern, in which a failed operation is attempted again under defined limits, rather than abandoned or repeated endlessly.
 
 Many projects are accepted with no failure design at all. The first time something goes wrong, nobody is told, and the damage accumulates unseen. The fix is not complicated: decide in advance who is alerted, how, and what they do about it. See [why every automation needs a failure path](/insights/why-every-automation-needs-a-failure-path/) and how silent automation failures damage operations.
 
@@ -47,13 +47,13 @@ Many projects are accepted with no failure design at all. The first time somethi
 
 Projects have a start and an end. Automations have a life. The consultant or developer who built the flow moves on, the internal sponsor changes roles, and the automation continues running, until something changes around it. If nobody can say who is responsible for it, the first failure becomes a crisis of discovery, as described in [what happens after the automation goes live](/insights/what-happens-after-the-automation-goes-live/).
 
-A named owner, a written description and a place for changes to be requested are minimum requirements, not extras. Microsoft's automation kit overview highlights inventory and monitoring of automations as a governance need; the same principle applies at any scale, even if the inventory is a simple shared table.
+A named owner, a written description and a place for changes to be requested are minimum requirements, not extras. Microsoft's [automation kit](https://learn.microsoft.com/en-us/power-automate/guidance/automation-kit/overview/introduction) overview highlights inventory and monitoring of automations as a governance need; the same principle applies at any scale, even if the inventory is a simple shared table.
 
 ## The people were never part of it
 
 Staff who were not consulted often find reasons not to trust the new process. They keep their private spreadsheet in case the automation gets it wrong, re-check every output, or bypass it on busy days. The automation then runs alongside the old manual process instead of replacing it, and the promised saving never appears.
 
-Training also matters, not only on how to use the tool but on what to do when it does not work. Microsoft's implementation guidance on training strategy describes preparing people with the knowledge they need for the change, which is as relevant for a small team as for a large programme. Automation designed so that staff can see and understand what it does tends to be adopted, a principle explored in [how to design automations that people can understand](/insights/how-to-design-automations-that-people-can-understand/).
+Training also matters, not only on how to use the tool but on what to do when it does not work. Microsoft's implementation guidance on [training strategy](https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/training-strategy) describes preparing people with the knowledge they need for the change, which is as relevant for a small team as for a large programme. Automation designed so that staff can see and understand what it does tends to be adopted, a principle explored in [how to design automations that people can understand](/insights/how-to-design-automations-that-people-can-understand/).
 
 ## The measure of success was the demo
 

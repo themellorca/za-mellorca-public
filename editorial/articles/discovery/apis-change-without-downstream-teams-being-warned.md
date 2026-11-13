@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-277
 slug: apis-change-without-downstream-teams-being-warned
 title: APIs change without downstream teams being warned
-description: Renamed fields and retired values break integrations when nobody tells the teams that depend on them. How to register API consumers, define breaking changes and give proper notice.
+description: Renamed fields and retired values break integrations when nobody warns dependent teams. How to register consumers and give proper notice of changes.
 lead: Renamed fields and retired values break integrations when nobody tells the teams that depend on them. How to register API consumers, define breaking changes and give proper notice.
 category: Integration & API Operations
 published_date: 2026-10-03
@@ -15,10 +15,11 @@ budget_owner: CIO/IT budget holder
 sources:
   - API Versions - GitHub Docs | https://docs.github.com/en/rest/about-the-rest-api/api-versions
   - Versioning - Stripe API Reference | https://docs.stripe.com/api/versioning
+  - AIP-180: Backwards compatibility - Google API Improvement Proposals | https://google.aip.dev/180
 related:
-  - Why API Rate Limits Create Intermittent Business Failures | /discovery/why-api-rate-limits-create-intermittent-business-failures/
+  - Why API rate limits create intermittent business failures | /discovery/why-api-rate-limits-create-intermittent-business-failures/
   - API credentials are shared across unrelated integrations | /discovery/api-credentials-shared-across-unrelated-integrations/
-  - Why Undocumented Interface Mappings Make Integration Change Risky | /discovery/why-undocumented-interface-mappings-make-change-risky/
+  - Why undocumented interface mappings make integration change risky | /discovery/why-undocumented-interface-mappings-make-change-risky/
 summary: Renamed fields and retired values break integrations when nobody tells the teams that depend on them. How to register API consumers, define breaking changes and give proper notice.
 layout: plain
 ---
@@ -30,9 +31,9 @@ APIs connect a business's systems to each other and to partners. Every API has c
 
 This article is about the communication gap rather than the technical design. A separate Discovery article covers [how automations can be made more resilient to interface changes](/discovery/automations-break-when-application-interfaces-change/), and another covers [schema versioning](/discovery/message-schemas-evolve-without-version-control/). Both help. Neither works if the provider does not know who its consumers are, or has no habit of warning them.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer is usually an IT manager, integration lead or head of a development team, sometimes an operations manager who keeps absorbing the outages. Searches sound like "API breaking change notification", "how to communicate API changes", "API deprecation policy", "who uses our API" or "API change management process".
+The person facing this is usually an IT manager, integration lead or head of a development team, sometimes an operations manager who keeps absorbing the outages. The questions sound like "API breaking change notification", "how to communicate API changes", "API deprecation policy", "who uses our API" or "API change management process".
 
 What they need is simple to state: no change that could break a consumer goes live without the affected consumers knowing about it, in time to prepare.
 
@@ -40,7 +41,7 @@ What they need is simple to state: no change that could break a consumer goes li
 
 Mature API providers treat change communication as part of the product. GitHub's REST API documentation lists what it considers breaking changes, including removing an operation, removing or renaming a parameter or response field, adding a new required parameter, making an optional parameter required, changing a field's type, removing enum values, adding a new validation rule and changing authentication requirements. It commits to supporting a previous API version for at least 24 months after a new one is released, uses Deprecation and Sunset response headers to signal closing and removal dates, and says that exceptional changes are communicated through release notes, changelogs and direct communication ([GitHub Docs: API versions](https://docs.github.com/en/rest/about-the-rest-api/api-versions)).
 
-Stripe takes a similar approach. Its documentation describes monthly API releases with no breaking changes, and major releases twice a year that may contain breaking changes. Each account and webhook endpoint is pinned to an API version, so a consumer's integration keeps working until it chooses to upgrade, and all changes are published in a changelog ([Stripe Docs: Versioning](https://docs.stripe.com/api/versioning)).
+Stripe takes a similar approach. Its documentation describes monthly API releases with no breaking changes, and major releases twice a year that may contain breaking changes. Each account and webhook endpoint is pinned to an API version, so a consumer's integration keeps working until it chooses to upgrade, and all changes are published in a changelog ([Stripe Docs: Versioning](https://docs.stripe.com/api/versioning)). Google's [API Improvement Proposals](https://google.aip.dev/180) take the same line, treating a rename as removing the old name and adding a new one, and requiring that any new field added within a major version is not mandatory.
 
 The lesson for smaller organisations is not to copy these companies' engineering, but their discipline. Both define what counts as a breaking change, separate breaking from non-breaking releases, give consumers time and publish changes where consumers can see them. Internal APIs in most businesses have none of this. Many external SaaS vendors do it inconsistently, and their notices go to an email address nobody monitors.
 

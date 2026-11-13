@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-047
 slug: how-to-rationalise-software-without-breaking-the-business
-title: How to Rationalise Software Without Breaking the Business
-description: Deciding which tools to cut is the easy part. Retiring them without losing data, breaking integrations or stranding a team is where rationalisation goes wrong. A practical sequence for executing software retirements safely, from dependency checks and data retention to cut-over and clean-up.
+title: How to rationalise software without breaking the business
+description: Choosing which tools to cut is easy. Retiring them without losing data, breaking integrations or stranding a team is hard. A safe sequence for it.
 lead: Deciding which tools to cut is the easy part. Retiring them without losing data, breaking integrations or stranding a team is where rationalisation goes wrong. A practical sequence for executing software retirements safely, from dependency checks and data retention to cut-over and clean-up.
 category: Digital Operations
 published_date: 2026-10-06
@@ -14,9 +14,9 @@ sources:
   - Section 14 Retention and restriction of records - POPIA | https://popia.co.za/section-14-retention-and-restriction-of-records/
   - Asset management | https://www.ncsc.gov.uk/collection/10-steps/asset-management
 related:
-  - What to Do With a Software Stack Nobody Fully Understands | /insights/what-to-do-with-a-software-stack-nobody-fully-understands/
+  - What to do with a software stack nobody fully understands | /insights/what-to-do-with-a-software-stack-nobody-fully-understands/
   - How to find the manual work nobody is measuring | /insights/how-to-find-the-manual-work-nobody-is-measuring/
-  - How to Find the Real Bottleneck in a Digital Operation | /insights/how-to-find-the-real-bottleneck-in-a-digital-operation/
+  - How to find the real bottleneck in a digital operation | /insights/how-to-find-the-real-bottleneck-in-a-digital-operation/
 summary: Deciding which tools to cut is the easy part. Retiring them without losing data, breaking integrations or stranding a team is where rationalisation goes wrong. A practical sequence for executing software retirements safely, from dependency checks and data retention to cut-over and clean-up.
 layout: plain
 ---

@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-329
 slug: ai-add-ons-push-software-spend-beyond-the-approved-budget
 title: AI add-ons increase software spend outside original budgets
-description: Per-user AI tiers and optional add-ons arrive as small recurring charges that no approval process catches. How to find them, test their value and bring them inside the budget.
+description: Per-user AI tiers and add-ons arrive as small recurring charges nobody approves. How to find them, test their value and bring them into budget.
 lead: Per-user AI tiers and optional add-ons arrive as small recurring charges that no approval process catches. How to find them, test their value and bring them inside the budget.
 category: SaaS & Application Portfolio Management
 published_date: 2026-10-08
@@ -18,7 +18,7 @@ sources:
   - Anomaly Management FinOps Framework Capability | https://www.finops.org/framework/capabilities/anomaly-management/
   - Optimize your cloud investment with Cost Management - Microsoft Cost Management | https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-mgt-best-practices
 related:
-  - Why Software Portfolio Decisions Need Business Value, Not Only Licence Counts | /discovery/why-software-portfolio-decisions-need-business-value-not-only-licence-counts/
+  - Why software portfolio decisions need business value, not only licence counts | /discovery/why-software-portfolio-decisions-need-business-value-not-only-licence-counts/
   - Paying for unused software features because contracts are bundled | /discovery/why-bundled-software-contracts-hide-unused-features/
   - Vendors change packaging and pricing faster than budgets adapt | /discovery/why-vendor-pricing-changes-outrun-software-budgets/
 summary: Per-user AI tiers and optional add-ons arrive as small recurring charges that no approval process catches. How to find them, test their value and bring them inside the budget.
@@ -32,9 +32,9 @@ This article looks at that operating condition: AI add-ons increasing software s
 
 Software vendors increasingly sell AI features as optional extras, priced per user per month, per usage unit, or as a step up to a higher plan. The core product is already budgeted and approved. The add-on is a separate purchase that can be switched on in an admin console, often by someone with the authority to spend a few hundred Rand a month and no obligation to tell finance. Because each decision looks small and reversible, none triggers the approval process designed for larger purchases. The budget is not exceeded by one decision; it is exceeded by many.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The finance manager or owner searching for this problem usually wants three things: a clear list of every AI charge the business is paying, a way to decide which ones earn their cost, and a rule that stops the next unplanned charge from arriving unnoticed. Department heads, meanwhile, want to keep the tools that genuinely save their teams time. A workable answer has to serve both.
+A finance manager or owner facing this problem usually wants three things: a clear list of every AI charge the business is paying, a way to decide which ones earn their cost, and a rule that stops the next unplanned charge from arriving unnoticed. Department heads, meanwhile, want to keep the tools that genuinely save their teams time. A workable answer has to serve both.
 
 ## Evidence and system mechanism
 

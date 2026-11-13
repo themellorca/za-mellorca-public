@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-003
 slug: pain-employees-wasting-time-information-stored
-title: When Staff Keep Asking Where Information Is Stored
+title: When staff keep asking where information is stored
 description: Explains how the pain of searching for information translates into labour costs and outlines practical governance and search improvements.
 lead: Explains how the pain of searching for information translates into labour costs and outlines practical governance and search improvements.
 category: Information Management and Operations
@@ -17,9 +17,9 @@ sources:
   - Plan your content | https://learn.microsoft.com/en-us/microsoftsearch/make-content-easy-to-find
   - Disposing of records - The National Archives | https://www.nationalarchives.gov.uk/information-management/manage-information/policy-process/disposal/
 related:
-  - When Nobody Can Trace Where a Reported Number Came From | /impact/untraceable-reporting-number-audit-cost/
-  - Recreating Documents Nobody Can Find: The Cost of Duplicated Work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
-  - Staff Using AI with Company Data Nobody Governs | /impact/uncontrolled-ai-company-data-financial-risk/
+  - When nobody can trace where a reported number came from | /impact/untraceable-reporting-number-audit-cost/
+  - Recreating documents nobody can find: The cost of duplicated work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
+  - Staff using AI with company data nobody governs | /impact/uncontrolled-ai-company-data-financial-risk/
 summary: Explains how the pain of searching for information translates into labour costs and outlines practical governance and search improvements.
 layout: plain
 ---
@@ -45,11 +45,13 @@ The last two signs matter most. When findability depends on particular people, t
 
 The tolerance exists because the underlying problem seems diffuse: it spans people, processes, and technology. There is no single owner or system that guarantees discovery or accuracy. As teams grow and tools multiply, the cognitive load increases; people default to asking a familiar colleague rather than performing a time-consuming search. The up-front effort to fix information architecture often appears expensive and risky, but the ongoing leakage of productivity and trust compounds over time.
 
-There is also a structural reason. Most businesses adopt storage tools one at a time: a shared drive in the early years, then a cloud file service, then a collaboration platform, then a line-of-business system with its own attachments. Each move is sensible, but nobody decides what should live where, so content ends up in all of them. Microsoft's own guidance on SharePoint information architecture makes the point that information architecture is a continuous process rather than a one-off design, because organisations, people and projects change over time. A structure that was never designed cannot be maintained.
+There is also a structural reason. Most businesses adopt storage tools one at a time: a shared drive in the early years, then a cloud file service, then a collaboration platform, then a line-of-business system with its own attachments. Each move is sensible, but nobody decides what should live where, so content ends up in all of them. Microsoft's own guidance on [SharePoint information architecture](https://learn.microsoft.com/en-us/sharepoint/information-architecture-modern-experience) makes the point that information architecture is a continuous process rather than a one-off design, because organisations, people and projects change over time. A structure that was never designed cannot be maintained.
 
 ### A worked example
 
-Consider a 60-person engineering services firm in Gauteng. Tender documents, safety files, client drawings and project correspondence are spread across a file server, a cloud drive and individual mailboxes. Each project manager has their own folder conventions. When a client asks for the latest revision of a method statement, the project administrator searches three places, finds two candidates with different dates, and has to ask the engineer which one was actually issued. Multiply that by every client query, every audit request and every new tender that reuses previous material, and the firm is paying skilled people to act as a human index. The fix in this case was not a new platform; it was agreeing one location per document type, one naming rule for issued documents and one owner for each project's records.
+Consider a 60-person engineering services firm in Gauteng. Tender documents, safety files, client drawings and project correspondence are spread across a file server, a cloud drive and individual mailboxes. Each project manager has their own folder conventions. When a client asks for the latest revision of a method statement, the project administrator searches three places, finds two candidates with different dates, and has to ask the engineer which one was actually issued.
+
+Multiply that by every client query, every audit request and every new tender that reuses previous material, and the firm is paying skilled people to act as a human index. The fix in this case was not a new platform; it was agreeing one location per document type, one naming rule for issued documents and one owner for each project's records.
 
 ## Economic consequence and practical model
 
@@ -66,7 +68,7 @@ A related view of the same cost, focused on files specifically, is set out in [t
 
 ### What better looks like and practical remediation
 
-A better state uses a single, well-described information layer with clear ownership, standardized metadata, and robust search. Practical steps include: define canonical storage for key document types; enforce consistent naming and metadata; invest in a lightweight discovery layer or knowledge graph; enable search-first workflows; train staff; and measure usage and accuracy over time. The ROI comes not from a single feature but from the reduced friction that frees people to contribute, innovate, and collaborate.
+A better state uses a single, well-described information layer with clear ownership, standardised metadata, and robust search. Practical steps include: define canonical storage for key document types; enforce consistent naming and metadata; invest in a lightweight discovery layer or knowledge graph; enable search-first workflows; train staff; and measure usage and accuracy over time. The ROI comes not from a single feature but from the reduced friction that frees people to contribute, innovate, and collaborate.
 
 A few practical points make these steps work in a small or mid-sized business:
 

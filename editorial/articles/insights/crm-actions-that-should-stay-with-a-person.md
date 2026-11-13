@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-086
 slug: crm-actions-that-should-stay-with-a-person
-title: What Should Never Be Automated Inside a CRM?
+title: What should never be automated inside a CRM?
 description: Some CRM actions are irreversible, personal or legally sensitive. This guide explains which to keep under human control and how to automate around them safely.
 lead: Some CRM actions are irreversible, personal or legally sensitive. This guide explains which to keep under human control and how to automate around them safely.
 category: Automation
@@ -14,9 +14,9 @@ sources:
   - Merge records | https://knowledge.hubspot.com/records/merge-records
   - Delete bulk records - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/delete-bulk-records
 related:
-  - What Should Be Automated Inside a CRM? | /insights/crm-tasks-worth-automating-first/
-  - Which Manual Tasks Should You Automate First? | /insights/how-to-rank-manual-tasks-before-you-automate-any-of-them/
-  - The Difference Between Necessary Human Work and Avoidable Manual Work | /insights/the-difference-between-necessary-human-work-and-avoidable-manual-work/
+  - What should be automated inside a CRM? | /insights/crm-tasks-worth-automating-first/
+  - Which manual tasks should you automate first? | /insights/how-to-rank-manual-tasks-before-you-automate-any-of-them/
+  - The difference between necessary human work and avoidable manual work | /insights/the-difference-between-necessary-human-work-and-avoidable-manual-work/
 summary: Some CRM actions are irreversible, personal or legally sensitive. This guide explains which to keep under human control and how to automate around them safely.
 layout: plain
 ---
@@ -28,13 +28,13 @@ Some actions should never be fully automated, however tempting the time saving. 
 
 ### Merging records
 
-Merging two customer records into one looks like a clean-up job that a rule could do. But merges are rarely harmless. HubSpot's documentation states plainly that merged records cannot be unmerged. It explains that the primary record's values are generally kept, that the secondary record is unenrolled from workflows and that the result combines activities and associations from both. You may be able to find the earlier identifiers afterwards, but you cannot simply pull the records apart again.
+Merging two customer records into one looks like a clean-up job that a rule could do. But merges are rarely harmless. [HubSpot's documentation](https://knowledge.hubspot.com/records/merge-records) states plainly that merged records cannot be unmerged. It explains that the primary record's values are generally kept, that the secondary record is unenrolled from workflows and that the result combines activities and associations from both. You may be able to find the earlier identifiers afterwards, but you cannot simply pull the records apart again.
 
 The risk is greatest where two records look alike but are not the same. Two people named Pillay in the same company, a head office and a branch sharing a switchboard number or a father and son with one email address can all appear to be duplicates. Automatic merging on a loose match will fuse them, and every note, quote and invoice reference will follow. Automatic detection and a flag for human review is fine. Automatic merging is not.
 
 ### Permanent deletion
 
-Microsoft's guidance on bulk deletion describes a "permanent deletion" option under which records are removed and cannot be recovered, and cautions that it should be used judiciously because data deleted this way is permanently lost. It also notes that, where deleted-record keeping is on, ordinary bulk deletion allows restoring records within a configured time frame. The lesson generalises: a scheduled rule that deletes "inactive contacts" can destroy history that finance, legal or the customer later needs. Deletion should be a reviewed, logged decision, preferably with a recovery window.
+[Microsoft's guidance on bulk deletion](https://learn.microsoft.com/en-us/power-platform/admin/delete-bulk-records) describes a "permanent deletion" option under which records are removed and cannot be recovered, and cautions that it should be used judiciously because data deleted this way is permanently lost. It also notes that, where deleted-record keeping is on, ordinary bulk deletion allows restoring records within a configured time frame. The lesson generalises: a scheduled rule that deletes "inactive contacts" can destroy history that finance, legal or the customer later needs. Deletion should be a reviewed, logged decision, preferably with a recovery window.
 
 ### Overwriting data in bulk
 
@@ -44,7 +44,7 @@ Rules that overwrite fields, such as resetting owners, replacing addresses or ch
 
 Customers are people, and some CRM decisions affect them seriously: refusing credit, withdrawing service, blacklisting an account, flagging someone as a fraud risk or setting a price that others do not receive.
 
-South Africa's Protection of Personal Information Act addresses this in section 71. Under that section, a person may not be subject to a decision that has legal consequences for them, or substantially affects them, if it is based solely on automated processing intended to profile them, for example on creditworthiness, reliability, conduct or personal preferences. There are exceptions, including decisions taken in connection with concluding or performing a contract where appropriate measures protect the person's interests. Those measures must give the person a chance to make representations, and the business must give enough information about the underlying logic for them to do so.
+South Africa's Protection of Personal Information Act addresses this in [section 71](https://popia.co.za/section-71-automated-decision-making/). Under that section, a person may not be subject to a decision that has legal consequences for them, or substantially affects them, if it is based solely on automated processing intended to profile them, for example on creditworthiness, reliability, conduct or personal preferences. There are exceptions, including decisions taken in connection with concluding or performing a contract where appropriate measures protect the person's interests. Those measures must give the person a chance to make representations, and the business must give enough information about the underlying logic for them to do so.
 
 The practical reading for a CRM owner is that a rule which, on its own, closes an account, blocks an order or declines a request on the basis of a profile of the customer is a rule to examine with great care and with proper advice. The safer design is to let the CRM flag, suggest and prepare while a named person decides and records the reason. See also [designing human approval checkpoints for AI workflows](/insights/designing-human-approval-checkpoints-for-ai-workflows/), which makes the same point for AI-driven actions.
 

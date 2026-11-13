@@ -20,6 +20,7 @@ side_title: Topics
 sources:
   - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
   - Principle (d): Accuracy | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/accuracy/
+  - Measure - NIST AI Risk Management Framework Playbook | https://airc.nist.gov/airmf-resources/playbook/measure/
 related:
   - The hidden cost of apps that do not share data | /insights/the-hidden-cost-of-apps-that-do-not-share-data/
   - Why every important integration needs an owner | /insights/why-every-important-integration-needs-an-owner/
@@ -68,7 +69,7 @@ Data quality is often discussed as though it were a single property. The Governm
 
 The framework is careful to separate these. A data set can be complete and still inaccurate. That distinction matters for AI because a model can work fluently with a complete, valid-looking record that is simply wrong.
 
-Where AI touches personal data there is also a legal dimension. The ICO's guidance on the [UK GDPR accuracy principle](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/accuracy/) expects organisations to take reasonable steps to ensure personal data is not incorrect or misleading, to keep it updated where the purpose requires it, and to make its source and status clear. An AI workflow that acts on stale personal data does not sit outside those obligations.
+Where AI touches personal data there is also a legal dimension. The ICO's guidance on the [UK GDPR accuracy principle](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/accuracy/) expects organisations to take reasonable steps to ensure personal data is not incorrect or misleading, to keep it updated where the purpose requires it, and to make its source and status clear. An AI workflow that acts on stale personal data does not sit outside those obligations. The US NIST AI Risk Management Framework playbook also [ties AI measurement to data quality](https://airc.nist.gov/airmf-resources/playbook/measure/), noting the dependence of AI systems on training data and methods that directly relate to data quality and representativeness.
 
 ## Start with ownership and meaning
 

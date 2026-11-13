@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-357
 slug: why-customer-security-questionnaires-keep-pulling-specialists-off-their-work
 title: Customer security questionnaires consume specialist time
-description: Every enterprise deal now arrives with a security questionnaire that lands on the same two people. How to build an answer library, assign ownership and stop re-answering the same questions.
+description: Every enterprise deal brings a security questionnaire that lands on the same two people. How to build an answer library and stop re-answering questions.
 lead: Every enterprise deal now arrives with a security questionnaire that lands on the same two people. How to build an answer library, assign ownership and stop re-answering the same questions.
 category: Security & Compliance Operations
 published_date: 2026-10-09
@@ -32,9 +32,9 @@ This article looks at that operating condition: customer security questionnaires
 
 Large buyers have to show that their suppliers protect information. Rather than audit each supplier, they send a questionnaire. Each buyer writes its own, or adapts one, so a supplier with ten customers can face ten formats, each asking overlapping questions in slightly different language. The people who can answer accurately are a small group: the IT lead, an external IT provider, perhaps a compliance officer. Their answers live in old emails and in the previous spreadsheet, if anyone can find it. Each new questionnaire starts close to zero.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The person searching for this problem is rarely asking how to be more secure in the abstract. They want to shorten the time between receiving a questionnaire and returning an accurate answer, without pulling a specialist off operational work and without promising something the business does not actually do. The sales side wants speed because a stalled questionnaire is a stalled deal. The security side wants accuracy because an incorrect answer given to a customer becomes a contractual statement. Both interests have to be served.
+The person facing this problem is rarely asking how to be more secure in the abstract. They want to shorten the time between receiving a questionnaire and returning an accurate answer, without pulling a specialist off operational work and without promising something the business does not actually do. The sales side wants speed because a stalled questionnaire is a stalled deal. The security side wants accuracy because an incorrect answer given to a customer becomes a contractual statement. Both interests have to be served.
 
 ## Evidence and system mechanism
 

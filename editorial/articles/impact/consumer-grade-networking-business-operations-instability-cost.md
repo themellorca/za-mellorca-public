@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-180
 slug: consumer-grade-networking-business-operations-instability-cost
-title: Home-Grade Routers in a Working Business: What Network Instability Costs
-description: Retail routers and switches are cheap to buy, but a business that depends on them pays for it in dropped connections, slow diagnosis, thin support and unmanaged security risk.
+title: Home-grade routers in a working business: What network instability costs
+description: Retail routers and switches are cheap, but a business that depends on them pays in dropped connections, slow diagnosis, thin support and security risk.
 lead: Retail routers and switches are cheap to buy, but a business that depends on them pays for it in dropped connections, slow diagnosis, thin support and unmanaged security risk.
 category: Digital Operations
 published_date: 2026-10-08
@@ -15,10 +15,12 @@ primary_cost_mechanism: Lost staff time and sales from instability, diagnosis an
 sources:
   - Obsolete products | https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/obsolete-products
   - Reliability design principles - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles
+  - Secure by Design Alert: Security Design Improvements for SOHO Device Manufacturers - CISA | https://www.cisa.gov/resources-tools/resources/secure-design-alert-security-design-improvements-soho-device-manufacturers
 related:
-  - "I Thought You Were Doing It": The Labour Cost of Unclear Responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
-  - Cloud Prices for Old Infrastructure: The Cost of Moving Without Redesign | /impact/cloud-migration-without-redesign-old-infrastructure-patterns-cost/
-  - New Starters Waiting for Logins: The Payroll Cost of Slow Access Setup | /impact/new-starters-waiting-for-logins-access-setup-cost/
+  - "I thought you were doing it": The labour cost of unclear responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
+  - Cloud prices for old infrastructure: The cost of moving without redesign | /impact/cloud-migration-without-redesign-old-infrastructure-patterns-cost/
+  - New starters waiting for logins: The payroll cost of slow access setup | /impact/new-starters-waiting-for-logins-access-setup-cost/
+  - Patching only after something breaks: The price of leaving known weaknesses open | /impact/delaying-security-updates-until-something-breaks-known-weakness-financial-risk/
 summary: Retail routers and switches are cheap to buy, but a business that depends on them pays for it in dropped connections, slow diagnosis, thin support and unmanaged security risk.
 layout: plain
 ---
@@ -41,7 +43,9 @@ Consumer equipment is designed for a home with a handful of devices, light use a
 
 ## The security side of the same problem
 
-The cost is not only downtime. The United States Cybersecurity and Infrastructure Security Agency explains in its guidance on [securing network infrastructure devices](https://www.cisa.gov/news-events/news/securing-network-infrastructure-devices) that routers, firewalls and switches are attractive targets because most or all organisational traffic passes through them. It notes that small office and home office routers typically run few of the security tools found on desktops and servers, that vendors often ship them with exploitable services enabled for convenience, and that owners frequently leave default settings unchanged and skip regular patching.
+The cost is not only downtime. The United States Cybersecurity and Infrastructure Security Agency explains in its guidance on [securing network infrastructure devices](https://www.cisa.gov/news-events/news/securing-network-infrastructure-devices) that routers, firewalls and switches are attractive targets because most or all organisational traffic passes through them.
+
+It notes that small office and home office routers typically run few of the security tools found on desktops and servers, that vendors often ship them with exploitable services enabled for convenience, and that owners frequently leave default settings unchanged and skip regular patching. CISA and the FBI have also issued a [Secure by Design alert on small office and home office routers](https://www.cisa.gov/resources-tools/resources/secure-design-alert-security-design-improvements-soho-device-manufacturers), warning that attackers compromise them as launching pads and urging manufacturers to enable automatic updates by default.
 
 For a South African business, the Protection of Personal Information Act expects reasonable security measures around the personal information you hold. A router running years-old firmware and default passwords is difficult to defend as reasonable.
 

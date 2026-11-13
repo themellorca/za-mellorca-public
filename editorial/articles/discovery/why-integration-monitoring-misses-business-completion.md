@@ -2,8 +2,8 @@
 hub: discovery
 record_id: DISC-283
 slug: why-integration-monitoring-misses-business-completion
-title: Why Integration Monitoring Can Show Green While the Business Transaction Still Fails
-description: An integration can be technically healthy while the business transaction still fails. Monitoring must follow the transaction across dependencies and final business outcomes.
+title: Why integration monitoring can show green while the business transaction still fails
+description: An integration can look healthy while the business transaction still fails. Monitoring must follow the transaction through to the final outcome.
 lead: A healthy API endpoint or integration platform does not prove that an order, invoice, lead or service request reached the business state the organisation actually needed.
 category: Integration & API Operations
 published_date: 2026-09-03
@@ -29,7 +29,7 @@ sources:
 closing_title: Method note
 closing_text: The sources establish current observability mechanisms. Quantify operational impact from the organisation's own transaction, exception and recovery data.
 related:
-  - Why Integration Incidents Require Several Vendors to Diagnose | /discovery/why-integration-incidents-require-several-vendors-to-diagnose/
+  - Why integration incidents require several vendors to diagnose | /discovery/why-integration-incidents-require-several-vendors-to-diagnose/
   - API credentials are shared across unrelated integrations | /discovery/api-credentials-shared-across-unrelated-integrations/
   - Why teams cannot trace one business transaction across several systems | /discovery/teams-cannot-trace-a-business-transaction-across-systems/
 ---
@@ -39,9 +39,9 @@ Dashboards say the API is up and the integration platform is running. Yet a cust
 
 The failure is usually discovered by the wrong person at the wrong time: a customer asking where an order is, a salesperson wondering why a lead was never assigned, or a month-end reconciliation that does not balance. By then the technical evidence may be days old, and the team must reconstruct what happened across several systems that each insist they were working correctly.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches such as “integration monitoring end to end”, “API healthy but transaction failed” and “business transaction monitoring” reflect a need to prove completion, not merely component uptime.
+Questions such as “how do we monitor integrations end to end?”, “why did the transaction fail when the API was healthy?” and “how do we monitor business transactions?” reflect a need to prove completion, not merely component uptime.
 
 ## Evidence and system mechanism
 

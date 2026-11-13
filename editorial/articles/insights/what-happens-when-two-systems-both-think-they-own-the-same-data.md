@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-060
 slug: what-happens-when-two-systems-both-think-they-own-the-same-data
-title: What Happens When Two Systems Both Think They Own the Same Data
-description: When two systems can both change the same customer or price, updates are silently lost, edits bounce back and duplicates appear. How to spot it and how to get out of it.
+title: What happens when two systems both think they own the same data
+description: When two systems can both change the same customer or price, updates get lost, edits bounce back and duplicates appear. How to spot it and get out of it.
 lead: When two systems can both change the same customer or price, updates are silently lost, edits bounce back and duplicates appear. How to spot it and how to get out of it.
 category: Data Ownership
 published_date: 2026-10-06
@@ -14,9 +14,9 @@ sources:
   - Troubleshoot live synchronization issues - Finance & Operations - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-live-sync
   - Optimistic concurrency (Microsoft Dataverse) - Power Apps | https://learn.microsoft.com/en-us/power-apps/developer/data-platform/optimistic-concurrency
 related:
-  - How Duplicate Customer Records Are Created | /insights/how-duplicate-customer-records-are-created/
+  - How duplicate customer records are created | /insights/how-duplicate-customer-records-are-created/
   - What to document before connecting two business platforms | /insights/what-to-document-before-connecting-two-business-platforms/
-  - What Your Recurring Problems Are Telling You About Your Systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
+  - What your recurring problems are telling you about your systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
 summary: When two systems can both change the same customer or price, updates are silently lost, edits bounce back and duplicates appear. How to spot it and how to get out of it.
 layout: plain
 ---
@@ -48,7 +48,7 @@ When both systems are allowed to create the same kind of record, each may give i
 
 ### 5. Updates that collide in the moment
 
-Even inside one platform, two processes can update the same record at nearly the same time. Microsoft's Dataverse documentation explains that when two or more update or delete operations on the same data happen at the same time, data loss can result, and it offers optimistic concurrency so that an application can detect whether a record has changed since it was read before overwriting it. Many simple business integrations do not use such checks, which makes collisions invisible.
+Even inside one platform, two processes can update the same record at nearly the same time. Microsoft's Dataverse documentation explains that when two or more update or delete operations on the same data happen at the same time, data loss can result, and it offers [optimistic concurrency](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/optimistic-concurrency) so that an application can detect whether a record has changed since it was read before overwriting it. Many simple business integrations do not use such checks, which makes collisions invisible.
 
 ## How to recognise the problem
 

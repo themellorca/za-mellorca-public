@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-005
 slug: why-small-operational-problems-become-expensive-at-scale
-title: Why Small Operational Problems Become Expensive at Scale
-description: A two-minute workaround or a one-in-fifty error looks harmless on any single day. Volume, propagation and late detection are what turn it into a structural cost, and they can be measured before they are fixed.
+title: Why small operational problems become expensive at scale
+description: A two-minute workaround or a one-in-fifty error looks harmless on any one day. Volume, spread and late detection make it a cost you can measure.
 lead: A two-minute workaround or a one-in-fifty error looks harmless on any single day. Volume, propagation and late detection are what turn it into a structural cost, and they can be measured before they are fixed.
 category: Operations
 published_date: 2026-10-03
@@ -14,9 +14,9 @@ sources:
   - Google SRE - What is Toil in SRE: Understanding Its Impact | https://sre.google/sre-book/eliminating-toil/
   - Jidoka - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/jidoka/
 related:
-  - How Manual Data Transfer Becomes an Operational Bottleneck | /insights/how-manual-data-transfer-becomes-an-operational-bottleneck/
-  - Why Fixing Symptoms Without Mapping the System Rarely Works | /insights/why-fixing-symptoms-without-mapping-the-system-rarely-works/
-  - Why Repeated Workarounds Are a Warning Sign | /insights/why-repeated-workarounds-are-a-warning-sign/
+  - How manual data transfer becomes an operational bottleneck | /insights/how-manual-data-transfer-becomes-an-operational-bottleneck/
+  - Why fixing symptoms without mapping the system rarely works | /insights/why-fixing-symptoms-without-mapping-the-system-rarely-works/
+  - Why repeated workarounds are a warning sign | /insights/why-repeated-workarounds-are-a-warning-sign/
 summary: A two-minute workaround or a one-in-fifty error looks harmless on any single day. Volume, propagation and late detection are what turn it into a structural cost, and they can be measured before they are fixed.
 layout: plain
 ---

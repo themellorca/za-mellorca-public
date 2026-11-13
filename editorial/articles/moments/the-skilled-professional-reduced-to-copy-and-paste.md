@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000086
 slug: the-skilled-professional-reduced-to-copy-and-paste
-title: The Skilled Professional Reduced to Copy-and-Paste
-description: A qualified person hired for judgement spends the day moving numbers between screens. What that costs in dignity as well as time, and what changes when systems carry the transfer.
+title: The skilled professional reduced to copy-and-paste
+description: A qualified person hired for judgement spends the day moving numbers between screens. What that costs in dignity and time, and what changes if systems do.
 lead: A qualified person hired for judgement spends the day moving numbers between screens. What that costs in dignity as well as time, and what changes when systems carry the transfer.
 category: Work & Dignity
 published_date: 2026-10-03
@@ -17,10 +17,12 @@ epistemic_state: HYPOTHESISED: the dignity cost is inferred from task-exposure r
 sources:
   - Generative AI likely to augment rather than destroy jobs | https://www.ilo.org/resource/news/generative-ai-likely-augment-rather-destroy-jobs
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
 related:
-  - The Inbox That Follows You Home | /moments/the-inbox-that-follows-you-home/
-  - When Every Day Starts by Rebuilding Yesterday's Context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
-  - Why Waiting for Information Feels Like Working | /moments/why-waiting-for-information-feels-like-working/
+  - The inbox that follows you home | /moments/the-inbox-that-follows-you-home/
+  - When every day starts by rebuilding yesterday's context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
+  - Why waiting for information feels like working | /moments/why-waiting-for-information-feels-like-working/
+  - The teacher who became a data-entry clerk | /moments/the-teacher-who-became-a-data-entry-clerk/
 summary: A qualified person hired for judgement spends the day moving numbers between screens. What that costs in dignity as well as time, and what changes when systems carry the transfer.
 layout: plain
 ---
@@ -32,11 +34,11 @@ That is the moment this piece is about. Not the efficiency question, which Mello
 
 ## What the evidence says about this kind of work
 
-The ILO's research on generative AI and jobs looked at which tasks within occupations are most exposed to automation. It found clerical work to be the most exposed group, with nearly a quarter of clerical tasks considered highly exposed and more than half at a medium level. For most other occupations, including professionals and managers, exposure was much lower.
+The ILO's research on [generative AI](https://www.ilo.org/resource/news/generative-ai-likely-augment-rather-destroy-jobs) and jobs looked at which tasks within occupations are most exposed to automation. It found clerical work to be the most exposed group, with nearly a quarter of clerical tasks considered highly exposed and more than half at a medium level. For most other occupations, including professionals and managers, exposure was much lower.
 
 The ILO's broader conclusion matters as much as the figures: most jobs are only partly exposed and are more likely to be complemented than replaced. The organisation also noted that the bigger issue may be job quality, including work intensity and autonomy, rather than job loss. That is a useful frame. The question is not only which tasks a machine could do, but what happens to the person's work once those tasks are handled differently.
 
-Microsoft's Work Trend Index adds a view from workers themselves. In its survey, 64% of people said they struggled to have enough time and energy to do their job, and 76% said they would be comfortable using AI for administrative tasks. Those are global survey results from one vendor's research, not South African findings, but they suggest that many people would willingly give up routine administrative work if it were handled reliably.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) adds a view from workers themselves. In its survey, 64% of people said they struggled to have enough time and energy to do their job, and 76% said they would be comfortable using AI for administrative tasks. Those are global survey results from one vendor's research, not South African findings, but they suggest that many people would willingly give up routine administrative work if it were handled reliably.
 
 ## How a skilled role becomes a transfer role
 
@@ -57,7 +59,9 @@ There is also a quieter cause. Because the bookkeeper is competent, the workarou
 
 Time is the easy part to describe. Hours go on transcription that could go on analysis, on talking to tenants about arrears, or on spotting the account that is about to become a problem.
 
-Dignity is harder to talk about and easier to overstate, so it is worth being careful. Some people find routine, accurate work satisfying, and there is nothing undignified about it in itself. The concern is narrower: when a skilled person's capability is consistently unused because the system requires them to act as a conduit, the role stops recognising what they can do. Their judgement becomes a quality-control step on their own typing. For some people, that can feel like being reduced. For others it may be tolerable or even comfortable. Mellorca cannot know which applies to any individual, and should not claim to.
+Dignity is harder to talk about and easier to overstate, so it is worth being careful. Some people find routine, accurate work satisfying, and there is nothing undignified about it in itself. The concern is narrower: when a skilled person's capability is consistently unused because the system requires them to act as a conduit, the role stops recognising what they can do.
+
+Their judgement becomes a quality-control step on their own typing. For some people, that can feel like being reduced. For others it may be tolerable or even comfortable. Mellorca cannot know which applies to any individual, and should not claim to. The UK Health and Safety Executive's Management Standards on [demands](https://www.hse.gov.uk/stress/standards/demands.htm) list workload among the issues covered and expect that people's skills and abilities are matched to the job demands.
 
 What can be said is that the business is paying for judgement and receiving mostly transcription, and that the person has little say over the mismatch.
 

@@ -62,7 +62,7 @@ A business application rarely operates alone. Before purchase, identify which sy
 
 Ask vendors about documented APIs, webhooks, authentication methods, rate limits, sandbox environments and export capability. Do not accept “we integrate with X” as a complete answer. Determine whether the integration is native, partner-built, middleware-dependent or something your team will have to engineer.
 
-Open standards and interoperability principles are relevant here because they reduce dependency on one product or supplier. UK government technology guidance explicitly promotes open standards partly to improve interoperability and reduce vendor lock-in. Private businesses have the same architectural concern even when the procurement context is different.
+[Open standards](https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles) and interoperability principles are relevant here because they reduce dependency on one product or supplier. UK government technology guidance explicitly promotes [open standards](https://www.gov.uk/guidance/make-use-of-open-standards/) partly to improve interoperability and reduce vendor lock-in. Private businesses have the same architectural concern even when the procurement context is different.
 
 ## Examine data ownership and exit before signing
 
@@ -74,7 +74,7 @@ Also understand data retention, deletion, backup and administrative access. If l
 
 Security should not be reduced to a questionnaire sent after the commercial decision is mostly made. Ask how the product supports identity, multifactor authentication, privileged administration, audit logging, secure defaults, vulnerability management and incident communication.
 
-CISA's Secure by Design work continues to push software manufacturers toward reducing customer risk through stronger product security practices. Buyers should use that same mindset: security characteristics belong in the product evaluation, not only in the legal appendix.
+CISA's Secure by Design work continues to push software manufacturers toward reducing customer risk through stronger [product security](https://www.cisa.gov/news-events/alerts/2025/01/17/cisa-and-fbi-release-updated-guidance-product-security-bad-practices) practices. Buyers should use that same mindset: security characteristics belong in the product evaluation, not only in the legal appendix.
 
 ## Model the operating cost, not only the licence
 

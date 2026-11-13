@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-128
 slug: the-hidden-cost-of-asking-customers-for-the-same-information-twice
-title: The Hidden Cost of Asking Customers for the Same Information Twice
-description: When sales, accounts and support each ask the customer for the same details, the customer notices a business that does not share what it knows. Here is the cost and how to stop it.
+title: The hidden cost of asking customers for the same information twice
+description: When sales, accounts and support each ask customers for the same details, customers see a business that does not share what it knows. The cost and fix.
 lead: When sales, accounts and support each ask the customer for the same details, the customer notices a business that does not share what it knows. Here is the cost and how to stop it.
 category: Customer Experience & Onboarding
 published_date: 2026-10-08
@@ -19,9 +19,10 @@ sources:
   - Data unification overview - Dynamics 365 Customer Insights | https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-unification
   - Failure Demand | https://beyondcommandandcontrol.com/failure-demand/
 related:
-  - The Hidden Cost of Repetitive Customer Questions | /patterns/the-hidden-cost-of-repetitive-customer-questions/
-  - When Customers Can See the Gaps Between Your Systems | /patterns/when-customers-can-see-the-gaps-between-your-systems/
-  - The Hidden Commercial Cost of Fragile Infrastructure | /patterns/the-hidden-commercial-cost-of-fragile-infrastructure/
+  - The hidden cost of repetitive customer questions | /patterns/the-hidden-cost-of-repetitive-customer-questions/
+  - When customers can see the gaps between your systems | /patterns/when-customers-can-see-the-gaps-between-your-systems/
+  - The hidden commercial cost of fragile infrastructure | /patterns/the-hidden-commercial-cost-of-fragile-infrastructure/
+  - The cost of entering the same prospect information twice | /patterns/the-real-price-of-capturing-a-prospect-in-two-places/
 summary: When sales, accounts and support each ask the customer for the same details, the customer notices a business that does not share what it knows. Here is the cost and how to stop it.
 layout: plain
 ---
@@ -62,7 +63,7 @@ The commercial value at stake is customer experience, onboarding speed, retentio
 
 Repetition erodes confidence early, when the customer is deciding how much to trust the business with. It also delays work: if an invoice cannot be raised until the VAT number arrives, then cash arrives later. A delivery that waits on a confirmed address misses its slot. Every wait is a cost, and the customer pays part of it in time.
 
-The effect on service is subtler. Customers who feel they are doing the business's administration are less likely to bother with small complaints and more likely to leave quietly at renewal. The idea of failure demand, described on the Beyond Command and Control site as demand caused by failing to do something right for the customer, fits well: each repeated request is work created by an earlier gap.
+The effect on service is subtler. Customers who feel they are doing the business's administration are less likely to bother with small complaints and more likely to leave quietly at renewal. The idea of [failure demand](https://beyondcommandandcontrol.com/failure-demand/), described on the Beyond Command and Control site as demand caused by failing to do something right for the customer, fits well: each repeated request is work created by an earlier gap.
 
 Inconsistent records add risk. When a customer corrects their details in one place, the older versions elsewhere stay wrong. Invoices go to the old address, statements reach the former accountant and marketing messages to a person who has left the customer's business. The Pattern [when sales, finance and support disagree about the same customer](/patterns/when-sales-finance-and-support-disagree-about-the-same-customer/) shows how this affects daily work.
 

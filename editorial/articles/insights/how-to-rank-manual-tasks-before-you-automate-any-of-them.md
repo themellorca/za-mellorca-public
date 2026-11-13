@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-130
 slug: how-to-rank-manual-tasks-before-you-automate-any-of-them
-title: Which Manual Tasks Should You Automate First?
-description: Twenty candidate tasks and budget for two. A five-criteria scoring method, a bottleneck tie-breaker and lists of good and poor first candidates to choose where to start.
+title: Which manual tasks should you automate first?
+description: Twenty candidate tasks and budget for two. A five-criteria scoring method, a bottleneck tie-breaker and lists of good and poor first candidates.
 lead: Twenty candidate tasks and budget for two. A five-criteria scoring method, a bottleneck tie-breaker and lists of good and poor first candidates to choose where to start.
 category: Automation
 published_date: 2026-10-09
@@ -15,9 +15,10 @@ sources:
   - Five Focusing Steps, a Process of On-Going Improvement | https://www.tocinstitute.org/five-focusing-steps.html
   - Optimize your implementation with a fit-to-standard and fit-gap analysis - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis
 related:
-  - What Business Automation Should Actually Solve | /insights/what-business-automation-should-actually-solve/
-  - How to Know Whether an Automation Actually Ran | /insights/how-to-know-whether-an-automation-actually-ran/
-  - Why Automation Projects Fail After the Demo | /insights/why-automations-that-worked-in-the-demo-stop-working-in-production/
+  - What business automation should actually solve | /insights/what-business-automation-should-actually-solve/
+  - How to know whether an automation actually ran | /insights/how-to-know-whether-an-automation-actually-ran/
+  - Why automation projects fail after the demo | /insights/why-automations-that-worked-in-the-demo-stop-working-in-production/
+  - Automating the easy things first: The opportunity cost of leaving bottlenecks alone | /impact/automation-chosen-for-convenience-not-costly-bottlenecks-opportunity-cost/
 summary: Twenty candidate tasks and budget for two. A five-criteria scoring method, a bottleneck tie-breaker and lists of good and poor first candidates to choose where to start.
 layout: plain
 ---
@@ -55,7 +56,7 @@ Check whether the systems involved have usable interfaces. A task that spans two
 
 ## Use the bottleneck as a tie-breaker
 
-When two candidates score similarly, prefer the one that sits on the critical path. The Theory of Constraints, summarised by the TOC Institute in its five focusing steps, holds that improving anything other than the system's constraint yields little overall benefit. If orders wait three days for credit approval and thirty minutes for data capture, automating the data capture will save effort but will not make customers wait less. Automating the part that is actually slow will. See also what makes an automation worth building.
+When two candidates score similarly, prefer the one that sits on the critical path. The Theory of Constraints, summarised by the TOC Institute in its [five focusing steps](https://www.tocinstitute.org/five-focusing-steps.html), holds that improving anything other than the system's constraint yields little overall benefit. If orders wait three days for credit approval and thirty minutes for data capture, automating the data capture will save effort but will not make customers wait less. Automating the part that is actually slow will. See also what makes an automation worth building.
 
 ## Typical good first candidates
 

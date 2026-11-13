@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-024
 slug: why-more-headcount-does-not-always-create-more-capacity
-title: Why More Headcount Does Not Always Create More Capacity
-description: New hires often fail to clear a backlog because they join away from the real constraint and bring training and coordination overhead. Finding and protecting the constraint makes each hire count.
+title: Why more headcount does not always create more capacity
+description: New hires often fail to clear a backlog because they join away from the real constraint and add overhead. Protect the constraint so each hire counts.
 lead: New hires often fail to clear a backlog because they join away from the real constraint and bring training and coordination overhead. Finding and protecting the constraint makes each hire count.
 category: Manual Work & Administrative Load
 published_date: 2026-10-05
@@ -18,9 +18,9 @@ sources:
   - Brooks’ Law: Adding Manpower to a Late Project Makes It Later – Effectiviology | https://effectiviology.com/brooks-law/
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
 related:
-  - When Repetitive Work Is Mistaken for Necessary Work | /patterns/when-repetitive-work-is-mistaken-for-necessary-work/
-  - The Cost of Work That Adds No New Information | /patterns/the-cost-of-work-that-adds-no-new-information/
-  - The Business Process That Only Works Because Someone Remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
+  - When repetitive work is mistaken for necessary work | /patterns/when-repetitive-work-is-mistaken-for-necessary-work/
+  - The cost of work that adds no new information | /patterns/the-cost-of-work-that-adds-no-new-information/
+  - The business process that only works because someone remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
 summary: New hires often fail to clear a backlog because they join away from the real constraint and bring training and coordination overhead. Finding and protecting the constraint makes each hire count.
 layout: plain
 ---

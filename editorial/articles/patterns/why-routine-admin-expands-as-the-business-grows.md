@@ -2,25 +2,26 @@
 hub: patterns
 record_id: PAT-004
 slug: why-routine-admin-expands-as-the-business-grows
-title: Why Routine Admin Expands as the Business Grows
-description: A Pattern exploring the observable expansion of routine administrative tasks as organizations scale, the systemic causes, and practical governance and design interventions to preserve operating velocity.
-lead: A Pattern exploring the observable expansion of routine administrative tasks as organizations scale, the systemic causes, and practical governance and design interventions to preserve operating velocity.
+title: Why routine admin expands as the business grows
+description: Routine administration expands as organisations scale. Learn the causes and the practical design and governance steps that preserve operating speed.
+lead: A Pattern exploring the observable expansion of routine administrative tasks as organisations scale, the systemic causes, and practical governance and design interventions to preserve operating velocity.
 category: Operations & Admin Patterns
 published_date: 2026-10-02
 updated_date: 2026-10-02
 eyebrow: Operations and Administration
 pattern_family: Operations & Admin Patterns
-observable_condition: Routine administrative work expands as organizations scale due to onboarding, approvals, data entry, and compliance tasks proliferating across departments.
+observable_condition: Routine administrative work expands as organisations scale due to onboarding, approvals, data entry, and compliance tasks proliferating across departments.
 primary_identification: Administrative Overhead Growth Pattern
 commercial_value_dimensions: efficiency, cost, productivity, risk, scalability
 sources:
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
   - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - Introduction - Site Reliability Engineering - Google | https://sre.google/sre-book/introduction/
 related:
-  - Why Does One Approval Hold Up an Entire Process? | /patterns/why-does-one-approval-hold-up-an-entire-process/
-  - Why Customer Service Becomes a Human Search Engine | /patterns/why-customer-service-becomes-a-human-search-engine/
-  - When Manual Exceptions Become the Normal Process | /patterns/when-manual-exceptions-become-the-normal-process/
-summary: A Pattern exploring the observable expansion of routine administrative tasks as organizations scale, the systemic causes, and practical governance and design interventions to preserve operating velocity.
+  - Why does one approval hold up an entire process? | /patterns/why-does-one-approval-hold-up-an-entire-process/
+  - Why customer service becomes a human search engine | /patterns/why-customer-service-becomes-a-human-search-engine/
+  - When manual exceptions become the normal process | /patterns/when-manual-exceptions-become-the-normal-process/
+summary: A Pattern exploring the observable expansion of routine administrative tasks as organisations scale, the systemic causes, and practical governance and design interventions to preserve operating velocity.
 layout: plain
 ---
 ## Observable condition
@@ -31,11 +32,13 @@ As organisations scale, routine administrative work—onboarding, approvals, dat
 
 Growth creates complexity, and complexity invites process toggle-switches. Without deliberate governance, each department reflexively builds its own routines to cope with volume, urgency, and risk. The consequence is a drift from a shared operating model toward a constellation of ad hoc routines. The realisation is not that people are failing; it is that the supporting processes have not kept pace with the scale and cadence of the business. The signal is consistent: longer cycle times, wasted rework, and a blurry line between what is essential versus what is ritualised to appease multiple stakeholders.
 
-The most expensive version of this is when the business responds by hiring. Each new administrator absorbs the overflow for a while, but the underlying routines remain, so admin headcount tracks revenue rather than flattening. We look at that dynamic in [why revenue growth requires more admin staff](/patterns/why-revenue-growth-requires-more-admin-staff/) and its financial effect in [the cost of scaling by adding headcount](/impact/scaling-by-adding-headcount/).
+The most expensive version of this is when the business responds by hiring. Each new administrator absorbs the overflow for a while, but the underlying routines remain, so admin headcount tracks revenue rather than flattening. We look at that dynamic in [why revenue growth requires more admin staff](/patterns/why-revenue-growth-requires-more-admin-staff/) and its financial effect in [the cost of scaling by adding headcount](/impact/scaling-by-adding-headcount/). Google's [Site Reliability Engineering book](https://sre.google/sre-book/introduction/) makes the same observation about operations: teams that rely on manual intervention become expensive because the size of the team scales with the load the system generates.
 
 ### A worked example
 
-A Pretoria-based facilities maintenance company grows from 30 to 120 employees over four years, opening branches in two more provinces. At 30 people, a new technician was onboarded by the office manager in an afternoon: a form, a phone, a vehicle allocation. At 120, onboarding involves an HR form, a separate payroll form that repeats half the same fields, a vehicle request emailed to fleet, a tools request on paper at the branch, a safety induction tracked in a spreadsheet, and system access requested by message to the IT contractor. Each branch has slightly different versions. New technicians regularly wait days for a vehicle or system access, and three different people re-key the same name, ID number and banking details. Nobody designed this; every step was added to solve a specific problem at a specific time.
+A Pretoria-based facilities maintenance company grows from 30 to 120 employees over four years, opening branches in two more provinces. At 30 people, a new technician was onboarded by the office manager in an afternoon: a form, a phone, a vehicle allocation. At 120, onboarding involves an HR form, a separate payroll form that repeats half the same fields, a vehicle request emailed to fleet, a tools request on paper at the branch, a safety induction tracked in a spreadsheet, and system access requested by message to the IT contractor.
+
+Each branch has slightly different versions. New technicians regularly wait days for a vehicle or system access, and three different people re-key the same name, ID number and banking details. Nobody designed this; every step was added to solve a specific problem at a specific time.
 
 ## Identification
 
@@ -53,7 +56,7 @@ Warning signs worth watching for:
 
 Root mechanisms: the diagnosis centres on governance gaps and information fragmentation. When onboarding, approvals, and record-keeping rely on dispersed tools, you gain local effectiveness at the expense of global visibility. Data becomes inconsistent, handoffs multiply, and the same information is rekeyed across systems. The diagnosis also implicates human factors: unclear ownership, incomplete handbooks, and inconsistent training that allows local routines to persist unchallenged. Effective diagnosis requires mapping the real workflows end-to-end, identifying bottlenecks, and clarifying who owns which data at which stage of a process.
 
-Mapping the real workflow is where most efforts go wrong, because the map drawn in a workshop reflects how people believe the process works. Where systems record events, process mining can help: it extracts event data from systems of record to visualise how processes actually run, identify bottlenecks and determine root causes of inefficiency. Where data is thin, a simpler method works: follow five real cases from start to finish, recording every form, approval, wait and re-entry.
+Mapping the real workflow is where most efforts go wrong, because the map drawn in a workshop reflects how people believe the process works. Where systems record events, [process mining](https://learn.microsoft.com/en-us/power-automate/process-mining-overview) can help: it extracts event data from systems of record to visualise how processes actually run, identify bottlenecks and determine root causes of inefficiency. Where data is thin, a simpler method works: follow five real cases from start to finish, recording every form, approval, wait and re-entry.
 
 It also helps to separate three kinds of step:
 
@@ -85,7 +88,7 @@ Practical steps:
 - Invest in automation for repetitive tasks (routing, notifications, approvals) while preserving human oversight for exception handling.
 - Establish a simple measurement set: cycle time, rework rate, data quality, and cost per administrative transaction.
 
-On approvals specifically, be deliberate about the rule, not just the routing. Workflow tools such as Power Automate support different approval patterns, for example requiring everyone to approve, accepting the first response, or sequential approval in a set order. Each choice has a different effect on cycle time. Requiring everyone where one accountable approver would do is a common source of delay; see [why approval processes become bottlenecks](/insights/why-approval-processes-become-bottlenecks/).
+On approvals specifically, be deliberate about the rule, not just the routing. Workflow tools such as [Power Automate](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) support different approval patterns, for example requiring everyone to approve, accepting the first response, or sequential approval in a set order. Each choice has a different effect on cycle time. Requiring everyone where one accountable approver would do is a common source of delay; see [why approval processes become bottlenecks](/insights/why-approval-processes-become-bottlenecks/).
 
 ### Trade-offs
 

@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-327
 slug: departments-buy-overlapping-software-for-the-same-capability
 title: Why departments buy overlapping software for the same capability
-description: Marketing, operations and HR each buy their own forms, project or e-signature tool. The fix is not a purchasing ban but a capability map that is checked before anything new is bought.
+description: Marketing, operations and HR each buy their own forms or e-signature tool. A capability map checked before purchase beats a buying ban.
 lead: Marketing, operations and HR each buy their own forms, project or e-signature tool. The fix is not a purchasing ban but a capability map that is checked before anything new is bought.
 category: SaaS & Application Portfolio Management
 published_date: 2026-10-07
@@ -19,8 +19,9 @@ sources:
   - Share, reuse and collaborate | https://www.gov.uk/guidance/share-and-reuse-technology
 related:
   - Data-export limits are discovered only when leaving a vendor | /discovery/data-export-limits-discovered-only-when-leaving-a-vendor/
-  - Why Free Trials Become Production Dependencies | /discovery/why-free-trials-become-production-dependencies/
-  - Why Software Portfolio Decisions Need Business Value, Not Only Licence Counts | /discovery/why-software-portfolio-decisions-need-business-value-not-only-licence-counts/
+  - Why free trials become production dependencies | /discovery/why-free-trials-become-production-dependencies/
+  - Why software portfolio decisions need business value, not only licence counts | /discovery/why-software-portfolio-decisions-need-business-value-not-only-licence-counts/
+  - How to find technology costs hidden across departments | /insights/how-to-find-technology-costs-hidden-across-departments/
 summary: Marketing, operations and HR each buy their own forms, project or e-signature tool. The fix is not a purchasing ban but a capability map that is checked before anything new is bought.
 layout: plain
 ---
@@ -32,9 +33,9 @@ Business software is now bought by subscription, often on a card, often by the t
 
 The cost of overlapping licences is part of it, and we look at that in [paying for multiple applications that do the same job](/impact/pain-paying-for-multiple-applications-duplicate-software-fragmented-work/). This article looks at the buying pattern behind it: why overlap keeps happening even after a clean-up, and what stops it recurring.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches such as "departments buying the same software", "overlapping SaaS tools" or "software rationalisation after acquisition" come from a financial director, IT manager or operations head who has spotted the duplication. They want to consolidate where it makes sense. More importantly, they want a light process that lets departments get the tools they need without creating the next cluster of duplicates. The issue tends to surface during a merger or acquisition, when two sets of tools must be combined, or during a cost review.
+The complaint, such as "departments are buying the same software", "we have overlapping SaaS tools" or "we need to rationalise software after an acquisition", comes from a financial director, IT manager or operations head who has spotted the duplication. They want to consolidate where it makes sense. More importantly, they want a light process that lets departments get the tools they need without creating the next cluster of duplicates. The issue tends to surface during a merger or acquisition, when two sets of tools must be combined, or during a cost review.
 
 ## Evidence and system mechanism
 

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-029
 slug: when-disconnected-systems-let-the-business-act-on-old-information
-title: When Disconnected Systems Let the Business Act on Old Information
-description: The hidden cost of systems that do not talk to each other is not only re-keying. It is the gap in time between one system changing and the others finding out, and the decisions taken inside that gap.
+title: When disconnected systems let the business act on old information
+description: Systems that do not talk cost more than re-keying. The real cost is the time lag between one system changing and the others finding out.
 lead: The hidden cost of systems that do not talk to each other is not only re-keying. It is the gap in time between one system changing and the others finding out, and the decisions taken inside that gap.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-05
@@ -18,9 +18,10 @@ sources:
   - What Is Data Integration? - IBM | https://www.ibm.com/think/topics/data-integration
   - What is Master Data Management? - IBM | https://www.ibm.com/think/topics/master-data-management
 related:
-  - Why Staff Keep a Spreadsheet Between Two Business Systems | /patterns/why-staff-keep-a-spreadsheet-between-two-business-systems/
-  - When Work Goes Missing in the Gap Between Two Systems | /patterns/when-work-goes-missing-in-the-gap-between-two-systems/
-  - Why the Same Problems Return After You Replace the System | /patterns/why-the-same-problems-return-after-you-replace-the-system/
+  - Why staff keep a spreadsheet between two business systems | /patterns/why-staff-keep-a-spreadsheet-between-two-business-systems/
+  - When work goes missing in the gap between two systems | /patterns/when-work-goes-missing-in-the-gap-between-two-systems/
+  - Why the same problems return after you replace the system | /patterns/why-the-same-problems-return-after-you-replace-the-system/
+  - Overselling stock: What out-of-sync sales channels really cost you | /impact/inventory-not-updating-across-sales-channels-overselling-stock-errors-cost/
 summary: The hidden cost of systems that do not talk to each other is not only re-keying. It is the gap in time between one system changing and the others finding out, and the decisions taken inside that gap.
 layout: plain
 ---
@@ -36,7 +37,7 @@ An illustrative example: a Western Cape food-packaging supplier runs its online 
 
 The hidden cost of systems that do not talk to each other is usually described as duplicate typing. That cost is real, and it is the most visible. But the more expensive cost is often time. Every disconnected system creates a window between the moment something changes in one place and the moment the rest of the business finds out. Inside that window, people make commitments to customers, suppliers and colleagues on the basis of information that is no longer true.
 
-Architects have a precise way of describing this. Microsoft's guidance on event-driven architecture explains that when systems are connected asynchronously, there can be a measurable delay between one part emitting a change and the others reflecting it, and that during this window different parts of the system hold a different view of the current state. In well-designed systems, that window is deliberate, short and managed. In a business connected by overnight exports, spreadsheets and people, the window is long, unmanaged and usually invisible.
+Architects have a precise way of describing this. Microsoft's [guidance on event-driven architecture](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven) explains that when systems are connected asynchronously, there can be a measurable delay between one part emitting a change and the others reflecting it, and that during this window different parts of the system hold a different view of the current state. In well-designed systems, that window is deliberate, short and managed. In a business connected by overnight exports, spreadsheets and people, the window is long, unmanaged and usually invisible.
 
 The cost does not show up as integration cost. It shows up as cancelled orders, credit notes, bad debts, apology calls and lost trust, all filed under other headings.
 
@@ -50,10 +51,10 @@ Several existing Patterns describe neighbouring problems. [Why information has t
 
 ## Diagnosis
 
-- **Batch transfers set the clock.** When data moves by scheduled export or nightly import, the business is only as current as the last run. IBM describes the difference between batch integration and real-time approaches such as change data capture, which replicates changes from source systems as they happen.
+- **Batch transfers set the clock.** When data moves by scheduled export or nightly import, the business is only as current as the last run. [IBM describes the difference](https://www.ibm.com/think/topics/data-integration) between batch integration and real-time approaches such as change data capture, which replicates changes from source systems as they happen.
 - **People are the transport.** Where the link is a person re-typing or emailing a spreadsheet, the delay depends on their workload, leave and memory.
 - **Nobody has set a freshness requirement.** The business has never decided how current each piece of information needs to be at the point of use. Credit status at the moment of dispatch needs to be minutes old; a monthly sales summary does not.
-- **No declared master.** When two systems both hold prices or stock, neither is clearly authoritative. Master data management exists precisely to give key entities, such as customers and products, one governed version.
+- **No declared master.** When two systems both hold prices or stock, neither is clearly authoritative. [Master data management](https://www.ibm.com/think/topics/master-data-management) exists precisely to give key entities, such as customers and products, one governed version.
 - **No check at the point of commitment.** Orders and deliveries are committed without a last look at the authoritative source, because that source is in another system the user cannot see.
 
 ## Commercial impact

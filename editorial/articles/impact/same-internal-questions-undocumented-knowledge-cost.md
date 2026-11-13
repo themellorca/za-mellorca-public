@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-010
 slug: same-internal-questions-undocumented-knowledge-cost
-title: Answering the Same Question Again: The Payroll Cost of Undocumented Know-How
-description: When answers live only in experienced employees' heads, they spend part of every day repeating them. The business pays for the interruptions, the waiting and the mistakes. Documenting the top questions pays back quickly.
+title: Answering the same question again: The payroll cost of undocumented know-how
+description: When answers live only in experienced employees' heads, they repeat them daily and the business pays in interruptions and mistakes. Document the top ones.
 lead: When answers live only in experienced employees' heads, they spend part of every day repeating them. The business pays for the interruptions, the waiting and the mistakes. Documenting the top questions pays back quickly.
 category: Digital Operations
 published_date: 2026-10-04
@@ -17,9 +17,9 @@ sources:
   - The importance of a handbook-first approach to communication | https://handbook.gitlab.com/handbook/company/culture/all-remote/handbook-first/
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
 related:
-  - Two Departments, Same Work: The Payroll Cost of Duplicated Effort | /impact/departments-duplicating-same-work-payroll-cost/
-  - Fixing Avoidable Mistakes Instead of Serving Customers: The Cost of Rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
-  - "I Thought You Were Doing It": The Labour Cost of Unclear Responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
+  - Two departments, same work: The payroll cost of duplicated effort | /impact/departments-duplicating-same-work-payroll-cost/
+  - Fixing avoidable mistakes instead of serving customers: The cost of rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
+  - "I thought you were doing it": The labour cost of unclear responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
 summary: When answers live only in experienced employees' heads, they spend part of every day repeating them. The business pays for the interruptions, the waiting and the mistakes. Documenting the top questions pays back quickly.
 layout: plain
 ---

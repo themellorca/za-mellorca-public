@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-203
 slug: how-to-know-whether-an-automation-actually-ran
-title: How to Know Whether an Automation Actually Ran
-description: A green tick in a run log is not proof that the business outcome happened. A practical method for confirming that each important automation started, finished and produced the result it exists to produce.
+title: How to know whether an automation actually ran
+description: A green tick in a run log does not prove the business outcome happened. How to confirm that each important automation started, finished and delivered.
 lead: A green tick in a run log is not proof that the business outcome happened. A practical method for confirming that each important automation started, finished and produced the result it exists to produce.
 category: Automation
 published_date: 2026-10-03
@@ -14,9 +14,9 @@ sources:
   - Troubleshoot a cloud flow - Power Automate | https://learn.microsoft.com/en-us/power-automate/fix-flow-failures
   - View and manage your Zap history | https://help.zapier.com/hc/en-us/articles/8496291148685-View-and-manage-your-Zap-history
 related:
-  - What Business Automation Should Actually Solve | /insights/what-business-automation-should-actually-solve/
-  - Why Automating a Broken Process Makes the Problem Worse | /insights/why-automating-a-broken-process-makes-the-problem-worse/
-  - The Difference Between Necessary Human Work and Avoidable Manual Work | /insights/the-difference-between-necessary-human-work-and-avoidable-manual-work/
+  - What business automation should actually solve | /insights/what-business-automation-should-actually-solve/
+  - Why automating a broken process makes the problem worse | /insights/why-automating-a-broken-process-makes-the-problem-worse/
+  - The difference between necessary human work and avoidable manual work | /insights/the-difference-between-necessary-human-work-and-avoidable-manual-work/
 summary: A green tick in a run log is not proof that the business outcome happened. A practical method for confirming that each important automation started, finished and produced the result it exists to produce.
 layout: plain
 ---
@@ -39,7 +39,7 @@ A run can pass the first two and fail the third. A flow that copies orders into 
 
 ## What the tools already tell you, and what they do not
 
-Most automation platforms keep a run history, and it is worth knowing what it shows. Microsoft's troubleshooting guidance for Power Automate describes a run history for each cloud flow showing start time, duration and status, a 28-day run history for locating a failed run, and optional "repair tips" emails sent to the flow owner when a flow fails. Zapier's documentation describes Zap history as a log of every workflow that has run, and it separates runs that have finished (with statuses such as filtered, held, stopped or success) from runs that are still playing or waiting.
+Most automation platforms keep a run history, and it is worth knowing what it shows. Microsoft's troubleshooting guidance for Power Automate describes a run history for each cloud flow showing start time, duration and status, a 28-day run history for locating a failed run, and optional "repair tips" emails sent to the flow owner when a flow fails. Zapier's documentation describes [Zap history](https://help.zapier.com/hc/en-us/articles/8496291148685-View-and-manage-your-Zap-history) as a log of every workflow that has run, and it separates runs that have finished (with statuses such as filtered, held, stopped or success) from runs that are still playing or waiting.
 
 These are useful, but notice their limits:
 

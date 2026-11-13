@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-330
 slug: why-documentation-is-part-of-the-business-system-not-an-add-on
-title: Why Documentation Is Part of the System
-description: Documentation is usually treated as paperwork done after the real work. In practice it is a working component of the system: when it is missing or stale, the system behaves differently and fails in different ways.
+title: Why documentation is part of the system
+description: Documentation is not paperwork done after the real work. It is part of the system, and when it is missing or stale the system fails differently.
 lead: Documentation is usually treated as paperwork done after the real work. In practice it is a working component of the system: when it is missing or stale, the system behaves differently and fails in different ways.
 category: Operational Knowledge
 published_date: 2026-10-09
@@ -16,8 +16,9 @@ sources:
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
 related:
   - Key-person dependency is a systems problem | /insights/key-person-dependency-is-a-systems-problem/
-  - How to Make Ownership Clear at Every Stage | /insights/how-to-make-ownership-clear-at-every-stage/
-  - Poor Data Is an Operations Problem, Not Just a Data Problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
+  - How to make ownership clear at every stage | /insights/how-to-make-ownership-clear-at-every-stage/
+  - Poor data is an operations problem, not just a data problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
+  - How to document a workflow people will actually follow | /insights/writing-down-a-workflow-so-that-it-gets-used/
 summary: Documentation is usually treated as paperwork done after the real work. In practice it is a working component of the system: when it is missing or stale, the system behaves differently and fails in different ways.
 layout: plain
 ---
@@ -37,7 +38,7 @@ It helps to think of documentation by function rather than as a single thing. Wr
 - **It enables recovery.** When something breaks, the steps to restore it, the contacts to call and the order of operations are needed at exactly the moment people are least able to work them out from memory.
 - **It supports change.** Before altering a process or replacing a tool, someone has to know what depends on it. Documentation is how that knowledge survives long enough to be used.
 
-The Atlassian guide to knowledge management makes a similar case from the service-desk side: capturing knowledge as part of resolving work, rather than as a separate exercise afterwards, is what keeps it accurate and findable. Microsoft's operational excellence guidance for workloads likewise treats documented procedures, runbooks and automation as standard practice for reliable operation rather than optional extras.
+The Atlassian guide to knowledge management makes a similar case from the service-desk side: capturing knowledge as part of resolving work, rather than as a separate exercise afterwards, is what keeps it accurate and findable. Microsoft's [operational excellence](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/) guidance for workloads likewise treats documented procedures, runbooks and automation as standard practice for reliable operation rather than optional extras.
 
 ## How a missing document changes the system's behaviour
 
@@ -75,7 +76,7 @@ Documents scattered across personal drives, WhatsApp groups and old email attach
 
 ## The continuity and compliance dimension
 
-Documentation is also a requirement of resilience planning. The NIST guidance on contingency planning for systems treats documented recovery procedures, contact lists and roles as core elements of a plan that works under pressure. For South African businesses, the Protection of Personal Information Act adds another reason. Section 19 requires a responsible party to take appropriate, reasonable technical and organisational measures to secure personal information. A written account of who has access to what, how data is backed up and what happens in a breach is difficult to separate from those measures, because it is the way the organisation shows that it knows what it is protecting.
+Documentation is also a requirement of resilience planning. The NIST guidance on contingency planning for systems treats documented recovery procedures, contact lists and roles as core elements of a plan that works under pressure. For South African businesses, the Protection of [Personal Information](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/) Act adds another reason. Section 19 requires a responsible party to take appropriate, reasonable technical and organisational measures to secure personal information. A written account of who has access to what, how data is backed up and what happens in a breach is difficult to separate from those measures, because it is the way the organisation shows that it knows what it is protecting.
 
 ## An illustrative example
 

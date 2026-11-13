@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-008
 slug: how-to-find-the-real-bottleneck-in-a-digital-operation
-title: How to Find the Real Bottleneck in a Digital Operation
-description: The busiest team or the loudest complaint is rarely the real constraint. A practical method for finding the one step that limits how much work a digital operation can complete, and what to do once you have found it.
+title: How to find the real bottleneck in a digital operation
+description: The busiest team or the loudest complaint is rarely the real constraint. How to find the one step that limits how much work gets done, and what to do next.
 lead: The busiest team or the loudest complaint is rarely the real constraint. A practical method for finding the one step that limits how much work a digital operation can complete, and what to do once you have found it.
 category: Digital Operations
 published_date: 2026-10-04
@@ -14,9 +14,10 @@ sources:
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
 related:
-  - How to Diagnose a Business That Runs on Exceptions | /insights/how-to-diagnose-a-business-that-runs-on-exceptions/
+  - How to diagnose a business that runs on exceptions | /insights/how-to-diagnose-a-business-that-runs-on-exceptions/
   - Before you automate, understand how the work actually moves | /insights/before-you-automate-understand-how-the-work-actually-moves/
-  - How to Design a Customer Onboarding Workflow That Scales | /insights/how-to-design-a-customer-onboarding-workflow-that-scales/
+  - How to design a customer onboarding workflow that scales | /insights/how-to-design-a-customer-onboarding-workflow-that-scales/
+  - How to identify the handoffs that cause delays | /insights/how-to-find-which-handoffs-are-slowing-your-work-down/
 summary: The busiest team or the loudest complaint is rarely the real constraint. A practical method for finding the one step that limits how much work a digital operation can complete, and what to do once you have found it.
 layout: plain
 ---
@@ -33,7 +34,7 @@ Three false bottlenecks are especially common.
 
 ### The busiest team
 
-A team that is always busy is not necessarily the constraint. It may be busy because it is doing rework caused upstream, or because it is processing work that will then wait for days at the next step. Utilisation is a poor guide. The Theory of Constraints Institute's guidance on the five focusing steps makes the point that what matters is the productivity of the constraint, not the utilisation of every other resource.
+A team that is always busy is not necessarily the constraint. It may be busy because it is doing rework caused upstream, or because it is processing work that will then wait for days at the next step. Utilisation is a poor guide. The Theory of Constraints Institute's guidance on the [five focusing steps](https://www.tocinstitute.org/five-focusing-steps.html) makes the point that what matters is the productivity of the constraint, not the utilisation of every other resource.
 
 ### The loudest complaint
 
@@ -61,11 +62,11 @@ If the systems cannot give you this easily, a manual snapshot works. For two wee
 
 ### 4. Check the information flow, not just the work flow
 
-The Lean Enterprise Institute notes that value stream mapping is distinctive in covering both material flows and information flows. In digital operations, the constraint is often an information step: waiting for a missing detail, a document or a decision. A job cannot be scheduled until the site address is confirmed; an order cannot ship until the account is verified. Moving information between systems by hand is a frequent culprit, which we cover in [how manual data transfer becomes an operational bottleneck](/insights/how-manual-data-transfer-becomes-an-operational-bottleneck/).
+The Lean Enterprise Institute notes that [value stream mapping](https://www.lean.org/lexicon-terms/value-stream-mapping/) is distinctive in covering both material flows and information flows. In digital operations, the constraint is often an information step: waiting for a missing detail, a document or a decision. A job cannot be scheduled until the site address is confirmed; an order cannot ship until the account is verified. Moving information between systems by hand is a frequent culprit, which we cover in [how manual data transfer becomes an operational bottleneck](/insights/how-manual-data-transfer-becomes-an-operational-bottleneck/).
 
 ### 5. Use the system's own records where you can
 
-Microsoft describes process mining as extracting event data from systems of record to visualise how processes actually run, and lists identifying bottlenecks and inefficiencies among its main benefits. A smaller business can apply a lighter version: export status-change dates from the CRM or job system, and calculate how long items spent in each state. The results regularly contradict what people believe. The broader case is set out in [what process mining can reveal that workshops cannot](/insights/what-process-mining-can-reveal-that-workshops-cannot/).
+Microsoft describes [process mining](https://learn.microsoft.com/en-us/power-automate/process-mining-overview) as extracting event data from systems of record to visualise how processes actually run, and lists identifying bottlenecks and inefficiencies among its main benefits. A smaller business can apply a lighter version: export status-change dates from the CRM or job system, and calculate how long items spent in each state. The results regularly contradict what people believe. The broader case is set out in [what process mining can reveal that workshops cannot](/insights/what-process-mining-can-reveal-that-workshops-cannot/).
 
 ### 6. Test the conclusion
 

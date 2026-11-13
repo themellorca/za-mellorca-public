@@ -3,8 +3,8 @@ hub: discovery
 record_id: DISC-473
 slug: ai-usage-costs-not-allocated-to-business-outcomes
 title: AI usage costs are not allocated to business outcomes
-description: Discovery of misalignment between AI spending and measurable business outcomes, hindering optimization and accountability.
-lead: Discovery of misalignment between AI spending and measurable business outcomes, hindering optimization and accountability.
+description: AI charges grow across teams, but nobody can say which ones pay for themselves. How to tie each cost to an owner and a measurable outcome.
+lead: AI charges grow across teams, but nobody can say which ones pay for themselves. How to tie each cost to an owner and a measurable outcome.
 category: AI, Automation & Agent Operations
 published_date: 2026-09-08
 updated_date: 2026-09-08
@@ -20,7 +20,7 @@ related:
   - Agent conversations are not connected to durable business records | /discovery/agent-conversations-not-connected-to-durable-business-records/
   - Automations break when application interfaces change | /discovery/automations-break-when-application-interfaces-change/
   - Automation incident response is improvised | /discovery/automation-incident-response-improvised/
-summary: Discovery of misalignment between AI spending and measurable business outcomes, hindering optimization and accountability.
+summary: AI charges grow across teams, but nobody can say which ones pay for themselves. How to tie each cost to an owner and a measurable outcome.
 layout: plain
 ---
 Organisations now run AI at very different scales, from a few chat assistants to agents embedded in customer and finance workflows. Many of them can see what AI costs in total but cannot say which business outcome that money bought. Without that link it is hard to justify the spend, to compare one AI programme with another, or to explain value delivery to executives in terms they recognise.
@@ -31,9 +31,9 @@ The monthly cloud or vendor invoice shows a line for model usage, another for se
 
 The cost is real and measured to the token. The value is real but described in anecdotes. The two are never joined.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Buyers want measurable return from AI, with costs clearly allocated to outcomes such as revenue lift, cost reduction, risk mitigation or improved customer experience. In practice they search for phrases such as “AI cost allocation”, “how to measure AI ROI”, “chargeback for AI usage”, “track LLM token costs by team” or “AI unit economics”. Behind each of those is the same request: a defensible way to say which part of the business consumed the AI spend and what it got in return.
+Buyers want measurable return from AI, with costs clearly allocated to outcomes such as revenue lift, cost reduction, risk mitigation or improved customer experience. In practice the questions sound like “how do we allocate AI costs?”, “how do we measure AI ROI?”, “can we charge AI usage back to teams?”, “what are we spending on LLM tokens by team?” or “what are our AI unit economics?”. Behind each of those is the same request: a defensible way to say which part of the business consumed the AI spend and what it got in return.
 
 The question usually arrives from finance first, then lands on the AI programme lead or platform team, who discover that the data needed to answer it was never captured.
 

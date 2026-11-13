@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000051
 slug: why-teams-stop-suggesting-improvements
-title: Why Teams Stop Suggesting Improvements
-description: A quiet team is not always a contented one. Often it has learned that ideas raised in meetings go nowhere. How suggestions disappear, what that takes from people, and how a simple, visible route for ideas gives some say back.
+title: Why teams stop suggesting improvements
+description: A quiet team is not always a contented one. It may have learned that ideas raised in meetings go nowhere. How a visible route for ideas restores some say.
 lead: A quiet team is not always a contented one. Often it has learned that ideas raised in meetings go nowhere. How suggestions disappear, what that takes from people, and how a simple, visible route for ideas gives some say back.
 category: Human Agency
 published_date: 2026-10-06
@@ -17,10 +17,11 @@ epistemic_state: HYPOTHESISED: the link between unhandled suggestions and team s
 sources:
   - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
   - Toyota Production System - Vision & Philosophy - Company - Toyota Motor Corporation Official Global Website | https://global.toyota/en/company/vision-and-philosophy/production-system/
+  - Kaizen: A Resource Guide - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/kaizen/
 related:
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
-  - When the System Decides What You Can Do Today | /moments/when-the-system-decides-what-you-can-do-today/
-  - The Manager Who Can't Act Without the Founder | /moments/the-manager-who-cant-act-without-the-founder/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - When the system decides what you can do today | /moments/when-the-system-decides-what-you-can-do-today/
+  - The manager who can't act without the founder | /moments/the-manager-who-cant-act-without-the-founder/
 summary: A quiet team is not always a contented one. Often it has learned that ideas raised in meetings go nowhere. How suggestions disappear, what that takes from people, and how a simple, visible route for ideas gives some say back.
 layout: plain
 ---
@@ -74,7 +75,7 @@ The fix is less about encouraging people to speak and more about giving their su
 4. **Let small changes be made locally.** Agree in advance which kinds of change a team can make without escalation, such as rewording a template or removing an obsolete checklist step.
 5. **Protect a little time.** Ten minutes in an existing meeting, set aside only for improvements, signals that the business wants them.
 
-Toyota's description of its production system offers a useful reference point. It says that only humans can implement kaizen, its term for continuous improvement, and describes a commitment to developing people who can think independently and make improvements. The approach is not easily transplanted, and the context is manufacturing. But the principle that improvement comes from the people doing the work, and needs a structure to support it, applies widely.
+Toyota's description of its production system offers a useful reference point. It says that only humans can implement kaizen, its term for continuous improvement, and describes a commitment to developing people who can think independently and make improvements. The approach is not easily transplanted, and the context is manufacturing. But the principle that improvement comes from the people doing the work, and needs a structure to support it, applies widely. The Lean Enterprise Institute's [guide to kaizen](https://www.lean.org/lexicon-terms/kaizen/) says the process encourages employees to identify areas for improvement and involves everyone in the organisation.
 
 ## What changes first, and the human dividend
 

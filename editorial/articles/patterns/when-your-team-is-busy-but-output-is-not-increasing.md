@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-022
 slug: when-your-team-is-busy-but-output-is-not-increasing
-title: When Your Team Is Busy but Output Is Not Increasing
-description: A fully occupied team with flat output is often absorbing demand its own processes create. Measuring finished work, removing failure demand and limiting work in progress turns effort back into output.
+title: When your team is busy but output is not increasing
+description: A fully occupied team with flat output is often absorbing demand its own processes create. Measure finished work and limit work in progress.
 lead: A fully occupied team with flat output is often absorbing demand its own processes create. Measuring finished work, removing failure demand and limiting work in progress turns effort back into output.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -18,9 +18,9 @@ sources:
   - Flow Efficiency: A great metric you probably aren’t using - Kanban University | https://kanban.university/flow-efficiency-a-great-metric-you-probably-arent-using/
   - Muda, Mura, Muri - Get a Quick Introduction - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/muda-mura-muri/
 related:
-  - The Daily Routine Nobody Remembers the Reason For | /patterns/the-daily-routine-nobody-remembers-the-reason-for/
-  - Why Recurring Tasks Should Trigger a Process Review | /patterns/why-recurring-tasks-should-trigger-a-process-review/
-  - The Business Process That Only Works Because Someone Remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
+  - The daily routine nobody remembers the reason for | /patterns/the-daily-routine-nobody-remembers-the-reason-for/
+  - Why recurring tasks should trigger a process review | /patterns/why-recurring-tasks-should-trigger-a-process-review/
+  - The business process that only works because someone remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
 summary: A fully occupied team with flat output is often absorbing demand its own processes create. Measuring finished work, removing failure demand and limiting work in progress turns effort back into output.
 layout: plain
 ---

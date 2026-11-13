@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-057
 slug: why-integrations-break-after-they-seem-to-be-working
-title: Why Integrations Break After They Seem to Be Working
-description: Integrations that pass launch testing often fail weeks later. Six late-arriving causes, from expiring credentials to duplicate messages, and how to design for them.
+title: Why integrations break after they seem to be working
+description: Integrations that pass launch testing often fail weeks later. Six late causes, from expiring credentials to duplicate messages, and how to design for them.
 lead: Integrations that pass launch testing often fail weeks later. Six late-arriving causes, from expiring credentials to duplicate messages, and how to design for them.
 category: Integration
 published_date: 2026-10-06
@@ -15,9 +15,9 @@ sources:
   - About Shopify API versioning | https://shopify.dev/docs/api/usage/versioning
   - Receive Stripe events in your webhook endpoint | https://docs.stripe.com/webhooks
 related:
-  - How to Connect Systems Without Creating a Fragile Web of Dependencies | /insights/how-to-connect-systems-without-creating-a-fragile-web-of-dependencies/
-  - Why Integration Projects Fail at the Handoffs | /insights/why-integration-projects-fail-at-the-handoffs/
-  - Point-to-Point Integrations vs a More Maintainable Integration Architecture | /insights/point-to-point-integrations-vs-a-more-maintainable-integration-architecture/
+  - How to connect systems without creating a fragile web of dependencies | /insights/how-to-connect-systems-without-creating-a-fragile-web-of-dependencies/
+  - Why integration projects fail at the handoffs | /insights/why-integration-projects-fail-at-the-handoffs/
+  - Point-to-point integrations vs a more maintainable integration architecture | /insights/point-to-point-integrations-vs-a-more-maintainable-integration-architecture/
 summary: Integrations that pass launch testing often fail weeks later. Six late-arriving causes, from expiring credentials to duplicate messages, and how to design for them.
 layout: plain
 ---
@@ -38,7 +38,7 @@ Each of these is a time-based or volume-based condition. None of them can appear
 
 ### 1. Credentials and permissions expire or are revoked
 
-Integrations sign in to systems just as people do, and their access has a lifetime. Microsoft's identity platform documentation, for example, sets a default lifetime of 90 days for most refresh tokens, the long-lived credential an application uses to stay connected. It also lists events that revoke tokens early, including a user changing their password or an administrator revoking a user's sessions.
+Integrations sign in to systems just as people do, and their access has a lifetime. Microsoft's identity platform documentation, for example, sets a default lifetime of 90 days for most [refresh tokens](https://learn.microsoft.com/en-us/entra/identity-platform/refresh-tokens), the long-lived credential an application uses to stay connected. It also lists events that revoke tokens early, including a user changing their password or an administrator revoking a user's sessions.
 
 The practical consequence is common in smaller businesses: an integration is set up using a staff member's own login. It works for months. Then that person changes their password, leaves the company or has their account disabled, and the integration stops with them. The fix is to run integrations on dedicated service accounts with documented ownership, which is the subject of [why automations should not run on personal credentials](/discovery/why-automations-should-not-run-on-personal-credentials/).
 

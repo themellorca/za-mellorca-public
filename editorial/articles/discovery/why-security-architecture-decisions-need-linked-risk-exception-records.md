@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-373
 slug: why-security-architecture-decisions-need-linked-risk-exception-records
-title: Why Security Architecture Decisions Need Linked Risk Exception Records
+title: Why security architecture decisions need linked risk exception records
 description: Security exceptions become difficult to govern when an architecture decision is separated from the risk, owner, treatment and review evidence that justified it.
 lead: A security exception can be reasonable at the moment it is approved and still become dangerous later if the architecture change, accepted risk, owner and review condition are stored in different places.
 category: Security & Compliance Operations
@@ -23,9 +23,10 @@ sources:
   - SP 800-37 Rev. 2, Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy | https://csrc.nist.gov/pubs/sp/800/37/r2/final
   - SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations - CSRC | https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final
 related:
-  - Why Policy Acknowledgements Need a Reliable System Record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
-  - Why Supplier Access Survives After the Supplier Engagement Ends | /discovery/why-supplier-access-survives-after-engagements-end/
+  - Why policy acknowledgements need a reliable system record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
+  - Why supplier access survives after the supplier engagement ends | /discovery/why-supplier-access-survives-after-engagements-end/
   - Why security findings end up in spreadsheets after the scan finishes | /discovery/security-findings-tracked-in-spreadsheets-after-scans/
+  - Remediation tickets close without verifying the underlying control | /discovery/why-security-fixes-get-closed-without-anyone-confirming-they-worked/
 ---
 ## The problem in plain language
 
@@ -33,7 +34,7 @@ A design review approves a deviation from a security standard because of a busin
 
 The original decision may have been entirely sound. A legacy system could not support a modern authentication method, a supplier needed a network path the standard does not allow, or a deadline justified a temporary shortcut with compensating monitoring. The problem is not the exception. It is that the reasoning becomes detached from the thing it governs, and the exception quietly outlives its conditions.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The buyer needs a defensible chain from architecture decision to risk statement, treatment, accountable owner, compensating controls and review date. This lets future change teams distinguish deliberate accepted risk from accidental drift.
 
@@ -41,9 +42,9 @@ In practice the question arrives in plainer words: "why is this system configure
 
 ## Evidence and system mechanism
 
-NIST IR 8286 Rev. 1 describes cybersecurity risk registers as a mechanism for documenting and communicating cybersecurity risk within enterprise risk management, and explains the value of rolling risk information up from system level to enterprise level. NIST's RMF Authorize step emphasises accountability through a senior official's determination of whether system security and privacy risk is acceptable, supported by authorisation evidence and risk responses. The operational implication is that risk acceptance should remain connected to the system decision it governs.
+NIST IR 8286 Rev. 1 describes cybersecurity risk registers as a mechanism for documenting and communicating cybersecurity risk within [enterprise risk management](https://csrc.nist.gov/pubs/ir/8286/r1/final), and explains the value of rolling risk information up from system level to enterprise level. NIST's RMF Authorize step emphasises accountability through a senior official's determination of whether system [security and privacy](https://csrc.nist.gov/pubs/sp/800/37/r2/final) risk is acceptable, supported by authorisation evidence and risk responses. The operational implication is that risk acceptance should remain connected to the system decision it governs.
 
-NIST SP 800-37 Rev. 2 adds the lifecycle dimension. It frames the Risk Management Framework as linking system-level risk processes to organisation-level ones, establishing responsibility and accountability for controls, and promoting continuous monitoring rather than one-off approval. NIST SP 800-53 Rev. 5 control CA-5 expects a plan of action and milestones that records planned remediation of weaknesses and is updated as assessments, audits and monitoring produce new findings. Taken together, the guidance treats an accepted risk as a living record with an owner and a path to resolution, not a signature on a past document.
+NIST SP 800-37 Rev. 2 adds the lifecycle dimension. It frames the [Risk Management Framework](https://csrc.nist.gov/Projects/risk-management/about-rmf/authorize-step) as linking system-level risk processes to organisation-level ones, establishing responsibility and accountability for controls, and promoting continuous monitoring rather than one-off approval. NIST SP 800-53 Rev. 5 control CA-5 expects a plan of action and milestones that records planned remediation of weaknesses and is updated as assessments, audits and monitoring produce new findings. Taken together, the guidance treats an accepted risk as a living record with an owner and a path to resolution, not a signature on a past document.
 
 ## Problem owner and why now
 

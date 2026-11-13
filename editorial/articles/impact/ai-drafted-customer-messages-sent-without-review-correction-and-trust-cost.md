@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-281
 slug: ai-drafted-customer-messages-sent-without-review-correction-and-trust-cost
-title: Fluent, Confident and Wrong: The Cost of Sending AI Output to Customers Unchecked
-description: AI tools write polished customer messages quickly, but without proportionate review the errors reach customers as confidently as the correct answers, and the business pays in corrections, credits and trust.
+title: Fluent, confident and wrong: The cost of sending AI output to customers unchecked
+description: AI writes polished customer messages fast, but without proportionate review its errors reach customers as confidently as correct answers. Trust pays.
 lead: AI tools write polished customer messages quickly, but without proportionate review the errors reach customers as confidently as the correct answers, and the business pays in corrections, credits and trust.
 category: AI Governance
 published_date: 2026-10-09
@@ -15,11 +15,12 @@ primary_cost_mechanism: Error correction time, goodwill credits and concessions,
 sources:
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
   - NIST AI RMF Playbook | https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
 related:
-  - Buying AI Because Competitors Are: The Cost of Spending Without a Business Case | /impact/buying-ai-without-defined-business-problem-cost/
-  - Staff Using AI with Company Data Nobody Governs | /impact/uncontrolled-ai-company-data-financial-risk/
-  - Onboarding New Customers by Email: The Labour and Revenue Cost of a Slow Start | /impact/manual-customer-onboarding-email-checklists-revenue-delay-cost/
+  - Buying AI because competitors are: The cost of spending without a business case | /impact/buying-ai-without-defined-business-problem-cost/
+  - Staff using AI with company data nobody governs | /impact/uncontrolled-ai-company-data-financial-risk/
+  - Onboarding new customers by email: The labour and revenue cost of a slow start | /impact/manual-customer-onboarding-email-checklists-revenue-delay-cost/
+  - Trusting the AI answer: What unchecked facts cost before anyone notices | /impact/employees-trust-ai-answers-without-checking-critical-facts-confident-mistakes-cost/
 summary: AI tools write polished customer messages quickly, but without proportionate review the errors reach customers as confidently as the correct answers, and the business pays in corrections, credits and trust.
 layout: plain
 ---

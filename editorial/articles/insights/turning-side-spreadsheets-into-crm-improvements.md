@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-084
 slug: turning-side-spreadsheets-into-crm-improvements
-title: How to Stop People Keeping Shadow Spreadsheets Beside the CRM
+title: How to stop people keeping shadow spreadsheets beside the CRM
 description: Side spreadsheets are a symptom, not a discipline problem. Learn how to read them as requirements, close the gaps they fill and retire them safely.
 lead: Side spreadsheets are a symptom, not a discipline problem. Learn how to read them as requirements, close the gaps they fill and retire them safely.
 category: Operations
@@ -14,9 +14,9 @@ sources:
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
   - Security roles and privileges for Dataverse - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/security-roles-privileges
 related:
-  - How to Tell Whether You Have a People Problem or a Systems Problem | /insights/how-to-tell-whether-you-have-a-people-problem-or-a-systems-problem/
-  - Why Your CRM Is Not the Problem You Think It Is | /insights/why-your-crm-is-not-the-problem-you-think-it-is/
-  - What Your Recurring Problems Are Telling You About Your Systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
+  - How to tell whether you have a people problem or a systems problem | /insights/how-to-tell-whether-you-have-a-people-problem-or-a-systems-problem/
+  - Why your CRM is not the problem you think it is | /insights/why-your-crm-is-not-the-problem-you-think-it-is/
+  - What your recurring problems are telling you about your systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
 summary: Side spreadsheets are a symptom, not a discipline problem. Learn how to read them as requirements, close the gaps they fill and retire them safely.
 layout: plain
 ---
@@ -80,7 +80,7 @@ Whenever you retire a sheet, do it with some ceremony:
 
 ## The data protection angle
 
-There is also a compliance reason to care. Customer lists contain personal information, and South Africa's Protection of Personal Information Act applies wherever that information is held, including in a spreadsheet on a laptop or a personal cloud folder. Section 19 requires a responsible party to take appropriate, reasonable technical and organisational measures to prevent loss of, damage to or unauthorised access to personal information, to identify foreseeable risks, to verify that safeguards are working and to keep them updated. Section 16 requires reasonably practicable steps to keep personal information complete, accurate and updated where necessary.
+There is also a compliance reason to care. Customer lists contain [personal information](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/), and South Africa's Protection of Personal Information Act applies wherever that information is held, including in a spreadsheet on a laptop or a personal cloud folder. Section 19 requires a responsible party to take appropriate, reasonable technical and organisational measures to prevent loss of, damage to or unauthorised access to personal information, to identify foreseeable risks, to verify that safeguards are working and to keep them updated. Section 16 requires reasonably practicable steps to keep personal information complete, accurate and updated where necessary.
 
 A side spreadsheet is hard to defend on either count. It is not backed up by the business, it travels by email and it goes stale unnoticed. When a staff member leaves, the list may leave with them. These are reasons to bring the data back inside a controlled system, not reasons to frighten the team. As ever, specific obligations should be confirmed with a qualified adviser.
 

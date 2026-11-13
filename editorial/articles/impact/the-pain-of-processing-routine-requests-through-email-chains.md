@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-028
 slug: the-pain-of-processing-routine-requests-through-email-chains
-title: The Cost of Running Routine Requests Through Email Chains
-description: An in-depth examination of how routine requests dispersed across email threads create bottlenecks, escalate follow-up effort, and erode timely decision-making, with practical remediation guidance.
+title: The cost of running routine requests through email chains
+description: Routine requests scattered across email threads create bottlenecks, grow follow-up effort and slow decisions. Here is practical guidance on fixing it.
 lead: An in-depth examination of how routine requests dispersed across email threads create bottlenecks, escalate follow-up effort, and erode timely decision-making, with practical remediation guidance.
 category: mellorca-estate
 published_date: 2026-10-02
@@ -11,14 +11,15 @@ updated_date: 2026-10-02
 eyebrow: Operational Efficiency
 commercial_domain: mellorca-estate
 primary_pain: Email-driven routine requests create delays, missed follow-ups, and manual rework due to fragmented information flows.
-primary_cost_mechanism: labor cost; downtime; rework; opportunity cost
+primary_cost_mechanism: labour cost; downtime; rework; opportunity cost
 sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
   - Google SRE - What is Toil in SRE: Understanding Its Impact | https://sre.google/sre-book/eliminating-toil/
+  - Get started with approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
 related:
-  - Projects Run Through Email Threads and Private Spreadsheets | /impact/pain-projects-managed-through-email-spreadsheets/
-  - The Cost of Retyping Customer Details into Every System | /impact/pain-duplication-of-customer-data-entry/
-  - The Cost of Copying Data from One System into Another | /impact/pain-employees-duplicated-data-entry/
+  - Projects run through email threads and private spreadsheets | /impact/pain-projects-managed-through-email-spreadsheets/
+  - The cost of retyping customer details into every system | /impact/pain-duplication-of-customer-data-entry/
+  - The cost of copying data from one system into another | /impact/pain-employees-duplicated-data-entry/
 summary: An in-depth examination of how routine requests dispersed across email threads create bottlenecks, escalate follow-up effort, and erode timely decision-making, with practical remediation guidance.
 layout: plain
 ---
@@ -82,7 +83,7 @@ Moving requests out of email has a cost. People must learn a new habit, and a ba
 4. Train teams to convert inbound messages into actionable work items, using standard templates and checklists.
 5. Track time to acknowledge, time to assign and time to resolve as leading indicators of process health.
 
-Approval requests are a particularly costly variant, because the work cannot move until someone replies. The finance version of this is covered in [the pain of invoice approvals in inboxes](/impact/pain-invoice-approvals-in-inboxes/).
+Approval requests are a particularly costly variant, because the work cannot move until someone replies. The finance version of this is covered in [the pain of invoice approvals in inboxes](/impact/pain-invoice-approvals-in-inboxes/). Microsoft's documentation on [Power Automate approvals](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) describes automating sign-off requests so approvers can respond directly from Outlook, a Teams card or the action centre.
 
 ## What to do first
 

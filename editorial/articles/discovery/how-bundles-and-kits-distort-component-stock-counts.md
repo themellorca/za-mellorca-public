@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-109
 slug: how-bundles-and-kits-distort-component-stock-counts
 title: How bundles and kits distort component stock counts
-description: A bundle sells as one line but consumes several parts, so component counts drift and the scarcest part oversells. Choosing a bundle model and keeping one recipe.
+description: A bundle sells as one line but uses several parts, so counts drift and the scarcest part oversells. How to choose a bundle model with one recipe.
 lead: A bundle sells as one line but consumes several parts, so component counts drift and the scarcest part oversells. Choosing a bundle model and keeping one recipe.
 category: Inventory & Order Operations
 published_date: 2026-10-10
@@ -15,10 +15,12 @@ budget_owner: Operations director or commercial director
 sources:
   - Kits — Odoo 16.0 documentation | https://www.odoo.com/documentation/user/16.0/manufacturing/management/kit_shipping.html
   - Apps in inventory management | https://shopify.dev/docs/apps/build/orders-fulfillment/inventory-management-apps
+  - Eligibility and considerations for using product bundles - Shopify Help Center | https://help.shopify.com/en/manual/products/bundles/eligibility-and-considerations
 related:
   - Why stock in transit between locations goes missing in reconciliation | /discovery/why-stock-in-transit-between-locations-goes-missing-in-reconciliation/
   - Reserved stock is treated as available stock | /discovery/why-reserved-stock-keeps-showing-as-available-to-sell/
   - Why sales and warehouse systems need one product identifier | /discovery/why-sales-and-warehouse-systems-need-one-product-identifier/
+  - Why safety stock rules differ between sales channels | /discovery/why-safety-stock-rules-differ-between-sales-channels/
 summary: A bundle sells as one line but consumes several parts, so component counts drift and the scarcest part oversells. Choosing a bundle model and keeping one recipe.
 layout: plain
 ---
@@ -30,19 +32,21 @@ The trouble is that a bundle is two things at once: a product the customer buys,
 
 Bundles and kits multiply as a business adds stock keeping units. A promotion creates a three-for-two pack. A supplier ships a starter set. A sales team builds its own bundle for a tender. Each one is sold as a single line, but physically it consumes several component items. If components are not deducted properly when a bundle sells, or if a pre-assembled bundle is counted as well as its parts, the component inventory becomes unreliable. The symptoms are overselling of the scarcer component, stock that appears to vanish, and counts that never reconcile.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches look like "bundle inventory not updating components", "how to track kit stock", "sell bundles and individual items from the same stock" and "kitting inventory discrepancy". The objective is to sell the bundle and the parts without double-counting either.
+The complaints sound like "bundle inventory is not updating components", "how to track kit stock", "sell bundles and individual items from the same stock" and "kitting inventory discrepancy". The objective is to sell the bundle and the parts without double-counting either.
 
 ## Evidence and system mechanism
 
-The mechanism is documented by inventory platforms, and the options they offer show where the confusion arises. Odoo's documentation on kits explains that a kit is a bill of materials, and that there are two ways to run it. In the first, the kit is not stocked at all: inventory is managed at the component level, so a kit cannot be sold if a required component is out of stock. In the second, the kit is stored as a product, but reordering and replenishment rules still belong to the components. The same page notes that a kit appears as a single line on the sales order, while the delivery order lists each component separately, that stock adjustments cannot be made at the kit level, and that serial tracking follows the shipped components, not the kit ([Odoo kit documentation](https://www.odoo.com/documentation/user/16.0/manufacturing/management/kit_shipping.html)).
+The mechanism is documented by inventory platforms, and the options they offer show where the confusion arises. Odoo's documentation on kits explains that a kit is a bill of materials, and that there are two ways to run it. In the first, the kit is not stocked at all: inventory is managed at the component level, so a kit cannot be sold if a required component is out of stock.
+
+In the second, the kit is stored as a product, but reordering and replenishment rules still belong to the components. The same page notes that a kit appears as a single line on the sales order, while the delivery order lists each component separately, that stock adjustments cannot be made at the kit level, and that serial tracking follows the shipped components, not the kit ([Odoo kit documentation](https://www.odoo.com/documentation/user/16.0/manufacturing/management/kit_shipping.html)).
 
 Those design choices matter because each tool picks a different answer to "what is the bundle's stock". If the shop treats the bundle as a stocked item, while the warehouse treats it as a recipe, the two will diverge by design.
 
 Shopify's SKU guidance hints at the identifier side of the same problem. It says each product and variant should have its own SKU, that duplicates are flagged with a warning, and that the warning may be ignored for bundles or particular workflows ([Shopify SKU guidance](https://help.shopify.com/en/manual/products/details/sku)). Bundles are explicitly a case where identifier discipline loosens, which is when downstream systems struggle to interpret what was sold.
 
-Shopify's inventory-state model reminds us of another layer. Its developer documentation describes units as being in exactly one state at a time: available, committed to unfulfilled orders, reserved, damaged and so on ([Shopify inventory states](https://shopify.dev/docs/apps/build/orders-fulfillment/inventory-management-apps)). A component earmarked for an assembled hamper is therefore no longer available for a loose sale, and a design that does not reflect this will oversell the component.
+Shopify's inventory-state model reminds us of another layer. Its developer documentation describes units as being in exactly one state at a time: available, committed to unfulfilled orders, reserved, damaged and so on ([Shopify inventory states](https://shopify.dev/docs/apps/build/orders-fulfillment/inventory-management-apps)). A component earmarked for an assembled hamper is therefore no longer available for a loose sale, and a design that does not reflect this will oversell the component. Shopify's help documentation on [product bundles](https://help.shopify.com/en/manual/products/bundles/eligibility-and-considerations) states the limiting-part effect plainly: the product with the lowest inventory level determines how many bundles can be sold.
 
 ## Who owns it and why it becomes urgent
 

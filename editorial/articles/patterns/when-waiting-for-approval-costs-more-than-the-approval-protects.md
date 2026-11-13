@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-303
 slug: when-waiting-for-approval-costs-more-than-the-approval-protects
-title: When Waiting for Approval Costs More Than the Approval Protects
-description: When routine requests wait days for sign-off and are almost always approved, the business pays a waiting cost on every request. Tiering approvals by risk, defining substitutes and measuring waiting time keeps control where it matters.
+title: When waiting for approval costs more than the approval protects
+description: When routine requests wait days for sign-off yet are nearly always approved, every request pays a waiting cost. Tier approvals by risk to keep control.
 lead: When routine requests wait days for sign-off and are almost always approved, the business pays a waiting cost on every request. Tiering approvals by risk, defining substitutes and measuring waiting time keeps control where it matters.
 category: Approvals, Handoffs & Bottlenecks
 published_date: 2026-10-07
@@ -18,9 +18,9 @@ sources:
   - Set up approval users - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-to-set-up-approval-users
   - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
 related:
-  - The Operational Tax Hidden Inside Everyday Admin | /patterns/the-operational-tax-hidden-inside-everyday-admin/
-  - The Hidden Cost of Waiting for Management Information | /patterns/the-hidden-cost-of-waiting-for-management-information/
-  - When Everyone Has More System Access Than Their Job Needs | /patterns/when-everyone-has-more-system-access-than-their-job-needs/
+  - The operational tax hidden inside everyday admin | /patterns/the-operational-tax-hidden-inside-everyday-admin/
+  - The hidden cost of waiting for management information | /patterns/the-hidden-cost-of-waiting-for-management-information/
+  - When everyone has more system access than their job needs | /patterns/when-everyone-has-more-system-access-than-their-job-needs/
 summary: When routine requests wait days for sign-off and are almost always approved, the business pays a waiting cost on every request. Tiering approvals by risk, defining substitutes and measuring waiting time keeps control where it matters.
 layout: plain
 ---

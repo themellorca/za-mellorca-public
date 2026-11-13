@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-327
 slug: how-to-know-whether-your-business-depends-too-much-on-one-person
-title: How to Know Whether Your Business Depends Too Much on One Person
-description: Most owners suspect they have a key-person risk but cannot say how large it is. A practical, evidence-based way to measure dependency on individuals, using records the business already has and a simple capability count.
+title: How to know whether your business depends too much on one person
+description: Most owners suspect key-person risk but cannot size it. An evidence-based way to measure dependency on individuals using records you already have.
 lead: Most owners suspect they have a key-person risk but cannot say how large it is. A practical, evidence-based way to measure dependency on individuals, using records the business already has and a simple capability count.
 category: Digital Operations
 published_date: 2026-10-03
@@ -11,10 +11,12 @@ updated_date: 2026-10-03
 eyebrow: Digital Operations
 sources:
   - Bus factor - Wikipedia | https://en.wikipedia.org/wiki/Bus_factor
+  - How we identify and mitigate single-points-of-failure (SPOF) - Ministry of Justice Digital and Technology | https://mojdigital.blog.gov.uk/2021/08/03/how-we-identify-and-mitigate-single-points-of-failure-spof/
+  - OPS11-BP04 Perform knowledge management - AWS Well-Architected Framework | https://docs.aws.amazon.com/wellarchitected/latest/framework/ops_evolve_ops_knowledge_management.html
 related:
   - How to find the manual work nobody is measuring | /insights/how-to-find-the-manual-work-nobody-is-measuring/
-  - How to Find the Real Bottleneck in a Digital Operation | /insights/how-to-find-the-real-bottleneck-in-a-digital-operation/
-  - How to Diagnose a Business That Runs on Exceptions | /insights/how-to-diagnose-a-business-that-runs-on-exceptions/
+  - How to find the real bottleneck in a digital operation | /insights/how-to-find-the-real-bottleneck-in-a-digital-operation/
+  - How to diagnose a business that runs on exceptions | /insights/how-to-diagnose-a-business-that-runs-on-exceptions/
 summary: Most owners suspect they have a key-person risk but cannot say how large it is. A practical, evidence-based way to measure dependency on individuals, using records the business already has and a simple capability count.
 layout: plain
 ---
@@ -27,7 +29,7 @@ The reasons dependency forms, and the systems approach to reducing it, are cover
 
 ## A useful measure: how many people would have to be away?
 
-Software teams have a blunt name for this measure: the "bus factor", sometimes called the truck or lottery factor. Wikipedia's entry defines it as the minimum number of team members who would have to suddenly leave a project before it stalls for lack of knowledgeable people. The same entry summarises research on popular open-source projects that found many of them had a bus factor of two or less, which says something about how common concentrated knowledge is even in well-run technical work.
+Software teams have a blunt name for this measure: the "[bus factor](https://en.wikipedia.org/wiki/Bus_factor)", sometimes called the truck or lottery factor. Wikipedia's entry defines it as the minimum number of team members who would have to suddenly leave a project before it stalls for lack of knowledgeable people. The same entry summarises research on popular open-source projects that found many of them had a bus factor of two or less, which says something about how common concentrated knowledge is even in well-run technical work.
 
 The idea transfers directly to a business. For each critical capability, ask how many people would have to be unavailable before it stopped. If the answer is one, the business depends on that person for that capability. The point is not to apply the term mechanically but to count, capability by capability, rather than worrying in general.
 
@@ -83,7 +85,7 @@ Records show access and authority. Behaviour shows knowledge. Typical signals th
 
 Ready.gov's business continuity guidance includes organising teams and tasks and then testing plans through exercises. The small-business version is an absence test. Choose one capability with a dependency and have the backup person run it for a week, or for one full cycle such as a month-end, while the key person is available but does not help. Record every point where the backup had to stop, guess or ask.
 
-The test is reliably more revealing than interviews. It shows the missing passwords, the undocumented exceptions and the steps the key person no longer realises they perform.
+The test is reliably more revealing than interviews. It shows the missing passwords, the undocumented exceptions and the steps the key person no longer realises they perform. The UK Ministry of Justice's digital team describes similar warning signs when it looks for [single points of failure](https://mojdigital.blog.gov.uk/2021/08/03/how-we-identify-and-mitigate-single-points-of-failure-spof/): work stalls when one person is on holiday, only one person can handle a legacy system, and the team would be blocked if a key person left. AWS's Well-Architected guidance on [knowledge management](https://docs.aws.amazon.com/wellarchitected/latest/framework/ops_evolve_ops_knowledge_management.html) lists notes kept on individuals' own machines as an anti-pattern and recommends a central, maintained repository that starts with the runbooks and playbooks people use daily.
 
 ## An illustrative example
 

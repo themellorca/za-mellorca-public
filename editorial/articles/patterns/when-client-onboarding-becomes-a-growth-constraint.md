@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-146
 slug: when-client-onboarding-becomes-a-growth-constraint
-title: When Client Onboarding Becomes a Growth Constraint
+title: When client onboarding becomes a growth constraint
 description: Winning more customers should not create an internal scramble. Repeated onboarding coordination can become a direct constraint on growth.
 lead: A growing sales pipeline can expose an operating limit if every new customer requires another round of manual coordination before value can begin.
 category: Client Onboarding & Service Delivery
@@ -24,10 +24,12 @@ commercial_value_dimensions: Time-to-revenue, Capacity, Customer experience, Sca
 sources:
   - Map and understand a user's whole problem | https://www.gov.uk/service-manual/design/map-a-users-whole-problem
   - 2. Solve a whole problem for users | https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem
+  - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
 related:
-  - Why Does Winning a Customer Create an Internal Scramble? | /patterns/why-does-winning-a-customer-create-an-internal-scramble/
-  - Why Does Revenue Growth Always Require More Admin Staff? | /patterns/why-revenue-growth-requires-more-admin-staff/
-  - When Staff Need to Ask Who Approves What | /patterns/when-staff-need-to-ask-who-approves-what/
+  - Why does winning a customer create an internal scramble? | /patterns/why-does-winning-a-customer-create-an-internal-scramble/
+  - Why does revenue growth always require more admin staff? | /patterns/why-revenue-growth-requires-more-admin-staff/
+  - When staff need to ask who approves what | /patterns/when-staff-need-to-ask-who-approves-what/
+  - When onboarding depends on a checklist in someone’s head | /patterns/when-the-onboarding-checklist-exists-only-in-one-persons-memory/
 summary: Onboarding becomes a growth constraint when every new customer requires a fresh round of manual coordination. Designing it as an end-to-end workflow can shorten the path to value while reducing the administrative load that grows with sales.
 ---
 ## Observable condition
@@ -94,7 +96,7 @@ There are trade-offs. Asking for a complete intake dataset at signature can add 
 
 ## Intervention
 
-Map one recent onboarding from signed agreement to first delivered value. Record waits, information requests, duplicate capture, handoffs and customer updates. Define the minimum complete intake dataset and the events that should trigger finance, compliance, provisioning and delivery tasks. Make the whole onboarding visible before automating individual steps.
+Map one recent onboarding from signed agreement to first delivered value. Record waits, information requests, duplicate capture, handoffs and customer updates. This is a form of [value-stream mapping](https://www.lean.org/lexicon-terms/value-stream-mapping/), which charts every step in the flow from order to delivery. Define the minimum complete intake dataset and the events that should trigger finance, compliance, provisioning and delivery tasks. Make the whole onboarding visible before automating individual steps.
 
 Then measure two numbers over the next few onboardings: elapsed time from signature to first delivered value, and the number of internal touches per client. Automate the handoffs that cause the longest waits first, and design each handoff so that it does not depend on someone remembering, as described in [how to design a handoff that cannot depend on memory](/insights/how-to-design-a-handoff-that-cannot-depend-on-memory/).
 

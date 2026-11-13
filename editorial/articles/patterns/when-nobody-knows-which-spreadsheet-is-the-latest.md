@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-255
 slug: when-nobody-knows-which-spreadsheet-is-the-latest
-title: When Nobody Knows Which Spreadsheet Is the Latest
-description: Files named final, final_v2 and final_USE THIS ONE circulate by email while decisions get made on the wrong numbers. Here is why version confusion happens and how to end it.
+title: When nobody knows which spreadsheet is the latest
+description: Files named final_v2 and USE THIS ONE circulate by email while decisions rest on wrong numbers. Here is why version confusion happens and how to end it.
 lead: Files named final, final_v2 and final_USE THIS ONE circulate by email while decisions get made on the wrong numbers. Here is why version confusion happens and how to end it.
 category: Data, Reporting & Decision Visibility
 published_date: 2026-10-08
@@ -19,9 +19,10 @@ sources:
   - Plan an intelligent SharePoint intranet - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/plan-intranet
   - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
 related:
-  - Why Reporting Problems Often Begin With Data Capture | /patterns/why-reporting-problems-often-begin-with-data-capture/
-  - When Only One Person Knows Where the Report's Numbers Come From | /patterns/when-only-one-person-knows-where-the-reports-numbers-come-from/
-  - When Your Dashboard Is Really a Manually Updated Spreadsheet | /patterns/when-your-dashboard-is-really-a-manually-updated-spreadsheet/
+  - Why reporting problems often begin with data capture | /patterns/why-reporting-problems-often-begin-with-data-capture/
+  - When only one person knows where the report's numbers come from | /patterns/when-only-one-person-knows-where-the-reports-numbers-come-from/
+  - When your dashboard is really a manually updated spreadsheet | /patterns/when-your-dashboard-is-really-a-manually-updated-spreadsheet/
+  - How to stop people keeping shadow spreadsheets beside the CRM | /insights/turning-side-spreadsheets-into-crm-improvements/
 summary: Files named final, final_v2 and final_USE THIS ONE circulate by email while decisions get made on the wrong numbers. Here is why version confusion happens and how to end it.
 layout: plain
 ---
@@ -73,7 +74,7 @@ The second is to move the same spreadsheet to a shared drive and call the proble
 
 In a better state, every important data set has one agreed home, one named owner and a defined way of changing it. People read from the master and do not carry copies. Edits are made in that one place, and the system records who changed what and when. Where the data is a list of prices, customers or projects, it lives in a table with controlled fields rather than loose cells, and anyone who needs it sees the current values at the moment they look.
 
-Business application platforms are built for this. Microsoft describes Dataverse as a place to securely store and manage data used by business applications, in tables, with role-based security so that users see and change data only if they have been granted access. Changes that need sign-off can be routed through approval workflows, and Microsoft's documentation on Power Automate approvals lists sign-off of documents among the common uses. Spreadsheet-based workings can continue as analysis tools that read from the master instead of replacing it.
+Business application platforms are built for this. Microsoft describes Dataverse as a place to securely store and manage data used by business applications, in tables, with role-based security so that users see and change data only if they have been granted access. Changes that need sign-off can be routed through approval workflows, and Microsoft's documentation on [Power Automate approvals](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) lists sign-off of documents among the common uses. Spreadsheet-based workings can continue as analysis tools that read from the master instead of replacing it.
 
 For the events company, this would mean one rate table maintained by one person, quotes that read from it, and a record of when each rate changed.
 

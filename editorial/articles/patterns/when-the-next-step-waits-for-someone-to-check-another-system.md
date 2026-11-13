@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-038
 slug: when-the-next-step-waits-for-someone-to-check-another-system
-title: When the Next Step Waits for Someone to Check Another System
-description: Dispatch waits until someone checks the bank for payment. Production waits until someone checks whether materials have arrived. When a process only moves after a person looks in another system for a status change, the business runs at the speed of that person's checking.
+title: When the next step waits for someone to check another system
+description: When a process only moves after someone checks another system for a status change, the business runs at the speed of that person's checking.
 lead: Dispatch waits until someone checks the bank for payment. Production waits until someone checks whether materials have arrived. When a process only moves after a person looks in another system for a status change, the business runs at the speed of that person's checking.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-05
@@ -18,9 +18,9 @@ sources:
   - About webhooks | https://shopify.dev/docs/apps/build/webhooks
   - Webhooks | https://woocommerce.com/document/webhooks/
 related:
-  - When Automation Stops at the Edge of Each System | /patterns/when-automation-stops-at-the-edge-of-each-system/
-  - Why Staff Keep a Spreadsheet Between Two Business Systems | /patterns/why-staff-keep-a-spreadsheet-between-two-business-systems/
-  - Why Information Has to Be Copied From One System to Another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
+  - When automation stops at the edge of each system | /patterns/when-automation-stops-at-the-edge-of-each-system/
+  - Why staff keep a spreadsheet between two business systems | /patterns/why-staff-keep-a-spreadsheet-between-two-business-systems/
+  - Why information has to be copied from one system to another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
 summary: Dispatch waits until someone checks the bank for payment. Production waits until someone checks whether materials have arrived. When a process only moves after a person looks in another system for a status change, the business runs at the speed of that person's checking.
 layout: plain
 ---
@@ -38,7 +38,7 @@ An illustrative example: a Pretoria-based supplier of medical consumables with a
 
 When people check a system to see whether something has changed, they are doing what software engineers call polling: asking repeatedly, at intervals, "has anything happened yet?" Polling has two costs. It consumes the time of whoever does the asking, and it adds delay equal, on average, to half the interval between checks.
 
-Many business platforms are built to avoid this. Shopify's developer documentation describes webhooks as a way of receiving near-real-time data about events in a shop, rather than repeatedly calling its interface to check for changes. Stripe's documentation explains that webhook events let a business respond to things that happen asynchronously, such as a customer's bank confirming a payment, and sets out how to handle retries and duplicate deliveries. WooCommerce offers webhooks for events such as orders being created or updated.
+Many business platforms are built to avoid this. [Shopify's developer documentation](https://shopify.dev/docs/apps/build/webhooks) describes webhooks as a way of receiving near-real-time data about events in a shop, rather than repeatedly calling its interface to check for changes. [Stripe's documentation](https://docs.stripe.com/webhooks) explains that webhook events let a business respond to things that happen asynchronously, such as a customer's bank confirming a payment, and sets out how to handle retries and duplicate deliveries. [WooCommerce offers webhooks](https://woocommerce.com/document/webhooks/) for events such as orders being created or updated.
 
 In other words, the system that holds the status can often announce the change. In many businesses, nobody has asked it to, so a person listens instead.
 

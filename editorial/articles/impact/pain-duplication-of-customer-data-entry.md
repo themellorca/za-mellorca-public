@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-027
 slug: pain-duplication-of-customer-data-entry
-title: The Cost of Retyping Customer Details into Every System
+title: The cost of retyping customer details into every system
 description: Manual data re-entry across systems creates data quality gaps, payroll errors, and customer experience friction.
 lead: Manual data re-entry across systems creates data quality gaps, payroll errors, and customer experience friction.
 category: mellorca.com
@@ -11,15 +11,15 @@ updated_date: 2026-10-01
 eyebrow: Business Automation
 commercial_domain: mellorca.com
 primary_pain: Manual re-entry of customer data across systems
-primary_cost_mechanism: labor costs, payroll and data errors
+primary_cost_mechanism: labour costs, payroll and data errors
 sources:
   - What Is Data Quality? - IBM | https://www.ibm.com/think/topics/data-quality
   - Principle (d): Accuracy | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/accuracy/
   - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
 related:
-  - Backing Up Data but Not the Systems That Use It | /impact/pain-backing-up-data-without-systems/
-  - Invoice Approvals Stuck in Inboxes | /impact/pain-invoice-approvals-in-inboxes/
-  - The Hidden Productivity Cost of Poor Office Wi-Fi | /impact/pain-poor-office-wi-fi-slowing-employees-down/
+  - Backing up data but not the systems that use it | /impact/pain-backing-up-data-without-systems/
+  - Invoice approvals stuck in inboxes | /impact/pain-invoice-approvals-in-inboxes/
+  - The hidden productivity cost of poor office Wi-Fi | /impact/pain-poor-office-wi-fi-slowing-employees-down/
 summary: Manual data re-entry across systems creates data quality gaps, payroll errors, and customer experience friction.
 layout: plain
 ---
@@ -43,7 +43,7 @@ Operational symptoms include inconsistent customer profiles, time spent on manua
 - **Slower onboarding:** a new customer cannot be invoiced or served until every system has been populated.
 - **Customer friction:** customers are asked for the same information more than once, or receive correspondence with outdated details.
 
-IBM describes data quality across dimensions that include accuracy, consistency, timeliness and uniqueness. Duplicate entry attacks all four at once: every retyped field is a new chance to be wrong, every copy can drift from the others, updates arrive late in the systems that are populated last, and the same customer can end up recorded more than once. The UK government's Data Quality Framework uses the same dimensions and defines uniqueness simply as each entity having one record.
+IBM describes data quality across dimensions that include accuracy, consistency, timeliness and uniqueness. Duplicate entry attacks all four at once: every retyped field is a new chance to be wrong, every copy can drift from the others, updates arrive late in the systems that are populated last, and the same customer can end up recorded more than once. The UK government's [Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework) uses the same dimensions and defines uniqueness simply as each entity having one record.
 
 Where the data is personal information, there is also a compliance angle. The UK Information Commissioner's Office guidance on the accuracy principle expects organisations to take reasonable steps to keep personal data correct and, where necessary, up to date, and to correct inaccuracies without delay. That is much harder to demonstrate when the same person's details live in four places with no rule about which one wins.
 

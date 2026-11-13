@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-021
 slug: how-to-diagnose-a-business-that-runs-on-exceptions
-title: How to Diagnose a Business That Runs on Exceptions
-description: When special cases, manual fixes and one-off approvals make up a large share of the daily work, the business is running on exceptions. A practical method for counting them, sorting them by cause and deciding which to remove, which to standardise and which to keep.
+title: How to diagnose a business that runs on exceptions
+description: When special cases, manual fixes and one-off approvals fill the day, the business runs on exceptions. How to count them, sort by cause and decide.
 lead: When special cases, manual fixes and one-off approvals make up a large share of the daily work, the business is running on exceptions. A practical method for counting them, sorting them by cause and deciding which to remove, which to standardise and which to keep.
 category: Digital Operations
 published_date: 2026-10-04
@@ -15,8 +15,9 @@ sources:
   - What Is Process Improvement? - IBM | https://www.ibm.com/think/topics/process-improvement
 related:
   - How to find the manual work nobody is measuring | /insights/how-to-find-the-manual-work-nobody-is-measuring/
-  - How to Find the Real Bottleneck in a Digital Operation | /insights/how-to-find-the-real-bottleneck-in-a-digital-operation/
+  - How to find the real bottleneck in a digital operation | /insights/how-to-find-the-real-bottleneck-in-a-digital-operation/
   - What business processes need documentation first? | /insights/what-business-processes-need-documentation-first/
+  - How to build automation around exceptions | /insights/how-to-build-automation-that-expects-exceptions-from-the-start/
 summary: When special cases, manual fixes and one-off approvals make up a large share of the daily work, the business is running on exceptions. A practical method for counting them, sorting them by cause and deciding which to remove, which to standardise and which to keep.
 layout: plain
 ---

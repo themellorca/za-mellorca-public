@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-304
 slug: cloud-resources-with-inconsistent-names-and-tags
 title: Why inconsistent cloud resource names and tags cause problems as you grow
-description: When cloud resources are named and tagged however each person prefers, costs cannot be allocated, incidents take longer and clean-up is risky. How to set and enforce a simple standard.
+description: Resources named and tagged however each person likes make costs unallocatable and clean-up risky. How to set and enforce a simple standard.
 lead: When cloud resources are named and tagged however each person prefers, costs cannot be allocated, incidents take longer and clean-up is risky. How to set and enforce a simple standard.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-06
@@ -38,9 +38,9 @@ Cloud platforms let anyone with the right permissions create resources in minute
 - production and test resources indistinguishable at a glance;
 - clean-up postponed because nobody is sure what is safe to delete.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for cloud naming conventions, tagging best practice, how to allocate cloud costs by department, or how to find out what a resource is for. Finance managers ask why the cloud bill cannot be split by business unit. IT managers ask how to tidy up without breaking anything. The underlying need is a standard that makes every resource identifiable and attributable, applied automatically so it does not depend on everyone remembering.
+People ask about cloud naming conventions, tagging best practice, how to allocate cloud costs by department, or how to find out what a resource is for. Finance managers ask why the cloud bill cannot be split by business unit. IT managers ask how to tidy up without breaking anything. The underlying need is a standard that makes every resource identifiable and attributable, applied automatically so it does not depend on everyone remembering.
 
 ## Evidence and system mechanism
 

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-061
 slug: why-reporting-delays-become-decision-delays
-title: Why Reporting Delays Become Decision Delays
-description: When important decisions wait for the next management accounts, every day of reporting delay becomes a day of decision delay. Here is how to decouple decisions from the reporting calendar.
+title: Why reporting delays become decision delays
+description: When important decisions wait for the next management accounts, reporting delay becomes decision delay. Decouple decisions from the reporting calendar.
 lead: When important decisions wait for the next management accounts, every day of reporting delay becomes a day of decision delay. Here is how to decouple decisions from the reporting calendar.
 category: Reporting & Operational Visibility
 published_date: 2026-10-06
@@ -18,9 +18,9 @@ sources:
   - What Is Real-Time Analytics? - IBM | https://www.ibm.com/think/topics/real-time-analytics
   - How to set performance metrics for your service | https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service
 related:
-  - When Only One Person Knows Where the Report's Numbers Come From | /patterns/when-only-one-person-knows-where-the-reports-numbers-come-from/
-  - The Difference Between Having Data and Having Visibility | /patterns/the-difference-between-having-data-and-having-visibility/
-  - When Your Dashboard Is Really a Manually Updated Spreadsheet | /patterns/when-your-dashboard-is-really-a-manually-updated-spreadsheet/
+  - When only one person knows where the report's numbers come from | /patterns/when-only-one-person-knows-where-the-reports-numbers-come-from/
+  - The difference between having data and having visibility | /patterns/the-difference-between-having-data-and-having-visibility/
+  - When your dashboard is really a manually updated spreadsheet | /patterns/when-your-dashboard-is-really-a-manually-updated-spreadsheet/
 summary: When important decisions wait for the next management accounts, every day of reporting delay becomes a day of decision delay. Here is how to decouple decisions from the reporting calendar.
 layout: plain
 ---
@@ -36,7 +36,7 @@ The realisation is that the reporting cycle has quietly become the decision cycl
 
 That arithmetic compounds. If management accounts take three weeks to close, and decisions wait for the next meeting after that, a problem that starts early in one month may not be acted on until late in the next. Across a year, the business makes perhaps a dozen course corrections on its most important levers, each one based on information that was already old.
 
-IBM defines data latency as the time it takes for data to become available and ready for use after it is generated, and notes that high latency limits an organisation's ability to take immediate action. Reporting delay is that latency, measured in weeks rather than seconds, and its cost is paid in decisions.
+[IBM defines data latency](https://www.ibm.com/think/topics/data-latency) as the time it takes for data to become available and ready for use after it is generated, and notes that high latency limits an organisation's ability to take immediate action. Reporting delay is that latency, measured in weeks rather than seconds, and its cost is paid in decisions.
 
 **Realisation prompt:** which decisions in your business are currently waiting for a report, and how long have they been waiting?
 
@@ -74,7 +74,7 @@ Another response is to make decisions on instinct without data, to avoid the wai
 
 In a better state, decisions are linked to the information that actually drives them, not to the reporting calendar. Pricing decisions draw on daily sales and cost data from the operational systems. Staffing decisions use current workload and overtime figures. The monthly accounts remain the authoritative record, but they confirm and refine decisions rather than gate them.
 
-IBM's description of real-time analytics, analysing data as it becomes available rather than waiting for batch reports, describes the end of the spectrum. Most businesses do not need real-time data for every decision. The UK Government's service manual suggests a small set of core measures, dashboards for decision-making and alerts for significant changes. A business that adopts that discipline for its key levers can decide in days instead of weeks.
+[IBM's description of real-time analytics](https://www.ibm.com/think/topics/real-time-analytics), analysing data as it becomes available rather than waiting for batch reports, describes the end of the spectrum. Most businesses do not need real-time data for every decision. The [UK Government's service manual](https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service) suggests choosing a few headline measures and measuring performance continuously rather than taking occasional snapshots. A business that adopts that discipline for its key levers can decide in days instead of weeks.
 
 ## Intervention
 

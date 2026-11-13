@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-184
 slug: designing-human-approval-checkpoints-for-ai-workflows
-title: How to Design Human Approval Into AI Workflows
-description: Putting a person in the loop is not the same as putting a person in control. How to decide which AI actions need approval, what the approver must see, and how to stop the checkpoint turning into a rubber stamp.
+title: How to design human approval into AI workflows
+description: A person in the loop is not a person in control. How to decide which AI actions need approval, what the approver must see and how to avoid a rubber stamp.
 lead: Putting a person in the loop is not the same as putting a person in control. How to decide which AI actions need approval, what the approver must see, and how to stop the checkpoint turning into a rubber stamp.
 category: AI Governance
 published_date: 2026-10-09
@@ -15,7 +15,7 @@ sources:
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
 related:
   - What business processes need documentation first? | /insights/what-business-processes-need-documentation-first/
-  - Why AI Agents and Automated Workflows Need Observability | /insights/why-ai-agents-and-automated-workflows-need-observability/
+  - Why AI agents and automated workflows need observability | /insights/why-ai-agents-and-automated-workflows-need-observability/
   - Why business systems need ongoing stewardship | /insights/why-business-systems-need-ongoing-stewardship/
 summary: Putting a person in the loop is not the same as putting a person in control. How to decide which AI actions need approval, what the approver must see, and how to stop the checkpoint turning into a rubber stamp.
 layout: plain
@@ -52,7 +52,7 @@ The most common design failure is an approval screen that shows only the AI's co
 3. Anything the AI was unsure of, or any rule that was bypassed to reach the result.
 4. What happens next if they approve, and what happens if they reject.
 
-Approval tooling in common platforms already supports much of this. Microsoft's documentation for approvals in Power Automate describes sending a request to one or more people, collecting a response, and branching the flow on the outcome. The mechanism is easy. The design work is deciding what goes into the request and who receives it.
+Approval tooling in common platforms already supports much of this. Microsoft's documentation for approvals in [Power Automate](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) describes sending a request to one or more people, collecting a response, and branching the flow on the outcome. The mechanism is easy. The design work is deciding what goes into the request and who receives it.
 
 ## Give the approver a real alternative to yes
 
@@ -68,7 +68,7 @@ Automation bias is well documented: people tend to trust a confident system, esp
 - **Measure the override rate.** If approvers change or reject nothing over a month, either the AI is excellent or nobody is looking. Find out which.
 - **Rotate and limit.** Reviewing hundreds of items in one sitting degrades attention. Cap the batch size and spread the load.
 
-The NIST AI Risk Management Framework treats human oversight as a matter of defined roles, skills and responsibilities, not just presence. That is the right way to think about it: the approver needs training, time and the standing to disagree. The same logic underlies [how to reduce human error without removing human judgment](/insights/how-to-reduce-human-error-without-removing-human-judgment/).
+The NIST [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) treats human oversight as a matter of defined roles, skills and responsibilities, not just presence. That is the right way to think about it: the approver needs training, time and the standing to disagree. The same logic underlies [how to reduce human error without removing human judgment](/insights/how-to-reduce-human-error-without-removing-human-judgment/).
 
 ## Set thresholds, and review them
 

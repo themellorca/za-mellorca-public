@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000044
 slug: when-the-system-decides-what-you-can-do-today
-title: When the System Decides What You Can Do Today
+title: When the system decides what you can do today
 description: When every step waits on an approval, a person's working day is shaped by a queue they cannot see or influence. What it takes to hand some of that day back.
 lead: When every step waits on an approval, a person's working day is shaped by a queue they cannot see or influence. What it takes to hand some of that day back.
 category: Human Agency
@@ -17,10 +17,11 @@ epistemic_state: HYPOTHESISED: the relationship between approval design and felt
 sources:
   - <span class="mw-page-title-main">Job autonomy and pressure at work - statistics</span> | https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Job_autonomy_and_pressure_at_work_-_statistics
   - Generative AI likely to augment rather than destroy jobs | https://www.ilo.org/resource/news/generative-ai-likely-augment-rather-destroy-jobs
+  - Management Standards - Control - Health and Safety Executive | https://www.hse.gov.uk/stress/standards/control.htm
 related:
-  - When the Founder's Identity Is Fused With Every Task | /moments/when-the-founders-identity-is-fused-with-every-task/
-  - Ten Open Tabs and Five Logins: What the Morning Sign-In Takes | /moments/ten-open-tabs-and-five-logins/
-  - The Report Someone Rebuilds by Hand Every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - When the founder's identity is fused with every task | /moments/when-the-founders-identity-is-fused-with-every-task/
+  - Ten open tabs and five logins: What the morning sign-in takes | /moments/ten-open-tabs-and-five-logins/
+  - The report someone rebuilds by hand every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
 summary: When every step waits on an approval, a person's working day is shaped by a queue they cannot see or influence. What it takes to hand some of that day back.
 layout: plain
 ---
@@ -32,13 +33,13 @@ Nothing dramatic has happened. No one has been unreasonable. A system, and the r
 
 ## Autonomy is measurable, and unevenly spread
 
-Autonomy at work is not only a feeling. It can be asked about directly. Eurostat's statistics on job autonomy, drawn from a 2019 module of the EU Labour Force Survey, asked workers how much influence they had over the content and order of their tasks. Across the EU, 49.6% reported some or a large influence. Almost one in three, 31.5%, reported little or none.
+Autonomy at work is not only a feeling. It can be asked about directly. Eurostat's statistics on [job autonomy](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Job_autonomy_and_pressure_at_work_-_statistics), drawn from a 2019 module of the EU Labour Force Survey, asked workers how much influence they had over the content and order of their tasks. Across the EU, 49.6% reported some or a large influence. Almost one in three, 31.5%, reported little or none. In the UK, the Health and Safety Executive's [Management Standards](https://www.hse.gov.uk/stress/standards/control.htm) include control over work, with the aim that employees have control over their pace of work where possible.
 
 The split by employment status is striking. Among the self-employed, 83.0% reported some or a large influence over the content and order of their tasks. Among employees, the figure was 43.7%.
 
 These are European figures, and they should not be read as a measurement of South African workplaces. They do show something general: being an employee often means that someone or something else sets the sequence of your day. Some of that is inherent in working inside an organisation. Some of it is a product of how the organisation's systems are designed.
 
-The ILO has made a related point in its work on generative AI. It concluded that most jobs are more likely to be changed than replaced, and that the larger concern is the effect on job quality, including work intensity and autonomy. In other words, how technology is configured matters for how much control people keep over their work, not only for how many jobs exist.
+The ILO has made a related point in its work on [generative AI](https://www.ilo.org/resource/news/generative-ai-likely-augment-rather-destroy-jobs). It concluded that most jobs are more likely to be changed than replaced, and that the larger concern is the effect on job quality, including work intensity and autonomy. In other words, how technology is configured matters for how much control people keep over their work, not only for how many jobs exist.
 
 ## How approvals shape a day
 

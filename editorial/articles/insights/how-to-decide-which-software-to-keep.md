@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-034
 slug: how-to-decide-which-software-to-keep
-title: How to Decide Which Software to Keep
-description: Most software stays because nobody proposed anything else. Five tests a tool should pass to stay, the conditions that should come with a keep decision, and a simple renewal routine that turns keeping into a deliberate choice.
+title: How to decide which software to keep
+description: Most software stays because nobody proposed an alternative. Five tests a tool should pass to stay, and a renewal routine that makes keeping a real choice.
 lead: Most software stays because nobody proposed anything else. Five tests a tool should pass to stay, the conditions that should come with a keep decision, and a simple renewal routine that turns keeping into a deliberate choice.
 category: Systems & Strategy
 published_date: 2026-10-05
@@ -15,9 +15,9 @@ sources:
   - Lightweight approach to cloud security | https://www.ncsc.gov.uk/collection/saas-security
   - Modern Lifecycle Policy - Microsoft Lifecycle | https://learn.microsoft.com/en-us/lifecycle/policies/modern
 related:
-  - How Software Renewal Dates Can Force Better Technology Decisions | /insights/how-software-renewal-dates-can-force-better-technology-decisions/
+  - How software renewal dates can force better technology decisions | /insights/how-software-renewal-dates-can-force-better-technology-decisions/
   - Piling on more software is not digital maturity | /insights/piling-on-more-software-is-not-digital-maturity/
-  - What Keep, Fix, Integrate, Automate, Replace or Remove Means in Practice | /insights/what-keep-fix-integrate-automate-replace-or-remove-means-in-practice/
+  - What keep, fix, integrate, automate, replace or remove means in practice | /insights/what-keep-fix-integrate-automate-replace-or-remove-means-in-practice/
 summary: Most software stays because nobody proposed anything else. Five tests a tool should pass to stay, the conditions that should come with a keep decision, and a simple renewal routine that turns keeping into a deliberate choice.
 layout: plain
 ---

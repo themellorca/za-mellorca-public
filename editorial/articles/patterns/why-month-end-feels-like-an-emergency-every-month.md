@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-154
 slug: why-month-end-feels-like-an-emergency-every-month
-title: Why Month-End Feels Like an Emergency Every Month
-description: A predictable monthly date produces a scramble every time because checking, matching and correcting are saved up for the last days. Here is why, and how to spread the work across the month.
+title: Why month-end feels like an emergency every month
+description: A predictable month-end still causes a scramble when checking and correcting are saved for the last days. Spread the work across the month instead.
 lead: A predictable monthly date produces a scramble every time because checking, matching and correcting are saved up for the last days. Here is why, and how to spread the work across the month.
 category: Finance Operations & Reporting
 published_date: 2026-10-08
@@ -18,9 +18,9 @@ sources:
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
   - What is Process Mining? - IBM | https://www.ibm.com/think/topics/process-mining
 related:
-  - When Every Department Reports the Same Metric Differently | /patterns/when-every-department-reports-the-same-metric-differently/
-  - Why Does Winning a Customer Create an Internal Scramble? | /patterns/why-does-winning-a-customer-create-an-internal-scramble/
-  - The Operational Tax Hidden Inside Everyday Admin | /patterns/the-operational-tax-hidden-inside-everyday-admin/
+  - When every department reports the same metric differently | /patterns/when-every-department-reports-the-same-metric-differently/
+  - Why does winning a customer create an internal scramble? | /patterns/why-does-winning-a-customer-create-an-internal-scramble/
+  - The operational tax hidden inside everyday admin | /patterns/the-operational-tax-hidden-inside-everyday-admin/
 summary: A predictable monthly date produces a scramble every time because checking, matching and correcting are saved up for the last days. Here is why, and how to spread the work across the month.
 layout: plain
 ---
@@ -36,9 +36,9 @@ An illustrative example: a Port Elizabeth wholesale business with about seventy 
 
 An emergency is something unexpected. A monthly event that produces a rush every time is not an emergency, it is a process whose work is bunched at the end. The team is not slow. They are performing at month-end all the checking, matching and correcting that the business did not do during the month, plus the normal closing steps.
 
-Lean thinking offers a useful description. The Lean Enterprise Institute describes standardized work as documenting the current best way of doing a task so that it can be repeated consistently and improved. Month-end close is rarely standardised in that sense. It is a collection of habits, dependent on who is in, who remembers, and which spreadsheet is the current one.
+Lean thinking offers a useful description. The Lean Enterprise Institute describes standardised work as documenting the current best way of doing a task so that it can be repeated consistently and improved. Month-end close is rarely standardised in that sense. It is a collection of habits, dependent on who is in, who remembers, and which spreadsheet is the current one.
 
-Tools that show how work really flows can help. Microsoft's process mining documentation for Power Automate describes analysing event data to reveal how a process actually runs, including variations and bottlenecks. IBM's overview of process mining says much the same. The principle applies even without software: map what truly happens, not what the procedure says.
+Tools that show how work really flows can help. Microsoft's [process mining](https://learn.microsoft.com/en-us/power-automate/process-mining-overview) documentation for Power Automate describes analysing event data to reveal how a process actually runs, including variations and bottlenecks. IBM's overview of [process mining](https://www.ibm.com/think/topics/process-mining) says much the same. The principle applies even without software: map what truly happens, not what the procedure says.
 
 **Realisation prompt:** if you listed every correction made during last month's close, how many could have been prevented by a check carried out during the month?
 

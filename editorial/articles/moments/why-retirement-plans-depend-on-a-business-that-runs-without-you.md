@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000424
 slug: why-retirement-plans-depend-on-a-business-that-runs-without-you
-title: Why Retirement Plans Depend on a Business That Runs Without You
-description: For many owners the business is the retirement plan. What it takes for a business to keep running when its owner steps back, and why that is the real retirement question.
+title: Why retirement plans depend on a business that runs without you
+description: For many owners the business is the retirement plan. What it takes for a business to keep running once the owner steps back, and why that is the question.
 lead: For many owners the business is the retirement plan. What it takes for a business to keep running when its owner steps back, and why that is the real retirement question.
 category: Life Transitions & Vulnerability
 published_date: 2026-10-08
@@ -20,9 +20,9 @@ sources:
   - Key person insurance - Wikipedia | https://en.wikipedia.org/wiki/Key_person_insurance
   - Buy–sell agreement - Wikipedia | https://en.wikipedia.org/wiki/Buy%E2%80%93sell_agreement
 related:
-  - When Parental Leave Means Handing Over an Undocumented Job | /moments/when-parental-leave-means-handing-over-an-undocumented-job/
-  - The Founder Who Wants to Step Back but Can't | /moments/the-founder-who-wants-to-step-back-but-cant/
-  - The Saturday Morning Spent on Invoices | /moments/the-saturday-morning-spent-on-invoices/
+  - When parental leave means handing over an undocumented job | /moments/when-parental-leave-means-handing-over-an-undocumented-job/
+  - The founder who wants to step back but can't | /moments/the-founder-who-wants-to-step-back-but-cant/
+  - The Saturday morning spent on invoices | /moments/the-saturday-morning-spent-on-invoices/
 summary: For many owners the business is the retirement plan. What it takes for a business to keep running when its owner steps back, and why that is the real retirement question.
 layout: plain
 ---

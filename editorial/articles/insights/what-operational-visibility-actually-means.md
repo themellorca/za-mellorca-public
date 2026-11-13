@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-252
 slug: what-operational-visibility-actually-means
-title: What Operational Visibility Actually Means
-description: Operational visibility is not a dashboard or a report. It is the ability to see the state, owner, age and flow of work, and the exceptions that need attention, without asking anyone.
+title: What operational visibility actually means
+description: Visibility is not a dashboard or a report. It is seeing the state, owner, age and flow of work, and what needs attention, without asking anyone.
 lead: Operational visibility is not a dashboard or a report. It is the ability to see the state, owner, age and flow of work, and the exceptions that need attention, without asking anyone.
 category: Operations
 published_date: 2026-10-07
@@ -14,9 +14,9 @@ sources:
   - Andon - What Is It? - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/andon/
   - The Kanban Guide - May 2025 (latest) - Kanban Guides | https://kanbanguides.org/english/
 related:
-  - Why Work Gets Lost Between Teams | /insights/why-work-gets-lost-between-teams/
-  - Where Operational Errors Really Come From | /insights/where-operational-errors-really-come-from/
-  - How Much Manual Work Is Hiding Inside Your Business? | /insights/how-much-manual-work-is-hiding-inside-your-business/
+  - Why work gets lost between teams | /insights/why-work-gets-lost-between-teams/
+  - Where operational errors really come from | /insights/where-operational-errors-really-come-from/
+  - How much manual work is hiding inside your business? | /insights/how-much-manual-work-is-hiding-inside-your-business/
 summary: Operational visibility is not a dashboard or a report. It is the ability to see the state, owner, age and flow of work, and the exceptions that need attention, without asking anyone.
 layout: plain
 ---
@@ -29,7 +29,7 @@ This article sets out a working definition of operational visibility, separates 
 
 ## Where the idea comes from
 
-Manufacturing worked this out long before software did. The Lean Enterprise Institute defines visual management as placing tools, parts, activities and indicators of performance in plain view so that the status of the system can be understood at a glance by everyone involved. Its definition of the andon, a signal board or light used on production lines, adds a second element: a tool that highlights the status of operations at a single glance and signals whenever an abnormality occurs.
+Manufacturing worked this out long before software did. The Lean Enterprise Institute defines [visual management](https://www.lean.org/lexicon-terms/visual-management/) as placing tools, parts, activities and indicators of performance in plain view so that the status of the system can be understood at a glance by everyone involved. Its definition of the [andon](https://www.lean.org/lexicon-terms/andon/), a signal board or light used on production lines, adds a second element: a tool that highlights the status of operations at a single glance and signals whenever an abnormality occurs.
 
 Those two definitions contain most of what operational visibility means in an office, a workshop or a service business. Status is visible to everyone involved, not just to managers. And abnormality is signalled, rather than discovered by someone reading a report.
 
@@ -45,7 +45,7 @@ At every stage, one named person or team is responsible for moving the work on. 
 
 ### 3. Age
 
-The Kanban Guide treats work item age, the time since a piece of work started, as one of four essential flow measures, alongside work in progress, throughput and cycle time. Age is the measure most businesses lack. Knowing that there are 40 open jobs is information. Knowing that six of them have been open three times longer than normal is visibility.
+[The Kanban Guide](https://kanbanguides.org/english/) treats work item age, the time since a piece of work started, as one of four essential flow measures, alongside work in progress, throughput and cycle time. Age is the measure most businesses lack. Knowing that there are 40 open jobs is information. Knowing that six of them have been open three times longer than normal is visibility.
 
 ### 4. Flow
 

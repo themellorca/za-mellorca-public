@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-277
 slug: when-growth-makes-the-business-feel-less-efficient
-title: When Growth Makes the Business Feel Less Efficient
-description: When more customers and staff make the business feel slower rather than stronger, informal coordination has usually run out. Designing ownership, visible work status and defined handoffs restores the link between headcount and output.
+title: When growth makes the business feel less efficient
+description: When more customers and staff make the business slower, informal coordination has run out. Clear ownership and handoffs link headcount to output again.
 lead: When more customers and staff make the business feel slower rather than stronger, informal coordination has usually run out. Designing ownership, visible work status and defined handoffs restores the link between headcount and output.
 category: Growth, Scale & Headcount Efficiency
 published_date: 2026-10-03
@@ -16,10 +16,12 @@ commercial_value_dimensions: productivity, margin, speed, scalability, growth
 sources:
   - Brooks's law - Wikipedia | https://en.wikipedia.org/wiki/Brooks%27s_law
   - Communication and Collaboration - Introduction to DevOps on AWS | https://docs.aws.amazon.com/whitepapers/latest/introduction-devops-aws/two-pizza-teams.html
+  - Standardized Work - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/standardized-work/
 related:
-  - Why Do Good Leads Disappear Between Marketing and Sales? | /patterns/why-good-leads-disappear-between-marketing-and-sales/
-  - The Process That Gets Slower Every Time Volume Increases | /patterns/the-process-that-gets-slower-every-time-volume-increases/
-  - When a Status Update Requires a Staff Member to Investigate | /patterns/when-a-status-update-requires-a-staff-member-to-investigate/
+  - Why do good leads disappear between marketing and sales? | /patterns/why-good-leads-disappear-between-marketing-and-sales/
+  - The process that gets slower every time volume increases | /patterns/the-process-that-gets-slower-every-time-volume-increases/
+  - When a status update requires a staff member to investigate | /patterns/when-a-status-update-requires-a-staff-member-to-investigate/
+  - Why bigger teams create more coordination work | /patterns/why-adding-people-adds-more-coordination-than-capacity/
 summary: When more customers and staff make the business feel slower rather than stronger, informal coordination has usually run out. Designing ownership, visible work status and defined handoffs restores the link between headcount and output.
 layout: plain
 ---
@@ -77,7 +79,7 @@ The first instinct is often to hire a manager, add a weekly meeting, or buy a co
 
 ## Possibility
 
-A business that scales well replaces informal coordination with designed coordination. Work items such as orders, jobs and requests carry their own status, owner and history, so people can see rather than ask. Ownership is defined end to end for each core process. Handoffs happen through systems with the necessary information attached. Teams are organised so that most decisions can be made within them, and the owner is no longer the integration point.
+A business that scales well replaces informal coordination with designed coordination. Work items such as orders, jobs and requests carry their own status, owner and history, so people can see rather than ask. Ownership is defined end to end for each core process. Handoffs happen through systems with the necessary information attached. Teams are organised so that most decisions can be made within them, and the owner is no longer the integration point. The Lean Enterprise Institute's description of [standardised work](https://www.lean.org/lexicon-terms/standardized-work/) lists documentation of the current process and reduced variability among its benefits.
 
 In that state, adding a person adds capacity without adding a matching amount of coordination.
 

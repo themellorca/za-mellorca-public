@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-079
 slug: departments-separate-customer-records-financial-impact
-title: Sales, Finance and Operations Each With Their Own Customer: The Cost
+title: Sales, finance and operations each with their own customer: The cost
 description: When each department keeps its own version of the customer, invoices are rejected, credit holds are missed and cash arrives later. How to fix ownership.
 lead: When each department keeps its own version of the customer, invoices are rejected, credit holds are missed and cash arrives later. How to fix ownership.
 category: Data & Customer Experience
@@ -17,9 +17,9 @@ sources:
   - https://www.sars.gov.za/wp-content/uploads/Docs/Government/Tax-Invoice-Checklist-Version-2-29032016.pdf | https://www.sars.gov.za/wp-content/uploads/Docs/Government/Tax-Invoice-Checklist-Version-2-29032016.pdf
   - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
 related:
-  - Customer Requests Lost in Shared Inboxes: The Cost of Missed Service Work | /impact/customer-requests-lost-shared-inbox-missed-service-work/
-  - Manual Payment Matching Turns Cash Visibility into Reconciliation Work | /impact/manual-payment-matching-reconciliation-cost/
-  - Late Invoices from Manual Billing: The Cash-Flow Cost | /impact/late-invoicing-manual-billing-cash-flow-cost/
+  - Customer requests lost in shared inboxes: The cost of missed service work | /impact/customer-requests-lost-shared-inbox-missed-service-work/
+  - Manual payment matching turns cash visibility into reconciliation work | /impact/manual-payment-matching-reconciliation-cost/
+  - Late invoices from manual billing: The cash-flow cost | /impact/late-invoicing-manual-billing-cash-flow-cost/
 summary: When each department keeps its own version of the customer, invoices are rejected, credit holds are missed and cash arrives later. How to fix ownership.
 layout: plain
 ---
@@ -48,7 +48,7 @@ Sales quotes and closes a new order for a customer that finance has placed on cr
 
 ### Invoices that cannot be used
 
-Finance raises an invoice using the registered name and address it holds, while the customer's procurement team expects a different entity or branch. The invoice is rejected or parked, and payment is delayed. For VAT-registered suppliers there is a compliance angle too. SARS's checklist for a full tax invoice, required where the supply including VAT exceeds R5,000, includes the recipient's name and address and, where the recipient is a vendor, the recipient's VAT registration number. If the customer details finance holds are out of date, the business can issue invoices that do not meet the requirements its customers need for their own VAT claims.
+Finance raises an invoice using the registered name and address it holds, while the customer's procurement team expects a different entity or branch. The invoice is rejected or parked, and payment is delayed. For VAT-registered suppliers there is a compliance angle too. SARS's checklist for a full [tax invoice](https://www.sars.gov.za/wp-content/uploads/Docs/Government/Tax-Invoice-Checklist-Version-2-29032016.pdf), required where the supply including VAT exceeds R5,000, includes the recipient's name and address and, where the recipient is a vendor, the recipient's VAT registration number. If the customer details finance holds are out of date, the business can issue invoices that do not meet the requirements its customers need for their own VAT claims.
 
 ### Deliveries and service to the wrong place or person
 
@@ -95,7 +95,7 @@ The cost can be estimated from internal records over one quarter:
 
 Better does not mean one system for everything. It means clear ownership of each customer data element and a defined way for that data to flow.
 
-The UK Government Data Quality Framework, drawing on DAMA UK, describes dimensions that translate directly to this problem: **uniqueness**, meaning no duplication of records; **consistency**, meaning values do not contradict other representations of the same entity; and **timeliness** and **accuracy**, meaning the data reflects reality now. Fragmented departmental records usually fail on all four.
+The UK [Government Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework), drawing on DAMA UK, describes dimensions that translate directly to this problem: **uniqueness**, meaning no duplication of records; **consistency**, meaning values do not contradict other representations of the same entity; and **timeliness** and **accuracy**, meaning the data reflects reality now. Fragmented departmental records usually fail on all four.
 
 A workable model for a small or mid-sized business usually looks like this:
 

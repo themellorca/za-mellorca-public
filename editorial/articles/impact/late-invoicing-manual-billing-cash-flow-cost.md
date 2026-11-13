@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-351
 slug: late-invoicing-manual-billing-cash-flow-cost
-title: Late Invoices from Manual Billing: The Cash-Flow Cost
+title: Late invoices from manual billing: The cash-flow cost
 description: The payment clock cannot start until the invoice exists. Manual billing delays extend the cash cycle before the customer has even received the bill.
 lead: The payment clock cannot start until the invoice exists. When billing waits for spreadsheets, approvals, timesheets or someone’s memory, the business finances its customer for longer than necessary.
 category: Cash Flow
@@ -26,9 +26,9 @@ sources:
 closing_title: Method note
 closing_text: Financial models in this article distinguish delayed cash collection from permanent revenue loss. Use your own billing volume, financing rate and billing-lag data.
 related:
-  - Late Payments Nobody Follows Up: The Cost of Slow Collections | /impact/inconsistent-payment-follow-up-cash-flow-cost/
-  - Invoice Approvals Stuck in Inboxes | /impact/pain-invoice-approvals-in-inboxes/
-  - Scattered Supplier Invoices Create Handling Cost and Payment Uncertainty | /impact/supplier-invoices-multiple-inboxes-handling-cost/
+  - Late payments nobody follows up: The cost of slow collections | /impact/inconsistent-payment-follow-up-cash-flow-cost/
+  - Invoice approvals stuck in inboxes | /impact/pain-invoice-approvals-in-inboxes/
+  - Scattered supplier invoices create handling cost and payment uncertainty | /impact/supplier-invoices-multiple-inboxes-handling-cost/
 ---
 ## Late invoicing creates delay before the customer is even late
 
@@ -36,7 +36,7 @@ Businesses often focus on customers who pay after the due date. There is an earl
 
 If the commercial terms are 30 days but the invoice is issued 10 days late, the effective cash-conversion period has already stretched before the customer has missed anything. Payroll, suppliers and operating costs continue during that extra period.
 
-Payment terms usually run from the invoice, not from the work. UK government guidance on late commercial payments, for example, says that where no payment date is agreed, payment becomes late 30 days after the customer receives the invoice or the goods or service, whichever is later. Whatever the jurisdiction or contract, the practical effect is the same: the clock most customers watch does not start until your invoice arrives.
+Payment terms usually run from the invoice, not from the work. UK government guidance on [late commercial payments](https://www.gov.uk/late-commercial-payments-interest-debt-recovery), for example, says that where no payment date is agreed, payment becomes late 30 days after the customer receives the invoice or the goods or service, whichever is later. Whatever the jurisdiction or contract, the practical effect is the same: the clock most customers watch does not start until your invoice arrives.
 
 ## Why billing gets delayed
 

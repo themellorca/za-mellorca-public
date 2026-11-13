@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-072
 slug: free-tools-outgrown-hidden-limits-switching-cost-choosing-by-price
-title: The Free Tool That Became Expensive: Choosing Software on Price Alone
-description: Free and low-cost plans are a fair start, but their limits show up in staff time, rework and missing records. Learn how to tell when the cheap choice has stopped being cheap.
+title: The free tool that became expensive: Choosing software on price alone
+description: Free and low-cost plans are a fair start, but their limits show up in staff time, rework and missing records. Learn when cheap stops being cheap.
 lead: Free and low-cost plans are a fair start, but their limits show up in staff time, rework and missing records. Learn how to tell when the cheap choice has stopped being cheap.
 category: Digital Infrastructure
 published_date: 2026-10-10
@@ -18,9 +18,9 @@ sources:
   - How to download your Google data - Google Account Help | https://support.google.com/accounts/answer/3024190
   - Who makes an application to process Special Personal Information? | https://www.inforegulator.org.za/popia/
 related:
-  - Software That Grew by Accident: The Price of Complexity Nobody Designed | /impact/software-environment-grew-by-accident-complexity-duplication-lost-productivity-cost/
-  - Automatic Software Renewals: The Cost of Paying for Yesterday's Requirements | /impact/automatic-software-renewals-without-value-review-cost/
-  - Accepting Every Price Rise: How Unreviewed Renewals Compound Year After Year | /impact/vendor-price-increases-accepted-without-usage-review-compounding-renewal-cost/
+  - Software that grew by accident: The price of complexity nobody designed | /impact/software-environment-grew-by-accident-complexity-duplication-lost-productivity-cost/
+  - Automatic software renewals: The cost of paying for yesterday's requirements | /impact/automatic-software-renewals-without-value-review-cost/
+  - Accepting every price rise: How unreviewed renewals compound year after year | /impact/vendor-price-increases-accepted-without-usage-review-compounding-renewal-cost/
 summary: Free and low-cost plans are a fair start, but their limits show up in staff time, rework and missing records. Learn how to tell when the cheap choice has stopped being cheap.
 layout: plain
 ---
@@ -38,7 +38,7 @@ Limits on free plans are not secrets. They are documented, and they are designed
 
 - **History and retention.** Slack's help centre states that free workspaces are limited to the most recent 90 days of message and file history, and that data more than a year old is deleted. For a business that uses chat as a working record, that is a real operational constraint.
 - **Integrations.** The same page says free workspaces can have 10 third-party or custom app installations, and that adding a new one means removing an existing one. A business that wants its chat connected to accounting, forms and project tools hits the ceiling quickly.
-- **Administration.** Google's comparison of Essentials editions describes Essentials Starter as free for teams of up to 100 users, but lists fewer admin controls than the paid editions, including no creating or deleting user accounts, no custom admin roles and no shared drives.
+- **Administration.** Google's comparison of [Essentials editions](https://knowledge.workspace.google.com/admin/getting-started/editions/compare-essentials-editions) describes Essentials Starter as free for teams of up to 100 users, but lists fewer admin controls than the paid editions, including no creating or deleting user accounts, no custom admin roles and no shared drives.
 - **Storage and meetings.** The same comparison lists 15 GB of storage per user on Starter against 100 GB on the first paid edition, and no recording to Drive, dial-in or breakout rooms in Meet.
 
 None of these is a defect. They are the price of free. The cost arises when the business needs the missing capability and works around it instead of paying for it.

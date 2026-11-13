@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-499
 slug: signs-your-business-needs-an-operating-system-not-another-app
-title: The Signs That Your Business Needs an Operating System, Not Another App
-description: When new software keeps arriving but work still depends on meetings, spreadsheets, messages and people chasing status, the missing layer may be the operating model that connects everything.
+title: The signs that your business needs an operating system, not another app
+description: New software keeps arriving, yet work still depends on meetings, spreadsheets and chasing status. The missing layer may be an operating model.
 lead: When new software keeps arriving but work still depends on meetings, spreadsheets, messages and people chasing status, the missing layer may be the operating model that connects everything.
 category: Executive Operating Model, Decisions & Resilience
 published_date: 2026-09-01
@@ -26,6 +26,7 @@ commercial_value_dimensions: Execution speed, Capacity, Scalability, Margin, Str
 sources:
   - Microsoft 2026 Work Trend Index — Agents, human agency, and the opportunity for every organization | https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
   - Getting the scope of your transaction right | https://www.gov.uk/service-manual/design/scoping-your-service
+  - What are End-to-End Processes? - APQC | https://www.apqc.org/blog/what-are-end-end-processes
 related:
   - How to Decide What Technology Problem to Solve First | /insights/how-to-decide-what-technology-problem-to-solve-first/
   - Piling On More Software Is Not Digital Maturity | /insights/piling-on-more-software-is-not-digital-maturity/
@@ -50,7 +51,7 @@ The problem may not be a shortage of software. It may be the absence of a cohere
 
 Here "operating system" is not a software product. It is the designed combination of processes, ownership, systems of record, integrations, decision rights, controls, metrics and feedback loops through which the organisation actually operates.
 
-Microsoft's 2026 Work Trend Index argues that leaders need to rearchitect work, and reports that organisational factors such as culture, manager support and talent practices account for more of AI's impact than individual effort alone. The practical lesson for a mid-sized business is the same: stronger outcomes tend to follow redesigned workflows and operating models rather than simply added tools.
+Microsoft's 2026 [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization) argues that leaders need to rearchitect work, and reports that organisational factors such as culture, manager support and talent practices account for more of AI's impact than individual effort alone. The practical lesson for a mid-sized business is the same: stronger outcomes tend to follow redesigned workflows and operating models rather than simply added tools.
 
 ## Identification
 
@@ -61,6 +62,8 @@ This is an **end-to-end digital operating-model and orchestration problem**. Loc
 The pattern usually appears when technology decisions accumulate function by function. Each department solves its own problem, but nobody designs the full customer, employee, order, service or finance journey.
 
 The UK Government Digital Service makes a related point in its service design guidance: services should follow what the user is trying to achieve, and users should not have to understand the organisation's internal structure to get something done. The same applies inside a business. A customer order does not care that sales, operations and finance use different systems.
+
+APQC defines [end-to-end processes](https://www.apqc.org/blog/what-are-end-end-processes) as cross-functional processes covering all the steps needed to reach a specific outcome, and advises settling on a single owner for each one where possible.
 
 Typical structural gaps include unclear process ownership, multiple systems of record, undocumented handoffs, inconsistent definitions, hidden spreadsheets, weak integration, unclear decision rights and no shared operational telemetry.
 

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-279
 slug: why-a-process-that-works-for-20-customers-breaks-at-200
-title: Why a Process That Works for 20 Customers Breaks at 200
-description: A routine that felt effortless with twenty customers turns into missed follow-ups and late nights at two hundred. Here is what changes with volume and how to redesign before it breaks.
+title: Why a process that works for 20 customers breaks at 200
+description: A routine that felt effortless with twenty customers means missed follow-ups and late nights at two hundred. Redesign before it breaks.
 lead: A routine that felt effortless with twenty customers turns into missed follow-ups and late nights at two hundred. Here is what changes with volume and how to redesign before it breaks.
 category: Scalability, Growth & Capacity
 published_date: 2026-10-08
@@ -19,9 +19,10 @@ sources:
   - Overview of building a model-driven app with Power Apps - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/model-driven-app-overview
   - What is Microsoft Dataverse? - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
 related:
-  - When Customers Know Their Order Is Late Before Your Team Does | /patterns/when-customers-know-their-order-is-late-before-your-team-does/
-  - When Client Onboarding Becomes a Growth Constraint | /patterns/when-client-onboarding-becomes-a-growth-constraint/
-  - When Manual Exceptions Become the Normal Process | /patterns/when-manual-exceptions-become-the-normal-process/
+  - When customers know their order is late before your team does | /patterns/when-customers-know-their-order-is-late-before-your-team-does/
+  - When client onboarding becomes a growth constraint | /patterns/when-client-onboarding-becomes-a-growth-constraint/
+  - When manual exceptions become the normal process | /patterns/when-manual-exceptions-become-the-normal-process/
+  - Which processes usually break first during growth | /insights/which-business-processes-break-first-when-a-company-grows/
 summary: A routine that felt effortless with twenty customers turns into missed follow-ups and late nights at two hundred. Here is what changes with volume and how to redesign before it breaks.
 layout: plain
 ---
@@ -74,7 +75,7 @@ The second misdiagnosis is software: buy a customer management system and the pr
 
 In a better state, every request enters through one defined route and appears in a single queue. The routine cases follow a standard path with clear steps and owners, and only genuine exceptions need judgement. Status is recorded as the work moves, so anyone can see what is booked, what is late and what is waiting on whom. Invoices are raised from the completed job record, not retyped. Reminders and follow-ups are triggered automatically by dates and status changes.
 
-This is standard capability in modern business platforms. Microsoft describes cloud flows as automated workflows that connect apps and services, triggered by events such as the arrival of an email, and its approvals feature routes sign-off requests to the right person. Model-driven apps are described as especially well suited to process-driven work in which users move between related records, with relationships that avoid repeating data. None of this requires a large project, but it does require deciding how the work should flow before configuring anything.
+This is standard capability in modern business platforms. Microsoft describes [cloud flows as automated workflows that connect apps and services](https://learn.microsoft.com/en-us/power-automate/overview-cloud), triggered by events such as the arrival of an email, and its [approvals feature](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) routes sign-off requests to the right person. [Model-driven apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/model-driven-app-overview) are described as especially well suited to process-driven work in which users move between related records, with relationships that avoid repeating data. None of this requires a large project, but it does require deciding how the work should flow before configuring anything.
 
 For the refrigeration company, that would mean one booking form feeding one schedule, technicians updating job status on a phone, invoices created from completed jobs, and an automatic reminder to customers before their next service is due.
 

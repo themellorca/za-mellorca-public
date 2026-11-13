@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-009
 slug: what-to-fix-first-when-everything-feels-broken
-title: What to Fix First When Everything Feels Broken
-description: When systems, processes and data all seem to be failing at once, the instinct is to fix everything. A stabilise-first approach for the first month: protect what matters, stop the damage, then find the one constraint worth fixing.
+title: What to fix first when everything feels broken
+description: When systems, processes and data all seem to fail at once, do not fix everything. Stabilise first: protect what matters, stop damage, find the constraint.
 lead: When systems, processes and data all seem to be failing at once, the instinct is to fix everything. A stabilise-first approach for the first month: protect what matters, stop the damage, then find the one constraint worth fixing.
 category: Operations
 published_date: 2026-10-04
@@ -14,9 +14,9 @@ sources:
   - Google SRE - Troubleshooting Methodology: A Learning Path | https://sre.google/sre-book/effective-troubleshooting/
   - Five Focusing Steps, a Process of On-Going Improvement | https://www.tocinstitute.org/five-focusing-steps.html
 related:
-  - Poor Data Is an Operations Problem, Not Just a Data Problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
-  - Broken Handoffs Are Systems Problems | /insights/broken-handoffs-are-systems-problems/
-  - What Your Recurring Problems Are Telling You About Your Systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
+  - Poor data is an operations problem, not just a data problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
+  - Broken handoffs are systems problems | /insights/broken-handoffs-are-systems-problems/
+  - What your recurring problems are telling you about your systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
 summary: When systems, processes and data all seem to be failing at once, the instinct is to fix everything. A stabilise-first approach for the first month: protect what matters, stop the damage, then find the one constraint worth fixing.
 layout: plain
 ---
@@ -31,7 +31,7 @@ The natural response is to start fixing everything. That is usually the wrong mo
 
 In most cases, everything is not broken. A small number of failures are causing a large number of visible symptoms, and the stress of handling them all makes the whole operation feel fragile. One broken integration can produce late invoices, wrong stock figures, angry customers and a report that does not balance. Fixing those four symptoms separately is four projects. Fixing the integration may be one.
 
-Google's Site Reliability Engineering guidance on troubleshooting warns against exactly this kind of confusion: chasing symptoms that are not relevant, mistaking correlation for causation, and latching on to the cause of a past problem because it happened before. Those warnings apply as much to a business under pressure as to a failing software service.
+Google's Site Reliability Engineering [guidance on troubleshooting](https://sre.google/sre-book/effective-troubleshooting/) warns against exactly this kind of confusion: chasing symptoms that are not relevant, mistaking correlation for causation, and latching on to the cause of a past problem because it happened before. Those warnings apply as much to a business under pressure as to a failing software service.
 
 ## Step 1: Freeze non-essential change
 
@@ -50,7 +50,7 @@ Anything that threatens these is handled first. Everything else, however irritat
 
 ## Step 3: Stop the bleeding before finding the cause
 
-Google's incident guidance summarises the order of work as stopping the bleeding, restoring service and preserving the evidence for finding the root cause. Its troubleshooting guidance makes the same point another way: the first aim is to make the system work as well as it can under the circumstances, because nobody is helped if the system collapses while people investigate.
+Google's [incident guidance](https://sre.google/sre-book/managing-incidents/) summarises the order of work as stopping the bleeding, restoring service and preserving the evidence for finding the root cause. Its troubleshooting guidance makes the same point another way: the first aim is to make the system work as well as it can under the circumstances, because nobody is helped if the system collapses while people investigate.
 
 In a business, stopping the bleeding means temporary measures that contain damage: issuing invoices manually while the integration is down, phoning the ten largest customers to reset expectations, running a manual backup today. These are not solutions. They are holding actions that buy time to diagnose properly. Record each one, because temporary workarounds have a habit of becoming permanent.
 
@@ -64,11 +64,13 @@ Agree, too, who speaks to whom. Staff need a short daily update on what is being
 
 ## Step 5: Find the one constraint behind the most damage
 
-Once things are stable, look for the failure that sits behind the most symptoms or the most serious damage. The Theory of Constraints Institute's first focusing step is simply to identify the constraint, on the basis that strengthening any link of a chain apart from the weakest is wasted effort. Fix that first, properly. Then review the list again: some problems will have disappeared, and the next most important one will be clearer.
+Once things are stable, look for the failure that sits behind the most symptoms or the most serious damage. The Theory of Constraints Institute's [first focusing step](https://www.tocinstitute.org/five-focusing-steps.html) is simply to identify the constraint, on the basis that strengthening any link of a chain apart from the weakest is wasted effort. Fix that first, properly. Then review the list again: some problems will have disappeared, and the next most important one will be clearer.
 
 ## An illustrative example
 
-The following is a hypothetical case. A Cape Town wholesale business with 50 staff reaches a point where the owner describes the whole operation as "falling apart". The list compiled in step 4 has 23 items. Grouping them by suspected cause shows that nine trace back to a product data import that failed after a supplier changed its file format, six trace back to one administrator's resignation and the undocumented tasks she used to perform, and the rest are long-standing irritations. The business contains the damage with manual price checks for a week, fixes the import, and documents the administrator's tasks with her replacement. Within a month, the list is down to the long-standing irritations, which can now be prioritised calmly.
+The following is a hypothetical case. A Cape Town wholesale business with 50 staff reaches a point where the owner describes the whole operation as "falling apart". The list compiled in step 4 has 23 items. Grouping them by suspected cause shows that nine trace back to a product data import that failed after a supplier changed its file format, six trace back to one administrator's resignation and the undocumented tasks she used to perform, and the rest are long-standing irritations.
+
+The business contains the damage with manual price checks for a week, fixes the import, and documents the administrator's tasks with her replacement. Within a month, the list is down to the long-standing irritations, which can now be prioritised calmly.
 
 ## A simple first-month plan
 

@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-296
 slug: integration-costs-hidden-inside-application-projects
 title: Why integration costs stay hidden inside application projects
-description: Integration work is usually budgeted as a line inside each new application project, so its real build and running cost is never seen. How that distorts decisions, and how to make it visible.
+description: Integration work is budgeted inside each application project, so its real cost is never seen. How that distorts decisions and how to make it visible.
 lead: Integration work is usually budgeted as a line inside each new application project, so its real build and running cost is never seen. How that distorts decisions, and how to make it visible.
 category: Integration & API Operations
 published_date: 2026-10-03
@@ -17,7 +17,7 @@ sources:
   - Architecture strategies for collecting and reviewing cost data - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/collect-review-cost-data
   - Allocation FinOps Framework Capability | https://www.finops.org/framework/capabilities/allocation/
 related:
-  - Why Undocumented Interface Mappings Make Integration Change Risky | /discovery/why-undocumented-interface-mappings-make-change-risky/
+  - Why undocumented interface mappings make integration change risky | /discovery/why-undocumented-interface-mappings-make-change-risky/
   - Why batch integrations leave your systems hours out of date | /discovery/batch-integrations-leave-systems-hours-out-of-date/
   - API credentials are shared across unrelated integrations | /discovery/api-credentials-shared-across-unrelated-integrations/
 summary: Integration work is usually budgeted as a line inside each new application project, so its real build and running cost is never seen. How that distorts decisions, and how to make it visible.
@@ -33,7 +33,7 @@ Integration is the work of making systems exchange data reliably: building conne
 
 The visible symptom is projects that overrun on "integration" again and again, and an IT team that seems permanently busy without anyone being able to say why. The hidden symptom is that leaders make application decisions without knowing what each new system will cost to connect and keep connected.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 Finance and IT leaders tend to ask questions like: why do our software projects always cost more than planned, what does it really cost to run our integrations, and should we invest in an integration platform. Underneath is a need to see integration as a cost and a capability in its own right, so that it can be planned, funded and improved rather than rediscovered on every project.
 

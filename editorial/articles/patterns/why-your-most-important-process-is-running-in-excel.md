@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-251
 slug: why-your-most-important-process-is-running-in-excel
-title: Why Is Your Most Important Process Running in Excel?
-description: When a spreadsheet becomes the place where critical work is routed, approved, reconciled or controlled, the issue may be less about Excel and more about the missing workflow around it.
+title: Why is your most important process running in Excel?
+description: When a spreadsheet is where critical work is routed, approved and controlled, the issue is less Excel than the missing workflow around it.
 lead: When a spreadsheet becomes the place where critical work is routed, approved, reconciled or controlled, the issue may be less about Excel and more about the missing workflow around it.
 category: Spreadsheet Dependency & Shadow Operations
 published_date: 2026-09-02
@@ -30,6 +30,7 @@ related:
   - How to Decide Which Software to Remove | /insights/how-to-decide-which-software-to-remove/
   - How to Decide What Should Be the System of Record | /insights/how-to-decide-what-should-be-the-system-of-record/
   - What Process Mining Can Reveal That Workshops Cannot | /insights/what-process-mining-can-reveal-that-workshops-cannot/
+  - Why spreadsheet flexibility eventually becomes operational fragility | /patterns/why-the-flexibility-that-made-a-spreadsheet-useful-makes-it-risky-later/
 related_position: before_sources
 summary: When a spreadsheet becomes the operational control layer for a critical process, the real issue may be missing workflow architecture rather than the spreadsheet itself. That can create continuity, accuracy and scale constraints. If this condition is familiar in your business, explore Mellorca's solutions or start a conversation with us. We can examine what the workbook is really doing and whether the surrounding process needs a more deliberate digital foundation.
 ---
@@ -63,7 +64,9 @@ Collaboration features solve the problem of people editing at the same time. The
 
 ### A useful test from government practice
 
-HM Treasury's [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government), the UK government's guidance on producing quality analysis, offers a helpful frame. It describes "business critical analysis" as analysis with significant influence over finance or operations, or where an error could have significant reputational, economic or legal implications. It recommends that quality assurance be proportionate to the risk of the intended use, and distinguishes verification, checking that analysis is error-free and meets its specification, from validation, checking that it is fit for the purpose it is being used for. The book grew out of an earlier HM Treasury [review of quality assurance of government models](https://www.gov.uk/government/publications/review-of-quality-assurance-of-government-models). A business does not need government-scale process to borrow the idea: once a workbook is business critical, it deserves deliberate assurance, documentation and ownership.
+HM Treasury's [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government), the UK government's guidance on producing quality analysis, offers a helpful frame. It describes "business critical analysis" as analysis with significant influence over finance or operations, or where an error could have significant reputational, economic or legal implications.
+
+It recommends that quality assurance be proportionate to the risk of the intended use, and distinguishes verification, checking that analysis is error-free and meets its specification, from validation, checking that it is fit for the purpose it is being used for. The book grew out of an earlier HM Treasury [review of quality assurance of government models](https://www.gov.uk/government/publications/review-of-quality-assurance-of-government-models). A business does not need government-scale process to borrow the idea: once a workbook is business critical, it deserves deliberate assurance, documentation and ownership.
 
 ## Identification
 

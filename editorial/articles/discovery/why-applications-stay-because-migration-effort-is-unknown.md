@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-347
 slug: why-applications-stay-because-migration-effort-is-unknown
 title: Applications are retained because migration effort is unknown
-description: Duplicate and ageing applications survive renewal after renewal because no one has estimated the cost of moving. How to size migration effort cheaply and make keep-or-retire decisions on purpose.
+description: Duplicate and ageing applications survive renewal after renewal because nobody has costed a move. How to size migration cheaply and decide keep or retire.
 lead: Duplicate and ageing applications survive renewal after renewal because no one has estimated the cost of moving. How to size migration effort cheaply and make keep-or-retire decisions on purpose.
 category: SaaS & Application Portfolio Management
 published_date: 2026-10-08
@@ -18,8 +18,8 @@ sources:
   - Plan your migration - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/plan-migration
 related:
   - Paying for unused software features because contracts are bundled | /discovery/why-bundled-software-contracts-hide-unused-features/
-  - Why Application Risk Assessments Cannot Be One-Time Reviews | /discovery/why-application-risk-assessments-cannot-be-one-time/
-  - Why Software Renewals Need a Confirmed Business Owner | /discovery/why-software-renewals-need-a-confirmed-business-owner/
+  - Why application risk assessments cannot be one-time reviews | /discovery/why-application-risk-assessments-cannot-be-one-time/
+  - Why software renewals need a confirmed business owner | /discovery/why-software-renewals-need-a-confirmed-business-owner/
 summary: Duplicate and ageing applications survive renewal after renewal because no one has estimated the cost of moving. How to size migration effort cheaply and make keep-or-retire decisions on purpose.
 layout: plain
 ---
@@ -31,9 +31,9 @@ This article looks at that operating condition: applications that stay in servic
 
 An application that cannot be retired without risk gets kept. That is rational when the risk is real, but in most businesses the risk is simply unmeasured. Nobody has written down what data the application holds, what other systems feed it or read from it, which processes depend on it, who uses it and what a switch-over would involve. Without those facts, "migration" is an unlimited and frightening task, so the application is renewed year after year. The decision to keep it is never actually made. It is made by default.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Operations directors, IT managers and finance leads search for ways to consolidate applications, cut software spend and integrate acquired businesses. They want a defensible answer to a plain question: which of these systems can go, in what order, and at what cost? The shared need is an estimate they can trust, built cheaply enough that it can be done for many applications rather than one.
+Operations directors, IT managers and finance leads want to consolidate applications, cut software spend and integrate acquired businesses. They want a defensible answer to a plain question: which of these systems can go, in what order, and at what cost? The shared need is an estimate they can trust, built cheaply enough that it can be done for many applications rather than one.
 
 ## Evidence and system mechanism
 

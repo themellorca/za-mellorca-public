@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-032
 slug: when-two-tools-are-doing-the-job-of-one
-title: When Two Tools Are Doing the Job of One
-description: Two tools that look like they overlap are not always redundant, and two that look different sometimes are. How to test whether a pair of applications is really doing one job, when keeping both is justified, how to choose which one stays and how to retire the other cleanly.
+title: When two tools are doing the job of one
+description: Two tools that look alike are not always redundant, and two that look different sometimes are. How to test for one job and choose which stays.
 lead: Two tools that look like they overlap are not always redundant, and two that look different sometimes are. How to test whether a pair of applications is really doing one job, when keeping both is justified, how to choose which one stays and how to retire the other cleanly.
 category: Systems & Strategy
 published_date: 2026-10-05
@@ -14,9 +14,9 @@ sources:
   - Discover and manage Shadow IT - Microsoft Defender for Cloud Apps | https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-shadow-it
   - Shadow IT guidance | https://www.ncsc.gov.uk/guidance/shadow-it
 related:
-  - Why Switching Software Is Not Always the Answer | /insights/why-switching-software-is-not-always-the-answer/
-  - When a Spreadsheet Is a Useful Tool—and When It Becomes Infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
-  - How to Decide Which Software to Keep | /insights/how-to-decide-which-software-to-keep/
+  - Why switching software is not always the answer | /insights/why-switching-software-is-not-always-the-answer/
+  - When a spreadsheet is a useful tool—and when it becomes infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
+  - How to decide which software to keep | /insights/how-to-decide-which-software-to-keep/
 summary: Two tools that look like they overlap are not always redundant, and two that look different sometimes are. How to test whether a pair of applications is really doing one job, when keeping both is justified, how to choose which one stays and how to retire the other cleanly.
 layout: plain
 ---

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-104
 slug: how-to-find-rework-inside-a-business-process
-title: How to Find Rework Inside a Business Process
-description: Rework hides inside normal-looking activity as corrections, repetition and work sent backwards. Four ways to find it with evidence, price it, and trace it to a cause worth fixing.
+title: How to find rework inside a business process
+description: Rework hides inside normal-looking work as corrections, repetition and work sent backwards. Four ways to find it, price it and trace its cause.
 lead: Rework hides inside normal-looking activity as corrections, repetition and work sent backwards. Four ways to find it with evidence, price it, and trace it to a cause worth fixing.
 category: Process Analysis
 published_date: 2026-10-08
@@ -44,7 +44,7 @@ Rework concentrates at a few predictable places. Handoffs between teams are the 
 
 ## Method 1: follow a sample of real items end to end
 
-Pick ten recent jobs, orders or cases and trace each from start to finish, noting every time it moved backwards, was edited after being marked complete, or waited for a missing piece of information. This is the practical core of what lean practice calls a value stream map: recording not only the steps but the waiting and the loops between them. Ten items is enough to see patterns. A walkthrough of the technique is given in [how to map a business workflow without making it complicated](/insights/how-to-map-a-business-workflow-without-making-it-complicated/).
+Pick ten recent jobs, orders or cases and trace each from start to finish, noting every time it moved backwards, was edited after being marked complete, or waited for a missing piece of information. This is the practical core of what lean practice calls a [value stream](https://www.lean.org/lexicon-terms/value-stream-mapping/) map: recording not only the steps but the waiting and the loops between them. Ten items is enough to see patterns. A walkthrough of the technique is given in [how to map a business workflow without making it complicated](/insights/how-to-map-a-business-workflow-without-making-it-complicated/).
 
 The key discipline is to use real items, not the process as described. The written procedure shows the intended path. The sample shows the actual one, which is the theme of [why the official process is often not the real process](/insights/why-the-official-process-is-often-not-the-real-process/).
 
@@ -58,7 +58,7 @@ Many systems leave traces of rework without anyone intending it. Look for:
 - tickets reopened after closure;
 - email subject lines containing "corrected", "updated" or "please resend".
 
-Where event data exists, process mining tools can reconstruct the paths automatically and show loops. Microsoft's documentation on process mining in Power Automate describes this approach of using system event logs to visualise how a process actually runs, and IBM's overview explains how it exposes deviations and bottlenecks. For small businesses, a manual count from a month of credit notes is often enough to start. The wider case is made in [what process mining can reveal that workshops cannot](/insights/what-process-mining-can-reveal-that-workshops-cannot/).
+Where event data exists, [process mining](https://www.ibm.com/think/topics/process-mining) tools can reconstruct the paths automatically and show loops. Microsoft's documentation on [process mining in Power Automate](https://learn.microsoft.com/en-us/power-automate/process-mining-overview) describes this approach of using system event logs to visualise how a process actually runs, and IBM's overview explains how it exposes deviations and bottlenecks. For small businesses, a manual count from a month of credit notes is often enough to start. The wider case is made in [what process mining can reveal that workshops cannot](/insights/what-process-mining-can-reveal-that-workshops-cannot/).
 
 ## Method 3: ask the people who receive the work
 

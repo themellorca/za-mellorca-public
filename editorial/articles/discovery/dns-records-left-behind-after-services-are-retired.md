@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-309
 slug: dns-records-left-behind-after-services-are-retired
 title: Why old DNS records pile up after services are retired, and why it matters
-description: When a website, app or cloud service is switched off, its DNS records often stay behind. Those leftovers can be taken over by attackers. How to keep DNS in step with the services you actually run.
+description: Leftover DNS records from retired services can be taken over by attackers. How to keep DNS in step with the services you actually run.
 lead: When a website, app or cloud service is switched off, its DNS records often stay behind. Those leftovers can be taken over by attackers. How to keep DNS in step with the services you actually run.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-06
@@ -37,9 +37,9 @@ DNS is the system that turns names such as shop.example.co.za into the address o
 - no step in project closure or supplier exit that removes DNS records;
 - nobody able to say who requested a given record or why.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for how to clean up DNS records, what a dangling DNS record is, how to prevent subdomain takeover, or which DNS records are safe to delete. IT managers want a tidy, understood zone. Security teams want to close an obvious gap. The underlying need is a process that keeps DNS in step with the services the business actually runs, with an owner for each record.
+The questions usually sound like how to clean up DNS records, what a dangling DNS record is, how to prevent subdomain takeover, or which DNS records are safe to delete. IT managers want a tidy, understood zone. Security teams want to close an obvious gap. The underlying need is a process that keeps DNS in step with the services the business actually runs, with an owner for each record.
 
 ## Evidence and system mechanism
 

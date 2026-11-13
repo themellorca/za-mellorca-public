@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-377
 slug: former-employees-still-active-systems-incomplete-offboarding-cost
-title: Gone but Still Logged In: The Cost of Incomplete Employee Offboarding
-description: When people leave but their accounts, licences and shared passwords stay active, the business pays for seats nobody uses and carries security and privacy exposure it cannot see.
+title: Gone but still logged in: The cost of incomplete employee offboarding
+description: When people leave but their accounts, licences and shared passwords stay active, you pay for unused seats and carry security and privacy exposure.
 lead: When people leave but their accounts, licences and shared passwords stay active, the business pays for seats nobody uses and carries security and privacy exposure it cannot see.
 category: Security and Access
 published_date: 2026-10-08
@@ -15,11 +15,11 @@ primary_cost_mechanism: Wasted licences, data and fraud exposure, incident respo
 sources:
   - Remove a former employee - Overview - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee
   - least privilege - Glossary - CSRC | https://csrc.nist.gov/glossary/term/least_privilege
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
 related:
-  - Not Knowing Who Still Has Access to Your Systems | /impact/uncontrolled-system-access-financial-risk/
-  - Important Accounts Without MFA: The Cost of Preventable Takeover | /impact/accounts-without-mfa-financial-risk/
-  - Leads Nobody Has Touched: The Revenue Cost of Invisible Follow-Up Failure | /impact/untouched-leads-invisible-follow-up-failure-revenue-cost/
+  - Not knowing who still has access to your systems | /impact/uncontrolled-system-access-financial-risk/
+  - Important accounts without MFA: The cost of preventable takeover | /impact/accounts-without-mfa-financial-risk/
+  - Leads nobody has touched: The revenue cost of invisible follow-up failure | /impact/untouched-leads-invisible-follow-up-failure-revenue-cost/
 summary: When people leave but their accounts, licences and shared passwords stay active, the business pays for seats nobody uses and carries security and privacy exposure it cannot see.
 layout: plain
 ---

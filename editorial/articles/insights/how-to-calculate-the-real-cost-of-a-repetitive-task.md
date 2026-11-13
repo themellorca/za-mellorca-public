@@ -3,7 +3,7 @@ hub: insights
 record_id: INS-132
 slug: how-to-calculate-the-real-cost-of-a-repetitive-task
 title: How to calculate the real cost of a repetitive task
-description: How to calculate the real operating cost of repetitive manual work using frequency, handling time, coordination, errors, delay, supervision and opportunity cost.
+description: How to work out the real cost of repetitive manual work, counting frequency, handling time, coordination, errors, delay, supervision and opportunity cost.
 lead: Manual work costs more than the minutes spent clicking. A useful baseline includes frequency, handling time, waiting, correction, supervision, interruption and the business capacity displaced by the task.
 category: Digital Operations
 published_date: 2026-09-05
@@ -20,6 +20,7 @@ side_title: Topics
 sources:
   - https://ics.uci.edu/~gmark/chi08-mark.pdf | https://ics.uci.edu/~gmark/chi08-mark.pdf
   - https://assets.publishing.service.gov.uk/media/698dbcd17da91680ad7f4308/The_Green_Book_2026.pdf | https://assets.publishing.service.gov.uk/media/698dbcd17da91680ad7f4308/The_Green_Book_2026.pdf
+  - Muda, Mura, Muri - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/muda/
 closing_title: Related Mellorca services
 closing_text: [Digital Systems Audit](/services/digital-systems-audit/) can quantify recurring operating friction, while [Business Automation & AI Workflows](/services/business-automation-ai-workflows/) can evaluate whether automation produces a credible lifecycle return.
 related:
@@ -41,7 +42,7 @@ It also tends to grow quietly. A task that was tolerable at fifty occurrences a 
 
 ## Calculate direct handling first
 
-Start with frequency multiplied by average handling time. If a task takes eight minutes and occurs 300 times a month, the operation consumes 40 hours before any error, waiting or management overhead is counted.
+Start with frequency multiplied by average handling time. If a task takes eight minutes and occurs 300 times a month, the operation consumes 40 hours before any error, waiting or management overhead is counted. Lean Enterprise Institute defines [muda](https://www.lean.org/lexicon-terms/muda/) as any activity that consumes resources without creating value for the customer, which is a useful test for each step in a repetitive task.
 
 Use realistic observations rather than the fastest possible completion time. Include the time required to open systems, find context, switch between tools and confirm completion. Where possible, take frequency from system evidence such as ticket counts, record creation logs, email volumes or export histories rather than from memory, and sample handling time across several people and several days.
 

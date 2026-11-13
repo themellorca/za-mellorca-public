@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-461
 slug: why-ai-tools-fail-without-authoritative-data
-title: Why AI Tools Fail Without Authoritative Data
+title: Why AI tools fail without authoritative data
 description: AI tools cannot reliably complete business tasks when they cannot access the authoritative data the work depends on.
 lead: An AI assistant may sound capable while still lacking the system-of-record access needed to perform trustworthy work.
 category: AI, Automation & Agent Operations
@@ -17,10 +17,11 @@ cta_href: /services/business-automation/
 sources:
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
   - Design and Develop a RAG Solution on Azure - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/rag/rag-solution-design-and-evaluation-guide
+  - What is RAG (Retrieval-Augmented Generation)? - Amazon Web Services | https://aws.amazon.com/what-is/retrieval-augmented-generation/
 related:
   - AI-generated decisions cannot be traced to source data | /discovery/ai-generated-decisions-cannot-be-traced-to-source-data/
-  - Why Automations Should Not Run on Personal Credentials | /discovery/why-automations-should-not-run-on-personal-credentials/
-  - Why Bots Fail When Upstream Data Formats Change | /discovery/why-bots-fail-when-upstream-data-formats-change/
+  - Why automations should not run on personal credentials | /discovery/why-automations-should-not-run-on-personal-credentials/
+  - Why bots fail when upstream data formats change | /discovery/why-bots-fail-when-upstream-data-formats-change/
 ---
 Many AI tools perform well in a demonstration and disappoint in daily operations. The model is rarely the main reason. The tool can talk fluently about the business in general, but it cannot see the specific, current and trusted facts that a real task depends on.
 
@@ -30,9 +31,9 @@ The AI can answer generic questions but cannot reliably resolve a customer issue
 
 Staff soon learn to check everything the tool says. At that point the AI is adding a step rather than removing one.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer needs governed access to trustworthy business data, with clear ownership, permissions, freshness and traceability. The searches tend to sound like “AI gives wrong answers about our data”, “connect AI to ERP or CRM”, “retrieval-augmented generation for business data”, “AI assistant hallucinating customer details” or “single source of truth for AI”.
+You need governed access to trustworthy business data, with clear ownership, permissions, freshness and traceability. The complaints tend to sound like “AI gives wrong answers about our data”, “connect AI to ERP or CRM”, “retrieval-augmented generation for business data”, “AI assistant hallucinating customer details” or “single source of truth for AI”.
 
 What they want is not a better prompt. They want the AI to work from the same authoritative records a careful employee would use, and to show where an answer came from.
 
@@ -40,7 +41,9 @@ What they want is not a better prompt. They want the AI to work from the same au
 
 NIST's [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), released in January 2023 as a voluntary framework, organises AI risk work around four functions: Govern, Map, Measure and Manage. Its purpose is to build trustworthiness into the design, development, use and evaluation of AI systems, and NIST has since published a Generative AI Profile addressing risks specific to generative systems. The framework treats trustworthiness as something designed in from the start, which includes knowing what data a system relies on and governing it.
 
-Retrieval and tool-use architectures make the dependency concrete. Microsoft's [RAG solution design guide](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/rag/rag-solution-design-and-evaluation-guide) describes a data pipeline in which documents are brought in, split into chunks, enriched with metadata, embedded and stored in a search index, and an orchestrator that retrieves the top results and passes them to the model as context. The guide starts by defining the business requirements and evaluates answers against measures such as groundedness and completeness. It also describes agentic patterns where retrieval becomes a tool the agent calls when it needs it.
+Retrieval and tool-use architectures make the dependency concrete. Microsoft's [RAG solution design guide](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/rag/rag-solution-design-and-evaluation-guide) describes a data pipeline in which documents are brought in, split into chunks, enriched with metadata, embedded and stored in a search index, and an orchestrator that retrieves the top results and passes them to the model as context. The guide starts by defining the business requirements and evaluates answers against measures such as groundedness and completeness.
+
+It also describes agentic patterns where retrieval becomes a tool the agent calls when it needs it. Amazon Web Services' explanation of [retrieval-augmented generation](https://aws.amazon.com/what-is/retrieval-augmented-generation/) makes the same point from the other side: language models can present false information when they lack the answer or draw on non-authoritative sources, and consulting trusted, predefined sources before responding gives organisations more control and lets users see how an answer was produced.
 
 The implication is straightforward. Retrieval and tool use only improve outcomes when the underlying sources are authoritative and access-controlled. If the index holds an outdated copy, or the tool reads from a system that is not the system of record, the model will be confidently grounded in the wrong facts.
 

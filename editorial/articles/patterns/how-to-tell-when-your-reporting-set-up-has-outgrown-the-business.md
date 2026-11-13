@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-075
 slug: how-to-tell-when-your-reporting-set-up-has-outgrown-the-business
-title: The Signs That Your Reporting Model Has Become a Bottleneck
-description: A single report builder is efficient until the questions multiply. Here are the signs that the way reports are owned and changed has become the limit, and the structure that relieves it.
+title: The signs that your reporting model has become a bottleneck
+description: A single report builder works until the questions multiply. The signs that how reports are owned and changed is the limit, and the structure that helps.
 lead: A single report builder is efficient until the questions multiply. Here are the signs that the way reports are owned and changed has become the limit, and the structure that relieves it.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-10
@@ -18,9 +18,9 @@ sources:
   - Endorse your content - Power BI | https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content
   - What is Data Governance? - IBM | https://www.ibm.com/think/topics/data-governance
 related:
-  - When Duplicate Records Become an Operational Issue | /patterns/when-duplicate-records-start-causing-operational-problems/
-  - When Every Department Reports the Same Metric Differently | /patterns/when-every-department-reports-the-same-metric-differently/
-  - Why Your Business Has Data but No Single View of Operations | /patterns/why-a-business-with-plenty-of-data-still-has-no-single-view-of-operations/
+  - When duplicate records become an operational issue | /patterns/when-duplicate-records-start-causing-operational-problems/
+  - When every department reports the same metric differently | /patterns/when-every-department-reports-the-same-metric-differently/
+  - Why your business has data but no single view of operations | /patterns/why-a-business-with-plenty-of-data-still-has-no-single-view-of-operations/
 summary: A single report builder is efficient until the questions multiply. Here are the signs that the way reports are owned and changed has become the limit, and the structure that relieves it.
 layout: plain
 ---
@@ -49,7 +49,7 @@ The visible symptom is a backlog and a proliferation of unofficial reports. The 
 Look for the following signs. Having three or four of them is a strong indication.
 
 - **A request backlog with no visible priority.** Items remain open for weeks, and nobody can say which will be done next or why.
-- **Shadow reports.** Managers maintain private versions of figures that the official report is supposed to supply. Microsoft's adoption guidance draws a useful line here: governed business-led self-service, where a business unit has the authority and support to build its own content, is not the same as unsanctioned workarounds built to get around a team that cannot keep pace.
+- **Shadow reports.** Managers maintain private versions of figures that the official report is supposed to supply. [Microsoft's adoption guidance](https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-content-ownership-and-management) draws a useful line here: governed business-led self-service, where a business unit has the authority and support to build its own content, is not the same as unsanctioned workarounds built to get around a team that cannot keep pace.
 - **Every change needs the same person.** Adding a field, a filter or a period requires reopening a file only one person understands.
 - **The monthly cycle has crowded out everything else.** The reporting person spends most of each month producing the standard pack and has little time left for improvements.
 - **New questions arrive from new places.** Marketing, operations, HR and branch managers now want figures, not just finance.
@@ -58,7 +58,7 @@ Look for the following signs. Having three or four of them is a strong indicatio
 
 Microsoft describes three broad ways of owning and managing reporting content: business-led self-service, in which each business unit owns and manages everything; managed self-service, in which a central team owns the data while business users build their own reports on it; and enterprise, in which a central team owns everything. Each suits different conditions. The enterprise model suits sensitive or tightly regulated data and well-defined needs. It struggles when the volume and variety of requests grow beyond what the central team can handle. The guidance explicitly recommends considering a managed self-service approach where the central team has scheduling and priority challenges.
 
-The guidance also stresses role clarity: who defines what the data means, who maintains it technically, and who makes decisions about its appropriate use. Where those roles are unnamed, requests default to whoever is nearest.
+The guidance also stresses role clarity: who defines what the data means, who maintains it technically, and who makes decisions about its appropriate use. Where those roles are unnamed, requests default to whoever is nearest. The [IBM overview of data governance](https://www.ibm.com/think/topics/data-governance) describes the same idea more broadly: policies and standards for how data is collected, owned, stored, processed and used.
 
 ## Commercial impact
 
@@ -76,7 +76,7 @@ A third is to expect the next system to solve it. A new tool changes how reports
 
 ## Possibility
 
-In a better arrangement, the core data is prepared once, by a small central function that is responsible for its quality and definitions. Business users build and adjust their own views on top of it, within clear guardrails. The central function concentrates on what only it can do: connecting sources, keeping the data reliable and maintaining the small set of reports that the whole business depends on. Content that has been checked is marked as such, in the way that Microsoft's endorsement feature distinguishes promoted content that someone finds useful from certified content that meets an organisation's quality standards.
+In a better arrangement, the core data is prepared once, by a small central function that is responsible for its quality and definitions. Business users build and adjust their own views on top of it, within clear guardrails. The central function concentrates on what only it can do: connecting sources, keeping the data reliable and maintaining the small set of reports that the whole business depends on. Content that has been checked is marked as such, in the way that [Microsoft's endorsement feature](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content) distinguishes promoted content that someone finds useful from certified content that meets an organisation's quality standards.
 
 For the equipment dealer, branch managers would add warranty claims to their own views from shared data, and the analyst would be freed to improve data quality and reconcile the branches rather than act as a switchboard.
 

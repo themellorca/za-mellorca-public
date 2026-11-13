@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000058
 slug: why-self-service-can-feel-like-respect
-title: Why Self-Service Can Feel Like Respect
-description: Self-service is usually sold as a cost saving. Done well it also gives customers and staff something quieter: the ability to get an answer or make a change without asking permission or waiting for someone else.
+title: Why self-service can feel like respect
+description: Self-service is usually sold as a cost saving. Done well, it also lets customers and staff get an answer or make a change without asking or waiting.
 lead: Self-service is usually sold as a cost saving. Done well it also gives customers and staff something quieter: the ability to get an answer or make a change without asking permission or waiting for someone else.
 category: Human Agency
 published_date: 2026-10-08
@@ -20,9 +20,10 @@ sources:
   - Microsoft Bookings | https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
 related:
-  - When Access Controls Feel Like Distrust | /moments/when-access-controls-feel-like-distrust/
-  - Why Clear Ownership Gives People Room to Decide | /moments/why-clear-ownership-gives-people-room-to-decide/
-  - When Your Workday Is Scripted by Other People's Deadlines | /moments/when-your-workday-is-scripted-by-other-peoples-deadlines/
+  - When access controls feel like distrust | /moments/when-access-controls-feel-like-distrust/
+  - Why clear ownership gives people room to decide | /moments/why-clear-ownership-gives-people-room-to-decide/
+  - When your workday is scripted by other people's deadlines | /moments/when-your-workday-is-scripted-by-other-peoples-deadlines/
+  - Why people need to be able to undo mistakes | /moments/why-people-need-to-be-able-to-undo-mistakes/
 summary: Self-service is usually sold as a cost saving. Done well it also gives customers and staff something quieter: the ability to get an answer or make a change without asking permission or waiting for someone else.
 layout: plain
 ---
@@ -44,7 +45,7 @@ The same portal can be either, depending on how it is built and what happens whe
 
 The human agency theme in this series is about people having a say in how, when and by what route their affairs get handled. Self-service touches it directly.
 
-Usability research has long treated user control as a basic design principle. The Nielsen Norman Group's usability heuristics include the idea that people need a clearly marked way out of an unwanted state, and that systems should keep people informed about what is happening. Those principles were written about interface design, but they explain why the same service can feel respectful or patronising. When the person can see where they are, undo a mistake and reach a human if needed, they are being treated as a competent adult.
+Usability research has long treated [user control](https://www.nngroup.com/articles/user-control-and-freedom/) as a basic design principle. The Nielsen Norman Group's usability heuristics include the idea that people need a clearly marked way out of an unwanted state, and that systems should keep people informed about what is happening. Those principles were written about interface design, but they explain why the same service can feel respectful or patronising. When the person can see where they are, undo a mistake and reach a human if needed, they are being treated as a competent adult.
 
 The UK Government's service manual makes a related point in its guidance on user needs: services should be built around what people are trying to do, rather than around the organisation's internal structure. A person trying to update a bank account for their salary is not interested in which department owns the change.
 
@@ -72,7 +73,7 @@ This links to [when digital-only leaves some customers behind](/moments/when-dig
 - **It shows status.** A customer who can see that a request is received, in progress or complete does not need to ask. The Government Digital Service guidance on user needs and the NN/g heuristics both stress visibility of what is happening.
 - **It lets people correct mistakes.** Undo, edit and cancel options signal trust. Their absence signals the opposite.
 - **It leaves a human route.** A visible way to reach a person, with a reasonable expectation of reply, turns self-service from a wall into a shortcut.
-- **It protects the person's information.** POPIA's section on security measures requires responsible parties to protect the integrity and confidentiality of personal information. Self-service that is easy but insecure is not respectful. Proper sign-in, and limiting each person to their own records, matters.
+- **It protects the person's information.** POPIA's section on security measures requires responsible parties to protect the [integrity and confidentiality of personal information](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/). Self-service that is easy but insecure is not respectful. Proper sign-in, and limiting each person to their own records, matters.
 
 ## Where to start in a small business
 

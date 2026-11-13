@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-041
 slug: manual-customer-progress-updates-status-message-labour-cost
-title: "Just Checking on My Order": The Labour Cost of Manual Progress Updates
+title: "Just checking on my order": The labour cost of manual progress updates
 description: Staff who look up and send routine order or service progress updates by hand spend paid hours repeating the same messages, and customers still end up asking.
 lead: Staff who look up and send routine order or service progress updates by hand spend paid hours repeating the same messages, and customers still end up asking.
 category: Customer Service
@@ -17,9 +17,10 @@ sources:
   - Utility templates - Meta for Developers | https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates/utility-templates/
   - Send documents and emails - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/ui-how-send-documents-email
 related:
-  - Creating the Same Documents by Hand: The Labour Cost of Repeat Paperwork | /impact/same-documents-created-by-hand-repeat-paperwork-cost/
-  - Predictable Appointments Still Carry a Cost When Staff Arrange Every Slot | /impact/manual-appointment-scheduling-administration-cost/
-  - Rebuilding the Same Report Every Month: The Labour Cost of Manual Reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
+  - Creating the same documents by hand: The labour cost of repeat paperwork | /impact/same-documents-created-by-hand-repeat-paperwork-cost/
+  - Predictable appointments still carry a cost when staff arrange every slot | /impact/manual-appointment-scheduling-administration-cost/
+  - Rebuilding the same report every month: The labour cost of manual reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
+  - Customers who cannot see where their request stands keep phoning to ask | /impact/customers-do-not-know-request-status-inbound-follow-up-and-lost-trust-cost/
 summary: Staff who look up and send routine order or service progress updates by hand spend paid hours repeating the same messages, and customers still end up asking.
 layout: plain
 ---
@@ -91,7 +92,11 @@ Inconsistent updates make service quality depend on who is on duty. Customers co
 
 The better state has two parts. First, the status of each job is recorded in one place at the moment it changes, by the person doing the work, using a short fixed list of stages. Second, a change of stage triggers a standard message to the customer automatically, with a person stepping in only for delays and exceptions.
 
-The tools for the second part are widely available. Microsoft's Power Automate documentation, for example, describes a trigger that runs a flow when a row in a table is added or changed, and allows the flow to be limited to changes in specific columns, such as a status field. The same documentation warns that several updates to one row can trigger several runs, even when the values are unchanged, which is exactly the kind of detail that produces duplicate customer messages if nobody tests it. Meta's WhatsApp Business documentation describes utility message templates as messages typically sent in response to a user action or request, such as an order confirmation or update, and says that a utility template containing marketing material will be re-categorised as marketing. Status messages should therefore stay strictly about the customer's job. Business systems can carry documents too: Microsoft's Business Central documentation describes emailing documents such as orders as PDF attachments with reusable email text, and retrying messages queued in the background when a send fails.
+The tools for the second part are widely available. Microsoft's [Power Automate documentation](https://learn.microsoft.com/en-us/power-automate/dataverse/create-update-delete-trigger), for example, describes a trigger that runs a flow when a row in a table is added or changed, and allows the flow to be limited to changes in specific columns, such as a status field. The same documentation warns that several updates to one row can trigger several runs, even when the values are unchanged, which is exactly the kind of detail that produces duplicate customer messages if nobody tests it.
+
+On the message side, Meta describes [WhatsApp utility templates](https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates/utility-templates/) as messages a business sends in response to a customer's action, such as an order status update, and [Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-how-send-documents-email) can email documents such as orders and invoices directly from the app. Meta's WhatsApp Business documentation describes utility message templates as messages typically sent in response to a user action or request, such as an order confirmation or update, and says that a utility template containing marketing material will be re-categorised as marketing.
+
+Status messages should therefore stay strictly about the customer's job. Business systems can carry documents too: Microsoft's Business Central documentation describes emailing documents such as orders as PDF attachments with reusable email text, and retrying messages queued in the background when a send fails.
 
 Proactive updates also reduce the reactive load, a point developed in [why proactive communication can remove entire support workloads](/patterns/why-proactive-communication-can-remove-entire-support-workloads/).
 

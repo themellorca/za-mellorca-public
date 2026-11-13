@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-302
 slug: unassigned-sales-enquiries-leads-going-cold
-title: Unassigned Enquiries: Why Leads Go Cold Before Anyone Owns Them
-description: An enquiry that nobody owns is an enquiry nobody works. Clear assignment rules, fallback owners and a watched unassigned queue stop paid-for leads cooling in the gap.
+title: Unassigned enquiries: Why leads go cold before anyone owns them
+description: An enquiry nobody owns is an enquiry nobody works. Clear assignment rules, fallback owners and a watched unassigned queue stop paid-for leads going cold.
 lead: An enquiry that nobody owns is an enquiry nobody works. Clear assignment rules, fallback owners and a watched unassigned queue stop paid-for leads cooling in the gap.
 category: Sales Operations
 published_date: 2026-10-03
@@ -15,10 +15,12 @@ primary_cost_mechanism: Revenue loss from cooled leads, wasted acquisition spend
 sources:
   - Create and activate assignment rules | https://learn.microsoft.com/en-us/dynamics365/sales/wa-create-and-activate-assignment-rule
   - Assign and rotate record owners using workflows | https://knowledge.hubspot.com/workflows/assign-and-rotate-record-owners-using-workflows
+  - The Short Life of Online Sales Leads - Harvard Business Review | https://hbr.org/2011/03/the-short-life-of-online-sales-leads
 related:
-  - When Nobody Owns the Business Software You Pay For | /impact/pain-unclear-ownership-technology-spending/
-  - When Nobody Can Trace Where a Reported Number Came From | /impact/untraceable-reporting-number-audit-cost/
-  - Scattered Supplier Invoices Create Handling Cost and Payment Uncertainty | /impact/supplier-invoices-multiple-inboxes-handling-cost/
+  - When nobody owns the business software you pay for | /impact/pain-unclear-ownership-technology-spending/
+  - When nobody can trace where a reported number came from | /impact/untraceable-reporting-number-audit-cost/
+  - Scattered supplier invoices create handling cost and payment uncertainty | /impact/supplier-invoices-multiple-inboxes-handling-cost/
+  - When lead routing depends on someone checking an inbox | /patterns/when-lead-routing-depends-on-someone-checking-an-inbox/
 summary: An enquiry that nobody owns is an enquiry nobody works. Clear assignment rules, fallback owners and a watched unassigned queue stop paid-for leads cooling in the gap.
 layout: plain
 ---
@@ -28,7 +30,7 @@ A new enquiry arrives. It might be a website form, a call to reception, a messag
 
 Most of the time, someone fills that gap. The office manager forwards it. A sales manager glances at the inbox between meetings and allocates leads in a batch. The salesperson who happens to see it first claims it. The process works well enough that nobody questions it, which is exactly why the leads that fall through are never counted.
 
-A separate Mellorca article, [the revenue cost of slow sales lead response](/impact/slow-sales-lead-response-revenue-cost/), looks at measuring response time and its link to conversion. This article looks at one specific cause of slow response: the absence of immediate, reliable *ownership*.
+A separate Mellorca article, [the revenue cost of slow sales lead response](/impact/slow-sales-lead-response-revenue-cost/), looks at measuring response time and its link to conversion. This article looks at one specific cause of slow response: the absence of immediate, reliable *ownership*. Harvard Business Review's [research on online sales leads](https://hbr.org/2011/03/the-short-life-of-online-sales-leads) found that most companies are not responding nearly fast enough to online enquiries.
 
 ## Why manual assignment persists
 

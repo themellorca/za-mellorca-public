@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-103
 slug: why-the-official-process-is-often-not-the-real-process
-title: Why the Official Process Is Often Not the Real Process
-description: Every business has two versions of its processes: the one written down and the one people actually follow. The gap is rarely laziness. It is usually a sign that the written process does not fit real conditions. Why the gap forms, why it matters, and how to close it without blame.
+title: Why the official process is often not the real process
+description: The written process and the one people follow rarely match, and laziness is seldom the cause. Why the gap forms and how to close it without blame.
 lead: Every business has two versions of its processes: the one written down and the one people actually follow. The gap is rarely laziness. It is usually a sign that the written process does not fit real conditions. Why the gap forms, why it matters, and how to close it without blame.
 category: Operations
 published_date: 2026-10-06
@@ -14,9 +14,9 @@ sources:
   - What is Process Mining? - IBM | https://www.ibm.com/think/topics/process-mining
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
 related:
-  - Why Repeated Workarounds Are a Warning Sign | /insights/why-repeated-workarounds-are-a-warning-sign/
-  - How to Map a Business Workflow Without Making It Complicated | /insights/how-to-map-a-business-workflow-without-making-it-complicated/
-  - What to Fix First When Everything Feels Broken | /insights/what-to-fix-first-when-everything-feels-broken/
+  - Why repeated workarounds are a warning sign | /insights/why-repeated-workarounds-are-a-warning-sign/
+  - How to map a business workflow without making it complicated | /insights/how-to-map-a-business-workflow-without-making-it-complicated/
+  - What to fix first when everything feels broken | /insights/what-to-fix-first-when-everything-feels-broken/
 summary: Every business has two versions of its processes: the one written down and the one people actually follow. The gap is rarely laziness. It is usually a sign that the written process does not fit real conditions. Why the gap forms, why it matters, and how to close it without blame.
 layout: plain
 ---

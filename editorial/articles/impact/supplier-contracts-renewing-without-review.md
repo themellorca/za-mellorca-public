@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-452
 slug: supplier-contracts-renewing-without-review
-title: When Supplier Contracts Renew Without Review
+title: When supplier contracts renew without review
 description: Automatic supplier renewals can preserve unused services, weak terms and avoidable spend when review starts too late.
 lead: A renewal date is a commercial decision point. When it arrives before usage, performance, price and alternatives have been reviewed, the default becomes continued spend rather than an informed choice.
 category: Vendor Management
@@ -18,10 +18,11 @@ side_title: Cost mechanisms
 sources:
   - The Sourcing Playbook (HTML) | https://www.gov.uk/government/publications/the-sourcing-and-consultancy-playbooks/the-sourcing-playbook-html
   - Government Functional Standard - GovS 008: Commercial (HTML) | https://www.gov.uk/government/publications/government-functional-standard-govs-008-commercial-and-commercial-continuous-improvement-assessment-framework/government-functional-standard-govs-008-commercial-html
+  - Procurement Guidance Note PGN 01/12 Contract Management Principles and Procedures - Department of Finance (Northern Ireland) | https://www.finance-ni.gov.uk/sites/default/files/publications/dfp/PGN%2001%2012%20%20Contract%20Management%20Principles%20and%20Procedures%20%5Bpdf%20version%5D.PDF
 related:
-  - AI Tool Sprawl: Paying for Overlapping AI Subscriptions Without Measuring Value | /impact/ai-subscription-sprawl-unmeasured-value-cost/
-  - Paying the Same Supplier Invoice Twice: The Direct Cost of Weak Controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
-  - Paying for Cloud Resources Nobody Uses | /impact/unused-cloud-resources-financial-waste/
+  - AI tool sprawl: Paying for overlapping AI subscriptions without measuring value | /impact/ai-subscription-sprawl-unmeasured-value-cost/
+  - Paying the same supplier invoice twice: The direct cost of weak controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
+  - Paying for cloud resources nobody uses | /impact/unused-cloud-resources-financial-waste/
 ---
 ## The tolerated pain
 
@@ -33,7 +34,9 @@ The pain is tolerated because renewal is convenient. The service keeps running, 
 
 Ownership is usually split. The business unit uses the service, finance pays the invoice, IT supports the integration and the signed contract sits with whoever negotiated it, sometimes someone who has since left. Notice periods of 30, 60 or 90 days fall before the renewal date, so a review that begins in the renewal month is already too late. Automatic escalation clauses can raise the price without any new negotiation.
 
-Public-sector guidance is useful here because it was written for organisations that must justify spend. The UK government's Sourcing Playbook, updated in 2026, tells contracting authorities to plan early for what happens at the end of a contract, notes that the market may have changed enough to alter the basis of earlier decisions, and stresses that preparing for exit takes time. The Government Functional Standard GovS 008 expects supplier performance to be monitored against contractual obligations and key performance indicators, and treats contract transition and exit as a planned stage of the commercial life cycle. Private businesses face no such obligation, but the logic transfers directly.
+Public-sector guidance is useful here because it was written for organisations that must justify spend. The UK government's [Sourcing Playbook](https://www.gov.uk/government/publications/the-sourcing-and-consultancy-playbooks/the-sourcing-playbook-html), updated in 2026, tells contracting authorities to plan early for what happens at the end of a contract, notes that the market may have changed enough to alter the basis of earlier decisions, and stresses that preparing for exit takes time.
+
+The [Government Functional Standard](https://www.gov.uk/government/publications/government-functional-standard-govs-008-commercial-and-commercial-continuous-improvement-assessment-framework/government-functional-standard-govs-008-commercial-html) GovS 008 expects supplier performance to be monitored against contractual obligations and key performance indicators, and treats contract transition and exit as a planned stage of the commercial life cycle. Private businesses face no such obligation, but the logic transfers directly. Northern Ireland's [contract management guidance](https://www.finance-ni.gov.uk/sites/default/files/publications/dfp/PGN%2001%2012%20%20Contract%20Management%20Principles%20and%20Procedures%20%5Bpdf%20version%5D.PDF) likewise ties supplier performance management to the decision on whether an optional extension represents value for money.
 
 ## Operational consequence
 

@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-330
 slug: support-teams-answering-same-questions-daily-undocumented-knowledge-labour-cost
-title: Answering the Same Customer Questions Daily: The Labour Cost of Hidden Knowledge
-description: When the answers to common customer questions live in agents' heads instead of a findable knowledge base, support teams spend paid hours repeating replies and interrupting senior staff.
+title: Answering the same customer questions daily: The labour cost of hidden knowledge
+description: When answers to common customer questions live in agents' heads, not a findable knowledge base, support teams spend paid hours repeating replies.
 lead: When the answers to common customer questions live in agents' heads instead of a findable knowledge base, support teams spend paid hours repeating replies and interrupting senior staff.
 category: Customer Operations
 published_date: 2026-10-09
@@ -17,9 +17,9 @@ sources:
   - Knowledge Management in ITSM: Process & Benefits - Atlassian | https://www.atlassian.com/itsm/knowledge-management
   - What is KCS and Why Does it Matter? - Atlassian - Atlassian | https://www.atlassian.com/itsm/knowledge-management/kcs
 related:
-  - "Just Checking on My Order": The Labour Cost of Manual Progress Updates | /impact/manual-customer-progress-updates-status-message-labour-cost/
-  - Fixing Avoidable Mistakes Instead of Serving Customers: The Cost of Rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
-  - Onboarding New Customers by Email: The Labour and Revenue Cost of a Slow Start | /impact/manual-customer-onboarding-email-checklists-revenue-delay-cost/
+  - "Just checking on my order": The labour cost of manual progress updates | /impact/manual-customer-progress-updates-status-message-labour-cost/
+  - Fixing avoidable mistakes instead of serving customers: The cost of rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
+  - Onboarding new customers by email: The labour and revenue cost of a slow start | /impact/manual-customer-onboarding-email-checklists-revenue-delay-cost/
 summary: When the answers to common customer questions live in agents' heads instead of a findable knowledge base, support teams spend paid hours repeating replies and interrupting senior staff.
 layout: plain
 ---

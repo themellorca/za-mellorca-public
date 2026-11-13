@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-278
 slug: why-failed-integration-messages-sit-unnoticed
-title: Why Failed Integration Messages Sit in Queues Until a User Notices Missing Data
+title: Why failed integration messages sit in queues until a user notices missing data
 description: Failed asynchronous messages can remain stranded until a user notices missing data if queues are not monitored, owned and recoverable.
 lead: A queue can protect systems from transient failure and still become a blind spot when nobody owns failed messages, alarms or safe replay.
 category: Integration & API Operations
@@ -40,11 +40,11 @@ From the outside, the situation looks like an ordinary data problem. A customer 
 
 Nothing was lost in the strict technical sense. The platform did what it was designed to do: it set the failed message aside so that it would not block everything else. What failed was the step after that. Nobody was told, nobody was responsible for looking, and nobody had a tested way to put the transaction back on its path.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The buyer needs failed integration work to become an owned operational exception, not a technically preserved message that sits outside normal business visibility.
 
-The search language around this problem is usually practical: “messages stuck in dead-letter queue”, “how to monitor failed integration messages”, “integration errors not detected until users complain”, “replay failed messages safely” or “why is data missing between our systems”. The organisation has invested in decoupled, resilient integration, but has not yet built the operating layer that turns a parked failure into a visible, owned and recoverable piece of work.
+The complaints around this problem are usually practical: “messages are stuck in the dead-letter queue”, “how do we monitor failed integration messages?”, “integration errors are not detected until users complain”, “how do we replay failed messages safely?” or “why is data missing between our systems?” The organisation has invested in decoupled, resilient integration, but has not yet built the operating layer that turns a parked failure into a visible, owned and recoverable piece of work.
 
 The commercial signal is strongest where users, rather than monitoring, are the usual source of failure reports, and where recovery depends on a small number of people who know which queues to inspect.
 
@@ -56,7 +56,7 @@ The detail matters. In SQS, a redrive policy sets a *maxReceiveCount*: the numbe
 
 AWS also notes that, for standard queues, a message's expiry is based on its original enqueue time and that this timestamp does not change when the message moves to the dead-letter queue. Its stated best practice is to give the dead-letter queue a longer retention period than the source queue. In other words, an unwatched failure queue is not necessarily a permanent archive: depending on configuration, failed messages can age out before anyone has looked at them.
 
-Microsoft's Azure Service Bus documentation describes the opposite risk. Its dead-letter queue holds messages that cannot be delivered or processed, and Microsoft states that there is no automatic clean-up: messages remain until they are explicitly retrieved and completed. Service Bus records a dead-letter reason, such as a message exceeding its maximum delivery count (ten by default) or expiring, and supports resubmitting messages once the underlying issue is resolved. Here the failure is retained indefinitely, but retention is still not the same as response.
+Microsoft's Azure [Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dead-letter-queues) documentation describes the opposite risk. Its dead-letter queue holds messages that cannot be delivered or processed, and Microsoft states that there is no automatic clean-up: messages remain until they are explicitly retrieved and completed. Service Bus records a dead-letter reason, such as a message exceeding its maximum delivery count (ten by default) or expiring, and supports resubmitting messages once the underlying issue is resolved. Here the failure is retained indefinitely, but retention is still not the same as response.
 
 Queues separate producers and consumers. That improves resilience, but it also means business failure can become asynchronous and invisible unless monitoring, ownership and redrive procedures are designed deliberately. The two platforms behave differently, yet they point to the same conclusion: the messaging layer can preserve and label a failure, but it cannot decide who acts, how quickly, or how the business transaction is completed.
 

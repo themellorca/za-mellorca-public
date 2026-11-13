@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-082
 slug: why-orders-must-carry-the-price-and-terms-of-the-accepted-quote
 title: Orders are created with values that differ from the accepted quote
-description: When order entry starts afresh instead of carrying the accepted quote forward, prices, discounts and fees drift. How to measure the gap and make the quote the source of the order.
+description: When order entry starts afresh instead of carrying the accepted quote forward, prices, discounts and fees drift. How to measure the gap and fix the source.
 lead: When order entry starts afresh instead of carrying the accepted quote forward, prices, discounts and fees drift. How to measure the gap and make the quote the source of the order.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-09
@@ -31,7 +31,7 @@ This article looks at that operating condition: orders created with values that 
 
 A quote is a commercial promise. When the customer accepts it, the price, quantity, discount, delivery terms and validity are fixed. If the order is created by re-typing those values, or by pulling current prices from a catalogue instead of copying the quote, the order may quietly contain something else. Nobody intended the difference. It comes from re-keying, price list changes, rounding, missing lines or a negotiated term that never made it into a field. The difference is found later, usually by finance or the customer, when it is expensive to fix.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The sales director or financial director wants every order to match what was agreed, without checking each one by hand. They want disputes to fall, margins to be protected, and the invoice to match the quote unless someone has deliberately approved a change. Order administrators want a process in which the accepted quote is the starting point, so they are not blamed for errors the process allowed.
 

@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-253
 slug: unowned-small-automations-support-failure-cost
-title: Dozens of Small Automations, No Owner: The Support and Failure Cost
-description: Small low-code automations save time until their builders move on. Without an inventory and named owners, failures become investigations and the savings leak away.
+title: Dozens of small automations, no owner: The support and failure cost
+description: Small low-code automations save time until their builders move on. Without an inventory and named owners, failures become investigations and savings leak.
 lead: Small low-code automations save time until their builders move on. Without an inventory and named owners, failures become investigations and the savings leak away.
 category: Business Automation
 published_date: 2026-10-07
@@ -17,9 +17,10 @@ sources:
   - Manage orphaned flows when owner leaves organization - Power Automate | https://learn.microsoft.com/en-us/troubleshoot/power-platform/power-automate/flow-management/manage-orphan-flow-when-owner-leaves-org
   - Use core components - Power Platform | https://learn.microsoft.com/en-us/power-platform/guidance/coe/core-components
 related:
-  - Approving Every Small Transaction: The Management Cost of Unnecessary Sign-Offs | /impact/approving-low-risk-transactions-one-by-one-management-cost/
-  - Expiry Dates in a Spreadsheet: The Cost of Acting Too Late on Renewals | /impact/manual-deadline-renewal-monitoring-late-action-cost/
-  - Typing Certificates and Confirmation Letters One by One: The Labour Cost | /impact/certificates-confirmations-standard-letters-typed-by-hand-cost/
+  - Approving every small transaction: The management cost of unnecessary sign-offs | /impact/approving-low-risk-transactions-one-by-one-management-cost/
+  - Expiry dates in a spreadsheet: The cost of acting too late on renewals | /impact/manual-deadline-renewal-monitoring-late-action-cost/
+  - Typing certificates and confirmation letters one by one: The labour cost | /impact/certificates-confirmations-standard-letters-typed-by-hand-cost/
+  - Critical workflows depend on low-code apps built by departed staff | /discovery/critical-workflows-run-on-low-code-apps-built-by-leavers/
 summary: Small low-code automations save time until their builders move on. Without an inventory and named owners, failures become investigations and the savings leak away.
 layout: plain
 ---

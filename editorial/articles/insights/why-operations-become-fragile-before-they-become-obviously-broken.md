@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-022
 slug: why-operations-become-fragile-before-they-become-obviously-broken
-title: Why Operations Become Fragile Before They Become Obviously Broken
-description: Operations rarely fail suddenly. They lose their slack first: buffers shrink, workarounds pile up and more of the work depends on a few people and files. How fragility builds quietly, the early signs to watch for and how to restore margin before something breaks.
+title: Why operations become fragile before they become obviously broken
+description: Operations rarely fail suddenly. They lose slack first, as buffers shrink and workarounds pile up. Early signs and how to restore margin before a break.
 lead: Operations rarely fail suddenly. They lose their slack first: buffers shrink, workarounds pile up and more of the work depends on a few people and files. How fragility builds quietly, the early signs to watch for and how to restore margin before something breaks.
 category: Digital Operations
 published_date: 2026-10-04
@@ -15,8 +15,8 @@ sources:
   - What Is Business Continuity? - IBM | https://www.ibm.com/think/topics/business-continuity
 related:
   - Why customer onboarding breaks as the business grows | /insights/why-customer-onboarding-breaks-as-the-business-grows/
-  - Why Growth Exposes Problems That Were Already There | /insights/why-growth-exposes-problems-that-were-already-there/
-  - Seven Signs Your Digital Systems Are Slowing the Business Down | /insights/seven-signs-your-digital-systems-are-slowing-the-business-down/
+  - Why growth exposes problems that were already there | /insights/why-growth-exposes-problems-that-were-already-there/
+  - Seven signs your digital systems are slowing the business down | /insights/seven-signs-your-digital-systems-are-slowing-the-business-down/
 summary: Operations rarely fail suddenly. They lose their slack first: buffers shrink, workarounds pile up and more of the work depends on a few people and files. How fragility builds quietly, the early signs to watch for and how to restore margin before something breaks.
 layout: plain
 ---

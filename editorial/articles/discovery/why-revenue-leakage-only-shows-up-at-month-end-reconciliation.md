@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-098
 slug: why-revenue-leakage-only-shows-up-at-month-end-reconciliation
 title: Why revenue leakage only shows up at month-end reconciliation
-description: When unbilled work, wrong prices and missed charges surface only at month-end, much of the money is hard to recover. How to check billing completeness daily instead.
+description: When unbilled work, wrong prices and missed charges surface only at month-end, much of the money is hard to recover. How to check billing daily.
 lead: When unbilled work, wrong prices and missed charges surface only at month-end, much of the money is hard to recover. How to check billing completeness daily instead.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-04
@@ -21,6 +21,7 @@ related:
   - Why every upsell means rebuilding the customer's deal from scratch | /discovery/why-every-upsell-means-rebuilding-the-customers-deal-from-scratch/
   - Why recurring billing is still set up by hand after a deal closes | /discovery/why-recurring-billing-is-set-up-by-hand-after-a-deal-closes/
   - Why credit checks happen after sales has already promised delivery | /discovery/why-credit-checks-happen-after-sales-has-promised-delivery/
+  - One-off implementation fees are forgotten during billing setup | /discovery/why-one-off-implementation-fees-never-reach-the-first-invoice/
 summary: When unbilled work, wrong prices and missed charges surface only at month-end, much of the money is hard to recover. How to check billing completeness daily instead.
 layout: plain
 ---
@@ -32,9 +33,9 @@ This article looks at that operating condition: revenue leakage that is found on
 
 Revenue leakage is work done, goods delivered or services provided that are not billed, or are billed at less than agreed. Most businesses have some way of catching it, and that way is usually a month-end reconciliation. The difficulty is timing. By the time the reconciliation runs, the leak may be four or five weeks old, the context has gone, and the correction competes with closing the books. Leakage that is found late is harder to recover, and leakage that is not looked for at all is never found.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Finance managers search for ways to find unbilled revenue, stop missed invoices, or automate billing reconciliation. Operations managers want to know that everything they deliver is billed. The underlying need is to move the check from a monthly event to a routine that runs as transactions happen, so that each gap is caught within a day or two, while it is still easy to fix.
+Finance managers want to find unbilled revenue, stop missed invoices and automate billing reconciliation. Operations managers want to know that everything they deliver is billed. The underlying need is to move the check from a monthly event to a routine that runs as transactions happen, so that each gap is caught within a day or two, while it is still easy to fix.
 
 ## Evidence and system mechanism
 

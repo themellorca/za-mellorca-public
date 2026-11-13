@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-105
 slug: when-lead-routing-depends-on-someone-checking-an-inbox
-title: When Lead Routing Depends on Someone Checking an Inbox
-description: When every new enquiry waits in a shared mailbox until someone reads it and decides who should handle it, the speed and fairness of lead distribution depend on one person's attention. Written routing rules remove that dependency.
+title: When lead routing depends on someone checking an inbox
+description: When every enquiry waits in a shared mailbox for someone to route it, lead speed and fairness depend on one person. Written routing rules remove that.
 lead: When every new enquiry waits in a shared mailbox until someone reads it and decides who should handle it, the speed and fairness of lead distribution depend on one person's attention. Written routing rules remove that dependency.
 category: Sales, Leads & Revenue Handoffs
 published_date: 2026-10-06
@@ -18,9 +18,10 @@ sources:
   - About shared mailboxes in Microsoft 365 - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/email/about-shared-mailboxes
   - What Is Workflow Automation? - IBM | https://www.ibm.com/think/topics/workflow-automation
 related:
-  - The Cost of Delayed Handoffs After a Deal Is Won | /patterns/the-cost-of-delayed-handoffs-after-a-deal-is-won/
-  - Why Salespeople Spend Time Updating Systems Instead of Selling | /patterns/why-salespeople-spend-time-updating-systems-instead-of-selling/
-  - When the Next Step Waits for Someone to Check Another System | /patterns/when-the-next-step-waits-for-someone-to-check-another-system/
+  - The cost of delayed handoffs after a deal is won | /patterns/the-cost-of-delayed-handoffs-after-a-deal-is-won/
+  - Why salespeople spend time updating systems instead of selling | /patterns/why-salespeople-spend-time-updating-systems-instead-of-selling/
+  - When the next step waits for someone to check another system | /patterns/when-the-next-step-waits-for-someone-to-check-another-system/
+  - Forms that email instead of update: The cost of slow replies and lost enquiries | /impact/website-forms-emailing-instead-of-updating-systems-response-cost/
 summary: When every new enquiry waits in a shared mailbox until someone reads it and decides who should handle it, the speed and fairness of lead distribution depend on one person's attention. Written routing rules remove that dependency.
 layout: plain
 ---
@@ -38,7 +39,7 @@ The business has a lead routing system. It simply is not written down, and it ru
 
 This matters because the first hours after an enquiry are usually when a prospect is most engaged and most likely to be comparing suppliers. An enquiry that waits in an unread mailbox overnight is not neutral; it is losing value while it waits. And because the wait happens before the lead is assigned to anyone, no salesperson is accountable for it, and no report shows it.
 
-Shared mailboxes are designed for addresses that several people need to use, such as information or support addresses. They are good at receiving mail. They are not designed to decide who should own each message, enforce response times or show a manager which enquiries are still unclaimed.
+[Shared mailboxes](https://learn.microsoft.com/en-us/microsoft-365/admin/email/about-shared-mailboxes) are designed for addresses that several people need to use, such as information or support addresses. They are good at receiving mail. They are not designed to decide who should own each message, enforce response times or show a manager which enquiries are still unclaimed.
 
 **Realisation prompt:** if your sales inbox was not opened for a full working day, would anyone notice before a customer complained?
 
@@ -71,7 +72,9 @@ The second is to buy a CRM and assume routing comes with it. Most CRMs can assig
 
 ## Possibility
 
-In a better state, every enquiry creates a record the moment it arrives, whether from a website form, an email address or a listing site. Written assignment rules allocate it immediately, by region, product or customer type, with rotation where several people cover the same segment. If the assigned person is on leave, the rule skips to their cover. If the enquiry is not acknowledged within an agreed time, it escalates to the sales manager. Sales platforms describe this as combining segments that group incoming records, sequences that set out the next steps, and assignment rules that allocate records to sellers automatically. Simpler workflow tools can achieve the same basics in a smaller business. The receptionist or administrator handles only the enquiries the rules cannot classify.
+In a better state, every enquiry creates a record the moment it arrives, whether from a website form, an email address or a listing site. Written assignment rules allocate it immediately, by region, product or customer type, with rotation where several people cover the same segment. If the assigned person is on leave, the rule skips to their cover.
+
+If the enquiry is not acknowledged within an agreed time, it escalates to the sales manager. Sales platforms describe this as combining segments that group incoming records, sequences that set out the next steps, and assignment rules that allocate records to sellers automatically. Simpler workflow tools can achieve the same basics in a smaller business. The receptionist or administrator handles only the enquiries the rules cannot classify.
 
 For the solar installer, that might mean separate website forms for residential and commercial work, each creating a lead assigned automatically, with a reminder after two working hours and escalation after four.
 

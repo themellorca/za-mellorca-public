@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000462
 slug: when-craft-businesses-spend-more-time-on-software-than-craft
-title: When Craft Businesses Spend More Time on Software Than Craft
-description: A baker, a furniture maker or a jeweller starts a business to make things well, then finds the week fills up with invoices, quotes and system upkeep. Why that happens and what to change.
+title: When craft businesses spend more time on software than craft
+description: A baker, furniture maker or jeweller starts out to make things well, then the week fills with invoices, quotes and system upkeep. Why, and what to change.
 lead: A baker, a furniture maker or a jeweller starts a business to make things well, then finds the week fills up with invoices, quotes and system upkeep. Why that happens and what to change.
 category: Meaning and Identity
 published_date: 2026-10-09
@@ -20,9 +20,9 @@ sources:
   - Small Businesses - Taxpayers - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/
   - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
 related:
-  - When Training Is Forgotten Because the System Changed Again | /moments/when-training-is-forgotten-because-the-system-changed-again/
-  - The Founder Who Wants to Step Back but Can't | /moments/the-founder-who-wants-to-step-back-but-cant/
-  - The Team That Only Talks When Something Breaks | /moments/the-team-that-only-talks-when-something-breaks/
+  - When training is forgotten because the system changed again | /moments/when-training-is-forgotten-because-the-system-changed-again/
+  - The founder who wants to step back but can't | /moments/the-founder-who-wants-to-step-back-but-cant/
+  - The team that only talks when something breaks | /moments/the-team-that-only-talks-when-something-breaks/
 summary: A baker, a furniture maker or a jeweller starts a business to make things well, then finds the week fills up with invoices, quotes and system upkeep. Why that happens and what to change.
 layout: plain
 ---

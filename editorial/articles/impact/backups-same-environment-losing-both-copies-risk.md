@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-153
 slug: backups-same-environment-losing-both-copies-risk
-title: Backups in the Same Place as the Data: The Risk of Losing Both
+title: Backups in the same place as the data: The risk of losing both
 description: Backups on the same network, server, account or cloud tenant can be lost with the original. Why separation matters and how to cost the difference.
 lead: Backups on the same network, server, account or cloud tenant can be lost with the original. Why separation matters and how to cost the difference.
 category: Business Continuity
@@ -15,10 +15,12 @@ primary_cost_mechanism: Extended downtime, reconstruction labour and permanent d
 sources:
   - Offline backups in an online world | https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world
   - Shared responsibility in the cloud - Microsoft Azure | https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility
+  - Ransomware Guide - Cybersecurity and Infrastructure Security Agency (CISA) | https://www.cisa.gov/stopransomware/ransomware-guide
 related:
-  - Important Accounts Without MFA: The Cost of Preventable Takeover | /impact/accounts-without-mfa-financial-risk/
-  - Backing Up Data but Not the Systems That Use It | /impact/pain-backing-up-data-without-systems/
-  - When Cloud Spend Has No Business Owner | /impact/cloud-costs-without-business-owner-allocation/
+  - Important accounts without MFA: The cost of preventable takeover | /impact/accounts-without-mfa-financial-risk/
+  - Backing up data but not the systems that use it | /impact/pain-backing-up-data-without-systems/
+  - When cloud spend has no business owner | /impact/cloud-costs-without-business-owner-allocation/
+  - The cloud is not a backup: Finding data protection gaps before you lose data | /impact/assuming-cloud-applications-back-up-all-business-data-backup-gaps-recovery-cost/
 summary: Backups on the same network, server, account or cloud tenant can be lost with the original. Why separation matters and how to cost the difference.
 layout: plain
 ---
@@ -40,11 +42,11 @@ Mellorca has written about [backups nobody has tested](/impact/backups-never-tes
 
 ### The cloud does not remove this responsibility
 
-Microsoft's shared responsibility guidance is explicit that for every deployment type, including software as a service, the customer retains responsibility for its data, its accounts and identities, and access management. The provider secures the physical infrastructure and platform. Deciding how data is protected against deletion, compromise of the customer's own accounts or misconfiguration remains with the business. A copy kept in the same tenant, under the same administrator accounts, is still in the same environment.
+Microsoft's [shared responsibility](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility) guidance is explicit that for every deployment type, including software as a service, the customer retains responsibility for its data, its accounts and identities, and access management. The provider secures the physical infrastructure and platform. Deciding how data is protected against deletion, compromise of the customer's own accounts or misconfiguration remains with the business. A copy kept in the same tenant, under the same administrator accounts, is still in the same environment.
 
 ## Operational consequence
 
-The UK National Cyber Security Centre reports incidents in which ransomware encrypted not only the original data but also connected backup storage, including cloud locations. CISA's ransomware guidance makes the same observation: many ransomware variants attempt to find and then delete or encrypt accessible backups. That is why both agencies emphasise copies that are offline, or otherwise separated, when not in use.
+The UK National Cyber Security Centre reports incidents in which ransomware encrypted not only the original data but also connected backup storage, including cloud locations. CISA's [ransomware guidance](https://www.cisa.gov/stopransomware/ransomware-guide) makes the same observation: many ransomware variants attempt to find and then delete or encrypt accessible backups. That is why both agencies emphasise copies that are offline, or otherwise separated, when not in use.
 
 When the backup is lost along with the original, the business faces a different kind of outage:
 
@@ -85,7 +87,7 @@ Hourly operational exposure is the business's own idle payroll plus genuinely lo
 
 ## What better looks like
 
-The NCSC summarises the principle as the 3-2-1 approach: at least three copies, on two different devices, with one off-site. It adds that offline backups should be digitally disconnected when not in use, which for cloud storage means separate credentials, limiting which devices can reach the backup and denying connections when the backup is not in use.
+The NCSC summarises the principle as the 3-2-1 approach: at least three copies, on two different devices, with one off-site. It adds that [offline backups](https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world) should be digitally disconnected when not in use, which for cloud storage means separate credentials, limiting which devices can reach the backup and denying connections when the backup is not in use.
 
 CISA recommends offline, encrypted backups of critical data and regular testing of their availability and integrity. It notes that some cloud vendors offer immutable storage, which protects stored data without the need for a separate environment, and suggests considering more than one provider so that a compromise of one vendor account does not reach every copy.
 

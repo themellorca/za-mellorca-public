@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-073
 slug: business-data-locked-in-applications-nobody-understands-export-vendor-dependency-risk
-title: Business Data Locked in Apps Nobody Understands: The Cost of Vendor Dependency
+title: Business data locked in apps nobody understands: The cost of vendor dependency
 description: Customer and job records often sit in cloud systems no one has mapped or tested an exit from. See how that dependency becomes a cost and how to reduce it.
 lead: Customer and job records often sit in cloud systems no one has mapped or tested an exit from. See how that dependency becomes a cost and how to reduce it.
 category: Digital Infrastructure
@@ -18,9 +18,10 @@ sources:
   - Art. 20 GDPR – Right to data portability - General Data Protection Regulation (GDPR) | https://gdpr-info.eu/art-20-gdpr/
   - Plan - Training | https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/3-plan
 related:
-  - Software That Grew by Accident: The Price of Complexity Nobody Designed | /impact/software-environment-grew-by-accident-complexity-duplication-lost-productivity-cost/
-  - Software Bought Without Approval: The Financial and Security Cost of Shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
-  - Shared Passwords at Work: The Cost of Losing Accountability and Control | /impact/shared-passwords-lost-accountability-breach-exposure/
+  - Software that grew by accident: The price of complexity nobody designed | /impact/software-environment-grew-by-accident-complexity-duplication-lost-productivity-cost/
+  - Software bought without approval: The financial and security cost of shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
+  - Shared passwords at work: The cost of losing accountability and control | /impact/shared-passwords-lost-accountability-breach-exposure/
+  - Critical suppliers chosen without checking what depends on them | /impact/critical-suppliers-chosen-without-dependency-check-vendor-failure-cost/
 summary: Customer and job records often sit in cloud systems no one has mapped or tested an exit from. See how that dependency becomes a cost and how to reduce it.
 layout: plain
 ---
@@ -51,13 +52,13 @@ This is not the same as the [dependency on a single person](/impact/key-person-o
 
 ## What the evidence says about getting data out
 
-Exports are not always as complete or convenient as assumed. Google's help page on downloading account data states that a download does not delete the data from Google's servers, that archives expire after about a week and can only be downloaded a limited number of times, that exports cannot be filtered by date range, and that recent changes and items still being deleted may be missed. Those are reasonable design decisions for a consumer-style tool, but they show why you should test an export before you depend on it.
+Exports are not always as complete or convenient as assumed. [Google's help page on downloading account data](https://support.google.com/accounts/answer/3024190) states that a download does not delete the data from Google's servers, that archives expire after about a week and can only be downloaded a limited number of times, that exports cannot be filtered by date range, and that recent changes and items still being deleted may be missed. Those are reasonable design decisions for a consumer-style tool, but they show why you should test an export before you depend on it.
 
-Data portability is also a recognised principle in privacy law. Article 20 of the EU's General Data Protection Regulation gives individuals the right to receive personal data they have provided to a controller in a structured, commonly used and machine-readable format, in defined circumstances. That law applies in the European Union and not directly in South Africa, but it shows what a good export should look like: structured, common and machine-readable. A system that can only export a PDF report does not meet that standard.
+Data portability is also a recognised principle in privacy law. [Article 20 of the EU's General Data Protection Regulation](https://gdpr-info.eu/art-20-gdpr/) gives individuals the right to receive personal data they have provided to a controller in a structured, commonly used and machine-readable format, in defined circumstances. That law applies in the European Union and not directly in South Africa, but it shows what a good export should look like: structured, common and machine-readable. A system that can only export a PDF report does not meet that standard.
 
 ## The legal and compliance dimension
 
-Under South Africa's Protection of Personal Information Act, the Information Regulator explains that any organisation that processes personal information is a responsible party. Its duties include applying reasonable technical and organisational safeguards to protect the integrity and confidentiality of that information, and notifying the Regulator and affected people as soon as reasonably possible after a security compromise. A business that does not know what personal information sits in each application, who can reach it and how it flows to other tools will struggle to meet those duties. Responsibility does not move to the vendor simply because the data is hosted in the vendor's cloud. This article is general information, not legal advice; take advice on your specific position.
+Under South Africa's Protection of Personal Information Act, [the Information Regulator](https://www.inforegulator.org.za/popia/) explains that any organisation that processes personal information is a responsible party. Its duties include applying reasonable technical and organisational safeguards to protect the integrity and confidentiality of that information, and notifying the Regulator and affected people as soon as reasonably possible after a security compromise. A business that does not know what personal information sits in each application, who can reach it and how it flows to other tools will struggle to meet those duties. Responsibility does not move to the vendor simply because the data is hosted in the vendor's cloud. This article is general information, not legal advice; take advice on your specific position.
 
 ## The financial chain
 
@@ -96,7 +97,7 @@ A business that understands its data does not need to be technical. It can state
 
 1. **List the applications that hold business-critical data.** Customers, orders, money, staff and suppliers are the usual starting points.
 2. **Assign a data owner to each,** a named person who can answer questions about contents and access.
-3. **Write a one-page profile for each system:** what it holds, which fields matter, integrations, backups, export options and who has admin rights. The Microsoft Cloud Adoption Framework planning guidance suggests documenting ownership, business function, criticality, data sensitivity and compliance requirements for each workload, which is a good template even for small businesses.
+3. **Write a one-page profile for each system:** what it holds, which fields matter, integrations, backups, export options and who has admin rights. The [Microsoft Cloud Adoption Framework planning guidance](https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/3-plan) suggests documenting ownership, business function, criticality, data sensitivity and compliance requirements for each workload, which is a good template even for small businesses.
 4. **Take a full export and open it.** Check that it is complete, readable without the vendor's tool and covers attachments and history. Record how long it took and what was missing.
 5. **Review access.** Remove accounts that are no longer needed, and restrict who can export or delete. Our article on [uncontrolled system access](/impact/uncontrolled-system-access-financial-risk/) covers this in detail.
 6. **Read the contract** for data return on termination, notice periods, retention after cancellation and service-level commitments. Ask the vendor in writing what format a full export takes.

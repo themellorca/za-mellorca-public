@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-402
 slug: which-digital-systems-are-actually-infrastructure
-title: Which Digital Systems Are Actually Infrastructure?
-description: Not every business tool is infrastructure, but some unlikely ones are. A five-question test and a three-tier classification for deciding which systems deserve infrastructure-grade care.
+title: Which digital systems are actually infrastructure?
+description: Not every business tool is infrastructure, but some unlikely ones are. A five-question test shows which systems need infrastructure-grade care.
 lead: Not every business tool is infrastructure, but some unlikely ones are. A five-question test and a three-tier classification for deciding which systems deserve infrastructure-grade care.
 category: Digital Infrastructure
 published_date: 2026-10-08
@@ -14,7 +14,7 @@ sources:
   - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
   - Cyber Security Toolkit for Boards | https://www.ncsc.gov.uk/collection/board-toolkit
 related:
-  - How to Build a Business Application Inventory That Is Actually Useful | /insights/how-to-build-a-business-application-inventory-that-is-actually-useful/
+  - How to build a business application inventory that is actually useful | /insights/how-to-build-a-business-application-inventory-that-is-actually-useful/
   - How to decide what should be the system of record | /insights/how-to-decide-what-should-be-the-system-of-record/
   - How to decide which system owns which data | /insights/how-to-decide-which-system-owns-which-data/
 summary: Not every business tool is infrastructure, but some unlikely ones are. A five-question test and a three-tier classification for deciding which systems deserve infrastructure-grade care.
@@ -90,7 +90,7 @@ The classification is a means to an end. Once the foundation and operational tie
 4. **Put change control around them.** A change to a foundation system should be described, tested and reversible.
 5. **Budget for them as infrastructure.** This means recurring maintenance, licences and renewal, not only a one-off purchase. The economics are laid out in [why recurring systems maintenance is cheaper than emergency repair](/insights/why-recurring-systems-maintenance-is-cheaper-than-emergency-repair/).
 
-The NCSC's toolkit for boards makes the governance point that senior leaders should be able to say what the organisation depends on and how well it is protected. If you cannot name your foundation tier, that gap is the first finding.
+The NCSC's [toolkit for boards](https://www.ncsc.gov.uk/collection/board-toolkit) makes the governance point that senior leaders should be able to say what the organisation depends on and how well it is protected. If you cannot name your foundation tier, that gap is the first finding.
 
 ## An illustrative example
 

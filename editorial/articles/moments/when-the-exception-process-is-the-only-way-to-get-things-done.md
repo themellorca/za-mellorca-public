@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000079
 slug: when-the-exception-process-is-the-only-way-to-get-things-done
-title: When the Exception Process Is the Only Way to Get Anything Done
+title: When the exception process is the only way to get anything done
 description: If every urgent job needs a special approval, the normal process has stopped fitting the work. What that costs the people involved and how to restore the rule.
 lead: If every urgent job needs a special approval, the normal process has stopped fitting the work. What that costs the people involved and how to restore the rule.
 category: Human Agency
@@ -20,9 +20,10 @@ sources:
   - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
   - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
 related:
-  - What Changes When People Can See Their Own Numbers | /moments/what-changes-when-people-can-see-their-own-numbers/
-  - The Owner Who Can Finally Say No to Work | /moments/the-owner-who-can-finally-say-no-to-work/
-  - What Real Delegation Requires From Systems | /moments/what-real-delegation-requires-from-systems/
+  - What changes when people can see their own numbers | /moments/what-changes-when-people-can-see-their-own-numbers/
+  - The owner who can finally say no to work | /moments/the-owner-who-can-finally-say-no-to-work/
+  - What real delegation requires from systems | /moments/what-real-delegation-requires-from-systems/
+  - Why decision rights belong in the system, not in someone's head | /moments/why-decision-rights-belong-in-the-system-not-in-someones-head/
 summary: If every urgent job needs a special approval, the normal process has stopped fitting the work. What that costs the people involved and how to restore the rule.
 layout: plain
 ---
@@ -57,7 +58,7 @@ The costs are not dramatic, which is partly why they last.
 - **Time.** Persuading, chasing and waiting for approvals consume hours that never appear in a plan. The HSE demands standard speaks of workloads manageable within agreed hours, which unpredictable exception handling undermines.
 - **Fairness.** People who know the right person get quick answers. People who do not, wait. The informal route favours the well-connected and the confident.
 
-The World Health Organization's fact sheet on mental health at work lists lack of control over job design or workload and an unclear job role among the psychosocial risks to mental health. It does not say that exception-driven workplaces cause such harm, and that link should be treated as a plausible hypothesis only. But the conditions it names are the ones that exception-driven work can create.
+The World Health Organization's fact sheet on [mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) lists lack of control over job design or workload and an unclear job role among the psychosocial risks to mental health. It does not say that exception-driven workplaces cause such harm, and that link should be treated as a plausible hypothesis only. But the conditions it names are the ones that exception-driven work can create.
 
 ## Why the exception route gets overloaded
 
@@ -67,7 +68,7 @@ Three ordinary causes recur.
 2. **The standard process is too slow.** If the normal route takes a week and the work needs a day, people will use the other one. Approvals that stall are a theme of [why approval processes become bottlenecks](/insights/why-approval-processes-become-bottlenecks/).
 3. **Decisions sit with too few people.** When only two directors can approve anything unusual, they become the process. See [the manager who can't act without the founder](/moments/the-manager-who-cant-act-without-the-founder/).
 
-Microsoft's documentation on Power Automate approvals shows how approval routes can be defined in software: some approvals need everyone to approve, some only the first responder, and some go through approvers in sequence. These choices are design decisions. A business that has never decided who should decide, and in what order, often ends up with the informal version of the same thing, which is whoever answers their phone.
+Microsoft's documentation on [Power Automate approvals](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) shows how approval routes can be defined in software: some approvals need everyone to approve, some only the first responder, and some go through approvers in sequence. These choices are design decisions. A business that has never decided who should decide, and in what order, often ends up with the informal version of the same thing, which is whoever answers their phone.
 
 ## Making the exception an exception again
 

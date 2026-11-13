@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-154
 slug: what-makes-an-automation-worth-building
-title: What Makes an Automation Worth Building
-description: Almost any repetitive task can be automated, but not every one should be. Seven tests that separate automations that pay for themselves from those that become maintenance burdens.
+title: What makes an automation worth building
+description: Almost any repetitive task can be automated, but not every one should be. Seven tests separate those that pay off from those that become burdens.
 lead: Almost any repetitive task can be automated, but not every one should be. Seven tests that separate automations that pay for themselves from those that become maintenance burdens.
 category: Business Automation
 published_date: 2026-10-08
@@ -15,9 +15,10 @@ sources:
   - Five Focusing Steps, a Process of On-Going Improvement | https://www.tocinstitute.org/five-focusing-steps.html
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
 related:
-  - What Should You Monitor in an Automated Business Process? | /insights/what-should-you-monitor-in-an-automated-business-process/
+  - What should you monitor in an automated business process? | /insights/what-should-you-monitor-in-an-automated-business-process/
   - Who watches the automations? | /insights/who-watches-the-automations/
   - How silent automation failures damage operations | /insights/how-silent-automation-failures-damage-operations/
+  - Which manual tasks should stay manual? | /insights/which-manual-tasks-are-better-left-manual-a-sorting-test/
 summary: Almost any repetitive task can be automated, but not every one should be. Seven tests that separate automations that pay for themselves from those that become maintenance burdens.
 layout: plain
 ---
@@ -60,7 +61,7 @@ An automation that relies on three systems, two spreadsheets and a supplier's we
 
 ## A simple scoring approach
 
-Use the seven tests as a short scorecard. Rate each candidate automation from one to three on each test, where three means a clear yes. Anything scoring low on the first two, whether the work should exist and whether it is stable, should be set aside regardless of the total. Among the rest, rank by annual benefit relative to total cost. The Theory of Constraints Institute's focusing steps offer a useful final filter: before spending on any improvement, ask whether it relieves the point that actually limits the business. Automating a task that is not near a constraint may save time without changing results.
+Use the seven tests as a short scorecard. Rate each candidate automation from one to three on each test, where three means a clear yes. Anything scoring low on the first two, whether the work should exist and whether it is stable, should be set aside regardless of the total. Among the rest, rank by annual benefit relative to total cost. The Theory of Constraints Institute's [focusing steps](https://www.tocinstitute.org/five-focusing-steps.html) offer a useful final filter: before spending on any improvement, ask whether it relieves the point that actually limits the business. Automating a task that is not near a constraint may save time without changing results.
 
 | Candidate | Worth doing? | Stable? | Volume or value | Clear rules? | Monitorable? | Owner? |
 | --- | --- | --- | --- | --- | --- | --- |

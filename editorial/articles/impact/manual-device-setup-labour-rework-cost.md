@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-219
 slug: manual-device-setup-labour-rework-cost
-title: Manual Device Setup Adds Labour and Repeat Work to Every Rollout
-description: A device’s purchase price excludes the work needed to make it usable. Repeating the same configuration by hand can turn each rollout into another demand on technical capacity.
+title: Manual device setup adds labour and repeat work to every rollout
+description: A device's purchase price leaves out the work to make it usable. Configuring each one by hand makes every rollout another demand on technical capacity.
 lead: A device’s purchase price excludes the work needed to make it usable. Repeating the same configuration by hand can turn each rollout into another demand on technical capacity.
 category: Digital Infrastructure
 published_date: 2026-09-06
@@ -23,10 +23,11 @@ evidence_basis: original qualitative analysis and transparent input-based cost m
 sources:
   - Overview of Windows Autopilot | https://learn.microsoft.com/en-us/autopilot/overview
   - SP 800-128, Guide for Security-Focused Configuration Management of Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/128/upd1/final
+  - Windows enrollment methods - Microsoft Intune | https://learn.microsoft.com/en-us/mem/intune/enrollment/windows-enrollment-methods
 related:
-  - Paying for Server Capacity the Business Does Not Use | /impact/overprovisioned-server-capacity-cost/
-  - Slow Computers Turn Small Delays into Paid Waiting | /impact/slow-computers-paid-waiting-cost/
-  - Unmonitored Backups Create False Recovery Confidence | /impact/unmonitored-backups-false-recovery-confidence/
+  - Paying for server capacity the business does not use | /impact/overprovisioned-server-capacity-cost/
+  - Slow computers turn small delays into paid waiting | /impact/slow-computers-paid-waiting-cost/
+  - Unmonitored backups create false recovery confidence | /impact/unmonitored-backups-false-recovery-confidence/
 ---
 ## The tolerated pain
 
@@ -96,7 +97,7 @@ The same arithmetic shows where the answer flips. Per device, the illustrative m
 
 A reusable configuration also costs money: design, testing, maintenance, exception handling and any required tooling. Compare these costs over the same device volume and planning period with the observed manual workload. Avoid assuming that automation removes acceptance testing or every exception. Released technical hours become cash savings only if they change spending; otherwise they create capacity that must be assigned useful work.
 
-Platform capabilities make the reusable option more practical than it once was. Microsoft describes Windows Autopilot as a set of technologies for setting up and pre-configuring new devices, transforming the manufacturer's preinstalled Windows into a business-ready state by applying settings and policies and installing apps, rather than maintaining custom images for every model. That is one example; the economic test above applies whichever method is used.
+Platform capabilities make the reusable option more practical than it once was. Microsoft describes Windows Autopilot as a set of technologies for setting up and pre-configuring new devices, transforming the manufacturer's preinstalled Windows into a business-ready state by applying settings and policies and installing apps, rather than maintaining custom images for every model. That is one example; the economic test above applies whichever method is used. Microsoft's [Intune enrolment documentation](https://learn.microsoft.com/en-us/mem/intune/enrollment/windows-enrollment-methods) lists Autopilot in user-driven and self-deploying modes among the automatic enrolment routes for corporate-owned Windows laptops and desktops.
 
 ## Secondary consequences
 

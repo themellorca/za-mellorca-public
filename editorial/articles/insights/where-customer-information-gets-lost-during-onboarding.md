@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-278
 slug: where-customer-information-gets-lost-during-onboarding
-title: Where Customer Information Gets Lost During Onboarding
-description: Customer information leaks during onboarding at predictable points: sales notes, record conversion, quote changes, attachments and handovers to finance and delivery. Here is where to look and what keeps it intact.
+title: Where customer information gets lost during onboarding
+description: Customer information leaks during onboarding at predictable points, from sales notes to handovers. Where to look and what keeps it intact.
 lead: Customer information leaks during onboarding at predictable points: sales notes, record conversion, quote changes, attachments and handovers to finance and delivery. Here is where to look and what keeps it intact.
 category: Digital Operations
 published_date: 2026-10-07
@@ -14,9 +14,10 @@ sources:
   - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
 related:
-  - How Duplicate Data Gets Into Business Systems | /insights/how-duplicate-data-gets-into-business-systems/
-  - What Happens When the Only Person Who Understands the System Leaves? | /insights/what-happens-when-the-only-person-who-understands-the-system-leaves/
-  - What Information Must Move With the Work? | /insights/what-information-must-move-with-the-work/
+  - How duplicate data gets into business systems | /insights/how-duplicate-data-gets-into-business-systems/
+  - What happens when the only person who understands the system leaves? | /insights/what-happens-when-the-only-person-who-understands-the-system-leaves/
+  - What information must move with the work? | /insights/what-information-must-move-with-the-work/
+  - The cost of entering the same prospect information twice | /patterns/the-real-price-of-capturing-a-prospect-in-two-places/
 summary: Customer information leaks during onboarding at predictable points: sales notes, record conversion, quote changes, attachments and handovers to finance and delivery. Here is where to look and what keeps it intact.
 layout: plain
 ---
@@ -65,7 +66,7 @@ Customer information changes during onboarding. Contacts change, start dates mov
 
 ## Why this is also a compliance matter
 
-For South African businesses, lost and repeated information is not only an efficiency problem. The Protection of Personal Information Act sets minimum requirements for how personal information is processed. Section 16 of the Act requires a responsible party to take reasonably practicable steps to ensure that personal information is complete, accurate, not misleading and updated where necessary. Copies of identity documents sitting in several inboxes, contact details that differ between systems and updates that never reach the record all make that obligation harder to meet. A single, maintained record of what the customer provided is easier to keep accurate and easier to secure.
+For South African businesses, lost and repeated information is not only an efficiency problem. The [Protection of Personal Information Act](https://www.gov.za/documents/protection-personal-information-act) sets minimum requirements for how personal information is processed. Section 16 of the Act requires a responsible party to take reasonably practicable steps to ensure that personal information is complete, accurate, not misleading and updated where necessary. Copies of identity documents sitting in several inboxes, contact details that differ between systems and updates that never reach the record all make that obligation harder to meet. A single, maintained record of what the customer provided is easier to keep accurate and easier to secure.
 
 ## What keeps customer information intact
 

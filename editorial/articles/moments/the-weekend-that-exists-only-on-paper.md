@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000016
 slug: the-weekend-that-exists-only-on-paper
-title: The Weekend That Exists Only on Paper
-description: The business trades on Saturdays, the staff work a rota, and the owner is officially off. Yet every refund, stock problem and payment question still finds its way to the owner's phone. What a weekend with real delegated authority gives back.
+title: The weekend that exists only on paper
+description: The business trades on Saturdays and the owner is officially off, yet every refund and stock problem reaches their phone. What delegated authority returns.
 lead: The business trades on Saturdays, the staff work a rota, and the owner is officially off. Yet every refund, stock problem and payment question still finds its way to the owner's phone. What a weekend with real delegated authority gives back.
 category: Time & Attention
 published_date: 2026-10-04
@@ -20,9 +20,9 @@ sources:
   - Set up approval users - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-to-set-up-approval-users
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
 related:
-  - Friday Evening Should Start on Friday Evening | /moments/friday-evening-should-start-on-friday-evening/
-  - Why the Commute Has Become Unpaid Triage Time | /moments/why-the-commute-has-become-unpaid-triage-time/
-  - The Evening Spent Chasing Signatures | /moments/the-evening-spent-chasing-signatures/
+  - Friday evening should start on Friday evening | /moments/friday-evening-should-start-on-friday-evening/
+  - Why the commute has become unpaid triage time | /moments/why-the-commute-has-become-unpaid-triage-time/
+  - The evening spent chasing signatures | /moments/the-evening-spent-chasing-signatures/
 summary: The business trades on Saturdays, the staff work a rota, and the owner is officially off. Yet every refund, stock problem and payment question still finds its way to the owner's phone. What a weekend with real delegated authority gives back.
 layout: plain
 ---
@@ -34,11 +34,11 @@ The scene is illustrative, not a specific business. But the shape will be famili
 
 ## A rest period the owner does not have
 
-South Africa's Basic Conditions of Employment Act requires employers to give employees a weekly rest period of at least 36 consecutive hours which, unless otherwise agreed, must include Sunday. It is a floor for employees. Owners are not employees of their own business and have no equivalent protection. Their day off is protected only by how the business is organised.
+South Africa's [Basic Conditions of Employment Act](https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf) requires employers to give employees a weekly rest period of at least 36 consecutive hours which, unless otherwise agreed, must include Sunday. It is a floor for employees. Owners are not employees of their own business and have no equivalent protection. Their day off is protected only by how the business is organised.
 
-The wider evidence on working time gives some reason to take this seriously. WHO and ILO estimated that working 55 or more hours a week is associated with an estimated 35% higher risk of stroke and a 17% higher risk of dying from ischaemic heart disease, compared with working 35 to 40 hours. These are population-level estimates about sustained long hours, not a claim that a few weekend calls cause illness. They are a reminder that weeks without real rest are not a neutral habit.
+The wider evidence on working time gives some reason to take this seriously. WHO and ILO estimated that working 55 or more hours a week is associated with an estimated 35% higher risk of stroke and a 17% higher risk of dying from ischaemic [heart disease](https://www.who.int/news/item/17-05-2021-long-working-hours-increasing-deaths-from-heart-disease-and-stroke-who-ilo), compared with working 35 to 40 hours. These are population-level estimates about sustained long hours, not a claim that a few weekend calls cause illness. They are a reminder that weeks without real rest are not a neutral habit.
 
-Microsoft's Work Trend Index analysis of anonymised Microsoft 365 activity found that nearly 20% of active users in its data checked email before noon on weekends. That is a global, vendor-specific figure for office software users, not a measure of South African owners, many of whom run their businesses through phone calls and WhatsApp. It does suggest that the weekend boundary is porous well beyond any one business.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) analysis of anonymised Microsoft 365 activity found that nearly 20% of active users in its data checked email before noon on weekends. That is a global, vendor-specific figure for office software users, not a measure of South African owners, many of whom run their businesses through phone calls and WhatsApp. It does suggest that the weekend boundary is porous well beyond any one business.
 
 ## Why the weekend leaks
 

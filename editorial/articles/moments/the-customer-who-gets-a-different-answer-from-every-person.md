@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000381
 slug: the-customer-who-gets-a-different-answer-from-every-person
-title: The Customer Who Gets a Different Answer From Every Person
-description: One person says yes, the next says no, a third asks you to start again. What inconsistent answers take from customers and staff, and why the fix is shared knowledge rather than scripts.
+title: The customer who gets a different answer from every person
+description: One person says yes, another no, a third says start again. What inconsistent answers cost customers and staff, and why shared knowledge beats scripts.
 lead: One person says yes, the next says no, a third asks you to start again. What inconsistent answers take from customers and staff, and why the fix is shared knowledge rather than scripts.
 category: Trust, Fairness & Clarity
 published_date: 2026-10-07
@@ -19,9 +19,9 @@ sources:
   - What is customer service? - IBM | https://www.ibm.com/think/topics/customer-service
   - Consumer Protection Act 68 of 2008 - South African Government | https://www.gov.za/documents/consumer-protection-act
 related:
-  - When Nobody Can Say Which Number Is True | /moments/when-nobody-can-say-which-number-is-true/
-  - The Employee Who Needs Permission for Every Small Fix | /moments/the-employee-who-needs-permission-for-every-small-fix/
-  - When the Out-of-Office Reply Doesn't Stop the Work | /moments/when-the-out-of-office-reply-doesnt-stop-the-work/
+  - When nobody can say which number is true | /moments/when-nobody-can-say-which-number-is-true/
+  - The employee who needs permission for every small fix | /moments/the-employee-who-needs-permission-for-every-small-fix/
+  - When the out-of-office reply doesn't stop the work | /moments/when-the-out-of-office-reply-doesnt-stop-the-work/
 summary: One person says yes, the next says no, a third asks you to start again. What inconsistent answers take from customers and staff, and why the fix is shared knowledge rather than scripts.
 layout: plain
 ---
@@ -64,7 +64,7 @@ The second is **dignity**. Having to repeat a story, and then to point out that 
 
 Staff pay a version of the same tax. Being contradicted by a colleague in front of a customer is uncomfortable, and so is being asked to honour a promise you would not have made.
 
-There is also a fairness question. South Africa's Consumer Protection Act exists, in its own words, to promote a fair, accessible and sustainable marketplace. Legal compliance belongs with lawyers, but the principle is worth noting: when a business's answers depend on who you happen to reach, customers who push harder can end up treated differently from those who do not.
+There is also a fairness question. South Africa's [Consumer Protection Act](https://www.gov.za/documents/consumer-protection-act) exists, in its own words, to promote a fair, accessible and sustainable marketplace. Legal compliance belongs with lawyers, but the principle is worth noting: when a business's answers depend on who you happen to reach, customers who push harder can end up treated differently from those who do not.
 
 ## What could realistically change
 
@@ -72,7 +72,7 @@ The interventions are mostly about turning what a few people know into something
 
 - **Write down the real policy.** Not the policy as it was drafted years ago, but the rules as the business actually applies them, including the common exceptions.
 - **Keep one record per customer issue.** A shared case or ticket, visible to whoever picks up the next call or email, so the second person can see what the first one promised.
-- **Define the limits of discretion.** IBM's guidance on customer service describes the value of centralising responses to recurring issues while still allowing representatives to use judgement within agreed limits, and gives the example of a bank that let agents resolve issues below a set value on their own. A small business can do the same in plain terms: what any staff member may offer, and when a decision goes to a named person.
+- **Define the limits of discretion.** IBM's guidance on [customer service](https://www.ibm.com/think/topics/customer-service) describes the value of centralising responses to recurring issues while still allowing representatives to use judgement within agreed limits, and gives the example of a bank that let agents resolve issues below a set value on their own. A small business can do the same in plain terms: what any staff member may offer, and when a decision goes to a named person.
 - **Feed resolved questions back.** When a new kind of question is answered, add it to a short shared answer list. Over time this becomes the business's working knowledge base, and the basis for [proactive communication that removes repeat questions](/patterns/why-proactive-communication-can-remove-entire-support-workloads/).
 
 Technology helps when it makes these things the default: a shared inbox or helpdesk tool rather than personal mailboxes, a customer record visible across channels. But the decisive step is a management one. Someone has to decide what the answer is.

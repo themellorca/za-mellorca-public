@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-319
 slug: infrastructure-diagrams-out-of-date-when-projects-end
 title: Why infrastructure diagrams are out of date as soon as the project ends
-description: Infrastructure diagrams drawn at project handover go stale within weeks. Why it happens, what it costs during incidents and audits, and how to keep a picture of your environment you can trust.
+description: Diagrams drawn at handover go stale within weeks, which hurts during incidents and audits. How to keep a picture of your environment you can trust.
 lead: Infrastructure diagrams drawn at project handover go stale within weeks. Why it happens, what it costs during incidents and audits, and how to keep a picture of your environment you can trust.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-07
@@ -39,9 +39,9 @@ Common signs include:
 - new staff or suppliers spend their first weeks reverse-engineering the environment;
 - auditors, insurers or customers ask for a network diagram and someone has to draw a new one.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for "keep architecture diagrams up to date", "automatically generate infrastructure diagram", "diagrams as code" or "current network diagram for audit". The real need is a reliable, current picture of the environment that does not depend on someone remembering to redraw it, and that is good enough for incident response, change planning, onboarding and compliance.
+The questions sound like "how do we keep architecture diagrams up to date?", "can the infrastructure diagram be generated automatically?", "can we use diagrams as code?" or "where is the current network diagram for audit?" The real need is a reliable, current picture of the environment that does not depend on someone remembering to redraw it, and that is good enough for incident response, change planning, onboarding and compliance.
 
 ## Evidence and system mechanism
 

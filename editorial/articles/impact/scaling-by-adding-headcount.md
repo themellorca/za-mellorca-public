@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-477
 slug: scaling-by-adding-headcount
-title: When Every Rise in Workload Needs Another Hire
+title: When every rise in workload needs another hire
 description: Adding headcount to absorb repeatable workload can hide a process design problem and make operating cost scale linearly with volume.
 lead: Hiring is rational when new work requires human judgement or capacity. It is expensive when headcount is repeatedly added to compensate for a process that has never been redesigned.
 category: Scaling
@@ -21,9 +21,9 @@ sources:
   - Skills Development Levy - South African Revenue Service | https://www.sars.gov.za/types-of-tax/skills-development-levy/
   - What Is Business Process Automation? - IBM | https://www.ibm.com/think/topics/business-process-automation
 related:
-  - When Every Process Problem Becomes Another Software Purchase | /impact/buying-software-for-every-process-problem/
-  - The Cost of Retyping Customer Details into Every System | /impact/pain-duplication-of-customer-data-entry/
-  - Predictable Appointments Still Carry a Cost When Staff Arrange Every Slot | /impact/manual-appointment-scheduling-administration-cost/
+  - When every process problem becomes another software purchase | /impact/buying-software-for-every-process-problem/
+  - The cost of retyping customer details into every system | /impact/pain-duplication-of-customer-data-entry/
+  - Predictable appointments still carry a cost when staff arrange every slot | /impact/manual-appointment-scheduling-administration-cost/
 ---
 ## The tolerated pain
 

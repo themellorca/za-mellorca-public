@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-080
 slug: the-five-jobs-a-crm-should-do-for-a-growing-business
-title: What Your CRM Should Actually Do for the Business
-description: A CRM is not an address book or a magic loyalty device. Five practical jobs it should do for the business, a one-hour test of your current system, and what it should never be asked to carry.
+title: What your CRM should actually do for the business
+description: A CRM is not an address book or a magic loyalty device. Five practical jobs it should do, a one-hour test of your system and what it should never carry.
 lead: A CRM is not an address book or a magic loyalty device. Five practical jobs it should do for the business, a one-hour test of your current system, and what it should never be asked to carry.
 category: Customer Systems
 published_date: 2026-10-09
@@ -15,9 +15,9 @@ sources:
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
   - Implement a solution based on business processes - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution
 related:
-  - Which Digital Systems Are Actually Infrastructure? | /insights/which-digital-systems-are-actually-infrastructure/
-  - How to Measure Whether Software Is Paying for Itself | /insights/how-to-measure-whether-software-is-paying-for-itself/
-  - What a Digital Systems Audit Should Actually Tell You | /insights/what-a-digital-systems-audit-should-actually-tell-you/
+  - Which digital systems are actually infrastructure? | /insights/which-digital-systems-are-actually-infrastructure/
+  - How to measure whether software is paying for itself | /insights/how-to-measure-whether-software-is-paying-for-itself/
+  - What a digital systems audit should actually tell you | /insights/what-a-digital-systems-audit-should-actually-tell-you/
 summary: A CRM is not an address book or a magic loyalty device. Five practical jobs it should do for the business, a one-hour test of your current system, and what it should never be asked to carry.
 layout: plain
 ---
@@ -32,7 +32,7 @@ A CRM, short for customer relationship management system, is not a magic custome
 
 The first job is the least glamorous. Each customer or prospect should appear once, with the right company name, contact people, communication history and status. If the same client exists under three spellings, nobody can see the whole relationship. The IBM overview of data silos describes how information held in separate, unconnected places leaves an organisation with an incomplete picture, and a poorly kept CRM can become one more such place.
 
-Duplicate prevention is a feature, not an afterthought. Microsoft's documentation on duplicate detection rules in its platform shows the principle: define which fields identify a duplicate, such as email address or company name, and have the system warn when a new record looks like an existing one. Whatever product you use, ask whether it can do this and whether anyone has switched it on. Where records go wrong in the first place is covered in [how bad CRM data gets created](/insights/how-bad-crm-data-gets-created/).
+Duplicate prevention is a feature, not an afterthought. Microsoft's documentation on [duplicate detection rules](https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean) in its platform shows the principle: define which fields identify a duplicate, such as email address or company name, and have the system warn when a new record looks like an existing one. Whatever product you use, ask whether it can do this and whether anyone has switched it on. Where records go wrong in the first place is covered in [how bad CRM data gets created](/insights/how-bad-crm-data-gets-created/).
 
 ## Job two: show what happens next
 

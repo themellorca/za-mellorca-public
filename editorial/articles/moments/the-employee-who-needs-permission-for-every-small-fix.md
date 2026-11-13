@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000045
 slug: the-employee-who-needs-permission-for-every-small-fix
-title: The Employee Who Needs Permission for Every Small Fix
-description: A misspelt product name, a wrong customer address, a printer that will not install. Small fixes that a capable person could make in a minute, if the system allowed it. What blanket restrictions take, and what scoped trust gives back.
+title: The employee who needs permission for every small fix
+description: A misspelt product name or a stubborn printer is a minute's fix, if the system allows it. What blanket restrictions take, and what scoped trust gives back.
 lead: A misspelt product name, a wrong customer address, a printer that will not install. Small fixes that a capable person could make in a minute, if the system allowed it. What blanket restrictions take, and what scoped trust gives back.
 category: Human Agency
 published_date: 2026-10-06
@@ -19,9 +19,9 @@ sources:
   - What is Privileged Identity Management? - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure
   - <span class="mw-page-title-main">Job autonomy and pressure at work - statistics</span> | https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Job_autonomy_and_pressure_at_work_-_statistics
 related:
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
-  - What Real Delegation Requires From Systems | /moments/what-real-delegation-requires-from-systems/
-  - When Software Workarounds Replace Professional Discretion | /moments/when-software-workarounds-replace-professional-discretion/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - What real delegation requires from systems | /moments/what-real-delegation-requires-from-systems/
+  - When software workarounds replace professional discretion | /moments/when-software-workarounds-replace-professional-discretion/
 summary: A misspelt product name, a wrong customer address, a printer that will not install. Small fixes that a capable person could make in a minute, if the system allowed it. What blanket restrictions take, and what scoped trust gives back.
 layout: plain
 ---
@@ -33,7 +33,7 @@ Most people in organised work will recognise some version of this. The misspelt 
 
 ## Why systems are locked down
 
-It is worth starting with the case for restriction, because it is a strong one. The UK's National Cyber Security Centre, in its guidance on secure system administration, advises giving administrators least privilege and removing access when it is no longer needed. It also notes that not all administration is the same: some access gives a person the opportunity to do far more harm than others, so it should be tiered.
+It is worth starting with the case for restriction, because it is a strong one. The UK's National Cyber Security Centre, in its guidance on [secure system administration](https://www.ncsc.gov.uk/collection/secure-system-administration), advises giving administrators least privilege and removing access when it is no longer needed. It also notes that not all administration is the same: some access gives a person the opportunity to do far more harm than others, so it should be tiered.
 
 Those principles exist for good reasons. Broad rights on many accounts increase the damage that a phishing attack or a stolen password can do. Unrestricted editing of customer and supplier records creates openings for fraud, such as changing a supplier's bank details. And well-meaning edits by many hands can leave data inconsistent.
 
@@ -41,7 +41,7 @@ The difficulty is that least privilege is often implemented as all or nothing. E
 
 ## What the evidence says about control over work
 
-Eurostat's statistics on job autonomy, from a 2019 module of the EU Labour Force Survey, show how unevenly control over work is spread. About 44% of employees reported some or a large influence over the content and order of their tasks, compared with 83% of the self-employed. Plant and machine operators and assemblers were the least autonomous group, with 62.5% reporting little or no influence.
+Eurostat's statistics on [job autonomy](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Job_autonomy_and_pressure_at_work_-_statistics), from a 2019 module of the EU Labour Force Survey, show how unevenly control over work is spread. About 44% of employees reported some or a large influence over the content and order of their tasks, compared with 83% of the self-employed. Plant and machine operators and assemblers were the least autonomous group, with 62.5% reporting little or no influence.
 
 These are European figures and should not be read as a measurement of South African workplaces. They do support a general point: for many employees, how their work proceeds is shaped by rules they did not set. System permissions are one of the most concrete forms those rules take, because they are enforced every time someone opens the screen.
 
@@ -77,7 +77,7 @@ The goal is not to loosen security. It is to make it more precise.
 1. **Separate harmless edits from sensitive ones.** Product descriptions, contact numbers and delivery notes are not the same as bank details or credit limits. Most business systems allow field-level or role-level permissions; many businesses never use them.
 2. **Give scoped rights to the people closest to the data.** A sales administrator who maintains customer contacts every day can be allowed to edit contact fields, while financial fields stay protected.
 3. **Log changes and review them.** A change history lets the business allow more edits safely, because mistakes and misuse can be seen and reversed.
-4. **Use temporary elevation for occasional tasks.** Microsoft's documentation for its privileged identity service describes just-in-time access that is time-bound, can require approval and a stated reason, and keeps an audit history. Smaller businesses may not need that tool, but the idea of temporary, recorded access applies widely.
+4. **Use temporary elevation for occasional tasks.** Microsoft's documentation for its [privileged identity](https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure) service describes just-in-time access that is time-bound, can require approval and a stated reason, and keeps an audit history. Smaller businesses may not need that tool, but the idea of temporary, recorded access applies widely.
 5. **Review roles as the business changes.** A permission design set at go-live should be revisited, just as approval thresholds should.
 
 Uncontrolled change carries its own risk, which Mellorca discusses in [why uncontrolled configuration changes create operational risk](/insights/why-uncontrolled-configuration-changes-create-operational-risk/). Scoped permission with logging sits between the two failures: everyone may change everything, or nobody may change anything.

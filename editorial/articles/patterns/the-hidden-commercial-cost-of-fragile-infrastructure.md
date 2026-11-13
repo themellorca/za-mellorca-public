@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-328
 slug: the-hidden-commercial-cost-of-fragile-infrastructure
-title: The Hidden Commercial Cost of Fragile Infrastructure
-description: Small outages, slowdowns and workarounds each look harmless, yet together they drain wages, sales and customer confidence. Here is how to see the cost and decide what to fix first.
+title: The hidden commercial cost of fragile infrastructure
+description: Small outages, slowdowns and workarounds look harmless, yet together drain wages, sales and customer confidence. How to see the cost and what to fix first.
 lead: Small outages, slowdowns and workarounds each look harmless, yet together they drain wages, sales and customer confidence. Here is how to see the cost and decide what to fix first.
 category: Technology Foundations, Reliability & Continuity
 published_date: 2026-10-08
@@ -18,9 +18,10 @@ sources:
   - Google SRE - Embracing risk and reliability engineering book | https://sre.google/sre-book/embracing-risk/
   - Common Incident Management Metrics - Atlassian | https://www.atlassian.com/incident-management/kpis/common-metrics
 related:
-  - The Hidden Cost of Asking Customers for the Same Information Twice | /patterns/the-hidden-cost-of-asking-customers-for-the-same-information-twice/
-  - When One Unmonitored Component Can Stop a Critical Service | /patterns/when-one-unmonitored-component-can-stop-a-critical-service/
-  - The Hidden Cost of Re-Keying Order Information | /patterns/the-hidden-cost-of-re-keying-order-information/
+  - The hidden cost of asking customers for the same information twice | /patterns/the-hidden-cost-of-asking-customers-for-the-same-information-twice/
+  - When one unmonitored component can stop a critical service | /patterns/when-one-unmonitored-component-can-stop-a-critical-service/
+  - The hidden cost of re-keying order information | /patterns/the-hidden-cost-of-re-keying-order-information/
+  - When infrastructure problems first appear as customer complaints | /patterns/when-infrastructure-faults-are-first-reported-by-customers-not-by-monitoring/
 summary: Small outages, slowdowns and workarounds each look harmless, yet together they drain wages, sales and customer confidence. Here is how to see the cost and decide what to fix first.
 layout: plain
 ---
@@ -36,7 +37,7 @@ An illustrative example: a Cape Town wholesale distributor with about seventy st
 
 Fragile infrastructure is expensive in ways that are hard to see. The visible cost is the repair: a technician's call-out, a replacement part. The larger cost is the time lost across the business while the problem lasts, the work that has to be redone afterwards, the customer who was told "our system is down" and the sale that went elsewhere.
 
-The Microsoft Azure Well-Architected Framework, which is written for cloud workloads but expresses ideas that apply more widely, defines reliability as the ability of a system to recover from failures and continue to function. It also stresses that failures will happen and that the sensible response is to design for them and to define how much disruption the business can tolerate. Google's Site Reliability Engineering guidance makes a related point: reliability is not an absolute, it is a business decision about how much unreliability is acceptable at what cost. Most small and mid-sized businesses have never made that decision. They have the reliability they happened to inherit.
+The [Microsoft Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/reliability/principles), which is written for cloud workloads but expresses ideas that apply more widely, defines reliability as the ability of a system to recover from failures and continue to function. It also stresses that failures will happen and that the sensible response is to design for them and to define how much disruption the business can tolerate. Google's [Site Reliability Engineering guidance](https://sre.google/sre-book/embracing-risk/) makes a related point: reliability is not an absolute, it is a business decision about how much unreliability is acceptable at what cost. Most small and mid-sized businesses have never made that decision. They have the reliability they happened to inherit.
 
 **Realisation prompt:** if your main system or connection failed for four hours on a busy day, could you say, within a rough range, what that would cost in rand?
 
@@ -59,7 +60,9 @@ The published Pattern [why a small technical failure stops the whole business](/
 
 The commercial value at stake is revenue protection, labour productivity, customer retention, margin and business continuity.
 
-Consider the arithmetic for a seventy-person business. If an hour of disruption idles even twenty people at a fully loaded cost of R250 an hour, that is R5,000 of wages for an hour in which they produced little. Add the orders that could not be captured, the card payments that were declined, the overtime to clear the backlog and the credit notes issued for late deliveries, and the figure rises quickly. Six incidents in a season can cost more than a proper fix, yet they are never added together. The Impact page on [not knowing the hourly cost of downtime](/impact/not-knowing-hourly-cost-of-downtime/) sets out how to estimate the figure, and [relying on a single internet connection](/impact/single-internet-connection-business-downtime-risk/) covers one of the commonest single points of failure.
+Consider the arithmetic for a seventy-person business. If an hour of disruption idles even twenty people at a fully loaded cost of R250 an hour, that is R5,000 of wages for an hour in which they produced little. Add the orders that could not be captured, the card payments that were declined, the overtime to clear the backlog and the credit notes issued for late deliveries, and the figure rises quickly.
+
+Six incidents in a season can cost more than a proper fix, yet they are never added together. The Impact page on [not knowing the hourly cost of downtime](/impact/not-knowing-hourly-cost-of-downtime/) sets out how to estimate the figure, and [relying on a single internet connection](/impact/single-internet-connection-business-downtime-risk/) covers one of the commonest single points of failure.
 
 The reputational cost is slower and larger. Customers rarely complain about one outage. They quietly shift some of their orders to a supplier who always answers.
 
@@ -80,7 +83,7 @@ For the distributor, that could mean a failover connection for the order-entry t
 ## Intervention
 
 1. **List the critical systems.** Identify the five or six systems, connections and devices without which sales, delivery or invoicing stop.
-2. **Start an incident log.** Record every interruption: what failed, when, how long, who was affected and what was lost. A shared spreadsheet is enough.
+2. **Start an incident log.** Record every interruption: what failed, when, how long, who was affected and what was lost. A shared spreadsheet is enough. [Atlassian's guide to common incident metrics](https://www.atlassian.com/incident-management/kpis/common-metrics) describes mean time to recovery as the average time taken to restore a system after a failure, which is a useful figure to work out from the log.
 3. **Price an hour.** For each critical system, estimate the cost of an hour offline: idle wages, missed sales, rework and penalties.
 4. **Find the single points of failure.** Note where one device, line or person is the only path. Rank them by the cost of failure and the cost of a fix.
 5. **Test recovery.** Restore a backup to a spare machine and time it. Compare the result with what the business can tolerate.

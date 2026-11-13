@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000033
 slug: why-rest-days-start-with-a-status-check
-title: Why Rest Days Start With a Status Check
-description: On a day off, the first thing many owners and managers do is check that nothing has broken. The check is rarely about work. It is about silence that cannot be trusted, and what it takes to make silence mean something.
+title: Why rest days start with a status check
+description: On a day off, many owners first check that nothing has broken. The real issue is silence that cannot be trusted, and what makes silence mean something.
 lead: On a day off, the first thing many owners and managers do is check that nothing has broken. The check is rarely about work. It is about silence that cannot be trusted, and what it takes to make silence mean something.
 category: Time & Attention
 published_date: 2026-10-05
@@ -20,9 +20,10 @@ sources:
   - Healthchecks.io Documentation - Healthchecks.io | https://healthchecks.io/docs/
   - https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf | https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf
 related:
-  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
-  - When Every Day Starts by Rebuilding Yesterday's Context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
-  - When Travel Days Become Catch-Up Days | /moments/when-travel-days-become-catch-up-days/
+  - The lunch break eaten by approval requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - When every day starts by rebuilding yesterday's context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
+  - When travel days become catch-up days | /moments/when-travel-days-become-catch-up-days/
+  - Why checking is not the same as knowing | /moments/why-checking-is-not-the-same-as-knowing/
 summary: On a day off, the first thing many owners and managers do is check that nothing has broken. The check is rarely about work. It is about silence that cannot be trusted, and what it takes to make silence mean something.
 layout: plain
 ---
@@ -32,7 +33,7 @@ Many people who run or look after a business will recognise some version of that
 
 ## The difference between rest and standby
 
-South Africa's Basic Conditions of Employment Act requires employers to give employees a daily rest period of at least twelve consecutive hours and a weekly rest period of at least 36 consecutive hours which, unless otherwise agreed, must include Sunday. The law sets a floor for time off. It says nothing about the owner, the founder or the person who has quietly become the one who "keeps an eye on things", and it cannot reach the habit of checking.
+South Africa's [Basic Conditions of Employment Act](https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf) requires employers to give employees a daily rest period of at least twelve consecutive hours and a weekly rest period of at least 36 consecutive hours which, unless otherwise agreed, must include Sunday. The law sets a floor for time off. It says nothing about the owner, the founder or the person who has quietly become the one who "keeps an eye on things", and it cannot reach the habit of checking.
 
 A rest day with a status check at the start of it is not quite a rest day. It is a day on standby that happens to have no work scheduled. The person is available to the business by default, and only off duty once they have confirmed that they are not needed. That ordering matters. It means the day begins with the business rather than with the person.
 
@@ -58,7 +59,7 @@ The discipline of site reliability engineering has thought carefully about when 
 
 The same principle works in reverse for a small business. If alerting is designed well, then no alert is meaningful. Silence becomes evidence that things are fine, because a failure would have produced a message to a specific person. That is the shift that makes the morning check unnecessary.
 
-The tools to do this are not exotic. Cloud monitoring services such as Azure Monitor separate an alert rule, which watches a signal, from an action group, which decides who is notified and how. Alerts can be suppressed on a schedule, for example during planned maintenance. For scheduled jobs, services such as Healthchecks.io work as a dead man's switch: the job sends a small signal each time it runs, and if the signal does not arrive within the expected period plus a grace time, an alert goes out. A missing run stops being silent.
+The tools to do this are not exotic. Cloud monitoring services such as [Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview) separate an alert rule, which watches a signal, from an action group, which decides who is notified and how. Alerts can be suppressed on a schedule, for example during planned maintenance. For scheduled jobs, services such as Healthchecks.io work as a dead man's switch: the job sends a small signal each time it runs, and if the signal does not arrive within the expected period plus a grace time, an alert goes out. A missing run stops being silent.
 
 ## What could change
 

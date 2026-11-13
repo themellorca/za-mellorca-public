@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000130
 slug: the-friction-of-signing-up-for-something-at-work
-title: The Friction of Signing Up for Something at Work
+title: The friction of signing up for something at work
 description: Enrolling, registering and requesting access at work is rarely one step. Where the friction comes from, who pays for it, and how to make sign-ups short.
 lead: Enrolling, registering and requesting access at work is rarely one step. Where the friction comes from, who pays for it, and how to make sign-ups short.
 category: Relief from Friction
@@ -20,9 +20,9 @@ sources:
   - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
   - Designing for Web Accessibility – Tips for Getting Started | https://www.w3.org/WAI/tips/designing/
 related:
-  - When Ordering Supplies Takes Five Emails | /moments/when-ordering-supplies-takes-five-emails/
-  - Why Rest Days Start With a Status Check | /moments/why-rest-days-start-with-a-status-check/
-  - Why Good Judgement Gets Buried Under Process | /moments/why-good-judgement-gets-buried-under-process/
+  - When ordering supplies takes five emails | /moments/when-ordering-supplies-takes-five-emails/
+  - Why rest days start with a status check | /moments/why-rest-days-start-with-a-status-check/
+  - Why good judgement gets buried under process | /moments/why-good-judgement-gets-buried-under-process/
 summary: Enrolling, registering and requesting access at work is rarely one step. Where the friction comes from, who pays for it, and how to make sign-ups short.
 layout: plain
 ---
@@ -46,11 +46,11 @@ Mellorca has described the wider version of this in [collecting employee informa
 
 No research measures sign-up friction in South African workplaces specifically, and the figures below should be read as context, not proof.
 
-Microsoft's Work Trend Index reports that, in its Microsoft 365 data, people spent 57% of their time communicating and 43% creating, and that in its survey 64% said they struggled to have the time and energy to do their job. A sign-up that needs three emails and a chaser draws on exactly the time and energy that survey says is already short.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) reports that, in its Microsoft 365 data, people spent 57% of their time communicating and 43% creating, and that in its survey 64% said they struggled to have the time and energy to do their job. A sign-up that needs three emails and a chaser draws on exactly the time and energy that survey says is already short.
 
 Government sources show that small businesses face real administrative change too. SARS's page for small businesses notes that from 1 April 2026 the compulsory VAT registration threshold rose from R1 million to R2.3 million, and that Turnover Tax is available to eligible businesses with a turnover of up to R2.3 million. Each of these is a registration decision with forms, eligibility checks and a login at the end of it. For a small owner, signing up for the right thing is itself a skill.
 
-It is also worth remembering what a sign-up should ask for. The Protection of Personal Information Act, summarised on the South African Government site, rests on the idea that personal information processed for a purpose should be adequate, relevant and not excessive. A form that asks for everything "just in case" is not only irritating; it collects more than the purpose needs.
+It is also worth remembering what a sign-up should ask for. The [Protection of Personal Information Act](https://www.gov.za/documents/protection-personal-information-act), summarised on the South African Government site, rests on the idea that personal information processed for a purpose should be adequate, relevant and not excessive. A form that asks for everything "just in case" is not only irritating; it collects more than the purpose needs.
 
 ## An illustrative case
 

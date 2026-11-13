@@ -24,7 +24,7 @@ closing_text: [Explore our solutions](/solutions/) or [start a conversation](/co
 related:
   - Why technology spend does not automatically create business value | /insights/why-technology-spend-does-not-automatically-create-business-value/
   - How to buy business software without letting the demo make the decision | /insights/how-to-buy-business-software-without-letting-the-demo-make-the-decision/
-  - When a Spreadsheet Is a Useful Tool—and When It Becomes Infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
+  - When a spreadsheet is a useful tool—and when it becomes infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
 ---
 Businesses often respond to poor visibility by creating another dashboard. A new report is commissioned, a business intelligence licence is bought, or each team builds its own view of performance. Information becomes easier to display, but not necessarily easier to interpret or act on. Within a year or two, many organisations have dozens of dashboards, several versions of the same metric and a management meeting that still opens with the same question: which number is right?
 

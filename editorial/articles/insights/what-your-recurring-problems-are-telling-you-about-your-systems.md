@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-023
 slug: what-your-recurring-problems-are-telling-you-about-your-systems
-title: What Your Recurring Problems Are Telling You About Your Systems
-description: A problem that keeps coming back is not bad luck. It is evidence about how the business is set up. How to record recurring problems, read the patterns they form and trace them back to the data, ownership, handoff or design weakness that keeps producing them.
+title: What your recurring problems are telling you about your systems
+description: A recurring problem is evidence about how the business is set up. How to record recurring problems, read the patterns and trace the root cause.
 lead: A problem that keeps coming back is not bad luck. It is evidence about how the business is set up. How to record recurring problems, read the patterns they form and trace them back to the data, ownership, handoff or design weakness that keeps producing them.
 category: Operations
 published_date: 2026-10-04
@@ -14,9 +14,9 @@ sources:
   - 5 Whys - What is it? - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/5-whys/
   - Google SRE - Blameless Postmortem for System Resilience | https://sre.google/sre-book/postmortem-culture/
 related:
-  - Broken Handoffs Are Systems Problems | /insights/broken-handoffs-are-systems-problems/
-  - Poor Data Is an Operations Problem, Not Just a Data Problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
-  - Why Your CRM Is Not the Problem You Think It Is | /insights/why-your-crm-is-not-the-problem-you-think-it-is/
+  - Broken handoffs are systems problems | /insights/broken-handoffs-are-systems-problems/
+  - Poor data is an operations problem, not just a data problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
+  - Why your CRM is not the problem you think it is | /insights/why-your-crm-is-not-the-problem-you-think-it-is/
 summary: A problem that keeps coming back is not bad luck. It is evidence about how the business is set up. How to record recurring problems, read the patterns they form and trace them back to the data, ownership, handoff or design weakness that keeps producing them.
 layout: plain
 ---

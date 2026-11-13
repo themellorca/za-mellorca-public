@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-012
 slug: why-staff-keep-checking-the-same-things-over-and-over
-title: Why Staff Keep Checking the Same Things Over and Over
-description: Refreshing the bank feed, re-opening the courier portal, looking again at stock levels: repeated checking is a sign that systems do not tell people when something needs attention. Here is how to tell which checks to replace.
+title: Why staff keep checking the same things over and over
+description: Refreshing the bank feed or reopening the courier portal shows that systems do not tell people when something needs attention. Replace the right checks.
 lead: Refreshing the bank feed, re-opening the courier portal, looking again at stock levels: repeated checking is a sign that systems do not tell people when something needs attention. Here is how to tell which checks to replace.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -18,9 +18,9 @@ sources:
   - Set data alerts in the Power BI service - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
   - Google SRE - What is Toil in SRE: Understanding Its Impact | https://sre.google/sre-book/eliminating-toil/
 related:
-  - Why Teams Keep Building Manual Workarounds | /patterns/why-teams-keep-building-manual-workarounds/
-  - When People Are Used to Move Data Instead of Make Decisions | /patterns/when-people-are-used-to-move-data-instead-of-make-decisions/
-  - The Work Your Staff Do Because Your Systems Don't | /patterns/the-work-your-staff-do-because-your-systems-dont/
+  - Why teams keep building manual workarounds | /patterns/why-teams-keep-building-manual-workarounds/
+  - When people are used to move data instead of make decisions | /patterns/when-people-are-used-to-move-data-instead-of-make-decisions/
+  - The work your staff do because your systems don't | /patterns/the-work-your-staff-do-because-your-systems-dont/
 summary: Refreshing the bank feed, re-opening the courier portal, looking again at stock levels: repeated checking is a sign that systems do not tell people when something needs attention. Here is how to tell which checks to replace.
 layout: plain
 ---
@@ -70,7 +70,7 @@ The opposite mistake is to switch on every notification available. People then r
 
 ## Possibility
 
-In a better state, people are told when something they care about has happened or crossed a threshold, and are otherwise left alone. Many business tools already support this. Microsoft's documentation for Power BI, for example, describes data alerts that notify a user when a value on a dashboard moves beyond a limit they set, with alerts triggered when the underlying data is refreshed. Accounting platforms, bank feeds, courier services and stock systems commonly offer comparable notifications or integration points.
+In a better state, people are told when something they care about has happened or crossed a threshold, and are otherwise left alone. Many business tools already support this. Microsoft's documentation for [Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts), for example, describes data alerts that notify a user when a value on a dashboard moves beyond a limit they set, with alerts triggered when the underlying data is refreshed. Accounting platforms, bank feeds, courier services and stock systems commonly offer comparable notifications or integration points.
 
 Where an event matters to a process, the better design goes one step further and lets the event move the work directly. For the wholesaler, that might mean a bank feed into the accounting system that matches the payment to the order and releases it to dispatch, with a person involved only when a payment does not match.
 

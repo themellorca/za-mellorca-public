@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000053
 slug: the-freedom-that-comes-from-knowing-where-things-stand
-title: The Freedom That Comes From Knowing Where Things Stand
-description: Permission to leave early means little if you cannot tell whether the work is on track. How uncertainty about the state of work keeps people in place, and how a single, current view of work returns real choice.
+title: The freedom that comes from knowing where things stand
+description: Permission to leave early means little if you cannot tell whether work is on track. How uncertainty keeps people in place, and how one current view helps.
 lead: Permission to leave early means little if you cannot tell whether the work is on track. How uncertainty about the state of work keeps people in place, and how a single, current view of work returns real choice.
 category: Human Agency
 published_date: 2026-10-07
@@ -20,9 +20,9 @@ sources:
   - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
   - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
 related:
-  - What Real Delegation Requires From Systems | /moments/what-real-delegation-requires-from-systems/
-  - When a Tool Rollout Takes Choices Away | /moments/when-a-tool-rollout-takes-choices-away/
-  - The Manager Who Can't Act Without the Founder | /moments/the-manager-who-cant-act-without-the-founder/
+  - What real delegation requires from systems | /moments/what-real-delegation-requires-from-systems/
+  - When a tool rollout takes choices away | /moments/when-a-tool-rollout-takes-choices-away/
+  - The manager who can't act without the founder | /moments/the-manager-who-cant-act-without-the-founder/
 summary: Permission to leave early means little if you cannot tell whether the work is on track. How uncertainty about the state of work keeps people in place, and how a single, current view of work returns real choice.
 layout: plain
 ---
@@ -36,7 +36,7 @@ This piece is about the reverse of that: the particular kind of freedom that app
 
 Autonomy is often described as having permission to decide. But permission is not enough on its own. A person who is allowed to leave early, reorganise their week or take a day off still needs to know whether doing so will leave something undone. Without that knowledge, the permission is mostly theoretical.
 
-Usability research has said something similar about software for decades. The first of Jakob Nielsen's widely used usability heuristics, published by Nielsen Norman Group, is visibility of system status: a design should keep users informed about what is going on, through appropriate feedback within a reasonable time. The same idea applies to the business as a whole. If people cannot see what is going on, they have to find out by asking, checking or staying.
+Usability research has said something similar about software for decades. The first of Jakob Nielsen's widely used [usability heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/), published by Nielsen Norman Group, is visibility of system status: a design should keep users informed about what is going on, through appropriate feedback within a reasonable time. The same idea applies to the business as a whole. If people cannot see what is going on, they have to find out by asking, checking or staying.
 
 The UK Health and Safety Executive's Management Standards for work-related stress include a standard on role, which sets as a goal that the organisation provides information to enable employees to understand their role and responsibilities, and has systems to raise uncertainties. Its standard on demands focuses on achievable demands in relation to agreed hours of work. Uncertainty about whether work is on track is one way that demands quietly spill beyond those hours.
 
@@ -66,7 +66,7 @@ In this scenario, the supervisor rarely leaves before the last technician has me
 1. **Decide where the truth lives.** For each kind of work, agree on one place where its status is recorded. Other channels can remain for conversation, but not for status.
 2. **Record status at the point of work.** The person doing the job updates it as part of finishing, not later from memory.
 3. **Show exceptions, not everything.** A view that highlights only what is late or blocked is quicker to read than a full list.
-4. **Be honest about freshness.** Reporting tools show data only as current as their last update. Microsoft's documentation for Power BI notes that models on shared capacity can be refreshed on a schedule up to eight times a day. A view that refreshes overnight is not a view of now, and people should know which they are looking at.
+4. **Be honest about freshness.** Reporting tools show data only as current as their last update. Microsoft's documentation for [Power BI](https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data) notes that models on shared capacity can be refreshed on a schedule up to eight times a day. A view that refreshes overnight is not a view of now, and people should know which they are looking at.
 5. **Make the view available to the people who carry the worry.** Visibility helps most when it reaches the person who would otherwise stay late to check.
 
 ## What changes first, and the human dividend

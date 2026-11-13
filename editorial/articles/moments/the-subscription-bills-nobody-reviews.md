@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000341
 slug: the-subscription-bills-nobody-reviews
-title: The Subscription Bills Nobody Reviews
+title: The subscription bills nobody reviews
 description: Small recurring charges pile up unseen until they squeeze a business's margin. Why subscriptions go unreviewed, and a review short enough to actually happen.
 lead: Small recurring charges pile up unseen until they squeeze a business's margin. Why subscriptions go unreviewed, and a review short enough to actually happen.
 category: Economic Stability
@@ -19,9 +19,10 @@ sources:
   - Software as a service - Wikipedia | https://en.wikipedia.org/wiki/Software_as_a_service
   - Cash flow - Wikipedia | https://en.wikipedia.org/wiki/Cash_flow
 related:
-  - Why Knowing Your Margins Changes What You Can Choose | /moments/why-knowing-your-margins-changes-what-you-can-choose/
-  - The Attention Spent Remembering What Systems Should Remember | /moments/the-attention-spent-remembering-what-systems-should-remember/
-  - The Saturday Morning Spent on Invoices | /moments/the-saturday-morning-spent-on-invoices/
+  - Why knowing your margins changes what you can choose | /moments/why-knowing-your-margins-changes-what-you-can-choose/
+  - The attention spent remembering what systems should remember | /moments/the-attention-spent-remembering-what-systems-should-remember/
+  - The Saturday morning spent on invoices | /moments/the-saturday-morning-spent-on-invoices/
+  - The small business priced out of its own tools | /moments/the-small-business-priced-out-of-the-tools-built-to-help-it/
 summary: Small recurring charges pile up unseen until they squeeze a business's margin. Why subscriptions go unreviewed, and a review short enough to actually happen.
 layout: plain
 ---
@@ -31,7 +32,7 @@ This piece looks at why subscription bills so often go unreviewed, what that doe
 
 ## Why small recurring charges escape attention
 
-Subscriptions are designed to be easy to start and easy to forget. General reference material describes the subscription business model as one in which a customer pays a recurring price for continued access to a product or service, and in which the seller benefits when the customer remains subscribed. That is a sound model for many suppliers. It also means that inertia is part of how the model works.
+Subscriptions are designed to be easy to start and easy to forget. General reference material describes the [subscription business model](https://en.wikipedia.org/wiki/Subscription_business_model) as one in which a customer pays a recurring price for continued access to a product or service, and in which the seller benefits when the customer remains subscribed. That is a sound model for many suppliers. It also means that inertia is part of how the model works.
 
 In a small business, several things make the forgetting worse.
 
@@ -47,7 +48,7 @@ No South African survey is cited here, and it would be a mistake to invent a per
 
 Reference material on software as a service describes a model in which software is licensed on a subscription basis and hosted centrally, usually paid per user or per tier. That structure means cost scales with headcount and features, so a business that grows, shrinks or changes its tools without adjusting its subscriptions pays for a configuration it no longer uses.
 
-Cash flow, as general references define it, is the movement of money into and out of a business, and its timing matters as much as its total. Small, regular debits reduce the margin between income and obligations every month, and they do so most painfully in the lean months when the margin is thinnest. A business with irregular income, as many South African small businesses have, feels fixed costs more sharply than the average annual figure suggests. That is an inference, not a measured finding.
+[Cash flow](https://en.wikipedia.org/wiki/Cash_flow), as general references define it, is the movement of money into and out of a business, and its timing matters as much as its total. Small, regular debits reduce the margin between income and obligations every month, and they do so most painfully in the lean months when the margin is thinnest. A business with irregular income, as many South African small businesses have, feels fixed costs more sharply than the average annual figure suggests. That is an inference, not a measured finding.
 
 ## An illustrative case
 

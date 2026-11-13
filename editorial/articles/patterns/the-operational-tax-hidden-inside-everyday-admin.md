@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-023
 slug: the-operational-tax-hidden-inside-everyday-admin
-title: The Operational Tax Hidden Inside Everyday Admin
-description: Forms, sign-offs, forwarding and retyping attached to every routine request act like an internal tax. Measuring it as time, cost and frequency shows which controls to keep and which steps to redesign.
+title: The operational tax hidden inside everyday admin
+description: Forms, sign-offs and retyping on every routine request act like an internal tax. Measure it to see which controls to keep and which to redesign.
 lead: Forms, sign-offs, forwarding and retyping attached to every routine request act like an internal tax. Measuring it as time, cost and frequency shows which controls to keep and which steps to redesign.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -19,9 +19,9 @@ sources:
   - Muda, Mura, Muri - Get a Quick Introduction - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/muda-mura-muri/
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
 related:
-  - Why Teams Keep Building Manual Workarounds | /patterns/why-teams-keep-building-manual-workarounds/
-  - Why Small Tasks Become Expensive at Scale | /patterns/why-small-tasks-become-expensive-at-scale/
-  - The Cost of Work That Adds No New Information | /patterns/the-cost-of-work-that-adds-no-new-information/
+  - Why teams keep building manual workarounds | /patterns/why-teams-keep-building-manual-workarounds/
+  - Why small tasks become expensive at scale | /patterns/why-small-tasks-become-expensive-at-scale/
+  - The cost of work that adds no new information | /patterns/the-cost-of-work-that-adds-no-new-information/
 summary: Forms, sign-offs, forwarding and retyping attached to every routine request act like an internal tax. Measuring it as time, cost and frequency shows which controls to keep and which steps to redesign.
 layout: plain
 ---

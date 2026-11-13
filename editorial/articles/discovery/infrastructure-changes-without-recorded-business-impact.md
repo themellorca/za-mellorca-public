@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-307
 slug: infrastructure-changes-without-recorded-business-impact
 title: Why infrastructure changes get made without recording the business impact
-description: Cloud and server changes are usually logged technically, but rarely say which business service they affect or why. How to add a short business impact record to every infrastructure change.
+description: Infrastructure changes are logged technically but rarely say which service they affect or why. How to add a short business impact record to each one.
 lead: Cloud and server changes are usually logged technically, but rarely say which business service they affect or why. How to add a short business impact record to every infrastructure change.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-06
@@ -37,9 +37,9 @@ Every infrastructure change has a business reason: a new branch opening, a slow 
 - cost increases that finance cannot match to any decision;
 - incident reviews that start with the question “what changed?” and take hours to answer.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for why the cloud bill went up, how to track infrastructure changes, how to link changes to cost, or what a lightweight change process for a small IT team looks like. Finance managers want to know who approved a spend increase. IT managers want to know which change broke a service. Both are asking the same question: when something changed, what was it for, and who agreed? The underlying need is a short, consistent record that ties each change to a business service, a purpose and an expected effect.
+The questions usually asked are why the cloud bill went up, how to track infrastructure changes, how to link changes to cost, or what a lightweight change process for a small IT team looks like. Finance managers want to know who approved a spend increase. IT managers want to know which change broke a service. Both are asking the same question: when something changed, what was it for, and who agreed? The underlying need is a short, consistent record that ties each change to a business service, a purpose and an expected effect.
 
 ## Evidence and system mechanism
 

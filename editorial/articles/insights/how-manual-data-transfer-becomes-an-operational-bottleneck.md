@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-053
 slug: how-manual-data-transfer-becomes-an-operational-bottleneck
-title: How Manual Data Transfer Becomes an Operational Bottleneck
+title: How manual data transfer becomes an operational bottleneck
 description: Analyzes how manual data handoffs introduce delay, error, and rework, and outlines practical reduction strategies.
 lead: Analyzes how manual data handoffs introduce delay, error, and rework, and outlines practical reduction strategies.
 category: Operations
@@ -14,9 +14,9 @@ sources:
   - What Is Data Integration? - IBM | https://www.ibm.com/think/topics/data-integration
   - What Is Task Mining? - IBM | https://www.ibm.com/think/topics/task-mining
 related:
-  - How Much Manual Work Is Hiding Inside Your Business? | /insights/how-much-manual-work-is-hiding-inside-your-business/
-  - Why Your CRM Is Not the Problem You Think It Is | /insights/why-your-crm-is-not-the-problem-you-think-it-is/
-  - How to Map a Business Workflow Without Making It Complicated | /insights/how-to-map-a-business-workflow-without-making-it-complicated/
+  - How much manual work is hiding inside your business? | /insights/how-much-manual-work-is-hiding-inside-your-business/
+  - Why your CRM is not the problem you think it is | /insights/why-your-crm-is-not-the-problem-you-think-it-is/
+  - How to map a business workflow without making it complicated | /insights/how-to-map-a-business-workflow-without-making-it-complicated/
 summary: Analyzes how manual data handoffs introduce delay, error, and rework, and outlines practical reduction strategies.
 layout: plain
 ---

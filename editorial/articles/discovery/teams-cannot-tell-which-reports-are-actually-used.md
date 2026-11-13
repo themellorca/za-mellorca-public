@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-274
 slug: teams-cannot-tell-which-reports-are-actually-used
 title: How to find out which of your reports anyone actually uses
-description: Report libraries grow until nobody knows which reports matter. Where usage evidence comes from, why it is easy to misread, and how to turn it into a smaller, trusted set of reports.
+description: Report libraries grow until nobody knows which reports matter. Where usage evidence comes from, why it misleads, and how to build a smaller trusted set.
 lead: Report libraries grow until nobody knows which reports matter. Where usage evidence comes from, why it is easy to misread, and how to turn it into a smaller, trusted set of reports.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-05
@@ -31,15 +31,17 @@ This article looks at that operating condition: teams that cannot tell which rep
 
 Reports are easy to create and hard to remove. Each one was built for a reason, but reasons expire: the project ends, the manager moves on, the question is answered. Without evidence of use, nobody feels safe retiring anything. The result is a library where important reports are hard to find among abandoned ones, where several versions of the same figure compete, and where data teams spend time refreshing, fixing and securing reports nobody opens.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-BI and finance leads search for how to find unused reports, how to measure report usage, or how to clean up a reporting environment. Department heads want to know which report is the official one. The practical need is evidence: for each report, who opens it, how often, and whether it supports a decision, so that the library can be reduced to the reports that matter and those reports can be properly maintained.
+BI and finance leads ask how to find unused reports, how to measure report usage, and how to clean up a reporting environment. Department heads want to know which report is the official one. The practical need is evidence: for each report, who opens it, how often, and whether it supports a decision, so that the library can be reduced to the reports that matter and those reports can be properly maintained.
 
 ## Evidence and system mechanism
 
 ### Usage data exists, with limits
 
-Most reporting platforms record usage. Microsoft's documentation on [usage metrics in Power BI workspaces](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics) describes a report showing report views, page views and unique viewers, and a report list showing active and unused reports across the workspace. It also sets out limits that matter for clean-up decisions. The usage data covers only the last 30 days and is removed after that, so keeping history means exporting it. Only users with Admin, Member or Contributor roles can view the usage report. Page views rely on client telemetry and may be undercounted. Report views are also influenced by subscriptions: when the subscription service captures a snapshot for an email, a view event is logged. A report emailed weekly can therefore look used even if nobody reads the email.
+Most reporting platforms record usage. Microsoft's documentation on [usage metrics in Power BI workspaces](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics) describes a report showing report views, page views and unique viewers, and a report list showing active and unused reports across the workspace. It also sets out limits that matter for clean-up decisions. The usage data covers only the last 30 days and is removed after that, so keeping history means exporting it.
+
+Only users with Admin, Member or Contributor roles can view the usage report. Page views rely on client telemetry and may be undercounted. Report views are also influenced by subscriptions: when the subscription service captures a snapshot for an email, a view event is logged. A report emailed weekly can therefore look used even if nobody reads the email.
 
 ### Retirement needs more than a view count
 

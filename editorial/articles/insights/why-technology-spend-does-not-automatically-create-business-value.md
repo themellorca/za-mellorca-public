@@ -20,6 +20,7 @@ side_title: Topics
 sources:
   - https://www.pwc.com/us/en/services/consulting/supply-chain-operations/library/digital-trends-operations-survey.html | https://www.pwc.com/us/en/services/consulting/supply-chain-operations/library/digital-trends-operations-survey.html
   - https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html | https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html
+  - Cloud adoption strategy: business outcomes - Microsoft Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/business-outcomes/
 related:
   - How to decide what technology problem to solve first | /insights/how-to-decide-what-technology-problem-to-solve-first/
   - How to build a business case for systems improvement | /insights/how-to-build-a-business-case-for-systems-improvement/
@@ -27,9 +28,9 @@ related:
 ---
 Technology investment is easy to count. Business value is harder. Licence cost, implementation spend and go-live dates are visible; fewer organisations can trace those investments to shorter cycle times, fewer errors, lower operating effort, better customer outcomes or stronger management visibility.
 
-PwC's 2026 Digital Trends in Operations survey makes the gap unusually clear: 89% of operations leaders said technology investments had not fully delivered expected results. Integration complexity, data issues and user adoption were among the leading reasons. The survey covered 767 operations and supply chain leaders at US companies, and the same group was notably confident in other respects — 85% said they were ahead of most competitors in digital transformation. Confidence in transformation and confidence in results are evidently not the same thing.
+PwC's 2026 Digital Trends in Operations survey makes the gap unusually clear: 89% of operations leaders said technology investments had not fully delivered expected results. Integration complexity, data issues and user adoption were among the leading reasons. The survey covered 767 operations and [supply chain](https://www.pwc.com/us/en/services/consulting/supply-chain-operations/library/digital-trends-operations-survey.html) leaders at US companies, and the same group was notably confident in other respects — 85% said they were ahead of most competitors in digital transformation. Confidence in transformation and confidence in results are evidently not the same thing.
 
-The pattern is not confined to operations. PwC's 2026 Global CEO Survey reported that 56% of CEOs said they had seen no significant financial benefit from AI to date, and only 12% said AI had delivered both cost and revenue benefits.
+The pattern is not confined to operations. PwC's 2026 [Global CEO Survey](https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-global-ceo-survey.html) reported that 56% of CEOs said they had seen no significant financial benefit from AI to date, and only 12% said AI had delivered both cost and revenue benefits.
 
 > A system going live is an implementation event. Value appears only when the operating system of the business improves.
 
@@ -59,7 +60,7 @@ Before approving a technology project, define the operational change that is sup
 
 If the answer is only “modernise the system” or “use AI”, the value mechanism is not yet defined.
 
-A useful discipline is to write the mechanism as a single chain: *this change* removes *this activity* or prevents *this failure*, which affects *this measure*, which is owned by *this person*. If any link in the chain cannot be named, the business case is relying on hope.
+A useful discipline is to write the mechanism as a single chain: *this change* removes *this activity* or prevents *this failure*, which affects *this measure*, which is owned by *this person*. If any link in the chain cannot be named, the business case is relying on hope. Microsoft's cloud adoption guidance makes a similar point, advising organisations to [tie every initiative to a measurable business objective](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/business-outcomes/) so that investment trade-offs are explicit and defensible.
 
 ## Measure the process around the tool
 

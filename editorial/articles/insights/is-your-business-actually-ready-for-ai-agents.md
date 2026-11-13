@@ -29,7 +29,7 @@ related:
 ---
 AI agents are moving from chat interfaces into workflows that can read records, call APIs, create tasks, send messages, update systems and trigger downstream actions. That changes the readiness question. A business does not become agent-ready because it has access to a capable model. It becomes agent-ready when the operating environment around the model is dependable enough to support delegated action.
 
-NIST's AI Risk Management Framework and its Generative AI Profile frame AI risk management as an organisational discipline that spans governance, mapping, measurement and management rather than a one-time model choice. The framework is voluntary and was written to be adapted to different organisations. That is a useful lens for normal businesses too: the quality of the surrounding operating system matters as much as the intelligence of the agent.
+NIST's [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) and its [Generative AI Profile](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence) frame AI risk management as an organisational discipline that spans governance, mapping, measurement and management rather than a one-time model choice. The framework is voluntary and was written to be adapted to different organisations. That is a useful lens for normal businesses too: the quality of the surrounding operating system matters as much as the intelligence of the agent.
 
 > Agent readiness is systems readiness with a new actor added to the workflow.
 
@@ -75,7 +75,7 @@ Agentic workflows can fail because the model gives a poor answer, an integration
 
 Define retry rules, duplicate-prevention controls, escalation routes, human fallback and the evidence needed to reconstruct what happened. Important actions should be observable enough that the business can tell what the agent attempted, what it changed and whether the intended outcome occurred.
 
-NIST's current AI resources continue to emphasise testing, evaluation, verification and validation as part of operationalising AI risk management. The UK NCSC's guidelines for secure AI system development similarly treat secure operation and maintenance, including logging, monitoring and update management, as a distinct stage after deployment. That reinforces a basic principle: production AI should be managed as a living business capability, not a finished experiment.
+NIST's current AI resources continue to emphasise testing, evaluation, verification and validation as part of operationalising AI risk management. The UK NCSC's [guidelines for secure AI system development](https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development) similarly treat secure operation and maintenance, including logging, monitoring and update management, as a distinct stage after deployment. That reinforces a basic principle: production AI should be managed as a living business capability, not a finished experiment.
 
 ## Assign an operational owner
 

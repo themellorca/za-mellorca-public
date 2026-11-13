@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-272
 slug: data-lineage-reconstructed-manually-during-audits
 title: Why data lineage gets rebuilt by hand every time the auditors arrive
-description: When auditors ask how a reported figure was produced, many teams spend weeks piecing together the path from source to report. How to capture lineage as data moves, so audit evidence already exists.
+description: When auditors ask how a figure was produced, teams spend weeks piecing together its path. How to capture lineage as data moves.
 lead: When auditors ask how a reported figure was produced, many teams spend weeks piecing together the path from source to report. How to capture lineage as data moves, so audit evidence already exists.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-05
@@ -33,9 +33,9 @@ Lineage is the record of where data came from, what happened to it along the way
 
 Manual reconstruction has three weaknesses. It is slow. It is only as accurate as the people doing it. And it is a snapshot: the moment it is finished, the next change to a pipeline makes it wrong.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Financial controllers and data leads search for how to document data lineage for audit, how to evidence report controls, or how to trace figures back to source systems. Audit committees want assurance that reported numbers can be reproduced. The practical need is for lineage to be captured continuously, as data moves, so that the audit question is answered by looking up a record rather than starting an investigation.
+Financial controllers and data leads ask how to document data lineage for audit, how to evidence report controls, or how to trace figures back to source systems. Audit committees want assurance that reported numbers can be reproduced. The practical need is for lineage to be captured continuously, as data moves, so that the audit question is answered by looking up a record rather than starting an investigation.
 
 ## Evidence and system mechanism
 

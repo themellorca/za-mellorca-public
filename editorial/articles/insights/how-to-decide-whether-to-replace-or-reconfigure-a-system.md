@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-036
 slug: how-to-decide-whether-to-replace-or-reconfigure-a-system
-title: How to Decide Whether to Replace or Reconfigure a System
-description: Many systems people want to replace are good products buried under old configuration and unclear processes. How to tell product limits from setup problems, run a short diagnostic, and compare the real costs of replacing and reconfiguring.
+title: How to decide whether to replace or reconfigure a system
+description: Many systems people want to replace are good products buried under old setup. How to tell product limits from setup problems and compare the real costs.
 lead: Many systems people want to replace are good products buried under old configuration and unclear processes. How to tell product limits from setup problems, run a short diagnostic, and compare the real costs of replacing and reconfiguring.
 category: Systems & Strategy
 published_date: 2026-10-05
@@ -14,9 +14,10 @@ sources:
   - Optimize your implementation with a fit-to-standard and fit-gap analysis - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis
   - Standardize processes during a Dynamics 365 implementation - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/standardize-business-processes
 related:
-  - Why Switching Software Is Not Always the Answer | /insights/why-switching-software-is-not-always-the-answer/
+  - Why switching software is not always the answer | /insights/why-switching-software-is-not-always-the-answer/
   - How to decide what technology problem to solve first | /insights/how-to-decide-what-technology-problem-to-solve-first/
   - Piling on more software is not digital maturity | /insights/piling-on-more-software-is-not-digital-maturity/
+  - Why teams build spreadsheets after the business buys enterprise software | /patterns/why-teams-build-spreadsheets-after-the-business-buys-enterprise-software/
 summary: Many systems people want to replace are good products buried under old configuration and unclear processes. How to tell product limits from setup problems, run a short diagnostic, and compare the real costs of replacing and reconfiguring.
 layout: plain
 ---

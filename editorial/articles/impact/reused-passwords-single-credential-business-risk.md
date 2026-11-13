@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-126
 slug: reused-passwords-single-credential-business-risk
-title: Reused Passwords: How One Stolen Login Becomes a Business-Wide Risk
+title: Reused passwords: How one stolen login becomes a business-wide risk
 description: When staff reuse passwords across systems, one leaked credential can open email, finance and supplier portals. How to measure and shrink that exposure.
 lead: When staff reuse passwords across systems, one leaked credential can open email, finance and supplier portals. How to measure and shrink that exposure.
 category: Cybersecurity
@@ -15,10 +15,11 @@ primary_cost_mechanism: Fraud exposure, multi-system incident labour and downtim
 sources:
   - Managing your passwords | https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers
   - NIST Special Publication 800-63B | https://pages.nist.gov/800-63-4/sp800-63b.html
+  - Password policy: updating your approach - NCSC | https://www.ncsc.gov.uk/collection/passwords/updating-your-approach
 related:
-  - Not Knowing Who Still Has Access to Your Systems | /impact/uncontrolled-system-access-financial-risk/
-  - From Inbox to System by Hand: The Labour Cost of Retyping Emails | /impact/copying-email-details-into-business-systems-admin-cost/
-  - The Cost of Copying Data from One System into Another | /impact/pain-employees-duplicated-data-entry/
+  - Not knowing who still has access to your systems | /impact/uncontrolled-system-access-financial-risk/
+  - From inbox to system by hand: The labour cost of retyping emails | /impact/copying-email-details-into-business-systems-admin-cost/
+  - The cost of copying data from one system into another | /impact/pain-employees-duplicated-data-entry/
 summary: When staff reuse passwords across systems, one leaked credential can open email, finance and supplier portals. How to measure and shrink that exposure.
 layout: plain
 ---
@@ -87,7 +88,7 @@ The practical answer is well established. Every account gets its own strong pass
 
 ### Password managers for everyone
 
-CISA describes password managers as one of the easiest ways to protect against someone logging into accounts and stealing data or money. They generate and store a unique, complex password for each service, auto-fill logins and alert users to weak or reused passwords. The NCSC adds that autofill only fills credentials on the legitimate website, which gives some protection against phishing pages. Business editions also let a company share necessary team credentials securely and remove access when someone leaves.
+CISA describes password managers as one of the easiest ways to protect against someone logging into accounts and stealing data or money. They generate and store a unique, complex password for each service, auto-fill logins and alert users to weak or reused passwords. The NCSC adds that autofill only fills credentials on the legitimate website, which gives some protection against phishing pages. Business editions also let a company share necessary team credentials securely and remove access when someone leaves. The NCSC's [password policy guidance](https://www.ncsc.gov.uk/collection/passwords/updating-your-approach) also advises highlighting the risks of using the same passwords across home and work accounts, and recommends password managers for secure storage wherever appropriate.
 
 ### Modern password policy
 

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-206
 slug: how-to-design-alerts-for-automation-failures
-title: How to Design Alerts for Automation Failures
-description: Alerts that fire constantly get ignored, and alerts that go to nobody get missed. A practical way to decide what to alert on, who owns each alert, and what the message should say.
+title: How to design alerts for automation failures
+description: Alerts that fire constantly get ignored, and alerts sent to nobody get missed. How to decide what to alert on, who owns each alert and what it should say.
 lead: Alerts that fire constantly get ignored, and alerts that go to nobody get missed. A practical way to decide what to alert on, who owns each alert, and what the message should say.
 category: AI and Automation
 published_date: 2026-10-08
@@ -15,8 +15,8 @@ sources:
   - Google SRE - Prometheus Alerting: Turn SLOs into Alerts | https://sre.google/workbook/alerting-on-slos/
   - Employ robust error handling - Power Automate | https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling
 related:
-  - Why Giving AI Access to More Systems Is Not Automatically Better | /insights/why-giving-ai-access-to-more-systems-is-not-automatically-better/
-  - What Should You Monitor in an Automated Business Process? | /insights/what-should-you-monitor-in-an-automated-business-process/
+  - Why giving AI access to more systems is not automatically better | /insights/why-giving-ai-access-to-more-systems-is-not-automatically-better/
+  - What should you monitor in an automated business process? | /insights/what-should-you-monitor-in-an-automated-business-process/
   - What business processes need documentation first? | /insights/what-business-processes-need-documentation-first/
 summary: Alerts that fire constantly get ignored, and alerts that go to nobody get missed. A practical way to decide what to alert on, who owns each alert, and what the message should say.
 layout: plain
@@ -30,7 +30,7 @@ Designing alerts well is less about the tooling and more about a handful of deci
 
 ## Start with consequences, not with errors
 
-Most automation platforms can send a message whenever a step errors. Switching that on for everything is the quickest way to create alert fatigue. Atlassian's guidance on alert fatigue describes the effect plainly: when responders are bombarded with notifications, many of them low value, they become desensitised and may miss the ones that matter.
+Most automation platforms can send a message whenever a step errors. Switching that on for everything is the quickest way to create [alert fatigue](https://www.atlassian.com/incident-management/on-call/alert-fatigue). Atlassian's guidance on alert fatigue describes the effect plainly: when responders are bombarded with notifications, many of them low value, they become desensitised and may miss the ones that matter.
 
 A better starting point is the business consequence. For each automation, ask what happens, and how soon, if it stops. A nightly price update that fails might cost nothing until Monday morning. A payment confirmation that fails might mean customers are chased for money they have already paid within the hour. Those two failures deserve different alerts, different recipients and different urgency.
 

@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-118
 slug: the-cost-of-delayed-handoffs-after-a-deal-is-won
-title: The Cost of Delayed Handoffs After a Deal Is Won
+title: The cost of delayed handoffs after a deal is won
 description: A signed deal can still lose momentum when sales-to-delivery handoffs depend on manual coordination and incomplete context.
 lead: Winning the deal is not the end of the revenue process if delivery still waits for information to cross the organisation.
 category: Sales, Leads & Revenue Handoffs
@@ -23,10 +23,11 @@ commercial_value_dimensions: Revenue velocity, Customer experience, Capacity, Ma
 sources:
   - Understand the sales process | https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales
   - Welcome to Dynamics 365 Sales | https://learn.microsoft.com/en-us/dynamics365/sales/overview
+  - Convert an opportunity to a quote, sales order, or invoice - Dynamics 365 Sales - Microsoft Learn | https://learn.microsoft.com/en-us/dynamics365/sales/developer/convert-opportunity-quote-sales-order-invoice
 related:
-  - Why Salespeople Spend Time Updating Systems Instead of Selling | /patterns/why-salespeople-spend-time-updating-systems-instead-of-selling/
-  - Why Do Good Leads Disappear Between Marketing and Sales? | /patterns/why-good-leads-disappear-between-marketing-and-sales/
-  - Why Does Sending an Invoice Require So Much Work? | /patterns/why-sending-an-invoice-requires-so-much-work/
+  - Why salespeople spend time updating systems instead of selling | /patterns/why-salespeople-spend-time-updating-systems-instead-of-selling/
+  - Why do good leads disappear between marketing and sales? | /patterns/why-good-leads-disappear-between-marketing-and-sales/
+  - Why does sending an invoice require so much work? | /patterns/why-sending-an-invoice-requires-so-much-work/
 summary: Sales-to-delivery delays usually reflect a weak handoff definition, fragmented commercial context or missing workflow triggers. Designing the transition as part of the revenue process can improve customer confidence and execution speed.
 ---
 ## Observable condition
@@ -43,7 +44,7 @@ The business has a commercial milestone without a reliable operational transitio
 
 This matters because the period immediately after signature is when the customer is most attentive. They have just made a decision and are watching to see whether it was the right one. A slow, confused start sends a signal that is hard to reverse. It also delays the point at which delivery begins, which in many businesses delays the point at which the business can invoice.
 
-A typical sales lifecycle, as described in Microsoft's guide to [understanding the sales process](https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales), runs from qualifying a lead through developing an opportunity, proposing, closing and then fulfilling, after which the customer is invoiced. The "close" and "fulfil" stages sit next to each other in the diagram. In many organisations, the gap between them is where the most information is lost.
+A typical sales lifecycle, as described in Microsoft's guide to [understanding the sales process](https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales), runs from qualifying a lead through developing an opportunity, proposing, closing and then fulfilling, after which the customer is invoiced. The "close" and "fulfil" stages sit next to each other in the diagram. In many organisations, the gap between them is where the most information is lost. The same documentation set shows what a connected handoff can look like: a won opportunity can be [converted into a quote, sales order or invoice](https://learn.microsoft.com/en-us/dynamics365/sales/developer/convert-opportunity-quote-sales-order-invoice), with its products, prices, discounts and tax carried over to the new document.
 
 ## Identification
 

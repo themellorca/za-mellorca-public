@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-327
 slug: customer-requests-lost-shared-inbox-missed-service-work
-title: Customer Requests Lost in Shared Inboxes: The Cost of Missed Service Work
-description: When customer service requests live in a shared mailbox, nobody owns each one. Requests are missed, duplicated or answered late, and billable service work quietly leaks away.
+title: Customer requests lost in shared inboxes: The cost of missed service work
+description: When service requests sit in a shared mailbox, nobody owns each one. Requests are missed, duplicated or late, and billable work quietly leaks away.
 lead: When customer service requests live in a shared mailbox, nobody owns each one. Requests are missed, duplicated or answered late, and billable service work quietly leaks away.
 category: Customer Experience and CRM
 published_date: 2026-10-03
@@ -15,10 +15,11 @@ primary_cost_mechanism: Lost billable service work, customer churn, duplicate la
 sources:
   - About shared mailboxes in Microsoft 365 - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/email/about-shared-mailboxes
   - Converting Support Emails into tickets in your support portal | https://support.freshdesk.com/support/solutions/articles/37541-converting-emails-into-tickets
+  - Automatically create or update records in Dynamics 365 Customer Service - Microsoft Learn | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/automatically-create-update-records
 related:
-  - When Customers Have to Repeat Themselves Every Time | /impact/pain-of-customers-repeating-information-disconnected-records/
-  - Sales, Finance and Operations Each With Their Own Customer: The Cost | /impact/departments-separate-customer-records-financial-impact/
-  - "I Thought You Were Doing It": The Labour Cost of Unclear Responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
+  - When customers have to repeat themselves every time | /impact/pain-of-customers-repeating-information-disconnected-records/
+  - Sales, finance and operations each with their own customer: The cost | /impact/departments-separate-customer-records-financial-impact/
+  - "I thought you were doing it": The labour cost of unclear responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
 summary: When customer service requests live in a shared mailbox, nobody owns each one. Requests are missed, duplicated or answered late, and billable service work quietly leaks away.
 layout: plain
 ---
@@ -43,7 +44,7 @@ Shared mailboxes are a reasonable tool for receiving mail at a common address. M
 
 None of this makes a shared mailbox wrong. It does mean that a shared mailbox, on its own, is a place where mail arrives, not a system for tracking whether each customer request has been completed. There is no built-in owner, status or due date for a message, so those have to be managed by habit.
 
-Dedicated service tools work differently. Freshdesk's documentation on [converting emails into tickets](https://support.freshdesk.com/support/solutions/articles/37541-converting-emails-into-tickets) describes forwarding the existing support address so that each incoming email becomes a ticket with the customer recorded as the requester, assigned to a chosen group, with follow-up replies threaded onto the existing ticket rather than creating new ones. Customers keep emailing the same address; the business gains a record per request. Other service desks and CRMs offer similar features.
+Dedicated service tools work differently. Freshdesk's documentation on [converting emails into tickets](https://support.freshdesk.com/support/solutions/articles/37541-converting-emails-into-tickets) describes forwarding the existing support address so that each incoming email becomes a ticket with the customer recorded as the requester, assigned to a chosen group, with follow-up replies threaded onto the existing ticket rather than creating new ones. Customers keep emailing the same address; the business gains a record per request. Other service desks and CRMs offer similar features. Microsoft's [Dynamics 365 Customer Service](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/automatically-create-update-records) offers the same idea through rules that create a case from each incoming email and place it in a queue.
 
 ## Operational symptoms
 

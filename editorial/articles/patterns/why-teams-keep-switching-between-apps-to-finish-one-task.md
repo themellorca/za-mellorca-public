@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-031
 slug: why-teams-keep-switching-between-apps-to-finish-one-task
-title: Why Teams Keep Switching Between Apps to Finish One Task
-description: When one routine task needs several applications, people bridge the gaps by switching screens. Mapping common tasks and bringing what they need into one view removes the switching.
+title: Why teams keep switching between apps to finish one task
+description: When one routine task needs several applications, people bridge the gaps by switching screens. Map common tasks and bring what they need into one view.
 lead: When one routine task needs several applications, people bridge the gaps by switching screens. Mapping common tasks and bringing what they need into one view removes the switching.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-05
@@ -19,9 +19,9 @@ sources:
   - What is single sign-on in Microsoft Entra ID? - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on
   - Microsoft Teams Developer Platform - Teams | https://learn.microsoft.com/en-us/microsoftteams/platform/overview
 related:
-  - Why Staff Keep a Spreadsheet Between Two Business Systems | /patterns/why-staff-keep-a-spreadsheet-between-two-business-systems/
-  - Why Information Has to Be Copied From One System to Another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
-  - When Disconnected Systems Let the Business Act on Old Information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
+  - Why staff keep a spreadsheet between two business systems | /patterns/why-staff-keep-a-spreadsheet-between-two-business-systems/
+  - Why information has to be copied from one system to another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
+  - When disconnected systems let the business act on old information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
 summary: When one routine task needs several applications, people bridge the gaps by switching screens. Mapping common tasks and bringing what they need into one view removes the switching.
 layout: plain
 ---
@@ -74,7 +74,9 @@ A frequent response is to replace everything with one large system. Occasionally
 
 ## Possibility
 
-In a stronger state, the most common tasks can be completed from one place. The agent sees the customer, their orders and delivery status together, makes the change once and the other systems are updated automatically. Notifications to other teams are sent from within the workflow and linked to the record. Staff sign in once; Microsoft's guide to [single sign-on in Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on) describes users signing in with one set of credentials and opening every assigned application without signing in again. Workplace platforms increasingly support bringing task-specific workflows to where people already work; Microsoft's [Teams developer platform overview](https://learn.microsoft.com/en-us/microsoftteams/platform/overview) describes extending Teams for task-specific workflows and integration with enterprise systems. The specialist systems remain, but they work behind the task rather than in front of it.
+In a stronger state, the most common tasks can be completed from one place. The agent sees the customer, their orders and delivery status together, makes the change once and the other systems are updated automatically. Notifications to other teams are sent from within the workflow and linked to the record.
+
+Staff sign in once; Microsoft's guide to [single sign-on in Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on) describes users signing in with one set of credentials and opening every assigned application without signing in again. Workplace platforms increasingly support bringing task-specific workflows to where people already work; Microsoft's [Teams developer platform overview](https://learn.microsoft.com/en-us/microsoftteams/platform/overview) describes extending Teams for task-specific workflows and integration with enterprise systems. The specialist systems remain, but they work behind the task rather than in front of it.
 
 ## Intervention
 

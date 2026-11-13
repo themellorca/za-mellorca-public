@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-292
 slug: teams-cannot-trace-a-business-transaction-across-systems
 title: Why teams cannot trace one business transaction across several systems
-description: When a customer asks what happened to an order, staff search four systems by four different reference numbers. A shared business reference carried through every system turns that hunt into a lookup.
+description: Asked what happened to an order, staff search four systems by four reference numbers. A shared business reference turns that hunt into a lookup.
 lead: When a customer asks what happened to an order, staff search four systems by four different reference numbers. A shared business reference carried through every system turns that hunt into a lookup.
 category: Integration & API Operations
 published_date: 2026-10-04
@@ -33,9 +33,9 @@ A single business transaction, such as an order, a claim, an application or a re
 
 This is different from knowing whether a transaction finished. Monitoring that confirms business completion is covered in [why integration monitoring can show green while the business transaction fails](/discovery/why-integration-monitoring-misses-business-completion/). Tracing answers a wider question that support, finance, audit and IT all ask: what happened to this specific transaction, in which order, and where is it now?
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches such as "trace a transaction across multiple systems", "end-to-end order traceability" or "correlation ID across integrations" usually come from someone who has spent too long investigating a single case: an operations manager, finance controller, support lead or integration developer. They want investigations to take minutes rather than hours. They want audit questions answered from records, not memory. And they want IT to diagnose integration problems without asking each vendor for logs.
+Questions such as "how do we trace a transaction across multiple systems?", "can we see an order end to end?" or "how do we use a correlation ID across integrations?" usually come from someone who has spent too long investigating a single case: an operations manager, finance controller, support lead or integration developer. They want investigations to take minutes rather than hours. They want audit questions answered from records, not memory. And they want IT to diagnose integration problems without asking each vendor for logs.
 
 ## Evidence and system mechanism
 

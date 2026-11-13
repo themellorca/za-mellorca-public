@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-438
 slug: when-one-missing-item-stops-a-larger-process
-title: When One Missing Item Stops a Larger Process
+title: When one missing item stops a larger process
 description: When most inputs are ready but one missing item stops the entire job, the deeper issue may be dependency visibility and constraint management.
 lead: A process can be mostly ready and still produce nothing if one critical dependency is invisible until the moment work needs it.
 category: Procurement, Suppliers & Inventory
@@ -23,10 +23,11 @@ commercial_value_dimensions: Throughput, Working capital, Service reliability, P
 sources:
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
   - Andon - What Is It? - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/andon/
+  - The Kanban Guide - Kanban Guides | https://kanbanguides.org/english/
 related:
-  - Why Is Your Most Important Process Running in Excel? | /patterns/why-your-most-important-process-is-running-in-excel/
-  - The Hidden Risk of One File Controlling an Operation | /patterns/the-hidden-risk-of-one-file-controlling-an-operation/
-  - When Manual Exceptions Become the Normal Process | /patterns/when-manual-exceptions-become-the-normal-process/
+  - Why is your most important process running in Excel? | /patterns/why-your-most-important-process-is-running-in-excel/
+  - The hidden risk of one file controlling an operation | /patterns/the-hidden-risk-of-one-file-controlling-an-operation/
+  - When manual exceptions become the normal process | /patterns/when-manual-exceptions-become-the-normal-process/
 summary: A small missing prerequisite can stop an otherwise ready operation when critical dependencies are not visible early enough. Designing around process readiness rather than isolated inventory or task completion can improve flow and resilience.
 ---
 ## Observable condition
@@ -63,7 +64,7 @@ Common causes include planning by department rather than end-to-end flow, prereq
 
 The Lean Enterprise Institute describes [value-stream mapping](https://www.lean.org/lexicon-terms/value-stream-mapping/) as diagramming every step in the material and information flows needed to bring a product from order to delivery. The emphasis on information flow matters here. In many stalled jobs the material existed somewhere; what failed was the information that would have shown it was not going to be in the right place on time.
 
-Lean practice also uses [andon](https://www.lean.org/lexicon-terms/andon/), a visual signal that shows the status of operations and flags abnormalities, including materials shortages, so that a team leader responds quickly. The lesson for a service or project business is to make a blocking condition visible as a signal that someone must act on, rather than leaving it to be found when work begins. The difference is timing: a shortage flagged days before the start can still be solved.
+Lean practice also uses [andon](https://www.lean.org/lexicon-terms/andon/), a visual signal that shows the status of operations and flags abnormalities, including materials shortages, so that a team leader responds quickly. The lesson for a service or project business is to make a blocking condition visible as a signal that someone must act on, rather than leaving it to be found when work begins. The difference is timing: a shortage flagged days before the start can still be solved. The Kanban Guide likewise lists unblocking blocked work among the active management tasks that keep items flowing ([The Kanban Guide](https://kanbanguides.org/english/)).
 
 Several mechanisms make late discovery likely:
 

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-071
 slug: why-live-data-still-gets-managed-from-a-weekly-report
-title: Why Real-Time Operations Still Depend on Friday Reports
-description: Live capture does not make a business responsive if nothing turns events into action. Learn which few events should bypass the weekly report and how to route them to the right person.
+title: Why real-time operations still depend on Friday reports
+description: Live capture does not make a business responsive unless events turn into action. Pick the few events that should bypass the weekly report and route them.
 lead: Live capture does not make a business responsive if nothing turns events into action. Learn which few events should bypass the weekly report and how to route them to the right person.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-10
@@ -19,9 +19,10 @@ sources:
   - Set data alerts in the Power BI service - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
   - Google SRE monitoring ditributed system - sre golden signals | https://sre.google/sre-book/monitoring-distributed-systems/
 related:
-  - Why New Clients Wait While Internal Teams Coordinate | /patterns/why-new-clients-wait-while-internal-teams-coordinate/
-  - When Your Metrics Arrive After the Decision Was Needed | /patterns/when-the-number-arrives-after-the-decision-is-made/
-  - When Every Department Reports the Same Metric Differently | /patterns/when-every-department-reports-the-same-metric-differently/
+  - Why new clients wait while internal teams coordinate | /patterns/why-new-clients-wait-while-internal-teams-coordinate/
+  - When your metrics arrive after the decision was needed | /patterns/when-the-number-arrives-after-the-decision-is-made/
+  - When every department reports the same metric differently | /patterns/when-every-department-reports-the-same-metric-differently/
+  - Why operational visibility becomes more important as you scale | /patterns/why-a-growing-business-loses-sight-of-itself-and-how-to-restore-it/
 summary: Live capture does not make a business responsive if nothing turns events into action. Learn which few events should bypass the weekly report and how to route them to the right person.
 layout: plain
 ---
@@ -57,11 +58,13 @@ The visible symptom is a reliance on one weekly report despite modern systems. T
 
 The commercial value at stake is speed, customer experience, risk and margin.
 
-Speed is lost wherever a recoverable problem is left to become an unrecoverable one. A late delivery that is noticed in the control room can be re-routed; the same delivery noticed in a weekly summary becomes a credit note. Customer experience follows, since customers feel the difference between a call that says "we have spotted a problem and are fixing it" and an explanation a week later. Risk includes spoiled stock, safety incidents and contract penalties that depend on how fast a response is made. Margin is eroded by repeated small losses that never look important enough individually to appear in a summary. The related cost of finding things out late is examined in [Why Management Finds Out Too Late](/patterns/why-management-finds-out-too-late/).
+Speed is lost wherever a recoverable problem is left to become an unrecoverable one. A late delivery that is noticed in the control room can be re-routed; the same delivery noticed in a weekly summary becomes a credit note. Customer experience follows, since customers feel the difference between a call that says "we have spotted a problem and are fixing it" and an explanation a week later.
+
+Risk includes spoiled stock, safety incidents and contract penalties that depend on how fast a response is made. Margin is eroded by repeated small losses that never look important enough individually to appear in a summary. The related cost of finding things out late is examined in [Why Management Finds Out Too Late](/patterns/why-management-finds-out-too-late/).
 
 ## Common misidentification
 
-The common mistake is to demand that everything be real-time. Streaming is more complex and more costly to run, and IBM itself points out that batch remains well suited to jobs like daily reporting. For most measures, a weekly view is exactly right, since trends and totals are what management needs.
+The common mistake is to demand that everything be real-time. Streaming is more complex and more costly to run, and [IBM itself points out](https://www.ibm.com/think/topics/streaming-data) that batch remains well suited to jobs like daily reporting. For most measures, a weekly view is exactly right, since trends and totals are what management needs.
 
 The right question is not "can we make the report live?" but "which few events must never wait for the report?" A business may need real-time handling for five or six situations and a weekly rhythm for everything else. The Friday report is not the problem. Its monopoly on attention is.
 
@@ -69,7 +72,9 @@ A second misidentification is to put a live screen on the wall. It looks modern,
 
 ## Possibility
 
-In a better arrangement, the live data the business already holds is used for a small number of defined triggers. Each trigger names an event, a threshold, a recipient and a first action. A temperature excursion goes to the shift controller with the vehicle, the load and the customer attached. A missed delivery window creates a task for the account manager and a proactive message to the customer. The Friday report is then free to do what reports do best: show patterns, repeat offenders and trends, because the individual incidents have already been dealt with.
+In a better arrangement, the live data the business already holds is used for a small number of defined triggers. Each trigger names an event, a threshold, a recipient and a first action. A temperature excursion goes to the shift controller with the vehicle, the load and the customer attached. A missed delivery window creates a task for the account manager and a proactive message to the customer.
+
+IBM describes [event-driven architecture](https://www.ibm.com/think/topics/event-driven-architecture) as a design model built around the publication, capture, processing and storage of events, which is the kind of plumbing a trigger needs. Tools such as Power BI also let people [set data alerts](https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts) on KPIs, gauges and cards. Google's guidance on [monitoring distributed systems](https://sre.google/sre-book/monitoring-distributed-systems/) adds a useful test: every page should be actionable, with good signal and very low noise. The Friday report is then free to do what reports do best: show patterns, repeat offenders and trends, because the individual incidents have already been dealt with.
 
 The weekly meeting changes character. Instead of discovering that something went wrong, it reviews how quickly it was handled and what to change so it happens less often.
 

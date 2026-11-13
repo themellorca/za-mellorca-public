@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-273
 slug: dashboards-outlive-the-process-they-measure
 title: Why dashboards keep running after the process they measure has changed
-description: A process is redesigned, but its dashboard keeps measuring the old steps and statuses. Why reports drift out of step with operations, and how to tie dashboard reviews to process change.
+description: A redesigned process leaves its dashboard measuring old steps and statuses. Why reports drift from operations and how to link reviews to change.
 lead: A process is redesigned, but its dashboard keeps measuring the old steps and statuses. Why reports drift out of step with operations, and how to tie dashboard reviews to process change.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-05
@@ -33,9 +33,9 @@ A dashboard is built around a process as it existed on the day it was designed: 
 
 This is different from a broken report. A broken report fails visibly. An outdated dashboard looks healthy, which is why it survives.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Operations and BI leads search for how to keep dashboards aligned with business processes, when to retire a report, or why metrics stopped making sense after a system change. Process owners who have just redesigned a workflow want to know whether it is working. The practical need is a link between process change and reporting change, so that any redesign triggers a review of the dashboards that measure it.
+Operations and BI leads ask how to keep dashboards aligned with business processes, when to retire a report, or why metrics stopped making sense after a system change. Process owners who have just redesigned a workflow want to know whether it is working. The practical need is a link between process change and reporting change, so that any redesign triggers a review of the dashboards that measure it.
 
 ## Evidence and system mechanism
 

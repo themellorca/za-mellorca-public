@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-182
 slug: where-ai-agents-add-value-and-where-they-add-unnecessary-risk
-title: Where AI Agents Add Value—and Where They Add Unnecessary Risk
-description: AI agents are useful where work is varied, information is messy and a wrong step is cheap to undo. They add risk without much benefit where the work follows fixed rules, moves money or changes records that are hard to reverse. A practical way to tell the two apart, task by task.
+title: Where AI agents add value—and where they add unnecessary risk
+description: AI agents suit varied, messy work where a wrong step is cheap to undo. They add risk where work follows fixed rules, moves money or is hard to reverse.
 lead: AI agents are useful where work is varied, information is messy and a wrong step is cheap to undo. They add risk without much benefit where the work follows fixed rules, moves money or changes records that are hard to reverse. A practical way to tell the two apart, task by task.
 category: Automation & AI
 published_date: 2026-10-07
@@ -14,9 +14,10 @@ sources:
   - LLM06:2025 Excessive Agency | https://genai.owasp.org/llmrisk/llm062025-excessive-agency/
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
 related:
-  - What AI Agents Need Before They Can Do Useful Work | /insights/what-ai-agents-need-before-they-can-do-useful-work/
-  - How Piling On AI Tools Creates a New Layer of Software Mess | /insights/how-piling-on-ai-tools-creates-a-new-layer-of-software-mess/
-  - The Difference Between Necessary Human Work and Avoidable Manual Work | /insights/the-difference-between-necessary-human-work-and-avoidable-manual-work/
+  - What AI agents need before they can do useful work | /insights/what-ai-agents-need-before-they-can-do-useful-work/
+  - How piling on AI tools creates a new layer of software mess | /insights/how-piling-on-ai-tools-creates-a-new-layer-of-software-mess/
+  - The difference between necessary human work and avoidable manual work | /insights/the-difference-between-necessary-human-work-and-avoidable-manual-work/
+  - What should an AI agent be allowed to do? | /insights/what-an-ai-agent-should-be-allowed-to-do-in-your-business/
 summary: AI agents are useful where work is varied, information is messy and a wrong step is cheap to undo. They add risk without much benefit where the work follows fixed rules, moves money or changes records that are hard to reverse. A practical way to tell the two apart, task by task.
 layout: plain
 ---

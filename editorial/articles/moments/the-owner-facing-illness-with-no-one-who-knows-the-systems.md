@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000423
 slug: the-owner-facing-illness-with-no-one-who-knows-the-systems
-title: The Owner Facing Illness With No One Who Knows the Systems
-description: When an owner falls seriously ill, the first wall a small business hits is often access: the bank, payroll and passwords that only one person holds. What can be arranged while everyone is well.
+title: The owner facing illness with no one who knows the systems
+description: When an owner falls seriously ill, a small business often hits a wall of access: the bank, payroll and passwords one person holds. What to arrange now.
 lead: When an owner falls seriously ill, the first wall a small business hits is often access: the bank, payroll and passwords that only one person holds. What can be arranged while everyone is well.
 category: Life Transitions & Vulnerability
 published_date: 2026-10-07
@@ -20,9 +20,10 @@ sources:
   - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
   - What Is Business Continuity? - IBM | https://www.ibm.com/think/topics/business-continuity
 related:
-  - When Parental Leave Means Handing Over an Undocumented Job | /moments/when-parental-leave-means-handing-over-an-undocumented-job/
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
-  - The Attention Spent Remembering What Systems Should Remember | /moments/the-attention-spent-remembering-what-systems-should-remember/
+  - When parental leave means handing over an undocumented job | /moments/when-parental-leave-means-handing-over-an-undocumented-job/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - The attention spent remembering what systems should remember | /moments/the-attention-spent-remembering-what-systems-should-remember/
+  - When a death in the family reveals who held the passwords | /moments/when-a-death-reveals-who-held-the-passwords/
 summary: When an owner falls seriously ill, the first wall a small business hits is often access: the bank, payroll and passwords that only one person holds. What can be arranged while everyone is well.
 layout: plain
 ---
@@ -52,9 +53,9 @@ When people talk about key-person risk, they often mean knowledge: the owner kno
 - Passwords stored in a personal browser or a notebook at home.
 - Supplier and tax portal logins that only one person has ever used.
 
-Large organisations plan for this explicitly. Microsoft's guidance for its Entra identity platform recommends that organisations keep at least two emergency access accounts, not tied to any individual, with credentials stored securely and available to more than one authorised person. Among the situations it lists are an administrator's devices being unavailable and the last person with full administrative access leaving the organisation. The guidance is written for IT teams, but the principle travels to a twelve-person firm: no critical access should depend on one person's phone.
+Large organisations plan for this explicitly. Microsoft's guidance for its Entra identity platform recommends that organisations keep at least two [emergency access](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access) accounts, not tied to any individual, with credentials stored securely and available to more than one authorised person. Among the situations it lists are an administrator's devices being unavailable and the last person with full administrative access leaving the organisation. The guidance is written for IT teams, but the principle travels to a twelve-person firm: no critical access should depend on one person's phone.
 
-Consumer tools have caught up with the same idea. Bitwarden, for example, documents an emergency access feature in which a user nominates trusted contacts who can request access to a vault; the owner can approve it, or access is granted after a waiting period the owner has chosen. Other password managers offer comparable features.
+Consumer tools have caught up with the same idea. Bitwarden, for example, documents an [emergency access](https://bitwarden.com/help/emergency-access/) feature in which a user nominates trusted contacts who can request access to a vault; the owner can approve it, or access is granted after a waiting period the owner has chosen. Other password managers offer comparable features.
 
 ## An illustrative case
 

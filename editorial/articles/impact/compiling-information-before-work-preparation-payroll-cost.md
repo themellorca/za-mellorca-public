@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-006
 slug: compiling-information-before-work-preparation-payroll-cost
-title: Gathering Information Before Work Can Start: The Payroll Cost of Preparation
+title: Gathering information before work can start: The payroll cost of preparation
 description: When staff must collect figures, files and updates from several places before a task can begin, the business pays for assembly work, not the work itself.
 lead: When staff must collect figures, files and updates from several places before a task can begin, the business pays for assembly work, not the work itself.
 category: Business Automation
@@ -17,9 +17,9 @@ sources:
   - What Is Data Integration? - IBM | https://www.ibm.com/think/topics/data-integration
   - Explore the Power Automate home page - Power Automate | https://learn.microsoft.com/en-us/power-automate/getting-started
 related:
-  - The Payroll Cost of Work Software Could Do Automatically | /impact/repeatable-manual-work-payroll-cost-automation/
-  - From Inbox to System by Hand: The Labour Cost of Retyping Emails | /impact/copying-email-details-into-business-systems-admin-cost/
-  - Manual Automation Triggers Leave Half the Process Manual | /impact/manual-automation-trigger-half-automated-process-cost/
+  - The payroll cost of work software could do automatically | /impact/repeatable-manual-work-payroll-cost-automation/
+  - From inbox to system by hand: The labour cost of retyping emails | /impact/copying-email-details-into-business-systems-admin-cost/
+  - Manual automation triggers leave half the process manual | /impact/manual-automation-trigger-half-automated-process-cost/
 summary: When staff must collect figures, files and updates from several places before a task can begin, the business pays for assembly work, not the work itself.
 layout: plain
 ---
@@ -99,7 +99,7 @@ The aim is not one system that does everything. It is that the inputs for routin
 
 - **A clear system of record for each kind of information,** so staff know which source is authoritative.
 - **Integration between the systems that feed routine outputs,** so stock, prices, customer history and job status can be seen together. IBM describes integration as combining and harmonising data from multiple sources into a unified, coherent format.
-- **Automated collection for recurring outputs.** Tools such as Microsoft Power Automate are designed to automate repetitive tasks and move data between applications and services, so the weekly pack or the client update can be pre-filled.
+- **Automated collection for recurring outputs.** Tools such as Microsoft [Power Automate](https://learn.microsoft.com/en-us/power-automate/getting-started) are designed to automate repetitive tasks and move data between applications and services, so the weekly pack or the client update can be pre-filled.
 - **Templates and views built around the task,** not around each system's own screens.
 
 ## Practical steps

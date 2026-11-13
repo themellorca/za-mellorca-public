@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-066
 slug: software-needing-constant-manual-workarounds-hidden-labour-cost-behind-licence-fee
-title: The Labour Cost Hidden Behind Software That Needs Constant Workarounds
+title: The labour cost hidden behind software that needs constant workarounds
 description: When staff patch the gaps in a business system by hand, the real cost of the software is its licence plus a recurring labour bill that no invoice shows.
 lead: When staff patch the gaps in a business system by hand, the real cost of the software is its licence plus a recurring labour bill that no invoice shows.
 category: Digital Operations
@@ -17,9 +17,9 @@ sources:
   - Explore the Power Automate home page - Power Automate | https://learn.microsoft.com/en-us/power-automate/getting-started
   - Manage your data in Dynamics 365 implementation projects - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management
 related:
-  - Recreating Documents Nobody Can Find: The Cost of Duplicated Work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
-  - Policing Routine Work: The Management Cost of Checking Recurring Tasks by Hand | /impact/checking-recurring-tasks-completed-management-policing-cost/
-  - Software Bought Before the Process Was Defined: What Failed Implementations Cost | /impact/technology-bought-before-process-defined-failed-implementation-wasted-licences/
+  - Recreating documents nobody can find: The cost of duplicated work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
+  - Policing routine work: The management cost of checking recurring tasks by hand | /impact/checking-recurring-tasks-completed-management-policing-cost/
+  - Software bought before the process was defined: What failed implementations cost | /impact/technology-bought-before-process-defined-failed-implementation-wasted-licences/
 summary: When staff patch the gaps in a business system by hand, the real cost of the software is its licence plus a recurring labour bill that no invoice shows.
 layout: plain
 ---

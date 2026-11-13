@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-353
 slug: what-to-decide-before-configuring-a-new-platform
-title: What to Decide Before Configuring a New Platform
-description: Configuration records decisions whether or not anyone made them. Ten decisions about the work and the platform's governance to settle before setting up a new CRM, ERP or job management system.
+title: What to decide before configuring a new platform
+description: Configuration records decisions whether or not anyone made them. Ten decisions to settle before setting up a new CRM, ERP or job system.
 lead: Configuration records decisions whether or not anyone made them. Ten decisions about the work and the platform's governance to settle before setting up a new CRM, ERP or job management system.
 category: Systems & Strategy
 published_date: 2026-10-07
@@ -14,9 +14,9 @@ sources:
   - Secure your Dynamics 365 data and apps - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/security
   - Introduction to the Success by Design framework - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/success-by-design
 related:
-  - How to Decide Whether to Replace or Reconfigure a System | /insights/how-to-decide-whether-to-replace-or-reconfigure-a-system/
-  - How to Measure Whether Software Is Paying for Itself | /insights/how-to-measure-whether-software-is-paying-for-itself/
-  - How Software Renewal Dates Can Force Better Technology Decisions | /insights/how-software-renewal-dates-can-force-better-technology-decisions/
+  - How to decide whether to replace or reconfigure a system | /insights/how-to-decide-whether-to-replace-or-reconfigure-a-system/
+  - How to measure whether software is paying for itself | /insights/how-to-measure-whether-software-is-paying-for-itself/
+  - How software renewal dates can force better technology decisions | /insights/how-software-renewal-dates-can-force-better-technology-decisions/
 summary: Configuration records decisions whether or not anyone made them. Ten decisions about the work and the platform's governance to settle before setting up a new CRM, ERP or job management system.
 layout: plain
 ---
@@ -29,7 +29,7 @@ This article sets out the decisions worth making before configuration starts. No
 
 ## Why the order matters
 
-Microsoft's implementation guidance for Dynamics 365 is blunt about this. It describes a common mistake as thinking that the new system defines your processes, and states that it is the other way around: technology is an enabler, and the system should serve and fit the business's operations. It also says business processes must be defined before work on requirements and other aspects of the solution.
+Microsoft's [implementation guidance for Dynamics 365](https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution) is blunt about this. It describes a common mistake as thinking that the new system defines your processes, and states that it is the other way around: technology is an enabler, and the system should serve and fit the business's operations. It also says business processes must be defined before work on requirements and other aspects of the solution. Microsoft's [Success by Design framework](https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/success-by-design) takes a similar view of timing: it starts with a solution blueprint review in the earliest phase so that risks are found before they become costly.
 
 That guidance is written for large implementations, but the principle holds for a 20-person business setting up its first CRM. The decisions below fall into two groups: those about the work, and those about how the platform will be governed.
 
@@ -59,7 +59,7 @@ Decide whether the new platform or another system owns customers, products, pric
 
 ### 6. Who can see and change what
 
-Microsoft's guidance says security should be the first concern when a project starts, not an afterthought, and warns that ignoring it can cause legal, financial and business risks as well as delays. It also warns against hiding fields from forms as a form of security, since anyone with the right role can still reach the data in other ways. Decide roles and access rules before data is loaded, especially for personal and financial information.
+Microsoft's guidance says [security should be the first concern](https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/security) when a project starts, not an afterthought, and warns that ignoring it can cause legal, financial and business risks as well as delays. It also warns against hiding fields from forms as a form of security, since anyone with the right role can still reach the data in other ways. Decide roles and access rules before data is loaded, especially for personal and financial information.
 
 ### 7. Standard features or customisation
 

@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-002
 slug: when-copy-and-paste-becomes-part-of-the-job-description
-title: When Copy-and-Paste Becomes Part of the Job Description
+title: When copy-and-paste becomes part of the job description
 description: Repeated copy-and-paste work can reveal a missing workflow or integration layer rather than a genuine need for manual effort.
 lead: When moving routine work forward depends on people repeatedly transferring the same information between systems, manual effort may be compensating for a missing digital handoff.
 category: Manual Work & Administrative Load
@@ -26,9 +26,9 @@ sources:
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
   - Actions - Power Automate | https://learn.microsoft.com/en-us/power-automate/actions-introduction
 related:
-  - When Manual Exceptions Become the Normal Process | /patterns/when-manual-exceptions-become-the-normal-process/
-  - When People Are Used to Move Data Instead of Make Decisions | /patterns/when-people-are-used-to-move-data-instead-of-make-decisions/
-  - Why High-Value Employees Become Human Middleware | /patterns/why-high-value-employees-become-human-middleware/
+  - When manual exceptions become the normal process | /patterns/when-manual-exceptions-become-the-normal-process/
+  - When people are used to move data instead of make decisions | /patterns/when-people-are-used-to-move-data-instead-of-make-decisions/
+  - Why high-value employees become human middleware | /patterns/why-high-value-employees-become-human-middleware/
 summary: Repeated copy-and-paste is not automatically harmless admin. When predictable information must travel between systems through people, the business may have a missing workflow or integration layer.
 ---
 ## Observable condition
@@ -83,7 +83,7 @@ The opposite error is also common: assuming the answer is to automate every copy
 
 A better operating model captures information once, assigns a system of record, and moves subsequent data or status changes through controlled integrations or workflow events. Humans remain responsible for judgment and exceptions rather than predictable transport.
 
-The evidence for where the copying happens often already exists. Microsoft's process mining capability in Power Automate, for example, is documented as extracting event data from systems of record to show how processes are actually executed, including where bottlenecks and automation opportunities sit. Simpler methods, such as observing a week of work and logging each transfer, can produce a useful map without any new tooling.
+The evidence for where the copying happens often already exists. Microsoft's [process mining](https://learn.microsoft.com/en-us/power-automate/process-mining-overview) capability in Power Automate, for example, is documented as extracting event data from systems of record to show how processes are actually executed, including where bottlenecks and automation opportunities sit. Simpler methods, such as observing a week of work and logging each transfer, can produce a useful map without any new tooling.
 
 ## Trade-offs
 

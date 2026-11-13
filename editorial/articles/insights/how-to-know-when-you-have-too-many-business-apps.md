@@ -2,9 +2,9 @@
 hub: insights
 record_id: INS-028
 slug: how-to-know-when-you-have-too-many-business-apps
-title: How to Know When You Have Too Many Business Apps
-description: A practical guide for business leaders to recognize app sprawl, assess integration burden, and implement a disciplined portfolio rationalization process.
-lead: A practical guide for business leaders to recognize app sprawl, assess integration burden, and implement a disciplined portfolio rationalization process.
+title: How to know when you have too many business apps
+description: How to recognise app sprawl, weigh the integration burden it creates, and cut the portfolio back in a disciplined way.
+lead: How to recognise app sprawl, weigh the integration burden it creates, and cut the portfolio back in a disciplined way.
 category: Operations / Digital Transformation
 published_date: 2026-10-02
 updated_date: 2026-10-02
@@ -16,10 +16,10 @@ sources:
   - Business process management - Wikipedia | https://en.wikipedia.org/wiki/Business_process_management
   - Software bloat - Wikipedia | https://en.wikipedia.org/wiki/Software_bloat
 related:
-  - Why More Software Can Make the Business Harder to Run | /insights/why-more-software-can-make-the-business-harder-to-run/
-  - How to Know Whether Your Business Depends Too Much on One Person | /insights/how-to-know-whether-your-business-depends-too-much-on-one-person/
+  - Why more software can make the business harder to run | /insights/why-more-software-can-make-the-business-harder-to-run/
+  - How to know whether your business depends too much on one person | /insights/how-to-know-whether-your-business-depends-too-much-on-one-person/
   - The hidden cost of operational friction in digital systems | /insights/hidden-cost-of-operational-friction/
-summary: A practical guide for business leaders to recognize app sprawl, assess integration burden, and implement a disciplined portfolio rationalization process.
+summary: How to recognise app sprawl, weigh the integration burden it creates, and cut the portfolio back in a disciplined way.
 layout: plain
 ---
 Assessing the size and health of a company’s application landscape is a foundational governance task, not merely an exercise in IT inventory. When teams operate with overlapping tools, duplicated data and fragile integrations, the business pays in latency, cost and risk. This article maps a pragmatic path to detect and understand app sprawl, turn it into actionable governance, and unlock measurable operating benefits.
@@ -59,11 +59,13 @@ Resist the urge to start by cancelling subscriptions. Cutting the wrong tool can
 3. **Group by capability.** Sort apps by the job they do: customer records, quoting, scheduling, documents, messaging, finance. Overlaps become obvious once tools sit next to each other.
 4. **Trace one process end to end.** Follow a real order or client from first contact to payment and note every tool it touches and every time someone retypes data.
 
-IBM describes application portfolio management as a continuing cycle that starts with an inventory, assesses usage, aligns applications with business priorities and then keeps reviewing, rather than a one-off clean-up. That framing matters: a register that is not maintained will be wrong within a year.
+IBM describes [application portfolio management](https://www.ibm.com/think/topics/application-portfolio-management) as a continuing cycle that starts with an inventory, assesses usage, aligns applications with business priorities and then keeps reviewing, rather than a one-off clean-up. That framing matters: a register that is not maintained will be wrong within a year.
 
 ### A worked example
 
-Consider a 60-person engineering services firm with offices in Johannesburg and Durban. Its register showed three file-sharing services, two CRMs (one per office), a separate quoting spreadsheet, two video-calling tools and a field-service app used by only four technicians. The licence total was modest. The real cost appeared in the process trace: a won quote was retyped into the CRM, again into the job scheduler and again into accounting, and the Durban CRM held customer records that Johannesburg could not see. Consolidating to one CRM and one file platform removed two re-entry steps and gave both offices the same customer history. The field-service app stayed, because it did a job nothing else did well; it simply gained a named owner and an integration.
+Consider a 60-person engineering services firm with offices in Johannesburg and Durban. Its register showed three file-sharing services, two CRMs (one per office), a separate quoting spreadsheet, two video-calling tools and a field-service app used by only four technicians. The licence total was modest.
+
+The real cost appeared in the process trace: a won quote was retyped into the CRM, again into the job scheduler and again into accounting, and the Durban CRM held customer records that Johannesburg could not see. Consolidating to one CRM and one file platform removed two re-entry steps and gave both offices the same customer history. The field-service app stayed, because it did a job nothing else did well; it simply gained a named owner and an integration.
 
 ## How to begin rationalising your portfolio
 

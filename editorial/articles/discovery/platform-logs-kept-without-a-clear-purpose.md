@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-313
 slug: platform-logs-kept-without-a-clear-purpose
 title: Why platform logs pile up without anyone knowing what they are for
-description: Many businesses collect and store large volumes of system logs, yet cannot find the right evidence during an outage. How to give every log source a purpose, an owner and a retention period.
+description: Many businesses store large volumes of logs yet cannot find the right evidence in an outage. How to give each source a purpose, owner and retention period.
 lead: Many businesses collect and store large volumes of system logs, yet cannot find the right evidence during an outage. How to give every log source a purpose, an owner and a retention period.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-07
@@ -38,9 +38,9 @@ Logs are records that systems write about what they are doing: errors, sign-ins,
 - personal or sensitive information appearing in logs;
 - incident teams unable to find the logs they need, despite large volumes stored.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for how long to keep logs, how to reduce logging costs, what logs to collect for security, or whether logs fall under POPIA. IT managers want useful evidence during incidents. Finance wants to know why the logging bill keeps growing. Compliance officers want to know what personal information sits in logs and for how long. The real need is a short logging standard: what each source is for, who owns it, what it should contain and how long it is kept.
+The questions usually asked are how long to keep logs, how to reduce logging costs, what logs to collect for security, or whether logs fall under POPIA. IT managers want useful evidence during incidents. Finance wants to know why the logging bill keeps growing. Compliance officers want to know what personal information sits in logs and for how long. The real need is a short logging standard: what each source is for, who owns it, what it should contain and how long it is kept.
 
 ## Evidence and system mechanism
 

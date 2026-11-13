@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-070
 slug: paying-extra-for-features-already-in-your-plan-entitlement-check-cost
-title: Paying Twice: What It Costs When Nobody Knows What Your Plan Already Includes
-description: Plans change and purchases are made one at a time, so overlapping fees go unnoticed. A simple entitlement register shows what you already own before you buy again.
+title: Paying twice: What it costs when nobody knows what your plan already includes
+description: Plans change and purchases are made one at a time, so overlapping fees go unnoticed. A simple entitlement register shows what you own before you buy again.
 lead: Plans change and purchases are made one at a time, so overlapping fees go unnoticed. A simple entitlement register shows what you already own before you buy again.
 category: Digital Infrastructure
 published_date: 2026-10-10
@@ -18,9 +18,9 @@ sources:
   - Microsoft 365 Admin Center Usage Reports Overview - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports
   - Microsoft 365 Commercial Subscription Prices Set to Hike Mid 2026 -- Redmond Channel Partner | https://rcpmag.com/articles/2025/12/09/microsoft-365-commercial-subscription-prices-set-to-hike-mid-2026.aspx
 related:
-  - Software Nobody Measured: Paying for Tools Without Knowing What They Return | /impact/software-return-never-measured-before-after-baseline-technology-spending-cost/
-  - Software Bought Without Approval: The Financial and Security Cost of Shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
-  - Software That Grew by Accident: The Price of Complexity Nobody Designed | /impact/software-environment-grew-by-accident-complexity-duplication-lost-productivity-cost/
+  - Software nobody measured: Paying for tools without knowing what they return | /impact/software-return-never-measured-before-after-baseline-technology-spending-cost/
+  - Software bought without approval: The financial and security cost of shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
+  - Software that grew by accident: The price of complexity nobody designed | /impact/software-environment-grew-by-accident-complexity-duplication-lost-productivity-cost/
 summary: Plans change and purchases are made one at a time, so overlapping fees go unnoticed. A simple entitlement register shows what you already own before you buy again.
 layout: plain
 ---
@@ -30,7 +30,7 @@ A finance manager is reviewing the card statement and spots two lines that look 
 
 Mellorca has already looked at [specialist tools bought for jobs an existing platform could handle](/impact/expensive-tools-for-tasks-existing-platform-handles-cost/) and at [several applications doing the same job](/impact/pain-paying-for-multiple-applications-duplicate-software-fragmented-work/). This article looks at a narrower and more persistent cause: the business has no record of what its current plans actually include. Without that record, every new purchase is made in ignorance of what is already owned, and every change to a vendor's plan goes unnoticed.
 
-It matters because plans do not stand still. Vendors add features, move them between tiers and bundle them into higher plans. When Microsoft announced commercial price rises effective July 2026, trade coverage reported that the company linked the increases to new AI, security and management features added to its plans. Whether or not a price rise is justified, a change like that shifts what is already inside your subscription. A business that does not read the change may be buying a separate product for something it has just been given.
+It matters because plans do not stand still. Vendors add features, move them between tiers and bundle them into higher plans. When Microsoft announced commercial price rises effective July 2026, [trade coverage](https://rcpmag.com/articles/2025/12/09/microsoft-365-commercial-subscription-prices-set-to-hike-mid-2026.aspx) reported that the company linked the increases to new AI, security and management features added to its plans. Whether or not a price rise is justified, a change like that shifts what is already inside your subscription. A business that does not read the change may be buying a separate product for something it has just been given.
 
 ## Why businesses tolerate paying twice
 
@@ -50,7 +50,7 @@ You will usually find it in a handful of recognisable forms:
 - A standalone booking or scheduling service alongside a suite that includes one.
 - Staff keeping files in three places because each tool has its own storage.
 
-Microsoft's own developer documentation for Microsoft Graph lists services inside the Microsoft 365 core, among them Bookings, Planner, To Do, OneNote, SharePoint and Teams. Many owners of that suite could not say which of those they have switched on, let alone use. Google's documentation shows the same variation: it groups Workspace into Business, Education, Enterprise and Essentials editions and says Enterprise adds premium security and advanced controls, while Essentials leaves out Gmail. Which edition you hold changes what you already own.
+[Microsoft's own developer documentation for Microsoft Graph](https://learn.microsoft.com/en-us/graph/overview) lists services inside the Microsoft 365 core, among them Bookings, Planner, To Do, OneNote, SharePoint and Teams. Many owners of that suite could not say which of those they have switched on, let alone use. [Google's documentation](https://knowledge.workspace.google.com/admin/getting-started/editions/compare-google-workspace-editions) shows the same variation: it groups Workspace into Business, Education, Enterprise and Essentials editions and says Enterprise adds premium security and advanced controls, while Essentials leaves out Gmail. Which edition you hold changes what you already own.
 
 ## The financial chain
 
@@ -101,7 +101,7 @@ It pairs naturally with the [business application inventory](/insights/how-to-bu
 
 1. **List your platforms.** Start with the two or three large suites: email and documents, accounting, customer records. Note the exact plan name on the latest invoice.
 2. **Check the current comparison pages.** Use the vendor's own edition comparison, not a reseller summary, and note the date you checked.
-3. **Pull usage and licence data.** The Microsoft 365 admin centre shows licences assigned and unassigned, and usage reports show which services people actually use. Google Workspace admins have comparable reports, depending on edition.
+3. **Pull usage and licence data.** The Microsoft 365 admin centre shows licences assigned and unassigned, and [usage reports](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports) show which services people actually use. Google Workspace admins have comparable reports, depending on edition.
 4. **Match every paid add-on against the register.** For each overlap, ask what the add-on does that the built-in feature cannot, and whether anyone uses that extra.
 5. **Trial the built-in option with a small group** before cancelling anything. Replace in the order of least risk, and keep the old tool until data has been moved out. Our article on [rationalising software without breaking the business](/insights/how-to-rationalise-software-without-breaking-the-business/) sets out a safe sequence.
 6. **Add one gate to approvals:** any new software request must name the existing platform it was checked against.

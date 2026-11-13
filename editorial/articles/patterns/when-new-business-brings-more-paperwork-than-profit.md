@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-010
 slug: when-new-business-brings-more-paperwork-than-profit
-title: When New Business Brings More Paperwork Than Profit
-description: Some growth arrives wrapped in special terms, custom pricing and one-off processes. When each new account adds more handling than margin, the business is growing its administration faster than its revenue.
+title: When new business brings more paperwork than profit
+description: Special terms, custom pricing and one-off processes make growth costly. When each account adds more handling than margin, administration outgrows revenue.
 lead: Some growth arrives wrapped in special terms, custom pricing and one-off processes. When each new account adds more handling than margin, the business is growing its administration faster than its revenue.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -18,9 +18,9 @@ sources:
   - What is Process Mining? - IBM | https://www.ibm.com/think/topics/process-mining
   - Muda, Mura, Muri - Get a Quick Introduction - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/muda-mura-muri/
 related:
-  - The Cost of Work That Adds No New Information | /patterns/the-cost-of-work-that-adds-no-new-information/
-  - The Process That Gets Slower Every Time Volume Increases | /patterns/the-process-that-gets-slower-every-time-volume-increases/
-  - The Business Process That Only Works Because Someone Remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
+  - The cost of work that adds no new information | /patterns/the-cost-of-work-that-adds-no-new-information/
+  - The process that gets slower every time volume increases | /patterns/the-process-that-gets-slower-every-time-volume-increases/
+  - The business process that only works because someone remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
 summary: Some growth arrives wrapped in special terms, custom pricing and one-off processes. When each new account adds more handling than margin, the business is growing its administration faster than its revenue.
 layout: plain
 ---
@@ -56,7 +56,7 @@ It is related to [why revenue growth requires more admin staff](/patterns/why-re
 - **Handling cost sits in overheads.** Because administration is not allocated to customers or products, a demanding small account and a simple large one appear equally attractive.
 - **Variety accumulates and is never retired.** Old arrangements stay in place long after the reason for them has gone, so the number of variations only ever increases.
 
-Process mining, as IBM describes it, uses system event logs to reveal how processes actually run, including variations and deviations from the intended model. Even without such tools, the same idea applies: the number of distinct ways the business handles an order or an invoice is a measurable property, and it is often far higher than managers expect.
+[Process mining](https://www.ibm.com/think/topics/process-mining), as IBM describes it, uses system event logs to reveal how processes actually run, including variations and deviations from the intended model. Even without such tools, the same idea applies: the number of distinct ways the business handles an order or an invoice is a measurable property, and it is often far higher than managers expect.
 
 ## Commercial impact
 

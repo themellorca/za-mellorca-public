@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000073
 slug: when-a-request-disappears-into-a-queue-nobody-can-see
-title: When a Request Disappears Into a Queue Nobody Can See
+title: When a request disappears into a queue nobody can see
 description: A request with no visible status leaves people chasing, guessing and hedging. Why seeing the queue matters, and what to be careful about when you open it.
 lead: A request with no visible status leaves people chasing, guessing and hedging. Why seeing the queue matters, and what to be careful about when you open it.
 category: Human Agency
@@ -20,9 +20,9 @@ sources:
   - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
   - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
 related:
-  - What Changes When People Can See Their Own Numbers | /moments/what-changes-when-people-can-see-their-own-numbers/
-  - When the System Decides What You Can Do Today | /moments/when-the-system-decides-what-you-can-do-today/
-  - Why Clear Ownership Gives People Room to Decide | /moments/why-clear-ownership-gives-people-room-to-decide/
+  - What changes when people can see their own numbers | /moments/what-changes-when-people-can-see-their-own-numbers/
+  - When the system decides what you can do today | /moments/when-the-system-decides-what-you-can-do-today/
+  - Why clear ownership gives people room to decide | /moments/why-clear-ownership-gives-people-room-to-decide/
 summary: A request with no visible status leaves people chasing, guessing and hedging. Why seeing the queue matters, and what to be careful about when you open it.
 layout: plain
 ---
@@ -34,9 +34,9 @@ This piece looks at what that waiting does to a person, and at what changes when
 
 Waiting is not the only cost. A request that is simply slow can be planned around. The harder case is a request whose position is unknown. The employee cannot tell whether to book the flights, order the stock or tell the customer that the answer is coming. So they hedge: they make provisional plans, send a reminder, or find another route to get the work done without the approval at all.
 
-Nielsen Norman Group's first usability heuristic, visibility of system status, puts this in design terms. Keeping users informed about what is happening lets them decide what to do next, and missing status information leaves them feeling powerless. The same article warns that silently changing things erodes trust. A request that vanishes into an unseen queue is a clear example of a system that has not told the person what it is doing.
+Nielsen Norman Group's first usability heuristic, [visibility of system status](https://www.nngroup.com/articles/visibility-system-status/), puts this in design terms. Keeping users informed about what is happening lets them decide what to do next, and missing status information leaves them feeling powerless. The same article warns that silently changing things erodes trust. A request that vanishes into an unseen queue is a clear example of a system that has not told the person what it is doing.
 
-There is a link to working-conditions research as well. The World Health Organization's fact sheet on mental health at work lists lack of control over job design or workload and an unclear role among the psychosocial risks. The UK Health and Safety Executive's standard on control describes the aim that people feel able to influence how they carry out their work. A person who cannot see what is happening to their own request has little influence over it, even when nobody intends that.
+There is a link to working-conditions research as well. The World Health Organization's fact sheet on [mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) lists lack of control over job design or workload and an unclear role among the psychosocial risks. The UK Health and Safety Executive's standard on control describes the aim that people feel able to influence how they carry out their work. A person who cannot see what is happening to their own request has little influence over it, even when nobody intends that.
 
 ## An illustrative example
 
@@ -48,7 +48,7 @@ Now picture the same firm where each request has a visible status: submitted, wi
 
 ## What visibility changes, and what it does not
 
-Modern workflow tools can do this fairly simply. Microsoft's documentation on Power Automate approvals explains that when a request is submitted, approvers are notified and can review and act on it, and that approvals can be sequential, so each approver responds before the request moves on. It also describes approvers responding by email, in a chat message or in a central action centre, and responses being kept in an approvals history. Those details matter less as product features than as a pattern: a request has a defined route, a defined next person and a record of what happened.
+Modern workflow tools can do this fairly simply. Microsoft's documentation on [Power Automate approvals](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) explains that when a request is submitted, approvers are notified and can review and act on it, and that approvals can be sequential, so each approver responds before the request moves on. It also describes approvers responding by email, in a chat message or in a central action centre, and responses being kept in an approvals history. Those details matter less as product features than as a pattern: a request has a defined route, a defined next person and a record of what happened.
 
 The first consequence is predictability. The requester knows who holds the request and can plan accordingly. The second is a quiet gain in autonomy, because the person is no longer dependent on the goodwill of an intermediary to learn the status of their own affairs. The business gains too, since the time spent on "any news on my request?" messages falls, and slow approvers become visible without anyone having to accuse them.
 

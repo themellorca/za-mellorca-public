@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-059
 slug: premium-software-plans-basic-needs-overbuying-cost
-title: Premium Plans for Basic Work: The Cost of Overbuying Software
+title: Premium plans for basic work: The cost of overbuying software
 description: Putting every user on a premium software plan when most only need the basics creates a recurring overspend that grows with every new hire.
 lead: Putting every user on a premium software plan when most only need the basics creates a recurring overspend that grows with every new hire.
 category: Digital Infrastructure
@@ -17,9 +17,9 @@ sources:
   - Switch to Business Standard edition - Billing & subscriptions - Google Workspace Help | https://knowledge.workspace.google.com/admin/billing/switch-to-business-standard-edition
   - Microsoft 365 Admin Center Usage Reports Overview - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports
 related:
-  - Automatic Software Renewals: The Cost of Paying for Yesterday's Requirements | /impact/automatic-software-renewals-without-value-review-cost/
-  - Subscriptions That Outlive the Employee: The Cost of Orphaned Software | /impact/orphaned-software-subscriptions-after-employee-leaves-cost/
-  - Paying for Tools You Already Own: The Cost of Underused Software Platforms | /impact/expensive-tools-for-tasks-existing-platform-handles-cost/
+  - Automatic software renewals: The cost of paying for yesterday's requirements | /impact/automatic-software-renewals-without-value-review-cost/
+  - Subscriptions that outlive the employee: The cost of orphaned software | /impact/orphaned-software-subscriptions-after-employee-leaves-cost/
+  - Paying for tools you already own: The cost of underused software platforms | /impact/expensive-tools-for-tasks-existing-platform-handles-cost/
 summary: Putting every user on a premium software plan when most only need the basics creates a recurring overspend that grows with every new hire.
 layout: plain
 ---
@@ -81,7 +81,9 @@ The saving is not automatic. Some premium features, especially security and devi
 
 ## A worked example
 
-Consider an unnamed engineering supplier in Gauteng, used here as an *illustrative* case. When it moved to a cloud suite four years ago, the owner chose the top business plan for all 38 staff because it included advanced compliance tools and larger storage. A later review found that only the finance team and two directors used any feature exclusive to that plan. Workshop staff used the suite for email and timesheets. The sales team used it for email, calendars and shared quotes. None of them had ever opened the advanced tools. The review took one afternoon: list the premium-only features, ask each team leader which they used, and compare the answers with usage reports. The decision that followed was simple: keep the premium plan for the people who need it, and move everyone else to the plan that matches their work at the next sensible point in the billing cycle.
+Consider an unnamed engineering supplier in Gauteng, used here as an *illustrative* case. When it moved to a cloud suite four years ago, the owner chose the top business plan for all 38 staff because it included advanced compliance tools and larger storage. A later review found that only the finance team and two directors used any feature exclusive to that plan. Workshop staff used the suite for email and timesheets.
+
+The sales team used it for email, calendars and shared quotes. None of them had ever opened the advanced tools. The review took one afternoon: list the premium-only features, ask each team leader which they used, and compare the answers with usage reports. The decision that followed was simple: keep the premium plan for the people who need it, and move everyone else to the plan that matches their work at the next sensible point in the billing cycle.
 
 ## When it becomes commercially urgent
 
@@ -96,7 +98,7 @@ Better plan selection starts from roles, not from the pricing page.
 
 - **Match plans to roles.** Microsoft's own documentation notes that some businesses need different users licensed for different plans. Mixing plans by role is a normal, supported approach.
 - **Name the premium features.** For each premium plan, list the specific features that justify it and who uses them.
-- **Check usage.** Microsoft's admin center usage reports, for example, show activity over 7, 30, 90 and 180 days. Most platforms offer similar reporting.
+- **Check usage.** Microsoft's [admin center usage reports](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports), for example, show activity over 7, 30, 90 and 180 days. Most platforms offer similar reporting.
 - **Prefer flexible terms when unsure.** Start lower and upgrade when a real need appears, especially where moving down later is harder than moving up.
 - **Make the default plan the cheapest one that works.** New starters get the basic plan unless a manager asks for more, with a reason.
 

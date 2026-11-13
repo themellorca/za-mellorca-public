@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-301
 slug: slow-sales-lead-response-revenue-cost
-title: The Revenue Cost of Slow Sales Lead Response
+title: The revenue cost of slow sales lead response
 description: A lead can be generated successfully and still be wasted operationally. Slow assignment and follow-up turn paid demand into avoidable revenue leakage.
 lead: Marketing can generate the enquiry perfectly and the business can still lose the opportunity in the handoff. When leads wait in inboxes, queues or spreadsheets, response speed becomes an operating constraint on revenue.
 category: Sales Operations
@@ -23,12 +23,13 @@ primary_cost_mechanism: Lost conversion opportunity, wasted acquisition spend an
 sources:
   - Lead Response Time: Why Speed Matters - HubSpot Insights | https://www.hubspot.com/reduce-lead-response-time
   - Lead Management Software for Small Business | https://www.salesforce.com/ap/small-business/lead-management/
+  - Prioritize sales pipeline with work lists - Dynamics 365 Sales | Microsoft Learn | https://learn.microsoft.com/en-us/dynamics365/sales/prioritize-sales-pipeline-through-work-list
 closing_title: Method note
 closing_text: Vendor guidance supports the operational diagnosis but no vendor conversion statistic is treated as the reader's result. Use your own response-time and conversion cohorts to quantify exposure.
 related:
-  - Unassigned Enquiries: Why Leads Go Cold Before Anyone Owns Them | /impact/unassigned-sales-enquiries-leads-going-cold/
-  - New Employees Without Equipment Create Paid Onboarding Delay | /impact/new-employees-without-equipment-onboarding-cost/
-  - The Cost of Work Waiting for Approval | /impact/approval-queues-blocked-capacity-cost/
+  - Unassigned enquiries: Why leads go cold before anyone owns them | /impact/unassigned-sales-enquiries-leads-going-cold/
+  - New employees without equipment create paid onboarding delay | /impact/new-employees-without-equipment-onboarding-cost/
+  - The cost of work waiting for approval | /impact/approval-queues-blocked-capacity-cost/
 ---
 ## A generated lead is not yet a worked lead
 
@@ -42,7 +43,7 @@ Picture a Johannesburg office-equipment supplier running paid search campaigns. 
 
 The delay often hides inside ordinary coordination: shared inboxes, manual assignment, unclear territories, after-hours enquiries, missing contact information or salespeople balancing prospecting with existing customers. Each delay has a reasonable local explanation, but the customer experiences only one thing: silence.
 
-HubSpot's [lead-response guidance](https://www.hubspot.com/reduce-lead-response-time) identifies manual assignment and disconnected sales and marketing tools as common causes of delay, notes that basic notifications often fail outside business hours, and recommends reducing response times to under 30 minutes where appropriate. Salesforce's [small-business lead-management guidance](https://www.salesforce.com/ap/small-business/lead-management/) similarly focuses on capturing, organising, routing and following up with leads in a shared system rather than in spreadsheets. Both are vendor sources, so treat their exact product claims as commercial material; the underlying process question is independently measurable inside your own funnel.
+HubSpot's [lead-response guidance](https://www.hubspot.com/reduce-lead-response-time) identifies manual assignment and disconnected sales and marketing tools as common causes of delay, notes that basic notifications often fail outside business hours, and recommends reducing response times to under 30 minutes where appropriate. Salesforce's [small-business lead-management guidance](https://www.salesforce.com/ap/small-business/lead-management/) similarly focuses on capturing, organising, routing and following up with leads in a shared system rather than in spreadsheets. Microsoft's documentation for [work lists in Dynamics 365 Sales](https://learn.microsoft.com/en-us/dynamics365/sales/prioritize-sales-pipeline-through-work-list) shows the same principle in practice: due and overdue follow-ups are listed by priority so that important records are not left behind. These are vendor sources, so treat their exact product claims as commercial material; the underlying process question is independently measurable inside your own funnel.
 
 Slow response also persists because it is rarely anyone's explicit job to prevent it. Marketing is measured on lead volume, sales on closed deals. The gap between the two—the minutes and hours between "lead created" and "lead worked"—belongs to nobody. That gap is the subject of [why good leads disappear between marketing and sales](/patterns/why-good-leads-disappear-between-marketing-and-sales/).
 

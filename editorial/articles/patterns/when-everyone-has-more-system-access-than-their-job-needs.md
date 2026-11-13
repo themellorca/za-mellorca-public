@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-352
 slug: when-everyone-has-more-system-access-than-their-job-needs
-title: When Everyone Has More System Access Than Their Job Needs
-description: When current staff can see and change far more than their roles require, every mistake or compromised password reaches further than it should. Defining access by role, limiting administrators, separating sensitive duties and reviewing access regularly contains the damage.
+title: When everyone has more system access than their job needs
+description: When staff can see and change far more than their roles need, one mistake or stolen password reaches too far. Role-based access limits the damage.
 lead: When current staff can see and change far more than their roles require, every mistake or compromised password reaches further than it should. Defining access by role, limiting administrators, separating sensitive duties and reviewing access regularly contains the damage.
 category: Security, Access & Operational Risk
 published_date: 2026-10-07
@@ -18,9 +18,9 @@ sources:
   - Best practices for Microsoft Entra roles - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/best-practices
   - What are access reviews? - Microsoft Entra - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview
 related:
-  - When AI Agents Can Act but Governance Cannot See Them | /patterns/when-ai-agents-can-act-but-governance-cannot-see-them/
-  - Why Looking for Information Has Quietly Become Part of Everyone's Job | /patterns/why-looking-for-information-has-become-part-of-everyones-job/
-  - The Hidden Cost of Signing In to Every System Separately | /patterns/the-hidden-cost-of-signing-in-to-every-system-separately/
+  - When AI agents can act but governance cannot see them | /patterns/when-ai-agents-can-act-but-governance-cannot-see-them/
+  - Why looking for information has quietly become part of everyone's job | /patterns/why-looking-for-information-has-become-part-of-everyones-job/
+  - The hidden cost of signing in to every system separately | /patterns/the-hidden-cost-of-signing-in-to-every-system-separately/
 summary: When current staff can see and change far more than their roles require, every mistake or compromised password reaches further than it should. Defining access by role, limiting administrators, separating sensitive duties and reviewing access regularly contains the damage.
 layout: plain
 ---

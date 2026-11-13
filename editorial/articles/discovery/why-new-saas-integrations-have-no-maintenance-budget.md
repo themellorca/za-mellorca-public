@@ -20,6 +20,7 @@ related:
   - Why departments buy overlapping software for the same capability | /discovery/departments-buy-overlapping-software-for-the-same-capability/
   - Vendors change packaging and pricing faster than budgets adapt | /discovery/why-vendor-pricing-changes-outrun-software-budgets/
   - Business capabilities that depend on tools nobody supports | /discovery/business-capabilities-depend-on-tools-with-no-support-owner/
+  - How to build a maintenance plan for business automations | /insights/a-maintenance-plan-for-the-automations-you-already-run/
 summary: The build is funded, the upkeep is not. How to count, own and budget the connections each new SaaS purchase adds, before a merger or vendor change exposes them.
 layout: plain
 ---
@@ -33,7 +34,7 @@ Every new SaaS purchase adds connections: data going in, data going out, logins,
 
 The effect is a growing set of connections maintained by goodwill. Someone in IT fixes them when they break, or a consultant is called in at short notice, or a finance clerk works around the gap by re-keying data. The portfolio looks cheaper than it is, because part of its real cost is hidden in people's time and in errors.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The CFO, COO or head of IT wants to know what the technology estate really costs to run, and to avoid being surprised by an invoice for emergency repair work. In an acquisition, the question sharpens: which connections must be kept, which will be rebuilt, and who pays. They are also trying to prevent every future purchase from adding another unfunded obligation.
 

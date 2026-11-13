@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-043
 slug: checking-stock-capacity-by-hand-before-promising-cost
-title: "Let Me Check and Come Back to You": The Cost of Manual Availability Checks
-description: When staff must walk the warehouse, phone colleagues or open several spreadsheets before confirming stock, capacity or a date, quotes slow down and promises get broken.
+title: "Let me check and come back to you": The cost of manual availability checks
+description: When staff must walk the warehouse, phone colleagues or open several spreadsheets to confirm stock or a date, quotes slow down and promises get broken.
 lead: When staff must walk the warehouse, phone colleagues or open several spreadsheets before confirming stock, capacity or a date, quotes slow down and promises get broken.
 category: Sales Operations
 published_date: 2026-10-06
@@ -17,9 +17,10 @@ sources:
   - Get an availability overview - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-availability-overview
   - Microsoft Bookings | https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview
 related:
-  - Retyping Website Enquiries Into the CRM: The Cost of Slow, Error-Prone Lead Capture | /impact/retyping-website-enquiries-into-crm-lead-capture-cost/
-  - Unassigned Enquiries: Why Leads Go Cold Before Anyone Owns Them | /impact/unassigned-sales-enquiries-leads-going-cold/
-  - Gathering Information Before Work Can Start: The Payroll Cost of Preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
+  - Retyping website enquiries into the CRM: The cost of slow, error-prone lead capture | /impact/retyping-website-enquiries-into-crm-lead-capture-cost/
+  - Unassigned enquiries: Why leads go cold before anyone owns them | /impact/unassigned-sales-enquiries-leads-going-cold/
+  - Gathering information before work can start: The payroll cost of preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
+  - Why sales teams cannot check live stock while the customer waits | /discovery/why-sales-teams-cannot-check-live-stock-while-the-customer-waits/
 summary: When staff must walk the warehouse, phone colleagues or open several spreadsheets before confirming stock, capacity or a date, quotes slow down and promises get broken.
 layout: plain
 ---
@@ -90,7 +91,9 @@ Customers learn which suppliers answer on the spot and which ones always "come b
 
 The goal is that anyone who takes an enquiry can see what is genuinely available to promise, and that a promise immediately reduces what is available to the next person.
 
-Business systems distinguish these concepts explicitly. Microsoft's Business Central documentation, for example, separates quantity on hand, meaning what posted entries show today, from projected available balance, which adds scheduled receipts and subtracts requirements such as quantities on sales orders. Its order promising feature calculates available-to-promise dates from unreserved inventory and planned receipts, and capable-to-promise dates for quantities that would need to be bought or made. It also verifies whether a requested delivery date is realistic by working backwards from shipping and warehouse handling times, and shows a stock-out warning when items cannot be picked on the shipment date. For services, booking tools such as Microsoft Bookings let a business define staff, services, schedules and availability so that customers or staff book against published availability rather than a supervisor's memory.
+Business systems distinguish these concepts explicitly. Microsoft's Business Central documentation, for example, separates quantity on hand, meaning what posted entries show today, from projected available balance, which adds scheduled receipts and subtracts requirements such as quantities on sales orders. Its [order promising](https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-to-calculate-order-promising-dates) feature calculates available-to-promise dates from unreserved inventory and planned receipts, and capable-to-promise dates for quantities that would need to be bought or made.
+
+It also verifies whether a requested delivery date is realistic by working backwards from shipping and warehouse handling times, and shows a stock-out warning when items cannot be picked on the shipment date. For services, booking tools such as Microsoft Bookings let a business define staff, services, schedules and availability so that customers or staff book against published availability rather than a supervisor's memory.
 
 None of this works unless the underlying records are disciplined: receipts and issues posted promptly, commitments recorded as orders or reservations, and capacity entered as a calendar rather than kept in someone's head.
 

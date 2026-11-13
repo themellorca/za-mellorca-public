@@ -2,9 +2,9 @@
 hub: insights
 record_id: INS-076
 slug: why-your-crm-is-not-the-problem-you-think-it-is
-title: Why Your CRM Is Not the Problem You Think It Is
-description: A practical examination of CRM pitfalls that lie beyond software, focusing on data quality, process design, and cross-functional governance.
-lead: A practical examination of CRM pitfalls that lie beyond software, focusing on data quality, process design, and cross-functional governance.
+title: Why your CRM is not the problem you think it is
+description: Most CRM problems are not software problems. Data quality, process design and shared ownership usually matter more than the tool.
+lead: Most CRM problems are not software problems. Data quality, process design and shared ownership usually matter more than the tool.
 category: Operations
 published_date: 2026-10-02
 updated_date: 2026-10-02
@@ -14,10 +14,10 @@ sources:
   - What Is Data Quality? - IBM | https://www.ibm.com/think/topics/data-quality
   - What is Data Governance? - IBM | https://www.ibm.com/think/topics/data-governance
 related:
-  - How to Tell Whether You Have a People Problem or a Systems Problem | /insights/how-to-tell-whether-you-have-a-people-problem-or-a-systems-problem/
-  - What Your Recurring Problems Are Telling You About Your Systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
-  - Broken Handoffs Are Systems Problems | /insights/broken-handoffs-are-systems-problems/
-summary: A practical examination of CRM pitfalls that lie beyond software, focusing on data quality, process design, and cross-functional governance.
+  - How to tell whether you have a people problem or a systems problem | /insights/how-to-tell-whether-you-have-a-people-problem-or-a-systems-problem/
+  - What your recurring problems are telling you about your systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
+  - Broken handoffs are systems problems | /insights/broken-handoffs-are-systems-problems/
+summary: Most CRM problems are not software problems. Data quality, process design and shared ownership usually matter more than the tool.
 layout: plain
 ---
 CRM systems are often treated as the centrepiece of customer relationships, and many organisations mistakenly look at them as the ultimate solution. In practice, the CRM is a data and workflow surface that exposes deeper issues: misaligned processes, inconsistent data and unclear ownership. This article argues that the real obstacles are governance and execution, not settings inside the CRM itself. By reframing CRM value around reliable inputs, clean processes and disciplined cross-functional routines, leaders can unlock durable improvements that survive platform upgrades or vendor changes.

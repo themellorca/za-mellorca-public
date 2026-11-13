@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-029
 slug: paper-forms-captured-twice-double-handling-cost
-title: Paper Forms Captured Twice: The Cost of Double Handling
+title: Paper forms captured twice: The cost of double handling
 description: Processes that start on paper and are later typed into systems pay twice in labour, add transcription errors and delay invoicing and cash.
 lead: Processes that start on paper and are later typed into systems pay twice in labour, add transcription errors and delay invoicing and cash.
 category: Business Automation
@@ -17,9 +17,10 @@ sources:
   - South Africa: Coronavirus - electronic signatures and electronic meetings | https://www.ensafrica.com/news/detail/2400/south-africa-coronavirus-electronic-signature
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
 related:
-  - From Inbox to System by Hand: The Labour Cost of Retyping Emails | /impact/copying-email-details-into-business-systems-admin-cost/
-  - Rebuilding the Same Report Every Month: The Labour Cost of Manual Reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
-  - Gathering Information Before Work Can Start: The Payroll Cost of Preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
+  - From inbox to system by hand: The labour cost of retyping emails | /impact/copying-email-details-into-business-systems-admin-cost/
+  - Rebuilding the same report every month: The labour cost of manual reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
+  - Gathering information before work can start: The payroll cost of preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
+  - The hidden cost of paper-based field updates | /patterns/the-job-card-that-is-typed-up-three-days-later/
 summary: Processes that start on paper and are later typed into systems pay twice in labour, add transcription errors and delay invoicing and cash.
 layout: plain
 ---
@@ -41,7 +42,7 @@ Mellorca has written about [duplicated data entry between systems](/impact/pain-
 
 ### The signature assumption deserves a closer look
 
-South Africa's Electronic Communications and Transactions Act (ECTA) gives legal recognition to information in electronic form. Section 11 states that information is not without legal force merely because it is in the form of a data message. Section 12 provides that a legal requirement for writing is met by a data message that is accessible for subsequent reference. Section 13 covers signatures: where parties themselves require a signature, a method that identifies the person and indicates their approval, and is as reliable as appropriate for the purpose, can satisfy that requirement. Where a law requires a signature without specifying the type, an advanced electronic signature is needed.
+South Africa's [Electronic Communications and Transactions Act](https://www.internet.org.za/ect_act.html) (ECTA) gives legal recognition to information in electronic form. Section 11 states that information is not without legal force merely because it is in the form of a data message. Section 12 provides that a legal requirement for writing is met by a data message that is accessible for subsequent reference. Section 13 covers signatures: where parties themselves require a signature, a method that identifies the person and indicates their approval, and is as reliable as appropriate for the purpose, can satisfy that requirement. Where a law requires a signature without specifying the type, an advanced electronic signature is needed.
 
 As ENSafrica's commentary on the Act notes, some transactions are excluded from electronic conclusion, including sales of immovable property, long-term land leases, wills and bills of exchange. So the answer is not "nothing needs paper". It is that most routine operational forms, such as job cards, delivery confirmations, leave applications, inspection checklists and internal approvals, do not need to start on paper for legal reasons. Businesses should take their own legal advice for specific documents, but the assumption that ink is always required is frequently wrong.
 
@@ -56,7 +57,7 @@ Paper-first processes produce a recognisable set of symptoms:
 - **Delayed downstream work.** Invoicing waits for job cards, payroll waits for timesheets and onboarding waits for forms, so cash and decisions wait too.
 - **Storage and retrieval effort.** Original paper must still be filed and found later, which adds a second records system alongside the digital one.
 
-There is also a security dimension. Section 19 of the Protection of Personal Information Act requires a responsible party to secure the integrity and confidentiality of personal information through appropriate, reasonable technical and organisational measures, to identify foreseeable risks and to verify that safeguards work. Paper forms containing ID numbers, banking details or medical information, sitting in open trays or vehicle cubbyholes before capture, are a foreseeable risk that has to be managed.
+There is also a security dimension. Section 19 of the Protection of Personal Information Act requires a responsible party to secure the [integrity and confidentiality of personal information](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/) through appropriate, reasonable technical and organisational measures, to identify foreseeable risks and to verify that safeguards work. Paper forms containing ID numbers, banking details or medical information, sitting in open trays or vehicle cubbyholes before capture, are a foreseeable risk that has to be managed.
 
 ## How the pain becomes money
 

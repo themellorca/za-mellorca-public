@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-359
 slug: chasing-employees-for-receipts-expense-information-payroll-cost
-title: Chasing Staff for Receipts: The Payroll Cost of Expense Administration
-description: Month after month, finance staff remind employees for receipts and reasons for spend. The chasing, retyping and late approvals add up to a payroll cost, a slower close and some unrecovered VAT.
+title: Chasing staff for receipts: The payroll cost of expense administration
+description: Finance keeps chasing employees for receipts and reasons for spend. The retyping and late approvals cost payroll, slow the close and leave VAT unrecovered.
 lead: Month after month, finance staff remind employees for receipts and reasons for spend. The chasing, retyping and late approvals add up to a payroll cost, a slower close and some unrecovered VAT.
 category: Finance Operations
 published_date: 2026-10-09
@@ -18,9 +18,9 @@ sources:
   - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
   - Value-Added Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/
 related:
-  - Which Customers Are Becoming Payment Risks? The Cost of Acting Late on Overdue Accounts | /impact/customers-becoming-payment-risks-late-action-overdue-accounts-cost/
-  - When the Books Do Not Match the Business: The Cost of Constant Reconciliation | /impact/accounting-records-not-matching-operations-reconciliation-decision-uncertainty-cost/
-  - Typing Invoices From Data You Already Hold: The Labour and Billing Delay Cost | /impact/invoices-retyped-from-existing-records-billing-labour-cost/
+  - Which customers are becoming payment risks? The cost of acting late on overdue accounts | /impact/customers-becoming-payment-risks-late-action-overdue-accounts-cost/
+  - When the books do not match the business: The cost of constant reconciliation | /impact/accounting-records-not-matching-operations-reconciliation-decision-uncertainty-cost/
+  - Typing invoices from data you already hold: The labour and billing delay cost | /impact/invoices-retyped-from-existing-records-billing-labour-cost/
 summary: Month after month, finance staff remind employees for receipts and reasons for spend. The chasing, retyping and late approvals add up to a payroll cost, a slower close and some unrecovered VAT.
 layout: plain
 ---

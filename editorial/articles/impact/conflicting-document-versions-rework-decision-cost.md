@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-012
 slug: conflicting-document-versions-rework-decision-cost
-title: Which Version Is Final? The Cost of Teams Working From Different Copies
-description: When several copies of the same document are in circulation, teams redo work, send out wrong prices and delay decisions. How to count the cost and keep one living version.
+title: Which version is final? The cost of teams working from different copies
+description: Several copies of one document in circulation mean redone work, wrong prices sent out and delayed decisions. Count the cost and keep one living version.
 lead: When several copies of the same document are in circulation, teams redo work, send out wrong prices and delay decisions. How to count the cost and keep one living version.
 category: Digital Operations
 published_date: 2026-10-04
@@ -18,9 +18,9 @@ sources:
   - Enable and configure versioning for a list or library - Microsoft Support | https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37
   - Version history limits for document library and OneDrive overview - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/document-library-version-history-limits
 related:
-  - Fixing Avoidable Mistakes Instead of Serving Customers: The Cost of Rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
-  - The Cost of Work Waiting for Approval | /impact/approval-queues-blocked-capacity-cost/
-  - Two Departments, Same Work: The Payroll Cost of Duplicated Effort | /impact/departments-duplicating-same-work-payroll-cost/
+  - Fixing avoidable mistakes instead of serving customers: The cost of rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
+  - The cost of work waiting for approval | /impact/approval-queues-blocked-capacity-cost/
+  - Two departments, same work: The payroll cost of duplicated effort | /impact/departments-duplicating-same-work-payroll-cost/
 summary: When several copies of the same document are in circulation, teams redo work, send out wrong prices and delay decisions. How to count the cost and keep one living version.
 layout: plain
 ---

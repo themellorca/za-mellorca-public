@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000077
 slug: the-owner-choosing-growth-on-their-own-terms
-title: The Small Business Owner Choosing Growth on Their Own Terms
+title: The small business owner choosing growth on their own terms
 description: Growth, standing still and selling up are all legitimate aims. What a small business needs in place for the owner to choose between them freely.
 lead: Growth, standing still and selling up are all legitimate aims. What a small business needs in place for the owner to choose between them freely.
 category: Human Agency
@@ -20,9 +20,10 @@ sources:
   - Theory – selfdeterminationtheory.org | https://selfdeterminationtheory.org/theory/
   - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
 related:
-  - What Changes When People Can See Their Own Numbers | /moments/what-changes-when-people-can-see-their-own-numbers/
-  - The Employee Who Needs Permission for Every Small Fix | /moments/the-employee-who-needs-permission-for-every-small-fix/
-  - The Practice Owner Who Can't Plan a Day Off | /moments/the-practice-owner-who-cant-plan-a-single-day-off/
+  - What changes when people can see their own numbers | /moments/what-changes-when-people-can-see-their-own-numbers/
+  - The employee who needs permission for every small fix | /moments/the-employee-who-needs-permission-for-every-small-fix/
+  - The practice owner who can't plan a day off | /moments/the-practice-owner-who-cant-plan-a-single-day-off/
+  - The owner who wants choices, not just more revenue | /moments/the-owner-who-wants-choices-not-just-more-revenue/
 summary: Growth, standing still and selling up are all legitimate aims. What a small business needs in place for the owner to choose between them freely.
 layout: plain
 ---
@@ -59,7 +60,7 @@ Several ordinary conditions limit how freely an owner can choose.
 
 The UK Health and Safety Executive's standard on demands says that people's workloads should be manageable within agreed working hours and that jobs should fall within what people can realistically do. It is written for employees, but it is a fair test for an owner as well. If growth would push the owner's role beyond what one person can sustain, the growth is not simply a matter of ambition.
 
-The World Health Organization's fact sheet on mental health at work lists lack of control over workload among the risks to mental health at work. Self-employed people and owners are not exempt from the underlying idea. Having control over the pace and shape of the work matters, and growth that removes it carries a cost.
+The World Health Organization's fact sheet on [mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) lists lack of control over workload among the risks to mental health at work. Self-employed people and owners are not exempt from the underlying idea. Having control over the pace and shape of the work matters, and growth that removes it carries a cost.
 
 ## What changes when the business can carry more of the load
 

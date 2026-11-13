@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-039
 slug: how-piling-on-ai-tools-creates-a-new-layer-of-software-mess
-title: How Piling On AI Tools Creates a New Layer of Software Mess
-description: AI assistants, note-takers, add-ons and agents are arriving faster and less visibly than ordinary software. Why that new layer leaks data, hides business rules and blurs costs, and a light framework for bringing it under control without banning AI.
+title: How piling on AI tools creates a new layer of software mess
+description: AI assistants, note-takers and agents arrive faster and less visibly than other software. Why they leak data and blur costs, and how to control them.
 lead: AI assistants, note-takers, add-ons and agents are arriving faster and less visibly than ordinary software. Why that new layer leaks data, hides business rules and blurs costs, and a light framework for bringing it under control without banning AI.
 category: Automation & AI
 published_date: 2026-10-05
@@ -15,9 +15,9 @@ sources:
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
   - Thinking carefully before adopting agentic AI | https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai
 related:
-  - What AI Agents Need Before They Can Do Useful Work | /insights/what-ai-agents-need-before-they-can-do-useful-work/
-  - How to Choose a Business Process for an AI Agent | /insights/how-to-choose-a-business-process-for-an-ai-agent/
-  - How Duplicate Software Creates Duplicate Work | /insights/how-duplicate-software-creates-duplicate-work/
+  - What AI agents need before they can do useful work | /insights/what-ai-agents-need-before-they-can-do-useful-work/
+  - How to choose a business process for an AI agent | /insights/how-to-choose-a-business-process-for-an-ai-agent/
+  - How duplicate software creates duplicate work | /insights/how-duplicate-software-creates-duplicate-work/
 summary: AI assistants, note-takers, add-ons and agents are arriving faster and less visibly than ordinary software. Why that new layer leaks data, hides business rules and blurs costs, and a light framework for bringing it under control without banning AI.
 layout: plain
 ---

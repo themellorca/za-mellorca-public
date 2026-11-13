@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000014
 slug: the-evening-spent-chasing-signatures
-title: The Evening Spent Chasing Signatures
-description: A contract, a quote and a delivery note all need a signature before tomorrow, and the signatories are on the road. Why signature-chasing drifts into the evening, and what a clear signing route gives back.
+title: The evening spent chasing signatures
+description: A contract, a quote and a delivery note need signing tomorrow, and the signatories are on the road. Why chasing drifts into the evening, and a clear route.
 lead: A contract, a quote and a delivery note all need a signature before tomorrow, and the signatories are on the road. Why signature-chasing drifts into the evening, and what a clear signing route gives back.
 category: Time & Attention
 published_date: 2026-10-04
@@ -20,9 +20,9 @@ sources:
   - Approve or reject documents in workflows - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
 related:
-  - Friday Evening Should Start on Friday Evening | /moments/friday-evening-should-start-on-friday-evening/
-  - Why the Commute Has Become Unpaid Triage Time | /moments/why-the-commute-has-become-unpaid-triage-time/
-  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - Friday evening should start on Friday evening | /moments/friday-evening-should-start-on-friday-evening/
+  - Why the commute has become unpaid triage time | /moments/why-the-commute-has-become-unpaid-triage-time/
+  - The lunch break eaten by approval requests | /moments/the-lunch-break-eaten-by-approval-requests/
 summary: A contract, a quote and a delivery note all need a signature before tomorrow, and the signatories are on the road. Why signature-chasing drifts into the evening, and what a clear signing route gives back.
 layout: plain
 ---
@@ -36,7 +36,9 @@ This piece is about that evening: not the signatories, who are usually busy for 
 
 ## Signing has been allowed to change, but the route often has not
 
-South African law has recognised electronic signatures for more than two decades. Section 13 of the Electronic Communications and Transactions Act of 2002 provides that an electronic signature is not without legal force and effect merely because it is in electronic form. It also says that where a law requires a person's signature and does not specify the type, that requirement is met for an electronic document only if an advanced electronic signature is used. The Act does not give validity to certain transactions it lists in a schedule, and it has been amended since 2002. So electronic signing is not a universal answer: some documents need a particular kind of signature, and some need advice. For a great many everyday business documents, however, the barrier to signing on a phone is not the law.
+South African law has recognised electronic signatures for more than two decades. Section 13 of the Electronic Communications and Transactions Act of 2002 provides that an electronic signature is not without legal force and effect merely because it is in electronic form. It also says that where a law requires a person's signature and does not specify the type, that requirement is met for an electronic document only if an advanced electronic signature is used.
+
+The Act does not give validity to certain transactions it lists in a schedule, and it has been amended since 2002. So electronic signing is not a universal answer: some documents need a particular kind of signature, and some need advice. For a great many everyday business documents, however, the barrier to signing on a phone is not the law.
 
 The tools are also widely available. Microsoft's Teams documentation, for example, describes e-signature requests created through its Approvals app with third-party providers such as Adobe Sign and DocuSign, with the requests and responses logged for audit. Business software commonly includes approval workflows with reminders for overdue requests and delegation to a substitute when the usual approver is unavailable. Other vendors offer similar features.
 
@@ -44,7 +46,7 @@ And yet many businesses still collect signatures by printing, signing, scanning 
 
 ## Why the chasing happens in the evening
 
-Microsoft's Work Trend Index analysis of anonymised Microsoft 365 activity found that workers send or receive more than 50 messages outside business hours on average, and that meetings after 8pm were up 16% year on year. These are global figures from one vendor's data, not a South African measurement. They do suggest that the evening is already a place where work overflows.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) analysis of anonymised Microsoft 365 activity found that workers send or receive more than 50 messages outside business hours on average, and that meetings after 8pm were up 16% year on year. These are global figures from one vendor's data, not a South African measurement. They do suggest that the evening is already a place where work overflows.
 
 Signatures drift there for specific reasons:
 

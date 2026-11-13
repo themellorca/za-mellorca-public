@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-155
 slug: not-knowing-recovery-time-after-major-outage-unplanned-downtime-cost
-title: How Long Until We Are Back? The Cost of Not Knowing Your Recovery Time
-description: Most businesses cannot say how long recovery would take after a major outage. Setting recovery targets and testing a restore turns an open-ended, expensive unknown into a number you can plan around.
+title: How long until we are back? The cost of not knowing your recovery time
+description: Most businesses cannot say how long recovery would take after a major outage. Recovery targets and a tested restore give you a number to plan on.
 lead: Most businesses cannot say how long recovery would take after a major outage. Setting recovery targets and testing a restore turns an open-ended, expensive unknown into a number you can plan around.
 category: Business Continuity
 published_date: 2026-10-08
@@ -18,9 +18,10 @@ sources:
   - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
   - Disaster recovery options in the cloud - Disaster Recovery of Workloads on AWS: Recovery in the Cloud | https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html
 related:
-  - One Backup Method, No Fallback: The Financial Cost of a Single Point of Recovery | /impact/single-backup-method-no-recovery-fallback-cost/
-  - When One Employee Knows How Everything Works | /impact/key-person-operational-dependency/
-  - The Cost of Paid Time Spent Searching for Files | /impact/employees-searching-for-files-lost-productivity-cost/
+  - One backup method, no fallback: The financial cost of a single point of recovery | /impact/single-backup-method-no-recovery-fallback-cost/
+  - When one employee knows how everything works | /impact/key-person-operational-dependency/
+  - The cost of paid time spent searching for files | /impact/employees-searching-for-files-lost-productivity-cost/
+  - Recovery plans list systems but not the business services they support | /discovery/why-recovery-plans-should-be-organised-around-business-services-not-servers/
 summary: Most businesses cannot say how long recovery would take after a major outage. Setting recovery targets and testing a restore turns an open-ended, expensive unknown into a number you can plan around.
 layout: plain
 ---

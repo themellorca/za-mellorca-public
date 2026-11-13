@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-294
 slug: apis-exist-but-internal-teams-cannot-find-them
 title: Why internal teams cannot find the APIs your business already has
-description: When nobody can find the APIs a business already owns, teams rebuild them, scrape screens or fall back to spreadsheets. How an API inventory with owners and descriptions fixes it.
+description: When teams cannot find the APIs a business owns, they rebuild them or fall back to spreadsheets. How an inventory with owners fixes it.
 lead: When nobody can find the APIs a business already owns, teams rebuild them, scrape screens or fall back to spreadsheets. How an API inventory with owners and descriptions fixes it.
 category: Integration & API Operations
 published_date: 2026-10-06
@@ -15,6 +15,7 @@ budget_owner: Chief information officer or chief operating officer
 sources:
   - Backstage Software Catalog - Backstage Software Catalog and Developer Platform | https://backstage.io/docs/features/software-catalog/
   - OpenAPI Specification v3.1.0 | https://spec.openapis.org/oas/v3.1.0
+  - Azure API Center overview - Microsoft Learn | https://learn.microsoft.com/en-us/azure/api-center/overview
 related:
   - APIs change without downstream teams being warned | /discovery/apis-change-without-downstream-teams-being-warned/
   - Why retry logic creates duplicate transactions at the receiving end | /discovery/retry-logic-creates-duplicate-transactions-at-the-receiving-end/
@@ -37,9 +38,9 @@ An API is only useful if the people building processes know it exists, what it d
 
 Each choice is reasonable for the person making it. Together they create duplicated cost, fragile connections and the familiar situation described in [when APIs exist but the business still works manually](/patterns/when-apis-exist-but-the-business-still-works-manually/).
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for how to list all the APIs in an organisation, how to document internal APIs, or what an API catalogue is. Managers notice the symptom differently: two teams paying for overlapping integrations, a project estimate that includes building something that sounds familiar, or a new developer who needs weeks to learn what connects to what. The underlying need is a single place where anyone building a process can find the available interfaces, understand them and know whom to ask.
+The questions usually sound like "how do we list all the APIs in the organisation?", "how do we document internal APIs?" or "what is an API catalogue?" Managers notice the symptom differently: two teams paying for overlapping integrations, a project estimate that includes building something that sounds familiar, or a new developer who needs weeks to learn what connects to what. The underlying need is a single place where anyone building a process can find the available interfaces, understand them and know whom to ask.
 
 ## Evidence and system mechanism
 

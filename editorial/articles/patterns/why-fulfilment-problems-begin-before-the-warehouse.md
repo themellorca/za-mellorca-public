@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-404
 slug: why-fulfilment-problems-begin-before-the-warehouse
-title: Why Fulfilment Problems Begin Before the Warehouse
-description: Late, wrong and short-shipped orders are blamed on the warehouse, but the cause usually sits upstream in quotes, stock records and order entry. Here is how to trace it and fix it at the source.
+title: Why fulfilment problems begin before the warehouse
+description: Late, wrong and short-shipped orders are blamed on the warehouse, but the cause usually sits upstream in quotes, stock records and order entry.
 lead: Late, wrong and short-shipped orders are blamed on the warehouse, but the cause usually sits upstream in quotes, stock records and order entry. Here is how to trace it and fix it at the source.
 category: Order-to-Delivery & Fulfilment
 published_date: 2026-10-09
@@ -18,9 +18,9 @@ sources:
   - What is Demand Forecasting? - IBM | https://www.ibm.com/think/topics/demand-forecasting
   - What is Order Management? - IBM | https://www.ibm.com/think/topics/order-management
 related:
-  - Why Reporting Problems Often Begin With Data Capture | /patterns/why-reporting-problems-often-begin-with-data-capture/
-  - When Staff Get Blamed for Errors Their Systems Created | /patterns/when-staff-get-blamed-for-errors-their-systems-created/
-  - When Headcount Becomes the Default Fix for Process Problems | /patterns/when-hiring-more-people-is-the-automatic-answer-to-process-strain/
+  - Why reporting problems often begin with data capture | /patterns/why-reporting-problems-often-begin-with-data-capture/
+  - When staff get blamed for errors their systems created | /patterns/when-staff-get-blamed-for-errors-their-systems-created/
+  - When headcount becomes the default fix for process problems | /patterns/when-hiring-more-people-is-the-automatic-answer-to-process-strain/
 summary: Late, wrong and short-shipped orders are blamed on the warehouse, but the cause usually sits upstream in quotes, stock records and order entry. Here is how to trace it and fix it at the source.
 layout: plain
 ---
@@ -50,7 +50,7 @@ The Pattern [the hidden cost of re-keying order information](/patterns/the-hidde
 
 - **Promises are made without checking capacity.** Salespeople agree dates and quantities without seeing stock, truck schedules or the pick backlog. The Impact page [checking stock and capacity by hand before promising](/impact/checking-stock-capacity-by-hand-before-promising-cost/) shows what that checking costs when it is manual.
 - **Orders are rekeyed.** Every manual transfer from an email, a quote or a portal into the order system is a chance for a wrong code, quantity or address.
-- **Stock records drift.** Receiving is booked late, damaged goods are not written off, and reservations live in side spreadsheets. IBM's demand forecasting overview notes that forecasts and inventory levels depend on the quality of the historical data behind them, and a drifting record misleads both.
+- **Stock records drift.** Receiving is booked late, damaged goods are not written off, and reservations live in side spreadsheets. IBM's [demand forecasting](https://www.ibm.com/think/topics/demand-forecasting) overview notes that forecasts and inventory levels depend on the quality of the historical data behind them, and a drifting record misleads both.
 - **Master data is not maintained.** Retired codes, duplicate products and inconsistent units of measure survive in the catalogue and reach pick lists.
 - **Channels do not share one view of stock.** The Discovery note [online channels selling stock the warehouse no longer has](/discovery/online-channels-selling-stock-the-warehouse-no-longer-has/) describes how a website, a sales team and a branch can all sell the same units.
 - **Order management is fragmented.** IBM's overview of order management describes the discipline as coordinating orders from capture to delivery across channels and locations. Where capture, allocation and dispatch live in separate tools with manual bridges, the order loses context along the way.

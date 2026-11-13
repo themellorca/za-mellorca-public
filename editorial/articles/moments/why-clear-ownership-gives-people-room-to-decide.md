@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000061
 slug: why-clear-ownership-gives-people-room-to-decide
-title: Why Clear Ownership Gives People Room to Decide
-description: When it is obvious who owns a decision, people stop waiting, checking and double-guessing. How defined ownership and sensible approval limits create room for judgement, and what they cost.
+title: Why clear ownership gives people room to decide
+description: When it is obvious who owns a decision, people stop waiting and double-guessing. How clear ownership and sensible approval limits make room for judgement.
 lead: When it is obvious who owns a decision, people stop waiting, checking and double-guessing. How defined ownership and sensible approval limits create room for judgement, and what they cost.
 category: Human Agency
 published_date: 2026-10-08
@@ -20,9 +20,10 @@ sources:
   - <span class="mw-page-title-main">Job autonomy and pressure at work - statistics</span> | https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Job_autonomy_and_pressure_at_work_-_statistics
   - Set up approval users - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-to-set-up-approval-users
 related:
-  - Why Teams Stop Suggesting Improvements | /moments/why-teams-stop-suggesting-improvements/
-  - Why Self-Service Can Feel Like Respect | /moments/why-self-service-can-feel-like-respect/
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - Why teams stop suggesting improvements | /moments/why-teams-stop-suggesting-improvements/
+  - Why self-service can feel like respect | /moments/why-self-service-can-feel-like-respect/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - Why decision rights belong in the system, not in someone's head | /moments/why-decision-rights-belong-in-the-system-not-in-someones-head/
 summary: When it is obvious who owns a decision, people stop waiting, checking and double-guessing. How defined ownership and sensible approval limits create room for judgement, and what they cost.
 layout: plain
 ---
@@ -48,7 +49,7 @@ Workplace research supports the connection, with a caveat that the sources are g
 
 The UK Health and Safety Executive's management standards for work-related stress treat role clarity as a distinct area: whether people understand their role and where it fits, and whether conflicting roles are avoided. The same standards set out control as a separate area, concerning how much say people have over how they do their work. The two are linked in practice. A person with unclear responsibilities cannot exercise much control, because they cannot be sure which decisions are theirs.
 
-Eurostat's statistical work on job autonomy and pressure at work describes autonomy as a feature of working life that varies by occupation and by country, and shows that substantial parts of the European workforce report limited say over how they work. These are European figures and should not be read as South African ones, but they show that autonomy is measured and varies, which suggests it can also be designed.
+Eurostat's statistical work on [job autonomy and pressure at work](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Job_autonomy_and_pressure_at_work_-_statistics) describes autonomy as a feature of working life that varies by occupation and by country, and shows that substantial parts of the European workforce report limited say over how they work. These are European figures and should not be read as South African ones, but they show that autonomy is measured and varies, which suggests it can also be designed.
 
 The causal link from clarity of ownership to better decisions is a reasoned hypothesis, not a proven result for any given business.
 
@@ -80,7 +81,7 @@ Most of this is written down, not bought.
 
 - **List the recurring decisions.** Refunds, discounts, supplier changes, access to systems, sign-off of reports. Ten to fifteen of them usually cover most of the confusion.
 - **Name one owner and one stand-in for each.** Agree it with the people concerned and write it somewhere everyone can find. Mellorca's guide to [key person dependency as a systems problem](/insights/key-person-dependency-is-a-systems-problem/) explains why the stand-in matters.
-- **Set limits.** State the amount, type or risk level the owner can approve alone, and what must be escalated. Microsoft's documentation on setting up approval users in Business Central shows how approval limits and substitutes are configured in a standard accounting system.
+- **Set limits.** State the amount, type or risk level the owner can approve alone, and what must be escalated. Microsoft's documentation on setting up [approval users](https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-to-set-up-approval-users) in Business Central shows how approval limits and substitutes are configured in a standard accounting system.
 - **Make the system match the people.** Approval flows, permissions and shared folders should reflect the agreed ownership.
 - **Review exceptions.** Once a quarter, look at the decisions that were escalated. If the same type keeps escalating, either the limit is wrong or the owner needs more support.
 - **Keep a record of precedent.** A short note of what was decided and why helps the next person decide consistently. See Mellorca's article on [how to design workflows that can survive staff changes](/insights/how-to-design-workflows-that-can-survive-staff-changes/).

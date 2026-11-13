@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-203
 slug: routine-it-support-delays-productivity-cost
-title: When Routine IT Support Takes Days: The Productivity Bill Nobody Counts
-description: Small IT problems left waiting for days quietly consume paid working time. A single request queue, target times, self-service and remote fixes turn routine support into a measurable service.
+title: When routine IT support takes days: The productivity bill nobody counts
+description: Small IT problems left waiting for days quietly consume paid working time. One request queue, target times, self-service and remote fixes help.
 lead: Small IT problems left waiting for days quietly consume paid working time. A single request queue, target times, self-service and remote fixes turn routine support into a measurable service.
 category: Digital Operations
 published_date: 2026-10-07
@@ -18,9 +18,9 @@ sources:
   - Self-service password reset deep dive - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks
   - Use Remote Help to Assist Users Authenticated by your Organization - Microsoft Intune | https://learn.microsoft.com/en-us/intune/intune-service/fundamentals/remote-help
 related:
-  - The Human Dispatcher: The Cost of Manually Routing Every Incoming Request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
-  - New Starters Waiting for Logins: The Payroll Cost of Slow Access Setup | /impact/new-starters-waiting-for-logins-access-setup-cost/
-  - When Your Experts Become the Help Desk: The Cost of Routine Requests | /impact/specialists-pulled-into-routine-requests-expertise-cost/
+  - The human dispatcher: The cost of manually routing every incoming request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
+  - New starters waiting for logins: The payroll cost of slow access setup | /impact/new-starters-waiting-for-logins-access-setup-cost/
+  - When your experts become the help desk: The cost of routine requests | /impact/specialists-pulled-into-routine-requests-expertise-cost/
 summary: Small IT problems left waiting for days quietly consume paid working time. A single request queue, target times, self-service and remote fixes turn routine support into a measurable service.
 layout: plain
 ---

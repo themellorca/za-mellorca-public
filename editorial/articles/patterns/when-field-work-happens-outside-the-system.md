@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-452
 slug: when-field-work-happens-outside-the-system
-title: When Field Work Happens Outside the System
-description: Field teams often coordinate in chat groups and keep photos on personal phones while the job system holds a tidied-up version typed in later. Here is what that costs and how to bring work back into view.
+title: When field work happens outside the system
+description: Field teams coordinate in chat groups and keep photos on phones while the job system holds a tidied version typed later. Bring the work back into view.
 lead: Field teams often coordinate in chat groups and keep photos on personal phones while the job system holds a tidied-up version typed in later. Here is what that costs and how to bring work back into view.
 category: Field Operations & Distributed Work
 published_date: 2026-10-07
@@ -18,9 +18,10 @@ sources:
   - Discover and manage Shadow IT - Microsoft Defender for Cloud Apps | https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-shadow-it
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
 related:
-  - Why Decision-Makers Keep Asking for Status Updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
-  - Why Teams Keep Building Manual Workarounds | /patterns/why-teams-keep-building-manual-workarounds/
-  - Why Buying AI Does Not Automatically Create Business Value | /patterns/why-buying-ai-does-not-automatically-create-business-value/
+  - Why decision-makers keep asking for status updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
+  - Why teams keep building manual workarounds | /patterns/why-teams-keep-building-manual-workarounds/
+  - Why buying AI does not automatically create business value | /patterns/why-buying-ai-does-not-automatically-create-business-value/
+  - When information reaches your systems only because someone carried it | /patterns/when-information-reaches-your-systems-only-because-someone-carried-it/
 summary: Field teams often coordinate in chat groups and keep photos on personal phones while the job system holds a tidied-up version typed in later. Here is what that costs and how to bring work back into view.
 layout: plain
 ---
@@ -56,7 +57,7 @@ Related published Patterns look at other directions of the same gap. [Why field 
 - **Office staff act as translators.** Someone gathers what happened and keys it in, which introduces delay, omissions and interpretation. The published Pattern [when your staff become the integration between software platforms](/patterns/when-your-staff-become-the-integration-between-software-platforms/) describes this role.
 - **Business data sits on personal devices.** Customer addresses, site photos and contact details accumulate on phones the business does not manage.
 
-That last point carries a compliance dimension in South Africa. Section 19 of the Protection of Personal Information Act requires a responsible party to take appropriate, reasonable technical and organisational measures to secure personal information against loss and unlawful access, including identifying foreseeable risks. Customer information spread across unmanaged personal phones and chat groups makes that difficult to show.
+That last point carries a compliance dimension in South Africa. Section 19 of the Protection of [Personal Information](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/) Act requires a responsible party to take appropriate, reasonable technical and organisational measures to secure personal information against loss and unlawful access, including identifying foreseeable risks. Customer information spread across unmanaged personal phones and chat groups makes that difficult to show.
 
 ## Commercial impact
 

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-056
 slug: why-teams-spend-more-time-preparing-reports-than-using-them
-title: Why Teams Spend More Time Preparing Reports Than Using Them
-description: When the monthly pack takes days to build and minutes to use, the business is investing in assembling information rather than acting on it. Here is why that happens and how to rebalance it.
+title: Why teams spend more time preparing reports than using them
+description: When the monthly pack takes days to build and minutes to use, effort goes into assembling information rather than acting on it. Here is how to rebalance.
 lead: When the monthly pack takes days to build and minutes to use, the business is investing in assembling information rather than acting on it. Here is why that happens and how to rebalance it.
 category: Reporting & Operational Visibility
 published_date: 2026-10-06
@@ -18,9 +18,9 @@ sources:
   - Google SRE - What is Toil in SRE: Understanding Its Impact | https://sre.google/sre-book/eliminating-toil/
   - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
 related:
-  - When Operational Problems Are Discovered in the Monthly Meeting | /patterns/when-operational-problems-are-discovered-in-the-monthly-meeting/
-  - Why Decision-Makers Keep Asking for Status Updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
-  - Why Does Management Find Out Too Late? | /patterns/why-management-finds-out-too-late/
+  - When operational problems are discovered in the monthly meeting | /patterns/when-operational-problems-are-discovered-in-the-monthly-meeting/
+  - Why decision-makers keep asking for status updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
+  - Why does management find out too late? | /patterns/why-management-finds-out-too-late/
 summary: When the monthly pack takes days to build and minutes to use, the business is investing in assembling information rather than acting on it. Here is why that happens and how to rebalance it.
 layout: plain
 ---
@@ -50,7 +50,7 @@ It overlaps with the lateness problem described in [when the weekly report is al
 
 Several causes usually sit together.
 
-- **Manual assembly.** Data is extracted and shaped by hand each cycle. Microsoft's Power Query documentation names the underlying problem directly: data often needs reshaping before use, and when that shaping is one-off it is not repeatable. Its answer is to define the steps once as a query that can be refreshed. Many businesses already own tools that can do this but still rebuild by hand.
+- **Manual assembly.** Data is extracted and shaped by hand each cycle. Microsoft's [Power Query](https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query) documentation names the underlying problem directly: data often needs reshaping before use, and when that shaping is one-off it is not repeatable. Its answer is to define the steps once as a query that can be refreshed. Many businesses already own tools that can do this but still rebuild by hand.
 - **Reconciliation at the end, not the source.** Mismatched customer names, late credit notes and inconsistent product codes are corrected during report preparation every cycle, instead of being prevented where the data is captured.
 - **Report accretion.** Sections are added when someone asks a question and are rarely removed when the question goes away. The pack grows; its use does not.
 - **No link to decisions.** Few reports state which decisions they support. Without that, there is no way to judge whether a section earns its preparation time.
@@ -78,7 +78,7 @@ The other misreading is to see the problem as the preparer's efficiency. Asking 
 
 In a better state, the report is shorter, built from refreshable connections to the source systems, and organised around the few decisions it exists to support. Data corrections are made where data is captured, so the report does not have to repair them every cycle. Preparation shrinks from days to a review of exceptions and a short written commentary.
 
-The people who used to assemble the report now spend that time interpreting it: explaining movements, testing assumptions and raising questions before the meeting. Microsoft's Power BI documentation describes scheduled refresh that imports data from the original sources several times a day; even a modest version of that idea, applied to a workbook, removes much of the monthly rebuild.
+The people who used to assemble the report now spend that time interpreting it: explaining movements, testing assumptions and raising questions before the meeting. Microsoft's [Power BI](https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data) documentation describes scheduled refresh that imports data from the original sources several times a day; even a modest version of that idea, applied to a workbook, removes much of the monthly rebuild.
 
 ## Intervention
 

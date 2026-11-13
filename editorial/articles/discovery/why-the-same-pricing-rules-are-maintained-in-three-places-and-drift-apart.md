@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-099
 slug: why-the-same-pricing-rules-are-maintained-in-three-places-and-drift-apart
 title: Why pricing rules end up copied across the CRM, spreadsheets and the ERP
-description: When discounts, tiers and price lists are maintained separately in each tool, quotes and invoices disagree. How to pick one source for pricing rules and keep the others honest.
+description: When each tool keeps its own discounts, tiers and price lists, quotes and invoices disagree. Pick one source for pricing rules and keep the rest honest.
 lead: When discounts, tiers and price lists are maintained separately in each tool, quotes and invoices disagree. How to pick one source for pricing rules and keep the others honest.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-10
@@ -18,7 +18,7 @@ sources:
   - Revenue recognition - Wikipedia | https://en.wikipedia.org/wiki/Revenue_recognition
 related:
   - Orders are created with values that differ from the accepted quote | /discovery/why-orders-must-carry-the-price-and-terms-of-the-accepted-quote/
-  - Why Sales Quotes Have to Be Re-Keyed Before an Order Can Start | /discovery/why-sales-quotes-have-to-be-re-keyed-before-orders/
+  - Why sales quotes have to be re-keyed before an order can start | /discovery/why-sales-quotes-have-to-be-re-keyed-before-orders/
   - Why tax and currency are still corrected by hand after the invoice goes out | /discovery/why-tax-and-currency-corrections-keep-happening-after-invoices-are-issued/
 summary: When discounts, tiers and price lists are maintained separately in each tool, quotes and invoices disagree. How to pick one source for pricing rules and keep the others honest.
 layout: plain
@@ -31,7 +31,7 @@ This article looks at that operating condition: pricing rules that are duplicate
 
 Pricing is more than a list of prices. It includes customer-specific rates, volume tiers, discount limits, bundles, approval thresholds and expiry dates. Each of these has to be applied at quote, at order and at invoice. If each tool stores its own version, every change to pricing is a project of updating several places, and the places inevitably drift. The drift is invisible until a customer sees two different numbers.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The buyer wants one answer to the question "what should this customer pay for this?" and wants every system to give the same answer. They also want price changes to take effect on a known date, everywhere, without a chain of emails. The real goal is not a sophisticated pricing engine but consistency: a quote that survives the journey to the invoice.
 

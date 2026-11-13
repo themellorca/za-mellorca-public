@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-151
 slug: what-business-automation-should-actually-solve
-title: What Business Automation Should Actually Solve
-description: Clarifies the real constraints automation should address and how to design automation programs that deliver durable value rather than shiny but shallow features.
+title: What business automation should actually solve
+description: The real constraints automation should address, and how to design automation programmes that deliver lasting value rather than shiny but shallow features.
 lead: Clarifies the real constraints automation should address and how to design automation programs that deliver durable value rather than shiny but shallow features.
 category: Automation
 published_date: 2026-09-08
@@ -14,9 +14,9 @@ sources:
   - Jidoka - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/jidoka/
   - IBM Products | https://www.ibm.com/watson-health
 related:
-  - How to Know Whether an Automation Actually Ran | /insights/how-to-know-whether-an-automation-actually-ran/
-  - Why Automating a Broken Process Makes the Problem Worse | /insights/why-automating-a-broken-process-makes-the-problem-worse/
-  - The Difference Between Necessary Human Work and Avoidable Manual Work | /insights/the-difference-between-necessary-human-work-and-avoidable-manual-work/
+  - How to know whether an automation actually ran | /insights/how-to-know-whether-an-automation-actually-ran/
+  - Why automating a broken process makes the problem worse | /insights/why-automating-a-broken-process-makes-the-problem-worse/
+  - The difference between necessary human work and avoidable manual work | /insights/the-difference-between-necessary-human-work-and-avoidable-manual-work/
 summary: Clarifies the real constraints automation should address and how to design automation programs that deliver durable value rather than shiny but shallow features.
 layout: plain
 ---

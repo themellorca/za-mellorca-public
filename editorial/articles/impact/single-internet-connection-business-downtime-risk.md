@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-177
 slug: single-internet-connection-business-downtime-risk
-title: When One Internet Connection Can Stop the Business
+title: When one Internet connection can stop the business
 description: How a single connectivity dependency turns an internet outage into payroll, service and revenue interruption—and how to model the resilience case.
 lead: Cloud applications, voice, payments, support and remote access can make connectivity a production dependency rather than an office convenience.
 category: Connectivity
@@ -19,10 +19,12 @@ side_title: Cost mechanisms
 sources:
   - Business Continuity and Disaster Recovery (BCDR) for On-premises Data Gateway and Virtual Network Data Gateway | https://learn.microsoft.com/en-us/data-integration/gateways-business-continuity-disaster-recovery
   - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+  - ISO 22301 Business continuity management systems - International Organization for Standardization | https://www.iso.org/standard/75106.html
 related:
-  - Video Calls That Freeze and Drop: The Cost to Customers and Remote Teams | /impact/video-calls-freezing-dropping-communication-cost/
-  - When One Employee Knows How Everything Works | /impact/key-person-operational-dependency/
-  - The Cost of Automations That Stop Silently | /impact/silent-automation-failures-financial-impact/
+  - Video calls that freeze and drop: The cost to customers and remote teams | /impact/video-calls-freezing-dropping-communication-cost/
+  - When one employee knows how everything works | /impact/key-person-operational-dependency/
+  - The cost of automations that stop silently | /impact/silent-automation-failures-financial-impact/
+  - Critical suppliers chosen without checking what depends on them | /impact/critical-suppliers-chosen-without-dependency-check-vendor-failure-cost/
 ---
 ## The tolerated pain
 
@@ -44,7 +46,7 @@ During an outage, employees may remain present but unable to reach cloud systems
 - **Backlog and overtime:** work deferred during the outage must be caught up later, often at higher cost.
 - **Data risk:** work captured offline or on paper must be re-entered, creating errors.
 
-The same principle applies inside cloud platforms. Microsoft's business continuity guidance for its data gateways notes that an on-premises gateway will stop working if a dependent Azure service is down in a region, even when local infrastructure is unaffected, and recommends high-availability clusters, gateways in multiple regions and monitoring with alerts. The lesson carries over directly: where a dependency can fail, secondary capacity has to be designed deliberately rather than assumed.
+The same principle applies inside cloud platforms. Microsoft's business continuity guidance for its data gateways notes that an on-premises gateway will stop working if a dependent Azure service is down in a region, even when local infrastructure is unaffected, and recommends high-availability clusters, gateways in multiple regions and monitoring with alerts. The lesson carries over directly: where a dependency can fail, secondary capacity has to be designed deliberately rather than assumed. The business continuity standard [ISO 22301](https://www.iso.org/standard/75106.html) frames the wider aim as helping an organisation prepare for, reduce the likelihood of and recover from disruptive incidents.
 
 ## How it becomes money
 

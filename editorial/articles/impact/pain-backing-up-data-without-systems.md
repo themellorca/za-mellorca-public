@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-152
 slug: pain-backing-up-data-without-systems
-title: Backing Up Data but Not the Systems That Use It
+title: Backing up data but not the systems that use it
 description: Backups exist, but insufficient system coverage leaves restoration slow and uncertain, increasing downtime cost after incidents.
 lead: Backups exist, but insufficient system coverage leaves restoration slow and uncertain, increasing downtime cost after incidents.
 category: mellorca.com
@@ -18,9 +18,9 @@ sources:
   - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
   - Offline backups in an online world | https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world
 related:
-  - The Cost of Retyping Customer Details into Every System | /impact/pain-duplication-of-customer-data-entry/
-  - The Hidden Productivity Cost of Poor Office Wi-Fi | /impact/pain-poor-office-wi-fi-slowing-employees-down/
-  - Invoice Approvals Stuck in Inboxes | /impact/pain-invoice-approvals-in-inboxes/
+  - The cost of retyping customer details into every system | /impact/pain-duplication-of-customer-data-entry/
+  - The hidden productivity cost of poor office Wi-Fi | /impact/pain-poor-office-wi-fi-slowing-employees-down/
+  - Invoice approvals stuck in inboxes | /impact/pain-invoice-approvals-in-inboxes/
 summary: Backups exist, but insufficient system coverage leaves restoration slow and uncertain, increasing downtime cost after incidents.
 layout: plain
 ---
@@ -34,7 +34,7 @@ That gap is the tolerated pain. An organisation may discover during an incident 
 
 The gap persists because the backup report looks healthy. The jobs complete, the storage is filling at the expected rate and nobody has been asked to prove a full restart. Backing up data is a product feature that can be switched on; backing up a system's ability to run is a design exercise that crosses several teams and suppliers. Server builds, firewall rules, identity settings, licence keys, integration credentials and installation media often live in different places, or only in an engineer's memory.
 
-Current guidance treats these as part of recovery rather than optional extras. CISA's ransomware guide advises maintaining and regularly updating "golden images" of critical systems, using infrastructure as code to redeploy cloud resources, and storing source code or executables, licence agreements and backup hardware so systems can actually be rebuilt. NIST's 2026 OT Backup Quick Start Guide (SP 1339) similarly lists configuration files, licence keys, vendor tools, operating system or virtual machine images and compatible spare hardware as things a restore needs, and asks organisations to consider infrastructure dependencies. The principle applies well beyond industrial environments.
+Current guidance treats these as part of recovery rather than optional extras. [CISA's ransomware guide](https://www.cisa.gov/stopransomware/ransomware-guide) advises maintaining and regularly updating "golden images" of critical systems, using infrastructure as code to redeploy cloud resources, and storing source code or executables, licence agreements and backup hardware so systems can actually be rebuilt. [NIST's 2026 OT Backup Quick Start Guide (SP 1339)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1339.pdf) similarly lists configuration files, licence keys, vendor tools, operating system or virtual machine images and compatible spare hardware as things a restore needs, and asks organisations to consider infrastructure dependencies. The principle applies well beyond industrial environments.
 
 ## The operational consequence
 
@@ -85,7 +85,7 @@ In this example the difference for a single incident is R417,600 − R105,600 = 
 
 ## When this becomes commercially urgent
 
-Act before an incident proves the gap. Strong triggers include a restore test that has only ever recovered files, a disaster recovery plan that names systems but not their dependencies, servers that have been hand-built and never documented, a move to cloud or a new supplier that changed how systems are deployed, and any revenue-generating process that cannot tolerate more than a working day of interruption. NIST SP 800-34's business impact analysis approach is a practical way to rank which systems deserve the investment first.
+Act before an incident proves the gap. Strong triggers include a restore test that has only ever recovered files, a disaster recovery plan that names systems but not their dependencies, servers that have been hand-built and never documented, a move to cloud or a new supplier that changed how systems are deployed, and any revenue-generating process that cannot tolerate more than a working day of interruption. [NIST SP 800-34](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final)'s business impact analysis approach is a practical way to rank which systems deserve the investment first.
 
 ## Resolution: protect the ability to run, not just the data
 

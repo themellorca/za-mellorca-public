@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-075
 slug: warning-signs-your-integration-architecture-has-outgrown-its-design
-title: How to Know When Your Integration Architecture Needs Redesigning
+title: How to know when your integration architecture needs redesigning
 description: Seven practical warning signs that the way your systems are connected has outgrown its original design, and how to respond without a risky big-bang rebuild.
 lead: Seven practical warning signs that the way your systems are connected has outgrown its original design, and how to respond without a risky big-bang rebuild.
 category: Integration
@@ -15,9 +15,9 @@ sources:
   - Publisher-Subscriber Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber
   - REL04-BP02 Implement loosely coupled dependencies - Reliability Pillar | https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_prevent_interaction_failure_loosely_coupled_system.html
 related:
-  - How to Connect Systems Without Creating a Fragile Web of Dependencies | /insights/how-to-connect-systems-without-creating-a-fragile-web-of-dependencies/
-  - Point-to-Point Integrations vs a More Maintainable Integration Architecture | /insights/point-to-point-integrations-vs-a-more-maintainable-integration-architecture/
-  - Why Integration Is Becoming More Important in the Age of AI Agents | /insights/why-ai-agents-raise-the-stakes-for-business-integration/
+  - How to connect systems without creating a fragile web of dependencies | /insights/how-to-connect-systems-without-creating-a-fragile-web-of-dependencies/
+  - Point-to-point integrations vs a more maintainable integration architecture | /insights/point-to-point-integrations-vs-a-more-maintainable-integration-architecture/
+  - Why integration is becoming more important in the age of AI agents | /insights/why-ai-agents-raise-the-stakes-for-business-integration/
 summary: Seven practical warning signs that the way your systems are connected has outgrown its original design, and how to respond without a risky big-bang rebuild.
 layout: plain
 ---
@@ -67,7 +67,7 @@ An illustrative example: a Cape Town retailer with an online store, a point-of-s
 
 ## Respond in stages, not in one rebuild
 
-The most common mistake after recognising these signs is to commission a complete rebuild. Big rebuilds carry their own risks: long periods with nothing delivered, and a cutover on which the whole business depends. Microsoft's Strangler Fig pattern describes the alternative. Rather than replacing a complex system in one move, you introduce a layer in front of it and move functions across one at a time, until the old arrangement can be switched off. Customers, and in a business setting staff, continue to use the same interface and need not be aware that a migration is under way.
+The most common mistake after recognising these signs is to commission a complete rebuild. Big rebuilds carry their own risks: long periods with nothing delivered, and a cutover on which the whole business depends. Microsoft's [Strangler Fig pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig) describes the alternative. Rather than replacing a complex system in one move, you introduce a layer in front of it and move functions across one at a time, until the old arrangement can be switched off. Customers, and in a business setting staff, continue to use the same interface and need not be aware that a migration is under way.
 
 Applied to integrations, a staged approach might look like this.
 

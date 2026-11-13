@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-153
 slug: why-paying-customers-still-get-overdue-invoice-reminders
 title: Customers receive reminders for invoices they already paid
-description: A reminder for an invoice that was settled last week annoys good customers and wastes collections time. Why payment status lags behind reminders and how to stop it.
+description: A reminder for an invoice paid last week annoys good customers and wastes collections time. Why payment status lags behind reminders and how to stop it.
 lead: A reminder for an invoice that was settled last week annoys good customers and wastes collections time. Why payment status lags behind reminders and how to stop it.
 category: Accounts Receivable & Collections
 published_date: 2026-10-09
@@ -32,9 +32,9 @@ This article looks at that operating condition: customers receiving reminders fo
 
 Reminder messages are usually generated from the invoice status in the accounting or billing system. If the status says unpaid, the reminder goes out. The status, however, only changes when someone or something records the payment against the invoice. Between the customer paying and the business recording it, there is a gap that can last hours or weeks. Part payments, payments with the wrong reference, payments made on behalf of a group of companies and payments allocated to the account rather than to an invoice all lengthen the gap. During that time the reminder logic cannot tell the difference between a customer who has not paid and a customer whose payment has not been recorded.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-A finance manager or credit controller who searches for this wants to stop embarrassing the business in front of customers, keep the reminders that do speed up payment, and cut the time spent apologising and resolving queries. They are not asking to stop reminders altogether, since reminders work. They want reminders that are accurate, which means they depend on payment data being current.
+A finance manager or credit controller facing this wants to stop embarrassing the business in front of customers, keep the reminders that do speed up payment, and cut the time spent apologising and resolving queries. They are not asking to stop reminders altogether, since reminders work. They want reminders that are accurate, which means they depend on payment data being current.
 
 ## Evidence and system mechanism
 

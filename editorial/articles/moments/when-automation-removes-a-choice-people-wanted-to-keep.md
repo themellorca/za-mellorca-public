@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000070
 slug: when-automation-removes-a-choice-people-wanted-to-keep
-title: When Automation Removes a Choice People Wanted to Keep
-description: Automation is sold on the hours it saves, but it can also remove decisions people valued. How to tell a chore from a choice, and design so that people keep the choices that matter.
+title: When automation removes a choice people wanted to keep
+description: Automation is sold on hours saved, but it can remove decisions people valued. How to tell a chore from a choice, so people keep the choices that matter.
 lead: Automation is sold on the hours it saves, but it can also remove decisions people valued. How to tell a chore from a choice, and design so that people keep the choices that matter.
 category: Human Agency
 published_date: 2026-10-10
@@ -20,9 +20,10 @@ sources:
   - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
   - Human-in-the-loop - Wikipedia | https://en.wikipedia.org/wiki/Human-in-the-loop
 related:
-  - The Freedom That Comes From Knowing Where Things Stand | /moments/the-freedom-that-comes-from-knowing-where-things-stand/
-  - What Changes When People Can See Their Own Numbers | /moments/what-changes-when-people-can-see-their-own-numbers/
-  - Why Approval Chains Make Capable People Wait | /moments/why-approval-chains-make-capable-people-wait/
+  - The freedom that comes from knowing where things stand | /moments/the-freedom-that-comes-from-knowing-where-things-stand/
+  - What changes when people can see their own numbers | /moments/what-changes-when-people-can-see-their-own-numbers/
+  - Why approval chains make capable people wait | /moments/why-approval-chains-make-capable-people-wait/
+  - Why meaningful work is easier when systems carry the routine | /moments/why-meaningful-work-gets-easier-when-systems-carry-the-routine/
 summary: Automation is sold on the hours it saves, but it can also remove decisions people valued. How to tell a chore from a choice, and design so that people keep the choices that matter.
 layout: plain
 ---
@@ -43,7 +44,7 @@ Self-determination theory, developed by Edward Deci and Richard Ryan, proposes t
 
 ## What the research on automation adds
 
-There is a second line of research that points in the same direction. Studies of what is called automation bias describe the tendency of people to over-rely on automated suggestions, accepting them even when other evidence points the other way. When a system makes the decision and the person is left to monitor, attention drifts. People become supervisors of a process they no longer understand well enough to challenge.
+There is a second line of research that points in the same direction. Studies of what is called [automation bias](https://en.wikipedia.org/wiki/Automation_bias) describe the tendency of people to over-rely on automated suggestions, accepting them even when other evidence points the other way. When a system makes the decision and the person is left to monitor, attention drifts. People become supervisors of a process they no longer understand well enough to challenge.
 
 That has a human cost and a business cost. The person loses the use of a skill. The business loses a second pair of eyes, because the person who would have noticed that paying the electricity supplier last was unwise is no longer in the loop.
 

@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-259
 slug: manual-automation-trigger-half-automated-process-cost
-title: Manual Automation Triggers Leave Half the Process Manual
+title: Manual automation triggers leave half the process manual
 description: An automation can remove task effort while still depending on a person to notice the event, prepare the input and press start.
 lead: A workflow may run automatically after somebody presses a button, uploads a file or sends a command. The hidden cost sits in the human work required to notice when it should start.
 category: Business Automation
@@ -23,10 +23,11 @@ evidence_basis: qualitative operational analysis and transparent time-cost model
 sources:
   - Triggers - Power Automate | https://learn.microsoft.com/en-us/power-automate/triggers-introduction
   - Google SRE - What is Toil in SRE: Understanding Its Impact | https://sre.google/sre-book/eliminating-toil/
+  - Run flows on a schedule - Microsoft Learn | https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks
 related:
-  - Gathering Information Before Work Can Start: The Payroll Cost of Preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
-  - The Payroll Cost of Work Software Could Do Automatically | /impact/repeatable-manual-work-payroll-cost-automation/
-  - Rebuilding the Same Report Every Month: The Labour Cost of Manual Reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
+  - Gathering information before work can start: The payroll cost of preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
+  - The payroll cost of work software could do automatically | /impact/repeatable-manual-work-payroll-cost-automation/
+  - Rebuilding the same report every month: The labour cost of manual reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
 ---
 ## The tolerated pain
 
@@ -38,7 +39,7 @@ The situation is common because it usually begins as a sensible compromise. The 
 
 A manual start looks cheap. It takes a few minutes, the person doing it understands the process and the automation itself produces visible results. Nobody records the time spent watching for the right moment, and nobody notices the runs that start late.
 
-Most automation platforms make the distinction explicit. Microsoft's Power Automate documentation, for example, describes [three ways to start a flow](https://learn.microsoft.com/en-us/power-automate/triggers-introduction): automated flows that run after an event occurs, instant flows that a person starts manually, and scheduled flows that run at a defined time. A manual trigger is a legitimate choice for genuinely ad hoc work. The pain arises when it is used for events that are predictable and already recorded in a system.
+Most automation platforms make the distinction explicit. Microsoft's Power Automate documentation, for example, describes [three ways to start a flow](https://learn.microsoft.com/en-us/power-automate/triggers-introduction): automated flows that run after an event occurs, instant flows that a person starts manually, and scheduled flows that run at a defined time. A manual trigger is a legitimate choice for genuinely ad hoc work. The pain arises when it is used for events that are predictable and already recorded in a system. Microsoft's guidance on [scheduled flows](https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks) shows how a recurring task can start by itself, for example once a day, an hour or a minute, without anyone remembering to press a button.
 
 Google's site reliability engineering guidance offers a useful lens. Its chapter on [eliminating toil](https://sre.google/sre-book/eliminating-toil/) defines toil as work that tends to be manual, repetitive, automatable, tactical and without enduring value, and that scales linearly as a service grows. It counts work as manual even when the human is only running an automation script. A person who starts the same workflow every time an email arrives fits that definition closely.
 

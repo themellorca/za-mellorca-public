@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-102
 slug: online-channels-selling-stock-the-warehouse-no-longer-has
 title: Online channels sell stock that the warehouse no longer has
-description: Web shops and marketplaces show a copy of stock that is already out of date. How to publish available rather than on-hand quantity, reserve at order creation and stop cancelling paid orders.
+description: Web shops and marketplaces show stock that is already out of date. How to publish available quantity, reserve at order creation and stop cancelling orders.
 lead: Web shops and marketplaces show a copy of stock that is already out of date. How to publish available rather than on-hand quantity, reserve at order creation and stop cancelling paid orders.
 category: Inventory & Order Operations
 published_date: 2026-10-08
@@ -21,6 +21,7 @@ related:
   - Why batch integrations leave your systems hours out of date | /discovery/batch-integrations-leave-systems-hours-out-of-date/
   - When teams consume events without knowing their delivery guarantees | /discovery/event-consumers-do-not-know-the-delivery-guarantees/
   - Automation candidates are chosen by novelty instead of business value | /discovery/automation-candidates-are-chosen-by-novelty-instead-of-business-value/
+  - Why pickers are sent to fetch orders that have already changed | /discovery/why-pickers-are-sent-to-fetch-orders-that-have-already-changed/
 summary: Web shops and marketplaces show a copy of stock that is already out of date. How to publish available rather than on-hand quantity, reserve at order creation and stop cancelling paid orders.
 layout: plain
 ---
@@ -32,9 +33,9 @@ This article looks at that operating condition: online channels selling stock th
 
 Stock is a physical quantity that changes in the warehouse, but it is sold through screens. Each sales channel, whether a web shop, a marketplace listing, a trade portal or a salesperson's quote, displays a number. If that number is a copy that is refreshed hourly, daily or by hand, it will be wrong whenever stock moves faster than the refresh. The result is overselling: orders accepted for goods that cannot be shipped.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-E-commerce managers, operations managers and owners search for ways to stop overselling, keep channels in sync and reduce cancelled orders. The need is not only a technical connection. It is a clear rule for which system is the source of truth for available stock, and a reliable way to reduce what each channel can sell as soon as the warehouse commits stock elsewhere.
+E-commerce managers, operations managers and owners want ways to stop overselling, keep channels in sync and reduce cancelled orders. The need is not only a technical connection. It is a clear rule for which system is the source of truth for available stock, and a reliable way to reduce what each channel can sell as soon as the warehouse commits stock elsewhere.
 
 ## Evidence and system mechanism
 

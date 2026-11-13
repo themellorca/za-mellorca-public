@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-301
 slug: broken-handoffs-are-systems-problems
-title: Broken Handoffs Are Systems Problems
+title: Broken handoffs are systems problems
 description: Frames cross-team handoffs as a systemic risk and presents governance patterns that reduce friction.
 lead: Frames cross-team handoffs as a systemic risk and presents governance patterns that reduce friction.
 category: Operations
@@ -14,9 +14,10 @@ sources:
   - Patient safety solutions | https://www.who.int/teams/integrated-health-services/patient-safety/research/patient-safety-solutions
   - The Kanban Guide - May 2025 (latest) - Kanban Guides | https://kanbanguides.org/english/
 related:
-  - What Your Recurring Problems Are Telling You About Your Systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
-  - Why Your CRM Is Not the Problem You Think It Is | /insights/why-your-crm-is-not-the-problem-you-think-it-is/
-  - What to Fix First When Everything Feels Broken | /insights/what-to-fix-first-when-everything-feels-broken/
+  - What your recurring problems are telling you about your systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
+  - Why your CRM is not the problem you think it is | /insights/why-your-crm-is-not-the-problem-you-think-it-is/
+  - What to fix first when everything feels broken | /insights/what-to-fix-first-when-everything-feels-broken/
+  - How to identify the handoffs that cause delays | /insights/how-to-find-which-handoffs-are-slowing-your-work-down/
 summary: Frames cross-team handoffs as a systemic risk and presents governance patterns that reduce friction.
 layout: plain
 ---

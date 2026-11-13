@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-058
 slug: automatic-software-renewals-without-value-review-cost
-title: Automatic Software Renewals: The Cost of Paying for Yesterday's Requirements
+title: Automatic software renewals: The cost of paying for yesterday's requirements
 description: When software renews automatically without a value review, the business keeps paying for seats, modules and plans it needed years ago.
 lead: When software renews automatically without a value review, the business keeps paying for seats, modules and plans it needed years ago.
 category: Digital Infrastructure
@@ -17,9 +17,10 @@ sources:
   - Cancel your Microsoft business subscription in the Microsoft 365 admin center | https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/cancel-your-subscription
   - Microsoft 365 Admin Center Usage Reports Overview - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports
 related:
-  - Subscriptions That Outlive the Employee: The Cost of Orphaned Software | /impact/orphaned-software-subscriptions-after-employee-leaves-cost/
-  - Paying for Tools You Already Own: The Cost of Underused Software Platforms | /impact/expensive-tools-for-tasks-existing-platform-handles-cost/
-  - Premium Plans for Basic Work: The Cost of Overbuying Software | /impact/premium-software-plans-basic-needs-overbuying-cost/
+  - Subscriptions that outlive the employee: The cost of orphaned software | /impact/orphaned-software-subscriptions-after-employee-leaves-cost/
+  - Paying for tools you already own: The cost of underused software platforms | /impact/expensive-tools-for-tasks-existing-platform-handles-cost/
+  - Premium plans for basic work: The cost of overbuying software | /impact/premium-software-plans-basic-needs-overbuying-cost/
+  - Nobody will cancel it: What subscription inertia costs a business | /impact/subscription-inertia-nobody-owns-decision-to-cancel-software-financial-cost/
 summary: When software renews automatically without a value review, the business keeps paying for seats, modules and plans it needed years ago.
 layout: plain
 ---
@@ -83,7 +84,7 @@ The cost of renewing old requirements is not only the invoice. Every seat that s
 
 A value review is not a cost-cutting exercise. It asks whether the subscription still fits the business. For each renewal:
 
-1. **Who uses it, and how much?** Usage data is often available. Microsoft's admin center usage reports, for instance, show activity over the last 7, 30, 90 and 180 days, and Microsoft describes them as a way to see who barely uses a service and might not need a licence. Most business software has an equivalent.
+1. **Who uses it, and how much?** Usage data is often available. Microsoft's [admin center usage reports](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports), for instance, show activity over the last 7, 30, 90 and 180 days, and Microsoft describes them as a way to see who barely uses a service and might not need a licence. Most business software has an equivalent.
 2. **What job does it do today?** Ask the people who use it, not only the person who bought it.
 3. **Does anything else already do this job?** Check for overlap with tools the business already pays for.
 4. **Is the plan right?** Compare the features you use with what each plan level includes.

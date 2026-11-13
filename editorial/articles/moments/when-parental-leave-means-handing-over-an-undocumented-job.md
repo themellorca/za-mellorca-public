@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000422
 slug: when-parental-leave-means-handing-over-an-undocumented-job
-title: When Parental Leave Means Handing Over an Undocumented Job
-description: South Africa's parental leave rules changed in October 2025. For employees whose work lives mostly in their own heads, the harder question may be what happens to the job while they are away.
+title: When parental leave means handing over an undocumented job
+description: South Africa's parental leave rules changed in October 2025. For staff whose work lives in their heads, the harder question is what happens to the job.
 lead: South Africa's parental leave rules changed in October 2025. For employees whose work lives mostly in their own heads, the harder question may be what happens to the job while they are away.
 category: Life Transitions & Vulnerability
 published_date: 2026-10-03
@@ -17,10 +17,12 @@ epistemic_state: HYPOTHESISED for the human experience and handover dynamics; OB
 sources:
   - Constitutional Court Redefines Parental Leave: Key Implications for Employers and Professionals | https://www.polity.org.za/article/constitutional-court-redefines-parental-leave-key-implications-for-employers-and-professionals-2025-10-06
   - SA Shift from Maternity Leave to a Unified Parental Leave System What Every Employer Must Know - BDO | https://www.bdo.co.za/en-za/insights/2026/business-services-outsourcing/sa-shift-from-maternity-leave-to-a-unified-parental-leave-system-what-every-employer-must-know
+  - Van Wyk and Others v Minister of Employment and Labour, CCT 308/23 and CCT 309/23 - Constitutional Court of South Africa | https://www.concourt.org.za/index.php/judgement/617-a-werner-van-wyk-and-others-v-minister-for-employment-and-labour-b-commission-for-gender-equality-and-another-v-minister-of-employment-and-labour-and-others
 related:
-  - When Nobody Can Say Which Number Is True | /moments/when-nobody-can-say-which-number-is-true/
-  - What Changes When Status Updates Stop Being a Chore | /moments/what-changes-when-status-updates-stop-being-a-chore/
-  - The Weekend That Exists Only on Paper | /moments/the-weekend-that-exists-only-on-paper/
+  - When nobody can say which number is true | /moments/when-nobody-can-say-which-number-is-true/
+  - What changes when status updates stop being a chore | /moments/what-changes-when-status-updates-stop-being-a-chore/
+  - The weekend that exists only on paper | /moments/the-weekend-that-exists-only-on-paper/
+  - The returning employee who finds everything changed | /moments/the-returning-employee-who-finds-everything-changed/
 summary: South Africa's parental leave rules changed in October 2025. For employees whose work lives mostly in their own heads, the harder question may be what happens to the job while they are away.
 layout: plain
 ---
@@ -32,7 +34,9 @@ This is the situation this piece examines. Not parenthood itself, which Mellorca
 
 ## A change in who takes leave
 
-In South Africa the question has recently become broader. On 3 October 2025 the Constitutional Court handed down judgment in *Van Wyk and Others v Minister of Employment and Labour*. As summarised by Polity and by BDO South Africa, the Court found the maternity and parental leave provisions of the Basic Conditions of Employment Act unconstitutional and ordered an interim position: parents, whether biological, adoptive or commissioning, are collectively entitled to four months and ten days of parental leave, shared as they agree, or as equally as possible if they cannot agree. A single employed parent receives the full period.
+In South Africa the question has recently become broader. On 3 October 2025 the [Constitutional Court](https://www.polity.org.za/article/constitutional-court-redefines-parental-leave-key-implications-for-employers-and-professionals-2025-10-06) handed down judgment in *Van Wyk and Others v Minister of Employment and Labour*. As summarised by Polity and by BDO South Africa, the Court found the maternity and [parental leave](https://www.bdo.co.za/en-za/insights/2026/business-services-outsourcing/sa-shift-from-maternity-leave-to-a-unified-parental-leave-system-what-every-employer-must-know) provisions of the Basic Conditions of Employment Act unconstitutional and ordered an interim position: parents, whether biological, adoptive or commissioning, are collectively entitled to four months and ten days of parental leave, shared as they agree, or as equally as possible if they cannot agree.
+
+A single employed parent receives the full period. The [Court's own judgment page](https://www.concourt.org.za/index.php/judgement/617-a-werner-van-wyk-and-others-v-minister-for-employment-and-labour-b-commission-for-gender-equality-and-another-v-minister-of-employment-and-labour-and-others) confirms that the declaration of invalidity is suspended for 36 months to allow Parliament to correct the law.
 
 BDO's guidance notes that employees must give written notice, generally at least four weeks in advance for a birth, and that HR and payroll systems built around separate maternity and paternity categories may need to be redesigned. Parliament has until October 2028 to amend the legislation, but the interim arrangement applies now.
 

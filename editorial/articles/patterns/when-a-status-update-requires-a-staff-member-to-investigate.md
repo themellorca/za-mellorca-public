@@ -2,9 +2,9 @@
 hub: patterns
 record_id: PAT-077
 slug: when-a-status-update-requires-a-staff-member-to-investigate
-title: When a Status Update Requires a Staff Member to Investigate
-description: Explores how status updates often push a manual investigation rather than a verified status, creating waste and blocking progress.
-lead: Explores how status updates often push a manual investigation rather than a verified status, creating waste and blocking progress.
+title: When a status update requires a staff member to investigate
+description: When answering "where is it?" means someone has to go and investigate, every status update costs time and slows the work it is reporting on.
+lead: When answering "where is it?" means someone has to go and investigate, every status update costs time and slows the work it is reporting on.
 category: Operational Patterns
 published_date: 2026-09-08
 updated_date: 2026-09-08
@@ -19,10 +19,10 @@ sources:
   - Stop Trying to Delight Your Customers | https://hbr.org/2010/07/stop-trying-to-delight-your-customers
   - What is Order Management? - IBM | https://www.ibm.com/think/topics/order-management
 related:
-  - When Your Staff Become the Integration Between Software Platforms | /patterns/when-your-staff-become-the-integration-between-software-platforms/
-  - Why Does This Task Still Need a Person Every Time? | /patterns/why-does-this-task-still-need-a-person-every-time/
-  - The Cost of Work That Adds No New Information | /patterns/the-cost-of-work-that-adds-no-new-information/
-summary: Explores how status updates often push a manual investigation rather than a verified status, creating waste and blocking progress.
+  - When your staff become the integration between software platforms | /patterns/when-your-staff-become-the-integration-between-software-platforms/
+  - Why does this task still need a person every time? | /patterns/why-does-this-task-still-need-a-person-every-time/
+  - The cost of work that adds no new information | /patterns/the-cost-of-work-that-adds-no-new-information/
+summary: When answering "where is it?" means someone has to go and investigate, every status update costs time and slows the work it is reporting on.
 layout: plain
 ---
 ## Observable condition

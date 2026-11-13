@@ -3,7 +3,7 @@ hub: insights
 record_id: INS-433
 slug: how-to-build-a-business-case-for-systems-improvement
 title: How to build a business case for systems improvement
-description: How to justify systems improvement using measurable operating problems, realistic benefits, lifecycle cost and delivery risk instead of vague transformation language.
+description: How to justify systems improvement with measurable operating problems, realistic benefits, lifecycle cost and delivery risk, not vague transformation talk.
 lead: A credible systems business case starts with an operating problem the organisation can observe—not with a preferred product looking for a justification.
 category: Systems & Strategy
 published_date: 2026-09-07

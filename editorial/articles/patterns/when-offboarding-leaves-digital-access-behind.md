@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-185
 slug: when-offboarding-leaves-digital-access-behind
-title: When Offboarding Leaves Digital Access Behind
-description: When employees leave but accounts, groups, licences and application access remain active, the issue is an employee-lifecycle workflow problem, not only an IT cleanup task.
+title: When offboarding leaves digital access behind
+description: When leavers keep accounts, licences and application access, this is a workflow problem, not just an IT cleanup. Build removal into the leaving process.
 lead: If employee exits rely on HR remembering to notify every system owner, leftover access is a predictable workflow outcome rather than an isolated administrative mistake.
 category: People Operations & Internal Service
 published_date: 2026-09-03
@@ -25,9 +25,9 @@ sources:
   - Plan a Lifecycle Workflow deployment - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/lifecycle-workflows-deployment
   - SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations - CSRC | https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final
 related:
-  - When Staff Need to Ask Who Approves What | /patterns/when-staff-need-to-ask-who-approves-what/
-  - Why Does Hiring Someone Create So Much Internal Admin? | /patterns/why-does-hiring-someone-create-so-much-internal-admin/
-  - When AI Agents Can Act but Governance Cannot See Them | /patterns/when-ai-agents-can-act-but-governance-cannot-see-them/
+  - When staff need to ask who approves what | /patterns/when-staff-need-to-ask-who-approves-what/
+  - Why does hiring someone create so much internal admin? | /patterns/why-does-hiring-someone-create-so-much-internal-admin/
+  - When AI agents can act but governance cannot see them | /patterns/when-ai-agents-can-act-but-governance-cannot-see-them/
 summary: Leftover access after employees leave usually points to a fragmented lifecycle workflow, not a one-off IT oversight. Connecting HR events to identity and application controls can reduce manual chasing and make exceptions visible. If this condition is familiar, explore Mellorca's solutions or start a conversation so we can examine the lifecycle flow.
 ---
 ## Observable condition
@@ -58,7 +58,7 @@ Common causes include no authoritative termination date, inconsistent applicatio
 - **Workers outside HR.** Contractors and temporary staff may never enter the HR system, so no leaving event is raised.
 - **Silent failure.** When an automated or manual step fails, nothing records that it did not happen.
 
-Microsoft Entra Lifecycle Workflows explicitly models joiner, mover and leaver phases and supports leaver tasks such as disabling accounts, removing group or Teams membership, removing licences and deleting accounts. Its deployment guidance separates pre-offboarding, offboarding on the day, post-offboarding and real-time termination, and relies on an accurate leave date attribute populated from the HR source. The broader principle is that access lifecycle can be event-driven and governed.
+Microsoft Entra [Lifecycle Workflows](https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows) explicitly models joiner, mover and leaver phases and supports leaver tasks such as disabling accounts, removing group or Teams membership, removing licences and deleting accounts. Its deployment guidance separates pre-offboarding, offboarding on the day, post-offboarding and real-time termination, and relies on an accurate leave date attribute populated from the HR source. The broader principle is that access lifecycle can be event-driven and governed.
 
 The control expectation is long established. NIST SP 800-53 control PS-4 (personnel termination) expects organisations, on termination, to disable system access within a defined period, revoke authenticators and credentials, retrieve organisational property and retain access to information the person controlled. Control PS-7 extends the same discipline to external providers, requiring them to notify the organisation when their personnel with credentials or system privileges leave or transfer.
 

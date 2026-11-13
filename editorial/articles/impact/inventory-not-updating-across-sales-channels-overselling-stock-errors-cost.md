@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-083
 slug: inventory-not-updating-across-sales-channels-overselling-stock-errors-cost
-title: Overselling Stock: What Out-of-Sync Sales Channels Really Cost You
-description: When stock levels lag between your shop, website and marketplace listings, the result is cancelled orders, defensive under-listing and customers who do not come back.
+title: Overselling stock: What out-of-sync sales channels really cost you
+description: When stock levels lag between your shop, website and marketplace listings, you get cancelled orders, defensive under-listing and lost customers.
 lead: When stock levels lag between your shop, website and marketplace listings, the result is cancelled orders, defensive under-listing and customers who do not come back.
 category: Digital Operations
 published_date: 2026-10-10
@@ -17,9 +17,10 @@ sources:
   - Inventory Management: How it Works and Tools (2026) - Shopify | https://www.shopify.com/blog/inventory-management
   - Consumer Protection Act 68 of 2008 - South African Government | https://www.gov.za/documents/consumer-protection-act
 related:
-  - Fixing Avoidable Mistakes Instead of Serving Customers: The Cost of Rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
-  - When the Line Drops and Nothing Works: The Cost of One Internet Connection | /impact/one-internet-line-cloud-dependent-trading-stops-failover-cost/
-  - Re-keying Orders After the Sale: The Labour and Fulfilment Cost of Disconnected Systems | /impact/orders-rekeyed-after-sale-fulfilment-risk-cost/
+  - Fixing avoidable mistakes instead of serving customers: The cost of rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
+  - When the line drops and nothing works: The cost of one Internet connection | /impact/one-internet-line-cloud-dependent-trading-stops-failover-cost/
+  - Re-keying orders after the sale: The labour and fulfilment cost of disconnected systems | /impact/orders-rekeyed-after-sale-fulfilment-risk-cost/
+  - Why safety stock rules differ between sales channels | /discovery/why-safety-stock-rules-differ-between-sales-channels/
 summary: When stock levels lag between your shop, website and marketplace listings, the result is cancelled orders, defensive under-listing and customers who do not come back.
 layout: plain
 ---

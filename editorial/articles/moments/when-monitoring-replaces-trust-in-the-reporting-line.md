@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000062
 slug: when-monitoring-replaces-trust-in-the-reporting-line
-title: When Monitoring Replaces Trust
+title: When monitoring replaces trust
 description: Activity tracking promises reliable reporting but can erode the trust it replaces. Why it happens, and how to see the work without watching the person.
 lead: Activity tracking promises reliable reporting but can erode the trust it replaces. Why it happens, and how to see the work without watching the person.
 category: Human Agency
@@ -20,9 +20,10 @@ sources:
   - Employee Burnout, Part 1: The 5 Main Causes | https://www.gallup.com/workplace/237059/employee-burnout-causes.aspx
   - Google SRE - Blameless Postmortem for System Resilience | https://sre.google/sre-book/postmortem-culture/
 related:
-  - The Difference Between Being Informed and Being in Control | /moments/the-difference-between-being-informed-and-being-in-control/
-  - What Changes When People Can See Their Own Numbers | /moments/what-changes-when-people-can-see-their-own-numbers/
-  - When the System Decides What You Can Do Today | /moments/when-the-system-decides-what-you-can-do-today/
+  - The difference between being informed and being in control | /moments/the-difference-between-being-informed-and-being-in-control/
+  - What changes when people can see their own numbers | /moments/what-changes-when-people-can-see-their-own-numbers/
+  - When the system decides what you can do today | /moments/when-the-system-decides-what-you-can-do-today/
+  - The team leader who protects their team from bad tools | /moments/the-team-leader-who-quietly-shields-the-team-from-bad-tools/
 summary: Activity tracking promises reliable reporting but can erode the trust it replaces. Why it happens, and how to see the work without watching the person.
 layout: plain
 ---
@@ -38,11 +39,11 @@ The trouble is that activity and outcome are different things. Keystrokes, logge
 
 ## What it does to the people being measured
 
-The World Health Organization's guidance on mental health at work lists low job control and authoritarian supervision among the working conditions that pose a risk to mental health. It also names unclear job roles and limited support from colleagues. Monitoring that is imposed rather than agreed removes a little of the control people have over how they organise their day, and tells them, without a word being said, that their judgement is not presumed.
+The World Health Organization's guidance on [mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) lists low job control and authoritarian supervision among the working conditions that pose a risk to mental health. It also names unclear job roles and limited support from colleagues. Monitoring that is imposed rather than agreed removes a little of the control people have over how they organise their day, and tells them, without a word being said, that their judgement is not presumed.
 
 The UK Health and Safety Executive's management standards for work-related stress come at the same point from a different direction. They treat control (how much say people have in the way they do their work), support and role clarity as core conditions for a healthy workplace. A dashboard that counts minutes of activity does not supply any of these. It supplies a number and a reason to manage the number.
 
-Gallup's research on employee burnout identifies unfair treatment, unmanageable workload, unclear expectations, lack of manager support and unreasonable time pressure as the leading causes. Monitoring does not automatically cause any of them, but poorly explained monitoring can feel like unfair treatment, and a metric that rewards constant visible activity can encourage the unreasonable time pressure that people then describe as burnout.
+Gallup's research on [employee burnout](https://www.gallup.com/workplace/237059/employee-burnout-causes.aspx) identifies unfair treatment, unmanageable workload, unclear expectations, lack of manager support and unreasonable time pressure as the leading causes. Monitoring does not automatically cause any of them, but poorly explained monitoring can feel like unfair treatment, and a metric that rewards constant visible activity can encourage the unreasonable time pressure that people then describe as burnout.
 
 ## An illustrative case
 

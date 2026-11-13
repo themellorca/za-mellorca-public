@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-070
 slug: when-the-number-arrives-after-the-decision-is-made
-title: When Your Metrics Arrive After the Decision Was Needed
-description: Reports can be accurate and still useless if they land after the choice has been made. See how to match reporting rhythm to decision timing without paying for live data everywhere.
+title: When your metrics arrive after the decision was needed
+description: Accurate reports are still useless if they land after the decision. Match reporting rhythm to decision timing without paying for live data everywhere.
 lead: Reports can be accurate and still useless if they land after the choice has been made. See how to match reporting rhythm to decision timing without paying for live data everywhere.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-10
@@ -19,9 +19,10 @@ sources:
   - What Is Data Quality? - IBM | https://www.ibm.com/think/topics/data-quality
   - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
 related:
-  - Why Real-Time Operations Still Depend on Friday Reports | /patterns/why-live-data-still-gets-managed-from-a-weekly-report/
-  - When People Debate the Number Instead of the Decision | /patterns/when-meetings-argue-about-the-figure-and-never-reach-the-decision/
-  - The Pattern Behind Conflicting Management Reports | /patterns/why-two-correct-management-reports-still-contradict-each-other/
+  - Why real-time operations still depend on Friday reports | /patterns/why-live-data-still-gets-managed-from-a-weekly-report/
+  - When people debate the number instead of the decision | /patterns/when-meetings-argue-about-the-figure-and-never-reach-the-decision/
+  - The pattern behind conflicting management reports | /patterns/why-two-correct-management-reports-still-contradict-each-other/
+  - The cost of managing yesterday’s information | /patterns/what-it-costs-to-run-a-business-on-last-nights-numbers/
 summary: Reports can be accurate and still useless if they land after the choice has been made. See how to match reporting rhythm to decision timing without paying for live data everywhere.
 layout: plain
 ---
@@ -51,13 +52,13 @@ The visible symptom is a report that nobody opens until a meeting. The common as
 
 Several mechanisms usually combine.
 
-- **Refresh limits nobody has looked at.** Even where reports are automated, the schedule is a setting. Microsoft's documentation for Power BI, for example, states that scheduled refresh is limited by licence: up to eight refreshes a day on Pro and up to 48 on Premium and Fabric capacities. It also notes that a refresh is targeted to start within 15 minutes of its slot but can be delayed by up to an hour. A business that assumes its dashboard is "live" may in fact be looking at a snapshot taken at a time nobody remembers choosing.
+- **Refresh limits nobody has looked at.** Even where reports are automated, the schedule is a setting. Microsoft's documentation for [Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts), for example, states that [scheduled refresh](https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-scheduled-refresh) is limited by licence: up to eight refreshes a day on Pro and up to 48 on Premium and Fabric capacities. It also notes that a refresh is targeted to start within 15 minutes of its slot but can be delayed by up to an hour. A business that assumes its dashboard is "live" may in fact be looking at a snapshot taken at a time nobody remembers choosing.
 - **Silent failure.** The same documentation explains that a refresh schedule is deactivated after four consecutive failures, for example when a credential expires. Unless someone is told, the dashboard keeps displaying the last successful state and looks entirely normal.
 - **Period-end thinking.** Figures that depend on posted invoices, reconciled stock or approved timesheets cannot be produced before those steps are complete. If those steps are done in a batch at month-end, every dependent metric inherits the delay.
 - **Alerts that depend on the same stale data.** Threshold alerts are an obvious remedy, but they work on refreshed data only. A threshold set on a figure that is updated daily will fire daily at best.
 - **No statement of "needed by".** The report has an owner and a schedule but no stated decision, so nobody can say whether late is acceptable.
 
-IBM's description of data quality lists timeliness as one of its dimensions, meaning that data is available within an expected time frame so that processes can work as people expect. The UK Government Data Quality Framework makes the same point from a policy angle: timeliness is about whether data is up to date and available within a lag suitable for its use, and the framework openly accepts that trade-offs between dimensions such as timeliness and accuracy have to be made and communicated. Most small and mid-sized businesses have never made that trade-off consciously. It has been made for them by whichever process was built first.
+IBM's description of data quality lists timeliness as one of its dimensions, meaning that data is available within an expected time frame so that processes can work as people expect. The UK [Government Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework) makes the same point from a policy angle: timeliness is about whether data is up to date and available within a lag suitable for its use, and the framework openly accepts that trade-offs between dimensions such as timeliness and accuracy have to be made and communicated. Most small and mid-sized businesses have never made that trade-off consciously. It has been made for them by whichever process was built first.
 
 ## Commercial impact
 

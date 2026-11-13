@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-087
 slug: a-safe-sequence-for-cleaning-up-a-crm-while-the-team-keeps-working
-title: How to Clean Up a CRM Without Breaking Active Work
+title: How to clean up a CRM without breaking active work
 description: A staged, reversible method for removing duplicates, stale records and clutter from a live CRM while salespeople and service staff carry on working.
 lead: A staged, reversible method for removing duplicates, stale records and clutter from a live CRM while salespeople and service staff carry on working.
 category: Operations
@@ -15,9 +15,9 @@ sources:
   - Set up duplicate detection rules to keep your data clean - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
   - Section 14 Retention and restriction of records - POPIA | https://popia.co.za/section-14-retention-and-restriction-of-records/
 related:
-  - Why Sales, Operations and Service Need Different Views of the Same Customer | /insights/one-customer-record-three-teams-three-useful-views/
-  - Poor Data Is an Operations Problem, Not Just a Data Problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
-  - How Much Manual Work Is Hiding Inside Your Business? | /insights/how-much-manual-work-is-hiding-inside-your-business/
+  - Why sales, operations and service need different views of the same customer | /insights/one-customer-record-three-teams-three-useful-views/
+  - Poor data is an operations problem, not just a data problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
+  - How much manual work is hiding inside your business? | /insights/how-much-manual-work-is-hiding-inside-your-business/
 summary: A staged, reversible method for removing duplicates, stale records and clutter from a live CRM while salespeople and service staff carry on working.
 layout: plain
 ---
@@ -51,7 +51,7 @@ Run reports that count the problems: how many duplicates by email or company num
 
 ### Stage 2: Prevent new mess
 
-Before you remove the old clutter, stop creating more. Turn on or tighten duplicate detection, make a few fields mandatory where they genuinely matter and use picklists in place of free text for things like industry or region. Microsoft's guidance on duplicate detection rules notes that default rules cover only accounts and contacts, and recommends basing criteria on a field with unique values, such as email. It also notes that the number of published rules per record type is limited. Choose a small number of matching rules well rather than many loose ones.
+Before you remove the old clutter, stop creating more. Turn on or tighten duplicate detection, make a few fields mandatory where they genuinely matter and use picklists in place of free text for things like industry or region. Microsoft's guidance on [duplicate detection rules](https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean) notes that default rules cover only accounts and contacts, and recommends basing criteria on a field with unique values, such as email. It also notes that the number of published rules per record type is limited. Choose a small number of matching rules well rather than many loose ones.
 
 ### Stage 3: Standardise safe fields
 
@@ -93,7 +93,9 @@ Dead deals distort forecasts, but closing them in bulk can erase real opportunit
 
 ## Retention is part of the picture
 
-Clean-up often raises the question of how long to keep old customer data. Section 14 of South Africa's Protection of Personal Information Act says personal information should not be kept longer than needed for the purpose it was collected for, unless an exception applies, such as retention required or permitted by law, a contract or consent. When the business is no longer authorised to hold a record, it must destroy, delete or de-identify it as soon as reasonably practicable, in a way that prevents it from being reconstructed in an intelligible form. In some situations, such as a disputed accuracy or the need to keep proof, processing must be restricted instead of deleted. So a clean-up should have a retention rule agreed in advance, ideally with advice, and deletion should follow the rule rather than convenience.
+Clean-up often raises the question of how long to keep old customer data. Section 14 of South Africa's Protection of Personal Information Act says personal information should not be kept longer than needed for the purpose it was collected for, unless an exception applies, such as retention required or permitted by law, a contract or consent.
+
+When the business is no longer authorised to hold a record, it must destroy, delete or de-identify it as soon as reasonably practicable, in a way that prevents it from being reconstructed in an intelligible form. In some situations, such as a disputed accuracy or the need to keep proof, processing must be restricted instead of deleted. So a clean-up should have a retention rule agreed in advance, ideally with advice, and deletion should follow the rule rather than convenience.
 
 ## An illustrative timeline
 

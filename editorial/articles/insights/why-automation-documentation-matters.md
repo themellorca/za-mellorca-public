@@ -20,6 +20,7 @@ side_title: Topics
 sources:
   - Google SRE - IT Service Management: Automate Operations | https://sre.google/sre-book/introduction/
   - Application lifecycle management (ALM) with Microsoft Power Platform - Power Platform | https://learn.microsoft.com/en-us/power-platform/alm/overview-alm
+  - Manage orphaned flows when owner leaves organization - Power Automate | https://learn.microsoft.com/en-us/troubleshoot/power-platform/power-automate/flow-management/manage-orphan-flow-when-owner-leaves-org
 closing_title: Related Mellorca services
 closing_text: [Business Automation & AI Workflows](/services/business-automation-ai-workflows/) can build maintainable automated processes, while [Managed Digital Operations](/services/managed-digital-operations/) can maintain runbooks, monitoring and controlled change after launch.
 related:
@@ -51,7 +52,7 @@ Boundaries matter as much as purpose. Write down what the automation deliberatel
 
 List source and destination systems, important data objects, integrations, scheduled jobs, service accounts and external services. Record where credentials are controlled and who owns rotation without placing secret values in ordinary documentation.
 
-Dependencies are especially important when an apparently small change can break another workflow. This connects to [configuration change control](/insights/why-uncontrolled-configuration-changes-create-operational-risk/). It also connects to identity: an automation that runs under one employee's personal account inherits that person's employment status, which is why the Discovery article on [automations running on personal credentials](/discovery/why-automations-should-not-run-on-personal-credentials/) treats ownership of the running identity as part of the design.
+Dependencies are especially important when an apparently small change can break another workflow. This connects to [configuration change control](/insights/why-uncontrolled-configuration-changes-create-operational-risk/). It also connects to identity: an automation that runs under one employee's personal account inherits that person's employment status, which is why the Discovery article on [automations running on personal credentials](/discovery/why-automations-should-not-run-on-personal-credentials/) treats ownership of the running identity as part of the design. Microsoft's guidance on [orphaned flows](https://learn.microsoft.com/en-us/troubleshoot/power-platform/power-automate/flow-management/manage-orphan-flow-when-owner-leaves-org) notes that a flow whose owner has left can fail if it uses connections tied to that person's account.
 
 ## Explain the logic that is not obvious
 
@@ -75,7 +76,7 @@ For business-critical automations, record material changes, testing evidence and
 
 Low-risk workflows can use lightweight records. High-impact workflows deserve stronger controls because the cost of uncertainty is higher.
 
-Platform vendors increasingly build this expectation into their tooling. Microsoft's guidance on application lifecycle management for Power Platform describes governance as including change tracking, review, audit, deployment control and rollback, and treats Power Automate flows as solution components that move between environments. Using those mechanisms gives documentation a natural home rather than leaving it in a separate file nobody updates.
+Platform vendors increasingly build this expectation into their tooling. Microsoft's guidance on [application lifecycle management](https://learn.microsoft.com/en-us/power-platform/alm/overview-alm) for Power Platform describes governance as including change tracking, review, audit, deployment control and rollback, and treats Power Automate flows as solution components that move between environments. Using those mechanisms gives documentation a natural home rather than leaving it in a separate file nobody updates.
 
 ## Make documentation part of the definition of done
 

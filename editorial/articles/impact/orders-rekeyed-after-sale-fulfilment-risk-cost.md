@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-080
 slug: orders-rekeyed-after-sale-fulfilment-risk-cost
-title: Re-keying Orders After the Sale: The Labour and Fulfilment Cost of Disconnected Systems
+title: Re-keying orders after the sale: The labour and fulfilment cost of disconnected systems
 description: When every confirmed order is typed again into accounting or warehouse systems, the business pays for the typing and for the wrong deliveries it causes.
 lead: When every confirmed order is typed again into accounting or warehouse systems, the business pays for the typing and for the wrong deliveries it causes.
 category: Digital Operations
@@ -15,10 +15,12 @@ primary_cost_mechanism: Labour cost of order capture plus error, rework and reve
 sources:
   - Synchronize and fulfill sales orders - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/shopify/synchronize-orders
   - What Is EDI: Electronic Data Interchange? - IBM | https://www.ibm.com/think/topics/edi-electronic-data-interchange
+  - GS1 EDI - GS1 | https://www.gs1.org/standards/edi
 related:
-  - Fixing Avoidable Mistakes Instead of Serving Customers: The Cost of Rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
-  - The Human Dispatcher: The Cost of Manually Routing Every Incoming Request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
-  - Answering the Same Question Again: The Payroll Cost of Undocumented Know-How | /impact/same-internal-questions-undocumented-knowledge-cost/
+  - Fixing avoidable mistakes instead of serving customers: The cost of rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
+  - The human dispatcher: The cost of manually routing every incoming request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
+  - Answering the same question again: The payroll cost of undocumented know-how | /impact/same-internal-questions-undocumented-knowledge-cost/
+  - Overselling stock: What out-of-sync sales channels really cost you | /impact/inventory-not-updating-across-sales-channels-overselling-stock-errors-cost/
 summary: When every confirmed order is typed again into accounting or warehouse systems, the business pays for the typing and for the wrong deliveries it causes.
 layout: plain
 ---
@@ -41,7 +43,7 @@ Mellorca has written about the broader [cost of business systems that do not tal
 ## Operational consequence
 
 - **Delay between sale and fulfilment.** Orders wait in an inbox or tray until someone captures them. Late-afternoon orders slip to the next day.
-- **Keying errors.** Wrong product code, quantity, unit of measure or delivery address. IBM, describing electronic data interchange, lists the errors manual entry introduces: typing mistakes, hard-to-read handwriting, missed fields and misread categories.
+- **Keying errors.** Wrong product code, quantity, unit of measure or delivery address. IBM, describing [electronic data interchange](https://www.ibm.com/think/topics/edi-electronic-data-interchange), lists the errors manual entry introduces: typing mistakes, hard-to-read handwriting, missed fields and misread categories.
 - **Overselling.** Stock levels in the sales channel and the stock system drift apart because updates are typed in batches.
 - **Customer queries the office cannot answer.** Until the order is captured, nobody can confirm its status.
 - **Peak-time breakdowns.** During month-end, promotions or seasonal peaks, the capture backlog grows exactly when speed matters most.
@@ -94,7 +96,7 @@ In a well-run order flow, the order is captured once, at the point of sale, and 
 - **Connected sales channels.** Many platforms already include connectors. Microsoft's Business Central documentation for its Shopify connector, for example, describes importing online orders and creating sales documents automatically, with a fully fulfilled order becoming an invoice and an unfulfilled one becoming a sales order. It also provides views for orders where processing hit an error or where the order changed after it was processed. That is the right design: automation for the normal case, and a visible queue for exceptions.
 - **Electronic ordering with larger customers.** IBM describes electronic data interchange as standards for exchanging business documents directly between systems, with rigid formatting that checks information before it enters business processes.
 - **Structured order capture for the rest.** Reps and counter staff use a form that writes directly into the system, with product codes from a list rather than typed by hand.
-- **One order record that tracks status.** An order management approach, as IBM puts it, tracks orders from inception to fulfilment, so customer queries can be answered without investigation.
+- **One order record that tracks status.** An order management approach, as IBM puts it, tracks orders from inception to fulfilment, so customer queries can be answered without investigation. GS1 says its [EDI standards](https://www.gs1.org/standards/edi) allow automation of business transactions commonly occurring across the supply chain.
 
 ## Practical steps
 

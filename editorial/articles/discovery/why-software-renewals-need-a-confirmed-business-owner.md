@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-328
 slug: why-software-renewals-need-a-confirmed-business-owner
-title: Why Software Renewals Need a Confirmed Business Owner
+title: Why software renewals need a confirmed business owner
 description: Application renewal decisions become weak when nobody can confirm who owns the capability, configuration, risk and business need.
 lead: A renewal date is a commercial decision point. If the organisation cannot identify who owns the application's business purpose, the default can become “renew because it exists.”
 category: SaaS & Application Portfolio Management
@@ -27,9 +27,9 @@ sources:
 closing_title: Method note
 closing_text: Application ownership mechanisms support the governance model; renewal savings must be established from the organisation's own contracts, usage and dependency evidence.
 related:
-  - Why Legacy Applications Remain Live Without an Owner | /discovery/why-legacy-applications-remain-live-without-an-owner/
-  - Why Free Trials Become Production Dependencies | /discovery/why-free-trials-become-production-dependencies/
-  - Why Application Costs Cannot Be Allocated to Business Units | /discovery/why-application-costs-cannot-be-allocated-to-business-units/
+  - Why legacy applications remain live without an owner | /discovery/why-legacy-applications-remain-live-without-an-owner/
+  - Why free trials become production dependencies | /discovery/why-free-trials-become-production-dependencies/
+  - Why application costs cannot be allocated to business units | /discovery/why-application-costs-cannot-be-allocated-to-business-units/
 ---
 ## The problem in plain language
 
@@ -39,11 +39,11 @@ The conversation usually happens late. A renewal notice arrives, or a payment re
 
 The renewal itself is not the failure. It is the point at which an older failure, the absence of a confirmed business owner, becomes visible and expensive.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer needs renewal to be governed by active business ownership and evidence of continued need, not by contract momentum.
+The business needs renewal to be governed by active business ownership and evidence of continued need, not by contract momentum.
 
-The search behaviour is typically framed around the moment of pressure: “SaaS renewal management”, “who should approve software renewals”, “applications with no owner”, “stop auto-renewing unused software” or “application portfolio ownership”. What links those searches is a wish to make the renewal date a genuine decision point, where someone accountable for the business purpose decides to renew, renegotiate, consolidate or retire, with evidence in hand.
+The concern is typically framed around the moment of pressure: “how do we manage SaaS renewals?”, “who should approve software renewals?”, “some applications have no owner”, “how do we stop unused software auto-renewing?” or “who owns the application portfolio?” What links those questions is a wish to make the renewal date a genuine decision point, where someone accountable for the business purpose decides to renew, renegotiate, consolidate or retire, with evidence in hand.
 
 ## Evidence and system mechanism
 
@@ -53,7 +53,7 @@ The details are instructive. Microsoft explains that, outside a few specific sce
 
 That guidance is about technical administration, not commercial decisions. Its value here is as a parallel: if a mature identity platform treats ownerless applications as a risk worth monitoring, the same logic applies with more force to the business decision of whether to keep paying for the application at all.
 
-The NIST Cybersecurity Framework 2.0 points in the same direction at a portfolio level. Its asset-management outcomes include maintaining inventories of software, services and systems, and managing those assets throughout their life cycles. Its supply-chain outcomes include planning for what happens after a service agreement ends. A renewal is one of the few scheduled moments in an application's life cycle when those questions can be asked deliberately.
+The [NIST Cybersecurity Framework](https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final) 2.0 points in the same direction at a portfolio level. Its asset-management outcomes include maintaining inventories of software, services and systems, and managing those assets throughout their life cycles. Its supply-chain outcomes include planning for what happens after a service agreement ends. A renewal is one of the few scheduled moments in an application's life cycle when those questions can be asked deliberately.
 
 Renewal governance works better when commercial records, application ownership, usage, capability and risk are linked before the notice window closes.
 

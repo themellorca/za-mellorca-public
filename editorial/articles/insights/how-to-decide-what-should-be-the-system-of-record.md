@@ -20,6 +20,7 @@ side_title: Topics
 sources:
   - What is Master Data Management? - IBM | https://www.ibm.com/think/topics/master-data-management
   - Integrate data into Microsoft Dataverse - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/data-integrator
+  - Dataverse as a master data system - Dynamics 365 - Microsoft Learn | https://learn.microsoft.com/en-us/dynamics365/guidance/reference-architectures/dataverse-master-data-system
 related:
   - Why your systems do not talk to each other | /insights/why-your-systems-do-not-talk-to-each-other/
   - The hidden cost of apps that do not share data | /insights/the-hidden-cost-of-apps-that-do-not-share-data/
@@ -62,7 +63,7 @@ When the tests disagree — the fact is created in one system but governed more 
 
 ## Avoid bidirectional ambiguity
 
-Bidirectional integration can be useful, but it also increases the need for explicit ownership. Microsoft's current Dataverse integration guidance describes tightly coupled bidirectional patterns between business applications, in which a data change on either side causes writes to the other. Technically, both sides may be able to write. Architecturally, that does not remove the need to define which changes are valid, how mappings behave and how conflicts are handled.
+Bidirectional integration can be useful, but it also increases the need for explicit ownership. Microsoft's current Dataverse integration guidance describes tightly coupled bidirectional patterns between business applications, in which a data change on either side causes writes to the other. Technically, both sides may be able to write. Architecturally, that does not remove the need to define which changes are valid, how mappings behave and how conflicts are handled. Microsoft's reference architecture for [Dataverse as a master data system](https://learn.microsoft.com/en-us/dynamics365/guidance/reference-architectures/dataverse-master-data-system) shows the one-way alternative: the data is maintained in one central store, and each create or update is published so that the other systems receive it from there.
 
 Without those rules, integration can distribute inconsistency faster. A synchronisation job that works perfectly can still be wrong if it copies an unauthoritative value into every connected system. This is one reason [every important integration needs an owner](/insights/why-every-important-integration-needs-an-owner/): someone has to decide what the integration is allowed to change.
 

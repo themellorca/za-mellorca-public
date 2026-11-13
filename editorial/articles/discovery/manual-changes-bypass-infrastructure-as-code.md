@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-312
 slug: manual-changes-bypass-infrastructure-as-code
 title: Why manual changes keep bypassing your infrastructure-as-code
-description: Infrastructure-as-code promises a reliable record of your environment, but quick console fixes make reality drift away from the code. Why it happens, what it costs and how to bring changes back through the code.
+description: Quick console fixes make your environment drift away from its infrastructure-as-code. Why it happens, what it costs and how to bring changes back.
 lead: Infrastructure-as-code promises a reliable record of your environment, but quick console fixes make reality drift away from the code. Why it happens, what it costs and how to bring changes back through the code.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-06
@@ -37,9 +37,9 @@ The business has templates or scripts for its infrastructure, but people still m
 - “temporary” console fixes that are still in place months later;
 - a supplier and an internal team both changing the same environment by different routes.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for what configuration drift is, how to detect drift in Terraform or CloudFormation, how to stop console changes, or why a deployment reverted a fix. Infrastructure leads want deployments they can trust. IT managers want to know that the environment can be rebuilt after a disaster. Finance wants to know why costs moved when no deployment was approved. The real need is a working arrangement where changes go through code by default, emergencies are allowed but reconciled quickly, and drift is detected rather than discovered.
+The questions usually sound like what configuration drift is, how to detect drift in Terraform or CloudFormation, how to stop console changes, or why a deployment reverted a fix. Infrastructure leads want deployments they can trust. IT managers want to know that the environment can be rebuilt after a disaster. Finance wants to know why costs moved when no deployment was approved. The real need is a working arrangement where changes go through code by default, emergencies are allowed but reconciled quickly, and drift is detected rather than discovered.
 
 ## Evidence and system mechanism
 

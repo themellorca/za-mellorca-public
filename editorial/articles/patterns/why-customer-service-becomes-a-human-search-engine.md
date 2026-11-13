@@ -2,9 +2,9 @@
 hub: patterns
 record_id: PAT-078
 slug: why-customer-service-becomes-a-human-search-engine
-title: Why Customer Service Becomes a Human Search Engine
-description: Explores how customer service transforms into a human search engine by unifying knowledge, governance, and practical workflow to surface the right information at the right time.
-lead: Explores how customer service transforms into a human search engine by unifying knowledge, governance, and practical workflow to surface the right information at the right time.
+title: Why customer service becomes a human search engine
+description: When answers are scattered, customer service staff spend their day searching. Shared knowledge and clear ownership put the answer in front of them.
+lead: When answers are scattered, customer service staff spend their day searching for them. How shared knowledge and clear ownership put the right answer in front of them.
 category: Knowledge-driven Customer Service Patterns
 published_date: 2026-10-02
 updated_date: 2026-10-02
@@ -18,10 +18,10 @@ sources:
   - KCS v6 Practices Guide | https://library.serviceinnovation.org/KCS/KCS_v6/KCS_v6_Practices_Guide
   - AI Agent Adoption Guidance for Organizations - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/
 related:
-  - When Service Quality Depends on Who Picks Up the Ticket | /patterns/when-service-quality-depends-on-who-picks-up-the-ticket/
-  - Why Can Nobody Find the Document They Know Exists? | /patterns/why-can-nobody-find-the-document-they-know-exists/
-  - Why Proactive Communication Can Remove Entire Support Workloads | /patterns/why-proactive-communication-can-remove-entire-support-workloads/
-summary: Explores how customer service transforms into a human search engine by unifying knowledge, governance, and practical workflow to surface the right information at the right time.
+  - When service quality depends on who picks up the ticket | /patterns/when-service-quality-depends-on-who-picks-up-the-ticket/
+  - Why can nobody find the document they know exists? | /patterns/why-can-nobody-find-the-document-they-know-exists/
+  - Why proactive communication can remove entire support workloads | /patterns/why-proactive-communication-can-remove-entire-support-workloads/
+summary: When answers are scattered, customer service staff spend their day searching for them. How shared knowledge and clear ownership put the right answer in front of them.
 layout: plain
 ---
 ## Observable Condition
@@ -70,7 +70,7 @@ Fixing the human-search-engine problem can reduce average handle time, improve f
 
 It is common to assume that more training, more headcount, or pure AI automation will solve the problem. In reality, the bottleneck is often the architecture and governance of information. Without a unified, governed knowledge surface, AI and humans operate on different versions of truth, undermining both accuracy and trust.
 
-Microsoft's agent adoption guidance describes retrieval-focused agents that reduce time spent searching for information in scenarios like customer service, but it also stresses that access to relevant, high-quality data is critical for accurate responses. An AI assistant pointed at the same scattered, conflicting sources will simply search faster through the same confusion. Mellorca explores this in [when AI search fails because knowledge is chaotic](/patterns/when-ai-search-fails-because-knowledge-is-chaotic/).
+Microsoft's [agent adoption guidance](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/) describes retrieval-focused agents that reduce time spent searching for information in scenarios like customer service, but it also stresses that access to relevant, high-quality data is critical for accurate responses. An AI assistant pointed at the same scattered, conflicting sources will simply search faster through the same confusion. Mellorca explores this in [when AI search fails because knowledge is chaotic](/patterns/when-ai-search-fails-because-knowledge-is-chaotic/).
 
 ## Possibility
 

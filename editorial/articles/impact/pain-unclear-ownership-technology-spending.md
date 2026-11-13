@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-051
 slug: pain-unclear-ownership-technology-spending
-title: When Nobody Owns the Business Software You Pay For
-description: Analyzes how lack of clear ownership leads to fragmented procurement, duplicated subscriptions and uncontrolled tech spend, with downstream effects on utility and value realization.
+title: When nobody owns the business software you pay for
+description: Without clear ownership, procurement fragments, subscriptions are duplicated and technology spend goes uncontrolled, so the business gets less value.
 lead: Analyzes how lack of clear ownership leads to fragmented procurement, duplicated subscriptions and uncontrolled tech spend, with downstream effects on utility and value realization.
 category: technology-governance
 published_date: 2026-09-08
@@ -15,10 +15,11 @@ primary_cost_mechanism: uncontrolled technology spending
 sources:
   - FinOps for SaaS - FinOps Framework Technology Category | https://www.finops.org/framework/scope/saas/
   - Shadow IT guidance | https://www.ncsc.gov.uk/guidance/shadow-it
+  - Allocation - FinOps Framework Capabilities | https://www.finops.org/framework/capabilities/allocation/
 related:
-  - How Many Software Subscriptions Do You Pay For? The Cost of Not Knowing | /impact/unknown-software-subscriptions-invisible-recurring-cost/
-  - Paying for Cloud Resources Nobody Uses | /impact/unused-cloud-resources-financial-waste/
-  - Unassigned Enquiries: Why Leads Go Cold Before Anyone Owns Them | /impact/unassigned-sales-enquiries-leads-going-cold/
+  - How many software subscriptions do you pay for? The cost of not knowing | /impact/unknown-software-subscriptions-invisible-recurring-cost/
+  - Paying for cloud resources nobody uses | /impact/unused-cloud-resources-financial-waste/
+  - Unassigned enquiries: Why leads go cold before anyone owns them | /impact/unassigned-sales-enquiries-leads-going-cold/
 summary: Analyzes how lack of clear ownership leads to fragmented procurement, duplicated subscriptions and uncontrolled tech spend, with downstream effects on utility and value realization.
 layout: plain
 ---
@@ -32,7 +33,7 @@ Ask a simple question about any application in the business: who decides whether
 
 Unclear ownership rarely comes from negligence. Modern software is easy to buy on a card or through a free trial, so teams solve their own problems quickly. That speed is valuable. The difficulty is that nobody is then made responsible for the tool's cost, usage, security, renewal and eventual retirement.
 
-The [FinOps Foundation's guidance on SaaS](https://www.finops.org/framework/scope/saas/) highlights how purchasing now runs through many channels at once, including direct from publishers, resellers, managed service providers and cloud marketplaces, and stresses that each tool needs a clear owner and that spend visibility has to be unified across those channels. It frames this as decentralised financial accountability rather than leaving everything to a central IT budget.
+The [FinOps Foundation's guidance on SaaS](https://www.finops.org/framework/scope/saas/) highlights how purchasing now runs through many channels at once, including direct from publishers, resellers, managed service providers and cloud marketplaces, and stresses that each tool needs a clear owner and that spend visibility has to be unified across those channels. It frames this as decentralised financial accountability rather than leaving everything to a central IT budget. The Foundation's [Allocation capability](https://www.finops.org/framework/capabilities/allocation/) adds that costs should be apportioned to those responsible for them.
 
 ## Operational consequence
 

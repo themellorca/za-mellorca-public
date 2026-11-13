@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-477
 slug: what-should-a-ceo-understand-about-digital-operations
-title: What Should a CEO Understand About Digital Operations?
-description: A chief executive does not need to understand the technology in detail, but does need to understand how work moves through the business's systems. Seven things a CEO should grasp, and the questions that test them.
+title: What should a CEO understand about digital operations?
+description: A CEO need not grasp the technology in detail but must understand how work moves through the systems. Seven things to grasp, and questions that test them.
 lead: A chief executive does not need to understand the technology in detail, but does need to understand how work moves through the business's systems. Seven things a CEO should grasp, and the questions that test them.
 category: Digital Operations
 published_date: 2026-10-07
@@ -17,7 +17,7 @@ sources:
 related:
   - Before you automate, understand how the work actually moves | /insights/before-you-automate-understand-how-the-work-actually-moves/
   - Why business systems need ongoing stewardship | /insights/why-business-systems-need-ongoing-stewardship/
-  - Seven Signs Your Digital Systems Are Slowing the Business Down | /insights/seven-signs-your-digital-systems-are-slowing-the-business-down/
+  - Seven signs your digital systems are slowing the business down | /insights/seven-signs-your-digital-systems-are-slowing-the-business-down/
 summary: A chief executive does not need to understand the technology in detail, but does need to understand how work moves through the business's systems. Seven things a CEO should grasp, and the questions that test them.
 layout: plain
 ---
@@ -50,7 +50,7 @@ When two reports show different revenue figures, the cause is rarely a software 
 
 ## 5. Digital risk is a leadership responsibility
 
-Cyber incidents, data loss and prolonged outages are business risks with financial, legal and reputational consequences. The UK government's Cyber Governance Code of Practice was written for boards and directors precisely because digital risk is a governance matter. The National Cyber Security Centre's toolkit for boards states that cyber resilience and risk management must be embedded throughout an organisation, including its people, systems, processes and technologies. Directors in South Africa also owe their companies duties of care and skill, and the principle transfers directly: the CEO need not configure the controls, but should know whether they exist and whether they have been tested.
+Cyber incidents, data loss and prolonged outages are business risks with financial, legal and reputational consequences. The UK government's [Cyber Governance Code of Practice](https://www.gov.uk/government/publications/cyber-governance-code-of-practice) was written for boards and directors precisely because digital risk is a governance matter. The National Cyber Security Centre's [toolkit for boards](https://www.ncsc.gov.uk/collection/board-toolkit) states that cyber resilience and risk management must be embedded throughout an organisation, including its people, systems, processes and technologies. Directors in South Africa also owe their companies duties of care and skill, and the principle transfers directly: the CEO need not configure the controls, but should know whether they exist and whether they have been tested.
 
 ## 6. Technology value has to be measured, not assumed
 

@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-001
 slug: employees-searching-for-files-lost-productivity-cost
-title: The Cost of Paid Time Spent Searching for Files
+title: The cost of paid time spent searching for files
 description: How poor information findability turns paid employee time into search, recreation and avoidable interruption instead of productive work.
 lead: Searching is productive when it is part of analysis. It is waste when employees repeatedly hunt for routine information that the operating system should make easy to find.
 category: Productivity
@@ -19,10 +19,11 @@ side_title: Cost mechanisms
 sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
   - https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Knowledge-Sharing-in-a-Changing-World.pdf | https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Knowledge-Sharing-in-a-Changing-World.pdf
+  - Introduction to SharePoint information architecture - SharePoint in Microsoft 365 | Microsoft Learn | https://learn.microsoft.com/en-us/sharepoint/information-architecture-modern-experience
 related:
-  - High-Value Employees Doing Low-Value Admin | /impact/high-value-employees-doing-low-value-admin/
-  - Gathering Information Before Work Can Start: The Payroll Cost of Preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
-  - Slow Computers Turn Small Delays into Paid Waiting | /impact/slow-computers-paid-waiting-cost/
+  - High-value employees doing low-value admin | /impact/high-value-employees-doing-low-value-admin/
+  - Gathering information before work can start: The payroll cost of preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
+  - Slow computers turn small delays into paid waiting | /impact/slow-computers-paid-waiting-cost/
 ---
 ## The tolerated pain
 
@@ -32,7 +33,7 @@ That is exactly why the problem survives. Searching is productive when it is par
 
 ## Why businesses tolerate it
 
-Poor findability rarely arrives as a decision. It accumulates. A new collaboration tool is added without retiring the old shared drive. Teams create their own folder structures. Attachments are emailed rather than linked, so several copies drift apart. Nobody owns the information architecture, so nobody is accountable for its quality.
+Poor findability rarely arrives as a decision. It accumulates. A new collaboration tool is added without retiring the old shared drive. Teams create their own folder structures. Attachments are emailed rather than linked, so several copies drift apart. Nobody owns the information architecture, so nobody is accountable for its quality. Microsoft's guidance on [SharePoint information architecture](https://learn.microsoft.com/en-us/sharepoint/information-architecture-modern-experience) warns that deeply nested folders create a significant discoverability burden and recommends metadata and topic-specific libraries instead.
 
 The cost is also hard to see because it never appears as a line item. Time spent searching is buried inside salaries that are paid regardless. Managers notice delays and frustration, but rarely connect them to the way information is stored.
 

@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-070
 slug: batch-or-real-time-sync-how-fast-does-each-data-flow-need-to-be
-title: Batch Sync vs Real-Time Sync: Which Does the Business Actually Need?
+title: Batch sync vs real-time sync: Which does the business actually need?
 description: Faster is not automatically better. A flow-by-flow way to set the maximum acceptable age of each piece of data, with the costs and middle options on both sides.
 lead: Faster is not automatically better. A flow-by-flow way to set the maximum acceptable age of each piece of data, with the costs and middle options on both sides.
 category: Systems Integration
@@ -14,9 +14,9 @@ sources:
   - Event-Driven Architecture Style - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven
   - Queue-Based Load Leveling Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling
 related:
-  - How to Design Integrations for Change, Not Just for Launch | /insights/how-to-design-integrations-that-survive-supplier-and-business-change/
-  - What to Check Before Rebuilding a Broken Integration | /insights/six-checks-before-you-rebuild-a-broken-integration/
-  - How to Integrate a New Platform Into an Existing Business | /insights/how-to-integrate-a-new-platform-into-an-existing-business/
+  - How to design integrations for change, not just for launch | /insights/how-to-design-integrations-that-survive-supplier-and-business-change/
+  - What to check before rebuilding a broken integration | /insights/six-checks-before-you-rebuild-a-broken-integration/
+  - How to integrate a new platform into an existing business | /insights/how-to-integrate-a-new-platform-into-an-existing-business/
 summary: Faster is not automatically better. A flow-by-flow way to set the maximum acceptable age of each piece of data, with the costs and middle options on both sides.
 layout: plain
 ---
@@ -26,7 +26,7 @@ Many businesses end up with the wrong speed in one direction or the other. Some 
 
 ## What the two terms mean
 
-**Batch synchronisation** collects changes and moves them together at set times: every night, every hour, or at the end of a shift. Between runs, the receiving system holds the last version it was given. Microsoft's documentation on data pipelines describes extract, transform and load processes as operating on datasets in scheduled batches, and that is the pattern most businesses meet first.
+**Batch synchronisation** collects changes and moves them together at set times: every night, every hour, or at the end of a shift. Between runs, the receiving system holds the last version it was given. [Microsoft's documentation on data pipelines](https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl) describes extract, transform and load processes as operating on datasets in scheduled batches, and that is the pattern most businesses meet first.
 
 **Real-time synchronisation**, more precisely called event-driven or streaming, moves each change as it happens. The same documentation contrasts scheduled batches with streaming, where data is processed as it arrives and which suits cases where low latency and continuous updates are critical, such as monitoring equipment or detecting fraud in transactions.
 
@@ -45,7 +45,7 @@ This is why the question has to be asked flow by flow. One business can reasonab
 
 ## What real time costs
 
-Real-time connections can look like a free upgrade. They are not. Microsoft's guidance on event-driven architectures is frank about the trade-offs. Data across systems is not immediately consistent after an event is published; consumers process events at their own pace, so there is a window in which different systems disagree. Errors are harder to follow, because a single business transaction can span several components that run independently. Events can arrive more than once or out of order. And the style may not suit workloads that need strong consistency or teams that have not run asynchronous systems before.
+Real-time connections can look like a free upgrade. They are not. [Microsoft's guidance on event-driven architectures](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven) is frank about the trade-offs. Data across systems is not immediately consistent after an event is published; consumers process events at their own pace, so there is a window in which different systems disagree. Errors are harder to follow, because a single business transaction can span several components that run independently. Events can arrive more than once or out of order. And the style may not suit workloads that need strong consistency or teams that have not run asynchronous systems before.
 
 For a business, those technical points translate into operational ones:
 
@@ -60,7 +60,7 @@ None of this is a reason to avoid real time where it is warranted. It is a reaso
 
 Batch has its own price, and it is paid in a different place. The delay means that people see old information and make decisions on it. They learn to distrust screens, phone each other to confirm, or keep their own lists, which brings back the manual work the integration was supposed to remove. Batches also tend to fail in lumps: when a nightly run stops, a day's worth of changes is stranded at once, and the first sign may be a sales team asking why yesterday's orders are missing. The wider pattern is described in [batch integrations leave systems hours out of date](/discovery/batch-integrations-leave-systems-hours-out-of-date/).
 
-Batch does have real strengths. It is simple to understand and to restart: if a run fails, you can often run it again. It places a predictable load on systems, and it can be scheduled outside working hours. Microsoft's guidance on queue-based load levelling also shows how a queue can buffer intermittent heavy loads so that a receiving service handles messages at its own pace rather than being overwhelmed. That pattern is a useful middle path: changes are captured immediately but processed at a controlled rate.
+Batch does have real strengths. It is simple to understand and to restart: if a run fails, you can often run it again. It places a predictable load on systems, and it can be scheduled outside working hours. [Microsoft's guidance on queue-based load levelling](https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling) also shows how a queue can buffer intermittent heavy loads so that a receiving service handles messages at its own pace rather than being overwhelmed. That pattern is a useful middle path: changes are captured immediately but processed at a controlled rate.
 
 ## A way to decide, flow by flow
 
@@ -81,7 +81,9 @@ Between a nightly file and a continuous stream, there are cheaper options that s
 
 ## An illustrative example
 
-Take a hypothetical Bloemfontein wholesaler of building supplies with a web shop, a warehouse system and an accounting package. Its first design sent everything overnight. Customers regularly ordered items already sold out, and the accounts team chased invoices for goods that had been returned. Switching everything to real time was proposed, at significant cost. Instead, the business listed its flows. Stock levels moved to a connection updating within a minute, since overselling was the visible problem. Payment status moved to a fifteen-minute batch. Product descriptions, supplier lists and management reporting stayed nightly, with a "last updated" time shown on each report. The change cost a fraction of the full proposal, and it fixed the two problems that customers and staff were actually complaining about.
+Take a hypothetical Bloemfontein wholesaler of building supplies with a web shop, a warehouse system and an accounting package. Its first design sent everything overnight. Customers regularly ordered items already sold out, and the accounts team chased invoices for goods that had been returned. Switching everything to real time was proposed, at significant cost. Instead, the business listed its flows.
+
+Stock levels moved to a connection updating within a minute, since overselling was the visible problem. Payment status moved to a fifteen-minute batch. Product descriptions, supplier lists and management reporting stayed nightly, with a "last updated" time shown on each report. The change cost a fraction of the full proposal, and it fixed the two problems that customers and staff were actually complaining about.
 
 ## What to take away
 

@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-039
 slug: manual-reconciliation-between-systems-labour-cost
-title: The Labour Cost of Manually Reconciling Two Systems
+title: The labour cost of manually reconciling two systems
 description: How repeated manual reconciliation between business systems creates payroll cost, delayed reporting and persistent uncertainty about authoritative records.
 lead: Manual reconciliation is sometimes a legitimate control. It becomes expensive when people repeatedly compare systems because authoritative ownership, synchronization and exception handling were never designed.
 category: Data & Integration
@@ -19,10 +19,11 @@ side_title: Cost mechanisms
 sources:
   - Synchronize data across Dataverse environments using Power Platform - Power Platform | https://learn.microsoft.com/en-us/power-platform/architecture/reference-architectures/sync-dataverse-data
   - The True Cost of Poor Data Quality - IBM | https://www.ibm.com/think/insights/cost-of-poor-data-quality
+  - Reconcile bank accounts - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately
 related:
-  - The Cost of Retyping Customer Details into Every System | /impact/pain-duplication-of-customer-data-entry/
-  - When Customer Details Differ Between Applications | /impact/pain-customer-details-different-applications-cost-mistakes/
-  - The Cost of Business Systems That Do Not Talk to Each Other | /impact/business-systems-do-not-talk-integration-cost/
+  - The cost of retyping customer details into every system | /impact/pain-duplication-of-customer-data-entry/
+  - When customer details differ between applications | /impact/pain-customer-details-different-applications-cost-mistakes/
+  - The cost of business systems that do not talk to each other | /impact/business-systems-do-not-talk-integration-cost/
 ---
 ## The tolerated pain
 
@@ -81,7 +82,9 @@ Urgency increases when transaction volumes are growing, because manual reconcili
 
 The aim is not to remove every check. It is to make the systems responsible for consistency and make people responsible for genuine exceptions.
 
-Microsoft's reference architecture for [synchronising data across Dataverse environments](https://learn.microsoft.com/en-us/power-platform/architecture/reference-architectures/sync-dataverse-data) illustrates the pattern. One environment acts as the authoritative source. Upserts use an alternate key so that existing records are updated and duplicates are avoided. Event-driven updates handle changes quickly, and a scheduled process corrects any missed or failed updates. Even then, the guidance notes that manual intervention may be required for data quality problems such as missing keys. The design principle is broader than Dataverse: reliable synchronisation still needs ownership, matching and exception recovery.
+Microsoft's reference architecture for [synchronising data across Dataverse environments](https://learn.microsoft.com/en-us/power-platform/architecture/reference-architectures/sync-dataverse-data) illustrates the pattern. One environment acts as the authoritative source. Upserts use an alternate key so that existing records are updated and duplicates are avoided. Event-driven updates handle changes quickly, and a scheduled process corrects any missed or failed updates. Even then, the guidance notes that manual intervention may be required for data quality problems such as missing keys.
+
+The design principle is broader than Dataverse: reliable synchronisation still needs ownership, matching and exception recovery. Microsoft's Business Central documentation on [reconciling bank accounts](https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately) shows the same principle in practice: it offers automatic matching of statement lines to ledger entries based on text, and lets people overwrite it or mix it with manual matching.
 
 1. Define which system owns each important entity and field.
 2. Establish stable matching keys.

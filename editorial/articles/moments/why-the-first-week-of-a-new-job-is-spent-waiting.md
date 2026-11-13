@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000131
 slug: why-the-first-week-of-a-new-job-is-spent-waiting
-title: Why Every New Hire Starts With a Week of Waiting
-description: Laptops, logins and approvals that arrive late turn a new hire's first week into waiting. Why it happens, what it costs, and how to give the start of a job an owner.
+title: Why every new hire starts with a week of waiting
+description: Laptops, logins and approvals that arrive late turn a new hire's first week into waiting. Why, and how to give the start an owner.
 lead: Laptops, logins and approvals that arrive late turn a new hire's first week into waiting. Why it happens, what it costs, and how to give the start of a job an owner.
 category: Relief from Friction
 published_date: 2026-10-09
@@ -17,11 +17,12 @@ epistemic_state: HYPOTHESISED: reasoned from largely US onboarding research and 
 sources:
   - Why the Onboarding Experience Is Key for Retention | https://www.gallup.com/workplace/235121/employees-onboarding-experience.aspx
   - Employee Burnout, Part 1: The 5 Main Causes | https://www.gallup.com/workplace/237059/employee-burnout-causes.aspx
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
 related:
-  - The Friction of Signing Up for Something at Work | /moments/the-friction-of-signing-up-for-something-at-work/
-  - The Relief of a Password You Don't Have to Reset | /moments/the-relief-of-a-password-you-dont-have-to-reset/
-  - When Ordering Supplies Takes Five Emails | /moments/when-ordering-supplies-takes-five-emails/
+  - The friction of signing up for something at work | /moments/the-friction-of-signing-up-for-something-at-work/
+  - The relief of a password you don't have to reset | /moments/the-relief-of-a-password-you-dont-have-to-reset/
+  - When ordering supplies takes five emails | /moments/when-ordering-supplies-takes-five-emails/
+  - When new employees spend their first week chasing basics | /patterns/why-new-starters-lose-their-first-week-to-logins-templates-and-names/
 summary: Laptops, logins and approvals that arrive late turn a new hire's first week into waiting. Why it happens, what it costs, and how to give the start of a job an owner.
 layout: plain
 ---
@@ -42,9 +43,9 @@ Mellorca has described the cost side of this in its work on [new employees witho
 
 ## What the research says about onboarding
 
-Gallup reports that only 12% of employees strongly agree that their organisation does a great job of onboarding new people. The same article links onboarding to retention, noting that a poor early experience can weaken the connection a new employee formed during recruitment. It also cites the Society for Human Resource Management on turnover being highest in the first months of employment. These are largely US findings and should not be read as South African measures, but the underlying logic travels well: the first days set expectations for everything after.
+[Gallup reports](https://www.gallup.com/workplace/235121/employees-onboarding-experience.aspx) that only 12% of employees strongly agree that their organisation does a great job of onboarding new people. The same article links onboarding to retention, noting that a poor early experience can weaken the connection a new employee formed during recruitment. It also cites the Society for Human Resource Management on turnover being highest in the first months of employment. These are largely US findings and should not be read as South African measures, but the underlying logic travels well: the first days set expectations for everything after.
 
-The first week also coincides with the period in which a person is most uncertain. Gallup's burnout research lists unclear expectations and lack of manager communication among the main drivers of exhaustion. A new employee who has been given nothing to do, and no clear sense of what is expected of them, is in exactly that position, only earlier than usual.
+The first week also coincides with the period in which a person is most uncertain. [Gallup's burnout research](https://www.gallup.com/workplace/237059/employee-burnout-causes.aspx) lists unclear expectations and lack of manager communication among the main drivers of exhaustion. A new employee who has been given nothing to do, and no clear sense of what is expected of them, is in exactly that position, only earlier than usual.
 
 ## An illustrative case
 
@@ -71,7 +72,7 @@ The fix is a sequence with an owner, not a larger welcome pack.
 3. **Make the status visible.** A simple shared list showing what is done, pending and blocked lets anyone see where things stand. The principles in [designing a handoff that cannot depend on memory](/insights/how-to-design-a-handoff-that-cannot-depend-on-memory/) apply directly.
 4. **Prepare for absences.** Every step on the checklist should have a named backup, and the approvals that need a director should be requested ahead of time.
 5. **Plan real work for the first days.** Even if systems are late, a small, genuine task, a conversation with a customer, or a walk through the process the person will own, gives the week purpose.
-6. **Handle personal information properly.** The new hire's ID, bank details and tax numbers are personal information under POPIA, so collect them once, store them securely and limit who sees them.
+6. **Handle personal information properly.** The new hire's ID, bank details and tax numbers are personal information under [POPIA](https://inforegulator.org.za/popia/), so collect them once, store them securely and limit who sees them.
 
 The broader point about documentation is covered in [what business processes need documentation first](/insights/what-business-processes-need-documentation-first/); onboarding is a strong candidate because it repeats every time someone joins.
 

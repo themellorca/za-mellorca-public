@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-005
 slug: high-value-employees-doing-low-value-admin
-title: High-Value Employees Doing Low-Value Admin
+title: High-value employees doing low-value admin
 description: How repetitive administration consumes expensive capacity and how to model the payroll and opportunity cost without inventing benchmarks.
 lead: Expensive expertise creates poor leverage when skilled people repeatedly spend paid hours copying data, chasing routine information, formatting documents or administering work that could be simplified.
 category: Productivity
@@ -19,10 +19,11 @@ side_title: Cost mechanisms
 sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
   - How Work About Work Gets in the Way of Real Work [2026] • Asana | https://asana.com/resources/why-work-about-work-is-bad
+  - The social economy: Unlocking value and productivity through social technologies - McKinsey Global Institute | https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy
 related:
-  - The Cost of Paid Time Spent Searching for Files | /impact/employees-searching-for-files-lost-productivity-cost/
-  - New Employees Without Equipment Create Paid Onboarding Delay | /impact/new-employees-without-equipment-onboarding-cost/
-  - Answering the Same Question Again: The Payroll Cost of Undocumented Know-How | /impact/same-internal-questions-undocumented-knowledge-cost/
+  - The cost of paid time spent searching for files | /impact/employees-searching-for-files-lost-productivity-cost/
+  - New employees without equipment create paid onboarding delay | /impact/new-employees-without-equipment-onboarding-cost/
+  - Answering the same question again: The payroll cost of undocumented know-how | /impact/same-internal-questions-undocumented-knowledge-cost/
 ---
 ## The tolerated pain
 
@@ -37,7 +38,9 @@ It rarely starts as a decision. An engineer fills in the job card because the fo
 - **Admin feels like part of the job.** Some administration genuinely is. The boundary between necessary judgement and repeatable clerical work is rarely examined.
 - **Fixing it needs time from the same people.** The specialists who could explain the process are too busy to redesign it.
 
-Survey evidence suggests the pattern is widespread. Microsoft's 2023 Work Trend Index reported that 64% of respondents said they struggle with having the time and energy to do their job, 68% said they lack enough uninterrupted focus time, and 62% said they spend too much time searching for information. Asana, a work-management vendor, reports in its Anatomy of Work Index that around 60% of time at work goes on "work about work" rather than skilled work. Vendor research should be read with care, and neither figure measures your organisation. They do show that the problem is common enough to be worth measuring.
+Survey evidence suggests the pattern is widespread. Microsoft's 2023 [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) reported that 64% of respondents said they struggle with having the time and energy to do their job, 68% said they lack enough uninterrupted focus time, and 62% said they spend too much time searching for information. Asana, a work-management vendor, reports in its Anatomy of Work Index that around 60% of time at work goes on "work about work" rather than skilled work.
+
+Vendor research should be read with care, and neither figure measures your organisation. They do show that the problem is common enough to be worth measuring. Earlier research from the McKinsey Global Institute, [The social economy](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy), estimated that interaction workers spend about 28% of their working week on email and nearly 20% looking for internal information or tracking down colleagues.
 
 ## Operational consequence
 

@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-368
 slug: why-supplier-access-survives-after-engagements-end
-title: Why Supplier Access Survives After the Supplier Engagement Ends
+title: Why supplier access survives after the supplier engagement ends
 description: External access can outlive supplier engagements when access lifecycle controls are not tied to sponsorship, expiry and periodic review.
 lead: External access is easy to grant for urgent collaboration and surprisingly easy to forget when the commercial relationship, project or named supplier contact changes.
 category: Security & Compliance Operations
@@ -28,9 +28,9 @@ sources:
 closing_title: Method note
 closing_text: The sources establish current external-identity review mechanisms. Risk and remediation impact require organisation-specific access and system evidence.
 related:
-  - Why Security Architecture Decisions Need Linked Risk Exception Records | /discovery/why-security-architecture-decisions-need-linked-risk-exception-records/
+  - Why security architecture decisions need linked risk exception records | /discovery/why-security-architecture-decisions-need-linked-risk-exception-records/
   - Why security findings end up in spreadsheets after the scan finishes | /discovery/security-findings-tracked-in-spreadsheets-after-scans/
-  - Why Policy Acknowledgements Need a Reliable System Record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
+  - Why policy acknowledgements need a reliable system record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
 ---
 ## The problem in plain language
 
@@ -38,11 +38,11 @@ A supplier receives access to applications, groups, files or cloud resources. Th
 
 Nobody decided that the access should stay. It stays because no event told anyone to remove it. The contract closed in procurement, the project closed in the delivery tracker and the final invoice was paid in finance, yet the identity system received none of those signals. The supplier's consultants, support engineers or contractors can still sign in, and in many cases nobody inside the business would notice if they did.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer needs external access to expire or be reviewed when the business justification ends—not months later during an audit or incident investigation.
+The business needs external access to expire or be reviewed when the business justification ends—not months later during an audit or incident investigation.
 
-The search language is usually direct: “remove guest users who no longer need access”, “vendor access review”, “third-party access offboarding”, “external user lifecycle” or “how to expire contractor accounts”. Behind those phrases is a simpler requirement: every external identity should be able to answer the question “why do you still have access?” with a current, named business reason.
+The language is usually direct: “remove guest users who no longer need access”, “vendor access review”, “third-party access offboarding”, “external user lifecycle” or “how to expire contractor accounts”. Behind those phrases is a simpler requirement: every external identity should be able to answer the question “why do you still have access?” with a current, named business reason.
 
 ## Evidence and system mechanism
 

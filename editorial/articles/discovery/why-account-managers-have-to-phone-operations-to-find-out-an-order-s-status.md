@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-097
 slug: why-account-managers-have-to-phone-operations-to-find-out-an-order-s-status
 title: Why account managers cannot see where their customers' orders stand
-description: Account managers who cannot see order status spend their day asking colleagues and calming customers. What a simple shared status view looks like and who has to own it.
+description: Account managers who cannot see order status spend their day asking colleagues and calming customers. What a shared status view looks like and who owns it.
 lead: Account managers who cannot see order status spend their day asking colleagues and calming customers. What a simple shared status view looks like and who has to own it.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-10
@@ -31,9 +31,9 @@ This article looks at that operating condition: order status that is not visible
 
 After a quote is accepted, the order becomes operations' problem. It passes through credit approval, stock allocation, production or picking, dispatch and invoicing. Each stage has its own system or its own person. The account manager, who is accountable to the customer, is outside all of them. The only way to know where an order stands is to ask someone, so the account manager becomes a relay between the customer and a set of colleagues who are busy doing the work.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The person searching for this wants account managers to answer customer questions without leaving their seat. They also want to stop the cycle of internal chasing, which interrupts people on the operations side and delays the work it is meant to speed up. A good answer is not a full integration of every system. It is a small number of agreed status points, visible in the tool the account manager already uses, updated when the work moves.
+The person facing this wants account managers to answer customer questions without leaving their seat. They also want to stop the cycle of internal chasing, which interrupts people on the operations side and delays the work it is meant to speed up. A good answer is not a full integration of every system. It is a small number of agreed status points, visible in the tool the account manager already uses, updated when the work moves.
 
 ## Evidence and system mechanism
 

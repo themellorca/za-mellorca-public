@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-077
 slug: pain-employees-duplicated-data-entry
-title: The Cost of Copying Data from One System into Another
-description: Highlights the drag from data duplication and re-entry across systems, causing data integrity issues and wasted human effort with measurable efficiency and cost consequences.
+title: The cost of copying data from one system into another
+description: Duplicated data and re-entry across systems cause integrity problems and wasted effort, with measurable effects on efficiency and cost.
 lead: Highlights the drag from data duplication and re-entry across systems, causing data integrity issues and wasted human effort with measurable efficiency and cost consequences.
 category: data-management
 published_date: 2026-09-08
@@ -15,10 +15,11 @@ primary_cost_mechanism: labor-cost and data integrity risk
 sources:
   - Harnessing the Future: Integration, AI, and APIs in Digital Transformation | https://www.salesforce.com/blog/mulesoft-connectivity-benchmark-2025/
   - What is Robotic Process Automation (RPA)? - IBM | https://www.ibm.com/think/topics/rpa
+  - Protection of Personal Information Act 4 of 2013 - Government of South Africa | https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf
 related:
-  - The Cost of Retyping Customer Details into Every System | /impact/pain-duplication-of-customer-data-entry/
-  - Backing Up Data but Not the Systems That Use It | /impact/pain-backing-up-data-without-systems/
-  - Backups Nobody Has Tested: The Cost When Recovery Fails | /impact/backups-never-tested-restore-financial-cost/
+  - The cost of retyping customer details into every system | /impact/pain-duplication-of-customer-data-entry/
+  - Backing up data but not the systems that use it | /impact/pain-backing-up-data-without-systems/
+  - Backups nobody has tested: The cost when recovery fails | /impact/backups-never-tested-restore-financial-cost/
 summary: Highlights the drag from data duplication and re-entry across systems, causing data integrity issues and wasted human effort with measurable efficiency and cost consequences.
 layout: plain
 ---
@@ -46,7 +47,7 @@ Common symptoms include repeated data-entry tasks, inconsistent records across s
 
 ## Financial consequence
 
-The cost signal is twofold: direct labour to re-enter and validate data, plus risk-adjusted costs from inaccuracies and misinformed decisions. The business faces opportunity costs when decision cycles slow or errors require remediation, as well as maintenance overhead for multiple data pipelines.
+The cost signal is twofold: direct labour to re-enter and validate data, plus risk-adjusted costs from inaccuracies and misinformed decisions. The business faces opportunity costs when decision cycles slow or errors require remediation, as well as maintenance overhead for multiple data pipelines. In South Africa the data-quality side is also a legal matter: section 16 of the [Protection of Personal Information Act](https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf) requires a responsible party to take reasonably practicable steps to ensure personal information is complete, accurate, not misleading and updated where necessary.
 
 ### An illustrative cost model
 

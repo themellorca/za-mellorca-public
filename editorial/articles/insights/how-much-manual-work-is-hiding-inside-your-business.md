@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-126
 slug: how-much-manual-work-is-hiding-inside-your-business
-title: How Much Manual Work Is Hiding Inside Your Business?
+title: How much manual work is hiding inside your business?
 description: Offers a framework to quantify hidden manual tasks and translate findings into a reduction roadmap.
 lead: Offers a framework to quantify hidden manual tasks and translate findings into a reduction roadmap.
 category: Operations
@@ -14,9 +14,9 @@ sources:
   - What Is Task Mining? - IBM | https://www.ibm.com/think/topics/task-mining
   - What is Process Mining? - IBM | https://www.ibm.com/think/topics/process-mining
 related:
-  - How Manual Data Transfer Becomes an Operational Bottleneck | /insights/how-manual-data-transfer-becomes-an-operational-bottleneck/
-  - Why Work Gets Lost Between Teams | /insights/why-work-gets-lost-between-teams/
-  - Why Your Business Feels Harder to Run Than It Should | /insights/why-your-business-feels-harder-to-run-than-it-should/
+  - How manual data transfer becomes an operational bottleneck | /insights/how-manual-data-transfer-becomes-an-operational-bottleneck/
+  - Why work gets lost between teams | /insights/why-work-gets-lost-between-teams/
+  - Why your business feels harder to run than it should | /insights/why-your-business-feels-harder-to-run-than-it-should/
 summary: Offers a framework to quantify hidden manual tasks and translate findings into a reduction roadmap.
 layout: plain
 ---

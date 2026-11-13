@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-085
 slug: reading-customer-complaints-as-signs-of-missing-information
-title: When Customer Frustration Is Really an Information Flow Problem
-description: Many complaints that sound like temper are questions the business could have answered earlier. Learn to trace frustration back to the hand-off, record or change that left the customer uninformed.
+title: When customer frustration is really an information flow problem
+description: Complaints that sound like temper are often questions the business could answer. How to trace frustration to the hand-off that left them unsure
 lead: Many complaints that sound like temper are questions the business could have answered earlier. Learn to trace frustration back to the hand-off, record or change that left the customer uninformed.
 category: Customer Experience & Service Operations
 published_date: 2026-10-10
@@ -19,9 +19,9 @@ sources:
   - What Is Data Quality? - IBM | https://www.ibm.com/think/topics/data-quality
   - Set data alerts in the Power BI service - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
 related:
-  - The Operational Reason “Any Update?” Emails Keep Arriving | /patterns/why-customers-keep-emailing-to-ask-for-an-update/
-  - Why Do Field Teams Still Phone the Office for Information? | /patterns/why-field-teams-still-phone-the-office-for-information/
-  - When Customers Call for Records Your Systems Already Hold | /patterns/when-customers-call-for-records-your-systems-already-hold/
+  - The operational reason “Any update?” Emails keep arriving | /patterns/why-customers-keep-emailing-to-ask-for-an-update/
+  - Why do field teams still phone the office for information? | /patterns/why-field-teams-still-phone-the-office-for-information/
+  - When customers call for records your systems already hold | /patterns/when-customers-call-for-records-your-systems-already-hold/
 summary: Many complaints that sound like temper are questions the business could have answered earlier. Learn to trace frustration back to the hand-off, record or change that left the customer uninformed.
 layout: plain
 ---
@@ -52,9 +52,9 @@ The visible symptom is an irate or repeatedly complaining customer. The common a
 When complaints are traced back, they usually lead to one or more of the following mechanisms.
 
 - **Hand-offs that drop context.** Sales to operations, operations to finance, field to office. At each boundary, details live in an email, a call note or someone's memory. The next team starts again with a partial picture.
-- **Several versions of the customer.** IBM's overview of master data management notes that departments commonly keep their own versions of the same customer, and that inconsistent records cause wasted effort, inaccurate reporting, poor customer experiences and errors such as invoices or shipments sent to the wrong address. A customer who has already given a new address to one department finds the old one used by another.
-- **Changes that are not announced.** A delayed delivery, a substituted part or a revised price is recorded internally but not pushed to the customer. Event-driven approaches, as IBM describes them, let one part of a system react automatically to something that happens elsewhere. In most small businesses nothing is listening for "date changed", so the customer is told only when they ask.
-- **Information that is current in one place and stale in another.** IBM's data-quality guidance describes timeliness as data being available within the time frame expected, so that processes such as order confirmations work as customers expect. When the customer-facing record lags behind the operational one, staff give confident, outdated answers.
+- **Several versions of the customer.** IBM's [overview of master data management](https://www.ibm.com/think/topics/master-data-management) notes that departments commonly keep their own versions of the same customer, and that inconsistent records cause wasted effort, inaccurate reporting, poor customer experiences and errors such as invoices or shipments sent to the wrong address. A customer who has already given a new address to one department finds the old one used by another.
+- **Changes that are not announced.** A delayed delivery, a substituted part or a revised price is recorded internally but not pushed to the customer. [Event-driven approaches](https://www.ibm.com/think/topics/event-driven-architecture), as IBM describes them, let one part of a system react automatically to something that happens elsewhere. In most small businesses nothing is listening for "date changed", so the customer is told only when they ask.
+- **Information that is current in one place and stale in another.** [IBM's data-quality guidance](https://www.ibm.com/think/topics/data-quality) describes timeliness as data being available within the time frame expected, so that processes such as order confirmations work as customers expect. When the customer-facing record lags behind the operational one, staff give confident, outdated answers.
 - **Nobody sees the whole case.** Because the history is spread across inboxes and notes, the person who answers the phone cannot say what has already been said or promised.
 - **Promises are not tracked.** A commitment made on a call ("we will confirm by Friday") exists only as a memory, so nothing prompts the follow-up.
 

@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-205
 slug: mixed-laptop-models-and-accessories-support-and-procurement-cost
-title: Five Laptop Models, Three Chargers: What Inconsistent Hardware Costs a Business
-description: When every employee has a different machine and accessories do not fit, support takes longer, setup is slower and buying loses its leverage, adding up to a steady yearly cost.
+title: Five laptop models, three chargers: What inconsistent hardware costs a business
+description: When every employee has a different machine and accessories do not fit, support is slower, setup takes longer and buying loses leverage, year after year.
 lead: When every employee has a different machine and accessories do not fit, support takes longer, setup is slower and buying loses its leverage, adding up to a steady yearly cost.
 category: Digital Operations
 published_date: 2026-10-09
@@ -17,9 +17,10 @@ sources:
   - What is Microsoft Intune? - Microsoft Intune | https://learn.microsoft.com/en-us/mem/intune/fundamentals/what-is-intune
   - Asset management | https://www.ncsc.gov.uk/collection/10-steps/asset-management
 related:
-  - New Starters Waiting for Logins: The Payroll Cost of Slow Access Setup | /impact/new-starters-waiting-for-logins-access-setup-cost/
-  - One Spreadsheet, Three Jobs: The Cost of Using Excel as Form, Database and Workflow | /impact/spreadsheet-as-form-database-workflow-errors-maintenance-cost/
-  - Thirty People, Five-Person Processes: The Cost of Systems That Did Not Grow | /impact/five-person-processes-growing-business-scaling-cost/
+  - New starters waiting for logins: The payroll cost of slow access setup | /impact/new-starters-waiting-for-logins-access-setup-cost/
+  - One spreadsheet, three jobs: The cost of using Excel as form, database and workflow | /impact/spreadsheet-as-form-database-workflow-errors-maintenance-cost/
+  - Thirty people, five-person processes: The cost of systems that did not grow | /impact/five-person-processes-growing-business-scaling-cost/
+  - Staff using personal laptops for work: The security and support cost of inadequate devices | /impact/staff-personal-computers-for-company-work-inadequate-business-devices-security-support-cost/
 summary: When every employee has a different machine and accessories do not fit, support takes longer, setup is slower and buying loses its leverage, adding up to a steady yearly cost.
 layout: plain
 ---

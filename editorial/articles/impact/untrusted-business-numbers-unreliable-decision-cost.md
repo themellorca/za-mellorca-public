@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-102
 slug: untrusted-business-numbers-unreliable-decision-cost
-title: Which Business Numbers Can You Trust? The Cost of Deciding on Bad Data
+title: Which business numbers can you trust? The cost of deciding on bad data
 description: When management cannot tell reliable figures from rough ones, it over-trusts or distrusts everything. How to rate, assure and fix the numbers that matter.
 lead: When management cannot tell reliable figures from rough ones, it over-trusts or distrusts everything. How to rate, assure and fix the numbers that matter.
 category: Reporting
@@ -15,10 +15,11 @@ primary_cost_mechanism: Decision cost, verification labour and opportunity cost 
 sources:
   - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
   - The AQuA Book | https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government
+  - ISO 8000-1:2022 Data quality: Overview - International Organization for Standardization | https://www.iso.org/standard/81745.html
 related:
-  - When Revenue Is Visible but Profitability Is Not | /impact/no-visibility-into-customer-product-profitability/
-  - The Cost of Deciding with Outdated Information | /impact/pain-decision-making-with-outdated-information/
-  - Sales, Finance and Operations Each With Their Own Customer: The Cost | /impact/departments-separate-customer-records-financial-impact/
+  - When revenue is visible but profitability is not | /impact/no-visibility-into-customer-product-profitability/
+  - The cost of deciding with outdated information | /impact/pain-decision-making-with-outdated-information/
+  - Sales, finance and operations each with their own customer: The cost | /impact/departments-separate-customer-records-financial-impact/
 summary: When management cannot tell reliable figures from rough ones, it over-trusts or distrusts everything. How to rate, assure and fix the numbers that matter.
 layout: plain
 ---
@@ -49,7 +50,7 @@ Weak numbers are treated as fact. Stock is reordered against an inaccurate count
 
 After being caught out once or twice, management stops trusting any report. Every meeting begins with arguments about whose number is right. Decisions wait while someone rebuilds a figure from source in a spreadsheet. Good data is ignored alongside bad.
 
-The UK Government Data Quality Framework puts the consequence plainly in its own context: poor-quality data leads to failings in services, poor decision-making and an inability to understand how to improve. The same mechanism applies inside a business.
+The UK [Government Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework) puts the consequence plainly in its own context: poor-quality data leads to failings in services, poor decision-making and an inability to understand how to improve. The same mechanism applies inside a business.
 
 ## How the pain becomes money
 
@@ -84,11 +85,11 @@ The aim is not perfect data. The UK framework notes that data must be fit for it
 
 ### Rate key numbers against simple quality dimensions
 
-The Data Quality Framework, drawing on DAMA UK, uses six dimensions: completeness, uniqueness, consistency, timeliness, validity and accuracy. For each key performance figure, a business can ask a plain question under each heading. Is every transaction included? Are there duplicates? Does it agree with the same figure elsewhere? Is it current? Is it in the right format and range? Does it match reality when checked?
+The Data Quality Framework, drawing on DAMA UK, uses six dimensions: completeness, uniqueness, consistency, timeliness, validity and accuracy. For each key performance figure, a business can ask a plain question under each heading. Is every transaction included? Are there duplicates? Does it agree with the same figure elsewhere? Is it current? Is it in the right format and range? Does it match reality when checked? The international standard series [ISO 8000](https://www.iso.org/standard/81745.html) takes a similar view, setting out the principles of information and data quality.
 
 ### Assure in proportion to the stakes
 
-The UK government's AQuA Book on quality analysis makes proportionality central: the assurance applied should match the potential effect of the analysis and its complexity, with higher-risk outputs receiving stronger checks. In business terms, the number that drives pricing or bank covenants deserves more checking than the number that tracks meeting-room use.
+The UK government's [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) on quality analysis makes proportionality central: the assurance applied should match the potential effect of the analysis and its complexity, with higher-risk outputs receiving stronger checks. In business terms, the number that drives pricing or bank covenants deserves more checking than the number that tracks meeting-room use.
 
 ### Communicate quality to the reader
 

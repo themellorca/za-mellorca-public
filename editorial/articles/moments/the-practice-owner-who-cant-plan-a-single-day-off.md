@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000068
 slug: the-practice-owner-who-cant-plan-a-single-day-off
-title: The Practice Owner Who Can't Plan a Day Off
-description: For many practice owners, a day off is a risk assessment. Why absence feels impossible, what it costs, and how rules, checklists and shared access can restore the choice.
+title: The practice owner who can't plan a day off
+description: For many practice owners a day off is a risk assessment. Why absence feels impossible, and how rules, checklists and shared access restore the choice.
 lead: For many practice owners, a day off is a risk assessment. Why absence feels impossible, what it costs, and how rules, checklists and shared access can restore the choice.
 category: Human Agency
 published_date: 2026-10-10
@@ -20,9 +20,10 @@ sources:
   - Bus factor - Wikipedia | https://en.wikipedia.org/wiki/Bus_factor
   - Delegation - Wikipedia | https://en.wikipedia.org/wiki/Delegation
 related:
-  - The Owner Who Can Finally Say No to Work | /moments/the-owner-who-can-finally-say-no-to-work/
-  - The Founder Who Wants to Step Back but Can't | /moments/the-founder-who-wants-to-step-back-but-cant/
-  - When the Exception Process Is the Only Way to Get Anything Done | /moments/when-the-exception-process-is-the-only-way-to-get-things-done/
+  - The owner who can finally say no to work | /moments/the-owner-who-can-finally-say-no-to-work/
+  - The founder who wants to step back but can't | /moments/the-founder-who-wants-to-step-back-but-cant/
+  - When the exception process is the only way to get anything done | /moments/when-the-exception-process-is-the-only-way-to-get-things-done/
+  - Why retirement plans depend on a business that runs without you | /moments/why-retirement-plans-depend-on-a-business-that-runs-without-you/
 summary: For many practice owners, a day off is a risk assessment. Why absence feels impossible, what it costs, and how rules, checklists and shared access can restore the choice.
 layout: plain
 ---
@@ -36,7 +37,7 @@ A practice, whether dental, veterinary, legal, accounting or medical, has a part
 
 It also makes absence hard to plan. The owner's knowledge is held in habit rather than in a document: which supplier gives credit, which patient needs a different tone, which bank account to move money from when payroll is tight. Each item is small. Together they make a day off feel like a risk.
 
-The management literature calls this key-person or "bus factor" dependency: the number of people who would have to be unavailable before the work stops. In many small practices the number is one.
+The management literature calls this key-person or "[bus factor](https://en.wikipedia.org/wiki/Bus_factor)" dependency: the number of people who would have to be unavailable before the work stops. In many small practices the number is one.
 
 ## The human tax: autonomy and time
 
@@ -44,7 +45,7 @@ The first cost is time, and it is easy to understand. The owner works through da
 
 The second cost is autonomy, which is less obvious. Autonomy is usually thought of as the freedom to decide what to do. It also includes the freedom to decide not to. The UK Health and Safety Executive's management standards for work-related stress treat control, meaning how much say people have over how they do their work, as one of the core conditions for healthy work. An owner who cannot choose when to be absent has lost a piece of that control, even though the business is theirs.
 
-The World Health Organization's guidance on mental health at work lists excessive workloads, inflexible working hours and low control among risks to mental health. Owners are not exempt from those risks because they hold the title, and in a one-owner practice they are often more exposed.
+The World Health Organization's guidance on [mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) lists excessive workloads, inflexible working hours and low control among risks to mental health. Owners are not exempt from those risks because they hold the title, and in a one-owner practice they are often more exposed.
 
 ## An illustrative case
 

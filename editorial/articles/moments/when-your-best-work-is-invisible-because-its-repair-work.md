@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000088
 slug: when-your-best-work-is-invisible-because-its-repair-work
-title: When Your Best Work Is Invisible Because It's Repair Work
-description: The people who fix problems before customers notice are often the least credited. Why repair work disappears from view and how a business can make it visible and learnable.
+title: When your best work is invisible because it's repair work
+description: The people who fix problems before customers notice are often the least credited. Why repair work goes unseen and how to make it visible and learnable.
 lead: The people who fix problems before customers notice are often the least credited. Why repair work disappears from view and how a business can make it visible and learnable.
 category: Work & Dignity
 published_date: 2026-10-08
@@ -20,9 +20,10 @@ sources:
   - Incident Postmortem: Process & Best Practices - Atlassian | https://www.atlassian.com/incident-management/postmortem
   - Employee Burnout, Part 1: The 5 Main Causes | https://www.gallup.com/workplace/237059/employee-burnout-causes.aspx
 related:
-  - The Skilled Professional Reduced to Copy-and-Paste | /moments/the-skilled-professional-reduced-to-copy-and-paste/
-  - Why Nobody Trains for the Job of Being Human Middleware | /moments/why-nobody-trains-for-the-job-of-being-human-middleware/
-  - When Every Day Starts by Rebuilding Yesterday's Context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
+  - The skilled professional reduced to copy-and-paste | /moments/the-skilled-professional-reduced-to-copy-and-paste/
+  - Why nobody trains for the job of being human middleware | /moments/why-nobody-trains-for-the-job-of-being-human-middleware/
+  - When every day starts by rebuilding yesterday's context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
+  - Why being blamed for system errors wears people down | /moments/why-being-blamed-for-system-errors-wears-people-down/
 summary: The people who fix problems before customers notice are often the least credited. Why repair work disappears from view and how a business can make it visible and learnable.
 layout: plain
 ---
@@ -46,11 +47,11 @@ The result is that the people who are best at handling exceptions often do it qu
 
 Software operations teams have been dealing with this for a long time, and their lessons travel well beyond software.
 
-Google's engineering handbook on postmortem culture describes a postmortem as a written record of an incident, its impact, the actions taken to resolve it, its root causes and the follow-up actions that should stop it recurring. The reasoning is simple: when an incident is fixed and nothing is learned, it may recur. The handbook is also clear that this should happen without blame, so that people are willing to describe what actually happened.
+Google's engineering handbook on [postmortem culture](https://sre.google/sre-book/postmortem-culture/) describes a postmortem as a written record of an incident, its impact, the actions taken to resolve it, its root causes and the follow-up actions that should stop it recurring. The reasoning is simple: when an incident is fixed and nothing is learned, it may recur. The handbook is also clear that this should happen without blame, so that people are willing to describe what actually happened.
 
-Atlassian's guide to incident postmortems makes a point that applies to any business. A quick rollback restores service, but it does not explain what failed or why. Understanding comes from a deliberate review, and the findings should feed back into planning so that the remedial work is weighed alongside everything else.
+[Atlassian's guide to incident postmortems](https://www.atlassian.com/incident-management/postmortem) makes a point that applies to any business. A quick rollback restores service, but it does not explain what failed or why. Understanding comes from a deliberate review, and the findings should feed back into planning so that the remedial work is weighed alongside everything else.
 
-The handbook on eliminating toil adds a distinction. Toil, in its definition, is manual, repetitive and automatable operational work that has no enduring value and grows as a system grows. It is separate from overhead, which is necessary administration, and from grungy work that leaves something better behind. A person who repeats the same repair every month is doing toil. A person who fixes the cause once is doing engineering. The first is invisible and tiring; the second is visible and finite.
+The handbook on [eliminating toil](https://sre.google/sre-book/eliminating-toil/) adds a distinction. Toil, in its definition, is manual, repetitive and automatable operational work that has no enduring value and grows as a system grows. It is separate from overhead, which is necessary administration, and from grungy work that leaves something better behind. A person who repeats the same repair every month is doing toil. A person who fixes the cause once is doing engineering. The first is invisible and tiring; the second is visible and finite.
 
 None of this proves anything about a particular South African workshop or accounts office. It does describe a mechanism that is plausible anywhere: repair that is never recorded cannot be learned from, and repair that is never learned from keeps happening.
 
@@ -66,7 +67,7 @@ When the owner reviews performance, the numbers show installs completed and cust
 
 The first cost is to dignity. Being the person who keeps things running, without that being seen, can feel like being treated as a background utility. Some people will not mind. Others will find that the more reliably they repair, the less anyone asks what it takes.
 
-The second cost is energy. Repair is reactive: it interrupts, it is urgent, and it cannot be planned for. Gallup's research on burnout lists an unmanageable workload and unreasonable time pressure among its main drivers, and notes that employees who say they often have enough time to do their work are far less likely to report high burnout. A role that is mostly emergency response sits close to both conditions. That is an inference, not a measurement of any particular role.
+The second cost is energy. Repair is reactive: it interrupts, it is urgent, and it cannot be planned for. [Gallup's research on burnout](https://www.gallup.com/workplace/237059/employee-burnout-causes.aspx) lists an unmanageable workload and unreasonable time pressure among its main drivers, and notes that employees who say they often have enough time to do their work are far less likely to report high burnout. A role that is mostly emergency response sits close to both conditions. That is an inference, not a measurement of any particular role.
 
 There is also a quieter cost to the business. Where repair is invisible, the recurring causes stay invisible too. The wrong-inverter error is absorbed rather than fixed, so it repeats. Mellorca's discussion of [what a week without firefighting would feel like](/moments/what-a-week-without-firefighting-would-feel-like/) describes the other side of this, and [the cost of fixing preventable mistakes](/impact/fixing-preventable-mistakes-rework-customer-time-cost/) looks at what it adds up to.
 

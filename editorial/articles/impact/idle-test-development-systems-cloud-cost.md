@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-229
 slug: idle-test-development-systems-cloud-cost
-title: Test Servers Running All Night: The Cost of Idle Non-Production Systems
-description: Test, staging and development systems often run around the clock while people use them for a fraction of the week. Scheduling them deliberately removes cost without removing capability.
+title: Test servers running all night: The cost of idle non-production systems
+description: Test, staging and development systems often run around the clock though people use them for a fraction of the week. Scheduling them cuts cost.
 lead: Test, staging and development systems often run around the clock while people use them for a fraction of the week. Scheduling them deliberately removes cost without removing capability.
 category: Cloud Economics
 published_date: 2026-10-07
@@ -17,9 +17,9 @@ sources:
   - States and billing status - Azure Virtual Machines | https://learn.microsoft.com/en-us/azure/virtual-machines/states-billing
   - Automate starting and stopping AWS instances - Instance Scheduler on AWS | https://docs.aws.amazon.com/solutions/latest/instance-scheduler-on-aws/solution-overview.html
 related:
-  - Backing Up Data but Not the Systems That Use It | /impact/pain-backing-up-data-without-systems/
-  - The Cost of Automations That Stop Silently | /impact/silent-automation-failures-financial-impact/
-  - Wi-Fi Dead Zones: The Cost of Staff Moving Around to Find a Signal | /impact/wi-fi-dead-zones-staff-searching-for-signal-cost/
+  - Backing up data but not the systems that use it | /impact/pain-backing-up-data-without-systems/
+  - The cost of automations that stop silently | /impact/silent-automation-failures-financial-impact/
+  - Wi-Fi dead zones: The cost of staff moving around to find a signal | /impact/wi-fi-dead-zones-staff-searching-for-signal-cost/
 summary: Test, staging and development systems often run around the clock while people use them for a fraction of the week. Scheduling them deliberately removes cost without removing capability.
 layout: plain
 ---

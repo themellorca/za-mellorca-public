@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-043
 slug: when-apis-exist-but-the-business-still-works-manually
-title: When APIs Exist but the Business Still Works Manually
+title: When APIs exist but the business still works manually
 description: Available APIs do not create integration by themselves; manual work can persist when process ownership and event design are missing.
 lead: Technical connectivity can exist while the operating process remains fragmented.
 category: Disconnected Systems & Integration Friction
@@ -25,9 +25,9 @@ sources:
   - Retry pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
   - RFC 9110: HTTP Semantics - RFC Editor | https://www.rfc-editor.org/rfc/rfc9110
 related:
-  - When Your CRM Knows Something Your Finance System Does Not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
-  - Why Information Has to Be Copied From One System to Another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
-  - When Copy-and-Paste Becomes Part of the Job Description | /patterns/when-copy-and-paste-becomes-part-of-the-job-description/
+  - When your CRM knows something your finance system does not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
+  - Why information has to be copied from one system to another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
+  - When copy-and-paste becomes part of the job description | /patterns/when-copy-and-paste-becomes-part-of-the-job-description/
 summary: When APIs exist but manual coordination remains, the missing layer is often process orchestration rather than raw connectivity. Clarifying ownership, events and exception handling can turn technical interfaces into operational flow.
 ---
 ## Observable condition

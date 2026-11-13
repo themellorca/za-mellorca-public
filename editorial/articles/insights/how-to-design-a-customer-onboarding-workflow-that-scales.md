@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-277
 slug: how-to-design-a-customer-onboarding-workflow-that-scales
-title: How to Design a Customer Onboarding Workflow That Scales
-description: A step-by-step method for designing customer onboarding that still works at three times today's volume: map the real journey, define stages with entry and exit criteria, capture information once, plan capacity and measure flow.
+title: How to design a customer onboarding workflow that scales
+description: A method for designing customer onboarding that still works at three times today's volume: map the real journey, define stages, capture information once.
 lead: A step-by-step method for designing customer onboarding that still works at three times today's volume: map the real journey, define stages with entry and exit criteria, capture information once, plan capacity and measure flow.
 category: Digital Operations
 published_date: 2026-10-03
@@ -14,7 +14,7 @@ sources:
   - The Kanban Guide - May 2025 (latest) - Kanban Guides | https://kanbanguides.org/english/
   - Little’s Law – A Practical Approach to Understanding Production System Performance - Project Production Institute | https://projectproduction.org/journal/littles-law-a-practical-approach-to-understanding-production-system-performance/
 related:
-  - How to Find the Real Bottleneck in a Digital Operation | /insights/how-to-find-the-real-bottleneck-in-a-digital-operation/
+  - How to find the real bottleneck in a digital operation | /insights/how-to-find-the-real-bottleneck-in-a-digital-operation/
   - Before you automate, understand how the work actually moves | /insights/before-you-automate-understand-how-the-work-actually-moves/
   - How to design workflows that can survive staff changes | /insights/how-to-design-workflows-that-can-survive-staff-changes/
 summary: A step-by-step method for designing customer onboarding that still works at three times today's volume: map the real journey, define stages with entry and exit criteria, capture information once, plan capacity and measure flow.
@@ -29,13 +29,13 @@ That process works until volume rises. The reasons it breaks are covered in [why
 
 ## Step 1: Map the journey as it really happens
 
-Start with what happens now, not what the process document says. A service blueprint is a useful format. Nielsen Norman Group describes it as a diagram showing the relationships between people, props and processes linked to customer touchpoints. It sets out what the customer does, what staff do in front of the customer, what happens backstage, and the support processes underneath, separated by a "line of visibility" between what the customer sees and what they do not.
+Start with what happens now, not what the process document says. A service blueprint is a useful format. [Nielsen Norman Group](https://www.nngroup.com/articles/service-blueprints-definition/) describes it as a diagram showing the relationships between people, props and processes linked to customer touchpoints. It sets out what the customer does, what staff do in front of the customer, what happens backstage, and the support processes underneath, separated by a "line of visibility" between what the customer sees and what they do not.
 
 For onboarding, the backstage is where most of the trouble lives: the account being set up in billing, the project created in the delivery tool, access granted, equipment ordered, documents checked. Map it using two or three recent customers, step by step, including the waiting. Note every time the customer is asked for something, every time information is re-typed, and every time someone has to ask a colleague a question.
 
 ## Step 2: Define the work item, the start and the finish
 
-The Kanban Guide sets out the minimum elements of a defined workflow: what the work items are, when an item is started and finished, the states it moves through, how work in progress is controlled, the explicit policies that govern it, and a service level expectation for how long an item should take.
+[The Kanban Guide](https://kanbanguides.org/english/) sets out the minimum elements of a defined workflow: what the work items are, when an item is started and finished, the states it moves through, how work in progress is controlled, the explicit policies that govern it, and a service level expectation for how long an item should take.
 
 Applied to onboarding:
 
@@ -72,7 +72,7 @@ Automation belongs on the standard path first: creating records in downstream sy
 
 ## Step 6: Plan capacity using work in progress
 
-Little's Law gives a simple relationship between throughput, work in progress and cycle time. The Project Production Institute's explanation sets it out as throughput equals work in progress divided by cycle time, and notes that beyond a certain point adding more work in progress does not increase throughput; it simply lengthens cycle time through waiting.
+Little's Law gives a simple relationship between throughput, work in progress and cycle time. [The Project Production Institute's explanation](https://projectproduction.org/journal/littles-law-a-practical-approach-to-understanding-production-system-performance/) sets it out as throughput equals work in progress divided by cycle time, and notes that beyond a certain point adding more work in progress does not increase throughput; it simply lengthens cycle time through waiting.
 
 The practical consequence for onboarding is direct. As an illustrative calculation: if a team completes about ten onboardings a week and has forty open, the average customer will take around four weeks to go live. Starting more onboardings without adding capacity does not bring customers live sooner. It makes every customer wait longer. A scalable design sets a limit on open onboardings per team, makes the queue before that limit visible, and uses that queue to decide when to add capacity or improve the slowest stage.
 

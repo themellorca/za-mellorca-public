@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-299
 slug: event-consumers-do-not-know-the-delivery-guarantees
 title: When teams consume events without knowing their delivery guarantees
-description: Events can arrive twice, late, out of order or not at all, depending on the platform and settings. Why consumers need to know the delivery guarantee, and how to publish it.
+description: Events can arrive twice, late, out of order or not at all. Why consumers must know the delivery guarantee and how to publish it.
 lead: Events can arrive twice, late, out of order or not at all, depending on the platform and settings. Why consumers need to know the delivery guarantee, and how to publish it.
 category: Integration & API Operations
 published_date: 2026-10-06
@@ -34,9 +34,9 @@ When one system publishes an event, the platform carrying it makes certain promi
 
 Consumers are often built without knowing any of this. They assume each event arrives once, in sequence, and never goes missing. The result is duplicated actions, actions applied in the wrong order, and gaps nobody notices until a customer or auditor does.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for why a webhook fired twice, why events arrive out of order, what "at least once delivery" means, or how to stop duplicate orders from an integration. Managers see the business symptoms: duplicate shipments, double-posted payments, a status that flips back to an earlier value, or a customer record that never updated. The underlying need is for every consumer to know the delivery behaviour it is depending on, and to be built to handle it.
+People ask why a webhook fired twice, why events arrive out of order, what "at least once delivery" means, or how to stop duplicate orders from an integration. Managers see the business symptoms: duplicate shipments, double-posted payments, a status that flips back to an earlier value, or a customer record that never updated. The underlying need is for every consumer to know the delivery behaviour it is depending on, and to be built to handle it.
 
 ## Evidence and system mechanism
 

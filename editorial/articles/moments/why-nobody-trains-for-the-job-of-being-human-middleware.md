@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000087
 slug: why-nobody-trains-for-the-job-of-being-human-middleware
-title: Why Nobody Trains for the Job of Being Human Middleware
-description: In many businesses one person quietly connects the systems that do not connect themselves. The role is never advertised, trained for or written down. What it takes from the person who holds it, and what changes when it is recognised.
+title: Why nobody trains for the job of being human middleware
+description: One person often quietly connects systems that do not connect themselves, with no training or written role. What it costs, and what recognition changes.
 lead: In many businesses one person quietly connects the systems that do not connect themselves. The role is never advertised, trained for or written down. What it takes from the person who holds it, and what changes when it is recognised.
 category: Work & Dignity
 published_date: 2026-10-07
@@ -19,9 +19,9 @@ sources:
   - What Is iPaaS (Integration Platform as a Service)? - IBM | https://www.ibm.com/think/topics/ipaas
   - Explore the Power Automate home page - Power Automate | https://learn.microsoft.com/en-us/power-automate/getting-started
 related:
-  - The Attention Spent Remembering What Systems Should Remember | /moments/the-attention-spent-remembering-what-systems-should-remember/
-  - The Quiet Cost of Always Being Reachable | /moments/the-quiet-cost-of-always-being-reachable/
-  - The Inbox That Follows You Home | /moments/the-inbox-that-follows-you-home/
+  - The attention spent remembering what systems should remember | /moments/the-attention-spent-remembering-what-systems-should-remember/
+  - The quiet cost of always being reachable | /moments/the-quiet-cost-of-always-being-reachable/
+  - The inbox that follows you home | /moments/the-inbox-that-follows-you-home/
 summary: In many businesses one person quietly connects the systems that do not connect themselves. The role is never advertised, trained for or written down. What it takes from the person who holds it, and what changes when it is recognised.
 layout: plain
 ---
@@ -46,7 +46,7 @@ The pattern is described in [when your staff become the integration between soft
 
 ## What the evidence says about this kind of work
 
-The International Labour Organization's research on generative AI found that clerical work is the occupational group most exposed to automation, with nearly a quarter of clerical tasks highly exposed. Its broader conclusion was that most jobs are more likely to be changed than replaced, and that the larger effect may be on job quality, including work intensity and autonomy. It also emphasised that outcomes depend on management choices, and called for workers' voice and skills training in how technology is introduced.
+The International Labour Organization's research on [generative AI](https://www.ilo.org/resource/news/generative-ai-likely-augment-rather-destroy-jobs) found that clerical work is the occupational group most exposed to automation, with nearly a quarter of clerical tasks highly exposed. Its broader conclusion was that most jobs are more likely to be changed than replaced, and that the larger effect may be on job quality, including work intensity and autonomy. It also emphasised that outcomes depend on management choices, and called for workers' voice and skills training in how technology is introduced.
 
 IBM's explanation of integration platforms describes the problems they exist to solve: applications that multiply, data silos where one part of an organisation cannot see what another holds, and manual data transfer that is slow and error-prone. Microsoft's documentation for its workflow automation service describes creating automated flows between apps and services to synchronise files, collect data and automate repetitive tasks. In other words, connecting systems is recognised as real work with established tools, when it is done by technology. When the same work is done by a person, it rarely receives the same recognition.
 

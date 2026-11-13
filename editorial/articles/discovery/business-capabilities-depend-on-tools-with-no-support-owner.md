@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-336
 slug: business-capabilities-depend-on-tools-with-no-support-owner
 title: Business capabilities that depend on tools nobody supports
-description: Quoting, collections or payroll often rest on a tool with no named support owner. Budget cuts and vendor changes expose the gap. How to map capabilities to tools and assign support.
+description: Quoting, collections or payroll often rest on a tool with no support owner. How to map business capabilities to tools and name who supports them.
 lead: Quoting, collections or payroll often rest on a tool with no named support owner. Budget cuts and vendor changes expose the gap. How to map capabilities to tools and assign support.
 category: SaaS & Application Portfolio Management
 published_date: 2026-10-03
@@ -17,8 +17,8 @@ sources:
   - Lifecycle FAQ - General | https://learn.microsoft.com/en-us/lifecycle/faq/general-lifecycle
   - Power Platform governance overview and strategy - Power Platform | https://learn.microsoft.com/en-us/power-platform/guidance/adoption/admin-best-practices
 related:
-  - Why Legacy Applications Remain Live Without an Owner | /discovery/why-legacy-applications-remain-live-without-an-owner/
-  - Why Software Renewals Need a Confirmed Business Owner | /discovery/why-software-renewals-need-a-confirmed-business-owner/
+  - Why legacy applications remain live without an owner | /discovery/why-legacy-applications-remain-live-without-an-owner/
+  - Why software renewals need a confirmed business owner | /discovery/why-software-renewals-need-a-confirmed-business-owner/
   - Data-export limits are discovered only when leaving a vendor | /discovery/data-export-limits-discovered-only-when-leaving-a-vendor/
 summary: Quoting, collections or payroll often rest on a tool with no named support owner. Budget cuts and vendor changes expose the gap. How to map capabilities to tools and assign support.
 layout: plain
@@ -33,9 +33,9 @@ A business capability is something the organisation must be able to do: issue qu
 
 The problem is not that these tools exist. It is that nobody has been assigned to keep them supported: to watch for vendor changes, apply updates, manage access, renew subscriptions and fix them when they break. When one fails, the capability fails with it, and the business has to work out who can help while the work piles up.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Leaders rarely search for "capability ownership". They ask how to find out what software the business depends on, which tools are safe to cancel, or who should support a system nobody owns. The underlying need is confidence that every capability the business relies on has supported tools behind it, and that cost reduction will not cut through something critical.
+Leaders rarely talk about "capability ownership". They ask how to find out what software the business depends on, which tools are safe to cancel, or who should support a system nobody owns. The underlying need is confidence that every capability the business relies on has supported tools behind it, and that cost reduction will not cut through something critical.
 
 ## Evidence and system mechanism
 

@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-015
 slug: fixing-preventable-mistakes-rework-customer-time-cost
-title: Fixing Avoidable Mistakes Instead of Serving Customers: The Cost of Rework
-description: When staff spend their day correcting wrong orders, invoices and deliveries, the business pays twice and customers wait. How to count preventable rework and design the most common errors out.
+title: Fixing avoidable mistakes instead of serving customers: The cost of rework
+description: When staff spend their day correcting wrong orders, invoices and deliveries, you pay twice and customers wait. Count the rework and design errors out.
 lead: When staff spend their day correcting wrong orders, invoices and deliveries, the business pays twice and customers wait. How to count preventable rework and design the most common errors out.
 category: Digital Operations
 published_date: 2026-10-04
@@ -18,9 +18,9 @@ sources:
   - 5 Whys - What is it? - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/5-whys/
   - Apply data validation to cells - Microsoft Support | https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249
 related:
-  - Answering the Same Question Again: The Payroll Cost of Undocumented Know-How | /impact/same-internal-questions-undocumented-knowledge-cost/
-  - Which Version Is Final? The Cost of Teams Working From Different Copies | /impact/conflicting-document-versions-rework-decision-cost/
-  - Recurring Tasks That Live in Someone's Memory: The Cost of Missed Work | /impact/recurring-tasks-relying-on-memory-missed-work-cost/
+  - Answering the same question again: The payroll cost of undocumented know-how | /impact/same-internal-questions-undocumented-knowledge-cost/
+  - Which version is final? The cost of teams working from different copies | /impact/conflicting-document-versions-rework-decision-cost/
+  - Recurring tasks that live in someone's memory: The cost of missed work | /impact/recurring-tasks-relying-on-memory-missed-work-cost/
 summary: When staff spend their day correcting wrong orders, invoices and deliveries, the business pays twice and customers wait. How to count preventable rework and design the most common errors out.
 layout: plain
 ---

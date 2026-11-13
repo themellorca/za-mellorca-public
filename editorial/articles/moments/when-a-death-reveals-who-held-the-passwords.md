@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000425
 slug: when-a-death-reveals-who-held-the-passwords
-title: When a Death in the Family Reveals Who Held the Passwords
+title: When a death in the family reveals who held the passwords
 description: A bereavement can expose how much business access sat with one person. Why it happens, what it asks of grieving people, and how to prepare with care.
 lead: A bereavement can expose how much business access sat with one person. Why it happens, what it asks of grieving people, and how to prepare with care.
 category: Life Transitions
@@ -20,9 +20,9 @@ sources:
   - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
   - Who makes an application to process Special Personal Information? | https://www.inforegulator.org.za/popia/
 related:
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
-  - Why Documented Processes Help People Grow Into Roles | /moments/why-documented-processes-help-people-grow-into-roles/
-  - The Customer Who Gets a Different Answer From Every Person | /moments/the-customer-who-gets-a-different-answer-from-every-person/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - Why documented processes help people grow into roles | /moments/why-documented-processes-help-people-grow-into-roles/
+  - The customer who gets a different answer from every person | /moments/the-customer-who-gets-a-different-answer-from-every-person/
 summary: A bereavement can expose how much business access sat with one person. Why it happens, what it asks of grieving people, and how to prepare with care.
 layout: plain
 ---
@@ -45,11 +45,11 @@ Mellorca's work on [automation understood by one employee](/impact/automation-un
 
 No South African statistic on access lost after a death is cited, and none is claimed. The points below come from general references and from the law.
 
-Reference material on digital inheritance describes the question of what happens to a person's online accounts, files and digital assets after they die, and notes that service providers' terms and the law of the relevant country often limit what survivors can do. The practical lesson is that access usually cannot be assumed to pass automatically to the family or the business.
+Reference material on [digital inheritance](https://en.wikipedia.org/wiki/Digital_inheritance) describes the question of what happens to a person's online accounts, files and digital assets after they die, and notes that service providers' terms and the law of the relevant country often limit what survivors can do. The practical lesson is that access usually cannot be assumed to pass automatically to the family or the business.
 
 General references on password managers describe them as programs that store credentials in an encrypted vault, protected by a master password. Some offer shared vaults or emergency-access features, so that a trusted person can be granted entry under defined conditions. That is a feature to look for, not a guarantee that any particular product will suit a given business.
 
-South Africa's Protection of Personal Information Act places duties on organisations that hold personal information about employees, customers and suppliers. When access is lost, or is gained informally by guessing or borrowing a login, those duties do not pause. The Information Regulator's POPIA pages are a useful starting point, and a business should take advice before using a deceased person's credentials to enter systems that hold other people's data.
+South Africa's [Protection of Personal Information Act](https://www.gov.za/documents/protection-personal-information-act) places duties on organisations that hold personal information about employees, customers and suppliers. When access is lost, or is gained informally by guessing or borrowing a login, those duties do not pause. The Information Regulator's POPIA pages are a useful starting point, and a business should take advice before using a deceased person's credentials to enter systems that hold other people's data.
 
 ## An illustrative case
 
@@ -71,7 +71,7 @@ The aim is gentle, practical preparation, done in calm weather, that spares fami
 
 1. **List the critical access points.** Banking, payroll, tax portals, accounting software, email, domain and cloud storage. For each, note who holds it and who could recover it.
 2. **Use named business accounts.** Wherever possible, register services to a business email address that more than one person can reach, and add a second authorised user with a defined role.
-3. **Use a shared vault with emergency access.** A business password manager lets credentials belong to the company, not a person.
+3. **Use a shared vault with emergency access.** A business [password manager](https://en.wikipedia.org/wiki/Password_manager) lets credentials belong to the company, not a person.
 4. **Keep a sealed continuity note.** A short, locked document naming who to contact, where recovery details are kept and who may open it. Review it each year.
 5. **Separate personal and business devices where you can.** A business phone number for verification codes is easier to hand on than a private one.
 6. **Talk about it once.** A brief, honest conversation with partners and key staff about what would happen is far easier now than at a funeral.

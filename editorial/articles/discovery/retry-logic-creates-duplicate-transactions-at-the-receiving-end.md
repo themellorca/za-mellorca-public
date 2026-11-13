@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-282
 slug: retry-logic-creates-duplicate-transactions-at-the-receiving-end
 title: Why retry logic creates duplicate transactions at the receiving end
-description: Webhooks, queues and partner APIs deliver the same message more than once by design. When the receiving system cannot recognise a repeat, one payment or order becomes two.
+description: Webhooks, queues and partner APIs deliver the same message more than once by design. If the receiver cannot spot a repeat, one payment becomes two.
 lead: Webhooks, queues and partner APIs deliver the same message more than once by design. When the receiving system cannot recognise a repeat, one payment or order becomes two.
 category: Integration & API Operations
 published_date: 2026-10-04
@@ -20,7 +20,8 @@ sources:
 related:
   - Why teams cannot trace one business transaction across several systems | /discovery/teams-cannot-trace-a-business-transaction-across-systems/
   - Message schemas evolve without version control | /discovery/message-schemas-evolve-without-version-control/
-  - Why API Rate Limits Create Intermittent Business Failures | /discovery/why-api-rate-limits-create-intermittent-business-failures/
+  - Why API rate limits create intermittent business failures | /discovery/why-api-rate-limits-create-intermittent-business-failures/
+  - Webhook failures are not replayed safely | /discovery/why-failed-webhooks-need-a-safe-replay-routine-before-agents-depend-on-them/
 summary: Webhooks, queues and partner APIs deliver the same message more than once by design. When the receiving system cannot recognise a repeat, one payment or order becomes two.
 layout: plain
 ---
@@ -34,9 +35,9 @@ Integrations between systems are usually designed so that messages are not lost.
 
 The visible symptoms are duplicate receipts, double stock deductions, repeated confirmation emails and reconciliation differences that finance has to explain. The less visible symptom is the time staff spend finding and reversing duplicates, often days after the event.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People searching for "retry logic creates duplicate transactions", "webhook received twice" or "duplicate payments from integration" usually want two things. In the short term they want the duplicates to stop. In the longer term they want confidence that adding more integrations, more channels and more volume will not multiply the problem. The second need is the commercially important one, because the urge to fix it usually comes with growth in API traffic.
+People who find that retries create duplicate transactions, that a webhook was received twice or that an integration made duplicate payments usually want two things. In the short term they want the duplicates to stop. In the longer term they want confidence that adding more integrations, more channels and more volume will not multiply the problem. The second need is the commercially important one, because the urge to fix it usually comes with growth in API traffic.
 
 ## Evidence and system mechanism
 

@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-304
 slug: untouched-leads-invisible-follow-up-failure-revenue-cost
-title: Leads Nobody Has Touched: The Revenue Cost of Invisible Follow-Up Failure
-description: When a business cannot see which leads have gone quiet, follow-up fails silently. The cost shows up as lost deals, wasted marketing spend and managers reconstructing pipeline status by hand.
+title: Leads nobody has touched: The revenue cost of invisible follow-up failure
+description: When you cannot see which leads have gone quiet, follow-up fails silently. The cost shows in lost deals, wasted marketing spend and hand-built reports.
 lead: When a business cannot see which leads have gone quiet, follow-up fails silently. The cost shows up as lost deals, wasted marketing spend and managers reconstructing pipeline status by hand.
 category: Sales Operations
 published_date: 2026-10-08
@@ -17,9 +17,9 @@ sources:
   - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
   - What is Power BI? - Power BI | https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview
 related:
-  - An Inbox Is Not a Sales Process: The Revenue Cost of Emailed Website Enquiries | /impact/website-enquiries-email-inbox-sales-process-revenue-cost/
-  - Retyping Website Enquiries Into the CRM: The Cost of Slow, Error-Prone Lead Capture | /impact/retyping-website-enquiries-into-crm-lead-capture-cost/
-  - "Let Me Check and Come Back to You": The Cost of Manual Availability Checks | /impact/checking-stock-capacity-by-hand-before-promising-cost/
+  - An inbox is not a sales process: The revenue cost of emailed website enquiries | /impact/website-enquiries-email-inbox-sales-process-revenue-cost/
+  - Retyping website enquiries into the CRM: The cost of slow, error-prone lead capture | /impact/retyping-website-enquiries-into-crm-lead-capture-cost/
+  - "Let me check and come back to you": The cost of manual availability checks | /impact/checking-stock-capacity-by-hand-before-promising-cost/
 summary: When a business cannot see which leads have gone quiet, follow-up fails silently. The cost shows up as lost deals, wasted marketing spend and managers reconstructing pipeline status by hand.
 layout: plain
 ---

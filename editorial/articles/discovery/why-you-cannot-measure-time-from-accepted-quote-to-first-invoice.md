@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-096
 slug: why-you-cannot-measure-time-from-accepted-quote-to-first-invoice
 title: Why you cannot measure the time from accepted quote to first invoice
-description: Most businesses know their sales pipeline and their debtors' days, but not how long a won deal waits before it is billed. Why the gap is invisible and how to measure it.
+description: Most businesses track the pipeline and debtors' days, not how long a won deal waits to be billed. See why the gap is invisible and how to measure it.
 lead: Most businesses know their sales pipeline and their debtors' days, but not how long a won deal waits before it is billed. Why the gap is invisible and how to measure it.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-04
@@ -18,7 +18,7 @@ sources:
   - Create or edit quotes in Dynamics 365 Sales | https://learn.microsoft.com/en-us/dynamics365/sales/create-edit-quote-sales
   - Invoicing policies — Odoo 17.0 documentation | https://www.odoo.com/documentation/17.0/applications/sales/sales/invoicing/invoicing_policy.html
 related:
-  - Why Sales Quotes Have to Be Re-Keyed Before an Order Can Start | /discovery/why-sales-quotes-have-to-be-re-keyed-before-orders/
+  - Why sales quotes have to be re-keyed before an order can start | /discovery/why-sales-quotes-have-to-be-re-keyed-before-orders/
   - Why finance cannot trace an invoice back to the deal that approved it | /discovery/why-finance-cannot-trace-an-invoice-to-its-commercial-approval/
   - Why salespeople cannot see whether an order has actually been fulfilled | /discovery/salespeople-cannot-see-whether-an-order-has-been-fulfilled/
 summary: Most businesses know their sales pipeline and their debtors' days, but not how long a won deal waits before it is billed. Why the gap is invisible and how to measure it.
@@ -32,9 +32,9 @@ This article looks at that operating condition: a business that cannot measure t
 
 Between a customer saying yes and receiving an invoice, a deal passes through several hands: the salesperson marks it won, someone creates an order, operations delivers or starts the service, and finance raises the invoice. Each step happens in a system, or in an inbox, but the steps are rarely recorded against a common reference with a reliable date. So the business can see the start and the end in aggregate, but it cannot join them up for each deal and measure the gap.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Finance leaders search for ways to measure quote-to-cash cycle time, find out why invoicing is slow, or reduce the delay between sale and invoice. Operations managers want to know whether delivery or administration is the bottleneck. The underlying need is a reliable number, per deal and on average, for how long won work waits before it is billed, broken down by stage so the slow step can be fixed.
+Finance leaders look for ways to measure quote-to-cash cycle time, find out why invoicing is slow, or reduce the delay between sale and invoice. Operations managers want to know whether delivery or administration is the bottleneck. The underlying need is a reliable number, per deal and on average, for how long won work waits before it is billed, broken down by stage so the slow step can be fixed.
 
 ## Evidence and system mechanism
 

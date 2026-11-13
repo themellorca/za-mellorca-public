@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-092
 slug: when-service-quality-depends-on-who-picks-up-the-ticket
-title: When Service Quality Depends on Who Picks Up the Ticket
+title: When service quality depends on who picks up the ticket
 description: If customer outcomes depend heavily on which employee receives a ticket, service knowledge and workflow controls may be inconsistent.
 lead: Variation between agents can reveal a process and knowledge problem, not simply a training problem.
 category: Customer Service, Status & Self-Service
@@ -23,10 +23,12 @@ commercial_value_dimensions: Customer experience, Service capacity, Risk, Retent
 sources:
   - Welcome to Dynamics 365 Customer Service | https://learn.microsoft.com/en-us/dynamics365/customer-service/overview
   - KCS v6 Practices Guide | https://library.serviceinnovation.org/KCS/KCS_v6/KCS_v6_Practices_Guide
+  - Knowledge management - Atlassian | https://www.atlassian.com/itsm/knowledge-management
 related:
-  - Why Do Customers Have to Ask You What Is Happening? | /patterns/why-customers-have-to-ask-what-is-happening/
-  - Why Proactive Communication Can Remove Entire Support Workloads | /patterns/why-proactive-communication-can-remove-entire-support-workloads/
-  - The Hidden Cost of Repetitive Customer Questions | /patterns/the-hidden-cost-of-repetitive-customer-questions/
+  - Why do customers have to ask you what is happening? | /patterns/why-customers-have-to-ask-what-is-happening/
+  - Why proactive communication can remove entire support workloads | /patterns/why-proactive-communication-can-remove-entire-support-workloads/
+  - The hidden cost of repetitive customer questions | /patterns/the-hidden-cost-of-repetitive-customer-questions/
+  - Answering the same customer questions daily: The labour cost of hidden knowledge | /impact/support-teams-answering-same-questions-daily-undocumented-knowledge-labour-cost/
 summary: Large differences in handling between employees often point to inconsistent knowledge, routing and escalation design. Making service context and rules explicit can improve reliability without removing necessary human judgement.
 ---
 ## Observable condition
@@ -55,7 +57,7 @@ This is a **service workflow consistency and knowledge-governance problem**.
 
 ## Diagnosis
 
-Common causes include fragmented knowledge, inconsistent categorisation, unclear escalation rules, missing customer context and queue designs that distribute work without guiding resolution. Modern customer-service platforms typically combine case records, queues, knowledge and routing. Microsoft's [overview of Dynamics 365 Customer Service](https://learn.microsoft.com/en-us/dynamics365/customer-service/overview), for example, lists tracking issues as cases, recording all related interactions, sharing information through a knowledge base, routing work items and managing service-level agreements. The operating principle is that relevant context and rules should travel with the case.
+Common causes include fragmented knowledge, inconsistent categorisation, unclear escalation rules, missing customer context and queue designs that distribute work without guiding resolution. Modern customer-service platforms typically combine case records, queues, knowledge and routing. Microsoft's [overview of Dynamics 365 Customer Service](https://learn.microsoft.com/en-us/dynamics365/customer-service/overview), for example, lists tracking issues as cases, recording all related interactions, sharing information through a knowledge base, routing work items and managing service-level agreements. The operating principle is that relevant context and rules should travel with the case. Atlassian's [guidance on knowledge management](https://www.atlassian.com/itsm/knowledge-management) makes the same point: shared, tested articles help agents give the same verified solutions, and knowledge is best documented during ticket resolution while the details are fresh.
 
 Variation usually enters through one or more of these gaps:
 

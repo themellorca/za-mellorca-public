@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-083
 slug: why-recurring-billing-is-set-up-by-hand-after-a-deal-closes
 title: Why recurring billing is still set up by hand after a deal closes
-description: When contract terms are retyped into billing after a deal is won, missed start dates and escalations repeat for years. How to turn closed deals into billing schedules directly.
+description: When contract terms are retyped into billing after a deal closes, missed start dates and escalations repeat for years. Turn won deals into schedules.
 lead: When contract terms are retyped into billing after a deal is won, missed start dates and escalations repeat for years. How to turn closed deals into billing schedules directly.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-04
@@ -20,6 +20,7 @@ related:
   - Why you cannot measure the time from accepted quote to first invoice | /discovery/why-you-cannot-measure-time-from-accepted-quote-to-first-invoice/
   - Why revenue leakage only shows up at month-end reconciliation | /discovery/why-revenue-leakage-only-shows-up-at-month-end-reconciliation/
   - Why every upsell means rebuilding the customer's deal from scratch | /discovery/why-every-upsell-means-rebuilding-the-customers-deal-from-scratch/
+  - One-off implementation fees are forgotten during billing setup | /discovery/why-one-off-implementation-fees-never-reach-the-first-invoice/
 summary: When contract terms are retyped into billing after a deal is won, missed start dates and escalations repeat for years. How to turn closed deals into billing schedules directly.
 layout: plain
 ---
@@ -31,9 +32,9 @@ This article looks at that operating condition: recurring charges set up manuall
 
 Sales and finance meet at the point where a commitment becomes a billing schedule. In many businesses that handover is a document, an email or a spreadsheet row. Finance reads the terms and recreates them in the billing or accounting system: start date, frequency, amount, escalation, notice period, end date. Every recurring invoice for the life of the contract then depends on that one manual interpretation being correct and complete.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Finance managers search for ways to automate recurring invoicing, stop missed billing, or connect the CRM to the accounting system for subscriptions. Sales and operations leaders want customers billed correctly from the first month without chasing finance. The underlying need is that the commercial terms agreed at closing become the billing schedule directly, without being retyped, and that changes during the contract follow the same route.
+Finance managers look for ways to automate recurring invoicing, stop missed billing, or connect the CRM to the accounting system for subscriptions. Sales and operations leaders want customers billed correctly from the first month without chasing finance. The underlying need is that the commercial terms agreed at closing become the billing schedule directly, without being retyped, and that changes during the contract follow the same route.
 
 ## Evidence and system mechanism
 

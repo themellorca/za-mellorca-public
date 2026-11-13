@@ -3,7 +3,7 @@ hub: insights
 record_id: INS-451
 slug: why-growth-breaks-systems-that-worked-when-the-business-was-smaller
 title: Why growth breaks systems that worked when the business was smaller.
-description: Why informal processes, manual coordination and founder visibility stop scaling as businesses grow, and what to redesign before growth becomes operational friction.
+description: Why informal processes, manual coordination and founder visibility stop scaling as a business grows, and what to redesign before growth causes friction.
 lead: Growth rarely creates operational weakness from nothing. It increases volume, handoffs and exceptions until informal systems that once worked become visible constraints.
 category: Digital Operations
 published_date: 2026-08-31
@@ -20,6 +20,7 @@ side_title: Topics
 sources:
   - Shadow IT guidance | https://www.ncsc.gov.uk/guidance/shadow-it
   - Evolution and Revolution as Organizations Grow | https://hbr.org/1998/05/evolution-and-revolution-as-organizations-grow
+  - Asset management - 10 Steps to Cyber Security - NCSC | https://www.ncsc.gov.uk/collection/10-steps/asset-management
 related:
   - What management cannot see usually becomes expensive | /insights/what-management-cannot-see-usually-becomes-expensive/
   - How to find the manual work nobody is measuring | /insights/how-to-find-the-manual-work-nobody-is-measuring/
@@ -57,7 +58,7 @@ Leaders lose the ability to know what is happening by observation. They need sys
 
 ### Ownership
 
-Shared responsibility that worked in a small team becomes ambiguous. Processes need explicit owners and escalation paths.
+Shared responsibility that worked in a small team becomes ambiguous. Processes need explicit owners and escalation paths. The NCSC's [asset management guidance](https://www.ncsc.gov.uk/collection/10-steps/asset-management) applies the same idea to technology: record who is responsible for each asset and what it is used for.
 
 ### Data consistency
 

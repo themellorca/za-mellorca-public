@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-311
 slug: capacity-planning-only-after-incidents
 title: When capacity planning only happens after something has gone down
-description: Many businesses add server, database or cloud capacity only after a slowdown or outage. Why reactive capacity planning keeps repeating, and how to plan ahead using business events and real usage data.
+description: Many businesses add capacity only after a slowdown or outage. How to plan ahead using business events and real usage data instead.
 lead: Many businesses add server, database or cloud capacity only after a slowdown or outage. Why reactive capacity planning keeps repeating, and how to plan ahead using business events and real usage data.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-06
@@ -20,6 +20,7 @@ related:
   - Why servers get upsized when nobody trusts the utilisation data | /discovery/server-capacity-added-because-utilisation-data-is-not-trusted/
   - Why infrastructure changes get made without recording the business impact | /discovery/infrastructure-changes-without-recorded-business-impact/
   - Why manual changes keep bypassing your infrastructure-as-code | /discovery/manual-changes-bypass-infrastructure-as-code/
+  - Why systems slow down at the moment demand increases | /patterns/why-systems-slow-down-at-the-moment-demand-increases/
 summary: Many businesses add server, database or cloud capacity only after a slowdown or outage. Why reactive capacity planning keeps repeating, and how to plan ahead using business events and real usage data.
 layout: plain
 ---
@@ -37,9 +38,9 @@ Capacity means having enough computing power, memory, storage, network bandwidth
 - cloud limits or quotas discovered when a scale-up fails;
 - capacity added in a crisis never reviewed or reduced afterwards.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for why systems slow down at month-end, how to plan server capacity, how to prepare IT for a sales peak, or why the cloud did not scale. IT managers want fewer emergencies; finance managers want fewer unplanned upgrades. The real need is a simple, regular way to link business plans to infrastructure capacity, so that demand changes are prepared for rather than discovered.
+The questions usually sound like why systems slow down at month-end, how to plan server capacity, how to prepare IT for a sales peak, or why the cloud did not scale. IT managers want fewer emergencies; finance managers want fewer unplanned upgrades. The real need is a simple, regular way to link business plans to infrastructure capacity, so that demand changes are prepared for rather than discovered.
 
 ## Evidence and system mechanism
 

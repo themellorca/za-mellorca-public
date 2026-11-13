@@ -20,6 +20,7 @@ related:
   - Why credit checks happen after sales has already promised delivery | /discovery/why-credit-checks-happen-after-sales-has-promised-delivery/
   - Why cloud resource quotas are only discovered when a deployment fails | /discovery/cloud-resource-quotas-discovered-when-deployments-fail/
   - AI evaluations are performed only before launch | /discovery/ai-evaluations-are-performed-only-before-launch/
+  - How to design CRM stages around real work | /insights/how-to-design-crm-stages-that-match-what-your-team-actually-does/
 summary: When deals are updated once a month, the forecast is a reconstruction. How to find the cause before blaming people or replacing the CRM.
 layout: plain
 ---
@@ -33,15 +34,17 @@ The CRM is supposed to be the record of what is happening with customers and pro
 
 It is tempting to blame the people. Most salespeople are not lazy; they are rationally avoiding a task that gives them nothing back. If updating the CRM costs ten minutes per deal and the only visible result is more questions from the manager, updates will be batched and delayed.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The owner or sales director searching for this problem usually wants three things: a forecast they can trust for cash planning and hiring, early warning when a deal is slipping, and the ability to see what a salesperson has agreed with a customer if that person is away or leaves. They often assume a new CRM will deliver this. In many cases the same behaviour moves into the new system within a quarter, because the cause was never the software.
+The owner or sales director facing this problem usually wants three things: a forecast they can trust for cash planning and hiring, early warning when a deal is slipping, and the ability to see what a salesperson has agreed with a customer if that person is away or leaves. They often assume a new CRM will deliver this. In many cases the same behaviour moves into the new system within a quarter, because the cause was never the software.
 
 ## Evidence and system mechanism
 
 ### A forecast is only as good as the freshness of its inputs
 
-Microsoft's guidance on [configuring forecasts in Dynamics 365 Sales](https://learn.microsoft.com/en-us/dynamics365/sales/configure-forecast) describes forecasting as a way to see revenue projections built from the open sales opportunities, spot risks early and let managers act before a quarter is lost. Its own example is a team tracking 15% below target mid-quarter, where managers can coach on gaps or accelerate deals. That only works if the opportunity data is current in the middle of the quarter, not just on the eve of the meeting. The same page also warns that forecasting is meant to help managers improve team performance and is not intended for decisions about an individual employee's pay or employment, a useful reminder that using CRM data punitively will make the update problem worse.
+Microsoft's guidance on [configuring forecasts in Dynamics 365 Sales](https://learn.microsoft.com/en-us/dynamics365/sales/configure-forecast) describes forecasting as a way to see revenue projections built from the open sales opportunities, spot risks early and let managers act before a quarter is lost. Its own example is a team tracking 15% below target mid-quarter, where managers can coach on gaps or accelerate deals.
+
+That only works if the opportunity data is current in the middle of the quarter, not just on the eve of the meeting. The same page also warns that forecasting is meant to help managers improve team performance and is not intended for decisions about an individual employee's pay or employment, a useful reminder that using CRM data punitively will make the update problem worse.
 
 ### Forecasts depend on history and demand signals
 

@@ -22,7 +22,7 @@ sources:
   - Designing good questions | https://www.gov.uk/service-manual/design/designing-good-questions
   - Principle (c): Data minimisation | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/
 related:
-  - How to Design a Customer Onboarding Workflow That Scales | /insights/how-to-design-a-customer-onboarding-workflow-that-scales/
+  - How to design a customer onboarding workflow that scales | /insights/how-to-design-a-customer-onboarding-workflow-that-scales/
   - Why growth breaks systems that worked when the business was smaller | /insights/why-growth-breaks-systems-that-worked-when-the-business-was-smaller/
   - Why shared inboxes become operational bottlenecks | /insights/why-shared-inboxes-become-operational-bottlenecks/
 ---

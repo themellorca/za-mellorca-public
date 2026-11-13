@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-051
 slug: why-management-finds-out-too-late
-title: Why Does Management Find Out Too Late?
-description: When management learns about operational problems after customers, deadlines or month-end expose them, the issue may be a visibility and event-flow problem rather than a reporting shortage.
+title: Why does management find out too late?
+description: When management hears about problems only after customers, deadlines or month-end expose them, the issue is visibility and event flow, not too few reports.
 lead: When management learns about operational problems after customers, deadlines or month-end expose them, the issue may be a visibility and event-flow problem rather than a reporting shortage.
 category: Reporting & Operational Visibility
 published_date: 2026-09-02
@@ -30,6 +30,7 @@ related:
   - Why Your Reports Cannot Agree on the Same Number | /insights/why-your-reports-cannot-agree-on-the-same-number/
   - Before You Automate, Understand How the Work Actually Moves | /insights/before-you-automate-understand-how-the-work-actually-moves/
   - The Financial Impact of Silent Automation Failures | /impact/silent-automation-failures-financial-impact/
+  - Why operational visibility becomes more important as you scale | /patterns/why-a-growing-business-loses-sight-of-itself-and-how-to-restore-it/
 related_position: before_sources
 summary: Late management awareness is often a sign that operational events are not becoming trusted decision signals quickly enough. That can constrain response speed, increase risk and consume management capacity. If this condition is familiar in your business, explore Mellorca's solutions or start a conversation with us. We can examine where visibility breaks down and what would make important work states visible sooner.
 ---

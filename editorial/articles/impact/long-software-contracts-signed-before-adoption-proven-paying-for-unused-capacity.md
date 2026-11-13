@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-068
 slug: long-software-contracts-signed-before-adoption-proven-paying-for-unused-capacity
-title: Long Software Contracts Signed Before Adoption Is Proven
+title: Long software contracts signed before adoption is proven
 description: A multi-year discount is only a saving if the business uses what it committed to, and committing before adoption is proven turns the discount into a risk.
 lead: A multi-year discount is only a saving if the business uses what it committed to, and committing before adoption is proven turns the discount into a risk.
 category: Digital Operations
@@ -17,9 +17,9 @@ sources:
   - FinOps Foundation - What is FinOps? | https://www.finops.org/introduction/what-is-finops/
   - Consumer Protection Act 68 of 2008 - South African Government | https://www.gov.za/documents/consumer-protection-act
 related:
-  - Paying Consultants to Keep Unnecessary Software Complexity Running | /impact/paying-consultants-to-maintain-unnecessary-software-complexity-recurring-cost/
-  - Software Bought Before the Process Was Defined: What Failed Implementations Cost | /impact/technology-bought-before-process-defined-failed-implementation-wasted-licences/
-  - Stitching Spreadsheets Together: The Labour and Delay Behind Management Reports | /impact/manually-combining-spreadsheets-before-management-sees-performance-labour-delay-cost/
+  - Paying consultants to keep unnecessary software complexity running | /impact/paying-consultants-to-maintain-unnecessary-software-complexity-recurring-cost/
+  - Software bought before the process was defined: What failed implementations cost | /impact/technology-bought-before-process-defined-failed-implementation-wasted-licences/
+  - Stitching spreadsheets together: The labour and delay behind management reports | /impact/manually-combining-spreadsheets-before-management-sees-performance-labour-delay-cost/
 summary: A multi-year discount is only a saving if the business uses what it committed to, and committing before adoption is proven turns the discount into a risk.
 layout: plain
 ---
@@ -82,7 +82,9 @@ The time to act is before signature, and then again about 90 days before every r
 
 ## What better looks like
 
-A business that buys well treats a commitment as an investment that has to earn its place. It starts with a pilot or a monthly term for a defined group of users, with agreed adoption measures: the share of users active weekly, tasks completed in the tool, processes retired elsewhere. It commits to the long term only once those measures are met, and sizes the commitment to the proven level of use, not the hoped-for one. It negotiates flexibility: the right to reduce seats at renewal, a ramped schedule, co-termination of add-ons, and clear export rights. Someone owns the contract and its review dates. The Mellorca guidance on [how to buy business software without letting the demo make the decision](/insights/how-to-buy-business-software-without-letting-the-demo-make-the-decision/) covers the evaluation stage.
+A business that buys well treats a commitment as an investment that has to earn its place. It starts with a pilot or a monthly term for a defined group of users, with agreed adoption measures: the share of users active weekly, tasks completed in the tool, processes retired elsewhere.
+
+It commits to the long term only once those measures are met, and sizes the commitment to the proven level of use, not the hoped-for one. It negotiates flexibility: the right to reduce seats at renewal, a ramped schedule, co-termination of add-ons, and clear export rights. Someone owns the contract and its review dates. The Mellorca guidance on [how to buy business software without letting the demo make the decision](/insights/how-to-buy-business-software-without-letting-the-demo-make-the-decision/) covers the evaluation stage.
 
 ## Practical steps
 

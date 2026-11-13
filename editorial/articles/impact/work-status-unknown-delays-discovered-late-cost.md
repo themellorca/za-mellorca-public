@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-402
 slug: work-status-unknown-delays-discovered-late-cost
-title: "On Track" Until It Isn't: The Cost of Discovering Delays Too Late
-description: When managers learn the real status of important work only through meetings and chasing, delays surface after the cheap options to fix them have gone. Visible work states and early blockers change that.
+title: "On track" until it isn't: The cost of discovering delays too late
+description: When managers learn the real status of important work only through meetings and chasing, delays surface after the cheap fixes are gone. Make work visible.
 lead: When managers learn the real status of important work only through meetings and chasing, delays surface after the cheap options to fix them have gone. Visible work states and early blockers change that.
 category: Digital Operations
 published_date: 2026-10-07
@@ -17,9 +17,10 @@ sources:
   - The Official Guide to The Kanban Method - Kanban University | https://kanban.university/kanban-guide/
   - What is the cumulative flow diagram? - Jira Cloud - Atlassian Support | https://support.atlassian.com/jira-software-cloud/docs/what-is-the-cumulative-flow-diagram/
 related:
-  - "I Thought You Were Doing It": The Labour Cost of Unclear Responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
-  - When Your Experts Become the Help Desk: The Cost of Routine Requests | /impact/specialists-pulled-into-routine-requests-expertise-cost/
-  - Waiting Weeks for Management Reports: What Late Visibility Costs the Business | /impact/waiting-weeks-for-management-reports-late-visibility-cost/
+  - "I thought you were doing it": The labour cost of unclear responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
+  - When your experts become the help desk: The cost of routine requests | /impact/specialists-pulled-into-routine-requests-expertise-cost/
+  - Waiting weeks for management reports: What late visibility costs the business | /impact/waiting-weeks-for-management-reports-late-visibility-cost/
+  - Deadlines slip when dependencies are hidden: What avoidable delay costs | /impact/project-deadlines-slipping-hidden-dependencies-avoidable-delay-cost/
 summary: When managers learn the real status of important work only through meetings and chasing, delays surface after the cheap options to fix them have gone. Visible work states and early blockers change that.
 layout: plain
 ---

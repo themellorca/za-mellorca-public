@@ -18,12 +18,14 @@ side_title: Topics
 sources:
   - Event-Driven Architecture Style - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven
   - What Is Data Integration? - IBM | https://www.ibm.com/think/topics/data-integration
+  - Messaging - Enterprise Integration Patterns | https://www.enterpriseintegrationpatterns.com/patterns/messaging/Messaging.html
 closing_title: Improve the operating system, not just the connection
 closing_text: [Explore our solutions](/solutions/) or [start a conversation](/contact/).
 related:
   - How to decide which system owns which data | /insights/how-to-decide-which-system-owns-which-data/
   - What to document before connecting two business platforms | /insights/what-to-document-before-connecting-two-business-platforms/
   - Why AI makes data quality more important, not less | /insights/why-ai-makes-data-quality-more-important-not-less/
+  - What should a COO understand about systems architecture? | /insights/what-a-coo-needs-to-know-about-systems-architecture/
 ---
 A business can own capable applications and still operate badly between them. The CRM may know that a deal closed, finance may wait for somebody to re-enter the customer, operations may receive a spreadsheet, and service may not know the customer exists until the first request arrives.
 
@@ -70,7 +72,7 @@ Microsoft's architecture guidance on [event-driven architecture](https://learn.m
 - **Event-driven integration.** Systems publish business events, such as "order confirmed", that other systems can act on. Microsoft's guidance lists benefits such as decoupling producers from consumers and avoiding point-to-point integrations, but also challenges: eventual consistency, error handling, data loss if events are not persisted, and harder observability across decoupled components.
 - **An integration platform.** Central tooling that hosts and monitors connections. It can bring consistency, but adds another system to own and pay for.
 
-Microsoft's guidance also cautions that event-driven architecture may not suit simple request-response workflows or teams without experience operating distributed asynchronous systems. More sophistication is not automatically better.
+Microsoft's guidance also cautions that event-driven architecture may not suit simple request-response workflows or teams without experience operating distributed asynchronous systems. More sophistication is not automatically better. The Enterprise Integration Patterns catalogue describes [messaging](https://www.enterpriseintegrationpatterns.com/patterns/messaging/Messaging.html) as a way to exchange data frequently, immediately, reliably and asynchronously, with the sender and receiver not needing to be running at the same time.
 
 ## A practical diagnostic
 

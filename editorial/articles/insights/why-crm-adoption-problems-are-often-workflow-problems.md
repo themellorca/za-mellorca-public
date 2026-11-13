@@ -23,14 +23,14 @@ sources:
   - Train users and increase adoption overview - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/administer-to-operate-train-users-increase-adoption-overview
 related:
   - Before you automate, understand how the work actually moves | /insights/before-you-automate-understand-how-the-work-actually-moves/
-  - How to Implement a New Business System Without Disrupting Operations | /insights/how-to-implement-a-new-business-system-without-disrupting-operations/
-  - Why Your Team Keeps Chasing Information | /insights/why-your-team-keeps-chasing-information/
+  - How to implement a new business system without disrupting operations | /insights/how-to-implement-a-new-business-system-without-disrupting-operations/
+  - Why your team keeps chasing information | /insights/why-your-team-keeps-chasing-information/
 ---
 A CRM can be technically available, fully licensed and extensively trained while still becoming an expensive address book. Users keep private spreadsheets, important updates live in email, managers chase pipeline information manually, and administrators respond by adding more mandatory fields.
 
 That behaviour is often labelled an adoption problem. It can be. But adoption is also a design signal. If the CRM asks for data that does not help the user complete work, if stages do not match real decisions, or if handoffs to operations happen outside the system, avoiding the CRM may be rational from the user's point of view.
 
-Microsoft's current Dynamics 365 implementation guidance puts business processes at the centre of solution design. It recommends defining end-to-end processes first and using them to guide scope, design, configuration, testing, training and ongoing operation. It also stresses using the organisation's own business language — the terms people already use to describe their work — so that requirements stay clear and misunderstandings are avoided.
+Microsoft's current [Dynamics 365 implementation guidance](https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution) puts business processes at the centre of solution design. It recommends defining end-to-end processes first and using them to guide [scope, design, configuration, testing, training and ongoing operation](https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution-implementation-lifecycle). It also stresses using the organisation's own business language — the terms people already use to describe their work — so that requirements stay clear and misunderstandings are avoided.
 
 > People adopt a business system more readily when the system helps them perform the business process they are already accountable for.
 
@@ -60,7 +60,7 @@ Instead, tie each required field to a decision or downstream dependency. Ask who
 
 Adoption improves when the system removes work. A well-designed CRM can prefill information, trigger tasks, route ownership, surface context, reduce duplicate entry and make the next action obvious. A poorly designed CRM adds administrative labour after the “real work” has already happened somewhere else.
 
-Training still matters. Microsoft's adoption guidance explicitly treats training, change management and adoption as ongoing processes rather than one-off go-live events, and describes adoption as the link between technology implementation and business outcomes. But training cannot permanently compensate for a workflow that is badly represented in the system.
+Training still matters. [Microsoft's adoption guidance](https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/administer-to-operate-train-users-increase-adoption-overview) explicitly treats training, change management and adoption as ongoing processes rather than one-off go-live events, and describes adoption as the link between technology implementation and business outcomes. But training cannot permanently compensate for a workflow that is badly represented in the system.
 
 ## Warning signs
 

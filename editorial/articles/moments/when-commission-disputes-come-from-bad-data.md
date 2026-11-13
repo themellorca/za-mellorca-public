@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000383
 slug: when-commission-disputes-come-from-bad-data
-title: When Commission Disputes Come From Bad Data
-description: Many commission disputes are not about the formula but about wrong inputs. Why the data fails, what it does to trust and pay, and how to make the figure traceable.
+title: When commission disputes come from bad data
+description: Many commission disputes are about wrong inputs, not the formula. Why the data fails, what that does to trust and pay, and how to make figures traceable.
 lead: Many commission disputes are not about the formula but about wrong inputs. Why the data fails, what it does to trust and pay, and how to make the figure traceable.
 category: Trust and Fairness
 published_date: 2026-10-09
@@ -20,9 +20,9 @@ sources:
   - Garbage in, garbage out - Wikipedia | https://en.wikipedia.org/wiki/Garbage_in,_garbage_out
   - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
 related:
-  - Why Rest Days Start With a Status Check | /moments/why-rest-days-start-with-a-status-check/
-  - The Employee Who Needs Permission for Every Small Fix | /moments/the-employee-who-needs-permission-for-every-small-fix/
-  - The Founder Who Wants to Step Back but Can't | /moments/the-founder-who-wants-to-step-back-but-cant/
+  - Why rest days start with a status check | /moments/why-rest-days-start-with-a-status-check/
+  - The employee who needs permission for every small fix | /moments/the-employee-who-needs-permission-for-every-small-fix/
+  - The founder who wants to step back but can't | /moments/the-founder-who-wants-to-step-back-but-cant/
 summary: Many commission disputes are not about the formula but about wrong inputs. Why the data fails, what it does to trust and pay, and how to make the figure traceable.
 layout: plain
 ---
@@ -49,9 +49,9 @@ No South African study of commission disputes is cited here, and no error rate i
 
 Reference material on sales commission describes it as a form of payment linked to sales activity, typically a percentage of the value of a sale, and notes that the design of the scheme shapes behaviour. When pay depends on figures, the integrity of the figures becomes inseparable from the fairness of the pay.
 
-General references on data quality describe it as the fitness of data for its intended use, assessed along dimensions such as accuracy, completeness, consistency and timeliness. A commission run needs all four, and it fails visibly when any is missing. The older principle often summed up as "garbage in, garbage out" makes the same point: a flawless calculation applied to flawed inputs still produces a flawed result.
+General references on data quality describe it as the fitness of data for its intended use, assessed along dimensions such as accuracy, completeness, consistency and timeliness. A commission run needs all four, and it fails visibly when any is missing. The older principle often summed up as "garbage in, [garbage out](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out)" makes the same point: a flawless calculation applied to flawed inputs still produces a flawed result.
 
-In South Africa, the Basic Conditions of Employment Act sets rules on how remuneration is paid and on what an employer may deduct from it. Recovering an overpayment, for example, is not simply a matter of reducing next month's payslip. That adds a legal reason to get the data right the first time, and it is a reason to take advice from an employment specialist when a correction is needed.
+In South Africa, the [Basic Conditions of Employment Act](https://www.gov.za/documents/basic-conditions-employment-act) sets rules on how remuneration is paid and on what an employer may deduct from it. Recovering an overpayment, for example, is not simply a matter of reducing next month's payslip. That adds a legal reason to get the data right the first time, and it is a reason to take advice from an employment specialist when a correction is needed.
 
 ## An illustrative case
 

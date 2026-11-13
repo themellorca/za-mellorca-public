@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-037
 slug: print-sign-scan-email-paper-approvals-turnaround-cost
-title: Print, Sign, Scan, Email: The Labour and Turnaround Cost of Paper-Based Approvals
-description: Printing documents to sign them, then scanning and emailing them back, costs paid time and days of turnaround on contracts, approvals and forms that could be signed electronically.
+title: Print, sign, scan, email: The labour and turnaround cost of paper-based approvals
+description: Printing documents to sign, then scanning and emailing them back, costs paid time and days of turnaround on contracts and forms that could be e-signed.
 lead: Printing documents to sign them, then scanning and emailing them back, costs paid time and days of turnaround on contracts, approvals and forms that could be signed electronically.
 category: Business Automation
 published_date: 2026-10-05
@@ -18,9 +18,9 @@ sources:
   - Overview of eSignature | https://learn.microsoft.com/en-us/microsoft-365/documentprocessing/esignature-overview
   - Create a signature request from a PDF in eSignature | https://learn.microsoft.com/en-us/microsoft-365/documentprocessing/esignature-send-requests
 related:
-  - Creating the Same Documents by Hand: The Labour Cost of Repeat Paperwork | /impact/same-documents-created-by-hand-repeat-paperwork-cost/
-  - Approving Every Small Transaction: The Management Cost of Unnecessary Sign-Offs | /impact/approving-low-risk-transactions-one-by-one-management-cost/
-  - From Inbox to System by Hand: The Labour Cost of Retyping Emails | /impact/copying-email-details-into-business-systems-admin-cost/
+  - Creating the same documents by hand: The labour cost of repeat paperwork | /impact/same-documents-created-by-hand-repeat-paperwork-cost/
+  - Approving every small transaction: The management cost of unnecessary sign-offs | /impact/approving-low-risk-transactions-one-by-one-management-cost/
+  - From inbox to system by hand: The labour cost of retyping emails | /impact/copying-email-details-into-business-systems-admin-cost/
 summary: Printing documents to sign them, then scanning and emailing them back, costs paid time and days of turnaround on contracts, approvals and forms that could be signed electronically.
 layout: plain
 ---
@@ -76,7 +76,7 @@ The elapsed days matter as much as the labour. If customer contracts take three 
 
 ## What South African law says
 
-The Electronic Communications and Transactions Act 25 of 2002 (ECTA) is the starting point. Section 13 states that an electronic signature is not without legal force and effect merely because it is in electronic form. Where the parties to an electronic transaction require a signature but have not agreed on the type, the requirement is met if a method is used to identify the person and indicate their approval, and the method is as reliable as appropriate for the purpose. Where a law itself requires a signature without specifying the type, section 13 requires an advanced electronic signature, a more rigorous category defined in the Act.
+The [Electronic Communications and Transactions Act](https://www.acts.co.za/electronic-communications-and-transactions-act-2002/13__signature) 25 of 2002 (ECTA) is the starting point. Section 13 states that an electronic signature is not without legal force and effect merely because it is in electronic form. Where the parties to an electronic transaction require a signature but have not agreed on the type, the requirement is met if a method is used to identify the person and indicate their approval, and the method is as reliable as appropriate for the purpose. Where a law itself requires a signature without specifying the type, section 13 requires an advanced electronic signature, a more rigorous category defined in the Act.
 
 The Act also excludes certain transactions from these provisions. Its schedule lists, among others, agreements for the alienation of immovable property and long-term leases of immovable property for more than 20 years under the Alienation of Land Act, the execution, retention and presentation of wills or codicils, and the execution of bills of exchange. For the everyday commercial agreements, HR documents and internal approvals that make up most signing volume, electronic signatures are widely usable, but businesses should confirm specific document types with their legal adviser.
 
@@ -92,7 +92,9 @@ The Act also excludes certain transactions from these provisions. Its schedule l
 
 Documents should be signed where they are stored, by the right people in the right order, with an audit trail and the signed copy filed automatically.
 
-Microsoft's documentation for eSignature in Microsoft 365, for example, describes sending documents stored in SharePoint for signature to people inside and outside the organisation, with a digital audit trail and signing activities logged in the Purview audit log. Its guidance on creating requests notes that up to 10 recipients can be added, that a signing order can be enforced, and that signature, initials and date fields are placed on the document. The service uses simple electronic signatures, requires pay-as-you-go billing to be set up, and integrates with Adobe Acrobat Sign and Docusign, which save signed copies back to SharePoint. These details illustrate the questions to ask of any provider: what type of signature it produces, how the audit trail works, where signed copies are stored and how it is billed.
+Microsoft's documentation for eSignature in Microsoft 365, for example, describes sending documents stored in SharePoint for signature to people inside and outside the organisation, with a digital audit trail and signing activities logged in the Purview audit log. Its guidance on creating requests notes that up to 10 recipients can be added, that a signing order can be enforced, and that signature, initials and date fields are placed on the document.
+
+The service uses simple electronic signatures, requires pay-as-you-go billing to be set up, and integrates with Adobe Acrobat Sign and Docusign, which save signed copies back to SharePoint. These details illustrate the questions to ask of any provider: what type of signature it produces, how the audit trail works, where signed copies are stored and how it is billed.
 
 Signing is often the final step of an approval. Mellorca's article on [why approval processes become bottlenecks](/insights/why-approval-processes-become-bottlenecks/) covers how to design the approval itself.
 

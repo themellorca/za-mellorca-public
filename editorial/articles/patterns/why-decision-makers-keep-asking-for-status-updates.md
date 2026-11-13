@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-058
 slug: why-decision-makers-keep-asking-for-status-updates
-title: Why Decision-Makers Keep Asking for Status Updates
-description: Repeated status questions show which information the business fails to capture as work happens. Here is how to read those questions as a specification and make status a by-product of the work.
+title: Why decision-makers keep asking for status updates
+description: Repeated status questions show which information the business fails to capture as work happens. Treat them as a specification and make status a by-product.
 lead: Repeated status questions show which information the business fails to capture as work happens. Here is how to read those questions as a specification and make status a by-product of the work.
 category: Reporting & Operational Visibility
 published_date: 2026-10-06
@@ -18,9 +18,9 @@ sources:
   - Set data alerts in the Power BI service - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
   - How to set performance metrics for your service | https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service
 related:
-  - Why Teams Spend More Time Preparing Reports Than Using Them | /patterns/why-teams-spend-more-time-preparing-reports-than-using-them/
-  - Why Reporting Delays Become Decision Delays | /patterns/why-reporting-delays-become-decision-delays/
-  - When Your Dashboard Is Really a Manually Updated Spreadsheet | /patterns/when-your-dashboard-is-really-a-manually-updated-spreadsheet/
+  - Why teams spend more time preparing reports than using them | /patterns/why-teams-spend-more-time-preparing-reports-than-using-them/
+  - Why reporting delays become decision delays | /patterns/why-reporting-delays-become-decision-delays/
+  - When your dashboard is really a manually updated spreadsheet | /patterns/when-your-dashboard-is-really-a-manually-updated-spreadsheet/
 summary: Repeated status questions show which information the business fails to capture as work happens. Here is how to read those questions as a specification and make status a by-product of the work.
 layout: plain
 ---
@@ -76,7 +76,7 @@ The second misreading is that the team needs to send better updates. Weekly stat
 
 In a better state, the key stages of each workflow are defined, and moving from one stage to the next is recorded as part of doing the work: sending the quote from the system marks it as sent, confirming the delivery marks it as booked. Decision-makers can see the current stage of anything they care about, and they are notified when something important changes or stalls.
 
-Tools many businesses already use support this. Microsoft Power BI, for example, can send alerts when a figure on a dashboard crosses a threshold, though such alerts only work on data that is actually refreshed. The UK Government's service manual recommends using dashboards for decision-making and alerts for significant changes, alongside a small set of core measures. The principle is the same at any scale: show the state, and signal the exceptions.
+Tools many businesses already use support this. Microsoft [Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts), for example, can send alerts when a figure on a dashboard crosses a threshold, though such alerts only work on data that is actually refreshed. The UK Government's service manual recommends using dashboards for decision-making and alerts for significant changes, alongside a small set of core measures. The principle is the same at any scale: show the state, and signal the exceptions.
 
 ## Intervention
 

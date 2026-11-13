@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000066
 slug: the-owner-who-can-finally-say-no-to-work
-title: The Owner Who Can Finally Say No to Work
+title: The owner who can finally say no to work
 description: Owners often accept every job because they cannot see what saying yes costs. Knowing your real capacity and margins makes declining a choice instead of a fear.
 lead: Owners often accept every job because they cannot see what saying yes costs. Knowing your real capacity and margins makes declining a choice instead of a fear.
 category: Human Agency
@@ -20,9 +20,10 @@ sources:
   - Cost accounting - Wikipedia | https://en.wikipedia.org/wiki/Cost_accounting
   - Small Businesses - Taxpayers - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/
 related:
-  - The Freedom That Comes From Knowing Where Things Stand | /moments/the-freedom-that-comes-from-knowing-where-things-stand/
-  - The Difference Between Being Informed and Being in Control | /moments/the-difference-between-being-informed-and-being-in-control/
-  - What Changes When People Can See Their Own Numbers | /moments/what-changes-when-people-can-see-their-own-numbers/
+  - The freedom that comes from knowing where things stand | /moments/the-freedom-that-comes-from-knowing-where-things-stand/
+  - The difference between being informed and being in control | /moments/the-difference-between-being-informed-and-being-in-control/
+  - What changes when people can see their own numbers | /moments/what-changes-when-people-can-see-their-own-numbers/
+  - When one big client holds the business hostage | /moments/when-one-big-client-holds-the-business-hostage/
 summary: Owners often accept every job because they cannot see what saying yes costs. Knowing your real capacity and margins makes declining a choice instead of a fear.
 layout: plain
 ---
@@ -41,11 +42,11 @@ The reasons are understandable, and most have little to do with greed.
 
 ## What saying yes really costs
 
-Economists use the term opportunity cost for the value of the best alternative given up when a choice is made. For an owner, the alternatives are concrete: the job not taken because the diary is full, the hour not spent with family, the improvement to the business that never gets done. Because no one writes these down, they feel free. They are not.
+Economists use the term [opportunity cost](https://en.wikipedia.org/wiki/Opportunity_cost) for the value of the best alternative given up when a choice is made. For an owner, the alternatives are concrete: the job not taken because the diary is full, the hour not spent with family, the improvement to the business that never gets done. Because no one writes these down, they feel free. They are not.
 
 A related idea is capacity utilisation, the extent to which available capacity is used. Running near the limit can look efficient, but it leaves no room for the unexpected, and in a service business the unexpected is a normal feature of the week. A person at ninety-five percent has no space to absorb an illness, a delayed supplier or an urgent customer without something else slipping.
 
-Cost accounting offers the third piece. It is the practice of recording and analysing what it costs to produce goods or services, so that decisions about price and volume can rest on figures. Many small businesses know their turnover but not the margin on each kind of job, so they cannot tell which work to prefer. The article on [why knowing your margins changes what you can choose](/moments/why-knowing-your-margins-changes-what-you-can-choose/) goes further into this side. These three ideas are general; none of the sources says what any particular South African business will find, and the point is that an owner can measure their own.
+[Cost accounting](https://en.wikipedia.org/wiki/Cost_accounting) offers the third piece. It is the practice of recording and analysing what it costs to produce goods or services, so that decisions about price and volume can rest on figures. Many small businesses know their turnover but not the margin on each kind of job, so they cannot tell which work to prefer. The article on [why knowing your margins changes what you can choose](/moments/why-knowing-your-margins-changes-what-you-can-choose/) goes further into this side. These three ideas are general; none of the sources says what any particular South African business will find, and the point is that an owner can measure their own.
 
 ## An illustrative case
 

@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-269
 slug: reports-cannot-tell-data-delay-from-business-decline
 title: When a drop in the numbers is late data, not a business problem
-description: Management reports often cannot show whether a fall in sales or output is real or just data that has not arrived yet. How to build freshness and completeness signals into the figures leaders act on.
+description: Management reports often cannot show whether a fall in sales is real or data that has not arrived. How to build freshness and completeness signals in.
 lead: Management reports often cannot show whether a fall in sales or output is real or just data that has not arrived yet. How to build freshness and completeness signals into the figures leaders act on.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-05
@@ -33,9 +33,9 @@ A report shows a number. It rarely shows whether that number is complete. When a
 
 The reverse also happens. When a dip is real, managers who have been burned before assume it is a data problem and ignore it. Either way, the report has lost its main purpose: telling leaders what is actually happening.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Finance and operations leads search for how to show data freshness on dashboards, how to detect incomplete data in reports, or why figures change after the meeting. Executives want to know, before acting, whether a movement is real. The practical need is a report that states clearly, for each figure, how current and how complete its data is, so that a missing feed looks different from a bad week.
+Finance and operations leads ask how to show data freshness on dashboards, how to detect incomplete data in reports, and why figures change after the meeting. Executives want to know, before acting, whether a movement is real. The practical need is a report that states clearly, for each figure, how current and how complete its data is, so that a missing feed looks different from a bad week.
 
 ## Evidence and system mechanism
 

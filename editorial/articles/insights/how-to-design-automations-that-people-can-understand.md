@@ -3,7 +3,7 @@ hub: insights
 record_id: INS-157
 slug: how-to-design-automations-that-people-can-understand
 title: How to design automations that people can understand.
-description: Why maintainable automation needs understandable structure, explicit ownership, clear failure handling and documentation that survives staff and platform changes.
+description: Why maintainable automation needs clear structure, named ownership, explicit failure handling and documentation that survives staff and platform changes.
 lead: An automation is not maintainable simply because it runs. Someone other than the original builder must be able to understand what it does, why it exists, how it fails and how to change it safely.
 category: Business Automation
 published_date: 2026-09-02

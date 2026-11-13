@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-055
 slug: unknown-software-subscriptions-invisible-recurring-cost
-title: How Many Software Subscriptions Do You Pay For? The Cost of Not Knowing
+title: How many software subscriptions do you pay for? The cost of not knowing
 description: Scattered, auto-renewing software subscriptions create a recurring cost line no one owns. How to find the real figure and bring it under control.
 lead: Scattered, auto-renewing software subscriptions create a recurring cost line no one owns. How to find the real figure and bring it under control.
 category: Software Spend
@@ -17,9 +17,10 @@ sources:
   - Manage recurring billing in the Microsoft 365 admin center | https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/renew-your-subscription
   - Cloud app discovery overview - Microsoft Defender for Cloud Apps | https://learn.microsoft.com/en-us/defender-cloud-apps/set-up-cloud-discovery
 related:
-  - AI Tool Sprawl: Paying for Overlapping AI Subscriptions Without Measuring Value | /impact/ai-subscription-sprawl-unmeasured-value-cost/
-  - When Nobody Owns the Business Software You Pay For | /impact/pain-unclear-ownership-technology-spending/
-  - Paying for Cloud Resources Nobody Uses | /impact/unused-cloud-resources-financial-waste/
+  - AI tool sprawl: Paying for overlapping AI subscriptions without measuring value | /impact/ai-subscription-sprawl-unmeasured-value-cost/
+  - When nobody owns the business software you pay for | /impact/pain-unclear-ownership-technology-spending/
+  - Paying for cloud resources nobody uses | /impact/unused-cloud-resources-financial-waste/
+  - Expense-card software purchases bypass central visibility | /discovery/why-software-bought-on-company-cards-never-reaches-the-application-register/
 summary: Scattered, auto-renewing software subscriptions create a recurring cost line no one owns. How to find the real figure and bring it under control.
 layout: plain
 ---
@@ -49,7 +50,7 @@ The lack of a list causes problems well beyond the cost line:
 - **Weak negotiating position.** The business cannot consolidate spend with a supplier it does not know it has.
 - **Slow month-end.** Finance spends time identifying unfamiliar card transactions and chasing staff for receipts and explanations.
 
-The security consequence is significant. The Center for Internet Security places inventory and control of software assets among its foundational controls. Its rationale is straightforward: an organisation that does not know what software is in use cannot identify unauthorised or outdated applications, and so cannot manage the risk they create. A subscription nobody knows about is also an account nobody secures, reviews or removes when staff leave.
+The security consequence is significant. The Center for Internet Security places [inventory and control of software assets](https://www.cisecurity.org/controls/inventory-and-control-of-software-assets) among its foundational controls. Its rationale is straightforward: an organisation that does not know what software is in use cannot identify unauthorised or outdated applications, and so cannot manage the risk they create. A subscription nobody knows about is also an account nobody secures, reviews or removes when staff leave.
 
 ## How the pain becomes money
 

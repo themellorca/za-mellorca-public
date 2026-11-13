@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-201
 slug: slow-computers-paid-waiting-cost
-title: Slow Computers Turn Small Delays into Paid Waiting
-description: A computer can still turn on while making routine work unnecessarily expensive. The useful question is how much working time its delays actually prevent the employee from using.
+title: Slow computers turn small delays into paid waiting
+description: A computer that still turns on can make routine work needlessly expensive. The useful question is how much working time its delays take from the employee.
 lead: A computer can still turn on while making routine work unnecessarily expensive. The useful question is how much working time its delays actually prevent the employee from using.
 category: Digital Infrastructure
 published_date: 2026-09-06
@@ -23,10 +23,11 @@ evidence_basis: original qualitative analysis and transparent input-based cost m
 sources:
   - Startup Performance Report in Endpoint Analytics - Microsoft Intune | https://learn.microsoft.com/en-us/intune/endpoint-analytics/startup-performance
   - Endpoint analytics overview - Microsoft Intune | https://learn.microsoft.com/en-us/intune/endpoint-analytics/
+  - Scores, baselines, and insights in endpoint analytics - Microsoft Intune | https://learn.microsoft.com/en-us/intune/endpoint-analytics/scores
 related:
-  - New Employees Without Equipment Create Paid Onboarding Delay | /impact/new-employees-without-equipment-onboarding-cost/
-  - Old Computers Kept Too Long: The False Saving on Hardware | /impact/ageing-computers-false-hardware-savings-cost/
-  - Paying for Server Capacity the Business Does Not Use | /impact/overprovisioned-server-capacity-cost/
+  - New employees without equipment create paid onboarding delay | /impact/new-employees-without-equipment-onboarding-cost/
+  - Old computers kept too long: The false saving on hardware | /impact/ageing-computers-false-hardware-savings-cost/
+  - Paying for server capacity the business does not use | /impact/overprovisioned-server-capacity-cost/
 ---
 ## The tolerated pain
 
@@ -48,9 +49,9 @@ Warning signs worth recording:
 
 ## Measure before guessing
 
-Managed estates can produce evidence rather than anecdotes. Microsoft's endpoint analytics in Intune, for example, reports startup performance as a boot score (power-on to sign-in) and a sign-in score (credential entry to a responsive desktop), each from 0 to 100. Its documentation notes that hard disk drives typically result in boot times three to four times longer than solid-state drives, flags Group Policy delays and startup processes that keep the desktop unresponsive, compares performance by device model and tracks restart frequency, including Stop errors. It also states that, apart from roughly monthly update restarts, restarts without an update should ideally be close to zero.
+Managed estates can produce evidence rather than anecdotes. Microsoft's endpoint analytics in Intune, for example, reports [startup performance](https://learn.microsoft.com/en-us/intune/endpoint-analytics/startup-performance) as a boot score (power-on to sign-in) and a sign-in score (credential entry to a responsive desktop), each from 0 to 100. Its documentation notes that hard disk drives typically result in boot times three to four times longer than solid-state drives, flags Group Policy delays and startup processes that keep the desktop unresponsive, compares performance by device model and tracks restart frequency, including Stop errors. It also states that, apart from roughly monthly update restarts, restarts without an update should ideally be close to zero.
 
-That kind of telemetry separates a hardware constraint from a configuration problem. A device with a hard disk and a device slowed by a startup process need different fixes, and only one of them requires buying anything.
+That kind of telemetry separates a hardware constraint from a configuration problem. A device with a hard disk and a device slowed by a startup process need different fixes, and only one of them requires buying anything. The same documentation explains that [startup scores can be compared with a median baseline](https://learn.microsoft.com/en-us/intune/endpoint-analytics/scores) and that lower sub-scores point to specific causes, such as long-running startup processes.
 
 ## Financial consequence
 

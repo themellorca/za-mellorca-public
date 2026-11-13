@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000173
 slug: when-a-weak-signal-decides-who-gets-flexible-work
-title: When Rural Connectivity Decides Who Can Work Remotely
+title: When rural connectivity decides who can work remotely
 description: Remote work depends on a connection, and connections are uneven. How patchy signal quietly sorts staff into those who get flexibility and those who do not.
 lead: Remote work depends on a connection, and connections are uneven. How patchy signal quietly sorts staff into those who get flexibility and those who do not.
 category: Inclusion and Access
@@ -19,9 +19,10 @@ sources:
   - Measuring digital development: Facts and Figures 2025 | https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx
   - The Mobile Economy Africa 2026 | https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/sub-saharan-africa/
 related:
-  - The Employee Locked Out by a System Built for Someone Else | /moments/the-employee-locked-out-by-a-system-built-for-someone-else/
-  - The Friction of Signing Up for Something at Work | /moments/the-friction-of-signing-up-for-something-at-work/
-  - The Apprentice Who Learns Workarounds Instead of Craft | /moments/the-apprentice-who-learns-workarounds-instead-of-craft/
+  - The employee locked out by a system built for someone else | /moments/the-employee-locked-out-by-a-system-built-for-someone-else/
+  - The friction of signing up for something at work | /moments/the-friction-of-signing-up-for-something-at-work/
+  - The apprentice who learns workarounds instead of craft | /moments/the-apprentice-who-learns-workarounds-instead-of-craft/
+  - When remote work depends on one office machine | /moments/when-remote-work-depends-on-one-office-machine/
 summary: Remote work depends on a connection, and connections are uneven. How patchy signal quietly sorts staff into those who get flexibility and those who do not.
 layout: plain
 ---
@@ -33,7 +34,7 @@ This piece looks at how uneven connectivity quietly decides who gets flexible wo
 
 DataReportal's 2025 overview of South Africa reports internet penetration of roughly 79% of the population at the start of that year, and notes that mobile connections far outnumber people, partly because many connections carry only voice and SMS and some people hold more than one. That sounds like broad access. But a national average says little about the quality of the connection at a given address, and a person can be counted as an internet user while having a link that drops during a video call.
 
-The International Telecommunication Union's global connectivity statistics make a related point: urban-rural gaps in connectivity are narrowing but persist, and coverage remains concentrated in higher-income countries. The GSMA's work on the sub-Saharan mobile economy examines the same divide between where networks reach and who actually uses them. Taken together, they suggest the right question is not whether a region has coverage on paper, but whether a person can run the work their job requires, reliably and at a price they can afford.
+The International Telecommunication Union's global connectivity statistics make a related point: urban-rural gaps in connectivity are narrowing but persist, and coverage remains concentrated in higher-income countries. The GSMA's work on the sub-Saharan [mobile economy](https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/sub-saharan-africa/) examines the same divide between where networks reach and who actually uses them. Taken together, they suggest the right question is not whether a region has coverage on paper, but whether a person can run the work their job requires, reliably and at a price they can afford.
 
 ## Why this matters for work
 

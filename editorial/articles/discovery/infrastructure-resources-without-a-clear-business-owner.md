@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-301
 slug: infrastructure-resources-without-a-clear-business-owner
 title: Infrastructure resources that exist without a clear business owner
-description: Servers, cloud subscriptions and storage that nobody will claim keep running and costing money. Why ownership gets lost, especially during cloud migration, and how to make it a condition of existence.
+description: Servers, subscriptions and storage that nobody claims keep running and costing money. How to make a business owner a condition of existence.
 lead: Servers, cloud subscriptions and storage that nobody will claim keep running and costing money. Why ownership gets lost, especially during cloud migration, and how to make it a condition of existence.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-03
@@ -19,8 +19,8 @@ sources:
   - Enforce cloud governance policies - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies
 related:
   - Retired processes leave orphaned automations running | /discovery/retired-processes-leave-orphaned-automations-running/
-  - Why Integration Incidents Require Several Vendors to Diagnose | /discovery/why-integration-incidents-require-several-vendors-to-diagnose/
-  - Why Critical Low-Code Automations Need Support Ownership | /discovery/why-critical-low-code-automations-need-support-ownership/
+  - Why integration incidents require several vendors to diagnose | /discovery/why-integration-incidents-require-several-vendors-to-diagnose/
+  - Why critical low-code automations need support ownership | /discovery/why-critical-low-code-automations-need-support-ownership/
 summary: Servers, cloud subscriptions and storage that nobody will claim keep running and costing money. Why ownership gets lost, especially during cloud migration, and how to make it a condition of existence.
 layout: plain
 ---
@@ -32,7 +32,7 @@ This article covers that operating condition: infrastructure resources that exis
 
 Every server, database, storage account, network rule and cloud subscription was created for a reason, by someone, for some part of the business. Over time the reason is forgotten, the person moves on and the business unit reorganises. The resource keeps running. It costs money, it may hold sensitive data, it may need patching, and it may be quietly supporting something important. Without an owner, nobody can make decisions about it, so the safest-looking choice is always to leave it alone.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 IT and finance leaders tend to ask how to identify who owns cloud resources, how to find unused servers, or how to allocate infrastructure costs to departments. The underlying need is that every resource can be traced to a business purpose and a person who can approve changes, pay for it and decide when it should be retired.
 

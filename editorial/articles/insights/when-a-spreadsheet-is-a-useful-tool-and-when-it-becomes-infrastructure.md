@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-011
 slug: when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure
-title: When a Spreadsheet Is a Useful Tool—and When It Becomes Infrastructure
-description: Spreadsheets are among the most useful tools a business has, until one quietly becomes something payroll, billing or stock depends on. A practical test for spotting that moment, and the proportionate controls a critical spreadsheet needs before anything is replaced.
+title: When a spreadsheet is a useful tool—and when it becomes infrastructure
+description: Spreadsheets are very useful until one quietly becomes something payroll, billing or stock depends on. A test for that moment and the controls it needs.
 lead: Spreadsheets are among the most useful tools a business has, until one quietly becomes something payroll, billing or stock depends on. A practical test for spotting that moment, and the proportionate controls a critical spreadsheet needs before anything is replaced.
 category: Systems & Strategy
 published_date: 2026-10-04

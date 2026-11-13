@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-021
 slug: when-manual-exceptions-become-the-normal-process
-title: When Manual Exceptions Become the Normal Process
+title: When manual exceptions become the normal process
 description: An exception is supposed to be unusual. When the workaround becomes routine, the business may be operating a second process beside the official one.
 lead: An exception is supposed to be unusual. When staff use the workaround every day, the workaround may have become the real operating model.
 category: Manual Work & Administrative Load
@@ -24,10 +24,11 @@ commercial_value_dimensions: Capacity, Productivity, Margin, Scalability
 sources:
   - Lean Business-IT Integration, Part Two: Obstacles to Value-Stream Transformation - Lean Enterprise Institute | https://www.lean.org/the-lean-post/articles/lean-business-it-integration-part-two-obstacles-to-value-stream-transformation/
   - What is Process Mining? - IBM | https://www.ibm.com/think/topics/process-mining
+  - Process mining overview - Microsoft Learn | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
 related:
-  - When Copy-and-Paste Becomes Part of the Job Description | /patterns/when-copy-and-paste-becomes-part-of-the-job-description/
-  - Why High-Value Employees Become Human Middleware | /patterns/why-high-value-employees-become-human-middleware/
-  - When People Are Used to Move Data Instead of Make Decisions | /patterns/when-people-are-used-to-move-data-instead-of-make-decisions/
+  - When copy-and-paste becomes part of the job description | /patterns/when-copy-and-paste-becomes-part-of-the-job-description/
+  - Why high-value employees become human middleware | /patterns/why-high-value-employees-become-human-middleware/
+  - When people are used to move data instead of make decisions | /patterns/when-people-are-used-to-move-data-instead-of-make-decisions/
 summary: Routine workarounds are a signal that the official process and the real process have drifted apart. Making common exception paths explicit can recover capacity and create a workflow that scales without pretending variability does not exist.
 ---
 ## Observable condition
@@ -97,7 +98,7 @@ A stronger operating model separates genuine judgement from repetitive exception
 
 Sample recent work and list every point where the standard route was bypassed. Group those deviations by cause, frequency and commercial consequence. Redesign the highest-volume exception class first. Keep human judgement where it adds value, but remove repeated searching, copying, chasing and routing around it. Then monitor whether the exception rate and total handling time actually fall.
 
-Where the core systems keep event logs, process mining can make this sampling more objective. IBM describes process mining as applying algorithms to event-log data to build a model of the real process, and identifies conformance checking—comparing the intended process with what the logs show—as one of its main types. That makes deviations measurable rather than anecdotal. It will not see work done entirely in email or spreadsheets, so interviews and observation still matter. See also [what process mining can reveal that workshops cannot](/insights/what-process-mining-can-reveal-that-workshops-cannot/).
+Where the core systems keep event logs, [process mining](https://www.ibm.com/think/topics/process-mining) can make this sampling more objective. IBM describes process mining as applying algorithms to event-log data to build a model of the real process, and identifies conformance checking—comparing the intended process with what the logs show—as one of its main types. That makes deviations measurable rather than anecdotal. It will not see work done entirely in email or spreadsheets, so interviews and observation still matter. See also [what process mining can reveal that workshops cannot](/insights/what-process-mining-can-reveal-that-workshops-cannot/). Microsoft's [process mining documentation](https://learn.microsoft.com/en-us/power-automate/process-mining-overview) similarly describes the approach as a way to understand real processes and identify bottlenecks and inefficiencies.
 
 ### Trade-offs
 

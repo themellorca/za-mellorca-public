@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000018
 slug: ten-open-tabs-and-five-logins
-title: Ten Open Tabs and Five Logins: What the Morning Sign-In Takes
-description: Email, accounting, the bank, the supplier portal, the job system, each with its own password and its own timeout. What a working day spread across many separate sign-ins quietly takes from attention, and what fewer doors give back.
+title: Ten open tabs and five logins: What the morning sign-in takes
+description: Email, accounting, the bank and the job system each want their own password. What many sign-ins take from your attention, and what fewer doors give back.
 lead: Email, accounting, the bank, the supplier portal, the job system, each with its own password and its own timeout. What a working day spread across many separate sign-ins quietly takes from attention, and what fewer doors give back.
 category: Time and Attention
 published_date: 2026-10-04
@@ -19,9 +19,9 @@ sources:
   - NIST Special Publication 800-63B | https://pages.nist.gov/800-63-4/sp800-63b.html
   - What is single sign-on in Microsoft Entra ID? - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on
 related:
-  - The Morning Routine of Checking Whether Overnight Jobs Ran | /moments/the-morning-check-that-overnight-jobs-ran/
-  - Why Waiting for Information Feels Like Working | /moments/why-waiting-for-information-feels-like-working/
-  - Why the Commute Has Become Unpaid Triage Time | /moments/why-the-commute-has-become-unpaid-triage-time/
+  - The morning routine of checking whether overnight jobs ran | /moments/the-morning-check-that-overnight-jobs-ran/
+  - Why waiting for information feels like working | /moments/why-waiting-for-information-feels-like-working/
+  - Why the commute has become unpaid triage time | /moments/why-the-commute-has-become-unpaid-triage-time/
 summary: Email, accounting, the bank, the supplier portal, the job system, each with its own password and its own timeout. What a working day spread across many separate sign-ins quietly takes from attention, and what fewer doors give back.
 layout: plain
 ---
@@ -33,11 +33,11 @@ This piece looks at what that something is. Its argument is a hypothesis, not a 
 
 ## A problem security people already recognise
 
-The clearest public acknowledgement of this burden comes from security guidance rather than from productivity writing. The UK National Cyber Security Centre's password guidance for organisations points out that the typical user has dozens of passwords to remember, not just the one a given system asks for. It describes how that load pushes people towards workarounds: reusing passwords, choosing predictable patterns, writing them down.
+The clearest public acknowledgement of this burden comes from security guidance rather than from productivity writing. The UK National Cyber Security Centre's [password guidance for organisations](https://www.ncsc.gov.uk/collection/passwords/updating-your-approach) points out that the typical user has dozens of passwords to remember, not just the one a given system asks for. It describes how that load pushes people towards workarounds: reusing passwords, choosing predictable patterns, writing them down.
 
 In other words, the burden of many sign-ins is not only an inconvenience. The guidance treats it as a cause of weaker security, because people cope with overload in the ways that are easiest for them. The same guidance recommends reducing reliance on passwords through technical measures and organisational processes, and says online services should permit the use of password managers.
 
-The US National Institute of Standards and Technology makes a similar point in its digital identity guidelines. It states that verifiers shall allow password managers and autofill, and should allow people to paste a password where autofill is not available. It also notes research showing that password managers make it more likely that people choose stronger passwords. The direction of current guidance is clear: the human effort of remembering and typing credentials is something systems should reduce, not something people should be trained to endure.
+The US National Institute of Standards and Technology makes a similar point in its [digital identity guidelines](https://pages.nist.gov/800-63-4/sp800-63b.html). It states that verifiers shall allow password managers and autofill, and should allow people to paste a password where autofill is not available. It also notes research showing that password managers make it more likely that people choose stronger passwords. The direction of current guidance is clear: the human effort of remembering and typing credentials is something systems should reduce, not something people should be trained to endure.
 
 ## Where the attention goes
 
@@ -76,7 +76,7 @@ There is also a structural cause. When systems do not share data, people end up 
 
 Several changes are available to small and mid-sized businesses without major projects.
 
-1. **Single sign-on where systems support it.** Microsoft's documentation for single sign-on in its identity service describes the arrangement simply: users sign in once with one set of credentials and can then open every application assigned to them without signing in again. It lists fewer credentials to keep, less frequent sign-in and fewer password resets reaching the help desk among the benefits. Other identity providers offer similar arrangements, and many business applications support them.
+1. **Single sign-on where systems support it.** Microsoft's [documentation for single sign-on](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on) in its identity service describes the arrangement simply: users sign in once with one set of credentials and can then open every application assigned to them without signing in again. It lists fewer credentials to keep, less frequent sign-in and fewer password resets reaching the help desk among the benefits. Other identity providers offer similar arrangements, and many business applications support them.
 2. **A business password manager.** Where single sign-on is not available, a managed password manager removes the remembering, replaces the notebook and makes it easier to remove access when someone leaves.
 3. **Fewer systems.** The most effective way to remove a sign-in is to remove the system behind it. Some tools in any collection overlap or are barely used.
 4. **Sensible session settings.** Timeouts exist for good reasons, but they can be set with the actual working pattern in mind, alongside device locking and strong authentication.

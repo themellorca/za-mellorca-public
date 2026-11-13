@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-033
 slug: why-teams-keep-buying-their-own-software
-title: Why Teams Keep Buying Their Own Software
-description: When teams buy software on their own cards, they are usually filling a real gap that the approved systems and request process leave open. How to find what is in use, read it as evidence and fix the route that caused it.
+title: Why teams keep buying their own software
+description: Teams buying their own software are usually filling a gap the approved systems leave open. How to find what is in use and fix the route that caused it.
 lead: When teams buy software on their own cards, they are usually filling a real gap that the approved systems and request process leave open. How to find what is in use, read it as evidence and fix the route that caused it.
 category: Systems & Strategy
 published_date: 2026-10-05
@@ -15,7 +15,7 @@ sources:
   - Discover and manage Shadow IT - Microsoft Defender for Cloud Apps | https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-shadow-it
   - Section 21 Security measures regarding information processed by operator - POPIA | https://popia.co.za/section-21-security-measures-regarding-information-processed-by-operator/
 related:
-  - What Keep, Fix, Integrate, Automate, Replace or Remove Means in Practice | /insights/what-keep-fix-integrate-automate-replace-or-remove-means-in-practice/
+  - What keep, fix, integrate, automate, replace or remove means in practice | /insights/what-keep-fix-integrate-automate-replace-or-remove-means-in-practice/
   - How to buy business software without letting the demo make the decision | /insights/how-to-buy-business-software-without-letting-the-demo-make-the-decision/
   - Piling on more software is not digital maturity | /insights/piling-on-more-software-is-not-digital-maturity/
 summary: When teams buy software on their own cards, they are usually filling a real gap that the approved systems and request process leave open. How to find what is in use, read it as evidence and fix the route that caused it.

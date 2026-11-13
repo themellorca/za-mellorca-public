@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-403
 slug: why-saas-applications-are-part-of-your-operating-infrastructure-not-just-subscriptions
-title: Why SaaS Applications Are Part of Your Operating Infrastructure
-description: Cloud applications are bought like subscriptions but they behave like infrastructure: the business stops when they stop. What changes when SaaS is managed as operating infrastructure instead of a list of software expenses.
+title: Why SaaS applications are part of your operating infrastructure
+description: Cloud apps are bought like subscriptions but behave like infrastructure, because the business stops when they stop. What changes when managed that way.
 lead: Cloud applications are bought like subscriptions but they behave like infrastructure: the business stops when they stop. What changes when SaaS is managed as operating infrastructure instead of a list of software expenses.
 category: Digital Infrastructure
 published_date: 2026-10-09
@@ -14,7 +14,7 @@ sources:
   - The cloud security principles | https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
 related:
-  - How to Identify the Systems Your Business Actually Depends On | /insights/how-to-identify-the-systems-your-business-actually-depends-on/
+  - How to identify the systems your business actually depends on | /insights/how-to-identify-the-systems-your-business-actually-depends-on/
   - How to decide which system owns which data | /insights/how-to-decide-which-system-owns-which-data/
   - The hidden cost of apps that do not share data | /insights/the-hidden-cost-of-apps-that-do-not-share-data/
 summary: Cloud applications are bought like subscriptions but they behave like infrastructure: the business stops when they stop. What changes when SaaS is managed as operating infrastructure instead of a list of software expenses.
@@ -31,7 +31,7 @@ That is the definition of infrastructure. The distinction matters because infras
 
 The test is functional, not technical. A system is infrastructure when other work depends on it and the business cannot easily operate without it. Servers in a cupboard used to be the obvious example. Today the same role is played by a hosted ERP, a cloud telephone system, a shared document store or an identity service that signs everyone in. The question of which digital systems qualify is examined more broadly in [which digital systems are actually infrastructure](/insights/which-digital-systems-are-actually-infrastructure/), and the shift in definition is discussed in what digital infrastructure means for a modern business.
 
-The UK National Cyber Security Centre's guidance on understanding cloud services stresses that using a cloud service means sharing responsibility with the provider, and that the customer still has to decide how services are configured, who may use them and what data goes into them. In the same way, the US Cybersecurity and Infrastructure Security Agency frames critical infrastructure around the functions societies depend on. The principle that scales down to a small business is simple: identify the functions you depend on and manage whatever delivers them.
+The UK National Cyber Security Centre's guidance on [understanding cloud services](https://www.ncsc.gov.uk/collection/cloud/understanding-cloud-services) stresses that using a cloud service means sharing responsibility with the provider, and that the customer still has to decide how services are configured, who may use them and what data goes into them. In the same way, the US Cybersecurity and Infrastructure Security Agency frames critical infrastructure around the functions societies depend on. The principle that scales down to a small business is simple: identify the functions you depend on and manage whatever delivers them.
 
 ## Why the subscription mindset is risky
 
@@ -47,9 +47,9 @@ Asset registers contribute to the problem. Many are built for hardware and miss 
 
 ## Shared responsibility is still your responsibility
 
-Moving to SaaS does shift some work to the provider: servers, patching and the physical environment. It does not remove the customer's obligations. The NCSC's cloud security principles set out the areas that a customer should consider when relying on a service, including how data is protected in transit and at rest, how the provider separates customers, what governance and operational security look like, how the customer manages users, and how it can leave. These are infrastructure questions, and they apply to a R400-a-month tool as much as to an enterprise platform if the tool is critical.
+Moving to SaaS does shift some work to the provider: servers, patching and the physical environment. It does not remove the customer's obligations. The NCSC's [cloud security principles](https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles) set out the areas that a customer should consider when relying on a service, including how data is protected in transit and at rest, how the provider separates customers, what governance and operational security look like, how the customer manages users, and how it can leave. These are infrastructure questions, and they apply to a R400-a-month tool as much as to an enterprise platform if the tool is critical.
 
-In South Africa, the Protection of Personal Information Act makes this concrete. A company that puts customer or employee data into a SaaS application remains the responsible party under the Act, and the provider is typically an operator. Section 19 requires appropriate, reasonable technical and organisational measures to secure the information, and the Act expects a written contract with operators that requires them to maintain security measures. Choosing, configuring and reviewing the application is part of discharging that duty, which is difficult to do when the tool is only a line on a card statement.
+In South Africa, the Protection of Personal Information Act makes this concrete. A company that puts customer or employee data into a SaaS application remains the responsible party under the Act, and the provider is typically an operator. Section 19 requires appropriate, reasonable technical and organisational measures to secure the information, and the Act expects a written contract with operators that requires them to maintain [security measures](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/). Choosing, configuring and reviewing the application is part of discharging that duty, which is difficult to do when the tool is only a line on a card statement.
 
 ## What it means to manage SaaS as infrastructure
 

@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000054
 slug: why-the-person-closest-to-the-problem-cant-fix-it
-title: Why the Person Closest to the Problem Can't Fix It
-description: The person taking the third complaint call knows exactly what is wrong and how to fix it, but the authority sits elsewhere. Why knowledge and decision rights drift apart, and how a small, bounded zone of local authority lets people act on what they know.
+title: Why the person closest to the problem can't fix it
+description: The person taking the third complaint call knows the fix, but authority sits elsewhere. How a small, bounded zone of local authority lets people act.
 lead: The person taking the third complaint call knows exactly what is wrong and how to fix it, but the authority sits elsewhere. Why knowledge and decision rights drift apart, and how a small, bounded zone of local authority lets people act on what they know.
 category: Human Agency
 published_date: 2026-10-07
@@ -19,9 +19,9 @@ sources:
   - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
   - Best practices for Microsoft Entra roles - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/best-practices
 related:
-  - The Employee Who Needs Permission for Every Small Fix | /moments/the-employee-who-needs-permission-for-every-small-fix/
-  - The Manager Who Can't Act Without the Founder | /moments/the-manager-who-cant-act-without-the-founder/
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - The employee who needs permission for every small fix | /moments/the-employee-who-needs-permission-for-every-small-fix/
+  - The manager who can't act without the founder | /moments/the-manager-who-cant-act-without-the-founder/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
 summary: The person taking the third complaint call knows exactly what is wrong and how to fix it, but the authority sits elsewhere. Why knowledge and decision rights drift apart, and how a small, bounded zone of local authority lets people act on what they know.
 layout: plain
 ---
@@ -41,11 +41,11 @@ Mellorca has written about the structural cost of this in [why one approval hold
 
 ## A model that gives authority to the point of work
 
-Toyota's description of its production system includes an idea that runs against the usual arrangement. Under jidoka, which Toyota describes as automation with a human touch, workers who see an abnormality can stop the line themselves by pulling a stop cord, and an andon board lights up to show where the problem is. The company also says that only humans can implement kaizen, its practice of continuous improvement, and describes developing people who can think independently and improve their own work.
+[Toyota's description of its production system](https://global.toyota/en/company/vision-and-philosophy/production-system/) includes an idea that runs against the usual arrangement. Under jidoka, which Toyota describes as automation with a human touch, workers who see an abnormality can stop the line themselves by pulling a stop cord, and an andon board lights up to show where the problem is. The company also says that only humans can implement kaizen, its practice of continuous improvement, and describes developing people who can think independently and improve their own work.
 
 The point is not that every business should copy a car manufacturer. The point is that a large, highly disciplined organisation chose to give a specific, bounded power to the person nearest the problem, and built the signals and support around it so that the power is used well.
 
-The UK Health and Safety Executive's Management Standard on control makes a related point in general terms. It describes control as how much say a person has in the way they do their work, and sets as a goal that employees are encouraged to use their skills and initiative.
+The UK Health and Safety Executive's [Management Standard on control](https://www.hse.gov.uk/stress/standards/control.htm) makes a related point in general terms. It describes control as how much say a person has in the way they do their work, and sets as a goal that employees are encouraged to use their skills and initiative.
 
 ## The human tax
 
@@ -62,7 +62,7 @@ In this scenario, a counter assistant notices that a particular fertiliser is re
 The aim is not to remove authority from managers. It is to give the people nearest to problems a defined, limited power to act, with clear signals and review.
 
 1. **Define a small zone of local authority.** List the kinds of fix that front-line staff may make themselves: correcting a description, issuing a goodwill credit up to a set value, flagging a product for review. Write it down so it is not a matter of interpretation.
-2. **Make the authority bounded and visible.** Security practice offers a useful pattern. Microsoft's best-practice guidance for access roles describes granting a specific set of permissions, over a specific scope, for a specific period, with reviews to remove what is no longer needed. The same shape works for business decisions.
+2. **Make the authority bounded and visible.** Security practice offers a useful pattern. [Microsoft's best-practice guidance for access roles](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/best-practices) describes granting a specific set of permissions, over a specific scope, for a specific period, with reviews to remove what is no longer needed. The same shape works for business decisions.
 3. **Create a signal that cannot be ignored.** A shared problem list, reviewed at a set time each week, plays the role of an andon board. Problems that are raised get looked at.
 4. **Review after rather than approve before.** For low-risk, reversible fixes, a weekly look at what was changed gives oversight without delay.
 5. **Treat repeated problems as process problems.** When the same issue is fixed locally several times, it should trigger a change to the underlying process.

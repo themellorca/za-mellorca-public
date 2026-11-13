@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-031
 slug: manual-routine-reminders-repetitive-follow-up-payroll-cost
-title: Sending Routine Reminders by Hand: The Payroll Cost of Repetitive Follow-Up
-description: Reminders for renewals, timesheets, documents and deadlines sent one by one from someone's inbox cost paid hours, fail when that person is away and are easy to automate safely.
+title: Sending routine reminders by hand: The payroll cost of repetitive follow-up
+description: Reminders for renewals, timesheets and deadlines sent one by one from someone's inbox cost paid hours and fail when they are away. Automate them.
 lead: Reminders for renewals, timesheets, documents and deadlines sent one by one from someone's inbox cost paid hours, fail when that person is away and are easy to automate safely.
 category: Business Automation
 published_date: 2026-10-05
@@ -17,9 +17,9 @@ sources:
   - Run a cloud flow on a schedule in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks
   - Turn notifications on for list and list item changes - Microsoft Support | https://support.microsoft.com/en-us/office/turn-notifications-on-for-list-and-list-item-changes-85ca9280-f4b1-485a-a49e-a593ffa62e39
 related:
-  - Creating the Same Documents by Hand: The Labour Cost of Repeat Paperwork | /impact/same-documents-created-by-hand-repeat-paperwork-cost/
-  - From Inbox to System by Hand: The Labour Cost of Retyping Emails | /impact/copying-email-details-into-business-systems-admin-cost/
-  - Rebuilding the Same Report Every Month: The Labour Cost of Manual Reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
+  - Creating the same documents by hand: The labour cost of repeat paperwork | /impact/same-documents-created-by-hand-repeat-paperwork-cost/
+  - From inbox to system by hand: The labour cost of retyping emails | /impact/copying-email-details-into-business-systems-admin-cost/
+  - Rebuilding the same report every month: The labour cost of manual reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
 summary: Reminders for renewals, timesheets, documents and deadlines sent one by one from someone's inbox cost paid hours, fail when that person is away and are easy to automate safely.
 layout: plain
 ---
@@ -89,7 +89,7 @@ Routine reminders should be generated from dates the business already records, n
 
 ### Put the dates in one structured place
 
-Expiry dates, renewal dates, submission deadlines and service intervals belong in a list or system with a proper date field, an owner and a contact for each item. A spreadsheet scattered across personal drives is not enough. Microsoft documents that Lists in Microsoft 365 include a *Set a reminder* option, which builds a ready-made Power Automate flow that emails a reminder a chosen number of days before a date. The option only appears when the list has a column in the Date and Time format, which illustrates the point: the reminder is only as good as the date data behind it.
+Expiry dates, renewal dates, submission deadlines and service intervals belong in a list or system with a proper date field, an owner and a contact for each item. A spreadsheet scattered across personal drives is not enough. Microsoft documents that Lists in Microsoft 365 include a *Set a reminder* option, which builds a ready-made [Power Automate](https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks) flow that emails a reminder a chosen number of days before a date. The option only appears when the list has a column in the Date and Time format, which illustrates the point: the reminder is only as good as the date data behind it.
 
 ### Let a schedule do the remembering
 

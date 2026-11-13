@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-016
 slug: when-admin-becomes-the-bottleneck-that-limits-the-whole-business
-title: When Admin Becomes the Bottleneck That Limits the Whole Business
-description: Sales can sell and the workshop can deliver, but quotes, contracts, invoices and paperwork queue up in the office. When administrative complexity sets the pace, it has become the business's capacity limit.
+title: When admin becomes the bottleneck that limits the whole business
+description: Sales can sell and the workshop can deliver, but quotes, contracts and invoices queue in the office. Administration has become the capacity limit.
 lead: Sales can sell and the workshop can deliver, but quotes, contracts, invoices and paperwork queue up in the office. When administrative complexity sets the pace, it has become the business's capacity limit.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -18,9 +18,9 @@ sources:
   - Muda, Mura, Muri - Get a Quick Introduction - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/muda-mura-muri/
   - What is Process Mining? - IBM | https://www.ibm.com/think/topics/process-mining
 related:
-  - When Manual Exceptions Become the Normal Process | /patterns/when-manual-exceptions-become-the-normal-process/
-  - When Copy-and-Paste Becomes Part of the Job Description | /patterns/when-copy-and-paste-becomes-part-of-the-job-description/
-  - Why High-Value Employees Become Human Middleware | /patterns/why-high-value-employees-become-human-middleware/
+  - When manual exceptions become the normal process | /patterns/when-manual-exceptions-become-the-normal-process/
+  - When copy-and-paste becomes part of the job description | /patterns/when-copy-and-paste-becomes-part-of-the-job-description/
+  - Why high-value employees become human middleware | /patterns/why-high-value-employees-become-human-middleware/
 summary: Sales can sell and the workshop can deliver, but quotes, contracts, invoices and paperwork queue up in the office. When administrative complexity sets the pace, it has become the business's capacity limit.
 layout: plain
 ---
@@ -65,7 +65,7 @@ Capacity elsewhere in the business is wasted because it cannot be used until the
 
 The most common response is to hire another administrator. Sometimes that is the right answer, but if the complexity remains, the new person absorbs the current backlog and the constraint returns with the next increase in volume.
 
-The other common mistake is to invest in the wrong part of the business. Adding sales capacity or field staff when administration is the constraint increases work-in-progress without increasing output. The Theory of Constraints Institute's five focusing steps put the order clearly: identify the constraint, exploit it, subordinate everything else to it and only then elevate it by adding resources.
+The other common mistake is to invest in the wrong part of the business. Adding sales capacity or field staff when administration is the constraint increases work-in-progress without increasing output. The Theory of Constraints Institute's [five focusing steps](https://www.tocinstitute.org/five-focusing-steps.html) put the order clearly: identify the constraint, exploit it, subordinate everything else to it and only then elevate it by adding resources.
 
 ## Possibility
 
@@ -76,7 +76,7 @@ For the electrical contractor, that might mean a single job record from which th
 ## Intervention
 
 1. **Confirm the constraint.** Measure where work waits. If completed or ready work regularly waits for administrative steps, administration is likely the constraint.
-2. **Count the administrative content of a typical job.** List every form, document, approval and check from start to finish, and estimate the time each takes. Process mining tools, as IBM describes them, can reveal variations and bottlenecks from system logs where data allows.
+2. **Count the administrative content of a typical job.** List every form, document, approval and check from start to finish, and estimate the time each takes. [Process mining](https://www.ibm.com/think/topics/process-mining) tools, as IBM describes them, can reveal variations and bottlenecks from system logs where data allows.
 3. **Exploit the constraint.** Remove anything the administrative team does that does not need to be done, or does not need to be done by them. Move simple data capture to the people who generate the information.
 4. **Subordinate the rest.** Require complete information before work reaches the office, and smooth peaks where possible so the constraint is not swamped at month-end.
 5. **Simplify and generate.** Reduce templates, merge forms and generate documents from data already held.

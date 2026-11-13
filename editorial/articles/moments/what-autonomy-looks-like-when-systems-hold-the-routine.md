@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000081
 slug: what-autonomy-looks-like-when-systems-hold-the-routine
-title: What Autonomy Looks Like When Systems Hold the Routine
-description: Autonomy at work is partly about who decides the shape of the week. When recurring tasks are held by systems, some people regain the ability to choose when and how they work.
+title: What autonomy looks like when systems hold the routine
+description: Autonomy at work is partly about who decides the shape of the week. When systems hold recurring tasks, people regain the choice of when and how they work.
 lead: Autonomy at work is partly about who decides the shape of the week. When recurring tasks are held by systems, some people regain the ability to choose when and how they work.
 category: Autonomy and Agency
 published_date: 2026-10-10
@@ -20,9 +20,10 @@ sources:
   - Create and test an approval workflow with Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/modern-approvals
   - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
 related:
-  - The Manager Who Finally Owns Their Budget View | /moments/the-manager-who-finally-owns-their-budget-view/
-  - What Changes When People Can See Their Own Numbers | /moments/what-changes-when-people-can-see-their-own-numbers/
-  - When Your Calendar Belongs to Other People's Systems | /moments/when-your-calendar-belongs-to-other-peoples-systems/
+  - The manager who finally owns their budget view | /moments/the-manager-who-finally-owns-their-budget-view/
+  - What changes when people can see their own numbers | /moments/what-changes-when-people-can-see-their-own-numbers/
+  - When your calendar belongs to other people's systems | /moments/when-your-calendar-belongs-to-other-peoples-systems/
+  - The team leader who protects their team from bad tools | /moments/the-team-leader-who-quietly-shields-the-team-from-bad-tools/
 summary: Autonomy at work is partly about who decides the shape of the week. When recurring tasks are held by systems, some people regain the ability to choose when and how they work.
 layout: plain
 ---
@@ -40,7 +41,9 @@ It is worth noticing what the standard does not claim. It says nothing about how
 
 ## What it means to let a system hold the routine
 
-The idea is simple. A recurring task that follows a predictable pattern can be handed to a system that runs it on schedule, so that a person is no longer the thing that remembers. Microsoft's documentation for Power Automate describes this in plain terms: cloud flows can be triggered by an event, such as an email arriving, or run on a schedule, and it gives the example of a daily data upload. Its overview notes that predictable tasks can be automated once, with no need to create a flow for every run. Its approvals guidance describes how a request can be sent to a named approver, who can respond from their email inbox or an approvals centre, with the decision recorded and passed back to the requester.
+The idea is simple. A recurring task that follows a predictable pattern can be handed to a system that runs it on schedule, so that a person is no longer the thing that remembers. Microsoft's documentation for [Power Automate](https://learn.microsoft.com/en-us/power-automate/modern-approvals) describes this in plain terms: cloud flows can be triggered by an event, such as an email arriving, or run on a schedule, and it gives the example of a daily data upload.
+
+Its overview notes that predictable tasks can be automated once, with no need to create a flow for every run. Its approvals guidance describes how a request can be sent to a named approver, who can respond from their email inbox or an approvals centre, with the decision recorded and passed back to the requester.
 
 These are descriptions of a tool, not claims about outcomes. What matters for this article is what such a tool changes in the shape of someone's week. The reminder goes out whether or not the office manager is in. The request waits for an answer instead of waiting for a person to remember it. The deadline is held by something that does not have a bad day.
 
@@ -82,6 +85,6 @@ Finally, automation shifts some risk. A wrong date or address, repeated on sched
 
 ## Why it matters
 
-Administrative routine looks like a small matter next to strategy and growth. Yet it is often where the daily experience of work is decided. The World Health Organization lists lack of control over job design and workload among the risks to mental health at work, and notes that involving workers in decisions is one recommended way to build an enabling environment. Mellorca treats that as general background, not proof about any one office.
+Administrative routine looks like a small matter next to strategy and growth. Yet it is often where the daily experience of work is decided. The World Health Organization lists lack of control over job design and workload among the risks to [mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work), and notes that involving workers in decisions is one recommended way to build an enabling environment. Mellorca treats that as general background, not proof about any one office.
 
 The narrower hypothesis offered here is that when predictable work is held by systems that are understood and owned, some people regain the ability to arrange their own weeks. The measure of success is not how many tasks have been automated. It is whether the person who used to be the clock can now decide what time it is for them.

@@ -2,8 +2,8 @@
 hub: discovery
 record_id: DISC-326
 slug: why-businesses-cannot-list-all-applications-they-use
-title: Why Businesses Cannot Produce a Complete List of the Applications They Use
-description: An incomplete application inventory creates cost, security and architecture blind spots. The real issue is distributed acquisition without durable ownership and lifecycle control.
+title: Why businesses cannot produce a complete list of the applications they use
+description: An incomplete application list leaves blind spots in cost, security and architecture. It stems from scattered buying with no lasting ownership.
 lead: When software is bought by departments, charged to cards, introduced through projects and retained after owners move on, the application estate can grow faster than the organisation's ability to see and govern it.
 category: SaaS & Application Portfolio Management
 published_date: 2026-09-03
@@ -29,9 +29,10 @@ sources:
 closing_title: Method note
 closing_text: The sources establish inventory as a recognised control and management requirement. They do not establish how many unknown applications any specific organisation has.
 related:
-  - Why Free Trials Become Production Dependencies | /discovery/why-free-trials-become-production-dependencies/
-  - Why Application Risk Assessments Cannot Be One-Time Reviews | /discovery/why-application-risk-assessments-cannot-be-one-time/
-  - Why Application Costs Cannot Be Allocated to Business Units | /discovery/why-application-costs-cannot-be-allocated-to-business-units/
+  - Why free trials become production dependencies | /discovery/why-free-trials-become-production-dependencies/
+  - Why application risk assessments cannot be one-time reviews | /discovery/why-application-risk-assessments-cannot-be-one-time/
+  - Why application costs cannot be allocated to business units | /discovery/why-application-costs-cannot-be-allocated-to-business-units/
+  - Why single sign-on coverage lags behind the SaaS portfolio | /discovery/why-sso-coverage-lags-behind-the-saas-portfolio/
 ---
 ## The problem in plain language
 
@@ -39,15 +40,15 @@ Finance can list vendors, identity teams can list some connected applications an
 
 The gap usually surfaces when someone asks a simple question. Which tools hold customer data? What will we stop paying for if we retire this platform? Which applications does a departing employee still have access to? Each question triggers a fresh exercise: exporting supplier lists, emailing department heads and comparing spreadsheets. The answer is assembled for the occasion and starts going out of date as soon as it is finished.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches such as "application inventory", "SaaS inventory", "software asset discovery", "shadow IT inventory" and "application portfolio management" reflect a need to know what exists before the business can govern, secure, rationalise or retire it.
+Requests for an "application inventory", a "SaaS inventory", "software asset discovery", a "shadow IT inventory" or "application portfolio management" all reflect a need to know what exists before the business can govern, secure, rationalise or retire it.
 
-Behind those searches are practical triggers: a renewal that nobody can justify, a security questionnaire that asks for a list of systems processing personal data, a migration that needs to know every integration, or a cost review that has found overlapping subscriptions. The buyer is rarely looking for a list for its own sake. They need a dependable basis for decisions.
+Behind those requests are practical triggers: a renewal that nobody can justify, a security questionnaire that asks for a list of systems processing personal data, a migration that needs to know every integration, or a cost review that has found overlapping subscriptions. Nobody is looking for a list for its own sake. They need a dependable basis for decisions.
 
 ## Evidence and system mechanism
 
-NIST Cybersecurity Framework 2.0 includes maintaining inventories of software, services and systems managed by the organisation, and separately inventories of services provided by suppliers, which is where externally hosted applications usually sit. NIST software-asset guidance also treats accurate software inventory as foundational to policy, licence and security decisions. Its Software Identification project states that knowing what software is installed and used can help an enterprise avoid paying for unneeded licences, and links inventory to patching, configuration and attack-surface reduction. NIST's security measures for critical software similarly begin with establishing and maintaining a software inventory.
+NIST [Cybersecurity Framework](https://csrc.nist.gov/Projects/cybersecurity-framework/Filters) 2.0 includes maintaining inventories of software, services and systems managed by the organisation, and separately inventories of services provided by suppliers, which is where externally hosted applications usually sit. NIST software-asset guidance also treats accurate software inventory as foundational to policy, licence and security decisions. Its Software Identification project states that knowing what software is installed and used can help an enterprise avoid paying for unneeded licences, and links inventory to patching, configuration and attack-surface reduction. NIST's security measures for critical software similarly begin with establishing and maintaining a software inventory.
 
 The CIS Critical Security Controls take the same position. Control 2 calls for organisations to actively inventory, track and correct all software on the network so that only authorised software is installed and can run, and unmanaged software is found.
 

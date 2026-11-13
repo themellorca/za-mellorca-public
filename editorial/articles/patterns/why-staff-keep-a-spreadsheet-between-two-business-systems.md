@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-041
 slug: why-staff-keep-a-spreadsheet-between-two-business-systems
-title: Why Staff Keep a Spreadsheet Between Two Business Systems
-description: An export goes in, a lookup tab translates the codes and a new file comes out for the next system to import. When a spreadsheet sits between two applications, it is an integration built by hand, with no checks and often one person who understands it.
+title: Why staff keep a spreadsheet between two business systems
+description: When a spreadsheet sits between two applications, translating codes by hand, it is an unchecked integration that one person understands. Here is the risk.
 lead: An export goes in, a lookup tab translates the codes and a new file comes out for the next system to import. When a spreadsheet sits between two applications, it is an integration built by hand, with no checks and often one person who understands it.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-05
@@ -18,9 +18,9 @@ sources:
   - Keeping leading zeros and large numbers - Microsoft Support | https://support.microsoft.com/en-us/office/keeping-leading-zeros-and-large-numbers-1bf7b935-36e1-4985-842f-5dfa51f85fe7
   - What Is Power Query? - Power Query | https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query
 related:
-  - Why Information Has to Be Copied From One System to Another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
-  - When Work Goes Missing in the Gap Between Two Systems | /patterns/when-work-goes-missing-in-the-gap-between-two-systems/
-  - When Disconnected Systems Let the Business Act on Old Information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
+  - Why information has to be copied from one system to another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
+  - When work goes missing in the gap between two systems | /patterns/when-work-goes-missing-in-the-gap-between-two-systems/
+  - When disconnected systems let the business act on old information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
 summary: An export goes in, a lookup tab translates the codes and a new file comes out for the next system to import. When a spreadsheet sits between two applications, it is an integration built by hand, with no checks and often one person who understands it.
 layout: plain
 ---
@@ -36,7 +36,7 @@ An illustrative example: a Durban food-supply distributor with about thirty staf
 
 A spreadsheet that sits between two applications is different from a spreadsheet used for analysis. An analysis sheet is read by people. A bridge sheet is read by another system. Its output is fed straight into accounting, payroll, stock or the CRM, which means any error inside the sheet becomes an error in a system of record.
 
-Bridge sheets also carry silent rules. Microsoft documents that if XLOOKUP finds no match and no alternative is specified, it returns #N/A. In a bridge sheet, a missing match may be handled by a default value, a blank or a manual fix that nobody writes down. Microsoft also documents that Excel removes leading zeros, converts large numbers to scientific notation and keeps only 15 significant digits. Account numbers, product codes and identity numbers passing through a spreadsheet can quietly change shape on the way.
+Bridge sheets also carry silent rules. Microsoft documents that if XLOOKUP finds no match and no alternative is specified, it returns #N/A. In a bridge sheet, a missing match may be handled by a default value, a blank or a manual fix that nobody writes down. Microsoft also documents that Excel removes [leading zeros](https://support.microsoft.com/en-us/office/keeping-leading-zeros-and-large-numbers-1bf7b935-36e1-4985-842f-5dfa51f85fe7), converts large numbers to scientific notation and keeps only 15 significant digits. Account numbers, product codes and identity numbers passing through a spreadsheet can quietly change shape on the way.
 
 The important realisation is that the business already has an integration. It is simply built in a form that has no monitoring, no version control and usually only one person who understands it.
 
@@ -80,7 +80,7 @@ A third is to assume that a full integration project is the only alternative. Of
 
 In a better state, the translation between systems is defined once, maintained deliberately and checked automatically. Shared identifiers mean fewer lookups are needed. Where a mapping is still required, it lives in an integration tool or a maintained reference table with an owner, not in someone's personal workbook. Unmatched records are flagged before they reach the receiving system.
 
-Where some transformation must stay in the Microsoft toolset, Power Query offers a middle step. Microsoft describes it as a way to define a repeatable process that can be refreshed rather than reshaping data by hand each time. That does not remove the bridge, but it makes the transformation visible and repeatable while a proper connection is designed.
+Where some transformation must stay in the Microsoft toolset, [Power Query](https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query) offers a middle step. Microsoft describes it as a way to define a repeatable process that can be refreshed rather than reshaping data by hand each time. That does not remove the bridge, but it makes the transformation visible and repeatable while a proper connection is designed.
 
 For the food distributor, the change was to adopt the accounting system's stock codes as the master codes in the ordering portal, which removed most of the lookup table, and to connect orders directly with a check that every order arrived.
 

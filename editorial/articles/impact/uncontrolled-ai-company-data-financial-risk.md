@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-276
 slug: uncontrolled-ai-company-data-financial-risk
-title: Staff Using AI with Company Data Nobody Governs
-description: Uncontrolled AI use can move company information into tools and workflows the business has not assessed. Governance should enable useful AI while controlling data, access and accountability.
+title: Staff using AI with company data nobody governs
+description: Uncontrolled AI use can move company information into tools the business has not assessed. Governance should enable useful AI while controlling data.
 lead: AI can remove real work. It can also create an uncontrolled information path when employees paste customer, employee, commercial or internal data into tools the business has never assessed.
 category: AI Governance
 published_date: 2026-09-01
@@ -29,9 +29,9 @@ sources:
 closing_title: Related Insight
 closing_text: [Your AI strategy has an integration problem](/insights/your-ai-strategy-has-an-integration-problem/) examines the systems foundation beneath AI adoption.
 related:
-  - AI on Poor-Quality Data: Faster Decisions, Unreliable Results | /impact/ai-on-poor-quality-data-financial-cost/
-  - When Nobody Owns the Business Software You Pay For | /impact/pain-unclear-ownership-technology-spending/
-  - Not Knowing Who Still Has Access to Your Systems | /impact/uncontrolled-system-access-financial-risk/
+  - AI on poor-quality data: Faster decisions, unreliable results | /impact/ai-on-poor-quality-data-financial-cost/
+  - When nobody owns the business software you pay for | /impact/pain-unclear-ownership-technology-spending/
+  - Not knowing who still has access to your systems | /impact/uncontrolled-system-access-financial-risk/
 ---
 ## The problem is not that employees are curious about AI
 
@@ -43,7 +43,9 @@ A blanket ban may push useful experimentation underground. Uncontrolled adoption
 
 Generative AI is easy to access, useful for drafting and analysis, and often adopted faster than procurement, security and policy processes can respond. Employees therefore solve immediate problems before the business has designed an approved path.
 
-Public guidance has converged on the same practical message. NIST's AI Risk Management Framework, together with its companion profile for generative AI, sets out governance, measurement and risk-management actions, and NIST's wider AI work emphasises testing, evaluation, verification and validation. The UK National Cyber Security Centre urges organisations to treat security as a core business priority for AI rather than an afterthought, to understand worst-case scenarios if AI tools fail, and to plan incident response for AI-related security problems. The OECD's AI Principles, updated in 2024, put accountability at the centre: the actors involved in AI systems must be accountable for them. The implication for ordinary businesses is practical: useful AI still requires ownership, data rules and controls proportionate to the use case.
+Public guidance has converged on the same practical message. NIST's AI [Risk Management Framework](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence), together with its companion profile for generative AI, sets out governance, measurement and risk-management actions, and NIST's wider AI work emphasises testing, evaluation, verification and validation. The UK National [Cyber Security](https://www.ncsc.gov.uk/guidance/ai-and-cyber-security-what-you-need-to-know) Centre urges organisations to treat security as a core business priority for AI rather than an afterthought, to understand worst-case scenarios if AI tools fail, and to plan incident response for AI-related security problems.
+
+The OECD's [AI Principles](https://oecd.ai/en/ai-principles), updated in 2024, put accountability at the centre: the actors involved in AI systems must be accountable for them. The implication for ordinary businesses is practical: useful AI still requires ownership, data rules and controls proportionate to the use case.
 
 ### A worked example
 

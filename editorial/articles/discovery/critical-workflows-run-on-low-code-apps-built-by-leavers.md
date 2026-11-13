@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-344
 slug: critical-workflows-run-on-low-code-apps-built-by-leavers
 title: Critical workflows depend on low-code apps built by departed staff
-description: Low-code apps and automations are often owned and credentialed by their creator. When that person leaves, the workflow becomes an orphan. How to find, own and hand over the ones that matter.
+description: Low-code apps are often owned and credentialed by their creator, so a departure orphans the workflow. How to find, own and hand over the critical ones.
 lead: Low-code apps and automations are often owned and credentialed by their creator. When that person leaves, the workflow becomes an orphan. How to find, own and hand over the ones that matter.
 category: SaaS & Application Portfolio Management
 published_date: 2026-10-08
@@ -33,9 +33,9 @@ Low-code and no-code tools let people closest to the work build the workflow the
 
 Two different failures are hiding in this. The first is loss of knowledge: nobody knows what the app does, what it connects to or why it was built that way. The second is loss of technical control: the app cannot be edited, restarted or reassigned because the only owner no longer has access.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Operations managers, finance leads and IT managers search for ways to find undocumented automations, keep workflows running after a resignation, and bring departmental tools under proper control. The need behind the searches is concrete: know which workflows the business depends on, know who is responsible for each one, and make sure the loss of any one person cannot stop them.
+Operations managers, finance leads and IT managers want to find undocumented automations, keep workflows running after a resignation, and bring departmental tools under proper control. The need behind this is concrete: know which workflows the business depends on, know who is responsible for each one, and make sure the loss of any one person cannot stop them.
 
 ## Evidence and system mechanism
 

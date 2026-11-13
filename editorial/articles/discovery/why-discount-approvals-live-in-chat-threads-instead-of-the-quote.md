@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-079
 slug: why-discount-approvals-live-in-chat-threads-instead-of-the-quote
 title: Discount approvals happen outside the quoting system
-description: When a manager approves a discount by message and the quote shows only the final price, finance cannot tell what was agreed or why. How to bring approvals into the quote record.
+description: When a manager approves a discount by message and the quote shows only the final price, finance cannot tell what was agreed. Keep approvals on the quote.
 lead: When a manager approves a discount by message and the quote shows only the final price, finance cannot tell what was agreed or why. How to bring approvals into the quote record.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-09
@@ -21,6 +21,7 @@ related:
   - Why credit checks happen after sales has already promised delivery | /discovery/why-credit-checks-happen-after-sales-has-promised-delivery/
   - Why revenue leakage only shows up at month-end reconciliation | /discovery/why-revenue-leakage-only-shows-up-at-month-end-reconciliation/
   - Why salespeople cannot see whether an order has actually been fulfilled | /discovery/salespeople-cannot-see-whether-an-order-has-been-fulfilled/
+  - Why pricing rules end up copied across the CRM, spreadsheets and the ERP | /discovery/why-the-same-pricing-rules-are-maintained-in-three-places-and-drift-apart/
 summary: When a manager approves a discount by message and the quote shows only the final price, finance cannot tell what was agreed or why. How to bring approvals into the quote record.
 layout: plain
 ---
@@ -32,9 +33,9 @@ This article looks at that operating condition: discount approvals happening out
 
 Most businesses have a rule about who may approve what level of discount. The rule exists in a policy document or in people's heads. The approval itself, however, happens wherever the conversation happened: a WhatsApp message, a hallway comment, an email, a phone call. The quote is then edited to the new price, and the quoting system records only the final figure. The link between the price, the person who approved it and the reason is lost, or sits in a place that finance and the customer-facing team cannot reach.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The person searching for this problem is usually a finance manager, sales director or revenue operations lead who has been caught out by a dispute or a margin shortfall. They want three things: to see which discounts were approved and by whom, to stop unapproved discounts reaching customers, and to do both without slowing the sales team to a crawl. Salespeople, who need quick answers to win deals, will use the fastest channel available. A control that is slower than a chat message will be bypassed.
+The person facing this problem is usually a finance manager, sales director or revenue operations lead who has been caught out by a dispute or a margin shortfall. They want three things: to see which discounts were approved and by whom, to stop unapproved discounts reaching customers, and to do both without slowing the sales team to a crawl. Salespeople, who need quick answers to win deals, will use the fastest channel available. A control that is slower than a chat message will be bypassed.
 
 ## Evidence and system mechanism
 

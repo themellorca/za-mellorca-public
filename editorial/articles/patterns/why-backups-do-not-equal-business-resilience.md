@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-331
 slug: why-backups-do-not-equal-business-resilience
-title: Why Backups Do Not Equal Business Resilience
-description: Having backups does not prove that critical services can be restored quickly, cleanly or in the right order. Resilience depends on tested recovery, dependencies and operational priorities.
+title: Why backups do not equal business resilience
+description: Having backups does not prove critical services can be restored quickly or in the right order. Resilience needs tested recovery and clear priorities.
 lead: Having backups does not prove that critical services can be restored quickly, cleanly or in the right order. Resilience depends on tested recovery, dependencies and operational priorities.
 category: Cloud, Infrastructure & Reliability
 published_date: 2026-09-02
@@ -19,7 +19,7 @@ cta_href: /services/digital-infrastructure/
 side_title: Commercial value
 side_text: The commercial question is whether critical services can be restored reliably when the business actually needs them.
 pattern_family: Cloud, Infrastructure & Reliability
-observable_condition: The organization has backups and may consider recovery covered, but restoration order, dependencies, recovery testing, ownership and acceptable downtime are not proven operationally.
+observable_condition: The organisation has backups and may consider recovery covered, but restoration order, dependencies, recovery testing, ownership and acceptable downtime are not proven operationally.
 primary_identification: recovery-readiness and service-resilience problem
 commercial_value_dimensions: Uptime, Revenue protection, Resilience, Scalability
 sources:
@@ -58,7 +58,9 @@ The following scenario is illustrative and does not describe a specific organisa
 
 A backup is evidence that data or system state has been copied. Resilience is evidence that the business can restore the services it depends on within an acceptable period and with acceptable loss. The two are related, but they are not the same thing, and the gap between them is where most of the recovery effort actually sits.
 
-NIST's [OT Backup Quick Start Guide](https://www.nist.gov/publications/ot-backup-quick-start-guide) (SP 1339, June 2026) describes effective backup management as integrating backups into change management, creating them regularly, testing them and reviewing them during recovery exercises. The UK National Cyber Security Centre's [guidance on backing up your data](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/backing-up-your-data) makes the same point for smaller organisations: once a backup exists, it is important to know how to restore it and to check that it contains all the important data. It also advises that an external backup device should not stay connected when not in use, because some malware affects connected devices. The underlying principle is broader than any one technology: recovery must be exercised, not assumed, and backups must be protected from the incidents they exist to recover from.
+NIST's [OT Backup Quick Start Guide](https://www.nist.gov/publications/ot-backup-quick-start-guide) (SP 1339, June 2026) describes effective backup management as integrating backups into change management, creating them regularly, testing them and reviewing them during recovery exercises. The UK National Cyber Security Centre's [guidance on backing up your data](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/backing-up-your-data) makes the same point for smaller organisations: once a backup exists, it is important to know how to restore it and to check that it contains all the important data.
+
+It also advises that an external backup device should not stay connected when not in use, because some malware affects connected devices. The underlying principle is broader than any one technology: recovery must be exercised, not assumed, and backups must be protected from the incidents they exist to recover from.
 
 > **Realisation prompt.** When did your business last prove that it could restore a critical service, not merely confirm that a backup file exists?
 >

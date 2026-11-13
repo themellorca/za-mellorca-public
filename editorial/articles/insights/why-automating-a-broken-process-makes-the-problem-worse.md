@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-152
 slug: why-automating-a-broken-process-makes-the-problem-worse
-title: Why Automating a Broken Process Makes the Problem Worse
-description: Automation does not repair a process. It runs it faster, at higher volume and without the people who were quietly correcting it. Six ways a broken process gets worse once automated, how to tell whether a process is ready, and what to fix first.
+title: Why automating a broken process makes the problem worse
+description: Automation does not repair a process. It runs it faster, without the people who quietly corrected it. Six ways it worsens, and what to fix first.
 lead: Automation does not repair a process. It runs it faster, at higher volume and without the people who were quietly correcting it. Six ways a broken process gets worse once automated, how to tell whether a process is ready, and what to fix first.
 category: Automation
 published_date: 2026-10-03
@@ -14,9 +14,9 @@ sources:
   - Muda, Mura, Muri - Get a Quick Introduction - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/muda/
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
 related:
-  - How to Know Whether an Automation Actually Ran | /insights/how-to-know-whether-an-automation-actually-ran/
-  - What Business Automation Should Actually Solve | /insights/what-business-automation-should-actually-solve/
-  - The Difference Between Necessary Human Work and Avoidable Manual Work | /insights/the-difference-between-necessary-human-work-and-avoidable-manual-work/
+  - How to know whether an automation actually ran | /insights/how-to-know-whether-an-automation-actually-ran/
+  - What business automation should actually solve | /insights/what-business-automation-should-actually-solve/
+  - The difference between necessary human work and avoidable manual work | /insights/the-difference-between-necessary-human-work-and-avoidable-manual-work/
 summary: Automation does not repair a process. It runs it faster, at higher volume and without the people who were quietly correcting it. Six ways a broken process gets worse once automated, how to tell whether a process is ready, and what to fix first.
 layout: plain
 ---

@@ -3,8 +3,8 @@ hub: discovery
 record_id: DISC-471
 slug: automations-break-when-application-interfaces-change
 title: Automations break when application interfaces change
-description: Discovery of fragile automation tied to evolving interfaces, causing failures when APIs or UI flows update.
-lead: Discovery of fragile automation tied to evolving interfaces, causing failures when APIs or UI flows update.
+description: Automations built on an application's screens or APIs fail when those change. Why it happens and how to make automations less fragile.
+lead: Automations built on an application's screens or APIs fail when those change. Why it happens and how to make automations less fragile.
 category: AI, Automation & Agent Operations
 published_date: 2026-09-08
 updated_date: 2026-09-08
@@ -18,10 +18,10 @@ sources:
   - RFC 9745: The Deprecation HTTP Response Header Field - RFC Editor | https://www.rfc-editor.org/rfc/rfc9745
   - How Pact works - Pact Docs | https://docs.pact.io/getting_started/how_pact_works
 related:
-  - Why Automations Should Not Run on Personal Credentials | /discovery/why-automations-should-not-run-on-personal-credentials/
+  - Why automations should not run on personal credentials | /discovery/why-automations-should-not-run-on-personal-credentials/
   - Agent conversations are not connected to durable business records | /discovery/agent-conversations-not-connected-to-durable-business-records/
   - AI usage costs are not allocated to business outcomes | /discovery/ai-usage-costs-not-allocated-to-business-outcomes/
-summary: Discovery of fragile automation tied to evolving interfaces, causing failures when APIs or UI flows update.
+summary: Automations built on an application's screens or APIs fail when those change. Why it happens and how to make automations less fragile.
 layout: plain
 ---
 ## The problem in plain language
@@ -30,19 +30,19 @@ Automation often depends on stable interfaces. When an application interface cha
 
 This fragility undermines confidence in automation programmes. It also creates backlogs, as teams chase a series of isolated patches rather than fixing the underlying design.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer wants durable automation that survives interface changes with minimal manual remediation, preserving delivery speed and reducing the maintenance burden. Typical search phrasing includes “automation broke after software update”, “API change broke integration”, “RPA bot fails after UI change”, “how to handle API deprecation” and “contract testing for integrations”.
+The aim is durable automation that survives interface changes with minimal manual remediation, preserving delivery speed and reducing the maintenance burden. The complaint usually sounds like “automation broke after software update”, “API change broke integration”, “RPA bot fails after UI change”, “how to handle API deprecation” and “contract testing for integrations”.
 
 The underlying question is how to know about a breaking change before it reaches production, and how to limit the number of places that must change when it does.
 
 ## Evidence and system mechanism
 
-Changes upstream ripple downstream, breaking automated scripts, connectors and orchestrations. Well-run API providers document this risk explicitly. Google's API Improvement Proposal AIP-180 states that existing client code must not be broken by a service updating to a new minor or patch release, and distinguishes source, wire and semantic compatibility. It lists changes that break clients even when they look harmless, including removing or renaming fields, changing field types, altering default values and changing the format of values in existing fields. The final category matters for automation: a change can keep the same structure while altering behaviour, which compiles and runs but produces different results.
+Changes upstream ripple downstream, breaking automated scripts, connectors and orchestrations. Well-run API providers document this risk explicitly. [Google's API Improvement Proposal AIP-180](https://google.aip.dev/180) states that existing client code must not be broken by a service updating to a new minor or patch release, and distinguishes source, wire and semantic compatibility. It lists changes that break clients even when they look harmless, including removing or renaming fields, changing field types, altering default values and changing the format of values in existing fields. The final category matters for automation: a change can keep the same structure while altering behaviour, which compiles and runs but produces different results.
 
-Standards also exist for signalling retirement. RFC 8594 defines the *Sunset* HTTP header, which indicates that a resource is likely to become unresponsive at a specified point in the future, and treats the date as advisory. RFC 9745 defines a *Deprecation* header that tells clients a resource will be or has been deprecated and encourages them to migrate, and requires that any Sunset date is not earlier than the Deprecation date. These signals only help if someone is watching for them. An automation that ignores response headers, or a connector maintained by a third party, will not raise the warning on its own.
+Standards also exist for signalling retirement. [RFC 8594](https://www.rfc-editor.org/rfc/rfc8594) defines the *Sunset* HTTP header, which indicates that a resource is likely to become unresponsive at a specified point in the future, and treats the date as advisory. [RFC 9745](https://www.rfc-editor.org/rfc/rfc9745) defines a *Deprecation* header that tells clients a resource will be or has been deprecated and encourages them to migrate, and requires that any Sunset date is not earlier than the Deprecation date. These signals only help if someone is watching for them. An automation that ignores response headers, or a connector maintained by a third party, will not raise the warning on its own.
 
-Contract testing addresses the detection gap. Pact's documentation describes consumer-driven contract testing, in which the consuming application records the interactions it expects, and those interactions are then replayed against the real provider to confirm that responses still contain what the consumer needs. The contract can be verified without running both services together, so a breaking change is caught in testing rather than in production.
+Contract testing addresses the detection gap. [Pact's documentation](https://docs.pact.io/getting_started/how_pact_works) describes consumer-driven contract testing, in which the consuming application records the interactions it expects, and those interactions are then replayed against the real provider to confirm that responses still contain what the consumer needs. The contract can be verified without running both services together, so a breaking change is caught in testing rather than in production.
 
 User-interface automation is more exposed still, because screens are rarely treated as contracts at all. Where a supported API or event exists, automation that drives screens is accepting avoidable change risk.
 

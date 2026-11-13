@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-044
 slug: certificates-confirmations-standard-letters-typed-by-hand-cost
-title: Typing Certificates and Confirmation Letters One by One: The Labour Cost
-description: Certificates, confirmations and standard letters produced one at a time from records the business already holds cost paid hours, invite errors and leave no reliable register of what was issued.
+title: Typing certificates and confirmation letters one by one: The labour cost
+description: Certificates, confirmations and letters produced one at a time from records you already hold cost paid hours, invite errors and leave no register.
 lead: Certificates, confirmations and standard letters produced one at a time from records the business already holds cost paid hours, invite errors and leave no reliable register of what was issued.
 category: Business Automation
 published_date: 2026-10-06
@@ -17,9 +17,9 @@ sources:
   - Using Word templates for bulk communications - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/ui-mail-merge
   - https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf | https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf
 related:
-  - Creating the Same Documents by Hand: The Labour Cost of Repeat Paperwork | /impact/same-documents-created-by-hand-repeat-paperwork-cost/
-  - Rebuilding the Same Report Every Month: The Labour Cost of Manual Reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
-  - From Inbox to System by Hand: The Labour Cost of Retyping Emails | /impact/copying-email-details-into-business-systems-admin-cost/
+  - Creating the same documents by hand: The labour cost of repeat paperwork | /impact/same-documents-created-by-hand-repeat-paperwork-cost/
+  - Rebuilding the same report every month: The labour cost of manual reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
+  - From inbox to system by hand: The labour cost of retyping emails | /impact/copying-email-details-into-business-systems-admin-cost/
 summary: Certificates, confirmations and standard letters produced one at a time from records the business already holds cost paid hours, invite errors and leave no reliable register of what was issued.
 layout: plain
 ---
@@ -47,7 +47,7 @@ This differs from the work of drafting proposals or contracts, where content var
 - Verification requests, such as an employer or client asking whether a certificate is genuine, require someone to search folders and inboxes.
 - Wording drifts as each person edits their own copy of the template.
 
-Some of these documents carry legal weight. The Basic Conditions of Employment Act, for example, entitles an employee on termination to a certificate of service stating their full name, the employer's name and address, the dates of commencement and termination, the job title or description of work, the remuneration at termination and, on request, the reason for termination. Every item is already in the employment record, and every item can be mistyped.
+Some of these documents carry legal weight. The [Basic Conditions of Employment Act](https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf), for example, entitles an employee on termination to a certificate of service stating their full name, the employer's name and address, the dates of commencement and termination, the job title or description of work, the remuneration at termination and, on request, the reason for termination. Every item is already in the employment record, and every item can be mistyped.
 
 ## How the pain becomes money
 
@@ -89,7 +89,7 @@ Manually produced documents tend to be stored as loose PDFs in personal folders 
 
 The better state treats each standard document as a template plus a data source plus a trigger. The wording is controlled in one approved template. The data comes from the record where it already lives. The document is generated when the event is recorded, or in a batch when many events complete at once, and each issued document is logged with its number, recipient and date.
 
-The basic tools are widely available. Microsoft's support documentation describes mail merge in Word as creating a batch of documents personalised for each recipient, using merge fields that pull data from a source such as an Excel spreadsheet, an Outlook contact list or another database. Business systems take this further: Microsoft's Business Central documentation describes Word templates that use the system's own records as the data source, can generate one document per record, and can be attached to an email directly from the system. Dedicated document generation and e-signature services add numbering, verification links and audit trails where the document's integrity matters.
+The basic tools are widely available. Microsoft's support documentation describes [mail merge](https://support.microsoft.com/en-us/office/use-mail-merge-for-bulk-email-letters-labels-and-envelopes-f488ed5b-b849-4c11-9cff-932c49474705) in Word as creating a batch of documents personalised for each recipient, using merge fields that pull data from a source such as an Excel spreadsheet, an Outlook contact list or another database. Business systems take this further: Microsoft's Business Central documentation describes Word templates that use the system's own records as the data source, can generate one document per record, and can be attached to an email directly from the system. Dedicated document generation and e-signature services add numbering, verification links and audit trails where the document's integrity matters.
 
 The deciding question is the one raised in [why a task still needs a person every time](/patterns/why-does-this-task-still-need-a-person-every-time/): what judgement is the person adding? For most standard documents, the honest answer is a final check, not authorship.
 

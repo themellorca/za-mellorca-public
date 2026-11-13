@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-335
 slug: when-one-unmonitored-component-can-stop-a-critical-service
-title: When One Unmonitored Component Can Stop a Critical Service
+title: When one unmonitored component can stop a critical service
 description: A business service can look healthy while depending on a small component nobody actively observes. The hidden dependency becomes visible only when it fails.
 lead: A service can appear resilient at the top while depending on a small, poorly observed component underneath it.
 category: Cloud, Infrastructure & Reliability
@@ -26,9 +26,9 @@ sources:
   - REL06-BP01 Monitor all components for the workload (Generation) - Reliability Pillar | https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_monitor_aws_resources_monitor_resources.html
   - CSWP 29, The NIST Cybersecurity Framework (CSF) 2.0 - CSRC | https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final
 related:
-  - Why Backups Do Not Equal Business Resilience | /patterns/why-backups-do-not-equal-business-resilience/
-  - Why Does a Small Technical Failure Stop the Whole Business? | /patterns/why-does-a-small-technical-failure-stop-the-whole-business/
-  - The Hidden Risk of One File Controlling an Operation | /patterns/the-hidden-risk-of-one-file-controlling-an-operation/
+  - Why backups do not equal business resilience | /patterns/why-backups-do-not-equal-business-resilience/
+  - Why does a small technical failure stop the whole business? | /patterns/why-does-a-small-technical-failure-stop-the-whole-business/
+  - The hidden risk of one file controlling an operation | /patterns/the-hidden-risk-of-one-file-controlling-an-operation/
 summary: A critical service can be only as resilient as its least-visible dependency. Mapping the complete service path and monitoring the components that can interrupt the outcome turns hidden single points of failure into manageable operational responsibilities.
 ---
 ## Observable condition
@@ -55,7 +55,7 @@ Established engineering guidance describes the gap clearly. Google's Site Reliab
 
 AWS's Well-Architected reliability guidance is more direct. It says all components of a workload should be monitored, including the front end, business logic and storage tiers. Among the anti-patterns it lists are monitoring only external interfaces, relying on simple health checks, and using only technical metrics without any measure of the business outcomes the workload supports. It gives an example: a metric such as orders successfully processed per minute can indicate a problem faster than a technical measure like CPU utilisation. It also recommends synthetic transactions, scripted tasks that follow the same route as a customer, so that issues can be discovered before customers find them.
 
-The NIST Cybersecurity Framework 2.0 adds the governance angle. Its outcomes include prioritising assets by criticality and impact, monitoring hardware, software and runtime environments, and monitoring the services of external providers. A component nobody has classified cannot be prioritised, and a component nobody owns is unlikely to be monitored deliberately.
+The [NIST Cybersecurity Framework](https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final) 2.0 adds the governance angle. Its outcomes include prioritising assets by criticality and impact, monitoring hardware, software and runtime environments, and monitoring the services of external providers. A component nobody has classified cannot be prioritised, and a component nobody owns is unlikely to be monitored deliberately.
 
 Put together, the diagnosis is structural. Monitoring was built around what was visible and what had failed before, not around the full path that a business outcome depends on.
 

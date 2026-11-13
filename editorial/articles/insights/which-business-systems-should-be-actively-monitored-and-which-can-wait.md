@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-379
 slug: which-business-systems-should-be-actively-monitored-and-which-can-wait
-title: Which Business Systems Should Be Actively Monitored?
-description: Monitoring everything creates noise, and monitoring nothing creates surprises. A way to decide which business systems deserve active monitoring, based on what stops when they fail rather than on what is technically interesting.
+title: Which business systems should be actively monitored?
+description: Monitoring everything creates noise and monitoring nothing creates surprises. How to choose which systems to monitor, based on what stops when they fail.
 lead: Monitoring everything creates noise, and monitoring nothing creates surprises. A way to decide which business systems deserve active monitoring, based on what stops when they fail rather than on what is technically interesting.
 category: Operational Resilience
 published_date: 2026-10-09
@@ -14,9 +14,10 @@ sources:
   - Architecture Strategies for Designing a Monitoring System - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/observability
   - What are Service-Level Objectives (SLOs)? - Atlassian | https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli
 related:
-  - How to Design Better Escalation Paths | /insights/how-to-design-better-escalation-paths-for-business-systems/
+  - How to design better escalation paths | /insights/how-to-design-better-escalation-paths-for-business-systems/
   - What business processes need documentation first? | /insights/what-business-processes-need-documentation-first/
   - Why chasing people for updates is a systems failure | /insights/why-chasing-people-for-updates-is-a-systems-failure/
+  - When infrastructure problems first appear as customer complaints | /patterns/when-infrastructure-faults-are-first-reported-by-customers-not-by-monitoring/
 summary: Monitoring everything creates noise, and monitoring nothing creates surprises. A way to decide which business systems deserve active monitoring, based on what stops when they fail rather than on what is technically interesting.
 layout: plain
 ---
@@ -61,15 +62,15 @@ The monitoring of automated processes has its own considerations, covered in [wh
 
 ## Decide what to measure for each monitored system
 
-Once a system is in scope, the next mistake is to measure whatever the tool makes easy. Google's site reliability guidance on monitoring distributed systems recommends concentrating on a small set of signals that reflect the user's experience: latency, traffic, errors and saturation. For a small business the translation is simpler. Ask whether the system is available, whether it is working correctly and whether it is running out of something.
+Once a system is in scope, the next mistake is to measure whatever the tool makes easy. Google's [site reliability guidance on monitoring distributed systems](https://sre.google/sre-book/monitoring-distributed-systems/) recommends concentrating on a small set of signals that reflect the user's experience: latency, traffic, errors and saturation. For a small business the translation is simpler. Ask whether the system is available, whether it is working correctly and whether it is running out of something.
 
-Microsoft's operational excellence guidance on observability makes a related point that monitoring should produce information people can act on rather than raw data. A metric that nobody could respond to is clutter. The most useful measure is often one tied to business completion, such as the number of invoices issued today compared with a normal day, because a system can be technically running while the work is not being completed. This gap is explored in why integration monitoring misses business completion.
+Microsoft's [operational excellence guidance on observability](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/observability) makes a related point that monitoring should produce information people can act on rather than raw data. A metric that nobody could respond to is clutter. The most useful measure is often one tied to business completion, such as the number of invoices issued today compared with a normal day, because a system can be technically running while the work is not being completed. This gap is explored in why integration monitoring misses business completion.
 
 ## Every alert needs an owner and an action
 
 Monitoring that cannot lead to action is a source of anxiety, not safety. Before turning anything on, answer three questions for each alert: who receives it, what they are expected to do, and what happens if they do not respond. If the answer to the first is “the IT mailbox”, the alert has no owner. The pattern is common and expensive, described in [monitoring alerts without a clear response owner](/discovery/monitoring-alerts-without-a-clear-response-owner/).
 
-Be disciplined about thresholds, too. Alerts that fire daily for harmless reasons teach people to ignore the one that matters. Prefer a few alerts that always require action over many that rarely do. Agree an objective for each important service, for example availability during trading hours, so that alerts reflect a target the business cares about. Atlassian's explanation of service level indicators, objectives and agreements is a helpful vocabulary for this conversation, even for small teams.
+Be disciplined about thresholds, too. Alerts that fire daily for harmless reasons teach people to ignore the one that matters. Prefer a few alerts that always require action over many that rarely do. Agree an objective for each important service, for example availability during trading hours, so that alerts reflect a target the business cares about. [Atlassian's explanation of service level indicators, objectives and agreements](https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli) is a helpful vocabulary for this conversation, even for small teams.
 
 ## Match the method to the tier
 

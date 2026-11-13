@@ -2,8 +2,8 @@
 hub: discovery
 record_id: DISC-343
 slug: why-free-trials-become-production-dependencies
-title: Why Free Trials Become Production Dependencies
-description: A free trial can become part of real operations before ownership, authorization, lifecycle and exit planning catch up.
+title: Why free trials become production dependencies
+description: A free trial can become part of real operations before ownership, authorisation, lifecycle and exit planning catch up.
 lead: The risky moment is not when someone starts a trial. It is when real work, data or customer activity begins depending on it without a deliberate production decision.
 category: SaaS & Application Portfolio Management
 published_date: 2026-09-06
@@ -23,9 +23,9 @@ sources:
   - Shadow IT guidance | https://www.ncsc.gov.uk/guidance/shadow-it
   - Lightweight approach to cloud security | https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles/lightweight-approach-to-cloud-security
 related:
-  - Why Businesses Cannot Produce a Complete List of the Applications They Use | /discovery/why-businesses-cannot-list-all-applications-they-use/
-  - Why Application Costs Cannot Be Allocated to Business Units | /discovery/why-application-costs-cannot-be-allocated-to-business-units/
-  - Why Legacy Applications Remain Live Without an Owner | /discovery/why-legacy-applications-remain-live-without-an-owner/
+  - Why businesses cannot produce a complete list of the applications they use | /discovery/why-businesses-cannot-list-all-applications-they-use/
+  - Why application costs cannot be allocated to business units | /discovery/why-application-costs-cannot-be-allocated-to-business-units/
+  - Why legacy applications remain live without an owner | /discovery/why-legacy-applications-remain-live-without-an-owner/
 ---
 ## The problem in plain language
 
@@ -33,11 +33,11 @@ A team starts a free or low-friction software trial to solve an immediate proble
 
 Nobody intended this. The tool worked, it solved a real need and nobody had a reason to stop using it. The problem surfaces later: when the trial expires, when a payment card is declined, when the person who set it up leaves, or when someone asks where a particular customer file is kept.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The buyer needs to know when experimentation crosses into production dependency, and how to bring that software under normal ownership, security, commercial and lifecycle controls before the trial expires or the original maker disappears.
 
-Search language tends to be practical: "how to find unapproved SaaS", "shadow IT discovery", "free trial expired and we lost our data", "SaaS sprawl" or "who owns this software". These are different descriptions of the same missing threshold.
+The complaints tend to be practical: "how do we find unapproved SaaS?", "how do we discover shadow IT?", "the free trial expired and we lost our data", "we have SaaS sprawl" or "who owns this software?" These are different descriptions of the same missing threshold.
 
 ## Evidence and system mechanism
 

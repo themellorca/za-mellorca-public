@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000072
 slug: why-reliable-information-comes-before-real-agency
-title: Why Agency Starts With Reliable Information
+title: Why agency starts with reliable information
 description: Authority to decide means little if the facts behind the decision keep shifting. A look at how trustworthy information underpins real autonomy at work.
 lead: Authority to decide means little if the facts behind the decision keep shifting. A look at how trustworthy information underpins real autonomy at work.
 category: Human Agency
@@ -18,11 +18,12 @@ sources:
   - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
   - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
   - Visibility of System Status | https://www.nngroup.com/articles/visibility-system-status/
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
 related:
-  - What Real Delegation Requires From Systems | /moments/what-real-delegation-requires-from-systems/
-  - The Freedom That Comes From Knowing Where Things Stand | /moments/the-freedom-that-comes-from-knowing-where-things-stand/
-  - When Monitoring Replaces Trust | /moments/when-monitoring-replaces-trust-in-the-reporting-line/
+  - What real delegation requires from systems | /moments/what-real-delegation-requires-from-systems/
+  - The freedom that comes from knowing where things stand | /moments/the-freedom-that-comes-from-knowing-where-things-stand/
+  - When monitoring replaces trust | /moments/when-monitoring-replaces-trust-in-the-reporting-line/
+  - When "The system won't let me" becomes the answer | /moments/when-the-system-wont-let-me-becomes-the-answer/
 summary: Authority to decide means little if the facts behind the decision keep shifting. A look at how trustworthy information underpins real autonomy at work.
 layout: plain
 ---
@@ -34,7 +35,7 @@ This piece explores a simple hypothesis: that a person's sense of agency at work
 
 We usually talk about agency as a matter of permission: who is allowed to decide, who may sign, who has the final say. Permission matters, but it is only half of the picture. To act on a decision you need to know what you are deciding about. If the stock figure might be wrong, the customer's balance might be out of date, or two reports disagree, then even a fully empowered person hesitates. They check with a colleague, wait for a reconciliation, or decide cautiously and later find out the decision was based on yesterday's reality.
 
-The World Health Organization's fact sheet on mental health at work lists a lack of control over job design or workload and an unclear job role among the psychosocial risks to mental health at work. Unreliable information is not named there as such, but it is a close relative. A role is hard to understand, and a workload is hard to control, when the facts about the work keep shifting.
+The World Health Organization's fact sheet on [mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) lists a lack of control over job design or workload and an unclear job role among the psychosocial risks to mental health at work. Unreliable information is not named there as such, but it is a close relative. A role is hard to understand, and a workload is hard to control, when the facts about the work keep shifting.
 
 The UK Health and Safety Executive's management standard on role asks organisations to keep the requirements they set for employees clear and to give people information that helps them understand their responsibilities. That is a standard about clarity, and clarity depends on the underlying records being something a person can lean on.
 
@@ -54,7 +55,7 @@ Reliable does not mean perfect. It means that a person can answer three question
 - **Is this the only version?** If two reports can show different numbers for the same thing, people spend their energy arguing about which one is right. The pattern is explored in [why reports cannot agree on the same number](/insights/why-your-reports-cannot-agree-on-the-same-number/).
 - **Who stands behind it?** A figure with a named owner can be corrected. A figure with no owner tends to be corrected only when it embarrasses someone.
 
-Nielsen Norman Group's article on visibility of system status makes a related point about software: when status information is missing or hard to read, users feel powerless, and when systems change things silently, trust erodes. Their advice, not to blindfold users, applies as well to an operations dashboard as to a shopping basket.
+Nielsen Norman Group's article on [visibility of system status](https://www.nngroup.com/articles/visibility-system-status/) makes a related point about software: when status information is missing or hard to read, users feel powerless, and when systems change things silently, trust erodes. Their advice, not to blindfold users, applies as well to an operations dashboard as to a shopping basket.
 
 The question of whether data is good enough to operate with is treated more fully in [what makes data good enough to operate with](/insights/what-makes-data-good-enough-to-operate-with/). The point for this piece is narrower. Good-enough data is not only a technical property. It is a condition for people to use the authority they have been given.
 

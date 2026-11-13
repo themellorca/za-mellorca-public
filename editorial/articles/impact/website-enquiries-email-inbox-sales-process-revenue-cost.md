@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-426
 slug: website-enquiries-email-inbox-sales-process-revenue-cost
-title: An Inbox Is Not a Sales Process: The Revenue Cost of Emailed Website Enquiries
-description: When website enquiries land in an email inbox, nobody can see which were answered, quoted, won or lost. Capturing them as records in a managed sales process makes revenue leakage measurable and fixable.
+title: An inbox is not a sales process: The revenue cost of emailed website enquiries
+description: When website enquiries land in an inbox, nobody can see which were answered, quoted, won or lost. A managed sales process makes revenue leakage measurable.
 lead: When website enquiries land in an email inbox, nobody can see which were answered, quoted, won or lost. Capturing them as records in a managed sales process makes revenue leakage measurable and fixable.
 category: Sales Operations
 published_date: 2026-10-07
@@ -15,11 +15,12 @@ primary_cost_mechanism: Revenue loss from unworked and untracked enquiries, plus
 sources:
   - Use non-HubSpot forms | https://knowledge.hubspot.com/forms/use-non-hubspot-forms
   - Qualify and convert a lead to opportunity | https://learn.microsoft.com/en-us/dynamics365/sales/qualify-lead-convert-opportunity-sales
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
 related:
-  - Retyping Website Enquiries Into the CRM: The Cost of Slow, Error-Prone Lead Capture | /impact/retyping-website-enquiries-into-crm-lead-capture-cost/
-  - Customer Records in Salespeople's Spreadsheets: The Revenue and Continuity Cost | /impact/salespeople-personal-spreadsheets-customer-records-cost/
-  - "Let Me Check and Come Back to You": The Cost of Manual Availability Checks | /impact/checking-stock-capacity-by-hand-before-promising-cost/
+  - Retyping website enquiries into the CRM: The cost of slow, error-prone lead capture | /impact/retyping-website-enquiries-into-crm-lead-capture-cost/
+  - Customer records in salespeople's spreadsheets: The revenue and continuity cost | /impact/salespeople-personal-spreadsheets-customer-records-cost/
+  - "Let me check and come back to you": The cost of manual availability checks | /impact/checking-stock-capacity-by-hand-before-promising-cost/
+  - Forms that email instead of update: The cost of slow replies and lost enquiries | /impact/website-forms-emailing-instead-of-updating-systems-response-cost/
 summary: When website enquiries land in an email inbox, nobody can see which were answered, quoted, won or lost. Capturing them as records in a managed sales process makes revenue leakage measurable and fixable.
 layout: plain
 ---

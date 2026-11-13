@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-071
 slug: from-rejected-message-to-unhappy-customer-how-integration-errors-reach-customers
-title: How Integration Errors Turn Into Customer Problems
-description: Five ways a quiet failure between two systems becomes a duplicate charge, a missed delivery or a wrong price, and the checks that let the business find the fault before the customer does.
+title: How integration errors turn into customer problems
+description: Five ways a quiet failure between two systems becomes a duplicate charge or wrong price, and the checks that catch the fault before the customer does.
 lead: Five ways a quiet failure between two systems becomes a duplicate charge, a missed delivery or a wrong price, and the checks that let the business find the fault before the customer does.
 category: Systems Integration
 published_date: 2026-10-10
@@ -14,9 +14,9 @@ sources:
   - Idempotent requests - Stripe API Reference | https://docs.stripe.com/api/idempotent_requests
   - Compensating Transaction Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction
 related:
-  - What to Check Before Rebuilding a Broken Integration | /insights/six-checks-before-you-rebuild-a-broken-integration/
-  - How to Handle Failed Integrations Without Losing Work | /insights/how-to-handle-failed-integrations-without-losing-the-work-in-flight/
-  - When an Integration Platform Makes Sense—and When It Does Not | /insights/when-an-integration-platform-is-worth-buying-and-when-it-is-not/
+  - What to check before rebuilding a broken integration | /insights/six-checks-before-you-rebuild-a-broken-integration/
+  - How to handle failed integrations without losing work | /insights/how-to-handle-failed-integrations-without-losing-the-work-in-flight/
+  - When an integration platform makes sense—and when it does not | /insights/when-an-integration-platform-is-worth-buying-and-when-it-is-not/
 summary: Five ways a quiet failure between two systems becomes a duplicate charge, a missed delivery or a wrong price, and the checks that let the business find the fault before the customer does.
 layout: plain
 ---
@@ -42,7 +42,7 @@ The customer, by contrast, is the one person who compares what the business says
 
 **What happens inside:** a connection times out, the sender is unsure whether the message was received, and sends it again. The receiver processes both.
 
-**What the customer sees:** two deliveries, two invoices or two charges. Microsoft's description of the idempotent consumer pattern explains why this happens: most message brokers guarantee at-least-once delivery, which means the same message can legitimately be delivered more than once, and it is impractical to guarantee exactly-once delivery across a distributed system. The durable solution, it says, is not to eliminate duplicates but to make the receiver process them correctly. It lists the effects of failing to do so as duplicate records, double-charging a customer and other unwanted effects. The related article on [how to design retries without creating duplicate work](/insights/how-to-design-retries-without-creating-duplicate-work/) goes into detail.
+**What the customer sees:** two deliveries, two invoices or two charges. Microsoft's description of the [idempotent consumer pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/idempotent-consumer) explains why this happens: most message brokers guarantee at-least-once delivery, which means the same message can legitimately be delivered more than once, and it is impractical to guarantee exactly-once delivery across a distributed system. The durable solution, it says, is not to eliminate duplicates but to make the receiver process them correctly. It lists the effects of failing to do so as duplicate records, double-charging a customer and other unwanted effects. The related article on [how to design retries without creating duplicate work](/insights/how-to-design-retries-without-creating-duplicate-work/) goes into detail.
 
 ### 3. The message that arrived late
 
@@ -60,14 +60,14 @@ The customer, by contrast, is the one person who compares what the business says
 
 **What happens inside:** a business operation spans several steps in several systems, such as reserve stock, take payment, create the shipment, and one of the later steps fails after earlier ones have succeeded.
 
-**What the customer sees:** a charge with no order, or an order that cannot be fulfilled. Microsoft's compensating transaction pattern addresses exactly this case. It notes that in a multi-step operation spread across systems, a failure part-way through may require undoing the work from the completed steps, that this logic is specific to the application, and that some steps cannot be reversed at all. It recommends defining the points of no return and arranging for a human to decide in ambiguous or high-impact cases. For a business, the practical question is: for each multi-step process, who finds out when it stops partway, and what is the agreed way to put it right?
+**What the customer sees:** a charge with no order, or an order that cannot be fulfilled. Microsoft's [compensating transaction pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction) addresses exactly this case. It notes that in a multi-step operation spread across systems, a failure part-way through may require undoing the work from the completed steps, that this logic is specific to the application, and that some steps cannot be reversed at all. It recommends defining the points of no return and arranging for a human to decide in ambiguous or high-impact cases. For a business, the practical question is: for each multi-step process, who finds out when it stops partway, and what is the agreed way to put it right?
 
 ## Close the gap between failure and discovery
 
 The aim is for the business to learn about each of these failures before the customer does. Four practices make the biggest difference.
 
 1. **Check outcomes, not only errors.** Technical monitoring asks whether a connection is up. Customer-protecting monitoring asks whether the thing that should have happened did happen: orders received equal orders acknowledged, payments received equal statuses updated. This gap is described in [why integration monitoring misses business completion](/discovery/why-integration-monitoring-misses-business-completion/).
-2. **Give every record a stable identity.** A reference that survives retries lets the receiving system recognise a repeat. Stripe's documentation on idempotent requests describes the idea: the caller supplies a unique key, the server saves the result of the first request made with that key, and any repeat with the same key returns the same result, so a connection error can be retried without performing the operation twice. You do not need Stripe to apply the principle. An order number checked before creating an order does the same job.
+2. **Give every record a stable identity.** A reference that survives retries lets the receiving system recognise a repeat. Stripe's documentation on [idempotent requests](https://docs.stripe.com/api/idempotent_requests) describes the idea: the caller supplies a unique key, the server saves the result of the first request made with that key, and any repeat with the same key returns the same result, so a connection error can be retried without performing the operation twice. You do not need Stripe to apply the principle. An order number checked before creating an order does the same job.
 3. **Reconcile regularly.** A daily or weekly comparison between two systems, such as orders placed against orders in fulfilment, catches the wrong-data and late-data patterns that error handling cannot see.
 4. **Treat the first customer complaint as evidence.** A complaint about a duplicate or a missing confirmation is rarely a one-off. Ask how many other customers were affected, and look back through the same period.
 

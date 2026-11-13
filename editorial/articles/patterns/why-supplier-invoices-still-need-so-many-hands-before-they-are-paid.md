@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-153
 slug: why-supplier-invoices-still-need-so-many-hands-before-they-are-paid
-title: Why Supplier Invoices Still Need So Many Hands Before They Are Paid
-description: Each supplier invoice is opened, checked, keyed, matched, approved and paid by hand. The hidden cost is not only the typing, but the checks that depend on memory: valid tax details, duplicates, delivery and changed bank details.
+title: Why supplier invoices still need so many hands before they are paid
+description: Each supplier invoice is opened, keyed, matched and approved by hand. The hidden cost is memory-based checks, such as duplicates and changed bank details.
 lead: Each supplier invoice is opened, checked, keyed, matched, approved and paid by hand. The hidden cost is not only the typing, but the checks that depend on memory: valid tax details, duplicates, delivery and changed bank details.
 category: Finance, Billing & Cash Flow
 published_date: 2026-10-07
@@ -18,9 +18,9 @@ sources:
   - Sabric warns customers of banking scam | https://www.sanews.gov.za/south-africa/sabric-warns-customers-banking-scam
   - Vendor invoices overview - Finance - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/vendor-invoices-overview
 related:
-  - When Cash Collection Depends on Someone Remembering to Follow Up | /patterns/when-cash-collection-depends-on-someone-remembering-to-follow-up/
-  - Why Your Technology Stack Keeps Growing but the Business Gets No Smarter | /patterns/why-a-growing-technology-stack-does-not-make-the-business-smarter/
-  - When Customers Can See the Gaps Between Your Systems | /patterns/when-customers-can-see-the-gaps-between-your-systems/
+  - When cash collection depends on someone remembering to follow up | /patterns/when-cash-collection-depends-on-someone-remembering-to-follow-up/
+  - Why your technology stack keeps growing but the business gets no smarter | /patterns/why-a-growing-technology-stack-does-not-make-the-business-smarter/
+  - When customers can see the gaps between your systems | /patterns/when-customers-can-see-the-gaps-between-your-systems/
 summary: Each supplier invoice is opened, checked, keyed, matched, approved and paid by hand. The hidden cost is not only the typing, but the checks that depend on memory: valid tax details, duplicates, delivery and changed bank details.
 layout: plain
 ---
@@ -36,7 +36,7 @@ An illustrative example: a Free State agricultural supplies business with four b
 
 The visible cost of manual invoice processing is the typing. The larger cost sits in the checks that the process quietly depends on, each performed from memory and experience rather than by design.
 
-Is this a valid tax invoice? SARS's checklist for VAT invoices sets out what a full tax invoice must contain where the supply exceeds R5,000, including the words "tax invoice", the supplier's and recipient's names, addresses and VAT numbers, a serial number and date, a description and quantity, and the value, VAT and total. A different, shorter set applies to abridged invoices. A clerk checking this by eye on hundreds of invoices will sometimes miss an omission, and an invalid invoice can affect the input tax the business is entitled to claim.
+Is this a valid [tax invoice](https://www.sars.gov.za/wp-content/uploads/Docs/Government/Tax-Invoice-Checklist-Version-2-29032016.pdf)? SARS's checklist for VAT invoices sets out what a full tax invoice must contain where the supply exceeds R5,000, including the words "tax invoice", the supplier's and recipient's names, addresses and VAT numbers, a serial number and date, a description and quantity, and the value, VAT and total. A different, shorter set applies to abridged invoices. A clerk checking this by eye on hundreds of invoices will sometimes miss an omission, and an invalid invoice can affect the input tax the business is entitled to claim.
 
 Has it already been captured? Duplicate invoices, resent reminders and statements that look like invoices all arrive in the same inbox. Did the goods actually arrive, at the agreed price and quantity? Without matching to an order and a delivery record, the business pays what it is billed.
 

@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000019
 slug: why-waiting-for-information-feels-like-working
-title: Why Waiting for Information Feels Like Working
-description: Checking whether the figures have arrived, whether the quote was signed off, whether anyone has replied. Waiting for information can fill a day and still feel like work. What that hidden waiting costs, and what makes it visible.
+title: Why waiting for information feels like working
+description: Checking whether the figures have arrived or anyone has replied can fill a day and still feel like work. What that hidden waiting costs, and how to see it.
 lead: Checking whether the figures have arrived, whether the quote was signed off, whether anyone has replied. Waiting for information can fill a day and still feel like work. What that hidden waiting costs, and what makes it visible.
 category: Time and Attention
 published_date: 2026-10-04
@@ -19,9 +19,9 @@ sources:
   - Approve or reject documents in workflows - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
   - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
 related:
-  - Ten Open Tabs and Five Logins: What the Morning Sign-In Takes | /moments/ten-open-tabs-and-five-logins/
-  - The Morning Routine of Checking Whether Overnight Jobs Ran | /moments/the-morning-check-that-overnight-jobs-ran/
-  - When Every Day Starts by Rebuilding Yesterday's Context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
+  - Ten open tabs and five logins: What the morning sign-in takes | /moments/ten-open-tabs-and-five-logins/
+  - The morning routine of checking whether overnight jobs ran | /moments/the-morning-check-that-overnight-jobs-ran/
+  - When every day starts by rebuilding yesterday's context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
 summary: Checking whether the figures have arrived, whether the quote was signed off, whether anyone has replied. Waiting for information can fill a day and still feel like work. What that hidden waiting costs, and what makes it visible.
 layout: plain
 ---
@@ -33,7 +33,7 @@ This piece explores why waiting for information so often feels like working, and
 
 ## The difference between doing and waiting
 
-Lean thinking, which grew out of manufacturing, has long distinguished between two measures of time. The Lean Enterprise Institute's description of value stream mapping separates cycle time, the time it takes to actually perform a piece of work, from lead time, the time it takes one item to move all the way through a process from start to finish. The gap between the two is largely time spent waiting: in queues, between steps, for the next person.
+Lean thinking, which grew out of manufacturing, has long distinguished between two measures of time. The Lean Enterprise Institute's description of [value stream mapping](https://www.lean.org/lexicon-terms/value-stream-mapping/) separates cycle time, the time it takes to actually perform a piece of work, from lead time, the time it takes one item to move all the way through a process from start to finish. The gap between the two is largely time spent waiting: in queues, between steps, for the next person.
 
 The same institute describes continuous flow as passing each piece immediately to the next step without stagnation in between. In office work, stagnation rarely looks like a pile of parts on a factory floor. It looks like an email awaiting a reply, a document awaiting approval, or a figure awaiting someone's attention.
 
@@ -74,7 +74,7 @@ The aim is not to remove waiting entirely. Some waiting is unavoidable. The aim 
 
 1. **Give requests a status.** Approval and workflow tools typically show where something stands. Microsoft's documentation for approvals in its Business Central system, for example, shows a record moving from open to pending approval to released, with a page listing every request awaiting a response. A simple shared tracker can do the same for information requests.
 2. **Agree when inputs are due.** A standing agreement that delivery figures are ready by nine on Monday turns hovering into a clear expectation.
-3. **Route requests rather than chase them.** Microsoft's Power Automate documentation describes approval requests that notify approvers, let them respond from email or Teams, and keep a history. The point is that the system carries the reminder, not the person.
+3. **Route requests rather than chase them.** Microsoft's [Power Automate](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) documentation describes approval requests that notify approvers, let them respond from email or Teams, and keep a history. The point is that the system carries the reminder, not the person.
 4. **Plan for absence.** The Business Central documentation also describes delegating requests to a substitute and sending overdue notifications so that requests do not pile up when someone is unavailable.
 5. **Remove the wait altogether.** Where the same figures are needed every week, they can often be drawn directly from the systems that hold them, so nobody has to send them at all.
 

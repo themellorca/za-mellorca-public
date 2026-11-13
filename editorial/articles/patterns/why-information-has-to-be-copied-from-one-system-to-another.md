@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-028
 slug: why-information-has-to-be-copied-from-one-system-to-another
-title: Why Information Has to Be Copied From One System to Another
-description: Re-keying between systems usually persists because nobody has defined how the two systems describe the same thing. The person copying is quietly doing the translation.
+title: Why information has to be copied from one system to another
+description: Re-keying between systems persists because nobody has defined how each describes the same thing. The person copying is quietly doing the translation.
 lead: Re-keying between systems usually persists because nobody has defined how the two systems describe the same thing. The person copying is quietly doing the translation.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-03
@@ -18,9 +18,9 @@ sources:
   - Extract, transform, load (ETL) - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl
   - What is Master Data Management? - IBM | https://www.ibm.com/think/topics/master-data-management
 related:
-  - When Your CRM Knows Something Your Finance System Does Not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
-  - When Nobody Knows Which System Holds the Correct Data | /patterns/when-nobody-knows-which-system-holds-the-correct-data/
-  - Why Salespeople Spend Time Updating Systems Instead of Selling | /patterns/why-salespeople-spend-time-updating-systems-instead-of-selling/
+  - When your CRM knows something your finance system does not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
+  - When nobody knows which system holds the correct data | /patterns/when-nobody-knows-which-system-holds-the-correct-data/
+  - Why salespeople spend time updating systems instead of selling | /patterns/why-salespeople-spend-time-updating-systems-instead-of-selling/
 summary: Re-keying between systems usually persists because nobody has defined how the two systems describe the same thing. The person copying is quietly doing the translation.
 layout: plain
 ---
@@ -44,7 +44,7 @@ That translation is real business logic. It is just being held in someone's head
 
 This is a data-model and data-mapping problem presenting as a manual-entry problem. The visible symptom is copying. The common assumption is that the systems simply lack a connector. The structural cause is usually that the business has never defined which system owns each piece of information and how the same item is represented in each system.
 
-Data mapping is the formal name for this work. As the encyclopaedic definition puts it, data mapping defines correspondences and transformation rules between data in a source model and data in a target model, including conversion, concatenation and restructuring. Where those rules do not exist in software, a person performs them by hand.
+Data mapping is the formal name for this work. As [the encyclopaedic definition](https://en.wikipedia.org/wiki/Data_mapping) puts it, data mapping defines correspondences and transformation rules between data in a source model and data in a target model, including conversion, concatenation and restructuring. Where those rules do not exist in software, a person performs them by hand.
 
 ## Diagnosis
 
@@ -56,7 +56,7 @@ When copying persists, one or more of these mechanisms is usually present.
 - **No agreed owner.** Neither system is the recognised source for the record, so both are edited and the copying also becomes reconciliation. The Insight on [deciding what should be the system of record](/insights/how-to-decide-what-should-be-the-system-of-record/) covers this choice.
 - **Systems bought separately.** Each application was chosen by a different team for a local need. Nobody looked at how its data model would sit next to the others.
 
-Microsoft's architecture guidance on extract, transform and load describes the same challenge at enterprise scale: organisations gather data from sources in different formats, and the data often has to be shaped, cleaned or transformed before it is loaded, with transformation steps such as filtering, joining, deduplicating and validating. A small business faces the same problem with smaller volumes. It simply tends to solve it with a person instead of a pipeline.
+[Microsoft's architecture guidance on extract, transform and load](https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl) describes the same challenge at enterprise scale: organisations gather data from sources in different formats, and the data often has to be shaped, cleaned or transformed before it is loaded, with transformation steps such as filtering, joining, deduplicating and validating. A small business faces the same problem with smaller volumes. It simply tends to solve it with a person instead of a pipeline.
 
 ## Commercial impact
 
@@ -76,7 +76,7 @@ The opposite mistake is to accept copying as permanent because "the systems are 
 
 In a better state, each important record has a named owning system. Identifiers are cross-referenced in a maintained table, or one system's identifiers are adopted by the other. Structural differences are handled by documented transformation rules. Values that do not map cleanly are resolved by changing one system's configuration, or routed to a person as a flagged exception rather than handled silently.
 
-Master data management is the discipline behind this at larger scale. IBM describes it as consolidating critical data, such as customer, product and location records, so that departments are not keeping separate and conflicting versions of the same entity. Smaller businesses rarely need a dedicated platform, but they do need the same decisions.
+Master data management is the discipline behind this at larger scale. [IBM describes it](https://www.ibm.com/think/topics/master-data-management) as consolidating critical data, such as customer, product and location records, so that departments are not keeping separate and conflicting versions of the same entity. Smaller businesses rarely need a dedicated platform, but they do need the same decisions.
 
 ## Intervention
 

@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000380
 slug: when-nobody-can-say-which-number-is-true
-title: When Nobody Can Say Which Number Is True
-description: Two reports, two different figures, and a room full of people who each have a reason to believe their own. What disagreement over numbers quietly takes from the people who present them.
+title: When nobody can say which number is true
+description: Two reports, two different figures, and a room of people who each trust their own. What disagreement over numbers quietly takes from the people presenting.
 lead: Two reports, two different figures, and a room full of people who each have a reason to believe their own. What disagreement over numbers quietly takes from the people who present them.
 category: Trust, Fairness & Clarity
 published_date: 2026-10-03
@@ -17,10 +17,11 @@ epistemic_state: HYPOTHESISED for the human experience of presenting contested f
 sources:
   - What Is Data Quality? - IBM | https://www.ibm.com/think/topics/data-quality
   - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
+  - Endorse Power BI content - Microsoft Learn | https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content
 related:
-  - Ten Open Tabs and Five Logins: What the Morning Sign-In Takes | /moments/ten-open-tabs-and-five-logins/
-  - The Meeting That Could Have Been a Shared Record | /moments/the-meeting-that-could-have-been-a-shared-record/
-  - When Screens Sit Between Colleagues Who Sit Together | /moments/when-screens-sit-between-colleagues-who-sit-together/
+  - Ten open tabs and five logins: What the morning sign-in takes | /moments/ten-open-tabs-and-five-logins/
+  - The meeting that could have been a shared record | /moments/the-meeting-that-could-have-been-a-shared-record/
+  - When screens sit between colleagues who sit together | /moments/when-screens-sit-between-colleagues-who-sit-together/
 summary: Two reports, two different figures, and a room full of people who each have a reason to believe their own. What disagreement over numbers quietly takes from the people who present them.
 layout: plain
 ---
@@ -45,11 +46,11 @@ The human tax in this record is **confidence**. Not confidence as a personality 
 
 The published frameworks on data quality are useful here because they shift the frame away from individuals.
 
-IBM's overview of data quality lists the dimensions organisations typically assess, including accuracy, completeness, validity, timeliness, uniqueness and consistency, and describes consistency as alignment across multiple data sources. Its argument is direct: where sources are not consistent, teams cannot trust the insights drawn from them. The UK Government Data Quality Framework makes a similar point in public-sector language. It describes data quality as *fitness for purpose* and states that poor or unknown quality data weakens evidence and undermines trust.
+IBM's overview of data quality lists the dimensions organisations typically assess, including accuracy, completeness, validity, timeliness, uniqueness and consistency, and describes consistency as alignment across multiple data sources. Its argument is direct: where sources are not consistent, teams cannot trust the insights drawn from them. The UK [Government Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework) makes a similar point in public-sector language. It describes data quality as *fitness for purpose* and states that poor or unknown quality data weakens evidence and undermines trust.
 
 Note the word *unknown*. A figure does not have to be wrong to undermine trust. It only has to be untraceable. If nobody can explain which system it came from, which definition of "active customer" or "revenue" was applied, and when it was extracted, then even a correct number is fragile.
 
-The UK framework also recommends documenting and sharing metadata to reduce ambiguity, and being open about known quality issues. In ordinary business terms, that means the definition and origin of a figure should travel with it.
+The UK framework also recommends documenting and sharing metadata to reduce ambiguity, and being open about known quality issues. In ordinary business terms, that means the definition and origin of a figure should travel with it. Business intelligence tools offer a practical version of this: Power BI's [content endorsement](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content) lets an organisation mark content as certified, meaning it meets the organisation's quality standards and can be regarded as reliable and authoritative.
 
 When that does not happen, the burden of explanation falls on whoever is holding the report. That is the mechanism this story is about: **missing definitions and lineage in the system become personal accountability for the individual**.
 

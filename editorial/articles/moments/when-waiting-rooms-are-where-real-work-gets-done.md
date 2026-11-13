@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000041
 slug: when-waiting-rooms-are-where-real-work-gets-done
-title: When Waiting Rooms Are Where Real Work Gets Done
-description: For many managers, the doctor's waiting room or the car-service lounge has become the only quiet place to approve, reply and decide. Why considered work migrates to the gaps in the day, and what gives that time back.
+title: When waiting rooms are where real work gets done
+description: For many managers, the doctor's waiting room is the only quiet place to approve and decide. Why considered work migrates to gaps in the day, and the fix.
 lead: For many managers, the doctor's waiting room or the car-service lounge has become the only quiet place to approve, reply and decide. Why considered work migrates to the gaps in the day, and what gives that time back.
 category: Time & Attention
 published_date: 2026-10-06
@@ -19,9 +19,9 @@ sources:
   - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
   - Device security guidance | https://www.ncsc.gov.uk/collection/mobile-device-guidance
 related:
-  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
-  - Why “I'll Do It Tonight” Became the Default Plan | /moments/why-ill-do-it-tonight-became-the-default-plan/
-  - The Weekend That Exists Only on Paper | /moments/the-weekend-that-exists-only-on-paper/
+  - The lunch break eaten by approval requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - Why “I'll do it tonight” became the default plan | /moments/why-ill-do-it-tonight-became-the-default-plan/
+  - The weekend that exists only on paper | /moments/the-weekend-that-exists-only-on-paper/
 summary: For many managers, the doctor's waiting room or the car-service lounge has become the only quiet place to approve, reply and decide. Why considered work migrates to the gaps in the day, and what gives that time back.
 layout: plain
 ---
@@ -35,7 +35,7 @@ The working day is full long before it starts. Meetings, calls, site visits and 
 
 The waiting room offers that gap. It is twenty minutes with nothing else expected, and a phone in hand. So the queued decisions come out, and get made on a small screen, with partial information, between announcements.
 
-Microsoft's 2025 Work Trend Index report on the "infinite workday", based on aggregated Microsoft 365 signals, found that the most-interrupted users were interrupted every two minutes by a meeting, email or notification during core hours. Those figures are not South African and describe the heaviest-hit users, so they should be read as indicative. But they help explain why considered work leaves the desk: the desk is where interruptions happen, and the gaps elsewhere are where they do not.
+Microsoft's 2025 [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) report on the "infinite workday", based on aggregated Microsoft 365 signals, found that the most-interrupted users were interrupted every two minutes by a meeting, email or notification during core hours. Those figures are not South African and describe the heaviest-hit users, so they should be read as indicative. But they help explain why considered work leaves the desk: the desk is where interruptions happen, and the gaps elsewhere are where they do not.
 
 This is related to, but different from, what Mellorca describes in [why the commute has become unpaid triage time](/moments/why-the-commute-has-become-unpaid-triage-time/). The commute is a fixed part of every day. Waiting rooms are irregular and unplanned, which makes them harder to protect and easier to fill without noticing.
 
@@ -64,7 +64,7 @@ There is also a design question. Many decisions arrive on a phone without the co
 ## What could realistically change
 
 1. **Protect decision time at the desk.** A short, recurring block in the day for approvals and considered replies, treated like a meeting, gives queued decisions a home other than the next gap.
-2. **Put the context in the request.** Approval tools can carry the information an approver needs. Microsoft's Power Automate documentation, for example, describes approval requests that approvers can respond to from an Outlook email, a Teams card or an action centre. That is only helpful if the request includes the supplier, amount, reason and budget position, not just a reference number.
+2. **Put the context in the request.** Approval tools can carry the information an approver needs. Microsoft's [Power Automate](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) documentation, for example, describes approval requests that approvers can respond to from an Outlook email, a Teams card or an action centre. That is only helpful if the request includes the supplier, amount, reason and budget position, not just a reference number.
 3. **Move routine decisions down.** If a purchase within an agreed budget and value limit can be approved by someone else, it never needs to reach the waiting room. Mellorca's insight on [why approval processes become bottlenecks](/insights/why-approval-processes-become-bottlenecks/) covers how approval limits are usually set.
 4. **Decide what can wait.** Many items feel urgent because they arrive with a notification. A shared understanding of what genuinely cannot wait until tomorrow removes some of the pressure to clear everything immediately.
 5. **Secure the devices properly.** If phones are going to be used for approvals, they need to be managed like any other business device. The UK National Cyber Security Centre's device guidance covers how organisations choose, configure and manage devices used for work.

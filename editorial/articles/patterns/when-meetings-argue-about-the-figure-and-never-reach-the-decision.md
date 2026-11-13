@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-073
 slug: when-meetings-argue-about-the-figure-and-never-reach-the-decision
-title: When People Debate the Number Instead of the Decision
-description: Meetings that dwell on whether a figure is exactly right often postpone the choice it was meant to inform. Learn how to frame decisions, thresholds and tolerances so evidence gets used.
+title: When people debate the number instead of the decision
+description: Meetings that dwell on whether a figure is exactly right often postpone the decision it was meant to inform. Set thresholds so evidence gets used.
 lead: Meetings that dwell on whether a figure is exactly right often postpone the choice it was meant to inform. Learn how to frame decisions, thresholds and tolerances so evidence gets used.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-10
@@ -19,9 +19,9 @@ sources:
   - What Is Data Quality? - IBM | https://www.ibm.com/think/topics/data-quality
   - What is Data Governance? - IBM | https://www.ibm.com/think/topics/data-governance
 related:
-  - When Your Metrics Arrive After the Decision Was Needed | /patterns/when-the-number-arrives-after-the-decision-is-made/
-  - The Pattern Behind Conflicting Management Reports | /patterns/why-two-correct-management-reports-still-contradict-each-other/
-  - Why Real-Time Operations Still Depend on Friday Reports | /patterns/why-live-data-still-gets-managed-from-a-weekly-report/
+  - When your metrics arrive after the decision was needed | /patterns/when-the-number-arrives-after-the-decision-is-made/
+  - The pattern behind conflicting management reports | /patterns/why-two-correct-management-reports-still-contradict-each-other/
+  - Why real-time operations still depend on Friday reports | /patterns/why-live-data-still-gets-managed-from-a-weekly-report/
 summary: Meetings that dwell on whether a figure is exactly right often postpone the choice it was meant to inform. Learn how to frame decisions, thresholds and tolerances so evidence gets used.
 layout: plain
 ---
@@ -51,7 +51,7 @@ The visible symptom is a debate about the number. The common assumption is that 
 
 - **No stated decision.** The agenda item is a topic ("utilisation") instead of a question ("add a second team: yes or no, by when?"). Without a question, any figure is arguable.
 - **No threshold.** Nobody has said what result would lead to which choice. If 70% utilisation means "hire" and 85% means "wait", the argument over 78% versus 81% dissolves. If no threshold exists, every number invites reinterpretation.
-- **Quality is judged in the abstract.** The UK Government Data Quality Framework starts from a simple premise: data quality means asking whether a dataset is good enough for its intended use, and the level required depends on that use. It states that perfect quality is rarely achievable and that trade-offs, such as between timeliness and accuracy, should be prioritised according to what matters to users and communicated openly. A meeting that has not named the intended use has no way to apply that test.
+- **Quality is judged in the abstract.** The UK [Government Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework) starts from a simple premise: data quality means asking whether a dataset is good enough for its intended use, and the level required depends on that use. It states that perfect quality is rarely achievable and that trade-offs, such as between timeliness and accuracy, should be prioritised according to what matters to users and communicated openly. A meeting that has not named the intended use has no way to apply that test.
 - **Presentation that invites the wrong argument.** Microsoft's dashboard design guidance advises asking what key metrics help the audience make decisions and which information they need to be successful, and warns that cluttered displays hide the important item. A pack that offers forty figures with equal weight directs attention to whichever one someone dislikes.
 - **Different people hold different risks.** The sales director wants the figure to support growth; the finance manager wants it to support caution. Without a shared decision rule, the figure becomes a proxy for a disagreement about risk appetite.
 - **Trust has already been damaged.** Where earlier reports contradicted each other (see [why one number requires three people and four systems](/patterns/why-one-number-requires-three-people-and-four-systems/)), scepticism is a reasonable response, and the debate is partly a reflection of experience.

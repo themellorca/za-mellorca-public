@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-371
 slug: when-every-system-owner-reads-compliance-rules-differently
 title: When every system owner reads the same compliance rule differently
-description: General policy wording leaves each system owner to decide what compliance means, producing several versions of one control. How to set one interpretation and apply it everywhere.
+description: Vague policy wording lets each system owner decide what compliance means, giving several versions of one control. How to set one interpretation.
 lead: General policy wording leaves each system owner to decide what compliance means, producing several versions of one control. How to set one interpretation and apply it everywhere.
 category: Security & Compliance Operations
 published_date: 2026-10-07
@@ -19,7 +19,7 @@ sources:
 related:
   - Access logs that disappear before the auditor asks for them | /discovery/access-logs-that-disappear-before-the-auditor-asks/
   - Why third-party security reviews keep starting from scratch | /discovery/third-party-security-reviews-keep-starting-from-scratch/
-  - Why Supplier Access Survives After the Supplier Engagement Ends | /discovery/why-supplier-access-survives-after-engagements-end/
+  - Why supplier access survives after the supplier engagement ends | /discovery/why-supplier-access-survives-after-engagements-end/
 summary: General policy wording leaves each system owner to decide what compliance means, producing several versions of one control. How to set one interpretation and apply it everywhere.
 layout: plain
 ---
@@ -31,9 +31,9 @@ This article looks at that operating condition: compliance requirements interpre
 
 Policies, regulations and frameworks are written in general terms on purpose. "Regularly", "appropriate", "strong authentication", "timely removal" and "sensitive data" all need to be turned into specific settings, frequencies and procedures before anyone can apply them. When that translation is done separately by every system owner, the business ends up with as many versions of the requirement as it has systems. None of the owners is careless; they simply answered the same question differently.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Compliance and risk leads search for ways to standardise controls across systems, make policies consistent, or prepare for an audit with fewer findings. System owners ask, more simply, "what exactly do I have to do?". The shared need is one agreed interpretation of each requirement, written in concrete terms, that every system owner applies and can show evidence for.
+Compliance and risk leads want ways to standardise controls across systems, make policies consistent, or prepare for an audit with fewer findings. System owners ask, more simply, "what exactly do I have to do?". The shared need is one agreed interpretation of each requirement, written in concrete terms, that every system owner applies and can show evidence for.
 
 ## Evidence and system mechanism
 

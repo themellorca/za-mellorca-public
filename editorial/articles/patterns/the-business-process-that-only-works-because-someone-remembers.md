@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-007
 slug: the-business-process-that-only-works-because-someone-remembers
-title: The Business Process That Only Works Because Someone Remembers
-description: Renewals, inspections and client-specific rules often run because one person remembers them. Here is why memory-triggered processes look reliable until they fail, and how to move the trigger into a system.
+title: The business process that only works because someone remembers
+description: Renewals, inspections and client rules often run because one person remembers them. Why such processes look reliable until they fail, and the fix.
 lead: Renewals, inspections and client-specific rules often run because one person remembers them. Here is why memory-triggered processes look reliable until they fail, and how to move the trigger into a system.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -18,9 +18,9 @@ sources:
   - Standardized Work - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/standardized-work/
   - Run a cloud flow on a schedule in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks
 related:
-  - When Repetitive Work Is Mistaken for Necessary Work | /patterns/when-repetitive-work-is-mistaken-for-necessary-work/
-  - The Daily Routine Nobody Remembers the Reason For | /patterns/the-daily-routine-nobody-remembers-the-reason-for/
-  - When Manual Exceptions Become the Normal Process | /patterns/when-manual-exceptions-become-the-normal-process/
+  - When repetitive work is mistaken for necessary work | /patterns/when-repetitive-work-is-mistaken-for-necessary-work/
+  - The daily routine nobody remembers the reason for | /patterns/the-daily-routine-nobody-remembers-the-reason-for/
+  - When manual exceptions become the normal process | /patterns/when-manual-exceptions-become-the-normal-process/
 summary: Renewals, inspections and client-specific rules often run because one person remembers them. Here is why memory-triggered processes look reliable until they fail, and how to move the trigger into a system.
 layout: plain
 ---
@@ -76,7 +76,7 @@ The other response is to write a procedure document. Documentation helps, but a 
 
 In a better state, every recurring and conditional obligation lives in a shared system that owns the trigger. Dates are recorded once, with an owner and a lead time. Reminders and tasks are generated automatically, completion is recorded, and overdue items are visible to a manager. Conditional rules are applied by the system that holds the data: the invoice template for a particular customer always includes the reference field, and a tenant's notice automatically creates the inspection task.
 
-This does not require complex software. Many businesses already have workflow tools in their existing subscriptions. Microsoft's Power Automate documentation, for example, describes scheduled cloud flows that run on a defined recurrence, such as daily, weekly or on a set date, and perform tasks such as sending a reminder or a report. The important change is moving the trigger out of a person's head and into a system everyone can see.
+This does not require complex software. Many businesses already have workflow tools in their existing subscriptions. Microsoft's [Power Automate](https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks) documentation, for example, describes scheduled cloud flows that run on a defined recurrence, such as daily, weekly or on a set date, and perform tasks such as sending a reminder or a report. The important change is moving the trigger out of a person's head and into a system everyone can see.
 
 ## Intervention
 

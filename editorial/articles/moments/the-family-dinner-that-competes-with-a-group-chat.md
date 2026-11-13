@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000255
 slug: the-family-dinner-that-competes-with-a-group-chat
-title: The Family Dinner That Competes With a Group Chat
-description: In many small businesses the work group chat is where jobs are allocated, customers are answered and problems are raised, at any hour. What that does to the evening, and what changes when urgent work has a better home than a chat that everyone is in.
+title: The family dinner that competes with a group chat
+description: In small businesses the work group chat allocates jobs and answers customers at any hour. What that does to evenings, and a better home for urgent work.
 lead: In many small businesses the work group chat is where jobs are allocated, customers are answered and problems are raised, at any hour. What that does to the evening, and what changes when urgent work has a better home than a chat that everyone is in.
 category: Human Connection
 published_date: 2026-10-07
@@ -19,9 +19,9 @@ sources:
   - Ireland publishes code on right to disconnect from work | https://www.mercer.com/en-us/insights/law-and-policy/ireland-publishes-code-on-right-to-disconnect-from-work/
   - Ireland: The Right to Disconnect Q&A - Insights - Mayer Brown | https://www.mayerbrown.com/en/insights/publications/2025/03/ireland-the-right-to-disconnect-qa
 related:
-  - When Screens Sit Between Colleagues Who Sit Together | /moments/when-screens-sit-between-colleagues-who-sit-together/
-  - Why Nobody Trains for the Job of Being Human Middleware | /moments/why-nobody-trains-for-the-job-of-being-human-middleware/
-  - The Quiet Cost of Always Being Reachable | /moments/the-quiet-cost-of-always-being-reachable/
+  - When screens sit between colleagues who sit together | /moments/when-screens-sit-between-colleagues-who-sit-together/
+  - Why nobody trains for the job of being human middleware | /moments/why-nobody-trains-for-the-job-of-being-human-middleware/
+  - The quiet cost of always being reachable | /moments/the-quiet-cost-of-always-being-reachable/
 summary: In many small businesses the work group chat is where jobs are allocated, customers are answered and problems are raised, at any hour. What that does to the evening, and what changes when urgent work has a better home than a chat that everyone is in.
 layout: plain
 ---
@@ -48,9 +48,11 @@ In the illustrative hire business, nobody set out to make evenings part of the w
 
 ## What the evidence says about work after hours
 
-Microsoft's 2025 Work Trend Index analysis of anonymised Microsoft 365 data found that the average worker in its data received more than 50 messages outside core business hours, and that 29% of active workers were back in their inboxes by 10 pm. The data covers Microsoft's own workplace products rather than consumer chat apps, and is not specific to South Africa, so it can only indicate a broader pattern of work continuing into the evening.
+Microsoft's 2025 [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) analysis of anonymised Microsoft 365 data found that the average worker in its data received more than 50 messages outside core business hours, and that 29% of active workers were back in their inboxes by 10 pm. The data covers Microsoft's own workplace products rather than consumer chat apps, and is not specific to South Africa, so it can only indicate a broader pattern of work continuing into the evening.
 
-Some countries have responded with guidance on what is called the right to disconnect. Ireland introduced a code of practice in 2021. As summarised by Mercer and by the law firm Mayer Brown, it recognises employees' right to switch off from work outside normal hours, including not having to respond immediately to emails, calls or messages, and not being penalised for that. It also expects employers to develop policies with their staff, and accepts that some roles occasionally need out-of-hours work for legitimate reasons. This is Irish guidance, not South African law, and the code is not binding even in Ireland. It is useful here because it frames the issue as one of how work is organised, not of individual willpower.
+Some countries have responded with guidance on what is called the [right to disconnect](https://www.mercer.com/en-us/insights/law-and-policy/ireland-publishes-code-on-right-to-disconnect-from-work/). Ireland introduced a code of practice in 2021. As summarised by Mercer and by the law firm Mayer Brown, it recognises employees' right to switch off from work outside normal hours, including not having to respond immediately to emails, calls or messages, and not being penalised for that.
+
+It also expects employers to develop policies with their staff, and accepts that some roles occasionally need out-of-hours work for legitimate reasons. This is Irish guidance, not South African law, and the code is not binding even in Ireland. It is useful here because it frames the issue as one of how work is organised, not of individual willpower.
 
 ## The human tax: presence and attention
 

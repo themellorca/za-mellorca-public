@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-127
 slug: when-client-onboarding-starts-with-a-chain-of-emails
-title: When Client Onboarding Starts With a Chain of Emails
-description: When a new client's details, documents and approvals are gathered through a growing email thread, the thread becomes the onboarding record. It cannot show what is missing, who is waiting or where the client's documents are.
+title: When client onboarding starts with a chain of emails
+description: When client onboarding runs through a growing email thread, nobody can see what is missing, who is waiting or where documents are. Here is the fix.
 lead: When a new client's details, documents and approvals are gathered through a growing email thread, the thread becomes the onboarding record. It cannot show what is missing, who is waiting or where the client's documents are.
 category: Client Onboarding & Service Delivery
 published_date: 2026-10-07
@@ -18,9 +18,10 @@ sources:
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
   - What Is Workflow Automation? - IBM | https://www.ibm.com/think/topics/workflow-automation
 related:
-  - When Customers Can See the Gaps Between Your Systems | /patterns/when-customers-can-see-the-gaps-between-your-systems/
-  - When Customers Call for Records Your Systems Already Hold | /patterns/when-customers-call-for-records-your-systems-already-hold/
-  - When a New Employee's First Months Run on Emails and Memory | /patterns/when-a-new-employees-first-months-run-on-emails-and-memory/
+  - When customers can see the gaps between your systems | /patterns/when-customers-can-see-the-gaps-between-your-systems/
+  - When customers call for records your systems already hold | /patterns/when-customers-call-for-records-your-systems-already-hold/
+  - When a new employee's first months run on emails and memory | /patterns/when-a-new-employees-first-months-run-on-emails-and-memory/
+  - How to automate customer onboarding without making it impersonal | /insights/how-to-automate-client-onboarding-and-keep-the-human-touch/
 summary: When a new client's details, documents and approvals are gathered through a growing email thread, the thread becomes the onboarding record. It cannot show what is missing, who is waiting or where the client's documents are.
 layout: plain
 ---
@@ -38,7 +39,7 @@ An email thread is a conversation, not a record. It is good at asking and answer
 
 The weaknesses compound. Attachments are duplicated across mailboxes and folders, so nobody knows which version is current. Status lives in people's heads. Information the client already sent is requested again because it was sent to someone else. And the thread contains sensitive information, including identity numbers, bank details and sometimes employee data, spread across several personal mailboxes.
 
-That last point carries legal weight in South Africa. POPIA requires a responsible party to secure the integrity and confidentiality of personal information through appropriate, reasonable technical and organisational measures, and to identify foreseeable risks to it. It also expects the person supplying information to be told, before collection, what is being collected, why, and whether it is voluntary. A forwarding chain of attachments makes both harder to demonstrate.
+That last point carries legal weight in South Africa. POPIA requires a responsible party to secure the [integrity and confidentiality](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/) of [personal information](https://popia.co.za/section-18-notification-to-data-subject-when-collecting-personal-information/) through appropriate, reasonable technical and organisational measures, and to identify foreseeable risks to it. It also expects the person supplying information to be told, before collection, what is being collected, why, and whether it is voluntary. A forwarding chain of attachments makes both harder to demonstrate.
 
 **Realisation prompt:** for your most recent new client, could anyone say in under a minute which onboarding items are still outstanding, without opening an email?
 

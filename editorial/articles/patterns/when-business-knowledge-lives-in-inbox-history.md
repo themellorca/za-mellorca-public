@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-202
 slug: when-business-knowledge-lives-in-inbox-history
-title: When Business Knowledge Lives in Inbox History
-description: When agreed prices, terms, decisions and procedures exist only in email threads, the business remembers only as well as individual mailboxes do. A capture step that turns conversational decisions into shared records fixes the cause.
+title: When business knowledge lives in inbox history
+description: When agreed prices, terms and decisions live only in email threads, the business remembers only as well as each mailbox. Capture them in shared records.
 lead: When agreed prices, terms, decisions and procedures exist only in email threads, the business remembers only as well as individual mailboxes do. A capture step that turns conversational decisions into shared records fixes the cause.
 category: Knowledge, Documents & Information Retrieval
 published_date: 2026-10-03
@@ -18,9 +18,10 @@ sources:
   - Learn about inactive mailboxes | https://learn.microsoft.com/en-us/purview/inactive-mailboxes-in-office-365
   - Section 14 Retention and restriction of records - POPIA | https://popia.co.za/section-14-retention-and-restriction-of-records/
 related:
-  - When AI Search Fails Because the Underlying Knowledge Is Chaotic | /patterns/when-ai-search-fails-because-knowledge-is-chaotic/
-  - Why Does One Customer Exist Differently in Three Systems? | /patterns/why-does-one-customer-exist-differently-in-three-systems/
-  - Why Customer Service Becomes a Human Search Engine | /patterns/why-customer-service-becomes-a-human-search-engine/
+  - When AI search fails because the underlying knowledge is chaotic | /patterns/when-ai-search-fails-because-knowledge-is-chaotic/
+  - Why does one customer exist differently in three systems? | /patterns/why-does-one-customer-exist-differently-in-three-systems/
+  - Why customer service becomes a human search engine | /patterns/why-customer-service-becomes-a-human-search-engine/
+  - When customer relationships live in one salesperson's inbox | /impact/customer-relationships-in-salesperson-inbox-lost-opportunities-when-they-leave/
 summary: When agreed prices, terms, decisions and procedures exist only in email threads, the business remembers only as well as individual mailboxes do. A capture step that turns conversational decisions into shared records fixes the cause.
 layout: plain
 ---

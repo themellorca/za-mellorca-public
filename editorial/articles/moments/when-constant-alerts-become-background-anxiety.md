@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000213
 slug: when-constant-alerts-become-background-anxiety
-title: When Constant Alerts Become Background Anxiety
-description: Low stock, failed sync, backup warning, payment declined. When every system can send an alert and most of them do not matter, the person receiving them can no longer tell which ones do. What a quieter, clearer set of signals gives back.
+title: When constant alerts become background anxiety
+description: Low stock, failed sync, backup warning, payment declined. When most alerts do not matter, people cannot tell which do. What a quieter set gives back.
 lead: Low stock, failed sync, backup warning, payment declined. When every system can send an alert and most of them do not matter, the person receiving them can no longer tell which ones do. What a quieter, clearer set of signals gives back.
 category: Health, Safety & Wellbeing
 published_date: 2026-10-07
@@ -19,9 +19,10 @@ sources:
   - Alert Fatigue: What It Is and How to Prevent It - Datadog | https://www.datadoghq.com/blog/best-practices-to-prevent-alert-fatigue/
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
 related:
-  - The Stress of Not Knowing if the Backup Worked | /moments/the-stress-of-not-knowing-if-the-backup-worked/
-  - The Weekend That Exists Only on Paper | /moments/the-weekend-that-exists-only-on-paper/
-  - The Employee Who Needs Permission for Every Small Fix | /moments/the-employee-who-needs-permission-for-every-small-fix/
+  - The stress of not knowing if the backup worked | /moments/the-stress-of-not-knowing-if-the-backup-worked/
+  - The weekend that exists only on paper | /moments/the-weekend-that-exists-only-on-paper/
+  - The employee who needs permission for every small fix | /moments/the-employee-who-needs-permission-for-every-small-fix/
+  - Why checking is not the same as knowing | /moments/why-checking-is-not-the-same-as-knowing/
 summary: Low stock, failed sync, backup warning, payment declined. When every system can send an alert and most of them do not matter, the person receiving them can no longer tell which ones do. What a quieter, clearer set of signals gives back.
 layout: plain
 ---
@@ -35,9 +36,9 @@ This piece is about that experience: not one urgent alarm, but a steady stream o
 
 The people who run large online services have thought carefully about this problem, because their systems can generate enormous numbers of alerts. Google's site reliability engineering guidance on monitoring makes a blunt point: interrupting a person is an expensive use of their time. It argues that every alert that interrupts someone should be urgent, should require action, and should require human judgement. When alerts are noisy, it warns, people begin to second-guess, skim or ignore them, and real problems can be missed.
 
-Datadog, a monitoring vendor, describes the same effect as alert fatigue: when too many alerts are generated, or alerts are irrelevant or unhelpful, people lose the ability to see the critical ones. It identifies predictable alerts that fire on a regular pattern, and alerts that flip repeatedly between normal and alarm, as common sources of noise.
+Datadog, a monitoring vendor, describes the same effect as [alert fatigue](https://www.datadoghq.com/blog/best-practices-to-prevent-alert-fatigue/): when too many alerts are generated, or alerts are irrelevant or unhelpful, people lose the ability to see the critical ones. It identifies predictable alerts that fire on a regular pattern, and alerts that flip repeatedly between normal and alarm, as common sources of noise.
 
-These sources were written for engineering teams running software at scale, not for a small business's office manager. But the human mechanism is the same. A signal that is usually meaningless teaches the person who receives it to stop trusting signals. Microsoft's Work Trend Index analysis of anonymised Microsoft 365 data estimates that workers in its data are interrupted about every two minutes during core hours by meetings, emails or chats, before any automated alerts are added.
+These sources were written for engineering teams running software at scale, not for a small business's office manager. But the human mechanism is the same. A signal that is usually meaningless teaches the person who receives it to stop trusting signals. Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) analysis of anonymised Microsoft 365 data estimates that workers in its data are interrupted about every two minutes during core hours by meetings, emails or chats, before any automated alerts are added.
 
 ## How the stream builds up
 

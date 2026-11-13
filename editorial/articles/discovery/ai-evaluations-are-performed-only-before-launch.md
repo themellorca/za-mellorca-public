@@ -19,7 +19,7 @@ sources:
 related:
   - Agent conversations are not connected to durable business records | /discovery/agent-conversations-not-connected-to-durable-business-records/
   - Automation incident response is improvised | /discovery/automation-incident-response-improvised/
-  - Why Automations Should Not Run on Personal Credentials | /discovery/why-automations-should-not-run-on-personal-credentials/
+  - Why automations should not run on personal credentials | /discovery/why-automations-should-not-run-on-personal-credentials/
 summary: Discusses the gap created when AI evaluations are restricted to pre-launch, neglecting ongoing monitoring and governance of deployed AI systems.
 layout: plain
 ---
@@ -33,9 +33,9 @@ The launch evaluation was a snapshot of one moment. It cannot say whether the sy
 
 This matters more for AI than for conventional software. A deterministic function that passed its tests will usually keep passing them until its code changes. An AI system's behaviour can shift when its inputs shift, when a provider updates a hosted model, or when users find new ways to ask questions, even though nobody in the organisation has changed anything.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer seeking durable AI governance asks how to embed ongoing evaluation into operations, how to measure alignment with business objectives and how to respond when monitoring reveals misalignment. Search phrasing includes “monitor AI in production”, “LLM evaluation after deployment”, “AI model drift monitoring”, “continuous evaluation for AI agents” and “AI governance operating model”.
+Anyone seeking durable AI governance asks how to embed ongoing evaluation into operations, how to measure alignment with business objectives and how to respond when monitoring reveals misalignment. The questions sound like “how do we monitor AI in production?”, “how do we evaluate an LLM after deployment?”, “how do we watch for AI model drift?”, “how do we evaluate AI agents continuously?” and “what operating model governs our AI?”
 
 ## Evidence and system mechanism
 

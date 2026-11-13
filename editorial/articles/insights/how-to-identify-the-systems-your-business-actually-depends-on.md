@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-015
 slug: how-to-identify-the-systems-your-business-actually-depends-on
-title: How to Identify the Systems Your Business Actually Depends On
-description: The systems a business depends on are not the same as the software it pays for. A five-step method that starts from the activities that cannot stop, uncovers hidden dependencies such as domains, logins, spreadsheets and connectivity, and ranks them by consequence.
+title: How to identify the systems your business actually depends on
+description: The systems you depend on are not the software you pay for. A five-step method that starts from activities that cannot stop and ranks systems by impact.
 lead: The systems a business depends on are not the same as the software it pays for. A five-step method that starts from the activities that cannot stop, uncovers hidden dependencies such as domains, logins, spreadsheets and connectivity, and ranks them by consequence.
 category: Digital Infrastructure
 published_date: 2026-10-04
@@ -12,6 +12,7 @@ eyebrow: Digital Infrastructure
 sources:
   - Asset management | https://www.ncsc.gov.uk/collection/10-steps/asset-management
   - Identifying the critical assets in your organisation | https://www.ncsc.gov.uk/collection/board-toolkit/principle-a-risk-management/identifying-the-critical-assets-in-your-organisation
+  - NIST Special Publication 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - NIST | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
 related:
   - How to decide what should be the system of record | /insights/how-to-decide-what-should-be-the-system-of-record/
   - The hidden cost of apps that do not share data | /insights/the-hidden-cost-of-apps-that-do-not-share-data/
@@ -60,7 +61,7 @@ For each item, note what depends on it, who is responsible for it and what happe
 
 ### 5. Rank by consequence
 
-Combine the activity's tolerance for interruption with the number of activities each system supports. A system that sits under several critical activities, or under one with very low tolerance, goes to the top. Many businesses discover that their most critical dependencies are not their most expensive software but shared foundations such as email, identity, connectivity and one or two key spreadsheets.
+Combine the activity's tolerance for interruption with the number of activities each system supports. A system that sits under several critical activities, or under one with very low tolerance, goes to the top. Many businesses discover that their most critical dependencies are not their most expensive software but shared foundations such as email, identity, connectivity and one or two key spreadsheets. NIST's [contingency planning guide](https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final) is written for federal information systems, but its stated purpose is the same exercise at larger scale: helping people assess systems so that contingency planning requirements and priorities can be set.
 
 ## An illustrative example
 

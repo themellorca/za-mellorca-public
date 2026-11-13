@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-204
 slug: what-should-you-monitor-in-an-automated-business-process
-title: What Should You Monitor in an Automated Business Process?
-description: A practical map of the six signals worth monitoring in an automated business process: arrival, completion, outcome, exceptions, dependencies and change, and how to turn them into alerts people act on.
+title: What should you monitor in an automated business process?
+description: Six signals worth monitoring in an automated process: arrival, completion, outcome, exceptions, dependencies and change, and how to turn them into alerts.
 lead: A practical map of the six signals worth monitoring in an automated business process: arrival, completion, outcome, exceptions, dependencies and change, and how to turn them into alerts people act on.
 category: Business Automation
 published_date: 2026-10-07
@@ -45,7 +45,7 @@ Arrival monitoring compares today's volume with what is normal for the day and t
 
 ### 2. Completion: did the work that arrived get through?
 
-For each run or batch, record how many items started and how many finished. The Logic Apps run history distinguishes statuses such as failed, timed out, waiting and succeeded, and it notes that a trigger can succeed while the run itself still fails. It also has a status of *succeeded with retries*, which is easy to ignore but often an early warning that a connection or external service is becoming unreliable.
+For each run or batch, record how many items started and how many finished. The Logic Apps [run history](https://learn.microsoft.com/en-us/azure/logic-apps/view-workflow-status-run-history) distinguishes statuses such as failed, timed out, waiting and succeeded, and it notes that a trigger can succeed while the run itself still fails. It also has a status of *succeeded with retries*, which is easy to ignore but often an early warning that a connection or external service is becoming unreliable.
 
 The practical detail of proving that a run happened and finished is covered in [how to know whether an automation actually ran](/insights/how-to-know-whether-an-automation-actually-ran/). For monitoring purposes, the point is that started-versus-finished should be a number someone can see.
 
@@ -84,7 +84,7 @@ The thresholds above are illustrative. The right ones depend on volumes, trading
 
 Collecting signals is only half the job. The Google SRE guidance is direct about alerts that interrupt people: each one should be actionable, should reflect a real or imminent problem, and should need human judgement. If an alert only ever prompts the same mechanical response, it should be automated instead. Alerts that do not meet that standard train people to ignore alerts.
 
-Microsoft's overview of Azure Monitor alerts describes an alert rule as a combination of what is monitored, the signal and the condition. It also distinguishes stateful alerts, which fire once and do not fire again until the condition clears, from stateless alerts, which fire every time the condition is met. It lets responders mark an alert as new, acknowledged or closed. Whatever tool is used, those three ideas are worth copying:
+Microsoft's overview of [Azure Monitor alerts](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview) describes an alert rule as a combination of what is monitored, the signal and the condition. It also distinguishes stateful alerts, which fire once and do not fire again until the condition clears, from stateless alerts, which fire every time the condition is met. It lets responders mark an alert as new, acknowledged or closed. Whatever tool is used, those three ideas are worth copying:
 
 - **Be precise about the condition.** "More than five runs fail in an hour", an example Microsoft uses for Logic Apps, is actionable. "Something went wrong" is not.
 - **Avoid repeat noise.** One alert that stays open until the problem is fixed is better than forty identical emails.

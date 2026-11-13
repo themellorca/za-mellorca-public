@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-328
 slug: support-requests-without-clear-owners-cost
-title: Support Requests Without Owners: The Cost of Slow Answers and Frustrated Customers
-description: When customer requests move between teams with no single owner, each handover adds delay and nobody watches the clock. Clear ownership rules and visible targets protect service and revenue.
+title: Support requests without owners: The cost of slow answers and frustrated customers
+description: When customer requests move between teams with no single owner, each handover adds delay and nobody watches the clock. Ownership rules and targets help.
 lead: When customer requests move between teams with no single owner, each handover adds delay and nobody watches the clock. Clear ownership rules and visible targets protect service and revenue.
 category: Customer Experience and CRM
 published_date: 2026-10-07
@@ -17,9 +17,9 @@ sources:
   - Configure service-level agreements in Dynamics 365 Customer Service | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/define-service-level-agreements
   - Create service level agreements (SLAs) to manage goals - Jira Service Management Cloud - Atlassian Support | https://support.atlassian.com/jira-service-management-cloud/docs/create-service-level-agreements-slas/
 related:
-  - When Customers Have to Repeat Themselves Every Time | /impact/pain-of-customers-repeating-information-disconnected-records/
-  - Sales, Finance and Operations Each With Their Own Customer: The Cost | /impact/departments-separate-customer-records-financial-impact/
-  - Onboarding New Customers by Email: The Labour and Revenue Cost of a Slow Start | /impact/manual-customer-onboarding-email-checklists-revenue-delay-cost/
+  - When customers have to repeat themselves every time | /impact/pain-of-customers-repeating-information-disconnected-records/
+  - Sales, finance and operations each with their own customer: The cost | /impact/departments-separate-customer-records-financial-impact/
+  - Onboarding new customers by email: The labour and revenue cost of a slow start | /impact/manual-customer-onboarding-email-checklists-revenue-delay-cost/
 summary: When customer requests move between teams with no single owner, each handover adds delay and nobody watches the clock. Clear ownership rules and visible targets protect service and revenue.
 layout: plain
 ---

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-207
 slug: why-a-quiet-workflow-is-not-proof-it-worked
-title: Why No Error Message Does Not Mean the Workflow Worked
-description: An automation that raises no alarm may still have done nothing, done half the job or done it wrongly. Why silence is not evidence, and the simple completion checks that turn it into evidence.
+title: Why no error message does not mean the workflow worked
+description: An automation that raises no alarm may still have done nothing, or done the job wrongly. Why silence is not evidence, and the checks that are.
 lead: An automation that raises no alarm may still have done nothing, done half the job or done it wrongly. Why silence is not evidence, and the simple completion checks that turn it into evidence.
 category: Automation Reliability
 published_date: 2026-10-09
@@ -16,7 +16,7 @@ sources:
 related:
   - How to design retries without creating duplicate work | /insights/how-to-design-retries-without-creating-duplicate-work/
   - What process mining can reveal that workshops cannot | /insights/what-process-mining-can-reveal-that-workshops-cannot/
-  - What Should You Monitor in an Automated Business Process? | /insights/what-should-you-monitor-in-an-automated-business-process/
+  - What should you monitor in an automated business process? | /insights/what-should-you-monitor-in-an-automated-business-process/
 summary: An automation that raises no alarm may still have done nothing, done half the job or done it wrongly. Why silence is not evidence, and the simple completion checks that turn it into evidence.
 layout: plain
 ---
@@ -41,7 +41,7 @@ The fourth and fifth cases are the hardest, because nothing in the technical rec
 
 ## What technical monitoring can and cannot tell you
 
-Good platform guidance already separates the layers. Microsoft's coding guidelines for Power Automate encourage building explicit error handling into flows, for example by running a defined set of actions when a step fails or times out, so that the failure is captured instead of lost. Azure's reliability guidance on monitoring and alerting describes defining health signals and alerting on them so that the right people act. These are necessary foundations. They improve what the system reports about itself.
+Good platform guidance already separates the layers. Microsoft's coding guidelines for Power Automate encourage building explicit [error handling](https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling) into flows, for example by running a defined set of actions when a step fails or times out, so that the failure is captured instead of lost. Azure's reliability guidance on monitoring and alerting describes defining health signals and alerting on them so that the right people act. These are necessary foundations. They improve what the system reports about itself.
 
 But they are about the health of the machinery. A perfectly healthy machine can process the wrong thing very efficiently. The business needs a second layer that asks whether the outcome happened, using evidence that does not come from the workflow's own opinion of itself.
 

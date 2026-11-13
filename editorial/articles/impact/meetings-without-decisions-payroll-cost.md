@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-008
 slug: meetings-without-decisions-payroll-cost
-title: Meetings That Decide Nothing: The Payroll Cost of Meeting Overload
-description: A one-hour meeting with eight people costs eight hours of salary. When it ends without a decision, that cost is repeated next week. Measuring meeting cost and designing for decisions recovers paid time.
+title: Meetings that decide nothing: The payroll cost of meeting overload
+description: A one-hour meeting with eight people costs eight hours of salary, and repeats if no decision comes. Measure meeting cost and design for decisions.
 lead: A one-hour meeting with eight people costs eight hours of salary. When it ends without a decision, that cost is repeated next week. Measuring meeting cost and designing for decisions recovers paid time.
 category: Digital Operations
 published_date: 2026-10-04
@@ -17,9 +17,9 @@ sources:
   - The Surprising Impact of Meeting-Free Days | https://sloanreview.mit.edu/article/the-surprising-impact-of-meeting-free-days/
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
 related:
-  - Hours Lost to Formatting: The Cost of Tidying Documents and Spreadsheets by Hand | /impact/formatting-documents-spreadsheets-by-hand-cost/
-  - Which Version Is Final? The Cost of Teams Working From Different Copies | /impact/conflicting-document-versions-rework-decision-cost/
-  - Two Departments, Same Work: The Payroll Cost of Duplicated Effort | /impact/departments-duplicating-same-work-payroll-cost/
+  - Hours lost to formatting: The cost of tidying documents and spreadsheets by hand | /impact/formatting-documents-spreadsheets-by-hand-cost/
+  - Which version is final? The cost of teams working from different copies | /impact/conflicting-document-versions-rework-decision-cost/
+  - Two departments, same work: The payroll cost of duplicated effort | /impact/departments-duplicating-same-work-payroll-cost/
 summary: A one-hour meeting with eight people costs eight hours of salary. When it ends without a decision, that cost is repeated next week. Measuring meeting cost and designing for decisions recovers paid time.
 layout: plain
 ---

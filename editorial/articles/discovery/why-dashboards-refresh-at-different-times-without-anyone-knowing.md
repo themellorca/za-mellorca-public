@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-253
 slug: why-dashboards-refresh-at-different-times-without-anyone-knowing
 title: Why dashboards refresh at different times without anyone knowing
-description: When one dashboard updated at 6am and another last night, the same meeting sees two versions of the business. Why refresh timing is invisible and how to make data freshness visible.
+description: When one dashboard updated at 6am and another last night, a meeting sees two versions of the business. How to make data freshness visible.
 lead: When one dashboard updated at 6am and another last night, the same meeting sees two versions of the business. Why refresh timing is invisible and how to make data freshness visible.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-04
@@ -32,9 +32,9 @@ This article looks at that operating condition: dashboards that refresh on diffe
 
 Most dashboards do not show live data. They show a copy taken at the last refresh. Each report or data model has its own schedule, set by whoever built it, often years ago. Some refresh hourly, some nightly, some only when someone remembers. Some stop refreshing without anyone noticing. Users see a number and assume it is current. When two dashboards disagree, the cause is often not a definition or a calculation, but simply time.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Finance and reporting leads search for why their dashboards show different numbers, how to schedule refreshes consistently, or how to show users when data was last updated. Executives want to know that the figures in front of them are current enough for the decision they are making. The underlying need is that every dashboard states how fresh its data is, schedules are aligned to how the data is used, and failures are noticed by the people responsible before users are misled.
+Finance and reporting leads ask why their dashboards show different numbers, how to schedule refreshes consistently, or how to show users when data was last updated. Executives want to know that the figures in front of them are current enough for the decision they are making. The underlying need is that every dashboard states how fresh its data is, schedules are aligned to how the data is used, and failures are noticed by the people responsible before users are misled.
 
 ## Evidence and system mechanism
 

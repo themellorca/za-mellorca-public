@@ -2,8 +2,8 @@
 hub: discovery
 record_id: DISC-298
 slug: why-integration-failures-should-not-route-to-personal-inboxes
-title: Why Integration Failures Should Not Route to Personal Inboxes
-description: Integration failures become harder to recover when exception handling depends on one person's inbox instead of a durable operational queue with ownership and replay controls.
+title: Why integration failures should not route to personal inboxes
+description: When integration errors go to one person's inbox, recovery suffers. Use a durable operational queue with clear ownership and the ability to replay.
 lead: Email can notify someone that an integration failed, but it is a weak place to store the operational state required to recover the failed transaction safely.
 category: Integration & API Operations
 published_date: 2026-09-07
@@ -23,9 +23,9 @@ sources:
   - Retry pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
   - Using dead-letter queues in Amazon SQS - Amazon Simple Queue Service | https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html
 related:
-  - Why API Rate Limits Create Intermittent Business Failures | /discovery/why-api-rate-limits-create-intermittent-business-failures/
-  - Why Integration Incidents Require Several Vendors to Diagnose | /discovery/why-integration-incidents-require-several-vendors-to-diagnose/
-  - Why Undocumented Interface Mappings Make Integration Change Risky | /discovery/why-undocumented-interface-mappings-make-change-risky/
+  - Why API rate limits create intermittent business failures | /discovery/why-api-rate-limits-create-intermittent-business-failures/
+  - Why integration incidents require several vendors to diagnose | /discovery/why-integration-incidents-require-several-vendors-to-diagnose/
+  - Why undocumented interface mappings make integration change risky | /discovery/why-undocumented-interface-mappings-make-change-risky/
 ---
 ## The problem in plain language
 
@@ -37,11 +37,11 @@ The arrangement usually starts sensibly. Someone built the integration, knows ho
 
 The following scenario is illustrative and does not describe a specific organisation. An online order system posts each paid order to the finance platform overnight. One night the finance platform rejects six orders because a new product code has no mapping. Six emails go to the developer who built the interface, who is on leave. The orders were shipped, but no invoices exist in finance. The gap surfaces at month-end, when revenue in the two systems does not agree, and someone has to work backwards from the bank statement to find which orders were affected.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer needs failed work to remain durable, visible and recoverable until it reaches a defined outcome. Notification is useful, but the exception itself needs ownership, status, evidence and a safe replay or correction path.
+The business needs failed work to remain durable, visible and recoverable until it reaches a defined outcome. Notification is useful, but the exception itself needs ownership, status, evidence and a safe replay or correction path.
 
-The search language tends to be practical: "integration error emails ignored", "how to handle failed API calls", "dead-letter queue for integrations", "retry failed messages safely" or "monitor integration failures in one place". These are different descriptions of the same gap between an alert and a managed exception.
+The questions tend to be practical: "why are integration error emails ignored?", "how do we handle failed API calls?", "do we need a dead-letter queue for integrations?", "how do we retry failed messages safely?" or "how do we monitor integration failures in one place?" These are different descriptions of the same gap between an alert and a managed exception.
 
 ## Evidence and system mechanism
 

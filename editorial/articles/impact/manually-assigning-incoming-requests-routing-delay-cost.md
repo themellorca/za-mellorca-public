@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-034
 slug: manually-assigning-incoming-requests-routing-delay-cost
-title: The Human Dispatcher: The Cost of Manually Routing Every Incoming Request
+title: The human dispatcher: The cost of manually routing every incoming request
 description: When one person must read every incoming request and decide who handles it, the business pays for triage labour and for the waiting time before any work starts.
 lead: When one person must read every incoming request and decide who handles it, the business pays for triage labour and for the waiting time before any work starts.
 category: Digital Operations
@@ -17,9 +17,9 @@ sources:
   - Automatic Ticket Assignment in Freshdesk Using Omniroute | https://support.freshdesk.com/support/solutions/articles/196581-automatic-ticket-assignment-in-a-group-round-robin-
   - Add a condition to a cloud flow in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/add-condition
 related:
-  - When Your Experts Become the Help Desk: The Cost of Routine Requests | /impact/specialists-pulled-into-routine-requests-expertise-cost/
-  - When Every Decision Waits for One Person: The Cost of a Decision Bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
-  - Meetings That Decide Nothing: The Payroll Cost of Meeting Overload | /impact/meetings-without-decisions-payroll-cost/
+  - When your experts become the help desk: The cost of routine requests | /impact/specialists-pulled-into-routine-requests-expertise-cost/
+  - When every decision waits for one person: The cost of a decision bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
+  - Meetings that decide nothing: The payroll cost of meeting overload | /impact/meetings-without-decisions-payroll-cost/
 summary: When one person must read every incoming request and decide who handles it, the business pays for triage labour and for the waiting time before any work starts.
 layout: plain
 ---
@@ -87,7 +87,7 @@ Most routing decisions follow a small number of patterns: by request type, area,
 
 ### Use the routing features you already have
 
-Help desk and service platforms are built for this. Zendesk's documentation, for example, describes triggers that automatically assign newly created, unassigned tickets to a specific agent or group based on conditions such as channel, organisation or tags applied to particular customers, and recommends tagging auto-assigned tickets so they can be monitored. Freshdesk documents automatic assignment within a group using round-robin, load-based or skill-based methods, considering only agents who are marked as available and respecting capacity limits; these options depend on the plan. Simpler setups can use conditions in an automation tool: Microsoft's Power Automate documentation describes conditions that send a flow down different paths depending on the content of an item.
+Help desk and service platforms are built for this. Zendesk's documentation, for example, describes triggers that automatically assign newly created, unassigned [tickets to a specific agent](https://support.zendesk.com/hc/en-us/articles/7384207242778-Workflow-Auto-assigning-tickets-to-a-specific-agent-or-group) or group based on conditions such as channel, organisation or tags applied to particular customers, and recommends tagging auto-assigned tickets so they can be monitored. Freshdesk documents automatic assignment within a group using round-robin, load-based or skill-based methods, considering only agents who are marked as available and respecting capacity limits; these options depend on the plan. Simpler setups can use conditions in an automation tool: Microsoft's [Power Automate](https://learn.microsoft.com/en-us/power-automate/add-condition) documentation describes conditions that send a flow down different paths depending on the content of an item.
 
 ### Balance by availability and load, not habit
 

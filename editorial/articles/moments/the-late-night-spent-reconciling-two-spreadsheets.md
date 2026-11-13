@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000024
 slug: the-late-night-spent-reconciling-two-spreadsheets
-title: The Late Night Spent Reconciling Two Spreadsheets
-description: The house is quiet, the laptop is on the kitchen table and two spreadsheets sit side by side, each a few hundred rows long and a few rand apart. What row-by-row matching after hours takes from people, and what lets the evening end.
+title: The late night spent reconciling two spreadsheets
+description: Two spreadsheets sit side by side at the kitchen table, a few rand apart. What row-by-row matching after hours takes, and what lets the evening end.
 lead: The house is quiet, the laptop is on the kitchen table and two spreadsheets sit side by side, each a few hundred rows long and a few rand apart. What row-by-row matching after hours takes from people, and what lets the evening end.
 category: Time and Attention
 published_date: 2026-10-05
@@ -19,9 +19,9 @@ sources:
   - Merge queries (Power Query) - Microsoft Support | https://support.microsoft.com/en-us/office/merge-queries-power-query-fd157620-5470-4c0f-b132-7ca2616d17f9
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
 related:
-  - Ten Open Tabs and Five Logins: What the Morning Sign-In Takes | /moments/ten-open-tabs-and-five-logins/
-  - The Morning Routine of Checking Whether Overnight Jobs Ran | /moments/the-morning-check-that-overnight-jobs-ran/
-  - Why Some People Never Get an Uninterrupted Hour | /moments/why-some-people-never-get-an-uninterrupted-hour/
+  - Ten open tabs and five logins: What the morning sign-in takes | /moments/ten-open-tabs-and-five-logins/
+  - The morning routine of checking whether overnight jobs ran | /moments/the-morning-check-that-overnight-jobs-ran/
+  - Why some people never get an uninterrupted hour | /moments/why-some-people-never-get-an-uninterrupted-hour/
 summary: The house is quiet, the laptop is on the kitchen table and two spreadsheets sit side by side, each a few hundred rows long and a few rand apart. What row-by-row matching after hours takes from people, and what lets the evening end.
 layout: plain
 ---
@@ -48,7 +48,7 @@ Several things tend to push reconciliation into the evening.
 - **It has a deadline.** Month-end, VAT submissions, a meeting with the bank or the accountant: the reconciliation must be done by a date, whatever else happened that week.
 - **The tools do not help.** Two spreadsheets have no built-in way of knowing which rows belong together.
 
-Evening work is common in general. Microsoft's analysis of what it calls the infinite workday, based on aggregated signals from its own software, found that the average employee sends or receives more than 50 messages outside core business hours. Those are global figures about Microsoft's users rather than a measurement of South African bookkeepers, but they show that work spilling into the evening is a widespread pattern rather than a personal failing.
+Evening work is common in general. Microsoft's analysis of what it calls the [infinite workday](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday), based on aggregated signals from its own software, found that the average employee sends or receives more than 50 messages outside core business hours. Those are global figures about Microsoft's users rather than a measurement of South African bookkeepers, but they show that work spilling into the evening is a widespread pattern rather than a personal failing.
 
 ## An illustrative month-end
 
@@ -71,7 +71,7 @@ A related story, about the person who has to present disputed figures, is told i
 1. **Use the reconciliation features in accounting software.** Most current accounting packages can import bank transactions and suggest matches. The Business Central documentation, for example, describes automatic matching of bank statement lines to ledger entries, with a date tolerance, a way of seeing why items were matched, and the ability to match several bank lines to one entry or the reverse. Unmatched items stay visible as differences to resolve.
 2. **Reconcile more often.** Matching a week's transactions takes far less effort than a month's, and differences are easier to explain while they are fresh.
 3. **Improve references at the source.** Asking customers to use the invoice number as their payment reference, and printing it clearly on every invoice, removes much of the detective work.
-4. **Let spreadsheets find the differences.** Where spreadsheets remain, tools can do the comparison. Microsoft's documentation for merging queries in Power Query describes a join that returns only the rows from one table that have no match in the other, and fuzzy matching for values that differ slightly in spelling or format.
+4. **Let spreadsheets find the differences.** Where spreadsheets remain, tools can do the comparison. Microsoft's documentation for merging queries in [Power Query](https://support.microsoft.com/en-us/office/merge-queries-power-query-fd157620-5470-4c0f-b132-7ca2616d17f9) describes a join that returns only the rows from one table that have no match in the other, and fuzzy matching for values that differ slightly in spelling or format.
 5. **Spread the knowledge.** Documenting how the reconciliation works lets a second person do it or check it.
 
 Mellorca's analysis of [the cost of manual payment matching and reconciliation](/impact/manual-payment-matching-reconciliation-cost/) covers the business side. And [when finance teams become data clean-up teams](/patterns/when-finance-teams-become-data-clean-up-teams/) describes what happens when this kind of work grows with the business.

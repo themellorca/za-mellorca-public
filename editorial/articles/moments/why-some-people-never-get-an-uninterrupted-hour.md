@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000023
 slug: why-some-people-never-get-an-uninterrupted-hour
-title: Why Some People Never Get an Uninterrupted Hour
-description: In most teams, interruptions are not shared equally. They gather around the person who knows where things are, how the system works and who to ask. Why that person rarely gets an hour to themselves, and what spreads the load.
+title: Why some people never get an uninterrupted hour
+description: Interruptions gather around the person who knows where things are and who to ask. Why that person rarely gets an hour alone, and what spreads the load.
 lead: In most teams, interruptions are not shared equally. They gather around the person who knows where things are, how the system works and who to ask. Why that person rarely gets an hour to themselves, and what spreads the load.
 category: Time and Attention
 published_date: 2026-10-05
@@ -20,9 +20,9 @@ sources:
   - Crucial changes needed to protect workers’ health while teleworking | https://www.who.int/news/item/02-02-2022-crucial-changes-needed-to-protect-workers-health-while-teleworking
   - Focus plan for Viva Insights - Microsoft Support | https://support.microsoft.com/topic/a079a744-010e-4fee-8552-a2799d0c62ea
 related:
-  - When the Out-of-Office Reply Doesn't Stop the Work | /moments/when-the-out-of-office-reply-doesnt-stop-the-work/
-  - The Minutes Between Meetings That Never Add Up | /moments/the-minutes-between-meetings-that-never-add-up/
-  - The Late Night Spent Reconciling Two Spreadsheets | /moments/the-late-night-spent-reconciling-two-spreadsheets/
+  - When the out-of-office reply doesn't stop the work | /moments/when-the-out-of-office-reply-doesnt-stop-the-work/
+  - The minutes between meetings that never add up | /moments/the-minutes-between-meetings-that-never-add-up/
+  - The late night spent reconciling two spreadsheets | /moments/the-late-night-spent-reconciling-two-spreadsheets/
 summary: In most teams, interruptions are not shared equally. They gather around the person who knows where things are, how the system works and who to ask. Why that person rarely gets an hour to themselves, and what spreads the load.
 layout: plain
 ---
@@ -34,7 +34,7 @@ This piece explores why interruptions concentrate on particular people, what tha
 
 ## Interruptions are not evenly shared
 
-Discussions of interruption often treat it as a general condition of modern work. Microsoft's analysis of what it calls the infinite workday, based on aggregated signals from its own software, reported that people were interrupted roughly every two minutes during core hours by a meeting, email or notification. Those figures describe Microsoft's users globally rather than South African workplaces, and they are averages.
+Discussions of interruption often treat it as a general condition of modern work. Microsoft's analysis of what it calls the [infinite workday](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday), based on aggregated signals from its own software, reported that people were interrupted roughly every two minutes during core hours by a meeting, email or notification. Those figures describe Microsoft's users globally rather than South African workplaces, and they are averages.
 
 Averages hide an important pattern. In most teams, some people receive far more interruptions than others. The interruptions follow knowledge and access: the person who knows the answer, holds the password or understands the workaround becomes the place where questions go. That person's day is shaped by everyone else's needs in a way that their colleagues' days are not.
 

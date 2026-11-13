@@ -25,6 +25,7 @@ related:
   - Why automation documentation matters | /insights/why-automation-documentation-matters/
   - How to design automations that people can understand | /insights/how-to-design-automations-that-people-can-understand/
   - Is your business actually ready for AI agents? | /insights/is-your-business-actually-ready-for-ai-agents/
+  - How to build automation around exceptions | /insights/how-to-build-automation-that-expects-exceptions-from-the-start/
 ---
 Most automation demos are built around success. A record arrives, a rule evaluates, another system is updated and a notification is sent. Real operations are less polite. APIs time out, credentials expire, required fields disappear, a platform rejects an action, a human changes a record halfway through a run or a downstream system accepts a request without returning a usable confirmation.
 

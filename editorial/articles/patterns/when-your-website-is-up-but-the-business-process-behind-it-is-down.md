@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-327
 slug: when-your-website-is-up-but-the-business-process-behind-it-is-down
-title: When Your Website Is Up but the Business Process Behind It Is Down
-description: When uptime monitoring says the website is fine but enquiries, payments or bookings never reach the business, the failure sits in the chain behind the page. Monitoring customer journeys end to end, with named owners, protects revenue that otherwise disappears silently.
+title: When your website is up but the business process behind it is down
+description: When uptime monitoring says the website is fine but enquiries and payments never arrive, the fault is in the chain behind the page. Monitor whole journeys.
 lead: When uptime monitoring says the website is fine but enquiries, payments or bookings never reach the business, the failure sits in the chain behind the page. Monitoring customer journeys end to end, with named owners, protects revenue that otherwise disappears silently.
 category: Cloud, Infrastructure & Reliability
 published_date: 2026-10-07
@@ -18,9 +18,10 @@ sources:
   - Application Insights availability tests - Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/app/availability
   - Synthetic monitoring (canaries) - Amazon CloudWatch | https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Synthetics_Canaries.html
 related:
-  - Why Backups Do Not Equal Business Resilience | /patterns/why-backups-do-not-equal-business-resilience/
-  - Why Does a Small Technical Failure Stop the Whole Business? | /patterns/why-does-a-small-technical-failure-stop-the-whole-business/
-  - When Work Goes Missing in the Gap Between Two Systems | /patterns/when-work-goes-missing-in-the-gap-between-two-systems/
+  - Why backups do not equal business resilience | /patterns/why-backups-do-not-equal-business-resilience/
+  - Why does a small technical failure stop the whole business? | /patterns/why-does-a-small-technical-failure-stop-the-whole-business/
+  - When work goes missing in the gap between two systems | /patterns/when-work-goes-missing-in-the-gap-between-two-systems/
+  - Slow website, lost visitors: The revenue cost of poor page speed | /impact/slow-website-visitors-leave-before-enquiring-page-speed-revenue-cost/
 summary: When uptime monitoring says the website is fine but enquiries, payments or bookings never reach the business, the failure sits in the chain behind the page. Monitoring customer journeys end to end, with named owners, protects revenue that otherwise disappears silently.
 layout: plain
 ---

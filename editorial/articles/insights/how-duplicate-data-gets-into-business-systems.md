@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-228
 slug: how-duplicate-data-gets-into-business-systems
-title: How Duplicate Data Gets Into Business Systems
-description: Duplicate records enter business systems through a handful of predictable routes: multiple capture points, free-text names, imports, integrations, retries, conversions and workarounds. Here is how to close each one at source.
+title: How duplicate data gets into business systems
+description: Duplicate records enter business systems by a few predictable routes, from several capture points to imports and retries. How to close each one at source.
 lead: Duplicate records enter business systems through a handful of predictable routes: multiple capture points, free-text names, imports, integrations, retries, conversions and workarounds. Here is how to close each one at source.
 category: Digital Operations
 published_date: 2026-10-07
@@ -14,7 +14,7 @@ sources:
   - Define alternate keys using Power Apps - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/define-alternate-keys-portal
   - Idempotent requests - Stripe API Reference | https://docs.stripe.com/api/idempotent_requests
 related:
-  - Where Customer Information Gets Lost During Onboarding | /insights/where-customer-information-gets-lost-during-onboarding/
+  - Where customer information gets lost during onboarding | /insights/where-customer-information-gets-lost-during-onboarding/
   - Why uncontrolled configuration changes create operational risk | /insights/why-uncontrolled-configuration-changes-create-operational-risk/
   - Why your reports cannot agree on the same number | /insights/why-your-reports-cannot-agree-on-the-same-number/
 summary: Duplicate records enter business systems through a handful of predictable routes: multiple capture points, free-text names, imports, integrations, retries, conversions and workarounds. Here is how to close each one at source.
@@ -49,7 +49,7 @@ Spreadsheet imports are a fast way to load many records and a fast way to load m
 
 ### 4. Integrations that create instead of match
 
-When two systems are connected, the integration has to decide whether an incoming record is new or an update to one that already exists. If it has no reliable way to tell, it usually creates. Microsoft's documentation for Dataverse describes *alternate keys* as an efficient and accurate way of integrating data with external systems, particularly when the external system does not store the internal identifier the platform uses. Without an agreed key of this kind, such as an account number both systems hold, an integration has to guess, and guessing produces duplicates.
+When two systems are connected, the integration has to decide whether an incoming record is new or an update to one that already exists. If it has no reliable way to tell, it usually creates. Microsoft's documentation for Dataverse describes *[alternate keys](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/define-alternate-keys-portal)* as an efficient and accurate way of integrating data with external systems, particularly when the external system does not store the internal identifier the platform uses. Without an agreed key of this kind, such as an account number both systems hold, an integration has to guess, and guessing produces duplicates.
 
 ### 5. Retries after a failure or time-out
 
@@ -79,7 +79,7 @@ Each route has a matching control. Most are design decisions rather than softwar
 
 ### Use duplicate detection, but understand its limits
 
-Most CRM and ERP platforms offer built-in duplicate detection. Microsoft's guidance for Power Platform and Dynamics 365 notes that default rules exist for accounts and contacts but not for other record types, and recommends basing rules on a field with unique values, such as email. Its documentation also lets rules ignore blank values, which matters: if two records are both missing an email address, a careless rule treats them as matches.
+Most CRM and ERP platforms offer built-in [duplicate detection](https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean). Microsoft's guidance for Power Platform and Dynamics 365 notes that default rules exist for accounts and contacts but not for other record types, and recommends basing rules on a field with unique values, such as email. Its documentation also lets rules ignore blank values, which matters: if two records are both missing an email address, a careless rule treats them as matches.
 
 Detection rules help, but they only work as well as the data they compare. If identifying fields are optional, inconsistently formatted or often blank, rules will either miss duplicates or flag false ones. The stronger fix is to make the identifying field required and well formatted at the point of capture.
 

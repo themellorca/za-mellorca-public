@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-367
 slug: why-ai-adoption-creates-a-new-access-control-problem
-title: Why AI Adoption Creates a New Access-Control Problem
+title: Why AI adoption creates a new access-control problem
 description: Once AI agents can read data, call tools and take actions across business systems, access control must govern machine identities as deliberately as human users.
 lead: Once AI agents can read data, call tools and take actions across business systems, access control must govern machine identities as deliberately as human users.
 category: Security, Access & Operational Risk

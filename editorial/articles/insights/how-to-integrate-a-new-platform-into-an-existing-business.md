@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-065
 slug: how-to-integrate-a-new-platform-into-an-existing-business
-title: How to Integrate a New Platform Into an Existing Business
-description: A new platform has to coexist with the systems, spreadsheets and habits that already run the business. A practical sequence for integrating it without disrupting operations or creating a second place to do the same work.
+title: How to integrate a new platform into an existing business
+description: A new platform must coexist with the systems, spreadsheets and habits already running the business. How to integrate it without a second place to work.
 lead: A new platform has to coexist with the systems, spreadsheets and habits that already run the business. A practical sequence for integrating it without disrupting operations or creating a second place to do the same work.
 category: Systems Integration
 published_date: 2026-10-08
@@ -15,9 +15,9 @@ sources:
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
 related:
-  - Why Your Business Feels Harder to Run Than It Should | /insights/why-your-business-feels-harder-to-run-than-it-should/
+  - Why your business feels harder to run than it should | /insights/why-your-business-feels-harder-to-run-than-it-should/
   - How to decide which software to remove | /insights/how-to-decide-which-software-to-remove/
-  - What Good Digital Operations Look Like Before You Buy Anything New | /insights/what-good-digital-operations-look-like-before-you-buy-anything-new/
+  - What good digital operations look like before you buy anything new | /insights/what-good-digital-operations-look-like-before-you-buy-anything-new/
 summary: A new platform has to coexist with the systems, spreadsheets and habits that already run the business. A practical sequence for integrating it without disrupting operations or creating a second place to do the same work.
 layout: plain
 ---
@@ -36,7 +36,7 @@ Microsoft's implementation guidance for its business applications recommends a f
 
 ## Map the existing flow before you connect anything
 
-Before any integration is built, draw how information currently moves through the area the platform will touch: where it is captured, who handles it, which system holds the official version, and where it waits. Lean practitioners call this value stream mapping, and the discipline applies equally to a quote-to-cash flow or an onboarding process. A simple method is given in [how to map a business workflow without making it complicated](/insights/how-to-map-a-business-workflow-without-making-it-complicated/).
+Before any integration is built, draw how information currently moves through the area the platform will touch: where it is captured, who handles it, which system holds the official version, and where it waits. Lean practitioners call this [value stream mapping](https://www.lean.org/lexicon-terms/value-stream-mapping/), and the discipline applies equally to a quote-to-cash flow or an onboarding process. A simple method is given in [how to map a business workflow without making it complicated](/insights/how-to-map-a-business-workflow-without-making-it-complicated/).
 
 The map usually exposes two surprises. The first is a step nobody mentioned in the requirements, such as the Friday export that finance depends on. The second is a handoff that only works because one person fixes it by hand. Both need a home in the new design, or they will quietly break.
 
@@ -44,7 +44,7 @@ The map usually exposes two surprises. The first is a step nobody mentioned in t
 
 The most common integration fault is two systems that both believe they own the customer, the product list or the price. Changes made in one overwrite the other, or worse, neither. Before connecting platforms, settle ownership field by field. A customer's billing address might belong to the accounting system, while their preferred contact person belongs to the CRM. The reasoning is covered in [how to decide which system owns which data](/insights/how-to-decide-which-system-owns-which-data/), and the cost of skipping it in [what happens when two systems both think they own the same data](/insights/what-happens-when-two-systems-both-think-they-own-the-same-data/).
 
-Where personal information is involved, this decision also has a legal side. Section 19 of the Protection of Personal Information Act requires a responsible party to take appropriate measures to secure the integrity and confidentiality of personal information. A new connection that copies customer records into another system creates another place that must be secured, and another place where inaccurate data can persist.
+Where personal information is involved, this decision also has a legal side. Section 19 of the Protection of Personal Information Act requires a responsible party to take appropriate measures to secure the [integrity and confidentiality of personal information](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/). A new connection that copies customer records into another system creates another place that must be secured, and another place where inaccurate data can persist.
 
 ## Integrate in thin slices, not in one release
 

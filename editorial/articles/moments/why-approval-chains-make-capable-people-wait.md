@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000065
 slug: why-approval-chains-make-capable-people-wait
-title: Why Approval Chains Make Capable People Wait
-description: Approval steps exist to protect the business, but long chains leave competent people idle while a small decision waits for a signature. How to keep control without the queue.
+title: Why approval chains make capable people wait
+description: Approval steps protect the business, but long chains leave competent people idle while a small decision waits for a signature. How to keep control.
 lead: Approval steps exist to protect the business, but long chains leave competent people idle while a small decision waits for a signature. How to keep control without the queue.
 category: Human Agency
 published_date: 2026-10-09
@@ -20,9 +20,9 @@ sources:
   - Little's law - Wikipedia | https://en.wikipedia.org/wiki/Little%27s_law
   - Approve or reject documents in workflows - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
 related:
-  - When the System Decides What You Can Do Today | /moments/when-the-system-decides-what-you-can-do-today/
-  - Why Clear Ownership Gives People Room to Decide | /moments/why-clear-ownership-gives-people-room-to-decide/
-  - Why the Person Closest to the Problem Can't Fix It | /moments/why-the-person-closest-to-the-problem-cant-fix-it/
+  - When the system decides what you can do today | /moments/when-the-system-decides-what-you-can-do-today/
+  - Why clear ownership gives people room to decide | /moments/why-clear-ownership-gives-people-room-to-decide/
+  - Why the person closest to the problem can't fix it | /moments/why-the-person-closest-to-the-problem-cant-fix-it/
 summary: Approval steps exist to protect the business, but long chains leave competent people idle while a small decision waits for a signature. How to keep control without the queue.
 layout: plain
 ---
@@ -39,7 +39,7 @@ Approval chains rarely start long. They lengthen in response to events.
 - **Low and high risk travel the same road.** A R400 box of cable ties follows the same route as a R400 000 machine, because nobody sorted the requests by size.
 - **Approvers are busy.** The people with the authority are also the people with the most meetings, and approvals are done between other things.
 
-The ordinary term for a rule that has outlived its purpose and slows things for little benefit is red tape. The related concept of bureaucracy describes organisations built around formal rules and hierarchy, which can bring consistency and fairness but also delay. Neither idea says that rules are wrong, only that rules have a cost, and that the cost is easy to forget when it is paid by someone else.
+The ordinary term for a rule that has outlived its purpose and slows things for little benefit is [red tape](https://en.wikipedia.org/wiki/Red_tape). The related concept of bureaucracy describes organisations built around formal rules and hierarchy, which can bring consistency and fairness but also delay. Neither idea says that rules are wrong, only that rules have a cost, and that the cost is easy to forget when it is paid by someone else.
 
 Mellorca's article on [why approval processes become bottlenecks](/insights/why-approval-processes-become-bottlenecks/) covers the mechanics from the process side. This piece looks at the effect on the people waiting.
 

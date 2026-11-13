@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-321
 slug: managed-cloud-services-adopted-without-exit-planning
 title: Why cloud managed services get adopted without an exit plan
-description: Cloud migrations lean on managed databases, queues and serverless tools without recording what leaving would cost. How to make lock-in a deliberate, priced choice with a practical exit plan.
+description: Cloud migrations lean on managed databases and queues without recording what leaving would cost. How to make lock-in a priced, deliberate choice.
 lead: Cloud migrations lean on managed databases, queues and serverless tools without recording what leaving would cost. How to make lock-in a deliberate, priced choice with a practical exit plan.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-07
@@ -40,9 +40,9 @@ That is not wrong in itself. It becomes a problem when:
 
 This differs from the software-as-a-service exit problem covered in our article on [data-export limits discovered only when leaving a vendor](/discovery/data-export-limits-discovered-only-when-leaving-a-vendor/). There, the issue is getting data out of an application. Here, it is that the business's own applications have been built around one provider's platform.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches include "cloud vendor lock-in", "cloud exit strategy", "how portable is our cloud architecture" and "should we use managed database or run our own". The buyer is often a CTO or IT lead mid-migration, or a CFO who has just seen a cloud bill rise. What they want is not to avoid managed services, but to know what they are committing to, where the lock-in is worth it, and what a move would cost.
+The questions include "are we locked in to our cloud vendor?", "what is our cloud exit strategy?", "how portable is our cloud architecture?" and "should we use a managed database or run our own?" They come most often from a CTO or IT lead mid-migration, or a CFO who has just seen a cloud bill rise. What they want is not to avoid managed services, but to know what they are committing to, where the lock-in is worth it, and what a move would cost.
 
 ## Evidence and system mechanism
 

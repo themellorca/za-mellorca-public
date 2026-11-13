@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-254
 slug: how-to-decide-what-should-be-on-an-operations-dashboard
-title: How to Decide What Should Be on an Operations Dashboard
-description: Most operations dashboards grow by accumulation and end up unused. Start with the decisions the dashboard supports, then test every metric for definition, ownership, timeliness and traceability.
+title: How to decide what should be on an operations dashboard
+description: Most operations dashboards grow by accumulation and go unused. Start from the decisions it supports, then test each metric before it earns a place.
 lead: Most operations dashboards grow by accumulation and end up unused. Start with the decisions the dashboard supports, then test every metric for definition, ownership, timeliness and traceability.
 category: Data and Reporting
 published_date: 2026-10-08
@@ -14,7 +14,7 @@ sources:
   - How to choose incident management KPIs and metrics - Atlassian | https://www.atlassian.com/incident-management/kpis
   - Measure and communicate the business value of Power Platform solutions - Power Platform | https://learn.microsoft.com/en-us/power-platform/guidance/adoption/business-value
 related:
-  - What Makes Data Good Enough to Operate With? | /insights/what-makes-data-good-enough-to-operate-with/
+  - What makes data good enough to operate with? | /insights/what-makes-data-good-enough-to-operate-with/
   - How to decide what should be the system of record | /insights/how-to-decide-what-should-be-the-system-of-record/
   - How to decide which system owns which data | /insights/how-to-decide-which-system-owns-which-data/
 summary: Most operations dashboards grow by accumulation and end up unused. Start with the decisions the dashboard supports, then test every metric for definition, ownership, timeliness and traceability.
@@ -29,7 +29,7 @@ Deciding what belongs on an operations dashboard is a design exercise that start
 
 ## Start with the decisions, not the data
 
-Microsoft's guidance on designing Power BI dashboards advises that a dashboard should answer the specific questions of its audience and recommends keeping it focused, with the most important information prominent and clutter removed. That advice holds for any tool. The first design step is therefore to ask who will use the dashboard and what they need to decide.
+Microsoft's guidance on designing [Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips) dashboards advises that a dashboard should answer the specific questions of its audience and recommends keeping it focused, with the most important information prominent and clutter removed. That advice holds for any tool. The first design step is therefore to ask who will use the dashboard and what they need to decide.
 
 An operations manager running a service business might need to decide, every morning, where to move people. A finance manager might need to decide which overdue accounts to chase this week. A managing director might need to decide whether to approve overtime or to hire. Each of those is a different dashboard, and trying to satisfy all three on one screen produces a dashboard that serves none.
 

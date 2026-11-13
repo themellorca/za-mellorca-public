@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-476
 slug: five-person-processes-growing-business-scaling-cost
-title: Thirty People, Five-Person Processes: The Cost of Systems That Did Not Grow
-description: Processes that worked when everyone shared one office and one owner made every call start to break as a business grows. The cost shows up as coordination time, errors, compliance pressure and an overloaded owner.
+title: Thirty people, five-person processes: The cost of systems that did not grow
+description: Processes that worked in one office with one owner break as the business grows. The cost shows in coordination time, errors, compliance and owner overload.
 lead: Processes that worked when everyone shared one office and one owner made every call start to break as a business grows. The cost shows up as coordination time, errors, compliance pressure and an overloaded owner.
 category: Digital Operations
 published_date: 2026-10-07
@@ -17,9 +17,9 @@ sources:
   - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
 related:
-  - The Human Dispatcher: The Cost of Manually Routing Every Incoming Request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
-  - When Every Decision Waits for One Person: The Cost of a Decision Bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
-  - "That's Just Admin": The Payroll Cost of Processes Nobody Ever Redesigned | /impact/accepting-repetitive-admin-never-redesigned-payroll-cost/
+  - The human dispatcher: The cost of manually routing every incoming request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
+  - When every decision waits for one person: The cost of a decision bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
+  - "That's just admin": The payroll cost of processes nobody ever redesigned | /impact/accepting-repetitive-admin-never-redesigned-payroll-cost/
 summary: Processes that worked when everyone shared one office and one owner made every call start to break as a business grows. The cost shows up as coordination time, errors, compliance pressure and an overloaded owner.
 layout: plain
 ---

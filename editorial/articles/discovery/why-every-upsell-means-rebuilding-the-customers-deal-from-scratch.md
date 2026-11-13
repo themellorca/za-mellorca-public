@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-093
 slug: why-every-upsell-means-rebuilding-the-customers-deal-from-scratch
 title: Why every upsell means rebuilding the customer's deal from scratch
-description: When adding a product to an existing customer means recreating their whole commercial record, upsells are slow and billing goes wrong. How to amend the live agreement instead.
+description: When adding a product for an existing customer means recreating their whole commercial record, upsells are slow and billing goes wrong. Amend the deal
 lead: When adding a product to an existing customer means recreating their whole commercial record, upsells are slow and billing goes wrong. How to amend the live agreement instead.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-04
@@ -32,9 +32,9 @@ This article looks at that operating condition: upsells and add-ons that require
 
 An upsell is a change to something that already exists: an agreement with products, quantities, prices, dates and terms. The efficient way to handle it is to open that agreement, add or change what is needed, and let the system work out the price difference and the effect on billing. In many businesses there is no live agreement to open. The original deal exists as a closed opportunity, a PDF and a billing record in another system. So every upsell starts from zero, and every recreation is a chance to get something wrong.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Sales operations managers search for ways to quote an add-on for an existing customer, handle mid-term upgrades, or calculate prorated charges. Account managers want to produce an upsell quote in minutes. Finance wants one agreement per customer that reflects what they actually buy. The underlying need is to treat the customer's current agreement as a record that can be amended, rather than a document that has to be copied.
+Sales operations managers want ways to quote an add-on for an existing customer, handle mid-term upgrades, or calculate prorated charges. Account managers want to produce an upsell quote in minutes. Finance wants one agreement per customer that reflects what they actually buy. The underlying need is to treat the customer's current agreement as a record that can be amended, rather than a document that has to be copied.
 
 ## Evidence and system mechanism
 

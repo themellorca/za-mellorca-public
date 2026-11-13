@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-068
 slug: why-the-latest-numbers-are-always-a-request-and-never-a-view
-title: Why Executives Keep Asking Teams to “Send the Latest Numbers”
+title: Why executives keep asking teams to “Send the latest numbers”
 description: Each request for the latest figures starts a small production run and returns several versions with different ages.
 lead: Each request for the latest figures starts a small production run and returns several versions with different ages.
 category: Data & Reporting
@@ -18,9 +18,10 @@ sources:
   - Endorsement overview - Microsoft Fabric | https://learn.microsoft.com/en-us/fabric/governance/endorsement-overview
   - Get started with goals in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-goals-introduction
 related:
-  - The Operational Blind Spots Created by Periodic Reporting | /patterns/what-happens-between-reporting-periods-that-nobody-sees/
-  - When KPI Tracking Becomes a Data Collection Exercise | /patterns/when-measuring-performance-means-collecting-numbers-all-month/
-  - Why Manual Reporting Creates Invisible Risk | /patterns/the-risk-inside-reports-that-are-assembled-by-hand/
+  - The operational blind spots created by periodic reporting | /patterns/what-happens-between-reporting-periods-that-nobody-sees/
+  - When KPI tracking becomes a data collection exercise | /patterns/when-measuring-performance-means-collecting-numbers-all-month/
+  - Why manual reporting creates invisible risk | /patterns/the-risk-inside-reports-that-are-assembled-by-hand/
+  - When leadership meetings are used to reconstruct what happened | /patterns/why-leadership-meetings-spend-their-first-hour-on-what-happened/
 summary: Each request for the latest figures starts a small production run and returns several versions with different ages.
 layout: plain
 ---
@@ -73,7 +74,7 @@ There is also a consequence for the team. Being interrupted for figures is a hid
 
 ## Possibility: let the figures come to the reader
 
-The alternative is to switch from pull to push. A defined set of figures is delivered on a schedule, or when something changes, from a source that everyone agrees on. Microsoft's documentation on Power BI email subscriptions describes exactly this mechanism: you subscribe yourself or others to a report or dashboard, and Power BI emails a snapshot and a link on a schedule you set, hourly, daily, weekly or monthly, or after the data refreshes. For a managing director who wants the same view each Wednesday, a subscription replaces the request. The documentation also notes requirements worth knowing, such as the licences needed to subscribe others.
+The alternative is to switch from pull to push. A defined set of figures is delivered on a schedule, or when something changes, from a source that everyone agrees on. Microsoft's documentation on [Power BI](https://learn.microsoft.com/en-us/power-bi/collaborate-share/end-user-subscribe) email subscriptions describes exactly this mechanism: you subscribe yourself or others to a report or dashboard, and [Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-goals-introduction) emails a snapshot and a link on a schedule you set, hourly, daily, weekly or monthly, or after the data refreshes. For a managing director who wants the same view each Wednesday, a subscription replaces the request. The documentation also notes requirements worth knowing, such as the licences needed to subscribe others.
 
 A subscription is only as good as the figures behind it, which is where the agreement on definitions matters. Microsoft's endorsement feature in Fabric and Power BI offers promoted and certified labels, where a certified item is one an authorised reviewer has confirmed meets the organisation's quality standards and can be regarded as reliable and authoritative. It is a formal way of answering the executive's silent question: which version should I trust?
 

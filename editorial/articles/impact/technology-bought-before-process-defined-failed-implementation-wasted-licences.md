@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-064
 slug: technology-bought-before-process-defined-failed-implementation-wasted-licences
-title: Software Bought Before the Process Was Defined: What Failed Implementations Cost
-description: Buying a system before agreeing how the work should flow leaves the business paying for licences, reconfiguration and rework while it decides what it actually needed.
+title: Software bought before the process was defined: What failed implementations cost
+description: Buying a system before agreeing how the work should flow leaves you paying for licences, reconfiguration and rework while you decide what you needed.
 lead: Buying a system before agreeing how the work should flow leaves the business paying for licences, reconfiguration and rework while it decides what it actually needed.
 category: Digital Operations
 published_date: 2026-10-10
@@ -17,9 +17,10 @@ sources:
   - Operational Excellence cloud design principles - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/principles
   - Manage your data in Dynamics 365 implementation projects - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management
 related:
-  - Four Tools, One Job: The Real Cost of Departments Buying Their Own Software | /impact/departments-buying-separate-tools-same-need-duplicate-subscription-cost/
-  - The Labour Cost Hidden Behind Software That Needs Constant Workarounds | /impact/software-needing-constant-manual-workarounds-hidden-labour-cost-behind-licence-fee/
-  - The Cost of Work Waiting for Approval | /impact/approval-queues-blocked-capacity-cost/
+  - Four tools, one job: The real cost of departments buying their own software | /impact/departments-buying-separate-tools-same-need-duplicate-subscription-cost/
+  - The labour cost hidden behind software that needs constant workarounds | /impact/software-needing-constant-manual-workarounds-hidden-labour-cost-behind-licence-fee/
+  - The cost of work waiting for approval | /impact/approval-queues-blocked-capacity-cost/
+  - What belongs in an implementation plan | /insights/the-parts-of-a-sound-systems-implementation-plan/
 summary: Buying a system before agreeing how the work should flow leaves the business paying for licences, reconfiguration and rework while it decides what it actually needed.
 layout: plain
 ---

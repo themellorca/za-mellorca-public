@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-026
 slug: why-does-one-customer-exist-differently-in-three-systems
-title: Why Does One Customer Exist Differently in Three Systems?
-description: A Pattern examining data silos and identity resolution failures that cause customer records to diverge across platforms, with actionable normalization strategies.
+title: Why does one customer exist differently in three systems?
+description: Customer records diverge across platforms when data sits in silos and identities do not match. Here are practical ways to normalise and reconcile them.
 lead: A Pattern examining data silos and identity resolution failures that cause customer records to diverge across platforms, with actionable normalization strategies.
 category: Data integrity
 published_date: 2026-10-01
@@ -19,9 +19,9 @@ sources:
   - What is Master Data Management? - IBM | https://www.ibm.com/think/topics/master-data-management
   - What is master data management? Ensuring a single source of truth | https://www.cio.com/article/191827/what-is-master-data-management-ensuring-a-single-source-of-truth.html
 related:
-  - Why One Number Requires Three People and Four Systems | /patterns/why-one-number-requires-three-people-and-four-systems/
-  - When Your CRM Knows Something Your Finance System Does Not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
-  - When Nobody Knows Which System Holds the Correct Data | /patterns/when-nobody-knows-which-system-holds-the-correct-data/
+  - Why one number requires three people and four systems | /patterns/why-one-number-requires-three-people-and-four-systems/
+  - When your CRM knows something your finance system does not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
+  - When nobody knows which system holds the correct data | /patterns/when-nobody-knows-which-system-holds-the-correct-data/
 summary: A Pattern examining data silos and identity resolution failures that cause customer records to diverge across platforms, with actionable normalization strategies.
 layout: plain
 ---

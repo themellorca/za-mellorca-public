@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-154
 slug: single-backup-method-no-recovery-fallback-cost
-title: One Backup Method, No Fallback: The Financial Cost of a Single Point of Recovery
-description: A business that relies on one backup tool, one copy or one provider has a single point of failure in its recovery plan. When that method fails, there is nothing behind it.
+title: One backup method, no fallback: The financial cost of a single point of recovery
+description: A business relying on one backup tool, one copy or one provider has a single point of failure in its recovery plan. When that fails, nothing is behind it.
 lead: A business that relies on one backup tool, one copy or one provider has a single point of failure in its recovery plan. When that method fails, there is nothing behind it.
 category: Business Continuity
 published_date: 2026-10-07
@@ -15,10 +15,12 @@ primary_cost_mechanism: Extended downtime, reconstruction labour and permanent d
 sources:
   - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
   - Overview of Microsoft 365 Backup | https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview
+  - Offline backups in an online world - National Cyber Security Centre | https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world
 related:
-  - When One Employee Knows How Everything Works | /impact/key-person-operational-dependency/
-  - Meetings That Decide Nothing: The Payroll Cost of Meeting Overload | /impact/meetings-without-decisions-payroll-cost/
-  - Cloud Costs Rising Every Month Without an Explanation | /impact/cloud-costs-rising-without-explanation/
+  - When one employee knows how everything works | /impact/key-person-operational-dependency/
+  - Meetings that decide nothing: The payroll cost of meeting overload | /impact/meetings-without-decisions-payroll-cost/
+  - Cloud costs rising every month without an explanation | /impact/cloud-costs-rising-without-explanation/
+  - The cloud is not a backup: Finding data protection gaps before you lose data | /impact/assuming-cloud-applications-back-up-all-business-data-backup-gaps-recovery-cost/
 summary: A business that relies on one backup tool, one copy or one provider has a single point of failure in its recovery plan. When that method fails, there is nothing behind it.
 layout: plain
 ---
@@ -48,7 +50,7 @@ A single backup method can fail in ways that leave no warning until a restore is
 - **Tool or provider failure.** A licence lapses, an agent stops running after an update, or the provider account is suspended or compromised.
 - **Restore too slow.** The only copy can be restored, but only at a speed that leaves the business down for far longer than it can afford.
 
-The US Cybersecurity and Infrastructure Security Agency's ransomware guidance addresses several of these directly. It recommends offline, encrypted backups of critical data with regular testing of availability and integrity, notes that immutable cloud storage can protect stored data, and suggests using backup solutions from more than one vendor so that a compromise of one provider account does not cause total data loss.
+The US Cybersecurity and Infrastructure Security Agency's ransomware guidance addresses several of these directly. It recommends offline, encrypted backups of critical data with regular testing of availability and integrity, notes that immutable cloud storage can protect stored data, and suggests using backup solutions from more than one vendor so that a compromise of one provider account does not cause total data loss. The UK National Cyber Security Centre adds that ransomware can encrypt connected drives and cloud storage holding backups, and advises keeping [multiple, logically separated backups](https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world) with at least one offline at any given time, so that an incident cannot affect all of them at once.
 
 ### Even good platform backup is still one method
 

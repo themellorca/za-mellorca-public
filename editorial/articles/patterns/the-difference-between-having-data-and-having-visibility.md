@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-059
 slug: the-difference-between-having-data-and-having-visibility
-title: The Difference Between Having Data and Having Visibility
+title: The difference between having data and having visibility
 description: Businesses can own large volumes of data and still lack timely operational visibility for decisions.
 lead: Stored data is not the same thing as a current, decision-ready view of operations.
 category: Reporting & Operational Visibility
@@ -25,9 +25,9 @@ sources:
   - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
   - On-premises data gateways in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/service-gateway-onprem
 related:
-  - Why Does Management Find Out Too Late? | /patterns/why-management-finds-out-too-late/
-  - The Hidden Cost of Waiting for Management Information | /patterns/the-hidden-cost-of-waiting-for-management-information/
-  - Why Do Former Employees Still Have Access? | /patterns/why-do-former-employees-still-have-access/
+  - Why does management find out too late? | /patterns/why-management-finds-out-too-late/
+  - The hidden cost of waiting for management information | /patterns/the-hidden-cost-of-waiting-for-management-information/
+  - Why do former employees still have access? | /patterns/why-do-former-employees-still-have-access/
 summary: Data volume does not guarantee operational visibility. Reliable decision information depends on ownership, definitions, timeliness and a view designed around the decisions the business must make.
 ---
 ## Observable condition

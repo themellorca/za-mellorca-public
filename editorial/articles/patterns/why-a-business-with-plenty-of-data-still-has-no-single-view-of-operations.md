@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-063
 slug: why-a-business-with-plenty-of-data-still-has-no-single-view-of-operations
-title: Why Your Business Has Data but No Single View of Operations
-description: Every system holds a slice of the truth, yet nobody can see how orders, stock, people and cash fit together. Here is why that happens and how to build one usable view.
+title: Why your business has data but no single view of operations
+description: Every system holds a slice of the truth, yet nobody can see how orders, stock, people and cash fit together. Here is how to build one usable view.
 lead: Every system holds a slice of the truth, yet nobody can see how orders, stock, people and cash fit together. Here is why that happens and how to build one usable view.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-09
@@ -18,9 +18,10 @@ sources:
   - What Is Data Integration? - IBM | https://www.ibm.com/think/topics/data-integration
   - Data unification overview - Dynamics 365 Customer Insights | https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-unification
 related:
-  - When Every Department Reports the Same Metric Differently | /patterns/when-every-department-reports-the-same-metric-differently/
-  - Why New Clients Wait While Internal Teams Coordinate | /patterns/why-new-clients-wait-while-internal-teams-coordinate/
-  - The Cost of Manual Consolidation Across Workbooks | /patterns/the-hidden-cost-of-combining-figures-from-many-workbooks-by-hand/
+  - When every department reports the same metric differently | /patterns/when-every-department-reports-the-same-metric-differently/
+  - Why new clients wait while internal teams coordinate | /patterns/why-new-clients-wait-while-internal-teams-coordinate/
+  - The cost of manual consolidation across workbooks | /patterns/the-hidden-cost-of-combining-figures-from-many-workbooks-by-hand/
+  - The cost of managing yesterday’s information | /patterns/what-it-costs-to-run-a-business-on-last-nights-numbers/
 summary: Every system holds a slice of the truth, yet nobody can see how orders, stock, people and cash fit together. Here is why that happens and how to build one usable view.
 layout: plain
 ---
@@ -38,7 +39,7 @@ The realisation is that holding data and seeing operations are different achieve
 
 Most businesses reach this point gradually. Each system was bought to solve a real problem and does so reasonably well. The gap is not inside any one system. It sits between them, in the customer reference that is spelled differently, the order number that exists in two formats and the status that one tool calls "processing" while another calls "open". Nobody chose to leave that gap, which is why nobody is responsible for it.
 
-IBM's overview of data silos describes the same outcome in general terms: when data sits in isolated stores, different parts of an organisation work from partial and sometimes conflicting pictures. Having more of that data does not remove the problem, because the problem is isolation rather than volume.
+[IBM's overview of data silos](https://www.ibm.com/think/topics/data-silos) describes the same outcome in general terms: when data sits in isolated stores, different parts of an organisation work from partial and sometimes conflicting pictures. Having more of that data does not remove the problem, because the problem is isolation rather than volume.
 
 **Realisation prompt:** choose one customer order from last month. How many systems and how many people would you need to consult to say exactly where it was on every day of its life?
 
@@ -79,7 +80,7 @@ Another response is to replace everything with one large system. That is sometim
 
 In a better state, a manager can open one place and follow any order, job or customer from enquiry to payment. The identifiers match. The statuses mean the same thing everywhere. The picture shows when it was last updated, and an exception such as "order paid but not dispatched for three days" appears without anyone going looking for it.
 
-This does not require every record to live in one database. It requires agreement on a small set of shared references and definitions, and a reliable way for each system to pass its events to a common place. The Insight [how to map the flow of information between business systems](/insights/how-to-map-the-flow-of-information-between-business-systems/) is a sensible starting point.
+This does not require every record to live in one database. IBM describes [data integration](https://www.ibm.com/think/topics/data-integration) as combining data from multiple sources into a unified, coherent format, and Microsoft's Customer Insights documentation describes [unifying several customer data sources](https://learn.microsoft.com/en-us/dynamics365/customer-insights/data/data-unification) into a single profile per customer. It requires agreement on a small set of shared references and definitions, and a reliable way for each system to pass its events to a common place. The Insight [how to map the flow of information between business systems](/insights/how-to-map-the-flow-of-information-between-business-systems/) is a sensible starting point.
 
 ## Intervention
 

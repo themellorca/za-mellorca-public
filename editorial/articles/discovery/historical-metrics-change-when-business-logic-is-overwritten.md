@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-259
 slug: historical-metrics-change-when-business-logic-is-overwritten
 title: Why last year's figures keep changing when reporting logic is overwritten
-description: A churn figure reported to the board in March reads differently in September for the same year. How overwritten rules and attributes rewrite history, and how to make changes to the past deliberate and visible.
+description: A figure reported to the board in March reads differently in September. How overwritten rules rewrite history and how to make changes visible.
 lead: A churn figure reported to the board in March reads differently in September for the same year. How overwritten rules and attributes rewrite history, and how to make changes to the past deliberate and visible.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-05
@@ -36,9 +36,9 @@ The same applies to descriptive attributes. If a customer is reassigned from one
 
 The symptoms include board packs that cannot be reproduced, year-on-year comparisons that shift between meetings, commission or bonus disputes over prior periods, and auditors or lenders asking why a figure in this year's pack differs from the one they received last year.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches such as "why did last year's numbers change in our dashboard", "historical KPI changed after report update" or "how to keep historical reporting consistent" usually come from financial directors, BI managers or managing directors who have been caught out in a meeting. They are not asking for history to be frozen forever. Businesses do need to correct errors and improve definitions. They want changes to the past to be deliberate, visible and explainable, with the ability to show both the old and the new view when needed.
+Questions such as "why did last year's numbers change in our dashboard?", "why did a historical KPI change after a report update?" or "how do we keep historical reporting consistent?" usually come from financial directors, BI managers or managing directors who have been caught out in a meeting. They are not asking for history to be frozen forever. Businesses do need to correct errors and improve definitions. They want changes to the past to be deliberate, visible and explainable, with the ability to show both the old and the new view when needed.
 
 ## Evidence and system mechanism
 

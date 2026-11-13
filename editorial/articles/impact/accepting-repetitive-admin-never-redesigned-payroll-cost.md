@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-050
 slug: accepting-repetitive-admin-never-redesigned-payroll-cost
-title: "That's Just Admin": The Payroll Cost of Processes Nobody Ever Redesigned
+title: "That's just admin": The payroll cost of processes nobody ever redesigned
 description: Treating repetitive admin as a fixed cost of business means processes are never questioned, and their payroll cost repeats and grows every year.
 lead: Treating repetitive admin as a fixed cost of business means processes are never questioned, and their payroll cost repeats and grows every year.
 category: Digital Operations
@@ -17,9 +17,9 @@ sources:
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
   - Overview of task mining - Power Automate | https://learn.microsoft.com/en-us/power-automate/task-mining-overview
 related:
-  - Answering the Same Question Again: The Payroll Cost of Undocumented Know-How | /impact/same-internal-questions-undocumented-knowledge-cost/
-  - Recreating Documents Nobody Can Find: The Cost of Duplicated Work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
-  - Re-keying Orders After the Sale: The Labour and Fulfilment Cost of Disconnected Systems | /impact/orders-rekeyed-after-sale-fulfilment-risk-cost/
+  - Answering the same question again: The payroll cost of undocumented know-how | /impact/same-internal-questions-undocumented-knowledge-cost/
+  - Recreating documents nobody can find: The cost of duplicated work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
+  - Re-keying orders after the sale: The labour and fulfilment cost of disconnected systems | /impact/orders-rekeyed-after-sale-fulfilment-risk-cost/
 summary: Treating repetitive admin as a fixed cost of business means processes are never questioned, and their payroll cost repeats and grows every year.
 layout: plain
 ---
@@ -80,7 +80,7 @@ Now apply the compounding. Suppose job volumes grow 10% a year and pay rises 6% 
 
 The answer is not simply to automate. Automating a step that should not exist only makes waste faster. The first question is whether each step is needed at all.
 
-IBM describes business process reengineering as more radical than incremental improvement: it challenges existing norms and redesigns processes around the outcome, starting from goals and a map of the current state. Most small businesses do not need a large reengineering programme. They need the same habit on a smaller scale: take one process, ask what it is for, and rebuild it around that purpose.
+IBM describes [business process reengineering](https://www.ibm.com/think/topics/business-process-reengineering) as more radical than incremental improvement: it challenges existing norms and redesigns processes around the outcome, starting from goals and a map of the current state. Most small businesses do not need a large reengineering programme. They need the same habit on a smaller scale: take one process, ask what it is for, and rebuild it around that purpose.
 
 A simple test for each step:
 
@@ -91,7 +91,9 @@ A simple test for each step:
 
 ## Finding the work you have stopped seeing
 
-Because accepted admin is invisible, it has to be found deliberately. Ask staff to log, for two weeks, every task they repeat at least weekly and how long it takes. Walk through one transaction from start to finish and count the times data is re-entered. Where systems record events, tools can help. Microsoft's documentation describes process mining, which uses event data from systems of record to show how processes actually run and where the bottlenecks are, and task mining, which records desktop steps to show which activities take most time and which could be automated. For a smaller business, a whiteboard and an honest conversation will often reveal enough. Our guide on [how to find the manual work nobody is measuring](/insights/how-to-find-the-manual-work-nobody-is-measuring/) sets out practical methods.
+Because accepted admin is invisible, it has to be found deliberately. Ask staff to log, for two weeks, every task they repeat at least weekly and how long it takes. Walk through one transaction from start to finish and count the times data is re-entered. Where systems record events, tools can help.
+
+Microsoft's documentation describes [process mining](https://learn.microsoft.com/en-us/power-automate/process-mining-overview), which uses event data from systems of record to show how processes actually run and where the bottlenecks are, and [task mining](https://learn.microsoft.com/en-us/power-automate/task-mining-overview), which records desktop steps to show which activities take most time and which could be automated. For a smaller business, a whiteboard and an honest conversation will often reveal enough. Our guide on [how to find the manual work nobody is measuring](/insights/how-to-find-the-manual-work-nobody-is-measuring/) sets out practical methods.
 
 ## When it becomes commercially urgent
 

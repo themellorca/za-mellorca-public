@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-024
 slug: catching-up-after-absence-poor-handover-cost
-title: Catching Up Before Starting: The Cost of Poor Handovers and Scattered Updates
-description: When updates are scattered across inboxes, chat groups and conversations, staff spend the start of each day, and the first days after leave, piecing together what happened. Structured handovers and one record of status cut that time.
+title: Catching up before starting: The cost of poor handovers and scattered updates
+description: When updates are scattered across inboxes and chat groups, staff piece things together every morning. Structured handovers and one status record fix that.
 lead: When updates are scattered across inboxes, chat groups and conversations, staff spend the start of each day, and the first days after leave, piecing together what happened. Structured handovers and one record of status cut that time.
 category: Digital Operations
 published_date: 2026-10-05
@@ -17,9 +17,9 @@ sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
   - Systematic Handoffs to Improve Patient Outcomes and Resident Satisfaction: a Single-Center Observational Study - PMC | https://pmc.ncbi.nlm.nih.gov/articles/PMC6614243/
 related:
-  - The Human Dispatcher: The Cost of Manually Routing Every Incoming Request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
-  - When Every Decision Waits for One Person: The Cost of a Decision Bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
-  - Scattered Supplier Invoices Create Handling Cost and Payment Uncertainty | /impact/supplier-invoices-multiple-inboxes-handling-cost/
+  - The human dispatcher: The cost of manually routing every incoming request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
+  - When every decision waits for one person: The cost of a decision bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
+  - Scattered supplier invoices create handling cost and payment uncertainty | /impact/supplier-invoices-multiple-inboxes-handling-cost/
 summary: When updates are scattered across inboxes, chat groups and conversations, staff spend the start of each day, and the first days after leave, piecing together what happened. Structured handovers and one record of status cut that time.
 layout: plain
 ---

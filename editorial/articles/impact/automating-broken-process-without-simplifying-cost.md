@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-252
 slug: automating-broken-process-without-simplifying-cost
-title: Automating a Broken Process Makes Inefficiency Run Faster
-description: Automating a process before simplifying it locks in unnecessary steps, multiplies exceptions and raises build and maintenance costs. Simplify first, then automate what remains.
+title: Automating a broken process makes inefficiency run faster
+description: Automating before simplifying locks in needless steps, multiplies exceptions and raises build costs. Simplify first, then automate what remains.
 lead: Automating a process before simplifying it locks in unnecessary steps, multiplies exceptions and raises build and maintenance costs. Simplify first, then automate what remains.
 category: Business Automation
 published_date: 2026-10-03
@@ -15,10 +15,11 @@ primary_cost_mechanism: Inflated build and maintenance cost, residual exception 
 sources:
   - Reengineering Work: Don’t Automate, Obliterate | https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
+  - Architecture strategies for enabling and implementing automation - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/automate-tasks
 related:
-  - From Inbox to System by Hand: The Labour Cost of Retyping Emails | /impact/copying-email-details-into-business-systems-admin-cost/
-  - Manual Automation Triggers Leave Half the Process Manual | /impact/manual-automation-trigger-half-automated-process-cost/
-  - Gathering Information Before Work Can Start: The Payroll Cost of Preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
+  - From inbox to system by hand: The labour cost of retyping emails | /impact/copying-email-details-into-business-systems-admin-cost/
+  - Manual automation triggers leave half the process manual | /impact/manual-automation-trigger-half-automated-process-cost/
+  - Gathering information before work can start: The payroll cost of preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
 summary: Automating a process before simplifying it locks in unnecessary steps, multiplies exceptions and raises build and maintenance costs. Simplify first, then automate what remains.
 layout: plain
 ---
@@ -48,7 +49,7 @@ When a broken process is automated as it stands, the symptoms usually appear wit
 - small changes to the process need a developer, so they are delayed or not made;
 - errors that used to be caught by a person noticing something odd now pass straight through.
 
-The exception queue is the clearest signal. If an automation handles only the straightforward cases and humans handle the rest, the business may now be paying for both. That pattern is described in [why manual work persists when automation covers only the happy path](/discovery/manual-work-persists-because-automation-covers-the-happy-path/).
+The exception queue is the clearest signal. If an automation handles only the straightforward cases and humans handle the rest, the business may now be paying for both. That pattern is described in [why manual work persists when automation covers only the happy path](/discovery/manual-work-persists-because-automation-covers-the-happy-path/). Microsoft's Azure Well-Architected [guidance on automation](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/automate-tasks) points the same way, advising against automating tasks that need complex scripting to handle variability and noting that complex automation needing heavy maintenance is hard for operations teams to manage and troubleshoot.
 
 ## How the pain becomes money
 

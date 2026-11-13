@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-081
 slug: why-service-teams-spend-their-day-chasing-internal-answers
-title: Why Service Teams Spend Their Day Chasing Internal Answers
-description: When customer-facing staff must ask colleagues for status, stock, policy or account facts before they can reply, the service team becomes a human connector between systems. Here is why, and how to reduce it.
+title: Why service teams spend their day chasing internal answers
+description: When customer-facing staff must ask colleagues for status, stock or policy before replying, they become a human connector between systems. Reduce that.
 lead: When customer-facing staff must ask colleagues for status, stock, policy or account facts before they can reply, the service team becomes a human connector between systems. Here is why, and how to reduce it.
 category: Customer Service & Support Operations
 published_date: 2026-10-08
@@ -18,9 +18,9 @@ sources:
   - Information Scent: How Users Decide Where to Go Next | https://www.nngroup.com/articles/information-foraging/
   - Muda, Mura, Muri - Get a Quick Introduction - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/muda-mura-muri/
 related:
-  - The Hidden Cost of Repetitive Customer Questions | /patterns/the-hidden-cost-of-repetitive-customer-questions/
-  - Why Teams Keep Asking the Same Internal Questions | /patterns/why-teams-keep-asking-the-same-internal-questions/
-  - When Customers Call for Records Your Systems Already Hold | /patterns/when-customers-call-for-records-your-systems-already-hold/
+  - The hidden cost of repetitive customer questions | /patterns/the-hidden-cost-of-repetitive-customer-questions/
+  - Why teams keep asking the same internal questions | /patterns/why-teams-keep-asking-the-same-internal-questions/
+  - When customers call for records your systems already hold | /patterns/when-customers-call-for-records-your-systems-already-hold/
 summary: When customer-facing staff must ask colleagues for status, stock, policy or account facts before they can reply, the service team becomes a human connector between systems. Here is why, and how to reduce it.
 layout: plain
 ---
@@ -36,7 +36,7 @@ An illustrative example: a Durban distributor of electrical components has a ser
 
 Customers experience a slow answer. Staff experience a busy day. What both are really seeing is that the team has become the connector between systems and people that do not talk to each other. The agent is doing the job of a search function, a workflow and a notification, by hand and through goodwill.
 
-This kind of work has a name in service design. Failure demand, a term associated with John Seddon and described on the Beyond Command and Control site, is the demand caused by a failure to do something or do something right for the customer. Chasing calls and repeat contacts are the visible tail of it. The internal version is its mirror image: each chase for an answer is a signal that the answer should have been available where the agent was working.
+This kind of work has a name in service design. [Failure demand](https://beyondcommandandcontrol.com/failure-demand/), a term associated with John Seddon and described on the Beyond Command and Control site, is the demand caused by a failure to do something or do something right for the customer. Chasing calls and repeat contacts are the visible tail of it. The internal version is its mirror image: each chase for an answer is a signal that the answer should have been available where the agent was working.
 
 Nielsen Norman Group's work on information foraging describes how people follow the "scent" of information and abandon sources when it becomes too costly to reach it. In a service team, the cheapest source is the nearest colleague, which is why the chat window becomes the main system.
 

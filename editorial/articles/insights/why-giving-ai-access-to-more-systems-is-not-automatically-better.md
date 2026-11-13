@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-183
 slug: why-giving-ai-access-to-more-systems-is-not-automatically-better
-title: Why Giving AI Access to More Systems Is Not Automatically Better
-description: Connecting an AI agent to every system feels like progress, but wider access amplifies bad data, errors and risk. A practical way to scope access to the task instead.
+title: Why giving AI access to more systems is not automatically better
+description: Connecting an AI agent to every system feels like progress, but wider access amplifies bad data, errors and risk. How to scope access to the task instead.
 lead: Connecting an AI agent to every system feels like progress, but wider access amplifies bad data, errors and risk. A practical way to scope access to the task instead.
 category: AI and Automation
 published_date: 2026-10-08
@@ -15,9 +15,10 @@ sources:
   - Zero Trust as a security foundation | https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
 related:
-  - How to Design Alerts for Automation Failures | /insights/how-to-design-alerts-for-automation-failures/
-  - When Copy-and-Paste Is Really an Integration Problem | /insights/when-copy-and-paste-is-really-an-integration-problem/
-  - Why Switching Software Is Not Always the Answer | /insights/why-switching-software-is-not-always-the-answer/
+  - How to design alerts for automation failures | /insights/how-to-design-alerts-for-automation-failures/
+  - When copy-and-paste is really an integration problem | /insights/when-copy-and-paste-is-really-an-integration-problem/
+  - Why switching software is not always the answer | /insights/why-switching-software-is-not-always-the-answer/
+  - What should an AI agent be allowed to do? | /insights/what-an-ai-agent-should-be-allowed-to-do-in-your-business/
 summary: Connecting an AI agent to every system feels like progress, but wider access amplifies bad data, errors and risk. A practical way to scope access to the task instead.
 layout: plain
 ---
@@ -36,7 +37,7 @@ There is also a tooling reason. Many integrations are set up with a single servi
 
 ## The principle that predates AI
 
-None of this is a new idea. The principle of least privilege, defined by the US National Institute of Standards and Technology as a security principle under which a system or user is given only the minimum access needed to perform its function, has guided access design for decades. The UK National Cyber Security Centre's zero trust approach makes a related point: access decisions should be made deliberately for each request, rather than granted broadly because something sits inside the network. Microsoft's zero trust guidance describes the same stance, which is to verify explicitly and limit access to what is needed.
+None of this is a new idea. The principle of [least privilege](https://csrc.nist.gov/glossary/term/least_privilege), defined by the US National Institute of Standards and Technology as a security principle under which a system or user is given only the minimum access needed to perform its function, has guided access design for decades. The UK National Cyber Security Centre's [zero trust](https://www.ncsc.gov.uk/collection/zero-trust-architecture) approach makes a related point: access decisions should be made deliberately for each request, rather than granted broadly because something sits inside the network. Microsoft's [zero trust](https://learn.microsoft.com/en-us/security/zero-trust/zero-trust-overview) guidance describes the same stance, which is to verify explicitly and limit access to what is needed.
 
 What AI changes is the speed and the autonomy. A human clerk with excessive access is limited by working hours and by habit. An agent acting on a mistaken instruction can touch hundreds of records before anyone looks. The same principle applies, but the margin for error is thinner.
 
@@ -60,7 +61,7 @@ An agent connected to many systems usually holds many credentials or tokens. If 
 
 ### 5. Accountability gets vague
 
-When an agent can do anything, nobody is quite sure what it is supposed to do. The NIST AI Risk Management Framework emphasises that organisations should define roles, responsibilities and boundaries for AI systems and be able to map their context and intended use. A narrowly scoped agent has an obvious owner and an obvious purpose. A broadly scoped one has neither.
+When an agent can do anything, nobody is quite sure what it is supposed to do. The NIST [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) emphasises that organisations should define roles, responsibilities and boundaries for AI systems and be able to map their context and intended use. A narrowly scoped agent has an obvious owner and an obvious purpose. A broadly scoped one has neither.
 
 ## A practical way to decide how much access an agent needs
 

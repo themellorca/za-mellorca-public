@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-478
 slug: key-person-operational-dependency
-title: When One Employee Knows How Everything Works
+title: When one employee knows how everything works
 description: Key-person dependency turns undocumented operational knowledge into a continuity, capacity and scaling risk.
 lead: Expert employees create value. The risk begins when critical procedures, credentials, vendor relationships and exception logic exist only in one person's memory.
 category: Operational Resilience
@@ -21,9 +21,9 @@ sources:
   - Manage emergency access admin accounts - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access
   - Basic Guide to Sick Leave | https://www.labour.gov.za/DocumentCenter/Pages/Basic-Guide-to-Sick-Leave.aspx
 related:
-  - When One Internet Connection Can Stop the Business | /impact/single-internet-connection-business-downtime-risk/
-  - The Cost of Paid Time Spent Searching for Files | /impact/employees-searching-for-files-lost-productivity-cost/
-  - Backups Nobody Has Tested: The Cost When Recovery Fails | /impact/backups-never-tested-restore-financial-cost/
+  - When one Internet connection can stop the business | /impact/single-internet-connection-business-downtime-risk/
+  - The cost of paid time spent searching for files | /impact/employees-searching-for-files-lost-productivity-cost/
+  - Backups nobody has tested: The cost when recovery fails | /impact/backups-never-tested-restore-financial-cost/
 ---
 ## The tolerated pain
 

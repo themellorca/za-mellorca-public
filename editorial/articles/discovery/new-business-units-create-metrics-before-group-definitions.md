@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-271
 slug: new-business-units-create-metrics-before-group-definitions
 title: When a new business unit invents its own metrics before group definitions exist
-description: New divisions, branches and acquisitions start reporting with their own KPIs, and the board pack inherits the mismatch. How to give new units a definition starter kit before their reporting sets in stone.
+description: New divisions, branches and acquisitions report with their own KPIs, and the board pack inherits the mismatch. How a definition starter kit prevents it.
 lead: New divisions, branches and acquisitions start reporting with their own KPIs, and the board pack inherits the mismatch. How to give new units a definition starter kit before their reporting sets in stone.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-05
@@ -33,15 +33,17 @@ When a business adds a division, opens a new region, launches a product line or 
 
 The issue is not that units have local measures; many need them. It is that shared terms such as revenue, customer, headcount and margin are defined locally when they should have been inherited.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Group finance leads and company secretaries search for how to standardise KPIs across business units, how to consolidate divisional reporting, or how to integrate an acquisition's reporting. Divisional heads want to keep the measures that help them run their unit. The practical need is to separate the two: a small set of group-defined terms every unit must use as written, plus room for local measures that are clearly labelled as local.
+Group finance leads and company secretaries want to know how to standardise KPIs across business units, how to consolidate divisional reporting, or how to integrate an acquisition's reporting. Divisional heads want to keep the measures that help them run their unit. The practical need is to separate the two: a small set of group-defined terms every unit must use as written, plus room for local measures that are clearly labelled as local.
 
 ## Evidence and system mechanism
 
 ### Self-service reporting is designed to let units move fast
 
-Modern reporting deliberately lets business units build their own content. Microsoft's adoption guidance on [content ownership and management](https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-content-ownership-and-management) describes business-led self-service, where all content is owned and managed by creators within a business unit, as a legitimate strategy when speed and flexibility outweigh stricter governance. It also describes the risks at low maturity: uncontrolled content creation and common discrepancies between reports that cause distrust. Its recommended middle ground, managed self-service, keeps data and shared definitions with a central team while units build their own reports, an approach it summarises as discipline at the core and flexibility at the edge. It also lists ownership transfers, for example when a business-led solution comes to support critical decisions, as a normal event that needs a defined process.
+Modern reporting deliberately lets business units build their own content. Microsoft's adoption guidance on [content ownership and management](https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-content-ownership-and-management) describes business-led self-service, where all content is owned and managed by creators within a business unit, as a legitimate strategy when speed and flexibility outweigh stricter governance. It also describes the risks at low maturity: uncontrolled content creation and common discrepancies between reports that cause distrust.
+
+Its recommended middle ground, managed self-service, keeps data and shared definitions with a central team while units build their own reports, an approach it summarises as discipline at the core and flexibility at the edge. It also lists ownership transfers, for example when a business-led solution comes to support critical decisions, as a normal event that needs a defined process.
 
 ### Glossaries can hold different meanings explicitly
 

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-040
 slug: why-cheap-saas-can-become-expensive-operations
-title: Why Cheap SaaS Can Become Expensive Operations
-description: A low subscription price says little about what a tool costs to run. Where the operational costs of cheap software hide, from manual data movement and security features on higher plans to price changes and exit costs, and how to judge a tool by its operating cost.
+title: Why cheap SaaS can become expensive operations
+description: A low subscription price says little about running cost. Where the hidden costs of cheap software sit, from manual data movement to exit.
 lead: A low subscription price says little about what a tool costs to run. Where the operational costs of cheap software hide, from manual data movement and security features on higher plans to price changes and exit costs, and how to judge a tool by its operating cost.
 category: Operations
 published_date: 2026-10-05
@@ -15,9 +15,9 @@ sources:
   - Announcing Zylo's 2026 SaaS Management Index | https://zylo.com/news/2026-saas-management-index
   - Modern Lifecycle Policy - Microsoft Lifecycle | https://learn.microsoft.com/en-us/lifecycle/policies/modern
 related:
-  - The Real Cost of Paying for Software Nobody Uses Properly | /insights/the-real-cost-of-paying-for-software-nobody-uses-properly/
-  - Why Small Operational Problems Become Expensive at Scale | /insights/why-small-operational-problems-become-expensive-at-scale/
-  - How Manual Data Transfer Becomes an Operational Bottleneck | /insights/how-manual-data-transfer-becomes-an-operational-bottleneck/
+  - The real cost of paying for software nobody uses properly | /insights/the-real-cost-of-paying-for-software-nobody-uses-properly/
+  - Why small operational problems become expensive at scale | /insights/why-small-operational-problems-become-expensive-at-scale/
+  - How manual data transfer becomes an operational bottleneck | /insights/how-manual-data-transfer-becomes-an-operational-bottleneck/
 summary: A low subscription price says little about what a tool costs to run. Where the operational costs of cheap software hide, from manual data movement and security features on higher plans to price changes and exit costs, and how to judge a tool by its operating cost.
 layout: plain
 ---

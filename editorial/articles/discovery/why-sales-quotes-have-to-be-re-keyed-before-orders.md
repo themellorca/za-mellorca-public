@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-076
 slug: why-sales-quotes-have-to-be-re-keyed-before-orders
-title: Why Sales Quotes Have to Be Re-Keyed Before an Order Can Start
+title: Why sales quotes have to be re-keyed before an order can start
 description: When an accepted quote is manually rebuilt as an order, the business is paying for a broken transaction boundary between sales and fulfilment.
 lead: An accepted quote should be a commercial decision that moves the business forward. If operations or finance must re-enter customer, product, quantity, price and tax data before fulfilment can begin, the quote-to-order boundary is functioning as a manual integration.
 category: Quote-to-Cash & Revenue Operations
@@ -39,9 +39,9 @@ That is not simply administration. It is a broken transaction handoff. The busin
 
 A typical example: a mid-sized supplier of commercial refrigeration equipment quotes from its CRM, which produces a tidy PDF. Orders, stock and invoicing live in the ERP. When a quote is accepted, a sales administrator prints the PDF, keys each line into the ERP, looks up the special price the rep negotiated, and re-enters the delivery address. If the quote included an installation discount that the ERP price list does not know about, she has to override the price by hand. A week later, finance spots an invoice that does not match the quote because the override was missed on one line.
 
-## What the market is trying to solve
+## What you are actually trying to solve
 
-Search phrases include "convert quote to order automatically", "CRM ERP quote to order integration", "quote-to-cash automation", "sales order integration", "stop re-entering quote data" and "order from quote". The practical intent is continuity: once a quote is accepted, preserve the approved data and advance the transaction without rebuilding it.
+The request usually sounds like "convert the quote to an order automatically", "integrate the CRM and ERP for quote to order", "automate quote-to-cash", "stop re-entering quote data" or "create the order from the quote". The practical aim is continuity: once a quote is accepted, preserve the approved data and advance the transaction without rebuilding it.
 
 ## Evidence: major sales platforms explicitly support quote-to-order continuity
 

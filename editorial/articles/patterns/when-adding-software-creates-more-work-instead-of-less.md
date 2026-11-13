@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-030
 slug: when-adding-software-creates-more-work-instead-of-less
-title: When Adding Software Creates More Work Instead of Less
-description: A new tool can solve its problem and still add data entry, logins, exports and parallel routines. Counting net work, retiring what it replaces and integrating data make software reduce effort.
+title: When adding software creates more work instead of less
+description: A new tool can solve its problem and still add data entry, logins and parallel routines. Count the net work and retire what it replaces.
 lead: A new tool can solve its problem and still add data entry, logins, exports and parallel routines. Counting net work, retiring what it replaces and integrating data make software reduce effort.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-05
@@ -18,9 +18,10 @@ sources:
   - Choosing technology: an introduction | https://www.gov.uk/service-manual/technology/choosing-technology-an-introduction
   - What is single sign-on in Microsoft Entra ID? - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on
 related:
-  - When Your CRM Knows Something Your Finance System Does Not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
-  - When APIs Exist but the Business Still Works Manually | /patterns/when-apis-exist-but-the-business-still-works-manually/
-  - When One Change Has to Be Made in Every System You Own | /patterns/when-one-change-has-to-be-made-in-every-system-you-own/
+  - When your CRM knows something your finance system does not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
+  - When APIs exist but the business still works manually | /patterns/when-apis-exist-but-the-business-still-works-manually/
+  - When one change has to be made in every system you own | /patterns/when-one-change-has-to-be-made-in-every-system-you-own/
+  - What a smaller, better-connected software stack looks like | /insights/what-a-smaller-better-connected-software-stack-looks-like/
 summary: A new tool can solve its problem and still add data entry, logins, exports and parallel routines. Counting net work, retiring what it replaces and integrating data make software reduce effort.
 layout: plain
 ---

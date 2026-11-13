@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-376
 slug: why-buying-ai-does-not-automatically-create-business-value
-title: Why Buying AI Does Not Automatically Create Business Value
-description: AI licences and features are easy to buy, but value only appears when a specific piece of work changes. Here is why AI purchases often fade into the background, and how to tie them to measurable results.
+title: Why buying AI does not automatically create business value
+description: AI licences are easy to buy, but value appears only when a specific piece of work changes. Tie AI purchases to measurable results.
 lead: AI licences and features are easy to buy, but value only appears when a specific piece of work changes. Here is why AI purchases often fade into the background, and how to tie them to measurable results.
 category: AI Readiness, Agents & Intelligent Operations
 published_date: 2026-10-07
@@ -18,9 +18,9 @@ sources:
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
   - Playbook - AIRC | https://airc.nist.gov/airmf-resources/playbook/
 related:
-  - The Business Process That Only Works Because Someone Remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
-  - When Field Work Happens Outside the System | /patterns/when-field-work-happens-outside-the-system/
-  - When Repetitive Work Is Mistaken for Necessary Work | /patterns/when-repetitive-work-is-mistaken-for-necessary-work/
+  - The business process that only works because someone remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
+  - When field work happens outside the system | /patterns/when-field-work-happens-outside-the-system/
+  - When repetitive work is mistaken for necessary work | /patterns/when-repetitive-work-is-mistaken-for-necessary-work/
 summary: AI licences and features are easy to buy, but value only appears when a specific piece of work changes. Here is why AI purchases often fade into the background, and how to tie them to measurable results.
 layout: plain
 ---
@@ -57,7 +57,7 @@ It sits close to several related topics. The Insight [why technology spend does 
 - **Data and access are assumed.** Many useful AI applications depend on reaching accurate business data. When that data sits in disconnected systems or untidy folders, the tool can only work on what a person pastes into it.
 - **Risk is considered late.** Questions about confidential data, accuracy checks and who reviews outputs surface after rollout, which leads to restrictions that further limit use.
 
-The NIST AI Risk Management Framework, a voluntary framework from the United States standards body, organises AI governance around four functions: govern, map, measure and manage. Its "map" function is essentially about understanding the context in which an AI system will be used. Businesses that skip that step tend to find they have neither a measured benefit nor a clear view of the risk.
+The NIST [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), a voluntary framework from the United States standards body, organises AI governance around four functions: govern, map, measure and manage. Its "map" function is essentially about understanding the context in which an AI system will be used. Businesses that skip that step tend to find they have neither a measured benefit nor a clear view of the risk.
 
 ## Commercial impact
 

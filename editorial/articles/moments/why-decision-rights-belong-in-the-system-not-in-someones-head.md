@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000069
 slug: why-decision-rights-belong-in-the-system-not-in-someones-head
-title: Why Decision Rights Belong in the System, Not in Someone's Head
-description: When only one person knows who may decide what, everyone else guesses. Recording decision rights and limits gives judgement a place to work and gives owners a way to trust it.
+title: Why decision rights belong in the system, not in someone's head
+description: When only one person knows who may decide what, everyone else guesses. Recording decision rights and limits gives judgement room and owners trust.
 lead: When only one person knows who may decide what, everyone else guesses. Recording decision rights and limits gives judgement a place to work and gives owners a way to trust it.
 category: Human Agency
 published_date: 2026-10-10
@@ -20,9 +20,10 @@ sources:
   - Responsibility assignment matrix - Wikipedia | https://en.wikipedia.org/wiki/RACI_matrix
   - Separation of duties - Wikipedia | https://en.wikipedia.org/wiki/Segregation_of_duties
 related:
-  - What Real Delegation Requires From Systems | /moments/what-real-delegation-requires-from-systems/
-  - When Monitoring Replaces Trust | /moments/when-monitoring-replaces-trust-in-the-reporting-line/
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - What real delegation requires from systems | /moments/what-real-delegation-requires-from-systems/
+  - When monitoring replaces trust | /moments/when-monitoring-replaces-trust-in-the-reporting-line/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - When unsafe shortcuts are built into the workflow | /moments/when-unsafe-shortcuts-are-built-into-the-finance-workflow/
 summary: When only one person knows who may decide what, everyone else guesses. Recording decision rights and limits gives judgement a place to work and gives owners a way to trust it.
 layout: plain
 ---
@@ -42,7 +43,7 @@ When decision rights live only in someone's head, three things happen. People ca
 
 The cost to staff is a loss of autonomy, and it is a particular kind. It is not that they are told what to do. It is that they cannot find out how far their own judgement is allowed to go. The UK Health and Safety Executive's management standards for work-related stress identify control, how much say people have in the way they do their work, as a core condition of a healthy workplace. The related standard on role asks whether people understand what is expected of them and whether the limits of their authority are clear.
 
-The World Health Organization's guidance on mental health at work lists unclear job roles and low job control among the working conditions that can pose a risk to mental health. A person who must guess where their authority ends, and who is occasionally corrected for guessing wrong, learns to stop guessing.
+The World Health Organization's guidance on [mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) lists unclear job roles and low job control among the working conditions that can pose a risk to mental health. A person who must guess where their authority ends, and who is occasionally corrected for guessing wrong, learns to stop guessing.
 
 That has a flip side that is easy to miss. An employee who learns to ask about everything is not necessarily timid. They are responding sensibly to a system in which unrecorded rules punish initiative. The related piece on [the employee who needs permission for every small fix](/moments/the-employee-who-needs-permission-for-every-small-fix/) describes the daily effect.
 

@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-052
 slug: unused-software-licences-financial-waste
-title: Paying for Software Licences Nobody Uses
+title: Paying for software licences nobody uses
 description: Unused software licences look harmless one seat at a time. Across dozens of tools and renewals, they become recurring financial waste.
 lead: Unused licences look harmless one seat at a time. Across dozens of tools, renewals and former employees, they become a recurring operating expense that quietly compounds.
 category: Software Spend
@@ -25,9 +25,9 @@ sources:
 closing_title: Method note
 closing_text: Financial examples are illustrative unless explicitly attributed. Replace sample assumptions with your own licence prices, usage and operating costs before making a business decision.
 related:
-  - How Many Software Subscriptions Do You Pay For? The Cost of Not Knowing | /impact/unknown-software-subscriptions-invisible-recurring-cost/
-  - AI Tool Sprawl: Paying for Overlapping AI Subscriptions Without Measuring Value | /impact/ai-subscription-sprawl-unmeasured-value-cost/
-  - Paying for Cloud Resources Nobody Uses | /impact/unused-cloud-resources-financial-waste/
+  - How many software subscriptions do you pay for? The cost of not knowing | /impact/unknown-software-subscriptions-invisible-recurring-cost/
+  - AI tool sprawl: Paying for overlapping AI subscriptions without measuring value | /impact/ai-subscription-sprawl-unmeasured-value-cost/
+  - Paying for cloud resources nobody uses | /impact/unused-cloud-resources-financial-waste/
 ---
 ## The pain is not the licence. It is the absence of control.
 
@@ -39,7 +39,7 @@ Nothing appears serious because each individual charge is relatively small. The 
 
 SaaS purchasing is intentionally easy. That helps speed, but it removes much of the natural friction that once forced technology purchases through central procurement. Card payments, monthly billing and self-service upgrades allow spending to spread across departments without a complete inventory. That is why many businesses [cannot list all the applications they use](/discovery/why-businesses-cannot-list-all-applications-they-use/).
 
-Flexera's [2026 State of ITAM reporting](https://info.flexera.com/ITAM-REPORT-State-of-IT-Asset-Management) says wasted spend is still rising in some software categories, including SaaS and AI, while many organisations lack complete visibility. It reports that only 36% of respondents now have complete IT visibility, and only 31% report visibility into AI software. Its 2025 reporting also highlighted rising SaaS waste and growing efforts to track usage and right-size contracts. The practical lesson is simple: **allocation is not the same thing as utilisation**.
+Flexera's [2026 State of ITAM reporting](https://info.flexera.com/ITAM-REPORT-State-of-IT-Asset-Management) says wasted spend is still rising in some software categories, including [SaaS and AI](https://www.flexera.com/blog/it-asset-management/state-of-itam-2026/), while many organisations lack complete visibility. It reports that only 36% of respondents now have complete IT visibility, and only 31% report visibility into AI software. Its 2025 reporting also highlighted rising SaaS waste and growing efforts to track usage and right-size contracts. The practical lesson is simple: **allocation is not the same thing as utilisation**.
 
 ## How the pain becomes money
 

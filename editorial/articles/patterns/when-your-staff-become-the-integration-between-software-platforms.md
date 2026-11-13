@@ -2,9 +2,9 @@
 hub: patterns
 record_id: PAT-027
 slug: when-your-staff-become-the-integration-between-software-platforms
-title: When Your Staff Become the Integration Between Software Platforms
-description: Explores how frontline staff increasingly stitch together disparate tools, creating operational agility while exposing data, governance and security risks that IT often cannot fully absorb.
-lead: Explores how frontline staff increasingly stitch together disparate tools, creating operational agility while exposing data, governance and security risks that IT often cannot fully absorb.
+title: When your staff become the integration between software platforms
+description: When staff copy information between tools all day, they become the integration. It keeps work moving, but it exposes the business to errors and data risks.
+lead: When staff copy information between tools all day, they become the integration. It keeps work moving, but it exposes the business to errors and data risks.
 category: Operational Patterns
 published_date: 2026-10-02
 updated_date: 2026-10-02
@@ -16,11 +16,12 @@ commercial_value_dimensions: productivity; risk; speed
 sources:
   - Shadow IT guidance | https://www.ncsc.gov.uk/guidance/shadow-it
   - Data policies - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/wp-data-loss-prevention
+  - Introduction to other types of desktop flows - Power Automate - Microsoft Learn | https://learn.microsoft.com/en-us/power-automate/desktop-flows/overview
 related:
-  - When a Status Update Requires a Staff Member to Investigate | /patterns/when-a-status-update-requires-a-staff-member-to-investigate/
-  - Why Does This Task Still Need a Person Every Time? | /patterns/why-does-this-task-still-need-a-person-every-time/
-  - Why One Number Requires Three People and Four Systems | /patterns/why-one-number-requires-three-people-and-four-systems/
-summary: Explores how frontline staff increasingly stitch together disparate tools, creating operational agility while exposing data, governance and security risks that IT often cannot fully absorb.
+  - When a status update requires a staff member to investigate | /patterns/when-a-status-update-requires-a-staff-member-to-investigate/
+  - Why does this task still need a person every time? | /patterns/why-does-this-task-still-need-a-person-every-time/
+  - Why one number requires three people and four systems | /patterns/why-one-number-requires-three-people-and-four-systems/
+summary: When staff copy information between tools all day, they become the integration. It keeps work moving, but it exposes the business to errors and data risks.
 layout: plain
 ---
 ## Observable Condition
@@ -54,7 +55,7 @@ Two closely related Mellorca patterns describe parts of this condition in more d
 
 ## Diagnosis
 
-The diagnosis is systemic: structural gaps in data governance, fragmented toolsets and a lack of standardised integration patterns. The organisation benefits from the agility of informal integrations, yet bears the cost in data quality, control and risk exposure. The root mechanism is not malice but absence—absence of a governed framework that can absorb the legitimate need for rapid integration while preserving control over data and access.
+The diagnosis is systemic: structural gaps in data governance, fragmented toolsets and a lack of standardised integration patterns. The organisation benefits from the agility of informal integrations, yet bears the cost in data quality, control and risk exposure. The root mechanism is not malice but absence—absence of a governed framework that can absorb the legitimate need for rapid integration while preserving control over data and access. Microsoft's documentation on [Power Automate desktop flows](https://learn.microsoft.com/en-us/power-automate/desktop-flows/overview) shows how low the barrier is: a flow can automate legacy and modern applications through their user interface, using UI elements, images or coordinates, with no formal integration behind them.
 
 A practical way to diagnose the extent of the pattern is a short "integration census":
 

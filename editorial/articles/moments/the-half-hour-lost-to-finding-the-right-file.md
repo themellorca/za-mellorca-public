@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000008
 slug: the-half-hour-lost-to-finding-the-right-file
-title: The Half-Hour Lost to Finding the Right File
-description: The file exists; the question is which of its five copies is the right one. What searching for documents takes in time and quiet doubt, and the filing decisions that make finding it a non-event.
+title: The half-hour lost to finding the right file
+description: The file exists; the question is which of its five copies is right. What searching for documents costs in time and doubt, and the filing fix.
 lead: The file exists; the question is which of its five copies is the right one. What searching for documents takes in time and quiet doubt, and the filing decisions that make finding it a non-event.
 category: Time & Attention
 published_date: 2026-10-04
@@ -20,9 +20,9 @@ sources:
   - Introduction to SharePoint information architecture - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/information-architecture-modern-experience
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
 related:
-  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
-  - The Report Someone Rebuilds by Hand Every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
-  - When Month-End Swallows the Whole Week | /moments/when-month-end-swallows-the-whole-week/
+  - The lunch break eaten by approval requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - The report someone rebuilds by hand every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - When month-end swallows the whole week | /moments/when-month-end-swallows-the-whole-week/
 summary: The file exists; the question is which of its five copies is the right one. What searching for documents takes in time and quiet doubt, and the filing decisions that make finding it a non-event.
 layout: plain
 ---
@@ -34,7 +34,7 @@ That last sentence is the part worth dwelling on. The time lost to searching is 
 
 ## A familiar problem, widely reported
 
-Difficulty finding information at work is one of the more consistently reported frustrations in workplace research. Microsoft's Work Trend Index found that 62% of surveyed people said they struggled with too much time spent searching for information. IBM's explainer on enterprise search cites a 2023 Gartner survey in which nearly half of digital workers said they struggled to find the information they needed to do their jobs, and a 2025 Forrester survey in which 74% of senior and executive managers said they had to use different platforms to find what they needed.
+Difficulty finding information at work is one of the more consistently reported frustrations in workplace research. Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) found that 62% of surveyed people said they struggled with too much time spent searching for information. IBM's explainer on [enterprise search](https://www.ibm.com/think/topics/enterprise-search) cites a 2023 Gartner survey in which nearly half of digital workers said they struggled to find the information they needed to do their jobs, and a 2025 Forrester survey in which 74% of senior and executive managers said they had to use different platforms to find what they needed.
 
 These are international surveys, and they measure perception rather than minutes. They do not establish how long a South African bookkeeper or project manager spends looking for documents. What they show is that the problem is common, persistent and not confined to large organisations with sprawling systems.
 
@@ -45,7 +45,7 @@ The commercial cost of this is set out in Mellorca's work on [the productivity c
 Lost files are rarely the result of carelessness. They are usually the result of a filing arrangement that grew without being designed.
 
 - **Several places to keep things.** A shared drive, personal desktops, email attachments, a cloud folder someone set up for one project, and WhatsApp.
-- **Deep folder trees.** Microsoft's guidance on SharePoint information architecture notes that folder structures nested more than one or two levels deep create a significant discoverability burden, and recommends using metadata, such as columns describing a document's type, client or status, to organise and find content instead.
+- **Deep folder trees.** Microsoft's guidance on [SharePoint information architecture](https://learn.microsoft.com/en-us/sharepoint/information-architecture-modern-experience) notes that folder structures nested more than one or two levels deep create a significant discoverability burden, and recommends using metadata, such as columns describing a document's type, client or status, to organise and find content instead.
 - **No agreed source of truth.** When the same document is saved in three places, nobody knows which copy is current.
 - **Versions by filename.** Without version control, people show history by renaming files, and the names stop meaning anything.
 

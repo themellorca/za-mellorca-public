@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000021
 slug: when-the-out-of-office-reply-doesnt-stop-the-work
-title: When the Out-of-Office Reply Doesn't Stop the Work
-description: The automatic reply goes out, politely. The requests keep arriving anyway, addressed to one person and waiting for their return. What leave looks like when work is routed to people rather than roles, and what changes when it is not.
+title: When the out-of-office reply doesn't stop the work
+description: The automatic reply goes out, yet requests keep arriving for one person and wait for their return. What leave looks like when work is routed to roles.
 lead: The automatic reply goes out, politely. The requests keep arriving anyway, addressed to one person and waiting for their return. What leave looks like when work is routed to people rather than roles, and what changes when it is not.
 category: Time and Attention
 published_date: 2026-10-05
@@ -20,9 +20,9 @@ sources:
   - Basic Guide to Annual Leave | https://www.labour.gov.za/DocumentCenter/Pages/Basic-Guide-to-Annual-Leave.aspx
   - Crucial changes needed to protect workers’ health while teleworking | https://www.who.int/news/item/02-02-2022-crucial-changes-needed-to-protect-workers-health-while-teleworking
 related:
-  - Why Waiting for Information Feels Like Working | /moments/why-waiting-for-information-feels-like-working/
-  - Why Some People Never Get an Uninterrupted Hour | /moments/why-some-people-never-get-an-uninterrupted-hour/
-  - The Late Night Spent Reconciling Two Spreadsheets | /moments/the-late-night-spent-reconciling-two-spreadsheets/
+  - Why waiting for information feels like working | /moments/why-waiting-for-information-feels-like-working/
+  - Why some people never get an uninterrupted hour | /moments/why-some-people-never-get-an-uninterrupted-hour/
+  - The late night spent reconciling two spreadsheets | /moments/the-late-night-spent-reconciling-two-spreadsheets/
 summary: The automatic reply goes out, politely. The requests keep arriving anyway, addressed to one person and waiting for their return. What leave looks like when work is routed to people rather than roles, and what changes when it is not.
 layout: plain
 ---
@@ -34,7 +34,7 @@ This piece looks at what happens when the out-of-office reply informs people of 
 
 ## What the automatic reply actually does
 
-Microsoft's support page for automatic replies in Outlook describes the feature accurately. It sends a customised message once to each person who emails during the absence. It can be scheduled with a start and end time, and separate messages can be set for people inside and outside the organisation.
+Microsoft's support page for [automatic replies in Outlook](https://support.microsoft.com/en-us/office/send-automatic-out-of-office-replies-from-outlook-9742f476-5348-4f9f-997f-5e208513bd67) describes the feature accurately. It sends a customised message once to each person who emails during the absence. It can be scheduled with a start and end time, and separate messages can be set for people inside and outside the organisation.
 
 That is all it does, and it is useful. But it is worth noticing what it does not do. It does not assign the email to anyone. It does not tell a colleague that a customer is waiting. It does not record which requests arrived and which were dealt with. The message leaves; the work stays.
 
@@ -42,7 +42,7 @@ Most of the time, the reply hands the decision back to the sender. They must cho
 
 ## Leave is a right, not a gap in the schedule
 
-In South Africa, the Department of Employment and Labour's basic guide to annual leave sets out that workers are entitled to a minimum of 21 consecutive days of annual leave each year, or by agreement one day for every 17 days worked. It also states that employers may not pay workers instead of granting leave, except when employment ends.
+In South Africa, the Department of Employment and Labour's [basic guide to annual leave](https://www.labour.gov.za/DocumentCenter/Pages/Basic-Guide-to-Annual-Leave.aspx) sets out that workers are entitled to a minimum of 21 consecutive days of annual leave each year, or by agreement one day for every 17 days worked. It also states that employers may not pay workers instead of granting leave, except when employment ends.
 
 The intent is that people actually take time away. A system of work that piles up behind an absent employee does not prevent them from taking leave, but it changes what leave is like. For some people, the knowledge that work is accumulating with their name on it may make the time away feel less complete. Mellorca cannot say how any individual experiences it, and some people are entirely comfortable letting things wait. The narrower point is that the way work is routed shapes what the person returns to.
 
@@ -69,7 +69,7 @@ A third, smaller tax falls on colleagues. They are named in the automatic reply 
 
 The goal is to route work to roles and shared places, so that one person's absence does not stop it.
 
-1. **Use shared mailboxes for shared work.** Microsoft's documentation describes shared mailboxes for addresses that several people need to monitor, such as company information, support or reception addresses, with members able to send as the shared address. Customer and supplier correspondence that belongs to a function, rather than a person, can live there.
+1. **Use [shared mailboxes](https://learn.microsoft.com/en-us/microsoft-365/admin/email/about-shared-mailboxes) for shared work.** Microsoft's documentation describes shared mailboxes for addresses that several people need to monitor, such as company information, support or reception addresses, with members able to send as the shared address. Customer and supplier correspondence that belongs to a function, rather than a person, can live there.
 2. **Introduce role addresses gradually.** Customers can be asked, over time, to write to an accounts or orders address. Personal relationships remain; the work becomes visible to more than one person.
 3. **Give cover real access.** Where personal mailboxes must remain, delegated access during leave lets a colleague see what has arrived instead of waiting to be forwarded.
 4. **Write a short handover.** A one-page list of open items, expected requests and who will handle them helps the colleague act rather than guess. Mellorca's guide on [how to design a handoff that cannot depend on memory](/insights/how-to-design-a-handoff-that-cannot-depend-on-memory/) is relevant here.

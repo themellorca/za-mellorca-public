@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000026
 slug: the-time-tax-of-re-explaining-the-same-thing
-title: The Time Tax of Re-Explaining the Same Thing
-description: Some people spend a large part of their day explaining the same thing again: to customers, to colleagues, to whoever picks up the follow-up next. What that repetition takes from the explainer, and what lets an explanation be given once.
+title: The time tax of re-explaining the same thing
+description: Some people spend much of the day explaining the same thing again to customers and colleagues. What that costs the explainer, and how to explain once.
 lead: Some people spend a large part of their day explaining the same thing again: to customers, to colleagues, to whoever picks up the follow-up next. What that repetition takes from the explainer, and what lets an explanation be given once.
 category: Time & Attention
 published_date: 2026-10-05
@@ -19,9 +19,9 @@ sources:
   - Create and manage knowledge articles | https://learn.microsoft.com/en-us/dynamics365/customer-service/use/customer-service-hub-user-guide-knowledge-article
   - Using macros to update tickets | https://support.zendesk.com/hc/en-us/articles/4408887656602-Creating-macros-for-tickets
 related:
-  - Why “I'll Do It Tonight” Became the Default Plan | /moments/why-ill-do-it-tonight-became-the-default-plan/
-  - When Month-End Swallows the Whole Week | /moments/when-month-end-swallows-the-whole-week/
-  - When Travel Days Become Catch-Up Days | /moments/when-travel-days-become-catch-up-days/
+  - Why “I'll do it tonight” became the default plan | /moments/why-ill-do-it-tonight-became-the-default-plan/
+  - When month-end swallows the whole week | /moments/when-month-end-swallows-the-whole-week/
+  - When travel days become catch-up days | /moments/when-travel-days-become-catch-up-days/
 summary: Some people spend a large part of their day explaining the same thing again: to customers, to colleagues, to whoever picks up the follow-up next. What that repetition takes from the explainer, and what lets an explanation be given once.
 layout: plain
 ---
@@ -43,7 +43,7 @@ Both produce the same experience for the explainer: the same words, said again, 
 
 ## What the wider guidance says
 
-The idea that people should not have to provide or receive the same information repeatedly is well established in service design. The UK government's Service Standard, in its guidance on solving a whole problem for users, asks teams to work towards minimising the number of times users have to give the same information. That guidance is written for public services and for the user's benefit, but the mechanism it targets, information that does not travel between steps, is the same one that makes staff repeat themselves.
+The idea that people should not have to provide or receive the same information repeatedly is well established in service design. The UK government's Service Standard, in its guidance on solving a [whole problem for users](https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem), asks teams to work towards minimising the number of times users have to give the same information. That guidance is written for public services and for the user's benefit, but the mechanism it targets, information that does not travel between steps, is the same one that makes staff repeat themselves.
 
 Customer service software reflects the same thinking from the staff side. Microsoft's documentation for Dynamics 365 Customer Service describes knowledge articles as a way to turn customer questions, issues and feedback into reusable content for service representatives, with an assigned author responsible for maintaining each article. Zendesk describes macros as prepared responses that agents can apply when handling tickets, so routine replies do not need retyping.
 

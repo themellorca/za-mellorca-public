@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-036
 slug: why-the-same-problems-return-after-you-replace-the-system
-title: Why the Same Problems Return After You Replace the System
-description: The old system was blamed for missed orders, late reports and duplicate capture. A year after the new one went live, the same complaints are back. When information flow is broken, replacing the software usually moves the break rather than fixing it.
+title: Why the same problems return after you replace the system
+description: The old system took the blame for missed orders and duplicate capture, yet a year after replacing it the complaints return. Software only moves the break.
 lead: The old system was blamed for missed orders, late reports and duplicate capture. A year after the new one went live, the same complaints are back. When information flow is broken, replacing the software usually moves the break rather than fixing it.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-05
@@ -18,9 +18,9 @@ sources:
   - How the discovery phase works | https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works
   - About the Business Process Model and Notation Specification Version 2.0.2 | https://www.omg.org/spec/BPMN/2.0.2/About-BPMN
 related:
-  - When Staff Get Blamed for Errors Their Systems Created | /patterns/when-staff-get-blamed-for-errors-their-systems-created/
-  - When One Change Has to Be Made in Every System You Own | /patterns/when-one-change-has-to-be-made-in-every-system-you-own/
-  - Why Information Has to Be Copied From One System to Another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
+  - When staff get blamed for errors their systems created | /patterns/when-staff-get-blamed-for-errors-their-systems-created/
+  - When one change has to be made in every system you own | /patterns/when-one-change-has-to-be-made-in-every-system-you-own/
+  - Why information has to be copied from one system to another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
 summary: The old system was blamed for missed orders, late reports and duplicate capture. A year after the new one went live, the same complaints are back. When information flow is broken, replacing the software usually moves the break rather than fixing it.
 layout: plain
 ---
@@ -36,7 +36,7 @@ An illustrative example: a KwaZulu-Natal manufacturer with about ninety staff re
 
 Software holds and processes information. It does not decide when information is captured, who is responsible for it, what happens when it is incomplete or how it reaches the next person who needs it. Those decisions make up the information flow, and they usually survive a system replacement intact, because nobody looked at them separately from the software.
 
-Lean practice has long separated the two. The Lean Enterprise Institute describes value stream mapping as a diagram of every step in both the material flow and the information flow from order to delivery, and defines the information flow as what tells each process what to make or do next and when. A business can replace every screen in that diagram and leave the information flow unchanged.
+Lean practice has long separated the two. The Lean Enterprise Institute describes [value stream mapping](https://www.lean.org/lexicon-terms/value-stream-mapping/) as a diagram of every step in both the material flow and the information flow from order to delivery, and defines the information flow as what tells each process what to make or do next and when. A business can replace every screen in that diagram and leave the information flow unchanged.
 
 Public-sector digital teams have learned the same lesson the hard way. The UK Government Digital Service guidance on discovery says teams should understand the problem before committing to a solution, and should not start building in discovery. The point is not bureaucracy. It is that the shape of the problem decides whether new software can solve it.
 

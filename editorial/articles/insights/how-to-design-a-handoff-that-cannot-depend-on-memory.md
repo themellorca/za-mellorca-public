@@ -20,10 +20,11 @@ side_title: Topics
 sources:
   - Handoffs - PSNet | https://psnet.ahrq.gov/primer/handoffs-and-signouts
   - Overview of unified routing | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/overview-unified-routing
+  - I-PASS: Handoff Tool - Agency for Healthcare Research and Quality | https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/ipass.html
 related:
   - How to design workflows that can survive staff changes | /insights/how-to-design-workflows-that-can-survive-staff-changes/
   - Why shared inboxes become operational bottlenecks | /insights/why-shared-inboxes-become-operational-bottlenecks/
-  - Why Your Team Keeps Chasing Information | /insights/why-your-team-keeps-chasing-information/
+  - Why your team keeps chasing information | /insights/why-your-team-keeps-chasing-information/
 ---
 Many operational delays happen between steps rather than inside them. Sales finishes its work but delivery does not know the customer is ready. Procurement approves a request but finance does not receive the information needed to pay. A service team resolves one issue while the next team waits for context that never arrives.
 
@@ -39,11 +40,13 @@ Memory-based handoffs create chasing, status meetings, duplicate messages and un
 
 This is one reason customer onboarding often breaks as volume increases. As Mellorca explains in [why customer onboarding breaks as the business grows](/insights/why-customer-onboarding-breaks-as-the-business-grows/), coordination mechanisms that worked informally at low volume become fragile once more customers and teams are involved.
 
-Other fields learned this lesson long ago. In healthcare, the US Agency for Healthcare Research and Quality's patient safety primer on handoffs notes that communication failures between providers have been found to be a leading cause of preventable error, and that handoffs often take place in settings full of interruption and distraction. Hospitals responded with structured formats, such as I-PASS and SBAR, that standardise what must be said at every transfer. Business handoffs are rarely life-or-death, but the mechanism is the same: when the transfer is left to individual habit, information drops out under pressure.
+Other fields learned this lesson long ago. In healthcare, the US Agency for Healthcare Research and Quality's patient safety primer on handoffs notes that communication failures between providers have been found to be a leading cause of preventable error, and that handoffs often take place in settings full of interruption and distraction. Hospitals responded with structured formats, such as I-PASS and SBAR, that standardise what must be said at every transfer. Business handoffs are rarely life-or-death, but the mechanism is the same: when the transfer is left to individual habit, information drops out under pressure. AHRQ's [I-PASS guidance](https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/ipass.html) adds that organisations with a standard handoff approach are more likely to avoid omissions that can cause harm.
 
 ### A worked example
 
-A Cape Town solar installation company sells systems to homes and small businesses. Once a quote is accepted, the salesperson is supposed to tell the installation coordinator. In practice, the salesperson sends a WhatsApp message when they remember, sometimes with the site photos and roof notes, sometimes without. The coordinator schedules the install, the crew arrives, and finds the inverter location was never agreed with the customer. Meanwhile, deposits sit in the bank account for days before anyone realises the job is ready to schedule. Nobody is careless. The handoff simply has no trigger, no defined content and no owner. The revenue effect of this kind of delay is discussed in [the cost of delayed handoffs after a deal is won](/patterns/the-cost-of-delayed-handoffs-after-a-deal-is-won/).
+A Cape Town solar installation company sells systems to homes and small businesses. Once a quote is accepted, the salesperson is supposed to tell the installation coordinator. In practice, the salesperson sends a WhatsApp message when they remember, sometimes with the site photos and roof notes, sometimes without. The coordinator schedules the install, the crew arrives, and finds the inverter location was never agreed with the customer.
+
+Meanwhile, deposits sit in the bank account for days before anyone realises the job is ready to schedule. Nobody is careless. The handoff simply has no trigger, no defined content and no owner. The revenue effect of this kind of delay is discussed in [the cost of delayed handoffs after a deal is won](/patterns/the-cost-of-delayed-handoffs-after-a-deal-is-won/).
 
 ## Define the event that creates the handoff
 
@@ -67,7 +70,7 @@ The healthcare formats are a useful model here. SBAR, for example, organises a h
 
 A handoff to "the team" is often a handoff to nobody. The workflow needs a receiving owner, queue or role with a defined responsibility to accept and progress the work.
 
-Modern workflow platforms commonly use assignment rules, queues and skills-based routing to match work with a responsible resource. Microsoft's description of unified routing in Dynamics 365, for instance, separates classification, where rules add information to a work item, from assignment, where items are prioritised and matched to people based on skills, availability and workload. The product is less important than the principle: the process needs a deterministic destination rather than a message broadcast to several people.
+Modern workflow platforms commonly use assignment rules, queues and skills-based routing to match work with a responsible resource. Microsoft's description of [unified routing](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/overview-unified-routing) in Dynamics 365, for instance, separates classification, where rules add information to a work item, from assignment, where items are prioritised and matched to people based on skills, availability and workload. The product is less important than the principle: the process needs a deterministic destination rather than a message broadcast to several people.
 
 ## Add an acceptance state
 

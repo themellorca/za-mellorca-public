@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-404
 slug: project-deadlines-slipping-hidden-dependencies-avoidable-delay-cost
-title: Deadlines Slip When Dependencies Are Hidden: What Avoidable Delay Costs
-description: Projects rarely run late for one big reason. When dependencies between teams, suppliers and approvals are not visible, small waits compound into weeks of extended team time, delayed benefit and standing charges.
+title: Deadlines slip when dependencies are hidden: What avoidable delay costs
+description: Projects rarely run late for one big reason. When dependencies between teams, suppliers and approvals are hidden, small waits compound into weeks of delay.
 lead: Projects rarely run late for one big reason. When dependencies between teams, suppliers and approvals are not visible, small waits compound into weeks of extended team time, delayed benefit and standing charges.
 category: Project Operations
 published_date: 2026-10-09
@@ -17,9 +17,9 @@ sources:
   - Critical path method (CPM): steps, float, examples [2026] • Asana | https://asana.com/resources/critical-path-method
   - Configure work item linking - Atlassian Support | https://support.atlassian.com/jira-cloud-administration/docs/configure-issue-linking/
 related:
-  - Waiting Weeks for Management Reports: What Late Visibility Costs the Business | /impact/waiting-weeks-for-management-reports-late-visibility-cost/
-  - When Every Decision Waits for One Person: The Cost of a Decision Bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
-  - Which Version Is Final? The Cost of Teams Working From Different Copies | /impact/conflicting-document-versions-rework-decision-cost/
+  - Waiting weeks for management reports: What late visibility costs the business | /impact/waiting-weeks-for-management-reports-late-visibility-cost/
+  - When every decision waits for one person: The cost of a decision bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
+  - Which version is final? The cost of teams working from different copies | /impact/conflicting-document-versions-rework-decision-cost/
 summary: Projects rarely run late for one big reason. When dependencies between teams, suppliers and approvals are not visible, small waits compound into weeks of extended team time, delayed benefit and standing charges.
 layout: plain
 ---

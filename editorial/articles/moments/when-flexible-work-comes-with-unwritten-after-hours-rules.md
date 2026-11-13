@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000067
 slug: when-flexible-work-comes-with-unwritten-after-hours-rules
-title: When Flexible Work Comes With Invisible Rules
+title: When flexible work comes with invisible rules
 description: Flexible hours promise control, but unstated expectations about evening replies can cancel it. Why the rules stay invisible and how to make them explicit.
 lead: Flexible hours promise control, but unstated expectations about evening replies can cancel it. Why the rules stay invisible and how to make them explicit.
 category: Human Agency
@@ -20,9 +20,9 @@ sources:
   - Self-determination theory - Wikipedia | https://en.wikipedia.org/wiki/Self-determination_theory
   - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
 related:
-  - The Freedom That Comes From Knowing Where Things Stand | /moments/the-freedom-that-comes-from-knowing-where-things-stand/
-  - Why Approval Chains Make Capable People Wait | /moments/why-approval-chains-make-capable-people-wait/
-  - When Monitoring Replaces Trust | /moments/when-monitoring-replaces-trust-in-the-reporting-line/
+  - The freedom that comes from knowing where things stand | /moments/the-freedom-that-comes-from-knowing-where-things-stand/
+  - Why approval chains make capable people wait | /moments/why-approval-chains-make-capable-people-wait/
+  - When monitoring replaces trust | /moments/when-monitoring-replaces-trust-in-the-reporting-line/
 summary: Flexible hours promise control, but unstated expectations about evening replies can cancel it. Why the rules stay invisible and how to make them explicit.
 layout: plain
 ---
@@ -34,7 +34,7 @@ This piece looks at that gap between the flexibility a business offers and the u
 
 Flexible work usually arrives as a promise of control: the employee decides where and, to some extent, when the work gets done. The promise is real in many businesses. The difficulty appears when the arrangement has no stated edges. If nobody has said when a reply is expected, or which hours are genuinely free, each person has to guess, and the safest guess is to be available all the time.
 
-The World Health Organization's guidance on mental health at work identifies low job control, poor communication and unclear roles among the working conditions that pose a risk to mental health. An unwritten rule is a form of unclear communication. It carries all the weight of an instruction without the clarity of one, and it cannot be questioned because it was never spoken.
+The World Health Organization's guidance on [mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) identifies low job control, poor communication and unclear roles among the working conditions that pose a risk to mental health. An unwritten rule is a form of unclear communication. It carries all the weight of an instruction without the clarity of one, and it cannot be questioned because it was never spoken.
 
 The UK Health and Safety Executive's management standards for work-related stress treat control as one of the core conditions of a healthy workplace, meaning how much say a person has in the way they do their work. Control that exists in principle but is quietly cancelled by an expectation of constant availability is not control in the sense the standard describes. The person has the freedom to choose, and the penalty for choosing differently.
 
@@ -60,7 +60,7 @@ The first cost is autonomy. People lose the ability to decide, without justifica
 
 These costs are not evenly shared. People with fewer alternatives, such as junior staff, those on probation or those who cannot easily change employer, are least able to test where the line is. In a country with high unemployment, many workers will quietly absorb an unstated expectation rather than risk finding out it was real. The business sees compliance and may read it as contentment.
 
-South African law gives some anchor points. The Basic Conditions of Employment Act sets out rules on ordinary hours of work, overtime and rest periods for the employees it covers, though coverage and thresholds vary and it is worth checking the current position for a particular role. A business that relies on invisible after-hours expectations may be creating obligations it has never priced or recorded.
+South African law gives some anchor points. The [Basic Conditions of Employment Act](https://www.gov.za/documents/basic-conditions-employment-act) sets out rules on ordinary hours of work, overtime and rest periods for the employees it covers, though coverage and thresholds vary and it is worth checking the current position for a particular role. A business that relies on invisible after-hours expectations may be creating obligations it has never priced or recorded.
 
 ## What could realistically change
 

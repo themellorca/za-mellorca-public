@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-305
 slug: salespeople-re-entering-customer-details-administrative-selling-payroll-cost
-title: Salespeople as Data Clerks: The Payroll Cost of Re-Entering Customer Details
-description: When the same customer details are typed into the CRM, the quote, the proposal and the accounting system, selling time becomes clerical time, and the business pays sales salaries for data capture.
+title: Salespeople as data clerks: The payroll cost of re-entering customer details
+description: When the same customer details are typed into the CRM, quote, proposal and accounting system, selling time becomes clerical time paid at sales salaries.
 lead: When the same customer details are typed into the CRM, the quote, the proposal and the accounting system, selling time becomes clerical time, and the business pays sales salaries for data capture.
 category: Sales Operations
 published_date: 2026-10-09
@@ -17,9 +17,10 @@ sources:
   - Explore the Power Automate home page - Power Automate | https://learn.microsoft.com/en-us/power-automate/getting-started
   - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
 related:
-  - Retyping Website Enquiries Into the CRM: The Cost of Slow, Error-Prone Lead Capture | /impact/retyping-website-enquiries-into-crm-lead-capture-cost/
-  - The Revenue Cost of Slow Sales Lead Response | /impact/slow-sales-lead-response-revenue-cost/
-  - An Inbox Is Not a Sales Process: The Revenue Cost of Emailed Website Enquiries | /impact/website-enquiries-email-inbox-sales-process-revenue-cost/
+  - Retyping website enquiries into the CRM: The cost of slow, error-prone lead capture | /impact/retyping-website-enquiries-into-crm-lead-capture-cost/
+  - The revenue cost of slow sales lead response | /impact/slow-sales-lead-response-revenue-cost/
+  - An inbox is not a sales process: The revenue cost of emailed website enquiries | /impact/website-enquiries-email-inbox-sales-process-revenue-cost/
+  - Typing employee details into four systems: The duplicate admin cost in HR | /impact/hr-entering-same-employee-details-into-multiple-systems-duplicate-admin-error-cost/
 summary: When the same customer details are typed into the CRM, the quote, the proposal and the accounting system, selling time becomes clerical time, and the business pays sales salaries for data capture.
 layout: plain
 ---

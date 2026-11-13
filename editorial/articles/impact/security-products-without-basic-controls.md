@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-149
 slug: security-products-without-basic-controls
-title: When Security Spend Runs Ahead of Basic Controls
-description: Why buying more cybersecurity products without basic identity, patching, backup and ownership controls can increase cost without reducing the most obvious operational exposure.
+title: When security spend runs ahead of basic controls
+description: Buying more security products without basic identity, patching, backup and ownership controls can raise cost without reducing your most obvious exposure.
 lead: Security tools can be necessary. They cannot compensate indefinitely for weak identity control, overdue patching, unmanaged access, untested recovery and unclear operational ownership.
 category: Security Economics
 published_date: 2026-09-05
@@ -21,9 +21,9 @@ sources:
   - Cyber Essentials | https://www.ncsc.gov.uk/cyberessentials/overview
   - Cross-Sector Cybersecurity Performance Goals - CISA | https://www.cisa.gov/cross-sector-cybersecurity-performance-goals
 related:
-  - Not Knowing Who Still Has Access to Your Systems | /impact/uncontrolled-system-access-financial-risk/
-  - When Every Process Problem Becomes Another Software Purchase | /impact/buying-software-for-every-process-problem/
-  - Paying the Same Supplier Invoice Twice: The Direct Cost of Weak Controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
+  - Not knowing who still has access to your systems | /impact/uncontrolled-system-access-financial-risk/
+  - When every process problem becomes another software purchase | /impact/buying-software-for-every-process-problem/
+  - Paying the same supplier invoice twice: The direct cost of weak controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
 ---
 ## The tolerated pain
 

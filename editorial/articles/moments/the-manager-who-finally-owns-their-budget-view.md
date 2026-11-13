@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000080
 slug: the-manager-who-finally-owns-their-budget-view
-title: The Manager Who Finally Owns Their Budget View
-description: What changes for a department manager when the budget they are accountable for becomes something they can look at themselves, on their own timetable, instead of waiting for finance to send it.
+title: The manager who finally owns their budget view
+description: What changes for a department manager when the budget they answer for is something they can check themselves, instead of waiting for finance to send it.
 lead: What changes for a department manager when the budget they are accountable for becomes something they can look at themselves, on their own timetable, instead of waiting for finance to send it.
 category: Autonomy and Agency
 published_date: 2026-10-10
@@ -19,9 +19,10 @@ sources:
   - The AQuA Book | https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government
   - Set data alerts in the Power BI service - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
 related:
-  - What Autonomy Looks Like When Systems Hold the Routine | /moments/what-autonomy-looks-like-when-systems-hold-the-routine/
-  - Why Agency Starts With Reliable Information | /moments/why-reliable-information-comes-before-real-agency/
-  - Why Clear Ownership Gives People Room to Decide | /moments/why-clear-ownership-gives-people-room-to-decide/
+  - What autonomy looks like when systems hold the routine | /moments/what-autonomy-looks-like-when-systems-hold-the-routine/
+  - Why agency starts with reliable information | /moments/why-reliable-information-comes-before-real-agency/
+  - Why clear ownership gives people room to decide | /moments/why-clear-ownership-gives-people-room-to-decide/
+  - Why control without visibility is only anxiety | /moments/why-control-without-visibility-is-only-anxiety/
 summary: What changes for a department manager when the budget they are accountable for becomes something they can look at themselves, on their own timetable, instead of waiting for finance to send it.
 layout: plain
 ---
@@ -60,10 +61,10 @@ Now imagine the same manager opening a simple page each morning that shows the a
 
 None of this requires turning managers into accountants. The practical steps are modest.
 
-1. **Give each budget holder a view limited to their own cost centres.** Most accounting and reporting tools can restrict what a person sees. This protects confidentiality while still giving the manager something of their own. Microsoft's documentation for Power BI, for example, describes data alerts that notify a person when a figure on a dashboard moves beyond a limit that person has set, which is a mechanism for exactly this kind of personal threshold. It also notes that alerts only work on refreshed data, so how often the underlying figures are updated matters as much as the alert itself.
+1. **Give each budget holder a view limited to their own cost centres.** Most accounting and reporting tools can restrict what a person sees. This protects confidentiality while still giving the manager something of their own. Microsoft's documentation for [Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts), for example, describes data alerts that notify a person when a figure on a dashboard moves beyond a limit that person has set, which is a mechanism for exactly this kind of personal threshold. It also notes that alerts only work on refreshed data, so how often the underlying figures are updated matters as much as the alert itself.
 2. **Show commitments next to actuals.** Orders approved but not yet invoiced are part of the picture. Without them the view looks calmer than reality.
 3. **Let the manager set the thresholds.** A manager who chooses to be told at eighty per cent of the allowance owns that line in a way that a limit set by finance does not allow.
-4. **Be honest about what the figures are.** The UK Government's AQuA Book, its guidance on producing quality analysis, stresses that analysis should be fit for its purpose and that uncertainty should be managed. A budget view that states its cut-off date and known gaps is more useful than one that pretends to be exact.
+4. **Be honest about what the figures are.** The UK Government's [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government), its guidance on producing quality analysis, stresses that analysis should be fit for its purpose and that uncertainty should be managed. A budget view that states its cut-off date and known gaps is more useful than one that pretends to be exact.
 5. **Keep a conversation with finance.** The view replaces the routine question, not the relationship. Finance remains the place to discuss accruals, coding and corrections.
 
 Mellorca has argued in [how to decide what should be on an operations dashboard](/insights/how-to-decide-what-should-be-on-an-operations-dashboard/) that a dashboard should start from the decisions a person actually makes. A budget view is a good test case: the decisions are few, repeated and easy to name.

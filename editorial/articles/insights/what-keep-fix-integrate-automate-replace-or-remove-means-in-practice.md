@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-018
 slug: what-keep-fix-integrate-automate-replace-or-remove-means-in-practice
-title: What Keep, Fix, Integrate, Automate, Replace or Remove Means in Practice
-description: Every systems review ends with a decision for each tool and process. What keep, fix, integrate, automate, replace and remove actually mean, the evidence each needs, what each commits the business to, and why fixing and integrating usually deliver more than replacing.
+title: What keep, fix, integrate, automate, replace or remove means in practice
+description: Every systems review ends in a decision for each tool. What keep, fix, integrate, automate, replace and remove mean, and why fixing often beats replacing.
 lead: Every systems review ends with a decision for each tool and process. What keep, fix, integrate, automate, replace and remove actually mean, the evidence each needs, what each commits the business to, and why fixing and integrating usually deliver more than replacing.
 category: Systems & Strategy
 published_date: 2026-10-04

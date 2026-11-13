@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-052
 slug: when-the-weekly-report-is-already-out-of-date
-title: When the Weekly Report Is Already Out of Date
+title: When the weekly report is already out of date
 description: Addresses the creeping drift between reporting cycles and real-time events, and how stale information undermines decision-making and responsiveness.
 lead: Addresses the creeping drift between reporting cycles and real-time events, and how stale information undermines decision-making and responsiveness.
 category: Reporting & Transparency
@@ -18,9 +18,9 @@ sources:
   - What Is Stale Data? - IBM | https://www.ibm.com/think/topics/stale-data
   - What Is Streaming Data? - IBM | https://www.ibm.com/think/topics/streaming-data
 related:
-  - The Difference Between Having Data and Having Visibility | /patterns/the-difference-between-having-data-and-having-visibility/
-  - Why Does Management Find Out Too Late? | /patterns/why-management-finds-out-too-late/
-  - The Hidden Cost of Waiting for Management Information | /patterns/the-hidden-cost-of-waiting-for-management-information/
+  - The difference between having data and having visibility | /patterns/the-difference-between-having-data-and-having-visibility/
+  - Why does management find out too late? | /patterns/why-management-finds-out-too-late/
+  - The hidden cost of waiting for management information | /patterns/the-hidden-cost-of-waiting-for-management-information/
 summary: Addresses the creeping drift between reporting cycles and real-time events, and how stale information undermines decision-making and responsiveness.
 layout: plain
 ---
@@ -43,13 +43,13 @@ The important realisation is that the report's lateness is not a presentation pr
 
 This is a **data-latency and decision-cadence problem**. The pattern is identifiable through timestamp gaps between data generation and reporting, discrepancies between reported metrics and real-time signals, and leadership concerns about the freshness of insights. It often correlates with data integration bottlenecks, manual reconciliation, and the absence of automated alerting for data staleness.
 
-IBM defines data latency as the time it takes for data to become available and ready for use after it is generated or requested. That definition is useful because it separates two things the weekly report blends together: when something happened, and when the business could first see it.
+[IBM defines data latency](https://www.ibm.com/think/topics/data-latency) as the time it takes for data to become available and ready for use after it is generated or requested. That definition is useful because it separates two things the weekly report blends together: when something happened, and when the business could first see it.
 
 ## Diagnosis
 
 The root cause is a combination of rigid scheduling, siloed data sources, and insufficient automation for near-real-time aggregation. The diagnosis points to a design problem: reporting is treated as a periodic ritual rather than as a living view of current performance, with delayed feeds and manual offsets masking the truth.
 
-IBM's material on latency identifies the usual mechanisms: batch processing that introduces waiting between scheduled cycles, complex transformation steps, data moving between several systems, legacy batch-oriented architectures and fragmented data silos. Its description of stale data adds update frequencies that do not match the intended use, and upstream schema or source changes that are not carried through to downstream reports.
+IBM's material on latency identifies the usual mechanisms: batch processing that introduces waiting between scheduled cycles, complex transformation steps, data moving between several systems, legacy batch-oriented architectures and fragmented data silos. Its [description of stale data](https://www.ibm.com/think/topics/stale-data) adds update frequencies that do not match the intended use, and upstream schema or source changes that are not carried through to downstream reports.
 
 ### Where the days actually go
 
@@ -77,7 +77,7 @@ A second misidentification is to buy a new dashboard tool. A faster display laye
 
 ## Possibility
 
-There is a realistic path to improvement through streaming data, event-driven reporting, and lightweight dashboards that raise timely signals rather than static cards. The goal is to shorten the cycle between data generation and decision readiness without overwhelming users with noise.
+There is a realistic path to improvement through [streaming data](https://www.ibm.com/think/topics/streaming-data), event-driven reporting, and lightweight dashboards that raise timely signals rather than static cards. The goal is to shorten the cycle between data generation and decision readiness without overwhelming users with noise.
 
 Not every measure needs to be live. IBM's own framing distinguishes operational uses, where milliseconds to seconds matter, from strategic analytics and reporting, where minutes, hours or days may be acceptable. The better state matches freshness to decision: operational exceptions surface when they happen, while trend and planning measures can stay periodic but arrive promptly and without manual assembly.
 

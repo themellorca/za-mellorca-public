@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-305
 slug: how-to-make-ownership-clear-at-every-stage
-title: How to Make Ownership Clear at Every Stage
-description: Ownership is usually clear at the top and at the bottom, and missing in the middle where work changes hands. A practical way to name one accountable owner at every stage, with entry and exit conditions.
+title: How to make ownership clear at every stage
+description: Ownership is usually clear at the top and bottom but missing in the middle, where work changes hands. How to name one accountable owner at every stage.
 lead: Ownership is usually clear at the top and at the bottom, and missing in the middle where work changes hands. A practical way to name one accountable owner at every stage, with entry and exit conditions.
 category: Operating Model
 published_date: 2026-10-08
@@ -14,15 +14,15 @@ sources:
   - Cyber Security Toolkit for Boards | https://www.ncsc.gov.uk/collection/board-toolkit
   - Implement a solution based on business processes - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution
 related:
-  - How to Move Operational Knowledge Out of People's Heads | /insights/how-to-move-operational-knowledge-out-of-peoples-heads/
-  - When Copy-and-Paste Is Really an Integration Problem | /insights/when-copy-and-paste-is-really-an-integration-problem/
+  - How to move operational knowledge out of people's heads | /insights/how-to-move-operational-knowledge-out-of-peoples-heads/
+  - When copy-and-paste is really an integration problem | /insights/when-copy-and-paste-is-really-an-integration-problem/
   - How to buy business software without letting the demo make the decision | /insights/how-to-buy-business-software-without-letting-the-demo-make-the-decision/
 summary: Ownership is usually clear at the top and at the bottom, and missing in the middle where work changes hands. A practical way to name one accountable owner at every stage, with entry and exit conditions.
 layout: plain
 ---
 Ask a business owner whether ownership is clear and the answer is usually yes. Ask who owns a specific customer order at 3pm on a Thursday, between the moment the quote is accepted and the moment the invoice goes out, and the room goes quiet. Sales believes operations has it. Operations believes finance is waiting on sales. Finance is waiting on a purchase order that nobody knew was missing.
 
-Ownership is rarely absent in a business. It is usually clear at the top (the managing director owns everything) and clear at the bottom (a technician owns the job in front of them). It is the middle stages, where work changes hands, that go unowned. This article sets out a practical way to make ownership explicit at every stage of the work, without building an organisation chart nobody reads.
+Ownership is rarely absent in a business. It is usually clear at the top (the managing director owns everything) and clear at the bottom (a technician owns the job in front of them). It is the middle stages, where work changes hands, that go unowned. This article sets out a practical way to make ownership explicit at every stage of the work, without building an organisation chart nobody reads. The NCSC's [Cyber Security Toolkit for Boards](https://www.ncsc.gov.uk/collection/board-toolkit) makes a related point for security, saying board members have a critical role in making sure cyber resilience and risk management are embedded across the organisation.
 
 ## Why ownership fails at the stages, not at the edges
 
@@ -32,7 +32,7 @@ Departmental ownership answers the question, "who looks after this tool?" Stage 
 
 ## Step 1: Break the work into stages a person can point to
 
-Start with one end-to-end flow, not the whole company. Pick the flow that earns or loses the most money: perhaps winning a customer and delivering the first job, or taking a supplier invoice through to payment. Write the stages as plain verbs a staff member would recognise.
+Start with one end-to-end flow, not the whole company. Pick the flow that earns or loses the most money: perhaps winning a customer and delivering the first job, or taking a supplier invoice through to payment. Write the stages as plain verbs a staff member would recognise. Microsoft's implementation guidance takes a similar view, recommending that a system is [designed around end-to-end processes](https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution) drawn from a catalogue of business processes, rather than around individual departments.
 
 For a typical services firm in Gauteng the stages might be:
 

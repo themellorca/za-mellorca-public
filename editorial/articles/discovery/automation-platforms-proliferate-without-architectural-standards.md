@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-467
 slug: automation-platforms-proliferate-without-architectural-standards
 title: When automation platforms multiply without architectural standards
-description: Low-code flows, RPA bots, integration tools, scripts and AI agents accumulate with no rules on which to use for what. Why that makes automation fragile and costly, and how a short set of standards fixes it.
+description: Low-code flows, bots, scripts and AI agents pile up with no rules on what to use where. Why that is fragile and costly, and how standards help.
 lead: Low-code flows, RPA bots, integration tools, scripts and AI agents accumulate with no rules on which to use for what. Why that makes automation fragile and costly, and how a short set of standards fixes it.
 category: AI, Automation & Agent Operations
 published_date: 2026-10-03
@@ -18,7 +18,7 @@ sources:
   - Maintain an architecture decision record (ADR) - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record
 related:
   - Automations break when application interfaces change | /discovery/automations-break-when-application-interfaces-change/
-  - Why Critical Low-Code Automations Need Support Ownership | /discovery/why-critical-low-code-automations-need-support-ownership/
+  - Why critical low-code automations need support ownership | /discovery/why-critical-low-code-automations-need-support-ownership/
   - AI-generated decisions cannot be traced to source data | /discovery/ai-generated-decisions-cannot-be-traced-to-source-data/
 summary: Low-code flows, RPA bots, integration tools, scripts and AI agents accumulate with no rules on which to use for what. Why that makes automation fragile and costly, and how a short set of standards fixes it.
 layout: plain
@@ -31,7 +31,7 @@ This article is about that condition: automation platforms that multiply without
 
 Each automation platform brings its own way of connecting to systems, storing credentials, handling errors, logging activity and being administered. With one or two platforms, a small team can understand all of them. With six or seven, nobody can. Automations break in ways that are hard to diagnose, security reviews cannot see the whole picture, licences overlap, and every new automation starts with a debate about which tool to use, or no debate at all.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 Leaders ask how to govern automation tools, whether to standardise on one platform, or how to stop tool sprawl. The realistic need is not a single platform for everything. It is a small set of agreed standards: which kinds of work belong on which platform, and what every automation must do regardless of the tool, such as which identities it runs under, where it is logged and who owns it.
 

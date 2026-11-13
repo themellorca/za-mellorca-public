@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-060
 slug: expensive-tools-for-tasks-existing-platform-handles-cost
-title: Paying for Tools You Already Own: The Cost of Underused Software Platforms
+title: Paying for tools you already own: The cost of underused software platforms
 description: Businesses often buy specialist software for bookings, forms or approvals that their existing productivity suite already includes, and pay twice.
 lead: Businesses often buy specialist software for bookings, forms or approvals that their existing productivity suite already includes, and pay twice.
 category: Digital Infrastructure
@@ -17,9 +17,10 @@ sources:
   - What is Microsoft Forms? - Microsoft Support | https://support.microsoft.com/en-us/office/what-is-microsoft-forms-6b391205-523c-45d2-b53a-fc10b22017c8
   - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
 related:
-  - Software Bought Without Approval: The Financial and Security Cost of Shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
-  - Automatic Software Renewals: The Cost of Paying for Yesterday's Requirements | /impact/automatic-software-renewals-without-value-review-cost/
-  - Subscriptions That Outlive the Employee: The Cost of Orphaned Software | /impact/orphaned-software-subscriptions-after-employee-leaves-cost/
+  - Software bought without approval: The financial and security cost of shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
+  - Automatic software renewals: The cost of paying for yesterday's requirements | /impact/automatic-software-renewals-without-value-review-cost/
+  - Subscriptions that outlive the employee: The cost of orphaned software | /impact/orphaned-software-subscriptions-after-employee-leaves-cost/
+  - Paying twice: What it costs when nobody knows what your plan already includes | /impact/paying-extra-for-features-already-in-your-plan-entitlement-check-cost/
 summary: Businesses often buy specialist software for bookings, forms or approvals that their existing productivity suite already includes, and pay twice.
 layout: plain
 ---
@@ -45,7 +46,7 @@ Using Microsoft 365 as an example, because it is widely used by South African bu
 
 - **Appointment booking.** Microsoft's documentation describes Bookings as a web-based booking page integrated with Outlook, with email and SMS notifications to reduce no-shows. It lists Bookings as available in the Business Basic, Business Standard and Business Premium plans, among others.
 - **Forms and surveys.** Microsoft describes Forms as a tool to create surveys, quizzes and polls, collect responses in real time and export results to Excel.
-- **Approvals and simple workflows.** Microsoft's Power Automate documentation states that the approvals connector is a standard connector, and that Office 365 licences are among those that grant rights to use standard connectors. Approval flows can notify approvers, who respond from email or Teams.
+- **Approvals and simple workflows.** Microsoft's [Power Automate](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) documentation states that the approvals connector is a standard connector, and that Office 365 licences are among those that grant rights to use standard connectors. Approval flows can notify approvers, who respond from email or Teams.
 
 Other productivity suites include comparable features. The specifics vary by plan, so check your own subscription. The point is that many businesses already own more capability than they use.
 

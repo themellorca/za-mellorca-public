@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-076
 slug: why-customers-have-to-ask-what-is-happening
-title: Why Do Customers Have to Ask You What Is Happening?
-description: When customers repeatedly ask for status information that already exists inside the business, the visible service request may actually be an information-access and operating-visibility problem.
+title: Why do customers have to ask you what is happening?
+description: When customers keep asking for status that already exists inside the business, the real problem is access to information and visibility of work.
 lead: When customers repeatedly ask for status information that already exists inside the business, the visible service request may actually be an information-access and operating-visibility problem.
 category: Customer Service, Status & Self-Service
 published_date: 2026-09-01

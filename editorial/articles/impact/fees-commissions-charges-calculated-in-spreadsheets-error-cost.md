@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-045
 slug: fees-commissions-charges-calculated-in-spreadsheets-error-cost
-title: Commissions and Fees Worked Out in Spreadsheets: The Payroll and Error Cost
-description: Routine fees, commissions and charges calculated by hand in spreadsheets cost paid hours every cycle and cause over- and under-payments that are hard to detect and harder to explain.
+title: Commissions and fees worked out in spreadsheets: The payroll and error cost
+description: Fees, commissions and charges calculated by hand in spreadsheets cost paid hours every cycle and cause over- and under-payments that are hard to detect.
 lead: Routine fees, commissions and charges calculated by hand in spreadsheets cost paid hours every cycle and cause over- and under-payments that are hard to detect and harder to explain.
 category: Finance Operations
 published_date: 2026-10-06
@@ -17,9 +17,10 @@ sources:
   - Apply data validation to cells - Microsoft Support | https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249
   - Display the relationships between formulas and cells - Microsoft Support | https://support.microsoft.com/en-us/office/display-the-relationships-between-formulas-and-cells-a59bef2b-3701-46bf-8ff1-d3518771d507
 related:
-  - Typing Invoices From Data You Already Hold: The Labour and Billing Delay Cost | /impact/invoices-retyped-from-existing-records-billing-labour-cost/
-  - Paying the Same Supplier Invoice Twice: The Direct Cost of Weak Controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
-  - The Payroll Cost of a Slow, Spreadsheet-Heavy Month-End | /impact/manual-month-end-close-payroll-cost/
+  - Typing invoices from data you already hold: The labour and billing delay cost | /impact/invoices-retyped-from-existing-records-billing-labour-cost/
+  - Paying the same supplier invoice twice: The direct cost of weak controls | /impact/duplicate-supplier-invoice-payments-weak-controls-cost/
+  - The payroll cost of a slow, spreadsheet-heavy month-end | /impact/manual-month-end-close-payroll-cost/
+  - When commission disputes come from bad data | /moments/when-commission-disputes-come-from-bad-data/
 summary: Routine fees, commissions and charges calculated by hand in spreadsheets cost paid hours every cycle and cause over- and under-payments that are hard to detect and harder to explain.
 layout: plain
 ---
@@ -89,9 +90,9 @@ When commission depends on a workbook nobody else understands, the business has 
 
 The better state separates rules from data. Rates, bands, thresholds and validity dates are stored once, as configuration, with an owner and a change record. Transactions flow in from the system that records them, without pasting. The calculation runs the same way each time, and people review exceptions and approve overrides with a recorded reason.
 
-Many business systems already handle rule-based pricing in this way. Microsoft's Business Central documentation, for example, describes price lists and discount agreements defined by customer, item, unit of measure, minimum quantity and validity dates, which the system then applies automatically on sales lines, calculating the best applicable price. Commission and fee rules can be handled similarly within an ERP, a dedicated commission tool or a controlled calculation built on the system's data.
+Many business systems already handle rule-based pricing in this way. [Microsoft's Business Central documentation](https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-record-sales-price-discount-payment-agreements), for example, describes price lists and discount agreements defined by customer, item, unit of measure, minimum quantity and validity dates, which the system then applies automatically on sales lines, calculating the best applicable price. Commission and fee rules can be handled similarly within an ERP, a dedicated commission tool or a controlled calculation built on the system's data.
 
-Where a spreadsheet remains the right tool, it can still be made safer. Microsoft's Excel documentation describes data validation, which restricts the type of data or values that users can enter in a cell, and tools that trace precedents and dependents, which show which cells feed a formula and which cells depend on it. Locking rate tables, separating inputs from workings and outputs, and adding control totals that reconcile to the source system all reduce the chance of silent errors.
+Where a spreadsheet remains the right tool, it can still be made safer. Microsoft's Excel documentation describes [data validation](https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249), which restricts the type of data or values that users can enter in a cell, and tools that trace precedents and dependents, which show which cells feed a formula and which cells depend on it. Locking rate tables, separating inputs from workings and outputs, and adding control totals that reconcile to the source system all reduce the chance of silent errors.
 
 ### Trade-offs to weigh
 

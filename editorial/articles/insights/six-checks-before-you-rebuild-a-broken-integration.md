@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-072
 slug: six-checks-before-you-rebuild-a-broken-integration
-title: What to Check Before Rebuilding a Broken Integration
-description: A rebuild often repeats the fault in newer code. Six checks that separate a changed supplier, bad source data or a missing owner from a genuinely failed design, and a staged route when replacement is justified.
+title: What to check before rebuilding a broken integration
+description: A rebuild often repeats the fault in newer code. Six checks tell a supplier change, bad data or missing owner from a failed design.
 lead: A rebuild often repeats the fault in newer code. Six checks that separate a changed supplier, bad source data or a missing owner from a genuinely failed design, and a staged route when replacement is justified.
 category: Systems Integration
 published_date: 2026-10-10
@@ -14,9 +14,9 @@ sources:
   - Anti-Corruption Layer Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer
   - Tolerant Reader | https://martinfowler.com/bliki/TolerantReader.html
 related:
-  - How Integration Errors Turn Into Customer Problems | /insights/from-rejected-message-to-unhappy-customer-how-integration-errors-reach-customers/
-  - How to Design Integrations for Change, Not Just for Launch | /insights/how-to-design-integrations-that-survive-supplier-and-business-change/
-  - Batch Sync vs Real-Time Sync: Which Does the Business Actually Need? | /insights/batch-or-real-time-sync-how-fast-does-each-data-flow-need-to-be/
+  - How integration errors turn into customer problems | /insights/from-rejected-message-to-unhappy-customer-how-integration-errors-reach-customers/
+  - How to design integrations for change, not just for launch | /insights/how-to-design-integrations-that-survive-supplier-and-business-change/
+  - Batch sync vs real-time sync: Which does the business actually need? | /insights/batch-or-real-time-sync-how-fast-does-each-data-flow-need-to-be/
 summary: A rebuild often repeats the fault in newer code. Six checks that separate a changed supplier, bad source data or a missing owner from a genuinely failed design, and a staged route when replacement is justified.
 layout: plain
 ---
@@ -75,13 +75,15 @@ A full rebuild is the right answer less often than it feels. It is warranted whe
 
 ## Replace in stages
 
-Microsoft's description of the Strangler Fig pattern offers a model. Instead of replacing a legacy system in one move, you introduce a layer in front of it that routes requests either to the old component or to the new, and you move functionality across piece by piece. Customers continue to use the same interface and are unaware that a migration is in progress, and the old system is retired only when nothing depends on it. The guidance also warns of the costs: the routing layer must not become a single point of failure, shared data stores must be accessible to both systems at once, and the approach may not suit a small system that can simply be replaced outright.
+Microsoft's description of the [Strangler Fig pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig) offers a model. Instead of replacing a legacy system in one move, you introduce a layer in front of it that routes requests either to the old component or to the new, and you move functionality across piece by piece. Customers continue to use the same interface and are unaware that a migration is in progress, and the old system is retired only when nothing depends on it. The guidance also warns of the costs: the routing layer must not become a single point of failure, shared data stores must be accessible to both systems at once, and the approach may not suit a small system that can simply be replaced outright.
 
 For an integration, this might mean rebuilding the order flow first, leaving invoice and stock flows on the old connection until the new one has proved itself. The anti-corruption layer pattern, described in the same body of guidance, helps here. It places a translating layer between the old and new systems so that each can keep its own data model during the transition. Both patterns carry added effort, but both give the business a way back if the new connection misbehaves.
 
 ## An illustrative example
 
-Imagine a hypothetical Stellenbosch wine merchant whose connection between its online shop and its stock system had begun rejecting around one in ten orders. The owner was ready to commission a rebuild. The investigation found the failures started on the same day the stock system was updated, that every rejected order contained a product with a hyphen in its code, and that those codes had been entered inconsistently for years. The connection itself was fine. A one-line change to how codes were read, plus clean-up of about two hundred product codes and a validation rule in the shop, resolved the problem in a week. The merchant also gave the connection an owner and a monthly test order. The rebuild, which would have inherited the same dirty product codes, was never needed.
+Imagine a hypothetical Stellenbosch wine merchant whose connection between its online shop and its stock system had begun rejecting around one in ten orders. The owner was ready to commission a rebuild. The investigation found the failures started on the same day the stock system was updated, that every rejected order contained a product with a hyphen in its code, and that those codes had been entered inconsistently for years.
+
+The connection itself was fine. A one-line change to how codes were read, plus clean-up of about two hundred product codes and a validation rule in the shop, resolved the problem in a week. The merchant also gave the connection an owner and a monthly test order. The rebuild, which would have inherited the same dirty product codes, was never needed.
 
 ## Before you sign off a rebuild
 

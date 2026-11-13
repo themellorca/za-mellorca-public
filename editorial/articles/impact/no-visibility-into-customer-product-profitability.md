@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-107
 slug: no-visibility-into-customer-product-profitability
-title: When Revenue Is Visible but Profitability Is Not
+title: When revenue is visible but profitability is not
 description: Why weak customer, product and service profitability visibility can turn revenue growth into margin uncertainty and poor commercial decisions.
 lead: Revenue can grow while weak cost attribution hides which customers, products or services are actually creating economic value.
 category: Reporting
@@ -19,10 +19,11 @@ side_title: Cost mechanisms
 sources:
   - Measure Costs Right: Make the Right Decisions | https://hbr.org/1988/09/measure-costs-right-make-the-right-decisions
   - Time-Driven Activity-Based Costing | https://hbr.org/2004/11/time-driven-activity-based-costing
+  - An Eye on Value: Profitability and Cost Analysis - KPMG and ACCA | https://www.accaglobal.com/content/dam/ACCA_Global/Technical/fin/Profitability-and-cost-analysis-An-Eye-on-Value.pdf
 related:
-  - Which Business Numbers Can You Trust? The Cost of Deciding on Bad Data | /impact/untrusted-business-numbers-unreliable-decision-cost/
-  - AI on Poor-Quality Data: Faster Decisions, Unreliable Results | /impact/ai-on-poor-quality-data-financial-cost/
-  - When Customer Details Differ Between Applications | /impact/pain-customer-details-different-applications-cost-mistakes/
+  - Which business numbers can you trust? The cost of deciding on bad data | /impact/untrusted-business-numbers-unreliable-decision-cost/
+  - AI on poor-quality data: Faster decisions, unreliable results | /impact/ai-on-poor-quality-data-financial-cost/
+  - When customer details differ between applications | /impact/pain-customer-details-different-applications-cost-mistakes/
 ---
 ## The tolerated pain
 
@@ -30,7 +31,7 @@ Many businesses can report sales quickly but cannot allocate service effort, ful
 
 That is tolerable for a while because revenue is easy to measure and cost is not. Sales figures come straight from invoices. The cost of serving a customer is scattered across timesheets, support tickets, delivery records, credit notes, payment terms and the goodwill of people who quietly absorb extra work. Nobody has deliberately hidden it. The systems were simply never designed to connect the effort to the account.
 
-The problem is old and well understood. Robin Cooper and Robert Kaplan argued in the *Harvard Business Review* in 1988 that managers in multi-product companies were making pricing, product-mix and process decisions on distorted cost information, and that the distortion often stays invisible until competitive and financial performance has already suffered. The tools have changed since then. The pattern has not.
+The problem is old and well understood. Robin Cooper and Robert Kaplan argued in the *Harvard Business Review* in 1988 that managers in multi-product companies were making pricing, product-mix and process decisions on distorted cost information, and that the distortion often stays invisible until competitive and financial performance has already suffered. The tools have changed since then. The pattern has not. A 2016 survey of more than 1,100 finance professionals by [KPMG and ACCA](https://www.accaglobal.com/content/dam/ACCA_Global/Technical/fin/Profitability-and-cost-analysis-An-Eye-on-Value.pdf) found that 72% could analyse profitability by product or service but only 46% by customer.
 
 ## Why businesses tolerate it
 

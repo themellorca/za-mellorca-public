@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-091
 slug: why-finance-cannot-trace-an-invoice-to-its-commercial-approval
 title: Why finance cannot trace an invoice back to the deal that approved it
-description: When an invoice cannot be linked to the quote, discount and sign-off behind it, every query becomes an investigation. How to keep the approval attached from deal to bill.
+description: When an invoice cannot be linked to the quote, discount and sign-off behind it, every query is an investigation. How to keep the approval attached.
 lead: When an invoice cannot be linked to the quote, discount and sign-off behind it, every query becomes an investigation. How to keep the approval attached from deal to bill.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-04
@@ -32,9 +32,9 @@ This article looks at that operating condition: an invoice that cannot be traced
 
 Every invoice is the end of a chain of commercial decisions: a price, a discount, a set of terms, a scope, and somebody's authority to agree them. In a traceable process, each of those decisions is recorded once and carried forward, so the invoice points back to the order, the order to the accepted quote, and the quote to the approval. In many businesses the chain breaks somewhere in the middle. The invoice exists. The approval may exist too, in an inbox, a chat thread or someone's memory. But there is no reliable link between them.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Finance managers search for ways to link invoices to sales orders, enforce discount approvals, or build an audit trail from quote to invoice. Commercial directors want to know that the discounts going out are the ones they agreed to. Auditors want evidence that revenue was billed on authorised terms. The underlying need is simple to state: for any invoice line, someone in finance should be able to see, within a minute, which quote it came from, who approved the price and terms, and when.
+Finance managers want ways to link invoices to sales orders, enforce discount approvals, or build an audit trail from quote to invoice. Commercial directors want to know that the discounts going out are the ones they agreed to. Auditors want evidence that revenue was billed on authorised terms. The underlying need is simple to state: for any invoice line, someone in finance should be able to see, within a minute, which quote it came from, who approved the price and terms, and when.
 
 ## Evidence and system mechanism
 

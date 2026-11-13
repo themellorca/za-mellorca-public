@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000015
 slug: why-dinner-gets-interrupted-by-just-one-quick-thing
-title: Why Dinner Gets Interrupted by “Just One Quick Thing”
-description: Where is the spare key? What price did we give them? Small questions sent in the evening are quick for the person asking and rarely quick for the person answering. Why they keep coming, and what makes them unnecessary.
+title: Why dinner gets interrupted by “Just one quick thing”
+description: Where is the spare key? What price did we give them? Evening questions are quick to ask and slow to answer. Why they keep coming, and how to end them.
 lead: Where is the spare key? What price did we give them? Small questions sent in the evening are quick for the person asking and rarely quick for the person answering. Why they keep coming, and what makes them unnecessary.
 category: Time & Attention
 published_date: 2026-10-04
@@ -20,9 +20,9 @@ sources:
   - https://ics.uci.edu/~gmark/chi08-mark.pdf | https://ics.uci.edu/~gmark/chi08-mark.pdf
   - https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf | https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf
 related:
-  - The Report Someone Rebuilds by Hand Every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
-  - Friday Evening Should Start on Friday Evening | /moments/friday-evening-should-start-on-friday-evening/
-  - The Notification You Check Before You Sleep | /moments/the-notification-you-check-before-you-sleep/
+  - The report someone rebuilds by hand every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - Friday evening should start on Friday evening | /moments/friday-evening-should-start-on-friday-evening/
+  - The notification you check before you sleep | /moments/the-notification-you-check-before-you-sleep/
 summary: Where is the spare key? What price did we give them? Small questions sent in the evening are quick for the person asking and rarely quick for the person answering. Why they keep coming, and what makes them unnecessary.
 layout: plain
 ---
@@ -38,7 +38,7 @@ A question that takes ten seconds to type can take much longer to answer. The pe
 
 Research on interruptions suggests the cost is not only time. In a controlled study by Gloria Mark and colleagues at the University of California, Irvine, people who were interrupted while working on email-based tasks finished them faster, with no loss of quality, but reported more stress, higher frustration, more time pressure and more effort. It was a workplace task in a laboratory, not a family dinner, and the findings should not be stretched too far. It does support a simple point: the cost of an interruption can be felt rather than seen.
 
-South Africa's Basic Conditions of Employment Act provides for a daily rest period of at least twelve consecutive hours between ending and restarting work, with limited exceptions by agreement. The Act sets minimum standards for employees, and owners are not covered by it. Whether a single message breaches it is a legal question beyond this piece. The more useful observation is that the law treats time between shifts as rest, and a stream of small questions turns that time into standby.
+South Africa's [Basic Conditions of Employment Act](https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf) provides for a daily rest period of at least twelve consecutive hours between ending and restarting work, with limited exceptions by agreement. The Act sets minimum standards for employees, and owners are not covered by it. Whether a single message breaches it is a legal question beyond this piece. The more useful observation is that the law treats time between shifts as rest, and a stream of small questions turns that time into standby.
 
 ## Why the questions keep coming
 
@@ -65,7 +65,7 @@ It would be wrong to say everyone experiences this the same way. Some people are
 2. **Start with the questions that recur.** A list of the ten questions the knowledgeable person is asked most often is a practical first knowledge base, and it can be written in an afternoon.
 3. **Agree what counts as urgent.** A short shared rule, such as "after six, phone only for safety, a customer stranded or a delivery that cannot go", lets everything else wait until morning without anyone feeling rude.
 4. **Send later, not now.** Many tools let the sender schedule a message for the next working morning. Microsoft's Outlook documentation, for example, describes schedule send and delayed delivery options. A sender who thinks of a question at night can still write it then.
-5. **Use quiet hours on the receiving side.** Messaging apps commonly allow notifications to be muted at set times. Microsoft Teams mobile, for example, offers quiet hours and quiet days, and notes that others do not see that quiet time is on unless a status message says so.
+5. **Use quiet hours on the receiving side.** Messaging apps commonly allow notifications to be muted at set times. Microsoft Teams mobile, for example, offers quiet hours and quiet days, and notes that others do not see that [quiet time](https://support.microsoft.com/en-us/office/quiet-time-in-microsoft-teams-for-mobile-devices-174c4d2d-c7c1-4228-80a7-031c14f9bcf2) is on unless a status message says so.
 
 In the illustrative furniture business, a shared page of locations, standard prices and agreed exceptions, a simple urgency rule and scheduled sending might stop most evening questions reaching the operations manager. The ones that still arrive would be the ones that really could not wait.
 

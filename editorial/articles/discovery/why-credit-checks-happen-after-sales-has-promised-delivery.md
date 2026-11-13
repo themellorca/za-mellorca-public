@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-086
 slug: why-credit-checks-happen-after-sales-has-promised-delivery
 title: Why credit checks happen after sales has already promised delivery
-description: When credit is checked only once an order reaches finance, sales has already made promises the business may have to break. How to move the credit decision to the point of commitment.
+description: When credit is checked only once an order reaches finance, sales has already made promises the business may break. How to move the decision earlier.
 lead: When credit is checked only once an order reaches finance, sales has already made promises the business may have to break. How to move the credit decision to the point of commitment.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-04
@@ -17,7 +17,7 @@ sources:
   - Credit holds for sales orders - Finance - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/finance/accounts-receivable/cm-sales-order-credit-holds
   - Credit and collections overview - Finance - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/finance/accounts-receivable/cm-credit-and-collections-overview
 related:
-  - Why Sales Quotes Have to Be Re-Keyed Before an Order Can Start | /discovery/why-sales-quotes-have-to-be-re-keyed-before-orders/
+  - Why sales quotes have to be re-keyed before an order can start | /discovery/why-sales-quotes-have-to-be-re-keyed-before-orders/
   - Why salespeople cannot see whether an order has actually been fulfilled | /discovery/salespeople-cannot-see-whether-an-order-has-been-fulfilled/
   - When sales and finance work from different product and price data | /discovery/sales-and-finance-use-different-product-and-price-data/
 summary: When credit is checked only once an order reaches finance, sales has already made promises the business may have to break. How to move the credit decision to the point of commitment.
@@ -31,9 +31,9 @@ This article looks at that operating condition: credit checks happening after sa
 
 Two legitimate controls are running in the wrong order. Sales commits to quantities, prices, terms and delivery dates. Credit control decides whether the business is prepared to extend credit for that commitment. When credit is checked only at order processing, dispatch or invoicing, sales has already made a promise that finance may have to break. The result is either a customer let down, or a credit decision overridden under pressure.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Finance managers search for ways to enforce credit limits, stop orders for customers in arrears, or set up credit holds. Sales leaders want to know, before they quote, whether a customer can be supplied on terms. The shared need is for credit status to be visible and applied at the point of commitment, with a clear and quick route for exceptions, so that a promise made to a customer is one the business can keep.
+Finance managers want ways to enforce credit limits, stop orders for customers in arrears, or set up credit holds. Sales leaders want to know, before they quote, whether a customer can be supplied on terms. The shared need is for credit status to be visible and applied at the point of commitment, with a clear and quick route for exceptions, so that a promise made to a customer is one the business can keep.
 
 ## Evidence and system mechanism
 

@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000129
 slug: when-ordering-supplies-takes-five-emails
-title: When Ordering Supplies Takes Five Emails
-description: Toner, gloves, a replacement drill bit. Ordering something ordinary can take a request, a quote, an approval, a reminder and a query about delivery, all by email. What that friction takes from people, and what a simple, visible request route gives back.
+title: When ordering supplies takes five emails
+description: Ordering toner or gloves can take a request, quote, approval and reminder by email. What that friction costs, and what a visible request route returns.
 lead: Toner, gloves, a replacement drill bit. Ordering something ordinary can take a request, a quote, an approval, a reminder and a query about delivery, all by email. What that friction takes from people, and what a simple, visible request route gives back.
 category: Relief from Friction
 published_date: 2026-10-07
@@ -19,9 +19,9 @@ sources:
   - Raise purchase requisitions overview - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/source-to-pay-raise-purchase-requisitions-overview
   - Approve or reject documents in workflows - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
 related:
-  - The Relief of a Password You Don't Have to Reset | /moments/the-relief-of-a-password-you-dont-have-to-reset/
-  - Why Teams Stop Suggesting Improvements | /moments/why-teams-stop-suggesting-improvements/
-  - The Evening Spent Chasing Signatures | /moments/the-evening-spent-chasing-signatures/
+  - The relief of a password you don't have to reset | /moments/the-relief-of-a-password-you-dont-have-to-reset/
+  - Why teams stop suggesting improvements | /moments/why-teams-stop-suggesting-improvements/
+  - The evening spent chasing signatures | /moments/the-evening-spent-chasing-signatures/
 summary: Toner, gloves, a replacement drill bit. Ordering something ordinary can take a request, a quote, an approval, a reminder and a query about delivery, all by email. What that friction takes from people, and what a simple, visible request route gives back.
 layout: plain
 ---
@@ -35,7 +35,7 @@ Nothing in this sequence is unreasonable on its own. Each step exists for a reas
 
 IBM's explanation of the procure-to-pay process sets out the standard sequence: identify a need, create a requisition for approval, source a supplier, issue a purchase order, receive and inspect the goods, match the invoice and pay. It notes that standardising and automating these steps reduces the time spent creating orders and matching invoices, reduces errors and gives visibility of commitments.
 
-Microsoft's guidance on purchase requisitions describes the requisition as the formal first step in the process, giving control, budget visibility and an audit trail. It also notes that requisitions are not mandatory for every organisation, and that a poorly defined requisition process leads to inefficiency, errors and delays. Purchasing policies can define which catalogues and categories people may order from, and which suppliers are preferred.
+Microsoft's guidance on [purchase requisitions](https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/source-to-pay-raise-purchase-requisitions-overview) describes the requisition as the formal first step in the process, giving control, budget visibility and an audit trail. It also notes that requisitions are not mandatory for every organisation, and that a poorly defined requisition process leads to inefficiency, errors and delays. Purchasing policies can define which catalogues and categories people may order from, and which suppliers are preferred.
 
 Neither source is about small South African businesses specifically, and few small firms need the full apparatus of a large procurement system. But the underlying steps are the same whether they happen in a dedicated system or in an inbox. The difference is whether anyone, other than the people writing the emails, can see where a request is.
 

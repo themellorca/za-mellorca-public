@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-352
 slug: how-to-implement-a-new-business-system-without-disrupting-operations
-title: How to Implement a New Business System Without Disrupting Operations
-description: Replacing an accounting, CRM, stock or job-management system does not have to stop the business. How to choose a rollout approach, time the switch, rehearse the cutover, prepare people and keep a way back.
+title: How to implement a new business system without disrupting operations
+description: Replacing an accounting, CRM, stock or job system need not stop the business. How to choose a rollout approach, rehearse the cutover and keep a way back.
 lead: Replacing an accounting, CRM, stock or job-management system does not have to stop the business. How to choose a rollout approach, time the switch, rehearse the cutover, prepare people and keep a way back.
 category: Digital Operations
 published_date: 2026-10-03
@@ -17,6 +17,7 @@ related:
   - Why CRM adoption problems are often workflow problems | /insights/why-crm-adoption-problems-are-often-workflow-problems/
   - What management cannot see usually becomes expensive | /insights/what-management-cannot-see-usually-becomes-expensive/
   - What business processes need documentation first? | /insights/what-business-processes-need-documentation-first/
+  - Old applications kept alive because moving the data feels hard | /impact/old-applications-kept-because-data-migration-feels-difficult-delay-maintenance-risk-cost/
 summary: Replacing an accounting, CRM, stock or job-management system does not have to stop the business. How to choose a rollout approach, time the switch, rehearse the cutover, prepare people and keep a way back.
 layout: plain
 ---
@@ -44,13 +45,13 @@ There are four common ways to introduce a new system. Each has a place.
 | Pilot | One team or branch uses it live first, then the rest follow | When the way of working is changing as much as the software |
 | Parallel run | Old and new run side by side for a period and results are compared | Financial or payroll systems where errors are costly |
 
-Martin Fowler's description of the "strangler fig" approach to replacing software explains why gradual replacement is usually safer. Replacing a whole system at once takes a long time, and it is hard to identify every behaviour the old system has. Breaking the change into smaller pieces makes each step considerably less risky, delivers value sooner and teaches the organisation something at each stage. The cost is what he calls transitional architecture: temporary arrangements that let the old and new systems coexist. For a small business that might be a manual reconciliation or a temporary export, accepted knowingly for a few weeks.
+[Martin Fowler's description of the "strangler fig" approach](https://martinfowler.com/bliki/StranglerFigApplication.html) to replacing software explains why gradual replacement is usually safer. Replacing a whole system at once takes a long time, and it is hard to identify every behaviour the old system has. Breaking the change into smaller pieces makes each step considerably less risky, delivers value sooner and teaches the organisation something at each stage. The cost is what he calls transitional architecture: temporary arrangements that let the old and new systems coexist. For a small business that might be a manual reconciliation or a temporary export, accepted knowingly for a few weeks.
 
 Parallel running sounds safest but doubles the workload for the people involved. It works best when it is short, limited to the outputs that really matter, such as payroll totals or debtor balances, and has a defined end date.
 
 ## Time the switch around the business calendar
 
-Microsoft's implementation guidance on cutover makes points that apply to any business system. The cutover window is usually short, often a weekend, and during it neither the old system nor the new one can be used normally. It recommends picking a time when the business is less busy, avoiding the period when books are closed or results are reported, and allowing for holidays and leave because the right people need to be available.
+[Microsoft's implementation guidance on cutover](https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/prepare-go-live-cutover-strategy) makes points that apply to any business system. The cutover window is usually short, often a weekend, and during it neither the old system nor the new one can be used normally. It recommends picking a time when the business is less busy, avoiding the period when books are closed or results are reported, and allowing for holidays and leave because the right people need to be available.
 
 For South African businesses, the calendar has some obvious hazards: financial year-end, VAT submission dates, payroll and month-end, the December shutdown and the peak trading period before it, and any seasonal rush specific to the industry. A switch planned for the first week of a quiet month, with key staff confirmed as available, removes a surprising amount of risk before any technical work begins.
 
@@ -73,7 +74,7 @@ The rollback plan should be real. Know how long the old system can remain usable
 
 ## Prepare people, not just users
 
-Disruption is often blamed on the software when it actually comes from people being asked to change how they work without enough preparation. Prosci's ADKAR model describes five elements of individual change: awareness of why the change is needed, desire to take part, knowledge of how to change, ability to apply it in practice, and reinforcement so that people do not slip back. It also makes the point that organisational change happens one person at a time.
+Disruption is often blamed on the software when it actually comes from people being asked to change how they work without enough preparation. [Prosci's ADKAR model](https://www.prosci.com/methodology/adkar) describes five elements of individual change: awareness of why the change is needed, desire to take part, knowledge of how to change, ability to apply it in practice, and reinforcement so that people do not slip back. It also makes the point that organisational change happens one person at a time.
 
 In practice that means explaining why the business is changing systems before training anyone on screens, training people on their own real transactions rather than generic demonstrations, giving them practice time in the test system before go-live, and having someone available on the floor in the first weeks to answer questions. Expect productivity to dip briefly, and plan lighter workloads or extra help for the first fortnight rather than hoping it will not happen.
 

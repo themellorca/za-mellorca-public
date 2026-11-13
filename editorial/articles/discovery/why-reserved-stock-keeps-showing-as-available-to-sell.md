@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-104
 slug: why-reserved-stock-keeps-showing-as-available-to-sell
 title: Reserved stock is treated as available stock
-description: When a quote, an online basket or a held order reserves stock in one place but not another, the same unit gets promised twice. How to separate on-hand, reserved and available quantities.
+description: When a quote, basket or held order reserves stock in one place but not another, a unit is promised twice. How to separate on-hand, reserved and available.
 lead: When a quote, an online basket or a held order reserves stock in one place but not another, the same unit gets promised twice. How to separate on-hand, reserved and available quantities.
 category: Inventory & Order Operations
 published_date: 2026-10-10
@@ -20,6 +20,7 @@ related:
   - Online channels sell stock that the warehouse no longer has | /discovery/online-channels-selling-stock-the-warehouse-no-longer-has/
   - How bundles and kits distort component stock counts | /discovery/how-bundles-and-kits-distort-component-stock-counts/
   - Why damaged stock keeps showing as available to customers | /discovery/why-damaged-stock-keeps-showing-as-available-to-customers/
+  - Why a cancelled order keeps its stock locked away | /discovery/why-a-cancelled-order-keeps-its-stock-locked-away/
 summary: When a quote, an online basket or a held order reserves stock in one place but not another, the same unit gets promised twice. How to separate on-hand, reserved and available quantities.
 layout: plain
 ---
@@ -31,9 +32,9 @@ The stock count was right. The warehouse counted correctly. The failure was that
 
 A business holds several kinds of quantity for the same product. There is what is physically on the shelf. There is what has been promised to customers but not yet shipped. There is what is on its way in from suppliers. And there is what a new customer can actually be promised today, which is on-hand plus incoming minus reserved. Many small and mid-sized businesses track only the first number, and use it for every decision. When the product range is small and one person knows which items are spoken for, this works. When the range grows, it stops working, and nobody notices until a customer is let down.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The person searching this problem is typically an operations or e-commerce manager who has just handled an oversell and wants it to stop. They are not asking for better counting. They want one defensible answer to the question "can we promise this to a new customer?" and they want every channel, from quote to web shop to counter sale, to use that same answer.
+The person facing this problem is typically an operations or e-commerce manager who has just handled an oversell and wants it to stop. They are not asking for better counting. They want one defensible answer to the question "can we promise this to a new customer?" and they want every channel, from quote to web shop to counter sale, to use that same answer.
 
 ## Evidence and system mechanism
 

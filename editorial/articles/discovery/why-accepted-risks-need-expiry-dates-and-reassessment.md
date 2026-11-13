@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-354
 slug: why-accepted-risks-need-expiry-dates-and-reassessment
 title: Risk acceptances expire without reassessment
-description: An accepted risk is only sound at the moment it is accepted. How to give every acceptance an expiry date, recorded assumptions and a reassessment, before a customer asks.
+description: An accepted risk is only sound when it is accepted. How to give every acceptance an expiry date, recorded assumptions and a reassessment.
 lead: An accepted risk is only sound at the moment it is accepted. How to give every acceptance an expiry date, recorded assumptions and a reassessment, before a customer asks.
 category: Security & Compliance Operations
 published_date: 2026-10-08
@@ -17,9 +17,10 @@ sources:
   - SP 800-39, Managing Information Security Risk: Organization, Mission, and Information System View - CSRC | https://csrc.nist.gov/pubs/sp/800/39/final
   - Build a cloud governance team - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/govern/policy-compliance/risk-tolerance
 related:
-  - Why Supplier Access Survives After the Supplier Engagement Ends | /discovery/why-supplier-access-survives-after-engagements-end/
-  - Why Vulnerability Severity Needs Business Criticality | /discovery/why-vulnerability-severity-needs-business-criticality/
+  - Why supplier access survives after the supplier engagement ends | /discovery/why-supplier-access-survives-after-engagements-end/
+  - Why vulnerability severity needs business criticality | /discovery/why-vulnerability-severity-needs-business-criticality/
   - Why IT asset registers miss cloud and SaaS services | /discovery/why-it-asset-registers-miss-cloud-and-saas-services/
+  - Security exceptions have no clear compensating controls | /discovery/why-every-security-exception-needs-a-named-compensating-control-before-renewal/
 summary: An accepted risk is only sound at the moment it is accepted. How to give every acceptance an expiry date, recorded assumptions and a reassessment, before a customer asks.
 layout: plain
 ---
@@ -33,9 +34,9 @@ Accepting a risk is a legitimate management decision. A business may decide that
 
 The common failure is not that the business accepts risks. It is that an acceptance has no end date, or has an end date that nothing monitors, and so continues indefinitely after the conditions that justified it have changed.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Compliance officers, information security leads and operations directors search for ways to manage risk exceptions, answer customer assurance questionnaires and show that risk decisions are controlled. The underlying need is a register of acceptances that can answer, at any time: what was accepted, by whom, why, on what conditions, until when and what happens next?
+Compliance officers, information security leads and operations directors need ways to manage risk exceptions, answer customer assurance questionnaires and show that risk decisions are controlled. The underlying need is a register of acceptances that can answer, at any time: what was accepted, by whom, why, on what conditions, until when and what happens next?
 
 ## Evidence and system mechanism
 

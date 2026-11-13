@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-077
 slug: accepted-quotes-that-do-not-create-fulfilment-work
 title: Accepted quotes do not automatically create fulfilment work
-description: A customer says yes, but nothing in the business starts until someone notices. How to make acceptance a recorded event that creates orders, jobs and billing without retyping.
+description: A customer says yes but nothing starts until someone notices. How to make acceptance a recorded event that creates orders, jobs and billing.
 lead: A customer says yes, but nothing in the business starts until someone notices. How to make acceptance a recorded event that creates orders, jobs and billing without retyping.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-08
@@ -31,9 +31,9 @@ This article looks at that operating condition: accepted quotes that do not auto
 
 A quote is a commitment on paper. Acceptance is the moment the business should start delivering. In many businesses, the system that holds the quote is not connected to the systems that schedule stock, staff and invoices. The accepted quote therefore sits as a document until a human notices it and re-creates the same information somewhere else. Each step that depends on someone noticing adds delay, and each re-keying adds an opportunity for the order to differ from what the customer agreed.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Sales directors, operations managers and owners search for ways to shorten the time from "yes" to delivery, stop orders being captured incorrectly, and make sure nothing that has been sold is forgotten. The need is for acceptance to be a recorded event that triggers the next steps, with the same line items, prices and conditions carried through without being typed again.
+Sales directors, operations managers and owners want to shorten the time from "yes" to delivery, stop orders being captured incorrectly, and make sure nothing that has been sold is forgotten. The need is for acceptance to be a recorded event that triggers the next steps, with the same line items, prices and conditions carried through without being typed again.
 
 ## Evidence and system mechanism
 

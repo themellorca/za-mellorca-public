@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-089
 slug: why-tax-and-currency-corrections-keep-happening-after-invoices-are-issued
 title: Why tax and currency are still corrected by hand after the invoice goes out
-description: When VAT treatment and exchange rates are fixed manually downstream, every correction is a potential billing dispute. How to move the rules upstream and give each correction an owner.
+description: Fixing VAT and exchange rates by hand after invoicing makes each correction a possible dispute. Move the rules upstream and give each fix an owner.
 lead: When VAT treatment and exchange rates are fixed manually downstream, every correction is a potential billing dispute. How to move the rules upstream and give each correction an owner.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-10
@@ -31,9 +31,9 @@ This article looks at that operating condition: tax and currency handling that i
 
 A quote or order is created in the CRM or a spreadsheet. The salesperson picks a price, perhaps converts it at a rate they looked up that morning, and types a VAT assumption into a cell. The accounting system then applies its own tax codes and its own exchange rate when it raises the invoice. The two numbers differ, and the difference is found later, by a person, usually after the customer has seen it. The correction is manual because no system owns the rule. Each one applies a version of it.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The person searching for this is rarely asking for a new tax engine. They want invoices that are right the first time, so that disputes stop arriving and finance stops spending the first week of every month on repairs. They also want to know where the error enters: the quote, the order, the invoice or the payment. Without that answer, every fix is local and the same error returns next month.
+The person facing this is rarely asking for a new tax engine. They want invoices that are right the first time, so that disputes stop arriving and finance stops spending the first week of every month on repairs. They also want to know where the error enters: the quote, the order, the invoice or the payment. Without that answer, every fix is local and the same error returns next month.
 
 ## Evidence and system mechanism
 

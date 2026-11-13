@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-037
 slug: why-software-consolidation-is-an-operations-project-not-just-an-it-project
-title: Why Software Consolidation Is an Operations Project, Not Just an IT Project
-description: Cancelling duplicate subscriptions is a technical task; changing how people work is not. Why consolidation stalls when it is run purely by IT, and how to plan, own and measure it as an operational change.
+title: Why software consolidation is an operations project, not just an IT project
+description: Cancelling subscriptions is technical, changing how people work is not. Why consolidation stalls under IT alone and how to run it as operations change.
 lead: Cancelling duplicate subscriptions is a technical task; changing how people work is not. Why consolidation stalls when it is run purely by IT, and how to plan, own and measure it as an operational change.
 category: Digital Operations
 published_date: 2026-10-05
@@ -57,7 +57,9 @@ Applied to software consolidation, that means a project plan needs more than a m
 
 Consolidation forces decisions about records that only the business can make. Which customer record wins when two tools disagree? Which project history needs to come across, and which can be archived? How long should records from the retired tool be kept?
 
-That last question has a legal dimension. Section 14 of the Protection of Personal Information Act requires that [records of personal information are not kept longer than necessary](https://popia.co.za/section-14-retention-and-restriction-of-records/) for their purpose, unless the law, a contract or another lawful reason requires it, and that they are destroyed, deleted or de-identified as soon as reasonably practicable once retention is no longer authorised. A retired tool that still holds old customer data in a forgotten account is not consolidation; it is a liability with the subscription switched off, and a close relative of the problem described in [why legacy applications remain live without an owner](/discovery/why-legacy-applications-remain-live-without-an-owner/). Deciding what to migrate, what to archive and what to delete is a job for the people who understand why the data was collected.
+That last question has a legal dimension. Section 14 of the Protection of Personal Information Act requires that [records of personal information are not kept longer than necessary](https://popia.co.za/section-14-retention-and-restriction-of-records/) for their purpose, unless the law, a contract or another lawful reason requires it, and that they are destroyed, deleted or de-identified as soon as reasonably practicable once retention is no longer authorised.
+
+A retired tool that still holds old customer data in a forgotten account is not consolidation; it is a liability with the subscription switched off, and a close relative of the problem described in [why legacy applications remain live without an owner](/discovery/why-legacy-applications-remain-live-without-an-owner/). Deciding what to migrate, what to archive and what to delete is a job for the people who understand why the data was collected.
 
 ## Who should own the project
 

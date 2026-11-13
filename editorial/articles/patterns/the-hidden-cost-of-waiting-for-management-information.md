@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-054
 slug: the-hidden-cost-of-waiting-for-management-information
-title: The Hidden Cost of Waiting for Management Information
+title: The hidden cost of waiting for management information
 description: When every management question joins a queue at the finance desk, decisions are delayed or taken without evidence. The cost sits in the wait, not the report.
 lead: When every management question joins a queue at the finance desk, decisions are delayed or taken without evidence. The cost sits in the wait, not the report.
 category: Reporting & Operational Visibility
@@ -18,9 +18,10 @@ sources:
   - What is Self-Service Analytics? - IBM | https://www.ibm.com/think/topics/self-service-analytics
   - What is Power BI? - Power BI | https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview
 related:
-  - The Difference Between Having Data and Having Visibility | /patterns/the-difference-between-having-data-and-having-visibility/
-  - The Hidden Cost of Re-entering the Same Information | /patterns/the-hidden-cost-of-reentering-the-same-information/
-  - The Hidden Cost of Repetitive Customer Questions | /patterns/the-hidden-cost-of-repetitive-customer-questions/
+  - The difference between having data and having visibility | /patterns/the-difference-between-having-data-and-having-visibility/
+  - The hidden cost of re-entering the same information | /patterns/the-hidden-cost-of-reentering-the-same-information/
+  - The hidden cost of repetitive customer questions | /patterns/the-hidden-cost-of-repetitive-customer-questions/
+  - The signs that your reporting model has become a bottleneck | /patterns/how-to-tell-when-your-reporting-set-up-has-outgrown-the-business/
 summary: When every management question joins a queue at the finance desk, decisions are delayed or taken without evidence. The cost sits in the wait, not the report.
 layout: plain
 ---
@@ -66,7 +67,7 @@ Speed is the direct dimension: decisions are delayed by the reporting queue. Mar
 
 ## Common misidentification
 
-Buying a dashboard tool is the most common response. Modern business intelligence tools are capable: Microsoft's documentation for Power BI, for example, describes connecting to many data sources, modelling and combining data, scheduling refreshes and setting alerts. But a dashboard built on unsettled definitions and uncleaned data reproduces the same disputes in a more attractive format. The Insight [Why More Dashboards Do Not Automatically Create Better Decisions](/insights/why-more-dashboards-do-not-automatically-create-better-decisions/) addresses this directly.
+Buying a dashboard tool is the most common response. Modern business intelligence tools are capable: Microsoft's documentation for [Power BI](https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview), for example, describes connecting to many data sources, modelling and combining data, scheduling refreshes and setting alerts. But a dashboard built on unsettled definitions and uncleaned data reproduces the same disputes in a more attractive format. The Insight [Why More Dashboards Do Not Automatically Create Better Decisions](/insights/why-more-dashboards-do-not-automatically-create-better-decisions/) addresses this directly.
 
 Hiring an analyst is the other response. It shortens the queue for a while, but if every question still requires manual extraction and cleaning, the queue returns as the business asks more.
 

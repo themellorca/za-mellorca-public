@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-229
 slug: why-reporting-problems-often-begin-with-data-capture
-title: Why Reporting Problems Often Begin With Data Capture
-description: Late, contested and hand-corrected reports are usually blamed on the report. The cause is more often how the data was typed in at the start. Here is how to find and fix it.
+title: Why reporting problems often begin with data capture
+description: Late, contested and hand-corrected reports are usually blamed on the report, but the cause is often how data was typed in. Here is how to fix it.
 lead: Late, contested and hand-corrected reports are usually blamed on the report. The cause is more often how the data was typed in at the start. Here is how to find and fix it.
 category: Data, Reporting & Decision Visibility
 published_date: 2026-10-08
@@ -19,9 +19,9 @@ sources:
   - Model relationships in Power BI Desktop - Power BI | https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand
   - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
 related:
-  - When Nobody Knows Which Spreadsheet Is the Latest | /patterns/when-nobody-knows-which-spreadsheet-is-the-latest/
-  - When Every Department Reports the Same Metric Differently | /patterns/when-every-department-reports-the-same-metric-differently/
-  - Why the Same Problems Return After You Replace the System | /patterns/why-the-same-problems-return-after-you-replace-the-system/
+  - When nobody knows which spreadsheet is the latest | /patterns/when-nobody-knows-which-spreadsheet-is-the-latest/
+  - When every department reports the same metric differently | /patterns/when-every-department-reports-the-same-metric-differently/
+  - Why the same problems return after you replace the system | /patterns/why-the-same-problems-return-after-you-replace-the-system/
 summary: Late, contested and hand-corrected reports are usually blamed on the report. The cause is more often how the data was typed in at the start. Here is how to find and fix it.
 layout: plain
 ---
@@ -65,9 +65,9 @@ There is a growth cost as well. A group with eleven branches that patches data b
 
 ## Common misidentification
 
-The usual response is to improve the report: more formulas, a new dashboard, a better visual. Microsoft's documentation on Power Query shows what is possible at the end of the chain, with a data preparation engine that can clean and reshape data from sources before it is loaded. That is valuable, and it is better than doing the same clean-up by hand. But transformations that repair the same fault every period are a permanent tax, and they can mask the cause. Each time a rule is added to repair a new kind of error, another quiet dependency is created.
+The usual response is to improve the report: more formulas, a new dashboard, a better visual. Microsoft's documentation on [Power Query](https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query) shows what is possible at the end of the chain, with a data preparation engine that can clean and reshape data from sources before it is loaded. That is valuable, and it is better than doing the same clean-up by hand. But transformations that repair the same fault every period are a permanent tax, and they can mask the cause. Each time a rule is added to repair a new kind of error, another quiet dependency is created.
 
-Another misidentification is to blame the people typing. Branch staff are working at a counter with a queue; the system either helps them get it right or it does not. Likewise, the data model can be misread as a guarantee. Microsoft's Power BI documentation notes that model relationships do not enforce data integrity, so a well-built model still reports whatever was captured, including unmatched or duplicated records. The Discovery page [why data quality problems are found after reports are published](/discovery/why-data-quality-problems-are-found-after-reports-are-published/) explores that lateness.
+Another misidentification is to blame the people typing. Branch staff are working at a counter with a queue; the system either helps them get it right or it does not. Likewise, the data model can be misread as a guarantee. Microsoft's Power BI documentation notes that [model relationships](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand) do not enforce data integrity, so a well-built model still reports whatever was captured, including unmatched or duplicated records. The Discovery page [why data quality problems are found after reports are published](/discovery/why-data-quality-problems-are-found-after-reports-are-published/) explores that lateness.
 
 ## Possibility
 

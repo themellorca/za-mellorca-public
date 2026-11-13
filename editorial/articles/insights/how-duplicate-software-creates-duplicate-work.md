@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-031
 slug: how-duplicate-software-creates-duplicate-work
-title: How Duplicate Software Creates Duplicate Work
-description: When two applications do the same job, the business pays twice for more than the licence. Staff enter the same data twice, check two places, reconcile two versions and argue over which is right. The six kinds of duplicate work overlapping tools create, and how to measure them.
+title: How duplicate software creates duplicate work
+description: When two applications do the same job, the cost goes beyond the licence. Six kinds of duplicate work overlapping tools create, and how to measure them.
 lead: When two applications do the same job, the business pays twice for more than the licence. Staff enter the same data twice, check two places, reconcile two versions and argue over which is right. The six kinds of duplicate work overlapping tools create, and how to measure them.
 category: Systems & Integration
 published_date: 2026-10-05
@@ -14,8 +14,8 @@ sources:
   - What is Master Data Management? - IBM | https://www.ibm.com/think/topics/master-data-management
   - What Is Data Integration? - IBM | https://www.ibm.com/think/topics/data-integration
 related:
-  - When Copy-and-Paste Is Really an Integration Problem | /insights/when-copy-and-paste-is-really-an-integration-problem/
-  - How a CRM Turns Into an Expensive Address Book | /insights/how-a-crm-turns-into-an-expensive-address-book/
+  - When copy-and-paste is really an integration problem | /insights/when-copy-and-paste-is-really-an-integration-problem/
+  - How a CRM turns into an expensive address book | /insights/how-a-crm-turns-into-an-expensive-address-book/
   - Why your systems do not talk to each other | /insights/why-your-systems-do-not-talk-to-each-other/
 summary: When two applications do the same job, the business pays twice for more than the licence. Staff enter the same data twice, check two places, reconcile two versions and argue over which is right. The six kinds of duplicate work overlapping tools create, and how to measure them.
 layout: plain

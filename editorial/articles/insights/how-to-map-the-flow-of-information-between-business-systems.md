@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-056
 slug: how-to-map-the-flow-of-information-between-business-systems
-title: How to Map the Flow of Information Between Business Systems
-description: A workflow map shows how work moves between people. An information flow map shows how data moves between systems: where each key record is created, where it is copied, how it gets there and who notices when it does not. A practical method for building one in a week.
+title: How to map the flow of information between business systems
+description: A workflow map shows how work moves between people. An information flow map shows how data moves between systems. A practical way to build one in a week.
 lead: A workflow map shows how work moves between people. An information flow map shows how data moves between systems: where each key record is created, where it is copied, how it gets there and who notices when it does not. A practical method for building one in a week.
 category: Systems & Integration
 published_date: 2026-10-06
@@ -15,9 +15,9 @@ sources:
   - Connectors overview | https://learn.microsoft.com/en-us/connectors/overview
   - Asset management | https://www.ncsc.gov.uk/collection/10-steps/asset-management
 related:
-  - When Copy-and-Paste Is Really an Integration Problem | /insights/when-copy-and-paste-is-really-an-integration-problem/
-  - How Duplicate Software Creates Duplicate Work | /insights/how-duplicate-software-creates-duplicate-work/
-  - How a CRM Turns Into an Expensive Address Book | /insights/how-a-crm-turns-into-an-expensive-address-book/
+  - When copy-and-paste is really an integration problem | /insights/when-copy-and-paste-is-really-an-integration-problem/
+  - How duplicate software creates duplicate work | /insights/how-duplicate-software-creates-duplicate-work/
+  - How a CRM turns into an expensive address book | /insights/how-a-crm-turns-into-an-expensive-address-book/
 summary: A workflow map shows how work moves between people. An information flow map shows how data moves between systems: where each key record is created, where it is copied, how it gets there and who notices when it does not. A practical method for building one in a week.
 layout: plain
 ---

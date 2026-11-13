@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-356
 slug: third-party-security-reviews-keep-starting-from-scratch
 title: Why third-party security reviews keep starting from scratch
-description: Each new contract, renewal or audit triggers a fresh supplier questionnaire, and last year's answers cannot be found. Here is how to make supplier assurance reusable.
+description: Each new contract, renewal or audit triggers a fresh supplier questionnaire, and last year's answers are lost. How to make supplier assurance reusable.
 lead: Each new contract, renewal or audit triggers a fresh supplier questionnaire, and last year's answers cannot be found. Here is how to make supplier assurance reusable.
 category: Security & Compliance Operations
 published_date: 2026-10-07
@@ -15,12 +15,13 @@ budget_owner: CFO / COO
 sources:
   - The principles of supply chain security | https://www.ncsc.gov.uk/collection/supply-chain-security/principles-supply-chain-security
   - SP 800-161 Rev. 1, Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations - CSRC | https://csrc.nist.gov/pubs/sp/800/161/r1/upd1/final
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
   - STAR Registry - Cloud Security Alliance (CSA) | https://cloudsecurityalliance.org/star/registry
 related:
-  - Why Policy Acknowledgements Need a Reliable System Record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
-  - Why Vulnerability Severity Needs Business Criticality | /discovery/why-vulnerability-severity-needs-business-criticality/
+  - Why policy acknowledgements need a reliable system record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
+  - Why vulnerability severity needs business criticality | /discovery/why-vulnerability-severity-needs-business-criticality/
   - Why IT asset registers miss cloud and SaaS services | /discovery/why-it-asset-registers-miss-cloud-and-saas-services/
+  - Customer security questionnaires consume specialist time | /discovery/why-customer-security-questionnaires-keep-pulling-specialists-off-their-work/
 summary: Each new contract, renewal or audit triggers a fresh supplier questionnaire, and last year's answers cannot be found. Here is how to make supplier assurance reusable.
 layout: plain
 ---
@@ -34,9 +35,9 @@ A third-party security review asks whether a supplier can be trusted with your d
 
 The symptoms are familiar. Suppliers complain about repeated questionnaires. Purchases stall in security review. Auditors ask for evidence of supplier assessment and get inconsistent answers. Security staff spend their time chasing forms instead of judging risk.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People searching for "third-party security reviews repeated from scratch", "vendor security questionnaire reuse" or "supplier assurance register" usually face a deadline, often an audit finding about supplier oversight. Underneath, they want three things. Reviews should take less effort. The depth of each review should match the risk the supplier carries. The business should be able to show, at any time, what it knows about each important supplier and when it last checked.
+People facing "third-party security reviews repeated from scratch", "vendor security questionnaire reuse" or a missing "supplier assurance register" usually have a deadline, often an audit finding about supplier oversight. Underneath, they want three things. Reviews should take less effort. The depth of each review should match the risk the supplier carries. The business should be able to show, at any time, what it knows about each important supplier and when it last checked.
 
 ## Evidence and system mechanism
 

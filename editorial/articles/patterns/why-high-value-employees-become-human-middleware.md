@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-018
 slug: why-high-value-employees-become-human-middleware
-title: Why High-Value Employees Become Human Middleware
-description: If skilled people spend their day copying, checking, routing and reconciling information between systems, the business may be using human judgement as a substitute for missing digital connections.
+title: Why high-value employees become human middleware
+description: If skilled people spend the day copying, checking and reconciling information between systems, their judgement stands in for missing connections.
 lead: If skilled people spend their day copying, checking, routing and reconciling information between systems, the business may be using human judgement as a substitute for missing digital connections.
 category: Manual Work & Administrative Load
 published_date: 2026-09-01
@@ -25,6 +25,7 @@ commercial_value_dimensions: Capacity, Productivity, Margin, Scalability
 sources:
   - Microsoft 2026 Work Trend Index — Agents, human agency, and the opportunity for every organization | https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization
   - What Is Workflow Automation? - IBM | https://www.ibm.com/think/topics/workflow-automation
+  - The social economy: Unlocking value and productivity through social technologies - McKinsey Global Institute | https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy
 related:
   - Before You Automate, Understand How the Work Actually Moves | /insights/before-you-automate-understand-how-the-work-actually-moves/
   - The Pain of Repeatable Manual Work | /impact/repeatable-manual-work-payroll-cost-automation/
@@ -41,7 +42,7 @@ Picture a financial controller at a 120-person engineering firm. Every Monday sh
 
 ## Realisation
 
-The question is not whether the employee is productive. The question is why the process needs that employee to perform deterministic movement and checking every time.
+The question is not whether the employee is productive. The question is why the process needs that employee to perform deterministic movement and checking every time. The McKinsey Global Institute's study [The social economy](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy) gives a sense of the scale of information-handling work, estimating that interaction workers spend about 28% of the week on email and nearly 20% looking for internal information or tracking down colleagues.
 
 Microsoft's [2026 Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization) frames the leadership challenge as rearchitecting work so that, as more execution is handled by agents and digital systems, people have more room to direct the work, make the calls and own the outcomes. That does not mean every task should be automated. It does mean organisations should distinguish judgement from repeatable coordination.
 

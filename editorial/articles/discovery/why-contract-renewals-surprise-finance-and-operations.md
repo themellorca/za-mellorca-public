@@ -2,8 +2,8 @@
 hub: discovery
 record_id: DISC-051
 slug: why-contract-renewals-surprise-finance-and-operations
-title: Why Contract Renewals Surprise Finance and Operations
-description: A signed contract is not finished work. When renewal dates, notice windows and obligations live in documents or spreadsheets, the business discovers commitments too late.
+title: Why contract renewals surprise finance and operations
+description: A signed contract is not finished work. When renewal dates, notice windows and obligations sit in documents or spreadsheets, they are found too late.
 lead: A contract can be safely signed and still be badly operated. If renewal dates, termination windows, payment obligations and service commitments remain trapped inside documents, the business is relying on people to remember what the agreement requires months later.
 category: Contracts & Obligation Management
 published_date: 2026-09-02
@@ -27,7 +27,7 @@ sources:
 closing_title: Method note
 closing_text: This article diagnoses a class of operating problem. The cited platform documentation demonstrates current workflow and integration mechanisms; it does not prove that every organisation has the same failure mode. Quantify impact from your own process, transaction, labour and exception data.
 related:
-  - Why Bots Fail When Upstream Data Formats Change | /discovery/why-bots-fail-when-upstream-data-formats-change/
+  - Why bots fail when upstream data formats change | /discovery/why-bots-fail-when-upstream-data-formats-change/
   - Why sales, finance and operations each define revenue differently | /discovery/sales-finance-and-operations-define-revenue-differently/
   - When sales and finance work from different product and price data | /discovery/sales-and-finance-use-different-product-and-price-data/
 ---
@@ -41,15 +41,15 @@ These are not separate failures. They share one design flaw: the signed agreemen
 
 A mid-sized Cape Town property management company signs a three-year facilities software agreement with a twelve-month auto-renewal and a ninety-day notice period. The contract is filed in a shared drive. The person who negotiated it moves on. Two years later the business decides to switch to a different platform and starts a selection process in month thirty-four. By the time a decision is made, the notice window has closed and the business is committed to another year on a system it no longer wants, while also paying for the new one. Nobody did anything wrong in isolation. The date simply lived inside a PDF that nobody was responsible for reading at the right time.
 
-## Search behaviour around the problem
+## What people are really asking
 
-Buyers often search for "track contract renewal dates", "contract renewal reminders", "avoid automatic contract renewal", "contract obligation tracking", "central contract repository" or "contract lifecycle management". The practical intent is visibility: what commitments exist, who owns them, and what must happen before a date passes?
+Businesses often ask how to track contract renewal dates, get renewal reminders, avoid automatic renewal, track contract obligations, keep contracts in one central place or manage the contract lifecycle. The practical need is visibility: what commitments exist, who owns them, and what must happen before a date passes?
 
 ## Evidence: post-signature management is a recognised operating layer
 
-Docusign's agreement-management material explicitly describes renewal deadlines, payment schedules, termination dates and service obligations as items that need to be surfaced, assigned, tracked and alerted. Its guidance also calls out spreadsheets, calendar reminders and disconnected manual processes as common ways teams attempt to manage expiration and renewal dates, and notes that without proper tracking contracts can expire or auto-renew without notice.
+[Docusign's agreement-management material](https://www.docusign.com/blog/obligation-management-docusign-iam) explicitly describes renewal deadlines, payment schedules, termination dates and service obligations as items that need to be surfaced, assigned, tracked and alerted. [Its guidance](https://www.docusign.com/blog/tracking-contract-expiration-or-renewal-dates) also calls out spreadsheets, calendar reminders and disconnected manual processes as common ways teams attempt to manage expiration and renewal dates, and notes that without proper tracking contracts can expire or auto-renew without notice.
 
-This is vendor material, so it should not be treated as neutral market sizing. But it is useful evidence for the operating model: a mature contract process does not end at e-signature. It maintains a central repository, extracts structured metadata, tracks obligations and triggers workflows before deadlines. Docusign's description of contract lifecycle management also emphasises integration with CRM, procurement, finance and HR systems, which is where contract facts become operationally useful.
+This is vendor material, so it should not be treated as neutral market sizing. But it is useful evidence for the operating model: a mature contract process does not end at e-signature. It maintains a central repository, extracts structured metadata, tracks obligations and triggers workflows before deadlines. [Docusign's description of contract lifecycle management](https://www.docusign.com/blog/how-does-docusign-clm-work) also emphasises integration with CRM, procurement, finance and HR systems, which is where contract facts become operationally useful.
 
 ## Who owns it?
 

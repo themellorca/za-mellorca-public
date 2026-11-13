@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-470
 slug: ai-generated-decisions-cannot-be-traced-to-source-data
 title: AI-generated decisions cannot be traced to source data
-description: When AI tools keep the answer but not the evidence, challenged decisions cannot be explained. How to design decision records that link AI outputs to source data, rules and approvers.
+description: When AI tools keep the answer but not the evidence, decisions cannot be explained. How to link AI outputs to source data, rules and approvers.
 lead: When AI tools keep the answer but not the evidence, challenged decisions cannot be explained. How to design decision records that link AI outputs to source data, rules and approvers.
 category: AI, Automation & Agent Operations
 published_date: 2026-10-03
@@ -17,8 +17,8 @@ sources:
   - Section 71 Automated decision making - POPIA | https://popia.co.za/section-71-automated-decision-making/
   - Article 12: Record-Keeping - EU Artificial Intelligence Act | https://artificialintelligenceact.eu/article/12/
 related:
-  - Why AI Tools Fail Without Authoritative Data | /discovery/why-ai-tools-fail-without-authoritative-data/
-  - Why AI Agents Can Answer Questions but Cannot Complete Work Across Business Systems | /discovery/why-ai-agents-cannot-complete-work-across-business-systems/
+  - Why AI tools fail without authoritative data | /discovery/why-ai-tools-fail-without-authoritative-data/
+  - Why AI agents can answer questions but cannot complete work across business systems | /discovery/why-ai-agents-cannot-complete-work-across-business-systems/
   - Prompt and configuration changes made without version control | /discovery/prompt-and-configuration-changes-made-without-version-control/
 summary: When AI tools keep the answer but not the evidence, challenged decisions cannot be explained. How to design decision records that link AI outputs to source data, rules and approvers.
 layout: plain
@@ -31,9 +31,9 @@ A decision is traceable when you can follow it back to the data and rules that p
 
 The symptoms show up when a decision is challenged: a customer disputes a declined application, an auditor queries an AI-suggested adjustment, or a manager wants to know why the assistant gave two customers different answers. Staff then try to reconstruct the inputs from memory and system logs, and frequently cannot.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The person searching is usually a finance director, compliance or risk lead, or the operations manager responsible for an AI-assisted process. Their searches sound like "AI audit trail", "explain AI decision to customer", "AI decision logging", "data lineage for AI" or "how to show what data the AI used".
+The person facing this is usually a finance director, compliance or risk lead, or the operations manager responsible for an AI-assisted process. Their questions sound like "do we have an audit trail for the AI?", "how do we explain an AI decision to a customer?", "how do we log AI decisions?" or "how do we show what data the AI used?"
 
 They want to be able to answer three questions for any material AI-assisted decision: what information was used, where it came from and in what state, and who or what acted on the result.
 

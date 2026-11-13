@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-251
 slug: repeatable-manual-work-payroll-cost-automation
-title: The Payroll Cost of Work Software Could Do Automatically
+title: The payroll cost of work software could do automatically
 description: A two-minute task looks insignificant until it happens hundreds of times. Repetitive manual work becomes expensive through frequency, not drama.
 lead: A two-minute task looks insignificant until it happens hundreds of times. Repetitive manual work becomes expensive through frequency, not drama.
 category: Business Automation
@@ -25,9 +25,10 @@ sources:
 closing_title: Method note
 closing_text: The R352,000 example is a transparent scenario, not a benchmark. Replace frequency, labour cost and working days with your own figures.
 related:
-  - Gathering Information Before Work Can Start: The Payroll Cost of Preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
-  - Manual Automation Triggers Leave Half the Process Manual | /impact/manual-automation-trigger-half-automated-process-cost/
-  - The Cost of Automations That Stop Silently | /impact/silent-automation-failures-financial-impact/
+  - Gathering information before work can start: The payroll cost of preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
+  - Manual automation triggers leave half the process manual | /impact/manual-automation-trigger-half-automated-process-cost/
+  - The cost of automations that stop silently | /impact/silent-automation-failures-financial-impact/
+  - Automating the easy things first: The opportunity cost of leaving bottlenecks alone | /impact/automation-chosen-for-convenience-not-costly-bottlenecks-opportunity-cost/
 ---
 ## Small tasks create large operating costs
 

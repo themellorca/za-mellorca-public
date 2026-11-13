@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-368
 slug: when-ai-agents-can-act-but-governance-cannot-see-them
-title: When AI Agents Can Act but Governance Cannot See Them
-description: AI systems that can take actions create an operating-governance problem when permissions, decisions, exceptions and outcomes are not visible to accountable people.
+title: When AI agents can act but governance cannot see them
+description: AI systems that can take actions need governance. Without visible permissions, decisions and outcomes, accountable people cannot see what the AI is doing.
 lead: The operational threshold changes when an AI system moves from producing information to taking actions inside business processes.
 category: Security, Access & Operational Risk
 published_date: 2026-09-07
@@ -26,9 +26,9 @@ sources:
   - Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile | https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
   - LLM06:2025 Excessive Agency | https://genai.owasp.org/llmrisk/llm062025-excessive-agency/
 related:
-  - Why AI Adoption Creates a New Access-Control Problem | /patterns/why-ai-adoption-creates-a-new-access-control-problem/
-  - Why Do Former Employees Still Have Access? | /patterns/why-do-former-employees-still-have-access/
-  - When Offboarding Leaves Digital Access Behind | /patterns/when-offboarding-leaves-digital-access-behind/
+  - Why AI adoption creates a new access-control problem | /patterns/why-ai-adoption-creates-a-new-access-control-problem/
+  - Why do former employees still have access? | /patterns/why-do-former-employees-still-have-access/
+  - When offboarding leaves digital access behind | /patterns/when-offboarding-leaves-digital-access-behind/
 summary: Action-capable AI needs an operating control layer that makes authority, behaviour, exceptions and outcomes visible. Bounded permissions and traceable business actions can help the organisation expand useful automation without allowing governance to fall behind capability.
 ---
 ## Observable condition

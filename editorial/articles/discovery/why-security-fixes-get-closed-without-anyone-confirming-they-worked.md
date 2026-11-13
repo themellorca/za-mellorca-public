@@ -17,7 +17,7 @@ sources:
   - CIS Control 7: Continuous Vulnerability Management | https://www.cisecurity.org/controls/continuous-vulnerability-management
   - Microsoft Purview Compliance Manager | https://learn.microsoft.com/en-us/purview/compliance-manager
 related:
-  - Why Compliance Evidence Should Not Depend on Screenshots | /discovery/why-compliance-evidence-should-not-depend-on-screenshots/
+  - Why compliance evidence should not depend on screenshots | /discovery/why-compliance-evidence-should-not-depend-on-screenshots/
   - Audit evidence cannot be reproduced from the original source | /discovery/why-audit-evidence-must-be-reproducible-from-the-source-system/
   - Security controls are duplicated across teams | /discovery/why-the-same-security-control-gets-built-and-evidenced-by-several-teams/
 summary: Closing a ticket proves a task was claimed, not that the weakness is gone. How to require evidence, retest automatically and track findings that come back.
@@ -31,9 +31,9 @@ This article looks at that condition: remediation tickets that close without ver
 
 A ticket is a record of a task. A control is the thing that protects the business: a patched system, a restricted permission, a working backup, an enforced setting. Closing a ticket proves that someone says they did the task. It does not prove that the control now works. When closure depends on a claim, not a check, the ticket system measures activity and the business believes it is measuring protection. The gap between the two grows quietly until a breach, an audit or a customer test exposes it.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The IT manager, security lead or compliance manager who searches for this wants to know that when the dashboard says an issue is fixed, it is. They want closure to mean "tested and confirmed", an evidence trail that stands up to an auditor, and a way to catch fixes that quietly failed. They also want to avoid doubling their workload with checks that nobody can resource.
+The IT manager, security lead or compliance manager facing this wants to know that when the dashboard says an issue is fixed, it is. They want closure to mean "tested and confirmed", an evidence trail that stands up to an auditor, and a way to catch fixes that quietly failed. They also want to avoid doubling their workload with checks that nobody can resource.
 
 ## Evidence and system mechanism
 

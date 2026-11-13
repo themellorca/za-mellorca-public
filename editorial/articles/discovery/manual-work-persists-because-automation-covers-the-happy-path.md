@@ -3,8 +3,8 @@ hub: discovery
 record_id: DISC-468
 slug: manual-work-persists-because-automation-covers-the-happy-path
 title: Manual work persists because automation covers only the happy path
-description: Discovery of automation gaps where only the ideal workflow is automated, leaving exceptions to manual effort and creating bottlenecks.
-lead: Discovery of automation gaps where only the ideal workflow is automated, leaving exceptions to manual effort and creating bottlenecks.
+description: Automation often covers only the ideal path, so every exception falls back to people and becomes the new bottleneck.
+lead: Automation often covers only the ideal path, so every exception falls back to people and becomes the new bottleneck.
 category: AI, Automation & Agent Operations
 published_date: 2026-09-08
 updated_date: 2026-09-08
@@ -15,11 +15,12 @@ budget_owner: Technology Finance Officer
 sources:
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
   - Employ robust error handling - Power Automate | https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling
+  - Service Bus Dead-Letter Queues - Azure Service Bus | Microsoft Learn | https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dead-letter-queues
 related:
-  - Why AI Agent Handoffs Need Enough Business Context | /discovery/why-ai-agent-handoffs-need-enough-business-context/
+  - Why AI agent handoffs need enough business context | /discovery/why-ai-agent-handoffs-need-enough-business-context/
   - Agent conversations are not connected to durable business records | /discovery/agent-conversations-not-connected-to-durable-business-records/
   - The same workflow is automated independently by multiple teams | /discovery/the-same-workflow-is-automated-independently-by-multiple-teams/
-summary: Discovery of automation gaps where only the ideal workflow is automated, leaving exceptions to manual effort and creating bottlenecks.
+summary: Automation often covers only the ideal path, so every exception falls back to people and becomes the new bottleneck.
 layout: plain
 ---
 ## Opening and context
@@ -32,9 +33,9 @@ An automated workflow processes orders, invoices or onboarding requests well whe
 
 The automation is reported as live and successful. Meanwhile, the team that was meant to be released from the process is still doing a substantial share of it, now with less visibility than before. Because the exceptions arrive through inboxes and queues rather than the original process, they are often missing from the workload figures that justified the automation.
 
-## What the buyer is trying to solve
+## What you are actually trying to solve
 
-Buyers seek to extend automation coverage beyond ideal workflows, reduce manual toil and sustain end-to-end process performance even when inputs deviate from expected patterns. The goal is resilient automation that remains productive under real-world variability. Search phrases include “automation exceptions handled manually”, “RPA exception handling”, “why automation did not reduce workload” and “straight-through processing rate”.
+Teams want to extend automation coverage beyond ideal workflows, reduce manual toil and sustain end-to-end process performance even when inputs deviate from expected patterns. The goal is resilient automation that remains productive under real-world variability. The concerns sound like “our automation exceptions are handled manually”, “how do we handle exceptions in RPA?”, “why did automation not reduce our workload?” and “what is our straight-through processing rate?”
 
 ## Evidence and system mechanism
 
@@ -45,7 +46,7 @@ Two pieces of vendor documentation show what the alternative involves:
 - **Discovering the real variants.** Microsoft describes process mining as extracting event data from systems of record to show how processes are actually executed, identify bottlenecks and find opportunities for automation. Automation designed from a workshop description of the ideal process will not see the variants that event data reveals. ([Microsoft Learn: overview of process mining in Power Automate](https://learn.microsoft.com/en-us/power-automate/process-mining-overview))
 - **Designing for failure.** Microsoft's error-handling guidance for Power Automate describes configuring alternative paths when an action fails, times out or is skipped; grouping actions into try-and-catch scopes; using exponential retry policies for transient failures; terminating with a clear status; and logging errors and notifying stakeholders. It also cautions that excessive custom logging and alerts can become an anti-pattern. ([Microsoft Learn: employ robust error handling](https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling))
 
-The point is architectural rather than product-specific. Exceptions are part of the process. If the design does not classify, retry, route and record them, they become unplanned manual work.
+The point is architectural rather than product-specific. Exceptions are part of the process. If the design does not classify, retry, route and record them, they become unplanned manual work. Microsoft's documentation on [dead-letter queues](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dead-letter-queues) shows the same idea at message level: items that cannot be processed are held where they can be inspected, corrected and resubmitted.
 
 ## Why this becomes urgent
 

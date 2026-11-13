@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000171
 slug: the-employee-locked-out-by-a-system-built-for-someone-else
-title: The Employee Locked Out by a System Built for Someone Else
-description: Leave requests, payslips and expense claims moved online, designed around people with a laptop, a work email and good eyesight. For the employees who have none of these, a simple admin task becomes a favour they must ask for.
+title: The employee locked out by a system built for someone else
+description: Leave requests, payslips and expense claims went online for people with a laptop and work email. For staff without them, simple admin becomes a favour.
 lead: Leave requests, payslips and expense claims moved online, designed around people with a laptop, a work email and good eyesight. For the employees who have none of these, a simple admin task becomes a favour they must ask for.
 category: Inclusion & Access
 published_date: 2026-10-07
@@ -19,9 +19,9 @@ sources:
   - WCAG 2 Overview | https://www.w3.org/WAI/standards-guidelines/wcag/
   - https://www.microsoft.com/en-us/worklab/work-trend-index/technology-unlocks-a-new-future-for-frontline | https://www.microsoft.com/en-us/worklab/work-trend-index/technology-unlocks-a-new-future-for-frontline
 related:
-  - When the Out-of-Office Reply Doesn't Stop the Work | /moments/when-the-out-of-office-reply-doesnt-stop-the-work/
-  - Why Leave Requests Turn Into Coverage Puzzles | /moments/why-leave-requests-turn-into-coverage-puzzles/
-  - The Relief of a Password You Don't Have to Reset | /moments/the-relief-of-a-password-you-dont-have-to-reset/
+  - When the out-of-office reply doesn't stop the work | /moments/when-the-out-of-office-reply-doesnt-stop-the-work/
+  - Why leave requests turn into coverage puzzles | /moments/why-leave-requests-turn-into-coverage-puzzles/
+  - The relief of a password you don't have to reset | /moments/the-relief-of-a-password-you-dont-have-to-reset/
 summary: Leave requests, payslips and expense claims moved online, designed around people with a laptop, a work email and good eyesight. For the employees who have none of these, a simple admin task becomes a favour they must ask for.
 layout: plain
 ---
@@ -33,11 +33,11 @@ The task is small. What changes is who controls it. Something that should be a p
 
 ## Who systems are designed for
 
-The W3C's introduction to web accessibility explains that accessible design lets people with disabilities perceive, understand, navigate and interact with digital tools. It also stresses that accessibility helps a much wider group: people with temporary injuries, older people whose abilities change, people in difficult situations such as bright sunlight, and people using mobile devices or slow connections. The international standard for this, WCAG 2.2, is organised around four principles: content should be perceivable, operable, understandable and robust.
+The W3C's [introduction to web accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) explains that accessible design lets people with disabilities perceive, understand, navigate and interact with digital tools. It also stresses that accessibility helps a much wider group: people with temporary injuries, older people whose abilities change, people in difficult situations such as bright sunlight, and people using mobile devices or slow connections. The international standard for this, WCAG 2.2, is organised around [four principles](https://www.w3.org/WAI/standards-guidelines/wcag/): content should be perceivable, operable, understandable and robust.
 
 Those principles are usually discussed for public websites. They apply just as much to the systems a business gives its own employees, and those internal systems are often the least considered. They are chosen for features and price, configured by the finance or HR team, and tested by the people who will use them at a desk.
 
-Microsoft's survey of frontline workers, which covered thousands of employees across several industries and countries, found that a third felt they lacked the right technology to do their jobs, that 63% said messages from leadership did not reach them, and that 55% had to learn new digital tools without formal training. These are international figures, not South African ones, but they suggest a recurring pattern: tools and communication designed with office workers in mind do not reach people whose work happens elsewhere.
+[Microsoft's survey of frontline workers](https://www.microsoft.com/en-us/worklab/work-trend-index/technology-unlocks-a-new-future-for-frontline), which covered thousands of employees across several industries and countries, found that a third felt they lacked the right technology to do their jobs, that 63% said messages from leadership did not reach them, and that 55% had to learn new digital tools without formal training. These are international figures, not South African ones, but they suggest a recurring pattern: tools and communication designed with office workers in mind do not reach people whose work happens elsewhere.
 
 ## How exclusion happens without anyone intending it
 

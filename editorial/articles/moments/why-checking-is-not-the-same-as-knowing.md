@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000043
 slug: why-checking-is-not-the-same-as-knowing
-title: Why Checking Is Not the Same as Knowing
-description: The bank app, the sales dashboard, the orders page, the shared inbox, again. Checking feels like staying on top of things, but a snapshot is not knowledge. What all-day checking takes from owners, and what lets silence mean something.
+title: Why checking is not the same as knowing
+description: The bank app, the dashboard, the orders page, the inbox, again. A snapshot is not knowledge. What all-day checking costs owners, and how silence can count.
 lead: The bank app, the sales dashboard, the orders page, the shared inbox, again. Checking feels like staying on top of things, but a snapshot is not knowledge. What all-day checking takes from owners, and what lets silence mean something.
 category: Time & Attention
 published_date: 2026-10-06
@@ -19,9 +19,9 @@ sources:
   - Set data alerts in the Power BI service - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
 related:
-  - Why Rest Days Start With a Status Check | /moments/why-rest-days-start-with-a-status-check/
-  - The Time Tax of Re-Explaining the Same Thing | /moments/the-time-tax-of-re-explaining-the-same-thing/
-  - Why “I'll Do It Tonight” Became the Default Plan | /moments/why-ill-do-it-tonight-became-the-default-plan/
+  - Why rest days start with a status check | /moments/why-rest-days-start-with-a-status-check/
+  - The time tax of re-explaining the same thing | /moments/the-time-tax-of-re-explaining-the-same-thing/
+  - Why “I'll do it tonight” became the default plan | /moments/why-ill-do-it-tonight-became-the-default-plan/
 summary: The bank app, the sales dashboard, the orders page, the shared inbox, again. Checking feels like staying on top of things, but a snapshot is not knowledge. What all-day checking takes from owners, and what lets silence mean something.
 layout: plain
 ---
@@ -53,7 +53,7 @@ Mellorca has explored a related routine in [the morning check that overnight job
 
 ## The human tax: attention and predictability
 
-The **attention** tax is the obvious one. Each check is short, but the need to check sits in the background between them. Microsoft's 2025 Work Trend Index found that the most-interrupted Microsoft 365 users were interrupted every two minutes during core hours by a meeting, email or notification. Self-initiated checks are a different kind of interruption, but they add to the same load.
+The **attention** tax is the obvious one. Each check is short, but the need to check sits in the background between them. Microsoft's 2025 [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) found that the most-interrupted Microsoft 365 users were interrupted every two minutes during core hours by a meeting, email or notification. Self-initiated checks are a different kind of interruption, but they add to the same load.
 
 The **predictability** tax is subtler. Checking does not make the day more predictable. It makes the owner a sensor. They know only what they happened to look at, and only when they looked. If something goes wrong between checks, they find out late. If nothing goes wrong, they cannot be sure of that either.
 
@@ -62,7 +62,7 @@ We should be careful about what is not being claimed. Some people find a quick l
 ## What turns checking into knowing
 
 1. **Write down what normal looks like.** Expected daily order volume, the balance needed before payroll, the usual response time to the main customer. Without a definition of normal, no system and no person can recognise abnormal.
-2. **Let the system watch for exceptions.** Many tools can send an alert when a number crosses a threshold. Microsoft's Power BI documentation, for example, describes data alerts on dashboard cards, gauges and KPIs that notify you when a value goes above or below a limit you set.
+2. **Let the system watch for exceptions.** Many tools can send an alert when a number crosses a threshold. Microsoft's [Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts) documentation, for example, describes data alerts on dashboard cards, gauges and KPIs that notify you when a value goes above or below a limit you set.
 3. **Make sure the data is fresh.** The same Power BI documentation notes that alerts only work on refreshed data. An alert on stale numbers produces confident silence that means nothing. Mellorca's discovery piece on [dashboards that refresh at different times without anyone knowing](/discovery/why-dashboards-refresh-at-different-times-without-anyone-knowing/) covers this risk.
 4. **Alert on what matters, not on everything.** Too many alerts recreate the original problem in a new form. Each one should lead to a clear action.
 5. **Replace constant checking with a rhythm.** A short daily or weekly summary, delivered at a set time, gives a fuller picture than twenty snapshots.

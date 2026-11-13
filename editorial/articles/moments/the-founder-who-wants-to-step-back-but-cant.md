@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000057
 slug: the-founder-who-wants-to-step-back-but-cant
-title: The Founder Who Wants to Step Back but Can't
+title: The founder who wants to step back but can't
 description: Many owners want a week off, or a smaller role, and find the business will not allow it. Why that happens, and how to make stepping back a real option.
 lead: Many owners want a week off, or a smaller role, and find the business will not allow it. Why that happens, and how to make stepping back a real option.
 category: Human Agency
@@ -20,9 +20,10 @@ sources:
   - Google SRE - What is Toil in SRE: Understanding Its Impact | https://sre.google/sre-book/eliminating-toil/
   - Small Businesses - Taxpayers - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/
 related:
-  - When the System Decides What You Can Do Today | /moments/when-the-system-decides-what-you-can-do-today/
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
-  - The Difference Between Being Informed and Being in Control | /moments/the-difference-between-being-informed-and-being-in-control/
+  - When the system decides what you can do today | /moments/when-the-system-decides-what-you-can-do-today/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - The difference between being informed and being in control | /moments/the-difference-between-being-informed-and-being-in-control/
+  - Why retirement plans depend on a business that runs without you | /moments/why-retirement-plans-depend-on-a-business-that-runs-without-you/
 summary: Many owners want a week off, or a smaller role, and find the business will not allow it. Why that happens, and how to make stepping back a real option.
 layout: plain
 ---
@@ -50,7 +51,7 @@ Mellorca's work on [key-person dependency as a systems problem](/insights/key-pe
 
 There is no South African survey that measures how many owners feel unable to step back, and it would be a mistake to invent one. What can be said is narrower, and drawn from general workplace research.
 
-Microsoft's Work Trend Index found that 68% of survey respondents said they did not have enough uninterrupted focus time, and that in its Microsoft 365 data people spent 57% of their time communicating and 43% creating. If that is true for staff in larger organisations, it is plausible that an owner who is the default answer to every question experiences it more sharply. That is an inference, not a finding.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) found that 68% of survey respondents said they did not have enough uninterrupted focus time, and that in its Microsoft 365 data people spent 57% of their time communicating and 43% creating. If that is true for staff in larger organisations, it is plausible that an owner who is the default answer to every question experiences it more sharply. That is an inference, not a finding.
 
 Gallup's work on burnout reports that only 60% of workers in the American workplace study strongly agreed that they knew what was expected of them, and treats unclear roles as one of the main drivers of exhaustion. When no one besides the founder is sure who decides what, the founder is left to decide everything.
 

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-037
 slug: when-staff-get-blamed-for-errors-their-systems-created
-title: When Staff Get Blamed for Errors Their Systems Created
-description: A clerk keeps sending invoices with wrong amounts, a dispatcher keeps missing orders, a new hire seems slow. Often the errors trace back to data that arrives late, incomplete or wrong from another system, and the business is managing a person when it should be fixing a connection.
+title: When staff get blamed for errors their systems created
+description: Staff errors often trace back to data arriving late, incomplete or wrong from another system. Fix the connection instead of managing the person.
 lead: A clerk keeps sending invoices with wrong amounts, a dispatcher keeps missing orders, a new hire seems slow. Often the errors trace back to data that arrives late, incomplete or wrong from another system, and the business is managing a person when it should be fixing a connection.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-05
@@ -18,9 +18,10 @@ sources:
   - Managing human failures: Overview - HSE | https://www.hse.gov.uk/humanfactors/topics/humanfail.htm
   - Poka Yoke - A Resource Guide - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/poka-yoke/
 related:
-  - Why the Same Problems Return After You Replace the System | /patterns/why-the-same-problems-return-after-you-replace-the-system/
-  - Why Staff Keep a Spreadsheet Between Two Business Systems | /patterns/why-staff-keep-a-spreadsheet-between-two-business-systems/
-  - When Your CRM Knows Something Your Finance System Does Not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
+  - Why the same problems return after you replace the system | /patterns/why-the-same-problems-return-after-you-replace-the-system/
+  - Why staff keep a spreadsheet between two business systems | /patterns/why-staff-keep-a-spreadsheet-between-two-business-systems/
+  - When your CRM knows something your finance system does not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
+  - Why being blamed for system errors wears people down | /moments/why-being-blamed-for-system-errors-wears-people-down/
 summary: A clerk keeps sending invoices with wrong amounts, a dispatcher keeps missing orders, a new hire seems slow. Often the errors trace back to data that arrives late, incomplete or wrong from another system, and the business is managing a person when it should be fixing a connection.
 layout: plain
 ---
@@ -38,7 +39,7 @@ An illustrative example: a Johannesburg wholesaler with around thirty-five staff
 
 When information passes between systems, or between a system and a person, errors created upstream tend to appear downstream. The person at the end of the chain is the one whose name is on the invoice, the dispatch note or the customer email. They are visible. The connection that delivered late, partial or inconsistent data is not.
 
-Fields that deal with high-consequence work have learned to look past the individual. The UK Health and Safety Executive treats human failure as normal and predictable, and its guidance on investigations warns against stopping at "operator error" instead of examining the factors that shaped performance, such as poor design and time pressure. Google's site reliability engineering practice uses blameless postmortems that focus on the systemic causes of an incident, on the basis that blame encourages people to hide problems and that processes, not people, are what can be fixed reliably.
+Fields that deal with high-consequence work have learned to look past the individual. The UK Health and Safety Executive treats human failure as normal and predictable, and [its guidance on investigations warns against stopping at "operator error"](https://www.hse.gov.uk/humanfactors/topics/humanfail.htm) instead of examining the factors that shaped performance, such as poor design and time pressure. Google's site reliability engineering practice uses [blameless postmortems](https://sre.google/sre-book/postmortem-culture/) that focus on the systemic causes of an incident, on the basis that blame encourages people to hide problems and that processes, not people, are what can be fixed reliably.
 
 These principles apply just as well to an invoicing desk or a dispatch office.
 
@@ -74,7 +75,7 @@ Not every performance problem is a systems problem. The point is that the questi
 
 ## Possibility
 
-In a better state, recurring errors are investigated by tracing them to their source. Each error is categorised by where it entered: wrong input, late update, missing field, conflicting systems or genuine slip. Patterns are reviewed without blame. Where the cause is upstream, the fix goes upstream: a connection updated in real time, a required field, a check that stops a conflicting record. Lean practice calls this poka-yoke, or error-proofing: simple measures that prevent a mistake at its source or warn before it happens. The Insight on [how to reduce human error without removing human judgment](/insights/how-to-reduce-human-error-without-removing-human-judgment/) explores this balance.
+In a better state, recurring errors are investigated by tracing them to their source. Each error is categorised by where it entered: wrong input, late update, missing field, conflicting systems or genuine slip. Patterns are reviewed without blame. Where the cause is upstream, the fix goes upstream: a connection updated in real time, a required field, a check that stops a conflicting record. Lean practice calls this [poka-yoke, or error-proofing](https://www.lean.org/lexicon-terms/poka-yoke/): simple measures that prevent a mistake at its source or warn before it happens. The Insight on [how to reduce human error without removing human judgment](/insights/how-to-reduce-human-error-without-removing-human-judgment/) explores this balance.
 
 For the wholesaler, that meant capturing delivery exceptions on a device at the point of delivery and holding invoices until delivery was confirmed in the system.
 

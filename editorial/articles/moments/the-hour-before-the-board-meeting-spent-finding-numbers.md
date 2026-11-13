@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000032
 slug: the-hour-before-the-board-meeting-spent-finding-numbers
-title: The Hour Before the Board Meeting Spent Finding Numbers
-description: The meeting starts at ten. At nine, someone is still pulling figures from three systems and pasting them into slides. What that last-minute scramble takes from the person doing it, and what lets the numbers be ready before anyone asks.
+title: The hour before the board meeting spent finding numbers
+description: The meeting starts at ten and someone is still pasting figures from three systems into slides. What that scramble costs, and what readies numbers early.
 lead: The meeting starts at ten. At nine, someone is still pulling figures from three systems and pasting them into slides. What that last-minute scramble takes from the person doing it, and what lets the numbers be ready before anyone asks.
 category: Time & Attention
 published_date: 2026-10-05
@@ -19,9 +19,10 @@ sources:
   - Configure scheduled refresh - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-scheduled-refresh
   - Email Subscriptions for Reports and Dashboards in the Power BI Service - Power BI | https://learn.microsoft.com/en-us/power-bi/collaborate-share/end-user-subscribe
 related:
-  - What a Reliable Handover Gives Back on a Friday Afternoon | /moments/what-a-reliable-handover-gives-back-on-a-friday-afternoon/
-  - The Quiet Cost of Always Being Reachable | /moments/the-quiet-cost-of-always-being-reachable/
-  - Why the Commute Has Become Unpaid Triage Time | /moments/why-the-commute-has-become-unpaid-triage-time/
+  - What a reliable handover gives back on a Friday afternoon | /moments/what-a-reliable-handover-gives-back-on-a-friday-afternoon/
+  - The quiet cost of always being reachable | /moments/the-quiet-cost-of-always-being-reachable/
+  - Why the commute has become unpaid triage time | /moments/why-the-commute-has-become-unpaid-triage-time/
+  - How to stop building management reports by hand | /insights/how-to-replace-the-monthly-spreadsheet-assembly-behind-management-reports/
 summary: The meeting starts at ten. At nine, someone is still pulling figures from three systems and pasting them into slides. What that last-minute scramble takes from the person doing it, and what lets the numbers be ready before anyone asks.
 layout: plain
 ---
@@ -46,7 +47,7 @@ The pattern usually has a few causes working together.
 - **The content of the pack is not fixed.** Board members or managers ask for slightly different figures each time, so the work cannot settle into a routine.
 - **The timetable is backwards.** Month-end processing finishes close to the meeting date, leaving little time between final figures and presentation.
 
-The UK Government Data Quality Framework is useful here because it treats timeliness as a quality in its own right. It describes data quality as fitness for purpose, and includes among its dimensions whether data is available at a time that suits its intended use. It also encourages organisations to document metadata, so that people understand what a figure is and where it came from. By that standard, a correct number that only becomes available at 09:55 is not fully fit for a meeting at 10:00.
+The UK [Government Data Quality Framework](https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework) is useful here because it treats timeliness as a quality in its own right. It describes data quality as fitness for purpose, and includes among its dimensions whether data is available at a time that suits its intended use. It also encourages organisations to document metadata, so that people understand what a figure is and where it came from. By that standard, a correct number that only becomes available at 09:55 is not fully fit for a meeting at 10:00.
 
 ## An illustrative case
 
@@ -71,7 +72,7 @@ It would be speculative to describe how any individual feels in that hour. It is
 The changes are about deciding what the pack contains, and then producing it the same way every time.
 
 - **Agree a standard pack.** A fixed set of figures and charts that appears every meeting, with a separate section for one-off questions. This alone turns a creative exercise into a routine one.
-- **Build the standard pack once, as a report.** Business intelligence tools can connect to the underlying systems and refresh on a schedule. Microsoft's documentation for Power BI, for example, describes scheduled refresh of up to eight times a day on a Pro licence, and notes that refresh schedules are switched off after repeated failures, so someone must watch them.
+- **Build the standard pack once, as a report.** Business intelligence tools can connect to the underlying systems and refresh on a schedule. Microsoft's documentation for [Power BI](https://learn.microsoft.com/en-us/power-bi/collaborate-share/end-user-subscribe), for example, describes [scheduled refresh](https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-scheduled-refresh) of up to eight times a day on a Pro licence, and notes that refresh schedules are switched off after repeated failures, so someone must watch them.
 - **Deliver it automatically.** Power BI's documentation also describes email subscriptions that send a snapshot or attachment of a report on a set schedule, including on the last day of the month. Subscribing other people requires a paid licence, which is a real cost to weigh.
 - **Move the timetable.** Agree a cut-off for figures that leaves a working day between final numbers and the meeting, and send the pack in advance so questions arrive before the meeting rather than the night before.
 - **Label the figures.** Each figure in the pack should say where it comes from and when it was extracted. That makes questions quicker to answer, and it follows the framework's advice on documenting metadata.

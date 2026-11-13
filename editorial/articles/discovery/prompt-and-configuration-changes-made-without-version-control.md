@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-462
 slug: prompt-and-configuration-changes-made-without-version-control
 title: Prompt and configuration changes made without version control
-description: When prompts, model settings and automation configuration are edited in place with no history, behaviour changes cannot be explained, reviewed or rolled back. How to bring them under version control.
+description: When prompts and model settings are edited in place with no history, changes cannot be explained or rolled back. How to put them under version control.
 lead: When prompts, model settings and automation configuration are edited in place with no history, behaviour changes cannot be explained, reviewed or rolled back. How to bring them under version control.
 category: AI, Automation & Agent Operations
 published_date: 2026-10-03
@@ -18,7 +18,7 @@ sources:
   - SP 800-128, Guide for Security-Focused Configuration Management of Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/128/upd1/final
 related:
   - AI-generated decisions cannot be traced to source data | /discovery/ai-generated-decisions-cannot-be-traced-to-source-data/
-  - Why AI Tools Fail Without Authoritative Data | /discovery/why-ai-tools-fail-without-authoritative-data/
+  - Why AI tools fail without authoritative data | /discovery/why-ai-tools-fail-without-authoritative-data/
   - Business rules are hidden inside AI prompts | /discovery/business-rules-hidden-inside-ai-prompts/
 summary: When prompts, model settings and automation configuration are edited in place with no history, behaviour changes cannot be explained, reviewed or rolled back. How to bring them under version control.
 layout: plain
@@ -33,9 +33,9 @@ A prompt is now a piece of production logic. It tells a model what role to play,
 
 The symptom is behaviour drift that nobody can explain. The cause is usually not one bad edit. It is the absence of any process that treats prompts and settings as things that need history.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People rarely search for "prompt version control" until something has gone wrong. More often they ask why an AI tool started giving different answers, how to roll back an automation setting, or who changed a workflow. Behind those questions is a simple need: predictable behaviour from systems the business now depends on, and a way to answer the auditor's or the customer's question, "what was the system told to do on that date?"
+Nobody asks for "prompt version control" until something has gone wrong. More often they ask why an AI tool started giving different answers, how to roll back an automation setting, or who changed a workflow. Behind those questions is a simple need: predictable behaviour from systems the business now depends on, and a way to answer the auditor's or the customer's question, "what was the system told to do on that date?"
 
 ## Evidence and system mechanism
 

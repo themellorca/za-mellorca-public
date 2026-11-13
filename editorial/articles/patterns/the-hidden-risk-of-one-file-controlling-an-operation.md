@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-253
 slug: the-hidden-risk-of-one-file-controlling-an-operation
-title: The Hidden Risk of One File Controlling an Operation
-description: When a single schedule, dispatch board or job list holds the live state of an operation, every lock, stale copy or lost file stops the work. Treating that file as infrastructure, then moving the live state into records, removes the single point of failure.
+title: The hidden risk of one file controlling an operation
+description: When one schedule or job list holds the live state of an operation, a lock or lost copy stops the work. Move live state into records instead.
 lead: When a single schedule, dispatch board or job list holds the live state of an operation, every lock, stale copy or lost file stops the work. Treating that file as infrastructure, then moving the live state into records, removes the single point of failure.
 category: Spreadsheet Dependency & Shadow Operations
 published_date: 2026-10-03
@@ -16,10 +16,11 @@ commercial_value_dimensions: resilience, speed, customer experience, capacity, s
 sources:
   - Collaborate on Excel workbooks at the same time with co-authoring - Microsoft Support | https://support.microsoft.com/en-us/office/collaborate-on-excel-workbooks-at-the-same-time-with-co-authoring-7152aa8b-b791-414c-a3bb-3024e46fb104
   - Restore a previous version of a file stored in OneDrive - Microsoft Support | https://support.microsoft.com/en-us/office/restore-a-previous-version-of-a-file-stored-in-onedrive-159cad6d-d76e-4981-88ef-de6e96c93893
+  - Horror Stories: Spreadsheet mistakes - news stories - European Spreadsheet Risks Interest Group | https://eusprig.org/research-info/horror-stories/
 related:
-  - Why Is Your Most Important Process Running in Excel? | /patterns/why-your-most-important-process-is-running-in-excel/
-  - When One Missing Item Stops a Larger Process | /patterns/when-one-missing-item-stops-a-larger-process/
-  - When One Unmonitored Component Can Stop a Critical Service | /patterns/when-one-unmonitored-component-can-stop-a-critical-service/
+  - Why is your most important process running in Excel? | /patterns/why-your-most-important-process-is-running-in-excel/
+  - When one missing item stops a larger process | /patterns/when-one-missing-item-stops-a-larger-process/
+  - When one unmonitored component can stop a critical service | /patterns/when-one-unmonitored-component-can-stop-a-critical-service/
 summary: When a single schedule, dispatch board or job list holds the live state of an operation, every lock, stale copy or lost file stops the work. Treating that file as infrastructure, then moving the live state into records, removes the single point of failure.
 layout: plain
 ---
@@ -62,7 +63,7 @@ The commercial value at stake is **resilience, speed, customer experience, capac
 - **Capacity.** The coordinator's time is consumed by keeping the file current and answering questions about it, rather than by planning.
 - **Scalability.** As jobs, vehicles or staff increase, the file grows slower, more fragile and harder to share.
 
-The scale should be judged from the business's own history: how often the file has been locked, overwritten or unavailable, and what each incident cost in rework, delays and customer calls.
+The scale should be judged from the business's own history: how often the file has been locked, overwritten or unavailable, and what each incident cost in rework, delays and customer calls. The European Spreadsheet Risks Interest Group keeps a public [collection of news reports of spreadsheet errors](https://eusprig.org/research-info/horror-stories/) showing that such mistakes have real financial consequences, including a UK retailer that blamed a profit warning on a spreadsheet arithmetic error.
 
 ## Common misidentification
 

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-176
 slug: why-does-hiring-someone-create-so-much-internal-admin
-title: Why Does Hiring Someone Create So Much Internal Admin?
-description: Each hire generates repeated data capture, chased documents and late requests to IT and managers because hiring is assembled by hand rather than designed as one process.
+title: Why does hiring someone create so much internal admin?
+description: Each hire triggers repeated data capture, chased documents and late requests to IT because hiring is assembled by hand. Design it as one process.
 lead: Each hire generates repeated data capture, chased documents and late requests to IT and managers because hiring is assembled by hand rather than designed as one process.
 category: People Operations & Internal Service
 published_date: 2026-10-03
@@ -18,9 +18,10 @@ sources:
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
   - Section 18 Notification to data subject when collecting personal information - POPIA | https://popia.co.za/section-18-notification-to-data-subject-when-collecting-personal-information/
 related:
-  - Why Does Winning a Customer Create an Internal Scramble? | /patterns/why-does-winning-a-customer-create-an-internal-scramble/
-  - When Client Onboarding Becomes a Growth Constraint | /patterns/when-client-onboarding-becomes-a-growth-constraint/
-  - The Business Process That Only Works Because Someone Remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
+  - Why does winning a customer create an internal scramble? | /patterns/why-does-winning-a-customer-create-an-internal-scramble/
+  - When client onboarding becomes a growth constraint | /patterns/when-client-onboarding-becomes-a-growth-constraint/
+  - The business process that only works because someone remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
+  - Onboarding that depends on a manager's memory produces uneven starts | /impact/onboarding-depends-on-manager-memory-checklists-inconsistent-employee-starts-cost/
 summary: Each hire generates repeated data capture, chased documents and late requests to IT and managers because hiring is assembled by hand rather than designed as one process.
 layout: plain
 ---
@@ -38,7 +39,7 @@ Hiring admin is usually treated as unavoidable paperwork. Some of it is: a busin
 
 The cost is not only administrative time. The first weeks of employment matter. Research on onboarding, summarised in the encyclopaedic literature on organisational socialisation, links effective onboarding with higher job satisfaction, better performance, greater commitment and lower intention to quit. A first day without a working login or a laptop is a poor start, and it signals to the new person how organised the business is.
 
-There is a legal dimension too. Hiring involves collecting personal information, including identity numbers, bank details, tax numbers and sometimes health or criminal-record information. POPIA requires a responsible party to secure the integrity and confidentiality of personal information through appropriate technical and organisational measures. Documents scattered across inboxes, phones and shared folders make that harder.
+There is a legal dimension too. Hiring involves [collecting personal information](https://popia.co.za/section-18-notification-to-data-subject-when-collecting-personal-information/), including identity numbers, bank details, tax numbers and sometimes health or criminal-record information. POPIA requires a responsible party to secure the [integrity and confidentiality of personal information](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/) through appropriate technical and organisational measures. Documents scattered across inboxes, phones and shared folders make that harder.
 
 > Realisation prompt: on your last new employee's first day, could they do the job they were hired for, and how many people had to chase how many things to make that happen?
 

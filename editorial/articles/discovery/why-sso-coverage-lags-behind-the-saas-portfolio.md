@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-339
 slug: why-sso-coverage-lags-behind-the-saas-portfolio
 title: Why single sign-on coverage lags behind the SaaS portfolio
-description: Each new SaaS tool arrives with its own passwords while sign-in controls stay on a few core systems. How to measure SSO coverage and close the gap in a sensible order.
+description: Each new SaaS tool arrives with its own passwords while sign-in controls cover only a few core systems. How to measure SSO coverage and close the gap.
 lead: Each new SaaS tool arrives with its own passwords while sign-in controls stay on a few core systems. How to measure SSO coverage and close the gap in a sensible order.
 category: SaaS & Application Portfolio Management
 published_date: 2026-10-08
@@ -33,7 +33,7 @@ Single sign-on (SSO) lets a person sign in once, through a central identity serv
 
 Coverage lags for ordinary reasons. The vendor charges extra for SSO on its enterprise tier. The setup needs a certificate and an administrator who has time. The team that bought the tool does not know that SSO exists. Each application is a small decision, and together they leave a large share of the portfolio unmanaged.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The IT manager or information officer wants to know which applications are protected by central controls and which are not, and to close the difference in a sensible order. The CFO wants to know what it will cost, since many SaaS vendors charge a premium for SSO. The COO wants new starters productive on day one and leavers removed on their last day without a manual checklist.
 

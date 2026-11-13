@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-009
 slug: why-teams-keep-building-manual-workarounds
-title: Why Teams Keep Building Manual Workarounds
-description: Spreadsheets, lists and macros built around official systems are unfiled change requests. Here is why teams keep building them, what they cost, and how to turn them into real improvement.
+title: Why teams keep building manual workarounds
+description: Spreadsheets, lists and macros built around official systems are unfiled change requests. Here is why teams build them and how to turn them into fixes.
 lead: Spreadsheets, lists and macros built around official systems are unfiled change requests. Here is why teams keep building them, what they cost, and how to turn them into real improvement.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -18,9 +18,9 @@ sources:
   - 5 Whys - What is it? - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/5-whys/
   - Kaizen — A Resource Guide - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/kaizen/
 related:
-  - When Repetitive Work Is Mistaken for Necessary Work | /patterns/when-repetitive-work-is-mistaken-for-necessary-work/
-  - When One Simple Request Turns Into Five Separate Jobs | /patterns/when-one-simple-request-turns-into-five-separate-jobs/
-  - Why Staff Keep Checking the Same Things Over and Over | /patterns/why-staff-keep-checking-the-same-things-over-and-over/
+  - When repetitive work is mistaken for necessary work | /patterns/when-repetitive-work-is-mistaken-for-necessary-work/
+  - When one simple request turns into five separate jobs | /patterns/when-one-simple-request-turns-into-five-separate-jobs/
+  - Why staff keep checking the same things over and over | /patterns/why-staff-keep-checking-the-same-things-over-and-over/
 summary: Spreadsheets, lists and macros built around official systems are unfiled change requests. Here is why teams keep building them, what they cost, and how to turn them into real improvement.
 layout: plain
 ---
@@ -38,7 +38,7 @@ Every workaround is an unfiled change request. It records, precisely, something 
 
 Teams keep building workarounds because, in most businesses, it is the only route open to them. Asking for a system change means a ticket to an overstretched IT person, a request to a vendor, a cost approval and a wait of weeks or months, with no guarantee of an answer. Building a spreadsheet takes an afternoon. Faced with that choice, a conscientious employee will build the spreadsheet every time.
 
-The UK's National Cyber Security Centre makes the same observation about unofficial technology in general. It notes that staff adopt unsanctioned tools when official systems lack the functionality they need or official processes are slow, and recommends addressing those root causes and making it easier to request new services, rather than treating the behaviour as a disciplinary matter.
+[The UK's National Cyber Security Centre](https://www.ncsc.gov.uk/guidance/shadow-it) makes the same observation about unofficial technology in general. It notes that staff adopt unsanctioned tools when official systems lack the functionality they need or official processes are slow, and recommends addressing those root causes and making it easier to request new services, rather than treating the behaviour as a disciplinary matter.
 
 **Realisation prompt:** if each workaround in your business were a written request to improve a system, how long would the list be, and how many would already have been approved?
 
@@ -56,7 +56,7 @@ Several published Patterns describe what workarounds become over time. [When man
 - **Workarounds are invisible to management.** They live on desktops and in personal folders, so leaders do not see how much of the operation depends on them.
 - **Problems are solved at the symptom.** The workaround deals with the immediate pain, so the underlying cause, such as a missing field or a broken integration, is never investigated.
 
-Lean practice offers a simple discipline for that last point. The 5 whys, as the Lean Enterprise Institute describes it, means asking why repeatedly when a problem occurs, to get past the obvious symptom to the root cause. A workaround is usually the answer to the first why. The fix lies three or four whys further down.
+Lean practice offers a simple discipline for that last point. The [5 whys, as the Lean Enterprise Institute describes it](https://www.lean.org/lexicon-terms/5-whys/), means asking why repeatedly when a problem occurs, to get past the obvious symptom to the root cause. A workaround is usually the answer to the first why. The fix lies three or four whys further down.
 
 ## Commercial impact
 
@@ -76,7 +76,7 @@ The other response is a large replacement project, on the assumption that a new 
 
 In a better state, workarounds are treated as evidence. The business keeps a simple, visible list of process and system problems raised by staff, reviewed regularly by someone with the authority and budget to act. Small changes, such as adding a field, adjusting a report or automating a reminder, are made quickly. Larger ones are prioritised against their business value. When a problem is fixed at source, the workaround is retired.
 
-This is the essence of kaizen, which the Lean Enterprise Institute describes as continuous improvement through small, incremental changes to processes and systems, with everyone in the organisation involved. The people who build workarounds are already doing the first half of kaizen: spotting a problem and caring enough to solve it. The business only needs to give them the second half: a way to solve it properly.
+This is the essence of kaizen, which the Lean Enterprise Institute describes as [continuous improvement](https://www.lean.org/lexicon-terms/kaizen/) through small, incremental changes to processes and systems, with everyone in the organisation involved. The people who build workarounds are already doing the first half of kaizen: spotting a problem and caring enough to solve it. The business only needs to give them the second half: a way to solve it properly.
 
 For the freight forwarder, that might mean reviewing the four spreadsheets with the operations team, configuring the shipment system to hold client-specific rules and disbursements, building an exceptions view, and keeping a standing monthly session for new requests.
 

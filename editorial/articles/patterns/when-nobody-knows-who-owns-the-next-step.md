@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-305
 slug: when-nobody-knows-who-owns-the-next-step
-title: When Nobody Knows Who Owns the Next Step
-description: Work reaches the end of one person's task and then sits, because nobody is sure whose turn it is. Here is why the gap forms and how to close it without adding more meetings.
+title: When nobody knows who owns the next step
+description: Work reaches the end of one person's task and then sits because nobody knows whose turn it is. Here is how to close that gap without more meetings.
 lead: Work reaches the end of one person's task and then sits, because nobody is sure whose turn it is. Here is why the gap forms and how to close it without adding more meetings.
 category: Process, Ownership & Handoffs
 published_date: 2026-10-09
@@ -18,9 +18,10 @@ sources:
   - RACI Chart: What is it & How to Use - The Workstream | https://www.atlassian.com/work-management/project-management/raci-chart
   - What is Process Mining? - IBM | https://www.ibm.com/think/topics/process-mining
 related:
-  - The Business Process That Only Works Because Someone Remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
-  - When Nobody Knows Which Spreadsheet Is the Latest | /patterns/when-nobody-knows-which-spreadsheet-is-the-latest/
-  - When One Employee Becomes the Company’s Search Engine | /patterns/when-one-person-is-the-only-way-to-find-anything-in-the-business/
+  - The business process that only works because someone remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
+  - When nobody knows which spreadsheet is the latest | /patterns/when-nobody-knows-which-spreadsheet-is-the-latest/
+  - When one employee becomes the company’s search engine | /patterns/when-one-person-is-the-only-way-to-find-anything-in-the-business/
+  - When nobody knows who owns the next action, work stalls or gets done twice | /impact/employees-unsure-who-owns-next-action-unclear-accountability-labour-cost/
 summary: Work reaches the end of one person's task and then sits, because nobody is sure whose turn it is. Here is why the gap forms and how to close it without adding more meetings.
 layout: plain
 ---
@@ -53,7 +54,7 @@ The published Pattern [the cost of delayed handoffs after a deal is won](/patter
 - **Handoffs rely on goodwill.** A verbal "I will send it over" or a note left in a tray works until somebody is on leave, in a meeting, or simply busy.
 - **Exceptions have no home.** The standard path may be clear, but the dispute, the missing document or the unusual customer has no assigned owner, so it drifts.
 - **Shared responsibility becomes no responsibility.** When a task is given to "the team" or to a shared mailbox, each member reasonably assumes a colleague has it.
-- **The system cannot show the waiting.** Status fields such as "in progress" or "pending" hide whether anyone is actually holding the work. IBM's explanation of process mining describes how event logs can reveal where cases wait between activities, which is usually where unowned transitions sit.
+- **The system cannot show the waiting.** Status fields such as "in progress" or "pending" hide whether anyone is actually holding the work. IBM's explanation of [process mining](https://www.ibm.com/think/topics/process-mining) describes how event logs can reveal where cases wait between activities, which is usually where unowned transitions sit.
 
 ## Commercial impact
 

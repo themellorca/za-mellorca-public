@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-015
 slug: why-recurring-tasks-should-trigger-a-process-review
-title: Why Recurring Tasks Should Trigger a Process Review
-description: When the same correction, query or manual fix comes back week after week, the business is treating a process problem as a series of individual tasks. A simple recurrence rule turns repetition into a signal for improvement.
+title: Why recurring tasks should trigger a process review
+description: When the same correction or manual fix returns week after week, a process problem is being treated as individual tasks. A recurrence rule flags it.
 lead: When the same correction, query or manual fix comes back week after week, the business is treating a process problem as a series of individual tasks. A simple recurrence rule turns repetition into a signal for improvement.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -19,9 +19,9 @@ sources:
   - Google SRE - Operational Efficiency: Eliminating Toil | https://sre.google/workbook/eliminating-toil/
   - Standardized Work - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/standardized-work/
 related:
-  - The Daily Routine Nobody Remembers the Reason For | /patterns/the-daily-routine-nobody-remembers-the-reason-for/
-  - When Your Team Is Busy but Output Is Not Increasing | /patterns/when-your-team-is-busy-but-output-is-not-increasing/
-  - Why Small Tasks Become Expensive at Scale | /patterns/why-small-tasks-become-expensive-at-scale/
+  - The daily routine nobody remembers the reason for | /patterns/the-daily-routine-nobody-remembers-the-reason-for/
+  - When your team is busy but output is not increasing | /patterns/when-your-team-is-busy-but-output-is-not-increasing/
+  - Why small tasks become expensive at scale | /patterns/why-small-tasks-become-expensive-at-scale/
 summary: When the same correction, query or manual fix comes back week after week, the business is treating a process problem as a series of individual tasks. A simple recurrence rule turns repetition into a signal for improvement.
 layout: plain
 ---
@@ -37,9 +37,9 @@ An illustrative example: a Pretoria-based IT reseller with about twenty staff no
 
 Recurrence is information. A task that comes back at a regular rate, for the same reason, is evidence that the process producing it has a stable defect. Fixing each occurrence keeps the business running, but it also guarantees the next occurrence, because nothing upstream has changed.
 
-IT service management has a well-established distinction for exactly this. IBM describes an incident as a single event that causes a disruption, and a problem as the underlying cause that may sit behind several incidents. Incident management restores service; problem management investigates the root cause so that the incidents stop. Most businesses do the first well, informally, and the second hardly at all, because nobody is responsible for noticing that the same incident keeps happening.
+IT service management has a well-established distinction for exactly this. [IBM describes an incident](https://www.ibm.com/think/topics/problem-management) as a single event that causes a disruption, and a problem as the underlying cause that may sit behind several incidents. Incident management restores service; problem management investigates the root cause so that the incidents stop. Most businesses do the first well, informally, and the second hardly at all, because nobody is responsible for noticing that the same incident keeps happening.
 
-The Lean Enterprise Institute's five whys technique captures the same idea: ask why repeatedly to get beyond the obvious symptom to the cause that, if removed, prevents the problem from recurring.
+The Lean Enterprise Institute's [five whys technique](https://www.lean.org/lexicon-terms/five-whys/) captures the same idea: ask why repeatedly to get beyond the obvious symptom to the cause that, if removed, prevents the problem from recurring. Google's site reliability engineers have a name for the repetitive, predictable, constant stream of maintenance tasks, [toil](https://sre.google/workbook/eliminating-toil/), and their advice is to eliminate it at the source.
 
 **Realisation prompt:** which correction, query or fix has your team handled more than ten times this year for the same reason?
 
@@ -73,7 +73,7 @@ Recurring tasks are also often seen as a good case for automation. Automating a 
 
 ## Possibility
 
-In a better state, recurrence is visible and has a trigger. Staff tag corrective and reactive work with a simple reason code. A short weekly or monthly review looks at which reasons recur most. Any task that recurs past an agreed threshold goes to the owner of the process that produced it, with a requirement to find and remove the cause or explain why it cannot be removed. Once a fix is made, the process is updated as the new standard way of working, which the Lean Enterprise Institute describes as the baseline from which further improvement starts.
+In a better state, recurrence is visible and has a trigger. Staff tag corrective and reactive work with a simple reason code. A short weekly or monthly review looks at which reasons recur most. Any task that recurs past an agreed threshold goes to the owner of the process that produced it, with a requirement to find and remove the cause or explain why it cannot be removed. Once a fix is made, the process is updated as the new [standard way of working](https://www.lean.org/lexicon-terms/standardized-work/), which the Lean Enterprise Institute describes as the baseline from which further improvement starts.
 
 For the IT reseller, that meant a rule that supplier price changes update the price list before any renewal invoice is generated, and a monthly check of credit-note reasons to catch the next recurring cause early.
 

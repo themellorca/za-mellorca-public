@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-239
 slug: when-poor-data-quality-becomes-an-automation-failure
-title: When Poor Data Quality Becomes an Automation Failure
+title: When poor data quality becomes an automation failure
 description: Automation can expose data problems that people previously corrected silently. Reliable workflows need reliable operational inputs.
 lead: Automation does not remove uncertainty from bad inputs. It often makes the hidden corrections people were performing manually impossible to ignore.
 category: Data Quality, Ownership & Governance
@@ -24,10 +24,11 @@ commercial_value_dimensions: Reliability, Capacity, Decision quality, Scalabilit
 sources:
   - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
   - Principle (d): Accuracy | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/accuracy/
+  - Set up duplicate detection rules to keep your data clean - Power Platform | Microsoft Learn | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
 related:
-  - When Nobody Owns the Definition of a Business Metric | /patterns/when-nobody-owns-the-definition-of-a-business-metric/
-  - When Nobody Knows Which System Holds the Correct Data | /patterns/when-nobody-knows-which-system-holds-the-correct-data/
-  - When a Spreadsheet Becomes a Business-Critical System | /patterns/when-a-spreadsheet-becomes-a-business-critical-system/
+  - When nobody owns the definition of a business metric | /patterns/when-nobody-owns-the-definition-of-a-business-metric/
+  - When nobody knows which system holds the correct data | /patterns/when-nobody-knows-which-system-holds-the-correct-data/
+  - When a spreadsheet becomes a business-critical system | /patterns/when-a-spreadsheet-becomes-a-business-critical-system/
 summary: Automation often exposes data-quality work that people were quietly performing by hand. Strengthening ownership, definitions and validation at the source can make automation more reliable without turning every bad input into another technical workaround.
 ---
 ## Observable condition
@@ -50,7 +51,7 @@ The UK government's [Data Quality Framework](https://www.gov.uk/government/publi
 
 ## Diagnosis
 
-The mechanism usually includes unclear data ownership, weak validation at capture, duplicated records, inconsistent definitions or systems that allow the same business fact to be maintained independently. Automation then receives inputs that are structurally ambiguous. Adding more workflow logic can create a growing catalogue of exceptions without fixing the source.
+The mechanism usually includes unclear data ownership, weak validation at capture, duplicated records, inconsistent definitions or systems that allow the same business fact to be maintained independently. Automation then receives inputs that are structurally ambiguous. Adding more workflow logic can create a growing catalogue of exceptions without fixing the source. Microsoft's documentation on [duplicate detection rules](https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean) shows what fixing it at source can look like: rules that reduce duplicate records in the system and so help maintain the integrity of the data.
 
 Each dimension fails an automation in a recognisable way:
 

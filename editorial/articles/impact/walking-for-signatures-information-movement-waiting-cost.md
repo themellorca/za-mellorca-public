@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-022
 slug: walking-for-signatures-information-movement-waiting-cost
-title: Walking the Paperwork Around: The Cost of Moving People to Move Information
-description: When staff walk across the building, or drive between sites, to collect a signature, check a file or ask a question, the business pays for the journey and the wait. Digital approvals and shared records remove most of the trips.
+title: Walking the paperwork around: The cost of moving people to move information
+description: When staff walk across the building or drive between sites to collect a signature or check a file, you pay for the journey. Digital approvals cut trips.
 lead: When staff walk across the building, or drive between sites, to collect a signature, check a file or ask a question, the business pays for the journey and the wait. Digital approvals and shared records remove most of the trips.
 category: Digital Operations
 published_date: 2026-10-05
@@ -17,9 +17,9 @@ sources:
   - What is Approvals? - Microsoft Support | https://support.microsoft.com/en-us/teams/shifts/what-is-approvals
   - Electronic Communications and Transactions Act 25 of 2002 - South African Government | https://www.gov.za/documents/electronic-communications-and-transactions-act
 related:
-  - Fixing Avoidable Mistakes Instead of Serving Customers: The Cost of Rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
-  - Policing Routine Work: The Management Cost of Checking Recurring Tasks by Hand | /impact/checking-recurring-tasks-completed-management-policing-cost/
-  - Hours Lost to Formatting: The Cost of Tidying Documents and Spreadsheets by Hand | /impact/formatting-documents-spreadsheets-by-hand-cost/
+  - Fixing avoidable mistakes instead of serving customers: The cost of rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
+  - Policing routine work: The management cost of checking recurring tasks by hand | /impact/checking-recurring-tasks-completed-management-policing-cost/
+  - Hours lost to formatting: The cost of tidying documents and spreadsheets by hand | /impact/formatting-documents-spreadsheets-by-hand-cost/
 summary: When staff walk across the building, or drive between sites, to collect a signature, check a file or ask a question, the business pays for the journey and the wait. Digital approvals and shared records remove most of the trips.
 layout: plain
 ---

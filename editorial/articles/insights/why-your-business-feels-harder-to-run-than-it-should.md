@@ -2,9 +2,9 @@
 hub: insights
 record_id: INS-001
 slug: why-your-business-feels-harder-to-run-than-it-should
-title: Why Your Business Feels Harder to Run Than It Should
-description: A practical exploration of the everyday friction that slows operations, and how to reframe work as a coherent system rather than a collection of separate tasks.
-lead: A practical exploration of the everyday friction that slows operations, and how to reframe work as a coherent system rather than a collection of separate tasks.
+title: Why your business feels harder to run than it should
+description: The everyday friction that slows a business down, and why treating work as one connected system, not a collection of separate tasks, makes it easier to run.
+lead: The everyday friction that slows a business down, and why treating work as one connected system, not a collection of separate tasks, makes it easier to run.
 category: Operations
 published_date: 2026-09-08
 updated_date: 2026-09-08
@@ -12,11 +12,12 @@ eyebrow: Operations
 sources:
   - Google SRE - What is Toil in SRE: Understanding Its Impact | https://sre.google/sre-book/eliminating-toil/
   - Conway's Law | https://www.melconway.com/Home/Conways_Law.html
+  - Collaborative Overload - Harvard Business Review | https://hbr.org/2016/01/collaborative-overload
 related:
-  - How Much Manual Work Is Hiding Inside Your Business? | /insights/how-much-manual-work-is-hiding-inside-your-business/
-  - Why Work Gets Lost Between Teams | /insights/why-work-gets-lost-between-teams/
-  - How to Map a Business Workflow Without Making It Complicated | /insights/how-to-map-a-business-workflow-without-making-it-complicated/
-summary: A practical exploration of the everyday friction that slows operations, and how to reframe work as a coherent system rather than a collection of separate tasks.
+  - How much manual work is hiding inside your business? | /insights/how-much-manual-work-is-hiding-inside-your-business/
+  - Why work gets lost between teams | /insights/why-work-gets-lost-between-teams/
+  - How to map a business workflow without making it complicated | /insights/how-to-map-a-business-workflow-without-making-it-complicated/
+summary: The everyday friction that slows a business down, and why treating work as one connected system, not a collection of separate tasks, makes it easier to run.
 layout: plain
 ---
 The feeling that a modern business is harder to run than it should be is not a mystery. Across teams, data and processes, friction accumulates as handoffs slip, context shifts and decisions depend on incomplete signals. The result is not just slower work; it is a drift of outcomes away from what leadership intends.
@@ -27,7 +28,7 @@ This article unpacks the layers of friction that compound over time and offers a
 
 ## What the feeling usually describes
 
-Leaders rarely describe this problem in systems language. They describe symptoms: simple requests take several emails, nobody is quite sure who has the latest version, the same question gets answered differently by different teams, and good people spend their days chasing rather than doing. Each symptom is small. Together they create a sense that effort no longer converts into progress at the rate it once did.
+Leaders rarely describe this problem in systems language. They describe symptoms: simple requests take several emails, nobody is quite sure who has the latest version, the same question gets answered differently by different teams, and good people spend their days chasing rather than doing. Each symptom is small. Together they create a sense that effort no longer converts into progress at the rate it once did. Harvard Business Review reports [research on collaborative overload](https://hbr.org/2016/01/collaborative-overload) finding that at many companies people spend roughly four-fifths of their time in meetings or responding to colleagues' requests.
 
 That sense is often strongest in businesses that have grown. Work that once happened inside one team, with everyone in the same conversation, now crosses several teams, systems and approval steps. The work itself may not have become harder. The path it travels has become longer and less visible.
 

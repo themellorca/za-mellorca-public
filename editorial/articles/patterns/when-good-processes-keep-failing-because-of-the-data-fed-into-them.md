@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-228
 slug: when-good-processes-keep-failing-because-of-the-data-fed-into-them
-title: When Good Processes Keep Failing Because of the Data Fed Into Them
-description: When a sound process keeps producing wrong deliveries, rejected invoices and duplicate orders, the fault often enters at capture. Designing the point of entry with controlled values, validation and clear data ownership stops errors before they travel.
+title: When good processes keep failing because of the data fed into them
+description: When a sound process keeps producing wrong deliveries and duplicate orders, the fault often enters at capture. Validate at the point of entry.
 lead: When a sound process keeps producing wrong deliveries, rejected invoices and duplicate orders, the fault often enters at capture. Designing the point of entry with controlled values, validation and clear data ownership stops errors before they travel.
 category: Data Quality, Ownership & Governance
 published_date: 2026-10-07
@@ -18,9 +18,10 @@ sources:
   - What Is Data Quality? - IBM | https://www.ibm.com/think/topics/data-quality
   - Create a business rule in Microsoft Dataverse - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-create-business-rule
 related:
-  - When Nobody Owns the Definition of a Business Metric | /patterns/when-nobody-owns-the-definition-of-a-business-metric/
-  - When Nobody Knows Which System Holds the Correct Data | /patterns/when-nobody-knows-which-system-holds-the-correct-data/
-  - When Staff Get Blamed for Errors Their Systems Created | /patterns/when-staff-get-blamed-for-errors-their-systems-created/
+  - When nobody owns the definition of a business metric | /patterns/when-nobody-owns-the-definition-of-a-business-metric/
+  - When nobody knows which system holds the correct data | /patterns/when-nobody-knows-which-system-holds-the-correct-data/
+  - When staff get blamed for errors their systems created | /patterns/when-staff-get-blamed-for-errors-their-systems-created/
+  - How manual data entry creates downstream problems | /insights/how-one-typing-error-becomes-a-disputed-invoice-and-a-wrong-report/
 summary: When a sound process keeps producing wrong deliveries, rejected invoices and duplicate orders, the fault often enters at capture. Designing the point of entry with controlled values, validation and clear data ownership stops errors before they travel.
 layout: plain
 ---

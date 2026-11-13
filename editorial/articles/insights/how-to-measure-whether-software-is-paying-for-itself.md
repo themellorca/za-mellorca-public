@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-427
 slug: how-to-measure-whether-software-is-paying-for-itself
-title: How to Measure Whether Software Is Paying for Itself
-description: Most businesses justify software before they buy it and never check afterwards. A practical method for measuring, after purchase, whether a system is earning back its full cost.
+title: How to measure whether software is paying for itself
+description: Most businesses justify software before buying and never check afterwards. A practical method for measuring whether a system is earning back its full cost.
 lead: Most businesses justify software before they buy it and never check afterwards. A practical method for measuring, after purchase, whether a system is earning back its full cost.
 category: Systems & Strategy
 published_date: 2026-10-07
@@ -14,9 +14,9 @@ sources:
   - Measure value and realize return on investment - Power Platform | https://learn.microsoft.com/en-us/power-platform/guidance/adoption/common-vision/realize-value
   - Overview of the Automation Kit - Power Automate | https://learn.microsoft.com/en-us/power-automate/guidance/automation-kit/overview/introduction
 related:
-  - How Software Renewal Dates Can Force Better Technology Decisions | /insights/how-software-renewal-dates-can-force-better-technology-decisions/
+  - How software renewal dates can force better technology decisions | /insights/how-software-renewal-dates-can-force-better-technology-decisions/
   - How to buy business software without letting the demo make the decision | /insights/how-to-buy-business-software-without-letting-the-demo-make-the-decision/
-  - What to Decide Before Configuring a New Platform | /insights/what-to-decide-before-configuring-a-new-platform/
+  - What to decide before configuring a new platform | /insights/what-to-decide-before-configuring-a-new-platform/
 summary: Most businesses justify software before they buy it and never check afterwards. A practical method for measuring, after purchase, whether a system is earning back its full cost.
 layout: plain
 ---
@@ -52,7 +52,7 @@ Every system should have a short statement of how it is meant to pay back. Examp
 
 ## Step 3: Choose a small number of measures
 
-Pick two to four measures that sit directly on the value mechanism. Power Platform's business-value guidance suggests straightforward before-and-after comparisons that work for most business software:
+Pick two to four measures that sit directly on the value mechanism. [Power Platform](https://learn.microsoft.com/en-us/power-platform/guidance/adoption/business-value)'s business-value guidance suggests straightforward before-and-after comparisons that work for most business software:
 
 | Measure | What to compare |
 | --- | --- |
@@ -80,7 +80,7 @@ The value mechanism was faster invoicing. Before the system, jobs were invoiced 
 
 ## Step 6: Review on a schedule, and decide
 
-Microsoft's guidance on realising return on investment emphasises regular tracking and reporting so that success is measured by the value delivered, not merely by completing a project. For a smaller business, a review at three, six and twelve months after go-live, and then before each renewal, is usually enough. Each review should end with one of four decisions:
+Microsoft's guidance on realising [return on investment](https://learn.microsoft.com/en-us/power-platform/guidance/adoption/common-vision/realize-value) emphasises regular tracking and reporting so that success is measured by the value delivered, not merely by completing a project. For a smaller business, a review at three, six and twelve months after go-live, and then before each renewal, is usually enough. Each review should end with one of four decisions:
 
 1. **Keep:** the system pays back clearly.
 2. **Fix:** the value mechanism is sound but blocked by adoption, data or process problems.

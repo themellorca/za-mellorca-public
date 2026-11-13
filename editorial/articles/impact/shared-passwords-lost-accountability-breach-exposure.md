@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-129
 slug: shared-passwords-lost-accountability-breach-exposure
-title: Shared Passwords at Work: The Cost of Losing Accountability and Control
+title: Shared passwords at work: The cost of losing accountability and control
 description: When colleagues share one login, nobody can tell who did what, access cannot be removed cleanly and one leak exposes everyone who uses it.
 lead: When colleagues share one login, nobody can tell who did what, access cannot be removed cleanly and one leak exposes everyone who uses it.
 category: Digital Infrastructure
@@ -14,10 +14,13 @@ primary_pain: Employees share passwords and logins with colleagues
 primary_cost_mechanism: Risk exposure from untraceable actions, weakened payment controls and wider breach surface, plus investigation and recovery labour
 sources:
   - NIST Special Publication 800-63B | https://pages.nist.gov/800-63-4/sp800-63b.html
+  - Password policy: updating your approach - NCSC | https://www.ncsc.gov.uk/collection/passwords/updating-your-approach
+  - Identity and access management - 10 Steps to Cyber Security - NCSC | https://www.ncsc.gov.uk/collection/10-steps/identity-and-access-management
 related:
-  - Who Decides on Technology? The Cost of Unclear Accountability for IT Choices | /impact/unclear-accountability-technology-decisions-cost/
-  - Premium Plans for Basic Work: The Cost of Overbuying Software | /impact/premium-software-plans-basic-needs-overbuying-cost/
-  - Software Bought Without Approval: The Financial and Security Cost of Shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
+  - Who decides on technology? The cost of unclear accountability for IT choices | /impact/unclear-accountability-technology-decisions-cost/
+  - Premium plans for basic work: The cost of overbuying software | /impact/premium-software-plans-basic-needs-overbuying-cost/
+  - Software bought without approval: The financial and security cost of shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
+  - One admin login, several people: The accountability and security cost | /impact/single-administrator-account-shared-between-staff-accountability-security-exposure-cost/
 summary: When colleagues share one login, nobody can tell who did what, access cannot be removed cleanly and one leak exposes everyone who uses it.
 layout: plain
 ---
@@ -41,7 +44,7 @@ Mellorca has written about [reused passwords](/impact/reused-passwords-single-cr
 
 ### Accountability
 
-Every action in a shared account is recorded under one name. If a supplier's bank details are changed, a refund is issued, a price is altered or a customer list is exported, the system cannot say which person did it. That matters for fraud investigations, disciplinary processes, insurance claims and simple mistakes. Honest staff lose the ability to show it was not them.
+Every action in a shared account is recorded under one name. If a supplier's bank details are changed, a refund is issued, a price is altered or a customer list is exported, the system cannot say which person did it. That matters for fraud investigations, disciplinary processes, insurance claims and simple mistakes. Honest staff lose the ability to show it was not them. The NCSC's [identity and access management guidance](https://www.ncsc.gov.uk/collection/10-steps/identity-and-access-management) advises associating all actions in a system with the person or account that performed them, which a shared login makes impossible.
 
 ### Control
 
@@ -91,7 +94,7 @@ Any account where several people hold the password, where it can move money or p
 
 ## What better looks like
 
-- **Individual accounts by default.** The UK National Cyber Security Centre discourages account sharing. Where a business need genuinely requires it, the NCSC recommends restricting access to the smallest possible group of known and trusted users, changing the password when someone's access ends and monitoring use. It prefers delegation features, which let people act on a shared resource with their own identity.
+- **Individual accounts by default.** The UK National Cyber Security Centre [discourages account sharing](https://www.ncsc.gov.uk/collection/passwords/updating-your-approach). Where a business need genuinely requires it, the NCSC recommends restricting access to the smallest possible group of known and trusted users, changing the password when someone's access ends and monitoring use. It prefers delegation features, which let people act on a shared resource with their own identity.
 - **A business password manager.** CISA recommends password managers to generate, store and fill unique passwords. NIST's digital identity guidance requires that verifiers allow password managers and autofill, and recommends allowing paste, so long unique passwords are practical. A business password manager can share access to an account without revealing the password, and remove that access per person.
 - **Multi-factor authentication on every account that matters,** tied to individuals rather than to one shared phone.
 - **Role separation in finance systems,** so capturing and releasing payments require different people.

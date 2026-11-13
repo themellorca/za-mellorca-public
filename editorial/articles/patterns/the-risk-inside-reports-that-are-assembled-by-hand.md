@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-066
 slug: the-risk-inside-reports-that-are-assembled-by-hand
-title: Why Manual Reporting Creates Invisible Risk
+title: Why manual reporting creates invisible risk
 description: Hand-assembled reports fail silently, so a wrong figure can shape decisions long before anyone thinks to question it.
 lead: Hand-assembled reports fail silently, so a wrong figure can shape decisions long before anyone thinks to question it.
 category: Data & Reporting
@@ -18,9 +18,9 @@ sources:
   - Endorsement overview - Microsoft Fabric | https://learn.microsoft.com/en-us/fabric/governance/endorsement-overview
   - Get started with goals in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-goals-introduction
 related:
-  - When Leadership Cannot See Bottlenecks Until Customers Complain | /patterns/why-bottlenecks-surface-as-customer-complaints-first/
-  - When KPI Tracking Becomes a Data Collection Exercise | /patterns/when-measuring-performance-means-collecting-numbers-all-month/
-  - The Operational Blind Spots Created by Periodic Reporting | /patterns/what-happens-between-reporting-periods-that-nobody-sees/
+  - When leadership cannot see bottlenecks until customers complain | /patterns/why-bottlenecks-surface-as-customer-complaints-first/
+  - When KPI tracking becomes a data collection exercise | /patterns/when-measuring-performance-means-collecting-numbers-all-month/
+  - The operational blind spots created by periodic reporting | /patterns/what-happens-between-reporting-periods-that-nobody-sees/
 summary: Hand-assembled reports fail silently, so a wrong figure can shape decisions long before anyone thinks to question it.
 layout: plain
 ---
@@ -50,7 +50,7 @@ So the exposure is made of three things at once: the chance of an error, the cha
 
 This is a data-integrity and reporting-assurance problem. The visible symptom is that the reporting cycle is slow and stressful. The common assumption is that the preparer needs to be more careful. The structural cause is that the process has no checks built into it, so quality depends entirely on individual attention.
 
-Governments have faced the same issue with analytical models. HM Treasury published a review of quality assurance of the analytical models that inform government policy. It covers best practice and gives practical recommendations for making models robust and trustworthy. The context is far removed from a South African distribution business, but the principle transfers directly: if a number informs a significant decision, the way it was produced deserves the same kind of scrutiny as the decision itself.
+Governments have faced the same issue with analytical models. HM Treasury published a [review of quality assurance](https://www.gov.uk/government/publications/review-of-quality-assurance-of-government-models) of the analytical models that inform government policy. It covers best practice and gives practical recommendations for making models robust and trustworthy. The context is far removed from a South African distribution business, but the principle transfers directly: if a number informs a significant decision, the way it was produced deserves the same kind of scrutiny as the decision itself.
 
 ## Diagnosis: where the invisible risk comes from
 
@@ -75,7 +75,9 @@ We do not quote an error rate or a cost, because they depend entirely on the spe
 
 The alternative is to move the repeatable parts of the report into a governed process, so that figures flow from source systems to the report without being retyped, and so that checks are part of the flow. This does not require a large platform. It requires deciding which numbers matter, where they come from and who is accountable for them.
 
-Microsoft's documentation offers a good illustration of the ideas involved. Its endorsement feature in Fabric and Power BI describes three labels: promoted, certified and master data. A certified item has been reviewed by an authorised reviewer who confirms it meets the organisation's quality standards and can be treated as reliable and authoritative. That is a formal way of expressing something every business needs, namely a clear distinction between a number that someone has checked and one that someone has merely produced. The Power BI scorecards documentation draws a related distinction, noting that manual goals do not update automatically because they are not connected to a data source, while connected goals refresh with the underlying data. Where a figure must be entered by hand, the system at least knows it is manual.
+Microsoft's documentation offers a good illustration of the ideas involved. Its endorsement feature in Fabric and [Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-goals-introduction) describes three labels: promoted, certified and master data. A certified item has been reviewed by an authorised reviewer who confirms it meets the organisation's quality standards and can be treated as reliable and authoritative.
+
+That is a formal way of expressing something every business needs, namely a clear distinction between a number that someone has checked and one that someone has merely produced. The Power BI scorecards documentation draws a related distinction, noting that manual goals do not update automatically because they are not connected to a data source, while connected goals refresh with the underlying data. Where a figure must be entered by hand, the system at least knows it is manual.
 
 ## Intervention: make the invisible visible first
 

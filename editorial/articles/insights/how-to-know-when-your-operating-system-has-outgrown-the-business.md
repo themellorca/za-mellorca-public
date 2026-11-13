@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-452
 slug: how-to-know-when-your-operating-system-has-outgrown-the-business
-title: How to Know When Your Operating System Has Outgrown the Business
-description: Every business runs on an operating system of tools, processes, data and roles. How to tell when that system no longer fits the business, and how to distinguish genuine limits from fixable misuse.
+title: How to know when your operating system has outgrown the business
+description: Every business runs on tools, processes, data and roles. How to tell when that system no longer fits, and whether the limits are real or fixable misuse.
 lead: Every business runs on an operating system of tools, processes, data and roles. How to tell when that system no longer fits the business, and how to distinguish genuine limits from fixable misuse.
 category: Systems & Strategy
 published_date: 2026-10-07
@@ -14,7 +14,7 @@ sources:
   - Excel specifications and limits - Microsoft Support | https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
 related:
-  - How to Decide Whether to Replace or Reconfigure a System | /insights/how-to-decide-whether-to-replace-or-reconfigure-a-system/
+  - How to decide whether to replace or reconfigure a system | /insights/how-to-decide-whether-to-replace-or-reconfigure-a-system/
   - How to buy business software without letting the demo make the decision | /insights/how-to-buy-business-software-without-letting-the-demo-make-the-decision/
   - What to ask about APIs before buying business software | /insights/what-to-ask-about-apis-before-buying-business-software/
 summary: Every business runs on an operating system of tools, processes, data and roles. How to tell when that system no longer fits the business, and how to distinguish genuine limits from fixable misuse.
@@ -69,7 +69,7 @@ Each new customer, branch or product adds more coordination work than the last. 
 
 ### 6. Nobody can see the whole process
 
-Management cannot answer basic questions about work in progress without asking several people. Each department may be well run, but the end-to-end flow is invisible. The Lean Enterprise Institute describes value stream mapping as being about improving the whole, not just optimising the parts. An operating system that only supports the parts has been outgrown, even if each part works.
+Management cannot answer basic questions about work in progress without asking several people. Each department may be well run, but the end-to-end flow is invisible. The Lean Enterprise Institute describes [value stream mapping](https://www.lean.org/lexicon-terms/value-stream-mapping/) as being about improving the whole, not just optimising the parts. An operating system that only supports the parts has been outgrown, even if each part works.
 
 ## An illustrative example
 

@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-463
 slug: why-ai-agent-handoffs-need-enough-business-context
-title: Why AI Agent Handoffs Need Enough Business Context
+title: Why AI agent handoffs need enough business context
 description: AI agents can escalate work successfully at a technical level while still leaving the human recipient without the context needed to finish the business task.
 lead: An agent can route work to a person correctly and still create a poor handoff if the person has to reconstruct what happened, what was attempted and what decision is now required.
 category: AI, Automation & Agent Operations
@@ -23,8 +23,8 @@ sources:
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
 related:
   - Manual work persists because automation covers only the happy path | /discovery/manual-work-persists-because-automation-covers-the-happy-path/
-  - Why AI Agents Can Answer Questions but Cannot Complete Work Across Business Systems | /discovery/why-ai-agents-cannot-complete-work-across-business-systems/
-  - Why AI Tools Fail Without Authoritative Data | /discovery/why-ai-tools-fail-without-authoritative-data/
+  - Why AI agents can answer questions but cannot complete work across business systems | /discovery/why-ai-agents-cannot-complete-work-across-business-systems/
+  - Why AI tools fail without authoritative data | /discovery/why-ai-tools-fail-without-authoritative-data/
 ---
 ## The problem in plain language
 
@@ -32,11 +32,11 @@ An AI-enabled workflow reaches a point where a human should take over. The escal
 
 The automation has technically done its job: it recognised a case it should not handle and passed it on. But the human now carries the full cost of the case plus the cost of reconstructing what the agent already knew. In the worst version, the customer is asked the same questions twice and concludes that the automation achieved nothing.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer is not merely trying to "add human-in-the-loop". They need a reliable transfer of work state: why the handoff happened, what the agent already knows, what actions were attempted, what constraints or approvals apply and what the human is expected to decide next.
+The business is not merely trying to "add human-in-the-loop". They need a reliable transfer of work state: why the handoff happened, what the agent already knows, what actions were attempted, what constraints or approvals apply and what the human is expected to decide next.
 
-Search language tends to be framed as escalation quality: "AI agent escalation to human", "chatbot handover context", "agent handoff summary", "customer repeats information after escalation". Each is a symptom of the same missing context contract.
+The concern tends to be framed as escalation quality: "how does an AI agent escalate to a human?", "what context does the chatbot hand over?", "where is the agent handoff summary?" or "why does the customer repeat information after escalation?" Each is a symptom of the same missing context contract.
 
 ## Evidence and system mechanism
 

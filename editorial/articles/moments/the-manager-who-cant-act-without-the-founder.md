@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000047
 slug: the-manager-who-cant-act-without-the-founder
-title: The Manager Who Can't Act Without the Founder
-description: The title is on the organogram, but the bank profile, the system logins and the clients still belong to the founder. Why newly appointed managers often cannot act, what that costs both people, and how authority actually moves.
+title: The manager who can't act without the founder
+description: The title is on the organogram, but the bank profile, logins and clients still belong to the founder. Why new managers cannot act, and how authority moves.
 lead: The title is on the organogram, but the bank profile, the system logins and the clients still belong to the founder. Why newly appointed managers often cannot act, what that costs both people, and how authority actually moves.
 category: Human Agency
 published_date: 2026-10-06
@@ -19,9 +19,9 @@ sources:
   - Set up approval users - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-to-set-up-approval-users
   - <span class="mw-page-title-main">Job autonomy and pressure at work - statistics</span> | https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Job_autonomy_and_pressure_at_work_-_statistics
 related:
-  - When the System Decides What You Can Do Today | /moments/when-the-system-decides-what-you-can-do-today/
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
-  - What Real Delegation Requires From Systems | /moments/what-real-delegation-requires-from-systems/
+  - When the system decides what you can do today | /moments/when-the-system-decides-what-you-can-do-today/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - What real delegation requires from systems | /moments/what-real-delegation-requires-from-systems/
 summary: The title is on the organogram, but the bank profile, the system logins and the clients still belong to the founder. Why newly appointed managers often cannot act, what that costs both people, and how authority actually moves.
 layout: plain
 ---
@@ -53,7 +53,7 @@ Nobody decided this. It is simply what happens when a role is created on the org
 
 ## The human tax: autonomy and time
 
-For the **manager**, the tax is autonomy. They have the accountability of the role but not its means. Eurostat's statistics on job autonomy, based on the 2019 EU Labour Force Survey, found that managers were the most autonomous occupational group, with 78.6% reporting some or a large influence over the content and order of their tasks. Those are European figures for managers in general, but they describe what the role is normally understood to involve. A manager who cannot act is in an unusual and uncomfortable position.
+For the **manager**, the tax is autonomy. They have the accountability of the role but not its means. Eurostat's statistics on [job autonomy](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Job_autonomy_and_pressure_at_work_-_statistics), based on the 2019 EU Labour Force Survey, found that managers were the most autonomous occupational group, with 78.6% reporting some or a large influence over the content and order of their tasks. Those are European figures for managers in general, but they describe what the role is normally understood to involve. A manager who cannot act is in an unusual and uncomfortable position.
 
 It is reasonable to infer that this can affect confidence and credibility over time, as staff notice where decisions are really made. We cannot know how any particular manager experiences it, and some may be content with a slow handover. The concern is the case where the role was meant to be real and has not become so.
 
@@ -69,7 +69,7 @@ But "later" can become indefinite when there is no plan. Mellorca's insight on w
 
 1. **Write a transfer plan with dates.** List each authority, from bank to systems to clients, and agree when and how it moves. A staged plan is fine; an open-ended one tends to stall.
 2. **Use limited roles rather than all or nothing.** Microsoft recommends assigning the least permissive role that does the job, such as a user or helpdesk administrator rather than a global administrator. A general manager can be given the access the role needs without handing over every key.
-3. **Set approval limits for the role.** Business software can usually do this directly. Microsoft's Business Central documentation, for example, describes approval users with purchase amount limits and substitute approvers. The general manager approves up to an agreed value; above that, the founder.
+3. **Set approval limits for the role.** Business software can usually do this directly. Microsoft's Business Central documentation, for example, describes [approval users](https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-to-set-up-approval-users) with purchase amount limits and substitute approvers. The general manager approves up to an agreed value; above that, the founder.
 4. **Add the manager to the bank mandate.** With appropriate limits and dual authorisation for large amounts, this is a governance decision as much as a convenience.
 5. **Introduce clients in person.** A joint call or visit transfers a relationship far more effectively than an email.
 6. **Redirect the questions.** When staff come to the founder with something the general manager can decide, the founder sends them back. This is uncomfortable at first and the single most effective signal that the role is real.

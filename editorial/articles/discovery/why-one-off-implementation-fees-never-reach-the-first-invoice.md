@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-084
 slug: why-one-off-implementation-fees-never-reach-the-first-invoice
 title: One-off implementation fees are forgotten during billing setup
-description: The monthly subscription gets billed on time, but the set-up fee agreed in the quote quietly disappears. How to make one-off charges part of the billing handover so they are invoiced once, correctly.
+description: The monthly subscription is billed on time but the agreed set-up fee quietly disappears. How to put one-off charges into the billing handover.
 lead: The monthly subscription gets billed on time, but the set-up fee agreed in the quote quietly disappears. How to make one-off charges part of the billing handover so they are invoiced once, correctly.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-10
@@ -33,9 +33,9 @@ Many businesses sell a bundle that has two different billing shapes. One part re
 
 The result is revenue that is earned but not billed, or billed late, or billed in a way that surprises the customer. All three show up as disputes.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-A finance director searching for this problem is usually not asking for new billing software. They want to know why money they are owed keeps slipping through the first month of a customer relationship, and how to make sure every priced line on an accepted quote becomes an invoice at the right time. They also want customers to stop questioning invoices, because each query costs staff time and weakens the relationship at its most fragile point, the start.
+A finance director facing this problem is usually not asking for new billing software. They want to know why money they are owed keeps slipping through the first month of a customer relationship, and how to make sure every priced line on an accepted quote becomes an invoice at the right time. They also want customers to stop questioning invoices, because each query costs staff time and weakens the relationship at its most fragile point, the start.
 
 ## Evidence and system mechanism
 

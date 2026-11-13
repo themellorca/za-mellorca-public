@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-054
 slug: buying-software-for-every-process-problem
-title: When Every Process Problem Becomes Another Software Purchase
+title: When every process problem becomes another software purchase
 description: How repeatedly buying applications for unresolved process problems creates subscription overlap, integration burden, training cost and application sprawl.
 lead: A new application can solve a real problem. Repeated purchasing without process and architecture discipline can also convert operational confusion into subscriptions, integrations, training and duplicated data.
 category: Technology Economics
@@ -19,10 +19,11 @@ side_title: Cost mechanisms
 sources:
   - AWS Marketplace Cost Optimization: Manage & Track Cloud Spend | https://aws.amazon.com/marketplace/features/cost-optimization
   - Flexera 2026 State of ITAM Report: How teams are regaining control of cloud, SaaS and AI | https://www.flexera.com/blog/it-asset-management/state-of-itam-2026/
+  - Select your cloud migration strategies - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/digital-estate/5-rs-of-rationalization
 related:
-  - When Every Rise in Workload Needs Another Hire | /impact/scaling-by-adding-headcount/
-  - When Cloud Spend Has No Business Owner | /impact/cloud-costs-without-business-owner-allocation/
-  - When Security Spend Runs Ahead of Basic Controls | /impact/security-products-without-basic-controls/
+  - When every rise in workload needs another hire | /impact/scaling-by-adding-headcount/
+  - When cloud spend has no business owner | /impact/cloud-costs-without-business-owner-allocation/
+  - When security spend runs ahead of basic controls | /impact/security-products-without-basic-controls/
 ---
 ## The tolerated pain
 
@@ -83,7 +84,7 @@ Act when software spend grows faster than headcount or revenue, when staff canno
 
 ## Resolution
 
-Visibility should come before another purchase. AWS describes the value of consolidated third-party spend in its [AWS Marketplace cost optimisation](https://aws.amazon.com/marketplace/features/cost-optimization) material as helping customers reduce SaaS sprawl and identify underutilised software commitments. The commercial principle is straightforward: portfolio visibility should precede another purchase, whichever tool provides it.
+Visibility should come before another purchase. AWS describes the value of consolidated third-party spend in its [AWS Marketplace cost optimisation](https://aws.amazon.com/marketplace/features/cost-optimization) material as helping customers reduce SaaS sprawl and identify underutilised software commitments. The commercial principle is straightforward: portfolio visibility should precede another purchase, whichever tool provides it. Microsoft's [Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/digital-estate/5-rs-of-rationalization) makes a similar point about retiring workloads that are obsolete, underused or redundant, advising that the business first confirm they have no critical dependencies on other systems.
 
 1. Define the process and required capability before selecting software.
 2. Check existing platforms for usable capability.

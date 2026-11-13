@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-232
 slug: ageing-server-no-replacement-date-failure-and-end-of-support-cost
-title: The Server Nobody Dares Replace: What an Ageing Machine Really Risks
+title: The server nobody dares replace: What an ageing machine really risks
 description: A server that is nine years old and still running is not proven safe; with no replacement date, the business has scheduled an outage for an unknown day.
 lead: A server that is nine years old and still running is not proven safe; with no replacement date, the business has scheduled an outage for an unknown day.
 category: Digital Operations
@@ -17,9 +17,10 @@ sources:
   - Obsolete products | https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/obsolete-products
   - Architecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
 related:
-  - The Automation Only One Person Understands: The Hidden Cost of Dependency | /impact/automation-understood-by-one-employee-continuity-maintenance-cost/
-  - Cloud Prices for Old Infrastructure: The Cost of Moving Without Redesign | /impact/cloud-migration-without-redesign-old-infrastructure-patterns-cost/
-  - When Nobody Can Trace Where a Reported Number Came From | /impact/untraceable-reporting-number-audit-cost/
+  - The automation only one person understands: The hidden cost of dependency | /impact/automation-understood-by-one-employee-continuity-maintenance-cost/
+  - Cloud prices for old infrastructure: The cost of moving without redesign | /impact/cloud-migration-without-redesign-old-infrastructure-patterns-cost/
+  - When nobody can trace where a reported number came from | /impact/untraceable-reporting-number-audit-cost/
+  - Why postponing a legacy system replacement usually costs more | /impact/postponing-legacy-system-replacement-disruption-fear-delay-cost/
 summary: A server that is nine years old and still running is not proven safe; with no replacement date, the business has scheduled an outage for an unknown day.
 layout: plain
 ---

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-025
 slug: what-good-digital-operations-look-like-before-you-buy-anything-new
-title: What Good Digital Operations Look Like Before You Buy Anything New
-description: New software works best in a business that already runs its existing systems well. Eight foundations of good digital operations, from knowing what you have and who owns it to managing access, protecting data and tracking changes, with a simple way to check where you stand.
+title: What good digital operations look like before you buy anything new
+description: New software works best when current systems run well. Eight foundations of good digital operations, from knowing what you have to tracking change.
 lead: New software works best in a business that already runs its existing systems well. Eight foundations of good digital operations, from knowing what you have and who owns it to managing access, protecting data and tracking changes, with a simple way to check where you stand.
 category: Digital Operations
 published_date: 2026-10-05
@@ -11,10 +11,10 @@ updated_date: 2026-10-05
 eyebrow: Digital Operations
 sources:
   - What is application management? - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-application-management
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
   - What Is Business Continuity? - IBM | https://www.ibm.com/think/topics/business-continuity
 related:
-  - How to Know Whether Your Business Depends Too Much on One Person | /insights/how-to-know-whether-your-business-depends-too-much-on-one-person/
+  - How to know whether your business depends too much on one person | /insights/how-to-know-whether-your-business-depends-too-much-on-one-person/
   - Why uncontrolled configuration changes create operational risk | /insights/why-uncontrolled-configuration-changes-create-operational-risk/
   - Why your reports cannot agree on the same number | /insights/why-your-reports-cannot-agree-on-the-same-number/
 summary: New software works best in a business that already runs its existing systems well. Eight foundations of good digital operations, from knowing what you have and who owns it to managing access, protecting data and tracking changes, with a simple way to check where you stand.

@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-263
 slug: source-system-timestamps-create-inconsistent-period-reporting
 title: Why system timestamps put transactions in the wrong reporting period
-description: Online orders stored in UTC, invoices in local time, and reports that group by whichever date they receive. How timestamps make period totals disagree, and how to set one clear rule for every measure.
+description: Orders stored in UTC, invoices in local time and reports grouping by whichever date they get make period totals disagree. How to set one clear rule.
 lead: Online orders stored in UTC, invoices in local time, and reports that group by whichever date they receive. How timestamps make period totals disagree, and how to set one clear rule for every measure.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-05
@@ -40,9 +40,9 @@ When reports combine these sources, the same transaction can fall into different
 - a growing reconciliation spreadsheet at each month-end;
 - debates over whether a transaction belongs to this financial year or the last.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches like "sales report date mismatch between systems", "timezone issue in Power BI report" or "orders in the wrong month in reporting" come from financial controllers, BI developers and e-commerce managers. What they need is a clear rule for which date defines the period for each measure, a consistent conversion to local business time, and reports that agree with the books at month-end without manual adjustments.
+Complaints like "the sales report date doesn't match between systems", "there is a timezone issue in the Power BI report" or "orders are in the wrong month in reporting" come from financial controllers, BI developers and e-commerce managers. What they need is a clear rule for which date defines the period for each measure, a consistent conversion to local business time, and reports that agree with the books at month-end without manual adjustments.
 
 ## Evidence and system mechanism
 

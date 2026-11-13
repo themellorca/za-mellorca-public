@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000035
 slug: when-the-working-day-has-no-natural-end
-title: When the Working Day Has No Natural End
-description: Some work finishes: the shop shuts, the shift ends, the till is cashed up. Much digital work never reaches that point. Why open-ended queues leave people deciding alone when to stop, and how a business can design an ending back in.
+title: When the working day has no natural end
+description: Some work finishes when the shop shuts and the till is cashed up. Much digital work never does. Why open queues leave people deciding alone when to stop.
 lead: Some work finishes: the shop shuts, the shift ends, the till is cashed up. Much digital work never reaches that point. Why open-ended queues leave people deciding alone when to stop, and how a business can design an ending back in.
 category: Time & Attention
 published_date: 2026-10-05
@@ -19,9 +19,9 @@ sources:
   - Exploring the possibility of “Right to Disconnect” in South Africa | https://cklaw.co.za/work-life-harmony-exploring-the-possibility-of-right-to-disconnect-in-south-africa/
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
 related:
-  - Why “I'll Do It Tonight” Became the Default Plan | /moments/why-ill-do-it-tonight-became-the-default-plan/
-  - When Travel Days Become Catch-Up Days | /moments/when-travel-days-become-catch-up-days/
-  - When Your Calendar Belongs to Other People's Systems | /moments/when-your-calendar-belongs-to-other-peoples-systems/
+  - Why “I'll do it tonight” became the default plan | /moments/why-ill-do-it-tonight-became-the-default-plan/
+  - When travel days become catch-up days | /moments/when-travel-days-become-catch-up-days/
+  - When your calendar belongs to other people's systems | /moments/when-your-calendar-belongs-to-other-peoples-systems/
 summary: Some work finishes: the shop shuts, the shift ends, the till is cashed up. Much digital work never reaches that point. Why open-ended queues leave people deciding alone when to stop, and how a business can design an ending back in.
 layout: plain
 ---
@@ -33,13 +33,13 @@ This piece looks at that missing ending: what it costs, why it happens, and how 
 
 ## A boundary the law sets, and one it cannot
 
-South Africa's Basic Conditions of Employment Act limits ordinary hours of work to 45 hours in any week, and to nine hours a day for someone working five days or fewer a week. It also requires a daily rest period of at least twelve consecutive hours between ending and recommencing work. Those limits are real protections for employees, but they define a maximum, not an ending. They do not tell anyone at what point today's queue is finished.
+South Africa's [Basic Conditions of Employment Act](https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf) limits ordinary hours of work to 45 hours in any week, and to nine hours a day for someone working five days or fewer a week. It also requires a daily rest period of at least twelve consecutive hours between ending and recommencing work. Those limits are real protections for employees, but they define a maximum, not an ending. They do not tell anyone at what point today's queue is finished.
 
 The country also has no specific right-to-disconnect law. A 2024 commentary from the South African law firm CK Law notes that such legislation exists in countries such as France, Spain, Ireland and Australia but not here, and that South African employers have so far been left to manage after-hours availability themselves. Owners and many senior staff are in an even weaker position, because their working time is shaped by the business rather than by any contract.
 
 ## What the evidence suggests
 
-Microsoft's analysis of what it calls the infinite workday describes a working day that, for many people in its data, stretches well into the evening. It reports that the average worker receives more than 50 messages outside core business hours, that meetings after 8 pm rose 16% year on year, and that around 40% of people online at 6 am are reviewing email for the day's priorities. These figures come from users of Microsoft's software around the world, not from South African small businesses, and they describe activity, not wellbeing. They do show that the edges of the working day have become blurred for a large number of people.
+Microsoft's analysis of what it calls the [infinite workday](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) describes a working day that, for many people in its data, stretches well into the evening. It reports that the average worker receives more than 50 messages outside core business hours, that meetings after 8 pm rose 16% year on year, and that around 40% of people online at 6 am are reviewing email for the day's priorities. These figures come from users of Microsoft's software around the world, not from South African small businesses, and they describe activity, not wellbeing. They do show that the edges of the working day have become blurred for a large number of people.
 
 What they cannot show is why. The argument here, which is a reasoned hypothesis rather than a measured result, is that one important reason is structural: much of today's work is organised as continuous queues, and continuous queues have no natural end.
 

@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-026
 slug: why-procurement-requests-disappear-into-email
-title: Why Procurement Requests Disappear Into Email and Chat
+title: Why procurement requests disappear into email and chat
 description: Procurement delay often starts before sourcing or purchasing: the business has no structured intake record, routing logic or visible workflow for a request.
 lead: When employees ask for purchases through email, chat, spreadsheets and hallway conversations, procurement is forced to reconstruct the request before it can govern it. The first failure is not approval speed; it is the absence of structured intake.
 category: Procurement & Supplier Operations
@@ -27,9 +27,10 @@ sources:
 closing_title: Method note
 closing_text: This article diagnoses a class of operating problem. The cited platform documentation demonstrates current workflow and integration mechanisms; it does not prove that every organisation has the same failure mode. Quantify impact from your own process, transaction, labour and exception data.
 related:
-  - Why Policy Acknowledgements Need a Reliable System Record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
-  - Why AI Agents Can Answer Questions but Cannot Complete Work Across Business Systems | /discovery/why-ai-agents-cannot-complete-work-across-business-systems/
+  - Why policy acknowledgements need a reliable system record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
+  - Why AI agents can answer questions but cannot complete work across business systems | /discovery/why-ai-agents-cannot-complete-work-across-business-systems/
   - AI evaluations are performed only before launch | /discovery/ai-evaluations-are-performed-only-before-launch/
+  - When procurement starts with an email request | /patterns/how-purchase-requests-get-lost-in-an-inbox/
 ---
 ## The problem in plain language
 
@@ -39,13 +40,13 @@ At that point procurement has become a human workflow engine. The team is not me
 
 A familiar example: a branch manager at a multi-site clinic group sends a WhatsApp message to the operations director asking for a replacement autoclave. The director replies "fine, go ahead" and forwards it to the procurement officer by email. The procurement officer asks for the model, quotes and the cost centre. Two quotes arrive as photos in the chat; the third never arrives. Three weeks later the branch manager asks where the machine is. Nobody is being lazy. The request simply never became a record with a status.
 
-## What people search for
+## What people are really asking
 
-Problem-aware searches often look like "procurement request workflow", "purchase requisition approval process", "automate purchase approvals", "procurement intake form", "how to track purchase requests" or "procurement request stuck in email". The searcher is rarely asking for a grand procurement transformation. They want a request to enter one controlled path and move.
+The questions often sound like "what should our procurement request workflow be?", "how do we approve purchase requisitions?", "can we automate purchase approvals?", "do we need a procurement intake form?", "how do we track purchase requests?" or "why is this request stuck in email?" The person asking is rarely after a grand procurement transformation. They want a request to enter one controlled path and move.
 
 ## Evidence: procurement platforms treat the request as a governed business record
 
-ServiceNow's current sourcing and procurement documentation [models a purchase requisition](https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/purchase-requisition.html) as an internal request for goods or services, recording items, quantities, suppliers, costs and justification, and moving it through defined lifecycle states such as pending review and approval, awaiting task completion, final review, pending submission and closed. Its [approval rules](https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-approval-rule.html) can route purchase requisitions according to managerial hierarchy, specified users or groups, cost centre managers, purchasing limits and trigger conditions, sequentially or in parallel.
+ServiceNow's current [sourcing and procurement](https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/pr-po-sr-states.html) documentation [models a purchase requisition](https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/purchase-requisition.html) as an internal request for goods or services, recording items, quantities, suppliers, costs and justification, and moving it through defined lifecycle states such as pending review and approval, awaiting task completion, final review, pending submission and closed. Its [approval rules](https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-approval-rule.html) can route purchase requisitions according to managerial hierarchy, specified users or groups, cost centre managers, purchasing limits and trigger conditions, sequentially or in parallel.
 
 Again, the product is not the point. The operating principle is. Procurement work is easier to govern when the request has a durable identifier, structured fields, explicit states, ownership, conditions and a traceable approval path. Email is excellent for communication; it is weak as a source-of-truth workflow database. The same failure appears wherever routine requests run through inboxes—see [the pain of processing routine requests through email chains](/impact/the-pain-of-processing-routine-requests-through-email-chains/).
 

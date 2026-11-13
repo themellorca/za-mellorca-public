@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-104
 slug: departments-reporting-different-numbers-same-metric-meeting-decision-cost
-title: Four Departments, Four Numbers: The Cost of Arguing About Data Instead of Acting
-description: When sales, finance and operations each report a different figure for the same metric, leadership time goes to reconciliation and decisions slip. A shared definition with an owner removes most of the dispute.
+title: Four departments, four numbers: The cost of arguing about data instead of acting
+description: When sales, finance and operations report different figures for one metric, leaders lose time reconciling. A shared definition with an owner ends it.
 lead: When sales, finance and operations each report a different figure for the same metric, leadership time goes to reconciliation and decisions slip. A shared definition with an owner removes most of the dispute.
 category: Data & Reporting
 published_date: 2026-10-08
@@ -17,9 +17,9 @@ sources:
   - Semantic Models in the Power BI Service - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand
   - Power BI usage scenarios: Enterprise BI - Power BI | https://learn.microsoft.com/en-us/power-bi/guidance/powerbi-implementation-planning-usage-scenario-enterprise-bi
 related:
-  - Four Tools, One Job: The Real Cost of Departments Buying Their Own Software | /impact/departments-buying-separate-tools-same-need-duplicate-subscription-cost/
-  - Sales, Finance and Operations Each With Their Own Customer: The Cost | /impact/departments-separate-customer-records-financial-impact/
-  - Two Departments, Same Work: The Payroll Cost of Duplicated Effort | /impact/departments-duplicating-same-work-payroll-cost/
+  - Four tools, one job: The real cost of departments buying their own software | /impact/departments-buying-separate-tools-same-need-duplicate-subscription-cost/
+  - Sales, finance and operations each with their own customer: The cost | /impact/departments-separate-customer-records-financial-impact/
+  - Two departments, same work: The payroll cost of duplicated effort | /impact/departments-duplicating-same-work-payroll-cost/
 summary: When sales, finance and operations each report a different figure for the same metric, leadership time goes to reconciliation and decisions slip. A shared definition with an owner removes most of the dispute.
 layout: plain
 ---
@@ -101,7 +101,7 @@ The fix is smaller than most owners expect. It is mostly agreement, with some te
 1. **Pick the ten numbers that matter.** Revenue, gross margin, active customers, order backlog, on-time delivery and cash are typical. Leave the rest.
 2. **Write one definition for each.** Include the source system, the date used, what is included and excluded, and who owns the definition. One page is enough.
 3. **Name an owner.** The person who owns a metric answers questions about it and approves any change.
-4. **Calculate it once.** Put the logic in one place that every report reads from. In Microsoft's Power BI, for example, a [measure](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-measures) holds a calculation that reports can reuse, and a shared [semantic model](https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand) lets many reports draw on one set of data and logic. The same principle applies in any tool, including a well-controlled spreadsheet.
+4. **Calculate it once.** Put the logic in one place that every report reads from. In Microsoft's [Power BI](https://learn.microsoft.com/en-us/power-bi/guidance/powerbi-implementation-planning-usage-scenario-enterprise-bi), for example, a [measure](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-measures) holds a calculation that reports can reuse, and a shared [semantic model](https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand) lets many reports draw on one set of data and logic. The same principle applies in any tool, including a well-controlled spreadsheet.
 5. **Show the definition next to the number.** A small footnote prevents most arguments.
 6. **Keep the legitimate variants.** Finance may still need cash-basis revenue. Name it differently, such as "invoiced revenue" and "cash received", rather than forcing one number to do two jobs.
 7. **Review quarterly.** Definitions change when the business changes, and the change should be recorded, not silent.

@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-046
 slug: retyping-website-enquiries-into-crm-lead-capture-cost
-title: Retyping Website Enquiries Into the CRM: The Cost of Slow, Error-Prone Lead Capture
-description: When someone copies each website enquiry into the CRM or job system by hand, leads wait, contact details get mistyped, duplicates multiply and the record of where the lead came from is lost.
+title: Retyping website enquiries into the CRM: The cost of slow, error-prone lead capture
+description: When someone copies each website enquiry into the CRM by hand, leads wait, contact details get mistyped, duplicates multiply and the lead source is lost.
 lead: When someone copies each website enquiry into the CRM or job system by hand, leads wait, contact details get mistyped, duplicates multiply and the record of where the lead came from is lost.
 category: Sales Operations
 published_date: 2026-10-06
@@ -17,9 +17,10 @@ sources:
   - Set up duplicate detection rules to keep your data clean - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
   - https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf | https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf
 related:
-  - "Let Me Check and Come Back to You": The Cost of Manual Availability Checks | /impact/checking-stock-capacity-by-hand-before-promising-cost/
-  - Typing Invoices From Data You Already Hold: The Labour and Billing Delay Cost | /impact/invoices-retyped-from-existing-records-billing-labour-cost/
-  - Digital Filing by Hand: The Labour Cost of Moving Files Between Folders and Systems | /impact/manually-moving-files-between-folders-systems-filing-cost/
+  - "Let me check and come back to you": The cost of manual availability checks | /impact/checking-stock-capacity-by-hand-before-promising-cost/
+  - Typing invoices from data you already hold: The labour and billing delay cost | /impact/invoices-retyped-from-existing-records-billing-labour-cost/
+  - Digital filing by hand: The labour cost of moving files between folders and systems | /impact/manually-moving-files-between-folders-systems-filing-cost/
+  - Phone calls recorded on notepads: The cost of incomplete customer records | /impact/phone-call-notes-not-recorded-in-shared-system-cost/
 summary: When someone copies each website enquiry into the CRM or job system by hand, leads wait, contact details get mistyped, duplicates multiply and the record of where the lead came from is lost.
 layout: plain
 ---
@@ -89,7 +90,7 @@ A CRM fed by hand is never quite trusted. Salespeople keep their own lists, mana
 
 In a better state, a form submission creates or updates the record directly, with the prospect's own entries mapped to the right fields, the source and time recorded, consent stored, and the lead routed to an owner immediately. People review the exceptions: spam that slipped through, unclear enquiries and possible duplicates.
 
-Most CRMs provide a way to do this, either through their own forms or by capturing submissions from an existing form. Microsoft's documentation for Dynamics 365 Customer Insights, for example, describes a form capture script that maps the fields of an existing website form to lead or contact attributes, records consent, and sends submissions to the system. The same documentation flags practical details that matter, such as ensuring the submission completes before the page redirects, otherwise submissions can be recorded inconsistently or not at all. On the receiving side, Microsoft's Power Platform documentation describes duplicate detection rules that can compare, for example, the email field on contacts with the email field on leads.
+Most CRMs provide a way to do this, either through their own forms or by capturing submissions from an existing form. Microsoft's documentation for Dynamics 365 [Customer Insights](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-form-capture), for example, describes a form capture script that maps the fields of an existing website form to lead or contact attributes, records consent, and sends submissions to the system. The same documentation flags practical details that matter, such as ensuring the submission completes before the page redirects, otherwise submissions can be recorded inconsistently or not at all. On the receiving side, Microsoft's Power Platform documentation describes [duplicate detection rules](https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean) that can compare, for example, the email field on contacts with the email field on leads.
 
 Whatever tool is used, the connection must be monitored. A direct form-to-CRM link that breaks quietly is worse than a manual process that someone at least notices.
 

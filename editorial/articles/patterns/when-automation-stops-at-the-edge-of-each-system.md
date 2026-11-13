@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-040
 slug: when-automation-stops-at-the-edge-of-each-system
-title: When Automation Stops at the Edge of Each System
-description: The CRM automates follow-ups, accounting automates reminders and the job app automates scheduling, yet every handover between them still waits for a person. When automation ends where each product ends, the overall process stays slow.
+title: When automation stops at the edge of each system
+description: Each product automates its own follow-ups, yet every handover between them still waits for a person. The overall process stays slow.
 lead: The CRM automates follow-ups, accounting automates reminders and the job app automates scheduling, yet every handover between them still waits for a person. When automation ends where each product ends, the overall process stays slow.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-05
@@ -18,9 +18,9 @@ sources:
   - Learn key concepts in Zap workflows | https://help.zapier.com/hc/en-us/articles/8496181725453-Learn-key-concepts-in-Zaps
   - Triggers - Power Automate | https://learn.microsoft.com/en-us/power-automate/triggers-introduction
 related:
-  - When the Next Step Waits for Someone to Check Another System | /patterns/when-the-next-step-waits-for-someone-to-check-another-system/
-  - Why Information Has to Be Copied From One System to Another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
-  - When Disconnected Systems Let the Business Act on Old Information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
+  - When the next step waits for someone to check another system | /patterns/when-the-next-step-waits-for-someone-to-check-another-system/
+  - Why information has to be copied from one system to another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
+  - When disconnected systems let the business act on old information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
 summary: The CRM automates follow-ups, accounting automates reminders and the job app automates scheduling, yet every handover between them still waits for a person. When automation ends where each product ends, the overall process stays slow.
 layout: plain
 ---
@@ -34,11 +34,11 @@ An illustrative example: a Johannesburg facilities-maintenance company with arou
 
 ## Realisation
 
-Most business software now includes automation. HubSpot's workflows, for example, enrol records automatically when they meet set criteria and then carry out actions such as assigning records, creating tasks and sending internal notifications. Accounting, job-management and e-commerce platforms offer similar rules. These features are designed around the data the platform holds, so they are strongest inside the platform and weakest at its edge.
+Most business software now includes automation. [HubSpot's workflows](https://knowledge.hubspot.com/workflows/create-workflows), for example, enrol records automatically when they meet set criteria and then carry out actions such as assigning records, creating tasks and sending internal notifications. Accounting, job-management and e-commerce platforms offer similar rules. These features are designed around the data the platform holds, so they are strongest inside the platform and weakest at its edge.
 
 That means a business can be heavily automated and still slow. Each department can point to its automations and say, truthfully, that its part of the process runs itself. But a customer does not experience the departments. They experience the whole journey from enquiry to delivery to invoice, and that journey is only as fast as its slowest handover.
 
-Automation tools describe this in simple terms. Zapier explains that a Zap is a trigger and one or more actions: an event in one app starts work in another. Microsoft's Power Automate documentation describes a trigger as the event that starts a flow, and distinguishes automated flows that start when something happens from instant flows that a person starts by hand. In many businesses, the step between two systems is effectively an instant flow where the button is a person remembering to act.
+Automation tools describe this in simple terms. Zapier explains that [a Zap is a trigger and one or more actions](https://help.zapier.com/hc/en-us/articles/8496181725453-Learn-key-concepts-in-Zaps): an event in one app starts work in another. Microsoft's [Power Automate documentation](https://learn.microsoft.com/en-us/power-automate/triggers-introduction) describes a trigger as the event that starts a flow, and distinguishes automated flows that start when something happens from instant flows that a person starts by hand. In many businesses, the step between two systems is effectively an instant flow where the button is a person remembering to act.
 
 **Realisation prompt:** where in your main customer process does a finished step in one system wait for someone to start the next step in another?
 

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-230
 slug: when-duplicate-records-start-causing-operational-problems
-title: When Duplicate Records Become an Operational Issue
-description: Duplicate customers, suppliers and products start as an irritation and end as double payments, wrong balances and distorted reports. Here is how to spot the tipping point and control it.
+title: When duplicate records become an operational issue
+description: Duplicate customers, suppliers and products start as an irritation and end as double payments and wrong balances. Spot the tipping point and control it.
 lead: Duplicate customers, suppliers and products start as an irritation and end as double payments, wrong balances and distorted reports. Here is how to spot the tipping point and control it.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-09
@@ -19,9 +19,9 @@ sources:
   - Record linkage - Wikipedia | https://en.wikipedia.org/wiki/Entity_resolution
   - https://help.salesforce.com/s/articleView?id=sales.duplicate_prevention_map_of_reference.htm | https://help.salesforce.com/s/articleView?id=sales.duplicate_prevention_map_of_reference.htm
 related:
-  - When Customers Know Less Than Your Internal Systems Do | /patterns/when-customers-know-less-than-your-internal-systems-do/
-  - When Every Department Reports the Same Metric Differently | /patterns/when-every-department-reports-the-same-metric-differently/
-  - Why Your Business Has Data but No Single View of Operations | /patterns/why-a-business-with-plenty-of-data-still-has-no-single-view-of-operations/
+  - When customers know less than your internal systems do | /patterns/when-customers-know-less-than-your-internal-systems-do/
+  - When every department reports the same metric differently | /patterns/when-every-department-reports-the-same-metric-differently/
+  - Why your business has data but no single view of operations | /patterns/why-a-business-with-plenty-of-data-still-has-no-single-view-of-operations/
 summary: Duplicate customers, suppliers and products start as an irritation and end as double payments, wrong balances and distorted reports. Here is how to spot the tipping point and control it.
 layout: plain
 ---
@@ -51,9 +51,9 @@ The published Insights [how duplicate customer records are created](/insights/ho
 
 - **No match check at capture.** Systems often accept a new record without asking whether a similar one exists. Where a duplicate check is available, it is frequently switched off or never configured. Vendors such as Salesforce publish documentation on duplicate and matching rules precisely because this control has to be set up deliberately.
 - **Many doors into the same list.** Records arrive from web forms, sales quotes, imports, the accounts team and staff typing directly. Each uses its own format and none consults the others.
-- **Names are poor identifiers.** Trading names, registered names, abbreviations and typing variations make exact matching unreliable. A registration number, tax number or verified email is a stronger key, but is often optional.
+- **Names are poor identifiers.** Trading names, registered names, abbreviations and typing variations make exact matching unreliable. A registration number, tax number or verified email is a stronger key, but is often optional. Wikipedia's entry on [record linkage](https://en.wikipedia.org/wiki/Entity_resolution) describes it as the task of finding records that refer to the same entity across data sources, which is needed when there is no shared identifier.
 - **Merging is risky and unowned.** Combining two records may affect invoices, history and permissions, so people leave duplicates in place rather than risk damage. Without a named owner, the job never happens.
-- **Several systems hold overlapping lists.** The CRM, billing system and delivery tool each keep a customer list. Fixing one leaves the others unchanged. IBM's overview of master data management describes this problem: without a single agreed view of core entities, each system carries its own version.
+- **Several systems hold overlapping lists.** The CRM, billing system and delivery tool each keep a customer list. Fixing one leaves the others unchanged. [IBM's overview of master data management](https://www.ibm.com/think/topics/master-data-management) describes this problem: without a single agreed view of core entities, each system carries its own version.
 
 ## Commercial impact
 
@@ -63,7 +63,7 @@ The most direct cost is payment error. Duplicate supplier records are a recognis
 
 Customer experience suffers more quietly. A client who receives two copies of every email, or who is asked to repeat their details because the agent opened the wrong record, concludes that the business is disorganised. The Impact page [on departments keeping separate customer records](/impact/departments-separate-customer-records-financial-impact/) covers the wider financial effect. There is also a compliance dimension: under POPIA, personal information must be kept accurate, and a person who asks for their data to be corrected or deleted cannot be properly served if their details are scattered across several records.
 
-Finally, reports are distorted. Customer counts are inflated, average revenue per customer is understated, and a supplier's true spend is hidden. IBM's discussion of data quality lists duplication alongside accuracy and completeness as a core dimension, because decisions built on duplicated data inherit the error.
+Finally, reports are distorted. Customer counts are inflated, average revenue per customer is understated, and a supplier's true spend is hidden. [IBM's discussion of data quality](https://www.ibm.com/think/topics/data-quality) lists duplication alongside accuracy and completeness as a core dimension, because decisions built on duplicated data inherit the error.
 
 ## Common misidentification
 

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-046
 slug: why-software-ownership-needs-to-be-explicit
-title: Why Software Ownership Needs to Be Explicit
-description: In most businesses, software ownership is assumed rather than assigned. The person who bought the tool, the heaviest user or the IT provider is treated as the owner until something goes wrong. What explicit ownership covers, how implicit ownership fails, and how to assign it in a small or mid-sized business.
+title: Why software ownership needs to be explicit
+description: Software ownership is assumed, not assigned. What explicit ownership covers, how it fails when implicit and how to assign it.
 lead: In most businesses, software ownership is assumed rather than assigned. The person who bought the tool, the heaviest user or the IT provider is treated as the owner until something goes wrong. What explicit ownership covers, how implicit ownership fails, and how to assign it in a small or mid-sized business.
 category: Systems & Strategy
 published_date: 2026-10-06
@@ -14,9 +14,9 @@ sources:
   - Identifying the critical assets in your organisation | https://www.ncsc.gov.uk/collection/board-toolkit/principle-a-risk-management/identifying-the-critical-assets-in-your-organisation
   - Extend Dynamics 365 apps without compromising performance - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/extend-your-solution
 related:
-  - When a Spreadsheet Is a Useful Tool—and When It Becomes Infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
-  - How to Decide Which Software to Keep | /insights/how-to-decide-which-software-to-keep/
-  - What Keep, Fix, Integrate, Automate, Replace or Remove Means in Practice | /insights/what-keep-fix-integrate-automate-replace-or-remove-means-in-practice/
+  - When a spreadsheet is a useful tool—and when it becomes infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
+  - How to decide which software to keep | /insights/how-to-decide-which-software-to-keep/
+  - What keep, fix, integrate, automate, replace or remove means in practice | /insights/what-keep-fix-integrate-automate-replace-or-remove-means-in-practice/
 summary: In most businesses, software ownership is assumed rather than assigned. The person who bought the tool, the heaviest user or the IT provider is treated as the owner until something goes wrong. What explicit ownership covers, how implicit ownership fails, and how to assign it in a small or mid-sized business.
 layout: plain
 ---

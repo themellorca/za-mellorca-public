@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-006
 slug: what-a-digital-systems-audit-should-actually-tell-you
-title: What a Digital Systems Audit Should Actually Tell You
-description: A useful systems audit is judged by the decisions it lets you make, not by the length of its inventory. The eight answers a business owner should be able to give once an audit is finished, and how to tell a useful audit report from a thick one.
+title: What a digital systems audit should actually tell you
+description: A good audit is judged by the decisions it enables, not the length of its inventory. Eight answers an owner should have afterwards.
 lead: A useful systems audit is judged by the decisions it lets you make, not by the length of its inventory. The eight answers a business owner should be able to give once an audit is finished, and how to tell a useful audit report from a thick one.
 category: Digital Operations
 published_date: 2026-10-04
@@ -16,7 +16,7 @@ sources:
 related:
   - Before you automate, understand how the work actually moves | /insights/before-you-automate-understand-how-the-work-actually-moves/
   - Key-person dependency is a systems problem | /insights/key-person-dependency-is-a-systems-problem/
-  - How to Find the Real Bottleneck in a Digital Operation | /insights/how-to-find-the-real-bottleneck-in-a-digital-operation/
+  - How to find the real bottleneck in a digital operation | /insights/how-to-find-the-real-bottleneck-in-a-digital-operation/
 summary: A useful systems audit is judged by the decisions it lets you make, not by the length of its inventory. The eight answers a business owner should be able to give once an audit is finished, and how to tell a useful audit report from a thick one.
 layout: plain
 ---

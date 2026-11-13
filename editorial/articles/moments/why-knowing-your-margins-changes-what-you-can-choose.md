@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000340
 slug: why-knowing-your-margins-changes-what-you-can-choose
-title: Why Knowing Your Margins Changes What You Can Choose
-description: Without margin figures, pricing follows habit and every sale looks equally good. How knowing margins by product, service or customer widens an owner's real choices.
+title: Why knowing your margins changes what you can choose
+description: Without margin figures, pricing follows habit and every sale looks equally good. How knowing margins by product, service or customer widens real choices.
 lead: Without margin figures, pricing follows habit and every sale looks equally good. How knowing margins by product, service or customer widens an owner's real choices.
 category: Economic Possibility & Stability
 published_date: 2026-10-08
@@ -19,9 +19,10 @@ sources:
   - Value-Added Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/
   - Turnover Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/turnover-tax/
 related:
-  - When Late Invoices Become Late Salaries | /moments/when-late-invoices-become-late-salaries/
-  - The Cash-Flow Week That Keeps the Owner Awake | /moments/the-cash-flow-week-that-keeps-the-owner-awake/
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - When late invoices become late salaries | /moments/when-late-invoices-become-late-salaries/
+  - The cash-flow week that keeps the owner awake | /moments/the-cash-flow-week-that-keeps-the-owner-awake/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - When one big client holds the business hostage | /moments/when-one-big-client-holds-the-business-hostage/
 summary: Without margin figures, pricing follows habit and every sale looks equally good. How knowing margins by product, service or customer widens an owner's real choices.
 layout: plain
 ---

@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-032
 slug: checking-recurring-tasks-completed-management-policing-cost
-title: Policing Routine Work: The Management Cost of Checking Recurring Tasks by Hand
-description: When managers must walk around, phone or message staff to confirm that daily, weekly and monthly tasks were done, senior time is spent on verification that a simple recurring-task record could provide.
+title: Policing routine work: The management cost of checking recurring tasks by hand
+description: Managers who walk around, phone or message staff to confirm routine tasks spend senior time on checks that a simple recurring-task record could provide.
 lead: When managers must walk around, phone or message staff to confirm that daily, weekly and monthly tasks were done, senior time is spent on verification that a simple recurring-task record could provide.
 category: Digital Operations
 published_date: 2026-10-05
@@ -17,9 +17,9 @@ sources:
   - What is a list in Microsoft 365? - Microsoft Support | https://support.microsoft.com/en-us/sharepoint/lists/data-and-lists/what-is-a-list-in-microsoft-365
   - Run a cloud flow on a schedule in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks
 related:
-  - Recurring Tasks That Live in Someone's Memory: The Cost of Missed Work | /impact/recurring-tasks-relying-on-memory-missed-work-cost/
-  - "I Thought You Were Doing It": The Labour Cost of Unclear Responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
-  - When Your Experts Become the Help Desk: The Cost of Routine Requests | /impact/specialists-pulled-into-routine-requests-expertise-cost/
+  - Recurring tasks that live in someone's memory: The cost of missed work | /impact/recurring-tasks-relying-on-memory-missed-work-cost/
+  - "I thought you were doing it": The labour cost of unclear responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
+  - When your experts become the help desk: The cost of routine requests | /impact/specialists-pulled-into-routine-requests-expertise-cost/
 summary: When managers must walk around, phone or message staff to confirm that daily, weekly and monthly tasks were done, senior time is spent on verification that a simple recurring-task record could provide.
 layout: plain
 ---
@@ -44,7 +44,7 @@ This is a narrower problem than managers chasing general status updates, which M
 - Supervisors spend the first hour of the day confirming that opening tasks were done rather than planning the day.
 - Checklists are completed in batches at the end of the week, with identical handwriting and suspiciously consistent readings.
 - Staff at branches or on sites send photos of completed sheets into chat groups, where they are hard to find later.
-- Recurring tasks drift when the person who owned them leaves, and nobody notices for months.
+- [Recurring tasks](https://support.microsoft.com/en-us/planner/recurring-tasks-in-planner) drift when the person who owned them leaves, and nobody notices for months.
 - Audits and client inspections trigger a scramble to find evidence that checks were carried out.
 - Managers cannot answer simple questions such as which sites missed a check last month without hours of collation.
 
@@ -94,7 +94,7 @@ Where the check needs a reading, a photo or a signature, a structured list is of
 
 ### Let the system flag exceptions
 
-A scheduled flow can check each morning for tasks that are overdue and notify the owner and their supervisor. Microsoft's Power Automate documentation describes scheduled cloud flows that run daily, hourly or at other set intervals. The manager's job then becomes reviewing exceptions, not confirming every task. Mellorca's article on [status updates that require investigation](/patterns/when-a-status-update-requires-a-staff-member-to-investigate/) describes the same shift in a wider setting.
+A scheduled flow can check each morning for tasks that are overdue and notify the owner and their supervisor. Microsoft's [Power Automate](https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks) documentation describes scheduled cloud flows that run daily, hourly or at other set intervals. The manager's job then becomes reviewing exceptions, not confirming every task. Mellorca's article on [status updates that require investigation](/patterns/when-a-status-update-requires-a-staff-member-to-investigate/) describes the same shift in a wider setting.
 
 ### Keep quality checks separate
 

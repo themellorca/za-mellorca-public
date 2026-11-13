@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-401
 slug: why-does-an-order-need-so-many-manual-touches
-title: Why Does an Order Need So Many Manual Touches?
+title: Why does an order need so many manual touches?
 description: A Pattern that uncovers excessive manual touches in order processing and offers a path to lean, automated order orchestration.
 lead: A Pattern that uncovers excessive manual touches in order processing and offers a path to lean, automated order orchestration.
 category: Operational friction
@@ -19,9 +19,9 @@ sources:
   - What is Order to Cash (O2C)? - OpenText | https://www.opentext.com/what-is/order-to-cash
   - Straight-through processing - Wikipedia | https://en.wikipedia.org/wiki/Straight-through_processing
 related:
-  - Why Does This Task Still Need a Person Every Time? | /patterns/why-does-this-task-still-need-a-person-every-time/
-  - When a Status Update Requires a Staff Member to Investigate | /patterns/when-a-status-update-requires-a-staff-member-to-investigate/
-  - When Poor Data Quality Becomes an Automation Failure | /patterns/when-poor-data-quality-becomes-an-automation-failure/
+  - Why does this task still need a person every time? | /patterns/why-does-this-task-still-need-a-person-every-time/
+  - When a status update requires a staff member to investigate | /patterns/when-a-status-update-requires-a-staff-member-to-investigate/
+  - When poor data quality becomes an automation failure | /patterns/when-poor-data-quality-becomes-an-automation-failure/
 summary: A Pattern that uncovers excessive manual touches in order processing and offers a path to lean, automated order orchestration.
 layout: plain
 ---

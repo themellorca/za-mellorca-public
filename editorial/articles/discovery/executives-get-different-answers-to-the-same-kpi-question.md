@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-251
 slug: executives-get-different-answers-to-the-same-kpi-question
 title: Why executives get different answers to the same KPI question
-description: Ask finance, sales and operations for the same KPI and three numbers come back. Why it happens when a board pack is due, and how a certified KPI catalogue and a single answer route fix it.
+description: Finance, sales and operations give three numbers for one KPI when the board pack is due. How a certified KPI catalogue gives a single answer.
 lead: Ask finance, sales and operations for the same KPI and three numbers come back. Why it happens when a board pack is due, and how a certified KPI catalogue and a single answer route fix it.
 category: Data, Reporting & Decision Systems
 published_date: 2026-10-03
@@ -15,6 +15,7 @@ budget_owner: CFO, sometimes jointly with the CEO's office
 sources:
   - dbt Semantic Layer - dbt Developer Hub | https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl
   - Microsoft Fabric adoption roadmap: Governance - Power BI | https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-governance
+  - Endorse your content - Power BI | Microsoft Learn | https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content
 related:
   - Why sales, finance and operations each define revenue differently | /discovery/sales-finance-and-operations-define-revenue-differently/
   - Why analysts keep rebuilding the same data joins in separate spreadsheets | /discovery/why-analysts-keep-rebuilding-the-same-data-joins-in-spreadsheets/
@@ -32,7 +33,7 @@ A KPI question reaches different people, who answer it from different systems, w
 
 The executive experiences this as a trust problem. Once two numbers have been seen, every future number is doubted, and the business starts spending time checking figures rather than acting on them.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 Leaders ask how to get one version of the truth, why their reports do not match, or how to make board reporting consistent. The practical need is narrower and more achievable: for the twenty or thirty numbers that leadership and the board actually use, every question should get the same answer, regardless of who is asked or which tool they open.
 
@@ -44,7 +45,7 @@ In most businesses, the calculation behind a KPI is written into each report or 
 
 ### Governance names the failure modes
 
-[Microsoft's governance guidance for Fabric and Power BI](https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-governance) lists common challenges that match this problem closely: sprawl of data and reports, inconsistent reports produced without sufficient validation, lack of trust in data, a missing glossary or lineage, and unclear data ownership and stewardship. It recommends a certification (endorsement) policy that includes data accuracy validation, source and lineage review and documentation review, and it suggests requiring standardised master data and common data definitions. It also notes that content delivered to executives is a typical criterion for treating a report as critical and subjecting it to stricter governance.
+[Microsoft's governance guidance for Fabric and Power BI](https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-governance) lists common challenges that match this problem closely: sprawl of data and reports, inconsistent reports produced without sufficient validation, lack of trust in data, a missing glossary or lineage, and unclear data ownership and stewardship. It recommends a certification (endorsement) policy that includes data accuracy validation, source and lineage review and documentation review, and it suggests requiring standardised master data and common data definitions. It also notes that content delivered to executives is a typical criterion for treating a report as critical and subjecting it to stricter governance. Power BI supports this with [certified content](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content), which only reviewers authorised by the administrator can certify as meeting the organisation's quality standards.
 
 ### Warning signs
 

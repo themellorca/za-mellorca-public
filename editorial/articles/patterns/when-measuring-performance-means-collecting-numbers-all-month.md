@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-067
 slug: when-measuring-performance-means-collecting-numbers-all-month
-title: When KPI Tracking Becomes a Data Collection Exercise
+title: When KPI tracking becomes a data collection exercise
 description: A scorecard fed by hand and chosen for convenience consumes the time that was meant for improving the things it measures.
 lead: A scorecard fed by hand and chosen for convenience consumes the time that was meant for improving the things it measures.
 category: Data & Reporting
@@ -18,9 +18,9 @@ sources:
   - Get started with goals in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-goals-introduction
   - Endorsement overview - Microsoft Fabric | https://learn.microsoft.com/en-us/fabric/governance/endorsement-overview
 related:
-  - Why Manual Reporting Creates Invisible Risk | /patterns/the-risk-inside-reports-that-are-assembled-by-hand/
-  - The Operational Blind Spots Created by Periodic Reporting | /patterns/what-happens-between-reporting-periods-that-nobody-sees/
-  - Why Executives Keep Asking Teams to “Send the Latest Numbers” | /patterns/why-the-latest-numbers-are-always-a-request-and-never-a-view/
+  - Why manual reporting creates invisible risk | /patterns/the-risk-inside-reports-that-are-assembled-by-hand/
+  - The operational blind spots created by periodic reporting | /patterns/what-happens-between-reporting-periods-that-nobody-sees/
+  - Why executives keep asking teams to “Send the latest numbers” | /patterns/why-the-latest-numbers-are-always-a-request-and-never-a-view/
 summary: A scorecard fed by hand and chosen for convenience consumes the time that was meant for improving the things it measures.
 layout: plain
 ---
@@ -73,7 +73,7 @@ There is also a trust dimension. A scorecard that people know to be hand-assembl
 
 ## Possibility: fewer measures, fed by the work itself
 
-The alternative is a short list of measures, each with a purpose, a definition and an owner, and with data that flows from the system where the work is recorded. Microsoft's documentation on Power BI scorecards describes goals that can be connected to data, in which case the value updates as often as the underlying semantic model refreshes, or kept as manual goals, which only change when someone performs a check-in. It adds a practical limit: where a goal is connected to data, its value cannot be updated by hand, which prevents the common problem of someone overwriting the figure. The documentation describes the purpose of scorecards in terms of accountability, alignment and visibility.
+The alternative is a short list of measures, each with a purpose, a definition and an owner, and with data that flows from the system where the work is recorded. Microsoft's documentation on [Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-goals-introduction) scorecards describes goals that can be connected to data, in which case the value updates as often as the underlying semantic model refreshes, or kept as manual goals, which only change when someone performs a check-in. It adds a practical limit: where a goal is connected to data, its value cannot be updated by hand, which prevents the common problem of someone overwriting the figure. The documentation describes the purpose of scorecards in terms of accountability, alignment and visibility.
 
 The definition issue is addressed by the endorsement feature in Fabric and Power BI, which allows items to be marked as promoted, certified or master data. A certified item has been reviewed by an authorised person against the organisation's quality standards, which is the same idea as saying that a KPI has one agreed definition and a named owner. Again, the products are examples; the discipline is the point.
 

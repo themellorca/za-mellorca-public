@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-056
 slug: software-bought-without-approval-shadow-it-cost
-title: Software Bought Without Approval: The Financial and Security Cost of Shadow IT
-description: When staff buy applications on company cards without central approval, the business pays twice: in duplicated spend and in data held where nobody is protecting it.
+title: Software bought without approval: The financial and security cost of shadow IT
+description: When staff buy applications on company cards without central approval, you pay twice: in duplicated spend and in data held where nobody protects it.
 lead: When staff buy applications on company cards without central approval, the business pays twice: in duplicated spend and in data held where nobody is protecting it.
 category: Digital Infrastructure
 published_date: 2026-10-06
@@ -18,9 +18,9 @@ sources:
   - CIS Control 2: Inventory and Control of Software Assets | https://www.cisecurity.org/controls/inventory-and-control-of-software-assets
   - What Is Shadow IT? - IBM | https://www.ibm.com/think/topics/shadow-it
 related:
-  - Paying for Tools You Already Own: The Cost of Underused Software Platforms | /impact/expensive-tools-for-tasks-existing-platform-handles-cost/
-  - Subscriptions That Outlive the Employee: The Cost of Orphaned Software | /impact/orphaned-software-subscriptions-after-employee-leaves-cost/
-  - Automatic Software Renewals: The Cost of Paying for Yesterday's Requirements | /impact/automatic-software-renewals-without-value-review-cost/
+  - Paying for tools you already own: The cost of underused software platforms | /impact/expensive-tools-for-tasks-existing-platform-handles-cost/
+  - Subscriptions that outlive the employee: The cost of orphaned software | /impact/orphaned-software-subscriptions-after-employee-leaves-cost/
+  - Automatic software renewals: The cost of paying for yesterday's requirements | /impact/automatic-software-renewals-without-value-review-cost/
 summary: When staff buy applications on company cards without central approval, the business pays twice: in duplicated spend and in data held where nobody is protecting it.
 layout: plain
 ---
@@ -30,7 +30,7 @@ In most growing businesses, software no longer arrives through a formal purchase
 
 Over a year or two, these choices add up to an estate of applications that nobody chose as a whole. The business does not know exactly what it uses, who holds the admin accounts, which customer information sits in each tool or what it is committed to paying.
 
-The UK National Cyber Security Centre describes this as shadow IT: unknown assets used for business purposes without corporate oversight. Mellorca has already looked at related symptoms, including [not knowing what subscriptions you pay for](/impact/unknown-software-subscriptions-invisible-recurring-cost/) and [buying a new application for every process problem](/impact/buying-software-for-every-process-problem/). This article looks at the cause: the absence of any approval point between a staff member's need and the company's money and data.
+The UK [National Cyber Security Centre describes this as shadow IT](https://www.ncsc.gov.uk/guidance/shadow-it): unknown assets used for business purposes without corporate oversight. Mellorca has already looked at related symptoms, including [not knowing what subscriptions you pay for](/impact/unknown-software-subscriptions-invisible-recurring-cost/) and [buying a new application for every process problem](/impact/buying-software-for-every-process-problem/). This article looks at the cause: the absence of any approval point between a staff member's need and the company's money and data.
 
 ## Why businesses tolerate it
 
@@ -44,7 +44,7 @@ The NCSC makes the last point explicitly: most shadow IT comes from legitimate w
 
 ## How common it is
 
-Microsoft's documentation for its cloud app discovery tooling states that IT administrators asked to estimate how many cloud apps their employees use typically say 30 or 40, while the average in practice is over 1,000, and that 80% of employees use non-sanctioned apps that nobody has reviewed. Those figures come from large organisations. A small business will have far fewer apps, but the gap between what leaders believe and what is in use tends to follow the same pattern. IBM, summarising research by its Institute for Business Value, reports that 41% of employees had acquired, modified or created technology without their IT team's knowledge.
+[Microsoft's documentation for its cloud app discovery tooling](https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-shadow-it) states that IT administrators asked to estimate how many cloud apps their employees use typically say 30 or 40, while the average in practice is over 1,000, and that 80% of employees use non-sanctioned apps that nobody has reviewed. Those figures come from large organisations. A small business will have far fewer apps, but the gap between what leaders believe and what is in use tends to follow the same pattern. [IBM](https://www.ibm.com/think/topics/shadow-it), summarising research by its Institute for Business Value, reports that 41% of employees had acquired, modified or created technology without their IT team's knowledge.
 
 ## Operational consequence
 
@@ -90,7 +90,7 @@ That number is only the visible part. The larger exposure is the information hel
 
 Good control is light and fast, not restrictive. The aim is that every application holding company data is known, owned and set up properly.
 
-- **An inventory.** The Center for Internet Security makes software inventory a foundational control: actively manage all software so that only authorised software is in use, and unmanaged software is found and removed or brought under control.
+- **An inventory.** [The Center for Internet Security](https://www.cisecurity.org/controls/inventory-and-control-of-software-assets) makes software inventory a foundational control: actively manage all software so that only authorised software is in use, and unmanaged software is found and removed or brought under control.
 - **A simple request route.** A short form, a named approver and a response within a day or two. The NCSC recommends streamlining approval and anticipating needs with legitimate alternatives, so staff have no reason to go around the process.
 - **Basic security criteria.** Company account ownership, single sign-on or MFA, data location and an exit plan.
 - **Discovery.** Card statements and expense claims are a good starting point. Where Microsoft 365 or similar platforms are in use, cloud discovery tools can show which services staff actually connect to, and Microsoft's guidance suggests reviewing discovered apps by category, because unsanctioned tools often meet a real need that no approved tool covers.

@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-087
 slug: why-revised-quotes-need-numbered-versions-before-they-become-orders
 title: Quote revisions create duplicate or contradictory order instructions
-description: A repriced quote, a second email and a re-keyed order can produce two instructions for one job. How numbered revisions, acceptance against a version and a block on second orders prevent it.
+description: A repriced quote, a second email and a re-keyed order can create two instructions for one job. How numbered revisions and blocked second orders prevent it.
 lead: A repriced quote, a second email and a re-keyed order can produce two instructions for one job. How numbered revisions, acceptance against a version and a block on second orders prevent it.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-10
@@ -31,15 +31,17 @@ This article is about that operating condition: quote revisions that create dupl
 
 A quote is a proposal that can change many times before it is accepted. An order is an instruction to the business to deliver. The trouble starts when the revision history of the first is not controlled, so the second is created from whichever version someone happens to be holding. Revisions get saved as copies, accepted in emails and re-keyed by hand into the order system. Nothing marks the earlier versions as superseded, and nothing connects the accepted version to the order that follows.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The person searching for this problem wants to know that every order in the system traces to one accepted quote, in one version, and that nobody can accidentally act on a version the customer no longer wants. Sales wants to revise prices quickly, finance wants invoices that match what was agreed, and operations wants to stop acting on contradictory instructions.
+The person facing this problem wants to know that every order in the system traces to one accepted quote, in one version, and that nobody can accidentally act on a version the customer no longer wants. Sales wants to revise prices quickly, finance wants invoices that match what was agreed, and operations wants to stop acting on contradictory instructions.
 
 ## Evidence and system mechanism
 
 ### Quoting tools treat revision as a first-class idea
 
-Stripe's documentation on [how quotes work](https://docs.stripe.com/quotes) is a useful example of what controlled quoting looks like in software. A quote starts as a draft and can be edited freely. Once finalised it becomes open, and only the expiry date can be changed. When the customer accepts, it becomes accepted and generates an invoice, subscription or subscription schedule. A cancelled or expired quote can no longer be accepted. Finalising assigns a number made of the customer prefix, the quote sequence and a revision sequence, so that a second revision of the same quote is visibly the second revision. The principle is that a sent version is fixed, a change creates a new numbered version, and only an accepted version produces downstream work.
+Stripe's documentation on [how quotes work](https://docs.stripe.com/quotes) is a useful example of what controlled quoting looks like in software. A quote starts as a draft and can be edited freely. Once finalised it becomes open, and only the expiry date can be changed. When the customer accepts, it becomes accepted and generates an invoice, subscription or subscription schedule.
+
+A cancelled or expired quote can no longer be accepted. Finalising assigns a number made of the customer prefix, the quote sequence and a revision sequence, so that a second revision of the same quote is visibly the second revision. The principle is that a sent version is fixed, a change creates a new numbered version, and only an accepted version produces downstream work.
 
 ### Events can fire more than once
 

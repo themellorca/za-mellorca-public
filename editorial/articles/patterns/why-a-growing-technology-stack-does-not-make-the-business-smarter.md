@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-044
 slug: why-a-growing-technology-stack-does-not-make-the-business-smarter
-title: Why Your Technology Stack Keeps Growing but the Business Gets No Smarter
-description: Every new subscription brings its own dashboards and AI assistant, yet cross-cutting questions about profit, cash and customers still need numbers pulled by hand. When each tool is only intelligent about its own data, a bigger stack does not mean a better-informed business.
+title: Why your technology stack keeps growing but the business gets no smarter
+description: Each new tool brings its own dashboards and AI, yet questions on profit, cash and customers still need hand-pulled numbers. More tools, no more insight.
 lead: Every new subscription brings its own dashboards and AI assistant, yet cross-cutting questions about profit, cash and customers still need numbers pulled by hand. When each tool is only intelligent about its own data, a bigger stack does not mean a better-informed business.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-06
@@ -18,9 +18,9 @@ sources:
   - Copilot connectors overview - Microsoft 365 Copilot connectors | https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/overview
   - Connect and use HubSpot data sync | https://knowledge.hubspot.com/integrations/connect-and-use-hubspot-data-sync
 related:
-  - When Sales, Finance and Support Disagree About the Same Customer | /patterns/when-sales-finance-and-support-disagree-about-the-same-customer/
-  - How Disconnected Tools Quietly Limit Scale | /patterns/how-disconnected-tools-quietly-limit-scale/
-  - When Adding Software Creates More Work Instead of Less | /patterns/when-adding-software-creates-more-work-instead-of-less/
+  - When sales, finance and support disagree about the same customer | /patterns/when-sales-finance-and-support-disagree-about-the-same-customer/
+  - How disconnected tools quietly limit scale | /patterns/how-disconnected-tools-quietly-limit-scale/
+  - When adding software creates more work instead of less | /patterns/when-adding-software-creates-more-work-instead-of-less/
 summary: Every new subscription brings its own dashboards and AI assistant, yet cross-cutting questions about profit, cash and customers still need numbers pulled by hand. When each tool is only intelligent about its own data, a bigger stack does not mean a better-informed business.
 layout: plain
 ---
@@ -36,7 +36,7 @@ An illustrative example: a Cape Town professional-services firm with about sixty
 
 Intelligence features inside a business application are designed around that application's data. A CRM's AI can summarise deals and contacts. An accounting system's forecast can project cash from invoices and bills. These are useful, but each works within the boundary of the data it can see. Adding another tool adds another boundary.
 
-Vendors are explicit about this. Microsoft explains that its Copilot works with content in Microsoft Graph, such as emails, chats and documents the user has permission to access, and that reaching data in other systems needs connectors. Microsoft's Copilot connectors documentation describes how external sources such as CRMs and ticketing systems must be connected, either by indexing their content or fetching it live, before the assistant can use them. Without those connections, an AI tool answers from part of the picture.
+Vendors are explicit about this. Microsoft explains that its Copilot works with content in Microsoft Graph, such as emails, chats and documents the user has permission to access, and that reaching data in other systems needs connectors. Microsoft's [Copilot connectors](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/overview) documentation describes how external sources such as CRMs and ticketing systems must be connected, either by indexing their content or fetching it live, before the assistant can use them. Without those connections, an AI tool answers from part of the picture.
 
 So a stack can become bigger without becoming smarter. Each new tool adds capability inside its own walls, while the questions that cross those walls, which are usually the most important ones, remain as hard to answer as before.
 

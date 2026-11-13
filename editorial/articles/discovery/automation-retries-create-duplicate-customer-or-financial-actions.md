@@ -3,8 +3,8 @@ hub: discovery
 record_id: DISC-464
 slug: automation-retries-create-duplicate-customer-or-financial-actions
 title: Automation retries create duplicate customer or financial actions
-description: A focused examination of how retry logic in automation can generate duplicate customer records and duplicate financial actions, with practical guidance on achieving idempotent behavior and safer retry strategies.
-lead: A focused examination of how retry logic in automation can generate duplicate customer records and duplicate financial actions, with practical guidance on achieving idempotent behavior and safer retry strategies.
+description: Retry logic can create duplicate customer records and double financial actions. How idempotent design and safer retries prevent it.
+lead: A focused examination of how retry logic in automation can generate duplicate customer records and duplicate financial actions, with practical guidance on achieving idempotent behaviour and safer retry strategies.
 category: AI, Automation & Agent Operations
 published_date: 2026-10-02
 updated_date: 2026-10-02
@@ -21,12 +21,13 @@ related:
   - Agent conversations are not connected to durable business records | /discovery/agent-conversations-not-connected-to-durable-business-records/
   - Agent permissions are broader than the task requires | /discovery/agent-permissions-broader-than-task-requires/
   - Automation incident response is improvised | /discovery/automation-incident-response-improvised/
-summary: A focused examination of how retry logic in automation can generate duplicate customer records and duplicate financial actions, with practical guidance on achieving idempotent behavior and safer retry strategies.
+  - Webhook failures are not replayed safely | /discovery/why-failed-webhooks-need-a-safe-replay-routine-before-agents-depend-on-them/
+summary: A focused examination of how retry logic in automation can generate duplicate customer records and duplicate financial actions, with practical guidance on achieving idempotent behaviour and safer retry strategies.
 layout: plain
 ---
 Automation is a powerful accelerator for business processes, but it introduces risk when retry logic is not carefully engineered. When external systems or services fail temporarily, automated workflows commonly retry operations to recover from transient errors. Without explicit idempotent design, these retries can execute the same customer or financial action more than once, producing duplicate records, misaligned reconciliations and downstream data quality problems.
 
-The buyer is typically trying to solve a practical problem: how to keep automated flows reliable in the face of unreliable integrations, without creating duplicates that require costly manual clean-up. In many organisations the same pattern emerges across CRM updates, payments, invoicing and onboarding events, leading to customer confusion, duplicate billing and increased support load. The search behaviour around this problem uses phrases such as "automation retries", "duplicate actions" and "idempotent automation" as buyers look for reliable, auditable remedies.
+The business is typically trying to solve a practical problem: how to keep automated flows reliable in the face of unreliable integrations, without creating duplicates that require costly manual clean-up. In many organisations the same pattern emerges across CRM updates, payments, invoicing and onboarding events, leading to customer confusion, duplicate billing and increased support load. The problem is usually described in phrases such as "automation retries", "duplicate actions" and "idempotent automation", by people looking for reliable, auditable remedies.
 
 ## Evidence and mechanism
 

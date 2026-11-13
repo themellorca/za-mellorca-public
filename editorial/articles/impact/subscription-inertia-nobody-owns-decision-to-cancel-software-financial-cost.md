@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-063
 slug: subscription-inertia-nobody-owns-decision-to-cancel-software-financial-cost
-title: Nobody Will Cancel It: What Subscription Inertia Costs a Business
+title: Nobody will cancel it: What subscription inertia costs a business
 description: Software subscriptions survive not because they are useful but because nobody wants to own the decision to cancel them, and the Rand add up month after month.
 lead: Software subscriptions survive not because they are useful but because nobody wants to own the decision to cancel them, and the Rand add up month after month.
 category: Digital Operations
@@ -17,9 +17,9 @@ sources:
   - Cancel and delete your Azure subscription - Microsoft Cost Management | https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/cancel-azure-subscription
   - Consumer Protection Act 68 of 2008 - South African Government | https://www.gov.za/documents/consumer-protection-act
 related:
-  - Waiting Weeks for Management Reports: What Late Visibility Costs the Business | /impact/waiting-weeks-for-management-reports-late-visibility-cost/
-  - Four Tools, One Job: The Real Cost of Departments Buying Their Own Software | /impact/departments-buying-separate-tools-same-need-duplicate-subscription-cost/
-  - Every Team Picks Its Own Software: The Cost of Having No Integration Standards | /impact/every-team-chooses-own-software-no-integration-standards-fragmented-data-cost/
+  - Waiting weeks for management reports: What late visibility costs the business | /impact/waiting-weeks-for-management-reports-late-visibility-cost/
+  - Four tools, one job: The real cost of departments buying their own software | /impact/departments-buying-separate-tools-same-need-duplicate-subscription-cost/
+  - Every team picks its own software: The cost of having no integration standards | /impact/every-team-chooses-own-software-no-integration-standards-fragmented-data-cost/
 summary: Software subscriptions survive not because they are useful but because nobody wants to own the decision to cancel them, and the Rand add up month after month.
 layout: plain
 ---

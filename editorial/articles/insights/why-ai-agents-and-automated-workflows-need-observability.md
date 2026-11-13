@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-202
 slug: why-ai-agents-and-automated-workflows-need-observability
-title: Why AI Agents and Automated Workflows Need Observability
+title: Why AI agents and automated workflows need observability
 description: Explains why observability is essential for AI agents and automation, how it enables reliability, and what to monitor to maintain trust and performance.
 lead: Explains why observability is essential for AI agents and automation, how it enables reliability, and what to monitor to maintain trust and performance.
 category: AI Operations
@@ -15,7 +15,7 @@ sources:
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
   - Understanding automation | https://www.redhat.com/en/topics/automation
 related:
-  - What AI Agents Need Before They Can Do Useful Work | /insights/what-ai-agents-need-before-they-can-do-useful-work/
+  - What AI agents need before they can do useful work | /insights/what-ai-agents-need-before-they-can-do-useful-work/
   - What business processes need documentation first? | /insights/what-business-processes-need-documentation-first/
   - Your AI strategy has an integration problem | /insights/your-ai-strategy-has-an-integration-problem/
 summary: Explains why observability is essential for AI agents and automation, how it enables reliability, and what to monitor to maintain trust and performance.

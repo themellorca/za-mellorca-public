@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-465
 slug: business-rules-hidden-inside-ai-prompts
 title: Business rules are hidden inside AI prompts
-description: Discount limits, approval rules and eligibility written into AI prompts are invisible, untested and not reliably enforced. How to extract them and put them where they can be owned.
+description: Discount limits and approval rules written into AI prompts are invisible, untested and unreliably enforced. How to move them where they can be owned.
 lead: Discount limits, approval rules and eligibility written into AI prompts are invisible, untested and not reliably enforced. How to extract them and put them where they can be owned.
 category: AI, Automation & Agent Operations
 published_date: 2026-10-03
@@ -15,6 +15,7 @@ budget_owner: COO/IT budget holder
 sources:
   - LLM07:2025 System Prompt Leakage | https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/
   - Decision Model and Notation™ (DMN™) - Object Management Group | https://www.omg.org/dmn/
+  - OWASP Top 10 for LLM Applications - OWASP GenAI Security Project | https://genai.owasp.org/llm-top-10/
 related:
   - AI-generated decisions cannot be traced to source data | /discovery/ai-generated-decisions-cannot-be-traced-to-source-data/
   - Prompt and configuration changes made without version control | /discovery/prompt-and-configuration-changes-made-without-version-control/
@@ -30,9 +31,9 @@ Business rules are the decisions a company has agreed to apply consistently: who
 
 In AI-enabled processes, these rules increasingly end up as natural-language text inside a system prompt or an agent's instructions. The symptoms appear slowly: the AI gives a discount the finance policy does not allow; two assistants apply different rules because their prompts were edited separately; a price change is made in the ERP but not in the prompt; and when someone asks "where is this rule written?", the answer is a text box in an AI tool that only one person knows how to find.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer is often a head of operations, a finance manager or an IT lead who has inherited AI assistants built quickly by enthusiastic teams. They search for things like "where should business logic live with LLMs", "AI assistant ignoring instructions", "how to enforce rules on an AI agent", "prompt management and version control" or "guardrails for AI agents".
+The person asking is often a head of operations, a finance manager or an IT lead who has inherited AI assistants built quickly by enthusiastic teams. Their questions sound like "where should business logic live with LLMs", "AI assistant ignoring instructions", "how to enforce rules on an AI agent", "prompt management and version control" or "guardrails for AI agents".
 
 The real need is to know which rules the AI is applying, to make sure the important ones are enforced reliably, and to change a rule in one place without hunting through prompts.
 
@@ -40,7 +41,7 @@ The real need is to know which rules the AI is applying, to make sure the import
 
 Two features of large language models make prompts a weak home for business rules.
 
-First, instructions in a prompt shape behaviour but do not guarantee it. The OWASP Top 10 for LLM applications states that the system prompt should not be treated as a secret or used as a security control, and that critical controls such as privilege separation and authorisation bounds checks must not be delegated to the model, whether through the system prompt or otherwise ([OWASP LLM07: System Prompt Leakage](https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/)). The same reasoning applies to commercial rules. If a discount limit matters, it needs enforcing somewhere deterministic, not merely asking for.
+First, instructions in a prompt shape behaviour but do not guarantee it. The OWASP Top 10 for LLM applications states that the system prompt should not be treated as a secret or used as a security control, and that critical controls such as privilege separation and authorisation bounds checks must not be delegated to the model, whether through the system prompt or otherwise ([OWASP LLM07: System Prompt Leakage](https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/)). The same reasoning applies to commercial rules. If a discount limit matters, it needs enforcing somewhere deterministic, not merely asking for. The same OWASP list puts [prompt injection](https://genai.owasp.org/llm-top-10/) first, describing it as user prompts that alter a model's intended behaviour.
 
 Second, prompts mix many kinds of content together: tone of voice, product information, formatting preferences and genuine rules. Changing one risks changing the others, and there is rarely a test that shows what the change did.
 

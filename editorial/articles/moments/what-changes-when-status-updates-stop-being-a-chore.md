@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000013
 slug: what-changes-when-status-updates-stop-being-a-chore
-title: What Changes When Status Updates Stop Being a Chore
-description: "Any update?" arrives several times a day, and each answer means stopping work to describe work. What constant status requests take from people's focus, and what changes when progress records itself as the work is done.
+title: What changes when status updates stop being a chore
+description: "Any update?" arrives all day, and each answer means stopping work to describe work. What that costs in focus, and how progress can record itself.
 lead: "Any update?" arrives several times a day, and each answer means stopping work to describe work. What constant status requests take from people's focus, and what changes when progress records itself as the work is done.
 category: Time & Attention
 published_date: 2026-10-04
@@ -19,9 +19,9 @@ sources:
   - https://ics.uci.edu/~gmark/chi08-mark.pdf | https://ics.uci.edu/~gmark/chi08-mark.pdf
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
 related:
-  - The Meeting That Could Have Been a Shared Record | /moments/the-meeting-that-could-have-been-a-shared-record/
-  - When Every Day Starts by Rebuilding Yesterday's Context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
-  - Friday Evening Should Start on Friday Evening | /moments/friday-evening-should-start-on-friday-evening/
+  - The meeting that could have been a shared record | /moments/the-meeting-that-could-have-been-a-shared-record/
+  - When every day starts by rebuilding yesterday's context | /moments/when-every-day-starts-by-rebuilding-yesterdays-context/
+  - Friday evening should start on Friday evening | /moments/friday-evening-should-start-on-friday-evening/
 summary: "Any update?" arrives several times a day, and each answer means stopping work to describe work. What constant status requests take from people's focus, and what changes when progress records itself as the work is done.
 layout: plain
 ---
@@ -33,7 +33,7 @@ Status updates are not trivial. People need to know where work stands in order t
 
 ## What the evidence suggests about interruptions
 
-Microsoft's Work Trend Index survey, published in 2023, reported that the average worker in its data spent 57% of their time communicating, in meetings, email and chat, and 43% creating. Sixty-eight per cent said they did not have enough uninterrupted focus time in the workday. A later analysis of Microsoft 365 activity estimated that workers are interrupted roughly every two minutes during core hours by a meeting, email or chat. These are global figures from one vendor's products and customers, not a measurement of South African businesses, but they describe a working day in which focus is already scarce.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) survey, published in 2023, reported that the average worker in its data spent 57% of their time communicating, in meetings, email and chat, and 43% creating. Sixty-eight per cent said they did not have enough uninterrupted focus time in the workday. A later analysis of Microsoft 365 activity estimated that workers are interrupted roughly every two minutes during core hours by a meeting, email or chat. These are global figures from one vendor's products and customers, not a measurement of South African businesses, but they describe a working day in which focus is already scarce.
 
 A study by Gloria Mark and colleagues at the University of California, Irvine, adds a less obvious finding. In a controlled experiment, people who were interrupted while doing an email-based task completed it in less time than those who were not, with no difference in quality. The researchers suggest people compensate for interruptions by working faster, but that this comes at a price: participants reported more stress, higher frustration, more time pressure and more effort. It was a laboratory study with a limited sample, and should not be stretched too far. It does suggest that the cost of an interruption may not show up in output at all. It may show up in how the work feels.
 

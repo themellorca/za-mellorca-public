@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-254
 slug: silent-automation-failures-financial-impact
-title: The Cost of Automations That Stop Silently
-description: Automation only creates value while it is actually running. Silent failures can turn invisible process breaks into missed work, delayed revenue and costly rework.
+title: The cost of automations that stop silently
+description: Automation only creates value while it runs. Silent failures turn invisible process breaks into missed work, delayed revenue and costly rework.
 lead: A failed automation is not always obvious. The dangerous version is a workflow that quietly stops moving data, sending notifications or completing transactions while people assume the process is still working.
 category: Business Automation
 published_date: 2026-09-02
@@ -27,9 +27,9 @@ sources:
 closing_title: Method note
 closing_text: Quantify failure cost from your own missed-volume, correction-time and contribution data. Treat delayed and permanently lost revenue separately.
 related:
-  - Manual Automation Triggers Leave Half the Process Manual | /impact/manual-automation-trigger-half-automated-process-cost/
-  - Paper Forms Captured Twice: The Cost of Double Handling | /impact/paper-forms-captured-twice-double-handling-cost/
-  - Gathering Information Before Work Can Start: The Payroll Cost of Preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
+  - Manual automation triggers leave half the process manual | /impact/manual-automation-trigger-half-automated-process-cost/
+  - Paper forms captured twice: The cost of double handling | /impact/paper-forms-captured-twice-double-handling-cost/
+  - Gathering information before work can start: The payroll cost of preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
 ---
 ## The tolerated pain is automation people trust without watching
 

@@ -18,6 +18,7 @@ side_title: Topics
 sources:
   - Google SRE - IT Service Management: Automate Operations | https://sre.google/sre-book/introduction/
   - CIPD - Succession Planning - Factsheets | https://www.cipd.org/uk/knowledge/factsheets/succession-planning-factsheet/
+  - Share a cloud flow - Power Automate | https://learn.microsoft.com/en-us/power-automate/create-team-flows
 closing_title: Explore Mellorca
 closing_text: [Explore our solutions](/solutions/) or [start a conversation](/contact/).
 related:
@@ -52,7 +53,7 @@ Standard work is rarely the only work. A resilient process defines what happens 
 
 ## Separate role from person
 
-Ownership should attach to a function or queue where practical, with named accountability layered on top. This reduces the risk that work disappears when a specific employee changes role. Practical forms include shared team queues instead of personal inboxes, cases assigned to a role that can be reassigned in one step, and a named backup owner for each critical workflow.
+Ownership should attach to a function or queue where practical, with named accountability layered on top. This reduces the risk that work disappears when a specific employee changes role. Practical forms include shared team queues instead of personal inboxes, cases assigned to a role that can be reassigned in one step, and a named backup owner for each critical workflow. Automation tools support this: in Power Automate, [adding an owner to a cloud flow](https://learn.microsoft.com/en-us/power-automate/create-team-flows) lets others edit it, and when an owner is removed the connection credentials they used must be updated so the flow keeps running.
 
 This complements, rather than replaces, people planning. The CIPD’s [succession planning factsheet](https://www.cipd.org/uk/knowledge/factsheets/succession-planning-factsheet/) describes succession planning as preparing to fill key roles effectively if an employee leaves or changes role, and notes that business-critical roles exist at all levels, not only in senior leadership. Workflow design is the systems side of the same concern: even with a good successor in place, they need a process they can pick up. For the wider pattern, see [key-person dependency is a systems problem](/insights/key-person-dependency-is-a-systems-problem/).
 

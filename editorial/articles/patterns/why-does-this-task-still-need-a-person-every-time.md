@@ -2,9 +2,9 @@
 hub: patterns
 record_id: PAT-001
 slug: why-does-this-task-still-need-a-person-every-time
-title: Why Does This Task Still Need a Person Every Time?
-description: Explores the persistent need for manual, person-in-the-loop handling of routine tasks, the frictions it creates, and how to reframe improvements beyond mere automation hype.
-lead: Explores the persistent need for manual, person-in-the-loop handling of routine tasks, the frictions it creates, and how to reframe improvements beyond mere automation hype.
+title: Why does this task still need a person every time?
+description: Some routine tasks still need a person every time. Why that happens, what it costs, and how to improve it without falling for automation hype.
+lead: Some routine tasks still need a person every time. Why that happens, what it costs, and how to improve it without falling for automation hype.
 category: Operational Patterns
 published_date: 2026-09-08
 updated_date: 2026-09-08
@@ -18,10 +18,10 @@ sources:
   - What is Robotic Process Automation (RPA)? - IBM | https://www.ibm.com/think/topics/rpa
   - Automated decision-making, including profiling | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making-and-profiling/
 related:
-  - When a Status Update Requires a Staff Member to Investigate | /patterns/when-a-status-update-requires-a-staff-member-to-investigate/
-  - When Your Staff Become the Integration Between Software Platforms | /patterns/when-your-staff-become-the-integration-between-software-platforms/
-  - The Operational Tax Hidden Inside Everyday Admin | /patterns/the-operational-tax-hidden-inside-everyday-admin/
-summary: Explores the persistent need for manual, person-in-the-loop handling of routine tasks, the frictions it creates, and how to reframe improvements beyond mere automation hype.
+  - When a status update requires a staff member to investigate | /patterns/when-a-status-update-requires-a-staff-member-to-investigate/
+  - When your staff become the integration between software platforms | /patterns/when-your-staff-become-the-integration-between-software-platforms/
+  - The operational tax hidden inside everyday admin | /patterns/the-operational-tax-hidden-inside-everyday-admin/
+summary: Some routine tasks still need a person every time. Why that happens, what it costs, and how to improve it without falling for automation hype.
 layout: plain
 ---
 ## Observable condition

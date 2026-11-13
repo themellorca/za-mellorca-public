@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-332
 slug: when-nobody-knows-which-services-depend-on-which-systems
-title: When Nobody Knows Which Services Depend on Which Systems
-description: When a technical change or outage surprises the business because dependencies were invisible, the condition points to a service-dependency and resilience design problem.
+title: When nobody knows which services depend on which systems
+description: When an outage or technical change catches the business by surprise because dependencies were invisible, the real problem is service resilience design.
 lead: If a small technical change can unexpectedly interrupt a customer, finance or operational service, the hidden issue may be that the business cannot see its digital dependency chain.
 category: Cloud, Infrastructure & Reliability
 published_date: 2026-09-03
@@ -17,17 +17,18 @@ cta_label: Digital Infrastructure
 cta_href: /services/digital-infrastructure/
 side_title: Commercial value
 pattern_family: Cloud, Infrastructure & Reliability
-observable_condition: Technical systems and business services are interconnected but the organization cannot reliably explain which dependencies will be affected by a failure or change.
+observable_condition: Technical systems and business services are interconnected but the organisation cannot reliably explain which dependencies will be affected by a failure or change.
 primary_identification: service-dependency mapping and resilience problem
 commercial_value_dimensions: Uptime, Revenue protection, Resilience, Scalability
 sources:
   - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/final
   - IR 8286D, Using Business Impact Analysis to Inform Risk Prioritization and Response - CSRC | https://csrc.nist.gov/pubs/ir/8286/d/upd1/final
+  - OPS04-BP04 Implement dependency telemetry - AWS Well-Architected Framework | https://docs.aws.amazon.com/wellarchitected/latest/framework/ops_observability_dependency_telemetry.html
 related:
-  - Why Backups Do Not Equal Business Resilience | /patterns/why-backups-do-not-equal-business-resilience/
-  - Why Does a Small Technical Failure Stop the Whole Business? | /patterns/why-does-a-small-technical-failure-stop-the-whole-business/
-  - When Your CRM Knows Something Your Finance System Does Not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
-summary: Unexpected blast radius is often a sign that the organization understands components better than end-to-end services. Mapping critical dependencies can improve change control, recovery priorities and resilience. If this condition is familiar, explore Mellorca's solutions or start a conversation so we can examine the dependency chain behind your operations.
+  - Why backups do not equal business resilience | /patterns/why-backups-do-not-equal-business-resilience/
+  - Why does a small technical failure stop the whole business? | /patterns/why-does-a-small-technical-failure-stop-the-whole-business/
+  - When your CRM knows something your finance system does not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
+summary: Unexpected blast radius is often a sign that the organisation understands components better than end-to-end services. Mapping critical dependencies can improve change control, recovery priorities and resilience. If this condition is familiar, explore Mellorca's solutions or start a conversation so we can examine the dependency chain behind your operations.
 ---
 ## Observable condition
 
@@ -54,7 +55,7 @@ This is not only an architecture-documentation problem. It affects how the busin
 
 ### Change becomes a gamble
 
-Without a dependency view, every change is assessed against the component being changed rather than the services that rely on it. Teams compensate in one of two ways: they become cautious, slowing improvement and leaving outdated components in place because nobody is sure what will break; or they proceed and learn the dependency from the outage. Neither is a deliberate risk decision.
+Without a dependency view, every change is assessed against the component being changed rather than the services that rely on it. Teams compensate in one of two ways: they become cautious, slowing improvement and leaving outdated components in place because nobody is sure what will break; or they proceed and learn the dependency from the outage. Neither is a deliberate risk decision. AWS's Well-Architected guidance on [dependency telemetry](https://docs.aws.amazon.com/wellarchitected/latest/framework/ops_observability_dependency_telemetry.html) starts from the same step, identifying with stakeholders the external services and components a workload relies on, such as DNS, databases and third-party APIs, and rates the risk of not doing so as high.
 
 ### Recovery order becomes guesswork
 

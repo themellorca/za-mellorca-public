@@ -2,9 +2,9 @@
 hub: impact
 record_id: CPS-002
 slug: pain-employees-interrupted-messages-notifications-context-switching
-title: The Cost of Constant Interruptions and Context Switching
-description: Examines how constant interruptions erode focus, slow work throughput and increase fatigue, translating into measurable labor-cost and productivity losses for modern teams.
-lead: Examines how constant interruptions erode focus, slow work throughput and increase fatigue, translating into measurable labor-cost and productivity losses for modern teams.
+title: The cost of constant interruptions and context switching
+description: Constant messages and notifications break concentration, slow work and add fatigue. What that costs a business in hours and errors.
+lead: Constant messages and notifications break concentration, slow work and add fatigue. What that costs a business in hours and errors.
 category: enterprise-technology-management
 published_date: 2026-09-08
 updated_date: 2026-09-08
@@ -15,11 +15,12 @@ primary_cost_mechanism: labor-cost and productivity loss
 sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
   - Task Interruption in Software Development Projects: What Makes some Interruptions More Disruptive than Others? | https://arxiv.org/abs/1805.05508
+  - Multitasking: Switching costs - American Psychological Association | https://www.apa.org/topics/research/multitasking
 related:
-  - The Cost of Paid Time Spent Searching for Files | /impact/employees-searching-for-files-lost-productivity-cost/
-  - The Cost of Copying Data from One System into Another | /impact/pain-employees-duplicated-data-entry/
-  - Running Important Daily Processes by Hand | /impact/pain-running-important-business-processes-manually/
-summary: Examines how constant interruptions erode focus, slow work throughput and increase fatigue, translating into measurable labor-cost and productivity losses for modern teams.
+  - The cost of paid time spent searching for files | /impact/employees-searching-for-files-lost-productivity-cost/
+  - The cost of copying data from one system into another | /impact/pain-employees-duplicated-data-entry/
+  - Running important daily processes by hand | /impact/pain-running-important-business-processes-manually/
+summary: Constant messages and notifications break concentration, slow work and add fatigue. What that costs a business in hours and errors.
 layout: plain
 ---
 ## The tolerated pain
@@ -46,7 +47,7 @@ The recognisable symptoms are:
 - **Inconsistent quality:** detail-heavy work such as pricing, reconciliations or contract review is completed in fragments, which is where errors enter.
 - **Fatigue:** the day feels full even when little of substance has moved.
 
-Not all interruptions come from other people. Research by Abad and colleagues, [analysing 4,910 tasks from 17 professional software developers and surveying 132 developers](https://arxiv.org/abs/1805.05508), found that self-interruptions, meaning voluntary task switches, were more disruptive than external interruptions and had a negative effect on the performance of the interrupted tasks. That matters for remediation: switching off other people's messages is not enough if the working environment invites people to keep checking for them.
+Not all interruptions come from other people. Research by Abad and colleagues, [analysing 4,910 tasks from 17 professional software developers and surveying 132 developers](https://arxiv.org/abs/1805.05508), found that self-interruptions, meaning voluntary task switches, were more disruptive than external interruptions and had a negative effect on the performance of the interrupted tasks. That matters for remediation: switching off other people's messages is not enough if the working environment invites people to keep checking for them. The American Psychological Association's summary of [switching costs](https://www.apa.org/topics/research/multitasking) adds that each switch costs only a fraction of a second, but repeated switching adds up and can take more total time and produce more errors than it appears to.
 
 The net effect is a visible drag on throughput and morale, which often translates into slower time-to-market for initiatives and a weaker cadence of customer-relevant outcomes.
 

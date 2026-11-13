@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-152
 slug: when-finance-teams-become-data-clean-up-teams
-title: When Finance Teams Become Data Clean-Up Teams
+title: When finance teams become data clean-up teams
 description: When month-end is spent correcting codes, duplicates and missing references, finance has become the quality-control point for errors created upstream.
 lead: When month-end is spent correcting codes, duplicates and missing references, finance has become the quality-control point for errors created upstream.
 category: Finance, Billing & Cash Flow
@@ -18,9 +18,9 @@ sources:
   - What Is Data Quality? - IBM | https://www.ibm.com/think/topics/data-quality
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
 related:
-  - Why Does Sending an Invoice Require So Much Work? | /patterns/why-sending-an-invoice-requires-so-much-work/
-  - When Cash Collection Depends on Someone Remembering to Follow Up | /patterns/when-cash-collection-depends-on-someone-remembering-to-follow-up/
-  - Why Returns Become a Cross-Department Investigation | /patterns/why-returns-become-a-cross-department-investigation/
+  - Why does sending an invoice require so much work? | /patterns/why-sending-an-invoice-requires-so-much-work/
+  - When cash collection depends on someone remembering to follow up | /patterns/when-cash-collection-depends-on-someone-remembering-to-follow-up/
+  - Why returns become a cross-department investigation | /patterns/why-returns-become-a-cross-department-investigation/
 summary: When month-end is spent correcting codes, duplicates and missing references, finance has become the quality-control point for errors created upstream.
 layout: plain
 ---
@@ -36,9 +36,9 @@ An illustrative example: a Pretoria-based engineering services firm with three b
 
 When finance becomes a data clean-up team, the business has placed its quality control at the end of the process instead of the beginning. Errors are created cheaply, in the moment of capture, by people who often do not know they have made them. They are then corrected expensively, weeks later, by people who did not make them and have to investigate what was meant.
 
-Data quality writing makes the same distinction. Data cleansing corrects inaccurate or incomplete records after they exist. Data validation rejects invalid data at the time of entry. Validation is cheaper because the person who knows the right answer is present when the error occurs. A finance team that spends month-end cleansing is doing, late and indirectly, the validation that the systems upstream never performed.
+Data quality writing makes the same distinction. [Data cleansing corrects inaccurate or incomplete records](https://en.wikipedia.org/wiki/Data_cleansing) after they exist. Data validation rejects invalid data at the time of entry. Validation is cheaper because the person who knows the right answer is present when the error occurs. A finance team that spends month-end cleansing is doing, late and indirectly, the validation that the systems upstream never performed.
 
-There is also a compliance dimension. South Africa's Protection of Personal Information Act requires responsible parties to take reasonably practicable steps to ensure that personal information is complete, accurate, not misleading and updated where necessary. Duplicate and inconsistent customer records are not only an accounting nuisance.
+There is also a compliance dimension. South Africa's Protection of Personal Information Act requires responsible parties to take [reasonably practicable steps to ensure that personal information is complete, accurate, not misleading and updated where necessary](https://popia.co.za/section-16-quality-of-information/). Duplicate and inconsistent customer records are not only an accounting nuisance.
 
 > Realisation prompt: what share of your finance team's month-end is spent producing numbers, and what share is spent repairing data so that numbers can be produced?
 
@@ -50,7 +50,7 @@ It overlaps with, but differs from, the cost-focused Impact pieces on [manual mo
 
 ## Diagnosis
 
-IBM describes data quality in terms of dimensions such as completeness, uniqueness, validity, timeliness, accuracy and consistency. Finance clean-up work maps onto these closely.
+[IBM describes data quality](https://www.ibm.com/think/topics/data-quality) in terms of dimensions such as completeness, uniqueness, validity, timeliness, accuracy and consistency. Finance clean-up work maps onto these closely.
 
 | Dimension | What finance sees | Typical upstream cause |
 | --- | --- | --- |

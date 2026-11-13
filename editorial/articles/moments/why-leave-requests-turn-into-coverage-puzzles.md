@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000039
 slug: why-leave-requests-turn-into-coverage-puzzles
-title: Why Leave Requests Turn Into Coverage Puzzles
-description: Approving a week's leave should take a minute. In many small businesses it means checking a wall planner, three people's memories and who else can do the job. Why leave becomes a puzzle, who ends up solving it, and how to make it simpler.
+title: Why leave requests turn into coverage puzzles
+description: Approving a week's leave should take a minute, yet it can mean a wall planner and three people's memories. Why leave becomes a puzzle, and how to simplify.
 lead: Approving a week's leave should take a minute. In many small businesses it means checking a wall planner, three people's memories and who else can do the job. Why leave becomes a puzzle, who ends up solving it, and how to make it simpler.
 category: Time & Attention
 published_date: 2026-10-06
@@ -20,9 +20,10 @@ sources:
   - Public holidays in South Africa - South African Government | https://www.gov.za/about-sa/public-holidays
   - Manage shift requests and time off in Shifts - Microsoft Support | https://support.microsoft.com/en-us/office/manage-shift-requests-and-time-off-in-shifts-231fc82f-db7f-4f06-9215-8b36b599d69c
 related:
-  - The Saturday Morning Spent on Invoices | /moments/the-saturday-morning-spent-on-invoices/
-  - Why Holidays Still Need a Laptop in the Suitcase | /moments/why-holidays-still-need-a-laptop-in-the-suitcase/
-  - What Changes When Status Updates Stop Being a Chore | /moments/what-changes-when-status-updates-stop-being-a-chore/
+  - The Saturday morning spent on invoices | /moments/the-saturday-morning-spent-on-invoices/
+  - Why holidays still need a laptop in the suitcase | /moments/why-holidays-still-need-a-laptop-in-the-suitcase/
+  - What changes when status updates stop being a chore | /moments/what-changes-when-status-updates-stop-being-a-chore/
+  - The employee who can't see their own leave balance | /moments/the-employee-who-cant-see-their-own-leave-balance/
 summary: Approving a week's leave should take a minute. In many small businesses it means checking a wall planner, three people's memories and who else can do the job. Why leave becomes a puzzle, who ends up solving it, and how to make it simpler.
 layout: plain
 ---
@@ -34,9 +35,9 @@ Multiply that by every leave request in the year, add the December rush and scho
 
 ## A right that has to be fitted around the work
 
-South Africa's Basic Conditions of Employment Act gives employees at least 21 consecutive days of annual leave on full pay in each annual leave cycle, or by agreement one day of leave for every 17 days worked. The Department of Employment and Labour's guide explains that leave must be granted no later than six months after the end of the leave cycle, that employer and employee should agree on when it is taken, and that if they cannot agree, the employer decides. Employers may not pay employees instead of granting leave, except when employment ends.
+South Africa's [Basic Conditions of Employment Act](https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf) gives employees at least 21 consecutive days of [annual leave](https://www.labour.gov.za/DocumentCenter/Pages/Basic-Guide-to-Annual-Leave.aspx) on full pay in each annual leave cycle, or by agreement one day of leave for every 17 days worked. The Department of Employment and Labour's guide explains that leave must be granted no later than six months after the end of the leave cycle, that employer and employee should agree on when it is taken, and that if they cannot agree, the employer decides. Employers may not pay employees instead of granting leave, except when employment ends.
 
-The law, in other words, guarantees the leave but leaves the timing to be worked out. That working-out is where the puzzle lives. South Africa also has twelve public holidays, several of them clustered in March and April and three in December. When a public holiday falls on a Sunday, the following Monday becomes a holiday. Those dates shape when people want leave and when the business is busiest.
+The law, in other words, guarantees the leave but leaves the timing to be worked out. That working-out is where the puzzle lives. South Africa also has twelve [public holidays](https://www.gov.za/about-sa/public-holidays), several of them clustered in March and April and three in December. When a public holiday falls on a Sunday, the following Monday becomes a holiday. Those dates shape when people want leave and when the business is busiest.
 
 ## Why leave becomes a puzzle
 
@@ -80,6 +81,6 @@ Approval rules matter too. If only the owner can approve leave, every request qu
 
 ## Why it matters
 
-For the business, simpler leave decisions mean fewer surprises, better cover and less time spent by the owner on administrative puzzles. For the people, the change is in how leave feels. A request that is answered quickly, against rules everyone understands, lets someone book the trip, tell the family and look forward to the time off rather than wondering whether it will happen.
+For the business, simpler leave decisions mean fewer surprises, better cover and less time spent by the owner on administrative puzzles. For the people, the change is in how leave feels. A request that is answered quickly, against rules everyone understands, lets someone book the trip, tell the family and look forward to the [time off](https://support.microsoft.com/en-us/office/manage-shift-requests-and-time-off-in-shifts-231fc82f-db7f-4f06-9215-8b36b599d69c) rather than wondering whether it will happen.
 
 That is the dividend: time returned to the approver, and predictability for the person asking, so that leave can be planned as the right it is.

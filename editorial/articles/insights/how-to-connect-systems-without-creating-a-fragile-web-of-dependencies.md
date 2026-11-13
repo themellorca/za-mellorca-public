@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-063
 slug: how-to-connect-systems-without-creating-a-fragile-web-of-dependencies
-title: How to Connect Systems Without Creating a Fragile Web of Dependencies
-description: Connected systems can make a business brittle when every failure passes straight through. Six design principles that keep integrations useful while containing outages.
+title: How to connect systems without creating a fragile web of dependencies
+description: Connected systems make a business brittle when every failure passes straight through. Six principles for useful integrations that contain outages.
 lead: Connected systems can make a business brittle when every failure passes straight through. Six design principles that keep integrations useful while containing outages.
 category: Integration
 published_date: 2026-10-06
@@ -15,9 +15,9 @@ sources:
   - Circuit Breaker Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker
   - Anti-Corruption Layer Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer
 related:
-  - Why Integrations Break After They Seem to Be Working | /insights/why-integrations-break-after-they-seem-to-be-working/
-  - Point-to-Point Integrations vs a More Maintainable Integration Architecture | /insights/point-to-point-integrations-vs-a-more-maintainable-integration-architecture/
-  - Why Integration Projects Fail at the Handoffs | /insights/why-integration-projects-fail-at-the-handoffs/
+  - Why integrations break after they seem to be working | /insights/why-integrations-break-after-they-seem-to-be-working/
+  - Point-to-point integrations vs a more maintainable integration architecture | /insights/point-to-point-integrations-vs-a-more-maintainable-integration-architecture/
+  - Why integration projects fail at the handoffs | /insights/why-integration-projects-fail-at-the-handoffs/
 summary: Connected systems can make a business brittle when every failure passes straight through. Six design principles that keep integrations useful while containing outages.
 layout: plain
 ---
@@ -44,7 +44,7 @@ The practical test is simple: for each connection, ask whether the person or pro
 
 ### 2. Fail fast when a dependency is clearly down
 
-Where a direct call is unavoidable, the worst behaviour is to keep trying and waiting. Microsoft's circuit breaker pattern describes how blocked requests can tie up resources until time-outs expire, exhausting capacity and causing failures in unrelated parts of a system. A circuit breaker detects repeated failures and stops calling the failing service for a period, returning an immediate response instead, then tests carefully whether the service has recovered.
+Where a direct call is unavoidable, the worst behaviour is to keep trying and waiting. Microsoft's [circuit breaker pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker) describes how blocked requests can tie up resources until time-outs expire, exhausting capacity and causing failures in unrelated parts of a system. A circuit breaker detects repeated failures and stops calling the failing service for a period, returning an immediate response instead, then tests carefully whether the service has recovered.
 
 Business owners do not need to implement this themselves, but they should ask vendors and developers a direct question: what does our system do when the other system stops responding? "It waits" is the fragile answer.
 

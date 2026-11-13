@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000257
 slug: the-team-that-only-talks-when-something-breaks
-title: The Team That Only Talks When Something Breaks
+title: The team that only talks when something breaks
 description: Some teams are warm and fast in a crisis and silent the rest of the time. Why that happens, what it costs, and how to make ordinary contact easy.
 lead: Some teams are warm and fast in a crisis and silent the rest of the time. Why that happens, what it costs, and how to make ordinary contact easy.
 category: Human Connection
@@ -19,9 +19,10 @@ sources:
   - Psychological safety - Wikipedia | https://en.wikipedia.org/wiki/Psychological_safety
   - Crisis management - Wikipedia | https://en.wikipedia.org/wiki/Crisis_management
 related:
-  - When Screens Sit Between Colleagues Who Sit Together | /moments/when-screens-sit-between-colleagues-who-sit-together/
-  - The Family Dinner That Competes With a Group Chat | /moments/the-family-dinner-that-competes-with-a-group-chat/
-  - The Employee Whose Expertise Is Trapped in Data Entry | /moments/the-employee-whose-expertise-is-trapped-in-data-entry/
+  - When screens sit between colleagues who sit together | /moments/when-screens-sit-between-colleagues-who-sit-together/
+  - The family dinner that competes with a group chat | /moments/the-family-dinner-that-competes-with-a-group-chat/
+  - The employee whose expertise is trapped in data entry | /moments/the-employee-whose-expertise-is-trapped-in-data-entry/
+  - When a death in the family reveals who held the passwords | /moments/when-a-death-reveals-who-held-the-passwords/
 summary: Some teams are warm and fast in a crisis and silent the rest of the time. Why that happens, what it costs, and how to make ordinary contact easy.
 layout: plain
 ---
@@ -41,7 +42,7 @@ Over time the team learns a lesson nobody intended: contact is for problems. A c
 
 The discipline of incident management, as summarised in general reference material, is built around the idea that how a team responds to an unplanned disruption depends heavily on the preparation done before it. Roles, communication channels and escalation paths that are agreed in advance make the response faster and calmer. The reverse also holds: a team that has never practised talking to each other will improvise under the worst conditions.
 
-The idea of psychological safety, developed in organisational research, describes a shared belief that a team is a safe place for speaking up with questions, concerns or mistakes. Reference summaries of that research describe it as something built through everyday interactions, not something created in the moment of a crisis. A team where people only speak when things go wrong has had very few chances to find out that speaking up is safe.
+The idea of [psychological safety](https://en.wikipedia.org/wiki/Psychological_safety), developed in organisational research, describes a shared belief that a team is a safe place for speaking up with questions, concerns or mistakes. Reference summaries of that research describe it as something built through everyday interactions, not something created in the moment of a crisis. A team where people only speak when things go wrong has had very few chances to find out that speaking up is safe.
 
 Crisis management as a field also stresses that communication is a core part of the response, not an afterthought. What is less often said is that the quality of communication in a crisis mostly reflects the quality of communication before it. None of this establishes how common the pattern is in South African businesses; no survey is claimed here. It is a reasoned expectation drawn from general research.
 

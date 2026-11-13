@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-126
 slug: why-does-winning-a-customer-create-an-internal-scramble
-title: Why Does Winning a Customer Create an Internal Scramble?
-description: When a new contract triggers late nights across finance, procurement and operations, the cause is usually late visibility of the pipeline and no defined customer-setup process.
+title: Why does winning a customer create an internal scramble?
+description: When a new contract triggers late nights across finance, procurement and operations, the cause is late pipeline visibility and no customer-setup process.
 lead: When a new contract triggers late nights across finance, procurement and operations, the cause is usually late visibility of the pipeline and no defined customer-setup process.
 category: Client Onboarding & Service Delivery
 published_date: 2026-10-03
@@ -16,10 +16,11 @@ commercial_value_dimensions: margin, cash flow, customer experience, risk, scala
 sources:
   - Welcome to Dynamics 365 Sales | https://learn.microsoft.com/en-us/dynamics365/sales/overview
   - What is Master Data Management? - IBM | https://www.ibm.com/think/topics/master-data-management
+  - View and manage a forecast - Dynamics 365 Sales | https://learn.microsoft.com/en-us/dynamics365/sales/view-forecasts
 related:
-  - When Client Onboarding Becomes a Growth Constraint | /patterns/when-client-onboarding-becomes-a-growth-constraint/
-  - Why Does Hiring Someone Create So Much Internal Admin? | /patterns/why-does-hiring-someone-create-so-much-internal-admin/
-  - The Hidden Cost of Repetitive Customer Questions | /patterns/the-hidden-cost-of-repetitive-customer-questions/
+  - When client onboarding becomes a growth constraint | /patterns/when-client-onboarding-becomes-a-growth-constraint/
+  - Why does hiring someone create so much internal admin? | /patterns/why-does-hiring-someone-create-so-much-internal-admin/
+  - The hidden cost of repetitive customer questions | /patterns/the-hidden-cost-of-repetitive-customer-questions/
 summary: When a new contract triggers late nights across finance, procurement and operations, the cause is usually late visibility of the pipeline and no defined customer-setup process.
 layout: plain
 ---
@@ -35,7 +36,9 @@ An illustrative example: a KwaZulu-Natal cleaning and hygiene services company w
 
 The scramble is usually explained as the natural cost of growth: new work brings new effort. But much of the scramble is not caused by the work itself. It is caused by the fact that the rest of the business did not know the work was coming, and that the steps needed to set up a new customer are not defined as a single, owned process.
 
-In most businesses the information that would have prevented the scramble already existed. The opportunity was in the pipeline for months. Its likely value, products, start date and probability were known to sales. That information simply never reached the people who would have to deliver, buy, staff and bill for it. Modern CRM platforms are built to forecast likely revenue from the pipeline; Microsoft's Dynamics 365 Sales documentation, for example, describes predicting how much revenue a sales team will generate in a given timeframe. The question is whether anyone outside sales ever sees that forecast in a form they can plan from.
+In most businesses the information that would have prevented the scramble already existed. The opportunity was in the pipeline for months. Its likely value, products, start date and probability were known to sales. That information simply never reached the people who would have to deliver, buy, staff and bill for it.
+
+Modern CRM platforms are built to forecast likely revenue from the pipeline; Microsoft's Dynamics 365 Sales documentation, for example, describes predicting how much revenue a sales team will generate in a given timeframe. The question is whether anyone outside sales ever sees that forecast in a form they can plan from. Microsoft's Dynamics 365 Sales guide to [viewing a forecast](https://learn.microsoft.com/en-us/dynamics365/sales/view-forecasts) describes a forecast as a real-time view of quota attainment, pipeline health and revenue risk.
 
 > Realisation prompt: when did your operations, procurement and finance teams first hear about your last significant win, and when could they have heard?
 

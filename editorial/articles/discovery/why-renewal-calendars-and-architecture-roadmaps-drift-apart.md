@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-349
 slug: why-renewal-calendars-and-architecture-roadmaps-drift-apart
 title: Renewal calendars are disconnected from architecture roadmaps
-description: The roadmap says retire, but the contract renews for another year. How to join renewal dates and notice deadlines to the technology plan, especially as AI tools multiply.
+description: The roadmap says retire, but the contract renews for another year. How to join renewal dates and notice deadlines to the technology plan.
 lead: The roadmap says retire, but the contract renews for another year. How to join renewal dates and notice deadlines to the technology plan, especially as AI tools multiply.
 category: SaaS & Application Portfolio Management
 published_date: 2026-10-08
@@ -33,9 +33,9 @@ An architecture roadmap is a statement of intent: which systems the business wil
 
 In smaller businesses the roadmap may be a slide or a conversation, and the renewal calendar a spreadsheet or someone's memory. The disconnect is not a software gap but a gap in how two pieces of knowledge are shared.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Technology managers, operations directors and finance leads search for ways to avoid auto-renewals, align technology spending with strategy and decide which tools to standardise. What they want is a single view that answers three questions together: what is the plan for each system, when are we committed until, and what is the next decision we must make?
+Technology managers, operations directors and finance leads want ways to avoid auto-renewals, align technology spending with strategy and decide which tools to standardise. What they want is a single view that answers three questions together: what is the plan for each system, when are we committed until, and what is the next decision we must make?
 
 ## Evidence and system mechanism
 

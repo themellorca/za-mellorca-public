@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-104
 slug: why-salespeople-spend-time-updating-systems-instead-of-selling
-title: Why Salespeople Spend Time Updating Systems Instead of Selling
+title: Why salespeople spend time updating systems instead of selling
 description: When salespeople update a CRM, a forecast sheet and a quote tool after every meeting, they are acting as the integration between disconnected sales systems.
 lead: When salespeople update a CRM, a forecast sheet and a quote tool after every meeting, they are acting as the integration between disconnected sales systems.
 category: Sales, Leads & Revenue Handoffs
@@ -18,9 +18,9 @@ sources:
   - Welcome to Dynamics 365 Sales | https://learn.microsoft.com/en-us/dynamics365/sales/overview
   - Understand what is sales accelerator | https://learn.microsoft.com/en-us/dynamics365/sales/sales-accelerator-intro
 related:
-  - The Cost of Delayed Handoffs After a Deal Is Won | /patterns/the-cost-of-delayed-handoffs-after-a-deal-is-won/
-  - Why Do Good Leads Disappear Between Marketing and Sales? | /patterns/why-good-leads-disappear-between-marketing-and-sales/
-  - When a Lead Enters the CRM but Nobody Acts | /patterns/when-a-lead-enters-the-crm-but-nobody-acts/
+  - The cost of delayed handoffs after a deal is won | /patterns/the-cost-of-delayed-handoffs-after-a-deal-is-won/
+  - Why do good leads disappear between marketing and sales? | /patterns/why-good-leads-disappear-between-marketing-and-sales/
+  - When a lead enters the CRM but nobody acts | /patterns/when-a-lead-enters-the-crm-but-nobody-acts/
 summary: When salespeople update a CRM, a forecast sheet and a quote tool after every meeting, they are acting as the integration between disconnected sales systems.
 layout: plain
 ---
@@ -56,7 +56,7 @@ The Insight [Why CRM Adoption Problems Are Often Workflow Problems](/insights/wh
 - **Fields chosen for reporting.** Mandatory fields reflect what management reports require, not what helps the next sales action.
 - **Weekly reconciliation rituals.** The sales meeting depends on manually reconciled data, so the week ends with an administrative catch-up.
 
-Current CRM platforms acknowledge the problem directly. Microsoft's documentation for Dynamics 365 Sales, for instance, describes features to minimise routine tasks by suggesting new contacts, meetings and tasks automatically, capturing activities from email and calendar, and surfacing sales data inside Outlook to reduce app switching. Its sales accelerator documentation notes that sellers spend valuable time navigating multiple sources to decide whom to engage. These features help, but only if the surrounding process is redesigned to use them.
+Current CRM platforms acknowledge the problem directly. Microsoft's documentation for Dynamics 365 Sales, for instance, describes features to minimise routine tasks by suggesting new contacts, meetings and tasks automatically, capturing activities from email and calendar, and surfacing sales data inside Outlook to reduce app switching. Its [sales accelerator](https://learn.microsoft.com/en-us/dynamics365/sales/sales-accelerator-intro) documentation notes that sellers spend valuable time navigating multiple sources to decide whom to engage. These features help, but only if the surrounding process is redesigned to use them.
 
 ## Commercial impact
 

@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-179
 slug: wi-fi-dead-zones-staff-searching-for-signal-cost
-title: Wi-Fi Dead Zones: The Cost of Staff Moving Around to Find a Signal
-description: When parts of the office, warehouse or meeting rooms have no reliable Wi-Fi, people walk, wait and work around it. Coverage gaps are measurable and usually fixable.
+title: Wi-Fi dead zones: The cost of staff moving around to find a signal
+description: When parts of the office, warehouse or meeting rooms have no reliable Wi-Fi, people walk, wait and work around it. Coverage gaps are measurable.
 lead: When parts of the office, warehouse or meeting rooms have no reliable Wi-Fi, people walk, wait and work around it. Coverage gaps are measurable and usually fixable.
 category: Digital Infrastructure
 published_date: 2026-10-07
@@ -17,9 +17,9 @@ sources:
   - High Density Wi-Fi Deployments | https://documentation.meraki.com/Architectures_and_Best_Practices/Cisco_Meraki_Best_Practice_Design/Best_Practice_Design_-_MR_Wireless/High_Density_Wi-Fi_Deployments
   - Fix Wi-Fi connection issues in Windows - Microsoft Support | https://support.microsoft.com/en-us/windows/experience/connectivity-networking/fix-wi-fi-connection-issues-in-windows
 related:
-  - Premium Plans for Basic Work: The Cost of Overbuying Software | /impact/premium-software-plans-basic-needs-overbuying-cost/
-  - Software Bought Without Approval: The Financial and Security Cost of Shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
-  - Shared Passwords at Work: The Cost of Losing Accountability and Control | /impact/shared-passwords-lost-accountability-breach-exposure/
+  - Premium plans for basic work: The cost of overbuying software | /impact/premium-software-plans-basic-needs-overbuying-cost/
+  - Software bought without approval: The financial and security cost of shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
+  - Shared passwords at work: The cost of losing accountability and control | /impact/shared-passwords-lost-accountability-breach-exposure/
 summary: When parts of the office, warehouse or meeting rooms have no reliable Wi-Fi, people walk, wait and work around it. Coverage gaps are measurable and usually fixable.
 layout: plain
 ---
@@ -39,7 +39,7 @@ These are coverage gaps, often called dead zones: parts of a building where the 
 
 ## Why dead zones happen
 
-Wireless signal weakens with distance and is absorbed or reflected by building materials, metal racking, lift shafts, filing cabinets and even people. Neighbouring networks and other devices add interference. Cisco's site survey guidance for wireless networks notes that many problems arise from poor planning and coverage, and sets out how surveys measure signal strength, signal-to-noise ratio and overlap between access points across every area that needs service. For voice and video, Cisco's guidance recommends designing so that the signal at the edge of each access point's coverage is at least -67 dBm, with a signal-to-noise ratio of 25 dB and enough overlap for devices to move between access points without dropping.
+Wireless signal weakens with distance and is absorbed or reflected by building materials, metal racking, lift shafts, filing cabinets and even people. Neighbouring networks and other devices add interference. Cisco's [site survey](https://www.cisco.com/c/en/us/support/docs/wireless/5500-series-wireless-controllers/116057-site-survey-guidelines-wlan-00.html) guidance for wireless networks notes that many problems arise from poor planning and coverage, and sets out how surveys measure signal strength, signal-to-noise ratio and overlap between access points across every area that needs service. For voice and video, Cisco's guidance recommends designing so that the signal at the edge of each access point's coverage is at least -67 dBm, with a signal-to-noise ratio of 25 dB and enough overlap for devices to move between access points without dropping.
 
 Those are engineering numbers, but the business meaning is simple. A spot can show bars on a laptop and still be too weak or noisy for a stable call, a reliable scanner connection or a fast file save.
 

@@ -2,9 +2,9 @@
 hub: patterns
 record_id: PAT-252
 slug: when-a-spreadsheet-becomes-a-business-critical-system
-title: When a Spreadsheet Becomes a Business-Critical System
-description: Explores how ad-hoc spreadsheets evolve into central data dependencies, exposing governance, risk, and scalability challenges, and outlines practical steps to modernize data infrastructure.
-lead: Explores how ad-hoc spreadsheets evolve into central data dependencies, exposing governance, risk, and scalability challenges, and outlines practical steps to modernize data infrastructure.
+title: When a spreadsheet becomes a business-critical system
+description: A spreadsheet built for one job quietly becomes something the business depends on. The risks that follows, and practical steps to put it on a firmer footing.
+lead: A spreadsheet built for one job quietly becomes something the business depends on. The risks that follows, and practical steps to put it on a firmer footing.
 category: Data integrity and operational systems
 published_date: 2026-10-02
 updated_date: 2026-10-02
@@ -18,10 +18,10 @@ sources:
   - Review of quality assurance of government models | https://www.gov.uk/government/publications/review-of-quality-assurance-of-government-models
   - What Is Data Quality? - IBM | https://www.ibm.com/think/topics/data-quality
 related:
-  - Why One Number Requires Three People and Four Systems | /patterns/why-one-number-requires-three-people-and-four-systems/
-  - Why AI Adoption Creates a New Access-Control Problem | /patterns/why-ai-adoption-creates-a-new-access-control-problem/
-  - When Poor Data Quality Becomes an Automation Failure | /patterns/when-poor-data-quality-becomes-an-automation-failure/
-summary: Explores how ad-hoc spreadsheets evolve into central data dependencies, exposing governance, risk, and scalability challenges, and outlines practical steps to modernize data infrastructure.
+  - Why one number requires three people and four systems | /patterns/why-one-number-requires-three-people-and-four-systems/
+  - Why AI adoption creates a new access-control problem | /patterns/why-ai-adoption-creates-a-new-access-control-problem/
+  - When poor data quality becomes an automation failure | /patterns/when-poor-data-quality-becomes-an-automation-failure/
+summary: A spreadsheet built for one job quietly becomes something the business depends on. The risks that follows, and practical steps to put it on a firmer footing.
 layout: plain
 ---
 ## Observable condition
@@ -40,7 +40,7 @@ This is closely related to the pattern in [why your most important process is ru
 
 The realisation is that the spreadsheet is not just a tool. It has become an operational substrate. Macros, linked workbooks and embedded logic create implicit data dependencies that are hard to map, audit or defend in a regulated context. As teams scale, the absence of formal data governance (ownership, definitions, access controls and change history) turns these artefacts into systemic risk rather than temporary aids. The consequence is slower decision cycles, higher error rates and a brittle chain of manual handoffs between departments.
 
-The UK public sector reached a similar realisation about analytical models more broadly. A 2013 review led by Sir Nicholas Macpherson examined how government assured the quality of models informing major decisions, and its follow-on guidance, the AQuA Book, singles out business-critical models, where errors carry significant reputational, economic or legal consequences, for stronger documentation and governance. A private business does not need that apparatus, but the idea of naming which spreadsheets are business-critical is directly useful.
+The UK public sector reached a similar realisation about analytical models more broadly. A 2013 review led by Sir Nicholas Macpherson examined how government assured the quality of models informing major decisions, and its follow-on guidance, the [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government), singles out business-critical models, where errors carry significant reputational, economic or legal consequences, for stronger documentation and governance. A private business does not need that apparatus, but the idea of naming which spreadsheets are business-critical is directly useful.
 
 ## Identification
 

@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000256
 slug: why-customers-want-to-talk-to-someone-who-knows-them
-title: Why Customers Want to Talk to Someone Who Knows Them
-description: Customers rarely ask for intimacy in a follow-up call; they ask for continuity. What it means to be known by a business, and how to make that knowledge portable.
+title: Why customers want to talk to someone who knows them
+description: Customers rarely ask for intimacy in a follow-up call. They ask for continuity. What it means to be known by a business, and how to make that portable.
 lead: Customers rarely ask for intimacy in a follow-up call; they ask for continuity. What it means to be known by a business, and how to make that knowledge portable.
 category: Human Connection & Belonging
 published_date: 2026-10-08
@@ -20,9 +20,10 @@ sources:
   - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
   - Who makes an application to process Special Personal Information? | https://www.inforegulator.org.za/popia/
 related:
-  - Why Self-Service Can Feel Like Respect | /moments/why-self-service-can-feel-like-respect/
-  - Why the Person Closest to the Problem Can't Fix It | /moments/why-the-person-closest-to-the-problem-cant-fix-it/
-  - The Founder Who Wants to Step Back but Can't | /moments/the-founder-who-wants-to-step-back-but-cant/
+  - Why self-service can feel like respect | /moments/why-self-service-can-feel-like-respect/
+  - Why the person closest to the problem can't fix it | /moments/why-the-person-closest-to-the-problem-cant-fix-it/
+  - The founder who wants to step back but can't | /moments/the-founder-who-wants-to-step-back-but-cant/
+  - The small joy of a form that remembers you | /moments/the-small-joy-of-a-follow-up-form-that-remembers-you/
 summary: Customers rarely ask for intimacy in a follow-up call; they ask for continuity. What it means to be known by a business, and how to make that knowledge portable.
 layout: plain
 ---

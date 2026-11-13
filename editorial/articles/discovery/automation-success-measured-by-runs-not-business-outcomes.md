@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-460
 slug: automation-success-measured-by-runs-not-business-outcomes
 title: Automation success is measured by runs rather than business outcomes
-description: Run counts and hours-saved estimates make automation programmes look busy without proving a result. How to define, baseline and report the business outcome each automation should change.
+description: Run counts and hours-saved estimates look busy but prove nothing. How to define, baseline and report the business outcome each automation changes.
 lead: Run counts and hours-saved estimates make automation programmes look busy without proving a result. How to define, baseline and report the business outcome each automation should change.
 category: AI, Automation & Agent Operations
 published_date: 2026-10-03
@@ -15,8 +15,9 @@ budget_owner: CFO
 sources:
   - Google SRE - Defining slo: service level objective meaning | https://sre.google/sre-book/service-level-objectives/
   - Google SRE monitoring ditributed system - sre golden signals | https://sre.google/sre-book/monitoring-distributed-systems/
+  - Choose the best methods and tools to measure business value - Power Platform | Microsoft Learn | https://learn.microsoft.com/en-us/power-platform/guidance/adoption/business-value-methods
 related:
-  - Why Automations Should Not Run on Personal Credentials | /discovery/why-automations-should-not-run-on-personal-credentials/
+  - Why automations should not run on personal credentials | /discovery/why-automations-should-not-run-on-personal-credentials/
   - Automation candidates are chosen by novelty instead of business value | /discovery/automation-candidates-are-chosen-by-novelty-instead-of-business-value/
   - AI usage costs are not allocated to business outcomes | /discovery/ai-usage-costs-not-allocated-to-business-outcomes/
 summary: Run counts and hours-saved estimates make automation programmes look busy without proving a result. How to define, baseline and report the business outcome each automation should change.
@@ -30,9 +31,9 @@ The automation dashboard is green. Thousands of runs completed, a high success r
 
 The gap exists because a run is an activity, not a result. A flow that copies an email attachment into a folder "succeeds" every time it copies the file, whether or not the invoice inside it is ever processed. A bot that creates a ticket "succeeds" whether or not the customer's problem is resolved. Counting runs measures how much the automation did, not what the business got.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The person searching is usually a COO, finance director or the sponsor of an automation programme who has been asked to justify the spend. Their questions sound like "how to measure automation ROI", "automation KPIs that matter", "RPA success metrics", "how to prove automation is working" or "hours saved is not a real saving".
+The person facing this is usually a COO, finance director or the sponsor of an automation programme who has been asked to justify the spend. Their questions sound like "how to measure automation ROI", "automation KPIs that matter", "RPA success metrics", "how to prove automation is working" or "hours saved is not a real saving".
 
 What they want is a way to show, with evidence the board will accept, that automation changed a business result, and a way to spot automations that run constantly but contribute nothing.
 
@@ -42,7 +43,7 @@ Site reliability engineering has dealt with the same trap for years, and its gui
 
 The same book's chapter on monitoring separates "what's broken" (the symptom a user experiences) from "why" (the internal cause), and argues for alerting on symptoms that are actually affecting users rather than internal states ([Google SRE: Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/)). A run count is an internal state. A customer waiting three days for a refund is a symptom.
 
-The mechanism inside a business is predictable. Automation platforms log executions natively, so run data is free. Outcome data, such as cycle time from request to completion or the share of cases needing manual correction, sits across the CRM, the accounting system and people's inboxes, and has to be assembled deliberately. The free number wins by default, and over time it becomes the number people are rewarded for.
+The mechanism inside a business is predictable. Automation platforms log executions natively, so run data is free. Outcome data, such as cycle time from request to completion or the share of cases needing manual correction, sits across the CRM, the accounting system and people's inboxes, and has to be assembled deliberately. The free number wins by default, and over time it becomes the number people are rewarded for. Microsoft's own guidance on [measuring the business value of Power Platform solutions](https://learn.microsoft.com/en-us/power-platform/guidance/adoption/business-value-methods) starts from the objectives the solution is meant to serve and asks that KPIs such as response times, resolution times and error rates align with them.
 
 ## Problem owner and why now
 

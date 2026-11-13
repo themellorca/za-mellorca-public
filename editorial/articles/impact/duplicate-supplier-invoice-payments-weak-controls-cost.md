@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-356
 slug: duplicate-supplier-invoice-payments-weak-controls-cost
-title: Paying the Same Supplier Invoice Twice: The Direct Cost of Weak Controls
-description: Duplicate supplier payments are cash that leaves the business for nothing. Simple controls on invoice numbers, supplier records and payment runs prevent most of them and recover the rest.
+title: Paying the same supplier invoice twice: The direct cost of weak controls
+description: Duplicate supplier payments send cash out for nothing. Simple controls on invoice numbers, supplier records and payment runs prevent most of them.
 lead: Duplicate supplier payments are cash that leaves the business for nothing. Simple controls on invoice numbers, supplier records and payment runs prevent most of them and recover the rest.
 category: Finance Operations
 published_date: 2026-10-03
@@ -15,10 +15,11 @@ primary_cost_mechanism: Direct cash loss, cash-flow impact, recovery labour and 
 sources:
   - National Fraud Initiative Report 2022 - 2024 (HTML) | https://www.gov.uk/government/publications/national-fraud-initiative-reports/national-fraud-initiative-report-2022-2024-html
   - Vendor invoices overview - Finance - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/vendor-invoices-overview
+  - Procure to pay (part 4) - GOV.UK | https://www.gov.uk/government/publications/help-with-vat-compliance-controls-guidelines-for-compliance-gfc8/procure-to-pay-part-4
 related:
-  - The Payroll Cost of a Slow, Spreadsheet-Heavy Month-End | /impact/manual-month-end-close-payroll-cost/
-  - Two Departments, Same Work: The Payroll Cost of Duplicated Effort | /impact/departments-duplicating-same-work-payroll-cost/
-  - Late Invoices from Manual Billing: The Cash-Flow Cost | /impact/late-invoicing-manual-billing-cash-flow-cost/
+  - The payroll cost of a slow, spreadsheet-heavy month-end | /impact/manual-month-end-close-payroll-cost/
+  - Two departments, same work: The payroll cost of duplicated effort | /impact/departments-duplicating-same-work-payroll-cost/
+  - Late invoices from manual billing: The cash-flow cost | /impact/late-invoicing-manual-billing-cash-flow-cost/
 summary: Duplicate supplier payments are cash that leaves the business for nothing. Simple controls on invoice numbers, supplier records and payment runs prevent most of them and recover the rest.
 layout: plain
 ---
@@ -52,7 +53,7 @@ That estimate relates to large public bodies in another country and should not b
 
 ## What accounting systems can already do
 
-Many accounting and ERP systems include duplicate checks that are switched off or not used consistently. Microsoft's [vendor invoices overview for Dynamics 365 Finance](https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/vendor-invoices-overview), for example, describes an option that stops an invoice being submitted for approval when its number matches another posted invoice, alerting the person who submitted it, if the accounts payable parameter is set to reject duplicates. The same page describes blocking submission when the invoice total does not match the registered total, and matching invoice lines to product receipts. Smaller accounting packages commonly offer simpler versions, such as a warning when a supplier invoice reference has been used before.
+Many accounting and ERP systems include duplicate checks that are switched off or not used consistently. Microsoft's [vendor invoices overview for Dynamics 365 Finance](https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/vendor-invoices-overview), for example, describes an option that stops an invoice being submitted for approval when its number matches another posted invoice, alerting the person who submitted it, if the accounts payable parameter is set to reject duplicates. The same page describes blocking submission when the invoice total does not match the registered total, and matching invoice lines to product receipts. Smaller accounting packages commonly offer simpler versions, such as a warning when a supplier invoice reference has been used before. HMRC's [procure-to-pay compliance guidance](https://www.gov.uk/government/publications/help-with-vat-compliance-controls-guidelines-for-compliance-gfc8/procure-to-pay-part-4) lists, as a control point, that an invoice is recorded only once.
 
 These checks are valuable but not complete. An exact-match check on invoice numbers will not catch a number typed with an extra space, a different prefix or a different supplier record. Controls need to cover data quality as well as system settings.
 

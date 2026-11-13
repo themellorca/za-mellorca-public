@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-380
 slug: when-your-business-wants-agents-but-has-no-defined-workflow
-title: When Your Business Wants Agents but Has No Defined Workflow
-description: When a business wants AI agents before it can clearly describe how work should move, agent adoption may expose an operating-model problem rather than a prompting problem.
+title: When your business wants agents but has no defined workflow
+description: Wanting AI agents before you can describe how work should move exposes an operating-model problem, not a prompting problem. Fix the process first.
 lead: When a business wants AI agents before it can clearly describe how work should move, agent adoption may expose an operating-model problem rather than a prompting problem.
 category: AI Readiness, Agents & Intelligent Operations
 published_date: 2026-09-02
@@ -17,9 +17,9 @@ tags:
 cta_label: Automation & AI Workflows
 cta_href: /services/business-automation-ai-workflows/
 side_title: Commercial value
-side_text: Agent value depends on whether the organization has created a workflow that autonomy can execute safely and economically.
+side_text: Agent value depends on whether the organisation has created a workflow that autonomy can execute safely and economically.
 pattern_family: AI Readiness, Agents & Intelligent Operations
-observable_condition: The organization wants AI agents to execute work, but the process still depends on informal handoffs, unclear ownership, undocumented exceptions and human knowledge that has not been translated into a repeatable workflow.
+observable_condition: The organisation wants AI agents to execute work, but the process still depends on informal handoffs, unclear ownership, undocumented exceptions and human knowledge that has not been translated into a repeatable workflow.
 primary_identification: workflow-definition and agent-readiness problem
 commercial_value_dimensions: Productivity, Margin, Scalability, Innovation, Competitive advantage
 sources:
@@ -48,7 +48,7 @@ An agent dropped into that situation would have to guess. Some guesses would be 
 
 An agent cannot reliably execute a workflow the organisation itself has not defined. The more autonomy an agent receives, the more important it becomes to specify outcomes, boundaries, decision rules, escalation paths and human review.
 
-Microsoft's 2026 Work Trend Index describes leading AI users as more likely to document agent workflows, human handoffs and quality standards. In its survey the gap held at team, function and organisation level; at organisation level, for example, 25% of the most advanced group reported this documentation against 14% of others. Its broader conclusion is that capturing AI value requires rearchitecting work, not simply adding an agent to the existing mess.
+Microsoft's 2026 [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization) describes leading AI users as more likely to document agent workflows, human handoffs and quality standards. In its survey the gap held at team, function and organisation level; at organisation level, for example, 25% of the most advanced group reported this documentation against 14% of others. Its broader conclusion is that capturing AI value requires rearchitecting work, not simply adding an agent to the existing mess.
 
 > **Realisation prompt:** could two experienced employees independently describe the same workflow, including exceptions and escalation rules, without disagreeing about how it actually works?
 

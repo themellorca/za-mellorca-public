@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-052
 slug: what-a-good-system-integration-actually-does
-title: What a Good System Integration Actually Does
+title: What a good system integration actually does
 description: A clear view of integration as a systemic capability, not a one-off project, and how it enables reliable, observable, and scalable operations.
 lead: A clear view of integration as a systemic capability, not a one-off project, and how it enables reliable, observable, and scalable operations.
 category: Technology & IT
@@ -15,7 +15,7 @@ sources:
   - Idempotent Consumer Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/idempotent-consumer
   - IBM Cloud products | https://www.ibm.com/cloud
 related:
-  - Why More Software Can Make the Business Harder to Run | /insights/why-more-software-can-make-the-business-harder-to-run/
+  - Why more software can make the business harder to run | /insights/why-more-software-can-make-the-business-harder-to-run/
   - Key-person dependency is a systems problem | /insights/key-person-dependency-is-a-systems-problem/
   - Why CRM adoption problems are often workflow problems | /insights/why-crm-adoption-problems-are-often-workflow-problems/
 summary: A clear view of integration as a systemic capability, not a one-off project, and how it enables reliable, observable, and scalable operations.

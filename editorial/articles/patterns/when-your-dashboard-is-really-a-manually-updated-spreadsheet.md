@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-057
 slug: when-your-dashboard-is-really-a-manually-updated-spreadsheet
-title: When Your Dashboard Is Really a Manually Updated Spreadsheet
-description: A dashboard that is filled by someone pasting figures into a spreadsheet looks live but is not. Here is why that matters for decisions, and how to connect the data or make its age visible.
+title: When your dashboard is really a manually updated spreadsheet
+description: A dashboard filled by someone pasting figures into a spreadsheet looks live but is not. Connect the data or make its age visible.
 lead: A dashboard that is filled by someone pasting figures into a spreadsheet looks live but is not. Here is why that matters for decisions, and how to connect the data or make its age visible.
 category: Reporting & Operational Visibility
 published_date: 2026-10-06
@@ -19,9 +19,9 @@ sources:
   - Power BI usage scenarios: Personal BI - Power BI | https://learn.microsoft.com/en-us/power-bi/guidance/powerbi-implementation-planning-usage-scenario-personal-bi
   - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
 related:
-  - The Difference Between Having Data and Having Visibility | /patterns/the-difference-between-having-data-and-having-visibility/
-  - Why Reporting Delays Become Decision Delays | /patterns/why-reporting-delays-become-decision-delays/
-  - Why Decision-Makers Keep Asking for Status Updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
+  - The difference between having data and having visibility | /patterns/the-difference-between-having-data-and-having-visibility/
+  - Why reporting delays become decision delays | /patterns/why-reporting-delays-become-decision-delays/
+  - Why decision-makers keep asking for status updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
 summary: A dashboard that is filled by someone pasting figures into a spreadsheet looks live but is not. Here is why that matters for decisions, and how to connect the data or make its age visible.
 layout: plain
 ---
@@ -35,7 +35,7 @@ The dashboard looks live. It is actually a manually maintained report presented 
 
 ## Realisation
 
-The realisation is that the format has created a false impression. People treat a dashboard as a current view of the business, because that is what dashboards are for. Microsoft's Power BI documentation describes dashboards as a way to monitor your business and see your most important metrics at a glance, with tiles that update as the underlying data changes. When the underlying data is a spreadsheet updated by hand once a week, that promise is not being kept, and decisions are being made on the assumption that it is.
+The realisation is that the format has created a false impression. People treat a dashboard as a current view of the business, because that is what dashboards are for. Microsoft's [Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards) documentation describes dashboards as a way to monitor your business and see your most important metrics at a glance, with tiles that update as the underlying data changes. When the underlying data is a spreadsheet updated by hand once a week, that promise is not being kept, and decisions are being made on the assumption that it is.
 
 The gap is not only one of freshness. A manually updated dashboard also depends on one person's routine, carries every copy-and-paste risk of a spreadsheet, and gives no warning when something has gone wrong. The visual polish makes the figures look more authoritative than the process behind them deserves.
 
@@ -51,7 +51,7 @@ It is a specific form of the broader risk described in [when a spreadsheet becom
 
 - **The dashboard was built before the data flow.** A dashboard tool was bought or a template was adopted, and the quickest way to fill it was to paste figures in. The temporary arrangement became permanent.
 - **Sources cannot be connected easily.** One or more systems has no convenient connection, so its data arrives by export. Once one source is manual, the whole update becomes a manual ritual.
-- **Refresh is a person, not a setting.** Excel itself can refresh external data connections when a workbook opens or at a set interval, and Power BI can refresh imported data on a schedule. When those options are not used, freshness depends on someone remembering.
+- **Refresh is a person, not a setting.** Excel itself can refresh external data connections when a workbook opens or at a set interval, and [Power BI](https://learn.microsoft.com/en-us/power-bi/guidance/powerbi-implementation-planning-usage-scenario-personal-bi) can refresh imported data on a schedule. When those options are not used, freshness depends on someone remembering.
 - **No freshness indicator.** The dashboard does not show the time of the last update, so stale figures look identical to current ones.
 - **Personal ownership.** The file lives in one person's folder or workspace. Microsoft's guidance on personal analytics advises limiting the use of personal workspaces and keeping mission-critical content out of them, because storing critical content there represents risk to the organisation.
 

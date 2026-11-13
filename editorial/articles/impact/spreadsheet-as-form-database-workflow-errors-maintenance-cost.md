@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-036
 slug: spreadsheet-as-form-database-workflow-errors-maintenance-cost
-title: One Spreadsheet, Three Jobs: The Cost of Using Excel as Form, Database and Workflow
-description: When one spreadsheet captures requests, stores the records and drives the process, every edit risks the data, every change needs its author, and errors spread quietly.
+title: One spreadsheet, three jobs: The cost of using Excel as form, database and workflow
+description: When one spreadsheet captures requests, stores records and drives the process, every edit risks the data, every change needs its author and errors spread.
 lead: When one spreadsheet captures requests, stores the records and drives the process, every edit risks the data, every change needs its author, and errors spread quietly.
 category: Digital Operations
 published_date: 2026-10-05
@@ -17,9 +17,9 @@ sources:
   - What is a list in Microsoft 365? - Microsoft Support | https://support.microsoft.com/en-us/sharepoint/lists/data-and-lists/what-is-a-list-in-microsoft-365
   - Microsoft SharePoint Connector for Power Automate | https://learn.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/sharepoint-connector-actions-triggers
 related:
-  - The Human Dispatcher: The Cost of Manually Routing Every Incoming Request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
-  - When Every Decision Waits for One Person: The Cost of a Decision Bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
-  - When Your Experts Become the Help Desk: The Cost of Routine Requests | /impact/specialists-pulled-into-routine-requests-expertise-cost/
+  - The human dispatcher: The cost of manually routing every incoming request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
+  - When every decision waits for one person: The cost of a decision bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
+  - When your experts become the help desk: The cost of routine requests | /impact/specialists-pulled-into-routine-requests-expertise-cost/
 summary: When one spreadsheet captures requests, stores the records and drives the process, every edit risks the data, every change needs its author, and errors spread quietly.
 layout: plain
 ---
@@ -98,7 +98,7 @@ Store the records somewhere designed for shared use. Microsoft describes Lists i
 
 ### Automation for the workflow
 
-Let events, not people checking, drive the next step. Microsoft's documentation for the SharePoint connector in Power Automate lists triggers such as *When an item is created* and *When an item is created or modified*, which can notify the next person, start an approval or update another system when a record changes.
+Let events, not people checking, drive the next step. Microsoft's documentation for the [SharePoint connector](https://learn.microsoft.com/en-us/sharepoint/dev/business-apps/power-automate/sharepoint-connector-actions-triggers) in Power Automate lists triggers such as *When an item is created* and *When an item is created or modified*, which can notify the next person, start an approval or update another system when a record changes.
 
 ### The spreadsheet for analysis
 

@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000036
 slug: the-attention-spent-remembering-what-systems-should-remember
-title: The Attention Spent Remembering What Systems Should Remember
-description: VAT returns, licence renewals, insurance reviews, recurring invoices: in many small businesses, the calendar of obligations lives in one person's head. What that quietly costs them, and how to move the remembering into the systems.
+title: The attention spent remembering what systems should remember
+description: VAT returns, licence renewals and insurance reviews often live in one person's head. What that costs a small business, and how to move it into systems.
 lead: VAT returns, licence renewals, insurance reviews, recurring invoices: in many small businesses, the calendar of obligations lives in one person's head. What that quietly costs them, and how to move the remembering into the systems.
 category: Time & Attention
 published_date: 2026-10-06
@@ -20,9 +20,9 @@ sources:
   - Run a cloud flow on a schedule in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks
   - Specify when and how to receive workflow notifications - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-to-specify-when-and-how-to-receive-notifications
 related:
-  - The Saturday Morning Spent on Invoices | /moments/the-saturday-morning-spent-on-invoices/
-  - When Payroll Week Means Late Nights for One Person | /moments/when-payroll-week-means-late-nights-for-one-person/
-  - When Your Calendar Belongs to Other People's Systems | /moments/when-your-calendar-belongs-to-other-peoples-systems/
+  - The Saturday morning spent on invoices | /moments/the-saturday-morning-spent-on-invoices/
+  - When payroll week means late nights for one person | /moments/when-payroll-week-means-late-nights-for-one-person/
+  - When your calendar belongs to other people's systems | /moments/when-your-calendar-belongs-to-other-peoples-systems/
 summary: VAT returns, licence renewals, insurance reviews, recurring invoices: in many small businesses, the calendar of obligations lives in one person's head. What that quietly costs them, and how to move the remembering into the systems.
 layout: plain
 ---
@@ -62,10 +62,10 @@ A second tax is predictability. When obligations are remembered rather than reco
 The change is not complicated, but it does take a few deliberate hours.
 
 1. **Write the calendar down once.** List every recurring obligation: statutory returns, renewals, reviews, recurring invoices. For each, record the date, the lead time needed, the owner and what "done" looks like. A shared spreadsheet is a perfectly good start.
-2. **Let systems send the reminders.** Most business software can do this. Microsoft's Power Automate documentation, for example, describes cloud flows that run on a schedule, such as every week on a set day, and send an email reminding someone that a document is due. Accounting and workflow tools commonly offer similar scheduled notifications. Business Central lets approvers choose to receive notifications instantly or on a daily, weekly or monthly schedule, including reminders about overdue items.
+2. **Let systems send the reminders.** Most business software can do this. Microsoft's [Power Automate](https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks) documentation, for example, describes cloud flows that run on a schedule, such as every week on a set day, and send an email reminding someone that a document is due. Accounting and workflow tools commonly offer similar scheduled notifications. Business Central lets approvers choose to receive notifications instantly or on a daily, weekly or monthly schedule, including reminders about overdue items.
 3. **Make the routine work run itself where possible.** Recurring invoices with fixed amounts can often be generated automatically, leaving people to handle the exceptions.
 4. **Give each obligation a second name.** A backup person for each item means leave and illness do not leave a gap.
-5. **Review the calendar quarterly.** New contracts, cancelled subscriptions and changed tax periods all need updating. A calendar that drifts out of date becomes another thing to remember.
+5. **Review the calendar quarterly.** New contracts, cancelled subscriptions and changed [tax periods](https://www.sars.gov.za/types-of-tax/value-added-tax/tax-periods-for-vat-vendors/) all need updating. A calendar that drifts out of date becomes another thing to remember.
 
 For the illustrative engineering firm, the financial manager would still be in charge. The difference is that the calendar would exist outside her head, and she could stop scanning ahead each morning because the reminders would come to her.
 

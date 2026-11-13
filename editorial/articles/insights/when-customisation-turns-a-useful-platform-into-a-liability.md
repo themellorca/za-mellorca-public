@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-048
 slug: when-customisation-turns-a-useful-platform-into-a-liability
-title: When Customisation Turns a Useful Platform Into a Liability
-description: Tailoring a platform to fit the business can be valuable, up to a point. Past that point, every update becomes a risk, only one partner understands the system and the business pays to maintain features the vendor now provides. How to recognise the turning point, take stock of existing customisation and set rules for the future.
+title: When customisation turns a useful platform into a liability
+description: Tailoring a platform helps up to a point. Beyond it, every update is a risk and you maintain what the vendor now provides. How to spot the turning point.
 lead: Tailoring a platform to fit the business can be valuable, up to a point. Past that point, every update becomes a risk, only one partner understands the system and the business pays to maintain features the vendor now provides. How to recognise the turning point, take stock of existing customisation and set rules for the future.
 category: Systems & Strategy
 published_date: 2026-10-06
@@ -14,8 +14,8 @@ sources:
   - Optimize your implementation with a fit-to-standard and fit-gap analysis - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis
   - Open Standards principles | https://www.gov.uk/government/publications/open-standards-principles/open-standards-principles
 related:
-  - When a Spreadsheet Is a Useful Tool—and When It Becomes Infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
-  - Why Switching Software Is Not Always the Answer | /insights/why-switching-software-is-not-always-the-answer/
+  - When a spreadsheet is a useful tool—and when it becomes infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
+  - Why switching software is not always the answer | /insights/why-switching-software-is-not-always-the-answer/
   - How to avoid vendor-led architecture | /insights/how-to-avoid-vendor-led-architecture/
 summary: Tailoring a platform to fit the business can be valuable, up to a point. Past that point, every update becomes a risk, only one partner understands the system and the business pays to maintain features the vendor now provides. How to recognise the turning point, take stock of existing customisation and set rules for the future.
 layout: plain

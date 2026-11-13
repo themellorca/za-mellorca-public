@@ -21,6 +21,7 @@ related:
   - Incident lessons do not update preventive controls | /discovery/why-incident-reviews-must-change-the-controls-that-failed/
   - Control testing schedules are maintained in personal calendars | /discovery/why-control-testing-schedules-should-not-live-in-personal-calendars/
   - Control owners cannot produce evidence without manual searching | /discovery/control-owners-cannot-produce-evidence-without-manual-searching/
+  - Customer security questionnaires consume specialist time | /discovery/why-customer-security-questionnaires-keep-pulling-specialists-off-their-work/
 summary: When each team runs its own version of the same control, effort and evidence multiply and answers conflict. How to build one catalogue with single owners.
 layout: plain
 ---
@@ -32,9 +33,9 @@ This article examines that condition: security controls duplicated across teams.
 
 Many security controls apply to the whole business: how people are onboarded and removed, how devices are managed, how backups are tested, how incidents are reported, how suppliers are assessed. When each team builds its own version, the business pays several times for the same protection, produces conflicting evidence and leaves gaps between versions. Some teams over-control, adding work with no extra safety. Others under-control, assuming that another team has it covered. A control that is everyone's job in four different ways is often nobody's job in one clear way.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The IT director, head of security or compliance manager searching for this wants one set of controls that every team can point to, one body of evidence that answers customer and auditor questions consistently, and less repeated effort for the teams who are asked for the same proof several times a year. They also want to find the controls that fall between teams.
+The IT director, head of security or compliance manager facing this wants one set of controls that every team can point to, one body of evidence that answers customer and auditor questions consistently, and less repeated effort for the teams who are asked for the same proof several times a year. They also want to find the controls that fall between teams.
 
 ## Evidence and system mechanism
 

@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000297
 slug: when-training-is-forgotten-because-the-system-changed-again
-title: When Training Is Forgotten Because the System Changed Again
-description: A person learns the system properly, then an update moves the buttons, renames the menus and changes the steps. Each time, confidence has to be rebuilt from scratch. What predictable change and reinforcement give back.
+title: When training is forgotten because the system changed again
+description: A person learns the system, then an update moves the buttons and changes the steps, and confidence must be rebuilt. What predictable change gives back.
 lead: A person learns the system properly, then an update moves the buttons, renames the menus and changes the steps. Each time, confidence has to be rebuilt from scratch. What predictable change and reinforcement give back.
 category: Learning & Growth
 published_date: 2026-10-07
@@ -20,9 +20,9 @@ sources:
   - The Prosci ADKAR® Model - Prosci | https://www.prosci.com/methodology/adkar
   - https://www.microsoft.com/en-us/worklab/work-trend-index/technology-unlocks-a-new-future-for-frontline | https://www.microsoft.com/en-us/worklab/work-trend-index/technology-unlocks-a-new-future-for-frontline
 related:
-  - Ten Open Tabs and Five Logins: What the Morning Sign-In Takes | /moments/ten-open-tabs-and-five-logins/
-  - The School Run Interrupted by a System Alert | /moments/the-school-run-interrupted-by-a-system-alert/
-  - The Quiet Cost of Always Being Reachable | /moments/the-quiet-cost-of-always-being-reachable/
+  - Ten open tabs and five logins: What the morning sign-in takes | /moments/ten-open-tabs-and-five-logins/
+  - The school run interrupted by a system alert | /moments/the-school-run-interrupted-by-a-system-alert/
+  - The quiet cost of always being reachable | /moments/the-quiet-cost-of-always-being-reachable/
 summary: A person learns the system properly, then an update moves the buttons, renames the menus and changes the steps. Each time, confidence has to be rebuilt from scratch. What predictable change and reinforcement give back.
 layout: plain
 ---
@@ -34,7 +34,7 @@ This is a common experience with modern business software, which is updated cont
 
 ## Why software keeps changing
 
-Microsoft's documentation on release options for Microsoft 365 explains the model directly. Instead of large updates every few years, customers receive new features as they become available. Administrators can choose to keep most users on the standard release while a few selected people receive updates early through what Microsoft calls targeted release. The stated purpose is to let administrators and change managers test updates, prepare user notifications and documentation, and brief the internal help desk before changes reach everyone.
+Microsoft's documentation on [release options](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/release-options-in-office-365) for Microsoft 365 explains the model directly. Instead of large updates every few years, customers receive new features as they become available. Administrators can choose to keep most users on the standard release while a few selected people receive updates early through what Microsoft calls targeted release. The stated purpose is to let administrators and change managers test updates, prepare user notifications and documentation, and brief the internal help desk before changes reach everyone.
 
 That guidance describes the tools for managing change. In many small businesses, nobody uses them. Updates simply arrive, on whatever day the vendor releases them, and staff discover them when they log in.
 

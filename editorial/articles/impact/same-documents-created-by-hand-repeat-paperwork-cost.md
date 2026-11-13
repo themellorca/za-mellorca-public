@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-030
 slug: same-documents-created-by-hand-repeat-paperwork-cost
-title: Creating the Same Documents by Hand: The Labour Cost of Repeat Paperwork
+title: Creating the same documents by hand: The labour cost of repeat paperwork
 description: Proposals, contracts, job cards and letters rebuilt by hand each time cost paid hours and introduce errors that templates and document automation can remove.
 lead: Proposals, contracts, job cards and letters rebuilt by hand each time cost paid hours and introduce errors that templates and document automation can remove.
 category: Business Automation
@@ -17,9 +17,9 @@ sources:
   - Word Online (Business) - Connectors | https://learn.microsoft.com/en-us/connectors/wordonlinebusiness/
   - Explore the Power Automate home page - Power Automate | https://learn.microsoft.com/en-us/power-automate/getting-started
 related:
-  - Rebuilding the Same Report Every Month: The Labour Cost of Manual Reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
-  - Print, Sign, Scan, Email: The Labour and Turnaround Cost of Paper-Based Approvals | /impact/print-sign-scan-email-paper-approvals-turnaround-cost/
-  - From Inbox to System by Hand: The Labour Cost of Retyping Emails | /impact/copying-email-details-into-business-systems-admin-cost/
+  - Rebuilding the same report every month: The labour cost of manual reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
+  - Print, sign, scan, email: The labour and turnaround cost of paper-based approvals | /impact/print-sign-scan-email-paper-approvals-turnaround-cost/
+  - From inbox to system by hand: The labour cost of retyping emails | /impact/copying-email-details-into-business-systems-admin-cost/
 summary: Proposals, contracts, job cards and letters rebuilt by hand each time cost paid hours and introduce errors that templates and document automation can remove.
 layout: plain
 ---
@@ -94,7 +94,9 @@ Microsoft's guidance on Word templates makes the basic case: save a document as 
 
 ### Step two: populated documents
 
-The larger saving comes when the template is filled automatically from data the business already holds. Microsoft's Word Online (Business) connector, for example, includes a "Populate a Microsoft Word template" action. A template is prepared with named content controls, and an automated flow fills those fields from a form, a list or another system, then saves, converts to PDF or emails the result. The documentation lists practical limits worth knowing before you design around it: it is a premium connector in Power Automate, only certain content control types are supported, input files are limited to 10MB, and it cannot be used where a multi-factor authentication conditional access policy applies to the action. Other platforms offer similar document generation. The principle is the same: type client and job details once, in the system of record, and let documents draw from there.
+The larger saving comes when the template is filled automatically from data the business already holds. Microsoft's Word Online (Business) connector, for example, includes a "Populate a Microsoft Word template" action. A template is prepared with named content controls, and an automated flow fills those fields from a form, a list or another system, then saves, converts to PDF or emails the result.
+
+The documentation lists practical limits worth knowing before you design around it: it is a premium connector in [Power Automate](https://learn.microsoft.com/en-us/power-automate/getting-started), only certain content control types are supported, input files are limited to 10MB, and it cannot be used where a multi-factor authentication conditional access policy applies to the action. Other platforms offer similar document generation. The principle is the same: type client and job details once, in the system of record, and let documents draw from there.
 
 ## Practical steps
 

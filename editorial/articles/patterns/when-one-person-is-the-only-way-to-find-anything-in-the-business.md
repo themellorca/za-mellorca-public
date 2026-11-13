@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-205
 slug: when-one-person-is-the-only-way-to-find-anything-in-the-business
-title: When One Employee Becomes the Company’s Search Engine
-description: Colleagues ask the same long-serving person where things are because it is faster than searching. Here is how that dependency forms and how to move retrieval into a shared structure.
+title: When one employee becomes the company’s search engine
+description: Colleagues ask the same long-serving person where things are because it is faster than searching. Move retrieval into a shared structure instead.
 lead: Colleagues ask the same long-serving person where things are because it is faster than searching. Here is how that dependency forms and how to move retrieval into a shared structure.
 category: Knowledge, Documentation & Institutional Memory
 published_date: 2026-10-09
@@ -18,9 +18,10 @@ sources:
   - What Is Knowledge Management? - IBM | https://www.ibm.com/think/topics/knowledge-management
   - Knowledge Management in ITSM: Process & Benefits - Atlassian | https://www.atlassian.com/itsm/knowledge-management
 related:
-  - When AI Search Fails Because the Underlying Knowledge Is Chaotic | /patterns/when-ai-search-fails-because-knowledge-is-chaotic/
-  - Why Teams Keep Asking the Same Internal Questions | /patterns/why-teams-keep-asking-the-same-internal-questions/
-  - When Nobody Knows Who Owns the Next Step | /patterns/when-nobody-knows-who-owns-the-next-step/
+  - When AI search fails because the underlying knowledge is chaotic | /patterns/when-ai-search-fails-because-knowledge-is-chaotic/
+  - Why teams keep asking the same internal questions | /patterns/why-teams-keep-asking-the-same-internal-questions/
+  - When nobody knows who owns the next step | /patterns/when-nobody-knows-who-owns-the-next-step/
+  - Why document storage is not the same as knowledge management | /patterns/why-a-full-document-archive-still-leaves-staff-asking-each-other/
 summary: Colleagues ask the same long-serving person where things are because it is faster than searching. Here is how that dependency forms and how to move retrieval into a shared structure.
 layout: plain
 ---
@@ -49,7 +50,7 @@ The published Pattern [why customer service becomes a human search engine](/patt
 ## Diagnosis
 
 - **Information is stored by habit, not by rule.** Files are saved under the name and folder the author found convenient. Over a few years, the same kind of document ends up in six places.
-- **Context is in email and chat.** The reason a decision was made sits in a thread that only the people copied can find. Atlassian's guidance on knowledge sharing points out that useful answers are lost when they remain in private conversations rather than a shared, findable place.
+- **Context is in email and chat.** The reason a decision was made sits in a thread that only the people copied can find. [Atlassian's guidance on internal documentation](https://www.atlassian.com/work-management/knowledge-sharing/documentation) urges teams to get insider knowledge out of people's heads and into documents, so that expertise is not lost when staff leave.
 - **Search tools cannot find what is not described.** Documents with names such as "final v3 revised" give the software nothing to work with, so even a good search function returns noise.
 - **There is no owner for the answers.** Nobody is responsible for keeping the pricing rules, supplier terms or procedures current, so asking a person is the only way to know what is still true.
 - **Being asked is rewarded.** The person who knows is thanked, gains influence and may not wish to give it up. Without anyone intending it, there is little incentive to change.
@@ -61,7 +62,7 @@ The commercial value at stake is productivity, continuity, response time and the
 
 Take a conservative case. If Thandi spends ninety minutes a day answering retrieval questions and each question also interrupts someone else for ten minutes, a team of ten may lose several hours a week. At an average cost of R300 an hour, that is a figure in the tens of thousands of rand a year, before counting delays to customers while an answer is tracked down. The Impact page [on the same internal questions asked repeatedly](/impact/same-internal-questions-undocumented-knowledge-cost/) examines this cost more closely, and [employees searching for files](/impact/employees-searching-for-files-lost-productivity-cost/) covers the searching side.
 
-The continuity risk is larger than the daily cost. IBM describes knowledge management as the practice of capturing and distributing an organisation's knowledge so that it is not lost when people move on. When the business relies on one person's memory, resignation, illness or even an extended holiday can freeze decisions. If the person leaves for a competitor, what walks out is also an index of the company's history.
+The continuity risk is larger than the daily cost. [IBM describes knowledge management](https://www.ibm.com/think/topics/knowledge-management) as the practice of capturing and distributing an organisation's knowledge so that it is not lost when people move on. When the business relies on one person's memory, resignation, illness or even an extended holiday can freeze decisions. If the person leaves for a competitor, what walks out is also an index of the company's history.
 
 There is a people cost too. The person at the centre often cannot take leave without being called, cannot finish their own projects, and may be passed over for growth because they are too useful where they are. Resentment and burnout follow.
 
@@ -73,7 +74,7 @@ The second response is to buy a company-wide search tool or an AI assistant. A s
 
 ## Possibility
 
-In a better state, the common questions have a known home. There is one agreed place for each type of document, a simple naming convention, a short list of owners for the areas people ask about, and a place where answers to repeated questions are saved after they are given. New staff are shown where to look first. The knowledgeable person is consulted for judgement, exceptions and context, not for location. When she is away, the business slows slightly instead of stopping.
+In a better state, the common questions have a known home. There is one agreed place for each type of document, a simple naming convention, a short list of owners for the areas people ask about, and a place where answers to repeated questions are saved after they are given. New staff are shown where to look first. The knowledgeable person is consulted for judgement, exceptions and context, not for location. Atlassian's guide to [knowledge management for service teams](https://www.atlassian.com/itsm/knowledge-management) describes the same aim: capturing and organising what a team knows so that people can find verified answers instead of rediscovering them. When she is away, the business slows slightly instead of stopping.
 
 ## Intervention
 

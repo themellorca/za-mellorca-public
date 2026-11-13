@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-049
 slug: how-disconnected-tools-quietly-limit-scale
-title: How Disconnected Tools Quietly Limit Scale
-description: When every new branch, product or client has to be introduced to each tool separately, the business's software sets its growth ceiling. Here is how to recognise the pattern and remove the seams.
+title: How disconnected tools quietly limit scale
+description: When each new branch, product or client must be added to every tool, software sets the growth ceiling. How to spot the seams and remove them.
 lead: When every new branch, product or client has to be introduced to each tool separately, the business's software sets its growth ceiling. Here is how to recognise the pattern and remove the seams.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-06
@@ -18,9 +18,9 @@ sources:
   - What Are Data Silos? - IBM | https://www.ibm.com/think/topics/data-silos
   - What is Data Integration? - Data Integration Technologies Explained - AWS | https://aws.amazon.com/what-is/data-integration/
 related:
-  - When Adding Software Creates More Work Instead of Less | /patterns/when-adding-software-creates-more-work-instead-of-less/
-  - When Two Tools Do the Same Job and Nobody Knows Which to Use | /patterns/when-two-tools-do-the-same-job-and-nobody-knows-which-to-use/
-  - Why Your Technology Stack Keeps Growing but the Business Gets No Smarter | /patterns/why-a-growing-technology-stack-does-not-make-the-business-smarter/
+  - When adding software creates more work instead of less | /patterns/when-adding-software-creates-more-work-instead-of-less/
+  - When two tools do the same job and nobody knows which to use | /patterns/when-two-tools-do-the-same-job-and-nobody-knows-which-to-use/
+  - Why your technology stack keeps growing but the business gets no smarter | /patterns/why-a-growing-technology-stack-does-not-make-the-business-smarter/
 summary: When every new branch, product or client has to be introduced to each tool separately, the business's software sets its growth ceiling. Here is how to recognise the pattern and remove the seams.
 layout: plain
 ---
@@ -38,7 +38,7 @@ The common explanation is that growth is simply hard and that more people are ne
 
 That means the cost of growth is not only proportional to volume. It is proportional to volume multiplied by the number of places where information has to be moved, re-keyed or reconciled. A business with four disconnected tools and two hand-carried transfers per order has a very different growth ceiling from one where the same order flows through once.
 
-Google's site reliability engineering guidance gives this kind of work a precise name. It describes toil as work that is manual, repetitive, automatable, tactical and without enduring value, and notes that it *scales linearly* as a service grows. Disconnected tools manufacture exactly that kind of work, and they manufacture more of it every time the business succeeds.
+Google's site reliability engineering guidance gives this kind of work a precise name. It [describes toil](https://sre.google/sre-book/eliminating-toil/) as work that is manual, repetitive, automatable, tactical and without enduring value, and notes that it *scales linearly* as a service grows. Disconnected tools manufacture exactly that kind of work, and they manufacture more of it every time the business succeeds.
 
 **Realisation prompt:** the last time you added a branch, product or major client, how many separate systems had to be told about it, and who told them?
 
@@ -57,11 +57,13 @@ Several mechanisms usually combine.
 - **Reconciliation grows faster than either.** When the same customer or item exists in several places, differences creep in. Finding and fixing them takes more effort as the number of records and systems grows.
 - **Knowledge concentrates.** The people who know which export feeds which import, and in which order, become essential. Growth then depends on their availability.
 
-IBM's description of data silos captures the outcome: isolated collections of data that prevent sharing between departments, systems and business units, leading to duplicated workflows, redundant storage and a partial or inconsistent view for decision-makers. IBM also lists business growth itself as one of the ways silos form, because new teams, sites and acquired businesses bring their own tools. AWS makes the same point from the integration side: when data is fragmented, teams must manually clean, filter and reformat datasets from different sources before they can use them, and that causes delays.
+[IBM's description of data silos](https://www.ibm.com/think/topics/data-silos) captures the outcome: isolated collections of data that prevent sharing between departments, systems and business units, leading to duplicated workflows, redundant storage and a partial or inconsistent view for decision-makers. IBM also lists business growth itself as one of the ways silos form, because new teams, sites and acquired businesses bring their own tools. [AWS makes the same point](https://aws.amazon.com/what-is/data-integration/) from the integration side: when data is fragmented, teams must manually clean, filter and reformat datasets from different sources before they can use them, and that causes delays.
 
 ## An illustrative example
 
-The following scenario is illustrative and does not describe a specific organisation. A Gauteng-based distributor of building supplies runs quoting in one cloud tool, stock in a spreadsheet, invoicing in its accounting package and deliveries on a shared calendar. With one depot, the operations manager keeps it together with a morning routine of exports and updates. When the business opens a second depot in the Western Cape, every one of those routines doubles. Stock now has to be reconciled across two spreadsheets, quotes need a manual check against the right depot's stock, and the delivery calendar has to be split. The new depot is profitable on paper, but the head office team spends the first six months absorbing the extra coordination, and the plan for a third depot is quietly postponed.
+The following scenario is illustrative and does not describe a specific organisation. A Gauteng-based distributor of building supplies runs quoting in one cloud tool, stock in a spreadsheet, invoicing in its accounting package and deliveries on a shared calendar. With one depot, the operations manager keeps it together with a morning routine of exports and updates. When the business opens a second depot in the Western Cape, every one of those routines doubles.
+
+Stock now has to be reconciled across two spreadsheets, quotes need a manual check against the right depot's stock, and the delivery calendar has to be split. The new depot is profitable on paper, but the head office team spends the first six months absorbing the extra coordination, and the plan for a third depot is quietly postponed.
 
 ## Commercial impact
 

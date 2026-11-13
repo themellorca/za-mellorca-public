@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-103
 slug: waiting-weeks-for-management-reports-late-visibility-cost
-title: Waiting Weeks for Management Reports: What Late Visibility Costs the Business
-description: When the management pack arrives weeks after month-end, problems run unchecked for that whole period. The cost is the lag multiplied by what goes wrong during it.
+title: Waiting weeks for management reports: What late visibility costs the business
+description: When the management pack arrives weeks after month-end, problems run unchecked all that time. The cost is the lag multiplied by what goes wrong in it.
 lead: When the management pack arrives weeks after month-end, problems run unchecked for that whole period. The cost is the lag multiplied by what goes wrong during it.
 category: Digital Operations
 published_date: 2026-10-06
@@ -17,9 +17,9 @@ sources:
   - What Is Real-Time Analytics? - IBM | https://www.ibm.com/think/topics/real-time-analytics
   - What Are Data Silos? - IBM | https://www.ibm.com/think/topics/data-silos
 related:
-  - Re-keying Orders After the Sale: The Labour and Fulfilment Cost of Disconnected Systems | /impact/orders-rekeyed-after-sale-fulfilment-risk-cost/
-  - The Cost of Work Waiting for Approval | /impact/approval-queues-blocked-capacity-cost/
-  - Which Version Is Final? The Cost of Teams Working From Different Copies | /impact/conflicting-document-versions-rework-decision-cost/
+  - Re-keying orders after the sale: The labour and fulfilment cost of disconnected systems | /impact/orders-rekeyed-after-sale-fulfilment-risk-cost/
+  - The cost of work waiting for approval | /impact/approval-queues-blocked-capacity-cost/
+  - Which version is final? The cost of teams working from different copies | /impact/conflicting-document-versions-rework-decision-cost/
 summary: When the management pack arrives weeks after month-end, problems run unchecked for that whole period. The cost is the lag multiplied by what goes wrong during it.
 layout: plain
 ---
@@ -88,7 +88,7 @@ To use the model, look back at the last year's surprises in your own management 
 
 Most small businesses do not need live dashboards for everything. They need the right numbers at a frequency that matches how fast problems develop.
 
-- **Automated data refresh.** Business intelligence tools can refresh reports from source systems on a schedule. Microsoft's Power BI documentation, for example, explains that models on shared capacity can be scheduled to refresh up to eight times a day, with up to 48 on Premium or Fabric capacity. Even a daily refresh replaces weeks of manual exporting.
+- **Automated data refresh.** Business intelligence tools can refresh reports from source systems on a schedule. Microsoft's [Power BI](https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data) documentation, for example, explains that models on shared capacity can be scheduled to refresh up to eight times a day, with up to 48 on Premium or Fabric capacity. Even a daily refresh replaces weeks of manual exporting.
 - **A split between operational and financial reporting.** Weekly or daily operational indicators, such as job margin, debtor ageing, orders and stock, alongside the fully reconciled monthly pack.
 - **Fit-for-purpose frequency.** IBM notes that batch reporting suits monthly financial reporting and historical trends, while continuous analytics suits situations where acting quickly drives results. The choice depends on how urgent and changeable the information is.
 - **Agreed definitions,** so faster numbers are also trusted numbers.

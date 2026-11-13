@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-202
 slug: ageing-computers-false-hardware-savings-cost
-title: Old Computers Kept Too Long: The False Saving on Hardware
-description: Keeping computers in service past the point where they support productive, secure work looks frugal. The deferred cost reappears as support time, security exposure and rushed replacement.
+title: Old computers kept too long: The false saving on hardware
+description: Keeping computers past the point of productive, secure work looks frugal. The cost returns as support time, security exposure and rushed replacement.
 lead: Keeping computers in service past the point where they support productive, secure work looks frugal. The deferred cost reappears as support time, security exposure and rushed replacement.
 category: Digital Infrastructure
 published_date: 2026-10-03
@@ -15,10 +15,12 @@ primary_cost_mechanism: Support labour, lost capacity, escalating extended-suppo
 sources:
   - Extended Security Updates (ESU) program for Windows 10 | https://learn.microsoft.com/en-us/windows/whats-new/extended-security-updates
   - Obsolete products | https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/obsolete-products
+  - End of support for Windows 10, Windows 8.1, and Windows 7 - Microsoft Windows | https://www.microsoft.com/en-us/windows/end-of-support
 related:
-  - Unmonitored Backups Create False Recovery Confidence | /impact/unmonitored-backups-false-recovery-confidence/
-  - New Employees Without Equipment Create Paid Onboarding Delay | /impact/new-employees-without-equipment-onboarding-cost/
-  - Paying for Server Capacity the Business Does Not Use | /impact/overprovisioned-server-capacity-cost/
+  - Unmonitored backups create false recovery confidence | /impact/unmonitored-backups-false-recovery-confidence/
+  - New employees without equipment create paid onboarding delay | /impact/new-employees-without-equipment-onboarding-cost/
+  - Paying for server capacity the business does not use | /impact/overprovisioned-server-capacity-cost/
+  - Patching only after something breaks: The price of leaving known weaknesses open | /impact/delaying-security-updates-until-something-breaks-known-weakness-financial-risk/
 summary: Keeping computers in service past the point where they support productive, secure work looks frugal. The deferred cost reappears as support time, security exposure and rushed replacement.
 layout: plain
 ---
@@ -57,7 +59,7 @@ Organisations can buy a paid Extended Security Updates (ESU) subscription to kee
 
 In other words, the "free" option of keeping an old Windows 10 machine either carries an escalating per-device fee or carries unpatched security exposure. Neither is free.
 
-The UK National Cyber Security Centre's [guidance on obsolete products](https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/obsolete-products) is blunt about the risk: once a product stops receiving security updates, vulnerabilities are more likely to be exploited, and older products also lack newer protective measures. Its advice is that the only fully effective mitigation is to stop using the obsolete product. Interim measures exist, such as restricting what the device can reach, treating it as untrusted and monitoring it more closely, but each of those is extra work that someone must do and maintain.
+The UK National Cyber Security Centre's [guidance on obsolete products](https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/obsolete-products) is blunt about the risk: once a product stops receiving security updates, vulnerabilities are more likely to be exploited, and older products also lack newer protective measures. Its advice is that the only fully effective mitigation is to stop using the obsolete product. Interim measures exist, such as restricting what the device can reach, treating it as untrusted and monitoring it more closely, but each of those is extra work that someone must do and maintain. Microsoft's own [end-of-support notice](https://www.microsoft.com/en-us/windows/end-of-support) says it no longer provides software updates, security fixes or technical assistance to Windows 10 PCs, which leaves them more vulnerable to malware.
 
 ## How the pain becomes money
 

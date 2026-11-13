@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-013
 slug: why-your-team-keeps-chasing-information
-title: Why Your Team Keeps Chasing Information
-description: Asking a colleague is often the fastest reliable way to find a price, an address or what was agreed with a client. That is a design problem, not a habit problem. How to tell the four kinds of information people chase apart, and fix each at its source.
+title: Why your team keeps chasing information
+description: Asking a colleague is often the fastest way to find a price or what a client agreed. That is a design problem, not a habit. How to fix each kind at source.
 lead: Asking a colleague is often the fastest reliable way to find a price, an address or what was agreed with a client. That is a design problem, not a habit problem. How to tell the four kinds of information people chase apart, and fix each at its source.
 category: Digital Operations
 published_date: 2026-10-04

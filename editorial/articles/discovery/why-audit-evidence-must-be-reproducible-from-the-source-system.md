@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-369
 slug: why-audit-evidence-must-be-reproducible-from-the-source-system
 title: Audit evidence cannot be reproduced from the original source
-description: When proof of a control is a screenshot or an edited export, customers and auditors cannot confirm it. How to name the source of record and capture evidence that can be re-run.
+description: A screenshot or edited export cannot be confirmed by customers or auditors. How to name the source of record and capture evidence that can be re-run.
 lead: When proof of a control is a screenshot or an edited export, customers and auditors cannot confirm it. How to name the source of record and capture evidence that can be re-run.
 category: Security & Compliance Operations
 published_date: 2026-10-09
@@ -17,7 +17,7 @@ sources:
   - SP 800-137, Information Security Continuous Monitoring (ISCM) for Federal Information Systems and Organizations - CSRC | https://csrc.nist.gov/pubs/sp/800/137/final
   - System and Organization Controls: SOC Suite of Services | https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2
 related:
-  - Why Policy Acknowledgements Need a Reliable System Record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
+  - Why policy acknowledgements need a reliable system record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
   - Security controls are duplicated across teams | /discovery/why-the-same-security-control-gets-built-and-evidenced-by-several-teams/
   - Control testing schedules are maintained in personal calendars | /discovery/why-control-testing-schedules-should-not-live-in-personal-calendars/
 summary: When proof of a control is a screenshot or an edited export, customers and auditors cannot confirm it. How to name the source of record and capture evidence that can be re-run.
@@ -31,7 +31,7 @@ This article looks at that operating condition: audit evidence that cannot be re
 
 Evidence is useful to an auditor or customer only if it can be shown to come from the system of record, at a stated time, by a method someone else can repeat. When evidence is a copy of a copy, hand-edited, renamed or built from memory, nobody can confirm it matches what the system really held. The business then spends days arguing that a document is genuine instead of simply running the query again.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The financial director, compliance lead or operations head wants to answer an assurance request quickly and with confidence, without pulling the IT team away for a week. They also want to stop a good control from being marked as failed just because the proof was weak. For the auditor or customer, the question is simple: can I trust that this is what the system showed, and could I get it again?
 

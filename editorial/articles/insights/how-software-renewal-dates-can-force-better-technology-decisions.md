@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-042
 slug: how-software-renewal-dates-can-force-better-technology-decisions
-title: How Software Renewal Dates Can Force Better Technology Decisions
-description: Most software decisions are made once, at purchase, and then left to renew on their own. Renewal dates are the natural point to ask whether a tool still earns its place. How to build a renewal calendar, what to review before each date, and how to turn renewals into deliberate decisions.
+title: How software renewal dates can force better technology decisions
+description: Most software is bought once and left to renew by itself. Renewal dates are the moment to ask if a tool still earns its place, and how to plan each review.
 lead: Most software decisions are made once, at purchase, and then left to renew on their own. Renewal dates are the natural point to ask whether a tool still earns its place. How to build a renewal calendar, what to review before each date, and how to turn renewals into deliberate decisions.
 category: Systems & Strategy
 published_date: 2026-10-05
@@ -14,9 +14,10 @@ sources:
   - Consumer Protection Act, 2008 (Act No. 68 of 2008) > Chapter 2 : Fundamental Consumer Rights > Part C : Consumer's right to choose > 14. Exp | https://source.acts.co.za/consumer-protection-act-2008/14_expiry_and_renewal_of_fixed_term_agreements.php
   - Asset management | https://www.ncsc.gov.uk/collection/10-steps/asset-management
 related:
-  - How to Decide Which Software to Keep | /insights/how-to-decide-which-software-to-keep/
+  - How to decide which software to keep | /insights/how-to-decide-which-software-to-keep/
   - What to ask about APIs before buying business software | /insights/what-to-ask-about-apis-before-buying-business-software/
-  - When a Spreadsheet Is a Useful Tool—and When It Becomes Infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
+  - When a spreadsheet is a useful tool—and when it becomes infrastructure | /insights/when-a-spreadsheet-is-a-useful-tool-and-when-it-becomes-infrastructure/
+  - Nobody will cancel it: What subscription inertia costs a business | /impact/subscription-inertia-nobody-owns-decision-to-cancel-software-financial-cost/
 summary: Most software decisions are made once, at purchase, and then left to renew on their own. Renewal dates are the natural point to ask whether a tool still earns its place. How to build a renewal calendar, what to review before each date, and how to turn renewals into deliberate decisions.
 layout: plain
 ---

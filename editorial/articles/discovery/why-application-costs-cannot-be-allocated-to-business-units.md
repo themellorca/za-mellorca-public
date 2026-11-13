@@ -2,8 +2,8 @@
 hub: discovery
 record_id: DISC-341
 slug: why-application-costs-cannot-be-allocated-to-business-units
-title: Why Application Costs Cannot Be Allocated to Business Units
-description: Application costs become hard to allocate when ownership, cost-centre mappings, shared services and usage metadata are not connected to the application portfolio.
+title: Why application costs cannot be allocated to business units
+description: Application costs are hard to allocate when ownership, cost-centre mappings and shared services are not tied to the application portfolio. Link them.
 lead: A software bill can be perfectly accurate while the business still cannot explain which teams, products or services are responsible for the cost.
 category: SaaS & Application Portfolio Management
 published_date: 2026-09-06
@@ -22,9 +22,9 @@ sources:
   - Invoicing & Chargeback FinOps Framework Capability | https://framework.finops.org/framework/capabilities/invoicing-chargeback/
   - Use tags to organize your Azure resources and management hierarchy - Azure Resource Manager | https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources
 related:
-  - Why Free Trials Become Production Dependencies | /discovery/why-free-trials-become-production-dependencies/
+  - Why free trials become production dependencies | /discovery/why-free-trials-become-production-dependencies/
   - Application owners leave without transferring responsibility | /discovery/application-owners-leave-without-transfer/
-  - Why Legacy Applications Remain Live Without an Owner | /discovery/why-legacy-applications-remain-live-without-an-owner/
+  - Why legacy applications remain live without an owner | /discovery/why-legacy-applications-remain-live-without-an-owner/
 ---
 ## The problem in plain language
 
@@ -32,7 +32,7 @@ Finance receives invoices for cloud services, SaaS subscriptions, platforms and 
 
 The invoice itself is rarely wrong. A provider bills accurately for what was bought or consumed. The difficulty is that the provider's view of the world — accounts, subscriptions, tenants, licence tiers, seats — is not the same as the organisation's view, which is built around business units, cost centres, products and services. Somebody has to translate one into the other, and in many businesses that translation is done by hand, once a month, by whoever understands the spreadsheet.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The buyer wants to understand technology cost by responsibility and business purpose: which unit owns the spend, which application or service benefits, what is shared, and how shared costs should be apportioned.
 
@@ -40,13 +40,13 @@ In practice, the questions arrive in plainer language: “why is our IT recharge
 
 ## Evidence and system mechanism
 
-The FinOps Framework defines allocation as the practice of assigning and sharing technology cost and usage using accounts, tags, labels and other metadata so responsible teams and projects can understand the costs they own. It also distinguishes direct allocation from shared-cost strategies and notes that different stakeholders may need different views, such as cost centre, application, production environment or product. The framework describes three supporting strategies: an allocation strategy (how the organisation wants to look at cost), a tagging or metadata strategy (how resources map to those groupings) and a shared-cost strategy (how common services are split or funded centrally).
+The [FinOps Framework defines allocation](https://framework.finops.org/framework/capabilities/allocation/) as the practice of assigning and sharing technology cost and usage using accounts, tags, labels and other metadata so responsible teams and projects can understand the costs they own. It also distinguishes direct allocation from shared-cost strategies and notes that different stakeholders may need different views, such as cost centre, application, production environment or product. The framework describes three supporting strategies: an allocation strategy (how the organisation wants to look at cost), a tagging or metadata strategy (how resources map to those groupings) and a shared-cost strategy (how common services are split or funded centrally).
 
 The framework is candid about the limits. It notes that some costs cannot be tagged, that tagging compliance is a recurring challenge, and that several versions of these strategies may be in force at once, so complete consistency may be difficult to achieve. It also observes that many early practices deliberately fund some shared items centrally — an explicit business decision rather than an oversight.
 
-Platform documentation shows the same mechanics at a technical level. Microsoft's Azure guidance, for example, explains that tags can be applied to resources, resource groups and subscriptions, but that resources do not inherit tags from their resource group or subscription unless a policy applies them. A business can therefore believe it has tagged its estate while much of the actual spend remains untagged at resource level.
+Platform documentation shows the same mechanics at a technical level. [Microsoft's Azure guidance](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources), for example, explains that tags can be applied to resources, resource groups and subscriptions, but that resources do not inherit tags from their resource group or subscription unless a policy applies them. A business can therefore believe it has tagged its estate while much of the actual spend remains untagged at resource level.
 
-The companion FinOps Invoicing & Chargeback capability describes the finance side of the problem: invoices summarised to a sub-account level can be hard to allocate to cost centres, invoice timing rarely matches usage data, and a single organisation may receive many separate invoices across providers. Chargeback is only credible when finance can rely on consistent, timely cost data.
+The companion [FinOps Invoicing & Chargeback capability](https://framework.finops.org/framework/capabilities/invoicing-chargeback/) describes the finance side of the problem: invoices summarised to a sub-account level can be hard to allocate to cost centres, invoice timing rarely matches usage data, and a single organisation may receive many separate invoices across providers. Chargeback is only credible when finance can rely on consistent, timely cost data.
 
 The mechanism fails when billing structures and the internal application portfolio are disconnected. A provider may know the subscription or tenant, but the organisation still needs a maintained mapping from that technical grouping to business ownership, cost centres, applications and shared-service rules.
 

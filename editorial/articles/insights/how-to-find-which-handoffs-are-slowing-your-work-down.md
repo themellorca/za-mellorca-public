@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-106
 slug: how-to-find-which-handoffs-are-slowing-your-work-down
-title: How to Identify the Handoffs That Cause Delays
+title: How to identify the handoffs that cause delays
 description: Most delay sits between people, not inside tasks. A practical way to measure waiting time at each handoff and pick the few that deserve fixing first.
 lead: Most delay sits between people, not inside tasks. A practical way to measure waiting time at each handoff and pick the few that deserve fixing first.
 category: Workflow and Process Design
@@ -15,8 +15,8 @@ sources:
   - What Is Workflow Automation? - IBM | https://www.ibm.com/think/topics/workflow-automation
   - What is Kanban in Project Management? | https://www.atlassian.com/agile/kanban
 related:
-  - What Should Be Measured at Each Stage of a Workflow? | /insights/what-to-measure-at-each-stage-of-a-business-workflow/
-  - Why Software Configuration Should Follow Workflow Design | /insights/why-software-configuration-should-follow-workflow-design/
+  - What should be measured at each stage of a workflow? | /insights/what-to-measure-at-each-stage-of-a-business-workflow/
+  - Why software configuration should follow workflow design | /insights/why-software-configuration-should-follow-workflow-design/
   - How to find the manual work nobody is measuring | /insights/how-to-find-the-manual-work-nobody-is-measuring/
 summary: Most delay sits between people, not inside tasks. A practical way to measure waiting time at each handoff and pick the few that deserve fixing first.
 layout: plain
@@ -29,7 +29,7 @@ These gaps are handoffs, and they are the most common source of avoidable delay 
 
 A task has someone working on it. A handoff has nobody working on it. The item sits in an inbox, a shared folder, a chat thread or someone's memory until the receiver notices, understands it and has capacity to start. If information is missing, there is another loop of questions and answers before real work can begin.
 
-That is why a department can be efficient by every measure it keeps and still be part of a slow process. The measures cover the work, not the waiting. IBM's explanation of process mining draws the same distinction: by looking at the timestamps between events in a system, you can see the time between steps and not only the time within them, and so find the bottlenecks. The organisational view, which shows which roles or departments are involved, is useful for exactly this reason: it shows where work crosses a boundary.
+That is why a department can be efficient by every measure it keeps and still be part of a slow process. The measures cover the work, not the waiting. IBM's explanation of [process mining](https://www.ibm.com/think/topics/process-mining) draws the same distinction: by looking at the timestamps between events in a system, you can see the time between steps and not only the time within them, and so find the bottlenecks. The organisational view, which shows which roles or departments are involved, is useful for exactly this reason: it shows where work crosses a boundary.
 
 ## Step one: choose one process and one measure
 
@@ -72,7 +72,7 @@ Once you have even a small sample, certain patterns separate the handoffs that m
 
 Multiply the average delay at each handoff by how often it occurs per month and by a rough cost, such as the value of the delayed invoice or the cost of the customer's time lost. A two-day delay on a handoff that happens twice a month matters less than a four-hour delay that happens sixty times. Rank the results and work on the top two or three only.
 
-The remedies are usually modest. Common ones are a standard handoff note that lists exactly what the receiver needs; a shared queue instead of a personal inbox, so absence does not stop work; a named owner for the item until the receiver accepts it; and an agreed response time. Where a handoff is a pure transfer of data between systems, it may be a candidate for automation, but only once the underlying process is sound, as [before you automate, understand how the work actually moves](/insights/before-you-automate-understand-how-the-work-actually-moves/) argues. IBM's overview of workflow automation notes that automation replaces manual tasks with software that carries out all or part of a process, which is most valuable when the manual transfer is the slow part.
+The remedies are usually modest. Common ones are a standard handoff note that lists exactly what the receiver needs; a shared queue instead of a personal inbox, so absence does not stop work; a named owner for the item until the receiver accepts it; and an agreed response time. Where a handoff is a pure transfer of data between systems, it may be a candidate for automation, but only once the underlying process is sound, as [before you automate, understand how the work actually moves](/insights/before-you-automate-understand-how-the-work-actually-moves/) argues. IBM's overview of [workflow automation](https://www.ibm.com/think/topics/workflow-automation) notes that automation replaces manual tasks with software that carries out all or part of a process, which is most valuable when the manual transfer is the slow part.
 
 ## Avoid the usual traps
 
@@ -83,7 +83,9 @@ The remedies are usually modest. Common ones are a standard handoff note that li
 
 ## An illustrative example
 
-The following is a hypothetical case. A Port Elizabeth company that fits out commercial kitchens promised delivery within ten working days but averaged sixteen. Tracing four recent orders showed seven handoffs. Most were quick, but two stood out: the wait between quote acceptance and the deposit invoice being raised averaged three days, and the wait between the deposit arriving and the workshop being told averaged two and a half. Both depended on someone remembering to send an email. The company created a shared order board with a card for each job, named an owner for each stage, and made the card move automatically to the workshop column when finance ticked "deposit received". Average delivery fell to eleven working days within two months, without anyone working faster.
+The following is a hypothetical case. A Port Elizabeth company that fits out commercial kitchens promised delivery within ten working days but averaged sixteen. Tracing four recent orders showed seven handoffs. Most were quick, but two stood out: the wait between quote acceptance and the deposit invoice being raised averaged three days, and the wait between the deposit arriving and the workshop being told averaged two and a half.
+
+Both depended on someone remembering to send an email. The company created a shared order board with a card for each job, named an owner for each stage, and made the card move automatically to the workshop column when finance ticked "deposit received". Average delivery fell to eleven working days within two months, without anyone working faster.
 
 ## The point
 

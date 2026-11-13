@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-230
 slug: cloud-costs-without-business-owner-allocation
-title: When Cloud Spend Has No Business Owner
+title: When cloud spend has no business owner
 description: Why cloud costs that cannot be allocated to departments, customers, applications or environments weaken accountability and cost optimisation.
 lead: A cloud bill can be technically correct while still being commercially unusable if the business cannot explain which application, team, customer or environment caused the spend.
 category: Cloud Economics
@@ -19,10 +19,11 @@ side_title: Cost mechanisms
 sources:
   - Using user-defined cost allocation tags - AWS Billing | https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/custom-tags.html
   - Allocation FinOps Framework Capability | https://www.finops.org/framework/capabilities/allocation/
+  - What is FinOps? - FinOps Foundation | https://www.finops.org/introduction/what-is-finops/
 related:
-  - When Every Process Problem Becomes Another Software Purchase | /impact/buying-software-for-every-process-problem/
-  - When Security Spend Runs Ahead of Basic Controls | /impact/security-products-without-basic-controls/
-  - Recreating Documents Nobody Can Find: The Cost of Duplicated Work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
+  - When every process problem becomes another software purchase | /impact/buying-software-for-every-process-problem/
+  - When security spend runs ahead of basic controls | /impact/security-products-without-basic-controls/
+  - Recreating documents nobody can find: The cost of duplicated work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
 ---
 ## The tolerated pain
 
@@ -87,7 +88,7 @@ The trigger is sharper when cloud spend is growing faster than revenue, when the
 
 ## Resolution
 
-The FinOps Foundation's [Allocation capability](https://www.finops.org/framework/capabilities/allocation/) describes three linked strategies: an allocation strategy mapping cost to organisational units, a tagging strategy defining how resources are named and grouped, and a shared-cost strategy for distributing common expenses through fixed, proportional or proxy-based methods. It describes maturity moving from a stage where many costs remain untagged and need manual investigation each month, to one where costs can be allocated at any required granularity with minimal unidentified spend.
+The FinOps Foundation's [Allocation capability](https://www.finops.org/framework/capabilities/allocation/) describes three linked strategies: an allocation strategy mapping cost to organisational units, a tagging strategy defining how resources are named and grouped, and a shared-cost strategy for distributing common expenses through fixed, proportional or proxy-based methods. It describes maturity moving from a stage where many costs remain untagged and need manual investigation each month, to one where costs can be allocated at any required granularity with minimal unidentified spend. The FinOps Foundation's wider description of [what FinOps is](https://www.finops.org/introduction/what-is-finops/) frames the aim as financial accountability through collaboration between engineering, finance and business teams, with everyone taking ownership of their cost and usage.
 
 1. Define a small mandatory ownership taxonomy.
 2. Apply cost allocation at account, subscription, project or resource level as appropriate.

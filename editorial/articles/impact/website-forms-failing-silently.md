@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-428
 slug: website-forms-failing-silently
-title: When Website Forms Fail Silently
+title: When website forms fail silently
 description: A website form can look healthy while enquiries are never delivered, turning an operational monitoring gap into lost commercial opportunity.
 lead: Enquiries that vanish after a “thank you” message cost sales without any sign of failure. This article sets out where that cost hides and how to check that every form still reaches a person.
 category: Digital Channels
@@ -18,10 +18,11 @@ side_title: Cost mechanisms
 sources:
   - Email sender guidelines - Gmail Help | https://support.google.com/a/answer/81126
   - Google SRE monitoring ditributed system - sre golden signals | https://sre.google/sre-book/monitoring-distributed-systems/
+  - How email authentication works in Microsoft 365 - Microsoft Defender for Office 365 | https://learn.microsoft.com/en-us/defender-office-365/email-authentication-about
 related:
-  - The Cost of Work Waiting for Approval | /impact/approval-queues-blocked-capacity-cost/
-  - Unassigned Enquiries: Why Leads Go Cold Before Anyone Owns Them | /impact/unassigned-sales-enquiries-leads-going-cold/
-  - "I Thought You Were Doing It": The Labour Cost of Unclear Responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
+  - The cost of work waiting for approval | /impact/approval-queues-blocked-capacity-cost/
+  - Unassigned enquiries: Why leads go cold before anyone owns them | /impact/unassigned-sales-enquiries-leads-going-cold/
+  - "I thought you were doing it": The labour cost of unclear responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
 ---
 ## The tolerated pain
 
@@ -33,7 +34,7 @@ Forms depend on several components: browser validation, application logic, APIs,
 
 Most organisations monitor whether the website is up, not whether its transactions complete. The form was tested when it was built, so it is assumed to keep working. In practice, it sits on top of components that change independently: content-management plugins are updated, hosting providers change mail settings, API credentials expire, CRM fields are renamed and spam filters are tightened.
 
-Email delivery is a common weak point. Many forms simply send a notification email to an inbox. Google's [email sender guidelines](https://support.google.com/a/answer/81126) require all senders to personal Gmail accounts to set up SPF or DKIM authentication for their sending domains, and warn that messages without it may be marked as spam or rejected. A form that sends notifications from a server that is not properly authenticated can therefore fail at the last step, with the website reporting success.
+Email delivery is a common weak point. Many forms simply send a notification email to an inbox. Google's [email sender guidelines](https://support.google.com/a/answer/81126) require all senders to personal Gmail accounts to set up SPF or DKIM authentication for their sending domains, and warn that messages without it may be marked as spam or rejected. A form that sends notifications from a server that is not properly authenticated can therefore fail at the last step, with the website reporting success. Microsoft's explanation of [email authentication](https://learn.microsoft.com/en-us/defender-office-365/email-authentication-about) adds that authentication ensures Microsoft does not automatically junk a domain's mail simply because it is unauthenticated, although delivery is still not guaranteed.
 
 Nobody notices because absence is quiet. A slow week of enquiries looks like a slow week in the market.
 

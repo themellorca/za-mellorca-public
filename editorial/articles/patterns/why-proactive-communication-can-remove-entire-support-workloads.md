@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-084
 slug: why-proactive-communication-can-remove-entire-support-workloads
-title: Why Proactive Communication Can Remove Entire Support Workloads
+title: Why proactive communication can remove entire support workloads
 description: Repeated status enquiries can indicate that customers are forced to request information the business could communicate proactively.
 lead: When customers repeatedly ask for predictable status updates, part of the support workload may exist only because the business waits to be asked.
 category: Customer Service, Status & Self-Service
@@ -25,9 +25,9 @@ sources:
   - Configure proactive engagement in Dynamics 365 Contact Center | https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/configure-proactive-engagement
   - Configure a chat widget in Dynamics 365 Contact Center | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/add-chat-widget
 related:
-  - The Hidden Cost of Repetitive Customer Questions | /patterns/the-hidden-cost-of-repetitive-customer-questions/
-  - When Service Quality Depends on Who Picks Up the Ticket | /patterns/when-service-quality-depends-on-who-picks-up-the-ticket/
-  - Why Customer Service Becomes a Human Search Engine | /patterns/why-customer-service-becomes-a-human-search-engine/
+  - The hidden cost of repetitive customer questions | /patterns/the-hidden-cost-of-repetitive-customer-questions/
+  - When service quality depends on who picks up the ticket | /patterns/when-service-quality-depends-on-who-picks-up-the-ticket/
+  - Why customer service becomes a human search engine | /patterns/why-customer-service-becomes-a-human-search-engine/
 summary: Repeated status enquiries can be created by the business itself when known operational events are not communicated proactively. Event-driven updates can move simple information requests out of the reactive support queue.
 ---
 ## Observable condition

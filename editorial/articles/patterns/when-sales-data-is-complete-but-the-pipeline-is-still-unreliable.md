@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-107
 slug: when-sales-data-is-complete-but-the-pipeline-is-still-unreliable
-title: When Sales Data Is Complete but the Pipeline Is Still Unreliable
-description: Every deal is in the CRM and every field is filled, yet the forecast keeps missing. The problem is what the fields mean and when they change, not whether they exist.
+title: When sales data is complete but the pipeline is still unreliable
+description: Every deal is in the CRM and every field is filled, yet the forecast misses. The problem is what the fields mean and when they change.
 lead: Every deal is in the CRM and every field is filled, yet the forecast keeps missing. The problem is what the fields mean and when they change, not whether they exist.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-09
@@ -18,9 +18,10 @@ sources:
   - What Is Data Quality? - IBM | https://www.ibm.com/think/topics/data-quality
   - What Is Customer Relationship Management (CRM)? - IBM | https://www.ibm.com/think/topics/crm
 related:
-  - Why New Clients Wait While Internal Teams Coordinate | /patterns/why-new-clients-wait-while-internal-teams-coordinate/
-  - When Customers Know Less Than Your Internal Systems Do | /patterns/when-customers-know-less-than-your-internal-systems-do/
-  - Why Your Business Has Data but No Single View of Operations | /patterns/why-a-business-with-plenty-of-data-still-has-no-single-view-of-operations/
+  - Why new clients wait while internal teams coordinate | /patterns/why-new-clients-wait-while-internal-teams-coordinate/
+  - When customers know less than your internal systems do | /patterns/when-customers-know-less-than-your-internal-systems-do/
+  - Why your business has data but no single view of operations | /patterns/why-a-business-with-plenty-of-data-still-has-no-single-view-of-operations/
+  - How to design CRM stages around real work | /insights/how-to-design-crm-stages-that-match-what-your-team-actually-does/
 summary: Every deal is in the CRM and every field is filled, yet the forecast keeps missing. The problem is what the fields mean and when they change, not whether they exist.
 layout: plain
 ---
@@ -28,7 +29,7 @@ layout: plain
 
 The CRM looks healthy. Every opportunity has an owner, a value, a stage and a close date. Reports run without errors. Nobody can say that data is missing. Yet the forecast built from it is wrong month after month: deals that were "90 per cent" slip into next quarter, and a few that nobody mentioned arrive from nowhere.
 
-The sales director has two reactions. The first is to ask the team to update the CRM more diligently. The second is to ignore the pipeline report and phone each salesperson. Both reactions show the same thing: the data is complete, but it cannot be relied upon.
+The sales director has two reactions. The first is to ask the team to update the CRM more diligently. The second is to ignore the pipeline report and phone each salesperson. Both reactions show the same thing: the data is complete, but it cannot be relied upon. IBM describes [customer relationship management](https://www.ibm.com/think/topics/crm) as a set of integrated technologies used to document, track and manage customer interactions, which only helps if what is documented can be trusted.
 
 An illustrative example: a Pretoria software reseller sells annual licences to municipalities and mid-sized companies. Its pipeline shows R14 million in the "proposal" stage at the start of each quarter. In the last four quarters, between a third and a half of that value closed in the quarter predicted. The sales manager knows, from long experience, that deals in the same stage differ wildly in readiness, but the CRM cannot show it.
 
@@ -38,7 +39,7 @@ The realisation is that completeness and reliability are separate qualities. A f
 
 Reliability comes from agreed meaning and from timeliness. Does "proposal" mean that a proposal has been sent, that a decision-maker has read it, or that the customer has said it is acceptable? Does the close date move when the customer's circumstances change, or only when the salesperson is asked about it? Without answers, each person fills the same field differently, and the pipeline becomes the sum of individual judgements.
 
-IBM's overview of sales pipelines makes the standard point that a pipeline is a staged view of a buying process, which only works if the stages reflect real, observable steps. A stage that depends on opinion is not a step.
+[IBM's overview of sales pipelines](https://www.ibm.com/think/topics/sales-pipeline) describes a pipeline as a visual representation of where each lead stands in the sales cycle, and says it has to stay current to be useful. That only works if the stages reflect real, observable steps. A stage that depends on opinion is not a step.
 
 **Realisation prompt:** take the five largest deals in your pipeline. For each, can you point to the most recent customer action, not salesperson action, that justifies its current stage?
 
@@ -56,7 +57,7 @@ The published Pattern [when a lead enters the CRM but nobody acts](/patterns/whe
 - **Updates are batched.** The CRM is brought up to date on the afternoon before the forecast meeting, which means the data is accurate once a week and stale for the rest.
 - **Customer signals live elsewhere.** The email that says "we have put this on hold" sits in a personal inbox and never touches the opportunity record. The Insight [how bad CRM data gets created](/insights/how-bad-crm-data-gets-created/) describes this gap between activity and record.
 - **Win and loss reasons are not captured.** Without them, the team cannot learn which stage criteria actually predict closing.
-- **Data quality is judged by fields filled.** IBM's overview of data quality lists accuracy, timeliness and consistency alongside completeness. A pipeline that satisfies only the last of these will look fine and perform poorly.
+- **Data quality is judged by fields filled.** [IBM's overview of data quality](https://www.ibm.com/think/topics/data-quality) lists accuracy, timeliness and consistency alongside completeness. A pipeline that satisfies only the last of these will look fine and perform poorly.
 
 ## Commercial impact
 

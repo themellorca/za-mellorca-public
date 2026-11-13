@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-354
 slug: why-security-problems-often-begin-with-operational-convenience
-title: Why Security Problems Often Begin With Operational Convenience
-description: Shared logins, standing admin rights and exceptions made to save a few minutes quietly become the way a business gets breached. Here is how convenience turns into exposure, and how to keep speed without it.
+title: Why security problems often begin with operational convenience
+description: Shared logins, standing admin rights and time-saving exceptions quietly become the way a business is breached. Keep speed without the exposure.
 lead: Shared logins, standing admin rights and exceptions made to save a few minutes quietly become the way a business gets breached. Here is how convenience turns into exposure, and how to keep speed without it.
 category: Security, Access & Risk
 published_date: 2026-10-09
@@ -18,9 +18,9 @@ sources:
   - Password administration for system owners | https://www.ncsc.gov.uk/collection/passwords
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
 related:
-  - Why Do Former Employees Still Have Access? | /patterns/why-do-former-employees-still-have-access/
-  - When AI Agents Can Act but Governance Cannot See Them | /patterns/when-ai-agents-can-act-but-governance-cannot-see-them/
-  - Why Reporting Problems Often Begin With Data Capture | /patterns/why-reporting-problems-often-begin-with-data-capture/
+  - Why do former employees still have access? | /patterns/why-do-former-employees-still-have-access/
+  - When AI agents can act but governance cannot see them | /patterns/when-ai-agents-can-act-but-governance-cannot-see-them/
+  - Why reporting problems often begin with data capture | /patterns/why-reporting-problems-often-begin-with-data-capture/
 summary: Shared logins, standing admin rights and exceptions made to save a few minutes quietly become the way a business gets breached. Here is how convenience turns into exposure, and how to keep speed without it.
 layout: plain
 ---
@@ -52,10 +52,10 @@ The Pattern [the hidden risk of shared accounts](/patterns/the-hidden-risk-of-sh
 
 - **The secure path is the slow path.** If approvals, new logins or access requests take days, staff will find a quicker route, and they will be praised for getting the job done.
 - **Exceptions are granted but not retired.** A temporary admin right, a disabled control or a shared password is given for a deadline. Nobody sets the end date, so the exception outlives the reason.
-- **Access accumulates.** People change roles and keep old permissions. NIST's definition of least privilege describes giving a user only the access needed to perform their duties. In practice access is usually added far more often than it is removed.
+- **Access accumulates.** People change roles and keep old permissions. NIST's definition of [least privilege](https://csrc.nist.gov/glossary/term/least_privilege) describes giving a user only the access needed to perform their duties. In practice access is usually added far more often than it is removed.
 - **Credentials are tied to people, not purposes.** Automated jobs, integrations and reports run on an individual's login. When that person leaves or changes their password, the job fails, so the password is never changed.
 - **Security is owned by no one in daily operations.** IT is blamed when something goes wrong, but operational managers make the choices that create the risk, such as sharing a login to hit a deadline.
-- **Controls are judged by complaints.** The NCSC's guidance on password administration for system owners treats the usability of a control as part of its design: a rule that people routinely work around is not providing the protection it appears to.
+- **Controls are judged by complaints.** The NCSC's guidance on [password administration for system owners](https://www.ncsc.gov.uk/collection/passwords) treats the usability of a control as part of its design: a rule that people routinely work around is not providing the protection it appears to.
 
 ## Commercial impact
 
@@ -63,7 +63,7 @@ The commercial value at stake is financial loss, regulatory exposure, business c
 
 Direct loss is the most visible: payment fraud, ransom demands, stolen stock or data, and the cost of investigation and recovery. Because a shared or over-privileged account hides who did what, the business also loses the ability to establish what happened, which weakens insurance claims and disciplinary action alike.
 
-In South Africa, the Protection of Personal Information Act adds a legal dimension. Section 19 requires a responsible party to take appropriate, reasonable technical and organisational measures to protect personal information in its possession. A breach that traces back to a shared password and an unreviewed leaver account is hard to describe as reasonable, and notification, investigation and reputational costs follow.
+In South Africa, the Protection of [Personal Information](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/) Act adds a legal dimension. Section 19 requires a responsible party to take appropriate, reasonable technical and organisational measures to protect personal information in its possession. A breach that traces back to a shared password and an unreviewed leaver account is hard to describe as reasonable, and notification, investigation and reputational costs follow.
 
 Continuity is another cost. An attack that locks the finance system for a week stops invoicing and payroll, however good the product is. Larger customers increasingly ask suppliers about access controls in procurement questionnaires, so weak basics can lose a contract before any incident occurs. The Impact page [shared passwords, lost accountability and breach exposure](/impact/shared-passwords-lost-accountability-breach-exposure/) sets out the financial side in more detail.
 

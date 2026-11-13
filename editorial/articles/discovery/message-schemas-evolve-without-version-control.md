@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-291
 slug: message-schemas-evolve-without-version-control
 title: Message schemas evolve without version control
-description: Explains how evolving message schemas without version control creates integration risk and operational uncertainty; outlines observable symptoms and practical interventions.
+description: Message schemas that change without version control cause integration risk and uncertainty. What the symptoms look like and how to put versioning in place.
 lead: Explains how evolving message schemas without version control creates integration risk and operational uncertainty; outlines observable symptoms and practical interventions.
 category: Integration & API Operations
 published_date: 2026-10-02
@@ -19,8 +19,8 @@ sources:
   - Cloud - IBM | https://www.ibm.com/cloud/blog/api-versioning
 related:
   - Why retry logic creates duplicate transactions at the receiving end | /discovery/retry-logic-creates-duplicate-transactions-at-the-receiving-end/
-  - Why Critical Integrations Need a Named Operational Owner | /discovery/why-critical-integrations-need-a-named-operational-owner/
-  - Why Integration Failures Should Not Route to Personal Inboxes | /discovery/why-integration-failures-should-not-route-to-personal-inboxes/
+  - Why critical integrations need a named operational owner | /discovery/why-critical-integrations-need-a-named-operational-owner/
+  - Why integration failures should not route to personal inboxes | /discovery/why-integration-failures-should-not-route-to-personal-inboxes/
 summary: Explains how evolving message schemas without version control creates integration risk and operational uncertainty; outlines observable symptoms and practical interventions.
 layout: plain
 ---
@@ -32,9 +32,9 @@ Teams often change a message schema, adding, removing or renaming fields, withou
 
 A typical example: an e-commerce team renames *customer_phone* to *mobile_number* in its order event because the new name is clearer. The warehouse system that reads the event does not fail. It simply receives an order with no phone number, so courier bookings go out without a contact number and delivery failures rise for a fortnight before anyone links the two. Silent failures like this are why [bots fail when upstream data formats change](/discovery/why-bots-fail-when-upstream-data-formats-change/).
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Buyers want predictable evolution of data contracts: stable producer schemas, clear consumer expectations and governance shared across teams. Their searches tend to centre on how to prevent breaking changes, how to communicate schema changes and how to verify compatibility before deployment.
+Teams want predictable evolution of data contracts: stable producer schemas, clear consumer expectations and governance shared across teams. Their questions tend to centre on how to prevent breaking changes, how to communicate schema changes and how to verify compatibility before deployment.
 
 Underneath, the real need is confidence. A team that knows which consumers depend on which fields can change things quickly. A team that does not either freezes, refusing to touch anything, or breaks things, changing freely and discovering consequences in production.
 

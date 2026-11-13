@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-353
 slug: manual-payment-matching-reconciliation-cost
-title: Manual Payment Matching Turns Cash Visibility into Reconciliation Work
+title: Manual payment matching turns cash visibility into reconciliation work
 description: When finance staff manually match incoming payments to invoices, cash visibility depends on repeated investigation instead of reliable transaction data.
 lead: Receiving money is not the same as knowing which obligation it settles. When identifiers are weak or systems are disconnected, finance spends paid time reconstructing that answer.
 category: Digital Operations
@@ -23,10 +23,11 @@ evidence_basis: qualitative operational analysis with transparent input-based co
 sources:
   - Reserve Bank modernises to improve payment ecosystem | https://www.sanews.gov.za/south-africa/reserve-bank-modernises-improve-payment-ecosystem
   - ISO 20022 for finance teams: cleaner data, faster reconciliation | https://www.natwest.com/corporates/insights/regulation/iso-20022-for-finance-teams.html
+  - About ISO 20022 - Swift | https://www.swift.com/standards/iso-20022
 related:
-  - The Cost of Work Waiting for Approval | /impact/approval-queues-blocked-capacity-cost/
-  - Scattered Supplier Invoices Create Handling Cost and Payment Uncertainty | /impact/supplier-invoices-multiple-inboxes-handling-cost/
-  - Fixing Avoidable Mistakes Instead of Serving Customers: The Cost of Rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
+  - The cost of work waiting for approval | /impact/approval-queues-blocked-capacity-cost/
+  - Scattered supplier invoices create handling cost and payment uncertainty | /impact/supplier-invoices-multiple-inboxes-handling-cost/
+  - Fixing avoidable mistakes instead of serving customers: The cost of rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
 ---
 ## The tolerated pain
 
@@ -38,7 +39,9 @@ The work is familiar to anyone who has run receivables. For example, one custome
 
 Manual matching is tolerated because it works, eventually. The money is in the bank, the books close and the people doing the matching become very good at it. Their skill hides the design problem. Over time, the organisation relies on a few experienced individuals who know which customers pay late in the month, which ones batch their payments and which references mean what.
 
-There is also a belief that nothing can be done because the problem originates with customers and banks. That is only partly true. Payment data standards are improving: when the South African Reserve Bank moved its settlement system to the ISO 20022 messaging standard in 2022, it described the change as enabling the exchange of [richer, more granular data, including the details of the remittance](https://www.sanews.gov.za/south-africa/reserve-bank-modernises-improve-payment-ecosystem). Richer data in the payment rails does not automatically reach a business's ledger, but it does mean better matching is increasingly a question of internal design rather than an impossibility.
+There is also a belief that nothing can be done because the problem originates with customers and banks. That is only partly true. Payment data standards are improving: when the South African Reserve Bank moved its settlement system to the ISO 20022 messaging standard in 2022, it described the change as enabling the exchange of [richer, more granular data, including the details of the remittance](https://www.sanews.gov.za/south-africa/reserve-bank-modernises-improve-payment-ecosystem).
+
+Richer data in the payment rails does not automatically reach a business's ledger, but it does mean better matching is increasingly a question of internal design rather than an impossibility. Swift's [overview of ISO 20022](https://www.swift.com/standards/iso-20022) says the standard enables richer, better structured and more granular data to be carried in payment messages, and lists less manual intervention among its operational benefits.
 
 ## Operational consequence
 

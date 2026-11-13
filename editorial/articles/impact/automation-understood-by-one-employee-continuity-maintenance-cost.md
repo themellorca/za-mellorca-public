@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-255
 slug: automation-understood-by-one-employee-continuity-maintenance-cost
-title: The Automation Only One Person Understands: The Hidden Cost of Dependency
-description: When one employee built an automation and nobody else knows how it works, the business is one resignation or sick day away from manual work, reverse-engineering and costly errors.
+title: The automation only one person understands: The hidden cost of dependency
+description: When one employee built an automation and nobody else understands it, one resignation or sick day brings manual work and costly errors.
 lead: When one employee built an automation and nobody else knows how it works, the business is one resignation or sick day away from manual work, reverse-engineering and costly errors.
 category: Digital Operations
 published_date: 2026-10-08
@@ -17,9 +17,9 @@ sources:
   - Use consistent naming for flow components - Power Automate | https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/use-consistent-naming-conventions
   - Employ robust error handling - Power Automate | https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling
 related:
-  - When Every Decision Waits for One Person: The Cost of a Decision Bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
-  - The Human Dispatcher: The Cost of Manually Routing Every Incoming Request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
-  - Cloud Prices for Old Infrastructure: The Cost of Moving Without Redesign | /impact/cloud-migration-without-redesign-old-infrastructure-patterns-cost/
+  - When every decision waits for one person: The cost of a decision bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
+  - The human dispatcher: The cost of manually routing every incoming request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
+  - Cloud prices for old infrastructure: The cost of moving without redesign | /impact/cloud-migration-without-redesign-old-infrastructure-patterns-cost/
 summary: When one employee built an automation and nobody else knows how it works, the business is one resignation or sick day away from manual work, reverse-engineering and costly errors.
 layout: plain
 ---

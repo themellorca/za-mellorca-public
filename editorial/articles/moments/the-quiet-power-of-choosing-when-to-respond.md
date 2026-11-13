@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000060
 slug: the-quiet-power-of-choosing-when-to-respond
-title: The Quiet Power of Choosing When to Respond
-description: Being able to read a message now and reply later sounds trivial. It is one of the smallest ways a person keeps control of their time, and it works best when a team agrees what urgent actually means.
+title: The quiet power of choosing when to respond
+description: Reading a message now and replying later is a small way to keep control of your time. It works best when a team agrees what urgent actually means.
 lead: Being able to read a message now and reply later sounds trivial. It is one of the smallest ways a person keeps control of their time, and it works best when a team agrees what urgent actually means.
 category: Human Agency
 published_date: 2026-10-08
@@ -20,9 +20,10 @@ sources:
   - Delay or schedule sending email messages in Outlook - Microsoft Support | https://support.microsoft.com/en-us/office/delay-or-schedule-sending-email-messages-in-outlook-026af69f-c287-490a-a72f-6c65793744ba
   - Quiet time in Microsoft Teams for mobile devices - Microsoft Support | https://support.microsoft.com/en-us/office/quiet-time-in-microsoft-teams-for-mobile-devices-174c4d2d-c7c1-4228-80a7-031c14f9bcf2
 related:
-  - Why Teams Stop Suggesting Improvements | /moments/why-teams-stop-suggesting-improvements/
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
-  - The Freedom That Comes From Knowing Where Things Stand | /moments/the-freedom-that-comes-from-knowing-where-things-stand/
+  - Why teams stop suggesting improvements | /moments/why-teams-stop-suggesting-improvements/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - The freedom that comes from knowing where things stand | /moments/the-freedom-that-comes-from-knowing-where-things-stand/
+  - When flexible work comes with invisible rules | /moments/when-flexible-work-comes-with-unwritten-after-hours-rules/
 summary: Being able to read a message now and reply later sounds trivial. It is one of the smallest ways a person keeps control of their time, and it works best when a team agrees what urgent actually means.
 layout: plain
 ---
@@ -36,7 +37,7 @@ When people say they cannot switch off, they often describe a feeling rather tha
 
 The World Health Organization, in its guidance on teleworking and worker health, points to the importance of limits around working time and the ability to disconnect. The relevant point here is not any single statistic but the principle: the boundaries of work need to be set by something other than the next notification.
 
-South African law sets some boundaries as well. The Basic Conditions of Employment Act regulates ordinary hours of work, overtime and daily and weekly rest periods for covered employees. A law firm's overview of the idea of a right to disconnect in South Africa notes that there is no standalone statute of that name, and that these existing protections are the starting point. In practice, whether a message sent at nine at night counts as work is a question for the employment contract, policy and the manager's expectations, which is exactly why a clear team agreement helps.
+South African law sets some boundaries as well. The Basic Conditions of Employment Act regulates ordinary hours of work, overtime and daily and weekly rest periods for covered employees. A law firm's overview of the idea of a [right to disconnect in South Africa](https://cklaw.co.za/work-life-harmony-exploring-the-possibility-of-right-to-disconnect-in-south-africa/) notes that there is no standalone statute of that name, and that these existing protections are the starting point. In practice, whether a message sent at nine at night counts as work is a question for the employment contract, policy and the manager's expectations, which is exactly why a clear team agreement helps.
 
 ## Reading is not the same as responding
 
@@ -70,7 +71,7 @@ This is mainly a matter of agreement, supported by a few settings.
 
 - **Agree what urgent means.** Choose a channel for genuine emergencies, usually a phone call, and keep all other channels as asynchronous. Without that, everything is urgent and nothing is.
 - **Use scheduled sending.** Outlook lets you schedule an email to be delivered later, so the sender can work when it suits them without setting the recipient's clock. Microsoft documents the feature.
-- **Use quiet time settings.** Microsoft Teams on mobile can silence notifications outside chosen hours, which gives each person a way to enforce their own boundary.
+- **Use [quiet time](https://support.microsoft.com/en-us/office/quiet-time-in-microsoft-teams-for-mobile-devices-174c4d2d-c7c1-4228-80a7-031c14f9bcf2) settings.** Microsoft Teams on mobile can silence notifications outside chosen hours, which gives each person a way to enforce their own boundary.
 - **State response expectations.** A short line in the team handbook, such as same working day for ordinary messages, removes the guesswork.
 - **Model it from the top.** If the owner or manager replies at midnight and expects the same, the written rule means little. If they schedule and rest, others follow.
 - **Have an out-of-hours route for real emergencies.** A named person on a clear rota, ideally with agreed compensation under the contract, is better than everyone being half on call.

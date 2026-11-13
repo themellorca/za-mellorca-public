@@ -2,9 +2,9 @@
 hub: insights
 record_id: INS-178
 slug: why-ai-readiness-is-really-systems-readiness
-title: Why AI Readiness Is Really Systems Readiness
-description: A framework that explains AI readiness as a function of organizational systems, not only data and models, and describes how governance, processes, and culture enable responsible AI adoption.
-lead: A framework that explains AI readiness as a function of organizational systems, not only data and models, and describes how governance, processes, and culture enable responsible AI adoption.
+title: Why AI readiness is really systems readiness
+description: AI readiness depends on the business's systems as much as its data and models: governance, processes and culture decide whether AI can be used responsibly.
+lead: AI readiness depends on the business's systems as much as its data and models: governance, processes and culture decide whether AI can be used responsibly.
 category: AI & IT Readiness
 published_date: 2026-09-08
 updated_date: 2026-09-08
@@ -15,9 +15,9 @@ sources:
   - Guidance on AI and data protection | https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/
 related:
   - How to buy business software without letting the demo make the decision | /insights/how-to-buy-business-software-without-letting-the-demo-make-the-decision/
-  - What to Fix First When Everything Feels Broken | /insights/what-to-fix-first-when-everything-feels-broken/
-  - Broken Handoffs Are Systems Problems | /insights/broken-handoffs-are-systems-problems/
-summary: A framework that explains AI readiness as a function of organizational systems, not only data and models, and describes how governance, processes, and culture enable responsible AI adoption.
+  - What to fix first when everything feels broken | /insights/what-to-fix-first-when-everything-feels-broken/
+  - Broken handoffs are systems problems | /insights/broken-handoffs-are-systems-problems/
+summary: AI readiness depends on the business's systems as much as its data and models: governance, processes and culture decide whether AI can be used responsibly.
 layout: plain
 ---
 AI readiness is often treated as a data problem or a model problem, but the more durable truth is that AI succeeds when the organisation’s systems are prepared to absorb and govern intelligent automation. Readiness encompasses governance, data quality, process design, and the ability to interpret and act on AI outputs within established decision rights. Without these systems, AI can become a brittle layer that breaks when data drifts, stakes rise or new requirements emerge.

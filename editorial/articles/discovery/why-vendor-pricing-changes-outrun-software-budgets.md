@@ -20,6 +20,7 @@ related:
   - New SaaS purchases create integrations nobody budgets to maintain | /discovery/why-new-saas-integrations-have-no-maintenance-budget/
   - Renewal calendars are disconnected from architecture roadmaps | /discovery/why-renewal-calendars-and-architecture-roadmaps-drift-apart/
   - Applications are retained because migration effort is unknown | /discovery/why-applications-stay-because-migration-effort-is-unknown/
+  - AI add-ons increase software spend outside original budgets | /discovery/ai-add-ons-push-software-spend-beyond-the-approved-budget/
 summary: Vendors can repackage and reprice at any renewal, while budgets are set once a year. How to keep a commitment register and a budget that can absorb the change.
 layout: plain
 ---
@@ -33,9 +34,9 @@ Most business software is no longer bought once. It is rented, usually per user 
 
 For a South African business the gap is often wider than it looks. Many vendors price in US dollars or euros, so a packaging change and a currency movement can land on the same invoice. The finance team sees a Rand increase and cannot tell how much came from the exchange rate, how much from extra seats and how much from a repackaged product.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Finance leaders and operations managers search for ways to forecast software spend, control price increases and understand what they are really paying for. Underneath those searches is a simpler need: a budget that knows which commitments are fixed, which can change, and when each one is next open to change. Without that, every price announcement is a surprise and every surprise becomes an unplanned decision.
+Finance leaders and operations managers look for ways to forecast software spend, control price increases and understand what they are really paying for. Underneath that is a simpler need: a budget that knows which commitments are fixed, which can change, and when each one is next open to change. Without that, every price announcement is a surprise and every surprise becomes an unplanned decision.
 
 ## Evidence and system mechanism
 

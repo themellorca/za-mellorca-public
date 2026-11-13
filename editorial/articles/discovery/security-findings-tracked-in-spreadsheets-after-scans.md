@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-351
 slug: security-findings-tracked-in-spreadsheets-after-scans
 title: Why security findings end up in spreadsheets after the scan finishes
-description: Vulnerability scans run, the results are exported to a spreadsheet, and remediation stalls. Why spreadsheet tracking fails audits and lets risk linger, and what a workable alternative looks like.
+description: Scan results exported to a spreadsheet stall remediation and fail audits. Why spreadsheet tracking lets risk linger and what works instead.
 lead: Vulnerability scans run, the results are exported to a spreadsheet, and remediation stalls. Why spreadsheet tracking fails audits and lets risk linger, and what a workable alternative looks like.
 category: Security & Compliance Operations
 published_date: 2026-10-03
@@ -15,10 +15,12 @@ budget_owner: CIO or CFO, often prompted by the audit and risk committee
 sources:
   - SP 800-40 Rev. 4, Guide to Enterprise Patch Management Planning: Preventive Maintenance for Technology - CSRC | https://csrc.nist.gov/pubs/sp/800/40/r4/final
   - Threat and vulnerability management - Microsoft Service Assurance | https://learn.microsoft.com/en-us/compliance/assurance/assurance-vulnerability-management
+  - Continuous Vulnerability Management - Center for Internet Security | https://www.cisecurity.org/controls/continuous-vulnerability-management
 related:
-  - Why Security Architecture Decisions Need Linked Risk Exception Records | /discovery/why-security-architecture-decisions-need-linked-risk-exception-records/
-  - Why Supplier Access Survives After the Supplier Engagement Ends | /discovery/why-supplier-access-survives-after-engagements-end/
-  - Why Policy Acknowledgements Need a Reliable System Record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
+  - Why security architecture decisions need linked risk exception records | /discovery/why-security-architecture-decisions-need-linked-risk-exception-records/
+  - Why supplier access survives after the supplier engagement ends | /discovery/why-supplier-access-survives-after-engagements-end/
+  - Why policy acknowledgements need a reliable system record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
+  - Remediation tickets close without verifying the underlying control | /discovery/why-security-fixes-get-closed-without-anyone-confirming-they-worked/
 summary: Vulnerability scans run, the results are exported to a spreadsheet, and remediation stalls. Why spreadsheet tracking fails audits and lets risk linger, and what a workable alternative looks like.
 layout: plain
 ---
@@ -30,7 +32,7 @@ This article looks at that condition: security findings tracked in spreadsheets 
 
 Scanners are good at producing findings. They are less helpful at making sure each finding reaches the right person, is fixed within an agreed time, and is verified as fixed. When that workflow lives in a spreadsheet, it depends on someone manually updating rows, chasing owners and merging the next scan's results. Spreadsheets have no reliable history, no automatic reminders and no link back to the scanner. They also fragment quickly: one copy per team, one version per month.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 IT and risk leaders typically ask how to track vulnerability remediation, how to prove findings were fixed for an audit, or why the same vulnerabilities keep reappearing. The real need is a closed loop: every material finding has an owner and a due date, progress is visible without manual collation, and closure is confirmed by evidence rather than by someone typing "done".
 
@@ -42,7 +44,9 @@ IT and risk leaders typically ask how to track vulnerability remediation, how to
 
 ### Mature practice tracks findings centrally until closed
 
-[Microsoft's description of its own vulnerability management](https://learn.microsoft.com/en-us/compliance/assurance/assurance-vulnerability-management) shows the shape of a closed loop. Scan results are collected in a central store, service teams review them through dashboards, vulnerabilities are tracked in those reports until remediated, scan results are used to validate patch deployment, and overdue vulnerabilities are reported daily and reviewed by management monthly. Prioritisation uses CVSS scores together with other risk factors. Few mid-sized businesses need this scale, but the elements are the same: central data, ownership, tracking to closure, verification and escalation of overdue items.
+[Microsoft's description of its own vulnerability management](https://learn.microsoft.com/en-us/compliance/assurance/assurance-vulnerability-management) shows the shape of a closed loop. Scan results are collected in a central store, service teams review them through dashboards, vulnerabilities are tracked in those reports until remediated, scan results are used to validate patch deployment, and overdue vulnerabilities are reported daily and reviewed by management monthly. Prioritisation uses CVSS scores together with other risk factors.
+
+Few mid-sized businesses need this scale, but the elements are the same: central data, ownership, tracking to closure, verification and escalation of overdue items. The Center for Internet Security's [continuous vulnerability management control](https://www.cisecurity.org/controls/continuous-vulnerability-management) likewise asks organisations to continuously assess and track vulnerabilities on all enterprise assets so that they can remediate them and shrink the window of opportunity for attackers.
 
 ### Prioritisation inputs change constantly
 

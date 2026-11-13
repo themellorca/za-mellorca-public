@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-007
 slug: approval-queues-blocked-capacity-cost
-title: The Cost of Work Waiting for Approval
-description: An approval can take minutes to review and still hold up work for days. Its economic effect depends on what is blocked, what staff do while waiting and whether the delay changes a commercial outcome.
+title: The cost of work waiting for approval
+description: An approval can take minutes to review yet hold up work for days. Its real cost depends on what is blocked, what staff do meanwhile and the outcome.
 lead: An approval can take minutes to review and still hold up work for days. Its economic effect depends on what is blocked, what staff do while waiting and whether the delay changes a commercial outcome.
 category: Digital Operations
 published_date: 2026-09-06
@@ -25,9 +25,9 @@ sources:
   - Change approval settings for an access package in entitlement management - Microsoft Entra - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-access-package-approval-policy
   - Separation of Duty (SOD) - Glossary - CSRC | https://csrc.nist.gov/glossary/term/separation_of_duty
 related:
-  - Recreating Documents Nobody Can Find: The Cost of Duplicated Work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
-  - Manual Payment Matching Turns Cash Visibility into Reconciliation Work | /impact/manual-payment-matching-reconciliation-cost/
-  - Which Version Is Final? The Cost of Teams Working From Different Copies | /impact/conflicting-document-versions-rework-decision-cost/
+  - Recreating documents nobody can find: The cost of duplicated work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
+  - Manual payment matching turns cash visibility into reconciliation work | /impact/manual-payment-matching-reconciliation-cost/
+  - Which version is final? The cost of teams working from different copies | /impact/conflicting-document-versions-rework-decision-cost/
 ---
 ## The tolerated pain
 
@@ -43,7 +43,7 @@ Approval delay is spread across many people in small amounts. The requester lose
 
 Trace one request from submission through readiness for review, decision and release to the next activity. Separate missing-information delay from time when the approver had everything required. Identify whether the waiting task lies on the delivery path or whether people can move to equally useful work. A queue can create repeated rescheduling and chasing even when nobody is completely idle.
 
-Look also at how the approval is structured. Microsoft's Power Automate documentation distinguishes approvals where everyone must respond, where the first response completes the request, and where approvers respond one at a time in a fixed sequence. A sequential chain of independent reviewers waits for the slowest link at every stage; a parallel design waits once. Neither is right in every case, but the choice should be deliberate.
+Look also at how the approval is structured. Microsoft's [Power Automate](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) documentation distinguishes approvals where everyone must respond, where the first response completes the request, and where approvers respond one at a time in a fixed sequence. A sequential chain of independent reviewers waits for the slowest link at every stage; a parallel design waits once. Neither is right in every case, but the choice should be deliberate.
 
 ## Warning signs
 
@@ -96,7 +96,7 @@ Name the decision owner and the risk each review controls. Provide a complete re
 
 ## Trade-offs
 
-Some review exists precisely to separate duties. NIST describes separation of duty as ensuring no single user has enough privilege to misuse a system alone, such as one person both preparing and authorising a payment. Speeding up a queue must not quietly collapse that separation. Raising thresholds reduces volume but shifts risk, and parallel review is faster only when reviewers genuinely assess different things.
+Some review exists precisely to separate duties. NIST describes [separation of duty](https://csrc.nist.gov/glossary/term/separation_of_duty) as ensuring no single user has enough privilege to misuse a system alone, such as one person both preparing and authorising a payment. Speeding up a queue must not quietly collapse that separation. Raising thresholds reduces volume but shifts risk, and parallel review is faster only when reviewers genuinely assess different things.
 
 ## Practical diagnostic actions
 

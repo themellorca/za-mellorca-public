@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-129
 slug: why-new-clients-wait-while-internal-teams-coordinate
-title: Why New Clients Wait While Internal Teams Coordinate
-description: The deal is signed, the client is eager and nothing happens, because sales, finance, operations and IT are still passing the details between themselves. Here is where the time goes.
+title: Why new clients wait while internal teams coordinate
+description: The deal is signed and the client eager, yet nothing happens while sales, finance, operations and IT pass details around. Here is where the time goes.
 lead: The deal is signed, the client is eager and nothing happens, because sales, finance, operations and IT are still passing the details between themselves. Here is where the time goes.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-09
@@ -18,9 +18,10 @@ sources:
   - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
   - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
 related:
-  - When Every Department Reports the Same Metric Differently | /patterns/when-every-department-reports-the-same-metric-differently/
-  - The Cost of Manual Consolidation Across Workbooks | /patterns/the-hidden-cost-of-combining-figures-from-many-workbooks-by-hand/
-  - When Sales Data Is Complete but the Pipeline Is Still Unreliable | /patterns/when-sales-data-is-complete-but-the-pipeline-is-still-unreliable/
+  - When every department reports the same metric differently | /patterns/when-every-department-reports-the-same-metric-differently/
+  - The cost of manual consolidation across workbooks | /patterns/the-hidden-cost-of-combining-figures-from-many-workbooks-by-hand/
+  - When sales data is complete but the pipeline is still unreliable | /patterns/when-sales-data-is-complete-but-the-pipeline-is-still-unreliable/
+  - When onboarding depends on a checklist in someone’s head | /patterns/when-the-onboarding-checklist-exists-only-in-one-persons-memory/
 summary: The deal is signed, the client is eager and nothing happens, because sales, finance, operations and IT are still passing the details between themselves. Here is where the time goes.
 layout: plain
 ---
@@ -53,7 +54,7 @@ The published Pattern [the cost of delayed handoffs after a deal is won](/patter
 - **Nobody owns the client's start.** Each department owns its part. No one is responsible for the elapsed time from signature to first delivery.
 - **The handover is a message, not a record.** Sales passes details by email or chat. Whatever was omitted is discovered later, by someone who has to ask.
 - **Tasks run in sequence that could run in parallel.** Credit approval, site visits and staffing could proceed at the same time, but a habit of waiting for "the previous step" serialises them.
-- **Approvals depend on availability.** A single signatory on leave stops everything behind them. Microsoft's documentation on approvals in Power Automate illustrates how routing a request to the right person automatically, with reminders, removes much of this waiting.
+- **Approvals depend on availability.** A single signatory on leave stops everything behind them. Microsoft's documentation on approvals in [Power Automate](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) illustrates how routing a request to the right person automatically, with reminders, removes much of this waiting.
 - **The client is asked repeatedly.** Each department collects what it needs from the client directly, and the client supplies the same company details several times. The Pattern [the hidden cost of asking customers for the same information twice](/patterns/the-hidden-cost-of-asking-customers-for-the-same-information-twice/) covers this.
 - **Progress is invisible.** There is no place to see which step a given client is on. Updates are obtained by interrupting colleagues, which creates yet more coordination work.
 - **Compliance steps are bolted on.** Verification of identity, tax status or consent is often done late and by hand. SARS, for example, requires accurate tax details for VAT and withholding on supplier and client records, and late discovery of a missing number holds up billing.

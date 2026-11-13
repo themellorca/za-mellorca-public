@@ -20,6 +20,7 @@ related:
   - Why damaged stock keeps showing as available to customers | /discovery/why-damaged-stock-keeps-showing-as-available-to-customers/
   - Why stock in transit between locations goes missing in reconciliation | /discovery/why-stock-in-transit-between-locations-goes-missing-in-reconciliation/
   - Reserved stock is treated as available stock | /discovery/why-reserved-stock-keeps-showing-as-available-to-sell/
+  - Drop-ship stock is counted as if it sits in your own warehouse | /discovery/how-to-keep-drop-ship-stock-out-of-your-own-inventory-counts/
 summary: Stock arrives in the morning but customers still see it as unavailable the next day. How to shorten the path from dock to sellable figure.
 layout: plain
 ---
@@ -33,13 +34,15 @@ A purchase order is a promise from a supplier. A goods receipt is evidence that 
 
 The symptoms are products shown as unavailable while stock sits on the dock, back-orders that could have been filled, and customer-service staff telling people "it arrived but isn't showing yet".
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The searches are blunt: "stock received but not showing online", "purchase order receipt not updating inventory", "delay between receiving stock and selling it". The buyer wants new stock to be sellable as soon as it is genuinely sellable, and no sooner.
+The complaints are blunt: "stock received is not showing online", "the purchase order receipt is not updating inventory", "there is a delay between receiving stock and selling it". The business wants new stock to be sellable as soon as it is genuinely sellable, and no sooner.
 
 ## Evidence and system mechanism
 
-Documentation from major platforms shows that receipt is not one event but a series of states. Shopify's developer documentation describes an incoming state for stock on its way to a location and not yet physically there, which becomes sellable only after it is received and moved to available. It is clear that incoming units do not count towards sellable availability ([Shopify inventory states](https://shopify.dev/docs/apps/build/orders-fulfillment/inventory-management-apps)). A recent Shopify changelog entry adds that a purchase order now creates a transfer when it is ready to receive, that shipments can be received in the admin or at the point of sale, that one transfer can cover several shipments, and that each transfer stays linked to its purchase order so ordered, received and outstanding quantities are visible ([Shopify changelog](https://changelog.shopify.com/posts/purchase-orders-now-create-transfers-to-move-inventory)). The design intent is that receipt happens where the goods arrive, and partial deliveries are handled naturally.
+Documentation from major platforms shows that receipt is not one event but a series of states. Shopify's developer documentation describes an incoming state for stock on its way to a location and not yet physically there, which becomes sellable only after it is received and moved to available. It is clear that incoming units do not count towards sellable availability ([Shopify inventory states](https://shopify.dev/docs/apps/build/orders-fulfillment/inventory-management-apps)).
+
+A recent Shopify changelog entry adds that a purchase order now creates a transfer when it is ready to receive, that shipments can be received in the admin or at the point of sale, that one transfer can cover several shipments, and that each transfer stays linked to its purchase order so ordered, received and outstanding quantities are visible ([Shopify changelog](https://changelog.shopify.com/posts/purchase-orders-now-create-transfers-to-move-inventory)). The design intent is that receipt happens where the goods arrive, and partial deliveries are handled naturally.
 
 Microsoft's Dynamics 365 documentation shows how the same movement is handled across systems. In its Inventory Visibility service, quantities from different systems are combined through calculated measures, and expected receipts from some sources are added to the available-for-reservation figure while outbound quantities are subtracted ([Inventory Visibility reservations](https://learn.microsoft.com/en-us/dynamics365/supply-chain/inventory/inventory-visibility-reservations)). The same documentation describes a synchronisation job that, for soft reservations, runs about once a minute. The point is not that every business needs that product, but that vendors treat the interval between a physical event and a visible change as a design parameter, something to be chosen, not left to chance.
 

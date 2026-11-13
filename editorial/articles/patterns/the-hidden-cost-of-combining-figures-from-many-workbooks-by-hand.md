@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-256
 slug: the-hidden-cost-of-combining-figures-from-many-workbooks-by-hand
-title: The Cost of Manual Consolidation Across Workbooks
-description: Finance teams copy, paste and correct figures from many workbooks into one master file every month. Here is what that costs in time, accuracy and risk, and how to replace copying with a repeatable process.
+title: The cost of manual consolidation across workbooks
+description: Finance teams copy, paste and correct figures from many workbooks into one master file each month. What that costs in time, accuracy and risk, and the fix.
 lead: Finance teams copy, paste and correct figures from many workbooks into one master file every month. Here is what that costs in time, accuracy and risk, and how to replace copying with a repeatable process.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-09
@@ -18,9 +18,9 @@ sources:
   - Append Queries - Power Query | https://learn.microsoft.com/en-us/power-query/append-queries
   - What Are Data Silos? - IBM | https://www.ibm.com/think/topics/data-silos
 related:
-  - Why New Clients Wait While Internal Teams Coordinate | /patterns/why-new-clients-wait-while-internal-teams-coordinate/
-  - Why Your Business Has Data but No Single View of Operations | /patterns/why-a-business-with-plenty-of-data-still-has-no-single-view-of-operations/
-  - When Every Department Reports the Same Metric Differently | /patterns/when-every-department-reports-the-same-metric-differently/
+  - Why new clients wait while internal teams coordinate | /patterns/why-new-clients-wait-while-internal-teams-coordinate/
+  - Why your business has data but no single view of operations | /patterns/why-a-business-with-plenty-of-data-still-has-no-single-view-of-operations/
+  - When every department reports the same metric differently | /patterns/when-every-department-reports-the-same-metric-differently/
 summary: Finance teams copy, paste and correct figures from many workbooks into one master file every month. Here is what that costs in time, accuracy and risk, and how to replace copying with a repeatable process.
 layout: plain
 ---
@@ -53,7 +53,7 @@ The published Patterns [when nobody knows which spreadsheet is the latest](/patt
 - **Files arrive late and in versions.** The consolidator waits for the slowest branch, then reworks the pack when a corrected file arrives.
 - **Checks live in the consolidator's head.** She knows which figure should be roughly right and which looks odd. None of that is written down or tested.
 - **The source systems are not connected.** Where the underlying data could be pulled from an accounting or stock system directly, it is exported to a workbook instead, so that manual steps are added between the source and the report. IBM's description of data silos explains how separated stores of data force this kind of manual reconciliation.
-- **Tools for combining are unknown or unused.** Microsoft documents how Power Query can combine files from a folder and append tables with the same structure, and refresh them when new files arrive. Many finance teams do not know it is already inside Excel.
+- **Tools for combining are unknown or unused.** Microsoft documents how Power Query can [combine files](https://learn.microsoft.com/en-us/power-query/combine-files-overview) from a folder and append tables with the same structure, and refresh them when new files arrive. Many finance teams do not know it is already inside Excel.
 
 ## Commercial impact
 

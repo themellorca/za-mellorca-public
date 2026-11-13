@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-032
 slug: when-your-crm-knows-something-your-finance-system-does-not
-title: When Your CRM Knows Something Your Finance System Does Not
+title: When your CRM knows something your finance system does not
 description: Conflicting customer and commercial data across CRM and finance systems can reveal an integration and ownership problem.
 lead: When one business system has the latest customer or commercial truth but another still operates on older information, the problem is rarely solved by asking staff to reconcile harder.
 category: Disconnected Systems & Integration Friction
@@ -25,9 +25,9 @@ sources:
   - Prospect-to-cash in dual-write - Finance & Operations - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash
   - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
 related:
-  - When APIs Exist but the Business Still Works Manually | /patterns/when-apis-exist-but-the-business-still-works-manually/
-  - Why Information Has to Be Copied From One System to Another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
-  - Why One Number Requires Three People and Four Systems | /patterns/why-one-number-requires-three-people-and-four-systems/
+  - When APIs exist but the business still works manually | /patterns/when-apis-exist-but-the-business-still-works-manually/
+  - Why information has to be copied from one system to another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
+  - Why one number requires three people and four systems | /patterns/why-one-number-requires-three-people-and-four-systems/
 summary: When CRM and finance hold different versions of the same customer or commercial event, the business may need clearer data ownership and a controlled integration model rather than more reconciliation work.
 ---
 ## Observable condition

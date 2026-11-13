@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-465
 slug: supplier-performance-not-measured
-title: Paying Suppliers Without Measuring Performance
+title: Paying suppliers without measuring performance
 description: Supplier invoices can remain predictable while service performance quietly deteriorates when outcomes are not measured.
 lead: A paid invoice proves that a supplier billed the business. It does not prove that the service delivered the availability, response, quality or business outcome the contract was meant to buy.
 category: Supplier Performance
@@ -23,9 +23,9 @@ sources:
   - Types of Service Level Agreement (SLA) Metrics - IBM | https://www.ibm.com/think/topics/sla-metrics
 sources_heading: Sources
 related:
-  - AI Tool Sprawl: Paying for Overlapping AI Subscriptions Without Measuring Value | /impact/ai-subscription-sprawl-unmeasured-value-cost/
-  - Staff Using AI with Company Data Nobody Governs | /impact/uncontrolled-ai-company-data-financial-risk/
-  - The Hidden Productivity Cost of Poor Office Wi-Fi | /impact/pain-poor-office-wi-fi-slowing-employees-down/
+  - AI tool sprawl: Paying for overlapping AI subscriptions without measuring value | /impact/ai-subscription-sprawl-unmeasured-value-cost/
+  - Staff using AI with company data nobody governs | /impact/uncontrolled-ai-company-data-financial-risk/
+  - The hidden productivity cost of poor office Wi-Fi | /impact/pain-poor-office-wi-fi-slowing-employees-down/
 ---
 ## The tolerated pain
 
@@ -88,7 +88,9 @@ Finally, unmeasured suppliers distort internal decisions. Teams that have learne
 
 ## Commercial urgency
 
-Urgency peaks before a renewal, a price increase or a material scope change, because each is a point where the business either uses evidence or signs again on perception. UK [guidance on key performance indicators](https://assets.publishing.service.gov.uk/media/66b21af7a3c2a28abb50dd86/Guidance_-_KPIs_FINAL.pdf) under the Procurement Act 2023 shows what disciplined practice looks like: for public contracts above £5 million, authorities must generally set at least three KPIs and assess performance against them at least once in every twelve-month period, rating it from good to inadequate. A private business is not bound by that rule, but the logic carries over. If performance has not been assessed in the last year, the next commercial decision about that supplier is being made without the evidence it needs. Starting to measure now, even with a few simple indicators, gives the business a baseline before that decision arrives. Related risks are covered in [supplier contracts renewing without review](/impact/supplier-contracts-renewing-without-review/).
+Urgency peaks before a renewal, a price increase or a material scope change, because each is a point where the business either uses evidence or signs again on perception. UK [guidance on key performance indicators](https://assets.publishing.service.gov.uk/media/66b21af7a3c2a28abb50dd86/Guidance_-_KPIs_FINAL.pdf) under the Procurement Act 2023 shows what disciplined practice looks like: for public contracts above £5 million, authorities must generally set at least three KPIs and assess performance against them at least once in every twelve-month period, rating it from good to inadequate.
+
+A private business is not bound by that rule, but the logic carries over. If performance has not been assessed in the last year, the next commercial decision about that supplier is being made without the evidence it needs. Starting to measure now, even with a few simple indicators, gives the business a baseline before that decision arrives. Related risks are covered in [supplier contracts renewing without review](/impact/supplier-contracts-renewing-without-review/).
 
 :::callout Commercial signal
 If the supplier meeting is dominated by anecdotes because neither party has a trusted performance record, value-for-money control is weak.

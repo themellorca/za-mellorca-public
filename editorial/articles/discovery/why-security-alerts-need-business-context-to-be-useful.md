@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-367
 slug: why-security-alerts-need-business-context-to-be-useful
 title: Security monitoring creates alerts with no business-priority context
-description: Security tools rank alerts by technical severity, not by what the business can least afford to lose. How to tell the tool and the team which few systems matter most.
+description: Security tools rank alerts by technical severity, not by what the business can least afford to lose. How to tell tools and team which systems matter most.
 lead: Security tools rank alerts by technical severity, not by what the business can least afford to lose. How to tell the tool and the team which few systems matter most.
 category: Security & Compliance Operations
 published_date: 2026-10-09
@@ -18,9 +18,9 @@ sources:
   - Google SRE monitoring ditributed system - sre golden signals | https://sre.google/sre-book/monitoring-distributed-systems/
   - SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile - CSRC | https://csrc.nist.gov/pubs/sp/800/61/r3/final
 related:
-  - Why Vulnerability Severity Needs Business Criticality | /discovery/why-vulnerability-severity-needs-business-criticality/
+  - Why vulnerability severity needs business criticality | /discovery/why-vulnerability-severity-needs-business-criticality/
   - Privileged accounts are reviewed without application context | /discovery/why-administrator-access-reviews-fail-when-reviewers-cannot-see-the-application/
-  - Why Compliance Evidence Should Not Depend on Screenshots | /discovery/why-compliance-evidence-should-not-depend-on-screenshots/
+  - Why compliance evidence should not depend on screenshots | /discovery/why-compliance-evidence-should-not-depend-on-screenshots/
 summary: Security tools rank alerts by technical severity, not by what the business can least afford to lose. How to tell the tool and the team which few systems matter most.
 layout: plain
 ---
@@ -32,7 +32,7 @@ This article looks at that operating condition: security monitoring that raises 
 
 Monitoring tools judge an event by what happened, not by what it could damage. A failed login is a failed login whether it targets the staff canteen menu or the bank-payment approval screen. Unless someone tells the tool, or the people reading its output, which systems and data carry the real money and the real legal exposure, every alert is ranked by technical severity alone. The result is a long, flat queue. People work it from the top or from whatever caught their eye, and the important item is found by luck or not at all.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The managing director or financial director does not want more alerts or a better dashboard. They want to know that the few events that could stop trading, expose customer records or trigger a notification duty are seen first, by someone who can act, and that this can be shown to a customer or an auditor on request. The IT lead wants the same, plus fewer interruptions for events that do not matter.
 

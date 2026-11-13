@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-035
 slug: approving-low-risk-transactions-one-by-one-management-cost
-title: Approving Every Small Transaction: The Management Cost of Unnecessary Sign-Offs
-description: When managers personally approve every routine, low-value transaction, the business pays senior time for little added control. Risk-based approval limits keep oversight where it matters.
+title: Approving every small transaction: The management cost of unnecessary sign-offs
+description: When managers approve every routine, low-value transaction, you pay senior time for little control. Risk-based limits keep oversight where it counts.
 lead: When managers personally approve every routine, low-value transaction, the business pays senior time for little added control. Risk-based approval limits keep oversight where it matters.
 category: Business Automation
 published_date: 2026-10-05
@@ -17,9 +17,10 @@ sources:
   - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
   - Add a condition to a cloud flow in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/add-condition
 related:
-  - Print, Sign, Scan, Email: The Labour and Turnaround Cost of Paper-Based Approvals | /impact/print-sign-scan-email-paper-approvals-turnaround-cost/
-  - Predictable Appointments Still Carry a Cost When Staff Arrange Every Slot | /impact/manual-appointment-scheduling-administration-cost/
-  - Rebuilding the Same Report Every Month: The Labour Cost of Manual Reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
+  - Print, sign, scan, email: The labour and turnaround cost of paper-based approvals | /impact/print-sign-scan-email-paper-approvals-turnaround-cost/
+  - Predictable appointments still carry a cost when staff arrange every slot | /impact/manual-appointment-scheduling-administration-cost/
+  - Rebuilding the same report every month: The labour cost of manual reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
+  - Approving expenses without seeing the budget: How spending drifts out of control | /impact/expenses-approved-without-budget-visibility-uncontrolled-spending-financial-cost/
 summary: When managers personally approve every routine, low-value transaction, the business pays senior time for little added control. Risk-based approval limits keep oversight where it matters.
 layout: plain
 ---
@@ -95,7 +96,7 @@ Many accounting and ERP systems support this directly. Microsoft's Business Cent
 
 ### Automate the routing of what remains
 
-Where approval is still needed, route it automatically. Microsoft's Power Automate documentation describes approval flows in which approvers respond from an Outlook email, a Teams adaptive card or the action centre, with options for everyone to approve, the first to respond, or approvers in sequence. Its documentation on conditions shows how a flow can take a different path depending on a value, such as an amount over a threshold. Mellorca's article on [why approval processes become bottlenecks](/insights/why-approval-processes-become-bottlenecks/) covers the design choices in more depth.
+Where approval is still needed, route it automatically. Microsoft's [Power Automate](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) documentation describes approval flows in which approvers respond from an Outlook email, a Teams adaptive card or the action centre, with options for everyone to approve, the first to respond, or approvers in sequence. Its documentation on conditions shows how a flow can take a different path depending on a value, such as an amount over a threshold. Mellorca's article on [why approval processes become bottlenecks](/insights/why-approval-processes-become-bottlenecks/) covers the design choices in more depth.
 
 ### Replace pre-approval with review
 

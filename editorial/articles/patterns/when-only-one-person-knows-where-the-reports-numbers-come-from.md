@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-055
 slug: when-only-one-person-knows-where-the-reports-numbers-come-from
-title: When Only One Person Knows Where the Report's Numbers Come From
-description: When one person is the only map of where reporting data lives and how it is adjusted, the business depends on their memory for every management decision. Writing down the data's route turns that memory into an asset.
+title: When only one person knows where the report's numbers come from
+description: When one person alone knows where reporting data lives and how it is adjusted, every management decision depends on their memory. Document the route.
 lead: When one person is the only map of where reporting data lives and how it is adjusted, the business depends on their memory for every management decision. Writing down the data's route turns that memory into an asset.
 category: Reporting & Operational Visibility
 published_date: 2026-10-06
@@ -18,9 +18,9 @@ sources:
   - Data lineage - Power BI | https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-data-lineage
   - The AQuA Book | https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government
 related:
-  - Why Reporting Delays Become Decision Delays | /patterns/why-reporting-delays-become-decision-delays/
-  - The Difference Between Having Data and Having Visibility | /patterns/the-difference-between-having-data-and-having-visibility/
-  - Why Does Management Find Out Too Late? | /patterns/why-management-finds-out-too-late/
+  - Why reporting delays become decision delays | /patterns/why-reporting-delays-become-decision-delays/
+  - The difference between having data and having visibility | /patterns/the-difference-between-having-data-and-having-visibility/
+  - Why does management find out too late? | /patterns/why-management-finds-out-too-late/
 summary: When one person is the only map of where reporting data lives and how it is adjusted, the business depends on their memory for every management decision. Writing down the data's route turns that memory into an asset.
 layout: plain
 ---
@@ -38,7 +38,7 @@ It is easy to see this as a staffing issue: one capable person, not enough backu
 
 The data profession has a name for this map. IBM describes data lineage as tracking the flow of data over time: where it originated, how it changed and where it ended up. Lineage is what lets someone trace a wrong figure back to its source, or understand which reports will change if a source changes. Microsoft's documentation for its reporting tools notes that questions such as why a report is not up to date can otherwise require a team of experts or deep investigation to answer. In a small business, that investigation is one person's memory.
 
-There is a quality dimension too. The UK government's guidance on producing quality analysis, the AQuA Book, expects documentation for all analysis, even single-analyst work, and states that the analyst and the person assuring the work should be separate. When only one person can explain a number, nobody can check it.
+There is a quality dimension too. The UK government's guidance on producing quality analysis, the [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government), expects documentation for all analysis, even single-analyst work, and states that the analyst and the person assuring the work should be separate. When only one person can explain a number, nobody can check it.
 
 **Realisation prompt:** if the person who builds your monthly report resigned today, how long would it take someone else to produce the same figures, and how would you know they were right?
 

@@ -66,7 +66,7 @@ Be deliberate about how multiple approvers combine. Power Automate distinguishes
 
 ## Design for expiry, escalation and absence
 
-Automation does not remove queue design. Microsoft's current documentation on Power Automate approvals notes that an approval flow can wait for 28 days; if the wait exceeds that, the flow fails, while the approval itself continues to exist in the approvals centre with nothing waiting on it. The specific platform limit is a technical detail. The operating lesson is universal: every approval needs a path for no response, expired requests, unavailable approvers and ownership changes.
+Automation does not remove queue design. Microsoft's current documentation on [Power Automate approvals](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) notes that an approval flow can wait for 28 days; if the wait exceeds that, the flow fails, while the approval itself continues to exist in the approvals centre with nothing waiting on it. The specific platform limit is a technical detail. The operating lesson is universal: every approval needs a path for no response, expired requests, unavailable approvers and ownership changes.
 
 Define escalation times, delegate rules, cancellation behaviour and what happens when an approver leaves the organisation. Monitoring should show aged approvals and failure states rather than forcing requestors to chase individuals manually. If chasing is the main way work moves, that is itself a design signal—see [why chasing people for updates is a systems failure](/insights/why-chasing-people-for-updates-is-a-systems-failure/).
 

@@ -3,8 +3,8 @@ hub: discovery
 record_id: DISC-474
 slug: automation-incident-response-improvised
 title: Automation incident response is improvised
-description: Discovery article examining how incident response automation is improvised across teams, the risks this creates, and practical governance steps to improve reliability.
-lead: Discovery article examining how incident response automation is improvised across teams, the risks this creates, and practical governance steps to improve reliability.
+description: When an automation fails, most teams improvise the response. The risks this creates, and the simple governance steps that make recovery predictable.
+lead: When an automation fails, most teams improvise the response. The risks this creates, and the simple governance steps that make recovery predictable.
 category: AI, Automation & Agent Operations
 published_date: 2026-10-02
 updated_date: 2026-10-02
@@ -20,7 +20,7 @@ related:
   - Agent conversations are not connected to durable business records | /discovery/agent-conversations-not-connected-to-durable-business-records/
   - Agent permissions are broader than the task requires | /discovery/agent-permissions-broader-than-task-requires/
   - Teams cannot tell which processes are safe to automate end to end | /discovery/teams-cannot-tell-processes-safe-to-automate/
-summary: Discovery article examining how incident response automation is improvised across teams, the risks this creates, and practical governance steps to improve reliability.
+summary: When an automation fails, most teams improvise the response. The risks this creates, and the simple governance steps that make recovery predictable.
 layout: plain
 ---
 ## Problem statement

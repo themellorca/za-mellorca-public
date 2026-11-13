@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-453
 slug: why-bots-fail-when-upstream-data-formats-change
-title: Why Bots Fail When Upstream Data Formats Change
+title: Why bots fail when upstream data formats change
 description: Automation can fail or behave incorrectly when upstream fields, schemas or formats change without a governed contract and monitoring path.
 lead: A workflow can look stable for months and then fail because a source application renamed a field, changed a value type or altered the structure the automation expected.
 category: AI, Automation & Agent Operations
@@ -28,7 +28,7 @@ sources:
 closing_title: Method note
 closing_text: Platform documentation establishes the failure and troubleshooting mechanism. Prevalence and financial impact require organisation-specific evidence.
 related:
-  - Why AI Tools Fail Without Authoritative Data | /discovery/why-ai-tools-fail-without-authoritative-data/
+  - Why AI tools fail without authoritative data | /discovery/why-ai-tools-fail-without-authoritative-data/
   - Automation incident response is improvised | /discovery/automation-incident-response-improvised/
   - AI evaluations are performed only before launch | /discovery/ai-evaluations-are-performed-only-before-launch/
 ---
@@ -38,17 +38,17 @@ An automation depends on data arriving in a particular shape. A source system ch
 
 The change is usually ordinary. A supplier adds a column to a nightly export. A finance team renames a status from “Approved” to “Authorised”. A SaaS vendor restructures an address into separate street, city and postcode fields. A SharePoint list is moved during a tidy-up. Nobody involved thinks of these as automation changes, because nobody on the producing side knows that a bot is reading the data. The automation owner finds out later, from a failed run, a missing invoice or a complaint from the team that relied on the output.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer is not simply trying to “fix a bot.” They need dependable automation when upstream applications evolve, including a way to detect incompatible changes before users discover the business consequence.
+The business is not simply trying to “fix a bot.” They need dependable automation when upstream applications evolve, including a way to detect incompatible changes before users discover the business consequence.
 
-The search language tends to be symptom-first: “automation keeps breaking after updates”, “flow fails when the spreadsheet changes”, “RPA bot broke after the vendor upgrade”, or “how to stop integrations failing when fields change”. Behind those phrases sits a single question: how do we keep automated work reliable when we do not control the systems that feed it?
+The complaint tends to be symptom-first: “automation keeps breaking after updates”, “the flow fails when the spreadsheet changes”, “the RPA bot broke after the vendor upgrade”, or “how do we stop integrations failing when fields change?” Behind those phrases sits a single question: how do we keep automated work reliable when we do not control the systems that feed it?
 
 ## Evidence and system mechanism
 
 Microsoft Power Automate troubleshooting guidance directs operators to inspect failed run inputs, outputs, connection state and changed resources. Its current troubleshooting guide explains a 404 error as a resource that was renamed, moved or deleted, and names wrong data types and null values among the most common expression mistakes. It also describes a separate class of problem: flows that complete with every step green but produce the wrong result because dynamic content references the wrong field or a comparison is affected by case or type. That is the visible operational layer. The architectural issue is deeper: automations consume an implicit data contract, whether or not the organisation has documented one.
 
-Microsoft's Azure Architecture Center guidance on web API design makes the same point from the producer's side. Adding fields to a resource may not break a client that ignores unrecognised content, but removing or renaming fields, or changing the relationships between resources, can constitute breaking changes that stop existing clients working. The guidance describes versioning approaches—through the URI, a query string, a header or the media type—so that existing consumers can keep receiving the shape they were built for.
+Microsoft's Azure Architecture Center guidance on [web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design) makes the same point from the producer's side. Adding fields to a resource may not break a client that ignores unrecognised content, but removing or renaming fields, or changing the relationships between resources, can constitute breaking changes that stop existing clients working. The guidance describes versioning approaches—through the URI, a query string, a header or the media type—so that existing consumers can keep receiving the shape they were built for.
 
 If the producer changes and the consumer has no validation, versioning or alert path, a workflow can become brittle. Reliable automation therefore needs explicit assumptions about required fields, formats, values and failure behaviour.
 

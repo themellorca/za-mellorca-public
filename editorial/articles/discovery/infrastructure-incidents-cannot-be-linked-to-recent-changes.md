@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-324
 slug: infrastructure-incidents-cannot-be-linked-to-recent-changes
 title: Why infrastructure incidents cannot be linked to the change that caused them
-description: Most outages follow a change, yet many teams cannot see what changed before an incident. How scattered change records slow recovery, and how to build a change timeline that speeds it up.
+description: Most outages follow a change, yet many teams cannot see what changed first. How to build a change timeline that speeds up recovery.
 lead: Most outages follow a change, yet many teams cannot see what changed before an incident. How scattered change records slow recovery, and how to build a change timeline that speeds it up.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-07
@@ -40,9 +40,9 @@ In many businesses that view does not exist. Common signs include:
 - incident reviews conclude "cause unknown" or rely on guesswork;
 - the business cannot say what proportion of its changes cause problems.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for "what changed before the outage", "correlate deployments with incidents", "change tracking for cloud infrastructure" or "audit log of cloud changes". Underneath is a practical goal: when something breaks, see within minutes every change made to the affected systems in the preceding hours, and use that history over time to make changes safer.
+People ask "what changed before the outage?", "how do we correlate deployments with incidents?", "how do we track changes to cloud infrastructure?" or "is there an audit log of cloud changes?" Underneath is a practical goal: when something breaks, see within minutes every change made to the affected systems in the preceding hours, and use that history over time to make changes safer.
 
 Related problems appear at other layers. Untracked prompt and configuration edits are covered in [prompt and configuration changes made without version control](/discovery/prompt-and-configuration-changes-made-without-version-control/), and diagnosing failures across suppliers in [why integration incidents require several vendors to diagnose](/discovery/why-integration-incidents-require-several-vendors-to-diagnose/). This article focuses on infrastructure changes and incident timelines.
 

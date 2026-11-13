@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-355
 slug: pain-invoice-approvals-in-inboxes
-title: Invoice Approvals Stuck in Inboxes
+title: Invoice approvals stuck in inboxes
 description: Manual, inbox‑based invoice routing creates delays that ripple through cash flow and supplier relationships.
 lead: Manual, inbox‑based invoice routing creates delays that ripple through cash flow and supplier relationships.
 category: mellorca.com
@@ -18,9 +18,9 @@ sources:
   - Late commercial payments: charging interest and debt recovery | https://www.gov.uk/late-commercial-payments-interest-debt-recovery/charging-interest-commercial-debt
   - Vendor invoices overview - Finance - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/vendor-invoices-overview
 related:
-  - The Cost of Retyping Customer Details into Every System | /impact/pain-duplication-of-customer-data-entry/
-  - Projects Run Through Email Threads and Private Spreadsheets | /impact/pain-projects-managed-through-email-spreadsheets/
-  - The Hidden Productivity Cost of Poor Office Wi-Fi | /impact/pain-poor-office-wi-fi-slowing-employees-down/
+  - The cost of retyping customer details into every system | /impact/pain-duplication-of-customer-data-entry/
+  - Projects run through email threads and private spreadsheets | /impact/pain-projects-managed-through-email-spreadsheets/
+  - The hidden productivity cost of poor office Wi-Fi | /impact/pain-poor-office-wi-fi-slowing-employees-down/
 summary: Manual, inbox‑based invoice routing creates delays that ripple through cash flow and supplier relationships.
 layout: plain
 ---
@@ -48,7 +48,7 @@ The intake side of the same problem is covered in Mellorca's article on [supplie
 
 ## Financial consequence
 
-The financial effect extends beyond timing. Late payment can incur interest and recovery charges, harm supplier relationships and degrade the predictability that underpins financial planning. The cost mechanism is anchored in working capital impact, interest on late payments, lost discounts, handling labour and supplier risk.
+The financial effect extends beyond timing. [Late payment](https://single-market-economy.ec.europa.eu/smes/sme-strategy/late-payment-directive_en) can incur interest and recovery charges, harm supplier relationships and degrade the predictability that underpins financial planning. The cost mechanism is anchored in working capital impact, interest on late payments, lost discounts, handling labour and supplier risk.
 
 Late payment is also regulated in many markets. In the European Union, the Late Payment Directive gives suppliers an automatic entitlement to interest on overdue payments, set at least 8% above the European Central Bank reference rate, plus a minimum of EUR 40 in recovery costs. In the UK, GOV.UK guidance sets statutory interest for business-to-business debts at 8% plus the Bank of England base rate. The rules differ by jurisdiction, so check the law that applies to your contracts, but the direction is consistent: paying late can cost more than the invoice.
 

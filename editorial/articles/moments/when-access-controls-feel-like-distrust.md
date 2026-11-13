@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000052
 slug: when-access-controls-feel-like-distrust
-title: When Access Controls Feel Like Distrust
-description: Shared logins disappear, codes arrive on phones and long-serving staff see less than they used to. The controls are sound, but the way they arrive can read as suspicion. Why that happens, and how fair, explained access protects dignity as well as data.
+title: When access controls feel like distrust
+description: Shared logins vanish, codes arrive on phones and long-serving staff see less. The controls are sound but can feel like suspicion. How to protect dignity.
 lead: Shared logins disappear, codes arrive on phones and long-serving staff see less than they used to. The controls are sound, but the way they arrive can read as suspicion. Why that happens, and how fair, explained access protects dignity as well as data.
 category: Human Agency
 published_date: 2026-10-07
@@ -20,9 +20,9 @@ sources:
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
   - Cyber security culture principles | https://www.ncsc.gov.uk/collection/you-shape-security
 related:
-  - The Difference Between Being Informed and Being in Control | /moments/the-difference-between-being-informed-and-being-in-control/
-  - When the System Decides What You Can Do Today | /moments/when-the-system-decides-what-you-can-do-today/
-  - The Manager Who Can't Act Without the Founder | /moments/the-manager-who-cant-act-without-the-founder/
+  - The difference between being informed and being in control | /moments/the-difference-between-being-informed-and-being-in-control/
+  - When the system decides what you can do today | /moments/when-the-system-decides-what-you-can-do-today/
+  - The manager who can't act without the founder | /moments/the-manager-who-cant-act-without-the-founder/
 summary: Shared logins disappear, codes arrive on phones and long-serving staff see less than they used to. The controls are sound, but the way they arrive can read as suspicion. Why that happens, and how fair, explained access protects dignity as well as data.
 layout: plain
 ---
@@ -34,11 +34,11 @@ Nothing had happened. The business had done something sensible and overdue. But 
 
 ## Why access controls are tightening
 
-The direction of travel in security guidance is clear, and it is not driven by suspicion of any particular employee. The US National Institute of Standards and Technology describes zero trust, in its publication SP 800-207, as a set of approaches that move defences from network perimeters to users, assets and resources. A central idea is that no implicit trust is granted to accounts based only on their location on the network or on who owns the device.
+The direction of travel in security guidance is clear, and it is not driven by suspicion of any particular employee. The US National Institute of Standards and Technology describes [zero trust](https://www.ncsc.gov.uk/collection/zero-trust-architecture), in its publication SP 800-207, as a set of approaches that move defences from network perimeters to users, assets and resources. A central idea is that no implicit trust is granted to accounts based only on their location on the network or on who owns the device.
 
 The UK National Cyber Security Centre describes zero trust as an approach in which inherent trust in the network is removed, the network is assumed hostile, and each request is verified against an access policy. Its principles include knowing identities, so that users and devices are uniquely identifiable, and authenticating everywhere.
 
-South African law points the same way. Section 19 of the Protection of Personal Information Act requires a responsible party to take appropriate, reasonable technical and organisational measures to prevent unlawful access to personal information, to identify foreseeable risks and to keep its safeguards up to date. A shared login to a system holding payroll and customer records is difficult to square with that duty.
+South African law points the same way. Section 19 of the Protection of [Personal Information](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/) Act requires a responsible party to take appropriate, reasonable technical and organisational measures to prevent unlawful access to personal information, to identify foreseeable risks and to keep its safeguards up to date. A shared login to a system holding payroll and customer records is difficult to square with that duty.
 
 Read carefully, this guidance is about removing assumptions from systems. It treats every request the same way precisely so that no individual is singled out. Mellorca has covered the business risk side in [the financial risk of uncontrolled system access](/impact/uncontrolled-system-access-financial-risk/).
 

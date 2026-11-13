@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-203
 slug: why-looking-for-information-has-become-part-of-everyones-job
-title: Why Looking for Information Has Quietly Become Part of Everyone's Job
-description: When staff in every role spend part of the day looking for prices, procedures and customer history, search has become an unmeasured workload. Giving each type of information one home and one owner returns that time to productive work.
+title: Why looking for information has quietly become part of everyone's job
+description: When staff in every role hunt for prices, procedures and customer history, search is an unmeasured workload. Give information one home and owner.
 lead: When staff in every role spend part of the day looking for prices, procedures and customer history, search has become an unmeasured workload. Giving each type of information one home and one owner returns that time to productive work.
 category: Knowledge, Documents & Information Retrieval
 published_date: 2026-10-07
@@ -18,9 +18,10 @@ sources:
   - Microsoft Search Overview | https://learn.microsoft.com/en-us/microsoftsearch/overview-microsoft-search
   - What Is Knowledge Management? - IBM | https://www.ibm.com/think/topics/knowledge-management
 related:
-  - When Business Knowledge Lives in Inbox History | /patterns/when-business-knowledge-lives-in-inbox-history/
-  - When Work Goes Missing in the Gap Between Two Systems | /patterns/when-work-goes-missing-in-the-gap-between-two-systems/
-  - Why Returns Become a Cross-Department Investigation | /patterns/why-returns-become-a-cross-department-investigation/
+  - When business knowledge lives in inbox history | /patterns/when-business-knowledge-lives-in-inbox-history/
+  - When work goes missing in the gap between two systems | /patterns/when-work-goes-missing-in-the-gap-between-two-systems/
+  - Why returns become a cross-department investigation | /patterns/why-returns-become-a-cross-department-investigation/
+  - Why document storage is not the same as knowledge management | /patterns/why-a-full-document-archive-still-leaves-staff-asking-each-other/
 summary: When staff in every role spend part of the day looking for prices, procedures and customer history, search has become an unmeasured workload. Giving each type of information one home and one owner returns that time to productive work.
 layout: plain
 ---
@@ -91,7 +92,9 @@ People still ask each other questions, but they ask about judgement and context 
 
 ## An illustrative example
 
-The following is illustrative, not a client case. A Durban industrial supplies distributor has twelve staff. The internal sales team keeps being asked for current prices and stock lead times, and the warehouse supervisor is asked several times a day where a customer's special delivery instructions are kept. When the owner asks the team to note their searches for a week, prices, delivery instructions and supplier terms account for most of them. Each lived in at least three places. The business agrees one price list maintained by the buyer, moves delivery instructions onto the customer record and writes up supplier terms in a single shared page. The questions do not stop entirely, but most of them now have an answer that anyone can find.
+The following is illustrative, not a client case. A Durban industrial supplies distributor has twelve staff. The internal sales team keeps being asked for current prices and stock lead times, and the warehouse supervisor is asked several times a day where a customer's special delivery instructions are kept. When the owner asks the team to note their searches for a week, prices, delivery instructions and supplier terms account for most of them.
+
+Each lived in at least three places. The business agrees one price list maintained by the buyer, moves delivery instructions onto the customer record and writes up supplier terms in a single shared page. The questions do not stop entirely, but most of them now have an answer that anyone can find.
 
 ## Practical diagnostic questions
 

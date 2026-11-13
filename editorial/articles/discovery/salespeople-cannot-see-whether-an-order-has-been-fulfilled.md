@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-081
 slug: salespeople-cannot-see-whether-an-order-has-been-fulfilled
 title: Why salespeople cannot see whether an order has actually been fulfilled
-description: The CRM says the deal is won, but delivery and invoicing happen in other systems. Without status flowing back, salespeople phone the warehouse to answer customers.
+description: The CRM says the deal is won, but delivery and invoicing happen elsewhere. Without status flowing back, salespeople phone the warehouse for answers.
 lead: The CRM says the deal is won, but delivery and invoicing happen in other systems. Without status flowing back, salespeople phone the warehouse to answer customers.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-04
@@ -31,9 +31,9 @@ Sales works in the CRM. Fulfilment happens in the ERP, warehouse or job manageme
 
 The symptoms are easy to spot. Salespeople keep their own spreadsheets of open orders. The warehouse and accounts teams field constant "where is it?" calls from colleagues. Customers hear different answers from different people. Salespeople promise delivery dates that operations never agreed to. Commission disputes arise because sales thinks an order closed when finance has not invoiced it.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Searches such as "CRM order status from ERP", "sales can't see fulfilment status" or "sync delivery status to CRM" usually come from a sales or revenue operations manager under pressure. The immediate goal is to answer customers without an internal investigation. The wider goal is one view of the order from quote to cash that sales, operations and finance all trust. That need sharpens as sales grows, because the number of orders to chase rises faster than the number of people available to chase them.
+The problem is usually raised as "sales can't see fulfilment status", "how do we show order status from the ERP in the CRM?" or "how do we sync delivery status to the CRM?" It usually comes from a sales or revenue operations manager under pressure. The immediate goal is to answer customers without an internal investigation. The wider goal is one view of the order from quote to cash that sales, operations and finance all trust. That need sharpens as sales grows, because the number of orders to chase rises faster than the number of people available to chase them.
 
 ## Evidence and system mechanism
 

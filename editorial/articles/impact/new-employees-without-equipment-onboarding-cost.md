@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-206
 slug: new-employees-without-equipment-onboarding-cost
-title: New Employees Without Equipment Create Paid Onboarding Delay
+title: New employees without equipment create paid onboarding delay
 description: When new employees start before their equipment is ready, payroll begins while productive capacity is still blocked by avoidable provisioning delay.
 lead: A start date can be confirmed before the laptop, peripherals and standard setup are ready. The result is a payroll cost that begins before the employee has the tools required to perform the job.
 category: Digital Infrastructure
@@ -23,10 +23,11 @@ evidence_basis: qualitative analysis and transparent input-based cost model; no 
 sources:
   - Overview of Windows Autopilot | https://learn.microsoft.com/en-us/autopilot/overview
   - Automated Device Enrollment and device management | https://support.apple.com/guide/deployment/automated-device-enrollment-management-dep73069dd57/web
+  - Step 5 - Enroll devices in Microsoft Intune - Microsoft Learn | https://learn.microsoft.com/en-us/mem/intune/fundamentals/deployment-guide-enrollment
 related:
-  - Slow Computers Turn Small Delays into Paid Waiting | /impact/slow-computers-paid-waiting-cost/
-  - Unmonitored Backups Create False Recovery Confidence | /impact/unmonitored-backups-false-recovery-confidence/
-  - Paying for Server Capacity the Business Does Not Use | /impact/overprovisioned-server-capacity-cost/
+  - Slow computers turn small delays into paid waiting | /impact/slow-computers-paid-waiting-cost/
+  - Unmonitored backups create false recovery confidence | /impact/unmonitored-backups-false-recovery-confidence/
+  - Paying for server capacity the business does not use | /impact/overprovisioned-server-capacity-cost/
 ---
 ## The tolerated pain
 
@@ -38,7 +39,7 @@ The pain is tolerated because it looks like a one-off. A late laptop is explaine
 
 The underlying issue is that onboarding is treated as a series of handoffs rather than one process with one deadline. HR records the hire. The manager is expected to tell IT. IT waits for a request before ordering. Procurement waits for an approval. The device arrives and then waits for imaging, accounts and software. Each step has its own queue, and none of the queues is driven by the start date.
 
-Device deployment technology has moved on, but it only helps if the process feeds it in time. Microsoft describes Windows Autopilot as a set of technologies that pre-configure new devices so they are ready for productive use, with the end user needing only to connect to a network and verify their credentials. Apple's Automated Device Enrollment lets organisations configure and manage company-owned devices from the moment they are taken out of the box. Both remove much of the manual build effort. Neither can help if the device has not been ordered, registered or assigned before the person starts.
+Device deployment technology has moved on, but it only helps if the process feeds it in time. Microsoft describes Windows Autopilot as a set of technologies that pre-configure new devices so they are ready for productive use, with the end user needing only to connect to a network and verify their credentials. Apple's [Automated Device Enrollment](https://support.apple.com/guide/deployment/automated-device-enrollment-management-dep73069dd57/web) lets organisations configure and manage company-owned devices from the moment they are taken out of the box. Both remove much of the manual build effort, and Microsoft's [Intune enrolment guidance](https://learn.microsoft.com/en-us/mem/intune/fundamentals/deployment-guide-enrollment) describes company devices that enrol and configure themselves when the user first switches them on. Neither can help if the device has not been ordered, registered or assigned before the person starts.
 
 ## Operational consequence
 

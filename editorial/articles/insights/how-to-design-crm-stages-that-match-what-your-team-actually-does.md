@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-082
 slug: how-to-design-crm-stages-that-match-what-your-team-actually-does
-title: How to Design CRM Stages Around Real Work
+title: How to design CRM stages around real work
 description: CRM stages that mirror a textbook funnel get ignored. Stages built from observable events, with clear entry and exit tests, give a team a pipeline it can trust.
 lead: CRM stages that mirror a textbook funnel get ignored. Stages built from observable events, with clear entry and exit tests, give a team a pipeline it can trust.
 category: CRM and Sales Operations
@@ -15,8 +15,8 @@ sources:
   - Working with WIP limits for kanban - Atlassian | https://www.atlassian.com/agile/kanban/wip-limits
   - What is Process Mining? - IBM | https://www.ibm.com/think/topics/process-mining
 related:
-  - How to Design a Customer Onboarding Workflow That Scales | /insights/how-to-design-a-customer-onboarding-workflow-that-scales/
-  - Why Work Gets Lost Between Teams | /insights/why-work-gets-lost-between-teams/
+  - How to design a customer onboarding workflow that scales | /insights/how-to-design-a-customer-onboarding-workflow-that-scales/
+  - Why work gets lost between teams | /insights/why-work-gets-lost-between-teams/
   - Before you automate, understand how the work actually moves | /insights/before-you-automate-understand-how-the-work-actually-moves/
 summary: CRM stages that mirror a textbook funnel get ignored. Stages built from observable events, with clear entry and exit tests, give a team a pipeline it can trust.
 layout: plain
@@ -70,7 +70,7 @@ Closed-lost deserves the same care. Require a reason from a short list, such as 
 
 ## Check the design against evidence
 
-Once the stages are live, use the data to test them. IBM's overview of process mining explains how event logs from systems such as a CRM can be used to build a model of how a process really unfolds, and how timestamps reveal where time is spent and where cases deviate. You do not need specialist software to apply the principle. Export the stage history and look for four things.
+Once the stages are live, use the data to test them. IBM's overview of [process mining](https://www.ibm.com/think/topics/process-mining) explains how event logs from systems such as a CRM can be used to build a model of how a process really unfolds, and how timestamps reveal where time is spent and where cases deviate. You do not need specialist software to apply the principle. Export the stage history and look for four things.
 
 1. Deals that skip stages. They may signal a stage nobody needs.
 2. Deals that move backwards. They may signal an unclear exit test.

@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000338
 slug: the-cash-flow-week-that-keeps-the-owner-awake
-title: The Cash-Flow Week That Keeps the Owner Awake
-description: For many small business owners, the last week of the month is a private exercise in arithmetic. What would it take for that week to become predictable rather than sleepless?
+title: The cash-flow week that keeps the owner awake
+description: For many small business owners, the last week of the month is a private exercise in arithmetic. What would make it predictable rather than sleepless?
 lead: For many small business owners, the last week of the month is a private exercise in arithmetic. What would it take for that week to become predictable rather than sleepless?
 category: Economic Possibility & Stability
 published_date: 2026-10-03
@@ -17,10 +17,11 @@ epistemic_state: HYPOTHESISED for the owner experience and causal chain; OBSERVE
 sources:
   - Non-payment of invoices within 30 days persists in government | https://www.sanews.gov.za/south-africa/non-payment-invoices-within-30-days-persists-government
   - Small businesses bear the cost of South Africa’s late payment negligence | https://www.fanews.co.za/article/smmes/1399/general/1400/small-businesses-bear-the-cost-of-south-africa-s-late-payment-negligence/43533
+  - Cabinet receives report on small business payments - SAnews | https://www.sanews.gov.za/node/17260
 related:
-  - Why Holidays Still Need a Laptop in the Suitcase | /moments/why-holidays-still-need-a-laptop-in-the-suitcase/
-  - When Month-End Swallows the Whole Week | /moments/when-month-end-swallows-the-whole-week/
-  - When Digital-Only Leaves Some Customers Behind | /moments/when-digital-only-leaves-some-customers-behind/
+  - Why holidays still need a laptop in the suitcase | /moments/why-holidays-still-need-a-laptop-in-the-suitcase/
+  - When month-end swallows the whole week | /moments/when-month-end-swallows-the-whole-week/
+  - When digital-only leaves some customers behind | /moments/when-digital-only-leaves-some-customers-behind/
 summary: For many small business owners, the last week of the month is a private exercise in arithmetic. What would it take for that week to become predictable rather than sleepless?
 layout: plain
 ---
@@ -32,9 +33,9 @@ We cannot know how any particular owner experiences this week. People carry fina
 
 ## The pressure is real, and much of it is outside the owner's control
 
-South African small businesses operate in an environment where payment delays are common and well documented. National Treasury reports on government payments to suppliers give one public view. According to a July 2026 SAnews report on National Treasury's third-quarter 2025/26 figures, national and provincial departments had 90,856 invoices older than 30 days still unpaid, worth R15.5 billion. In the same quarter 89,499 invoices worth R10.8 billion were paid late.
+South African small businesses operate in an environment where payment delays are common and well documented. National Treasury reports on government payments to suppliers give one public view. According to a July 2026 SAnews report on National Treasury's third-quarter 2025/26 figures, national and provincial departments had 90,856 invoices older than 30 days still unpaid, worth R15.5 billion. In the same quarter 89,499 invoices worth R10.8 billion were paid late. The expectation itself is clear: under the Public Finance Management Act and Treasury Regulations, government departments are meant to [pay suppliers within 30 days](https://www.sanews.gov.za/node/17260) of a valid invoice, and missing that deadline is classed as financial misconduct.
 
-Commissioner Anele Gxoyiya, quoted in that report, described non-payment by government departments as a contributing factor to a lack of sustainability among small businesses, and linked delayed payments to borrowing, retrenchments and closures. A March 2026 FA News article, drawing on the same Treasury series, describes how late payment ripples outward: small businesses that are paid late pay their own suppliers late, and those suppliers are often small businesses too.
+Commissioner Anele Gxoyiya, quoted in that report, described non-payment by government departments as a contributing factor to a lack of sustainability among small businesses, and linked delayed payments to borrowing, retrenchments and closures. A March 2026 FA News article, drawing on the same Treasury series, describes how [late payment](https://www.fanews.co.za/article/smmes/1399/general/1400/small-businesses-bear-the-cost-of-south-africa-s-late-payment-negligence/43533) ripples outward: small businesses that are paid late pay their own suppliers late, and those suppliers are often small businesses too.
 
 Those figures describe government payment behaviour specifically. They should not be stretched into a claim about every customer relationship. But they establish something important for this story: **some of the uncertainty at month-end is imposed from outside**, and no internal system will make a late payer pay on time.
 

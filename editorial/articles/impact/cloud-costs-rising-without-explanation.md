@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-227
 slug: cloud-costs-rising-without-explanation
-title: Cloud Costs Rising Every Month Without an Explanation
-description: Cloud bills rarely become expensive in one dramatic event. Unallocated growth, forgotten usage and weak cost ownership can turn flexible infrastructure into recurring financial drift.
+title: Cloud costs rising every month without an explanation
+description: Cloud bills rarely balloon in one event. Unallocated growth, forgotten usage and weak cost ownership turn flexible infrastructure into steady drift.
 lead: Cloud infrastructure is designed to expand quickly. Without equally strong cost visibility, that flexibility can turn normal operational change into a bill nobody can confidently explain.
 category: Cloud Infrastructure
 published_date: 2026-09-02
@@ -28,9 +28,9 @@ sources:
 closing_title: Method note
 closing_text: Higher cloud spend can be legitimate. Measure unexplained variance, investigation labour and unit economics from your own billing and workload data rather than assuming a generic percentage of waste.
 related:
-  - Paying for Software Licences Nobody Uses | /impact/unused-software-licences-financial-waste/
-  - When Revenue Is Visible but Profitability Is Not | /impact/no-visibility-into-customer-product-profitability/
-  - The Payroll Cost of a Slow, Spreadsheet-Heavy Month-End | /impact/manual-month-end-close-payroll-cost/
+  - Paying for software licences nobody uses | /impact/unused-software-licences-financial-waste/
+  - When revenue is visible but profitability is not | /impact/no-visibility-into-customer-product-profitability/
+  - The payroll cost of a slow, spreadsheet-heavy month-end | /impact/manual-month-end-close-payroll-cost/
 ---
 ## The tolerated pain is a bill that grows faster than understanding
 
@@ -44,7 +44,7 @@ Take a software company in Pretoria with a team of twelve developers serving a f
 
 Cloud makes it easy to create resources and deliberately separates infrastructure consumption from traditional procurement cycles. That speed is valuable, but it means cost can change every day while ownership, budgets and review processes still operate monthly or quarterly.
 
-The FinOps Foundation's State of FinOps 2026 report reflects how broad technology-cost management has become, and major cloud providers continue adding cost allocation and anomaly-detection capabilities. In June 2026 AWS added AI-assisted investigations to its Cost Anomaly Detection service, aimed at explaining whether a change came from usage or rate, which services, accounts and regions contributed, and, using CloudTrail data, which API calls and identities were involved. Microsoft Cost Management similarly provides anomaly detection and alerts for unexpected subscription-level changes; its documentation explains that anomalies are evaluated daily against a forecast based on the previous 60 days of usage, with detection running 36 hours after the end of each day.
+The FinOps Foundation's [State of FinOps](https://www.finops.org/update/state-of-finops-2026-report-now-available/) 2026 report reflects how broad technology-cost management has become, and major cloud providers continue adding cost allocation and anomaly-detection capabilities. In June 2026 AWS added AI-assisted investigations to its Cost Anomaly Detection service, aimed at explaining whether a change came from usage or rate, which services, accounts and regions contributed, and, using CloudTrail data, which API calls and identities were involved. Microsoft Cost Management similarly provides anomaly detection and alerts for unexpected subscription-level changes; its documentation explains that anomalies are evaluated daily against a forecast based on the previous 60 days of usage, with detection running 36 hours after the end of each day.
 
 That timing detail is worth noticing. Even good tooling reports on yesterday, not on this morning. A misconfigured resource can run for a day or two before any alert fires, and for weeks if nobody acts on the alert.
 

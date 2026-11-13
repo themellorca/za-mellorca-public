@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-039
 slug: when-your-website-promises-what-your-back-office-cannot-see
-title: When Your Website Promises What Your Back Office Cannot See
-description: The website shows stock that has already sold, quotes lead times the factory cannot meet and collects orders that someone re-types into the accounting system. When the website runs as a separate island, every online promise depends on a manual bridge to the back office.
+title: When your website promises what your back office cannot see
+description: The website shows sold stock, quotes impossible lead times and relies on retyping into accounting. Online promises hang on a manual bridge.
 lead: The website shows stock that has already sold, quotes lead times the factory cannot meet and collects orders that someone re-types into the accounting system. When the website runs as a separate island, every online promise depends on a manual bridge to the back office.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-05
@@ -16,10 +16,11 @@ commercial_value_dimensions: Revenue, customer experience, capacity, speed and s
 sources:
   - Webhooks | https://woocommerce.com/document/webhooks/
   - About webhooks | https://shopify.dev/docs/apps/build/webhooks
+  - Orders and fulfillment - Shopify Dev Docs | https://shopify.dev/docs/apps/build/orders-fulfillment
 related:
-  - When Automation Stops at the Edge of Each System | /patterns/when-automation-stops-at-the-edge-of-each-system/
-  - When the Next Step Waits for Someone to Check Another System | /patterns/when-the-next-step-waits-for-someone-to-check-another-system/
-  - When Staff Get Blamed for Errors Their Systems Created | /patterns/when-staff-get-blamed-for-errors-their-systems-created/
+  - When automation stops at the edge of each system | /patterns/when-automation-stops-at-the-edge-of-each-system/
+  - When the next step waits for someone to check another system | /patterns/when-the-next-step-waits-for-someone-to-check-another-system/
+  - When staff get blamed for errors their systems created | /patterns/when-staff-get-blamed-for-errors-their-systems-created/
 summary: The website shows stock that has already sold, quotes lead times the factory cannot meet and collects orders that someone re-types into the accounting system. When the website runs as a separate island, every online promise depends on a manual bridge to the back office.
 layout: plain
 ---
@@ -39,7 +40,7 @@ A website makes promises on the business's behalf: this item is available, this 
 
 The same gap runs in the other direction. Every order, booking or enquiry the website collects has to reach the back office before anything happens. If that journey depends on a person, the website's speed ends at the inbox.
 
-Commerce platforms are designed to close both gaps. Shopify's inventory tracking keeps a stock count per product and, by default, stops customers buying items that are out of stock, unless the merchant chooses to continue selling at zero. That protection only works if the stock count reflects sales made elsewhere. Both WooCommerce and Shopify provide webhooks that notify other systems when orders and products are created or updated, so that back-office systems can stay in step without someone re-typing.
+Commerce platforms are designed to close both gaps. Shopify's inventory tracking keeps a stock count per product and, by default, stops customers buying items that are out of stock, unless the merchant chooses to continue selling at zero. That protection only works if the stock count reflects sales made elsewhere. Both WooCommerce and Shopify provide webhooks that notify other systems when orders and products are created or updated, so that back-office systems can stay in step without someone re-typing. For fulfilment, Shopify's developer documentation describes a [FulfillmentOrder](https://shopify.dev/docs/apps/build/orders-fulfillment) object that models the end-to-end fulfilment process so that fulfilment data can sync accurately between Shopify and connected apps.
 
 **Realisation prompt:** how old is the stock or availability information your website is showing customers right now?
 

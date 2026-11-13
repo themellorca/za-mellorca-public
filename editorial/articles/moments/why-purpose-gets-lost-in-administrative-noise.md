@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000460
 slug: why-purpose-gets-lost-in-administrative-noise
-title: Why Purpose Gets Lost in Administrative Noise
-description: People start businesses and choose careers for a reason that is rarely paperwork. How avoidable admin slowly crowds that reason out, and how to tell necessary administration from noise.
+title: Why purpose gets lost in administrative noise
+description: People start businesses and choose careers for reasons that are rarely paperwork. How avoidable admin crowds them out, and how to separate work from noise.
 lead: People start businesses and choose careers for a reason that is rarely paperwork. How avoidable admin slowly crowds that reason out, and how to tell necessary administration from noise.
 category: Meaning, Purpose & Identity
 published_date: 2026-10-07
@@ -20,9 +20,10 @@ sources:
   - Small Businesses - Taxpayers - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/
   - What Is Workflow Automation? - IBM | https://www.ibm.com/think/topics/workflow-automation
 related:
-  - When the Founder's Identity Is Fused With Every Task | /moments/when-the-founders-identity-is-fused-with-every-task/
-  - Why Some People Never Get an Uninterrupted Hour | /moments/why-some-people-never-get-an-uninterrupted-hour/
-  - The Employee Locked Out by a System Built for Someone Else | /moments/the-employee-locked-out-by-a-system-built-for-someone-else/
+  - When the founder's identity is fused with every task | /moments/when-the-founders-identity-is-fused-with-every-task/
+  - Why some people never get an uninterrupted hour | /moments/why-some-people-never-get-an-uninterrupted-hour/
+  - The employee locked out by a system built for someone else | /moments/the-employee-locked-out-by-a-system-built-for-someone-else/
+  - The teacher who became a data-entry clerk | /moments/the-teacher-who-became-a-data-entry-clerk/
 summary: People start businesses and choose careers for a reason that is rarely paperwork. How avoidable admin slowly crowds that reason out, and how to tell necessary administration from noise.
 layout: plain
 ---
@@ -46,9 +47,9 @@ Mellorca's guide to [the difference between necessary human work and avoidable m
 
 Large-scale workplace research does not measure purpose directly, and it would be a stretch to claim it proves that administration destroys meaning. It does show the conditions in which the drift happens.
 
-Microsoft's Work Trend Index found that, in its Microsoft 365 data, people spent 57% of their time communicating, through meetings, email and chat, and 43% creating. In the accompanying survey, 64% of respondents said they struggled to have the time and energy to do their job, and 68% said they did not have enough uninterrupted focus time.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) found that, in its Microsoft 365 data, people spent 57% of their time communicating, through meetings, email and chat, and 43% creating. In the accompanying survey, 64% of respondents said they struggled to have the time and energy to do their job, and 68% said they did not have enough uninterrupted focus time.
 
-Gallup's State of the Global Workplace 2026 report found that global employee engagement fell to 20% in 2025, with engagement among managers dropping more sharply. Gallup's measure covers many factors, and administrative load is not singled out as the cause.
+Gallup's [State of the Global Workplace](https://www.gallup.com/workplace/349484/state-of-the-global-workplace.aspx) 2026 report found that global employee engagement fell to 20% in 2025, with engagement among managers dropping more sharply. Gallup's measure covers many factors, and administrative load is not singled out as the cause.
 
 Together these figures describe a working world in which much of the day goes on coordination rather than the core of the job, and in which many people do not feel connected to their work. The link between the two in any particular South African business is a hypothesis, not a finding. It is a plausible one, and it can be tested.
 
@@ -76,7 +77,7 @@ The interventions start with seeing the noise clearly, and only then choosing to
 - **Remove before you automate.** Some noise disappears once a duplicate step, an unnecessary approval or a second copy of a record is removed.
 - **Give recurring admin a home and an owner.** Fee tracking, leave and compliance documents in one agreed place each, with a named person responsible, rather than spread across inboxes and notebooks.
 - **Answer common questions once.** A short published answer for the questions parents, customers or staff ask every week.
-- **Automate the repetitive remainder.** IBM describes workflow automation as replacing manual steps with software that executes all or part of a process, and stresses that success depends on good process design rather than technology alone. Bank feeds, reminders and simple forms can take over a great deal of predictable work.
+- **Automate the repetitive remainder.** IBM describes [workflow automation](https://www.ibm.com/think/topics/workflow-automation) as replacing manual steps with software that executes all or part of a process, and stresses that success depends on good process design rather than technology alone. Bank feeds, reminders and simple forms can take over a great deal of predictable work.
 - **Protect the core work deliberately.** Put it in the diary. Recovered time that is not protected tends to be absorbed by the next layer of noise.
 
 ## The first consequence, and the business outcome

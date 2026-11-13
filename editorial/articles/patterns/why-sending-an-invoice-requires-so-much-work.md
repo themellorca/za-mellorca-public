@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-151
 slug: why-sending-an-invoice-requires-so-much-work
-title: Why Does Sending an Invoice Require So Much Work?
-description: When issuing one invoice depends on gathering delivery data, approvals, customer details and manual checks, billing may be constrained by an upstream workflow problem.
+title: Why does sending an invoice require so much work?
+description: When issuing one invoice depends on gathering delivery data, approvals and manual checks, billing is held back by an upstream workflow problem.
 lead: When issuing one invoice depends on gathering delivery data, approvals, customer details and manual checks, billing may be constrained by an upstream workflow problem.
 category: Finance, Billing & Cash Flow
 published_date: 2026-09-02
@@ -30,6 +30,7 @@ related:
   - The Cash-Flow Cost of Late Invoicing and Manual Billing | /impact/late-invoicing-manual-billing-cash-flow-cost/
   - How to Decide What Should Be the System of Record | /insights/how-to-decide-what-should-be-the-system-of-record/
   - The Payroll Cost of a Manual Month-End Close | /impact/manual-month-end-close-payroll-cost/
+  - When billing errors start upstream in operations | /patterns/why-wrong-invoices-are-usually-an-operations-problem-not-a-billing-one/
 related_position: before_sources
 summary: Heavy invoice administration is often a symptom of fragmented information and unclear billing triggers upstream. That can slow cash conversion, consume finance capacity and create leakage or rework. If this condition is familiar in your business, explore Mellorca's solutions or start a conversation with us. We can trace the path from operational completion to billing and identify where the flow is breaking down.
 ---

@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-018
 slug: recurring-tasks-relying-on-memory-missed-work-cost
-title: Recurring Tasks That Live in Someone's Memory: The Cost of Missed Work
-description: When monthly returns, renewals and routine checks depend on someone remembering them, the business pays in penalties, rework and follow-up. A simple recurring schedule with named owners removes most of that risk.
+title: Recurring tasks that live in someone's memory: The cost of missed work
+description: When monthly returns, renewals and routine checks depend on someone remembering, you pay in penalties and rework. Recurring schedules with owners fix it.
 lead: When monthly returns, renewals and routine checks depend on someone remembering them, the business pays in penalties, rework and follow-up. A simple recurring schedule with named owners removes most of that risk.
 category: Digital Operations
 published_date: 2026-10-04
@@ -18,9 +18,9 @@ sources:
   - Recurring tasks in Planner - Microsoft Support | https://support.microsoft.com/en-us/planner/recurring-tasks-in-planner
   - Tool and Resources | https://www.who.int/teams/integrated-health-services/patient-safety/research/safe-surgery/tool-and-resources
 related:
-  - Two Departments, Same Work: The Payroll Cost of Duplicated Effort | /impact/departments-duplicating-same-work-payroll-cost/
-  - Fixing Avoidable Mistakes Instead of Serving Customers: The Cost of Rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
-  - "I Thought You Were Doing It": The Labour Cost of Unclear Responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
+  - Two departments, same work: The payroll cost of duplicated effort | /impact/departments-duplicating-same-work-payroll-cost/
+  - Fixing avoidable mistakes instead of serving customers: The cost of rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
+  - "I thought you were doing it": The labour cost of unclear responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
 summary: When monthly returns, renewals and routine checks depend on someone remembering them, the business pays in penalties, rework and follow-up. A simple recurring schedule with named owners removes most of that risk.
 layout: plain
 ---

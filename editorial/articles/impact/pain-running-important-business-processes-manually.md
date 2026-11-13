@@ -2,9 +2,9 @@
 hub: impact
 record_id: CPS-026
 slug: pain-running-important-business-processes-manually
-title: Running Important Daily Processes by Hand
-description: Explores how daily manual processes create predictable labor costs and error exposure, and how lightweight automation can re-allocate effort toward higher-value work.
-lead: Explores how daily manual processes create predictable labor costs and error exposure, and how lightweight automation can re-allocate effort toward higher-value work.
+title: Running important daily processes by hand
+description: Important daily processes run by hand create predictable labour costs and error exposure. Where light automation gives that time back.
+lead: Important daily processes run by hand create predictable labour costs and error exposure. Where light automation gives that time back.
 category: enterprise-automation
 published_date: 2026-09-08
 updated_date: 2026-09-08
@@ -15,11 +15,12 @@ primary_cost_mechanism: labor-cost and error risk
 sources:
   - Spreadsheet Errors: What We Know. What We Think We Can Do | https://arxiv.org/abs/0802.3457
   - What Is Business Process Automation? - IBM | https://www.ibm.com/think/topics/business-process-automation
+  - Architecture strategies for enabling and implementing automation - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/automate-tasks
 related:
-  - The Cost of Automations That Stop Silently | /impact/silent-automation-failures-financial-impact/
-  - Manual Automation Triggers Leave Half the Process Manual | /impact/manual-automation-trigger-half-automated-process-cost/
-  - The Cost of Constant Interruptions and Context Switching | /impact/pain-employees-interrupted-messages-notifications-context-switching/
-summary: Explores how daily manual processes create predictable labor costs and error exposure, and how lightweight automation can re-allocate effort toward higher-value work.
+  - The cost of automations that stop silently | /impact/silent-automation-failures-financial-impact/
+  - Manual automation triggers leave half the process manual | /impact/manual-automation-trigger-half-automated-process-cost/
+  - The cost of constant interruptions and context switching | /impact/pain-employees-interrupted-messages-notifications-context-switching/
+summary: Important daily processes run by hand create predictable labour costs and error exposure. Where light automation gives that time back.
 layout: plain
 ---
 ## The tolerated pain
@@ -44,7 +45,7 @@ Other signs follow. The process slows or stops when a particular person is on le
 
 The core cost is labour, amplified by error risk and rework. When routine processes are manual, throughput stagnates and capacity to scale is constrained without additional headcount. Qualitative evidence from operations teams often points to fatigue and misalignment across functions as symptoms of manual drudgery rather than strategic execution.
 
-Error risk is not hypothetical. Raymond Panko's review of research on [spreadsheet errors](https://arxiv.org/abs/0802.3457) concludes that such errors are both common and non-trivial. Many daily manual processes run through exactly these tools. [IBM's overview of business process automation](https://www.ibm.com/think/topics/business-process-automation) makes the complementary point that machines perform repetitive tasks without fatigue, which supports lower error rates and more consistent output. The financial mechanisms are therefore labour cost, error and rework cost, and scaling cost when volume rises.
+Error risk is not hypothetical. Raymond Panko's review of research on [spreadsheet errors](https://arxiv.org/abs/0802.3457) concludes that such errors are both common and non-trivial. Many daily manual processes run through exactly these tools. [IBM's overview of business process automation](https://www.ibm.com/think/topics/business-process-automation) makes the complementary point that machines perform repetitive tasks without fatigue, which supports lower error rates and more consistent output. The financial mechanisms are therefore labour cost, error and rework cost, and scaling cost when volume rises. Microsoft's Azure Well-Architected [guidance on automation](https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/automate-tasks) says the same of repetitive, error-prone tasks: they cause human error, and automating them lets teams work more efficiently while reducing it.
 
 ## A worked cost model
 

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-083
 slug: one-customer-record-three-teams-three-useful-views
-title: Why Sales, Operations and Service Need Different Views of the Same Customer
-description: A single customer record does not mean a single screen. Each team needs its own slice of the same facts, and designing those slices is what makes the CRM useful.
+title: Why sales, operations and service need different views of the same customer
+description: One customer record does not mean one screen. Each team needs its own slice of the same facts, and designing those slices is what makes a CRM useful.
 lead: A single customer record does not mean a single screen. Each team needs its own slice of the same facts, and designing those slices is what makes the CRM useful.
 category: Operations
 published_date: 2026-10-10
@@ -14,9 +14,10 @@ sources:
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
   - Section 11 Consent, justification and objection - POPIA | https://popia.co.za/section-11-consent-justification-and-objection/
 related:
-  - How to Clean Up a CRM Without Breaking Active Work | /insights/a-safe-sequence-for-cleaning-up-a-crm-while-the-team-keeps-working/
-  - Broken Handoffs Are Systems Problems | /insights/broken-handoffs-are-systems-problems/
-  - Why Your CRM Is Not the Problem You Think It Is | /insights/why-your-crm-is-not-the-problem-you-think-it-is/
+  - How to clean up a CRM without breaking active work | /insights/a-safe-sequence-for-cleaning-up-a-crm-while-the-team-keeps-working/
+  - Broken handoffs are systems problems | /insights/broken-handoffs-are-systems-problems/
+  - Why your CRM is not the problem you think it is | /insights/why-your-crm-is-not-the-problem-you-think-it-is/
+  - How to stop people keeping shadow spreadsheets beside the CRM | /insights/turning-side-spreadsheets-into-crm-improvements/
 summary: A single customer record does not mean a single screen. Each team needs its own slice of the same facts, and designing those slices is what makes the CRM useful.
 layout: plain
 ---
@@ -73,7 +74,9 @@ Notice how much overlaps. The customer's name, contacts, addresses and status ar
 
 A view is about convenience. A permission is about what a person is allowed to do. The two are related but should be designed separately, and confusing them causes trouble in both directions: a field hidden from a view is not protected, and a field locked by permissions is a nuisance if the person needs it daily.
 
-Microsoft's documentation for Dataverse, the data platform behind Dynamics 365, shows how granular permissions can be. Security roles define which privileges a user has on each type of record: reading, creating, writing, deleting, assigning and sharing, among others. Each privilege also has an access level, so a role can allow a user to act on only the records they own, those in their business unit or all records in the organisation. The documentation notes that user-level access is typical for sales and service representatives, and reserves organisation-wide access for managers with authority over the organisation. It also describes ready-made permission settings such as Collaborate, where users can view all records but edit only their own, and Reference, where users can view records but not edit them.
+Microsoft's documentation for Dataverse, the data platform behind Dynamics 365, shows how granular permissions can be. [Security roles](https://learn.microsoft.com/en-us/power-platform/admin/security-roles-privileges) define which privileges a user has on each type of record: reading, creating, writing, deleting, assigning and sharing, among others. Each privilege also has an access level, so a role can allow a user to act on only the records they own, those in their business unit or all records in the organisation.
+
+The documentation notes that user-level access is typical for sales and service representatives, and reserves organisation-wide access for managers with authority over the organisation. It also describes ready-made permission settings such as Collaborate, where users can view all records but edit only their own, and Reference, where users can view records but not edit them.
 
 Whether or not you use that platform, the idea transfers to any CRM that offers roles. A support agent might be allowed to read a customer's quote history but not change it. Operations might read credit status but not the underlying finance notes. Sales might read ticket summaries but not close tickets. Matching the permission to the job is a better safeguard than a rule that "everyone sees everything" or "everyone only sees their own".
 

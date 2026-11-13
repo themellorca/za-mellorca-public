@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-151
 slug: backups-never-tested-restore-financial-cost
-title: Backups Nobody Has Tested: The Cost When Recovery Fails
+title: Backups nobody has tested: The cost when recovery fails
 description: A backup is only a promise until the business proves it can restore the data and systems it needs within a recovery time it can survive.
 lead: A backup is only a promise until the business proves it can restore the data and systems it needs, within a recovery time the operation can survive.
 category: Business Continuity
@@ -24,9 +24,9 @@ sources:
 closing_title: Method note
 closing_text: Downtime calculations in this article are a framework, not a benchmark. Use your own payroll, contribution margin, recovery and service-level data.
 related:
-  - Backups in the Same Place as the Data: The Risk of Losing Both | /impact/backups-same-environment-losing-both-copies-risk/
-  - Backing Up Data but Not the Systems That Use It | /impact/pain-backing-up-data-without-systems/
-  - Not Knowing Who Still Has Access to Your Systems | /impact/uncontrolled-system-access-financial-risk/
+  - Backups in the same place as the data: The risk of losing both | /impact/backups-same-environment-losing-both-copies-risk/
+  - Backing up data but not the systems that use it | /impact/pain-backing-up-data-without-systems/
+  - Not knowing who still has access to your systems | /impact/uncontrolled-system-access-financial-risk/
 ---
 ## A green backup job is not the same as recovery
 
@@ -40,7 +40,7 @@ Consider a manufacturing business in Durban with around 80 staff. Its accounting
 
 Backup is easy to treat as a technical checkbox because normal operations provide almost no daily feedback about recovery quality. Storage jobs run in the background and success emails create confidence. Restore testing, by contrast, consumes time, requires coordination and can expose uncomfortable gaps.
 
-CISA's ransomware guidance explicitly recommends maintaining offline encrypted backups and regularly testing their availability and integrity in a disaster-recovery scenario. It also recommends keeping "golden images" of critical systems, preconfigured templates that can be redeployed quickly. NIST contingency-planning guidance likewise treats testing, training and exercises as part of maintaining a viable recovery capability, alongside a business impact analysis and ongoing plan maintenance. The UK National Cyber Security Centre adds that at least one backup should be offline at any time, so that an incident cannot affect every copy simultaneously, and that backups should be regularly tested to check they work as expected. The principle is simple: **recovery has to be demonstrated, not assumed.**
+[CISA's ransomware guidance](https://www.cisa.gov/stopransomware/ransomware-guide) explicitly recommends maintaining offline encrypted backups and regularly testing their availability and integrity in a disaster-recovery scenario. It also recommends keeping "golden images" of critical systems, preconfigured templates that can be redeployed quickly. [NIST contingency-planning guidance](https://www.nist.gov/publications/contingency-planning-guide-information-technology-systems) likewise treats testing, training and exercises as part of maintaining a viable recovery capability, alongside a business impact analysis and ongoing plan maintenance. The UK [National Cyber Security Centre](https://www.ncsc.gov.uk/blog-post/offline-backups-in-an-online-world) adds that at least one backup should be offline at any time, so that an incident cannot affect every copy simultaneously, and that backups should be regularly tested to check they work as expected. The principle is simple: **recovery has to be demonstrated, not assumed.**
 
 ## How failed recovery turns into financial pain
 

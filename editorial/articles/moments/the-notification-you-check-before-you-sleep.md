@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000004
 slug: the-notification-you-check-before-you-sleep
-title: The Notification You Check Before You Sleep
-description: The last glance at the phone before sleep is often described as a habit. Sometimes it is a monitoring job that nobody designed, done by the one person who would notice if something went wrong.
+title: The notification you check before you sleep
+description: The last glance at the phone before sleep is often called a habit. Sometimes it is a monitoring job nobody designed, done by the one person who'd notice.
 lead: The last glance at the phone before sleep is often described as a habit. Sometimes it is a monitoring job that nobody designed, done by the one person who would notice if something went wrong.
 category: Time & Attention
 published_date: 2026-10-03
@@ -19,9 +19,10 @@ sources:
   - How Does Blue Light From Electronic Devices Affect Sleep? | https://www.sleepfoundation.org/how-sleep-works/how-electronics-affect-sleep
   - Crucial changes needed to protect workers’ health while teleworking | https://www.who.int/news/item/02-02-2022-crucial-changes-needed-to-protect-workers-health-while-teleworking
 related:
-  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
-  - The Report Someone Rebuilds by Hand Every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
-  - When Month-End Swallows the Whole Week | /moments/when-month-end-swallows-the-whole-week/
+  - The lunch break eaten by approval requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - The report someone rebuilds by hand every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - When month-end swallows the whole week | /moments/when-month-end-swallows-the-whole-week/
+  - The sleep lost over a system nobody else understands | /moments/the-sleep-lost-over-a-system-only-one-person-understands/
 summary: The last glance at the phone before sleep is often described as a habit. Sometimes it is a monitoring job that nobody designed, done by the one person who would notice if something went wrong.
 layout: plain
 ---
@@ -33,7 +34,7 @@ This is often discussed as a personal habit, something to fix with willpower or 
 
 ## How common is late-evening checking?
 
-There is good public evidence that work extends well into the evening for many knowledge workers. Microsoft's June 2025 Work Trend Index report on the infinite workday, based on aggregated and anonymised Microsoft 365 signals and a survey of 31,000 workers in 31 markets, found that by 10pm nearly 29% of active workers were back in their inboxes. It also found that the average employee sends or receives more than 50 messages outside core business hours.
+There is good public evidence that work extends well into the evening for many knowledge workers. Microsoft's June 2025 [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) report on the infinite workday, based on aggregated and anonymised Microsoft 365 signals and a survey of 31,000 workers in 31 markets, found that by 10pm nearly 29% of active workers were back in their inboxes. It also found that the average employee sends or receives more than 50 messages outside core business hours.
 
 Those figures are global and describe Microsoft's user base, so they are context rather than a South African measurement. But they confirm that the evening check is not a rare quirk.
 

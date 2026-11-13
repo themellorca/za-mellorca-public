@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-105
 slug: business-run-on-spreadsheet-one-person-understands-financial-continuity-risk
-title: The Spreadsheet Only One Person Understands: Financial and Continuity Risk
-description: When pricing, payroll or cash planning depends on a workbook that only one employee can explain, errors go unseen and every absence or resignation becomes a business risk.
+title: The spreadsheet only one person understands: Financial and continuity risk
+description: When pricing, payroll or cash planning rests on a workbook only one person can explain, errors go unseen and every absence becomes a business risk.
 lead: When pricing, payroll or cash planning depends on a workbook that only one employee can explain, errors go unseen and every absence or resignation becomes a business risk.
 category: Risk and Continuity
 published_date: 2026-10-09
@@ -17,9 +17,10 @@ sources:
   - Research and Information - European Spreadsheet Risk Interest Group | https://eusprig.org/research-info/
   - Office Scripts in Excel - Office Scripts | https://learn.microsoft.com/en-us/office/dev/scripts/overview/excel
 related:
-  - How Much Data Could You Lose? The Cost of an Undefined Recovery Point | /impact/undefined-recovery-point-how-much-data-business-can-lose-financial-risk/
-  - When One Employee Knows How Everything Works | /impact/key-person-operational-dependency/
-  - When Every Decision Waits for One Person: The Cost of a Decision Bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
+  - How much data could you lose? The cost of an undefined recovery point | /impact/undefined-recovery-point-how-much-data-business-can-lose-financial-risk/
+  - When one employee knows how everything works | /impact/key-person-operational-dependency/
+  - When every decision waits for one person: The cost of a decision bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
+  - Why spreadsheet flexibility eventually becomes operational fragility | /patterns/why-the-flexibility-that-made-a-spreadsheet-useful-makes-it-risky-later/
 summary: When pricing, payroll or cash planning depends on a workbook that only one employee can explain, errors go unseen and every absence or resignation becomes a business risk.
 layout: plain
 ---

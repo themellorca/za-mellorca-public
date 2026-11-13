@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-348
 slug: why-software-portfolio-decisions-need-business-value-not-only-licence-counts
-title: Why Software Portfolio Decisions Need Business Value, Not Only Licence Counts
+title: Why software portfolio decisions need business value, not only licence counts
 description: Licence counts show consumption, not whether an application supports an important business capability, creates dependency or deserves continued investment.
 lead: A licence report can identify who has access to an application. It cannot, by itself, tell the business whether that application supports a critical capability, duplicates another tool or should remain in the target architecture.
 category: SaaS & Application Portfolio Management
@@ -20,9 +20,10 @@ budget_owner: CIO / CFO / business-unit owner
 sources:
   - https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf | https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
   - IR 8500A, Blockchain-Based Secure Software Assets Management (BloSS@M) - CSRC | https://csrc.nist.gov/pubs/ir/8500/a/ipd
+  - Inventory and Control of Software Assets - Center for Internet Security | https://www.cisecurity.org/controls/inventory-and-control-of-software-assets
 related:
   - Data-export limits are discovered only when leaving a vendor | /discovery/data-export-limits-discovered-only-when-leaving-a-vendor/
-  - Why Legacy Applications Remain Live Without an Owner | /discovery/why-legacy-applications-remain-live-without-an-owner/
+  - Why legacy applications remain live without an owner | /discovery/why-legacy-applications-remain-live-without-an-owner/
   - Business capabilities that depend on tools nobody supports | /discovery/business-capabilities-depend-on-tools-with-no-support-owner/
 ---
 ## The problem in plain language
@@ -31,15 +32,15 @@ Renewal and rationalisation reviews start with seats purchased, seats assigned a
 
 Licence counts answer one question well: are we paying for access that nobody uses? They answer a different question badly: does this application matter to the business, and what would it cost to change it? When cost pressure arrives, the first question is easy to report on and the second is hard, so the easy one tends to drive the decision.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer needs to know which applications deserve investment, consolidation, replacement or retirement based on business contribution, criticality, cost, risk and architectural fit—not only whether people logged in recently.
+The business needs to know which applications deserve investment, consolidation, replacement or retirement based on business contribution, criticality, cost, risk and architectural fit—not only whether people logged in recently.
 
-The problem is usually searched for in practical terms: “application rationalisation framework”, “how to decide which software to cut”, “SaaS consolidation criteria”, “application portfolio assessment”, or “we have too many overlapping tools”. Each is asking for a defensible way to make portfolio decisions that will survive scrutiny from finance, operations and the people who use the systems.
+The problem is usually put in practical terms: “application rationalisation framework”, “how to decide which software to cut”, “SaaS consolidation criteria”, “application portfolio assessment”, or “we have too many overlapping tools”. Each asks for a defensible way to make portfolio decisions that will survive scrutiny from finance, operations and the people who use the systems.
 
 ## Evidence and system mechanism
 
-NIST Cybersecurity Framework 2.0 describes asset management as more than inventory. It calls for inventories of software, services and systems to be maintained (ID.AM-02), for assets to be prioritised based on classification, criticality, resources and impact on the mission (ID.AM-05), and for systems, software, services and data to be managed throughout their life cycles (ID.AM-08). Its governance function also asks organisations to understand the outcomes, capabilities and services they depend on. Read together, these describe a portfolio linked to what the organisation does, not a list of products and seat counts.
+NIST Cybersecurity Framework 2.0 describes asset management as more than inventory. It calls for inventories of software, services and systems to be maintained (ID.AM-02), for assets to be prioritised based on classification, criticality, resources and impact on the mission (ID.AM-05), and for systems, software, services and data to be managed throughout their life cycles (ID.AM-08). Its governance function also asks organisations to understand the outcomes, capabilities and services they depend on. Read together, these describe a portfolio linked to what the organisation does, not a list of products and seat counts. The Center for Internet Security's [software asset control](https://www.cisecurity.org/controls/inventory-and-control-of-software-assets) takes a similar view, asking organisations to inventory, track and correct all software on the network.
 
 NIST’s 2026 initial public draft IR 8500A, which proposes a blockchain-based approach to software asset management in federal procurement, frames its aims in similar portfolio terms: lifecycle tracking from acquisition to retirement, reuse of software assets, and eliminating duplicative procurement. The specific technology is not the point here. The useful signal is that a standards body treats duplication and lifecycle visibility as core asset-management concerns. Together these reinforce a practical distinction between counting software assets and managing them as an enterprise portfolio.
 

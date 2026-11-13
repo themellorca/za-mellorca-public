@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-130
 slug: accounts-without-mfa-financial-risk
-title: Important Accounts Without MFA: The Cost of Preventable Takeover
-description: Passwords alone leave email, finance and remote-access accounts exposed to preventable account takeover. The commercial cost appears in recovery, downtime, fraud and lost trust.
+title: Important accounts without MFA: The cost of preventable takeover
+description: Passwords alone leave email, finance and remote-access accounts open to takeover. The cost shows up in recovery, downtime, fraud and lost trust.
 lead: A password is a single point of failure. When email, finance, remote access or administrator accounts depend on passwords alone, one stolen credential can become an operational and financial incident.
 category: Cybersecurity
 published_date: 2026-09-01
@@ -30,9 +30,9 @@ sources:
 closing_title: Method note
 closing_text: No generic breach-cost benchmark is used here. Quantify exposure from your own affected labour, downtime, transaction authority and response requirements.
 related:
-  - Reused Passwords: How One Stolen Login Becomes a Business-Wide Risk | /impact/reused-passwords-single-credential-business-risk/
-  - Backups in the Same Place as the Data: The Risk of Losing Both | /impact/backups-same-environment-losing-both-copies-risk/
-  - Backups Nobody Has Tested: The Cost When Recovery Fails | /impact/backups-never-tested-restore-financial-cost/
+  - Reused passwords: How one stolen login becomes a business-wide risk | /impact/reused-passwords-single-credential-business-risk/
+  - Backups in the same place as the data: The risk of losing both | /impact/backups-same-environment-losing-both-copies-risk/
+  - Backups nobody has tested: The cost when recovery fails | /impact/backups-never-tested-restore-financial-cost/
 ---
 ## The tolerated pain is a fragile login
 
@@ -46,7 +46,7 @@ Picture a 40-person distribution business in Gqeberha. The financial manager’s
 
 Multi-factor authentication can be postponed because passwords feel familiar, some legacy systems make stronger authentication awkward, and managers worry about adding friction. The weakness remains invisible during normal operations because nothing appears broken.
 
-CISA’s current small-business guidance says strong passwords alone are no longer enough and recommends MFA across email, file storage and remote access, starting with administrators and people handling sensitive data. CISA’s ransomware guidance likewise recommends phishing-resistant MFA, particularly for email, VPNs and critical systems. The UK’s National Cyber Security Centre makes the same point for everyday accounts: even accounts with strong passwords benefit from two-step verification, because passwords are commonly stolen through data breaches and phishing.
+CISA’s current guidance for small organisations [recommends MFA across email, file storage and remote access](https://www.cisa.gov/secure-our-world/require-multifactor-authentication), starting with administrators and people handling sensitive data. CISA’s [ransomware guidance](https://www.cisa.gov/stopransomware/ransomware-guide) likewise recommends phishing-resistant MFA, particularly for email, VPNs and critical systems. The UK’s [National Cyber Security Centre](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/activate-2-step-verification-on-your-email) makes the same point for everyday accounts: even accounts with strong passwords benefit from two-step verification, because passwords are commonly stolen through data breaches and phishing.
 
 There are also quieter reasons MFA coverage stays patchy:
 
@@ -89,7 +89,7 @@ CISA’s guidance for businesses ranks methods roughly as follows, from stronges
 | Authenticator app codes | Most staff, older systems | Better than SMS, but codes can still be phished |
 | SMS or email codes | Fallback only | CISA describes these as the weakest protection |
 
-Microsoft’s documentation for its identity platform makes a similar distinction: codes and push approvals are a significant improvement on passwords alone but remain open to remote phishing, so it recommends passkeys, security keys, Windows Hello for Business or certificate-based authentication where possible. For a smaller business, the practical takeaway is to reserve the strongest methods for the accounts that can move money or change other people’s access, and accept app-based MFA as a sound baseline elsewhere.
+[Microsoft’s documentation for its identity platform](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-methods) makes a similar distinction: codes and push approvals are a significant improvement on passwords alone but remain open to remote phishing, so it recommends passkeys, security keys, Windows Hello for Business or certificate-based authentication where possible. For a smaller business, the practical takeaway is to reserve the strongest methods for the accounts that can move money or change other people’s access, and accept app-based MFA as a sound baseline elsewhere.
 
 ## How to diagnose your current position
 

@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000005
 slug: why-holidays-still-need-a-laptop-in-the-suitcase
-title: Why Holidays Still Need a Laptop in the Suitcase
-description: Many owners pack a laptop for the family holiday, just in case. Behind that small decision is usually a list of things only they can approve, pay or answer. What would it take to leave it at home?
+title: Why holidays still need a laptop in the suitcase
+description: Many owners pack a laptop for the family holiday, just in case. Behind that is a list of things only they can approve, pay or answer. What lets it stay?
 lead: Many owners pack a laptop for the family holiday, just in case. Behind that small decision is usually a list of things only they can approve, pay or answer. What would it take to leave it at home?
 category: Time & Attention
 published_date: 2026-10-03
@@ -17,10 +17,11 @@ epistemic_state: HYPOTHESISED for the causal mechanism and personal effects; OBS
 sources:
   - Only 14% of Small Biz Owners Disconnect on Vacation | https://www.cpapracticeadvisor.com/2017/08/31/only-14-of-small-biz-owners-disconnect-on-vacation/26970/
   - The “Holiday Break” Report: Majority of Small Business Owners Plan to Work Through Holiday Season - FreshBooks | https://www.freshbooks.com/press/data-research/holiday-break-report
+  - Basic Guide to Annual Leave - Department of Employment and Labour | https://www.labour.gov.za/DocumentCenter/Pages/Basic-Guide-to-Annual-Leave.aspx
 related:
-  - The Inbox That Follows You Home | /moments/the-inbox-that-follows-you-home/
-  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
-  - When Your Calendar Belongs to Other People's Systems | /moments/when-your-calendar-belongs-to-other-peoples-systems/
+  - The inbox that follows you home | /moments/the-inbox-that-follows-you-home/
+  - The lunch break eaten by approval requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - When your calendar belongs to other people's systems | /moments/when-your-calendar-belongs-to-other-peoples-systems/
 summary: Many owners pack a laptop for the family holiday, just in case. Behind that small decision is usually a list of things only they can approve, pay or answer. What would it take to leave it at home?
 layout: plain
 ---
@@ -28,7 +29,7 @@ The bags are almost packed. Sunscreen, chargers, a book that may or may not be r
 
 Just in case.
 
-For many business owners, that small decision is so routine it barely registers. The holiday will happen, but it will happen with one hand still on the business: a daily look at email, a payment run approved from a guesthouse, a call taken on the beach because the client asked for the owner by name.
+For many business owners, that small decision is so routine it barely registers. The holiday will happen, but it will happen with one hand still on the business: a daily look at email, a payment run approved from a guesthouse, a call taken on the beach because the client asked for the owner by name. For employees, the Department of Employment and Labour's [basic guide to annual leave](https://www.labour.gov.za/DocumentCenter/Pages/Basic-Guide-to-Annual-Leave.aspx) sets the minimum at 21 consecutive days a year.
 
 Some owners are entirely comfortable with this. They enjoy staying in touch and would feel more anxious disconnected. That is a reasonable choice. This piece is about the other case: where the laptop goes in not because the owner wants it, but because **the business has no way to function without it**.
 

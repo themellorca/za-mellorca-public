@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000339
 slug: when-late-invoices-become-late-salaries
-title: When Late Invoices Become Late Salaries
-description: Salaries are due on a fixed date; customer payments are not. How a small business's own invoicing and collection habits can decide whether a late client becomes a late payday for its staff.
+title: When late invoices become late salaries
+description: Salaries fall due on a fixed date, but customer payments do not. How a small business's invoicing habits can turn a late client into a late payday.
 lead: Salaries are due on a fixed date; customer payments are not. How a small business's own invoicing and collection habits can decide whether a late client becomes a late payday for its staff.
 category: Economic Possibility & Stability
 published_date: 2026-10-07
@@ -20,9 +20,9 @@ sources:
   - Non-payment of invoices within 30 days persists in government | https://www.sanews.gov.za/south-africa/non-payment-invoices-within-30-days-persists-government
   - Analyze cash flows - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/finance-analyze-cash-flow
 related:
-  - The Slow Leak of Time Through Manual Reminders | /moments/the-slow-leak-of-time-through-manual-reminders/
-  - The Saturday Morning Spent on Invoices | /moments/the-saturday-morning-spent-on-invoices/
-  - The Attention Spent Remembering What Systems Should Remember | /moments/the-attention-spent-remembering-what-systems-should-remember/
+  - The slow leak of time through manual reminders | /moments/the-slow-leak-of-time-through-manual-reminders/
+  - The Saturday morning spent on invoices | /moments/the-saturday-morning-spent-on-invoices/
+  - The attention spent remembering what systems should remember | /moments/the-attention-spent-remembering-what-systems-should-remember/
 summary: Salaries are due on a fixed date; customer payments are not. How a small business's own invoicing and collection habits can decide whether a late client becomes a late payday for its staff.
 layout: plain
 ---
@@ -34,7 +34,7 @@ This piece looks at one route by which that happens. Not the business that is fa
 
 ## A fixed obligation meeting an unfixed income
 
-On one side of the month, the obligations are clear. The Basic Conditions of Employment Act requires an employer to pay remuneration no later than seven days after the end of the period for which it is payable. SARS expects the PAYE deducted from those salaries to be paid within seven days after the end of the month in which it was deducted. These dates do not move because a client is late.
+On one side of the month, the obligations are clear. The [Basic Conditions of Employment Act](https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf) requires an employer to pay remuneration no later than seven days after the end of the period for which it is payable. SARS expects the PAYE deducted from those salaries to be paid within seven days after the end of the month in which it was deducted. These dates do not move because a client is late.
 
 On the other side, income is far less predictable. Public figures give one view of how far apart the two can drift. According to a SAnews report on National Treasury's third-quarter 2025/26 data, national and provincial departments had 90,856 invoices older than 30 days still unpaid, worth R15.5 billion, and paid a further 89,499 invoices late. The Public Service Commission's Anele Gxoyiya, quoted in that report, linked non-payment to small businesses having to borrow, cut staff or close.
 

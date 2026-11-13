@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000027
 slug: what-a-reliable-handover-gives-back-on-a-friday-afternoon
-title: What a Reliable Handover Gives Back on a Friday Afternoon
-description: When someone else is covering the weekend or Monday, the last hour of Friday decides whether the person leaving can actually leave. What a dependable handover returns to both people, and what it takes to build one.
+title: What a reliable handover gives back on a Friday afternoon
+description: When someone covers the weekend or Monday, Friday's last hour decides whether the person leaving can really leave. What a dependable handover gives both.
 lead: When someone else is covering the weekend or Monday, the last hour of Friday decides whether the person leaving can actually leave. What a dependable handover returns to both people, and what it takes to build one.
 category: Time & Attention
 published_date: 2026-10-05
@@ -19,9 +19,9 @@ sources:
   - About shared mailboxes in Microsoft 365 - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/email/about-shared-mailboxes
   - Share and access a calendar with edit or delegate permissions in Outlook - Microsoft Support | https://support.microsoft.com/en-us/office/share-and-access-a-calendar-with-edit-or-delegate-permissions-in-outlook-532e6410-ee80-42b5-9b1b-a09345ccef1b
 related:
-  - The Report Someone Rebuilds by Hand Every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
-  - The Quiet Cost of Always Being Reachable | /moments/the-quiet-cost-of-always-being-reachable/
-  - The Hour Before the Board Meeting Spent Finding Numbers | /moments/the-hour-before-the-board-meeting-spent-finding-numbers/
+  - The report someone rebuilds by hand every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - The quiet cost of always being reachable | /moments/the-quiet-cost-of-always-being-reachable/
+  - The hour before the board meeting spent finding numbers | /moments/the-hour-before-the-board-meeting-spent-finding-numbers/
 summary: When someone else is covering the weekend or Monday, the last hour of Friday decides whether the person leaving can actually leave. What a dependable handover returns to both people, and what it takes to build one.
 layout: plain
 ---
@@ -33,7 +33,7 @@ Whether that last hour goes well has a surprising amount to do with how the week
 
 ## Handovers are a known risk point
 
-Industries that run around the clock have long treated handover as a point where things go wrong. The UK Health and Safety Executive's good practice guidelines on shift work include a plain instruction to set standards and allow time for communication at shift handovers. The point is not that handover is difficult in principle, but that it tends to happen at the end of a duty period, when people are tired and eager to leave, and that it needs structure and time to work.
+Industries that run around the clock have long treated handover as a point where things go wrong. The UK Health and Safety Executive's [good practice guidelines](https://www.hse.gov.uk/humanfactors/topics/good-practice-guidelines.htm) on shift work include a plain instruction to set standards and allow time for communication at shift handovers. The point is not that handover is difficult in principle, but that it tends to happen at the end of a duty period, when people are tired and eager to leave, and that it needs structure and time to work.
 
 Most offices, workshops and shops are not safety-critical plants, and the stakes are different. But the mechanism is recognisable. Information that lives in one person's head has to move to another person's head in a short window, and anything that does not make the trip becomes a problem for whoever is holding the work next.
 
@@ -70,7 +70,7 @@ Neither administrator is doing anything wrong. The way the work is set up means 
 
 The improvements are mostly about putting work where both people can see it, and giving handover a shape.
 
-- **Use shared places for shared work.** Microsoft's documentation describes shared mailboxes as suited to addresses that several people need to access, such as sales or support addresses, with permitted users able to send as the shared address. Customer conversations that a colleague may need to pick up belong in a place like that rather than a personal inbox.
+- **Use shared places for shared work.** Microsoft's documentation describes [shared mailboxes](https://learn.microsoft.com/en-us/microsoft-365/admin/email/about-shared-mailboxes) as suited to addresses that several people need to access, such as sales or support addresses, with permitted users able to send as the shared address. Customer conversations that a colleague may need to pick up belong in a place like that rather than a personal inbox.
 - **Share the relevant calendar.** Microsoft's support guidance on calendar permissions explains that a delegate can see and edit calendar items and respond to meetings on someone's behalf, within the same organisation. Agreed callbacks and appointments are then visible to the person covering.
 - **Keep open items in a list both people can see.** A simple shared task list or job board means the handover is a review of something that already exists, not a reconstruction.
 - **Agree a handover format.** A short, fixed set of headings: what is open, what is promised to whom, what might go wrong, who to contact if it does. Fifteen minutes with a format is usually better than an hour without one.

@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-102
 slug: how-to-map-a-business-workflow-without-making-it-complicated
-title: How to Map a Business Workflow Without Making It Complicated
-description: A workflow map is useful only if people can read it and act on it. A plain method for mapping one business workflow in a table, from real cases rather than workshops, at the level of detail that exposes waits, handoffs and rework.
+title: How to map a business workflow without making it complicated
+description: A workflow map helps only if people can read and act on it. A plain table method using real cases, with enough detail to expose waits, handoffs and rework.
 lead: A workflow map is useful only if people can read it and act on it. A plain method for mapping one business workflow in a table, from real cases rather than workshops, at the level of detail that exposes waits, handoffs and rework.
 category: Operations
 published_date: 2026-10-03
@@ -14,9 +14,9 @@ sources:
   - Gemba - What Does It Mean? - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/gemba/
   - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
 related:
-  - How Manual Data Transfer Becomes an Operational Bottleneck | /insights/how-manual-data-transfer-becomes-an-operational-bottleneck/
-  - Why Your Business Feels Harder to Run Than It Should | /insights/why-your-business-feels-harder-to-run-than-it-should/
-  - Why Repeated Workarounds Are a Warning Sign | /insights/why-repeated-workarounds-are-a-warning-sign/
+  - How manual data transfer becomes an operational bottleneck | /insights/how-manual-data-transfer-becomes-an-operational-bottleneck/
+  - Why your business feels harder to run than it should | /insights/why-your-business-feels-harder-to-run-than-it-should/
+  - Why repeated workarounds are a warning sign | /insights/why-repeated-workarounds-are-a-warning-sign/
 summary: A workflow map is useful only if people can read it and act on it. A plain method for mapping one business workflow in a table, from real cases rather than workshops, at the level of detail that exposes waits, handoffs and rework.
 layout: plain
 ---

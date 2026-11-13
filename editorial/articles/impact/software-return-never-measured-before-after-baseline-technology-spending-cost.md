@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-069
 slug: software-return-never-measured-before-after-baseline-technology-spending-cost
-title: Software Nobody Measured: Paying for Tools Without Knowing What They Return
-description: Businesses keep paying for tools they have never tested against a starting point. Here is how unmeasured software spend builds up and how a simple baseline fixes it.
+title: Software nobody measured: Paying for tools without knowing what they return
+description: Businesses keep paying for tools never tested against a starting point. See how unmeasured software spend builds up and how a simple baseline fixes it.
 lead: Businesses keep paying for tools they have never tested against a starting point. Here is how unmeasured software spend builds up and how a simple baseline fixes it.
 category: Digital Infrastructure
 published_date: 2026-10-10
@@ -17,9 +17,9 @@ sources:
   - Plan - Training | https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/3-plan
   - Monitor usage & security with reports - Reports & monitoring - Google Workspace Help | https://knowledge.workspace.google.com/admin/reports/monitor-usage-and-security-with-reports
 related:
-  - Accepting Every Price Rise: How Unreviewed Renewals Compound Year After Year | /impact/vendor-price-increases-accepted-without-usage-review-compounding-renewal-cost/
-  - Paying for Tools You Already Own: The Cost of Underused Software Platforms | /impact/expensive-tools-for-tasks-existing-platform-handles-cost/
-  - Software Bought Without Approval: The Financial and Security Cost of Shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
+  - Accepting every price rise: How unreviewed renewals compound year after year | /impact/vendor-price-increases-accepted-without-usage-review-compounding-renewal-cost/
+  - Paying for tools you already own: The cost of underused software platforms | /impact/expensive-tools-for-tasks-existing-platform-handles-cost/
+  - Software bought without approval: The financial and security cost of shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
 summary: Businesses keep paying for tools they have never tested against a starting point. Here is how unmeasured software spend builds up and how a simple baseline fixes it.
 layout: plain
 ---
@@ -76,7 +76,7 @@ On those numbers, roughly R432 000 a year is being spent on tools whose contribu
 
 The difficulty is not analysis; it is the missing starting point. Once a tool has been live for a year, nobody remembers how long the old process took. Memory favours the new system because it is familiar and the old pain has faded. Cost-benefit arguments made later rely on recollection and tend to favour whoever is most confident.
 
-This is why guidance on adopting technology puts so much weight on setting up measures before the change. Microsoft's Cloud Adoption Framework planning guidance, for instance, tells organisations to define success metrics and establish a cost baseline, and to re-evaluate estimates when actual figures drift from the plan. That advice is written for cloud migrations, but the principle applies to any business software: a baseline is the thing that turns an opinion into a comparison.
+This is why guidance on adopting technology puts so much weight on setting up measures before the change. [Microsoft's Cloud Adoption Framework planning guidance](https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/3-plan), for instance, tells organisations to define success metrics and establish a cost baseline, and to re-evaluate estimates when actual figures drift from the plan. That advice is written for cloud migrations, but the principle applies to any business software: a baseline is the thing that turns an opinion into a comparison.
 
 ## The commercial trigger point
 
@@ -99,7 +99,7 @@ Better does not mean a heavy measurement programme. It means a few habits applie
 
 ## Using what the platforms already tell you
 
-Usage evidence is often already available. Microsoft documents usage reports in the Microsoft 365 admin centre that show who uses a service heavily and who barely uses it and might not need a licence. The reports cover the last 7, 30, 90 and 180 days, and user names are hidden by default to support privacy requirements. Google Workspace has comparable reporting in its admin console, with the available reports depending on your edition, and most other business platforms offer something similar. Usage is not the same as value, since someone can open a tool every day and still be fighting it, but low or falling usage is a cheap early warning that a purchase is not landing.
+Usage evidence is often already available. Microsoft documents [usage reports in the Microsoft 365 admin centre](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports) that show who uses a service heavily and who barely uses it and might not need a licence. The reports cover the last 7, 30, 90 and 180 days, and user names are hidden by default to support privacy requirements. Google Workspace has [comparable reporting in its admin console](https://knowledge.workspace.google.com/admin/reports/monitor-usage-and-security-with-reports), with the available reports depending on your edition, and most other business platforms offer something similar. Usage is not the same as value, since someone can open a tool every day and still be fighting it, but low or falling usage is a cheap early warning that a purchase is not landing.
 
 Pair usage data with a short conversation. Ask three people who use the tool: what does it let you do that you could not do before, what still takes too long, and what would you miss if it went away tomorrow? Honest answers to the third question are very revealing.
 

@@ -17,9 +17,9 @@ sources:
   - Best practices for managing API keys - Authentication - Google Cloud Documentation | https://docs.cloud.google.com/docs/authentication/api-keys-best-practices
   - Secrets | https://kubernetes.io/docs/concepts/configuration/secret/
 related:
-  - Why Integration Incidents Require Several Vendors to Diagnose | /discovery/why-integration-incidents-require-several-vendors-to-diagnose/
+  - Why integration incidents require several vendors to diagnose | /discovery/why-integration-incidents-require-several-vendors-to-diagnose/
   - Why teams cannot trace one business transaction across several systems | /discovery/teams-cannot-trace-a-business-transaction-across-systems/
-  - Why API Rate Limits Create Intermittent Business Failures | /discovery/why-api-rate-limits-create-intermittent-business-failures/
+  - Why API rate limits create intermittent business failures | /discovery/why-api-rate-limits-create-intermittent-business-failures/
 summary: Analyzes why sharing credentials across integrations undermines security and resilience, and how to enforce separation and robust secrets management.
 layout: plain
 ---
@@ -31,9 +31,9 @@ A team needs a new integration to read from the CRM. A working key already exist
 
 The trouble appears later. When the key needs rotating, nobody knows everything that will break. When suspicious activity appears in the logs, nobody can tell which integration generated it. When one supplier is compromised, revoking the key disrupts every other integration that relied on it.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer usually wants faster integrations without creating new security debt. They search for methods to decouple integrations, enforce unique identities and establish safer secrets management practices without sacrificing velocity. Typical phrasing includes “one API key used by multiple integrations”, “how to rotate API keys without downtime”, “secrets management for integrations” and “separate credentials per service”.
+You usually want faster integrations without creating new security debt: methods to decouple integrations, enforce unique identities and establish safer secrets management practices without sacrificing velocity. Typical phrasing includes “one API key used by multiple integrations”, “how to rotate API keys without downtime”, “secrets management for integrations” and “separate credentials per service”.
 
 The real objective is containment: any credential should be traceable to one purpose and replaceable without collateral damage. Velocity is not the enemy here; well-run credential issuance can be quicker than hunting for an existing key, provided the process for requesting a dedicated identity is simple and predictable.
 

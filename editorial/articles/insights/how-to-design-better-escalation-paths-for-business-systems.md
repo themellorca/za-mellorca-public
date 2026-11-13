@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-307
 slug: how-to-design-better-escalation-paths-for-business-systems
-title: How to Design Better Escalation Paths
-description: When something goes wrong, the first question is who decides what happens next. A practical way to design escalation paths that move a problem to the right person quickly, without waking everyone or losing it in a shared inbox.
+title: How to design better escalation paths
+description: When something goes wrong, who decides what happens next? How to design escalation paths that reach the right person fast and avoid a shared inbox.
 lead: When something goes wrong, the first question is who decides what happens next. A practical way to design escalation paths that move a problem to the right person quickly, without waking everyone or losing it in a shared inbox.
 category: Operational Resilience
 published_date: 2026-10-09
@@ -14,9 +14,9 @@ sources:
   - Google SRE - Incident Management: Key to Restore Operations | https://sre.google/sre-book/managing-incidents/
   - Architecture strategies for designing an incident management (IcM) process - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/incident-response
 related:
-  - Which Business Systems Should Be Actively Monitored? | /insights/which-business-systems-should-be-actively-monitored-and-which-can-wait/
+  - Which business systems should be actively monitored? | /insights/which-business-systems-should-be-actively-monitored-and-which-can-wait/
   - What business processes need documentation first? | /insights/what-business-processes-need-documentation-first/
-  - When Copy-and-Paste Is Really an Integration Problem | /insights/when-copy-and-paste-is-really-an-integration-problem/
+  - When copy-and-paste is really an integration problem | /insights/when-copy-and-paste-is-really-an-integration-problem/
 summary: When something goes wrong, the first question is who decides what happens next. A practical way to design escalation paths that move a problem to the right person quickly, without waking everyone or losing it in a shared inbox.
 layout: plain
 ---
@@ -29,7 +29,7 @@ An undesigned path tends to fail in predictable ways. It depends on one person's
 
 ## Separate escalation from alerting
 
-Alerting tells someone that something has happened. Escalation decides what happens when that first person cannot or does not resolve it. They are different design problems. Atlassian's guidance on escalation policies describes the escalation policy as the set of rules that decide who is notified next and when, if the first responder does not acknowledge or cannot fix the issue. The useful idea is that the path is a sequence with time limits, not a list of names.
+Alerting tells someone that something has happened. Escalation decides what happens when that first person cannot or does not resolve it. They are different design problems. Atlassian's guidance on [escalation policies](https://www.atlassian.com/incident-management/on-call/escalation-policies) describes the escalation policy as the set of rules that decide who is notified next and when, if the first responder does not acknowledge or cannot fix the issue. The useful idea is that the path is a sequence with time limits, not a list of names.
 
 If your alerts are noisy, fix that first, because an escalation path layered on top of noise will train people to ignore it. The design questions for alerts are covered in [how to design alerts for automation failures](/insights/how-to-design-alerts-for-automation-failures/), and the organisational side of the problem appears in [monitoring alerts without a clear response owner](/discovery/monitoring-alerts-without-a-clear-response-owner/).
 

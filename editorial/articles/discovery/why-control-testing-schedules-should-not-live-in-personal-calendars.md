@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-372
 slug: why-control-testing-schedules-should-not-live-in-personal-calendars
 title: Control testing schedules are maintained in personal calendars
-description: When the only record of when controls must be tested is someone's diary, tests are missed and nobody knows. How to move to a shared control register with owners and deputies.
+description: When the only record of control test dates is someone's diary, tests are missed unnoticed. How to move to a shared register with owners and deputies.
 lead: When the only record of when controls must be tested is someone's diary, tests are missed and nobody knows. How to move to a shared control register with owners and deputies.
 category: Security & Compliance Operations
 published_date: 2026-10-09
@@ -31,7 +31,7 @@ This article looks at that operating condition: control testing schedules kept i
 
 A control that is not tested on time is a control of unknown quality. When the testing schedule lives in a person's calendar, it depends on that person being present, organised and still employed. It cannot be seen by their manager, reconciled with the list of controls, or counted as evidence that the programme exists. The schedule also tends to drift: meetings are moved, reminders are dismissed, and a test that was monthly in the policy becomes whenever someone remembers.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The financial director or managing director wants confidence that every important control is tested as often as promised, with a record that shows it. They also want to avoid learning from an auditor or a customer that a test was missed. The control owners, for their part, want a single place to see what is due, so they stop relying on memory and informal nudges.
 

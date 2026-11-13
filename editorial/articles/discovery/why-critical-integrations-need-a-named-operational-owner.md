@@ -2,8 +2,8 @@
 hub: discovery
 record_id: DISC-276
 slug: why-critical-integrations-need-a-named-operational-owner
-title: Why Critical Integrations Need a Named Operational Owner
-description: A critical integration can have developers, vendors and application owners around it while still lacking one accountable operational owner for the end-to-end business outcome.
+title: Why critical integrations need a named operational owner
+description: A critical integration can have developers, vendors and application owners yet lack one accountable operational owner for the business outcome.
 lead: Several teams can own the systems around an integration while nobody owns whether the complete business transaction moves successfully between them.
 category: Integration & API Operations
 published_date: 2026-09-07
@@ -20,9 +20,10 @@ budget_owner: CIO / COO / application portfolio owner
 sources:
   - CSWP 29, The NIST Cybersecurity Framework (CSF) 2.0 - CSRC | https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final
   - OPS02-BP01 Resources have identified owners - Operational Excellence Pillar | https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ops_model_def_resource_owners.html
+  - Managing Incidents - Google SRE | https://sre.google/sre-book/managing-incidents/
 related:
-  - Why Integration Failures Should Not Route to Personal Inboxes | /discovery/why-integration-failures-should-not-route-to-personal-inboxes/
-  - Why Integration Monitoring Can Show Green While the Business Transaction Still Fails | /discovery/why-integration-monitoring-misses-business-completion/
+  - Why integration failures should not route to personal inboxes | /discovery/why-integration-failures-should-not-route-to-personal-inboxes/
+  - Why integration monitoring can show green while the business transaction still fails | /discovery/why-integration-monitoring-misses-business-completion/
   - API credentials are shared across unrelated integrations | /discovery/api-credentials-shared-across-unrelated-integrations/
 ---
 ## The problem in plain language
@@ -33,21 +34,21 @@ The pattern is familiar to anyone who has sat on an incident call about a broken
 
 The difficulty is not a lack of competent people. It is that the organisation has assigned ownership to systems and suppliers, while the thing that actually matters to the business, the completed transaction, has no owner at all.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The buyer needs clear operational accountability for the connected service: who monitors completion, coordinates incidents, owns service expectations, approves changes that affect the interface and ensures dependencies remain documented.
 
-Search language tends to reflect the frustration rather than the structure: “who owns integrations”, “integration ownership model”, “integration incidents bounce between teams”, “RACI for system integrations” or “nobody responsible when interface fails”. Behind these phrases is a practical aim. The buyer wants one place to go when a connected process breaks, and confidence that someone is watching that process before it breaks.
+The complaints tend to reflect the frustration rather than the structure: “who owns the integrations?”, “what is our integration ownership model?”, “integration incidents bounce between teams”, “who is accountable for system integrations?” or “nobody is responsible when an interface fails”. Behind these complaints is a practical aim. The buyer wants one place to go when a connected process breaks, and confidence that someone is watching that process before it breaks.
 
 ## Evidence and system mechanism
 
-The NIST Cybersecurity Framework 2.0, published in February 2024, frames its outcomes around six functions, including a new Govern function. Two parts of it are directly relevant here.
+The [NIST Cybersecurity Framework](https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final) 2.0, published in February 2024, frames its outcomes around six functions, including a new Govern function. Two parts of it are directly relevant here.
 
 Within Identify, the Asset Management category describes assets, including data, systems, services and people, being identified and managed in line with their importance to organisational objectives. Its subcategories include maintaining inventories of software, services and systems; maintaining representations of internal and external network data flows; maintaining inventories of services provided by suppliers; and managing systems and services throughout their life cycles. Within Govern, the Roles, Responsibilities and Authorities category calls for roles and responsibilities to be established, communicated, understood and enforced, so that accountability is clear.
 
 CSF 2.0 more broadly frames cybersecurity outcomes around governance and risk management across organisational systems. Taken together, those outcomes describe an integration as more than code between two applications. It is a data flow, often involving a supplier service, that supports a business outcome and therefore needs to be inventoried, prioritised and assigned.
 
-AWS's Well-Architected Framework makes the operational side explicit. Its operational-excellence guidance states that resources should have identified owners for change control, troubleshooting and other functions, recorded in a central register or in metadata. Among the anti-patterns it lists is two teams having overlapping ownership of a critical piece of infrastructure, and it rates the risk of not establishing ownership as high. It also suggests defining what ownership means: who oversees changes, who supports troubleshooting and who is financially accountable.
+AWS's Well-Architected Framework makes the operational side explicit. Its operational-excellence guidance states that resources should [have identified owners](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ops_model_def_resource_owners.html) for change control, troubleshooting and other functions, recorded in a central register or in metadata. Among the anti-patterns it lists is two teams having overlapping ownership of a critical piece of infrastructure, and it rates the risk of not establishing ownership as high. It also suggests defining what ownership means: who oversees changes, who supports troubleshooting and who is financially accountable. Google's chapter on [managing incidents](https://sre.google/sre-book/managing-incidents/) makes a related point about clear roles: a clear separation of responsibilities lets individuals act with more autonomy, and the incident commander holds every position not delegated.
 
 The practical reading is that ownership has to be defined at the level where failure is experienced. For most businesses, that level is the end-to-end flow rather than any single component.
 

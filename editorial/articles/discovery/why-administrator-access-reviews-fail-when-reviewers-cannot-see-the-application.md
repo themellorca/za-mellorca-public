@@ -18,7 +18,7 @@ sources:
   - What are access reviews? - Microsoft Entra - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview
   - What is Privileged Identity Management? - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure
 related:
-  - Why Supplier Access Survives After the Supplier Engagement Ends | /discovery/why-supplier-access-survives-after-engagements-end/
+  - Why supplier access survives after the supplier engagement ends | /discovery/why-supplier-access-survives-after-engagements-end/
   - Security monitoring creates alerts with no business-priority context | /discovery/why-security-alerts-need-business-context-to-be-useful/
   - Incident lessons do not update preventive controls | /discovery/why-incident-reviews-must-change-the-controls-that-failed/
 summary: Quarterly lists of admin accounts get approved without anyone knowing what the access allows. How to add application context so reviews remove access.
@@ -32,9 +32,9 @@ This is the condition this article examines: privileged accounts reviewed withou
 
 A privileged account can change settings, create other users, read everything in a system or switch controls off. Reviewing such accounts means asking whether each one still needs that power. That question can only be answered by someone who knows the application: what it does, what data it holds, what an administrator could do with it, and who legitimately needs to. A review that shows only account names asks the reviewer to confirm something they cannot assess. The result is routine approval, and excess access survives.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The IT manager, security lead or compliance officer searching for this wants a review that reduces risk instead of producing a signed list. They want to be able to tell a customer, auditor or insurer which privileged accounts exist, why each is justified and who confirmed it. They also want reviewers to spend minutes, not hours, and to make real decisions.
+The IT manager, security lead or compliance officer facing this wants a review that reduces risk instead of producing a signed list. They want to be able to tell a customer, auditor or insurer which privileged accounts exist, why each is justified and who confirmed it. They also want reviewers to spend minutes, not hours, and to make real decisions.
 
 ## Evidence and system mechanism
 

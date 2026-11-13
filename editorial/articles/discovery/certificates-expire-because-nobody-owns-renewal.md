@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-308
 slug: certificates-expire-because-nobody-owns-renewal
 title: Why certificates expire when nobody clearly owns their renewal
-description: An expired TLS certificate can take a website, API or integration offline in an instant. Why expiry keeps happening when ownership is unclear, and how to give every certificate an owner and a renewal path.
+description: An expired certificate can take a website, API or integration offline instantly. How to give every certificate an owner and a renewal path.
 lead: An expired TLS certificate can take a website, API or integration offline in an instant. Why expiry keeps happening when ownership is unclear, and how to give every certificate an owner and a renewal path.
 category: Cloud, Infrastructure & Platform Operations
 published_date: 2026-10-06
@@ -38,9 +38,9 @@ A TLS certificate proves to browsers and other systems that a website or service
 - certificates installed by hand on servers, firewalls or appliances;
 - internal certificates for integrations that nobody remembers creating.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for why their website says the connection is not private, how to track certificate expiry dates, how to automate certificate renewal, or who should be responsible for SSL certificates. After an outage, managers want to know why a predictable date caught everyone by surprise. The real need is an inventory of certificates, a named owner for each, and a renewal method that does not depend on someone remembering.
+People ask why their website says the connection is not private, how to track certificate expiry dates, how to automate certificate renewal, or who should be responsible for SSL certificates. After an outage, managers want to know why a predictable date caught everyone by surprise. The real need is an inventory of certificates, a named owner for each, and a renewal method that does not depend on someone remembering.
 
 ## Evidence and system mechanism
 

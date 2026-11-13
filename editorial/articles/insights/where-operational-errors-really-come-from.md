@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-014
 slug: where-operational-errors-really-come-from
-title: Where Operational Errors Really Come From
-description: The person who made the visible mistake is usually at the end of a chain of conditions that made it likely. Six places recurring business errors actually begin, and a simple method for tracing an error back to its origin instead of stopping at whoever noticed it last.
+title: Where operational errors really come from
+description: The person who made the visible mistake is usually at the end of a chain of causes. Six places errors really begin, and how to trace one back.
 lead: The person who made the visible mistake is usually at the end of a chain of conditions that made it likely. Six places recurring business errors actually begin, and a simple method for tracing an error back to its origin instead of stopping at whoever noticed it last.
 category: Operations
 published_date: 2026-10-04
@@ -14,9 +14,9 @@ sources:
   - https://books.hse.gov.uk/gempdf/hsg48.pdf | https://books.hse.gov.uk/gempdf/hsg48.pdf
   - Root Cause Analysis - PSNet | https://psnet.ahrq.gov/primer/root-cause-analysis
 related:
-  - How Manual Data Transfer Becomes an Operational Bottleneck | /insights/how-manual-data-transfer-becomes-an-operational-bottleneck/
-  - What Your Recurring Problems Are Telling You About Your Systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
-  - Why Fixing Symptoms Without Mapping the System Rarely Works | /insights/why-fixing-symptoms-without-mapping-the-system-rarely-works/
+  - How manual data transfer becomes an operational bottleneck | /insights/how-manual-data-transfer-becomes-an-operational-bottleneck/
+  - What your recurring problems are telling you about your systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
+  - Why fixing symptoms without mapping the system rarely works | /insights/why-fixing-symptoms-without-mapping-the-system-rarely-works/
 summary: The person who made the visible mistake is usually at the end of a chain of conditions that made it likely. Six places recurring business errors actually begin, and a simple method for tracing an error back to its origin instead of stopping at whoever noticed it last.
 layout: plain
 ---

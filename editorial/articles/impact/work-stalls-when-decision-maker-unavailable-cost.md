@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-025
 slug: work-stalls-when-decision-maker-unavailable-cost
-title: When Every Decision Waits for One Person: The Cost of a Decision Bottleneck
-description: When pricing, exceptions and approvals can only be decided by one person, work slows every time they are busy, travelling or on leave. Written decision rights and named deputies keep the business moving.
+title: When every decision waits for one person: The cost of a decision bottleneck
+description: When only one person can decide pricing, exceptions and approvals, work stalls whenever they are busy or on leave. Written decision rights help.
 lead: When pricing, exceptions and approvals can only be decided by one person, work slows every time they are busy, travelling or on leave. Written decision rights and named deputies keep the business moving.
 category: Digital Operations
 published_date: 2026-10-05
@@ -17,9 +17,9 @@ sources:
   - DACI: A Decision-Making Framework - Atlassian Team Playbook | https://www.atlassian.com/team-playbook/plays/daci
   - How to - Top scenarios with approval flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/approvals-howto
 related:
-  - The Human Dispatcher: The Cost of Manually Routing Every Incoming Request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
-  - When Your Experts Become the Help Desk: The Cost of Routine Requests | /impact/specialists-pulled-into-routine-requests-expertise-cost/
-  - Which Version Is Final? The Cost of Teams Working From Different Copies | /impact/conflicting-document-versions-rework-decision-cost/
+  - The human dispatcher: The cost of manually routing every incoming request | /impact/manually-assigning-incoming-requests-routing-delay-cost/
+  - When your experts become the help desk: The cost of routine requests | /impact/specialists-pulled-into-routine-requests-expertise-cost/
+  - Which version is final? The cost of teams working from different copies | /impact/conflicting-document-versions-rework-decision-cost/
 summary: When pricing, exceptions and approvals can only be decided by one person, work slows every time they are busy, travelling or on leave. Written decision rights and named deputies keep the business moving.
 layout: plain
 ---

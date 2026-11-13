@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-107
 slug: why-warehouses-with-different-location-codes-cannot-share-stock-data
 title: Why warehouses with different location codes cannot share stock data
-description: When each warehouse names its shelves and bins its own way, transfers go astray and group reports need translation. A simple convention and the governance to keep it.
+description: When each warehouse names its shelves and bins differently, transfers go astray and reports need translation. A simple convention and governance fix it.
 lead: When each warehouse names its shelves and bins its own way, transfers go astray and group reports need translation. A simple convention and the governance to keep it.
 category: Inventory & Order Operations
 published_date: 2026-10-10
@@ -15,10 +15,12 @@ budget_owner: Chief operating officer or operations director
 sources:
   - Locations — Odoo 18.0 documentation | https://www.odoo.com/documentation/18.0/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.html
   - Cycle counting - Supply Chain Management - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/supply-chain/warehousing/cycle-counting
+  - Global Location Numbers (GLN) - GS1 | https://www.gs1.org/docs/idkeys/GS1_Global_Location_Numbers.pdf
 related:
   - Why sales and warehouse systems need one product identifier | /discovery/why-sales-and-warehouse-systems-need-one-product-identifier/
   - Why damaged stock keeps showing as available to customers | /discovery/why-damaged-stock-keeps-showing-as-available-to-customers/
   - Why stock in transit between locations goes missing in reconciliation | /discovery/why-stock-in-transit-between-locations-goes-missing-in-reconciliation/
+  - New SKUs go on sale before every system has the product data | /discovery/launching-a-new-sku-before-every-system-knows-it-exists/
 summary: When each warehouse names its shelves and bins its own way, transfers go astray and group reports need translation. A simple convention and the governance to keep it.
 layout: plain
 ---
@@ -32,13 +34,15 @@ When a business has more than one warehouse, every shelf, bin, zone and dock has
 
 The observable symptoms are mundane: wrong-location putaways, long searches for stock that is "in the system but not on the shelf", duplicate codes meaning different places, and spreadsheets that map one site's codes to another's.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People searching for this usually phrase it as "warehouse location naming convention", "standardise bin locations across warehouses" or "stock in the wrong location after transfer". The goal is practical: a new site should be able to go live without inventing a new language, and a transfer between sites should land in an unambiguous place.
+People facing this usually phrase it as "warehouse location naming convention", "standardise bin locations across warehouses" or "stock in the wrong location after transfer". The goal is practical: a new site should be able to go live without inventing a new language, and a transfer between sites should land in an unambiguous place.
 
 ## How systems model locations
 
-Inventory software generally models locations as a hierarchy, and that structure is what a naming convention should reflect. Odoo's documentation, for example, describes locations nested through a parent location field, with a path such as warehouse, stock, zone and then a specific shelf or unit. It also lets each location carry its own barcode, separate from its name, so a scanner can identify a place regardless of how people refer to it ([Odoo location documentation](https://www.odoo.com/documentation/18.0/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.html)). The page asks only for a recognisable name; it does not impose a scheme. That is typical. The software gives you a structure, and the discipline of using it consistently is yours.
+Inventory software generally models locations as a hierarchy, and that structure is what a naming convention should reflect. Odoo's documentation, for example, describes locations nested through a parent location field, with a path such as warehouse, stock, zone and then a specific shelf or unit. It also lets each location carry its own barcode, separate from its name, so a scanner can identify a place regardless of how people refer to it ([Odoo location documentation](https://www.odoo.com/documentation/18.0/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.html)).
+
+The page asks only for a recognisable name; it does not impose a scheme. That is typical. The software gives you a structure, and the discipline of using it consistently is yours. At a larger scale, GS1's [Global Location Number](https://www.gs1.org/docs/idkeys/GS1_Global_Location_Numbers.pdf) shows the same principle: a location, including a warehouse or a warehouse gate, can carry a globally unique identifier.
 
 Microsoft's Dynamics 365 warehouse documentation shows the same dependency from the operational side. Cycle counting there is enabled per location through location profiles, and counting work is created for a whole location ([cycle counting in Dynamics 365](https://learn.microsoft.com/en-us/dynamics365/supply-chain/warehousing/cycle-counting)). Any process built on locations, from putaway to counting to replenishment, inherits whatever inconsistency the codes contain.
 

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-060
 slug: when-operational-problems-are-discovered-in-the-monthly-meeting
-title: When Operational Problems Are Discovered in the Monthly Meeting
-description: When the monthly review is where problems first surface, they have usually already run their course. Here is why calendar-based detection and monthly averages hide trouble, and how to catch it as it happens.
+title: When operational problems are discovered in the monthly meeting
+description: When the monthly review is where problems first surface, they have already run their course. Catch trouble as it happens, not at month-end.
 lead: When the monthly review is where problems first surface, they have usually already run their course. Here is why calendar-based detection and monthly averages hide trouble, and how to catch it as it happens.
 category: Reporting & Operational Visibility
 published_date: 2026-10-06
@@ -18,9 +18,9 @@ sources:
   - Google SRE - Defining slo: service level objective meaning | https://sre.google/sre-book/service-level-objectives/
   - Operational Excellence Pillar - AWS Well-Architected Framework - Operational Excellence Pillar | https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html
 related:
-  - Why Teams Spend More Time Preparing Reports Than Using Them | /patterns/why-teams-spend-more-time-preparing-reports-than-using-them/
-  - Why Reporting Delays Become Decision Delays | /patterns/why-reporting-delays-become-decision-delays/
-  - Why Decision-Makers Keep Asking for Status Updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
+  - Why teams spend more time preparing reports than using them | /patterns/why-teams-spend-more-time-preparing-reports-than-using-them/
+  - Why reporting delays become decision delays | /patterns/why-reporting-delays-become-decision-delays/
+  - Why decision-makers keep asking for status updates | /patterns/why-decision-makers-keep-asking-for-status-updates/
 summary: When the monthly review is where problems first surface, they have usually already run their course. Here is why calendar-based detection and monthly averages hide trouble, and how to catch it as it happens.
 layout: plain
 ---
@@ -78,7 +78,7 @@ Another response is to add more measures to the pack. More figures, still review
 
 In a better state, a small number of operational measures are watched continuously or daily, each with a defined normal range. When a measure moves outside its range, the person responsible is told the same day, with enough context to act. The monthly meeting then reviews what happened, how quickly it was caught and what has changed, and spends its remaining time on improvement.
 
-The AWS Well-Architected guidance on operational excellence describes the aim as systems that provide insight into their status and support effective event response. That idea applies just as well to a workshop, a warehouse or a service desk as to cloud software. The meeting stops being the alarm and becomes the place where the business learns from alarms.
+The AWS Well-Architected guidance on [operational excellence](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html) describes the aim as systems that provide insight into their status and support effective event response. That idea applies just as well to a workshop, a warehouse or a service desk as to cloud software. The meeting stops being the alarm and becomes the place where the business learns from alarms.
 
 ## Intervention
 

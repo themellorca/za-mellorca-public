@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-118
 slug: untraceable-reporting-number-audit-cost
-title: When Nobody Can Trace Where a Reported Number Came From
+title: When nobody can trace where a reported number came from
 description: A management number is expensive when staff must reverse-engineer its source before they can trust, explain or audit it.
 lead: A number can look precise while hiding an uncertain lineage. When its source, transformation and owner are unclear, every challenge to the figure becomes another investigation.
 category: Digital Operations
@@ -23,10 +23,11 @@ evidence_basis: qualitative operational analysis and transparent time-cost model
 sources:
   - Spreadsheet Errors: What We Know. What We Think We Can Do | https://arxiv.org/abs/0802.3457
   - The AQuA Book | https://www.gov.uk/guidance/the-aqua-book
+  - Data lineage in classic Microsoft Purview Data Catalog - Microsoft Learn | https://learn.microsoft.com/en-us/purview/concept-data-lineage
 related:
-  - Recreating Documents Nobody Can Find: The Cost of Duplicated Work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
-  - Scattered Supplier Invoices Create Handling Cost and Payment Uncertainty | /impact/supplier-invoices-multiple-inboxes-handling-cost/
-  - The Cost of Work Waiting for Approval | /impact/approval-queues-blocked-capacity-cost/
+  - Recreating documents nobody can find: The cost of duplicated work | /impact/staff-recreating-lost-documents-duplicated-work-cost/
+  - Scattered supplier invoices create handling cost and payment uncertainty | /impact/supplier-invoices-multiple-inboxes-handling-cost/
+  - The cost of work waiting for approval | /impact/approval-queues-blocked-capacity-cost/
 ---
 ## The tolerated pain
 
@@ -42,7 +43,7 @@ Because the output looks right most months, the absence of lineage feels like a 
 
 ## Operational consequence
 
-Staff then reconstruct lineage manually: opening source exports, comparing formulas, asking the report owner and recreating transformations. That makes explanation dependent on individual memory and turns routine assurance into recurring investigative work.
+Staff then reconstruct lineage manually: opening source exports, comparing formulas, asking the report owner and recreating transformations. That makes explanation dependent on individual memory and turns routine assurance into recurring investigative work. Microsoft's documentation on [data lineage](https://learn.microsoft.com/en-us/purview/concept-data-lineage) describes it as a view of where data originates and how it is transformed on its way to a report, and lists troubleshooting and root cause analysis, data quality analysis and compliance among its uses.
 
 The symptoms are recognisable:
 

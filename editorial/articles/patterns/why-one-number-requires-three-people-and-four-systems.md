@@ -2,9 +2,9 @@
 hub: patterns
 record_id: PAT-053
 slug: why-one-number-requires-three-people-and-four-systems
-title: Why One Number Requires Three People and Four Systems
-description: Explores how a single KPI value often relies on multiple people and systems, creating overhead and misalignment across processes; shows diagnosis and practical interventions.
-lead: Explores how a single KPI value often relies on multiple people and systems, creating overhead and misalignment across processes; shows diagnosis and practical interventions.
+title: Why one number requires three people and four systems
+description: When one figure needs three people and four systems to produce, the business pays in overhead and disagreement. How to diagnose it and fix it.
+lead: When one figure needs three people and four systems to produce, the business pays in overhead and disagreement. How to diagnose it and fix it.
 category: Data Integrity and System Integration
 published_date: 2026-10-02
 updated_date: 2026-10-02
@@ -16,11 +16,12 @@ commercial_value_dimensions: speed, cost, risk, accuracy
 sources:
   - What Is Data Lineage? - IBM | https://www.ibm.com/think/topics/data-lineage
   - Data ownership model | https://www.gov.uk/government/publications/data-ownership-in-government/data-ownership-model
+  - Data lineage in Microsoft Purview - Microsoft Learn | https://learn.microsoft.com/en-us/purview/concept-data-lineage
 related:
-  - Why Does One Customer Exist Differently in Three Systems? | /patterns/why-does-one-customer-exist-differently-in-three-systems/
-  - Why Does the Same Customer Have Three Different Names in Your Systems? | /patterns/why-does-the-same-customer-have-three-different-names-in-your-systems/
-  - When Your CRM Knows Something Your Finance System Does Not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
-summary: Explores how a single KPI value often relies on multiple people and systems, creating overhead and misalignment across processes; shows diagnosis and practical interventions.
+  - Why does one customer exist differently in three systems? | /patterns/why-does-one-customer-exist-differently-in-three-systems/
+  - Why does the same customer have three different names in your systems? | /patterns/why-does-the-same-customer-have-three-different-names-in-your-systems/
+  - When your CRM knows something your finance system does not | /patterns/when-your-crm-knows-something-your-finance-system-does-not/
+summary: When one figure needs three people and four systems to produce, the business pays in overhead and disagreement. How to diagnose it and fix it.
 layout: plain
 ---
 ## Observable Condition
@@ -53,7 +54,9 @@ Mellorca covers the reporting side of this in [why your reports cannot agree on 
 
 The mechanism is a network of processes where data passes through multiple transform stages, each with its own rules. Without a canonical owner and a trusted source of truth, reconciliation steps create drift and conflict. The outcome is fragile decision-making and a consistent misalignment between what the KPI indicates and what actions teams take.
 
-A practical way to diagnose the chain is to trace one month's figure backwards. Sit with the person who presents the KPI and ask where each component came from. Write down every system, export, file, formula and manual adjustment until you reach source records. This is a simple, paper-based version of data lineage. IBM describes data lineage as tracking where data originated, how it has changed and where it ends up, and notes that this visibility helps teams validate reports and find the root cause of discrepancies. Even a hand-drawn lineage map often reveals the problem immediately: a definition that changed in one system but not another, a cut-off date that differs between modules, or a manual correction that has been repeated every month for years because the underlying data was never fixed.
+A practical way to diagnose the chain is to trace one month's figure backwards. Sit with the person who presents the KPI and ask where each component came from. Write down every system, export, file, formula and manual adjustment until you reach source records. This is a simple, paper-based version of data lineage. IBM describes data lineage as tracking where data originated, how it has changed and where it ends up, and notes that this visibility helps teams validate reports and find the root cause of discrepancies.
+
+Even a hand-drawn lineage map often reveals the problem immediately: a definition that changed in one system but not another, a cut-off date that differs between modules, or a manual correction that has been repeated every month for years because the underlying data was never fixed. Tooling can help: Microsoft Purview's [data lineage](https://learn.microsoft.com/en-us/purview/concept-data-lineage) shows where data originates and how it moves and is transformed across the data estate, which supports root cause analysis.
 
 | Stage | Question to ask | Typical finding |
 | --- | --- | --- |
@@ -79,7 +82,7 @@ The audit dimension matters too. When a figure cannot be traced back to source, 
 
 Better outcomes arise when the organisation consolidates data into a single source of truth and clearly assigns data stewardship. Replacing ad hoc reconciliations with standardised definitions, governance, and automation reduces misinterpretation and speeds decision-making.
 
-The UK government's data ownership model offers a useful division of roles. Data owners are senior leaders accountable for a grouping of data who approve major changes without needing granular knowledge; data stewards manage it day to day as subject-matter experts; data custodians handle technical storage and access. A mid-sized business does not need formal titles, but it does need to know who decides what "gross margin" means, who keeps the definition consistent, and who maintains the systems that hold it.
+The UK government's [data ownership model](https://www.gov.uk/government/publications/data-ownership-in-government/data-ownership-model) offers a useful division of roles. Data owners are senior leaders accountable for a grouping of data who approve major changes without needing granular knowledge; data stewards manage it day to day as subject-matter experts; data custodians handle technical storage and access. A mid-sized business does not need formal titles, but it does need to know who decides what "gross margin" means, who keeps the definition consistent, and who maintains the systems that hold it.
 
 ## Intervention
 

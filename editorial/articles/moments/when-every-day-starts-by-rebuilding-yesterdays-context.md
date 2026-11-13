@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000007
 slug: when-every-day-starts-by-rebuilding-yesterdays-context
-title: When Every Day Starts by Rebuilding Yesterday's Context
-description: Before the day's work can begin, many people first have to find out where yesterday's work stands. What that daily reconstruction costs in attention, and what keeps context waiting instead.
+title: When every day starts by rebuilding yesterday's context
+description: Before the day's work begins, many people must first find where yesterday's work stands. What that reconstruction costs, and what keeps context waiting.
 lead: Before the day's work can begin, many people first have to find out where yesterday's work stands. What that daily reconstruction costs in attention, and what keeps context waiting instead.
 category: Time & Attention
 published_date: 2026-10-04
@@ -19,9 +19,9 @@ sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
 related:
-  - What Changes When Status Updates Stop Being a Chore | /moments/what-changes-when-status-updates-stop-being-a-chore/
-  - Why the Commute Has Become Unpaid Triage Time | /moments/why-the-commute-has-become-unpaid-triage-time/
-  - The Lunch Break Eaten by Approval Requests | /moments/the-lunch-break-eaten-by-approval-requests/
+  - What changes when status updates stop being a chore | /moments/what-changes-when-status-updates-stop-being-a-chore/
+  - Why the commute has become unpaid triage time | /moments/why-the-commute-has-become-unpaid-triage-time/
+  - The lunch break eaten by approval requests | /moments/the-lunch-break-eaten-by-approval-requests/
 summary: Before the day's work can begin, many people first have to find out where yesterday's work stands. What that daily reconstruction costs in attention, and what keeps context waiting instead.
 layout: plain
 ---
@@ -35,7 +35,7 @@ This piece looks at that daily reconstruction: why it happens, what it costs the
 
 The cost of picking work back up has been studied for some time. In a 2008 experiment, Gloria Mark of the University of California, Irvine, and colleagues at Humboldt University in Berlin found that people who were interrupted completed their tasks in less time, with no difference in quality, but at a price. Participants reported more stress, higher frustration, greater time pressure and more effort. People compensated for interruptions by working faster, and paid for it in strain.
 
-The scale of interruption in modern office work makes that finding relevant. Microsoft's Work Trend Index analysis of what it calls the infinite workday reports that, in its Microsoft 365 data, workers were interrupted about every two minutes during core hours by a meeting, email or chat, around 275 times a day. It also found that 40% of people online at 6am were reviewing email to work out the day's priorities. An earlier Work Trend Index report found that 62% of surveyed people struggled with too much time spent searching for information.
+The scale of interruption in modern office work makes that finding relevant. Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) analysis of what it calls the infinite workday reports that, in its Microsoft 365 data, workers were interrupted about every two minutes during core hours by a meeting, email or chat, around 275 times a day. It also found that 40% of people online at 6am were reviewing email to work out the day's priorities. An earlier [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) report found that 62% of surveyed people struggled with too much time spent searching for information.
 
 These are global figures from one vendor's tools, not measurements of South African small businesses. They do not show how long any individual spends rebuilding context. What they suggest is that the conditions for constant reconstruction, frequent interruptions and information that has to be searched for, are widespread.
 

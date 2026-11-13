@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-303
 slug: salespeople-personal-spreadsheets-customer-records-cost
-title: Customer Records in Salespeople's Spreadsheets: The Revenue and Continuity Cost
-description: When customer knowledge lives in salespeople's personal spreadsheets, the business does not really own its relationships. The cost appears when someone leaves, in lapsed accounts and rebuilt records.
+title: Customer records in salespeople's spreadsheets: The revenue and continuity cost
+description: When customer knowledge lives in salespeople's personal spreadsheets, the business does not own its relationships. The cost appears when someone leaves.
 lead: When customer knowledge lives in salespeople's personal spreadsheets, the business does not really own its relationships. The cost appears when someone leaves, in lapsed accounts and rebuilt records.
 category: Sales Operations
 published_date: 2026-10-07
@@ -17,9 +17,10 @@ sources:
   - Set up duplicate detection rules to keep your data clean - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
 related:
-  - An Inbox Is Not a Sales Process: The Revenue Cost of Emailed Website Enquiries | /impact/website-enquiries-email-inbox-sales-process-revenue-cost/
-  - The Revenue Cost of Slow Sales Lead Response | /impact/slow-sales-lead-response-revenue-cost/
-  - "Let Me Check and Come Back to You": The Cost of Manual Availability Checks | /impact/checking-stock-capacity-by-hand-before-promising-cost/
+  - An inbox is not a sales process: The revenue cost of emailed website enquiries | /impact/website-enquiries-email-inbox-sales-process-revenue-cost/
+  - The revenue cost of slow sales lead response | /impact/slow-sales-lead-response-revenue-cost/
+  - "Let me check and come back to you": The cost of manual availability checks | /impact/checking-stock-capacity-by-hand-before-promising-cost/
+  - When customer relationships live in one salesperson's inbox | /impact/customer-relationships-in-salesperson-inbox-lost-opportunities-when-they-leave/
 summary: When customer knowledge lives in salespeople's personal spreadsheets, the business does not really own its relationships. The cost appears when someone leaves, in lapsed accounts and rebuilt records.
 layout: plain
 ---

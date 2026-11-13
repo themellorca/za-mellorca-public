@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000003
 slug: when-sunday-evening-becomes-monday-morning
-title: When Sunday Evening Becomes Monday Morning
-description: In some businesses the week's plan does not exist until someone builds it on Sunday night: who goes where, what is delivered, which job comes first. What changes when the plan is ready before the weekend begins.
+title: When Sunday evening becomes Monday morning
+description: In some businesses the week's plan does not exist until someone builds it on Sunday night. What changes when the plan is ready before the weekend begins.
 lead: In some businesses the week's plan does not exist until someone builds it on Sunday night: who goes where, what is delivered, which job comes first. What changes when the plan is ready before the weekend begins.
 category: Time & Attention
 published_date: 2026-10-03
@@ -17,10 +17,11 @@ epistemic_state: HYPOTHESISED for the late-planning mechanism and its personal e
 sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
   - Crucial changes needed to protect workers’ health while teleworking | https://www.who.int/news/item/02-02-2022-crucial-changes-needed-to-protect-workers-health-while-teleworking
+  - Code of Good Practice on the Arrangement of Working Time - Department of Labour (South Africa) | https://www.labour.gov.za/DocumentCenter/Code%20of%20Good%20Practice/Basic%20Condition/Code%20of%20Good%20Practice%20on%20the%20Arrangement%20of%20Working%20Time.PDF
 related:
-  - The Report Someone Rebuilds by Hand Every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
-  - When Month-End Swallows the Whole Week | /moments/when-month-end-swallows-the-whole-week/
-  - The Meeting That Could Have Been a Shared Record | /moments/the-meeting-that-could-have-been-a-shared-record/
+  - The report someone rebuilds by hand every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - When month-end swallows the whole week | /moments/when-month-end-swallows-the-whole-week/
+  - The meeting that could have been a shared record | /moments/the-meeting-that-could-have-been-a-shared-record/
 summary: In some businesses the week's plan does not exist until someone builds it on Sunday night: who goes where, what is delivered, which job comes first. What changes when the plan is ready before the weekend begins.
 layout: plain
 ---
@@ -34,7 +35,7 @@ Some people are content with this. A short look ahead helps them sleep, and that
 
 ## The weekend is not as closed as it looks
 
-There is public evidence that the weekend boundary is porous for many knowledge workers. Microsoft's June 2025 Work Trend Index report on the infinite workday, based on aggregated and anonymised Microsoft 365 signals, found that nearly 20% of employees who were actively working on weekends checked email before noon on Saturday and Sunday, and that more than 5% were back in email on Sunday evenings from 6pm onwards. The same report found that 57% of meetings were ad hoc calls without a calendar invitation.
+There is public evidence that the weekend boundary is porous for many knowledge workers. Microsoft's June 2025 [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) report on the infinite workday, based on aggregated and anonymised Microsoft 365 signals, found that nearly 20% of employees who were actively working on weekends checked email before noon on Saturday and Sunday, and that more than 5% were back in email on Sunday evenings from 6pm onwards. The same report found that 57% of meetings were ad hoc calls without a calendar invitation.
 
 That last figure says something useful about planning. A large share of coordination is happening on the fly rather than being scheduled in advance. If that is how the working week runs, it is not surprising that the next week also tends to be organised at the last possible moment.
 
@@ -44,7 +45,7 @@ These figures describe Microsoft's global user base. They are context, not a Sou
 
 The record behind this story is hypothesised. The mechanism proposed here is testable rather than proven.
 
-In many small and mid-sized businesses, the inputs to next week's plan are scattered. Job requests sit in messages. Material deliveries are confirmed by phone. Staff availability lives in a WhatsApp group. Progress on this week's work is known to the people who did it, but not recorded anywhere the planner can see. And Friday afternoon, when the week could be closed, is usually spent finishing the week rather than preparing the next one.
+In many small and mid-sized businesses, the inputs to next week's plan are scattered. Job requests sit in messages. Material deliveries are confirmed by phone. Staff availability lives in a WhatsApp group. Progress on this week's work is known to the people who did it, but not recorded anywhere the planner can see. And Friday afternoon, when the week could be closed, is usually spent finishing the week rather than preparing the next one. South Africa's Department of Labour [Code of Good Practice on the Arrangement of Working Time](https://www.labour.gov.za/DocumentCenter/Code%20of%20Good%20Practice/Basic%20Condition/Code%20of%20Good%20Practice%20on%20the%20Arrangement%20of%20Working%20Time.PDF) says that workers should receive reasonable notice in advance of scheduled hours of work and that employers must ensure adequate rest periods.
 
 So the plan cannot be made on Friday, because the information is not yet together. It cannot be made on Monday morning, because work starts at 07:00. That leaves the weekend.
 

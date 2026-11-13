@@ -2,7 +2,7 @@
 hub: moments
 record_id: STORY-ANGLE-000215
 slug: the-sleep-lost-over-a-system-only-one-person-understands
-title: The Sleep Lost Over a System Nobody Else Understands
+title: The sleep lost over a system nobody else understands
 description: When one person is the only one who understands a critical system, the worry follows them to bed. Why that is rational, and how to share the load.
 lead: When one person is the only one who understands a critical system, the worry follows them to bed. Why that is rational, and how to share the load.
 category: Health, Safety and Wellbeing
@@ -20,9 +20,9 @@ sources:
   - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
   - Google SRE monitoring ditributed system - sre golden signals | https://sre.google/sre-book/monitoring-distributed-systems/
 related:
-  - The Stress of Not Knowing if the Backup Worked | /moments/the-stress-of-not-knowing-if-the-backup-worked/
-  - When Constant Alerts Become Background Anxiety | /moments/when-constant-alerts-become-background-anxiety/
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - The stress of not knowing if the backup worked | /moments/the-stress-of-not-knowing-if-the-backup-worked/
+  - When constant alerts become background anxiety | /moments/when-constant-alerts-become-background-anxiety/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
 summary: When one person is the only one who understands a critical system, the worry follows them to bed. Why that is rational, and how to share the load.
 layout: plain
 ---
@@ -40,7 +40,7 @@ The same structure applies in many small businesses. A spreadsheet built over te
 
 The US National Heart, Lung, and Blood Institute notes that sleep deficiency can interfere with work, learning and social functioning, and can make it harder to focus, react and judge other people's emotions. The US Centers for Disease Control and Prevention publishes general information on sleep and health that points the same way. It is a reasonable inference, not a proven result for any individual, that an owner who sleeps badly because of a fragile system is then slightly less able to fix it. The risk compounds.
 
-The World Health Organization's guidance on mental health at work lists excessive workloads, long and inflexible hours, and unclear job roles among risks to mental health. Being the sole holder of a critical system tends to combine several of these: a workload that never fully ends, a role with no boundary, and hours that quietly extend into the night.
+The World Health Organization's guidance on [mental health at work](https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work) lists excessive workloads, long and inflexible hours, and unclear job roles among risks to mental health. Being the sole holder of a critical system tends to combine several of these: a workload that never fully ends, a role with no boundary, and hours that quietly extend into the night.
 
 ## An illustrative case
 

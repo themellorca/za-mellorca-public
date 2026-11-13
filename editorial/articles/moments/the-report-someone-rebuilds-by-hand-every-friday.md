@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000012
 slug: the-report-someone-rebuilds-by-hand-every-friday
-title: The Report Someone Rebuilds by Hand Every Friday
-description: Every Friday afternoon one person exports, pastes, fixes and formats the same weekly report. What that ritual takes from their week and their attention, and what changes when the report builds itself.
+title: The report someone rebuilds by hand every Friday
+description: Every Friday afternoon one person exports, pastes and formats the same weekly report. What that ritual takes from their week, and what if it built itself.
 lead: Every Friday afternoon one person exports, pastes, fixes and formats the same weekly report. What that ritual takes from their week and their attention, and what changes when the report builds itself.
 category: Time & Attention
 published_date: 2026-10-04
@@ -19,9 +19,9 @@ sources:
   - Configure scheduled refresh - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-scheduled-refresh
   - Refresh an external data connection in Excel - Microsoft Support | https://support.microsoft.com/en-us/office/refresh-an-external-data-connection-in-excel-1524175f-777a-48fc-8fc7-c8514b984440
 related:
-  - When Sunday Evening Becomes Monday Morning | /moments/when-sunday-evening-becomes-monday-morning/
-  - When Month-End Swallows the Whole Week | /moments/when-month-end-swallows-the-whole-week/
-  - The Inbox That Follows You Home | /moments/the-inbox-that-follows-you-home/
+  - When Sunday evening becomes Monday morning | /moments/when-sunday-evening-becomes-monday-morning/
+  - When month-end swallows the whole week | /moments/when-month-end-swallows-the-whole-week/
+  - The inbox that follows you home | /moments/the-inbox-that-follows-you-home/
 summary: Every Friday afternoon one person exports, pastes, fixes and formats the same weekly report. What that ritual takes from their week and their attention, and what changes when the report builds itself.
 layout: plain
 ---
@@ -35,7 +35,7 @@ The report itself is useful. The owner reads it, and decisions are made from it.
 
 The striking thing about a manual weekly report is that almost nothing about it changes. The sources are the same. The steps are the same. The corrections are the same. Yet the work is done from scratch each time, because the steps live in one person's memory and hands rather than anywhere that can repeat them.
 
-Spreadsheet and reporting tools have been built to deal with exactly this. Microsoft's documentation for Power Query, which is built into Excel and Power BI, describes the problem directly: shaping data by hand is one-off and not repeatable. Its answer is to record each transformation step, such as removing a column, fixing a data type or combining files, as a query that can be refreshed to get up-to-date data. Excel's own documentation describes refreshing data connections on demand, when a workbook opens, or every set number of minutes. Power BI's documentation describes scheduled refresh, with up to eight scheduled refreshes a day on a Pro licence.
+Spreadsheet and reporting tools have been built to deal with exactly this. Microsoft's documentation for [Power Query](https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query), which is built into Excel and Power BI, describes the problem directly: shaping data by hand is one-off and not repeatable. Its answer is to record each transformation step, such as removing a column, fixing a data type or combining files, as a query that can be refreshed to get up-to-date data. Excel's own documentation describes refreshing data connections on demand, when a workbook opens, or every set number of minutes. Power BI's documentation describes [scheduled refresh](https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-scheduled-refresh), with up to eight scheduled refreshes a day on a Pro licence.
 
 Mentioning these tools is not a recommendation of one vendor. Other spreadsheet and reporting products offer similar features. The point is that the capability to make a report rebuild itself is widely available, and often already paid for, while the Friday ritual continues.
 

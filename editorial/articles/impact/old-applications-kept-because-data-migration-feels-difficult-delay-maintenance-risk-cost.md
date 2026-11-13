@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-067
 slug: old-applications-kept-because-data-migration-feels-difficult-delay-maintenance-risk-cost
-title: Old Applications Kept Alive Because Moving the Data Feels Hard
-description: Keeping an old application just to hold its data adds hosting, support and double-lookup costs every year, and a tiered migration usually costs less than the delay.
+title: Old applications kept alive because moving the data feels hard
+description: Keeping an old application just to hold its data adds hosting, support and double-lookup costs every year. A tiered migration costs less than delay.
 lead: Keeping an old application just to hold its data adds hosting, support and double-lookup costs every year, and a tiered migration usually costs less than the delay.
 category: Digital Operations
 published_date: 2026-10-10
@@ -15,11 +15,11 @@ primary_cost_mechanism: Recurring hosting, support and licence cost, double-look
 sources:
   - Manage your data in Dynamics 365 implementation projects - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/data-management
   - Plan your migration - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/plan-migration
-  - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+  - Who makes an application to process Special Personal Information? | https://inforegulator.org.za/popia/
 related:
-  - "That's Just Admin": The Payroll Cost of Processes Nobody Ever Redesigned | /impact/accepting-repetitive-admin-never-redesigned-payroll-cost/
-  - Cloud Prices for Old Infrastructure: The Cost of Moving Without Redesign | /impact/cloud-migration-without-redesign-old-infrastructure-patterns-cost/
-  - Five Laptop Models, Three Chargers: What Inconsistent Hardware Costs a Business | /impact/mixed-laptop-models-and-accessories-support-and-procurement-cost/
+  - "That's just admin": The payroll cost of processes nobody ever redesigned | /impact/accepting-repetitive-admin-never-redesigned-payroll-cost/
+  - Cloud prices for old infrastructure: The cost of moving without redesign | /impact/cloud-migration-without-redesign-old-infrastructure-patterns-cost/
+  - Five laptop models, three chargers: What inconsistent hardware costs a business | /impact/mixed-laptop-models-and-accessories-support-and-procurement-cost/
 summary: Keeping an old application just to hold its data adds hosting, support and double-lookup costs every year, and a tiered migration usually costs less than the delay.
 layout: plain
 ---
@@ -76,7 +76,9 @@ A South African building-services contractor with 45 staff has moved its quoting
 
 Check: 10 × 2 × 48 × R280 = R268,800; R54,000 + R72,000 + R268,800 + R36,000 = R430,800.
 
-The directors had assumed that the choice was between R320,000 now and nothing. On these figures, the choice was between R320,000 once and about R430,800 every year. A staged approach changes the picture again. Suppose the business migrates the last three years of active job history (which accounts for most lookups) for R140,000, and archives older records into a read-only, searchable store for R35,000 a year in hosting and access. Lookups fall by, say, 80%, saving about R215,000, and the old server, support and licence costs (R162,000) end, leaving a net annual saving of roughly R342,000 against R35,000 of archive cost, a payback of under six months on the migration outlay. The assumptions should be tested, but the structure is the lesson: migrate what is used, archive what is not, and retire the application.
+The directors had assumed that the choice was between R320,000 now and nothing. On these figures, the choice was between R320,000 once and about R430,800 every year. A staged approach changes the picture again. Suppose the business migrates the last three years of active job history (which accounts for most lookups) for R140,000, and archives older records into a read-only, searchable store for R35,000 a year in hosting and access.
+
+Lookups fall by, say, 80%, saving about R215,000, and the old server, support and licence costs (R162,000) end, leaving a net annual saving of roughly R342,000 against R35,000 of archive cost, a payback of under six months on the migration outlay. The assumptions should be tested, but the structure is the lesson: migrate what is used, archive what is not, and retire the application.
 
 ## Secondary consequences
 

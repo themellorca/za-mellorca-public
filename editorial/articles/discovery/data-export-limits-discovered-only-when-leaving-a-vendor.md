@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-346
 slug: data-export-limits-discovered-only-when-leaving-a-vendor
 title: Data-export limits are discovered only when leaving a vendor
-description: Incomplete exports, deletion timelines and missing contract terms turn software exits into a race. How to map, test and negotiate data export before you need it.
+description: Incomplete exports and missing contract terms turn leaving a software vendor into a race. How to map, test and negotiate data export early.
 lead: Incomplete exports, deletion timelines and missing contract terms turn software exits into a race. How to map, test and negotiate data export before you need it.
 category: SaaS & Application Portfolio Management
 published_date: 2026-10-03
@@ -15,9 +15,10 @@ budget_owner: CFO
 sources:
   - What happens to my data and access when my Microsoft 365 for business subscription ends? | https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires
   - Data Act explained - Shaping Europe’s digital future | https://digital-strategy.ec.europa.eu/en/policies/data-act-explained
+  - Export all your organization's data - Google Workspace Admin Help | https://knowledge.workspace.google.com/admin/migrate/export-all-your-organizations-data
 related:
-  - Why Software Portfolio Decisions Need Business Value, Not Only Licence Counts | /discovery/why-software-portfolio-decisions-need-business-value-not-only-licence-counts/
-  - Why Software Renewals Need a Confirmed Business Owner | /discovery/why-software-renewals-need-a-confirmed-business-owner/
+  - Why software portfolio decisions need business value, not only licence counts | /discovery/why-software-portfolio-decisions-need-business-value-not-only-licence-counts/
+  - Why software renewals need a confirmed business owner | /discovery/why-software-renewals-need-a-confirmed-business-owner/
   - Business capabilities that depend on tools nobody supports | /discovery/business-capabilities-depend-on-tools-with-no-support-owner/
 summary: Incomplete exports, deletion timelines and missing contract terms turn software exits into a race. How to map, test and negotiate data export before you need it.
 layout: plain
@@ -30,15 +31,17 @@ Every SaaS platform holds data the business depends on: customer records, transa
 
 The symptoms appear at the worst moment. A business tries to replace its CRM, job-management tool or practice-management system and discovers that exports exclude attachments, custom fields or history; that related records come out as separate files with no way to link them; that the API limits how fast data can be pulled; or that access ends shortly after the subscription does. The cost and risk of leaving suddenly look higher than the cost of staying, even when staying is the wrong choice.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer is often a finance director or operations manager under pressure to cut software costs, or an IT lead planning a migration. Searches sound like "how to export all data from [platform]", "SaaS data export before cancelling", "vendor lock-in data", "what happens to my data when the subscription ends" and "data portability clause in software contract".
+The person asking is often a finance director or operations manager under pressure to cut software costs, or an IT lead planning a migration. The questions sound like "how do we export all our data from [platform]?", "how do we get our data out before cancelling?", "are we locked in?", "what happens to our data when the subscription ends?" and "does the contract include a data portability clause?"
 
 What they actually need is the ability to leave any vendor with complete, usable data, on a timetable the business controls, and to know that before they sign rather than after they decide to go.
 
 ## Evidence and system mechanism
 
-Vendor documentation shows how quickly time runs out. Microsoft's guidance for Microsoft 365 business subscriptions describes a sequence of statuses after a subscription ends, from Active to Expired to Disabled to Deleted. For most offers the Expired status lasts 30 days and Disabled 90 days; during Disabled, users lose access and only administrators can access and back up data. After cancellation, data left behind might be deleted after 90 days and will be deleted no later than 180 days. Microsoft also warns that explicitly deleting a subscription skips these stages and immediately deletes SharePoint and OneDrive content, and that buying a new subscription does not restore data from a deleted one ([Microsoft Learn: What happens to my data when my subscription ends](https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires)). That is a relatively generous, well-documented process. Many smaller platforms publish far less.
+Vendor documentation shows how quickly time runs out. Microsoft's guidance for Microsoft 365 business subscriptions describes a sequence of statuses after a subscription ends, from Active to Expired to Disabled to Deleted. For most offers the Expired status lasts 30 days and Disabled 90 days; during Disabled, users lose access and only administrators can access and back up data. After cancellation, data left behind might be deleted after 90 days and will be deleted no later than 180 days.
+
+Microsoft also warns that explicitly deleting a subscription skips these stages and immediately deletes SharePoint and OneDrive content, and that buying a new subscription does not restore data from a deleted one ([Microsoft Learn: What happens to my data when my subscription ends](https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires)). That is a relatively generous, well-documented process. Many smaller platforms publish far less. Google's guidance on [exporting all of an organisation's data from Google Workspace](https://knowledge.workspace.google.com/admin/migrate/export-all-your-organizations-data) says the export is available no earlier than 48 hours after it starts, typically takes 72 hours but can take up to 14 days, and is deleted from a Google-provided bucket 60 days after it begins.
 
 Regulation is starting to address the problem, though mostly outside South Africa. The European Commission's explanation of the EU Data Act says providers of platform and software as a service must make open interfaces available and, at minimum, export data in a commonly used, machine-readable format; it also says that from 12 January 2027 providers will not be able to charge customers for switching operations or data egress ([European Commission: Data Act explained](https://digital-strategy.ec.europa.eu/en/policies/data-act-explained)). South African businesses buying from global vendors may benefit indirectly, but should not assume the same protections apply to their contracts.
 

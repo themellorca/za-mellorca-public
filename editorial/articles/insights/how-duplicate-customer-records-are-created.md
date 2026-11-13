@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-061
 slug: how-duplicate-customer-records-are-created
-title: How Duplicate Customer Records Are Created
-description: Duplicate customers are rarely just typing errors. They come from changing emails, rebrands, returning buyers and unclear customer structures. How to recognise and prevent them.
+title: How duplicate customer records are created
+description: Duplicate customers are rarely just typing errors. They come from changing emails, rebrands, returning buyers and unclear structures. How to prevent them.
 lead: Duplicate customers are rarely just typing errors. They come from changing emails, rebrands, returning buyers and unclear customer structures. How to recognise and prevent them.
 category: Data Ownership
 published_date: 2026-10-06
@@ -14,9 +14,10 @@ sources:
   - Merge records | https://knowledge.hubspot.com/records/merge-records
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
 related:
-  - What Happens When Two Systems Both Think They Own the Same Data | /insights/what-happens-when-two-systems-both-think-they-own-the-same-data/
-  - Poor Data Is an Operations Problem, Not Just a Data Problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
+  - What happens when two systems both think they own the same data | /insights/what-happens-when-two-systems-both-think-they-own-the-same-data/
+  - Poor data is an operations problem, not just a data problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
   - How to decide what should be the system of record | /insights/how-to-decide-what-should-be-the-system-of-record/
+  - Account hierarchies do not reflect real customer relationships | /discovery/why-crm-account-hierarchies-miss-how-customers-are-really-connected/
 summary: Duplicate customers are rarely just typing errors. They come from changing emails, rebrands, returning buyers and unclear customer structures. How to recognise and prevent them.
 layout: plain
 ---
@@ -46,7 +47,7 @@ When each level has its own place, many apparent duplicates turn out to be missi
 
 ### The customer's contact details change
 
-Many systems recognise people by email address. HubSpot's documentation, for example, explains that it deduplicates contacts automatically by matching the email address of a new contact against existing contacts. That works well until the customer uses a different address. A buyer who once enquired from a personal address and later orders from a work address is, to the system, two people. A buyer who moves to a new employer and keeps buying from you is either correctly linked to a new company or, more often, recorded again from scratch.
+Many systems recognise people by email address. [HubSpot's documentation](https://knowledge.hubspot.com/records/deduplication-of-records), for example, explains that it deduplicates contacts automatically by matching the email address of a new contact against existing contacts. That works well until the customer uses a different address. A buyer who once enquired from a personal address and later orders from a work address is, to the system, two people. A buyer who moves to a new employer and keeps buying from you is either correctly linked to a new company or, more often, recorded again from scratch.
 
 ### The business changes its name or structure
 
@@ -62,7 +63,7 @@ A walk-in customer, an online buyer and a marketplace customer may all be the sa
 
 ### Records are loaded without an identifier
 
-Bulk loads are a particular risk. HubSpot's guidance states that if an import does not include the email address or another unique identifier, each row is imported as a new contact. The same principle applies in most systems: a list of names without a stable key cannot be matched, so it is added.
+Bulk loads are a particular risk. HubSpot's guidance [states that if an import does not include](https://knowledge.hubspot.com/records/deduplication-of-records) the email address or another unique identifier, each row is imported as a new contact. The same principle applies in most systems: a list of names without a stable key cannot be matched, so it is added.
 
 ## Why matching rules alone do not solve it
 
@@ -72,11 +73,11 @@ The strongest protection is a dependable identifier captured at the right moment
 
 ## Why duplicates matter beyond tidiness
 
-Duplicate customers split history, credit exposure and service records, and they cause customers to repeat themselves, a cost described in [customers repeating information because records are disconnected](/impact/pain-of-customers-repeating-information-disconnected-records/). They also carry a compliance dimension. Section 16 of South Africa's Protection of Personal Information Act requires a responsible party to take reasonably practicable steps to ensure that personal information is complete, accurate, not misleading and updated where necessary. When a person's details are split across several records, updating one leaves outdated information in the others.
+Duplicate customers split history, credit exposure and service records, and they cause customers to repeat themselves, a cost described in [customers repeating information because records are disconnected](/impact/pain-of-customers-repeating-information-disconnected-records/). They also carry a compliance dimension. [Section 16 of South Africa's Protection of Personal Information Act](https://popia.co.za/section-16-quality-of-information/) requires a responsible party to take reasonably practicable steps to ensure that personal information is complete, accurate, not misleading and updated where necessary. When a person's details are split across several records, updating one leaves outdated information in the others.
 
 ## Be careful how you merge
 
-Merging is the usual remedy, and it should be done deliberately. HubSpot's documentation notes that when records are merged, the primary record's property values are generally kept, timeline activity from both records is combined, and records cannot be unmerged afterwards. Merging two records that are really different customers is harder to fix than leaving a duplicate in place. A short review step for merges, especially where balances or contracts are involved, is worth the time.
+Merging is the usual remedy, and it should be done deliberately. [HubSpot's documentation](https://knowledge.hubspot.com/records/merge-records) notes that when records are merged, the primary record's property values are generally kept, timeline activity from both records is combined, and records cannot be unmerged afterwards. Merging two records that are really different customers is harder to fix than leaving a duplicate in place. A short review step for merges, especially where balances or contracts are involved, is worth the time.
 
 ## Prevention at a glance
 

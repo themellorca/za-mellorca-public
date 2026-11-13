@@ -20,10 +20,12 @@ side_title: Topics
 sources:
   - Shared mailboxes | https://learn.microsoft.com/en-au/Exchange/collaboration/shared-mailboxes/shared-mailboxes
   - Create a shared mailbox - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-a-shared-mailbox
+  - Queues in Dynamics 365 Customer Service - Microsoft Learn | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/queues-omnichannel
 related:
   - Why approval processes become bottlenecks | /insights/why-approval-processes-become-bottlenecks/
   - What management cannot see usually becomes expensive | /insights/what-management-cannot-see-usually-becomes-expensive/
   - How to find the manual work nobody is measuring | /insights/how-to-find-the-manual-work-nobody-is-measuring/
+  - How to stop internal requests from disappearing | /insights/why-internal-requests-vanish-and-how-to-keep-them-visible/
 ---
 Shared inboxes are often introduced for a sensible reason. Customers, suppliers or internal teams should not need to know which individual is available, so work arrives at an address such as support@, finance@ or operations@. The problem starts when the mailbox also becomes the queue, assignment tool, case history, reminder system and management dashboard.
 
@@ -33,7 +35,7 @@ Email is good at moving messages. It is much less reliable at representing the s
 
 ## Access is not assignment
 
-Microsoft Exchange shared mailboxes support permissions such as Full Access, Send As and Send on Behalf. Those controls determine who can open or send from the mailbox. Microsoft describes the purpose plainly: a generic address that customers or employees can use, monitored and answered by several people. Replies sent with Send As appear to come from the shared mailbox rather than the individual.
+Microsoft Exchange [shared mailboxes](https://learn.microsoft.com/en-au/Exchange/collaboration/shared-mailboxes/shared-mailboxes) support permissions such as Full Access, Send As and Send on Behalf. Those controls determine who can open or send from the mailbox. Microsoft describes the purpose plainly: a generic address that customers or employees can use, monitored and answered by several people. Replies sent with Send As appear to come from the [shared mailbox](https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-a-shared-mailbox) rather than the individual.
 
 That last detail is useful for the sender's experience and unhelpful for accountability. The customer sees one consistent identity; the team loses an obvious record of who replied and who now owns the conversation. None of the mailbox permissions, by themselves, answer which person owns a request, whether somebody is working on it, what deadline applies or whether it has been resolved.
 
@@ -74,7 +76,7 @@ Ask what the work needs after arrival. If requests require assignment, service t
 
 A stronger design lets email remain familiar to the sender while converting the message into a controlled work item. The work item receives a unique identity, owner, status, priority and relevant business context. Replies can still use email, but operational state no longer depends on who last opened the message. A reply to an old thread reopens the item rather than vanishing into a folder.
 
-This can be implemented in different ways: a service platform, CRM case, workflow system, task database or carefully designed automation. The tool matters less than the state model. At minimum, the model needs a small set of agreed statuses (for example new, assigned, waiting on someone else, resolved), a rule for who assigns work and when, a definition of overdue, and a route for escalation.
+This can be implemented in different ways: a service platform, CRM case, workflow system, task database or carefully designed automation. The tool matters less than the state model. At minimum, the model needs a small set of agreed statuses (for example new, assigned, waiting on someone else, resolved), a rule for who assigns work and when, a definition of overdue, and a route for escalation. As one example, Microsoft's [Dynamics 365 queue documentation](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/queues-omnichannel) describes assignment methods, queue priorities and fallback queues that catch work which matches no routing rule.
 
 ## Trade-offs to weigh
 

@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-075
 slug: software-environment-grew-by-accident-complexity-duplication-lost-productivity-cost
-title: Software That Grew by Accident: The Price of Complexity Nobody Designed
+title: Software that grew by accident: The price of complexity nobody designed
 description: When systems pile up one quick fix at a time, duplication and confusion follow. See how to estimate the cost and draw the picture that lets you simplify safely.
 lead: When systems pile up one quick fix at a time, duplication and confusion follow. See how to estimate the cost and draw the picture that lets you simplify safely.
 category: Digital Infrastructure
@@ -17,9 +17,9 @@ sources:
   - Microsoft 365 Admin Center Usage Reports Overview - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports
   - Monitor usage & security with reports - Reports & monitoring - Google Workspace Help | https://knowledge.workspace.google.com/admin/reports/monitor-usage-and-security-with-reports
 related:
-  - Business Data Locked in Apps Nobody Understands: The Cost of Vendor Dependency | /impact/business-data-locked-in-applications-nobody-understands-export-vendor-dependency-risk/
-  - The Free Tool That Became Expensive: Choosing Software on Price Alone | /impact/free-tools-outgrown-hidden-limits-switching-cost-choosing-by-price/
-  - Software Bought Without Approval: The Financial and Security Cost of Shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
+  - Business data locked in apps nobody understands: The cost of vendor dependency | /impact/business-data-locked-in-applications-nobody-understands-export-vendor-dependency-risk/
+  - The free tool that became expensive: Choosing software on price alone | /impact/free-tools-outgrown-hidden-limits-switching-cost-choosing-by-price/
+  - Software bought without approval: The financial and security cost of shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
 summary: When systems pile up one quick fix at a time, duplication and confusion follow. See how to estimate the cost and draw the picture that lets you simplify safely.
 layout: plain
 ---
@@ -51,7 +51,7 @@ This article is about the cost of the tangle itself: the duplication, the comple
 
 ## What the complexity costs
 
-1. **Duplicate spending.** Overlapping tools and unused seats. Usage reports, such as those Microsoft describes for its 365 admin centre, can show who uses a service heavily and who barely uses it, which is often the first evidence of waste.
+1. **Duplicate spending.** Overlapping tools and unused seats. Usage reports, such as [those Microsoft describes for its 365 admin centre](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports), can show who uses a service heavily and who barely uses it, which is often the first evidence of waste.
 2. **Productivity loss.** Time spent switching between tools, searching for information and working out which version is correct.
 3. **Training and onboarding drag.** The more tools and exceptions, the longer it takes a new person to become effective.
 4. **Change cost.** Everything takes longer to alter because nobody is certain what the change will affect.
@@ -85,7 +85,7 @@ The tangle becomes urgent when:
 
 Designed does not mean new, large or expensive. It means that someone has decided, on paper, what the business needs its systems to do, which tool does each job, where each kind of record lives, and how information moves between them. Decisions to add, keep or retire a system are made against that picture. Fewer tools do more of the work; each has an owner; and people can say what happens when something changes.
 
-Microsoft's Cloud Adoption Framework planning guidance offers a useful vocabulary even for small businesses. It advises discovering the existing inventory of workloads, gathering business details for each, including ownership, business function, criticality and data sensitivity, and prioritising them by business criticality and dependencies. Among its migration strategies it lists retiring redundant workloads, retaining stable ones and replacing others with software-as-a-service alternatives. Those categories translate neatly into questions any manager can ask of any system: keep it, replace it, or switch it off?
+[Microsoft's Cloud Adoption Framework planning guidance](https://learn.microsoft.com/en-us/training/modules/cloud-adoption-framework/3-plan) offers a useful vocabulary even for small businesses. It advises discovering the existing inventory of workloads, gathering business details for each, including ownership, business function, criticality and data sensitivity, and prioritising them by business criticality and dependencies. Among its migration strategies it lists retiring redundant workloads, retaining stable ones and replacing others with software-as-a-service alternatives. Those categories translate neatly into questions any manager can ask of any system: keep it, replace it, or switch it off?
 
 ## Practical steps
 

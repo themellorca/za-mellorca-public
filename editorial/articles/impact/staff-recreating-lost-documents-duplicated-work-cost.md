@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-004
 slug: staff-recreating-lost-documents-duplicated-work-cost
-title: Recreating Documents Nobody Can Find: The Cost of Duplicated Work
+title: Recreating documents nobody can find: The cost of duplicated work
 description: When staff cannot find the original, they rebuild it. That duplicates labour, loses corrections and creates conflicting versions that erode margin.
 lead: When staff cannot find the original, they rebuild it. That duplicates labour, loses corrections and creates conflicting versions that erode margin.
 category: Digital Operations
@@ -15,10 +15,11 @@ primary_cost_mechanism: Duplicated labour, error and rework cost, and margin ero
 sources:
   - Versioning in SharePoint - Microsoft 365 Community Content | https://pnp.github.io/community-docs/articles/versioning-basics-best-practices.html
   - File Naming Conventions | https://datamanagement.hms.harvard.edu/plan-design/file-naming-conventions
+  - Enable and configure versioning for a list or library - Microsoft Support | https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37
 related:
-  - "I Thought You Were Doing It": The Labour Cost of Unclear Responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
-  - The Cost of Work Waiting for Approval | /impact/approval-queues-blocked-capacity-cost/
-  - Two Departments, Same Work: The Payroll Cost of Duplicated Effort | /impact/departments-duplicating-same-work-payroll-cost/
+  - "I thought you were doing it": The labour cost of unclear responsibilities | /impact/unclear-responsibilities-duplicated-dropped-work-cost/
+  - The cost of work waiting for approval | /impact/approval-queues-blocked-capacity-cost/
+  - Two departments, same work: The payroll cost of duplicated effort | /impact/departments-duplicating-same-work-payroll-cost/
 summary: When staff cannot find the original, they rebuild it. That duplicates labour, loses corrections and creates conflicting versions that erode margin.
 layout: plain
 ---
@@ -101,7 +102,7 @@ The goal is not a perfect document management system. It is that the important d
 
 ### Use versions, not copies
 
-Modern document platforms keep a version history for each file. Microsoft's community guidance on SharePoint versioning describes it as a safety net: each change is recorded with who made it and when, and earlier versions can be restored without keeping separate copies. That single capability removes much of the reason people save "v2" files. It only helps, however, if staff edit the one shared file instead of downloading and re-uploading copies.
+Modern document platforms keep a version history for each file. Microsoft's community guidance on SharePoint versioning describes it as a safety net: each change is recorded with who made it and when, and earlier versions can be restored without keeping separate copies. That single capability removes much of the reason people save "v2" files. It only helps, however, if staff edit the one shared file instead of downloading and re-uploading copies. Microsoft's guidance on [versioning in lists and libraries](https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37) notes that it lets you view and recover previous versions from an item's history.
 
 ### Agree a naming convention
 

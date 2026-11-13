@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-155
 slug: when-cash-collection-depends-on-someone-remembering-to-follow-up
-title: When Cash Collection Depends on Someone Remembering to Follow Up
+title: When cash collection depends on someone remembering to follow up
 description: If overdue invoice follow-up depends on memory and manual chasing, accounts receivable may be operating without a controlled collection workflow.
 lead: When overdue accounts move only because a finance team member remembers who needs chasing next, cash collection is being controlled by personal memory instead of workflow.
 category: Finance, Billing & Cash Flow
@@ -23,10 +23,11 @@ commercial_value_dimensions: Cash conversion, Revenue leakage, Finance capacity,
 sources:
   - Easy Online Invoicing Software | https://www.xero.com/za/accounting-software/send-invoices/
   - Invoice App For Small Business | https://www.xero.com/za/explore/invoice-app/
+  - How to reduce missed payments with automatic billing - Xero | https://www.xero.com/us/guides/how-to-reduce-payment-delays/
 related:
-  - When Finance Teams Become Data Clean-Up Teams | /patterns/when-finance-teams-become-data-clean-up-teams/
-  - The Signs That Your Business Needs an Operating System, Not Another App | /patterns/signs-your-business-needs-an-operating-system-not-another-app/
-  - When Service Quality Depends on Who Picks Up the Ticket | /patterns/when-service-quality-depends-on-who-picks-up-the-ticket/
+  - When finance teams become data clean-up teams | /patterns/when-finance-teams-become-data-clean-up-teams/
+  - The signs that your business needs an operating system, not another app | /patterns/signs-your-business-needs-an-operating-system-not-another-app/
+  - When service quality depends on who picks up the ticket | /patterns/when-service-quality-depends-on-who-picks-up-the-ticket/
 summary: Accounts receivable follow-up should not depend on private memory. When due dates and statuses are known, routine reminders and escalation can be designed as a controlled workflow.
 ---
 ## Observable condition
@@ -49,7 +50,9 @@ This is an **accounts-receivable follow-up workflow problem**. The invoice exist
 
 Typical causes include disconnected invoicing and communication tools, no reminder rules, unclear exception ownership, and manual tracking of promises to pay. Xero’s invoicing documentation, for example, includes configurable automatic invoice reminders and visibility into reminder status. The broader operating principle is that predictable follow-up can be systematised while exceptions remain with finance staff.
 
-Looking more closely at that example is useful because it shows how ordinary the capability has become. Xero describes letting a business choose how often payment reminders are emailed, and send them before or after the due date. It describes seeing the status of pending and paid invoices at a glance, receiving notifications when customers view or pay an invoice, and seeing when reminders were sent. Other accounting platforms offer comparable features. The point is not the product; it is that the information and mechanisms for consistent follow-up are frequently already present.
+Looking more closely at that example is useful because it shows how ordinary the capability has become. Xero describes letting a business choose how often payment reminders are emailed, and send them before or after the due date. It describes seeing the status of pending and paid invoices at a glance, receiving notifications when customers view or pay an invoice, and seeing when reminders were sent.
+
+Other accounting platforms offer comparable features. The point is not the product; it is that the information and mechanisms for consistent follow-up are frequently already present. Xero's guide to [reducing missed payments](https://www.xero.com/us/guides/how-to-reduce-payment-delays/) suggests a sequence of a reminder three days before the due date, another on the due date and periodic follow-ups after that, while noting that automation should not fully replace personal contact with consistently late clients.
 
 So why does memory still run the process? Usually for one of four reasons:
 

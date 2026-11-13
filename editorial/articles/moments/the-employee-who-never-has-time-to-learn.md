@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000296
 slug: the-employee-who-never-has-time-to-learn
-title: The Employee Who Never Has Time to Learn
-description: When manual admin fills every hour, learning is always postponed to a quieter month that never comes. What changes when recovered time is deliberately given to growth.
+title: The employee who never has time to learn
+description: When manual admin fills every hour, learning waits for a quieter month that never comes. What changes when recovered time is deliberately given to growth.
 lead: When manual admin fills every hour, learning is always postponed to a quieter month that never comes. What changes when recovered time is deliberately given to growth.
 category: Learning & Growth
 published_date: 2026-10-03
@@ -17,10 +17,12 @@ epistemic_state: INFERRED: lack of time as a barrier to learning and development
 sources:
   - 2025 Workplace Learning Report - LinkedIn Learning | https://business.linkedin.com/learn/resources/workplace-learning-report
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
+  - The Future of Jobs Report 2025 - World Economic Forum | https://www.weforum.org/publications/the-future-of-jobs-report-2025/
 related:
-  - The Report Someone Rebuilds by Hand Every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
-  - When Sunday Evening Becomes Monday Morning | /moments/when-sunday-evening-becomes-monday-morning/
-  - The Inbox That Follows You Home | /moments/the-inbox-that-follows-you-home/
+  - The report someone rebuilds by hand every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - When Sunday evening becomes Monday morning | /moments/when-sunday-evening-becomes-monday-morning/
+  - The inbox that follows you home | /moments/the-inbox-that-follows-you-home/
+  - When curiosity is squeezed out by busywork | /moments/when-curiosity-is-squeezed-out-by-busywork/
 summary: When manual admin fills every hour, learning is always postponed to a quieter month that never comes. What changes when recovered time is deliberately given to growth.
 layout: plain
 ---
@@ -32,11 +34,11 @@ In many businesses, things do not quieten down. Month-end follows month-end. The
 
 ## What the research says about time and learning
 
-LinkedIn's 2025 Workplace Learning Report asked about the barriers that stand in the way of career development. Lack of time and resources came out as the most significant pain point. Respondents said that managers lacked support (50%), employees lacked support (45%) and talent teams lacked support (33%). By contrast, only 11% cited leadership not valuing career development as a barrier.
+LinkedIn's 2025 [Workplace Learning Report](https://business.linkedin.com/learn/resources/workplace-learning-report) asked about the barriers that stand in the way of career development. Lack of time and resources came out as the most significant pain point. Respondents said that managers lacked support (50%), employees lacked support (45%) and talent teams lacked support (33%). By contrast, only 11% cited leadership not valuing career development as a barrier.
 
 That contrast is telling. The problem, in this data, is not mainly that organisations do not care about growth. It is that the time and support to act on it are not there. The same report found that only 15% of employees said their manager had helped them build a career plan in the previous six months, down five percentage points on the year before.
 
-Microsoft's Work Trend Index adds a related finding. In its survey, 64% of people said they struggled to have enough time and energy to do their job. Those who struggled were 3.5 times more likely to also say they struggled with innovation and strategic thinking. Learning is not the same as strategic thinking, but both depend on the same scarce resource: time not consumed by the immediate.
+Microsoft's [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) adds a related finding. In its survey, 64% of people said they struggled to have enough time and energy to do their job. Those who struggled were 3.5 times more likely to also say they struggled with innovation and strategic thinking. Learning is not the same as strategic thinking, but both depend on the same scarce resource: time not consumed by the immediate. The World Economic Forum's [Future of Jobs Report 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/) estimates that 39% of existing skill sets will be transformed or become outdated between 2025 and 2030, and that 59 of every 100 workers will need training by 2030.
 
 These are global surveys run by technology companies, and they should be read as such. They do not measure South African finance teams. But they agree on a pattern that many people will recognise: when time runs short, the forward-looking work goes first.
 

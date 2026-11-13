@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-179
 slug: why-access-equipment-and-accounts-are-still-set-up-by-hand
-title: Why Access, Equipment and Accounts Are Still Set Up Manually
-description: New starters wait while accounts, permissions and laptops are arranged one request at a time. Here is why provisioning stays manual and how to connect it to a single trigger.
+title: Why access, equipment and accounts are still set up manually
+description: New starters wait while accounts, permissions and laptops are arranged one request at a time. Connect provisioning to a single trigger.
 lead: New starters wait while accounts, permissions and laptops are arranged one request at a time. Here is why provisioning stays manual and how to connect it to a single trigger.
 category: Operational Friction & Manual Work
 published_date: 2026-10-09
@@ -18,9 +18,10 @@ sources:
   - Overview of Windows Autopilot | https://learn.microsoft.com/en-us/autopilot/windows-autopilot
   - least privilege - Glossary - CSRC | https://csrc.nist.gov/glossary/term/least_privilege
 related:
-  - Why New Clients Wait While Internal Teams Coordinate | /patterns/why-new-clients-wait-while-internal-teams-coordinate/
-  - When APIs Exist but the Business Still Works Manually | /patterns/when-apis-exist-but-the-business-still-works-manually/
-  - The Business Process That Only Works Because Someone Remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
+  - Why new clients wait while internal teams coordinate | /patterns/why-new-clients-wait-while-internal-teams-coordinate/
+  - When APIs exist but the business still works manually | /patterns/when-apis-exist-but-the-business-still-works-manually/
+  - The business process that only works because someone remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
+  - Why every new hire starts with a week of waiting | /moments/why-the-first-week-of-a-new-job-is-spent-waiting/
 summary: New starters wait while accounts, permissions and laptops are arranged one request at a time. Here is why provisioning stays manual and how to connect it to a single trigger.
 layout: plain
 ---
@@ -52,7 +53,7 @@ Related published material looks at the same ground from other angles. The Disco
 - **Equipment has no register.** Devices are bought on a credit card or through a reseller and delivered to whoever is in the office. The asset list, if it exists, is updated when someone remembers.
 - **Nobody owns the end-to-end result.** HR owns the contract, IT or its stand-in owns accounts, and the line manager owns the outcome of the first week without having the means to ensure it.
 
-Microsoft's documentation on lifecycle workflows in Microsoft Entra describes the idea in plain terms: joiner, mover and leaver events can trigger tasks automatically, because doing them by hand leads to delay and inconsistency. The same documentation is a reminder that the tooling to do this is already available to many businesses that pay for the relevant licences, and that the real gap is usually in deciding what should happen at each event.
+Microsoft's documentation on [lifecycle workflows](https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows) in Microsoft Entra describes the idea in plain terms: joiner, mover and leaver events can trigger tasks automatically, because doing them by hand leads to delay and inconsistency. The same documentation is a reminder that the tooling to do this is already available to many businesses that pay for the relevant licences, and that the real gap is usually in deciding what should happen at each event.
 
 ## Commercial impact
 
@@ -60,7 +61,7 @@ The commercial value at stake is productive time, security, asset control and th
 
 The simplest cost is paid-for time that produces nothing. If a new starter on R35,000 a month is unable to work properly for three days, the business has spent roughly R5,000 for very little output, plus the time of the manager and colleagues who chase and improvise. Multiplied across a year of hiring, the figure is not small, and it falls on the people the business has just spent money to recruit.
 
-Security exposure is the less visible cost. The principle of least privilege, as defined by NIST, is that users should have only the access needed for their tasks. Manual provisioning drifts away from that principle in both directions: new starters are given broad access to save time, and role changes add permissions without removing old ones. Under POPIA, a responsible party has to secure the personal information it holds, and being unable to show who can reach customer or employee records is an uncomfortable position if an incident occurs. The Pattern [when offboarding leaves digital access behind](/patterns/when-offboarding-leaves-digital-access-behind/) shows where the same drift ends.
+Security exposure is the less visible cost. The principle of [least privilege](https://csrc.nist.gov/glossary/term/least_privilege), as defined by NIST, is that users should have only the access needed for their tasks. Manual provisioning drifts away from that principle in both directions: new starters are given broad access to save time, and role changes add permissions without removing old ones. Under POPIA, a responsible party has to secure the personal information it holds, and being unable to show who can reach customer or employee records is an uncomfortable position if an incident occurs. The Pattern [when offboarding leaves digital access behind](/patterns/when-offboarding-leaves-digital-access-behind/) shows where the same drift ends.
 
 ## Common misidentification
 
@@ -68,7 +69,7 @@ The most common misreading is that onboarding is slow because the people involve
 
 ## Possibility
 
-In a better state, hiring is recorded once, in one place, and that record sets everything else in motion. The manager selects the role, and the role defines a standard bundle: which accounts, which groups, which licences, which device. Requests for equipment and access go out automatically with the start date, and the business can see on a single list what has been done and what is outstanding. For devices, tools such as Windows Autopilot allow a laptop to be configured for a user from the supplier without being handled by hand, which reduces a half-day task to a delivery.
+In a better state, hiring is recorded once, in one place, and that record sets everything else in motion. The manager selects the role, and the role defines a standard bundle: which accounts, which groups, which licences, which device. Requests for equipment and access go out automatically with the start date, and the business can see on a single list what has been done and what is outstanding. For devices, tools such as [Windows Autopilot](https://learn.microsoft.com/en-us/autopilot/windows-autopilot) allow a laptop to be configured for a user from the supplier without being handled by hand, which reduces a half-day task to a delivery.
 
 On the day someone changes role or leaves, the same record triggers the removal of access that no longer applies. The review of who can reach what becomes a short report instead of an investigation. New starters are productive on the morning they arrive, and the business can show an auditor, a client or the Information Regulator how access is controlled.
 

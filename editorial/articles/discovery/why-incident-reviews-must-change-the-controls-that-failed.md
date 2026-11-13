@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-374
 slug: why-incident-reviews-must-change-the-controls-that-failed
 title: Incident lessons do not update preventive controls
-description: Incident reviews often end in a report while the procedures and settings stay as they were. How to turn lessons into dated, verified control changes so the same incident does not return.
+description: Incident reviews often end in a report while procedures and settings stay as they were. How to turn lessons into dated, verified control changes.
 lead: Incident reviews often end in a report while the procedures and settings stay as they were. How to turn lessons into dated, verified control changes so the same incident does not return.
 category: Security & Compliance Operations
 published_date: 2026-10-09
@@ -15,6 +15,7 @@ budget_owner: Financial director or managing director
 sources:
   - SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile - CSRC | https://csrc.nist.gov/pubs/sp/800/61/r3/final
   - Google SRE - Blameless Postmortem for System Resilience | https://sre.google/sre-book/postmortem-culture/
+  - Incident management - 10 Steps to Cyber Security - NCSC | https://www.ncsc.gov.uk/collection/10-steps/incident-management
 related:
   - Security controls are duplicated across teams | /discovery/why-the-same-security-control-gets-built-and-evidenced-by-several-teams/
   - Control testing schedules are maintained in personal calendars | /discovery/why-control-testing-schedules-should-not-live-in-personal-calendars/
@@ -30,7 +31,7 @@ This article looks at that operating condition: incident lessons that do not upd
 
 An incident review produces insight, but insight is not a control. A control is something that runs without relying on anyone remembering: a changed setting, a revised approval rule, a new check in a workflow. If the output of a review is a document or a conversation, the business has recorded history rather than changed its defences. The next incident then arrives through the same gap, and the review repeats.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
 The managing director or financial director wants to stop paying for the same incident twice. They want evidence that when something goes wrong, the business ends up measurably safer, and that this can be shown to an insurer, regulator or large customer who asks what changed afterwards. The IT lead wants reviews to lead to approved work, not to a pile of recommendations nobody has the authority to implement.
 
@@ -43,6 +44,8 @@ NIST's [incident response recommendations](https://csrc.nist.gov/pubs/sp/800/61/
 ### Postmortems need tracked follow-up
 
 Google's chapter on [postmortem culture](https://sre.google/sre-book/postmortem-culture/) describes a review process in which action items are recorded, assigned and tracked, and in which completed postmortems are kept in a repository so others can learn from them. The emphasis on tracked actions is the relevant point. A lesson without an owner and a due date is an observation.
+
+The UK National Cyber Security Centre says the same in plainer terms. Its [incident management guidance](https://www.ncsc.gov.uk/collection/10-steps/incident-management) advises updating response plans after every incident and feeding what was learned into logging and monitoring.
 
 ### Handling frameworks assume a lessons-learned step with consequences
 

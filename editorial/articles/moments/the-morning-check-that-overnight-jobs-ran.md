@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000020
 slug: the-morning-check-that-overnight-jobs-ran
-title: The Morning Routine of Checking Whether Overnight Jobs Ran
-description: Before coffee, before email, someone opens five screens to confirm that last night's imports, syncs and exports actually happened. What that daily ritual of verification takes, and what changes when systems report their own silence.
+title: The morning routine of checking whether overnight jobs ran
+description: Before coffee, someone opens five screens to check last night's imports and syncs ran. What that check takes, and what changes when systems report silence.
 lead: Before coffee, before email, someone opens five screens to confirm that last night's imports, syncs and exports actually happened. What that daily ritual of verification takes, and what changes when systems report their own silence.
 category: Time and Attention
 published_date: 2026-10-04
@@ -19,9 +19,10 @@ sources:
   - Healthchecks.io Documentation - Healthchecks.io | https://healthchecks.io/docs/
   - Notify an Operator of Job Status | https://learn.microsoft.com/en-us/ssms/agent/notify-an-operator-of-job-status
 related:
-  - Ten Open Tabs and Five Logins: What the Morning Sign-In Takes | /moments/ten-open-tabs-and-five-logins/
-  - Why Waiting for Information Feels Like Working | /moments/why-waiting-for-information-feels-like-working/
-  - The Report Someone Rebuilds by Hand Every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - Ten open tabs and five logins: What the morning sign-in takes | /moments/ten-open-tabs-and-five-logins/
+  - Why waiting for information feels like working | /moments/why-waiting-for-information-feels-like-working/
+  - The report someone rebuilds by hand every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - The sleep lost over a system nobody else understands | /moments/the-sleep-lost-over-a-system-only-one-person-understands/
 summary: Before coffee, before email, someone opens five screens to confirm that last night's imports, syncs and exports actually happened. What that daily ritual of verification takes, and what changes when systems report their own silence.
 layout: plain
 ---
@@ -41,7 +42,7 @@ The person who checks each morning is the business's answer to that weakness. Th
 
 ## Why a person ends up doing the checking
 
-Experienced operations teams have argued for years that this should not be a human job. Google's site reliability engineering book, in its chapter on monitoring, describes how its teams carefully avoid any situation that requires someone to stare at a screen to watch for problems. Monitoring should raise an alert when something needs attention, rather than relying on a person to look.
+Experienced operations teams have argued for years that this should not be a human job. [Google's site reliability engineering book, in its chapter on monitoring,](https://sre.google/sre-book/monitoring-distributed-systems/) describes how its teams carefully avoid any situation that requires someone to stare at a screen to watch for problems. Monitoring should raise an alert when something needs attention, rather than relying on a person to look.
 
 The same chapter makes another useful point: alerts should be actionable, and email alerts tend to be of limited value because they are easily lost in noise. That explains part of the morning ritual. Even businesses with some alerting often send it to an inbox, where a failure message sits among newsletters and receipts. The person learns that the inbox cannot be trusted to tell them, so they check the systems directly.
 
@@ -69,8 +70,8 @@ Mellorca has written about related situations: the evening version in [the notif
 
 ## What could realistically change
 
-1. **Monitor for absence, not only for errors.** Services such as Healthchecks.io work on a simple principle described in their documentation: a scheduled job sends a signal each time it runs, the service stays silent as long as signals arrive on time, and it raises an alert as soon as one does not. A grace period allows for jobs that run slightly late. The approach catches jobs that never started, which error messages cannot.
-2. **Use the notification settings that already exist.** Many tools can report on their own jobs. Microsoft's documentation for SQL Server Agent, for example, describes notifying a named operator when a job succeeds, fails or completes. The setting is often available and unused.
+1. **Monitor for absence, not only for errors.** Services such as Healthchecks.io work on a simple principle described in [their documentation](https://healthchecks.io/docs/): a scheduled job sends a signal each time it runs, the service stays silent as long as signals arrive on time, and it raises an alert as soon as one does not. A grace period allows for jobs that run slightly late. The approach catches jobs that never started, which error messages cannot.
+2. **Use the notification settings that already exist.** Many tools can report on their own jobs. [Microsoft's documentation for SQL Server Agent](https://learn.microsoft.com/en-us/ssms/agent/notify-an-operator-of-job-status), for example, describes notifying a named operator when a job succeeds, fails or completes. The setting is often available and unused.
 3. **Send alerts somewhere they will be seen.** A failure message should go to a place reserved for things that need action, not to a general inbox.
 4. **Produce one morning summary.** Instead of five screens, a single short report listing each job and whether it ran turns a twenty-minute investigation into a glance.
 5. **Write down what good looks like.** A one-page note for each job, describing how to tell it has worked and who to call when it has not, lets a colleague cover without guessing.

@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-069
 slug: what-happens-between-reporting-periods-that-nobody-sees
-title: The Operational Blind Spots Created by Periodic Reporting
+title: The operational blind spots created by periodic reporting
 description: Period totals and averages can be accurate and still hide the weeks, days and customers where the real problem sat.
 lead: Period totals and averages can be accurate and still hide the weeks, days and customers where the real problem sat.
 category: Data & Reporting
@@ -19,9 +19,9 @@ sources:
   - Set data alerts in the Power BI service - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
   - Get started with goals in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-goals-introduction
 related:
-  - When Leadership Cannot See Bottlenecks Until Customers Complain | /patterns/why-bottlenecks-surface-as-customer-complaints-first/
-  - When KPI Tracking Becomes a Data Collection Exercise | /patterns/when-measuring-performance-means-collecting-numbers-all-month/
-  - Why Manual Reporting Creates Invisible Risk | /patterns/the-risk-inside-reports-that-are-assembled-by-hand/
+  - When leadership cannot see bottlenecks until customers complain | /patterns/why-bottlenecks-surface-as-customer-complaints-first/
+  - When KPI tracking becomes a data collection exercise | /patterns/when-measuring-performance-means-collecting-numbers-all-month/
+  - Why manual reporting creates invisible risk | /patterns/the-risk-inside-reports-that-are-assembled-by-hand/
 summary: Period totals and averages can be accurate and still hide the weeks, days and customers where the real problem sat.
 layout: plain
 ---
@@ -76,7 +76,7 @@ No percentage is claimed here. The effect depends on how volatile the business i
 
 The alternative is to complement period summaries with measures that show what is happening within the period. The Kanban Guide describes four flow measures: work in progress, throughput, work item age and cycle time. These are inherently time-based. Work item age, for example, shows how long an unfinished item has been underway, which will reveal a stuck item while it is stuck, not after it has been finished and averaged.
 
-Alerts provide the second half. Microsoft's documentation on Power BI data alerts explains that you can set a threshold on a dashboard tile and be notified when the data crosses it. It also makes clear that alerts only work on refreshed data, which is a useful lesson: an alert is only as timely as the feed behind it. Scorecards in the same product take snapshots of goal data at a maximum daily cadence and retain the last updated value for each day. That is a reminder that the sampling rate of your measurement tool sets the limit on what you can see. If the data refreshes weekly, you cannot see a two-day problem.
+Alerts provide the second half. Microsoft's documentation on [Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts) data alerts explains that you can set a threshold on a dashboard tile and be notified when the data crosses it. It also makes clear that alerts only work on refreshed data, which is a useful lesson: an alert is only as timely as the feed behind it. Scorecards in the same product take snapshots of goal data at a maximum daily cadence and retain the last updated value for each day. That is a reminder that the sampling rate of your measurement tool sets the limit on what you can see. If the data refreshes weekly, you cannot see a two-day problem.
 
 The right sampling rate depends on how quickly a problem can do damage. A cash position might need daily attention; a quarterly customer satisfaction measure may be fine at its current pace. The mistake is to apply one reporting rhythm to everything.
 

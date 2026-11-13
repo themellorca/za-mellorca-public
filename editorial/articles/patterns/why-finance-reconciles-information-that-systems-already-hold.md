@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-156
 slug: why-finance-reconciles-information-that-systems-already-hold
-title: Why Finance Reconciles Information That Systems Already Hold
-description: The facts needed to close the month are already in the business, yet finance spends days matching them by hand. The cause is how the systems were set up, not how finance works.
+title: Why finance reconciles information that systems already hold
+description: The facts needed to close the month already exist, yet finance spends days matching them by hand. The cause is how systems are set up, not finance.
 lead: The facts needed to close the month are already in the business, yet finance spends days matching them by hand. The cause is how the systems were set up, not how finance works.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-09
@@ -18,9 +18,10 @@ sources:
   - What Is Data Quality? - IBM | https://www.ibm.com/think/topics/data-quality
   - What is Microsoft Dataverse? - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
 related:
-  - When Customers Know Less Than Your Internal Systems Do | /patterns/when-customers-know-less-than-your-internal-systems-do/
-  - The Cost of Manual Consolidation Across Workbooks | /patterns/the-hidden-cost-of-combining-figures-from-many-workbooks-by-hand/
-  - When Sales Data Is Complete but the Pipeline Is Still Unreliable | /patterns/when-sales-data-is-complete-but-the-pipeline-is-still-unreliable/
+  - When customers know less than your internal systems do | /patterns/when-customers-know-less-than-your-internal-systems-do/
+  - The cost of manual consolidation across workbooks | /patterns/the-hidden-cost-of-combining-figures-from-many-workbooks-by-hand/
+  - When sales data is complete but the pipeline is still unreliable | /patterns/when-sales-data-is-complete-but-the-pipeline-is-still-unreliable/
+  - Why month-end feels like an emergency every month | /patterns/why-month-end-feels-like-an-emergency-every-month/
 summary: The facts needed to close the month are already in the business, yet finance spends days matching them by hand. The cause is how the systems were set up, not how finance works.
 layout: plain
 ---
@@ -38,7 +39,7 @@ The realisation is that reconciliation is mostly a symptom of systems that do no
 
 Reconciliation has a real, legitimate purpose: it is how a business checks that its records agree with the outside world and with each other. The problem is the volume of routine matching that precedes the genuine checking. Time that should go to examining exceptions goes into confirming thousands of matches that were never in doubt.
 
-IBM's overview of data reconciliation describes the process as comparing records from different sources to confirm that they agree, and notes that automation can handle the routine matching. The same principle applies to a business of any size: if a rule can describe a match, a system can apply it.
+[IBM's overview of data reconciliation](https://www.ibm.com/think/topics/data-reconciliation) describes the process as comparing records from different sources to confirm that they agree, and notes that automation can handle the routine matching. The same principle applies to a business of any size: if a rule can describe a match, a system can apply it.
 
 **Realisation prompt:** ask your finance team what proportion of their reconciliation time goes on items that turn out to be correct. The answer is usually most of it.
 
@@ -80,7 +81,7 @@ A third response is to replace the accounting package. A new ledger will still r
 
 In a better state, every sales order generates an invoice that carries the order reference. Customers are given a unique payment reference per invoice or per account, printed on the invoice. Bank feeds import automatically, and rules match receipts to invoices on those references. The routine majority of items are matched without human touch, and the team sees only a short list of exceptions: short-payments, unrecognised references, and invoices with no order.
 
-Month-end then becomes a review of exceptions rather than a matching exercise. Closing takes days instead of a week or more, and finance time moves from checking that records agree to explaining why a difference exists.
+Month-end then becomes a review of exceptions rather than a matching exercise. IBM's description of [data quality](https://www.ibm.com/think/topics/data-quality) lists consistency and uniqueness among the dimensions on which data is judged, and a shared reference is how a business achieves both in practice. Microsoft's [Dataverse documentation](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro) likewise describes business rules and workflows that enforce data quality as records are created. Closing takes days instead of a week or more, and finance time moves from checking that records agree to explaining why a difference exists.
 
 ## Intervention
 

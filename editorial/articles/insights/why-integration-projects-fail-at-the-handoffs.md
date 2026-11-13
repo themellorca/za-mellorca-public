@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-062
 slug: why-integration-projects-fail-at-the-handoffs
-title: Why Integration Projects Fail at the Handoffs
-description: Integration projects seldom fail on technology. They fail in the gaps between business and developer, vendor and vendor, project and operations. How to close each handoff.
+title: Why integration projects fail at the handoffs
+description: Integration projects seldom fail on technology. They fail in the gaps between business and developer, vendor and vendor, project and operations.
 lead: Integration projects seldom fail on technology. They fail in the gaps between business and developer, vendor and vendor, project and operations. How to close each handoff.
 category: Integration
 published_date: 2026-10-06
@@ -15,9 +15,9 @@ sources:
   - Google SRE - Deployment Strategies for Product Launches | https://sre.google/sre-book/reliable-product-launches/
   - How the live phase works | https://www.gov.uk/service-manual/agile-delivery/how-the-live-phase-works
 related:
-  - Point-to-Point Integrations vs a More Maintainable Integration Architecture | /insights/point-to-point-integrations-vs-a-more-maintainable-integration-architecture/
-  - Why Integrations Break After They Seem to Be Working | /insights/why-integrations-break-after-they-seem-to-be-working/
-  - How to Connect Systems Without Creating a Fragile Web of Dependencies | /insights/how-to-connect-systems-without-creating-a-fragile-web-of-dependencies/
+  - Point-to-point integrations vs a more maintainable integration architecture | /insights/point-to-point-integrations-vs-a-more-maintainable-integration-architecture/
+  - Why integrations break after they seem to be working | /insights/why-integrations-break-after-they-seem-to-be-working/
+  - How to connect systems without creating a fragile web of dependencies | /insights/how-to-connect-systems-without-creating-a-fragile-web-of-dependencies/
 summary: Integration projects seldom fail on technology. They fail in the gaps between business and developer, vendor and vendor, project and operations. How to close each handoff.
 layout: plain
 ---
@@ -46,7 +46,7 @@ The fix is to hand over scenarios, not just a goal. A short list of real example
 
 Where two vendors each own one side of the connection, each tends to assume the other will handle the difficult parts: data transformation, error handling, duplicate checks. During testing, problems are passed back and forth. After go-live, incidents are too. This is why [integration incidents can require several vendors to diagnose](/discovery/why-integration-incidents-require-several-vendors-to-diagnose/).
 
-A simple responsibility matrix helps. Microsoft's Cloud Adoption Framework describes aligning responsibilities across teams with a matrix that names the one team accountable for each function, the teams responsible for outcomes, and those to be consulted or informed. The same structure works for an integration project: for each element, such as mapping, error alerts, credentials, monitoring and data clean-up, name the single accountable party.
+A simple responsibility matrix helps. Microsoft's Cloud Adoption Framework describes [aligning responsibilities across teams](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/organize/raci-alignment) with a matrix that names the one team accountable for each function, the teams responsible for outcomes, and those to be consulted or informed. The same structure works for an integration project: for each element, such as mapping, error alerts, credentials, monitoring and data clean-up, name the single accountable party.
 
 ### 3. From old data to new connection
 
@@ -56,7 +56,7 @@ Integrations are usually tested on clean sample data. Real data includes old cus
 
 This is the most common failure point. The project team builds the integration, it goes live and the team moves on. Nobody has been formally given responsibility for watching it, fixing it, renewing its credentials or approving changes.
 
-Large technology organisations treat this handoff seriously. AWS describes its Operational Readiness Review as a set of curated questions, distilled from past operational incidents, that teams use to check their services across the full lifecycle, from inception to post-release operations. Google's site reliability engineering book describes launch checklists covering architecture and dependencies, failure modes and integration, and asks teams to plan for what happens if a dependency is not ready in time. The UK Government's service manual describes the live phase as supporting a service sustainably while continuing to improve it.
+Large technology organisations treat this handoff seriously. AWS describes its [Operational Readiness](https://docs.aws.amazon.com/wellarchitected/latest/operational-readiness-reviews/wa-operational-readiness-reviews.html) Review as a set of curated questions, distilled from past operational incidents, that teams use to check their services across the full lifecycle, from inception to post-release operations. Google's site reliability engineering book describes launch checklists covering architecture and dependencies, failure modes and integration, and asks teams to plan for what happens if a dependency is not ready in time. The UK Government's service manual describes the [live phase](https://www.gov.uk/service-manual/agile-delivery/how-the-live-phase-works) as supporting a service sustainably while continuing to improve it.
 
 A small business does not need a formal review programme, but it does need the same discipline: an explicit point where operations accepts the integration, with a named owner. See [why critical integrations need a named operational owner](/discovery/why-critical-integrations-need-a-named-operational-owner/).
 

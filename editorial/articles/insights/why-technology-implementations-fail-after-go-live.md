@@ -25,6 +25,7 @@ related:
   - Key-person dependency is a systems problem | /insights/key-person-dependency-is-a-systems-problem/
   - What process mining can reveal that workshops cannot | /insights/what-process-mining-can-reveal-that-workshops-cannot/
   - Why customer onboarding breaks as the business grows | /insights/why-customer-onboarding-breaks-as-the-business-grows/
+  - Why teams build spreadsheets after the business buys enterprise software | /patterns/why-teams-build-spreadsheets-after-the-business-buys-enterprise-software/
 ---
 A technology implementation can hit its launch date, complete data migration and pass formal testing while still failing to produce a stable operating system for the business. The project team celebrates go-live; users discover workarounds; support queues grow; reports stop matching expectations; and the organisation gradually recreates the old process around the new platform.
 
@@ -42,7 +43,7 @@ A Johannesburg wholesale distributor with around 200 staff replaces an ageing ac
 
 During implementation, there are usually named project owners, decision forums, issue logs, test plans and delivery milestones. After launch, that structure often collapses before a durable operating model has taken its place.
 
-Microsoft's Dynamics 365 implementation guidance explicitly treats "Operate" as part of the implementation lifecycle, using business processes to support and maintain the solution after go-live. Its cutover guidance ends with going live and transitioning to support, following an operational support plan covering how the solution will be monitored, maintained and improved. That is a useful reminder that production is another phase of the system lifecycle, not the absence of one.
+Microsoft's Dynamics 365 implementation guidance explicitly treats "Operate" as part of the [implementation lifecycle](https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution-implementation-lifecycle), using business processes to support and maintain the solution after go-live. Its cutover guidance ends with going live and transitioning to support, following an operational support plan covering how the solution will be monitored, maintained and improved. That is a useful reminder that production is another phase of the system lifecycle, not the absence of one.
 
 The same guidance describes hypercare, a short period after go-live with extra resources and attention, and recommends defining a clear exit strategy based on specific criteria, such as no critical issues, key processes running efficiently, service levels being met and the support team resolving most issues without extra help. Without those criteria, hypercare either ends on a date regardless of readiness, or drags on with nobody deciding when the business is ready to stand alone.
 

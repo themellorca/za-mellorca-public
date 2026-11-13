@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-045
 slug: when-information-reaches-your-systems-only-because-someone-carried-it
-title: When Information Reaches Your Systems Only Because Someone Carried It
-description: An order change is phoned to a rep, sent as a voice note, written on a printout and retyped into two systems. When data has to travel through people to reach a system, each hand-off can change it, and the system records only the final version.
+title: When information reaches your systems only because someone carried it
+description: An order change is phoned, voice-noted, printed and retyped, and each hand-off can alter it. Fix how data travels through people to reach the system.
 lead: An order change is phoned to a rep, sent as a voice note, written on a printout and retyped into two systems. When data has to travel through people to reach a system, each hand-off can change it, and the system records only the final version.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-06
@@ -19,9 +19,10 @@ sources:
   - Mobile offline for model-driven apps overview - Power Apps | https://learn.microsoft.com/en-us/power-apps/mobile/mobile-offline-overview
   - Document processing model overview - AI Builder | https://learn.microsoft.com/en-us/ai-builder/form-processing-model-overview
 related:
-  - When Disconnected Systems Let the Business Act on Old Information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
-  - When the Next Step Waits for Someone to Check Another System | /patterns/when-the-next-step-waits-for-someone-to-check-another-system/
-  - When Work Goes Missing in the Gap Between Two Systems | /patterns/when-work-goes-missing-in-the-gap-between-two-systems/
+  - When disconnected systems let the business act on old information | /patterns/when-disconnected-systems-let-the-business-act-on-old-information/
+  - When the next step waits for someone to check another system | /patterns/when-the-next-step-waits-for-someone-to-check-another-system/
+  - When work goes missing in the gap between two systems | /patterns/when-work-goes-missing-in-the-gap-between-two-systems/
+  - Phone calls recorded on notepads: The cost of incomplete customer records | /impact/phone-call-notes-not-recorded-in-shared-system-cost/
 summary: An order change is phoned to a rep, sent as a voice note, written on a printout and retyped into two systems. When data has to travel through people to reach a system, each hand-off can change it, and the system records only the final version.
 layout: plain
 ---
@@ -37,7 +38,7 @@ An illustrative example: a Gqeberha building-supplies wholesaler with around for
 
 When data travels through people, every hand-off is a translation. A detail is heard, summarised, written down, read and retyped. Each step can drop information, change a number, or substitute an assumption for a fact. None of these steps is visible in the receiving system: it records what was typed, not what was originally said or seen.
 
-This matters for more than efficiency. Section 16 of the Protection of Personal Information Act requires a responsible party to take reasonably practicable steps to ensure that personal information is complete, accurate, not misleading and updated where necessary. Section 19 requires appropriate, reasonable measures to secure its integrity and confidentiality. Customer details carried by phone calls, notepads and personal phones are harder to keep accurate and harder to protect.
+This matters for more than efficiency. Section 16 of the Protection of Personal Information Act requires a responsible party to take reasonably practicable steps to ensure that personal information is complete, accurate, not misleading and updated where necessary. Section 19 requires appropriate, reasonable measures to secure its [integrity and confidentiality](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/). Customer details carried by phone calls, notepads and personal phones are harder to keep accurate and harder to protect.
 
 Capturing data where it originates is now practical for most businesses. Microsoft documents, for example, that Power Apps can run offline-first on a mobile device, saving changes locally and syncing when a connection returns, which matters for field teams working with patchy coverage. Microsoft's AI Builder document processing can extract information from standard documents such as invoices, so paper does not always have to be retyped.
 

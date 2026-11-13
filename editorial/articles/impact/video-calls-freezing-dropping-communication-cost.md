@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-178
 slug: video-calls-freezing-dropping-communication-cost
-title: Video Calls That Freeze and Drop: The Cost to Customers and Remote Teams
+title: Video calls that freeze and drop: The cost to customers and remote teams
 description: Frozen screens and dropped calls cost time, clarity and credibility with customers and remote staff. Common causes, how to cost it and how to fix it.
 lead: Frozen screens and dropped calls cost time, clarity and credibility with customers and remote staff. Common causes, how to cost it and how to fix it.
 category: Connectivity
@@ -15,10 +15,12 @@ primary_cost_mechanism: Lost meeting labour, revenue risk on client calls and wa
 sources:
   - Prepare your organization's network for Teams - Microsoft Teams | https://learn.microsoft.com/en-us/microsoftteams/prepare-network
   - Zoom system requirements: Windows, macOS, Linux | https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060748
+  - Microsoft 365 network connectivity principles - Microsoft Learn | https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles
 related:
-  - Fixing Avoidable Mistakes Instead of Serving Customers: The Cost of Rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
-  - Predictable Appointments Still Carry a Cost When Staff Arrange Every Slot | /impact/manual-appointment-scheduling-administration-cost/
-  - When Cloud Spend Has No Business Owner | /impact/cloud-costs-without-business-owner-allocation/
+  - Fixing avoidable mistakes instead of serving customers: The cost of rework | /impact/fixing-preventable-mistakes-rework-customer-time-cost/
+  - Predictable appointments still carry a cost when staff arrange every slot | /impact/manual-appointment-scheduling-administration-cost/
+  - When cloud spend has no business owner | /impact/cloud-costs-without-business-owner-allocation/
+  - Slow network, unknown cause: What it costs when nobody can see who uses the bandwidth | /impact/network-capacity-use-not-visible-slowdowns-cannot-be-diagnosed-cost/
 summary: Frozen screens and dropped calls cost time, clarity and credibility with customers and remote staff. Common causes, how to cost it and how to fix it.
 layout: plain
 ---
@@ -44,7 +46,7 @@ Bandwidth matters, but the requirement per person is more modest than many assum
 
 Microsoft's guidance also highlights causes that have nothing to do with the size of the line:
 
-- **VPNs.** It recommends a split-tunnel arrangement so Teams traffic bypasses the VPN, noting that VPNs are typically not designed for real-time media, may not support the UDP traffic Teams needs, and can route traffic further away, adding latency and jitter.
+- **VPNs.** It recommends a split-tunnel arrangement so Teams traffic bypasses the VPN, noting that VPNs are typically not designed for real-time media, may not support the UDP traffic Teams needs, and can route traffic further away, adding latency and jitter. Its [wider network guidance](https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles) likewise advises split tunnelling for VPN users and warns against forcing UDP traffic down to TCP.
 - **Wi-Fi design.** It notes that Wi-Fi networks are not necessarily designed for real-time media and recommends prioritising media traffic, planning access point placement and channels, and steering devices to the 5 GHz band. Mellorca covers the wider productivity side of this in [the hidden cost of poor office Wi-Fi](/impact/pain-poor-office-wi-fi-slowing-employees-down/).
 - **No traffic prioritisation.** It recommends Quality of Service so voice and video are prioritised over bulk traffic such as cloud backups and large downloads.
 - **Firewall settings.** Firewalls that change address mappings or block required ports and protocols can drop calls.

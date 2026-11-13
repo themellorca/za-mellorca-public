@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-030
 slug: the-real-cost-of-paying-for-software-nobody-uses-properly
-title: The Real Cost of Paying for Software Nobody Uses Properly
-description: Idle licences are the visible part of the bill. Software that is used only partly costs far more: the workarounds that run beside it, the features paid for twice, the information it never captures and the decisions made without it. How to measure that cost and what to do about it.
+title: The real cost of paying for software nobody uses properly
+description: Idle licences are the visible cost. Partly used software costs more through workarounds, double-paid features and missing information. How to measure it.
 lead: Idle licences are the visible part of the bill. Software that is used only partly costs far more: the workarounds that run beside it, the features paid for twice, the information it never captures and the decisions made without it. How to measure that cost and what to do about it.
 category: Operations
 published_date: 2026-10-05
@@ -14,9 +14,9 @@ sources:
   - Microsoft 365 Admin Center Usage Reports Overview - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports
   - What Is Shadow IT? - IBM | https://www.ibm.com/think/topics/shadow-it
 related:
-  - Why Cheap SaaS Can Become Expensive Operations | /insights/why-cheap-saas-can-become-expensive-operations/
-  - Why Repeated Workarounds Are a Warning Sign | /insights/why-repeated-workarounds-are-a-warning-sign/
-  - How to Map a Business Workflow Without Making It Complicated | /insights/how-to-map-a-business-workflow-without-making-it-complicated/
+  - Why cheap SaaS can become expensive operations | /insights/why-cheap-saas-can-become-expensive-operations/
+  - Why repeated workarounds are a warning sign | /insights/why-repeated-workarounds-are-a-warning-sign/
+  - How to map a business workflow without making it complicated | /insights/how-to-map-a-business-workflow-without-making-it-complicated/
 summary: Idle licences are the visible part of the bill. Software that is used only partly costs far more: the workarounds that run beside it, the features paid for twice, the information it never captures and the decisions made without it. How to measure that cost and what to do about it.
 layout: plain
 ---

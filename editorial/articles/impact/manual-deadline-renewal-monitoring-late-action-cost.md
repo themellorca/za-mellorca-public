@@ -2,7 +2,7 @@
 hub: impact
 record_id: CPS-048
 slug: manual-deadline-renewal-monitoring-late-action-cost
-title: Expiry Dates in a Spreadsheet: The Cost of Acting Too Late on Renewals
+title: Expiry dates in a spreadsheet: The cost of acting too late on renewals
 description: Writing renewal dates down is not the same as acting on time. Manual deadline checking leads to penalties, lapsed compliance and lost work.
 lead: Writing renewal dates down is not the same as acting on time. Manual deadline checking leads to penalties, lapsed compliance and lost work.
 category: Business Automation
@@ -17,15 +17,15 @@ sources:
   - Manage your Tax Compliance Status - South African Revenue Service | https://www.sars.gov.za/individuals/manage-your-tax-compliance-status/
   - TLS Certificate Lifetimes Will Officially Reduce to 47 Days | https://www.digicert.com/blog/tls-certificate-lifetimes-will-officially-reduce-to-47-days
 related:
-  - Rebuilding the Same Report Every Month: The Labour Cost of Manual Reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
-  - Creating the Same Documents by Hand: The Labour Cost of Repeat Paperwork | /impact/same-documents-created-by-hand-repeat-paperwork-cost/
-  - The Payroll Cost of Work Software Could Do Automatically | /impact/repeatable-manual-work-payroll-cost-automation/
+  - Rebuilding the same report every month: The labour cost of manual reporting | /impact/rebuilding-recurring-reports-by-hand-labour-cost/
+  - Creating the same documents by hand: The labour cost of repeat paperwork | /impact/same-documents-created-by-hand-repeat-paperwork-cost/
+  - The payroll cost of work software could do automatically | /impact/repeatable-manual-work-payroll-cost-automation/
 summary: Writing renewal dates down is not the same as acting on time. Manual deadline checking leads to penalties, lapsed compliance and lost work.
 layout: plain
 ---
 ## The tolerated pain: knowing the date but acting too late
 
-Most businesses do know when things expire. There is a spreadsheet somewhere with a column headed "renewal date". It lists the company's annual return, the tax compliance status needed for a large customer's supplier file, the professional registrations of key staff, the website's security certificate, the insurance policy, the vehicle licences and the service contract on the generator. Someone opens it, usually when they remember to, and scans down the list.
+Most businesses do know when things expire. There is a spreadsheet somewhere with a column headed "renewal date". It lists the company's annual return, the [tax compliance status](https://www.sars.gov.za/individuals/manage-your-tax-compliance-status/) needed for a large customer's supplier file, the professional registrations of key staff, the website's security certificate, the insurance policy, the vehicle licences and the service contract on the generator. Someone opens it, usually when they remember to, and scans down the list.
 
 The problem is not that the date is unknown. It is that the date is the wrong thing to watch. Almost every obligation needs **lead time** before the deadline: documents to gather, a return to file first, a payment to clear, an approval to obtain, a supplier to chase. A register that shows only the expiry date tells you when the trouble starts, not when the work must begin. By the time the date looks close on the sheet, the business is already late.
 

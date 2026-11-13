@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-062
 slug: software-overload-staff-cannot-learn-every-application-training-productivity-cost
-title: Too Many Apps to Learn: The Hidden Training and Productivity Cost of Software Overload
-description: When employees are expected to use more applications than anyone can learn properly, the business pays in longer induction, slower daily work and errors made by people who only half know the tools.
+title: Too many apps to learn: The hidden training and productivity cost of software overload
+description: When employees must use more applications than anyone can learn properly, you pay in longer induction, slower daily work and errors from half-known tools.
 lead: When employees are expected to use more applications than anyone can learn properly, the business pays in longer induction, slower daily work and errors made by people who only half know the tools.
 category: Digital Operations
 published_date: 2026-10-09
@@ -17,9 +17,9 @@ sources:
   - What is application management? - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-application-management
   - Overview - Microsoft Defender for Cloud Apps | https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud-apps
 related:
-  - The Automation Only One Person Understands: The Hidden Cost of Dependency | /impact/automation-understood-by-one-employee-continuity-maintenance-cost/
-  - Four Tools, One Job: The Real Cost of Departments Buying Their Own Software | /impact/departments-buying-separate-tools-same-need-duplicate-subscription-cost/
-  - Answering the Same Question Again: The Payroll Cost of Undocumented Know-How | /impact/same-internal-questions-undocumented-knowledge-cost/
+  - The automation only one person understands: The hidden cost of dependency | /impact/automation-understood-by-one-employee-continuity-maintenance-cost/
+  - Four tools, one job: The real cost of departments buying their own software | /impact/departments-buying-separate-tools-same-need-duplicate-subscription-cost/
+  - Answering the same question again: The payroll cost of undocumented know-how | /impact/same-internal-questions-undocumented-knowledge-cost/
 summary: When employees are expected to use more applications than anyone can learn properly, the business pays in longer induction, slower daily work and errors made by people who only half know the tools.
 layout: plain
 ---

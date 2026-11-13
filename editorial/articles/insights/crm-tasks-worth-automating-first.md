@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-085
 slug: crm-tasks-worth-automating-first
-title: What Should Be Automated Inside a CRM?
+title: What should be automated inside a CRM?
 description: The CRM tasks that are repetitive, rule-based and low-risk are the ones to automate first. Here is how to recognise them and set them up safely.
 lead: The CRM tasks that are repetitive, rule-based and low-risk are the ones to automate first. Here is how to recognise them and set them up safely.
 category: Automation
@@ -14,9 +14,9 @@ sources:
   - Set up duplicate detection rules to keep your data clean - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
   - Section 69 Direct marketing by means of unsolicited electronic communications - POPIA | https://popia.co.za/section-69-direct-marketing-by-means-of-unsolicited-electronic-communications/
 related:
-  - What Should Never Be Automated Inside a CRM? | /insights/crm-actions-that-should-stay-with-a-person/
-  - Which Manual Tasks Should You Automate First? | /insights/how-to-rank-manual-tasks-before-you-automate-any-of-them/
-  - What Business Automation Should Actually Solve | /insights/what-business-automation-should-actually-solve/
+  - What should never be automated inside a CRM? | /insights/crm-actions-that-should-stay-with-a-person/
+  - Which manual tasks should you automate first? | /insights/how-to-rank-manual-tasks-before-you-automate-any-of-them/
+  - What business automation should actually solve | /insights/what-business-automation-should-actually-solve/
 summary: The CRM tasks that are repetitive, rule-based and low-risk are the ones to automate first. Here is how to recognise them and set them up safely.
 layout: plain
 ---
@@ -45,7 +45,7 @@ After a meeting is logged or a quote is sent, the CRM can create a reminder for 
 
 ### 3. Flagging duplicates on entry
 
-Microsoft's documentation explains that its customer engagement apps include default duplicate detection rules for accounts and contacts, but not for other record types, and that you need to create further rules yourself if you want them. It also recommends basing rules on a field that has unique values, such as email. The point for any platform is that detection and warning at the moment of entry is a very good use of automation. Merging is a different matter, discussed in the companion article. See also [how duplicate customer records are created](/insights/how-duplicate-customer-records-are-created/).
+Microsoft's documentation explains that its customer engagement apps include default [duplicate detection rules](https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean) for accounts and contacts, but not for other record types, and that you need to create further rules yourself if you want them. It also recommends basing rules on a field that has unique values, such as email. The point for any platform is that detection and warning at the moment of entry is a very good use of automation. Merging is a different matter, discussed in the companion article. See also [how duplicate customer records are created](/insights/how-duplicate-customer-records-are-created/).
 
 ### 4. Standardising data formats
 
@@ -69,7 +69,7 @@ A weekly email listing new customers, renewals due and overdue follow-ups saves 
 
 ## Where marketing messages need extra care
 
-Automated email and SMS campaigns are among the most popular CRM automations, and also the ones with legal implications. Section 69 of South Africa's Protection of Personal Information Act prohibits electronic direct marketing unless the person has consented, with a limited route for existing customers. That route applies only where you obtained their details in the course of selling them a product or service, you are marketing your own similar products or services and they were offered a simple, free way to object when the details were collected and with each message. Every direct marketing message must identify the sender and give an address or other contact details for asking the messages to stop.
+Automated email and SMS campaigns are among the most popular CRM automations, and also the ones with legal implications. Section 69 of South Africa's Protection of Personal Information Act prohibits electronic [direct marketing](https://popia.co.za/section-69-direct-marketing-by-means-of-unsolicited-electronic-communications/) unless the person has consented, with a limited route for existing customers. That route applies only where you obtained their details in the course of selling them a product or service, you are marketing your own similar products or services and they were offered a simple, free way to object when the details were collected and with each message. Every direct marketing message must identify the sender and give an address or other contact details for asking the messages to stop.
 
 In practical terms, automation should check a consent or permission field before sending, include a working opt-out in every message and stop sending the moment someone objects. A rule that sends a promotion to every contact in the system is a rule that will eventually break the law. Confirm the details of your own situation with a qualified adviser.
 

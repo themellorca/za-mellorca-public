@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000172
 slug: why-accessibility-is-also-an-operational-question
-title: Why Accessibility Is Also an Operational Question
-description: Quotes, reminders and payment requests decide who can finish a transaction unaided. How everyday follow-up choices affect access, and what small businesses can change.
+title: Why accessibility is also an operational question
+description: Quotes, reminders and payment requests decide who can finish a transaction unaided. How everyday follow-up choices affect access, and what firms change.
 lead: Quotes, reminders and payment requests decide who can finish a transaction unaided. How everyday follow-up choices affect access, and what small businesses can change.
 category: Inclusion & Access
 published_date: 2026-10-08
@@ -20,9 +20,9 @@ sources:
   - Designing for Web Accessibility – Tips for Getting Started | https://www.w3.org/WAI/tips/designing/
   - Promotion of Equality and Prevention of Unfair Discrimination Act 4 of 2000 - South African Government | https://www.gov.za/documents/promotion-equality-and-prevention-unfair-discrimination-act
 related:
-  - The Slow Leak of Time Through Manual Reminders | /moments/the-slow-leak-of-time-through-manual-reminders/
-  - When Late Invoices Become Late Salaries | /moments/when-late-invoices-become-late-salaries/
-  - The Owner Facing Illness With No One Who Knows the Systems | /moments/the-owner-facing-illness-with-no-one-who-knows-the-systems/
+  - The slow leak of time through manual reminders | /moments/the-slow-leak-of-time-through-manual-reminders/
+  - When late invoices become late salaries | /moments/when-late-invoices-become-late-salaries/
+  - The owner facing illness with no one who knows the systems | /moments/the-owner-facing-illness-with-no-one-who-knows-the-systems/
 summary: Quotes, reminders and payment requests decide who can finish a transaction unaided. How everyday follow-up choices affect access, and what small businesses can change.
 layout: plain
 ---
@@ -46,7 +46,7 @@ The international reference point for digital accessibility is the Web Content A
 
 The W3C's business case for accessibility states that the global market of people with disabilities is over a billion people with a spending power of more than six trillion US dollars, and that accessible design often improves the experience for everyone. Those are global figures, supplied by the W3C, and they say nothing about a particular South African customer base. They do make the general point that excluding people is also a commercial choice.
 
-South Africa's Promotion of Equality and Prevention of Unfair Discrimination Act, published on the Government site, exists to prevent and prohibit unfair discrimination and to promote equality. How it applies to a particular business's customer communications is a legal question, and one for qualified advice. The practical point is simpler: an inaccessible process can exclude people, and excluding people unintentionally is still excluding them.
+South Africa's Promotion of [Equality and Prevention of Unfair Discrimination](https://www.gov.za/documents/promotion-equality-and-prevention-unfair-discrimination-act) Act, published on the Government site, exists to prevent and prohibit unfair discrimination and to promote equality. How it applies to a particular business's customer communications is a legal question, and one for qualified advice. The practical point is simpler: an inaccessible process can exclude people, and excluding people unintentionally is still excluding them.
 
 ## An illustrative case
 

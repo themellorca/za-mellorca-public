@@ -2,7 +2,7 @@
 hub: discovery
 record_id: DISC-286
 slug: why-api-rate-limits-create-intermittent-business-failures
-title: Why API Rate Limits Create Intermittent Business Failures
+title: Why API rate limits create intermittent business failures
 description: API rate limits can turn healthy-looking integrations into intermittent business failures when traffic, retry and queue behaviour are not designed explicitly.
 lead: An integration can work perfectly at normal volume and still fail when demand crosses a provider limit that the workflow was never designed to handle.
 category: Integration & API Operations
@@ -23,7 +23,7 @@ sources:
   - Rate Limiting Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/rate-limiting-pattern
   - Retry pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
 related:
-  - Why Integration Failures Should Not Route to Personal Inboxes | /discovery/why-integration-failures-should-not-route-to-personal-inboxes/
+  - Why integration failures should not route to personal inboxes | /discovery/why-integration-failures-should-not-route-to-personal-inboxes/
   - APIs change without downstream teams being warned | /discovery/apis-change-without-downstream-teams-being-warned/
   - API credentials are shared across unrelated integrations | /discovery/api-credentials-shared-across-unrelated-integrations/
 ---
@@ -33,9 +33,9 @@ An API-driven workflow succeeds most of the time, then begins rejecting requests
 
 Because the failure is intermittent, it is easy to misread. The integration passed testing, it works on a quiet Tuesday, and the vendor's status page shows no incident. Then month-end, a marketing send or a bulk import arrives and a portion of the business transactions simply do not complete. By the time anyone investigates, traffic has dropped and everything appears healthy again.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer is not merely searching for “an API error”. They are trying to make a cross-system process reliable when one participating service controls how much traffic it will accept within a period. The search language is usually symptom-first: “429 too many requests”, “integration fails at peak times”, “sync works sometimes”, “API throttling errors”, or “records missing after bulk update”. Each describes the same underlying condition: demand on a shared interface has exceeded what the workflow was designed to handle.
+The problem is not merely “an API error”. The business is trying to make a cross-system process reliable when one participating service controls how much traffic it will accept within a period. The description usually starts with the symptom: “429 too many requests”, “integration fails at peak times”, “sync works sometimes”, “API throttling errors”, or “records missing after bulk update”. Each describes the same underlying condition: demand on a shared interface has exceeded what the workflow was designed to handle.
 
 ## Evidence and system mechanism
 

@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-366
 slug: access-logs-that-disappear-before-the-auditor-asks
 title: Access logs that disappear before the auditor asks for them
-description: Sign-in and audit logs are often switched on but kept only for platform-default periods. How to set retention by control need, close the gaps and prove it works.
+description: Sign-in and audit logs are switched on but kept only for default periods. How to set retention by control need, close gaps and prove it works.
 lead: Sign-in and audit logs are often switched on but kept only for platform-default periods. How to set retention by control need, close the gaps and prove it works.
 category: Security & Compliance Operations
 published_date: 2026-10-07
@@ -20,7 +20,7 @@ sources:
 related:
   - Why IT asset registers miss cloud and SaaS services | /discovery/why-it-asset-registers-miss-cloud-and-saas-services/
   - When every system owner reads the same compliance rule differently | /discovery/when-every-system-owner-reads-compliance-rules-differently/
-  - Why Policy Acknowledgements Need a Reliable System Record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
+  - Why policy acknowledgements need a reliable system record | /discovery/why-policy-acknowledgements-need-a-reliable-system-record/
 summary: Sign-in and audit logs are often switched on but kept only for platform-default periods. How to set retention by control need, close the gaps and prove it works.
 layout: plain
 ---
@@ -32,9 +32,9 @@ This article looks at that operating condition: access logs that exist but are n
 
 Logging and retention are two different things. A system can record every sign-in, permission change and file download, and still delete those records after a week or a month. The business believes it "has logs" because the feature is switched on. It discovers the retention gap only when an auditor asks for a quarter's worth of access reviews, an insurer asks for evidence after an incident, or an investigation needs to look further back than the default window.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-People search for how long to keep audit logs, how to retain sign-in logs for longer, or why their logs do not go back far enough. Auditors and compliance teams frame it as a control requirement: show that access to key systems was monitored over the whole period under review. The practical need is a defined retention period for each important log source, based on what the business must be able to prove or investigate, and a mechanism that actually keeps the logs that long.
+The questions usually sound like how long to keep audit logs, how to retain sign-in logs for longer, or why the logs do not go back far enough. Auditors and compliance teams frame it as a control requirement: show that access to key systems was monitored over the whole period under review. The practical need is a defined retention period for each important log source, based on what the business must be able to prove or investigate, and a mechanism that actually keeps the logs that long.
 
 ## Evidence and system mechanism
 

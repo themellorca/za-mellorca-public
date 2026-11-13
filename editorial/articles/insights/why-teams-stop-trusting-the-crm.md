@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-078
 slug: why-teams-stop-trusting-the-crm
-title: Why Teams Stop Trusting the CRM
-description: A CRM loses its team one bad experience at a time: a phone number that no longer works, a deal that closed weeks ago, a pipeline figure finance disputes. Trust is lost quickly and rebuilt slowly. What breaks it, why it matters more than adoption figures, and how to earn it back.
+title: Why teams stop trusting the CRM
+description: A CRM loses its team one bad experience at a time. What breaks trust, why it matters more than adoption figures, and how to earn it back.
 lead: A CRM loses its team one bad experience at a time: a phone number that no longer works, a deal that closed weeks ago, a pipeline figure finance disputes. Trust is lost quickly and rebuilt slowly. What breaks it, why it matters more than adoption figures, and how to earn it back.
 category: Operations
 published_date: 2026-10-06
@@ -14,9 +14,9 @@ sources:
   - Set up duplicate detection rules to keep your data clean - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
 related:
-  - Why Work Gets Lost Between Teams | /insights/why-work-gets-lost-between-teams/
-  - What to Fix First When Everything Feels Broken | /insights/what-to-fix-first-when-everything-feels-broken/
-  - What Your Recurring Problems Are Telling You About Your Systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
+  - Why work gets lost between teams | /insights/why-work-gets-lost-between-teams/
+  - What to fix first when everything feels broken | /insights/what-to-fix-first-when-everything-feels-broken/
+  - What your recurring problems are telling you about your systems | /insights/what-your-recurring-problems-are-telling-you-about-your-systems/
 summary: A CRM loses its team one bad experience at a time: a phone number that no longer works, a deal that closed weeks ago, a pipeline figure finance disputes. Trust is lost quickly and rebuilt slowly. What breaks it, why it matters more than adoption figures, and how to earn it back.
 layout: plain
 ---

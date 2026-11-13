@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-077
 slug: how-a-crm-turns-into-an-expensive-address-book
-title: How a CRM Turns Into an Expensive Address Book
-description: Few CRMs fail on go-live day. They decline gradually, as activity moves to email and WhatsApp, deals move to spreadsheets and records go stale, until the system is used only to look up phone numbers. How the decline happens, how to test for it and how to reverse it.
+title: How a CRM turns into an expensive address book
+description: CRMs rarely fail on go-live day. They fade as work moves to email and spreadsheets until only phone numbers are used. How to test for it and reverse it.
 lead: Few CRMs fail on go-live day. They decline gradually, as activity moves to email and WhatsApp, deals move to spreadsheets and records go stale, until the system is used only to look up phone numbers. How the decline happens, how to test for it and how to reverse it.
 category: Systems & Integration
 published_date: 2026-10-03
@@ -14,7 +14,7 @@ sources:
   - Set up duplicate detection rules to keep your data clean - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
   - Section 16 Quality of information - POPIA | https://popia.co.za/section-16-quality-of-information/
 related:
-  - When Copy-and-Paste Is Really an Integration Problem | /insights/when-copy-and-paste-is-really-an-integration-problem/
+  - When copy-and-paste is really an integration problem | /insights/when-copy-and-paste-is-really-an-integration-problem/
   - How to decide what should be the system of record | /insights/how-to-decide-what-should-be-the-system-of-record/
   - How to decide which system owns which data | /insights/how-to-decide-which-system-owns-which-data/
 summary: Few CRMs fail on go-live day. They decline gradually, as activity moves to email and WhatsApp, deals move to spreadsheets and records go stale, until the system is used only to look up phone numbers. How the decline happens, how to test for it and how to reverse it.

@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000006
 slug: the-meeting-that-could-have-been-a-shared-record
-title: The Meeting That Could Have Been a Shared Record
-description: Some weekly meetings exist mainly so that people can tell each other where things stand. What changes for the people in the room when the status already lives somewhere everyone can see.
+title: The meeting that could have been a shared record
+description: Some weekly meetings exist mainly so people can say where things stand. What changes for the room when the status already lives where everyone can see it.
 lead: Some weekly meetings exist mainly so that people can tell each other where things stand. What changes for the people in the room when the status already lives somewhere everyone can see.
 category: Time & Attention
 published_date: 2026-10-04
@@ -19,9 +19,10 @@ sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
   - The Surprising Impact of Meeting-Free Days | https://sloanreview.mit.edu/article/the-surprising-impact-of-meeting-free-days/
 related:
-  - When Your Calendar Belongs to Other People's Systems | /moments/when-your-calendar-belongs-to-other-peoples-systems/
-  - What Changes When Status Updates Stop Being a Chore | /moments/what-changes-when-status-updates-stop-being-a-chore/
-  - When Sunday Evening Becomes Monday Morning | /moments/when-sunday-evening-becomes-monday-morning/
+  - When your calendar belongs to other people's systems | /moments/when-your-calendar-belongs-to-other-peoples-systems/
+  - What changes when status updates stop being a chore | /moments/what-changes-when-status-updates-stop-being-a-chore/
+  - When Sunday evening becomes Monday morning | /moments/when-sunday-evening-becomes-monday-morning/
+  - When remote work means missing the quiet conversations | /moments/when-remote-work-means-missing-the-quiet-conversations/
 summary: Some weekly meetings exist mainly so that people can tell each other where things stand. What changes for the people in the room when the status already lives somewhere everyone can see.
 layout: plain
 ---
@@ -33,9 +34,9 @@ This piece is about that kind of meeting: not meetings in general, many of which
 
 ## What the evidence suggests about meetings and interruptions
 
-Microsoft's 2025 Work Trend Index analysis of anonymised Microsoft 365 activity describes what it calls the infinite workday. It estimates that the average worker in its data is interrupted about every two minutes during core hours by a meeting, email or chat. It also found that 57% of meetings were ad hoc calls without a calendar invitation. These are global figures from one vendor's product data, not a measurement of South African businesses, but they describe a working day that is already crowded before a recurring status meeting is added.
+Microsoft's 2025 [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) analysis of anonymised Microsoft 365 activity describes what it calls the infinite workday. It estimates that the average worker in its data is interrupted about every two minutes during core hours by a meeting, email or chat. It also found that 57% of meetings were ad hoc calls without a calendar invitation. These are global figures from one vendor's product data, not a measurement of South African businesses, but they describe a working day that is already crowded before a recurring status meeting is added.
 
-An earlier Work Trend Index survey asked people how meetings were going. Among its findings, 55% said next steps were unclear after meetings, and 57% said it was hard to catch up if they joined late. In other words, even when people meet, the outcome often does not end up anywhere reliable.
+An earlier [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work) survey asked people how meetings were going. Among its findings, 55% said next steps were unclear after meetings, and 57% said it was hard to catch up if they joined late. In other words, even when people meet, the outcome often does not end up anywhere reliable.
 
 The other side of the picture comes from MIT Sloan Management Review, which reported research on 76 large companies that introduced one or more meeting-free days a week. Employees reported improvements in autonomy, cooperation, engagement, satisfaction and productivity, and less stress and micromanagement. These were large multinational firms, so the findings cannot simply be transferred to a 25-person business in Pretoria. They do show that reducing meetings does not automatically damage coordination, and can improve how people experience their work.
 

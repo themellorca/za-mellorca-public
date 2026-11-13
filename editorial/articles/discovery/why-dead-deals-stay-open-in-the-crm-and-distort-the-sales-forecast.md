@@ -19,7 +19,7 @@ sources:
 related:
   - Why recurring billing is still set up by hand after a deal closes | /discovery/why-recurring-billing-is-set-up-by-hand-after-a-deal-closes/
   - Why you cannot measure the time from accepted quote to first invoice | /discovery/why-you-cannot-measure-time-from-accepted-quote-to-first-invoice/
-  - Why Legacy Applications Remain Live Without an Owner | /discovery/why-legacy-applications-remain-live-without-an-owner/
+  - Why legacy applications remain live without an owner | /discovery/why-legacy-applications-remain-live-without-an-owner/
 summary: Deals that have not moved for months still count toward the forecast because nobody closes them. How to set stale-deal rules that keep the pipeline honest.
 layout: plain
 ---
@@ -31,9 +31,9 @@ This article looks at that operating condition: sales opportunities that remain 
 
 Opening an opportunity is a positive act with a clear moment: a proposal is requested, a meeting happens. Closing a lost opportunity has no such moment. The buyer does not announce that they have decided against it. They stop replying. The salesperson, who may still hope, has no reason to mark the deal lost, and a lost deal reduces their own pipeline and may reflect badly on them. So the opportunity stays open, usually with a close date that was set optimistically and has since been pushed forward again and again.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-A sales director, sales operations lead or managing director who searches for this problem is trying to get a forecast they can believe. They need a way to separate live deals from dormant ones without accusing the team of dishonesty, and a routine that keeps the pipeline clean without a quarterly purge that everyone dreads. They also want to protect the credibility of the CRM, since a pipeline full of dead deals teaches people to ignore it.
+A sales director, sales operations lead or managing director facing this problem is trying to get a forecast they can believe. They need a way to separate live deals from dormant ones without accusing the team of dishonesty, and a routine that keeps the pipeline clean without a quarterly purge that everyone dreads. They also want to protect the credibility of the CRM, since a pipeline full of dead deals teaches people to ignore it.
 
 ## Evidence and system mechanism
 

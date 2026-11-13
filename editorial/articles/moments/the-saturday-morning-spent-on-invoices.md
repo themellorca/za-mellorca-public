@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000040
 slug: the-saturday-morning-spent-on-invoices
-title: The Saturday Morning Spent on Invoices
-description: In many small businesses the week's invoices get done on Saturday morning, at the kitchen table, from a pile of job cards. Why billing drifts into the weekend, what it takes from the owner, and how to move it back into the week.
+title: The Saturday morning spent on invoices
+description: In many small businesses the week's invoices get done on Saturday morning from a pile of job cards. Why billing drifts into weekends, and how to move it.
 lead: In many small businesses the week's invoices get done on Saturday morning, at the kitchen table, from a pile of job cards. Why billing drifts into the weekend, what it takes from the owner, and how to move it back into the week.
 category: Time & Attention
 published_date: 2026-10-06
@@ -19,9 +19,9 @@ sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
   - Standard recurring sales lines - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-work-standard-lines
 related:
-  - The Attention Spent Remembering What Systems Should Remember | /moments/the-attention-spent-remembering-what-systems-should-remember/
-  - When Sunday Evening Becomes Monday Morning | /moments/when-sunday-evening-becomes-monday-morning/
-  - Why Leave Requests Turn Into Coverage Puzzles | /moments/why-leave-requests-turn-into-coverage-puzzles/
+  - The attention spent remembering what systems should remember | /moments/the-attention-spent-remembering-what-systems-should-remember/
+  - When Sunday evening becomes Monday morning | /moments/when-sunday-evening-becomes-monday-morning/
+  - Why leave requests turn into coverage puzzles | /moments/why-leave-requests-turn-into-coverage-puzzles/
 summary: In many small businesses the week's invoices get done on Saturday morning, at the kitchen table, from a pile of job cards. Why billing drifts into the weekend, what it takes from the owner, and how to move it back into the week.
 layout: plain
 ---
@@ -44,7 +44,7 @@ Mellorca's pattern on [why sending an invoice requires so much work](/patterns/w
 
 ## What the evidence suggests about weekend work
 
-There is no South African measurement of how many owners invoice on Saturdays, so this piece does not claim one. There is broader evidence that weekends have become working time for a share of people. Microsoft's 2025 Work Trend Index report on the "infinite workday", based on aggregated and anonymised Microsoft 365 signals, found that nearly 20% of employees actively working at the weekend were checking email before noon on Saturday and Sunday, and that over 5% were back in email on Sunday evenings. Those figures describe people working inside Microsoft's software across many countries, so they are indicative rather than a South African measurement. But they are consistent with the scene at the kitchen table.
+There is no South African measurement of how many owners invoice on Saturdays, so this piece does not claim one. There is broader evidence that weekends have become working time for a share of people. Microsoft's 2025 [Work Trend Index](https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday) report on the "infinite workday", based on aggregated and anonymised Microsoft 365 signals, found that nearly 20% of employees actively working at the weekend were checking email before noon on Saturday and Sunday, and that over 5% were back in email on Sunday evenings. Those figures describe people working inside Microsoft's software across many countries, so they are indicative rather than a South African measurement. But they are consistent with the scene at the kitchen table.
 
 There is also a firm deadline in the background. The South African Revenue Service explains that a VAT vendor must issue a tax invoice within 21 days of the supply, and that a full tax invoice is needed where the consideration is more than R5,000, with particulars such as the supplier's and recipient's details, a serial number, a description, quantity, value and VAT. So invoicing is not optional admin that can be dropped. It has to happen, accurately, and the question is only when and by whom.
 
@@ -69,7 +69,7 @@ There is a business cost too. An invoice sent on Saturday for work finished on T
 Most of what helps is not dramatic. Several changes can be made without new software, and some need only a decision.
 
 1. **Capture the billable facts at the job.** A short digital job card, or even a structured photo of the paper card sent to one shared place, means the information arrives complete and on the day.
-2. **Stop retyping recurring work.** Most accounting systems can generate repeating invoices. Microsoft's Business Central documentation, for example, describes recurring sales lines that can be assigned to a customer and used to create recurring sales invoices in a batch. A smaller package with a repeating-invoice feature does the same job for a service-contract business.
+2. **Stop retyping recurring work.** Most accounting systems can generate repeating invoices. Microsoft's Business Central documentation, for example, describes [recurring sales lines](https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-work-standard-lines) that can be assigned to a customer and used to create recurring sales invoices in a batch. A smaller package with a repeating-invoice feature does the same job for a service-contract business.
 3. **Write down the pricing rules.** If agreed rates, call-out fees and customer-specific terms are recorded, someone other than the owner can prepare invoices for checking.
 4. **Give billing a weekday slot.** An hour on Wednesday afternoon, protected like a customer meeting, often clears most of the pile.
 5. **Separate preparing from approving.** An administrator or bookkeeper drafts; the owner reviews in batches. Review takes minutes; drafting takes hours.

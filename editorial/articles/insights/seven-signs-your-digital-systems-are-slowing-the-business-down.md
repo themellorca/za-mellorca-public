@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-004
 slug: seven-signs-your-digital-systems-are-slowing-the-business-down
-title: Seven Signs Your Digital Systems Are Slowing the Business Down
-description: A diagnostic piece for executives on seven reliable indicators that digital systems are dragging business performance, with concrete actions to restore speed and resilience.
+title: Seven signs your digital systems are slowing the business down
+description: Seven reliable signs that digital systems are dragging down performance, written for executives, with concrete actions to restore speed and resilience.
 lead: A diagnostic piece for executives on seven reliable indicators that digital systems are dragging business performance, with concrete actions to restore speed and resilience.
 category: Digital Operations
 published_date: 2026-10-02

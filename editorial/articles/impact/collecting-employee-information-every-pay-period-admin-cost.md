@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-042
 slug: collecting-employee-information-every-pay-period-admin-cost
-title: Chasing Timesheets and Claims Every Pay Run: The Cost of Manual Data Collection
-description: Gathering hours, overtime, leave and expense claims from every employee by email and spreadsheet each pay period costs paid hours, delays payroll and puts accurate records at risk.
+title: Chasing timesheets and claims every pay run: The cost of manual data collection
+description: Collecting hours, overtime, leave and expense claims by email and spreadsheet each pay period costs paid hours, delays payroll and risks accurate records.
 lead: Gathering hours, overtime, leave and expense claims from every employee by email and spreadsheet each pay period costs paid hours, delays payroll and puts accurate records at risk.
 category: HR and Payroll
 published_date: 2026-10-05
@@ -17,9 +17,10 @@ sources:
   - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
   - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
 related:
-  - Typing Invoices From Data You Already Hold: The Labour and Billing Delay Cost | /impact/invoices-retyped-from-existing-records-billing-labour-cost/
-  - The Cost of Retyping Customer Details into Every System | /impact/pain-duplication-of-customer-data-entry/
-  - The Labour Cost of Manually Reconciling Two Systems | /impact/manual-reconciliation-between-systems-labour-cost/
+  - Typing invoices from data you already hold: The labour and billing delay cost | /impact/invoices-retyped-from-existing-records-billing-labour-cost/
+  - The cost of retyping customer details into every system | /impact/pain-duplication-of-customer-data-entry/
+  - The labour cost of manually reconciling two systems | /impact/manual-reconciliation-between-systems-labour-cost/
+  - When commission disputes come from bad data | /moments/when-commission-disputes-come-from-bad-data/
 summary: Gathering hours, overtime, leave and expense claims from every employee by email and spreadsheet each pay period costs paid hours, delays payroll and puts accurate records at risk.
 layout: plain
 ---
@@ -48,7 +49,7 @@ The symptoms build up around each pay date:
 - Hours are estimated when the real record cannot be found.
 - One person knows how to reconcile the different formats, and payroll is at risk when they are away.
 
-The legal stakes are not trivial. The Basic Conditions of Employment Act requires every employer to keep a record of, among other things, the time worked by each employee and the remuneration paid, to keep it for three years from the last entry, and prohibits false entries. It also requires written pay information on each pay day, including, where relevant, the rate of pay, overtime rate and the number of ordinary and overtime hours worked. A process built on estimated hours and retyped photographs makes those records harder to stand behind.
+The legal stakes are not trivial. The [Basic Conditions of Employment Act](https://www.labour.gov.za/DocumentCenter/Acts/Basic%20Conditions%20of%20Employment/Act%20-%20Basic%20Conditions%20of%20Employment.pdf) requires every employer to keep a record of, among other things, the time worked by each employee and the remuneration paid, to keep it for three years from the last entry, and prohibits false entries. It also requires written pay information on each pay day, including, where relevant, the rate of pay, overtime rate and the number of ordinary and overtime hours worked. A process built on estimated hours and retyped photographs makes those records harder to stand behind.
 
 Timing matters too. SARS states that employees' tax deducted must be paid within seven days after the end of the month in which it was deducted, and employers must reconcile PAYE, UIF and SDL in interim and annual reconciliations. Late or corrected inputs ripple into those submissions.
 
@@ -91,7 +92,7 @@ Employees notice when their overtime is late or their leave balance is wrong, an
 
 In a better state, each recurring input has one standard form, one channel and one approver. Employees submit hours, leave and claims when they happen, rather than reconstructing them at month-end. Managers approve individual items as they arrive. Approved data flows to payroll without being retyped, and the administrator's job shifts from collecting to reviewing exceptions.
 
-Many businesses already licence tools that can do this. Microsoft's Power Automate documentation, for example, lists approving vacation time requests and expense reports as common uses of its approvals feature, and notes that approvers can respond from an Outlook email, a Teams card or the Power Automate action centre. Dedicated time-and-attendance and HR systems go further, with clocking, leave balances and direct payroll integration. The choice of tool matters less than standardising the inputs and approval rules first. Approval design itself deserves care, because [one slow approval can hold up an entire process](/patterns/why-does-one-approval-hold-up-an-entire-process/).
+Many businesses already licence tools that can do this. Microsoft's [Power Automate](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) documentation, for example, lists approving vacation time requests and expense reports as common uses of its approvals feature, and notes that approvers can respond from an Outlook email, a Teams card or the Power Automate action centre. Dedicated time-and-attendance and HR systems go further, with clocking, leave balances and direct payroll integration. The choice of tool matters less than standardising the inputs and approval rules first. Approval design itself deserves care, because [one slow approval can hold up an entire process](/patterns/why-does-one-approval-hold-up-an-entire-process/).
 
 ### Trade-offs to weigh
 

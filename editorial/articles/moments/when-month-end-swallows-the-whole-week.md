@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000011
 slug: when-month-end-swallows-the-whole-week
-title: When Month-End Swallows the Whole Week
-description: In some finance teams the last days of the month and the first days of the next become one long week of matching, chasing and checking. What that week takes from the people who carry it, and what makes it shorter.
+title: When month-end swallows the whole week
+description: In some finance teams the turn of the month becomes one long week of matching, chasing and checking. What it takes from people, and what shortens it.
 lead: In some finance teams the last days of the month and the first days of the next become one long week of matching, chasing and checking. What that week takes from the people who carry it, and what makes it shorter.
 category: Time & Attention
 published_date: 2026-10-04
@@ -19,9 +19,10 @@ sources:
   - Reconcile bank accounts and apply payments - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-apply-payments-auto-reconcile-bank-accounts
   - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
 related:
-  - The Report Someone Rebuilds by Hand Every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
-  - When Sunday Evening Becomes Monday Morning | /moments/when-sunday-evening-becomes-monday-morning/
-  - Why the Commute Has Become Unpaid Triage Time | /moments/why-the-commute-has-become-unpaid-triage-time/
+  - The report someone rebuilds by hand every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - When Sunday evening becomes Monday morning | /moments/when-sunday-evening-becomes-monday-morning/
+  - Why the commute has become unpaid triage time | /moments/why-the-commute-has-become-unpaid-triage-time/
+  - Why month-end feels like an emergency every month | /patterns/why-month-end-feels-like-an-emergency-every-month/
 summary: In some finance teams the last days of the month and the first days of the next become one long week of matching, chasing and checking. What that week takes from the people who carry it, and what makes it shorter.
 layout: plain
 ---
@@ -39,7 +40,7 @@ None of these deadlines is unreasonable on its own. Together they mean that the 
 
 ## Why the close stretches
 
-Consider an illustrative case: a Gqeberha engineering supplier with about 20 staff, using cloud accounting software and two bank accounts. The bookkeeper works four days a week. During the month, sales invoices are captured as they go out, but supplier invoices arrive in three inboxes, card slips are handed in late, and bank lines are left unmatched until month-end because there never seems to be time before then.
+Consider an illustrative case: a Gqeberha engineering supplier with about 20 staff, using cloud accounting software and two [bank accounts](https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately). The bookkeeper works four days a week. During the month, sales invoices are captured as they go out, but supplier invoices arrive in three inboxes, card slips are handed in late, and bank lines are left unmatched until month-end because there never seems to be time before then.
 
 The mechanism tends to look like this:
 

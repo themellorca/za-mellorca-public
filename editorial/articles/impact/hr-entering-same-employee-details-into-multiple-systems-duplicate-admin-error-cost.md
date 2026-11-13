@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-378
 slug: hr-entering-same-employee-details-into-multiple-systems-duplicate-admin-error-cost
-title: Typing Employee Details Into Four Systems: The Duplicate Admin Cost in HR
-description: When HR and payroll staff enter the same employee details into several unconnected systems, the business pays for repeated typing, payroll corrections and slower onboarding and offboarding.
+title: Typing employee details into four systems: The duplicate admin cost in HR
+description: When HR and payroll staff enter the same employee details into several systems, you pay for repeated typing, payroll corrections and slow onboarding.
 lead: When HR and payroll staff enter the same employee details into several unconnected systems, the business pays for repeated typing, payroll corrections and slower onboarding and offboarding.
 category: HR Operations
 published_date: 2026-10-09
@@ -17,9 +17,9 @@ sources:
   - What is HR-driven provisioning with Microsoft Entra ID? - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/what-is-hr-driven-provisioning
   - Understand how Application Provisioning in Microsoft Entra ID - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/how-provisioning-works
 related:
-  - Salespeople as Data Clerks: The Payroll Cost of Re-Entering Customer Details | /impact/salespeople-re-entering-customer-details-administrative-selling-payroll-cost/
-  - Customers on Hold While Staff Search Five Systems: The Cost of Scattered Answers | /impact/customers-waiting-staff-search-several-systems-service-payroll-cost/
-  - Gathering Information Before Work Can Start: The Payroll Cost of Preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
+  - Salespeople as data clerks: The payroll cost of re-entering customer details | /impact/salespeople-re-entering-customer-details-administrative-selling-payroll-cost/
+  - Customers on hold while staff search five systems: The cost of scattered answers | /impact/customers-waiting-staff-search-several-systems-service-payroll-cost/
+  - Gathering information before work can start: The payroll cost of preparation | /impact/compiling-information-before-work-preparation-payroll-cost/
 summary: When HR and payroll staff enter the same employee details into several unconnected systems, the business pays for repeated typing, payroll corrections and slower onboarding and offboarding.
 layout: plain
 ---

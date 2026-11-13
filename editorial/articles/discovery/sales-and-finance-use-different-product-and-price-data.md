@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-078
 slug: sales-and-finance-use-different-product-and-price-data
 title: When sales and finance work from different product and price data
-description: Quotes go out at one price and invoices at another because the CRM and the ERP hold separate product and price lists. Why it happens, what it costs, and how to give pricing one owner.
+description: Quotes go out at one price and invoices at another because the CRM and ERP hold separate price lists. How to give pricing one owner.
 lead: Quotes go out at one price and invoices at another because the CRM and the ERP hold separate product and price lists. Why it happens, what it costs, and how to give pricing one owner.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-03
@@ -15,10 +15,12 @@ budget_owner: CFO, sometimes shared with the commercial director
 sources:
   - What is Master Data Management? - IBM | https://www.ibm.com/think/topics/master-data-management
   - Define product pricing | https://learn.microsoft.com/en-us/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products
+  - Record special sales prices and discounts - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-record-sales-price-discount-payment-agreements
 related:
   - When every sales team builds its own version of the same product bundle | /discovery/when-every-sales-team-builds-its-own-product-bundle/
   - Why credit checks happen after sales has already promised delivery | /discovery/why-credit-checks-happen-after-sales-has-promised-delivery/
   - Why finance cannot trace an invoice back to the deal that approved it | /discovery/why-finance-cannot-trace-an-invoice-to-its-commercial-approval/
+  - Why pricing rules end up copied across the CRM, spreadsheets and the ERP | /discovery/why-the-same-pricing-rules-are-maintained-in-three-places-and-drift-apart/
 summary: Quotes go out at one price and invoices at another because the CRM and the ERP hold separate product and price lists. Why it happens, what it costs, and how to give pricing one owner.
 layout: plain
 ---
@@ -30,9 +32,9 @@ This article is about that operating condition: sales and finance using differen
 
 Sales quotes from one product list and price list. Finance invoices from another. The two lists started out the same but have drifted: new products added in one place only, prices updated on different dates, discounts structured differently, units of measure that do not match, product codes that were renamed. Each change made sense locally. Together they mean the business has no single answer to "what do we sell, and at what price?"
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Finance leaders tend to search for ways to stop invoice disputes, reconcile CRM and ERP pricing, or keep product lists in sync. Sales leaders want quotes that will not be contradicted by the invoice. The shared need is a single, trusted definition of products and prices, used by every system that quotes, orders or bills.
+Finance leaders tend to want ways to stop invoice disputes, reconcile CRM and ERP pricing, or keep product lists in sync. Sales leaders want quotes that will not be contradicted by the invoice. The shared need is a single, trusted definition of products and prices, used by every system that quotes, orders or bills.
 
 ## Evidence and system mechanism
 
@@ -108,7 +110,7 @@ Making finance the owner can slow sales if new products take time to be approved
 
 ## What good looks like
 
-One system holds the authoritative product and price list. A named steward controls changes. Every other system receives updates automatically, and the CRM's pricing rules are aligned with how finance invoices. Quotes and invoices agree by design, price increases are loaded once, and mismatches are found by a routine check rather than by a customer.
+One system holds the authoritative product and price list. A named steward controls changes. Every other system receives updates automatically, and the CRM's pricing rules are aligned with how finance invoices. Quotes and invoices agree by design, price increases are loaded once, and mismatches are found by a routine check rather than by a customer. Microsoft's Business Central documentation on [sales prices](https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-record-sales-price-discount-payment-agreements) shows the idea in its simplest form: a unit price specified once on the item is always the price used on sales documents.
 
 ## Where Mellorca fits
 

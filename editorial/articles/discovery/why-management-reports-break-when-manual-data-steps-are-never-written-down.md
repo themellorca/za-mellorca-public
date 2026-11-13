@@ -32,9 +32,9 @@ This is common in fast-growing businesses, where reporting built by hand for fif
 
 A transformation is anything done to data between the system that holds it and the report that shows it: filtering, re-coding, adding adjustments, joining two extracts, converting currency, or correcting known errors. In a healthy reporting process those steps are visible, repeatable and owned. In an unhealthy one they live in someone's head, in a hidden worksheet tab, or in a sequence of clicks that has never been recorded. The weakness shows only when the person leaves, the source system changes, or someone asks how a figure was derived.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The finance director, financial manager or head of operations searching for this problem usually wants four things: confidence that last month's numbers can be reproduced, protection against the loss of one key person, a faster close, and an answer when an auditor, lender or investor asks how a figure was built. They want the existing report to stop being fragile.
+The finance director, financial manager or head of operations facing this problem usually wants four things: confidence that last month's numbers can be reproduced, protection against the loss of one key person, a faster close, and an answer when an auditor, lender or investor asks how a figure was built. They want the existing report to stop being fragile.
 
 ## Evidence and system mechanism
 

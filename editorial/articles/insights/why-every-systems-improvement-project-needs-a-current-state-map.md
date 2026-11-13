@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-019
 slug: why-every-systems-improvement-project-needs-a-current-state-map
-title: Why Every Systems Improvement Project Needs a Current-State Map
-description: Most systems projects start with a picture of where the business wants to be and only a vague idea of where it is. A current-state map fixes that: it sets the scope, gives you a baseline to measure against and stops the new system from inheriting old problems.
+title: Why every systems improvement project needs a current-state map
+description: Projects start with a clear goal and a vague view of today. A current-state map sets scope, gives a baseline and stops old problems carrying over.
 lead: Most systems projects start with a picture of where the business wants to be and only a vague idea of where it is. A current-state map fixes that: it sets the scope, gives you a baseline to measure against and stops the new system from inheriting old problems.
 category: Digital Operations
 published_date: 2026-10-04

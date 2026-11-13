@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-351
 slug: why-do-former-employees-still-have-access
-title: Why Do Former Employees Still Have Access?
-description: Former staff keep access when it was bound to shared passwords, personal accounts, live sessions or their own integration keys rather than a company identity. Binding access to business-controlled identities makes offboarding complete by design.
+title: Why do former employees still have access?
+description: Former staff keep access when it was tied to shared passwords, personal accounts or their own keys. Tie access to company identities instead.
 lead: Former staff keep access when it was bound to shared passwords, personal accounts, live sessions or their own integration keys rather than a company identity. Binding access to business-controlled identities makes offboarding complete by design.
 category: Security, Access & Operational Risk
 published_date: 2026-10-03
@@ -18,9 +18,9 @@ sources:
   - Identity and access management | https://www.ncsc.gov.uk/collection/10-steps/identity-and-access-management
   - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
 related:
-  - Why AI Adoption Creates a New Access-Control Problem | /patterns/why-ai-adoption-creates-a-new-access-control-problem/
-  - When AI Agents Can Act but Governance Cannot See Them | /patterns/when-ai-agents-can-act-but-governance-cannot-see-them/
-  - The Difference Between Having Data and Having Visibility | /patterns/the-difference-between-having-data-and-having-visibility/
+  - Why AI adoption creates a new access-control problem | /patterns/why-ai-adoption-creates-a-new-access-control-problem/
+  - When AI agents can act but governance cannot see them | /patterns/when-ai-agents-can-act-but-governance-cannot-see-them/
+  - The difference between having data and having visibility | /patterns/the-difference-between-having-data-and-having-visibility/
 summary: Former staff keep access when it was bound to shared passwords, personal accounts, live sessions or their own integration keys rather than a company identity. Binding access to business-controlled identities makes offboarding complete by design.
 layout: plain
 ---
@@ -54,7 +54,9 @@ The visible symptom is a former employee who can still get in. The common assump
 - **Keys and automations created by individuals.** Integrations, API keys and scheduled automations are created under a person's account and keep working after they leave. The related issue is discussed in [why automations should not run on personal credentials](/discovery/why-automations-should-not-run-on-personal-credentials/).
 - **Unlisted applications.** Tools adopted by a team, often on a card, never reach the inventory used for offboarding, a gap explored in [why businesses cannot list all the applications they use](/discovery/why-businesses-cannot-list-all-applications-they-use/).
 
-Established guidance treats this as a basic control. The UK National Cyber Security Centre's guidance on [identity and access management](https://www.ncsc.gov.uk/collection/10-steps/identity-and-access-management) calls for policies on who should have access to what and why, covering staff, contractors and visitors; for joiner, mover and leaver processes that remove access when it is no longer needed; and for regular reviews of accounts and privileges. In South Africa, section 19 of POPIA requires a responsible party to secure the integrity and confidentiality of personal information through appropriate, reasonable technical and organisational measures, including identifying foreseeable internal and external risks and regularly verifying that safeguards are working, as set out on the [POPIA section 19 page](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/). A business that cannot say who can still reach its customer data will find that difficult to demonstrate.
+Established guidance treats this as a basic control. The UK National Cyber Security Centre's guidance on [identity and access management](https://www.ncsc.gov.uk/collection/10-steps/identity-and-access-management) calls for policies on who should have access to what and why, covering staff, contractors and visitors; for joiner, mover and leaver processes that remove access when it is no longer needed; and for regular reviews of accounts and privileges.
+
+In South Africa, section 19 of POPIA requires a responsible party to secure the integrity and confidentiality of personal information through appropriate, reasonable technical and organisational measures, including identifying foreseeable internal and external risks and regularly verifying that safeguards are working, as set out on the [POPIA section 19 page](https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/). A business that cannot say who can still reach its customer data will find that difficult to demonstrate.
 
 ## Commercial impact
 

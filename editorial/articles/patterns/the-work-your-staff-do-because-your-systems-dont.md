@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-014
 slug: the-work-your-staff-do-because-your-systems-dont
-title: The Work Your Staff Do Because Your Systems Don't
-description: Remembering deadlines, recalculating totals, checking rules and keeping private trackers: much of a team's day can be spent supplying capabilities the business's software lacks. Seeing that work for what it is changes what to fix.
+title: The work your staff do because your systems don't
+description: Much of a team's day goes on remembering deadlines, recalculating totals and keeping private trackers. See that work for what it is to fix the cause.
 lead: Remembering deadlines, recalculating totals, checking rules and keeping private trackers: much of a team's day can be spent supplying capabilities the business's software lacks. Seeing that work for what it is changes what to fix.
 category: Manual Work & Administrative Load
 published_date: 2026-10-04
@@ -18,9 +18,9 @@ sources:
   - Poka Yoke - A Resource Guide - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/poka-yoke/
   - What Is Workflow Automation? - IBM | https://www.ibm.com/think/topics/workflow-automation
 related:
-  - Why Staff Keep Checking the Same Things Over and Over | /patterns/why-staff-keep-checking-the-same-things-over-and-over/
-  - When Your Best People Spend Their Day on Low-Value Work | /patterns/when-your-best-people-spend-their-day-on-low-value-work/
-  - The Business Process That Only Works Because Someone Remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
+  - Why staff keep checking the same things over and over | /patterns/why-staff-keep-checking-the-same-things-over-and-over/
+  - When your best people spend their day on low-value work | /patterns/when-your-best-people-spend-their-day-on-low-value-work/
+  - The business process that only works because someone remembers | /patterns/the-business-process-that-only-works-because-someone-remembers/
 summary: Remembering deadlines, recalculating totals, checking rules and keeping private trackers: much of a team's day can be spent supplying capabilities the business's software lacks. Seeing that work for what it is changes what to fix.
 layout: plain
 ---
@@ -76,7 +76,7 @@ It is also often taken as evidence that the business needs entirely new software
 
 In a better state, the system remembers dates and prompts the right person, enforces the business's rules at the point of entry, rejects incomplete records, calculates the figures people need and shows the status of work without anyone maintaining a private tracker. Experienced staff still apply judgement, but on the cases that genuinely need it.
 
-IBM describes workflow automation as software executing all or part of a process in place of manual tasks. For the equipment dealer, that might mean using the dealer system's service scheduling feature, or a simple workflow connected to it, to generate service reminders automatically from the sale date and machine hours, with the administrator handling customer conversations rather than maintaining the list.
+IBM describes [workflow automation](https://www.ibm.com/think/topics/workflow-automation) as software executing all or part of a process in place of manual tasks. For the equipment dealer, that might mean using the dealer system's service scheduling feature, or a simple workflow connected to it, to generate service reminders automatically from the sale date and machine hours, with the administrator handling customer conversations rather than maintaining the list.
 
 ## Intervention
 

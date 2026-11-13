@@ -2,8 +2,8 @@
 hub: discovery
 record_id: DISC-288
 slug: why-undocumented-interface-mappings-make-change-risky
-title: Why Undocumented Interface Mappings Make Integration Change Risky
-description: When field mappings and interface assumptions are undocumented, application change becomes dependency archaeology and integration incidents become harder to diagnose.
+title: Why undocumented interface mappings make integration change risky
+description: Undocumented field mappings make application change risky and integration incidents harder to diagnose. Document the interfaces before you change them.
 lead: If teams cannot explain how fields, values and operations map across an interface, every system change starts with reconstructing assumptions from code, logs and memory.
 category: Integration & API Operations
 published_date: 2026-09-04
@@ -29,7 +29,7 @@ closing_title: Method note
 closing_text: The sources establish current contract and versioning mechanisms. The organisation's integration inventory and change history determine actual operational impact.
 related:
   - Why integration costs stay hidden inside application projects | /discovery/integration-costs-hidden-inside-application-projects/
-  - Why Integration Failures Should Not Route to Personal Inboxes | /discovery/why-integration-failures-should-not-route-to-personal-inboxes/
+  - Why integration failures should not route to personal inboxes | /discovery/why-integration-failures-should-not-route-to-personal-inboxes/
   - Message schemas evolve without version control | /discovery/message-schemas-evolve-without-version-control/
 ---
 ## The problem in plain language
@@ -38,9 +38,9 @@ One system sends a field called status, another expects a different enumeration,
 
 The same pattern appears with customer identifiers, currency codes, date formats, product categories and address fields. Each mapping made sense to the developer who wrote it. When that person moves on, the logic survives only in code, integration-platform configuration and the occasional log message. Every subsequent change starts with dependency archaeology: reading production configuration to rediscover what the interface actually does.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer needs interfaces to be understandable and changeable without relying on the memory of the original developer or discovering mappings during an outage. Search language is usually practical: “integration documentation”, “field mapping document”, “API contract management”, “impact analysis for system changes” or “who uses this API field”.
+Interfaces need to be understandable and changeable without relying on the memory of the original developer or discovering mappings during an outage. The questions are usually practical: “integration documentation”, “field mapping document”, “API contract management”, “impact analysis for system changes” or “who uses this API field”.
 
 The underlying need is confidence: when a system changes, the team should know which interfaces, fields and consumers are affected before the change, not after.
 

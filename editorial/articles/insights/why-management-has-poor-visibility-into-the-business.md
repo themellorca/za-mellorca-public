@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-251
 slug: why-management-has-poor-visibility-into-the-business
-title: Why Management Has Poor Visibility Into the Business
-description: Poor visibility is rarely caused by a missing dashboard. It comes from how work is recorded, how status travels and how far managers sit from the work. Understanding the causes is the first step to seeing the business clearly.
+title: Why management has poor visibility into the business
+description: Poor visibility is rarely caused by a missing dashboard. It comes from how work is recorded, how status travels and how far managers sit from the work.
 lead: Poor visibility is rarely caused by a missing dashboard. It comes from how work is recorded, how status travels and how far managers sit from the work. Understanding the causes is the first step to seeing the business clearly.
 category: Operations
 published_date: 2026-10-03
@@ -14,9 +14,9 @@ sources:
   - Gemba - What Does It Mean? - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/gemba/
   - The Kanban Guide - May 2025 (latest) - Kanban Guides | https://kanbanguides.org/english/
 related:
-  - Why Work Gets Lost Between Teams | /insights/why-work-gets-lost-between-teams/
-  - Poor Data Is an Operations Problem, Not Just a Data Problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
-  - How Much Manual Work Is Hiding Inside Your Business? | /insights/how-much-manual-work-is-hiding-inside-your-business/
+  - Why work gets lost between teams | /insights/why-work-gets-lost-between-teams/
+  - Poor data is an operations problem, not just a data problem | /insights/poor-data-is-an-operations-problem-not-just-a-data-problem/
+  - How much manual work is hiding inside your business? | /insights/how-much-manual-work-is-hiding-inside-your-business/
 summary: Poor visibility is rarely caused by a missing dashboard. It comes from how work is recorded, how status travels and how far managers sit from the work. Understanding the causes is the first step to seeing the business clearly.
 layout: plain
 ---
@@ -33,7 +33,7 @@ The usual response is to ask for a report or a dashboard. Sometimes that helps. 
 
 Accounting systems record invoices and payments. CRMs record deals won and lost. Most business systems are very good at recording the end of a piece of work and quite poor at recording the middle of it. A quote that has been waiting for technical input for nine days, a delivery held because one item is out of stock, an approval sitting in someone's inbox: none of these appear anywhere until they turn into a late invoice or a lost deal.
 
-The Kanban Guide is useful here because it insists on defining when a work item starts and when it finishes, and on tracking work item age, the elapsed time since a piece of work started. A business that cannot say how long its open items have been open cannot see trouble building up.
+[The Kanban Guide](https://kanbanguides.org/english/) is useful here because it insists on defining when a work item starts and when it finishes, and on tracking work item age, the elapsed time since a piece of work started. A business that cannot say how long its open items have been open cannot see trouble building up.
 
 ### 2. Status lives in conversations
 
@@ -53,7 +53,7 @@ If the weekly report needs someone to export from three systems and combine the 
 
 ### 6. Managers are far from the work
 
-The Lean Enterprise Institute describes the gemba as the place where value-creating work actually occurs, and argues that real improvement needs direct observation of conditions where the work is done rather than decisions made remotely. As businesses grow, owners naturally move away from the floor, the workshop, the call centre or the site. Reports replace observation. Without a deliberate habit of going to see, management's picture of the business becomes the picture its reports were designed to show.
+The Lean Enterprise Institute describes [the gemba](https://www.lean.org/lexicon-terms/gemba/) as the place where value-creating work actually occurs, and argues that real improvement needs direct observation of conditions where the work is done rather than decisions made remotely. As businesses grow, owners naturally move away from the floor, the workshop, the call centre or the site. Reports replace observation. Without a deliberate habit of going to see, management's picture of the business becomes the picture its reports were designed to show.
 
 ## An illustrative example
 
@@ -65,7 +65,7 @@ The business did not add a dashboard. It added three things: every project was g
 
 ## What good visibility looks like
 
-The Lean Enterprise Institute defines visual management as placing tools, activities and indicators of performance in plain view so that the status of the system can be understood at a glance by everyone involved. The words that matter are "at a glance" and "everyone". Good visibility does not require an analyst to interpret it, and it is not reserved for management.
+The Lean Enterprise Institute defines [visual management](https://www.lean.org/lexicon-terms/visual-management/) as placing tools, activities and indicators of performance in plain view so that the status of the system can be understood at a glance by everyone involved. The words that matter are "at a glance" and "everyone". Good visibility does not require an analyst to interpret it, and it is not reserved for management.
 
 In practice that usually means:
 

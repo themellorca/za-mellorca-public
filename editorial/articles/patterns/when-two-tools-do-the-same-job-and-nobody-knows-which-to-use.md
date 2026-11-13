@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-047
 slug: when-two-tools-do-the-same-job-and-nobody-knows-which-to-use
-title: When Two Tools Do the Same Job and Nobody Knows Which to Use
-description: Three task apps, two file stores and two chat platforms, each used by somebody. When software overlaps without a rule about what goes where, people spend their attention deciding where to work and where to look, and managers act on whichever tool they happen to check.
+title: When two tools do the same job and nobody knows which to use
+description: When overlapping tools have no rule on what goes where, people waste attention deciding where to work and managers act on whichever tool they check.
 lead: Three task apps, two file stores and two chat platforms, each used by somebody. When software overlaps without a rule about what goes where, people spend their attention deciding where to work and where to look, and managers act on whichever tool they happen to check.
 category: Disconnected Systems & Integration Friction
 published_date: 2026-10-06
@@ -18,9 +18,9 @@ sources:
   - Discover and manage Shadow IT - Microsoft Defender for Cloud Apps | https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-shadow-it
   - CIS Control 2: Inventory and Control of Software Assets | https://www.cisecurity.org/controls/inventory-and-control-of-software-assets
 related:
-  - When Work Goes Missing in the Gap Between Two Systems | /patterns/when-work-goes-missing-in-the-gap-between-two-systems/
-  - How Disconnected Tools Quietly Limit Scale | /patterns/how-disconnected-tools-quietly-limit-scale/
-  - Why Information Has to Be Copied From One System to Another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
+  - When work goes missing in the gap between two systems | /patterns/when-work-goes-missing-in-the-gap-between-two-systems/
+  - How disconnected tools quietly limit scale | /patterns/how-disconnected-tools-quietly-limit-scale/
+  - Why information has to be copied from one system to another | /patterns/why-information-has-to-be-copied-from-one-system-to-another/
 summary: Three task apps, two file stores and two chat platforms, each used by somebody. When software overlaps without a rule about what goes where, people spend their attention deciding where to work and where to look, and managers act on whichever tool they happen to check.
 layout: plain
 ---
@@ -36,7 +36,7 @@ An illustrative example: a Johannesburg logistics broker with around fifty staff
 
 Duplicated software is usually discussed as a licensing cost. The more important effect is on decisions, both small and large. Every time a person has to decide which tool to use, which list to check or which version to trust, they spend attention that should go to the work itself. When different people decide differently, information splits across tools, and every later decision is made on part of it.
 
-Even within one vendor's suite, overlapping tools need explaining. Microsoft publishes guidance on when to use To Do, Planner, Project or the Tasks app in Teams, because the products overlap and the right choice depends on the type of work. Without a similar decision made inside the business, each person chooses by habit.
+Even within one vendor's suite, overlapping tools need explaining. Microsoft publishes guidance on when to use To Do, Planner, Project or the [Tasks app in Teams](https://support.microsoft.com/en-us/project/when-to-use-microsoft-project-planner-to-do-or-the-tasks-app-in-teams), because the products overlap and the right choice depends on the type of work. Without a similar decision made inside the business, each person chooses by habit.
 
 Overlap also grows without anyone deciding it. Microsoft's guidance on discovering unsanctioned cloud apps notes that such apps are often used for legitimate work-related purposes that a sanctioned app did not address. In other words, people adopt a second tool because the first did not meet a need, and the business ends up with both.
 

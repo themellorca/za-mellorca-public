@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-088
 slug: when-every-sales-team-builds-its-own-product-bundle
 title: When every sales team builds its own version of the same product bundle
-description: When branches and channels each define their own version of a bundle, stock, invoicing and margin reporting drift apart. How to govern bundles without slowing sales.
+description: When branches and channels each define their own bundle, stock, invoicing and margin reporting drift apart. How to govern bundles without slowing sales.
 lead: When branches and channels each define their own version of a bundle, stock, invoicing and margin reporting drift apart. How to govern bundles without slowing sales.
 category: Quote-to-Cash & Revenue Operations
 published_date: 2026-10-04
@@ -18,7 +18,7 @@ sources:
   - Product bundles overview - Supply Chain Management - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/product-bundles-overview
 related:
   - Why every upsell means rebuilding the customer's deal from scratch | /discovery/why-every-upsell-means-rebuilding-the-customers-deal-from-scratch/
-  - Why Sales Quotes Have to Be Re-Keyed Before an Order Can Start | /discovery/why-sales-quotes-have-to-be-re-keyed-before-orders/
+  - Why sales quotes have to be re-keyed before an order can start | /discovery/why-sales-quotes-have-to-be-re-keyed-before-orders/
   - Why finance cannot trace an invoice back to the deal that approved it | /discovery/why-finance-cannot-trace-an-invoice-to-its-commercial-approval/
 summary: When branches and channels each define their own version of a bundle, stock, invoicing and margin reporting drift apart. How to govern bundles without slowing sales.
 layout: plain
@@ -31,9 +31,9 @@ This article looks at that operating condition: product bundles configured diffe
 
 A bundle is a commercial promise: these items, in these quantities, at this combined price, with these optional extras. When each sales team defines that promise for itself, the business ends up selling several different products under one name. The differences may be small, such as a different accessory, a different discount or a different service term, but they flow through to stock, delivery, invoicing, revenue and margin reporting.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-Sales operations and product managers search for ways to standardise product bundles, control discounting on packages, or manage kits across branches. Finance wants to know what was actually sold so that revenue and margin are reported correctly. Operations wants to pick and ship the right components. The shared need is one governed definition of each bundle, used by every team and channel, with deliberate and visible room for variation where the business wants it.
+Sales operations and product managers want ways to standardise product bundles, control discounting on packages, or manage kits across branches. Finance wants to know what was actually sold so that revenue and margin are reported correctly. Operations wants to pick and ship the right components. The shared need is one governed definition of each bundle, used by every team and channel, with deliberate and visible room for variation where the business wants it.
 
 ## Evidence and system mechanism
 

@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-062
 slug: when-every-department-reports-the-same-metric-differently
-title: When Every Department Reports the Same Metric Differently
-description: Sales, operations and finance each report a different figure under the same name, and the monthly meeting becomes a reconciliation exercise. Here is why that happens and how to settle it.
+title: When every department reports the same metric differently
+description: Sales, operations and finance report different figures under the same name, turning the monthly meeting into a reconciliation. Here is how to settle it.
 lead: Sales, operations and finance each report a different figure under the same name, and the monthly meeting becomes a reconciliation exercise. Here is why that happens and how to settle it.
 category: Data, Reporting & Management Visibility
 published_date: 2026-10-08
@@ -18,9 +18,9 @@ sources:
   - What Are Data Silos? - IBM | https://www.ibm.com/think/topics/data-silos
   - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
 related:
-  - Why Reporting Delays Become Decision Delays | /patterns/why-reporting-delays-become-decision-delays/
-  - The Hidden Cost of Waiting for Management Information | /patterns/the-hidden-cost-of-waiting-for-management-information/
-  - When Operational Problems Are Discovered in the Monthly Meeting | /patterns/when-operational-problems-are-discovered-in-the-monthly-meeting/
+  - Why reporting delays become decision delays | /patterns/why-reporting-delays-become-decision-delays/
+  - The hidden cost of waiting for management information | /patterns/the-hidden-cost-of-waiting-for-management-information/
+  - When operational problems are discovered in the monthly meeting | /patterns/when-operational-problems-are-discovered-in-the-monthly-meeting/
 summary: Sales, operations and finance each report a different figure under the same name, and the monthly meeting becomes a reconciliation exercise. Here is why that happens and how to settle it.
 layout: plain
 ---
@@ -69,7 +69,7 @@ Targets and incentives suffer too. If a bonus depends on "customers acquired", t
 
 ## Common misidentification
 
-The usual response is to appoint someone to "clean the data". That helps for one month and then the numbers drift again, because the cause is the definition, not the data entry. Another response is to buy a dashboard platform so that everyone looks at the same screen. A shared screen showing a contested number only makes the contest more public. Microsoft's documentation on scheduled refresh in Power BI is a useful reminder that even with one tool, a dashboard shows the data as of the last refresh and according to the model behind it. The model still has to encode a decision somebody made.
+The usual response is to appoint someone to "clean the data". That helps for one month and then the numbers drift again, because the cause is the definition, not the data entry. Another response is to buy a dashboard platform so that everyone looks at the same screen. A shared screen showing a contested number only makes the contest more public. Microsoft's documentation on scheduled [refresh in Power BI](https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data) is a useful reminder that even with one tool, a dashboard shows the data as of the last refresh and according to the model behind it. The model still has to encode a decision somebody made.
 
 A third response is to declare one department's figure "the official one" by seniority. This ends the argument but not the problem: the other departments continue to run their work against their own numbers, and the official figure is quietly distrusted.
 

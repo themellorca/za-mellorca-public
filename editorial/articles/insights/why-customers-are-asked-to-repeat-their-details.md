@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-280
 slug: why-customers-are-asked-to-repeat-their-details
-title: Why Customers Keep Being Asked for the Same Information
-description: When a customer has to give the same address, ID number or order details for the third time, the cause is almost never rudeness. It is disconnected records and unclear handoffs. How it happens and how to stop it.
+title: Why customers keep being asked for the same information
+description: When customers repeat the same details a third time, the cause is disconnected records and unclear handoffs, not rudeness. How to stop it.
 lead: When a customer has to give the same address, ID number or order details for the third time, the cause is almost never rudeness. It is disconnected records and unclear handoffs. How it happens and how to stop it.
 category: Customer Operations
 published_date: 2026-10-09
@@ -15,8 +15,9 @@ sources:
   - Section 18 Notification to data subject when collecting personal information - POPIA | https://popia.co.za/section-18-notification-to-data-subject-when-collecting-personal-information/
 related:
   - Why customer onboarding breaks as the business grows | /insights/why-customer-onboarding-breaks-as-the-business-grows/
-  - How Duplicate Customer Records Are Created | /insights/how-duplicate-customer-records-are-created/
-  - What Your CRM Should Actually Do for the Business | /insights/the-five-jobs-a-crm-should-do-for-a-growing-business/
+  - How duplicate customer records are created | /insights/how-duplicate-customer-records-are-created/
+  - What your CRM should actually do for the business | /insights/the-five-jobs-a-crm-should-do-for-a-growing-business/
+  - The small joy of a form that remembers you | /moments/the-small-joy-of-a-follow-up-form-that-remembers-you/
 summary: When a customer has to give the same address, ID number or order details for the third time, the cause is almost never rudeness. It is disconnected records and unclear handoffs. How it happens and how to stop it.
 layout: plain
 ---
@@ -49,7 +50,9 @@ Sometimes the information is there, but nobody trusts it. A new contact number m
 
 ## Why this matters beyond politeness
 
-Repetition costs time on both sides, increases the chance of inconsistent answers, and gives errors a second chance to enter the system. It is also a signal that is easy to dismiss and expensive to ignore. In South Africa it has a legal angle as well. Section 13 of the Protection of Personal Information Act says personal information must be collected for a specific, explicitly defined and lawful purpose, and section 18 deals with making the person aware of what is collected and why. A business that asks for the same personal details several times, through several unconnected channels, is also creating several places where that information must be protected, justified and kept accurate. Collecting once, and using what it already holds, is both better service and better practice.
+Repetition costs time on both sides, increases the chance of inconsistent answers, and gives errors a second chance to enter the system. It is also a signal that is easy to dismiss and expensive to ignore. In South Africa it has a legal angle as well.
+
+Section 13 of the Protection of [Personal Information](https://popia.co.za/section-18-notification-to-data-subject-when-collecting-personal-information/) Act says personal information must be collected for a specific, explicitly defined and lawful purpose, and section 18 deals with making the person aware of what is collected and why. A business that asks for the same personal details several times, through several unconnected channels, is also creating several places where that information must be protected, justified and kept accurate. Collecting once, and using what it already holds, is both better service and better practice.
 
 ## How to reduce it
 

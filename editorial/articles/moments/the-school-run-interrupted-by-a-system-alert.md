@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000030
 slug: the-school-run-interrupted-by-a-system-alert
-title: The School Run Interrupted by a System Alert
-description: An alert arrives at exactly the wrong moment, to a person who may not be able to act on it. What a single badly routed alert takes from someone's morning, and how deciding who gets alerted, about what, changes that.
+title: The school run interrupted by a system alert
+description: An alert reaches someone who cannot act on it. What one badly routed alert costs a morning, and how deciding who gets alerted helps.
 lead: An alert arrives at exactly the wrong moment, to a person who may not be able to act on it. What a single badly routed alert takes from someone's morning, and how deciding who gets alerted, about what, changes that.
 category: Time & Attention
 published_date: 2026-10-05
@@ -19,9 +19,9 @@ sources:
   - Google SRE - On Call Engineer Best Practices for IT Services | https://sre.google/sre-book/being-on-call/
   - Escalation Policy Basics | https://support.pagerduty.com/main/docs/escalation-policies
 related:
-  - The Report Someone Rebuilds by Hand Every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
-  - When Payroll Week Means Late Nights for One Person | /moments/when-payroll-week-means-late-nights-for-one-person/
-  - When Sunday Evening Becomes Monday Morning | /moments/when-sunday-evening-becomes-monday-morning/
+  - The report someone rebuilds by hand every Friday | /moments/the-report-someone-rebuilds-by-hand-every-friday/
+  - When payroll week means late nights for one person | /moments/when-payroll-week-means-late-nights-for-one-person/
+  - When Sunday evening becomes Monday morning | /moments/when-sunday-evening-becomes-monday-morning/
 summary: An alert arrives at exactly the wrong moment, to a person who may not be able to act on it. What a single badly routed alert takes from someone's morning, and how deciding who gets alerted, about what, changes that.
 layout: plain
 ---
@@ -41,9 +41,9 @@ None of those ingredients is unusual in smaller businesses. Alerts are often set
 
 ## What the engineering guidance says about alerts
 
-Organisations that run large systems around the clock have thought carefully about this. Google's Site Reliability Engineering book, in its chapter on monitoring distributed systems, states plainly that paging a human is an expensive use of an employee's time, and argues that an alert which interrupts a person should be urgent, actionable and related to something users are experiencing or about to experience. It also warns that when alerts arrive too often, people start to second-guess, skim or ignore them.
+Organisations that run large systems around the clock have thought carefully about this. Google's Site Reliability Engineering book, in its [chapter on monitoring distributed systems](https://sre.google/sre-book/monitoring-distributed-systems/), states plainly that paging a human is an expensive use of an employee's time, and argues that an alert which interrupts a person should be urgent, actionable and related to something users are experiencing or about to experience. It also warns that when alerts arrive too often, people start to second-guess, skim or ignore them.
 
-The same book's chapter on being on call recommends clear escalation paths and well-defined incident procedures, and suggests a limit on how many incidents one person should handle in a twelve-hour shift, so that the work stays sustainable. Incident tools such as PagerDuty reflect the same thinking: their escalation policies notify whoever is on call according to a schedule, and move to the next responder if nobody acknowledges within a set time.
+The same book's [chapter on being on call](https://sre.google/sre-book/being-on-call/) recommends clear escalation paths and well-defined incident procedures, and suggests a limit on how many incidents one person should handle in a twelve-hour shift, so that the work stays sustainable. Incident tools such as PagerDuty reflect the same thinking: their [escalation policies](https://docs.pagerduty.com/incident-management/schedules/escalation-policies) notify whoever is on call according to a schedule, and move to the next responder if nobody acknowledges within a set time.
 
 A business with a handful of systems and no IT department does not need site reliability engineering. But the principles scale down well. An alert should reach someone who can act, at a time when acting makes sense, about something that genuinely needs action.
 

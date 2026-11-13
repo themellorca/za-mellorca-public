@@ -2,7 +2,7 @@
 hub: patterns
 record_id: PAT-485
 slug: when-every-department-optimizes-its-part-but-the-whole-process-gets-worse
-title: When Every Department Optimizes Its Part but the Whole Process Gets Worse
+title: When every department optimizes its part but the whole process gets worse
 description: A business can improve departmental metrics while end-to-end flow deteriorates when local optimisation outruns ownership of the whole value stream.
 lead: Local performance can improve while the customer-facing flow deteriorates if nobody owns the complete journey across departmental boundaries.
 category: Executive Operating Model, Decisions & Resilience
@@ -23,10 +23,11 @@ commercial_value_dimensions: Cycle time, Margin, Customer experience, Strategic 
 sources:
   - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
   - Lean Business-IT Integration, Part Two: Obstacles to Value-Stream Transformation - Lean Enterprise Institute | https://www.lean.org/the-lean-post/articles/lean-business-it-integration-part-two-obstacles-to-value-stream-transformation/
+  - Theory of Constraints - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/theory-of-constraints/
 related:
-  - The Signs That Your Business Needs an Operating System, Not Another App | /patterns/signs-your-business-needs-an-operating-system-not-another-app/
-  - The Process That Gets Slower Every Time Volume Increases | /patterns/the-process-that-gets-slower-every-time-volume-increases/
-  - When Cash Collection Depends on Someone Remembering to Follow Up | /patterns/when-cash-collection-depends-on-someone-remembering-to-follow-up/
+  - The signs that your business needs an operating system, not another app | /patterns/signs-your-business-needs-an-operating-system-not-another-app/
+  - The process that gets slower every time volume increases | /patterns/the-process-that-gets-slower-every-time-volume-increases/
+  - When cash collection depends on someone remembering to follow up | /patterns/when-cash-collection-depends-on-someone-remembering-to-follow-up/
 summary: Departmental improvement does not guarantee end-to-end improvement. Making the complete value stream visible and accountable helps the business judge local decisions by their effect on total flow, margin and customer outcomes.
 ---
 ## Observable condition
@@ -37,7 +38,7 @@ The monthly reviews look healthy. Each department reports its own measures, most
 
 ## Realisation
 
-A company is not experienced by customers as separate departments. Work moves horizontally across those departments from demand to fulfilment, service, billing and resolution. If every function optimises only its own measure, the result can be a collection of locally efficient steps connected by increasingly inefficient waits and handoffs.
+A company is not experienced by customers as separate departments. Work moves horizontally across those departments from demand to fulfilment, service, billing and resolution. If every function optimises only its own measure, the result can be a collection of locally efficient steps connected by increasingly inefficient waits and handoffs. The Lean Enterprise Institute describes both [lean and the theory of constraints](https://www.lean.org/lexicon-terms/theory-of-constraints/) as looking at the whole system instead of optimising individual parts.
 
 The point that is easy to miss is that the departmental scorecards may all be accurate. Nobody is misreporting. The scorecards simply do not measure the time work spends between departments, which is often where most of the elapsed time sits.
 
@@ -52,7 +53,7 @@ This is a **local-optimisation and end-to-end operating-model problem**.
 
 The mechanism is usually structural: departmental metrics reward local utilisation or risk reduction, queues are invisible outside the function, handoff costs belong to nobody and there is no accountable owner for end-to-end flow. Lean value-stream thinking explicitly distinguishes improving the whole flow from merely optimising individual parts. The operating problem is not that departments are behaving irrationally; it is that the system can reward rational local behaviour that produces a weaker total outcome.
 
-The Lean Enterprise Institute's description of value-stream mapping puts this as improving the whole, not just optimising the parts, and stresses that the map shows how information flow and material flow link together. In a separate Lean Enterprise Institute article on business and IT value streams, Steve Bell describes functions and departments seeking to fully utilise their assets and optimise their own performance, often at the expense of the value stream.
+The Lean Enterprise Institute's description of value-stream mapping puts this as improving the whole, not just optimising the parts, and stresses that the map shows how information flow and material flow link together. In a separate Lean Enterprise Institute article on business and IT value streams, Steve Bell describes functions and departments seeking to fully utilise their assets and optimise their own performance, often at the expense of the [value stream](https://www.lean.org/lexicon-terms/value-stream-mapping/).
 
 ### How local improvements make the whole worse
 
@@ -87,7 +88,7 @@ A second misidentification is to buy a tool for the department with the loudest 
 
 ## Possibility
 
-A stronger model adds an end-to-end view alongside functional accountability. The business can define the value stream, measure total cycle time and completion, make queues visible, assign ownership across handoffs and evaluate local improvements by their effect on the whole process.
+A stronger model adds an end-to-end view alongside functional accountability. The business can define the [value stream](https://www.lean.org/the-lean-post/articles/lean-business-it-integration-part-two-obstacles-to-value-stream-transformation/), measure total cycle time and completion, make queues visible, assign ownership across handoffs and evaluate local improvements by their effect on the whole process.
 
 This does not mean abolishing departments or their measures. Functional expertise and controls remain necessary. The change is that a flow-level measure sits above them, and local decisions are tested against it.
 

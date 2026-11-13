@@ -2,8 +2,8 @@
 hub: patterns
 record_id: PAT-402
 slug: when-customers-know-their-order-is-late-before-your-team-does
-title: When Customers Know Their Order Is Late Before Your Team Does
-description: If customers are the first to notice a missed delivery date, the business has no way of comparing its promises with its progress. Here is why late orders stay invisible internally, and how to detect them first.
+title: When customers know their order is late before your team does
+description: If customers are first to notice a missed delivery date, the business cannot compare promises with progress. Learn how to detect late orders first.
 lead: If customers are the first to notice a missed delivery date, the business has no way of comparing its promises with its progress. Here is why late orders stay invisible internally, and how to detect them first.
 category: Orders, Fulfilment & Logistics
 published_date: 2026-10-07
@@ -18,9 +18,10 @@ sources:
   - Event-Driven Architecture | https://aws.amazon.com/event-driven-architecture/
   - Business events overview - Finance & Operations - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/business-events/home-page
 related:
-  - Why Returns Become a Cross-Department Investigation | /patterns/why-returns-become-a-cross-department-investigation/
-  - Why the Same Problems Return After You Replace the System | /patterns/why-the-same-problems-return-after-you-replace-the-system/
-  - When Client Onboarding Becomes a Growth Constraint | /patterns/when-client-onboarding-becomes-a-growth-constraint/
+  - Why returns become a cross-department investigation | /patterns/why-returns-become-a-cross-department-investigation/
+  - Why the same problems return after you replace the system | /patterns/why-the-same-problems-return-after-you-replace-the-system/
+  - When client onboarding becomes a growth constraint | /patterns/when-client-onboarding-becomes-a-growth-constraint/
+  - When order status lives in several systems | /patterns/when-the-true-status-of-an-order-is-spread-across-several-systems/
 summary: If customers are the first to notice a missed delivery date, the business has no way of comparing its promises with its progress. Here is why late orders stay invisible internally, and how to detect them first.
 layout: plain
 ---
@@ -38,7 +39,7 @@ The customer knows first because the customer is the only party comparing the pr
 
 Most business systems record things that happen: an order is created, a pick is completed, a waybill is printed. They are much worse at noticing things that should have happened and did not. A missing event produces no record, no notification and no task. It is silent by design.
 
-Google's site reliability engineering guidance makes a similar distinction for technical systems. It separates monitoring of what users actually experience, the symptom, from monitoring of internal causes, and argues that alerting effort is better spent on catching symptoms. In order operations, the symptom that matters to the customer is a date that has passed. If the business does not measure that, the customer does it instead.
+Google's [site reliability engineering guidance](https://sre.google/sre-book/monitoring-distributed-systems/) makes a similar distinction for technical systems. It separates monitoring of what users actually experience, the symptom, from monitoring of internal causes, and argues that alerting effort is better spent on catching symptoms. In order operations, the symptom that matters to the customer is a date that has passed. If the business does not measure that, the customer does it instead.
 
 **Realisation prompt:** of the late orders last month, how many did your team spot before the customer asked?
 
@@ -76,7 +77,7 @@ Another response is to buy a customer-facing tracking page. Tracking helps when 
 
 In a better state, every order carries its promised date and its expected milestones as data. Each step, such as picked, packed, collected or delivered, records an event when it happens. A simple rule compares expected and actual: when an order misses a milestone, an exception is raised to a named person, with the reason if it is known. That person decides what to do and tells the customer before the customer has to ask.
 
-Event-driven designs are built for exactly this kind of flow. AWS describes an event as a change in state, published by one system and routed to the systems or people that need to react, without the systems having to know about each other. Business applications increasingly expose these events directly; Microsoft's Dynamics 365 documentation, for example, describes business events that let external systems and automation tools receive notifications when a business action occurs.
+Event-driven designs are built for exactly this kind of flow. [AWS describes an event](https://aws.amazon.com/event-driven-architecture/) as a change in state, published by one system and routed to the systems or people that need to react, without the systems having to know about each other. Business applications increasingly expose these events directly; Microsoft's Dynamics 365 documentation, for example, describes [business events](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/business-events/home-page) that let external systems and automation tools receive notifications when a business action occurs.
 
 For the catering supplier, that could mean the warehouse marking a short item on the order, which immediately flags the order to the sales person with the promised date and proposes options: wait, split or substitute.
 

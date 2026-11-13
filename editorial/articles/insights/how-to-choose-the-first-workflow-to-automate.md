@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-153
 slug: how-to-choose-the-first-workflow-to-automate
-title: How to Choose the First Workflow to Automate
-description: The first automation a business builds does more than save time. It sets expectations, teaches the team how automation is run and decides whether there will be a second. Why the first choice deserves different criteria from later ones, and a short method for making it.
+title: How to choose the first workflow to automate
+description: The first automation sets expectations and decides whether there is a second. Why it needs different criteria from later ones, and how to choose it.
 lead: The first automation a business builds does more than save time. It sets expectations, teaches the team how automation is run and decides whether there will be a second. Why the first choice deserves different criteria from later ones, and a short method for making it.
 category: Automation
 published_date: 2026-10-07
@@ -14,9 +14,10 @@ sources:
   - What Is Workflow Automation? - IBM | https://www.ibm.com/think/topics/workflow-automation
   - What is Process Mining? - IBM | https://www.ibm.com/think/topics/process-mining
 related:
-  - How to Know Whether an Automation Actually Ran | /insights/how-to-know-whether-an-automation-actually-ran/
-  - What Business Automation Should Actually Solve | /insights/what-business-automation-should-actually-solve/
-  - The Difference Between Necessary Human Work and Avoidable Manual Work | /insights/the-difference-between-necessary-human-work-and-avoidable-manual-work/
+  - How to know whether an automation actually ran | /insights/how-to-know-whether-an-automation-actually-ran/
+  - What business automation should actually solve | /insights/what-business-automation-should-actually-solve/
+  - The difference between necessary human work and avoidable manual work | /insights/the-difference-between-necessary-human-work-and-avoidable-manual-work/
+  - What makes an automation worth building | /insights/what-makes-an-automation-worth-building/
 summary: The first automation a business builds does more than save time. It sets expectations, teaches the team how automation is run and decides whether there will be a second. Why the first choice deserves different criteria from later ones, and a short method for making it.
 layout: plain
 ---

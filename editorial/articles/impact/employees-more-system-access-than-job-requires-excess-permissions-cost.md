@@ -2,8 +2,8 @@
 hub: impact
 record_id: CPS-131
 slug: employees-more-system-access-than-job-requires-excess-permissions-cost
-title: More Access Than the Job Needs: The Financial Cost of Excessive Permissions
-description: Staff who keep or are given broader system rights than their role needs create fraud exposure, accidental damage, licence waste and audit friction. Access scoped to the job is a cheap, practical control.
+title: More access than the job needs: The financial cost of excessive permissions
+description: Staff with wider system rights than their role needs create fraud exposure, accidental damage, licence waste and audit friction. Scope access to the job.
 lead: Staff who keep or are given broader system rights than their role needs create fraud exposure, accidental damage, licence waste and audit friction. Access scoped to the job is a cheap, practical control.
 category: Security & Access
 published_date: 2026-10-08
@@ -18,9 +18,10 @@ sources:
   - What are access reviews? - Microsoft Entra - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview
   - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
 related:
-  - Software Bought Without Approval: The Financial and Security Cost of Shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
-  - Important Accounts Without MFA: The Cost of Preventable Takeover | /impact/accounts-without-mfa-financial-risk/
-  - Gone but Still Logged In: The Cost of Incomplete Employee Offboarding | /impact/former-employees-still-active-systems-incomplete-offboarding-cost/
+  - Software bought without approval: The financial and security cost of shadow IT | /impact/software-bought-without-approval-shadow-it-cost/
+  - Important accounts without MFA: The cost of preventable takeover | /impact/accounts-without-mfa-financial-risk/
+  - Gone but still logged in: The cost of incomplete employee offboarding | /impact/former-employees-still-active-systems-incomplete-offboarding-cost/
+  - When access requests depend on messages and memory | /patterns/when-system-access-is-granted-through-chat-messages-and-memory/
 summary: Staff who keep or are given broader system rights than their role needs create fraud exposure, accidental damage, licence waste and audit friction. Access scoped to the job is a cheap, practical control.
 layout: plain
 ---

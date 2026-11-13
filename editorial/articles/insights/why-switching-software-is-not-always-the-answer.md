@@ -2,8 +2,8 @@
 hub: insights
 record_id: INS-043
 slug: why-switching-software-is-not-always-the-answer
-title: Why Switching Software Is Not Always the Answer
-description: When a system frustrates everyone, replacing it feels like progress. But many of the problems blamed on software travel with the business to the next platform. How to tell whether the software is really the problem, what switching actually costs, and what to try first.
+title: Why switching software is not always the answer
+description: When a system frustrates everyone, replacing it feels like progress, yet many problems follow you to the next platform. How to tell, and what to try first.
 lead: When a system frustrates everyone, replacing it feels like progress. But many of the problems blamed on software travel with the business to the next platform. How to tell whether the software is really the problem, what switching actually costs, and what to try first.
 category: Systems & Strategy
 published_date: 2026-10-05
@@ -14,8 +14,8 @@ sources:
   - Choosing technology: an introduction | https://www.gov.uk/service-manual/technology/choosing-technology-an-introduction
   - Optimize your implementation with a fit-to-standard and fit-gap analysis - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/process-focused-solution-fit-to-standard-fit-gap-analysis
 related:
-  - How to Decide Whether to Replace or Reconfigure a System | /insights/how-to-decide-whether-to-replace-or-reconfigure-a-system/
-  - When Two Tools Are Doing the Job of One | /insights/when-two-tools-are-doing-the-job-of-one/
+  - How to decide whether to replace or reconfigure a system | /insights/how-to-decide-whether-to-replace-or-reconfigure-a-system/
+  - When two tools are doing the job of one | /insights/when-two-tools-are-doing-the-job-of-one/
   - How to decide what technology problem to solve first | /insights/how-to-decide-what-technology-problem-to-solve-first/
 summary: When a system frustrates everyone, replacing it feels like progress. But many of the problems blamed on software travel with the business to the next platform. How to tell whether the software is really the problem, what switching actually costs, and what to try first.
 layout: plain

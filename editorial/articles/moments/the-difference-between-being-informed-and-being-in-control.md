@@ -2,8 +2,8 @@
 hub: moments
 record_id: STORY-ANGLE-000055
 slug: the-difference-between-being-informed-and-being-in-control
-title: The Difference Between Being Informed and Being in Control
-description: A manager can see nearly everything and change nearly none of it. Why reporting often delivers awareness without agency, what that gap takes from people, and how thresholds, routing and bounded actions turn information into a real say in what happens next.
+title: The difference between being informed and being in control
+description: A manager can see nearly everything and change almost none of it. How thresholds, routing and bounded actions turn reporting into a real say.
 lead: A manager can see nearly everything and change nearly none of it. Why reporting often delivers awareness without agency, what that gap takes from people, and how thresholds, routing and bounded actions turn information into a real say in what happens next.
 category: Human Agency
 published_date: 2026-10-07
@@ -19,9 +19,10 @@ sources:
   - The AQuA Book | https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government
   - Set data alerts in the Power BI service - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
 related:
-  - Why Teams Stop Suggesting Improvements | /moments/why-teams-stop-suggesting-improvements/
-  - The Manager Who Can't Act Without the Founder | /moments/the-manager-who-cant-act-without-the-founder/
-  - The Owner Who Can't Decide Without the Spreadsheet Wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - Why teams stop suggesting improvements | /moments/why-teams-stop-suggesting-improvements/
+  - The manager who can't act without the founder | /moments/the-manager-who-cant-act-without-the-founder/
+  - The owner who can't decide without the spreadsheet wizard | /moments/the-owner-who-cant-decide-without-the-spreadsheet-wizard/
+  - Why control without visibility is only anxiety | /moments/why-control-without-visibility-is-only-anxiety/
 summary: A manager can see nearly everything and change nearly none of it. Why reporting often delivers awareness without agency, what that gap takes from people, and how thresholds, routing and bounded actions turn information into a real say in what happens next.
 layout: plain
 ---
@@ -48,7 +49,7 @@ Few businesses design this gap on purpose. It tends to emerge from the way repor
 - **Figures arrive after the moment has passed.** A weekly pack describes a week that cannot be changed. Mellorca has covered this in [when the weekly report is already out of date](/patterns/when-the-weekly-report-is-already-out-of-date/).
 - **Nothing says what counts as a problem.** Without agreed thresholds, every number needs interpretation, and interpretation takes time and confidence.
 
-The UK Government's AQuA Book, its guidance on producing quality analysis, starts from a role it calls the commissioner: the person who requests analysis and sets out their requirements. That is a useful discipline for any business. Reporting that begins from the question "what will this person decide with it?" looks very different from reporting that begins with "what data do we have?"
+The UK Government's [AQuA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government), its guidance on producing quality analysis, starts from a role it calls the commissioner: the person who requests analysis and sets out their requirements. That is a useful discipline for any business. Reporting that begins from the question "what will this person decide with it?" looks very different from reporting that begins with "what data do we have?"
 
 ## The human tax
 
@@ -63,7 +64,7 @@ In this scenario, a branch manager notices that a fast-moving product has been o
 ## What could realistically change
 
 1. **Start reports from decisions.** For each role, list the decisions that person actually makes. Show them what they need for those decisions first, and the rest on request.
-2. **Attach a threshold to each important figure.** Agree what level counts as a problem. Reporting tools can then alert the right person when it is crossed. Microsoft's documentation for Power BI describes data alerts that notify a user when a figure on a dashboard tile moves beyond a limit they set, and notes that alerts only work on refreshed data. The point is not the tool but the habit: a number with a threshold asks for action; a number without one asks for interpretation.
+2. **Attach a threshold to each important figure.** Agree what level counts as a problem. Reporting tools can then alert the right person when it is crossed. Microsoft's documentation for [Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts) describes data alerts that notify a user when a figure on a dashboard tile moves beyond a limit they set, and notes that alerts only work on refreshed data. The point is not the tool but the habit: a number with a threshold asks for action; a number without one asks for interpretation.
 3. **Pair visibility with a bounded action.** If a branch manager will see stock-outs, give them a defined way to act on them, such as raising an urgent order within limits, or a guaranteed response from the buyer within a set time.
 4. **Route the alert to the person with the lever.** Where the viewer cannot act, make sure the person who can is told directly, not just copied on a report.
 5. **Remove reports that nobody acts on.** Fewer, sharper reports leave more attention for the ones that matter.

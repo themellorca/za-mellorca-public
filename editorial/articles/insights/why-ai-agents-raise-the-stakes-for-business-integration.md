@@ -2,7 +2,7 @@
 hub: insights
 record_id: INS-074
 slug: why-ai-agents-raise-the-stakes-for-business-integration
-title: Why Integration Is Becoming More Important in the Age of AI Agents
+title: Why integration is becoming more important in the age of AI agents
 description: AI agents act through the systems they can reach, so weak connections between your applications now limit what automation can safely do.
 lead: AI agents act through the systems they can reach, so weak connections between your applications now limit what automation can safely do.
 category: Integration
@@ -14,9 +14,9 @@ sources:
   - REL04-BP04 Make mutating operations idempotent - Reliability Pillar | https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/rel_prevent_interaction_failure_idempotent.html
   - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
 related:
-  - How to Connect Systems Without Creating a Fragile Web of Dependencies | /insights/how-to-connect-systems-without-creating-a-fragile-web-of-dependencies/
-  - Why Integration Projects Fail at the Handoffs | /insights/why-integration-projects-fail-at-the-handoffs/
-  - How to Know When Your Integration Architecture Needs Redesigning | /insights/warning-signs-your-integration-architecture-has-outgrown-its-design/
+  - How to connect systems without creating a fragile web of dependencies | /insights/how-to-connect-systems-without-creating-a-fragile-web-of-dependencies/
+  - Why integration projects fail at the handoffs | /insights/why-integration-projects-fail-at-the-handoffs/
+  - How to know when your integration architecture needs redesigning | /insights/warning-signs-your-integration-architecture-has-outgrown-its-design/
 summary: AI agents act through the systems they can reach, so weak connections between your applications now limit what automation can safely do.
 layout: plain
 ---
@@ -28,7 +28,7 @@ AI agents change that arrangement. An agent is software that is given a goal, de
 
 It is tempting to think of an AI agent as a clever new employee who will work out how your business runs. In practice an agent is closer to a very fast temporary worker who has been handed a set of keys. Every system it can open, every record it can read and every button it can press exists because someone built a connection to it.
 
-The Model Context Protocol, an open standard for connecting AI applications to external systems, describes the idea plainly. It likens the protocol to a USB-C port: a standard way for an AI application to reach data sources, tools and workflows. The useful point for a business owner is not the technology itself but the principle behind it. An agent is only as capable as the set of well-defined connections it is offered. If your customer information sits in three places with no agreed way to reach any of them, there is nothing sensible to plug the agent into.
+The [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro), an open standard for connecting AI applications to external systems, describes the idea plainly. It likens the protocol to a USB-C port: a standard way for an AI application to reach data sources, tools and workflows. The useful point for a business owner is not the technology itself but the principle behind it. An agent is only as capable as the set of well-defined connections it is offered. If your customer information sits in three places with no agreed way to reach any of them, there is nothing sensible to plug the agent into.
 
 Our article on [what AI agents need before they can do useful work](/insights/what-ai-agents-need-before-they-can-do-useful-work/) covers the broader prerequisites. Here we concentrate on one of them, the connections, because it is the one most often assumed to be in place when it is not.
 
@@ -56,7 +56,7 @@ If actions flow through a tangle of point-to-point links, reconstructing what ha
 
 ## Why this is a risk-management question, not only a technical one
 
-The US National Institute of Standards and Technology publishes a voluntary AI Risk Management Framework to help organisations build trustworthiness into how AI systems are designed, used and evaluated. NIST's page presents it around four elements: govern, map, measure and manage. You do not need to adopt the framework wholesale to borrow its logic, and the logic maps neatly onto integration.
+The US National Institute of Standards and Technology publishes a voluntary [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) to help organisations build trustworthiness into how AI systems are designed, used and evaluated. NIST's page presents it around four elements: govern, map, measure and manage. You do not need to adopt the framework wholesale to borrow its logic, and the logic maps neatly onto integration.
 
 - **Govern:** someone is accountable for each connection an agent uses. Our piece on [why every important integration needs an owner](/insights/why-every-important-integration-needs-an-owner/) explains what that means in practice.
 - **Map:** you know which systems the agent can read, which it can change and which it cannot touch at all.

@@ -3,7 +3,7 @@ hub: discovery
 record_id: DISC-475
 slug: retired-processes-leave-orphaned-automations-running
 title: Retired processes leave orphaned automations running
-description: When a process, branch or system is retired, the automations built around it often keep running. How to find orphaned automations, assign ownership and retire them safely.
+description: When a process, branch or system is retired, automations built around it often keep running. How to find them, assign ownership and retire them safely.
 lead: When a process, branch or system is retired, the automations built around it often keep running. How to find orphaned automations, assign ownership and retire them safely.
 category: AI, Automation & Agent Operations
 published_date: 2026-10-03
@@ -15,10 +15,12 @@ budget_owner: IT budget holder/COO
 sources:
   - Manage orphaned flows when owner leaves organization - Power Automate | https://learn.microsoft.com/en-us/troubleshoot/power-platform/power-automate/flow-management/manage-orphan-flow-when-owner-leaves-org
   - Limits of automated, scheduled, and instant flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/limits-and-config
+  - Power Platform inventory - Microsoft Power Platform admin center | https://learn.microsoft.com/en-us/power-platform/admin/power-platform-inventory
 related:
   - Teams cannot tell which processes are safe to automate end to end | /discovery/teams-cannot-tell-processes-safe-to-automate/
-  - Why Critical Low-Code Automations Need Support Ownership | /discovery/why-critical-low-code-automations-need-support-ownership/
+  - Why critical low-code automations need support ownership | /discovery/why-critical-low-code-automations-need-support-ownership/
   - Automations break when application interfaces change | /discovery/automations-break-when-application-interfaces-change/
+  - Critical workflows depend on low-code apps built by departed staff | /discovery/critical-workflows-run-on-low-code-apps-built-by-leavers/
 summary: When a process, branch or system is retired, the automations built around it often keep running. How to find orphaned automations, assign ownership and retire them safely.
 layout: plain
 ---
@@ -30,9 +32,9 @@ An orphaned automation is one that is still active but no longer serves a live p
 
 Because nothing visibly breaks, these automations are rarely noticed. They are discovered by accident: an unexpected bill for API usage, a customer receiving a message about a service that no longer exists, an auditor asking why an old system still receives personal information, or a failure alert that nobody recognises.
 
-## What the buyer is actually trying to solve
+## What you are actually trying to solve
 
-The buyer is usually an IT manager, operations lead or the person who administers the business's automation platform. Searches look like "find unused Power Automate flows", "orphaned automations", "clean up old Zapier zaps", "automation inventory" or "what happens to flows when an employee leaves".
+The person facing this is usually an IT manager, operations lead or the person who administers the business's automation platform. The questions look like "how do we find unused Power Automate flows?", "how do we clean up old Zapier zaps?", "where is our automation inventory?" or "what happens to flows when an employee leaves?"
 
 The underlying need is to know which automations are running, whether each one still has a purpose and an owner, and to retire the ones that do not without breaking something that turns out to matter.
 
@@ -40,7 +42,9 @@ The underlying need is to know which automations are running, whether each one s
 
 Platform vendors document the ownership side of the problem. Microsoft's support guidance for Power Automate defines an orphaned flow as one that no longer has a valid owner, notes that such flows can fail if they use connections tied to that user account, and describes how administrators can find flows without an owner and assign new co-owners ([Microsoft Learn: Manage orphaned flows when owner leaves organisation](https://learn.microsoft.com/en-us/troubleshoot/power-platform/power-automate/flow-management/manage-orphan-flow-when-owner-leaves-org)).
 
-Platform clean-up rules do not solve the purpose side. Power Automate's published limits state that a cloud flow not triggered within a 90-day period might be turned off, that owners are notified 30 days before suspension, and that flows owned by users with premium or capacity licences are not subject to this suspension ([Microsoft Learn: Limits of automated, scheduled and instant flows](https://learn.microsoft.com/en-us/power-automate/limits-and-config)). An automation attached to a retired process may still be triggered every day, by a schedule, an incoming email or a record change, so inactivity rules will never catch it. And a flow that is turned off for inactivity can be turned back on by an owner who does not know the process has gone.
+Platform clean-up rules do not solve the purpose side. Power Automate's published limits state that a cloud flow not triggered within a 90-day period might be turned off, that owners are notified 30 days before suspension, and that flows owned by users with premium or capacity licences are not subject to this suspension ([Microsoft Learn: Limits of automated, scheduled and instant flows](https://learn.microsoft.com/en-us/power-automate/limits-and-config)). An automation attached to a retired process may still be triggered every day, by a schedule, an incoming email or a record change, so inactivity rules will never catch it.
+
+And a flow that is turned off for inactivity can be turned back on by an owner who does not know the process has gone. Microsoft's [Power Platform inventory](https://learn.microsoft.com/en-us/power-platform/admin/power-platform-inventory) lets administrators list the flows in a tenant with their owner, created and modified dates, and export the list to CSV, which gives a starting point for an automation inventory. The owner shown is the creator and does not update when ownership changes.
 
 The general mechanism holds across platforms. Automations are triggered by events, not by the existence of a process. When the process stops, the events often continue, and the automation continues with them.
 
