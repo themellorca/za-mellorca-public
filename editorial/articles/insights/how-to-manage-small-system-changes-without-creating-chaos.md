@@ -10,9 +10,13 @@ published_date: 2026-11-14
 updated_date: 2026-11-14
 eyebrow: Change Management
 sources:
-  - https://csrc.nist.gov/pubs/sp/800/128/upd1/final | https://csrc.nist.gov/pubs/sp/800/128/upd1/final
-  - https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments
-  - https://csrc.nist.gov/glossary/term/configuration_management | https://csrc.nist.gov/glossary/term/configuration_management
+  - SP 800-128, Guide for Security-Focused Configuration Management of Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/128/upd1/final
+  - Architecture strategies for safe deployment practices - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments
+  - configuration management - Glossary - CSRC | https://csrc.nist.gov/glossary/term/configuration_management
+related:
+  - How to Track AI Agent Actions | /insights/how-to-keep-a-reliable-record-of-what-your-ai-agents-did/
+  - How CRM Ownership Should Work | /insights/how-crm-ownership-should-work-roles-decisions-and-permissions/
+  - How to Avoid Creating a Fragile Automation Stack | /insights/how-to-avoid-creating-a-fragile-automation-stack/
 summary: Small changes get no governance and add up to unexplained problems. A one-page routine, three change levels and a shared log keep them fast and traceable.
 layout: plain
 ---

@@ -15,9 +15,13 @@ human_dividend: Predictability and financial breathing room: knowing roughly wha
 trade_off: Follow-up that is too frequent annoys customers; forecasts can give false comfort; some businesses are seasonal or project-based and will never be fully steady; setting up a rhythm costs time first.
 epistemic_state: HYPOTHESISED: reasoned from how tax and operating obligations fall due, not from a study of South African small business income patterns; the worked example is illustrative.
 sources:
-  - https://www.sars.gov.za/types-of-tax/provisional-tax/ | https://www.sars.gov.za/types-of-tax/provisional-tax/
-  - https://www.sars.gov.za/types-of-tax/value-added-tax/ | https://www.sars.gov.za/types-of-tax/value-added-tax/
-  - https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/ | https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/
+  - Provisional Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/provisional-tax/
+  - Value-Added Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/
+  - Small Businesses - Taxpayers - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/
+related:
+  - The Owner Who Pays Themselves Last | /moments/the-owner-who-pays-themselves-last/
+  - The subscription bills nobody reviews | /moments/the-subscription-bills-nobody-reviews/
+  - When One Big Client Holds the Business Hostage | /moments/when-one-big-client-holds-the-business-hostage/
 summary: Steady, foreseeable income lets owners and staff plan their lives. Why following up with customers on a rhythm builds that predictability, and what it buys beyond the money.
 layout: plain
 ---

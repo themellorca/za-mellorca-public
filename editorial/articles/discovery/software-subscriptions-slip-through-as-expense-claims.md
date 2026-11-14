@@ -13,10 +13,14 @@ problem_domain: Payments, Expenses & Spend Operations
 problem_owner: Finance operations or accounts payable manager
 budget_owner: CFO
 sources:
-  - https://docs.oracle.com/en/cloud/saas/financials/25c/faiex/audit-rules-to-identify-anomalies-in-the-expense-report.html | https://docs.oracle.com/en/cloud/saas/financials/25c/faiex/audit-rules-to-identify-anomalies-in-the-expense-report.html
-  - https://help.expensify.com/articles/new-expensify/reports-and-expenses/Duplicate-Detection | https://help.expensify.com/articles/new-expensify/reports-and-expenses/Duplicate-Detection
-  - https://www.sars.gov.za/businesses-and-employers/tax-invoices/ | https://www.sars.gov.za/businesses-and-employers/tax-invoices/
+  - Oracle Financials 26D - Get Started | https://docs.oracle.com/en/cloud/saas/financials/25c/faiex/audit-rules-to-identify-anomalies-in-the-expense-report.html
+  - How to Find and Resolve Flagged Duplicate Expenses | https://help.expensify.com/articles/new-expensify/reports-and-expenses/Duplicate-Detection
+  - Tax Invoices - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/tax-invoices/
   - https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf | https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf
+related:
+  - Expense claims are checked by hand against a written policy | /discovery/expense-claims-are-checked-by-hand-against-a-written-policy/
+  - Supplier bank-detail changes arrive by email and go unchecked | /discovery/supplier-bank-detail-changes-arrive-by-email-and-go-unchecked/
+  - Invoices arrive through multiple inboxes and channels | /discovery/why-supplier-invoices-need-one-front-door-as-volume-grows/
 summary: Staff pay recurring software subscriptions personally and claim them back, so procurement never sees them. Find them in claim data, route them to registration and fix the VAT and contract gaps.
 layout: plain
 ---

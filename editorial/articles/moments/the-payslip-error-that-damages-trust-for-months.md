@@ -15,9 +15,13 @@ human_dividend: Predictability: pay that is correct, explained and arrives when 
 trade_off: Extra checks add time to payroll; fast corrections can create new errors; small firms have no separate reviewer; and some errors arise from late information that payroll cannot control.
 epistemic_state: HYPOTHESISED: reasoned from general principles of trust and household budgeting and from public legal guidance, not from a survey of South African employees; the worked example is illustrative.
 sources:
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
-  - https://www.sars.gov.za/types-of-tax/pay-as-you-earn/ | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
-  - https://www.hse.gov.uk/stress/standards/ | https://www.hse.gov.uk/stress/standards/
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+  - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
+  - Management Standards - HSE | https://www.hse.gov.uk/stress/standards/
+related:
+  - When commission disputes come from bad data | /moments/when-commission-disputes-come-from-bad-data/
+  - Why Audit Trails Protect People, Not Just Companies | /moments/why-audit-trails-protect-people-not-just-companies/
+  - The Employee Who Can't See Their Own Leave Balance | /moments/the-employee-who-cant-see-their-own-leave-balance/
 summary: A wrong payslip is quickly corrected on paper, but the doubt it leaves can last much longer. Why payroll errors hit trust and household budgets, and how to make them rarer and less costly.
 layout: plain
 ---

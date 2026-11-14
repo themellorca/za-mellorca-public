@@ -13,9 +13,13 @@ commercial_domain: AI Governance
 primary_pain: Decisions are automated with AI before anyone is accountable for the outcome
 primary_cost_mechanism: Errors repeated at speed, unbudgeted remediation and refunds, slow incident response when nobody can stop the tool, and exposure under rules on automated decisions
 sources:
-  - https://www.nist.gov/itl/ai-risk-management-framework | https://www.nist.gov/itl/ai-risk-management-framework
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://www.nist.gov/itl/ai-risk-management-framework/ai-risk-management-framework-faqs | https://www.nist.gov/itl/ai-risk-management-framework/ai-risk-management-framework-faqs
+  - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - AI Risk Management Framework FAQs | https://www.nist.gov/itl/ai-risk-management-framework/ai-risk-management-framework-faqs
+related:
+  - Staff using AI with company data nobody governs | /impact/uncontrolled-ai-company-data-financial-risk/
+  - Fluent, confident and wrong: The cost of sending AI output to customers unchecked | /impact/ai-drafted-customer-messages-sent-without-review-correction-and-trust-cost/
+  - No Rules for AI Tools: The Cost of Uncontrolled Data Entry | /impact/no-rules-for-company-information-entered-into-ai-tools-compliance-cost/
 summary: Automating decisions with AI before naming who owns the result leaves errors compounding, remediation unbudgeted and nobody able to stop the tool quickly.
 layout: plain
 ---

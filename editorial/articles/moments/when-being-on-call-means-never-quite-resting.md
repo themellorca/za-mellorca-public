@@ -15,10 +15,14 @@ human_dividend: Presence and predictability: being able to rest and be with fami
 trade_off: Reducing alerts takes engineering and review time; rotas need enough people to share; some businesses cannot afford a second responder; and some staff prefer on-call pay and flexibility over fewer shifts.
 epistemic_state: HYPOTHESISED: reasoned from general research on fatigue and working time, not from a survey of South African employers; the worked example is illustrative.
 sources:
-  - https://www.hse.gov.uk/humanfactors/topics/fatigue.htm | https://www.hse.gov.uk/humanfactors/topics/fatigue.htm
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Fatigue - HSE | https://www.hse.gov.uk/humanfactors/topics/fatigue.htm
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+related:
+  - The Physical Toll of Doing a Machine's Repetitive Work | /moments/the-physical-toll-of-doing-repetitive-work-a-machine-could-do/
+  - The sleep lost over a system nobody else understands | /moments/the-sleep-lost-over-a-system-only-one-person-understands/
+  - Why Security Incidents Carry a Human Cost Too | /moments/the-human-cost-of-a-security-incident-beyond-the-servers/
 summary: Being on-call is more than the calls you take. Waiting for one can stop real rest. What the research on fatigue says and how to make on-call lighter and fairer.
 layout: plain
 ---

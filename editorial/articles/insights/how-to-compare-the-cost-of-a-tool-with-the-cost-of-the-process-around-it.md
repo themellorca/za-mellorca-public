@@ -10,9 +10,13 @@ published_date: 2026-11-14
 updated_date: 2026-11-14
 eyebrow: Software Portfolio
 sources:
-  - https://www.gov.uk/guidance/define-your-purchasing-strategy | https://www.gov.uk/guidance/define-your-purchasing-strategy
-  - https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles | https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles
-  - https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/ | https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/
+  - Define your purchasing strategy | https://www.gov.uk/guidance/define-your-purchasing-strategy
+  - Cost Optimization design principles - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/principles
+  - Cost optimization quick links - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/
+related:
+  - How to Calculate the Cost of Piling On More Software | /insights/how-to-calculate-the-cost-of-piling-on-more-software/
+  - How to decide which software to remove | /insights/how-to-decide-which-software-to-remove/
+  - The real cost of paying for software nobody uses properly | /insights/the-real-cost-of-paying-for-software-nobody-uses-properly/
 summary: The subscription is the visible cost; the work around it is not. Compare options by cost per completed outcome, measured on real cases.
 layout: plain
 ---

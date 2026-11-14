@@ -13,9 +13,13 @@ problem_domain: Payments, Expenses & Spend Operations
 problem_owner: Finance manager or expense administrator
 budget_owner: Financial director or CFO
 sources:
-  - https://learn.microsoft.com/en-us/training/modules/set-up-configure-expense-management/05-policies-per-diem-rules | https://learn.microsoft.com/en-us/training/modules/set-up-configure-expense-management/05-policies-per-diem-rules
-  - https://www.sars.gov.za/faq/faq-how-are-travel-expenses-for-which-i-was-reimbursed-treated-for-paye-purposes/ | https://www.sars.gov.za/faq/faq-how-are-travel-expenses-for-which-i-was-reimbursed-treated-for-paye-purposes/
-  - https://www.sars.gov.za/businesses-and-employers/tax-invoices/ | https://www.sars.gov.za/businesses-and-employers/tax-invoices/
+  - Expense report policies and per diem rules - Training | https://learn.microsoft.com/en-us/training/modules/set-up-configure-expense-management/05-policies-per-diem-rules
+  - FAQ: How are travel expenses for which I was reimbursed treated for PAYE purposes? - South African Revenue Service | https://www.sars.gov.za/faq/faq-how-are-travel-expenses-for-which-i-was-reimbursed-treated-for-paye-purposes/
+  - Tax Invoices - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/tax-invoices/
+related:
+  - Software subscriptions slip through as expense claims | /discovery/software-subscriptions-slip-through-as-expense-claims/
+  - Duplicate supplier invoices are caught after they are paid | /discovery/duplicate-supplier-invoices-are-caught-after-they-are-paid/
+  - Supplier bank-detail changes arrive by email and go unchecked | /discovery/supplier-bank-detail-changes-arrive-by-email-and-go-unchecked/
 summary: When the policy lives in a document, a person reads every claim. Put limits into system rules, auto-approve what complies, route only exceptions and review the rules from the exceptions.
 layout: plain
 ---

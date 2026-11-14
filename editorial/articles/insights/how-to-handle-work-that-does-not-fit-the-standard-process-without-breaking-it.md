@@ -10,9 +10,13 @@ published_date: 2026-11-14
 updated_date: 2026-11-14
 eyebrow: Process Design
 sources:
-  - https://learn.microsoft.com/en-us/azure/architecture/patterns/saga | https://learn.microsoft.com/en-us/azure/architecture/patterns/saga
-  - https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling | https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling
-  - https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction | https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction
+  - Saga Design Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/saga
+  - Employ robust error handling - Power Automate | https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling
+  - Compensating Transaction Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction
+related:
+  - How to Route New Customers to the Right Team Automatically | /insights/how-to-route-new-customers-to-the-right-team-automatically/
+  - Why Processes Break Between Departments | /insights/why-processes-break-between-departments-and-how-to-close-the-gaps/
+  - How to Find Steps That Exist Only Because the System Is Bad | /insights/how-to-find-steps-that-exist-only-because-the-system-is-bad/
 summary: Every process meets cases it was not designed for. Handling them well takes a defined route, not heroics or a growing pile of workarounds.
 layout: plain
 ---

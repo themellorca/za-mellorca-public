@@ -13,8 +13,12 @@ problem_domain: Inventory & Order Operations
 problem_owner: Operations or supply chain manager, with the warehouse returns lead
 budget_owner: COO or financial director
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/sales-returns | https://learn.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/sales-returns
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-process-sales-returns-orders | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-process-sales-returns-orders
+  - Sales returns - Supply Chain Management - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/sales-returns
+  - Process sales return orders - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-process-sales-returns-orders
+related:
+  - Why sales teams cannot check live stock while the customer waits | /discovery/why-sales-teams-cannot-check-live-stock-while-the-customer-waits/
+  - New SKUs go on sale before every system has the product data | /discovery/launching-a-new-sku-before-every-system-knows-it-exists/
+  - Drop-ship stock is counted as if it sits in your own warehouse | /discovery/how-to-keep-drop-ship-stock-out-of-your-own-inventory-counts/
 summary: A customer return produces a credit note within hours, but the item sits in a returns cage for days before anyone decides whether it can be sold again. Make the disposition decision part of the return.
 layout: plain
 ---

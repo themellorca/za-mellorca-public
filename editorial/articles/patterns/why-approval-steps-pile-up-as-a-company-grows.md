@@ -14,9 +14,13 @@ observable_condition: Purchases, leave, payments, price changes and customer ter
 primary_identification: Approval steps are added as a reaction to individual incidents and never reviewed against the risk they address, so the total grows with the company while the value of each step is never tested.
 commercial_value_dimensions: Speed of decisions, management time, staff autonomy, control effectiveness, customer response time and risk exposure
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/get-started-approvals | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
-  - https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/about-admin-roles | https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/about-admin-roles
+  - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - About administrator roles in the Microsoft 365 admin center - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/about-admin-roles
+related:
+  - The Hidden Cost of Slow Decisions | /patterns/the-hidden-cost-of-slow-decisions/
+  - The Cost of Not Knowing Who Can See What | /patterns/the-cost-of-not-being-able-to-say-who-can-open-which-files/
+  - The Cost of Processes That Move Through Email | /patterns/the-cost-of-running-business-processes-through-email-threads/
 summary: Approval steps are added one incident at a time and rarely removed. Here is why they accumulate, what they cost in time and ownership, and how to prune them without losing control.
 layout: plain
 ---

@@ -13,9 +13,13 @@ commercial_domain: Ecommerce Operations
 primary_pain: Orders require manual re-entry into fulfilment or accounting systems
 primary_cost_mechanism: Admin hours that scale with order volume, wrong-address and wrong-item errors with return and resend cost, invoice corrections, missed orders, and extra copies of customer personal information
 sources:
-  - https://shopify.dev/docs/apps/build/webhooks | https://shopify.dev/docs/apps/build/webhooks
-  - https://developer.xero.com/documentation/api/accounting/overview | https://developer.xero.com/documentation/api/accounting/overview
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - About webhooks | https://shopify.dev/docs/apps/build/webhooks
+  - Accounting API Overview — Xero Developer | https://developer.xero.com/documentation/api/accounting/overview
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - The cost of retyping customer details into every system | /impact/pain-duplication-of-customer-data-entry/
+  - Retyping invoices into the accounting system: The labour and error cost | /impact/retyping-invoices-manual-capture-labour-error-cost/
+  - Salespeople as data clerks: The payroll cost of re-entering customer details | /impact/salespeople-re-entering-customer-details-administrative-selling-payroll-cost/
 summary: When online orders have to be retyped into fulfilment and accounting systems, a growing shop pays for hours of repeat entry, avoidable errors and extra copies of customer data.
 layout: plain
 ---

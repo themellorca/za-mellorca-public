@@ -14,9 +14,13 @@ observable_condition: Staff wait for one manager to approve small, repeated requ
 primary_identification: Concentrated decision rights: limits of authority are unwritten and context sits with one person, so every question is safely sent upward.
 commercial_value_dimensions: Speed of routine work, manager time, staff initiative and operational resilience
 sources:
-  - https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/delegate-app-roles | https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/delegate-app-roles
-  - https://learn.microsoft.com/en-us/power-automate/get-started-approvals | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
-  - https://learn.microsoft.com/en-us/power-automate/modern-approvals | https://learn.microsoft.com/en-us/power-automate/modern-approvals
+  - Delegate application and agent management administrator permissions - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/delegate-app-roles
+  - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - Create and test an approval workflow with Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/modern-approvals
+related:
+  - Why Managers Keep Asking HR for the Same Reports | /patterns/why-managers-keep-asking-hr-for-the-same-reports/
+  - Why Leave Requests Still Travel Through Messages and Spreadsheets | /patterns/why-leave-requests-are-still-handled-through-chat-messages-and-spreadsheets/
+  - The Cost of Manual Employee Data Updates Across Systems | /patterns/the-cost-of-updating-employee-details-by-hand-in-every-system/
 summary: Small, familiar decisions pile up on one desk and the whole team waits. Here is why it happens, what it costs, and how to set decision limits that free everyone.
 layout: plain
 ---

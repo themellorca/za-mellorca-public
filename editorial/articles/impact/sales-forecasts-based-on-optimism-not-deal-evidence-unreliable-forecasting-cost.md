@@ -14,8 +14,12 @@ primary_pain: Sales forecasts based on optimism instead of actual deal evidence
 primary_cost_mechanism: Cash and hiring commitments made against revenue that does not arrive, stock and capacity in the wrong place, wasted forecast-review time, and lost credibility with lenders and owners
 sources:
   - https://help.salesforce.com/s/articleView?id=sales.forecasts3_overview.htm | https://help.salesforce.com/s/articleView?id=sales.forecasts3_overview.htm
-  - https://learn.microsoft.com/en-us/dynamics365/sales/configure-forecast | https://learn.microsoft.com/en-us/dynamics365/sales/configure-forecast
+  - Configure forecasts in your organization | https://learn.microsoft.com/en-us/dynamics365/sales/configure-forecast
   - https://help.salesforce.com/s/articleView?id=sales.sales_core_opportunity_stages.htm | https://help.salesforce.com/s/articleView?id=sales.sales_core_opportunity_stages.htm
+related:
+  - Leads nobody has touched: The revenue cost of invisible follow-up failure | /impact/untouched-leads-invisible-follow-up-failure-revenue-cost/
+  - Customer records in salespeople's spreadsheets: The revenue and continuity cost | /impact/salespeople-personal-spreadsheets-customer-records-cost/
+  - An inbox is not a sales process: The revenue cost of emailed website enquiries | /impact/website-enquiries-email-inbox-sales-process-revenue-cost/
 summary: When pipeline stages reflect optimism rather than evidence, cash plans, stock and hiring are committed against revenue that never arrives.
 layout: plain
 ---

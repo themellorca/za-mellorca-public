@@ -15,10 +15,14 @@ human_dividend: Presence and attention: a staff member who already knows the bas
 trade_off: Customer history must be accurate, current and lawful to keep; notes can be careless or unkind; staff may rely on a record instead of listening; and keeping the record up to date takes discipline and time.
 epistemic_state: HYPOTHESISED: reasoned from general guidance on workload, support and data protection, not from a survey of South African customer teams; the worked example is illustrative.
 sources:
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
-  - https://www.hse.gov.uk/stress/standards/support.htm | https://www.hse.gov.uk/stress/standards/support.htm
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Management Standards - Support - HSE | https://www.hse.gov.uk/stress/standards/support.htm
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+related:
+  - The Manager Too Busy With Reports to Talk to People | /moments/the-manager-too-busy-with-reports-to-talk-to-the-people-they-manage/
+  - When Remote Work Means Missing the Quiet Conversations | /moments/when-remote-work-means-missing-the-quiet-conversations/
+  - The family dinner that competes with a group chat | /moments/the-family-dinner-that-competes-with-a-group-chat/
 summary: Staff who must ask customers to repeat themselves cannot give them their attention. How a shared customer history frees people to listen, and how to keep it respectful.
 layout: plain
 ---

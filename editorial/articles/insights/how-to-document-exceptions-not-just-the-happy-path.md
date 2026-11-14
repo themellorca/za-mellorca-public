@@ -10,9 +10,13 @@ published_date: 2026-11-14
 updated_date: 2026-11-14
 eyebrow: Process Documentation
 sources:
-  - https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction | https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction
-  - https://learn.microsoft.com/en-us/azure/architecture/best-practices/transient-faults | https://learn.microsoft.com/en-us/azure/architecture/best-practices/transient-faults
-  - https://www.gov.uk/guidance/the-technology-code-of-practice | https://www.gov.uk/guidance/the-technology-code-of-practice
+  - Compensating Transaction Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction
+  - Transient Fault Handling - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/best-practices/transient-faults
+  - The Technology Code of Practice | https://www.gov.uk/guidance/the-technology-code-of-practice
+related:
+  - How to Keep SOPs From Becoming Outdated PDFs | /insights/how-to-keep-sops-from-becoming-outdated-pdfs/
+  - How to Document a Workflow People Will Actually Follow | /insights/writing-down-a-workflow-so-that-it-gets-used/
+  - When a Checklist Is Better Than an SOP | /insights/when-a-checklist-is-better-than-an-sop-for-routine-business-tasks/
 summary: Written procedures cover the smooth case while the real knowledge sits in exceptions. Capture them from real cases, with an owner, an end point and an escalation rule.
 layout: plain
 ---

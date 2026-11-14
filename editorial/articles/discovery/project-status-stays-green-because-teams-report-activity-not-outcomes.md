@@ -13,8 +13,12 @@ problem_domain: Project, Delivery & Change Operations
 problem_owner: PMO or delivery lead
 budget_owner: COO or CIO
 sources:
-  - https://www.atlassian.com/team-playbook/plays/goals-signals-measures | https://www.atlassian.com/team-playbook/plays/goals-signals-measures
-  - https://www.nao.org.uk/insights/optimism-bias-paper/ | https://www.nao.org.uk/insights/optimism-bias-paper/
+  - Team Goals, Signals, and Measures to Reach Success - Atlassian | https://www.atlassian.com/team-playbook/plays/goals-signals-measures
+  - Over-optimism in government projects - NAO insight | https://www.nao.org.uk/insights/optimism-bias-paper/
+related:
+  - Why integration monitoring can show green while the business transaction still fails | /discovery/why-integration-monitoring-misses-business-completion/
+  - AI usage costs are not allocated to business outcomes | /discovery/ai-usage-costs-not-allocated-to-business-outcomes/
+  - Why dashboards keep running after the process they measure has changed | /discovery/dashboards-outlive-the-process-they-measure/
 summary: Status reports measure tasks done and meetings held, so a project can be green for months while the result it was meant to deliver slips away. Report against outcome measures and evidence instead.
 layout: plain
 ---

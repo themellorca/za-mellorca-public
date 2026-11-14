@@ -13,8 +13,12 @@ commercial_domain: Operations
 primary_pain: Business growth creates administration, coordination and compliance work faster than it creates productive capacity
 primary_cost_mechanism: Margin erosion from overhead headcount, skilled staff time lost to coordination, slower delivery and invoicing, added compliance workload at growth thresholds, and management attention diverted from customers
 sources:
-  - https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/ | https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/
-  - https://asana.com/resources/why-work-about-work-is-bad | https://asana.com/resources/why-work-about-work-is-bad
+  - Small Businesses - Taxpayers - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/
+  - How Work About Work Gets in the Way of Real Work [2026] • Asana | https://asana.com/resources/why-work-about-work-is-bad
+related:
+  - Bottlenecks You Cannot See: The Price of Problems Management Misses | /impact/not-knowing-where-operational-bottlenecks-form-hidden-delay-financial-cost/
+  - Forecasts Built on Hope: What Unreliable Sales Numbers Cost the Business | /impact/sales-forecasts-based-on-optimism-not-deal-evidence-unreliable-forecasting-cost/
+  - Customer records in salespeople's spreadsheets: The revenue and continuity cost | /impact/salespeople-personal-spreadsheets-customer-records-cost/
 summary: Revenue grows, but so does the coordination, checking and paperwork needed to deliver it. When admin rises faster than output, each new rand of sales earns less margin.
 layout: plain
 ---

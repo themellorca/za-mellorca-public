@@ -15,9 +15,13 @@ human_dividend: Optionality and time: enough routine handed off or simplified th
 trade_off: Stepping back costs money and control; the original reason may no longer fit; handing off work needs trusted people and documentation; and some owners find the answer uncomfortable.
 epistemic_state: HYPOTHESISED: reasoned from general research on work design and wellbeing, not from a survey of South African owners; the worked example is illustrative.
 sources:
-  - https://www.who.int/publications/i/item/9789240053052 | https://www.who.int/publications/i/item/9789240053052
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://www.hse.gov.uk/stress/ | https://www.hse.gov.uk/stress/
+  - Guidelines on mental health at work | https://www.who.int/publications/i/item/9789240053052
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Stress and mental health at work - HSE | https://www.hse.gov.uk/stress/
+related:
+  - Why Meaningful Work Is Easier When Systems Carry the Routine | /moments/why-meaningful-work-gets-easier-when-systems-carry-the-routine/
+  - When craft businesses spend more time on software than craft | /moments/when-craft-businesses-spend-more-time-on-software-than-craft/
+  - Friday evening should start on Friday evening | /moments/friday-evening-should-start-on-friday-evening/
 summary: Years of operating can bury the reason an owner began. How handing off routine work and asking a few plain questions can bring the original purpose, and the choices it opens, back into view.
 layout: plain
 ---

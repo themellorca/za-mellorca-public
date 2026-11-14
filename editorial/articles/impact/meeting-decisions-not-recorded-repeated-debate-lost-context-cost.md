@@ -13,9 +13,13 @@ commercial_domain: Management
 primary_pain: Important decisions made in meetings but never recorded
 primary_cost_mechanism: Meeting hours spent re-opening settled questions, work done on conflicting understandings, lost reasoning behind past choices and weaker governance evidence
 sources:
-  - https://www.cipc.co.za/?page_id=2721 | https://www.cipc.co.za/?page_id=2721
-  - https://learn.microsoft.com/en-us/microsoftteams/copilot-ai-agents-overview | https://learn.microsoft.com/en-us/microsoftteams/copilot-ai-agents-overview
-  - https://learn.microsoft.com/en-us/training/modules/make-your-meetings-more-productive-ai/ | https://learn.microsoft.com/en-us/training/modules/make-your-meetings-more-productive-ai/
+  - LEGISLATIONS - CIPC | https://www.cipc.co.za/?page_id=2721
+  - Overview of AI in Microsoft Teams - Microsoft Teams | https://learn.microsoft.com/en-us/microsoftteams/copilot-ai-agents-overview
+  - Make your meetings more productive with AI - Training | https://learn.microsoft.com/en-us/training/modules/make-your-meetings-more-productive-ai/
+related:
+  - Why Deals Are Lost: The Cost of Not Knowing | /impact/not-knowing-why-deals-are-lost-unmanaged-sales-process-cost/
+  - No Written Recovery Plan: What Improvising in a Crisis Costs | /impact/no-written-business-recovery-plan-improvising-during-crisis-financial-cost/
+  - Which version is final? The cost of teams working from different copies | /impact/conflicting-document-versions-rework-decision-cost/
 summary: When decisions made in meetings are not written down, teams re-argue them, act on different understandings and lose the reasons behind the choice.
 layout: plain
 ---

@@ -13,9 +13,13 @@ commercial_domain: Project Management
 primary_pain: Teams duplicate work because projects are not centrally coordinated
 primary_cost_mechanism: Salary hours spent building the same outputs twice, competing versions that erode trust in figures, delayed higher-value projects, and duplicated support and maintenance burden
 sources:
-  - https://www.atlassian.com/work-management/project-management/project-portfolio-management | https://www.atlassian.com/work-management/project-management/project-portfolio-management
-  - https://learn.microsoft.com/en-us/dynamics365/project-operations/ | https://learn.microsoft.com/en-us/dynamics365/project-operations/
-  - https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/project-management-overview | https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/project-management-overview
+  - 8 Project Portfolio Management Software [2025] - The Workstream | https://www.atlassian.com/work-management/project-management/project-portfolio-management
+  - Microsoft Dynamics 365 Project Operations documentation | https://learn.microsoft.com/en-us/dynamics365/project-operations/
+  - Project management overview | https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/project-management-overview
+related:
+  - Paying for several applications that do the same job | /impact/pain-paying-for-multiple-applications-duplicate-software-fragmented-work/
+  - When Service Can't See the Customer's History: The Cost of Inconsistent Support | /impact/service-teams-cannot-see-customer-full-history-inconsistent-support-cost/
+  - Answering the same customer questions daily: The labour cost of hidden knowledge | /impact/support-teams-answering-same-questions-daily-undocumented-knowledge-labour-cost/
 summary: When projects are not centrally coordinated, separate teams build the same thing twice, and the business pays for wasted hours, competing outputs and delayed delivery.
 layout: plain
 ---

@@ -14,9 +14,13 @@ problem_owner: Head of IT or identity and access lead
 budget_owner: CIO or COO
 sources:
   - https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf | https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf
-  - https://learn.microsoft.com/en-us/entra/id-governance/lifecycle-workflows-deployment | https://learn.microsoft.com/en-us/entra/id-governance/lifecycle-workflows-deployment
-  - https://learn.microsoft.com/en-us/entra/id-governance/lifecycle-workflow-templates | https://learn.microsoft.com/en-us/entra/id-governance/lifecycle-workflow-templates
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Plan a Lifecycle Workflow deployment - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/lifecycle-workflows-deployment
+  - Lifecycle Workflows templates and categories - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/lifecycle-workflow-templates
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - Why dashboards keep running after the process they measure has changed | /discovery/dashboards-outlive-the-process-they-measure/
+  - New SaaS purchases create integrations nobody budgets to maintain | /discovery/why-new-saas-integrations-have-no-maintenance-budget/
+  - Why application risk assessments cannot be one-time reviews | /discovery/why-application-risk-assessments-cannot-be-one-time/
 summary: A role change adds the new access but nothing removes the old. Link HR role changes to access, decide what moves with the person, and review leftover access before the next audit.
 layout: plain
 ---

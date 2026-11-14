@@ -10,10 +10,14 @@ published_date: 2026-11-14
 updated_date: 2026-11-14
 eyebrow: Data and Systems
 sources:
-  - https://learn.microsoft.com/en-us/sql/relational-databases/databases/databases?view=sql-server-ver17 | https://learn.microsoft.com/en-us/sql/relational-databases/databases/databases?view=sql-server-ver17
-  - https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description | https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description
+  - Databases - SQL Server | https://learn.microsoft.com/en-us/sql/relational-databases/databases/databases?view=sql-server-ver17
+  - Database normalization description | https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description
   - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
-  - https://www.gov.uk/guidance/make-better-use-of-data | https://www.gov.uk/guidance/make-better-use-of-data
+  - Make better use of data | https://www.gov.uk/guidance/make-better-use-of-data
+related:
+  - What a System of Record Is and Why It Matters | /insights/what-a-system-of-record-is-and-why-it-matters/
+  - How to Stop Teams Creating Their Own Versions of the Truth | /insights/how-to-stop-teams-creating-their-own-versions-of-the-truth/
+  - How Duplicate Contacts and Companies Damage Operations | /insights/how-duplicate-contacts-and-companies-damage-operations-costs-and-controls/
 summary: A database is the organised store behind accounting, orders and payroll. Knowing what it does helps owners keep records accurate, secure and portable.
 layout: plain
 ---

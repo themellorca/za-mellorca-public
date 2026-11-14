@@ -14,9 +14,13 @@ observable_condition: Different people and teams use different AI tools, some on
 primary_identification: Ungoverned, individually chosen AI tools: there is no inventory, no data-handling rule, no review standard and no named owner for AI use across the business.
 commercial_value_dimensions: Data protection and POPIA exposure, quality and consistency of work, software spend, staff confidence and the ability to scale AI use safely
 sources:
-  - https://www.nist.gov/itl/ai-risk-management-framework | https://www.nist.gov/itl/ai-risk-management-framework
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://learn.microsoft.com/en-us/purview/ai-microsoft-purview | https://learn.microsoft.com/en-us/purview/ai-microsoft-purview
+  - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - Microsoft Purview data security and compliance protections for Microsoft 365 Copilot and other generative AI apps | https://learn.microsoft.com/en-us/purview/ai-microsoft-purview
+related:
+  - When nobody owns the definition of a business metric | /patterns/when-nobody-owns-the-definition-of-a-business-metric/
+  - The hidden risk of shared accounts | /patterns/the-hidden-risk-of-shared-accounts/
+  - Why do former employees still have access? | /patterns/why-do-former-employees-still-have-access/
 summary: Marketing uses one assistant, finance another, and a few staff use personal accounts. Without shared rules, the business cannot say what data went where or whose answers to trust.
 layout: plain
 ---

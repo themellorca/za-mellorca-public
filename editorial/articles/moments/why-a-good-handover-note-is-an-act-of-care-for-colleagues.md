@@ -15,9 +15,13 @@ human_dividend: Presence and predictability: the leaver can be fully away, the c
 trade_off: Writing takes effort at a busy moment; notes go stale; judgement and relationships resist lists; over-long notes bury the urgent item.
 epistemic_state: HYPOTHESISED: reasoned from general handover and workplace wellbeing guidance, not measured in any South African business; the worked example is illustrative.
 sources:
-  - https://www.hse.gov.uk/humanfactors/topics/shift-handover.htm | https://www.hse.gov.uk/humanfactors/topics/shift-handover.htm
-  - https://www.hse.gov.uk/humanfactors/topics/communications.htm | https://www.hse.gov.uk/humanfactors/topics/communications.htm
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Shift handover - HSE | https://www.hse.gov.uk/humanfactors/topics/shift-handover.htm
+  - Safety critical communications: Overview - HSE | https://www.hse.gov.uk/humanfactors/topics/communications.htm
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+related:
+  - The team that only talks when something breaks | /moments/the-team-that-only-talks-when-something-breaks/
+  - The family dinner that competes with a group chat | /moments/the-family-dinner-that-competes-with-a-group-chat/
+  - The Manager Too Busy With Reports to Talk to People | /moments/the-manager-too-busy-with-reports-to-talk-to-the-people-they-manage/
 summary: A handover note tells the person who stays that their peace of mind was thought about. What a good one contains and how to make writing it routine.
 layout: plain
 ---

@@ -10,9 +10,13 @@ published_date: 2026-11-14
 updated_date: 2026-11-14
 eyebrow: Process Design
 sources:
-  - https://knowledge.hubspot.com/workflows/create-workflows | https://knowledge.hubspot.com/workflows/create-workflows
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
-  - https://popia.co.za/section-10-minimality/ | https://popia.co.za/section-10-minimality/
+  - Create workflows | https://knowledge.hubspot.com/workflows/create-workflows
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Section 10 Minimality - POPIA | https://popia.co.za/section-10-minimality/
+related:
+  - How to Handle Work That Does Not Fit the Standard Process | /insights/how-to-handle-work-that-does-not-fit-the-standard-process-without-breaking-it/
+  - Why Processes Break Between Departments | /insights/why-processes-break-between-departments-and-how-to-close-the-gaps/
+  - How to Route Work to the Right Person Automatically | /insights/how-to-route-work-to-the-right-person-automatically/
 summary: Manual triage of new enquiries is slow and fragile. Here is how to design routing rules that assign every customer an owner quickly.
 layout: plain
 ---

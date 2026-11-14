@@ -14,8 +14,12 @@ observable_condition: Technicians, drivers and sales reps note their work on pap
 primary_identification: Deferred capture: field tools cannot record directly into the business system at the point of work, often because of desktop-oriented design or lack of offline support.
 commercial_value_dimensions: Billable time recovery, invoicing speed, record accuracy, after-hours workload and staff retention
 sources:
-  - https://learn.microsoft.com/en-us/power-apps/mobile/canvas-mobile-offline-overview | https://learn.microsoft.com/en-us/power-apps/mobile/canvas-mobile-offline-overview
-  - https://learn.microsoft.com/en-us/dynamics365/field-service/overview | https://learn.microsoft.com/en-us/dynamics365/field-service/overview
+  - Mobile offline for canvas apps overview - Power Apps | https://learn.microsoft.com/en-us/power-apps/mobile/canvas-mobile-offline-overview
+  - Overview of Dynamics 365 Field Service - Dynamics 365 Field Service | https://learn.microsoft.com/en-us/dynamics365/field-service/overview
+related:
+  - The cost of entering the same prospect information twice | /patterns/the-real-price-of-capturing-a-prospect-in-two-places/
+  - Why Leave Requests Still Travel Through Messages and Spreadsheets | /patterns/why-leave-requests-are-still-handled-through-chat-messages-and-spreadsheets/
+  - The hidden cost of asking customers for the same information twice | /patterns/the-hidden-cost-of-asking-customers-for-the-same-information-twice/
 summary: When technicians, drivers and sales reps record their day on paper or in messages and then type it all in again at night, the business pays twice for the same information. Here is how to stop it.
 layout: plain
 ---

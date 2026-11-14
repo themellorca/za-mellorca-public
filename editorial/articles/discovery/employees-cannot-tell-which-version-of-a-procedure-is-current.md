@@ -13,8 +13,12 @@ problem_domain: Knowledge & Document Operations
 problem_owner: Operations or quality manager responsible for controlled documents
 budget_owner: COO or CIO
 sources:
-  - https://learn.microsoft.com/en-us/sharepoint/governance/versioning-content-approval-and-check-out-planning | https://learn.microsoft.com/en-us/sharepoint/governance/versioning-content-approval-and-check-out-planning
-  - https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37 | https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37
+  - Plan document versioning, content approval, and check-out controls in SharePointServer - SharePoint Server | https://learn.microsoft.com/en-us/sharepoint/governance/versioning-content-approval-and-check-out-planning
+  - Enable and configure versioning for a list or library - Microsoft Support | https://support.microsoft.com/en-us/office/enable-and-configure-versioning-for-a-list-or-library-1555d642-23ee-446a-990a-bcab618c7a37
+related:
+  - Why teams cannot trace one business transaction across several systems | /discovery/teams-cannot-trace-a-business-transaction-across-systems/
+  - Security controls are duplicated across teams | /discovery/why-the-same-security-control-gets-built-and-evidenced-by-several-teams/
+  - Signed agreements are scattered across inboxes and shared drives | /discovery/why-signed-agreements-end-up-scattered-and-how-to-gather-them/
 summary: Copies of the same procedure sit in shared drives, email attachments, printed files and team chats, and nobody can say which one is in force. Publish one controlled copy and retire the rest.
 layout: plain
 ---

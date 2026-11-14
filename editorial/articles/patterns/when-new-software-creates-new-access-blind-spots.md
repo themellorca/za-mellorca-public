@@ -14,9 +14,13 @@ observable_condition: A newly adopted system is set up with copied roles and lef
 primary_identification: Access that grows faster than it is reviewed, because no one owns the decision of who may use each new system or checks it on a routine.
 commercial_value_dimensions: Data protection, regulatory exposure, audit readiness, operational continuity and licence spend
 sources:
-  - https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview | https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview
-  - https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/manage-application-permissions | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/manage-application-permissions
+  - What are access reviews? - Microsoft Entra - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview
+  - Review permissions granted to enterprise applications - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/manage-application-permissions
   - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+related:
+  - Why Critical Workflows Live Outside Approved Systems | /patterns/why-critical-work-ends-up-outside-the-approved-system/
+  - The Cost of Not Knowing Who Can See What | /patterns/the-cost-of-not-being-able-to-say-who-can-open-which-files/
+  - Why AI adoption creates a new access-control problem | /patterns/why-ai-adoption-creates-a-new-access-control-problem/
 summary: Every new system arrives with its own accounts, roles and sharing settings. If nobody designs them, the business ends up with access it cannot list or explain.
 layout: plain
 ---

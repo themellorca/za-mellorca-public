@@ -15,10 +15,14 @@ human_dividend: Time and optionality: learning hours that sit inside the working
 trade_off: Protected learning time lowers short-term output; some people prefer to study in their own time; backfilling work costs money; small teams have little slack to release anyone.
 epistemic_state: HYPOTHESISED: reasoned from general research on workload and fatigue, not from a survey of South African employers; the worked example is illustrative.
 sources:
-  - https://www.gov.za/documents/skills-development-act | https://www.gov.za/documents/skills-development-act
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://www.hse.gov.uk/humanfactors/topics/fatigue.htm | https://www.hse.gov.uk/humanfactors/topics/fatigue.htm
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
+  - Skills Development Act 97 of 1998 - South African Government | https://www.gov.za/documents/skills-development-act
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Fatigue - HSE | https://www.hse.gov.uk/humanfactors/topics/fatigue.htm
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+related:
+  - When Curiosity Is Squeezed Out by Busywork | /moments/when-curiosity-is-squeezed-out-by-busywork/
+  - The Promotion Nobody Can Take Because the Role Can't Be Covered | /moments/the-promotion-nobody-can-take-because-the-role-cant-be-covered/
+  - The apprentice who learns workarounds instead of craft | /moments/the-apprentice-who-learns-workarounds-instead-of-craft/
 summary: Learning a new skill while the old workload stays put means the study happens at night. Why that cost is rarely counted, and how to make room for learning inside the working day.
 layout: plain
 ---

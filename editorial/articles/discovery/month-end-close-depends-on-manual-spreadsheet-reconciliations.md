@@ -13,8 +13,12 @@ problem_domain: Finance Close & Reconciliation
 problem_owner: Financial controller or finance operations manager
 budget_owner: CFO or financial director
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately | https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately
-  - https://learn.microsoft.com/en-us/dynamics365/finance/general-ledger/financial-period-close-workspace | https://learn.microsoft.com/en-us/dynamics365/finance/general-ledger/financial-period-close-workspace
+  - Reconcile bank accounts - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately
+  - Financial period close workspace - Finance - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/finance/general-ledger/financial-period-close-workspace
+related:
+  - New SKUs go on sale before every system has the product data | /discovery/launching-a-new-sku-before-every-system-knows-it-exists/
+  - Why manual file transfers survive inside otherwise automated processes | /discovery/manual-file-transfers-inside-automated-processes/
+  - Why security findings end up in spreadsheets after the scan finishes | /discovery/security-findings-tracked-in-spreadsheets-after-scans/
 summary: Each close, the finance team rebuilds the same reconciliations in spreadsheets from exported data, and the books wait for the slowest one. Move matching into the system and run the close as a tracked schedule.
 layout: plain
 ---

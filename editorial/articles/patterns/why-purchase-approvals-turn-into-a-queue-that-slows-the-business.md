@@ -14,9 +14,13 @@ observable_condition: Purchase requests wait days for a single approver, arrive 
 primary_identification: Approval designed around one person and one channel: every purchase, whatever its size, passes the same desk, with no limits, no delegate and no standard information.
 commercial_value_dimensions: Purchasing lead time, work stoppages, approver time, supplier pricing and relationships, and the strength of the spending control itself
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/get-started-approvals | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
-  - https://learn.microsoft.com/en-us/power-automate/modern-approvals | https://learn.microsoft.com/en-us/power-automate/modern-approvals
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/across-workflow | https://learn.microsoft.com/en-us/dynamics365/business-central/across-workflow
+  - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - Create and test an approval workflow with Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/modern-approvals
+  - Workflows in Dynamics 365 Business Central - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-workflow
+related:
+  - The Cost of Processes That Move Through Email | /patterns/the-cost-of-running-business-processes-through-email-threads/
+  - Why finance reconciles information that systems already hold | /patterns/why-finance-reconciles-information-that-systems-already-hold/
+  - Why Leave Requests Still Travel Through Messages and Spreadsheets | /patterns/why-leave-requests-are-still-handled-through-chat-messages-and-spreadsheets/
 summary: Approval is meant to protect spending, yet in many businesses it just stalls it. Requests wait for one person, travel by email and arrive without the information needed to say yes.
 layout: plain
 ---

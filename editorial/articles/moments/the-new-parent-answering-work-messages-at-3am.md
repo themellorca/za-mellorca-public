@@ -15,9 +15,13 @@ human_dividend: Presence: being fully with the child, or fully asleep, during th
 trade_off: Clear boundaries can slow genuine urgent responses; colleagues must cover more; some parents choose to work at odd hours for flexibility; and very small teams have no one to hand urgent matters to.
 epistemic_state: HYPOTHESISED: reasoned from general research on fatigue and working conditions, not from a survey of South African parents or employers; the worked example is illustrative.
 sources:
-  - https://www.hse.gov.uk/humanfactors/topics/fatigue.htm | https://www.hse.gov.uk/humanfactors/topics/fatigue.htm
-  - https://www.hse.gov.uk/stress/ | https://www.hse.gov.uk/stress/
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Fatigue - HSE | https://www.hse.gov.uk/humanfactors/topics/fatigue.htm
+  - Stress and mental health at work - HSE | https://www.hse.gov.uk/stress/
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+related:
+  - When a death in the family reveals who held the passwords | /moments/when-a-death-reveals-who-held-the-passwords/
+  - The Returning Employee Who Finds Everything Changed | /moments/the-returning-employee-who-finds-everything-changed/
+  - When a Business Sale Stalls on Messy Records | /moments/when-a-business-sale-stalls-on-messy-records/
 summary: For a new parent, the night feed and the work phone can share the same hour. Why unspoken expectations of reply cost so much, and how teams can make the boundary explicit.
 layout: plain
 ---

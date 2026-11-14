@@ -15,9 +15,13 @@ human_dividend: Optionality: the freedom to sell, hand over or step back on the 
 trade_off: Tidying records takes time and money before any sale is certain; a buyer may still discount for other reasons; some knowledge is hard to write down; and the work can feel like admitting the owner is replaceable.
 epistemic_state: HYPOTHESISED: reasoned from general record-keeping obligations and how due diligence works, not from data on South African business sales; the worked example is illustrative.
 sources:
-  - https://www.sars.gov.za/client-segments/record-keeping/ | https://www.sars.gov.za/client-segments/record-keeping/
-  - https://www.gov.za/documents/companies-act | https://www.gov.za/documents/companies-act
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Record keeping - South African Revenue Service | https://www.sars.gov.za/client-segments/record-keeping/
+  - Companies Act 71 of 2008 - South African Government | https://www.gov.za/documents/companies-act
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - Why Bereavement Leave Needs Cover That Actually Works | /moments/why-bereavement-leave-needs-cover-that-actually-works/
+  - When a death in the family reveals who held the passwords | /moments/when-a-death-reveals-who-held-the-passwords/
+  - The Returning Employee Who Finds Everything Changed | /moments/the-returning-employee-who-finds-everything-changed/
 summary: Owners who plan to sell often find the deal slowed by records that live in their heads. Why tidy, traceable records protect an owner's options, and where to start.
 layout: plain
 ---

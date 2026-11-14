@@ -14,9 +14,13 @@ observable_condition: An order placed on the website arrives as an email or a da
 primary_identification: Online order capture that stops at the front door: the order is digital for the customer but a paper-and-keyboard task for staff, with no connection to stock, invoicing or delivery.
 commercial_value_dimensions: Order processing time and cost, error and rework rate, customer satisfaction, cash collection speed and staff capacity for growth
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/sales-manage-sales | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-manage-sales
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
-  - https://www.sars.gov.za/types-of-tax/value-added-tax/ | https://www.sars.gov.za/types-of-tax/value-added-tax/
+  - Overview of tasks to manage sales - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-manage-sales
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Value-Added Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/
+related:
+  - Why do field teams still phone the office for information? | /patterns/why-field-teams-still-phone-the-office-for-information/
+  - When admin becomes the bottleneck that limits the whole business | /patterns/when-admin-becomes-the-bottleneck-that-limits-the-whole-business/
+  - Why Finance Teams Keep Downloading and Reformatting Data | /patterns/why-finance-teams-keep-downloading-and-reformatting-data/
 summary: The customer clicks buy, then staff print, retype, phone and check. Online ordering that ends in manual office work moves the effort from the customer's side to yours.
 layout: plain
 ---

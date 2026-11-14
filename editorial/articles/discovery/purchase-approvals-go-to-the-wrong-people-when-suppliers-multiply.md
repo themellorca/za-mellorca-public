@@ -13,9 +13,13 @@ problem_domain: Procurement & Supplier Operations
 problem_owner: Head of procurement or operations manager
 budget_owner: CFO or COO
 sources:
-  - https://learn.microsoft.com/en-au/dynamics-nav-app/across-how-to-set-up-approval-users | https://learn.microsoft.com/en-au/dynamics-nav-app/across-how-to-set-up-approval-users
-  - https://www.acts.co.za/broad_based_black_econom/n1019_annexe_400a | https://www.acts.co.za/broad_based_black_econom/n1019_annexe_400a
+  - How to Set Up Approval Users - Dynamics NAV App | https://learn.microsoft.com/en-au/dynamics-nav-app/across-how-to-set-up-approval-users
+  - Broad-Based Black Economic Empowerment Act, 2003 (Act No. 53 of 2003) - Annexe 400(A) - Acts Online | https://www.acts.co.za/broad_based_black_econom/n1019_annexe_400a
   - https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf | https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf
+related:
+  - Why supplier access survives after the supplier engagement ends | /discovery/why-supplier-access-survives-after-engagements-end/
+  - Duplicate supplier invoices are caught after they are paid | /discovery/duplicate-supplier-invoices-are-caught-after-they-are-paid/
+  - Supplier bank-detail changes arrive by email and go unchecked | /discovery/supplier-bank-detail-changes-arrive-by-email-and-go-unchecked/
 summary: A stale approval matrix and a clerk's judgement send purchases to the wrong approvers as suppliers multiply. Route by rule on amount, category and supplier type, with substitutes and a trail.
 layout: plain
 ---

@@ -15,9 +15,13 @@ human_dividend: Predictability: a customer who can see how the price was built, 
 trade_off: Plain pricing takes effort to maintain; fuller explanations lengthen documents; transparency can expose genuine margin choices; complex products cannot always be reduced to one number.
 epistemic_state: HYPOTHESISED: reasoned from consumer-protection principles and ordinary billing practice, not from a survey of South African customers; the worked example is illustrative.
 sources:
-  - https://www.gov.za/documents/consumer-protection-act | https://www.gov.za/documents/consumer-protection-act
-  - https://www.sars.gov.za/types-of-tax/value-added-tax/ | https://www.sars.gov.za/types-of-tax/value-added-tax/
-  - https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/ | https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/
+  - Consumer Protection Act 68 of 2008 - South African Government | https://www.gov.za/documents/consumer-protection-act
+  - Value-Added Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/
+  - Small Businesses - Taxpayers - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/
+related:
+  - Why self-service can feel like respect | /moments/why-self-service-can-feel-like-respect/
+  - When craft businesses spend more time on software than craft | /moments/when-craft-businesses-spend-more-time-on-software-than-craft/
+  - The customer who gets a different answer from every person | /moments/the-customer-who-gets-a-different-answer-from-every-person/
 summary: A price that cannot be explained feels like a price that cannot be trusted. Why unclear quotes and invoices erode confidence, and how to make pricing readable.
 layout: plain
 ---

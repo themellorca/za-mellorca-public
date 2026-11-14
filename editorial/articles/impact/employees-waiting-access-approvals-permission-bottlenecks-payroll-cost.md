@@ -13,9 +13,13 @@ commercial_domain: IT and Operations
 primary_pain: Employees wait for access approvals before they can do their jobs
 primary_cost_mechanism: Salary paid for idle days, colleagues interrupted by workarounds, shared credentials that weaken accountability, and delayed downstream customer and finance work
 sources:
-  - https://csrc.nist.gov/glossary/term/least_privilege | https://csrc.nist.gov/glossary/term/least_privilege
-  - https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview | https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview
-  - https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-access-package-approval-policy | https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-access-package-approval-policy
+  - least privilege - Glossary - CSRC | https://csrc.nist.gov/glossary/term/least_privilege
+  - What is entitlement management? - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview
+  - Change approval settings for an access package in entitlement management - Microsoft Entra - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-access-package-approval-policy
+related:
+  - Chasing staff for receipts: The payroll cost of expense administration | /impact/chasing-employees-for-receipts-expense-information-payroll-cost/
+  - The payroll cost of a slow, spreadsheet-heavy month-end | /impact/manual-month-end-close-payroll-cost/
+  - The revenue cost of slow sales lead response | /impact/slow-sales-lead-response-revenue-cost/
 summary: When employees wait days for system access to be approved, the business pays full salary for no output and invites shared logins and workarounds; clear approval routes remove most of the delay.
 layout: plain
 ---

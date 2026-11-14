@@ -13,9 +13,13 @@ commercial_domain: Finance
 primary_pain: Manually reconciling bank accounts that could be matched automatically
 primary_cost_mechanism: Skilled bookkeeping hours spent ticking routine lines every month, late discovery of duplicate or missing payments, fatigue errors and month-end delays that hold up management reporting
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately | https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-how-set-up-payment-application-rules | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-how-set-up-payment-application-rules
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-how-review-apply-payments-auto-application | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-how-review-apply-payments-auto-application
+  - Reconcile bank accounts - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/bank-how-reconcile-bank-accounts-separately
+  - Rules for automatic application of payments - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-how-set-up-payment-application-rules
+  - Review and apply payments manually after automatic application - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-how-review-apply-payments-auto-application
+related:
+  - Cash Trouble You See Too Late: What Delayed Warning Costs | /impact/not-seeing-cash-flow-problems-until-urgent-cost-of-delayed-financial-warning/
+  - One Customer, Three Account Numbers: The Cost of Duplicate Customer Records | /impact/multiple-customer-numbers-same-customer-duplicate-records-reporting-cost/
+  - Who Approved That Payment? The Cost of Supplier Payments With No Trail | /impact/supplier-payments-without-clear-approval-trail-fraud-audit-cost/
 summary: Most bank statement lines can be matched by simple rules, yet many finance teams still tick them off manually, spending skilled hours and finding errors late.
 layout: plain
 ---

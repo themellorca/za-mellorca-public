@@ -13,9 +13,13 @@ problem_domain: Payments, Expenses & Spend Operations
 problem_owner: Accounts payable manager
 budget_owner: Financial director or CFO
 sources:
-  - https://docs.oracle.com/en/cloud/saas/financials/25d/fappp/how-can-i-find-duplicate-invoices-without-considering-the.html | https://docs.oracle.com/en/cloud/saas/financials/25d/fappp/how-can-i-find-duplicate-invoices-without-considering-the.html
-  - https://docs.oracle.com/en/cloud/saas/financials/25d/fappp/payables-invoice-audit-listing.html | https://docs.oracle.com/en/cloud/saas/financials/25d/fappp/payables-invoice-audit-listing.html
-  - https://www.sars.gov.za/businesses-and-employers/tax-invoices/ | https://www.sars.gov.za/businesses-and-employers/tax-invoices/
+  - Using Payables Invoice to Pay | https://docs.oracle.com/en/cloud/saas/financials/25d/fappp/how-can-i-find-duplicate-invoices-without-considering-the.html
+  - Using Payables Invoice to Pay | https://docs.oracle.com/en/cloud/saas/financials/25d/fappp/payables-invoice-audit-listing.html
+  - Tax Invoices - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/tax-invoices/
+related:
+  - Invoices arrive through multiple inboxes and channels | /discovery/why-supplier-invoices-need-one-front-door-as-volume-grows/
+  - Supplier bank-detail changes arrive by email and go unchecked | /discovery/supplier-bank-detail-changes-arrive-by-email-and-go-unchecked/
+  - Expense claims are checked by hand against a written policy | /discovery/expense-claims-are-checked-by-hand-against-a-written-policy/
 summary: Invoices arrive by several channels with inconsistent numbers and duplicate supplier records. Check at capture, block exact matches, review near matches and merge duplicate suppliers.
 layout: plain
 ---

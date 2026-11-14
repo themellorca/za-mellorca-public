@@ -14,9 +14,13 @@ observable_condition: Several AI pilots were started and demonstrated, none is u
 primary_identification: Experiments launched without a business measure, an owner, a live data plan or a stop rule, so there is no defined route to production and no clean way to end them.
 commercial_value_dimensions: Productivity, capital allocation, staff trust, competitive timing and organisational learning
 sources:
-  - https://www.nist.gov/itl/ai-risk-management-framework | https://www.nist.gov/itl/ai-risk-management-framework
-  - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy
-  - https://learn.microsoft.com/en-us/azure/well-architected/ai/application-design | https://learn.microsoft.com/en-us/azure/well-architected/ai/application-design
+  - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
+  - AI strategy - Guidance to set your organization's AI strategy - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy
+  - Application Design for AI Workloads on Azure - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/ai/application-design
+related:
+  - The Business Cost of Customers Chasing You | /patterns/the-business-cost-of-customers-chasing-you/
+  - When Access Requests Depend on Messages and Memory | /patterns/when-system-access-is-granted-through-chat-messages-and-memory/
+  - When Order Status Lives in Several Systems | /patterns/when-the-true-status-of-an-order-is-spread-across-several-systems/
 summary: Stalled AI pilots look harmless, but they absorb salaries, subscriptions and staff trust. Here is how to count the cost and give each experiment a route to daily use or a clean stop.
 layout: plain
 ---

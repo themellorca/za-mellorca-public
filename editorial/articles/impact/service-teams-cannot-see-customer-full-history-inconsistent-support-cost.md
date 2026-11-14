@@ -13,9 +13,13 @@ commercial_domain: Customer Service
 primary_pain: Service teams cannot see the customer's full history, so customers receive inconsistent and contradictory support
 primary_cost_mechanism: Extra handling time per contact, repeat contacts and escalations, duplicated goodwill credits and concessions, lost repeat orders, and difficulty showing fair and accurate handling of complaints
 sources:
-  - https://www.gov.za/documents/consumer-protection-act | https://www.gov.za/documents/consumer-protection-act
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/csw-overview | https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/csw-overview
+  - Consumer Protection Act 68 of 2008 - South African Government | https://www.gov.za/documents/consumer-protection-act
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - Overview of the Copilot Service workspace application for Dynamics 365 Customer Service | https://learn.microsoft.com/en-us/dynamics365/customer-service/implement/csw-overview
+related:
+  - What Sales Promised: The Cost of Support Working Blind | /impact/support-cannot-see-sales-promises-handover-gaps-service-failure-cost/
+  - Complaints Logged but Never Analysed: Paying Repeatedly for One Failure | /impact/complaints-recorded-not-analysed-recurring-causes-repeat-failure-cost/
+  - Online Customers Who Cannot Find Basic Answers: The Cost of Weak Self-Service | /impact/online-customers-cannot-find-basic-answers-weak-self-service-support-cost/
 summary: When service teams cannot see a customer's full history, the customer gets contradictory answers and the business pays through wasted handling time, escalations, goodwill credits and lost repeat orders.
 layout: plain
 ---

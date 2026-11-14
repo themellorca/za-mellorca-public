@@ -14,9 +14,13 @@ observable_condition: Each new customer brings a similar set of internal tasks, 
 primary_identification: Work that should be a repeatable routine is performed as a fresh piece of manual coordination for every customer, so effort scales with customer count instead of flattening.
 commercial_value_dimensions: Gross margin per customer, speed to first value, staff capacity, ability to grow without proportional headcount and customer experience in the first weeks
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/overview | https://learn.microsoft.com/en-us/dynamics365/sales/overview
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Welcome to Dynamics 365 Sales | https://learn.microsoft.com/en-us/dynamics365/sales/overview
+  - What is Microsoft Dataverse? - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+related:
+  - When new business brings more paperwork than profit | /patterns/when-new-business-brings-more-paperwork-than-profit/
+  - Why Support Volume Grows Faster Than the Customer Base | /patterns/why-support-volume-grows-faster-than-the-customer-base/
+  - When Every New Client Requires a Custom Administrative Process | /patterns/when-every-new-client-needs-its-own-administrative-process/
 summary: Winning a customer should add revenue faster than it adds effort. When it does not, the cause is usually in how setup and servicing are organised. Here is the pattern and a way to lighten it.
 layout: plain
 ---

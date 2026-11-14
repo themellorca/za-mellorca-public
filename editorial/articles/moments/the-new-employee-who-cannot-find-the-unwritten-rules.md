@@ -15,10 +15,14 @@ human_dividend: Predictability and autonomy: knowing how things really work from
 trade_off: Writing unwritten rules takes time from busy people; some conventions are better learned in conversation; a written list can go stale; and some informal rules are unfair and should be changed, not documented.
 epistemic_state: HYPOTHESISED: reasoned from general workplace guidance, not from a survey of South African employers; the worked example is illustrative.
 sources:
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://www.hse.gov.uk/stress/standards/support.htm | https://www.hse.gov.uk/stress/standards/support.htm
-  - https://www.hse.gov.uk/stress/standards/control.htm | https://www.hse.gov.uk/stress/standards/control.htm
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Management Standards - Support - HSE | https://www.hse.gov.uk/stress/standards/support.htm
+  - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+related:
+  - When rural connectivity decides who can work remotely | /moments/when-a-weak-signal-decides-who-gets-flexible-work/
+  - Why Language Barriers Show Up in Software Choices | /moments/why-language-barriers-show-up-in-the-software-a-business-chooses/
+  - When Information Lives Only in One Person's Language | /moments/when-key-information-exists-only-in-one-persons-language/
 summary: Every workplace runs on rules nobody wrote down. How new starters are left to guess them, what it costs in confidence, and how to put the important ones on paper.
 layout: plain
 ---

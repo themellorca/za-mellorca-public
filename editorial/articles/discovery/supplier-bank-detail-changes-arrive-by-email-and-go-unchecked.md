@@ -13,9 +13,13 @@ problem_domain: Payments, Expenses & Spend Operations
 problem_owner: Accounts payable manager
 budget_owner: Financial director or CFO
 sources:
-  - https://cib.absa.africa/home/insights-and-events/business-email-compromise/ | https://cib.absa.africa/home/insights-and-events/business-email-compromise/
-  - https://learn.microsoft.com/en-us/training/modules/configure-manage-vendor-collaboration-dyn365-supply-chain-mgmt/3-configure-vendor-collab | https://learn.microsoft.com/en-us/training/modules/configure-manage-vendor-collaboration-dyn365-supply-chain-mgmt/3-configure-vendor-collab
+  - Business Email Compromise - Absa - Corporate and Investment Banking | https://cib.absa.africa/home/insights-and-events/business-email-compromise/
+  - Configure vendor collaboration - Training | https://learn.microsoft.com/en-us/training/modules/configure-manage-vendor-collaboration-dyn365-supply-chain-mgmt/3-configure-vendor-collab
   - https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf | https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf
+related:
+  - Duplicate supplier invoices are caught after they are paid | /discovery/duplicate-supplier-invoices-are-caught-after-they-are-paid/
+  - Software subscriptions slip through as expense claims | /discovery/software-subscriptions-slip-through-as-expense-claims/
+  - Invoices arrive through multiple inboxes and channels | /discovery/why-supplier-invoices-need-one-front-door-as-volume-grows/
 summary: Bank-detail changes sent by email are captured without independent checks. Move them to a controlled route, verify with a known contact, require a second approver and hold first payments.
 layout: plain
 ---

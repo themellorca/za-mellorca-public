@@ -13,8 +13,12 @@ problem_domain: Sales Operations & CRM
 problem_owner: Sales or revenue operations lead
 budget_owner: Sales director or CRO
 sources:
-  - https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines | https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - Set up and manage object pipelines | https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+related:
+  - CRM required fields create admin without improving decisions | /discovery/why-crm-required-fields-add-admin-without-better-sales-decisions/
+  - Sales cannot see a customer's credit or service problems | /discovery/sales-cannot-see-a-customer-s-credit-or-service-problems/
+  - Nobody keeps customer contact roles current after the deal | /discovery/nobody-keeps-customer-contact-roles-current-after-the-deal/
 summary: Sales calls a deal qualified, finance counts it in the forecast and operations starts planning, but each means something different by the stage. Define stages by evidence and enforce them in the CRM.
 layout: plain
 ---

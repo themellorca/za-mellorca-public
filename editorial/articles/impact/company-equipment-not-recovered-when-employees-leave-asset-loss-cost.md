@@ -13,9 +13,13 @@ commercial_domain: Human Resources
 primary_pain: Equipment not being recovered when employees leave
 primary_cost_mechanism: Replacement purchase cost, continued airtime and licence billing, delayed equipment for new starters, data exposure on devices left with former staff and management time spent chasing
 sources:
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
-  - https://learn.microsoft.com/en-us/intune/device-management/actions/retire | https://learn.microsoft.com/en-us/intune/device-management/actions/retire
-  - https://learn.microsoft.com/en-us/intune/device-management/actions/wipe | https://learn.microsoft.com/en-us/intune/device-management/actions/wipe
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+  - Device Action: Retire - Microsoft Intune | https://learn.microsoft.com/en-us/intune/device-management/actions/retire
+  - Wipe devices with Microsoft Intune - Microsoft Intune | https://learn.microsoft.com/en-us/intune/device-management/actions/wipe
+related:
+  - Three Systems, One Employee: The Cost of Records That Disagree | /impact/employee-records-held-separately-payroll-hr-access-inconsistent-record-cost/
+  - Laptops That Leave With Employees: The Cost of No Return Process | /impact/devices-issued-without-return-process-equipment-lost-when-employees-leave-cost/
+  - Lost Laptops and Unknown Devices: What Untracked Equipment Costs | /impact/business-devices-not-tracked-lost-laptops-phones-replacement-cost/
 summary: Laptops, phones and monitors that walk out with departing staff cost replacement money, delay new starters and leave data and contracts exposed.
 layout: plain
 ---

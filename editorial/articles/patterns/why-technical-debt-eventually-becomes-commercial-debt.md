@@ -14,9 +14,13 @@ observable_condition: Quotes, invoices and onboarding depend on a few people who
 primary_identification: Deferred maintenance with no accountable owner for the condition of core systems, so shortcuts accumulate and are paid for later in delay, rework and risk.
 commercial_value_dimensions: Revenue speed, customer retention, staff capacity, key-person risk and cost of eventual system change
 sources:
-  - https://csrc.nist.gov/pubs/sp/800/218/final | https://csrc.nist.gov/pubs/sp/800/218/final
-  - https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/ | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/
-  - https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/principles | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/principles
+  - SP 800-218, Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities | https://csrc.nist.gov/pubs/sp/800/218/final
+  - Operational excellence quick links - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/
+  - Operational Excellence cloud design principles - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/principles
+related:
+  - Why Important Information Is Trapped in PDFs and Attachments | /patterns/why-important-information-stays-trapped-in-pdfs-and-email-attachments/
+  - The Cost of Not Knowing Who Can See What | /patterns/the-cost-of-not-being-able-to-say-who-can-open-which-files/
+  - When Order Status Lives in Several Systems | /patterns/when-the-true-status-of-an-order-is-spread-across-several-systems/
 summary: Shortcuts in the systems a business relies on do not stay technical. They turn into slower quotes, rechecked invoices and lost orders. Here is how to spot and price that debt.
 layout: plain
 ---

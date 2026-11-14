@@ -10,9 +10,13 @@ published_date: 2026-11-14
 updated_date: 2026-11-14
 eyebrow: Software Selection
 sources:
-  - https://www.gov.uk/guidance/define-your-purchasing-strategy | https://www.gov.uk/guidance/define-your-purchasing-strategy
-  - https://www.gov.uk/guidance/make-better-use-of-data | https://www.gov.uk/guidance/make-better-use-of-data
-  - https://www.gov.uk/guidance/the-technology-code-of-practice | https://www.gov.uk/guidance/the-technology-code-of-practice
+  - Define your purchasing strategy | https://www.gov.uk/guidance/define-your-purchasing-strategy
+  - Make better use of data | https://www.gov.uk/guidance/make-better-use-of-data
+  - The Technology Code of Practice | https://www.gov.uk/guidance/the-technology-code-of-practice
+related:
+  - What Should an Operations Leader Know Before Buying Automation? | /insights/what-should-an-operations-leader-know-before-buying-automation-ten-questions/
+  - How to Calculate the Cost of Piling On More Software | /insights/how-to-calculate-the-cost-of-piling-on-more-software/
+  - How to Find Steps That Exist Only Because the System Is Bad | /insights/how-to-find-steps-that-exist-only-because-the-system-is-bad/
 summary: A low subscription price hides the re-keying, workarounds and exit costs that land on your staff; here is how to count them before you buy.
 layout: plain
 ---

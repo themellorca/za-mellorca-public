@@ -13,8 +13,12 @@ problem_domain: HR & Workforce Operations
 problem_owner: HR operations or people operations manager
 budget_owner: HR director or COO
 sources:
-  - https://learn.microsoft.com/en-us/entra/identity/app-provisioning/plan-cloud-hr-provision | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/plan-cloud-hr-provision
+  - Plan cloud HR application to Microsoft Entra user provisioning - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/plan-cloud-hr-provision
   - https://www.gov.za/sites/default/files/gcis_document/201409/a75-97.pdf | https://www.gov.za/sites/default/files/gcis_document/201409/a75-97.pdf
+related:
+  - New SKUs go on sale before every system has the product data | /discovery/launching-a-new-sku-before-every-system-knows-it-exists/
+  - Security controls are duplicated across teams | /discovery/why-the-same-security-control-gets-built-and-evidenced-by-several-teams/
+  - Why your integrations multiply faster than your applications | /discovery/point-to-point-integrations-multiply-faster-than-applications/
 summary: IT, payroll, facilities and the line manager each own part of a new starter's first day, and HR spends the week before it sending reminders. Turn the hire into one triggered workflow with owners and dates.
 layout: plain
 ---

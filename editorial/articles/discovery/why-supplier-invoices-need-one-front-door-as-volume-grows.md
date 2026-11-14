@@ -13,9 +13,13 @@ problem_domain: Payments, Expenses & Spend Operations
 problem_owner: Accounts payable lead or financial manager
 budget_owner: Financial director or managing director
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/vendor-invoice-automation | https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/vendor-invoice-automation
-  - https://learn.microsoft.com/en-us/ai-builder/prebuilt-invoice-processing | https://learn.microsoft.com/en-us/ai-builder/prebuilt-invoice-processing
-  - https://www.sars.gov.za/types-of-tax/value-added-tax/ | https://www.sars.gov.za/types-of-tax/value-added-tax/
+  - Invoice automation for scanned documents - Finance - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/vendor-invoice-automation
+  - Invoice processing prebuilt AI model | https://learn.microsoft.com/en-us/ai-builder/prebuilt-invoice-processing
+  - Value-Added Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/
+related:
+  - Duplicate supplier invoices are caught after they are paid | /discovery/duplicate-supplier-invoices-are-caught-after-they-are-paid/
+  - Supplier bank-detail changes arrive by email and go unchecked | /discovery/supplier-bank-detail-changes-arrive-by-email-and-go-unchecked/
+  - Software subscriptions slip through as expense claims | /discovery/software-subscriptions-slip-through-as-expense-claims/
 summary: When invoices land in personal inboxes, shared mailboxes and chat messages, nobody knows what is owed. How to give accounts payable one front door and one record of arrival.
 layout: plain
 ---

@@ -14,9 +14,13 @@ observable_condition: Requesters, buyers and finance cannot say whether a purcha
 primary_identification: Invisible workflow state: the request is a message with no stage, holder or recorded approval, and nobody owns the time it spends between hands.
 commercial_value_dimensions: Operational downtime, purchase cost, staff time spent chasing, spend control and supplier relationships
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/modern-approvals | https://learn.microsoft.com/en-us/power-automate/modern-approvals
-  - https://learn.microsoft.com/en-us/power-automate/get-started-approvals | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Create and test an approval workflow with Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/modern-approvals
+  - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+related:
+  - Why teams keep chasing sign-off | /patterns/why-teams-keep-chasing-sign-off/
+  - Why does buying something internally take so long? | /patterns/why-does-buying-something-internally-take-so-long/
+  - Why Managers Keep Asking HR for the Same Reports | /patterns/why-managers-keep-asking-hr-for-the-same-reports/
 summary: A purchase request that exists only as a message has no visible status, so people chase, duplicate and wait. Here is why it happens and how to make the journey visible.
 layout: plain
 ---

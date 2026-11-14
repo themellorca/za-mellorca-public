@@ -15,9 +15,13 @@ human_dividend: Financial breathing room: knowing which growth adds cash after e
 trade_off: Turning down volume can lose a customer or a foothold; careful costing takes time a busy owner lacks; cash buffers slow expansion; some low-margin work is worth taking for strategic reasons.
 epistemic_state: HYPOTHESISED: reasoned from general financial and workload principles and public tax guidance, not from a survey of South African owners; the worked example is illustrative.
 sources:
-  - https://www.sars.gov.za/types-of-tax/value-added-tax/ | https://www.sars.gov.za/types-of-tax/value-added-tax/
-  - https://www.sars.gov.za/types-of-tax/pay-as-you-earn/ | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
-  - https://www.hse.gov.uk/stress/ | https://www.hse.gov.uk/stress/
+  - Value-Added Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/
+  - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
+  - Stress and mental health at work - HSE | https://www.hse.gov.uk/stress/
+related:
+  - When One Big Client Holds the Business Hostage | /moments/when-one-big-client-holds-the-business-hostage/
+  - The owner who can finally say no to work | /moments/the-owner-who-can-finally-say-no-to-work/
+  - The Owner Who Pays Themselves Last | /moments/the-owner-who-pays-themselves-last/
 summary: More customers can leave an owner with less cash and more hours. How to tell whether growth is paying for itself, and what to check before saying yes to the next big order.
 layout: plain
 ---

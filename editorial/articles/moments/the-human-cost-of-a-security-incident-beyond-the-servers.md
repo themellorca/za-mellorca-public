@@ -15,9 +15,13 @@ human_dividend: Predictability: knowing in advance who does what, that reporting
 trade_off: Blamelessness has limits for reckless patterns; planning costs time; openness raises legal questions including POPIA duties; support from a business is not treatment.
 epistemic_state: HYPOTHESISED: reasoned from general incident-response and workplace wellbeing guidance, not from a survey of South African employers; the worked example is illustrative.
 sources:
-  - https://csrc.nist.gov/pubs/sp/800/61/r3/final | https://csrc.nist.gov/pubs/sp/800/61/r3/final
-  - https://www.ncsc.gov.uk/collection/incident-management | https://www.ncsc.gov.uk/collection/incident-management
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile - CSRC | https://csrc.nist.gov/pubs/sp/800/61/r3/final
+  - Incident management | https://www.ncsc.gov.uk/collection/incident-management
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+related:
+  - When Unsafe Shortcuts Are Built Into the Workflow | /moments/when-unsafe-shortcuts-are-built-into-the-finance-workflow/
+  - The sleep lost over a system nobody else understands | /moments/the-sleep-lost-over-a-system-only-one-person-understands/
+  - When Being On-Call Means Never Quite Resting | /moments/when-being-on-call-means-never-quite-resting/
 summary: After a breach, the people involved carry shame, fatigue and lost confidence. How a business can plan for that human side and recover faster.
 layout: plain
 ---

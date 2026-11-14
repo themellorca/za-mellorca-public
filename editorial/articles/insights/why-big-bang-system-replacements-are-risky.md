@@ -10,9 +10,13 @@ published_date: 2026-11-14
 updated_date: 2026-11-14
 eyebrow: Systems Implementation
 sources:
-  - https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig | https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig
-  - https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments
-  - https://www.gov.uk/guidance/the-technology-code-of-practice | https://www.gov.uk/guidance/the-technology-code-of-practice
+  - Strangler Fig Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig
+  - Architecture strategies for safe deployment practices - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments
+  - The Technology Code of Practice | https://www.gov.uk/guidance/the-technology-code-of-practice
+related:
+  - What Belongs in an Implementation Plan | /insights/the-parts-of-a-sound-systems-implementation-plan/
+  - How to Prevent Requirements From Growing Without Control | /insights/how-to-prevent-requirements-from-growing-without-control/
+  - What a CRM Migration Should Include Beyond Moving Records | /insights/what-a-crm-migration-should-include-beyond-moving-records/
 summary: Switching everything on one date concentrates the risk. Replacing in slices keeps a fallback, proves each piece in real use and protects trading.
 layout: plain
 ---

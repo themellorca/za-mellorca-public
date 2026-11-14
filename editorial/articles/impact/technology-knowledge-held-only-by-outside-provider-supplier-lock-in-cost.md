@@ -14,8 +14,12 @@ primary_pain: Important technology knowledge, access and documentation exist onl
 primary_cost_mechanism: Weak negotiating position at renewal, costly and slow supplier exits with overlapping fees, slower response while waiting on the supplier, and exposure to losing control of domains or systems if the supplier fails
 sources:
   - https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf | https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
-  - https://www.icann.org/resources/pages/name-holder-faqs-2017-10-10-en | https://www.icann.org/resources/pages/name-holder-faqs-2017-10-10-en
-  - https://learn.microsoft.com/en-us/partner-center/customers/gdap-introduction | https://learn.microsoft.com/en-us/partner-center/customers/gdap-introduction
+  - FAQs for Registrants: Transferring Your Domain Name - ICANN | https://www.icann.org/resources/pages/name-holder-faqs-2017-10-10-en
+  - Granular delegated admin privileges (GDAP) introduction - Partner Center | https://learn.microsoft.com/en-us/partner-center/customers/gdap-introduction
+related:
+  - Connected but Undocumented: The Cost of Integrations Only One Person Understands | /impact/system-connections-undocumented-maintenance-outages-individual-dependency-cost/
+  - Local Administrator Rights Nobody Reviewed: The Cost of Unmanaged Devices | /impact/local-administrator-rights-unneeded-unmanaged-device-changes-support-security-cost/
+  - New starters waiting for logins: The payroll cost of slow access setup | /impact/new-starters-waiting-for-logins-access-setup-cost/
 summary: If the only full record of your systems, passwords and configurations sits with an outside provider, switching suppliers becomes slow and risky, and your negotiating position weakens.
 layout: plain
 ---

@@ -13,9 +13,13 @@ commercial_domain: Customer Service
 primary_pain: Online customers unable to find basic answers without contacting staff
 primary_cost_mechanism: Agent hours answering questions the website should answer, slower service for complex cases, abandoned purchases and repeat follow-up when status or policy information is missing
 sources:
-  - https://www.thencc.org.za/consumer-protection-act | https://www.thencc.org.za/consumer-protection-act
-  - https://www.w3.org/WAI/WCAG22/Understanding/ | https://www.w3.org/WAI/WCAG22/Understanding/
-  - https://developers.google.com/search/docs/fundamentals/creating-helpful-content | https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  - Consumer Protection Act - The National Consumer Commission | https://www.thencc.org.za/consumer-protection-act
+  - Understanding WCAG 2.2 - WAI - W3C | https://www.w3.org/WAI/WCAG22/Understanding/
+  - Creating Helpful, Reliable, People-First Content - Google Search Central - Documentation - Google for Developers | https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+related:
+  - When Service Can't See the Customer's History: The Cost of Inconsistent Support | /impact/service-teams-cannot-see-customer-full-history-inconsistent-support-cost/
+  - Phone calls recorded on notepads: The cost of incomplete customer records | /impact/phone-call-notes-not-recorded-in-shared-system-cost/
+  - What Sales Promised: The Cost of Support Working Blind | /impact/support-cannot-see-sales-promises-handover-gaps-service-failure-cost/
 summary: When delivery, returns and stock answers are hard to find online, customers contact staff for what the website should tell them, and some leave without buying.
 layout: plain
 ---

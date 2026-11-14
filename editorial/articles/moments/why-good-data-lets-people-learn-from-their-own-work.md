@@ -15,9 +15,13 @@ human_dividend: Optionality: the ability to try a different approach, see the re
 trade_off: Opening up data takes cleaning effort; early numbers can be misread; individual-level data raises fairness and privacy questions; some roles will not want to see their figures at all.
 epistemic_state: HYPOTHESISED: reasoned from general guidance on dashboards and working conditions, not from a study of South African teams; the worked example is illustrative.
 sources:
-  - https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards | https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Intro to dashboards for Power BI designers - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - When Curiosity Is Squeezed Out by Busywork | /moments/when-curiosity-is-squeezed-out-by-busywork/
+  - The Promotion Nobody Can Take Because the Role Can't Be Covered | /moments/the-promotion-nobody-can-take-because-the-role-cant-be-covered/
+  - The apprentice who learns workarounds instead of craft | /moments/the-apprentice-who-learns-workarounds-instead-of-craft/
 summary: People improve fastest when they can see the results of what they did. Why clean, timely data is a learning tool as much as a control tool, and how to share it fairly.
 layout: plain
 ---

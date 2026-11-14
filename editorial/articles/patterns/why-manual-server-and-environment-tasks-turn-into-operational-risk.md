@@ -14,9 +14,13 @@ observable_condition: Setting up a server, refreshing a test environment or appl
 primary_identification: Undocumented, hand-executed administration tasks: the steps live in a person's head, the resulting configuration is not recorded, and no two environments are guaranteed to match.
 commercial_value_dimensions: Outage frequency and recovery time, project start-up speed, key-person risk, audit readiness and the cost of technical staff time
 sources:
-  - https://learn.microsoft.com/en-us/azure/automation/overview | https://learn.microsoft.com/en-us/azure/automation/overview
-  - https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview | https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview
-  - https://csrc.nist.gov/glossary/term/configuration_management | https://csrc.nist.gov/glossary/term/configuration_management
+  - Azure Automation overview | https://learn.microsoft.com/en-us/azure/automation/overview
+  - What is Bicep? - Azure Resource Manager | https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview
+  - configuration management - Glossary - CSRC | https://csrc.nist.gov/glossary/term/configuration_management
+related:
+  - When only one person knows where the report's numbers come from | /patterns/when-only-one-person-knows-where-the-reports-numbers-come-from/
+  - Why staff keep a spreadsheet between two business systems | /patterns/why-staff-keep-a-spreadsheet-between-two-business-systems/
+  - The daily routine nobody remembers the reason for | /patterns/the-daily-routine-nobody-remembers-the-reason-for/
 summary: When servers and test environments are set up and patched by hand, the business depends on one person's memory. The risk shows up as drift, delay and outages nobody can explain.
 layout: plain
 ---

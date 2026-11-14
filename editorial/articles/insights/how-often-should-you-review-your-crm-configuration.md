@@ -10,9 +10,13 @@ published_date: 2026-11-14
 updated_date: 2026-11-14
 eyebrow: CRM Operations
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/get-started/release-schedule | https://learn.microsoft.com/en-us/dynamics365/get-started/release-schedule
-  - https://learn.microsoft.com/en-us/power-platform/alm/overview-alm | https://learn.microsoft.com/en-us/power-platform/alm/overview-alm
-  - https://learn.microsoft.com/en-us/power-platform/alm/solution-concepts-alm | https://learn.microsoft.com/en-us/power-platform/alm/solution-concepts-alm
+  - Dynamics 365 and Power Platform Release Schedules - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/get-started/release-schedule
+  - Application lifecycle management (ALM) with Microsoft Power Platform - Power Platform | https://learn.microsoft.com/en-us/power-platform/alm/overview-alm
+  - Solution concepts with Power Platform - Power Platform | https://learn.microsoft.com/en-us/power-platform/alm/solution-concepts-alm
+related:
+  - How to Keep a CRM Clean After the Cleanup Project Ends | /insights/how-to-keep-a-crm-clean-after-the-cleanup-project-ends/
+  - How to Design CRM Notifications Without Creating Alert Fatigue | /insights/how-to-design-crm-notifications-without-creating-alert-fatigue/
+  - How Often Should You Review Your Integrations? | /insights/how-often-should-you-review-your-integrations/
 summary: A practical review rhythm for CRM settings, with the triggers that justify reviewing sooner and a light schedule small teams can keep.
 layout: plain
 ---

@@ -14,9 +14,13 @@ observable_condition: A dispatch clerk phones or types a message to each custome
 primary_identification: Manual relay of a known event: the dispatch status is recorded but does not trigger any message, so staff retype what the business already knows.
 commercial_value_dimensions: Dispatcher capacity, delivery reliability, failed-delivery cost, inbound call volume and customer confidence
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
-  - https://learn.microsoft.com/en-us/power-automate/email-triggers | https://learn.microsoft.com/en-us/power-automate/email-triggers
-  - https://learn.microsoft.com/en-us/power-automate/triggers-introduction | https://learn.microsoft.com/en-us/power-automate/triggers-introduction
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Trigger a cloud flow based on email properties in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/email-triggers
+  - Triggers - Power Automate | https://learn.microsoft.com/en-us/power-automate/triggers-introduction
+related:
+  - The Business Cost of Customers Chasing You | /patterns/the-business-cost-of-customers-chasing-you/
+  - The cost of work that adds no new information | /patterns/the-cost-of-work-that-adds-no-new-information/
+  - The Cost of Not Knowing Who Can See What | /patterns/the-cost-of-not-being-able-to-say-who-can-open-which-files/
 summary: When a dispatcher retypes a fact the business already holds into a message for every load, the courtesy has a price in time, late notices and inbound calls. Here is how to see it and reduce it.
 layout: plain
 ---

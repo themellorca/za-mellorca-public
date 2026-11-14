@@ -10,9 +10,13 @@ published_date: 2026-11-14
 updated_date: 2026-11-14
 eyebrow: Process Documentation
 sources:
-  - https://www.who.int/teams/integrated-health-services/patient-safety/research/safe-surgery/tool-and-resources | https://www.who.int/teams/integrated-health-services/patient-safety/research/safe-surgery/tool-and-resources
-  - https://www.who.int/teams/integrated-health-services/patient-safety/research/safe-surgery | https://www.who.int/teams/integrated-health-services/patient-safety/research/safe-surgery
-  - https://www.who.int/publications/i/item/9789241598552 | https://www.who.int/publications/i/item/9789241598552
+  - Tool and Resources | https://www.who.int/teams/integrated-health-services/patient-safety/research/safe-surgery/tool-and-resources
+  - Safe surgery | https://www.who.int/teams/integrated-health-services/patient-safety/research/safe-surgery
+  - WHO Guidelines for safe surgery: safe surgery saves lives | https://www.who.int/publications/i/item/9789241598552
+related:
+  - How to Keep SOPs From Becoming Outdated PDFs | /insights/how-to-keep-sops-from-becoming-outdated-pdfs/
+  - How to Document a Workflow People Will Actually Follow | /insights/writing-down-a-workflow-so-that-it-gets-used/
+  - How to Document Exceptions, Not Just the Happy Path | /insights/how-to-document-exceptions-not-just-the-happy-path/
 summary: An SOP teaches a job and a checklist stops a skilled person skipping a step; knowing which one you need saves effort and prevents expensive misses.
 layout: plain
 ---

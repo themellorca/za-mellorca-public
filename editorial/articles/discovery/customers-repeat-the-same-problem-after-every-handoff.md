@@ -13,8 +13,12 @@ problem_domain: Customer Service & Support Operations
 problem_owner: Head of customer service or support operations
 budget_owner: COO or customer experience director
 sources:
-  - https://learn.microsoft.com/microsoft-copilot-studio/advanced-hand-off | https://learn.microsoft.com/microsoft-copilot-studio/advanced-hand-off
-  - https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/copilot-enable-summary | https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/copilot-enable-summary
+  - Hand off to a live agent - Microsoft Copilot Studio | https://learn.microsoft.com/microsoft-copilot-studio/advanced-hand-off
+  - Enable Copilot case and conversation summaries | https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/copilot-enable-summary
+related:
+  - Customer security questionnaires consume specialist time | /discovery/why-customer-security-questionnaires-keep-pulling-specialists-off-their-work/
+  - Why sales teams cannot check live stock while the customer waits | /discovery/why-sales-teams-cannot-check-live-stock-while-the-customer-waits/
+  - Why infrastructure changes get made without recording the business impact | /discovery/infrastructure-changes-without-recorded-business-impact/
 summary: Each transfer between chat, phone, email and specialist teams wipes the context, so customers explain the same fault again and again. Fix the handoff record, not the script.
 layout: plain
 ---

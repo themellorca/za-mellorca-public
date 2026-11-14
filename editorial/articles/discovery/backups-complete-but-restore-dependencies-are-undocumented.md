@@ -15,7 +15,11 @@ budget_owner: CIO, with the CFO where compliance funding is involved
 sources:
   - https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-34r1.pdf | https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-34r1.pdf
   - https://www.masthead.co.za/wp-content/uploads/2023/11/Joint_Communication_4_of_2023_Publication_of_Joint_Standard_1_of_2023.pdf | https://www.masthead.co.za/wp-content/uploads/2023/11/Joint_Communication_4_of_2023_Publication_of_Joint_Standard_1_of_2023.pdf
-  - https://learn.microsoft.com/en-us/security/ransomware/protect-against-ransomware-phase1 | https://learn.microsoft.com/en-us/security/ransomware/protect-against-ransomware-phase1
+  - Prepare for ransomware attacks with a backup and recovery plan | https://learn.microsoft.com/en-us/security/ransomware/protect-against-ransomware-phase1
+related:
+  - Why servers get upsized when nobody trusts the utilisation data | /discovery/server-capacity-added-because-utilisation-data-is-not-trusted/
+  - When capacity planning only happens after something has gone down | /discovery/capacity-planning-only-after-incidents/
+  - Why critical services end up depending on one cloud region by accident | /discovery/critical-services-depend-on-one-cloud-region-by-accident/
 summary: Green backup reports say the data is safe, yet a real restore stalls on missing keys, identity services, DNS and licences that nobody listed. Map what each restore needs before you need it.
 layout: plain
 ---

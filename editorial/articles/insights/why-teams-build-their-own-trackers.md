@@ -10,9 +10,13 @@ published_date: 2026-11-14
 updated_date: 2026-11-14
 eyebrow: Systems and Workflows
 sources:
-  - https://eusprig.org/research-info/horror-stories/ | https://eusprig.org/research-info/horror-stories/
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
-  - https://popia.co.za/section-10-minimality/ | https://popia.co.za/section-10-minimality/
+  - Horror Stories - European Spreadsheet Risk Interest Group | https://eusprig.org/research-info/horror-stories/
+  - What is Microsoft Dataverse? - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
+  - Section 10 Minimality - POPIA | https://popia.co.za/section-10-minimality/
+related:
+  - How to Build Reporting From Systems People Actually Use | /insights/how-to-build-reporting-from-the-systems-your-people-already-use-every-day/
+  - How to map the flow of information between business systems | /insights/how-to-map-the-flow-of-information-between-business-systems/
+  - How a CRM turns into an expensive address book | /insights/how-a-crm-turns-into-an-expensive-address-book/
 summary: Side trackers are rarely a discipline problem. They show where the official systems fail the people doing the work.
 layout: plain
 ---

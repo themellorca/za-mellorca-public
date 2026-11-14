@@ -13,9 +13,13 @@ commercial_domain: Customer Service
 primary_pain: Customer complaints recorded but not analysed for recurring causes
 primary_cost_mechanism: Repeated credits, replacements and call-outs for the same fault, investigation time restarted on every case, lost repeat business and weaker footing in consumer disputes
 sources:
-  - https://www.thencc.org.za/consumer-protection-act | https://www.thencc.org.za/consumer-protection-act
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://learn.microsoft.com/en-us/training/paths/work-with-cases-in-dynamics-365-for-customer-service/ | https://learn.microsoft.com/en-us/training/paths/work-with-cases-in-dynamics-365-for-customer-service/
+  - Consumer Protection Act - The National Consumer Commission | https://www.thencc.org.za/consumer-protection-act
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - Manage cases, workloads, and service commitments in Dynamics 365 Customer Service - Training | https://learn.microsoft.com/en-us/training/paths/work-with-cases-in-dynamics-365-for-customer-service/
+related:
+  - "Just checking on my order": The labour cost of manual progress updates | /impact/manual-customer-progress-updates-status-message-labour-cost/
+  - When Service Can't See the Customer's History: The Cost of Inconsistent Support | /impact/service-teams-cannot-see-customer-full-history-inconsistent-support-cost/
+  - What Sales Promised: The Cost of Support Working Blind | /impact/support-cannot-see-sales-promises-handover-gaps-service-failure-cost/
 summary: When complaints are logged one at a time and never grouped by cause, the same fault is paid for again and again in credits, call-outs, staff time and lost customers.
 layout: plain
 ---

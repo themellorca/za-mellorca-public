@@ -10,9 +10,13 @@ published_date: 2026-11-14
 updated_date: 2026-11-14
 eyebrow: Data Management
 sources:
-  - https://www.gov.uk/guidance/make-better-use-of-data | https://www.gov.uk/guidance/make-better-use-of-data
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://www.gov.uk/guidance/define-your-purchasing-strategy | https://www.gov.uk/guidance/define-your-purchasing-strategy
+  - Make better use of data | https://www.gov.uk/guidance/make-better-use-of-data
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - Define your purchasing strategy | https://www.gov.uk/guidance/define-your-purchasing-strategy
+related:
+  - How to decide what should be the system of record | /insights/how-to-decide-what-should-be-the-system-of-record/
+  - How to decide what should be on an operations dashboard | /insights/how-to-decide-what-should-be-on-an-operations-dashboard/
+  - Batch sync vs real-time sync: Which does the business actually need? | /insights/batch-or-real-time-sync-how-fast-does-each-data-flow-need-to-be/
 summary: Choose a home of record for each data set by purpose, users, sensitivity and exit options, instead of letting the tools decide by accident.
 layout: plain
 ---

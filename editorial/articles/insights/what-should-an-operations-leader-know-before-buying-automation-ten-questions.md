@@ -10,10 +10,14 @@ published_date: 2026-11-14
 updated_date: 2026-11-14
 eyebrow: Software Selection
 sources:
-  - https://www.gov.uk/guidance/the-technology-code-of-practice | https://www.gov.uk/guidance/the-technology-code-of-practice
-  - https://www.gov.uk/guidance/define-your-purchasing-strategy | https://www.gov.uk/guidance/define-your-purchasing-strategy
-  - https://learn.microsoft.com/en-us/power-automate/limits-and-config | https://learn.microsoft.com/en-us/power-automate/limits-and-config
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - The Technology Code of Practice | https://www.gov.uk/guidance/the-technology-code-of-practice
+  - Define your purchasing strategy | https://www.gov.uk/guidance/define-your-purchasing-strategy
+  - Limits of automated, scheduled, and instant flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/limits-and-config
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - Why Cheap Software Can Create Expensive Work | /insights/why-cheap-software-can-create-expensive-work-for-your-team/
+  - Before you buy another tool, ask these questions | /insights/before-you-buy-another-tool-ask-these-questions/
+  - Before you automate, understand how the work actually moves | /insights/before-you-automate-understand-how-the-work-actually-moves/
 summary: Automation vendors demonstrate the easy path. Operations leaders inherit the exceptions, the licence growth and the maintenance. Here are the questions to answer before signing.
 layout: plain
 ---

@@ -10,9 +10,13 @@ published_date: 2026-11-14
 updated_date: 2026-11-14
 eyebrow: Implementation Planning
 sources:
-  - https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works | https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works
-  - https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works | https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works
-  - https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works | https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works
+  - How the discovery phase works | https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works
+  - How the alpha phase works | https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works
+  - How the beta phase works | https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works
+related:
+  - How to decide what technology problem to solve first | /insights/how-to-decide-what-technology-problem-to-solve-first/
+  - How to Prevent Requirements From Growing Without Control | /insights/how-to-prevent-requirements-from-growing-without-control/
+  - How to prioritise digital improvements when budget is limited | /insights/how-to-prioritise-digital-improvements-when-budget-is-limited/
 summary: A practical filter for turning a long wish list into a focused first phase that removes a real cost, tests the riskiest assumption and leaves the business better off.
 layout: plain
 ---

@@ -13,10 +13,14 @@ commercial_domain: Sales and Revenue
 primary_pain: No reliable view of future sales, so plans rest on an unreliable open opportunity list
 primary_cost_mechanism: Overdraft and late supplier payments when receipts fall short, mistimed stock and hiring commitments, missed discounts, management time spent disputing numbers, and weaker credibility with lenders
 sources:
-  - https://www.sars.gov.za/types-of-tax/value-added-tax/ | https://www.sars.gov.za/types-of-tax/value-added-tax/
-  - https://www.sars.gov.za/types-of-tax/pay-as-you-earn/ | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
+  - Value-Added Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/
+  - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
   - https://help.salesforce.com/s/articleView?id=sales.forecasts3_overview.htm | https://help.salesforce.com/s/articleView?id=sales.forecasts3_overview.htm
   - https://help.salesforce.com/s/articleView?id=sales.pipeline_inspection_overview.htm | https://help.salesforce.com/s/articleView?id=sales.pipeline_inspection_overview.htm
+related:
+  - Forecasts Built on Hope: What Unreliable Sales Numbers Cost the Business | /impact/sales-forecasts-based-on-optimism-not-deal-evidence-unreliable-forecasting-cost/
+  - Which business numbers can you trust? The cost of deciding on bad data | /impact/untrusted-business-numbers-unreliable-decision-cost/
+  - When the books do not match the business: The cost of constant reconciliation | /impact/accounting-records-not-matching-operations-reconciliation-decision-uncertainty-cost/
 summary: When a business cannot trust its view of future sales, spending, stock and payments are planned against numbers that do not hold, and the gap lands in cash flow.
 layout: plain
 ---

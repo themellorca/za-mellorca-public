@@ -14,8 +14,12 @@ observable_condition: Equipment requests, hires, supplier responses and customer
 primary_identification: Decision latency: decision rights, thresholds, required information and routing are not designed, so routine decisions wait unseen for senior people.
 commercial_value_dimensions: Productive capacity, revenue timing, talent acquisition, supplier relationships and management time
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/get-started-approvals | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
-  - https://learn.microsoft.com/en-us/power-automate/modern-approvals | https://learn.microsoft.com/en-us/power-automate/modern-approvals
+  - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - Create and test an approval workflow with Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/modern-approvals
+related:
+  - Why Approvals Accumulate as Companies Grow | /patterns/why-approval-steps-pile-up-as-a-company-grows/
+  - The hidden cost of waiting for management information | /patterns/the-hidden-cost-of-waiting-for-management-information/
+  - The Cost of Infrastructure That Cannot Scale With Demand | /patterns/why-growing-demand-exposes-infrastructure-sized-for-yesterday/
 summary: Slow decisions rarely appear on a report, but they hold up orders, hires, payments and projects every day. Here is how to see the waiting time and shorten it without losing control.
 layout: plain
 ---

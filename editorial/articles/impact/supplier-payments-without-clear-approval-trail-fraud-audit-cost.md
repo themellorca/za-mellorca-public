@@ -13,9 +13,13 @@ commercial_domain: Finance
 primary_pain: Supplier payments are released without a clear, recorded approval trail
 primary_cost_mechanism: Undetected fraud and payment errors, audit and review time spent reconstructing approvals, supplier disputes and late payments, and weak evidence of control
 sources:
-  - https://www.gov.za/documents/companies-act | https://www.gov.za/documents/companies-act
-  - https://csrc.nist.gov/glossary/term/separation_of_duty | https://csrc.nist.gov/glossary/term/separation_of_duty
-  - https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/overview-workflow-system | https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/overview-workflow-system
+  - Companies Act 71 of 2008 - South African Government | https://www.gov.za/documents/companies-act
+  - Separation of Duty (SOD) - Glossary - CSRC | https://csrc.nist.gov/glossary/term/separation_of_duty
+  - Workflow system overview - Finance & Operations - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/overview-workflow-system
+related:
+  - Cash Trouble You See Too Late: What Delayed Warning Costs | /impact/not-seeing-cash-flow-problems-until-urgent-cost-of-delayed-financial-warning/
+  - One Customer, Three Account Numbers: The Cost of Duplicate Customer Records | /impact/multiple-customer-numbers-same-customer-duplicate-records-reporting-cost/
+  - Reconciling Bank Accounts by Hand: The Labour Cost of Matchable Lines | /impact/bank-accounts-reconciled-by-hand-matchable-transactions-finance-labour-cost/
 summary: Supplier payments released without a recorded approval trail leave a business exposed to fraud, error and audit rework, and make disputes a contest of memory rather than evidence.
 layout: plain
 ---

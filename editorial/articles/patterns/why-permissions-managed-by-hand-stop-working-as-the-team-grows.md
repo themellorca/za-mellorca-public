@@ -14,10 +14,14 @@ observable_condition: Access is granted, changed and removed one request at a ti
 primary_identification: Permissions managed individually instead of by role: each person's access is the sum of past requests, so it grows, diverges from colleagues' and is never reviewed against the job.
 commercial_value_dimensions: Security exposure, onboarding speed, audit and compliance readiness, IT administration time and the risk of error or fraud
 sources:
-  - https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/best-practices | https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/best-practices
-  - https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview | https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview
-  - https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview | https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview
-  - https://csrc.nist.gov/glossary/term/least_privilege | https://csrc.nist.gov/glossary/term/least_privilege
+  - Best practices for Microsoft Entra roles - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/best-practices
+  - What is entitlement management? - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-overview
+  - What are access reviews? - Microsoft Entra - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/access-reviews-overview
+  - least privilege - Glossary - CSRC | https://csrc.nist.gov/glossary/term/least_privilege
+related:
+  - Why access, equipment and accounts are still set up manually | /patterns/why-access-equipment-and-accounts-are-still-set-up-by-hand/
+  - The hidden risk of shared accounts | /patterns/the-hidden-risk-of-shared-accounts/
+  - The cost of manual consolidation across workbooks | /patterns/the-hidden-cost-of-combining-figures-from-many-workbooks-by-hand/
 summary: Granting and removing access one request at a time works for ten people. At fifty, it produces forgotten permissions, inconsistent roles and reviews nobody can complete.
 layout: plain
 ---

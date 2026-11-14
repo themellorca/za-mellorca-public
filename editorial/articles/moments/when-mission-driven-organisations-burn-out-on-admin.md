@@ -15,9 +15,13 @@ human_dividend: Time: hours returned from paperwork to the work the person joine
 trade_off: Funders and regulators legitimately require reporting; automation costs money that small organisations lack; some admin is worth keeping; and reducing it may expose gaps in other support.
 epistemic_state: HYPOTHESISED: reasoned from general guidance on burn-out and working conditions, not from a survey of South African nonprofits; the worked example is illustrative.
 sources:
-  - https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases | https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://www.gov.za/documents/nonprofit-organisations-act | https://www.gov.za/documents/nonprofit-organisations-act
+  - Burn-out an "occupational phenomenon": International Classification of Diseases | https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Nonprofit Organisations Act 71 of 1997 - South African Government | https://www.gov.za/documents/nonprofit-organisations-act
+related:
+  - The Nurse Whose Shift Is Half Paperwork | /moments/the-nurse-whose-shift-is-half-paperwork/
+  - When craft businesses spend more time on software than craft | /moments/when-craft-businesses-spend-more-time-on-software-than-craft/
+  - When Curiosity Is Squeezed Out by Busywork | /moments/when-curiosity-is-squeezed-out-by-busywork/
 summary: People join nonprofits and social enterprises for the cause, then spend their days on reports and paperwork. Why admin drains mission-driven teams, and how to give time back.
 layout: plain
 ---
