@@ -1,0 +1,63 @@
+---
+hub: insights
+record_id: INS-190
+slug: what-existing-systems-need-to-change-before-ai-can-scale
+title: What Existing Systems Need to Change Before AI Can Scale
+description: An AI pilot can succeed on one careful user and clean inputs. Rolling it out across the business exposes scattered data, loose permissions and missing review. Here is what to fix.
+lead: An AI pilot can succeed on one careful user and clean inputs. Rolling it out across the business exposes scattered data, loose permissions and missing review. Here is what to fix.
+category: AI in Business Operations
+published_date: 2026-11-15
+updated_date: 2026-11-15
+eyebrow: AI in Business Operations
+sources:
+  - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy
+  - https://learn.microsoft.com/en-us/purview/data-governance-overview | https://learn.microsoft.com/en-us/purview/data-governance-overview
+  - https://www.nist.gov/itl/ai-risk-management-framework | https://www.nist.gov/itl/ai-risk-management-framework
+summary: An AI pilot can succeed on one careful user and clean inputs. Rolling it out across the business exposes scattered data, loose permissions and missing review. Here is what to fix.
+layout: plain
+---
+A financial advisory practice in Sandton ran a successful AI pilot last year. One advisor used a chatbot to draft client review letters from meeting notes, saving her about four hours a week. Management decided to roll it out to all twenty-two advisors. Six months later, usage has stalled. Half the advisors keep notes in personal notebooks, some in the practice's CRM, and a few in their email drafts. Client details are scattered across three systems that disagree on addresses and policy numbers. Compliance cannot tell which letters were drafted with AI. The pilot worked because one careful person fed it clean inputs and checked every output. Scaling it exposed everything around it.
+
+This is the usual shape of AI adoption in small and mid-sized firms. The model is rarely the constraint. The existing systems, data and working habits are. Before AI can move from one enthusiastic user to the whole business, several things underneath usually need to change.
+
+## Why pilots succeed and roll-outs stall
+
+A pilot hides structural problems in three ways. The pilot user selects good inputs by hand. The pilot user checks outputs closely, so errors are caught before they matter. And the pilot runs on a small volume, so gaps in data or access are worked around informally. At scale, none of those conditions hold. Our article on [why AI pilots do not automatically become business operations](/insights/why-ai-pilots-do-not-automatically-become-business-operations/) covers this transition in more detail.
+
+Microsoft's [Cloud Adoption Framework guidance on AI adoption](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy) makes a useful point here: it does not ask organisations to build an entirely new data strategy before starting, but it does ask them to identify the organisational data each AI capability requires and make sure that data can be accessed securely and governed appropriately. That is a manageable, use-case-by-use-case task, but it cannot be skipped.
+
+## Change 1: one place for each type of fact
+
+If client addresses live in three systems that disagree, an AI drafting tool will pick one, and sometimes the wrong one. Scaling AI requires each important fact to have one authoritative home. That does not mean one system for everything. It means agreeing that, for example, the CRM owns contact details, the policy administration system owns policy numbers and values, and everything else reads from those sources. Our guide on [deciding what should be the system of record](/insights/how-to-decide-what-should-be-the-system-of-record/) walks through how to make those calls.
+
+## Change 2: work captured in systems, not in personal tools
+
+AI can only use information it can reach. Notes in a paper notebook or a personal inbox are invisible to any business system. Before scaling, decide where each kind of working record should live, such as meeting notes, call summaries and client instructions, and make it easy for people to put them there. This is often the hardest change because it touches habits, not software.
+
+## Change 3: access controls that fit automated users
+
+Many small businesses run on broad sharing: everyone can see everything in the shared drive, and admin rights were granted years ago for convenience. When an AI assistant inherits a user's permissions, it inherits all of that access too, and can surface documents in answers that the user would never have opened. Tighten permissions to what each role needs before expanding AI use, and review who owns each shared area.
+
+## Change 4: data that is governed, not just stored
+
+Governance sounds heavy, but at small scale it means a few basic decisions: who owns each important dataset, what quality standard it must meet, and who fixes it when it falls short. Microsoft's [overview of data governance in Purview](https://learn.microsoft.com/en-us/purview/data-governance-overview) describes roles such as data owners, who manage classification, access and quality for their assets, and data stewards, who look after quality, consistency and glossary terms. A twenty-person firm does not need the product to borrow the roles. Naming an owner for client data and an owner for financial data is a good start.
+
+## Change 5: integration where AI needs context
+
+An AI assistant that drafts a client letter without seeing the latest complaint or payment status can create embarrassing or risky output. Identify the context that would change the right answer, and connect the systems that hold it, at least for reading. Our article on [why your AI strategy has an integration problem](/insights/your-ai-strategy-has-an-integration-problem/) covers this pattern.
+
+## Change 6: review, records and accountability
+
+At pilot scale, review happens informally. At business scale, you need to decide which AI outputs a person must check before they reach a customer, how that check is recorded, and who is accountable if something goes wrong. The US National Institute of Standards and Technology's [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), which is voluntary and applicable to organisations of any size, organises this work around governing, mapping, measuring and managing AI risk. For a regulated practice in South Africa, those decisions also connect to existing obligations, including the Protection of Personal Information Act and any sector conduct rules.
+
+## Sequencing the work
+
+Trying to fix everything before using AI anywhere is as unhelpful as ignoring the foundations entirely. A practical sequence is to pick the one or two AI uses with the clearest value, trace exactly what data, access and review each needs, and fix those specific foundations first. Each foundation you fix then makes the next use case cheaper. The advisory practice above might start by moving meeting notes into the CRM and reconciling client contact details, because both its letter-drafting use case and any future one depend on them.
+
+## Practical next actions
+
+1. List the AI uses you want to scale, and for each one write down the data it needs, where that data lives today and who checks the output.
+2. Agree one authoritative system for each key fact the AI will use, such as client contact details, product records and account status.
+3. Move working records like meeting notes and call summaries out of personal tools into a business system the AI can reach.
+4. Review shared-drive and system permissions so that each role, and any AI assistant acting for it, can only see what it needs.
+5. Name an owner for each important dataset and define which AI outputs must be reviewed by a person before reaching a customer.
