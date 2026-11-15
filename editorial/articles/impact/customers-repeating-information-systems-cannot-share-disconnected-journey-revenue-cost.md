@@ -13,8 +13,12 @@ commercial_domain: Customer Experience
 primary_pain: Customers have to repeat their information to different teams because the business's systems cannot share it
 primary_cost_mechanism: Delayed time to first invoice, abandoned sign-ups, repeated administration across onboarding, finance and support, inconsistent records and billing errors, and weaker renewal and expansion
 sources:
-  - https://www.salesforce.com/eu/blog/data-silos-and-customer-needs-south-africa/ | https://www.salesforce.com/eu/blog/data-silos-and-customer-needs-south-africa/
+  - Your Silos Are Showing: 16,000+ Customers on Importance of Consistency | https://www.salesforce.com/eu/blog/data-silos-and-customer-needs-south-africa/
   - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+related:
+  - The hidden cost of asking customers for the same information twice | /patterns/the-hidden-cost-of-asking-customers-for-the-same-information-twice/
+  - Support requests without owners: The cost of slow answers and frustrated customers | /impact/support-requests-without-clear-owners-cost/
+  - What Sales Promised: The Cost of Support Working Blind | /impact/support-cannot-see-sales-promises-handover-gaps-service-failure-cost/
 summary: A customer gives their details to sales, again to onboarding, again to accounts and again to support. Each repetition slows revenue, adds service cost and tells the customer the business is not joined up.
 layout: plain
 ---

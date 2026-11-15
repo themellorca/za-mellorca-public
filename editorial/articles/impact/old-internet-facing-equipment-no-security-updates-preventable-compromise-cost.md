@@ -13,9 +13,13 @@ commercial_domain: Information Security
 primary_pain: Old internet-facing routers, firewalls and VPN devices remain in use after they stop receiving security updates
 primary_cost_mechanism: Incident response and recovery fees, downtime when edge equipment must be taken offline, fraud and personal information exposure with notification obligations, and emergency replacement at short notice
 sources:
-  - https://www.cisa.gov/news-events/directives/bod-26-02-mitigating-risk-end-support-edge-devices | https://www.cisa.gov/news-events/directives/bod-26-02-mitigating-risk-end-support-edge-devices
-  - https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/obsolete-products | https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/obsolete-products
-  - https://www.cisa.gov/known-exploited-vulnerabilities-catalog | https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+  - BOD 26-02: Mitigating Risk From End-of-Support Edge Devices - CISA | https://www.cisa.gov/news-events/directives/bod-26-02-mitigating-risk-end-support-edge-devices
+  - Obsolete products | https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/obsolete-products
+  - Known Exploited Vulnerabilities Catalog - CISA | https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+related:
+  - Guests on the Business Network: The Hidden Cost of Poor Separation | /impact/guest-devices-sharing-network-with-business-systems-poor-network-separation-financial-security-risk/
+  - One Click, Real Rands: What Weak Phishing Awareness Costs a Business | /impact/employees-clicking-fraudulent-links-weak-security-awareness-phishing-fraud-interruption-cost/
+  - Passwords in Spreadsheets and Chats: The Business Risk of Insecure Storage | /impact/business-passwords-stored-documents-spreadsheets-chat-credential-risk/
 summary: Routers, firewalls and VPN boxes that no longer receive updates sit on the edge of the network, facing the internet. Keeping them saves a replacement bill and exposes the business to a far larger one.
 layout: plain
 ---

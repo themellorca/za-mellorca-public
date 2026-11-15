@@ -14,8 +14,12 @@ observable_condition: Every website form, email enquiry and message is read, sor
 primary_identification: Unrecognised event: routine enquiries are treated as unique messages to be read rather than as events that should create a record, assign an owner and trigger a response automatically.
 commercial_value_dimensions: Response time, conversion of enquiries, service and sales staff capacity, and visibility of demand
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/automatically-create-update-records | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/automatically-create-update-records
-  - https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-trigger-based-journey | https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-trigger-based-journey
+  - Automatically create or update records in Dynamics 365 Customer Service | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/automatically-create-update-records
+  - Create a trigger-based journey - Dynamics 365 Customer Insights | https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-trigger-based-journey
+related:
+  - Why Customers Should Not Need Your Org Chart to Get an Answer | /patterns/why-customers-should-not-need-your-org-chart-to-get-an-answer/
+  - Why Service Teams Become the Buffer for Broken Processes | /patterns/why-service-teams-become-the-buffer-for-broken-processes/
+  - When Self-Service Is Impossible Because Information Is Fragmented | /patterns/why-customer-self-service-fails-when-the-answer-lives-in-five-places/
 summary: Some enquiries need a person from the first second. Many do not: they need to be recorded, routed and acknowledged before anyone reads them. These are the signs your enquiries are ready to be treated as events.
 layout: plain
 ---

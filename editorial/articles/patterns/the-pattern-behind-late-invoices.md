@@ -14,8 +14,12 @@ observable_condition: Work is completed or goods delivered on any day of the mon
 primary_identification: Batch-triggered billing: invoicing is driven by the finance calendar rather than by the operational event of completion, and no signal tells finance when billable work is done.
 commercial_value_dimensions: Cash flow, debtor days, billing accuracy, tax invoice compliance and finance capacity
 sources:
-  - https://www.sars.gov.za/businesses-and-employers/government/tax-invoices/ | https://www.sars.gov.za/businesses-and-employers/government/tax-invoices/
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-invoice-sales | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-invoice-sales
+  - Tax Invoices - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/government/tax-invoices/
+  - Invoice sales - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-invoice-sales
+related:
+  - Why Accounts Receivable Becomes a Chasing Function | /patterns/why-the-debtors-clerk-spends-the-month-chasing-instead-of-collecting/
+  - Why Finance Teams Keep Downloading and Reformatting Data | /patterns/why-finance-teams-keep-downloading-and-reformatting-data/
+  - The hidden revenue cost of slow follow-up | /patterns/the-hidden-revenue-cost-of-slow-follow-up/
 summary: Late invoices are rarely the fault of a slow finance team. They follow a recognisable pattern: billing runs on a calendar batch, while the work it bills for finishes on a different day, and nothing connects the two.
 layout: plain
 ---

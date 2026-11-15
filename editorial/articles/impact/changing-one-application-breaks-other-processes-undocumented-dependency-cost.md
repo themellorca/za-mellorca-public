@@ -13,8 +13,12 @@ commercial_domain: Technology Operations
 primary_pain: Changing one application unexpectedly breaks several other processes because nobody knows what depends on it
 primary_cost_mechanism: Stopped invoicing and order flow after changes, diagnosis time by staff and developers, clean-up of failed exports and duplicate records, delayed cash collection, and postponed improvements and updates because changes feel unsafe
 sources:
-  - https://csrc.nist.gov/pubs/sp/800/128/upd1/final | https://csrc.nist.gov/pubs/sp/800/128/upd1/final
-  - https://docs.stripe.com/api/versioning | https://docs.stripe.com/api/versioning
+  - SP 800-128, Guide for Security-Focused Configuration Management of Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/128/upd1/final
+  - Versioning - Stripe API Reference | https://docs.stripe.com/api/versioning
+related:
+  - When Only Your IT Supplier Knows How Things Work: The Cost of Lock-In | /impact/technology-knowledge-held-only-by-outside-provider-supplier-lock-in-cost/
+  - Local Administrator Rights Nobody Reviewed: The Cost of Unmanaged Devices | /impact/local-administrator-rights-unneeded-unmanaged-device-changes-support-security-cost/
+  - A Recovery Plan That Depends on One Person Is Not a Plan | /impact/recovery-plan-depends-on-one-employee-unavailable-person-financial-risk/
 summary: A routine upgrade to one application stops invoicing, delays dispatch and corrupts a report. When nobody knows what depends on what, every change becomes a gamble paid for in downtime and rework.
 layout: plain
 ---

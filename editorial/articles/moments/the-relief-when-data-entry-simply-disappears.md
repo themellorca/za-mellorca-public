@@ -15,9 +15,13 @@ human_dividend: Time: month-end shortened and hours freed for analysis or an ear
 trade_off: Automated capture makes mistakes on unusual documents; set-up takes effort; some features cost money; roles change and need an open conversation.
 epistemic_state: HYPOTHESISED: reasoned from vendor documentation, public-sector data guidance and SARS VAT requirements, not from measured time savings in South African finance teams; the worked example is illustrative.
 sources:
-  - https://learn.microsoft.com/en-us/ai-builder/prebuilt-invoice-processing | https://learn.microsoft.com/en-us/ai-builder/prebuilt-invoice-processing
-  - https://www.gov.uk/guidance/make-better-use-of-data | https://www.gov.uk/guidance/make-better-use-of-data
-  - https://www.sars.gov.za/types-of-tax/value-added-tax/ | https://www.sars.gov.za/types-of-tax/value-added-tax/
+  - Invoice processing prebuilt AI model | https://learn.microsoft.com/en-us/ai-builder/prebuilt-invoice-processing
+  - Make better use of data | https://www.gov.uk/guidance/make-better-use-of-data
+  - Value-Added Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/
+related:
+  - The friction of signing up for something at work | /moments/the-friction-of-signing-up-for-something-at-work/
+  - The Expense Claim That Costs More Than the Expense | /moments/when-claiming-a-small-expense-costs-more-than-the-expense/
+  - The Small Joy of a Form That Remembers You | /moments/the-small-joy-of-a-follow-up-form-that-remembers-you/
 summary: Typing figures from one document into another is some of the most tiring work in an office. What it feels like when that typing goes away, and how to remove it carefully.
 layout: plain
 ---

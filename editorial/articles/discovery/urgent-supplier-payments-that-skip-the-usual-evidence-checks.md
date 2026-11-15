@@ -13,9 +13,13 @@ problem_domain: Payments, Expenses & Spend Operations
 problem_owner: Accounts payable manager or finance operations lead
 budget_owner: CFO or financial director
 sources:
-  - https://www.ic3.gov/PSA/2023/PSA230609 | https://www.ic3.gov/PSA/2023/PSA230609
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
-  - https://csrc.nist.gov/glossary/term/separation_of_duty | https://csrc.nist.gov/glossary/term/separation_of_duty
+  - Internet Crime Complaint Center (IC3) - Business Email Compromise: The $50 Billion Scam | https://www.ic3.gov/PSA/2023/PSA230609
+  - Approve or reject documents in workflows - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
+  - Separation of Duty (SOD) - Glossary - CSRC | https://csrc.nist.gov/glossary/term/separation_of_duty
+related:
+  - VAT checks done after supplier invoices are already in the workflow | /discovery/vat-checks-done-after-supplier-invoices-are-in-the-workflow/
+  - Supplier bank-detail changes arrive by email and go unchecked | /discovery/supplier-bank-detail-changes-arrive-by-email-and-go-unchecked/
+  - Foreign-currency payment costs nobody analyses by route | /discovery/foreign-currency-payment-costs-nobody-analyses-by-route/
 summary: When a payment is marked urgent, the order, invoice and approval checks are often waived. Why urgency is the weak point in payment controls, and how to build a fast route that keeps the evidence.
 layout: plain
 ---

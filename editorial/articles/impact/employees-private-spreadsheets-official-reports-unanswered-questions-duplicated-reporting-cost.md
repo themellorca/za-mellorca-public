@@ -13,9 +13,13 @@ commercial_domain: Data and Information
 primary_pain: Employees create private spreadsheets because official reports do not answer their questions
 primary_cost_mechanism: Duplicated analysis time across managers and analysts, unreviewed spreadsheet errors in decisions, meeting time spent on conflicting answers, stale and exposed exported data, and underused reporting tools
 sources:
-  - https://arxiv.org/abs/0802.3457 | https://arxiv.org/abs/0802.3457
-  - https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content | https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content
-  - https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
+  - Spreadsheet Errors: What We Know. What We Think We Can Do | https://arxiv.org/abs/0802.3457
+  - Endorse your content - Power BI | https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content
+  - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
+related:
+  - When Important Data Is Trapped in One Department's App | /impact/data-trapped-in-one-department-application-information-silo-cost/
+  - One Metric, Three Definitions: The Cost of Systems That Count Differently | /impact/systems-different-definitions-same-business-metric-conflicting-reports-cost/
+  - Duplicates, Gaps and Typos: What Poor Data Quality Costs a Growing Business | /impact/business-data-duplicates-missing-values-errors-data-quality-cost/
 summary: When official reports show what was easy to build rather than what people need to know, staff export the data and build their own spreadsheets. The business pays twice for reporting and gets conflicting answers.
 layout: plain
 ---

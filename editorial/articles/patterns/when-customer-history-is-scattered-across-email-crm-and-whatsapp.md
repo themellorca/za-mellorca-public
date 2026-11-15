@@ -14,10 +14,14 @@ observable_condition: Staff have to check their own email, ask colleagues, scrol
 primary_identification: Fragmented interaction history: customer conversations are recorded in whichever channel they happened in, and no shared record brings them together.
 commercial_value_dimensions: Customer experience, sales continuity, service speed and personal information risk
 sources:
-  - https://learn.microsoft.com/en-us/power-platform/admin/server-side-synchronization | https://learn.microsoft.com/en-us/power-platform/admin/server-side-synchronization
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-whatsapp-channel | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-whatsapp-channel
-  - https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/set-up-timeline-control | https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/set-up-timeline-control
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Server-side synchronization between customer engagement apps and email servers - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/server-side-synchronization
+  - Configure a WhatsApp channel through Twilio | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-whatsapp-channel
+  - Add and configure the timeline control in Power Apps - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/set-up-timeline-control
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - The Operational Gap Between Sales and Service Delivery | /patterns/what-gets-lost-between-the-sale-and-the-start-of-service/
+  - When the CRM Is Used as a Database Instead of an Operating System | /patterns/when-the-crm-stores-records-but-does-not-run-the-work/
+  - Why Sales and Operations Disagree About What Was Promised | /patterns/why-sales-and-operations-disagree-about-what-was-promised/
 summary: A customer's last order is in the accounting system, the quote is in someone's inbox, the complaint is in a WhatsApp chat and the CRM has a contact name. Nobody can see the whole relationship, and the customer can tell.
 layout: plain
 ---

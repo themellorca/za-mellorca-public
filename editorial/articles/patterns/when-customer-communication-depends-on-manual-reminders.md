@@ -14,8 +14,12 @@ observable_condition: Renewal notices, service-due reminders, document requests 
 primary_identification: Memory-triggered communication: the dates and events that should prompt a customer message are recorded, but the message itself depends on a person noticing them.
 commercial_value_dimensions: Customer retention, renewal revenue, service staff time and consistency of customer experience
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks | https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks
-  - https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-dataverse-trigger | https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-dataverse-trigger
+  - Run a cloud flow on a schedule in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/run-scheduled-tasks
+  - Trigger a journey based on a Dataverse record change - Dynamics 365 Customer Insights | https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/real-time-marketing-dataverse-trigger
+related:
+  - When Your Service Team Repeats the Same Answer Hundreds of Times | /patterns/when-your-service-team-repeats-the-same-answer-hundreds-of-times/
+  - The Business Cost of Customers Chasing You | /patterns/the-business-cost-of-customers-chasing-you/
+  - When a Customer Portal Would Not Fix the Underlying Problem | /patterns/when-a-customer-portal-would-not-fix-the-underlying-problem/
 summary: If renewal notices, service reminders and appointment confirmations only go out when someone remembers to send them, customer contact is running on memory. Here is how to recognise it and move it onto events.
 layout: plain
 ---

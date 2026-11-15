@@ -14,8 +14,12 @@ observable_condition: Customer-facing staff put callers on hold or promise to ca
 primary_identification: Front-line visibility gap: the information needed to answer customers exists inside the business but is not exposed at the point of customer contact.
 commercial_value_dimensions: Response time, first-contact resolution, promise accuracy and service staff capacity
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-to-calculate-order-promising-dates | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-to-calculate-order-promising-dates
-  - https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/set-up-timeline-control | https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/set-up-timeline-control
+  - Calculate order promising dates - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-to-calculate-order-promising-dates
+  - Add and configure the timeline control in Power Apps - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/set-up-timeline-control
+related:
+  - Why Service Teams Become the Buffer for Broken Processes | /patterns/why-service-teams-become-the-buffer-for-broken-processes/
+  - Why Customer Experience Problems Often Start in Back-Office Operations | /patterns/why-customer-experience-problems-often-start-in-back-office-operations/
+  - The Business Cost of Customers Chasing You | /patterns/the-business-cost-of-customers-chasing-you/
 summary: Customers experience your service through what front-line staff can see. When stock, schedules and order status are hidden in other teams' systems, service slows down no matter how willing people are.
 layout: plain
 ---

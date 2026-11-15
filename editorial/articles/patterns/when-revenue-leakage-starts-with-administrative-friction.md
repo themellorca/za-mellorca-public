@@ -14,8 +14,12 @@ observable_condition: Call-out fees, extra hours, additional materials, annual p
 primary_identification: Friction-driven leakage: the effort required to bill an item correctly is high enough that it is skipped, delayed or underbilled, and nothing in the process detects the omission.
 commercial_value_dimensions: Earned revenue, margin, contract renewal income and pricing discipline
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/srb/welcome | https://learn.microsoft.com/en-us/dynamics365/business-central/srb/welcome
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-work-standard-lines | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-work-standard-lines
+  - Welcome to subscription billing - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/srb/welcome
+  - Standard recurring sales lines - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-work-standard-lines
+related:
+  - When Quote Creation Becomes a Sales Bottleneck | /patterns/when-quote-creation-becomes-a-sales-bottleneck/
+  - The Pattern Behind Leads That Receive No Second Follow-Up | /patterns/the-pattern-behind-leads-that-receive-no-second-follow-up/
+  - Why Sales Teams Build Private Spreadsheets Beside the CRM | /patterns/why-sales-teams-build-private-spreadsheets-beside-the-crm/
 summary: Revenue rarely leaks through one dramatic failure. It seeps out through small chargeable items nobody bills, price increases nobody applies and contracts nobody renews on time. The common cause is admin that is too awkward to do every time.
 layout: plain
 ---

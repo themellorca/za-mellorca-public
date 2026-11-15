@@ -13,9 +13,13 @@ problem_domain: Payments, Expenses & Spend Operations
 problem_owner: Accounts payable manager or finance operations lead
 budget_owner: CFO or financial director
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/payables-make-payments | https://learn.microsoft.com/en-us/dynamics365/business-central/payables-make-payments
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
-  - https://csrc.nist.gov/glossary/term/separation_of_duty | https://csrc.nist.gov/glossary/term/separation_of_duty
+  - Overview of tasks to manage payments to vendors - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/payables-make-payments
+  - Approve or reject documents in workflows - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
+  - Separation of Duty (SOD) - Glossary - CSRC | https://csrc.nist.gov/glossary/term/separation_of_duty
+related:
+  - Foreign-currency payment costs nobody analyses by route | /discovery/foreign-currency-payment-costs-nobody-analyses-by-route/
+  - Urgent supplier payments that skip the usual evidence checks | /discovery/urgent-supplier-payments-that-skip-the-usual-evidence-checks/
+  - VAT checks done after supplier invoices are already in the workflow | /discovery/vat-checks-done-after-supplier-invoices-are-in-the-workflow/
 summary: A payment run is approved in the ERP, then approved again line by line on the banking platform. Why double approval adds delay without adding much control, and how to design one meaningful approval chain.
 layout: plain
 ---

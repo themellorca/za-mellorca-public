@@ -15,9 +15,13 @@ human_dividend: Time: routine follow-ups booked in minutes at any hour, and a re
 trade_off: Online booking excludes some patients; self-booked slots can be wrong; SMS reminders cost money; health data raises privacy stakes.
 epistemic_state: HYPOTHESISED: reasoned from vendor documentation, South African health and privacy law and common practice, not from measured booking times; the worked example is illustrative.
 sources:
-  - https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview | https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
-  - https://www.gov.za/documents/national-health-act | https://www.gov.za/documents/national-health-act
+  - Microsoft Bookings | https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+  - National Health Act 61 of 2003 - South African Government | https://www.gov.za/documents/national-health-act
+related:
+  - When ordering supplies takes five emails | /moments/when-ordering-supplies-takes-five-emails/
+  - The Expense Claim That Costs More Than the Expense | /moments/when-claiming-a-small-expense-costs-more-than-the-expense/
+  - The Small Joy of a Form That Remembers You | /moments/the-small-joy-of-a-follow-up-form-that-remembers-you/
 summary: A fifteen-minute consultation can take longer to arrange than to attend: phone queues, call-backs, missing medical aid details. How small practices can make booking easier for patients and staff.
 layout: plain
 ---

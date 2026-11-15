@@ -15,9 +15,13 @@ human_dividend: Attention and time: messages that matter are seen in focused str
 trade_off: Rules can hide messages; team agreements need upkeep; slower replies can frustrate colleagues; some friction needs hardware or connectivity investment.
 epistemic_state: HYPOTHESISED: reasoned from workplace health guidance and vendor documentation, not from measured interruption rates in South African offices; the worked example is illustrative.
 sources:
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
-  - https://support.microsoft.com/en-us/office/set-up-rules-in-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41 | https://support.microsoft.com/en-us/office/set-up-rules-in-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Manage email messages by using rules in Outlook - Microsoft Support | https://support.microsoft.com/en-us/office/set-up-rules-in-outlook-75ab719a-2ce8-49a7-a214-6d62b67cbd41
+related:
+  - The Friction Customers Feel Before They Ever Speak to You | /moments/the-friction-customers-feel-before-they-ever-speak-to-you/
+  - The Friction of Working Across Countries and Time Zones | /moments/the-friction-of-working-across-countries-and-time-zones/
+  - When ordering supplies takes five emails | /moments/when-ordering-supplies-takes-five-emails/
 summary: No single annoyance ruins a working day. A slow attachment, a reply-all thread, a mislabelled email and a frozen screen together can. Why small frictions compound, and how to remove a few.
 layout: plain
 ---

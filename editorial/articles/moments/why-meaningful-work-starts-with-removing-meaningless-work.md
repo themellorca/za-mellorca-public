@@ -15,9 +15,13 @@ human_dividend: Time and optionality: hours returned once pointless tasks are re
 trade_off: Some removed tasks may matter after all; freed time can be reabsorbed; roles may need honest redesign; staff need trust to name pointless work.
 epistemic_state: HYPOTHESISED: reasoned from workplace health guidance and general management practice, not from a study of South African finance teams; the worked example is illustrative.
 sources:
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://www.hse.gov.uk/stress/standards/control.htm | https://www.hse.gov.uk/stress/standards/control.htm
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Management Standards - Control - HSE | https://www.hse.gov.uk/stress/standards/control.htm
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+related:
+  - The customer service agent apologising for a broken system | /moments/the-service-agent-who-apologises-for-a-system-they-cannot-fix/
+  - Why Good People Leave Jobs Built on Workarounds | /moments/why-good-people-leave-jobs-built-on-workarounds/
+  - When Administrative Load Falls Hardest on the Least Senior | /moments/when-administrative-load-falls-hardest-on-the-least-senior/
 summary: Purpose statements and wellness days cannot compete with an afternoon of pointless forms. Why subtracting needless admin is often the most respectful thing a manager can do.
 layout: plain
 ---

@@ -15,9 +15,13 @@ human_dividend: Time and attention: routine follow-ups close themselves, and the
 trade_off: Automated reminders can misfire; hidden steps need documenting; some clients need a personal approach; set-up and testing take effort.
 epistemic_state: HYPOTHESISED: reasoned from vendor documentation on reminders and workflow automation and general office practice, not from measured time savings; the worked example is illustrative.
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - Collect outstanding balances - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+related:
+  - The Small Joy of a Form That Remembers You | /moments/the-small-joy-of-a-follow-up-form-that-remembers-you/
+  - Why Smooth Systems Are Noticed Only When They Fail | /moments/why-smooth-systems-are-noticed-only-when-they-fail/
+  - The Friction Customers Feel Before They Ever Speak to You | /moments/the-friction-customers-feel-before-they-ever-speak-to-you/
 summary: Some admin tasks end only when a person remembers to push them over the line. When the last steps happen on their own, people feel an unexpected lightness. How to build that in.
 layout: plain
 ---

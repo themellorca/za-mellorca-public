@@ -15,9 +15,13 @@ human_dividend: Attention and predictability: inputs found in known places witho
 trade_off: Tidying information takes time; discipline slips; wider access needs privacy judgement; search cannot find what was never stored centrally.
 epistemic_state: HYPOTHESISED: reasoned from public-sector data guidance and vendor documentation, not from measured search time in South African businesses; the worked example is illustrative.
 sources:
-  - https://www.gov.uk/guidance/make-better-use-of-data | https://www.gov.uk/guidance/make-better-use-of-data
-  - https://learn.microsoft.com/en-us/microsoftsearch/overview-microsoft-search | https://learn.microsoft.com/en-us/microsoftsearch/overview-microsoft-search
-  - https://learn.microsoft.com/en-us/purview/retention | https://learn.microsoft.com/en-us/purview/retention
+  - Make better use of data | https://www.gov.uk/guidance/make-better-use-of-data
+  - Microsoft Search Overview | https://learn.microsoft.com/en-us/microsoftsearch/overview-microsoft-search
+  - Learn about retention policies & labels to retain or delete | https://learn.microsoft.com/en-us/purview/retention
+related:
+  - The Small Joy of a Form That Remembers You | /moments/the-small-joy-of-a-follow-up-form-that-remembers-you/
+  - The relief of a password you don't have to reset | /moments/the-relief-of-a-password-you-dont-have-to-reset/
+  - The Friction Customers Feel Before They Ever Speak to You | /moments/the-friction-customers-feel-before-they-ever-speak-to-you/
 summary: Every "where is the latest report?" message costs the person asking a little attention and a little standing. Why findable information is a quiet form of respect, and how to get there.
 layout: plain
 ---

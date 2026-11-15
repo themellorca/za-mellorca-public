@@ -10,8 +10,12 @@ published_date: 2026-11-15
 updated_date: 2026-11-15
 eyebrow: Data Quality
 sources:
-  - https://kb.data.chhs.ca.gov/sharing-guide/data-plays-intro/play-5 | https://kb.data.chhs.ca.gov/sharing-guide/data-plays-intro/play-5
-  - https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
+  - Play 5: Metadata - CalHHS Data Knowledge Base | https://kb.data.chhs.ca.gov/sharing-guide/data-plays-intro/play-5
+  - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
+related:
+  - Why Required Fields Do Not Automatically Create Good Data | /insights/why-required-fields-do-not-automatically-create-good-data/
+  - Why More Fields Usually Do Not Fix Data Quality | /insights/why-more-fields-usually-do-not-fix-data-quality/
+  - How Duplicate Contacts and Companies Damage Operations | /insights/how-duplicate-contacts-and-companies-damage-operations-costs-and-controls/
 summary: A useful data dictionary is short, owned and visible where people work. Here are the fields each entry needs, two worked examples and how to keep it current.
 layout: plain
 ---

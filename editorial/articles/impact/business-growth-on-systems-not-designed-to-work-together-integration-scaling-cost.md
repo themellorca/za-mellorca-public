@@ -13,9 +13,13 @@ commercial_domain: Operations
 primary_pain: Business growth is built on systems that were never designed to work together, so integration gaps scale with volume
 primary_cost_mechanism: Administrative headcount that rises with transaction volume, error correction that grows with volume, slower customer response, integration failures at peaks, and growth opportunities declined because operations cannot cope
 sources:
-  - https://shopify.dev/docs/api/usage/limits | https://shopify.dev/docs/api/usage/limits
-  - https://learn.microsoft.com/en-us/graph/throttling | https://learn.microsoft.com/en-us/graph/throttling
-  - https://docs.stripe.com/webhooks | https://docs.stripe.com/webhooks
+  - Shopify API limits | https://shopify.dev/docs/api/usage/limits
+  - Microsoft Graph throttling guidance - Microsoft Graph | https://learn.microsoft.com/en-us/graph/throttling
+  - Receive Stripe events in your webhook endpoint | https://docs.stripe.com/webhooks
+related:
+  - Growth That Adds Admin Faster Than Output: The Margin Cost of Complexity | /impact/business-growth-administration-outpacing-productive-capacity-margin-cost/
+  - Bottlenecks You Cannot See: The Price of Problems Management Misses | /impact/not-knowing-where-operational-bottlenecks-form-hidden-delay-financial-cost/
+  - When Customers Find the Broken Integration Before You Do | /impact/integrations-breaking-silently-customers-report-failure-first-cost/
 summary: Systems that were never designed to work together cope at low volume through manual effort. As the business grows, every gap scales with it, and growth starts to cost more per order, customer or employee.
 layout: plain
 ---

@@ -13,8 +13,12 @@ commercial_domain: Business Operations
 primary_pain: Employees maintain unofficial spreadsheets to bridge disconnected official systems, creating shadow processes and unreliable data
 primary_cost_mechanism: Daily copying labour, decision errors from broken formulas and stale data, single-person dependency, conflicting versions of the truth, personal information compliance exposure, and hidden demand for system fixes
 sources:
-  - https://arxiv.org/abs/0802.3457 | https://arxiv.org/abs/0802.3457
+  - Spreadsheet Errors: What We Know. What We Think We Can Do | https://arxiv.org/abs/0802.3457
   - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+related:
+  - Local Administrator Rights Nobody Reviewed: The Cost of Unmanaged Devices | /impact/local-administrator-rights-unneeded-unmanaged-device-changes-support-security-cost/
+  - When Reports Do Not Answer the Question: The Cost of Private Analysis Spreadsheets | /impact/employees-private-spreadsheets-official-reports-unanswered-questions-duplicated-reporting-cost/
+  - When Home Internet Becomes the Office Network: The Cost of Unreliable Remote Work | /impact/remote-employees-unreliable-home-connectivity-inconsistent-productivity-cost/
 summary: When official systems do not connect, staff build unofficial spreadsheets to bridge the gap. These quietly become critical processes with no controls, no backup and a high error rate.
 layout: plain
 ---

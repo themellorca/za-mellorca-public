@@ -13,9 +13,13 @@ problem_domain: Payments, Expenses & Spend Operations
 problem_owner: Accounts payable manager
 budget_owner: CFO or financial director
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/payables-how-apply-purchase-transactions-manually | https://learn.microsoft.com/en-us/dynamics365/business-central/payables-how-apply-purchase-transactions-manually
+  - Reconcile vendor payment receipts or refunds in the payment journal - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/payables-how-apply-purchase-transactions-manually
   - https://www.sars.gov.za/wp-content/uploads/Legal/Notes/LAPD-IntR-IN-2012-56-Recipient-Created-Tax-Invoices-Credit-Debit-Notes.pdf | https://www.sars.gov.za/wp-content/uploads/Legal/Notes/LAPD-IntR-IN-2012-56-Recipient-Created-Tax-Invoices-Credit-Debit-Notes.pdf
-  - https://docs.oracle.com/en/cloud/saas/financials/25d/ocuar/payables-to-ledger-reconciliation-report-explained.html | https://docs.oracle.com/en/cloud/saas/financials/25d/ocuar/payables-to-ledger-reconciliation-report-explained.html
+  - Using Analytics and Reports for Financials | https://docs.oracle.com/en/cloud/saas/financials/25d/ocuar/payables-to-ledger-reconciliation-report-explained.html
+related:
+  - Expense claims are checked by hand against a written policy | /discovery/expense-claims-are-checked-by-hand-against-a-written-policy/
+  - Invoices arrive through multiple inboxes and channels | /discovery/why-supplier-invoices-need-one-front-door-as-volume-grows/
+  - Duplicate supplier invoices are caught after they are paid | /discovery/duplicate-supplier-invoices-are-caught-after-they-are-paid/
 summary: Every month the accounts payable team ticks supplier statements against the ledger line by line. Why the differences keep appearing, and how to cut statement reconciliation to the exceptions.
 layout: plain
 ---

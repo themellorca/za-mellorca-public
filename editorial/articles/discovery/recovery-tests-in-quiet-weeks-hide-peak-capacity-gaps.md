@@ -13,10 +13,14 @@ problem_domain: Business Continuity & Resilience
 problem_owner: Infrastructure lead or IT manager responsible for the recovery environment
 budget_owner: CIO, COO or CFO
 sources:
-  - https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_planning_for_recovery_dr_tested.html | https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_planning_for_recovery_dr_tested.html
-  - https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/capacity-planning | https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/capacity-planning
-  - https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview | https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview
-  - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-reservations.html | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-reservations.html
+  - REL13-BP03 Test disaster recovery implementation to validate the implementation - AWS Well-Architected Framework | https://docs.aws.amazon.com/wellarchitected/latest/framework/rel_planning_for_recovery_dr_tested.html
+  - Architecture strategies for capacity planning - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/performance-efficiency/capacity-planning
+  - Active Geo-Replication - Azure SQL Database | https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview
+  - Reserve compute capacity with EC2 On-Demand Capacity Reservations - Amazon Elastic Compute Cloud | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-capacity-reservations.html
+related:
+  - Recovery only works while one specialist is reachable | /discovery/recovery-only-works-while-one-specialist-is-reachable/
+  - Manual recovery steps are not timed during tests | /discovery/why-manual-recovery-steps-need-a-stopwatch-during-every-test/
+  - Recovery environments drift from production | /discovery/why-recovery-environments-quietly-drift-away-from-production/
 summary: Recovery tests are scheduled when trade is slow, so they never show whether the standby can carry month-end, payroll or a seasonal peak. How to test against peak demand without endangering it.
 layout: plain
 ---

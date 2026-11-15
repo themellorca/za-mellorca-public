@@ -13,8 +13,12 @@ commercial_domain: Data and Information
 primary_pain: Performance is only visible after month-end, so problems are discovered after the opportunity to fix them has passed
 primary_cost_mechanism: Margin erosion absorbed for a full month, compounding operational losses such as overtime and rework, customer volume lost before anyone notices, and management time spent explaining past results rather than correcting course
 sources:
-  - https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
-  - https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
+  - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
+  - Set data alerts in the Power BI service - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
+related:
+  - When Reports Do Not Answer the Question: The Cost of Private Analysis Spreadsheets | /impact/employees-private-spreadsheets-official-reports-unanswered-questions-duplicated-reporting-cost/
+  - Duplicates, Gaps and Typos: What Poor Data Quality Costs a Growing Business | /impact/business-data-duplicates-missing-values-errors-data-quality-cost/
+  - Collecting Data Nobody Uses: What Useless Information Costs | /impact/collecting-large-amounts-of-data-nobody-uses-storage-labour-cost/
 summary: When the first reliable view of sales, margin and costs arrives weeks after the month ends, problems are found after the chance to correct them has gone. Faster signals are cheaper than late explanations.
 layout: plain
 ---

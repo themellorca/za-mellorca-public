@@ -10,8 +10,12 @@ published_date: 2026-11-15
 updated_date: 2026-11-15
 eyebrow: Systems Integration
 sources:
-  - https://learn.microsoft.com/en-us/azure/architecture/patterns/retry | https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
-  - https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker | https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker
+  - Retry pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
+  - Circuit Breaker Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker
+related:
+  - How to integrate a new platform into an existing business | /insights/how-to-integrate-a-new-platform-into-an-existing-business/
+  - How Often Should You Review Your Integrations? | /insights/how-often-should-you-review-your-integrations/
+  - When an integration platform makes sense—and when it does not | /insights/when-an-integration-platform-is-worth-buying-and-when-it-is-not/
 summary: Couriers, payment gateways and accounting platforms all have outages. What matters is whether your systems retry sensibly, keep the work visible and avoid doing things twice.
 layout: plain
 ---

@@ -11,8 +11,12 @@ updated_date: 2026-11-15
 eyebrow: Reporting and Decision-Making
 sources:
   - https://www.hse.gov.uk/pubns/priced/hsg254.pdf | https://www.hse.gov.uk/pubns/priced/hsg254.pdf
-  - https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service | https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service
-  - https://www.atlassian.com/team-playbook/plays/goals-signals-measures | https://www.atlassian.com/team-playbook/plays/goals-signals-measures
+  - How to set performance metrics for your service | https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service
+  - Team Goals, Signals, and Measures to Reach Success - Atlassian | https://www.atlassian.com/team-playbook/plays/goals-signals-measures
+related:
+  - What to Do When Teams Disagree About the Numbers | /insights/what-to-do-when-teams-disagree-about-the-numbers/
+  - Why Required Fields Do Not Automatically Create Good Data | /insights/why-required-fields-do-not-automatically-create-good-data/
+  - How to map a business workflow without making it complicated | /insights/how-to-map-a-business-workflow-without-making-it-complicated/
 summary: Most management reports describe results after the fact. Leading indicators track whether the conditions behind those results are holding, so you can act in time.
 layout: plain
 ---

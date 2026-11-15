@@ -14,9 +14,13 @@ observable_condition: Customers, suppliers and staff send follow-up messages ask
 primary_identification: Missing acknowledgement: incoming items are not registered as records at the point of arrival, so the business cannot confirm receipt without a person searching for the message.
 commercial_value_dimensions: Service staff time, customer confidence, duplicate submissions, order and payment delays
 sources:
-  - https://learn.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-modern-eac | https://learn.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-modern-eac
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/automatically-create-update-records | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/automatically-create-update-records
-  - https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-a-shared-mailbox | https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-a-shared-mailbox
+  - Message trace in the new EAC in Exchange Online | https://learn.microsoft.com/en-us/exchange/monitoring/trace-an-email-message/message-trace-modern-eac
+  - Automatically create or update records in Dynamics 365 Customer Service | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/automatically-create-update-records
+  - Create a shared mailbox - Microsoft 365 admin | https://learn.microsoft.com/en-us/microsoft-365/admin/email/create-a-shared-mailbox
+related:
+  - When a Customer Portal Would Not Fix the Underlying Problem | /patterns/when-a-customer-portal-would-not-fix-the-underlying-problem/
+  - Why Customers Should Not Need Your Org Chart to Get an Answer | /patterns/why-customers-should-not-need-your-org-chart-to-get-an-answer/
+  - The Business Cost of Customers Chasing You | /patterns/the-business-cost-of-customers-chasing-you/
 summary: When customers and suppliers keep asking whether you got their email, order or document, they are telling you that nothing in your process confirms receipt. Here is how to read the signal and fix it.
 layout: plain
 ---

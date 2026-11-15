@@ -13,8 +13,12 @@ commercial_domain: Digital Operations
 primary_pain: Employees lose work because files saved on their devices are outside synchronised and backed-up folders
 primary_cost_mechanism: Staff time recreating lost work, missed deadlines and client penalties, uncertain data recovery attempts, slower device replacement, and personal information exposure from lost or stolen devices
 sources:
-  - https://learn.microsoft.com/en-us/sharepoint/redirect-known-folders | https://learn.microsoft.com/en-us/sharepoint/redirect-known-folders
-  - https://www.ncsc.gov.uk/collection/using-online-services-safely/back-up-critical-data | https://www.ncsc.gov.uk/collection/using-online-services-safely/back-up-critical-data
+  - Redirect and move Windows known folders to OneDrive - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/redirect-known-folders
+  - Back up your organisation’s critical data | https://www.ncsc.gov.uk/collection/using-online-services-safely/back-up-critical-data
+related:
+  - When your experts become the help desk: The cost of routine requests | /impact/specialists-pulled-into-routine-requests-expertise-cost/
+  - Cloud prices for old infrastructure: The cost of moving without redesign | /impact/cloud-migration-without-redesign-old-infrastructure-patterns-cost/
+  - The cost of work waiting for approval | /impact/approval-queues-blocked-capacity-cost/
 summary: Many businesses pay for cloud storage that would protect every file, yet staff still save work to the desktop, the downloads folder or an unsynced drive. When the device fails, the work goes with it.
 layout: plain
 ---

@@ -13,9 +13,13 @@ problem_domain: Business Continuity & Resilience
 problem_owner: Business continuity lead working with the financial controller
 budget_owner: CFO, COO or managing director
 sources:
-  - https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
-  - https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
-  - https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview | https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview
+  - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+  - Architecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+  - Active Geo-Replication - Azure SQL Database | https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview
+related:
+  - Recovery order set by system owners, not by how the business runs | /discovery/recovery-order-set-by-system-owners-not-by-how-the-business-runs/
+  - Who tells customers what during an outage? Fix it before the next one | /discovery/who-tells-customers-what-during-an-outage/
+  - Crisis decisions that nobody writes down, and why it costs you later | /discovery/crisis-decisions-that-nobody-writes-down/
 summary: Payroll, stock, cash and customer lists are needed most when the main system is down. How to identify the reports a business cannot operate without, and keep a way to produce them in an outage.
 layout: plain
 ---

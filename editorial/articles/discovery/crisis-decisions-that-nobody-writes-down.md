@@ -13,9 +13,13 @@ problem_domain: Business Continuity & Resilience
 problem_owner: Business continuity lead or risk manager responsible for incident governance
 budget_owner: COO, managing director or CFO
 sources:
-  - https://www.ncsc.gov.uk/collection/what-to-do-when-cyber-attacks-disrupt-your-organisation/recovering/immediate-activities | https://www.ncsc.gov.uk/collection/what-to-do-when-cyber-attacks-disrupt-your-organisation/recovering/immediate-activities
-  - https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
-  - https://csrc.nist.gov/pubs/sp/800/84/final | https://csrc.nist.gov/pubs/sp/800/84/final
+  - 1. Immediate activities (what to do in the first hours) | https://www.ncsc.gov.uk/collection/what-to-do-when-cyber-attacks-disrupt-your-organisation/recovering/immediate-activities
+  - Architecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+  - SP 800-84, Guide to Test, Training, and Exercise Programs for IT Plans and Capabilities - CSRC | https://csrc.nist.gov/pubs/sp/800/84/final
+related:
+  - The reports you need most are the ones you cannot run during an outage | /discovery/critical-reports-you-cannot-produce-during-a-system-outage/
+  - Who tells customers what during an outage? Fix it before the next one | /discovery/who-tells-customers-what-during-an-outage/
+  - Recovery environments drift from production | /discovery/why-recovery-environments-quietly-drift-away-from-production/
 summary: During an incident, decisions are made on calls and in chat groups and never recorded. Why a decision log matters for insurers, regulators and lessons learned, and how to keep one without slowing the response.
 layout: plain
 ---

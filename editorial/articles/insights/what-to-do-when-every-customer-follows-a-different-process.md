@@ -10,9 +10,13 @@ published_date: 2026-11-15
 updated_date: 2026-11-15
 eyebrow: Workflow Design
 sources:
-  - https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem | https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
-  - https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines | https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines
+  - 2. Solve a whole problem for users | https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - Set up and manage object pipelines | https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines
+related:
+  - How Exceptions Should Be Designed Into a Workflow | /insights/how-exceptions-should-be-designed-into-a-workflow/
+  - Why Every Workflow Needs a Clear Start and End | /insights/why-every-workflow-needs-a-clear-start-and-end/
+  - How to Design a Workflow Around Outcomes Instead of Departments | /insights/how-to-design-a-workflow-around-outcomes-instead-of-departments/
 summary: Customer-specific ways of working build up one favour at a time. Separate real requirements from habits, find the common spine and turn the rest into fields and rules.
 layout: plain
 ---

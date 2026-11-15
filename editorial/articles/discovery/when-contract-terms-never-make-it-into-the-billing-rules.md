@@ -13,8 +13,12 @@ problem_domain: Quote-to-Cash & Revenue Operations
 problem_owner: Revenue operations or sales operations lead responsible for contract-to-billing handover
 budget_owner: CFO, chief revenue officer or COO
 sources:
-  - https://docs.stripe.com/billing/subscriptions/subscription-schedules | https://docs.stripe.com/billing/subscriptions/subscription-schedules
-  - https://docs.stripe.com/products-prices/pricing-models | https://docs.stripe.com/products-prices/pricing-models
+  - Subscription schedules | https://docs.stripe.com/billing/subscriptions/subscription-schedules
+  - Recurring pricing models | https://docs.stripe.com/products-prices/pricing-models
+related:
+  - Why recurring billing is still set up by hand after a deal closes | /discovery/why-recurring-billing-is-set-up-by-hand-after-a-deal-closes/
+  - Discount approvals happen outside the quoting system | /discovery/why-discount-approvals-live-in-chat-threads-instead-of-the-quote/
+  - One-off implementation fees are forgotten during billing setup | /discovery/why-one-off-implementation-fees-never-reach-the-first-invoice/
 summary: Discounts that expire, price escalations, minimum commitments and currency clauses are agreed in the contract and then missed by billing. Why it happens, why international growth makes it worse, and how to fix it.
 layout: plain
 ---

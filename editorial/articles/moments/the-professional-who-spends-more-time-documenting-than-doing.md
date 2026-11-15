@@ -15,9 +15,13 @@ human_dividend: Time: hours returned to the skilled part of the job, or to life 
 trade_off: Structured capture can lose nuance; connecting systems costs money; some apparently unused records matter occasionally; wider access to records needs privacy care.
 epistemic_state: HYPOTHESISED: reasoned from a published physician time study and general workplace guidance, not from measurement of South African professionals; the worked example is illustrative.
 sources:
-  - https://www.annfammed.org/content/15/5/419 | https://www.annfammed.org/content/15/5/419
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Tethered to the EHR: Primary Care Physician Workload Assessment Using EHR Event Log Data and Time-Motion Observations | https://www.annfammed.org/content/15/5/419
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+related:
+  - The Technician Whose Expertise Is Spent on Password Resets | /moments/the-technician-whose-expertise-is-spent-on-password-resets/
+  - The Craftsperson Buried in Quoting Paperwork | /moments/the-craftsperson-buried-in-quoting-paperwork/
+  - The Dignity of Not Having to Chase | /moments/the-dignity-of-not-having-to-chase/
 summary: When writing up the work takes longer than the work itself, skilled people lose time and something harder to name. Where the extra documentation comes from, and how to shrink it safely.
 layout: plain
 ---

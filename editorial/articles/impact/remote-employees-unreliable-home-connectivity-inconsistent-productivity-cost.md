@@ -13,8 +13,12 @@ commercial_domain: IT Infrastructure
 primary_pain: Remote employees rely on unreliable, unmanaged home connectivity for calls, uploads and access to critical systems
 primary_cost_mechanism: Fragmented lost time from reconnecting and retrying, weaker client conversations, uneven performance misread as people problems, support time on equipment the business does not control, and unnecessary trips to the office
 sources:
-  - https://learn.microsoft.com/en-us/microsoftteams/prepare-network | https://learn.microsoft.com/en-us/microsoftteams/prepare-network
-  - https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles | https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles
+  - Prepare your organization's network for Teams - Microsoft Teams | https://learn.microsoft.com/en-us/microsoftteams/prepare-network
+  - Microsoft 365 network connectivity principles - Microsoft 365 Enterprise | https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles
+related:
+  - Waiting for Staff to Complain: The Cost of Unmonitored Office Networks | /impact/network-performance-not-monitored-until-staff-complain-reactive-support-cost/
+  - Old Switches and Routers: The Hidden Slowdown in Your Office | /impact/old-network-switches-routers-hidden-office-bottleneck-productivity-cost/
+  - Wi-Fi dead zones: The cost of staff moving around to find a signal | /impact/wi-fi-dead-zones-staff-searching-for-signal-cost/
 summary: Remote staff doing critical work over patchy home Wi-Fi, shared bandwidth and uncertain backup power produce frozen calls, failed uploads and missed deadlines. The business pays for the gap.
 layout: plain
 ---

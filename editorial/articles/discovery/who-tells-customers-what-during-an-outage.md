@@ -13,10 +13,14 @@ problem_domain: Business Continuity & Resilience
 problem_owner: Business continuity lead or IT service manager responsible for incident roles
 budget_owner: Operations director, CIO or managing director
 sources:
-  - https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
-  - https://www.ncsc.gov.uk/collection/board-toolkit/principle-d-incident-planning-response-recovery/planning-your-response-to-cyber-incidents | https://www.ncsc.gov.uk/collection/board-toolkit/principle-d-incident-planning-response-recovery/planning-your-response-to-cyber-incidents
-  - https://www.ncsc.gov.uk/collection/what-to-do-when-cyber-attacks-disrupt-your-organisation/recovering/immediate-activities | https://www.ncsc.gov.uk/collection/what-to-do-when-cyber-attacks-disrupt-your-organisation/recovering/immediate-activities
+  - Architecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+  - Planning your response to cyber incidents | https://www.ncsc.gov.uk/collection/board-toolkit/principle-d-incident-planning-response-recovery/planning-your-response-to-cyber-incidents
+  - 1. Immediate activities (what to do in the first hours) | https://www.ncsc.gov.uk/collection/what-to-do-when-cyber-attacks-disrupt-your-organisation/recovering/immediate-activities
   - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+related:
+  - Business and IT use different definitions of criticality | /discovery/business-and-it-use-different-definitions-of-criticality/
+  - Manual recovery steps are not timed during tests | /discovery/why-manual-recovery-steps-need-a-stopwatch-during-every-test/
+  - The reports you need most are the ones you cannot run during an outage | /discovery/critical-reports-you-cannot-produce-during-a-system-outage/
 summary: When systems fail, IT fixes and everyone else guesses what to say. Why customer communication during outages has no owner, what it costs, and how to assign it before an insurer or auditor asks.
 layout: plain
 ---

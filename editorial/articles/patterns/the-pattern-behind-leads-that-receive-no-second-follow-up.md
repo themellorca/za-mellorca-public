@@ -14,8 +14,12 @@ observable_condition: Salespeople reply to a new lead once, but when the prospec
 primary_identification: Undefined follow-up cadence: the sales process specifies the first response but not what happens next, so continued contact depends on individual memory and motivation.
 commercial_value_dimensions: Lead conversion, marketing return, pipeline value and sales forecast accuracy
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/create-and-activate-a-sequence | https://learn.microsoft.com/en-us/dynamics365/sales/create-and-activate-a-sequence
-  - https://learn.microsoft.com/en-us/dynamics365/sales/sales-accelerator-intro | https://learn.microsoft.com/en-us/dynamics365/sales/sales-accelerator-intro
+  - Sequence creation and activation in the sales accelerator | https://learn.microsoft.com/en-us/dynamics365/sales/create-and-activate-a-sequence
+  - Understand what is sales accelerator | https://learn.microsoft.com/en-us/dynamics365/sales/sales-accelerator-intro
+related:
+  - When the CRM Is Used as a Database Instead of an Operating System | /patterns/when-the-crm-stores-records-but-does-not-run-the-work/
+  - When Revenue Leakage Starts With Administrative Friction | /patterns/when-revenue-leakage-starts-with-administrative-friction/
+  - Why Sales Forecasts Change Depending on Who You Ask | /patterns/why-the-sales-forecast-depends-on-which-person-you-ask/
 summary: Most businesses answer a new enquiry once. Far fewer follow up a second time when the prospect goes quiet. That missing second touch is rarely laziness; it is a process with no next step defined.
 layout: plain
 ---

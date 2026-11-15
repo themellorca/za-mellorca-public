@@ -10,9 +10,13 @@ published_date: 2026-11-15
 updated_date: 2026-11-15
 eyebrow: Reporting and Data
 sources:
-  - https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
-  - https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
-  - https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
+  - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
+  - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
+  - Set data alerts in the Power BI service - Power BI | https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts
+related:
+  - How to Stop Building Management Reports by Hand | /insights/how-to-replace-the-monthly-spreadsheet-assembly-behind-management-reports/
+  - How to Stop Teams Creating Their Own Versions of the Truth | /insights/how-to-stop-teams-creating-their-own-versions-of-the-truth/
+  - How to Build Reporting From Systems People Actually Use | /insights/how-to-build-reporting-from-the-systems-your-people-already-use-every-day/
 summary: Automated reports remove the person who used to notice odd numbers. Freshness panels, reconciliation counts and properly routed failure notices put that check back.
 layout: plain
 ---

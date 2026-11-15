@@ -10,9 +10,13 @@ published_date: 2026-11-15
 updated_date: 2026-11-15
 eyebrow: CRM and Customer Systems
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/overview | https://learn.microsoft.com/en-us/dynamics365/sales/overview
-  - https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
-  - https://www.nist.gov/itl/ai-risk-management-framework | https://www.nist.gov/itl/ai-risk-management-framework
+  - Welcome to Dynamics 365 Sales | https://learn.microsoft.com/en-us/dynamics365/sales/overview
+  - Set up duplicate detection rules to keep your data clean - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
+  - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
+related:
+  - How to Design Better CRM Handoffs | /insights/how-to-design-better-crm-handoffs-ownership-records-and-acceptance/
+  - How to Prepare CRM Data for Automation and AI | /insights/how-to-prepare-crm-data-for-automation-and-ai/
+  - Why Your CRM Reports Do Not Match Reality | /insights/why-your-crm-reports-do-not-match-reality-and-how-to-close-the-gap/
 summary: Once software reads and acts on your CRM records, loose definitions, duplicates and missing context stop being minor. Here is what has to change underneath.
 layout: plain
 ---

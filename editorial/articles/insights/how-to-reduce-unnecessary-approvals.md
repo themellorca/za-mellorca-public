@@ -10,9 +10,13 @@ published_date: 2026-11-15
 updated_date: 2026-11-15
 eyebrow: Process Improvement
 sources:
-  - https://csrc.nist.gov/glossary/term/separation_of_duty | https://csrc.nist.gov/glossary/term/separation_of_duty
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
-  - https://learn.microsoft.com/en-us/power-automate/get-started-approvals | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - Separation of Duty (SOD) - Glossary - CSRC | https://csrc.nist.gov/glossary/term/separation_of_duty
+  - Approve or reject documents in workflows - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
+  - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+related:
+  - How to Find Steps That Exist Only Because the System Is Bad | /insights/how-to-find-steps-that-exist-only-because-the-system-is-bad/
+  - How to Measure Whether a Workflow Is Improving | /insights/how-to-measure-whether-a-workflow-is-improving/
+  - Why Hiring More People Does Not Fix Broken Operations | /insights/why-hiring-more-people-does-not-fix-broken-operations-diagnose-before-you-add-headcount/
 summary: High volume, near-zero rejections and long waits mean an approval has stopped controlling anything. An inventory shows which to remove, which to redesign and which to keep.
 layout: plain
 ---

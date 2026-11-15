@@ -13,9 +13,13 @@ commercial_domain: Business Continuity
 primary_pain: Servers are backed up while SaaS and cloud application data, where most current records live, is left outside the backup plan
 primary_cost_mechanism: Staff time recreating deleted or corrupted work, lost customer history in CRM, slow partial recovery through retention features, and continued spending on a backup routine that protects mainly archives
 sources:
-  - https://www.microsoft.com/en-us/servicesagreement | https://www.microsoft.com/en-us/servicesagreement
-  - https://www.ncsc.gov.uk/collection/using-online-services-safely/back-up-critical-data | https://www.ncsc.gov.uk/collection/using-online-services-safely/back-up-critical-data
-  - https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview | https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview
+  - Microsoft Services Agreement | https://www.microsoft.com/en-us/servicesagreement
+  - Back up your organisation’s critical data | https://www.ncsc.gov.uk/collection/using-online-services-safely/back-up-critical-data
+  - Overview of Microsoft 365 Backup | https://learn.microsoft.com/en-us/microsoft-365/backup/backup-overview
+related:
+  - Backups in the same place as the data: The risk of losing both | /impact/backups-same-environment-losing-both-copies-risk/
+  - The Outage Nobody Rehearsed: The Cost of Improvising When Systems Go Down | /impact/never-practising-technology-outage-operations-confusion-prolonged-interruption-cost/
+  - One backup method, no fallback: The financial cost of a single point of recovery | /impact/single-backup-method-no-recovery-fallback-cost/
 summary: Many businesses still back up the office server faithfully while email, shared files, CRM and accounting data now live in cloud applications that sit outside the backup plan entirely.
 layout: plain
 ---

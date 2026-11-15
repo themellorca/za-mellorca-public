@@ -14,8 +14,12 @@ observable_condition: When an experienced employee resigns, colleagues rush to s
 primary_identification: Tacit procedure: the real procedure exists only as practice in one person's routine, so documentation is either missing or describes an older, idealised version of the work.
 commercial_value_dimensions: Continuity of operations, error rates after departures, onboarding time for replacements and key-person risk
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/task-mining-overview | https://learn.microsoft.com/en-us/power-automate/task-mining-overview
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - Overview of task mining - Power Automate | https://learn.microsoft.com/en-us/power-automate/task-mining-overview
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+related:
+  - When business knowledge lives in inbox history | /patterns/when-business-knowledge-lives-in-inbox-history/
+  - Why can nobody find the document they know exists? | /patterns/why-can-nobody-find-the-document-they-know-exists/
+  - When AI search fails because the underlying knowledge is chaotic | /patterns/when-ai-search-fails-because-knowledge-is-chaotic/
 summary: When a long-serving employee resigns, the business discovers how much of its routine lived only in their head: which steps to follow, in what order and which exceptions to watch for. Here is why that happens and how to keep it.
 layout: plain
 ---

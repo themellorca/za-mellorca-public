@@ -15,9 +15,13 @@ human_dividend: Time and presence: evenings that are protected by agreed overlap
 trade_off: Clients may resist; shifted hours reduce local availability; written updates need discipline; time-critical work will still need occasional out-of-hours effort.
 epistemic_state: HYPOTHESISED: reasoned from South African labour and holiday law and time-keeping standards, not from a survey of cross-border teams; the worked example is illustrative.
 sources:
-  - https://www.gov.za/about-sa/public-holidays | https://www.gov.za/about-sa/public-holidays
-  - https://www.iana.org/time-zones | https://www.iana.org/time-zones
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
+  - Public holidays in South Africa - South African Government | https://www.gov.za/about-sa/public-holidays
+  - Time Zones | https://www.iana.org/time-zones
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+related:
+  - Why every new hire starts with a week of waiting | /moments/why-the-first-week-of-a-new-job-is-spent-waiting/
+  - The Small Joy of a Form That Remembers You | /moments/the-small-joy-of-a-follow-up-form-that-remembers-you/
+  - When Small Frictions Add Up to a Bad Day | /moments/when-small-frictions-add-up-to-a-bad-day/
 summary: Working with clients or colleagues abroad stretches the day at both ends: early calls, late replies, holidays that do not line up. How to keep cross-border work from eating every evening.
 layout: plain
 ---

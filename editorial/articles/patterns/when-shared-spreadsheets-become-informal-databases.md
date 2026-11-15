@@ -14,9 +14,13 @@ observable_condition: Several staff edit one shared spreadsheet every day as the
 primary_identification: Informal database: a spreadsheet is carrying multi-user, record-keeping work that needs structure, validation, permissions and change history, none of which it enforces.
 commercial_value_dimensions: Data accuracy, operational continuity, staff time and control over business records
 sources:
-  - https://support.microsoft.com/en-us/excel/excel-specifications-and-limits | https://support.microsoft.com/en-us/excel/excel-specifications-and-limits
-  - https://support.microsoft.com/en-us/sharepoint/lists/track-information-for-your-business | https://support.microsoft.com/en-us/sharepoint/lists/track-information-for-your-business
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
+  - Excel specifications and limits - Microsoft Support | https://support.microsoft.com/en-us/excel/excel-specifications-and-limits
+  - Track information for your business - Microsoft Support | https://support.microsoft.com/en-us/sharepoint/lists/track-information-for-your-business
+  - What is Microsoft Dataverse? - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
+related:
+  - Why teams build spreadsheets after the business buys enterprise software | /patterns/why-teams-build-spreadsheets-after-the-business-buys-enterprise-software/
+  - The hidden risk of one file controlling an operation | /patterns/the-hidden-risk-of-one-file-controlling-an-operation/
+  - Why is your most important process running in Excel? | /patterns/why-your-most-important-process-is-running-in-excel/
 summary: A spreadsheet that started as a simple tracker now has thousands of rows, five people editing it, colour codes nobody explains and lookups that break when someone sorts it. It has become a database without any of a database's protections.
 layout: plain
 ---

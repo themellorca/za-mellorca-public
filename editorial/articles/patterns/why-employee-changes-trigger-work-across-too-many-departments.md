@@ -14,8 +14,12 @@ observable_condition: When an employee is promoted, transferred, changes hours o
 primary_identification: Unpropagated change: employee changes are recorded in HR but not used as an event that updates other systems, so each department must be told and must act manually.
 commercial_value_dimensions: HR and IT staff time, payroll accuracy, access risk and employee experience
 sources:
-  - https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows | https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows
-  - https://learn.microsoft.com/en-us/entra/identity/app-provisioning/what-is-hr-driven-provisioning | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/what-is-hr-driven-provisioning
+  - What are lifecycle workflows? - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows
+  - What is HR-driven provisioning with Microsoft Entra ID? - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/what-is-hr-driven-provisioning
+related:
+  - When a Manager Becomes the Bottleneck for Routine Decisions | /patterns/when-routine-decisions-all-wait-for-one-manager/
+  - Why Leave Requests Still Travel Through Messages and Spreadsheets | /patterns/why-leave-requests-are-still-handled-through-chat-messages-and-spreadsheets/
+  - Why Managers Keep Asking HR for the Same Reports | /patterns/why-managers-keep-asking-hr-for-the-same-reports/
 summary: A promotion, a transfer or a change of hours looks like one decision. In practice it sets off separate tasks in HR, payroll, IT, finance and operations, each started by an email. Here is why and what to change.
 layout: plain
 ---

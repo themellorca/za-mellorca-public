@@ -13,10 +13,14 @@ problem_domain: Business Continuity & Resilience
 problem_owner: IT service manager responsible for restores, working with a named business data owner
 budget_owner: COO, CIO or CFO
 sources:
-  - https://csrc.nist.gov/pubs/sp/1800/11/final | https://csrc.nist.gov/pubs/sp/1800/11/final
-  - https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
-  - https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview | https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview
-  - https://docs.aws.amazon.com/aws-backup/latest/devguide/restore-testing-validation.html | https://docs.aws.amazon.com/aws-backup/latest/devguide/restore-testing-validation.html
+  - SP 1800-11, Data Integrity: Recovering from Ransomware and Other Destructive Events - CSRC | https://csrc.nist.gov/pubs/sp/1800/11/final
+  - Architecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+  - Active Geo-Replication - Azure SQL Database | https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview
+  - Restore testing validation - AWS Backup | https://docs.aws.amazon.com/aws-backup/latest/devguide/restore-testing-validation.html
+related:
+  - Recovery plans list systems but not the business services they support | /discovery/why-recovery-plans-should-be-organised-around-business-services-not-servers/
+  - After a cloud migration, nobody updates who to call in a crisis | /discovery/after-a-cloud-migration-nobody-updates-who-to-call-in-a-crisis/
+  - Business and IT use different definitions of criticality | /discovery/business-and-it-use-different-definitions-of-criticality/
 summary: A database comes back from a backup taken hours earlier while connected systems kept moving. Why restored data must be reconciled with the systems that depend on it before the business trusts it again.
 layout: plain
 ---

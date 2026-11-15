@@ -13,9 +13,13 @@ problem_domain: Accounts Receivable & Collections
 problem_owner: Finance operations manager or credit controller responsible for cash application
 budget_owner: CFO or financial director
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-how-set-up-payment-application-rules | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-how-set-up-payment-application-rules
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-how-review-apply-payments-auto-application | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-how-review-apply-payments-auto-application
-  - https://www.gov.za/news/media-statements/reserve-bank-adoption-international-organization-standardization-south-africa | https://www.gov.za/news/media-statements/reserve-bank-adoption-international-organization-standardization-south-africa
+  - Rules for automatic application of payments - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-how-set-up-payment-application-rules
+  - Review and apply payments manually after automatic application - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-how-review-apply-payments-auto-application
+  - Reserve Bank on adoption of International Organization for Standardization in South Africa - South African Government | https://www.gov.za/news/media-statements/reserve-bank-adoption-international-organization-standardization-south-africa
+related:
+  - Disputes are tracked separately from invoice status | /discovery/why-invoice-disputes-live-in-email-while-the-ledger-says-overdue/
+  - Collections activity is not visible to account managers | /discovery/why-account-managers-cannot-see-what-collections-has-already-said-to-the-customer/
+  - Sales promises payment extensions that finance cannot see | /discovery/how-informal-payment-extensions-from-sales-undermine-collections/
 summary: A deposit with a vague reference cannot be matched to an invoice, so it sits unapplied while the customer gets reminders. Why reference data goes missing, and how to raise automatic matching rates.
 layout: plain
 ---

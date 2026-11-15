@@ -15,9 +15,13 @@ human_dividend: Time: the customer stops chasing once an enquiry is acknowledged
 trade_off: Response promises must be kept; closing unwatched channels reduces choice; shorter forms may need later follow-up; automatic replies can feel impersonal.
 epistemic_state: HYPOTHESISED: reasoned from South African consumer and privacy law, accessibility standards and common practice, not from measured response times; the worked example is illustrative.
 sources:
-  - https://www.gov.za/documents/consumer-protection-act | https://www.gov.za/documents/consumer-protection-act
-  - https://www.w3.org/WAI/standards-guidelines/wcag/ | https://www.w3.org/WAI/standards-guidelines/wcag/
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Consumer Protection Act 68 of 2008 - South African Government | https://www.gov.za/documents/consumer-protection-act
+  - WCAG 2 Overview | https://www.w3.org/WAI/standards-guidelines/wcag/
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - The Relief of Not Having to Ask Where Something Is | /moments/the-relief-of-not-having-to-ask-where-something-is/
+  - When Small Frictions Add Up to a Bad Day | /moments/when-small-frictions-add-up-to-a-bad-day/
+  - The Joy of a Process That Finishes Itself | /moments/the-joy-of-a-process-that-finishes-itself/
 summary: Before a customer reaches a person, they meet your website, forms, phone menu and silence. Small obstacles there shape the whole relationship. How to find and remove them.
 layout: plain
 ---

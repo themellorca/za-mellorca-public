@@ -10,9 +10,13 @@ published_date: 2026-11-15
 updated_date: 2026-11-15
 eyebrow: AI in Business Operations
 sources:
-  - https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy
-  - https://learn.microsoft.com/en-us/purview/data-governance-overview | https://learn.microsoft.com/en-us/purview/data-governance-overview
-  - https://www.nist.gov/itl/ai-risk-management-framework | https://www.nist.gov/itl/ai-risk-management-framework
+  - AI strategy - Guidance to set your organization's AI strategy - Cloud Adoption Framework | https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai/strategy
+  - Learn about data governance with Microsoft Purview | https://learn.microsoft.com/en-us/purview/data-governance-overview
+  - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
+related:
+  - Why business systems need ongoing stewardship | /insights/why-business-systems-need-ongoing-stewardship/
+  - How to Keep a CRM Clean After the Cleanup Project Ends | /insights/how-to-keep-a-crm-clean-after-the-cleanup-project-ends/
+  - What AI Changes About CRM Architecture | /insights/what-ai-changes-about-crm-architecture/
 summary: An AI pilot can succeed on one careful user and clean inputs. Rolling it out across the business exposes scattered data, loose permissions and missing review. Here is what to fix.
 layout: plain
 ---

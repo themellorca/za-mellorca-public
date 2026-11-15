@@ -15,9 +15,13 @@ human_dividend: Financial breathing room and time: payment arrives closer to ter
 trade_off: Up-front billing questions can feel formal; automated reminders can feel impersonal; some customers still pay late; software may cost money.
 epistemic_state: HYPOTHESISED: reasoned from vendor documentation, SARS VAT requirements and public policy elsewhere, not from measured payment times in South Africa; the worked example is illustrative.
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances
-  - https://www.sars.gov.za/types-of-tax/value-added-tax/ | https://www.sars.gov.za/types-of-tax/value-added-tax/
-  - https://gov.uk/government/news/government-launches-small-business-commissioner-to-help-small-firms-resolve-payment-disputes | https://gov.uk/government/news/government-launches-small-business-commissioner-to-help-small-firms-resolve-payment-disputes
+  - Collect outstanding balances - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances
+  - Value-Added Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/
+  - Government launches Small Business Commissioner to help small firms resolve payment disputes | https://gov.uk/government/news/government-launches-small-business-commissioner-to-help-small-firms-resolve-payment-disputes
+related:
+  - When Booking a Patient Appointment Takes Longer Than the Appointment | /moments/when-booking-a-patient-appointment-takes-longer-than-the-appointment/
+  - The friction of signing up for something at work | /moments/the-friction-of-signing-up-for-something-at-work/
+  - The relief of a password you don't have to reset | /moments/the-relief-of-a-password-you-dont-have-to-reset/
 summary: Many small businesses get paid only after repeated reminders, calls and resent invoices. Why collection depends so much on stamina, and how to make paying you the easy path.
 layout: plain
 ---

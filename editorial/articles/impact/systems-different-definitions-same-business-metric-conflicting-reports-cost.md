@@ -13,8 +13,12 @@ commercial_domain: Data and Information
 primary_pain: Different systems use different definitions for the same business metric, producing conflicting reports
 primary_cost_mechanism: Management and analyst time reconciling figures, effort and commission aligned to the wrong measure, delayed decisions while numbers are disputed, and lost credibility with banks, auditors and investors
 sources:
-  - https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl | https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl
-  - https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content | https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content
+  - dbt Semantic Layer - dbt Developer Hub | https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl
+  - Endorse your content - Power BI | https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-endorse-content
+related:
+  - Yesterday's Data, Today's Decisions: The Cost of Delayed System Syncs | /impact/data-transferred-between-systems-on-delay-stale-information-decision-cost/
+  - When Important Data Is Trapped in One Department's App | /impact/data-trapped-in-one-department-application-information-silo-cost/
+  - When Reports Do Not Answer the Question: The Cost of Private Analysis Spreadsheets | /impact/employees-private-spreadsheets-official-reports-unanswered-questions-duplicated-reporting-cost/
 summary: The CRM, the accounting package and the operations system each report revenue, customers or orders, and each counts them differently. The result is conflicting reports and decisions built on whichever number is nearest.
 layout: plain
 ---

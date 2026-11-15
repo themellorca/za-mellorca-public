@@ -10,9 +10,13 @@ published_date: 2026-11-15
 updated_date: 2026-11-15
 eyebrow: Process Design
 sources:
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://learn.microsoft.com/en-us/purview/data-governance-overview | https://learn.microsoft.com/en-us/purview/data-governance-overview
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Learn about data governance with Microsoft Purview | https://learn.microsoft.com/en-us/purview/data-governance-overview
+  - Approve or reject documents in workflows - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
+related:
+  - Why Processes Break Between Departments | /insights/why-processes-break-between-departments-and-how-to-close-the-gaps/
+  - How to Handle Work That Does Not Fit the Standard Process | /insights/how-to-handle-work-that-does-not-fit-the-standard-process-without-breaking-it/
+  - How to Route New Customers to the Right Team Automatically | /insights/how-to-route-new-customers-to-the-right-team-automatically/
 summary: Ownership works better when it is built into the process like the steps and forms. Separate process, case, step and information ownership, and make each one visible.
 layout: plain
 ---

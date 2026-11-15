@@ -14,8 +14,12 @@ observable_condition: Operations discovers after an order is placed that the cus
 primary_identification: Unrecorded commitment: promises are made in calls, emails and messages, then re-entered by hand into the order, so the operational record does not match what the customer was told.
 commercial_value_dimensions: Margin protection, delivery reliability, rework cost, customer trust and internal cooperation
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-make-offers | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-make-offers
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-to-calculate-order-promising-dates | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-to-calculate-order-promising-dates
+  - Make sales quotes - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-make-offers
+  - Calculate order promising dates - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-to-calculate-order-promising-dates
+related:
+  - When the CRM Is Used as a Database Instead of an Operating System | /patterns/when-the-crm-stores-records-but-does-not-run-the-work/
+  - When Customer History Is Scattered Across Email, CRM and WhatsApp | /patterns/when-customer-history-is-scattered-across-email-crm-and-whatsapp/
+  - When Quote Creation Becomes a Sales Bottleneck | /patterns/when-quote-creation-becomes-a-sales-bottleneck/
 summary: Sales says the customer was promised delivery by Friday with installation included. Operations says nobody told them. When commitments are made in conversations and copied by hand, both sides can be right.
 layout: plain
 ---

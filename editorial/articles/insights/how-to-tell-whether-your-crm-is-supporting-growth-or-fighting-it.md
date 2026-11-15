@@ -10,8 +10,12 @@ published_date: 2026-11-15
 updated_date: 2026-11-15
 eyebrow: CRM Operations
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales | https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales
-  - https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines | https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines
+  - Understand the sales process | https://learn.microsoft.com/en-us/dynamics365/sales/nurture-sales-from-lead-order-sales
+  - Set up and manage object pipelines | https://knowledge.hubspot.com/object-settings/set-up-and-customize-pipelines
+related:
+  - How to Keep a CRM Clean After the Cleanup Project Ends | /insights/how-to-keep-a-crm-clean-after-the-cleanup-project-ends/
+  - How Often Should You Review Your CRM Configuration? | /insights/how-often-should-you-review-your-crm-configuration/
+  - How to Design CRM Notifications Without Creating Alert Fatigue | /insights/how-to-design-crm-notifications-without-creating-alert-fatigue/
 summary: A CRM that supports growth makes each new salesperson, product and team cheaper to add. One that fights growth makes each addition harder. These signs tell you which you have.
 layout: plain
 ---

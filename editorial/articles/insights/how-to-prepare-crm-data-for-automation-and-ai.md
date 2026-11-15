@@ -10,9 +10,13 @@ published_date: 2026-11-15
 updated_date: 2026-11-15
 eyebrow: CRM and Customer Systems
 sources:
-  - https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
-  - https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
-  - https://learn.microsoft.com/en-us/purview/data-governance-overview | https://learn.microsoft.com/en-us/purview/data-governance-overview
+  - The Government Data Quality Framework | https://www.gov.uk/government/publications/the-government-data-quality-framework/the-government-data-quality-framework
+  - Set up duplicate detection rules to keep your data clean - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
+  - Learn about data governance with Microsoft Purview | https://learn.microsoft.com/en-us/purview/data-governance-overview
+related:
+  - What AI Changes About CRM Architecture | /insights/what-ai-changes-about-crm-architecture/
+  - How CRM Ownership Should Work | /insights/how-crm-ownership-should-work-roles-decisions-and-permissions/
+  - When to Reconfigure a CRM and When to Replace It | /insights/when-to-reconfigure-a-crm-and-when-to-replace-it-a-decision-guide/
 summary: Automation acts on whatever the CRM holds, at volume and without judgement. Prepare the specific fields each use case reads, measure them, and keep them ready.
 layout: plain
 ---

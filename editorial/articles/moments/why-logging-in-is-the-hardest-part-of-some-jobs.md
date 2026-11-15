@@ -15,9 +15,13 @@ human_dividend: Time: shifts that start with work rather than sign-in problems, 
 trade_off: Single sign-on concentrates risk; some systems cannot join it; relaxing password rules needs compensating protections; some features carry licence costs.
 epistemic_state: HYPOTHESISED: reasoned from published security guidance and identity platform documentation, not from measured sign-in times in South African workplaces; the worked example is illustrative.
 sources:
-  - https://pages.nist.gov/800-63-4/sp800-63b.html | https://pages.nist.gov/800-63-4/sp800-63b.html
-  - https://www.ncsc.gov.uk/collection/passwords | https://www.ncsc.gov.uk/collection/passwords
-  - https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on
+  - NIST Special Publication 800-63B | https://pages.nist.gov/800-63-4/sp800-63b.html
+  - Password administration for system owners | https://www.ncsc.gov.uk/collection/passwords
+  - What is single sign-on in Microsoft Entra ID? - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/what-is-single-sign-on
+related:
+  - Why every new hire starts with a week of waiting | /moments/why-the-first-week-of-a-new-job-is-spent-waiting/
+  - When Finding the Latest Version Is a Search Party | /moments/when-finding-the-latest-version-is-a-search-party/
+  - The Friction of Working Across Countries and Time Zones | /moments/the-friction-of-working-across-countries-and-time-zones/
 summary: For some workers the first fifteen minutes of every shift go on passwords, codes and locked accounts. Why sign-in friction falls hardest on part-time and shift staff, and what modern guidance says.
 layout: plain
 ---

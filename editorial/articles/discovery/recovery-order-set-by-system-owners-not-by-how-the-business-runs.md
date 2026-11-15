@@ -13,9 +13,13 @@ problem_domain: Business Continuity & Resilience
 problem_owner: Business continuity lead or IT service manager responsible for the recovery plan
 budget_owner: COO, CIO or managing director
 sources:
-  - https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
-  - https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
-  - https://learn.microsoft.com/en-us/azure/site-recovery/recovery-plan-overview | https://learn.microsoft.com/en-us/azure/site-recovery/recovery-plan-overview
+  - Architecture strategies for disaster recovery - Microsoft Azure Well-Architected Framework | https://learn.microsoft.com/en-us/azure/well-architected/reliability/disaster-recovery
+  - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+  - About recovery plans in Azure Site Recovery - Azure Site Recovery | https://learn.microsoft.com/en-us/azure/site-recovery/recovery-plan-overview
+related:
+  - Recovery environments drift from production | /discovery/why-recovery-environments-quietly-drift-away-from-production/
+  - After a cloud migration, nobody updates who to call in a crisis | /discovery/after-a-cloud-migration-nobody-updates-who-to-call-in-a-crisis/
+  - Data recovery points are not aligned with transaction criticality | /discovery/why-one-recovery-point-for-every-system-hides-your-most-valuable-data/
 summary: Each system owner restores their own platform first, and the business still cannot take an order. How to set recovery sequence from business process and dependencies, especially during a cloud migration.
 layout: plain
 ---

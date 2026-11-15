@@ -13,9 +13,13 @@ commercial_domain: Automation and Integration
 primary_pain: New software is added without checking how it will connect to existing systems, creating integration debt
 primary_cost_mechanism: Recurring manual data transfer labour, re-keying errors, costly late integration and data clean-up projects, and lock-in to poorly connected tools that would not be chosen again
 sources:
-  - https://shopify.dev/docs/api/usage/limits | https://shopify.dev/docs/api/usage/limits
-  - https://learn.microsoft.com/en-us/graph/throttling | https://learn.microsoft.com/en-us/graph/throttling
-  - https://docs.stripe.com/api/versioning | https://docs.stripe.com/api/versioning
+  - Shopify API limits | https://shopify.dev/docs/api/usage/limits
+  - Microsoft Graph throttling guidance - Microsoft Graph | https://learn.microsoft.com/en-us/graph/throttling
+  - Versioning - Stripe API Reference | https://docs.stripe.com/api/versioning
+related:
+  - When Customers Find the Broken Integration Before You Do | /impact/integrations-breaking-silently-customers-report-failure-first-cost/
+  - The Integration That Is Always Being Fixed: Paying for Poorly Designed Connections | /impact/custom-integrations-constantly-need-repair-poorly-designed-connections-cost/
+  - Shadow Automations: The Hidden Risk of Workflows Built Outside Oversight | /impact/personal-automations-outside-business-oversight-shadow-automation-continuity-risk/
 summary: Each new application bought without checking how it will exchange data with the rest of the business adds manual transfers, fragile workarounds and future rework. That accumulated burden is integration debt.
 layout: plain
 ---

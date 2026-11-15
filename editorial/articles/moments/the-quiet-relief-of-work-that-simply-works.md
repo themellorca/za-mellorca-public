@@ -15,9 +15,13 @@ human_dividend: Predictability and time: evenings that can be planned once the r
 trade_off: Reliability work is invisible and needs priority; external changes still cause failures; checks add steps; long quiet spells can lead to neglect.
 epistemic_state: HYPOTHESISED: reasoned from reliability engineering practice and workplace health guidance, not from measured failure rates in South African finance teams; the worked example is illustrative.
 sources:
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
-  - https://sre.google/sre-book/embracing-risk/ | https://sre.google/sre-book/embracing-risk/
-  - https://learn.microsoft.com/en-us/power-automate/overview-cloud | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Google SRE - Embracing risk and reliability engineering book | https://sre.google/sre-book/embracing-risk/
+  - Overview of cloud flows - Power Automate | https://learn.microsoft.com/en-us/power-automate/overview-cloud
+related:
+  - When the Person Who Keeps Everything Running Can't Get Sick | /moments/when-the-person-who-keeps-everything-running-cant-get-sick/
+  - The Engineer Who Became the Integration | /moments/the-engineer-who-became-the-link-between-two-systems/
+  - The Employee Who Dreads Being the Only One Who Knows | /moments/the-employee-who-dreads-being-the-only-one-who-knows/
 summary: Nobody celebrates a supplier run that goes through without a hitch. Yet the absence of drama is one of the most valuable things a working day can offer. What it takes to get there.
 layout: plain
 ---

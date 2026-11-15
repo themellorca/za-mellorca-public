@@ -13,9 +13,13 @@ problem_domain: Payments, Expenses & Spend Operations
 problem_owner: Accounts payable manager working with the tax accountant
 budget_owner: CFO or financial director
 sources:
-  - https://www.sars.gov.za/businesses-and-employers/tax-invoices/ | https://www.sars.gov.za/businesses-and-employers/tax-invoices/
-  - https://www.sars.gov.za/types-of-tax/value-added-tax/faqs-for-vat-vendors/ | https://www.sars.gov.za/types-of-tax/value-added-tax/faqs-for-vat-vendors/
-  - https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/vendor-invoice-automation | https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/vendor-invoice-automation
+  - Tax Invoices - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/tax-invoices/
+  - FAQs for VAT vendors - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/faqs-for-vat-vendors/
+  - Invoice automation for scanned documents - Finance - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/vendor-invoice-automation
+related:
+  - Urgent supplier payments that skip the usual evidence checks | /discovery/urgent-supplier-payments-that-skip-the-usual-evidence-checks/
+  - Duplicate supplier invoices are caught after they are paid | /discovery/duplicate-supplier-invoices-are-caught-after-they-are-paid/
+  - Foreign-currency payment costs nobody analyses by route | /discovery/foreign-currency-payment-costs-nobody-analyses-by-route/
 summary: Invalid tax invoices are often found at VAT return time, after approval and payment. Why tax validation belongs at the point of capture, and which checks to automate as invoice volumes grow.
 layout: plain
 ---

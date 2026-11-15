@@ -10,8 +10,12 @@ published_date: 2026-11-15
 updated_date: 2026-11-15
 eyebrow: Workflow Automation
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/overview-unified-routing | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/overview-unified-routing
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/set-up-record-routing | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/set-up-record-routing
+  - Overview of unified routing | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/overview-unified-routing
+  - Set up unified routing for records | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/set-up-record-routing
+related:
+  - How to Reduce Manual Status Checking | /insights/how-to-reduce-manual-status-checking-across-your-team/
+  - How to Avoid Creating a Fragile Automation Stack | /insights/how-to-avoid-creating-a-fragile-automation-stack/
+  - How to Automate Approvals Without Losing Control | /insights/how-to-automate-approvals-without-losing-control/
 summary: When an experienced person spends the morning deciding who does what, work waits and knowledge sits in one head. Record the decisions, capture the facts and hand routine sorting to rules.
 layout: plain
 ---

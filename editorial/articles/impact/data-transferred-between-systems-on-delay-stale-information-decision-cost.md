@@ -13,8 +13,12 @@ commercial_domain: Data and Information
 primary_pain: Data moves between systems on a delay, so staff and managers decide on stale information
 primary_cost_mechanism: Oversold stock and refunds, unnecessary credit holds and calls, duplicated checking because staff distrust system figures, and costly purchasing, pricing and staffing decisions based on old data
 sources:
-  - https://docs.stripe.com/webhooks | https://docs.stripe.com/webhooks
-  - https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
+  - Receive Stripe events in your webhook endpoint | https://docs.stripe.com/webhooks
+  - Data refresh in Power BI - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data
+related:
+  - One Metric, Three Definitions: The Cost of Systems That Count Differently | /impact/systems-different-definitions-same-business-metric-conflicting-reports-cost/
+  - When Important Data Is Trapped in One Department's App | /impact/data-trapped-in-one-department-application-information-silo-cost/
+  - When Reports Do Not Answer the Question: The Cost of Private Analysis Spreadsheets | /impact/employees-private-spreadsheets-official-reports-unanswered-questions-duplicated-reporting-cost/
 summary: Stock, payments and orders that move between systems once a night leave staff deciding on figures that are hours old. The delay produces oversold stock, unnecessary credit holds and wasted calls.
 layout: plain
 ---

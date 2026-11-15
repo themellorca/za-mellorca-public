@@ -15,9 +15,13 @@ human_dividend: Predictability: outages become known situations with a plan, and
 trade_off: Reporting takes time; prevention costs money before any failure; plans go stale without testing; blameless reviews depend on trust.
 epistemic_state: HYPOTHESISED: reasoned from reliability engineering practice and contingency planning guidance, not from measured outage data in South African businesses; the worked example is illustrative.
 sources:
-  - https://sre.google/sre-book/embracing-risk/ | https://sre.google/sre-book/embracing-risk/
-  - https://sre.google/sre-book/postmortem-culture/ | https://sre.google/sre-book/postmortem-culture/
-  - https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+  - Google SRE - Embracing risk and reliability engineering book | https://sre.google/sre-book/embracing-risk/
+  - Google SRE - Blameless Postmortem for System Resilience | https://sre.google/sre-book/postmortem-culture/
+  - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+related:
+  - When Finding the Latest Version Is a Search Party | /moments/when-finding-the-latest-version-is-a-search-party/
+  - The Joy of a Process That Finishes Itself | /moments/the-joy-of-a-process-that-finishes-itself/
+  - The relief of a password you don't have to reset | /moments/the-relief-of-a-password-you-dont-have-to-reset/
 summary: When a system runs well, nobody thinks about it or the people who keep it that way. When it fails, everyone does. How to value reliability before the outage, not only during it.
 layout: plain
 ---

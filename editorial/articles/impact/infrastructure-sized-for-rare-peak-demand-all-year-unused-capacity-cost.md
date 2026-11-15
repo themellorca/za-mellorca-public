@@ -13,8 +13,12 @@ commercial_domain: Cloud and Infrastructure
 primary_pain: Infrastructure is sized for rare peak demand and paid for at that size all year round
 primary_cost_mechanism: Monthly hosting and cloud charges for idle capacity, licences priced on peak-sized servers, money tied up that could fund improvements, and peak capacity based on guesses that may still fail
 sources:
-  - https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/manage-demand-and-supply-resources.html | https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/manage-demand-and-supply-resources.html
-  - https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-overview | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-overview
+  - Manage demand and supply resources - Cost Optimization Pillar | https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/manage-demand-and-supply-resources.html
+  - Autoscale in Azure Monitor - Azure Monitor | https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-overview
+related:
+  - Paying Twice for Hosting: The Cost of Duplicated Environments | /impact/duplicated-hosting-environments-consolidation-infrastructure-cost/
+  - No Budget, No Alert: How Cloud Bills Surprise Businesses | /impact/cloud-spending-no-budgets-alerts-unexpected-consumption-financial-risk/
+  - Test servers running all night: The cost of idle non-production systems | /impact/idle-test-development-systems-cloud-cost/
 summary: Servers, cloud instances and licences sized for the Black Friday rush, the payroll run or the enrolment window are paid for every day of the year. Most of that capacity sits idle for eleven months.
 layout: plain
 ---

@@ -15,9 +15,13 @@ human_dividend: Time: routine payments follow a short route, and scrutiny is sav
 trade_off: Thresholds can be gamed by splitting invoices; digital approvals need auditor acceptance; tools may cost money; some owners value seeing every invoice.
 epistemic_state: HYPOTHESISED: reasoned from fraud-prevention guidance, SARS VAT requirements and vendor documentation, not from an audit of South African payment processes; the worked example is illustrative.
 sources:
-  - https://csc.gov.im/advice-guidance/business-email-compromise/ | https://csc.gov.im/advice-guidance/business-email-compromise/
-  - https://www.sars.gov.za/types-of-tax/value-added-tax/ | https://www.sars.gov.za/types-of-tax/value-added-tax/
-  - https://learn.microsoft.com/en-us/power-automate/get-started-approvals | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - Business Email Compromise - CSC | https://csc.gov.im/advice-guidance/business-email-compromise/
+  - Value-Added Tax - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/
+  - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+related:
+  - The friction of signing up for something at work | /moments/the-friction-of-signing-up-for-something-at-work/
+  - The Small Joy of a Form That Remembers You | /moments/the-small-joy-of-a-follow-up-form-that-remembers-you/
+  - When a Simple Change Needs Three Departments | /moments/when-a-simple-change-needs-sign-off-from-three-departments/
 summary: Paying a routine supplier invoice can involve printing, signing, scanning, emailing and loading, each step added for a reason. How to keep the protection and drop the busywork.
 layout: plain
 ---

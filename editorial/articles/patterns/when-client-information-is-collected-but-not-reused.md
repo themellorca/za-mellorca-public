@@ -14,9 +14,13 @@ observable_condition: Client details captured at enquiry, in the signed agreemen
 primary_identification: Capture without reuse: information is collected into documents and inboxes that serve one step, rather than into a shared record that later steps can draw from.
 commercial_value_dimensions: Onboarding speed, staff time, data accuracy, client experience and personal information compliance
 sources:
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - What is Microsoft Dataverse? - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - When client onboarding becomes a growth constraint | /patterns/when-client-onboarding-becomes-a-growth-constraint/
+  - Why does winning a customer create an internal scramble? | /patterns/why-does-winning-a-customer-create-an-internal-scramble/
+  - The Business Cost of Customers Chasing You | /patterns/the-business-cost-of-customers-chasing-you/
 summary: The business asked the client for their details at enquiry, again at sign-up and again at project kickoff. The information was collected every time. It was never reused, because each step stored it somewhere the next step could not reach.
 layout: plain
 ---

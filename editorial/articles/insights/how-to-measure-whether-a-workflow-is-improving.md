@@ -10,9 +10,13 @@ published_date: 2026-11-15
 updated_date: 2026-11-15
 eyebrow: Process Improvement
 sources:
-  - https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service | https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service
-  - https://learn.microsoft.com/en-us/power-automate/process-mining-processes-and-data | https://learn.microsoft.com/en-us/power-automate/process-mining-processes-and-data
-  - https://www.gov.uk/service-manual/measuring-success/measuring-completion-rate | https://www.gov.uk/service-manual/measuring-success/measuring-completion-rate
+  - How to set performance metrics for your service | https://www.gov.uk/service-manual/measuring-success/how-to-set-performance-metrics-for-your-service
+  - Prepare processes and data - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-processes-and-data
+  - Measuring completion rate | https://www.gov.uk/service-manual/measuring-success/measuring-completion-rate
+related:
+  - How to Find Steps That Exist Only Because the System Is Bad | /insights/how-to-find-steps-that-exist-only-because-the-system-is-bad/
+  - Why Hiring More People Does Not Fix Broken Operations | /insights/why-hiring-more-people-does-not-fix-broken-operations-diagnose-before-you-add-headcount/
+  - How to Reduce Unnecessary Approvals | /insights/how-to-reduce-unnecessary-approvals/
 summary: Without a baseline and a balanced set of measures, workflow improvements end in opinions. Here is how to show whether a change actually made things better.
 layout: plain
 ---

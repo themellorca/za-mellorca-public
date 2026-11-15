@@ -14,9 +14,13 @@ observable_condition: Warehouse staff keep their own stock notes, sales administ
 primary_identification: Eroded data trust: repeated experiences of incorrect system data have taught staff to verify everything privately, so the official record is no longer the working record.
 commercial_value_dimensions: Duplicated effort, decision quality, automation readiness and operational accuracy
 sources:
-  - https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-create-business-rule | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-create-business-rule
-  - https://learn.microsoft.com/en-us/power-platform/admin/manage-dataverse-auditing | https://learn.microsoft.com/en-us/power-platform/admin/manage-dataverse-auditing
+  - Set up duplicate detection rules to keep your data clean - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
+  - Create a business rule in Microsoft Dataverse - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-create-business-rule
+  - Manage Dataverse auditing - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/manage-dataverse-auditing
+related:
+  - When nobody knows which system holds the correct data | /patterns/when-nobody-knows-which-system-holds-the-correct-data/
+  - When nobody owns the definition of a business metric | /patterns/when-nobody-owns-the-definition-of-a-business-metric/
+  - When good processes keep failing because of the data fed into them | /patterns/when-good-processes-keep-failing-because-of-the-data-fed-into-them/
 summary: When staff keep a notebook of real stock counts, a private list of correct customer contacts or their own record of what was ordered, the business has a trust problem with its data. The lists are the symptom.
 layout: plain
 ---

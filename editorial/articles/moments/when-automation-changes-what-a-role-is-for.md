@@ -15,9 +15,13 @@ human_dividend: Optionality: a redesigned role with new responsibilities and ski
 trade_off: Redesign takes management time; some roles cannot be rebuilt honestly; some people prefer the old routine; roles made only of exceptions can be draining.
 epistemic_state: HYPOTHESISED: reasoned from ILO research on AI and jobs and workplace health guidance, not from a study of South African role changes; the worked example is illustrative.
 sources:
-  - https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-job-quantity-and | https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-job-quantity-and
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Generative AI and Jobs: A global analysis of potential effects on job quantity and quality | https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-job-quantity-and
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+related:
+  - Why Being Blamed for System Errors Wears People Down | /moments/why-being-blamed-for-system-errors-wears-people-down/
+  - The Employee Who Dreads Being the Only One Who Knows | /moments/the-employee-who-dreads-being-the-only-one-who-knows/
+  - When 'Just Following the Process' Feels Like Giving Up | /moments/when-just-following-the-process-feels-like-giving-up/
 summary: When software takes over the tasks that defined a job, the person in it can feel unsure what they are now for. How to redesign the role openly instead of leaving it to drift.
 layout: plain
 ---

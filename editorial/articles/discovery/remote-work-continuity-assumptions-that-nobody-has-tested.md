@@ -13,9 +13,13 @@ problem_domain: Business Continuity & Resilience
 problem_owner: IT manager or business continuity lead responsible for remote access and the continuity plan
 budget_owner: COO, CIO or managing director
 sources:
-  - https://learn.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways | https://learn.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways
-  - https://csrc.nist.gov/pubs/sp/800/46/r2/final | https://csrc.nist.gov/pubs/sp/800/46/r2/final
-  - https://csrc.nist.gov/pubs/sp/800/84/final | https://csrc.nist.gov/pubs/sp/800/84/final
+  - About Azure VPN Gateway | https://learn.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways
+  - SP 800-46 Rev. 2, Guide to Enterprise Telework, Remote Access, and Bring Your Own Device (BYOD) Security - CSRC | https://csrc.nist.gov/pubs/sp/800/46/r2/final
+  - SP 800-84, Guide to Test, Training, and Exercise Programs for IT Plans and Capabilities - CSRC | https://csrc.nist.gov/pubs/sp/800/84/final
+related:
+  - Recovery plans list systems but not the business services they support | /discovery/why-recovery-plans-should-be-organised-around-business-services-not-servers/
+  - Who tells customers what during an outage? Fix it before the next one | /discovery/who-tells-customers-what-during-an-outage/
+  - Recovery tests run in quiet weeks hide the capacity gaps of peak season | /discovery/recovery-tests-in-quiet-weeks-hide-peak-capacity-gaps/
 summary: Continuity plans often say staff will work remotely if the office is unavailable. Few businesses have checked whether access, capacity, devices and support hold up when the whole company connects at once.
 layout: plain
 ---

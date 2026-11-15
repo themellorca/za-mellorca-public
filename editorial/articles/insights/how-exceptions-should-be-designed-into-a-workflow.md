@@ -10,8 +10,12 @@ published_date: 2026-11-15
 updated_date: 2026-11-15
 eyebrow: Workflow Design
 sources:
-  - https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction | https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction
-  - https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling | https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling
+  - Compensating Transaction Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction
+  - Employ robust error handling - Power Automate | https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling
+related:
+  - What to Do When Every Customer Follows a Different Process | /insights/what-to-do-when-every-customer-follows-a-different-process/
+  - Why Every Workflow Needs a Clear Start and End | /insights/why-every-workflow-needs-a-clear-start-and-end/
+  - How to Design a Workflow Around Outcomes Instead of Departments | /insights/how-to-design-a-workflow-around-outcomes-instead-of-departments/
 summary: A process that only describes the easy cases leaves the hard ones to phone calls and memory. Give common exceptions their own states, owners, time limits and ways back.
 layout: plain
 ---

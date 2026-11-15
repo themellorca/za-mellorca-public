@@ -10,10 +10,14 @@ published_date: 2026-11-15
 updated_date: 2026-11-15
 eyebrow: Workflow Design
 sources:
-  - https://www.omg.org/spec/BPMN/2.0.2/About-BPMN | https://www.omg.org/spec/BPMN/2.0.2/About-BPMN
-  - https://learn.microsoft.com/en-us/power-automate/triggers-introduction | https://learn.microsoft.com/en-us/power-automate/triggers-introduction
-  - https://www.gov.uk/service-manual/measuring-success/measuring-completion-rate | https://www.gov.uk/service-manual/measuring-success/measuring-completion-rate
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - About the Business Process Model and Notation Specification Version 2.0.2 | https://www.omg.org/spec/BPMN/2.0.2/About-BPMN
+  - Triggers - Power Automate | https://learn.microsoft.com/en-us/power-automate/triggers-introduction
+  - Measuring completion rate | https://www.gov.uk/service-manual/measuring-success/measuring-completion-rate
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+related:
+  - How to Design a Workflow Around Outcomes Instead of Departments | /insights/how-to-design-a-workflow-around-outcomes-instead-of-departments/
+  - How to Route Work to the Right Person Automatically | /insights/how-to-route-work-to-the-right-person-automatically/
+  - How Exceptions Should Be Designed Into a Workflow | /insights/how-exceptions-should-be-designed-into-a-workflow/
 summary: If three people give three answers about when a process starts and finishes, it cannot be measured, owned or automated properly. Define the trigger and the outcome.
 layout: plain
 ---

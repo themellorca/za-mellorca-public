@@ -13,9 +13,13 @@ problem_domain: Payments, Expenses & Spend Operations
 problem_owner: Financial controller or treasury lead responsible for supplier payments
 budget_owner: CFO or financial director
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/finance-how-update-currencies | https://learn.microsoft.com/en-us/dynamics365/business-central/finance-how-update-currencies
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/payables-how-apply-purchase-transactions-manually | https://learn.microsoft.com/en-us/dynamics365/business-central/payables-how-apply-purchase-transactions-manually
-  - https://www.fsb.org/2021/10/targets-for-addressing-the-four-challenges-of-cross-border-payments-final-report/ | https://www.fsb.org/2021/10/targets-for-addressing-the-four-challenges-of-cross-border-payments-final-report/
+  - Update currency exchange rates - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/finance-how-update-currencies
+  - Reconcile vendor payment receipts or refunds in the payment journal - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/payables-how-apply-purchase-transactions-manually
+  - Targets for addressing the four challenges of cross-border payments: Final report | https://www.fsb.org/2021/10/targets-for-addressing-the-four-challenges-of-cross-border-payments-final-report/
+related:
+  - VAT checks done after supplier invoices are already in the workflow | /discovery/vat-checks-done-after-supplier-invoices-are-in-the-workflow/
+  - Paying suppliers means approving the same payment twice, in ERP and bank | /discovery/approving-the-same-supplier-payment-twice-in-erp-and-bank/
+  - Urgent supplier payments that skip the usual evidence checks | /discovery/urgent-supplier-payments-that-skip-the-usual-evidence-checks/
 summary: Bank fees, exchange-rate margins and intermediary charges on foreign payments are posted to one expense line and never compared. How to see what each payment route really costs as invoice volumes grow.
 layout: plain
 ---

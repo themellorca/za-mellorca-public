@@ -13,9 +13,13 @@ problem_domain: Contracts & Obligation Management
 problem_owner: Legal operations lead or commercial manager responsible for the contract register
 budget_owner: Financial director, CFO or general counsel
 sources:
-  - https://www.acts.co.za/consumer-protection/14_expiry_and_renewal_of_fixed_term_agreements | https://www.acts.co.za/consumer-protection/14_expiry_and_renewal_of_fixed_term_agreements
+  - Consumer Protection Act, 2008 (Act No. 68 of 2008) - 14. Expiry and renewal of fixed-term agreements - Acts Online | https://www.acts.co.za/consumer-protection/14_expiry_and_renewal_of_fixed_term_agreements
   - https://www.servicenow.com/docs/r/etYGEBUVr6RQYKLnfpRuhw/WfLgh1FnMaEBy1lNoslO2w | https://www.servicenow.com/docs/r/etYGEBUVr6RQYKLnfpRuhw/WfLgh1FnMaEBy1lNoslO2w
-  - https://learn.microsoft.com/en-us/dynamics365/supply-chain/procurement/purchase-agreements | https://learn.microsoft.com/en-us/dynamics365/supply-chain/procurement/purchase-agreements
+  - Purchase agreements - Supply Chain Management - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/supply-chain/procurement/purchase-agreements
+related:
+  - Renewal calendars are disconnected from architecture roadmaps | /discovery/why-renewal-calendars-and-architecture-roadmaps-drift-apart/
+  - Paying for unused software features because contracts are bundled | /discovery/why-bundled-software-contracts-hide-unused-features/
+  - Applications are retained because migration effort is unknown | /discovery/why-applications-stay-because-migration-effort-is-unknown/
 summary: The renewal date is in a spreadsheet, but the last day to give notice is not. Why notice windows are missed, what the Consumer Protection Act does and does not cover, and how to turn dates into owned tasks.
 layout: plain
 ---

@@ -13,8 +13,12 @@ commercial_domain: Automation and Integration
 primary_pain: Business automations run under employee accounts and fail when those people change roles or leave
 primary_cost_mechanism: Delayed invoicing and reporting when accounts are disabled, emergency rebuilding by consultants, security exposure from keeping leavers' accounts active, unnoticed quiet failures, and unclear audit trails
 sources:
-  - https://docs.cloud.google.com/iam/docs/service-account-overview | https://docs.cloud.google.com/iam/docs/service-account-overview
-  - https://learn.microsoft.com/en-us/entra/workload-id/workload-identities-overview | https://learn.microsoft.com/en-us/entra/workload-id/workload-identities-overview
+  - Service accounts overview - Identity and Access Management (IAM) - Google Cloud Documentation | https://docs.cloud.google.com/iam/docs/service-account-overview
+  - Workload identities - Microsoft Entra Workload ID | https://learn.microsoft.com/en-us/entra/workload-id/workload-identities-overview
+related:
+  - The Integration That Is Always Being Fixed: Paying for Poorly Designed Connections | /impact/custom-integrations-constantly-need-repair-poorly-designed-connections-cost/
+  - When Customers Find the Broken Integration Before You Do | /impact/integrations-breaking-silently-customers-report-failure-first-cost/
+  - Buying Software Before Asking How It Connects: The Cost of Integration Debt | /impact/new-software-added-without-integration-check-integration-debt-cost/
 summary: Invoices stop sending, reports stop arriving and integrations fail on the day an employee leaves, because the automation was running under their personal login. Controlled service identities prevent it.
 layout: plain
 ---

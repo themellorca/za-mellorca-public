@@ -14,9 +14,13 @@ observable_condition: Each salesperson maintains a personal spreadsheet of prosp
 primary_identification: Parallel pipeline: the CRM is experienced as a reporting obligation rather than a working tool, so the real sales work moves to private files the business cannot see or keep.
 commercial_value_dimensions: Forecast accuracy, sales continuity when staff leave, management visibility and selling time
 sources:
-  - https://learn.microsoft.com/en-us/power-apps/user/export-data-excel | https://learn.microsoft.com/en-us/power-apps/user/export-data-excel
-  - https://learn.microsoft.com/en-us/dynamics365/outlook-app/overview | https://learn.microsoft.com/en-us/dynamics365/outlook-app/overview
-  - https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
+  - Export data to Excel in Power Apps - Power Apps | https://learn.microsoft.com/en-us/power-apps/user/export-data-excel
+  - Dynamics 365 App for Outlook Overview (Dynamics 365 apps) | https://learn.microsoft.com/en-us/dynamics365/outlook-app/overview
+  - Set up duplicate detection rules to keep your data clean - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean
+related:
+  - When Quote Creation Becomes a Sales Bottleneck | /patterns/when-quote-creation-becomes-a-sales-bottleneck/
+  - Why Signed Deals Stall Before Delivery Begins | /patterns/why-signed-deals-sit-idle-between-acceptance-and-the-first-day-of-delivery/
+  - When the CRM Is Used as a Database Instead of an Operating System | /patterns/when-the-crm-stores-records-but-does-not-run-the-work/
 summary: When every salesperson keeps their own spreadsheet of deals next to the CRM, the CRM becomes a reporting chore and the real pipeline lives in files nobody else can see. Here is why it happens and how to reverse it.
 layout: plain
 ---
