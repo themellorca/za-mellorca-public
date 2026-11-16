@@ -14,8 +14,12 @@ observable_condition: Routine issues such as discount requests, refunds, supplie
 primary_identification: Undefined decision rights: the business has not set who may decide what, within which limits, and where an issue goes next, so the only escalation route anyone trusts is the top.
 commercial_value_dimensions: Leadership capacity, speed of response, customer experience, management development and resilience
 sources:
-  - https://www.bain.com/insights/rapid-tool-to-clarify-decision-accountability/ | https://www.bain.com/insights/rapid-tool-to-clarify-decision-accountability/
-  - https://learn.microsoft.com/en-us/power-automate/get-started-approvals | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - RAPID® Decision Making | https://www.bain.com/insights/rapid-tool-to-clarify-decision-accountability/
+  - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+related:
+  - When Leadership Meetings Are Used to Reconstruct What Happened | /patterns/why-leadership-meetings-spend-their-first-hour-on-what-happened/
+  - When every department optimizes its part but the whole process gets worse | /patterns/when-every-department-optimizes-its-part-but-the-whole-process-gets-worse/
+  - The signs that your business needs an operating system, not another app | /patterns/signs-your-business-needs-an-operating-system-not-another-app/
 summary: Discounts, refunds, supplier delays and staff clashes all end up on the managing director's desk. Why routine problems escalate upward, and how to stop it.
 layout: plain
 ---

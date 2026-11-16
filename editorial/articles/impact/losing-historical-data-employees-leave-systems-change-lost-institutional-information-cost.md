@@ -13,9 +13,13 @@ commercial_domain: Data and Information
 primary_pain: Historical business records are deleted or stranded when employees leave, mailboxes are removed or systems are replaced
 primary_cost_mechanism: Risk exposure in SARS verifications and audits, disputes conceded for lack of evidence, lost customer and supplier knowledge, analysis that can no longer be done, and cost of keeping obsolete systems running
 sources:
-  - https://www.sars.gov.za/businesses-and-employers/record-keeping/ | https://www.sars.gov.za/businesses-and-employers/record-keeping/
-  - https://popia.co.za/section-14-retention-and-restriction-of-records/ | https://popia.co.za/section-14-retention-and-restriction-of-records/
-  - https://learn.microsoft.com/en-us/purview/retention | https://learn.microsoft.com/en-us/purview/retention
+  - Record keeping - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/record-keeping/
+  - Section 14 Retention and restriction of records - POPIA | https://popia.co.za/section-14-retention-and-restriction-of-records/
+  - Learn about retention policies & labels to retain or delete | https://learn.microsoft.com/en-us/purview/retention
+related:
+  - Information in Too Many Places: The Cost of Data Spread Across Inboxes and Folders | /impact/business-data-scattered-email-spreadsheets-applications-personal-folders-fragmented-information-cost/
+  - What Counts as a Customer? The Cost of Running a Business Without Agreed Definitions | /impact/no-agreed-definition-revenue-customers-leads-completed-work-inconsistent-metrics-cost/
+  - Yesterday's Data, Today's Decisions: The Cost of Delayed System Syncs | /impact/data-transferred-between-systems-on-delay-stale-information-decision-cost/
 summary: A mailbox is deleted after a resignation, an old system is switched off after a migration, and years of customer, pricing and job history disappear. The loss surfaces later, in disputes, audits and decisions.
 layout: plain
 ---

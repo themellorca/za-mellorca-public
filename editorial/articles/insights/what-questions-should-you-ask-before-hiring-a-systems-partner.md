@@ -10,9 +10,13 @@ published_date: 2026-11-16
 updated_date: 2026-11-16
 eyebrow: Software Selection
 sources:
-  - https://www.ncsc.gov.uk/collection/supply-chain-security | https://www.ncsc.gov.uk/collection/supply-chain-security
-  - https://www.gov.uk/guidance/define-your-purchasing-strategy | https://www.gov.uk/guidance/define-your-purchasing-strategy
+  - Supply chain security guidance | https://www.ncsc.gov.uk/collection/supply-chain-security
+  - Define your purchasing strategy | https://www.gov.uk/guidance/define-your-purchasing-strategy
   - https://inforegulator.org.za/popia/ | https://inforegulator.org.za/popia/
+related:
+  - What Should an Operations Leader Know Before Buying Automation? | /insights/what-should-an-operations-leader-know-before-buying-automation-ten-questions/
+  - Why Cheap Software Can Create Expensive Work | /insights/why-cheap-software-can-create-expensive-work-for-your-team/
+  - Before you buy another tool, ask these questions | /insights/before-you-buy-another-tool-ask-these-questions/
 summary: The right systems partner leaves your business more capable and less dependent. These questions test diagnosis, delivery, data handling, documentation and the exit before you sign.
 layout: plain
 ---

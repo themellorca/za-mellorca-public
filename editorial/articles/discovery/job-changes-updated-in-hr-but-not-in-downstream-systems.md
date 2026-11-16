@@ -13,9 +13,13 @@ problem_domain: HR & Workforce Operations
 problem_owner: HR operations or people operations manager
 budget_owner: HR director or COO
 sources:
-  - https://learn.microsoft.com/en-us/entra/identity/app-provisioning/plan-cloud-hr-provision | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/plan-cloud-hr-provision
-  - https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows | https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows
+  - Plan cloud HR application to Microsoft Entra user provisioning - Microsoft Entra ID | https://learn.microsoft.com/en-us/entra/identity/app-provisioning/plan-cloud-hr-provision
+  - What are lifecycle workflows? - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows
   - https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf | https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf
+related:
+  - Employee onboarding leaves HR chasing every other department | /discovery/employee-onboarding-leaves-hr-chasing-multiple-departments/
+  - Warehouse adjustments do not reach ecommerce systems quickly | /discovery/why-stock-corrections-in-the-warehouse-take-hours-to-reach-the-online-shop/
+  - New SKUs go on sale before every system has the product data | /discovery/launching-a-new-sku-before-every-system-knows-it-exists/
 summary: A promotion or transfer is recorded correctly in HR, yet approval chains, cost centres and directories keep the old details for weeks. Why mover changes stall and how to make one update reach every system.
 layout: plain
 ---

@@ -13,9 +13,13 @@ commercial_domain: AI Governance
 primary_pain: AI agents connected to business systems can send, change, approve or delete without permission limits matched to their task
 primary_cost_mechanism: Risk exposure from misdirected payments and data leakage, POPIA compliance exposure, rework to find and reverse unauthorised changes, and opportunity cost when incidents stall useful automation
 sources:
-  - https://genai.owasp.org/llmrisk/llm062025-excessive-agency/ | https://genai.owasp.org/llmrisk/llm062025-excessive-agency/
-  - https://csrc.nist.gov/glossary/term/least_privilege | https://csrc.nist.gov/glossary/term/least_privilege
-  - https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/ | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
+  - LLM06:2025 Excessive Agency | https://genai.owasp.org/llmrisk/llm062025-excessive-agency/
+  - least privilege - Glossary - CSRC | https://csrc.nist.gov/glossary/term/least_privilege
+  - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
+related:
+  - No Rules for AI Tools: The Cost of Uncontrolled Data Entry | /impact/no-rules-for-company-information-entered-into-ai-tools-compliance-cost/
+  - When Nobody Owns the Outcome: Automating Decisions with AI Too Early | /impact/automating-decisions-with-ai-before-defining-accountability-outcome-ownership-cost/
+  - Buying AI because competitors are: The cost of spending without a business case | /impact/buying-ai-without-defined-business-problem-cost/
 summary: An AI agent that can send, change, approve or delete on your behalf needs tighter limits than a person. Broad access turns one bad instruction into a financial and security loss.
 layout: plain
 ---

@@ -15,8 +15,12 @@ human_dividend: Financial breathing room: old debts are collected, settled or wr
 trade_off: Firm collection can strain relationships; legal steps take time and effort; some debts are better written off; automation can feel impersonal to long-standing customers.
 epistemic_state: HYPOTHESISED: reasoned from vendor collections documentation and the Department of Justice Small Claims Court guidance, not from measured debtor ageing in South African businesses; the plumbing example is illustrative.
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances
-  - https://www.justice.gov.za/scc/scc.htm | https://www.justice.gov.za/scc/scc.htm
+  - Collect outstanding balances - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/receivables-collect-outstanding-balances
+  - Justice/SCC/Home | https://www.justice.gov.za/scc/scc.htm
+related:
+  - The Owner Who Pays Themselves Last | /moments/the-owner-who-pays-themselves-last/
+  - The subscription bills nobody reviews | /moments/the-subscription-bills-nobody-reviews/
+  - When One Big Client Holds the Business Hostage | /moments/when-one-big-client-holds-the-business-hostage/
 summary: Some overdue accounts sit on the debtors' report month after month, quietly draining cash and morale. Why the list stalls, and how to work through it with a routine instead of dread.
 layout: plain
 ---

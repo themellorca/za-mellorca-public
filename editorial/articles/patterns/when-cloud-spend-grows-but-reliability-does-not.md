@@ -14,9 +14,13 @@ observable_condition: The monthly cloud and hosting bill rises year on year, yet
 primary_identification: Spend without reliability targets: money is added to capacity and services without defined service levels, failure design or change discipline, so cost and reliability are managed separately.
 commercial_value_dimensions: Resilience, cost, revenue protection, customer experience and management confidence
 sources:
-  - https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html | https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html
-  - https://sre.google/sre-book/service-level-objectives/ | https://sre.google/sre-book/service-level-objectives/
-  - https://www.finops.org/framework/ | https://www.finops.org/framework/
+  - Reliability Pillar - AWS Well-Architected Framework - Reliability Pillar | https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html
+  - Google SRE - Defining slo: service level objective meaning | https://sre.google/sre-book/service-level-objectives/
+  - FinOps Framework Overview | https://www.finops.org/framework/
+related:
+  - When your website is up but the business process behind it is down | /patterns/when-your-website-is-up-but-the-business-process-behind-it-is-down/
+  - Why backups do not equal business resilience | /patterns/why-backups-do-not-equal-business-resilience/
+  - Why does a small technical failure stop the whole business? | /patterns/why-does-a-small-technical-failure-stop-the-whole-business/
 summary: The monthly cloud bill keeps rising, yet outages and slowdowns are no rarer than before. Why spending and reliability drift apart, and how to reconnect them.
 layout: plain
 ---

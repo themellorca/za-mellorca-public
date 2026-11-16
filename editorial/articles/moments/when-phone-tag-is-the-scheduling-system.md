@@ -15,8 +15,12 @@ human_dividend: Time and attention: appointments are agreed in one step from vis
 trade_off: Some customers prefer to phone; booking pages need accurate calendars; self-booking can fill a day badly without buffers and travel time; tools may cost money.
 epistemic_state: HYPOTHESISED: reasoned from vendor documentation for appointment scheduling tools, not from measured scheduling time in South African small businesses; the pool-service example is illustrative.
 sources:
-  - https://support.google.com/calendar/answer/10729749 | https://support.google.com/calendar/answer/10729749
-  - https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview | https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview
+  - Create an appointment schedule - Google Calendar Help | https://support.google.com/calendar/answer/10729749
+  - Microsoft Bookings | https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview
+related:
+  - When Booking a Patient Appointment Takes Longer Than the Appointment | /moments/when-booking-a-patient-appointment-takes-longer-than-the-appointment/
+  - Why every new hire starts with a week of waiting | /moments/why-the-first-week-of-a-new-job-is-spent-waiting/
+  - Why Booking a Meeting Room Shouldn't Need Diplomacy | /moments/why-booking-a-meeting-room-should-not-need-diplomacy/
 summary: Missed calls, voice notes and messages that cross in the night can turn booking one appointment into a week of back-and-forth. Why phone tag persists, and how to replace it without losing the personal touch.
 layout: plain
 ---

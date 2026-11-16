@@ -15,9 +15,13 @@ human_dividend: Predictability: a new starter knows what the job involves, where
 trade_off: Writing role maps takes senior time; documents go stale; written steps can be followed without understanding; some learning only happens alongside experienced people.
 epistemic_state: HYPOTHESISED: reasoned from HSE role and support standards and the South African skills-development framework, not from measured graduate outcomes in South African small firms; the accounting-firm example is illustrative.
 sources:
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://www.hse.gov.uk/stress/standards/support.htm | https://www.hse.gov.uk/stress/standards/support.htm
-  - https://www.gov.za/documents/skills-development-act | https://www.gov.za/documents/skills-development-act
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Management Standards - Support - HSE | https://www.hse.gov.uk/stress/standards/support.htm
+  - Skills Development Act 97 of 1998 - South African Government | https://www.gov.za/documents/skills-development-act
+related:
+  - The apprentice who learns workarounds instead of craft | /moments/the-apprentice-who-learns-workarounds-instead-of-craft/
+  - When Upskilling Means Doing Two Jobs at Once | /moments/when-upskilling-means-doing-two-jobs-at-once/
+  - The Promotion Nobody Can Take Because the Role Can't Be Covered | /moments/the-promotion-nobody-can-take-because-the-role-cant-be-covered/
 summary: A new graduate arrives keen to learn, and the one person who could explain the job is away. Why first jobs in small firms so often start without a map, and how to draw one.
 layout: plain
 ---

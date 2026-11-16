@@ -13,9 +13,13 @@ commercial_domain: Customer Service
 primary_pain: Support staff read, classify and forward tickets to other departments by hand, using routing rules that exist only in experienced agents' heads
 primary_cost_mechanism: Labour cost of manual triage, delay before the right team starts work, repeat contact from lost context, misrouted tickets, and poor reporting on where issues originate
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/overview-unified-routing | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/overview-unified-routing
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-work-classification | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-work-classification
-  - https://support.zendesk.com/hc/en-us/articles/4408886797466-About-triggers-and-how-they-work | https://support.zendesk.com/hc/en-us/articles/4408886797466-About-triggers-and-how-they-work
+  - Overview of unified routing | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/overview-unified-routing
+  - Configure work classification rulesets | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-work-classification
+  - Creating ticket triggers for automatic ticket updates and notifications | https://support.zendesk.com/hc/en-us/articles/4408886797466-About-triggers-and-how-they-work
+related:
+  - "Just checking on my order": The labour cost of manual progress updates | /impact/manual-customer-progress-updates-status-message-labour-cost/
+  - Online Customers Who Cannot Find Basic Answers: The Cost of Weak Self-Service | /impact/online-customers-cannot-find-basic-answers-weak-self-service-support-cost/
+  - Phone calls recorded on notepads: The cost of incomplete customer records | /impact/phone-call-notes-not-recorded-in-shared-system-cost/
 summary: Billing questions, delivery problems and technical faults all land in one support queue, and agents spend their day forwarding them. The labour is real, and so is the delay customers feel.
 layout: plain
 ---

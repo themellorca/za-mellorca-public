@@ -13,8 +13,12 @@ commercial_domain: Operations
 primary_pain: Tasks are handed out in conversations, calls and meetings without any record of owner, outcome or due date, so they slip or disappear
 primary_cost_mechanism: Revenue loss from broken customer promises, penalties from missed deadlines, management time spent re-asking, duplicated work, and friction over who agreed to what
 sources:
-  - https://support.microsoft.com/en-us/office/add-a-task-list-to-meeting-notes-94383070-5f2f-4954-8607-7b7ebff5d43e | https://support.microsoft.com/en-us/office/add-a-task-list-to-meeting-notes-94383070-5f2f-4954-8607-7b7ebff5d43e
-  - https://knowledge.hubspot.com/tasks/create-tasks | https://knowledge.hubspot.com/tasks/create-tasks
+  - Manage your tasks from Loop Task lists and Collaborative notes in Planner - Microsoft Support | https://support.microsoft.com/en-us/office/add-a-task-list-to-meeting-notes-94383070-5f2f-4954-8607-7b7ebff5d43e
+  - Create tasks | https://knowledge.hubspot.com/tasks/create-tasks
+related:
+  - Bottlenecks You Cannot See: The Price of Problems Management Misses | /impact/not-knowing-where-operational-bottlenecks-form-hidden-delay-financial-cost/
+  - Growth on Unconnected Systems: Why Integration Problems Get Pricier With Scale | /impact/business-growth-on-systems-not-designed-to-work-together-integration-scaling-cost/
+  - Growth That Adds Admin Faster Than Output: The Margin Cost of Complexity | /impact/business-growth-administration-outpacing-productive-capacity-margin-cost/
 summary: A quick word in the corridor or on a call feels like delegation, but nothing records who agreed to do what by when. Work slips, customers wait, and managers spend their week re-asking.
 layout: plain
 ---

@@ -14,8 +14,12 @@ observable_condition: Each department reports that its part of a job is complete
 primary_identification: Unowned boundaries: the business manages departments, not flows, so the handoff points between teams have no owner, no queue and no measure.
 commercial_value_dimensions: Cycle time, customer experience, cash flow, capacity and management attention
 sources:
-  - https://www.lean.org/lexicon-terms/value-stream-mapping/ | https://www.lean.org/lexicon-terms/value-stream-mapping/
-  - https://learn.microsoft.com/en-us/power-automate/process-mining-overview | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
+  - Value Stream Mapping Overview - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/value-stream-mapping/
+  - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
+related:
+  - When work sits waiting more than it moves | /patterns/when-work-sits-waiting-more-than-it-moves/
+  - When waiting for approval costs more than the approval protects | /patterns/when-waiting-for-approval-costs-more-than-the-approval-protects/
+  - Why Handoffs Create More Delay Than the Work Itself | /patterns/why-waiting-between-people-takes-longer-than-the-work/
 summary: Each team says its part is done, yet the customer is still waiting. Why work stalls in the space between departments, and how to make that space visible.
 layout: plain
 ---

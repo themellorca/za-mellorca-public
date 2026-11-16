@@ -11,8 +11,12 @@ updated_date: 2026-11-16
 eyebrow: Workflow Design
 sources:
   - https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday | https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday
-  - https://basecamp.com/shapeup/3.4-chapter-13 | https://basecamp.com/shapeup/3.4-chapter-13
-  - https://kanbanguides.org/english/ | https://kanbanguides.org/english/
+  - Show Progress - Shape Up | https://basecamp.com/shapeup/3.4-chapter-13
+  - The Kanban Guide - May 2025 (latest) - Kanban Guides | https://kanbanguides.org/english/
+related:
+  - Why Workflow Redesign Is Often More Valuable Than New Software | /insights/why-workflow-redesign-is-often-more-valuable-than-new-software/
+  - Why Every Workflow Needs a Clear Start and End | /insights/why-every-workflow-needs-a-clear-start-and-end/
+  - How to Route Work to the Right Person Automatically | /insights/how-to-route-work-to-the-right-person-automatically/
 summary: Many recurring meetings exist only to find out where work stands. If the systems people already use can show that, the meeting can shrink to the decisions that need people in a room.
 layout: plain
 ---

@@ -13,9 +13,13 @@ commercial_domain: Digital Marketing Operations
 primary_pain: Website content can only be changed by one technical person, so prices, services, contacts and campaign pages stay out of date
 primary_cost_mechanism: Revenue loss from enquiries lost to stale information, wasted campaign spend on late pages, staff time correcting website errors, consumer disputes, and continuity risk from single-person access
 sources:
-  - https://wordpress.org/documentation/article/roles-and-capabilities/ | https://wordpress.org/documentation/article/roles-and-capabilities/
-  - https://developers.google.com/search/docs/fundamentals/creating-helpful-content | https://developers.google.com/search/docs/fundamentals/creating-helpful-content
-  - https://www.gov.za/documents/consumer-protection-act | https://www.gov.za/documents/consumer-protection-act
+  - Roles and Capabilities | https://wordpress.org/documentation/article/roles-and-capabilities/
+  - Creating Helpful, Reliable, People-First Content - Google Search Central - Documentation - Google for Developers | https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+  - Consumer Protection Act 68 of 2008 - South African Government | https://www.gov.za/documents/consumer-protection-act
+related:
+  - Slow Website, Lost Visitors: The Revenue Cost of Poor Page Speed | /impact/slow-website-visitors-leave-before-enquiring-page-speed-revenue-cost/
+  - Forms that email instead of update: The cost of slow replies and lost enquiries | /impact/website-forms-emailing-instead-of-updating-systems-response-cost/
+  - When every decision waits for one person: The cost of a decision bottleneck | /impact/work-stalls-when-decision-maker-unavailable-cost/
 summary: Prices, services, staff and specials change, but the website waits in one developer's queue. Visitors meet stale information, enquiries drop, and marketing loses the moment it was planned for.
 layout: plain
 ---

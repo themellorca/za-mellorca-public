@@ -14,8 +14,12 @@ observable_condition: Managers at head office cannot tell which jobs are in prog
 primary_identification: Delayed field capture: information about field work is recorded after the fact, on paper, in calls or in chat groups, so head office manages from a picture that is always behind reality.
 commercial_value_dimensions: Scheduling efficiency, billing speed and cash flow, customer experience, safety and management control
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/field-service/overview | https://learn.microsoft.com/en-us/dynamics365/field-service/overview
-  - https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/ | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
+  - Overview of Dynamics 365 Field Service - Dynamics 365 Field Service | https://learn.microsoft.com/en-us/dynamics365/field-service/overview
+  - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
+related:
+  - Why can nobody find the document they know exists? | /patterns/why-can-nobody-find-the-document-they-know-exists/
+  - Why Finance Teams Keep Downloading and Reformatting Data | /patterns/why-finance-teams-keep-downloading-and-reformatting-data/
+  - Why Better Internal Visibility Improves External Service | /patterns/why-better-internal-visibility-improves-external-service/
 summary: Teams on sites and on the road know what is happening, but head office learns hours or days later. Why field visibility breaks down and how to restore it.
 layout: plain
 ---

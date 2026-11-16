@@ -15,9 +15,13 @@ human_dividend: Time: fewer trips to the printer and scanner, approvals that hap
 trade_off: Some documents legally or practically still need paper or wet ink; electronic signing has costs and set-up; some staff and customers prefer paper; security of electronic approvals needs care.
 epistemic_state: HYPOTHESISED: reasoned from SARS record-keeping guidance, the ECT Act framework and vendor print documentation, not from measured print volumes in South African offices; the freight example is illustrative and not legal advice.
 sources:
-  - https://www.sars.gov.za/client-segments/record-keeping/ | https://www.sars.gov.za/client-segments/record-keeping/
-  - https://www.gov.za/documents/electronic-communications-and-transactions-act | https://www.gov.za/documents/electronic-communications-and-transactions-act
-  - https://learn.microsoft.com/en-us/universal-print/fundamentals/universal-print-whatis | https://learn.microsoft.com/en-us/universal-print/fundamentals/universal-print-whatis
+  - Record keeping - South African Revenue Service | https://www.sars.gov.za/client-segments/record-keeping/
+  - Electronic Communications and Transactions Act 25 of 2002 - South African Government | https://www.gov.za/documents/electronic-communications-and-transactions-act
+  - Discover Universal Print | https://learn.microsoft.com/en-us/universal-print/fundamentals/universal-print-whatis
+related:
+  - The Relief When Data Entry Simply Disappears | /moments/the-relief-when-data-entry-simply-disappears/
+  - The relief of a password you don't have to reset | /moments/the-relief-of-a-password-you-dont-have-to-reset/
+  - The Joy of a Process That Finishes Itself | /moments/the-joy-of-a-process-that-finishes-itself/
 summary: In some offices, nothing moves until something is printed, signed and scanned back. Why paper steps survive, what they cost, and how to retire them without breaking anything important.
 layout: plain
 ---

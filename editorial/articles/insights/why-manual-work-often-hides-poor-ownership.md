@@ -10,9 +10,13 @@ published_date: 2026-11-16
 updated_date: 2026-11-16
 eyebrow: Process Design
 sources:
-  - https://sre.google/sre-book/eliminating-toil/ | https://sre.google/sre-book/eliminating-toil/
-  - https://www.gov.uk/service-manual/the-team/what-each-role-does-in-service-team | https://www.gov.uk/service-manual/the-team/what-each-role-does-in-service-team
-  - https://www.atlassian.com/team-playbook/plays/daci | https://www.atlassian.com/team-playbook/plays/daci
+  - Google SRE - What is Toil in SRE: Understanding Its Impact | https://sre.google/sre-book/eliminating-toil/
+  - What each role does in a service team | https://www.gov.uk/service-manual/the-team/what-each-role-does-in-service-team
+  - DACI: A Decision-Making Framework - Atlassian Team Playbook | https://www.atlassian.com/team-playbook/plays/daci
+related:
+  - How to Design Ownership Into a Process | /insights/how-to-design-ownership-into-a-process/
+  - Why Processes Break Between Departments | /insights/why-processes-break-between-departments-and-how-to-close-the-gaps/
+  - How to Handle Work That Does Not Fit the Standard Process | /insights/how-to-handle-work-that-does-not-fit-the-standard-process-without-breaking-it/
 summary: Persistent manual work is often a symptom of nobody having the authority to fix the process behind it. Clarifying who owns the outcome is frequently the first step to removing the effort.
 layout: plain
 ---

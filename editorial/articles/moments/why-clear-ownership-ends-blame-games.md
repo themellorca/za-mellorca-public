@@ -15,9 +15,13 @@ human_dividend: Predictability: everyone knows who owns each decision and step, 
 trade_off: Naming owners can concentrate pressure on individuals; ownership without authority or time is unfair; rigid ownership can discourage helping; maintaining the list takes effort.
 epistemic_state: HYPOTHESISED: reasoned from HSE human-factors and role guidance and vendor approval documentation, not from measured blame behaviour in South African firms; the manufacturing example is illustrative.
 sources:
-  - https://www.hse.gov.uk/humanfactors/topics/humanfail.htm | https://www.hse.gov.uk/humanfactors/topics/humanfail.htm
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://learn.microsoft.com/en-us/power-automate/get-started-approvals | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+  - Managing human failures: Overview - HSE | https://www.hse.gov.uk/humanfactors/topics/humanfail.htm
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Get started with Power Automate approvals - Power Automate | https://learn.microsoft.com/en-us/power-automate/get-started-approvals
+related:
+  - The Employee Who Can't See Their Own Leave Balance | /moments/the-employee-who-cant-see-their-own-leave-balance/
+  - When commission disputes come from bad data | /moments/when-commission-disputes-come-from-bad-data/
+  - Why Audit Trails Protect People, Not Just Companies | /moments/why-audit-trails-protect-people-not-just-companies/
 summary: When an approval stalls or a mistake slips through, the first question is often who is to blame. Why unclear ownership breeds blame, and how naming owners restores calm and dignity.
 layout: plain
 ---

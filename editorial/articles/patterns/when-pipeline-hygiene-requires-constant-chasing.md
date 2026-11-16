@@ -14,8 +14,12 @@ observable_condition: Managers or a sales administrator send weekly reminders to
 primary_identification: Hygiene as a separate task: pipeline updates are designed as admin done for management, disconnected from the rep's own selling work, so they decay as soon as attention moves elsewhere.
 commercial_value_dimensions: Selling capacity, forecast reliability, management time and revenue predictability
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
-  - https://www.salesforce.com/uk/news/stories/state-of-sales-report-announcement-2026/ | https://www.salesforce.com/uk/news/stories/state-of-sales-report-announcement-2026/
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - In New Survey, UK Sales Teams Name AI and Agents #3 Growth Tactic for 2026 | https://www.salesforce.com/uk/news/stories/state-of-sales-report-announcement-2026/
+related:
+  - Why Lead Qualification Becomes Inconsistent Across Reps | /patterns/why-lead-qualification-becomes-inconsistent-across-reps/
+  - Why Sales Managers Cannot See Where Deals Are Actually Stuck | /patterns/why-sales-managers-cannot-see-where-deals-are-actually-stuck/
+  - When lead routing depends on someone checking an inbox | /patterns/when-lead-routing-depends-on-someone-checking-an-inbox/
 summary: Every week someone reminds reps to update close dates, values and stages. Why pipeline data only stays clean while it is being chased, and how to make it hold.
 layout: plain
 ---

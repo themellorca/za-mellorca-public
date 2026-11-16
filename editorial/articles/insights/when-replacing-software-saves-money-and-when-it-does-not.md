@@ -10,9 +10,13 @@ published_date: 2026-11-16
 updated_date: 2026-11-16
 eyebrow: Software Portfolio
 sources:
-  - https://www.gov.uk/guidance/managing-legacy-technology | https://www.gov.uk/guidance/managing-legacy-technology
-  - https://www.gov.uk/guidance/define-your-purchasing-strategy | https://www.gov.uk/guidance/define-your-purchasing-strategy
-  - https://www.nber.org/papers/w25148 | https://www.nber.org/papers/w25148
+  - Managing legacy technology | https://www.gov.uk/guidance/managing-legacy-technology
+  - Define your purchasing strategy | https://www.gov.uk/guidance/define-your-purchasing-strategy
+  - The Productivity J-Curve: How Intangibles Complement General Purpose Technologies | https://www.nber.org/papers/w25148
+related:
+  - How to Calculate the Cost of Piling On More Software | /insights/how-to-calculate-the-cost-of-piling-on-more-software/
+  - When to Reconfigure a CRM and When to Replace It | /insights/when-to-reconfigure-a-crm-and-when-to-replace-it-a-decision-guide/
+  - What should you monitor in an automated business process? | /insights/what-should-you-monitor-in-an-automated-business-process/
 summary: A cheaper licence does not guarantee a cheaper operation. Counting migration, retraining, lost productivity and process change shows when a replacement genuinely pays for itself.
 layout: plain
 ---

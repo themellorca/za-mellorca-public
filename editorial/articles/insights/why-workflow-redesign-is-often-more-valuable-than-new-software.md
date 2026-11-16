@@ -10,9 +10,13 @@ published_date: 2026-11-16
 updated_date: 2026-11-16
 eyebrow: Workflow Design
 sources:
-  - https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate | https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate
-  - https://www.nber.org/papers/w25148 | https://www.nber.org/papers/w25148
-  - https://www.gov.uk/guidance/define-your-purchasing-strategy | https://www.gov.uk/guidance/define-your-purchasing-strategy
+  - Reengineering Work: Don’t Automate, Obliterate | https://hbr.org/1990/07/reengineering-work-dont-automate-obliterate
+  - The Productivity J-Curve: How Intangibles Complement General Purpose Technologies | https://www.nber.org/papers/w25148
+  - Define your purchasing strategy | https://www.gov.uk/guidance/define-your-purchasing-strategy
+related:
+  - How to Reduce Status Meetings With Better Systems | /insights/how-to-reduce-status-meetings-with-better-systems/
+  - How to Design a Workflow Around Outcomes Instead of Departments | /insights/how-to-design-a-workflow-around-outcomes-instead-of-departments/
+  - How to Route Work to the Right Person Automatically | /insights/how-to-route-work-to-the-right-person-automatically/
 summary: New software applied to an unchanged workflow tends to speed up the same delays and errors. Redesigning how work flows usually delivers more, and makes later software choices better.
 layout: plain
 ---

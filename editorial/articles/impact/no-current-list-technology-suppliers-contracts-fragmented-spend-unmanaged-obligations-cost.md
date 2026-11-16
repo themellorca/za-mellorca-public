@@ -13,9 +13,13 @@ commercial_domain: Technology Operations
 primary_pain: The business has no single, current list of technology suppliers, contracts, owners, costs, renewal dates and obligations
 primary_cost_mechanism: Technology waste from duplicated and unused services, missed notice periods and unwanted renewals, unmanaged POPIA operator obligations, supplier dependency risk, and weak negotiating position
 sources:
-  - https://www.ncsc.gov.uk/collection/supply-chain-security | https://www.ncsc.gov.uk/collection/supply-chain-security
-  - https://www.ncsc.gov.uk/collection/supply-chain-security/principles-supply-chain-security | https://www.ncsc.gov.uk/collection/supply-chain-security/principles-supply-chain-security
-  - https://popia.co.za/section-21-security-measures-regarding-information-processed-by-operator/ | https://popia.co.za/section-21-security-measures-regarding-information-processed-by-operator/
+  - Supply chain security guidance | https://www.ncsc.gov.uk/collection/supply-chain-security
+  - The principles of supply chain security | https://www.ncsc.gov.uk/collection/supply-chain-security/principles-supply-chain-security
+  - Section 21 Security measures regarding information processed by operator - POPIA | https://popia.co.za/section-21-security-measures-regarding-information-processed-by-operator/
+related:
+  - Connected but Undocumented: The Cost of Integrations Only One Person Understands | /impact/system-connections-undocumented-maintenance-outages-individual-dependency-cost/
+  - Local Administrator Rights Nobody Reviewed: The Cost of Unmanaged Devices | /impact/local-administrator-rights-unneeded-unmanaged-device-changes-support-security-cost/
+  - When Only Your IT Supplier Knows How Things Work: The Cost of Lock-In | /impact/technology-knowledge-held-only-by-outside-provider-supplier-lock-in-cost/
 summary: Software, connectivity, hosting, support and devices are bought by different people on different terms. Without one list of suppliers and contracts, the business overpays, misses notice periods and cannot see its risk.
 layout: plain
 ---

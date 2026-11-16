@@ -13,8 +13,12 @@ commercial_domain: Sales and Revenue
 primary_pain: Sales forecasts rely on intuition and last year's results because deal values, stages and expected close dates are not recorded
 primary_cost_mechanism: Cash-flow and scaling cost from excess or short stock, idle or overtime capacity, unreliable cash and funding plans, late reaction to demand changes, and targets nobody trusts
 sources:
-  - https://knowledge.hubspot.com/forecast/set-up-the-forecast-tool | https://knowledge.hubspot.com/forecast/set-up-the-forecast-tool
-  - https://learn.microsoft.com/en-us/dynamics365/sales/configure-forecast | https://learn.microsoft.com/en-us/dynamics365/sales/configure-forecast
+  - Set up the forecast tool | https://knowledge.hubspot.com/forecast/set-up-the-forecast-tool
+  - Configure forecasts in your organization | https://learn.microsoft.com/en-us/dynamics365/sales/configure-forecast
+related:
+  - No Reliable View of Future Sales: The Cash-Flow Cost of Guessing | /impact/no-reliable-view-of-future-sales-poor-pipeline-visibility-cash-flow-planning-cost/
+  - Forecasts Built on Hope: What Unreliable Sales Numbers Cost the Business | /impact/sales-forecasts-based-on-optimism-not-deal-evidence-unreliable-forecasting-cost/
+  - One Metric, Three Definitions: The Cost of Systems That Count Differently | /impact/systems-different-definitions-same-business-metric-conflicting-reports-cost/
 summary: Without recorded deal values, stages and expected close dates, next quarter's sales estimate is last year plus a feeling. Stock, staffing and cash plans built on that guess cost money whichever way it misses.
 layout: plain
 ---

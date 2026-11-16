@@ -13,8 +13,12 @@ problem_domain: Project, Delivery & Change Operations
 problem_owner: PMO or delivery lead
 budget_owner: COO or CIO
 sources:
-  - https://www.gov.uk/government/publications/architectural-decision-record-framework/architectural-decision-record-framework | https://www.gov.uk/government/publications/architectural-decision-record-framework/architectural-decision-record-framework
-  - https://www.atlassian.com/software/confluence/templates/decision | https://www.atlassian.com/software/confluence/templates/decision
+  - Architectural Decision Record Framework | https://www.gov.uk/government/publications/architectural-decision-record-framework/architectural-decision-record-framework
+  - DACI: Decision documentation template - Confluence | https://www.atlassian.com/software/confluence/templates/decision
+related:
+  - Customers have to repeat their problem after every handoff | /discovery/customers-repeat-the-same-problem-after-every-handoff/
+  - AI usage costs are not allocated to business outcomes | /discovery/ai-usage-costs-not-allocated-to-business-outcomes/
+  - Crisis decisions that nobody writes down, and why it costs you later | /discovery/crisis-decisions-that-nobody-writes-down/
 summary: Project teams settle questions in meetings, threads and chats, then argue about them again weeks later. How a single decision log with context, outcome and owner stops repeat debates and delays.
 layout: plain
 ---

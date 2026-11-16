@@ -13,8 +13,12 @@ problem_domain: Inventory & Order Operations
 problem_owner: Operations or supply chain manager
 budget_owner: COO or financial director
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-to-calculate-order-promising-dates | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-to-calculate-order-promising-dates
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-to-reserve-items | https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-to-reserve-items
+  - Calculate order promising dates - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/sales-how-to-calculate-order-promising-dates
+  - How to reserve items - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/inventory-how-to-reserve-items
+related:
+  - Why pickers are sent to fetch orders that have already changed | /discovery/why-pickers-are-sent-to-fetch-orders-that-have-already-changed/
+  - Drop-ship stock is counted as if it sits in your own warehouse | /discovery/how-to-keep-drop-ship-stock-out-of-your-own-inventory-counts/
+  - How bundles and kits distort component stock counts | /discovery/how-bundles-and-kits-distort-component-stock-counts/
 summary: When short-shipped orders move to a shared list, incoming stock is allocated by memory and promise dates drift. How to put backorder allocation and customer promises back into the order system.
 layout: plain
 ---

@@ -13,8 +13,12 @@ problem_domain: Contracts & Obligation Management
 problem_owner: Financial controller or accounts payable manager, with the procurement lead who negotiated the agreement
 budget_owner: CFO or financial director
 sources:
-  - https://learn.microsoft.com/en-us/training/modules/configure-accounts-payable-dyn365-finance/2-payment-schedule | https://learn.microsoft.com/en-us/training/modules/configure-accounts-payable-dyn365-finance/2-payment-schedule
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/finance-invoice-prepayments | https://learn.microsoft.com/en-us/dynamics365/business-central/finance-invoice-prepayments
+  - Configure the payment schedule - Training | https://learn.microsoft.com/en-us/training/modules/configure-accounts-payable-dyn365-finance/2-payment-schedule
+  - Invoice prepayments - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/finance-invoice-prepayments
+related:
+  - Why contract renewals surprise finance and operations | /discovery/why-contract-renewals-surprise-finance-and-operations/
+  - Signed agreements are scattered across inboxes and shared drives | /discovery/why-signed-agreements-end-up-scattered-and-how-to-gather-them/
+  - Contract amendments filed apart from the agreement they change | /discovery/contract-amendments-filed-apart-from-the-agreement-they-change/
 summary: Deposits, milestone payments, instalments, retentions and escalation dates are negotiated into supplier contracts, then paid from whatever the invoice says. How to carry payment obligations from the agreement into accounts payable.
 layout: plain
 ---

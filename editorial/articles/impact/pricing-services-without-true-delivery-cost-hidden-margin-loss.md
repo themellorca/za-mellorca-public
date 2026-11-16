@@ -13,8 +13,12 @@ commercial_domain: Finance
 primary_pain: Service fees are set from habit or market rates without measuring the hours, non-billable effort, rework and full employment cost each job consumes
 primary_cost_mechanism: Margin erosion from underpriced fixed fees and loss-making clients, absorbed scope creep and rework, capacity tied up in low-margin work, and overtime-driven staff turnover
 sources:
-  - https://hbr.org/2004/11/time-driven-activity-based-costing | https://hbr.org/2004/11/time-driven-activity-based-costing
-  - https://www.sars.gov.za/types-of-tax/pay-as-you-earn/ | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
+  - Time-Driven Activity-Based Costing | https://hbr.org/2004/11/time-driven-activity-based-costing
+  - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
+related:
+  - Selling Price Set on Yesterday's Cost: The Margin Lost to Weak Product Cost Data | /impact/pricing-decisions-without-accurate-product-cost-data-landed-cost-margin-loss/
+  - Reconciling Bank Accounts by Hand: The Labour Cost of Matchable Lines | /impact/bank-accounts-reconciled-by-hand-matchable-transactions-finance-labour-cost/
+  - Who Approved That Payment? The Cost of Supplier Payments With No Trail | /impact/supplier-payments-without-clear-approval-trail-fraud-audit-cost/
 summary: Service firms often set fees from competitor rates or habit, not from the hours, travel, rework and admin each job really consumes. Revenue looks healthy while some work quietly loses money.
 layout: plain
 ---

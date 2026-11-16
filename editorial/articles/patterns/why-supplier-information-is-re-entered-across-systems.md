@@ -14,8 +14,12 @@ observable_condition: Each new supplier is captured separately in the accounting
 primary_identification: No supplier master: there is no single authoritative supplier record or owner, so each system holds its own copy and changes are applied inconsistently.
 commercial_value_dimensions: Fraud and payment risk, VAT compliance, administrative cost, supplier relationships and reporting accuracy
 sources:
-  - https://www.sars.gov.za/businesses-and-employers/tax-invoices/ | https://www.sars.gov.za/businesses-and-employers/tax-invoices/
-  - https://learn.microsoft.com/en-us/dynamics365/supply-chain/procurement/vendor-collaboration-work-external-vendors | https://learn.microsoft.com/en-us/dynamics365/supply-chain/procurement/vendor-collaboration-work-external-vendors
+  - Tax Invoices - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/tax-invoices/
+  - Vendor collaboration with external vendors - Supply Chain Management - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/supply-chain/procurement/vendor-collaboration-work-external-vendors
+related:
+  - When Procurement Starts With an Email Request | /patterns/how-purchase-requests-get-lost-in-an-inbox/
+  - Why does buying something internally take so long? | /patterns/why-does-buying-something-internally-take-so-long/
+  - When one missing item stops a larger process | /patterns/when-one-missing-item-stops-a-larger-process/
 summary: The same supplier name, VAT number and bank details are typed into the accounting system, the buying spreadsheet and the stock system. Why that happens and what it costs.
 layout: plain
 ---

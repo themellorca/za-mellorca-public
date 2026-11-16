@@ -10,9 +10,13 @@ published_date: 2026-11-16
 updated_date: 2026-11-16
 eyebrow: Customer Operations
 sources:
-  - https://kanbanguides.org/english/ | https://kanbanguides.org/english/
-  - https://basecamp.com/shapeup/3.4-chapter-13 | https://basecamp.com/shapeup/3.4-chapter-13
-  - https://www.gov.uk/service-manual/measuring-success/measuring-completion-rate | https://www.gov.uk/service-manual/measuring-success/measuring-completion-rate
+  - The Kanban Guide - May 2025 (latest) - Kanban Guides | https://kanbanguides.org/english/
+  - Show Progress - Shape Up | https://basecamp.com/shapeup/3.4-chapter-13
+  - Measuring completion rate | https://www.gov.uk/service-manual/measuring-success/measuring-completion-rate
+related:
+  - How to Reduce Manual Customer Follow-Up | /insights/how-to-reduce-manual-customer-follow-up-rules-sequences-and-stop-conditions/
+  - How to Automate Customer Onboarding Without Making It Impersonal | /insights/how-to-automate-client-onboarding-and-keep-the-human-touch/
+  - How to Design Better New-Customer Intake | /insights/how-to-design-a-new-customer-intake-that-collects-once-and-starts-right/
 summary: When nobody can see where a new client stands, managers ask around. Defined stages, visible blockers and agreed time expectations let the onboarding record answer instead.
 layout: plain
 ---

@@ -13,8 +13,12 @@ problem_domain: Contracts & Obligation Management
 problem_owner: In-house legal adviser or legal operations lead responsible for the contract repository
 budget_owner: General counsel, CFO or managing director
 sources:
-  - https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/prebuilt/contract | https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/prebuilt/contract
-  - https://learn.microsoft.com/en-us/microsoft-365/syntex/prebuilt-model-contract | https://learn.microsoft.com/en-us/microsoft-365/syntex/prebuilt-model-contract
+  - Contract data extraction – Document Intelligence - Foundry Tools | https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/prebuilt/contract
+  - Use a prebuilt model to extract information from contracts | https://learn.microsoft.com/en-us/microsoft-365/syntex/prebuilt-model-contract
+related:
+  - Signed agreements are scattered across inboxes and shared drives | /discovery/why-signed-agreements-end-up-scattered-and-how-to-gather-them/
+  - Contract amendments filed apart from the agreement they change | /discovery/contract-amendments-filed-apart-from-the-agreement-they-change/
+  - Nobody owns the obligations that start after a contract is signed | /discovery/nobody-owns-the-obligations-that-start-after-a-contract-is-signed/
 summary: Which agreements let the supplier assign the contract? Which customers can terminate for convenience? When questions like these mean opening hundreds of PDFs, the fix is structured clause data, not faster reading.
 layout: plain
 ---

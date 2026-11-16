@@ -10,9 +10,13 @@ published_date: 2026-11-16
 updated_date: 2026-11-16
 eyebrow: Process Documentation
 sources:
-  - https://google.github.io/styleguide/docguide/best_practices.html | https://google.github.io/styleguide/docguide/best_practices.html
-  - https://www.writethedocs.org/guide/docs-as-code/ | https://www.writethedocs.org/guide/docs-as-code/
-  - https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_use_runbooks.html | https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_use_runbooks.html
+  - Documentation Best Practices | https://google.github.io/styleguide/docguide/best_practices.html
+  - Docs as code | https://www.writethedocs.org/guide/docs-as-code/
+  - OPS07-BP03 Use runbooks to perform procedures - Operational Excellence Pillar | https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_use_runbooks.html
+related:
+  - How to Document Exceptions, Not Just the Happy Path | /insights/how-to-document-exceptions-not-just-the-happy-path/
+  - When a Checklist Is Better Than an SOP | /insights/when-a-checklist-is-better-than-an-sop-for-routine-business-tasks/
+  - What a System Runbook Should Contain | /insights/what-a-system-runbook-should-contain/
 summary: Procedures rarely fail on the day they are written. They decay as systems, people and shortcuts change around them. Understanding the causes is the first step to documentation that stays true.
 layout: plain
 ---

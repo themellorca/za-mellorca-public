@@ -13,9 +13,13 @@ problem_domain: Cloud, Infrastructure & Platform Operations
 problem_owner: Infrastructure or cloud platform lead
 budget_owner: CIO, CTO or CFO
 sources:
-  - https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html | https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html
-  - https://developer.hashicorp.com/terraform/tutorials/state/resource-drift | https://developer.hashicorp.com/terraform/tutorials/state/resource-drift
-  - https://csrc.nist.gov/glossary/term/baseline_configuration | https://csrc.nist.gov/glossary/term/baseline_configuration
+  - Detect unmanaged configuration changes to stacks and resources with drift detection - AWS CloudFormation | https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-stack-drift.html
+  - Manage resource drift - Terraform - HashiCorp Developer | https://developer.hashicorp.com/terraform/tutorials/state/resource-drift
+  - baseline configuration - Glossary - CSRC | https://csrc.nist.gov/glossary/term/baseline_configuration
+related:
+  - Why platform teams still build every environment request by hand | /discovery/platform-teams-build-environment-requests-by-hand/
+  - Why development environments keep running after projects stop | /discovery/development-environments-keep-running-after-projects-stop/
+  - Why critical services end up depending on one cloud region by accident | /discovery/critical-services-depend-on-one-cloud-region-by-accident/
 summary: Changes tested in staging behave differently in production because the two environments no longer share the same configuration. Why environments drift apart and how to prove they match when a compliance review asks.
 layout: plain
 ---

@@ -13,8 +13,12 @@ problem_domain: Sales Operations & CRM
 problem_owner: Sales or revenue operations lead
 budget_owner: Sales director or CRO
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/wa-create-and-activate-assignment-rule | https://learn.microsoft.com/en-us/dynamics365/sales/wa-create-and-activate-assignment-rule
-  - https://knowledge.hubspot.com/workflows/assign-and-rotate-record-owners-using-workflows | https://knowledge.hubspot.com/workflows/assign-and-rotate-record-owners-using-workflows
+  - Create and activate assignment rules | https://learn.microsoft.com/en-us/dynamics365/sales/wa-create-and-activate-assignment-rule
+  - Assign and rotate record owners using workflows | https://knowledge.hubspot.com/workflows/assign-and-rotate-record-owners-using-workflows
+related:
+  - Account hierarchies do not reflect real customer relationships | /discovery/why-crm-account-hierarchies-miss-how-customers-are-really-connected/
+  - CRM required fields create admin without improving decisions | /discovery/why-crm-required-fields-add-admin-without-better-sales-decisions/
+  - Marketing leads arrive without useful qualification context | /discovery/why-marketing-leads-reach-sales-without-the-context-needed-to-qualify-them/
 summary: A lead from a partner, a web form and a regional rep all point to different owners. Why lead ownership blurs when territories and channels overlap, and how to write rules that settle it before a new sales model goes live.
 layout: plain
 ---

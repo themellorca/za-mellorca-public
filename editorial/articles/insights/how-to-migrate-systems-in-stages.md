@@ -10,9 +10,13 @@ published_date: 2026-11-16
 updated_date: 2026-11-16
 eyebrow: Systems Implementation
 sources:
-  - https://martinfowler.com/bliki/StranglerFigApplication.html | https://martinfowler.com/bliki/StranglerFigApplication.html
-  - https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig | https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig
-  - https://martinfowler.com/articles/feature-toggles.html | https://martinfowler.com/articles/feature-toggles.html
+  - Strangler Fig | https://martinfowler.com/bliki/StranglerFigApplication.html
+  - Strangler Fig Pattern - Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig
+  - Feature Toggles (aka Feature Flags) | https://martinfowler.com/articles/feature-toggles.html
+related:
+  - What Belongs in an Implementation Plan | /insights/the-parts-of-a-sound-systems-implementation-plan/
+  - How to Prevent Requirements From Growing Without Control | /insights/how-to-prevent-requirements-from-growing-without-control/
+  - How to scope a systems implementation properly | /insights/how-to-scope-a-systems-implementation-properly-before-you-sign/
 summary: Moving from an old system to a new one in planned slices keeps the business trading, surfaces problems early and lets you stop if something goes wrong. Here is how to plan the stages.
 layout: plain
 ---

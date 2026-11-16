@@ -13,8 +13,12 @@ commercial_domain: Finance
 primary_pain: Prices and discounts are set from supplier purchase price or outdated item cost rather than full, current landed cost
 primary_cost_mechanism: Margin erosion from mark-ups on the wrong cost base, discounts given without margin visibility, late price increases, misdirected range and stocking decisions, and misstated inventory and profit
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/payables-how-assign-item-charges | https://learn.microsoft.com/en-us/dynamics365/business-central/payables-how-assign-item-charges
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/finance-about-calculating-unit-cost | https://learn.microsoft.com/en-us/dynamics365/business-central/finance-about-calculating-unit-cost
+  - Use item charges to account for extra trade costs - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/payables-how-assign-item-charges
+  - About unit cost calculation - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/finance-about-calculating-unit-cost
+related:
+  - Busy Teams, Thin Margins: Pricing Services Without Knowing What They Cost to Deliver | /impact/pricing-services-without-true-delivery-cost-hidden-margin-loss/
+  - Who Approved That Payment? The Cost of Supplier Payments With No Trail | /impact/supplier-payments-without-clear-approval-trail-fraud-audit-cost/
+  - Cash Trouble You See Too Late: What Delayed Warning Costs | /impact/not-seeing-cash-flow-problems-until-urgent-cost-of-delayed-financial-warning/
 summary: When selling prices are based on the supplier's last invoice price, not the full landed cost after freight, duties, exchange rates and handling, discounts and quotes quietly give margin away.
 layout: plain
 ---

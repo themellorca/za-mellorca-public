@@ -15,9 +15,13 @@ human_dividend: Optionality and predictability: the owner can choose when and ho
 trade_off: Documenting and sharing access takes time and raises security questions; family dynamics complicate who is told what; professional advice costs money; systems cannot replace relationships and judgement.
 epistemic_state: HYPOTHESISED: reasoned from SARS record-keeping rules, the Master's deceased-estate guidance and the Companies Act framework, not from measured succession outcomes in South African small businesses; the hardware-store example is illustrative and not legal advice.
 sources:
-  - https://www.sars.gov.za/client-segments/record-keeping/ | https://www.sars.gov.za/client-segments/record-keeping/
-  - https://www.justice.gov.za/master/deceased.html | https://www.justice.gov.za/master/deceased.html
-  - https://www.gov.za/documents/companies-act | https://www.gov.za/documents/companies-act
+  - Record keeping - South African Revenue Service | https://www.sars.gov.za/client-segments/record-keeping/
+  - Master l Deceased Estates | https://www.justice.gov.za/master/deceased.html
+  - Companies Act 71 of 2008 - South African Government | https://www.gov.za/documents/companies-act
+related:
+  - The Returning Employee Who Finds Everything Changed | /moments/the-returning-employee-who-finds-everything-changed/
+  - Why Bereavement Leave Needs Cover That Actually Works | /moments/why-bereavement-leave-needs-cover-that-actually-works/
+  - The New Parent Answering Work Messages at 3am | /moments/the-new-parent-answering-work-messages-at-3am/
 summary: Owners often think of succession as choosing a person. In a small business, the harder question is whether anyone could find, open and run what that person leaves behind.
 layout: plain
 ---

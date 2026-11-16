@@ -13,9 +13,13 @@ commercial_domain: Operations
 primary_pain: New branches copy whichever version of the process their first manager learned, so inconsistencies and errors multiply with each site
 primary_cost_mechanism: Scaling cost from per-branch training, support and reconciliation, incomparable branch reporting, replicated errors and stock losses, inconsistent customer experience, and slower openings
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/standardize-business-processes | https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/standardize-business-processes
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
-  - https://learn.microsoft.com/en-us/power-automate/process-mining-overview | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
+  - Standardize processes during a Dynamics 365 implementation - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/guidance/business-processes/standardize-business-processes
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
+related:
+  - Growth That Adds Admin Faster Than Output: The Margin Cost of Complexity | /impact/business-growth-administration-outpacing-productive-capacity-margin-cost/
+  - Bottlenecks You Cannot See: The Price of Problems Management Misses | /impact/not-knowing-where-operational-bottlenecks-form-hidden-delay-financial-cost/
+  - Tasks Given in Passing: The Cost of Work That Disappears Between Conversations | /impact/work-assigned-verbally-then-forgotten-tasks-lost-between-conversations-cost/
 summary: Each new site inherits whichever version of the process its first manager learned. Differences multiply, costs rise, and head office loses the ability to compare, support or improve branches.
 layout: plain
 ---

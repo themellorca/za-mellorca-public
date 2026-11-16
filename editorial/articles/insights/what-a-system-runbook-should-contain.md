@@ -10,8 +10,12 @@ published_date: 2026-11-16
 updated_date: 2026-11-16
 eyebrow: Process Documentation
 sources:
-  - https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_use_runbooks.html | https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_use_runbooks.html
-  - https://sre.google/sre-book/introduction/ | https://sre.google/sre-book/introduction/
+  - OPS07-BP03 Use runbooks to perform procedures - Operational Excellence Pillar | https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_use_runbooks.html
+  - Google SRE - IT Service Management: Automate Operations | https://sre.google/sre-book/introduction/
+related:
+  - How to Document a Workflow People Will Actually Follow | /insights/writing-down-a-workflow-so-that-it-gets-used/
+  - How to Keep SOPs From Becoming Outdated PDFs | /insights/how-to-keep-sops-from-becoming-outdated-pdfs/
+  - When a Checklist Is Better Than an SOP | /insights/when-a-checklist-is-better-than-an-sop-for-routine-business-tasks/
 summary: A runbook turns a recurring or urgent system task into steps anyone qualified can follow. Here are the sections a useful one needs, a worked example and how to keep it accurate.
 layout: plain
 ---

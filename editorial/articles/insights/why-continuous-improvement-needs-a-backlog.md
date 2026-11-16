@@ -10,9 +10,13 @@ published_date: 2026-11-16
 updated_date: 2026-11-16
 eyebrow: Process Improvement
 sources:
-  - https://scrumguides.org/scrum-guide.html | https://scrumguides.org/scrum-guide.html
-  - https://www.lean.org/lexicon-terms/kaizen/ | https://www.lean.org/lexicon-terms/kaizen/
-  - https://www.ihi.org/resources/how-to-improve | https://www.ihi.org/resources/how-to-improve
+  - Scrum Guide - Scrum Guides | https://scrumguides.org/scrum-guide.html
+  - Kaizen — A Resource Guide - Lean Enterprise Institute | https://www.lean.org/lexicon-terms/kaizen/
+  - Model for Improvement | https://www.ihi.org/resources/how-to-improve
+related:
+  - How to Redesign a Process Without Stopping the Business | /insights/how-to-redesign-a-process-without-stopping-the-business/
+  - How to Find Steps That Exist Only Because the System Is Bad | /insights/how-to-find-steps-that-exist-only-because-the-system-is-bad/
+  - How to Measure Whether a Workflow Is Improving | /insights/how-to-measure-whether-a-workflow-is-improving/
 summary: Improvement ideas that live in meetings, chats and memories get lost or argued over. A single ordered backlog turns them into a steady flow of small, tested changes.
 layout: plain
 ---

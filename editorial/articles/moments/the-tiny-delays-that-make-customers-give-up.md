@@ -15,8 +15,12 @@ human_dividend: Time: customers finish what they came to do in moments rather th
 trade_off: Speed work costs developer time and sometimes hosting money; faster replies can create pressure on staff; automated instant responses can feel hollow; not every delay is worth removing.
 epistemic_state: HYPOTHESISED: reasoned from Google web.dev guidance and case studies and Nielsen Norman Group usability guidance, not from measured abandonment on South African small-business sites; the spares-shop example is illustrative.
 sources:
-  - https://web.dev/articles/why-speed-matters | https://web.dev/articles/why-speed-matters
-  - https://www.nngroup.com/articles/response-times-3-important-limits/ | https://www.nngroup.com/articles/response-times-3-important-limits/
+  - Why does speed matter? - web.dev | https://web.dev/articles/why-speed-matters
+  - Response Time Limits: Article by Jakob Nielsen | https://www.nngroup.com/articles/response-times-3-important-limits/
+related:
+  - The Friction Customers Feel Before They Ever Speak to You | /moments/the-friction-customers-feel-before-they-ever-speak-to-you/
+  - When Small Frictions Add Up to a Bad Day | /moments/when-small-frictions-add-up-to-a-bad-day/
+  - The Expense Claim That Costs More Than the Expense | /moments/when-claiming-a-small-expense-costs-more-than-the-expense/
 summary: A slow page, a form that hangs, an unanswered chat for a few minutes. Small waits look harmless one at a time. Why customers abandon over them, and how to find and remove them.
 layout: plain
 ---

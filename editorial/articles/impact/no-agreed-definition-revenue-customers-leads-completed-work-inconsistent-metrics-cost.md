@@ -13,9 +13,13 @@ commercial_domain: Data and Information
 primary_pain: Core business terms such as revenue, customer, lead and completed work have no single written definition, so each department measures them differently
 primary_cost_mechanism: Error and dispute cost in commissions and bonuses, misleading targets and ratios, misjudged statutory and contractual thresholds, poor investment decisions, and reduced credibility with lenders and buyers
 sources:
-  - https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/ | https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/
-  - https://learn.microsoft.com/en-us/fabric/governance/endorsement-overview | https://learn.microsoft.com/en-us/fabric/governance/endorsement-overview
-  - https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand | https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand
+  - Small Businesses - Taxpayers - South African Revenue Service | https://www.sars.gov.za/businesses-and-employers/small-businesses-taxpayers/
+  - Endorsement overview - Microsoft Fabric | https://learn.microsoft.com/en-us/fabric/governance/endorsement-overview
+  - Semantic Models in the Power BI Service - Power BI | https://learn.microsoft.com/en-us/power-bi/connect-data/service-datasets-understand
+related:
+  - One Metric, Three Definitions: The Cost of Systems That Count Differently | /impact/systems-different-definitions-same-business-metric-conflicting-reports-cost/
+  - When History Walks Out the Door: The Cost of Losing Records at Exits and System Changes | /impact/losing-historical-data-employees-leave-systems-change-lost-institutional-information-cost/
+  - When Important Data Is Trapped in One Department's App | /impact/data-trapped-in-one-department-application-information-silo-cost/
 summary: Sales counts a lead one way, marketing another; finance and operations disagree on when a job is done. Without written definitions, bonuses, targets and investment decisions rest on shifting ground.
 layout: plain
 ---

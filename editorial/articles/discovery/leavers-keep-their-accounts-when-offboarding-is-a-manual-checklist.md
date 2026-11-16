@@ -13,9 +13,13 @@ problem_domain: Identity & Access Lifecycle
 problem_owner: Head of IT or identity and access lead
 budget_owner: CIO or COO
 sources:
-  - https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows | https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows
-  - https://www.ncsc.gov.uk/collection/10-steps/identity-and-access-management | https://www.ncsc.gov.uk/collection/10-steps/identity-and-access-management
+  - What are lifecycle workflows? - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows
+  - Identity and access management | https://www.ncsc.gov.uk/collection/10-steps/identity-and-access-management
   - https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf | https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013protectionofpersonalinforcorrect.pdf
+related:
+  - Why new employees wait days for access to the systems they need | /discovery/why-new-employees-wait-for-system-access/
+  - Application owners leave without transferring responsibility | /discovery/application-owners-leave-without-transfer/
+  - Privileged accounts are reviewed without application context | /discovery/why-administrator-access-reviews-fail-when-reviewers-cannot-see-the-application/
 summary: Each new application adds an account someone must remember to remove when a person leaves. Why manual offboarding checklists fall behind the application estate, and how to make leaving trigger access removal automatically.
 layout: plain
 ---

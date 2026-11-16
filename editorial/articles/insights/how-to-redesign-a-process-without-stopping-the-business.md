@@ -10,8 +10,12 @@ published_date: 2026-11-16
 updated_date: 2026-11-16
 eyebrow: Process Improvement
 sources:
-  - https://www.ihi.org/resources/how-to-improve | https://www.ihi.org/resources/how-to-improve
-  - https://www.ahrq.gov/health-literacy/improve/precautions/tool2b.html | https://www.ahrq.gov/health-literacy/improve/precautions/tool2b.html
+  - Model for Improvement | https://www.ihi.org/resources/how-to-improve
+  - Plan-Do-Study-Act (PDSA) Directions and Examples | https://www.ahrq.gov/health-literacy/improve/precautions/tool2b.html
+related:
+  - How to Reduce Unnecessary Approvals | /insights/how-to-reduce-unnecessary-approvals/
+  - How to Measure Whether a Workflow Is Improving | /insights/how-to-measure-whether-a-workflow-is-improving/
+  - Why Continuous Improvement Needs a Backlog | /insights/why-continuous-improvement-needs-a-backlog/
 summary: Customers keep ordering while you change how orders are handled. Small, contained tests and a phased switch let a business improve a process while it carries on trading.
 layout: plain
 ---

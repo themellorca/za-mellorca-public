@@ -15,9 +15,13 @@ human_dividend: Time: leavers receive what they are owed on a known schedule and
 trade_off: Some final amounts depend on returns of property or disputes; fast access removal can cut off handover; checklists need upkeep; automation tools may need licences.
 epistemic_state: HYPOTHESISED: reasoned from SARS PAYE guidance, the BCEA framework and vendor identity documentation, not from measured exit times in South African businesses; the retail example is illustrative and not legal advice.
 sources:
-  - https://www.sars.gov.za/types-of-tax/pay-as-you-earn/ | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
-  - https://www.gov.za/documents/basic-conditions-employment-act | https://www.gov.za/documents/basic-conditions-employment-act
-  - https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows | https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows
+  - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
+  - Basic Conditions of Employment Act 75 of 1997 - South African Government | https://www.gov.za/documents/basic-conditions-employment-act
+  - What are lifecycle workflows? - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows
+related:
+  - When a Simple Change Needs Three Departments | /moments/when-a-simple-change-needs-sign-off-from-three-departments/
+  - Why Onboarding a Client Shouldn't Feel Like an Audit | /moments/why-onboarding-a-client-shouldnt-feel-like-an-audit/
+  - The friction of signing up for something at work | /moments/the-friction-of-signing-up-for-something-at-work/
 summary: Resigning should be the start of something new, yet leavers can wait weeks for final pay, tax certificates and paperwork. Why exits drag, and how to make leaving as orderly as joining.
 layout: plain
 ---

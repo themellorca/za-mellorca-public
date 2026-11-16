@@ -10,9 +10,13 @@ published_date: 2026-11-16
 updated_date: 2026-11-16
 eyebrow: Process Improvement
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/task-mining-overview | https://learn.microsoft.com/en-us/power-automate/task-mining-overview
-  - https://docs.uipath.com/task-mining/automation-cloud/latest/user-guide/about-task-mining | https://docs.uipath.com/task-mining/automation-cloud/latest/user-guide/about-task-mining
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Overview of task mining - Power Automate | https://learn.microsoft.com/en-us/power-automate/task-mining-overview
+  - Task Mining - Introduction | https://docs.uipath.com/task-mining/automation-cloud/latest/user-guide/about-task-mining
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - How to Redesign a Process Without Stopping the Business | /insights/how-to-redesign-a-process-without-stopping-the-business/
+  - Why Hiring More People Does Not Fix Broken Operations | /insights/why-hiring-more-people-does-not-fix-broken-operations-diagnose-before-you-add-headcount/
+  - How to Find Steps That Exist Only Because the System Is Bad | /insights/how-to-find-steps-that-exist-only-because-the-system-is-bad/
 summary: Task mining records what people do on their desktops to reveal how tasks are really performed. It suits some questions very well and others poorly, and it carries privacy duties.
 layout: plain
 ---

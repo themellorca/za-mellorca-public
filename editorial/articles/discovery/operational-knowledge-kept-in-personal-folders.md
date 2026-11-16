@@ -13,8 +13,12 @@ problem_domain: Knowledge & Document Operations
 problem_owner: Operations manager or knowledge management lead
 budget_owner: COO or CIO
 sources:
-  - https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy | https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy
-  - https://learn.microsoft.com/en-us/sharepoint/retention-and-deletion | https://learn.microsoft.com/en-us/sharepoint/retention-and-deletion
+  - Data, Privacy, and Security for Microsoft Copilot | https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy
+  - OneDrive retention and deletion - SharePoint in Microsoft 365 | https://learn.microsoft.com/en-us/sharepoint/retention-and-deletion
+related:
+  - Why integration failures should not route to personal inboxes | /discovery/why-integration-failures-should-not-route-to-personal-inboxes/
+  - When monitoring alerts fire and nobody knows who should respond | /discovery/monitoring-alerts-without-a-clear-response-owner/
+  - Why platform logs pile up without anyone knowing what they are for | /discovery/platform-logs-kept-without-a-clear-purpose/
 summary: Current procedures, client requirements and templates often sit in one person's own storage, invisible to colleagues and to AI search. How to give each knowledge area a shared home, an owner and the right permissions.
 layout: plain
 ---

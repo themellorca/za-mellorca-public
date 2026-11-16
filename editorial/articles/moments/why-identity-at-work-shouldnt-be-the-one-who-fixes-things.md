@@ -15,9 +15,13 @@ human_dividend: Predictability: a working identity anchored in craft, prevention
 trade_off: Preventive work is less visible and harder to reward; some people genuinely enjoy emergencies; sharing knowledge can feel like losing status; the transition needs support, not instruction.
 epistemic_state: HYPOTHESISED: reasoned from SRE postmortem practice and workplace-health guidance, not from measured identity effects in South African workplaces; the IT-support example is illustrative.
 sources:
-  - https://sre.google/sre-book/postmortem-culture/ | https://sre.google/sre-book/postmortem-culture/
-  - https://www.hse.gov.uk/stress/standards/role.htm | https://www.hse.gov.uk/stress/standards/role.htm
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Google SRE - Blameless Postmortem for System Resilience | https://sre.google/sre-book/postmortem-culture/
+  - Management Standards - Role - HSE | https://www.hse.gov.uk/stress/standards/role.htm
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+related:
+  - Why Meaningful Work Is Easier When Systems Carry the Routine | /moments/why-meaningful-work-gets-easier-when-systems-carry-the-routine/
+  - When craft businesses spend more time on software than craft | /moments/when-craft-businesses-spend-more-time-on-software-than-craft/
+  - The Owner Rediscovering Why They Started the Business | /moments/the-owner-rediscovering-why-they-started-the-business/
 summary: Being the person who saves the day can become a whole identity at work. Why that identity is fragile, what it costs, and how to build a sense of worth that does not depend on crises.
 layout: plain
 ---

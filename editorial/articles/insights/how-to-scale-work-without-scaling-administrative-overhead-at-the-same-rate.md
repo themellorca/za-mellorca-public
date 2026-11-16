@@ -10,8 +10,12 @@ published_date: 2026-11-16
 updated_date: 2026-11-16
 eyebrow: Process Improvement
 sources:
-  - https://sre.google/sre-book/eliminating-toil/ | https://sre.google/sre-book/eliminating-toil/
-  - https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_use_runbooks.html | https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_use_runbooks.html
+  - Google SRE - What is Toil in SRE: Understanding Its Impact | https://sre.google/sre-book/eliminating-toil/
+  - OPS07-BP03 Use runbooks to perform procedures - Operational Excellence Pillar | https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_use_runbooks.html
+related:
+  - How to Find Steps That Exist Only Because the System Is Bad | /insights/how-to-find-steps-that-exist-only-because-the-system-is-bad/
+  - How to Measure Whether a Workflow Is Improving | /insights/how-to-measure-whether-a-workflow-is-improving/
+  - How to Reduce Unnecessary Approvals | /insights/how-to-reduce-unnecessary-approvals/
 summary: If every new client or order brings the same slice of admin with it, growth simply buys more paperwork. Here is how to find the work that grows in step with volume and break that link.
 layout: plain
 ---

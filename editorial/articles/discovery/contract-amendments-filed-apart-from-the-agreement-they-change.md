@@ -13,8 +13,12 @@ problem_domain: Contracts & Obligation Management
 problem_owner: Legal operations lead or commercial manager responsible for the contract repository
 budget_owner: General counsel, CFO or managing director
 sources:
-  - https://trailhead.salesforce.com/content/learn/modules/contract-amendments-with-salesforce-cpq/change-an-existing-contract | https://trailhead.salesforce.com/content/learn/modules/contract-amendments-with-salesforce-cpq/change-an-existing-contract
-  - https://learn.microsoft.com/en-us/sharepoint/governance/document-set-planning | https://learn.microsoft.com/en-us/sharepoint/governance/document-set-planning
+  - Change Existing Contracts with Salesforce CPQ | https://trailhead.salesforce.com/content/learn/modules/contract-amendments-with-salesforce-cpq/change-an-existing-contract
+  - Plan document sets in SharePoint Server 2013 - SharePoint Server | https://learn.microsoft.com/en-us/sharepoint/governance/document-set-planning
+related:
+  - Nobody owns the obligations that start after a contract is signed | /discovery/nobody-owns-the-obligations-that-start-after-a-contract-is-signed/
+  - When payment terms agreed in a contract never reach the finance system | /discovery/when-payment-terms-agreed-in-a-contract-never-reach-the-finance-system/
+  - Why contract renewals surprise finance and operations | /discovery/why-contract-renewals-surprise-finance-and-operations/
 summary: The original agreement is in one folder, the price addendum in an email, the scope change in a signed PDF on someone's laptop. Why nobody can say what the contract currently says, and how to keep every amendment attached.
 layout: plain
 ---

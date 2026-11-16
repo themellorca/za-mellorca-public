@@ -15,9 +15,13 @@ human_dividend: Time: customers are verified properly once and recognised safely
 trade_off: Some re-verification is legitimately required; recognising customers safely needs secure tools; fraud risks change and checks must follow; storing verified documents carries privacy duties.
 epistemic_state: HYPOTHESISED: reasoned from NIST identity guidelines, FIC compliance guidance and POPIA, not from measured verification burdens in South African businesses; the broker example is illustrative and not compliance advice.
 sources:
-  - https://pages.nist.gov/800-63-4/sp800-63a.html | https://pages.nist.gov/800-63-4/sp800-63a.html
-  - https://www.fic.gov.za/compliance/ | https://www.fic.gov.za/compliance/
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - NIST Special Publication 800-63A | https://pages.nist.gov/800-63-4/sp800-63a.html
+  - Compliance and supervision – FIC | https://www.fic.gov.za/compliance/
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - Why every new hire starts with a week of waiting | /moments/why-the-first-week-of-a-new-job-is-spent-waiting/
+  - The Small Joy of a Form That Remembers You | /moments/the-small-joy-of-a-follow-up-form-that-remembers-you/
+  - Why Getting Paid Shouldn't Require Persistence | /moments/why-getting-paid-shouldnt-require-persistence/
 summary: Customers who are already known are still asked for identity numbers, certified copies and security questions at every turn. Why repeated proof happens, and how to verify once and recognise people after that.
 layout: plain
 ---

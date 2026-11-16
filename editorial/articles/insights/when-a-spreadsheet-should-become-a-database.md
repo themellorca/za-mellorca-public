@@ -10,9 +10,13 @@ published_date: 2026-11-16
 updated_date: 2026-11-16
 eyebrow: Data Management
 sources:
-  - https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3 | https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3
-  - https://eusprig.org/research-info/horror-stories/ | https://eusprig.org/research-info/horror-stories/
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Excel specifications and limits - Microsoft Support | https://support.microsoft.com/en-us/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3
+  - Horror Stories - European Spreadsheet Risk Interest Group | https://eusprig.org/research-info/horror-stories/
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - How to Choose Where Business Data Should Live | /insights/how-to-choose-where-business-data-should-live/
+  - How to decide what should be the system of record | /insights/how-to-decide-what-should-be-the-system-of-record/
+  - Why shared inboxes become operational bottlenecks | /insights/why-shared-inboxes-become-operational-bottlenecks/
 summary: Spreadsheets are excellent for analysis but weak at holding shared, related records over time. These are the signs that the data has outgrown the grid, and how to move it safely.
 layout: plain
 ---

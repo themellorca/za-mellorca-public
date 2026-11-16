@@ -14,8 +14,12 @@ observable_condition: Turnover grows steadily, but the count of products, price 
 primary_identification: Unmanaged variety: every new customer, product or exception is added to the operation and almost nothing is ever removed, so the cost of coordination rises faster than income.
 commercial_value_dimensions: Margin, capacity, speed of delivery, error rates, management attention and scalability
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/process-mining-overview | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
+  - Overview of process mining in Power Automate - Power Automate | https://learn.microsoft.com/en-us/power-automate/process-mining-overview
   - https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work | https://www.microsoft.com/en-us/worklab/work-trend-index/will-ai-fix-work
+related:
+  - Why does revenue growth always require more admin staff? | /patterns/why-revenue-growth-requires-more-admin-staff/
+  - Why a manual process gets harder to run every time volume grows | /patterns/why-a-manual-process-gets-harder-to-run-every-time-volume-grows/
+  - When growth makes the business feel less efficient | /patterns/when-growth-makes-the-business-feel-less-efficient/
 summary: Revenue rises steadily, yet the number of products, exceptions, systems and approvals rises faster. Here is how to see that gap and stop it eating your margin.
 layout: plain
 ---

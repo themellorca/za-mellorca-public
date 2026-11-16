@@ -15,9 +15,13 @@ human_dividend: Predictability and time: patients know when they will be seen an
 trade_off: Online booking can exclude patients without data or confidence; reminders need consent and careful handling of health information; software costs money; some patients will still miss appointments.
 epistemic_state: HYPOTHESISED: reasoned from WHO patient-safety evidence, vendor booking documentation and the South African health framework, not from measured scheduling failures in South African clinics; the practice example is illustrative.
 sources:
-  - https://www.who.int/news-room/fact-sheets/detail/patient-safety | https://www.who.int/news-room/fact-sheets/detail/patient-safety
-  - https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview | https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview
-  - https://www.gov.za/documents/national-health-act | https://www.gov.za/documents/national-health-act
+  - Patient safety | https://www.who.int/news-room/fact-sheets/detail/patient-safety
+  - Microsoft Bookings | https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview
+  - National Health Act 61 of 2003 - South African Government | https://www.gov.za/documents/national-health-act
+related:
+  - When Being On-Call Means Never Quite Resting | /moments/when-being-on-call-means-never-quite-resting/
+  - When Unsafe Shortcuts Are Built Into the Workflow | /moments/when-unsafe-shortcuts-are-built-into-the-finance-workflow/
+  - The sleep lost over a system nobody else understands | /moments/the-sleep-lost-over-a-system-only-one-person-understands/
 summary: Double bookings, forgotten follow-ups and overflowing waiting rooms are often blamed on busy staff. Why scheduling is a patient-safety matter in small clinics, and what calmer booking looks like.
 layout: plain
 ---

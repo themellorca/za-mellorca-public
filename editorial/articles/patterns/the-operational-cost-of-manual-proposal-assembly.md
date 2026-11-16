@@ -14,8 +14,12 @@ observable_condition: Each proposal or tender response is built by copying a pre
 primary_identification: No proposal system: the business has no maintained library of approved content and no link between proposal documents and current customer and pricing data, so every proposal is assembled from scratch by hand.
 commercial_value_dimensions: Sales capacity, win rate, response speed, error and compliance risk, and brand consistency
 sources:
-  - https://learn.microsoft.com/en-us/power-platform/admin/using-word-templates-dynamics-365 | https://learn.microsoft.com/en-us/power-platform/admin/using-word-templates-dynamics-365
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - Use Word templates to create standardized documents - Power Platform | https://learn.microsoft.com/en-us/power-platform/admin/using-word-templates-dynamics-365
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+related:
+  - Why Lead Qualification Becomes Inconsistent Across Reps | /patterns/why-lead-qualification-becomes-inconsistent-across-reps/
+  - The cost of delayed handoffs after a deal is won | /patterns/the-cost-of-delayed-handoffs-after-a-deal-is-won/
+  - When lead routing depends on someone checking an inbox | /patterns/when-lead-routing-depends-on-someone-checking-an-inbox/
 summary: Every proposal starts from an old one: copied text, pasted pricing, hunted-down certificates and case studies. What that assembly costs, and how to make it routine.
 layout: plain
 ---

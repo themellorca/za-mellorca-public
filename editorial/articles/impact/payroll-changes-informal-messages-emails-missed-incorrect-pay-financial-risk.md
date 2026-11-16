@@ -13,9 +13,13 @@ commercial_domain: Human Resources
 primary_pain: Raises, overtime, deductions and terminations reach payroll through chats, emails and verbal remarks with no single approved record
 primary_cost_mechanism: Error and rework cost from missed or incorrect changes, unrecoverable overpayments, underpayment disputes, PAYE, UIF and SDL compliance exposure, and fraud risk from unverified instructions
 sources:
-  - https://source.acts.co.za/basic-conditions-of-employment-act-1997/bcoe97_33__information_about_remuneration.php | https://source.acts.co.za/basic-conditions-of-employment-act-1997/bcoe97_33__information_about_remuneration.php
-  - https://www.sars.gov.za/types-of-tax/pay-as-you-earn/ | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
-  - https://www.sars.gov.za/types-of-tax/pay-as-you-earn/employment-taxes-validation-etv | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/employment-taxes-validation-etv
+  - Basic Conditions of Employment Act, 1997 (Act No. 75 of 1997) > Chapter Four : Particulars of employment and remuneration > 33. Information | https://source.acts.co.za/basic-conditions-of-employment-act-1997/bcoe97_33__information_about_remuneration.php
+  - Pay As You Earn - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/
+  - Employment Taxes Validation (ETV) - South African Revenue Service | https://www.sars.gov.za/types-of-tax/pay-as-you-earn/employment-taxes-validation-etv
+related:
+  - Equipment Not Returned When Staff Leave: The Cost of Lost Company Assets | /impact/company-equipment-not-recovered-when-employees-leave-asset-loss-cost/
+  - Onboarding new customers by email: The labour and revenue cost of a slow start | /impact/manual-customer-onboarding-email-checklists-revenue-delay-cost/
+  - From inbox to system by hand: The labour cost of retyping emails | /impact/copying-email-details-into-business-systems-admin-cost/
 summary: Raises, overtime, deductions and terminations reach payroll through chats, emails and hallway remarks. Every untracked instruction is a chance to underpay, overpay or misreport to SARS.
 layout: plain
 ---

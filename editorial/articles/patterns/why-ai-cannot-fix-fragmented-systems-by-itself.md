@@ -14,8 +14,12 @@ observable_condition: The business introduces an AI assistant or agent expecting
 primary_identification: Inherited fragmentation: AI can only reason over data it can reach, under the permissions it is given, and in the form that data takes, so disconnected systems and conflicting records limit what it can reliably do.
 commercial_value_dimensions: Return on AI spend, decision quality, productivity, risk and customer experience
 sources:
-  - https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-overview | https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-overview
-  - https://www.nist.gov/itl/ai-risk-management-framework | https://www.nist.gov/itl/ai-risk-management-framework
+  - What is Microsoft Copilot? | https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-overview
+  - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
+related:
+  - Why buying AI does not automatically create business value | /patterns/why-buying-ai-does-not-automatically-create-business-value/
+  - When your business wants agents but has no defined workflow | /patterns/when-your-business-wants-agents-but-has-no-defined-workflow/
+  - When information reaches your systems only because someone carried it | /patterns/when-information-reaches-your-systems-only-because-someone-carried-it/
 summary: An AI assistant can only reason over what it can reach and trust. When customer, order and finance data sit in disconnected systems, AI inherits the gaps.
 layout: plain
 ---

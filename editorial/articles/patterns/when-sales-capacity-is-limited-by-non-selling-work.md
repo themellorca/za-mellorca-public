@@ -14,8 +14,12 @@ observable_condition: Sales reps spend large parts of their week chasing order s
 primary_identification: Rep as internal fixer: because operational processes lack visibility and owners, customers rely on their sales rep to make things happen internally, so selling capacity is absorbed by coordination work.
 commercial_value_dimensions: Revenue growth, sales capacity, cost of sale, customer experience and rep retention
 sources:
-  - https://www.salesforce.com/uk/news/stories/state-of-sales-report-announcement-2026/ | https://www.salesforce.com/uk/news/stories/state-of-sales-report-announcement-2026/
-  - https://learn.microsoft.com/en-us/dynamics365/sales/qualify-lead-convert-opportunity-sales | https://learn.microsoft.com/en-us/dynamics365/sales/qualify-lead-convert-opportunity-sales
+  - In New Survey, UK Sales Teams Name AI and Agents #3 Growth Tactic for 2026 | https://www.salesforce.com/uk/news/stories/state-of-sales-report-announcement-2026/
+  - Qualify and convert a lead to opportunity | https://learn.microsoft.com/en-us/dynamics365/sales/qualify-lead-convert-opportunity-sales
+related:
+  - Why Revenue Growth Exposes Weak Sales Operations | /patterns/why-revenue-growth-exposes-weak-sales-operations/
+  - Why do good leads disappear between marketing and sales? | /patterns/why-good-leads-disappear-between-marketing-and-sales/
+  - Why Lead Qualification Becomes Inconsistent Across Reps | /patterns/why-lead-qualification-becomes-inconsistent-across-reps/
 summary: Reps chase order status, credit applications, delivery problems and internal approvals for their customers. Why sales capacity leaks into internal fixing, and how to win it back.
 layout: plain
 ---

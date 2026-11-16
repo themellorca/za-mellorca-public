@@ -16,7 +16,11 @@ trade_off: Backup power and offline procedures cost money and practice; cash and
 epistemic_state: HYPOTHESISED: reasoned from the published load-shedding FAQ and NIST contingency-planning guidance, not from measured customer loss during outages in South Africa; the pharmacy example is illustrative.
 sources:
   - https://www.gov.za/sites/default/files/gcis_document/LoadSheddingFAQ.pdf | https://www.gov.za/sites/default/files/gcis_document/LoadSheddingFAQ.pdf
-  - https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+  - SP 800-34 Rev. 1, Contingency Planning Guide for Federal Information Systems - CSRC | https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final
+related:
+  - Why Language Barriers Show Up in Software Choices | /moments/why-language-barriers-show-up-in-the-software-a-business-chooses/
+  - The Small Business Priced Out of Its Own Tools | /moments/the-small-business-priced-out-of-the-tools-built-to-help-it/
+  - When rural connectivity decides who can work remotely | /moments/when-a-weak-signal-decides-who-gets-flexible-work/
 summary: A power cut is shared by everyone in the area, but its effects are not. How outages decide who can still reach a business, and how to keep the door open when the lights go off.
 layout: plain
 ---

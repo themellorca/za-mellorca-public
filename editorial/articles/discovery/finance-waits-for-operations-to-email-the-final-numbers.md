@@ -13,8 +13,12 @@ problem_domain: Finance Close & Reconciliation
 problem_owner: Financial controller or finance operations manager
 budget_owner: CFO or financial director
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/finance/general-ledger/financial-period-close-workspace | https://learn.microsoft.com/en-us/dynamics365/finance/general-ledger/financial-period-close-workspace
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/year-close-years-periods | https://learn.microsoft.com/en-us/dynamics365/business-central/year-close-years-periods
+  - Financial period close workspace - Finance - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/finance/general-ledger/financial-period-close-workspace
+  - Close Years and Periods - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/year-close-years-periods
+related:
+  - Why cancelled and reduced orders take so long to reach the revenue forecast | /discovery/why-order-cancellations-and-reductions-take-weeks-to-change-the-revenue-forecast/
+  - Stock exceptions are only found when month-end arrives | /discovery/finding-stock-exceptions-during-the-month-instead-of-at-month-end/
+  - Why inventory numbers disagree across sales, warehouse and finance | /discovery/why-inventory-numbers-disagree-across-systems/
 summary: Stock counts, rebates and production figures reach finance as email attachments, so the month-end close runs at the pace of the slowest sender. How to turn operational inputs into owned, scheduled and evidenced close tasks.
 layout: plain
 ---

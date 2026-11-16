@@ -13,9 +13,13 @@ commercial_domain: Sales Operations
 primary_pain: Sales follow-ups after quotes, calls and trials depend on individual memory and are forgotten when people are busy
 primary_cost_mechanism: Revenue loss from deals won by more persistent competitors, wasted quoting labour, missed renewals and expansions, and dependence on individual habits rather than a business-owned process
 sources:
-  - https://knowledge.hubspot.com/tasks/create-tasks | https://knowledge.hubspot.com/tasks/create-tasks
-  - https://learn.microsoft.com/en-us/dynamics365/sales/create-and-activate-a-sequence | https://learn.microsoft.com/en-us/dynamics365/sales/create-and-activate-a-sequence
-  - https://hbr.org/2011/03/the-short-life-of-online-sales-leads | https://hbr.org/2011/03/the-short-life-of-online-sales-leads
+  - Create tasks | https://knowledge.hubspot.com/tasks/create-tasks
+  - Sequence creation and activation in the sales accelerator | https://learn.microsoft.com/en-us/dynamics365/sales/create-and-activate-a-sequence
+  - The Short Life of Online Sales Leads | https://hbr.org/2011/03/the-short-life-of-online-sales-leads
+related:
+  - Customer records in salespeople's spreadsheets: The revenue and continuity cost | /impact/salespeople-personal-spreadsheets-customer-records-cost/
+  - The revenue cost of slow sales lead response | /impact/slow-sales-lead-response-revenue-cost/
+  - Forecasts Built on Hope: What Unreliable Sales Numbers Cost the Business | /impact/sales-forecasts-based-on-optimism-not-deal-evidence-unreliable-forecasting-cost/
 summary: When the next step on a deal exists only in a salesperson's head, busy weeks erase it. Quotes go unchased, promised calls never happen, and buyers quietly choose someone who stayed in touch.
 layout: plain
 ---

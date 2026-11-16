@@ -14,8 +14,12 @@ observable_condition: As revenue and the sales team grow, leads are missed or co
 primary_identification: Informal sales operations: routing, pricing, pipeline rules, data standards and handoffs were held together by a few people's knowledge, and that informal system cannot carry more reps, customers and channels.
 commercial_value_dimensions: Revenue growth, margin, forecast reliability, customer experience and scalability
 sources:
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
-  - https://learn.microsoft.com/en-us/dynamics365/sales/configure-predictive-lead-scoring | https://learn.microsoft.com/en-us/dynamics365/sales/configure-predictive-lead-scoring
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - Configure predictive lead scoring | https://learn.microsoft.com/en-us/dynamics365/sales/configure-predictive-lead-scoring
+related:
+  - When Sales Capacity Is Limited by Non-Selling Work | /patterns/when-sales-capacity-is-limited-by-non-selling-work/
+  - The Operational Cost of Manual Proposal Assembly | /patterns/the-operational-cost-of-manual-proposal-assembly/
+  - Why Lead Qualification Becomes Inconsistent Across Reps | /patterns/why-lead-qualification-becomes-inconsistent-across-reps/
 summary: A sales process that worked with five reps and a few hundred customers starts to fail at twice the size. Why growth reveals weak sales operations, and what to fix first.
 layout: plain
 ---

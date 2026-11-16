@@ -10,9 +10,13 @@ published_date: 2026-11-16
 updated_date: 2026-11-16
 eyebrow: Workflow Design
 sources:
-  - https://kanbanguides.org/english/ | https://kanbanguides.org/english/
-  - https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_use_runbooks.html | https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_use_runbooks.html
-  - https://sre.google/sre-book/eliminating-toil/ | https://sre.google/sre-book/eliminating-toil/
+  - The Kanban Guide - May 2025 (latest) - Kanban Guides | https://kanbanguides.org/english/
+  - OPS07-BP03 Use runbooks to perform procedures - Operational Excellence Pillar | https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_use_runbooks.html
+  - Google SRE - What is Toil in SRE: Understanding Its Impact | https://sre.google/sre-book/eliminating-toil/
+related:
+  - Why Every Workflow Needs a Clear Start and End | /insights/why-every-workflow-needs-a-clear-start-and-end/
+  - How Exceptions Should Be Designed Into a Workflow | /insights/how-exceptions-should-be-designed-into-a-workflow/
+  - What to Do When Every Customer Follows a Different Process | /insights/what-to-do-when-every-customer-follows-a-different-process/
 summary: Mature workflows are not the most automated ones. They have clear boundaries, owners, rules, expectations, documented recovery and steady improvement. Here is how to recognise and build them.
 layout: plain
 ---

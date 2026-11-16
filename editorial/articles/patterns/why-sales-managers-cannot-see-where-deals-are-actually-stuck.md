@@ -14,8 +14,12 @@ observable_condition: The CRM pipeline shows deals and values by stage, but the 
 primary_identification: Static pipeline: the pipeline records where deals are, not how long they have been there, what the next step is or what is blocking them, so stagnation is invisible.
 commercial_value_dimensions: Revenue, forecast accuracy, sales capacity, cash flow planning and coaching quality
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/access-deal-manager | https://learn.microsoft.com/en-us/dynamics365/sales/access-deal-manager
-  - https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+  - Manage opportunities using pipeline view | https://learn.microsoft.com/en-us/dynamics365/sales/access-deal-manager
+  - Business process flows overview - Power Automate | https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview
+related:
+  - When Pipeline Hygiene Requires Constant Chasing | /patterns/when-pipeline-hygiene-requires-constant-chasing/
+  - The Operational Cost of Manual Proposal Assembly | /patterns/the-operational-cost-of-manual-proposal-assembly/
+  - Why Lead Qualification Becomes Inconsistent Across Reps | /patterns/why-lead-qualification-becomes-inconsistent-across-reps/
 summary: The pipeline report shows totals by stage, but not which deals have stopped moving or why. How to make stalled deals visible before they quietly die.
 layout: plain
 ---

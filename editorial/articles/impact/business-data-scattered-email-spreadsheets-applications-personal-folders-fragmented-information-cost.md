@@ -13,8 +13,12 @@ commercial_domain: Data and Information
 primary_pain: Business information is spread across inboxes, spreadsheets, chat threads, personal folders, phones and unconnected applications
 primary_cost_mechanism: Labour cost of searching and reassembling information, disputes conceded for lack of evidence, errors from partial information, POPIA access-request exposure, and opportunities missed because patterns are hidden
 sources:
-  - https://popia.co.za/section-23-access-to-personal-information/ | https://popia.co.za/section-23-access-to-personal-information/
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
+  - Section 23 Access to personal information - POPIA | https://popia.co.za/section-23-access-to-personal-information/
+  - What is Microsoft Dataverse? - Power Apps | https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
+related:
+  - When History Walks Out the Door: The Cost of Losing Records at Exits and System Changes | /impact/losing-historical-data-employees-leave-systems-change-lost-institutional-information-cost/
+  - What Counts as a Customer? The Cost of Running a Business Without Agreed Definitions | /impact/no-agreed-definition-revenue-customers-leads-completed-work-inconsistent-metrics-cost/
+  - When Reports Do Not Answer the Question: The Cost of Private Analysis Spreadsheets | /impact/employees-private-spreadsheets-official-reports-unanswered-questions-duplicated-reporting-cost/
 summary: Customer details sit in email, pricing in a spreadsheet, contracts in someone's downloads folder and job history in an app. Every question becomes a search, and some answers are never found.
 layout: plain
 ---

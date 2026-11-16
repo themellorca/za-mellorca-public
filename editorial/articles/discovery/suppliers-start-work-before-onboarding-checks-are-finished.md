@@ -13,10 +13,14 @@ problem_domain: Procurement & Supplier Operations
 problem_owner: Head of procurement or operations manager
 budget_owner: CFO or COO
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/payables-how-block-vendors | https://learn.microsoft.com/en-us/dynamics365/business-central/payables-how-block-vendors
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
-  - https://learn.microsoft.com/en-us/dynamics365/business-central/purchasing-how-register-new-vendors | https://learn.microsoft.com/en-us/dynamics365/business-central/purchasing-how-register-new-vendors
-  - https://www.sars.gov.za/types-of-tax/value-added-tax/faqs-for-vat-vendors/ | https://www.sars.gov.za/types-of-tax/value-added-tax/faqs-for-vat-vendors/
+  - Block vendors - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/payables-how-block-vendors
+  - Approve or reject documents in workflows - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-use-approval-workflows
+  - Register a new vendor - Business Central | https://learn.microsoft.com/en-us/dynamics365/business-central/purchasing-how-register-new-vendors
+  - FAQs for VAT vendors - South African Revenue Service | https://www.sars.gov.za/types-of-tax/value-added-tax/faqs-for-vat-vendors/
+related:
+  - Why procurement requests disappear into email and chat | /discovery/why-procurement-requests-disappear-into-email/
+  - Purchase approvals go to the wrong people when suppliers multiply | /discovery/purchase-approvals-go-to-the-wrong-people-when-suppliers-multiply/
+  - Accepted quotes do not automatically create fulfilment work | /discovery/accepted-quotes-that-do-not-create-fulfilment-work/
 summary: A new supplier delivers goods or starts a project while tax, bank and contract checks are still outstanding. Why onboarding falls behind purchasing as spend grows, and how to stop orders until the supplier record is approved.
 layout: plain
 ---

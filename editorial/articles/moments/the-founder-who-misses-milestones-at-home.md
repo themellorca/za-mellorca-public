@@ -15,9 +15,13 @@ human_dividend: Presence and time: being able to commit to a personal moment in 
 trade_off: Delegating costs money and control; some crises genuinely need the founder; staff take on new responsibility that must be paid and supported; founders may value being needed.
 epistemic_state: HYPOTHESISED: reasoned from WHO/ILO evidence on long hours, WHO workplace mental-health guidance and the HSE demands standard, not from measured founder behaviour in South Africa; the guesthouse example is illustrative.
 sources:
-  - https://www.who.int/news/item/17-05-2021-long-working-hours-increasing-deaths-from-heart-disease-and-stroke-who-ilo | https://www.who.int/news/item/17-05-2021-long-working-hours-increasing-deaths-from-heart-disease-and-stroke-who-ilo
-  - https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Long working hours increasing deaths from heart disease and stroke: WHO, ILO | https://www.who.int/news/item/17-05-2021-long-working-hours-increasing-deaths-from-heart-disease-and-stroke-who-ilo
+  - Mental health at work | https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+related:
+  - The Manager Too Busy With Reports to Talk to People | /moments/the-manager-too-busy-with-reports-to-talk-to-the-people-they-manage/
+  - When Remote Work Means Missing the Quiet Conversations | /moments/when-remote-work-means-missing-the-quiet-conversations/
+  - The team that only talks when something breaks | /moments/the-team-that-only-talks-when-something-breaks/
 summary: School concerts, birthdays and first steps happen at hours that small-business crises tend to claim. Why founders miss them, why it is a design problem, and what changes the pattern.
 layout: plain
 ---

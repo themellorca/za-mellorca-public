@@ -15,9 +15,13 @@ human_dividend: Attention and time: staff open one record and see the whole hist
 trade_off: Moving to a shared record takes effort and discipline; not every conversation will be logged; tools cost money; more shared customer data means more care with access and privacy.
 epistemic_state: HYPOTHESISED: reasoned from vendor documentation, HSE workload guidance and POPIA, not from measured search time in South African businesses; the interior-design example is illustrative.
 sources:
-  - https://learn.microsoft.com/en-us/power-apps/user/add-activities | https://learn.microsoft.com/en-us/power-apps/user/add-activities
-  - https://www.hse.gov.uk/stress/standards/demands.htm | https://www.hse.gov.uk/stress/standards/demands.htm
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Timeline Overview for Users - Power Apps | https://learn.microsoft.com/en-us/power-apps/user/add-activities
+  - Management Standards - Demands - HSE | https://www.hse.gov.uk/stress/standards/demands.htm
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - The Relief of Not Having to Ask Where Something Is | /moments/the-relief-of-not-having-to-ask-where-something-is/
+  - Why every new hire starts with a week of waiting | /moments/why-the-first-week-of-a-new-job-is-spent-waiting/
+  - The relief of a password you don't have to reset | /moments/the-relief-of-a-password-you-dont-have-to-reset/
 summary: When customer details are spread across inboxes, phones and spreadsheets, every conversation starts with a search. What changes for staff when it all sits in one place, and how to get there.
 layout: plain
 ---

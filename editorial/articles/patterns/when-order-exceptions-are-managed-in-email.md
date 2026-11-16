@@ -14,8 +14,12 @@ observable_condition: When an order cannot proceed normally, because of short st
 primary_identification: Untracked exceptions: the order system handles the normal path, while every deviation leaves the system and lives in inboxes with no status, reason, owner or time limit.
 commercial_value_dimensions: Customer experience, cash flow, staff capacity, delivery reliability and compliance with delivery obligations
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/tasks/manage-order-holds | https://learn.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/tasks/manage-order-holds
-  - https://www.acts.co.za/consumer-protection/19_consumer_s_rights_with_respect_to_delivery_of_goods_or_supply_of_service | https://www.acts.co.za/consumer-protection/19_consumer_s_rights_with_respect_to_delivery_of_goods_or_supply_of_service
+  - Manage order holds - Supply Chain Management - Dynamics 365 | https://learn.microsoft.com/en-us/dynamics365/supply-chain/sales-marketing/tasks/manage-order-holds
+  - Consumer Protection Act, 2008 (Act No. 68 of 2008) - 19. Consumer's rights with respect to delivery of goods or supply of service - Acts Onl | https://www.acts.co.za/consumer-protection/19_consumer_s_rights_with_respect_to_delivery_of_goods_or_supply_of_service
+related:
+  - When customers know their order is late before your team does | /patterns/when-customers-know-their-order-is-late-before-your-team-does/
+  - Why returns become a cross-department investigation | /patterns/why-returns-become-a-cross-department-investigation/
+  - Why fulfilment problems begin before the warehouse | /patterns/why-fulfilment-problems-begin-before-the-warehouse/
 summary: Short stock, wrong addresses, credit holds and late deliveries all get sorted out in email threads. Why that hides problem orders, and how to give exceptions a proper home.
 layout: plain
 ---

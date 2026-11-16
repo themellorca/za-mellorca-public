@@ -13,8 +13,12 @@ commercial_domain: Data and Information
 primary_pain: Management reports cannot be understood without an analyst or accountant explaining what the figures mean and why they changed
 primary_cost_mechanism: Labour cost of skilled staff repeating explanations, opportunity cost of analysis not done, delayed decisions, decisions based on misreadings, and single-person dependency
 sources:
-  - https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-content-ownership-and-management | https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-content-ownership-and-management
-  - https://learn.microsoft.com/en-us/power-bi/consumer/end-user-q-and-a | https://learn.microsoft.com/en-us/power-bi/consumer/end-user-q-and-a
+  - Microsoft Fabric adoption roadmap: Content ownership and management - Power BI | https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-content-ownership-and-management
+  - Q&A for Power BI business users - Power BI | https://learn.microsoft.com/en-us/power-bi/consumer/end-user-q-and-a
+related:
+  - When Reports Do Not Answer the Question: The Cost of Private Analysis Spreadsheets | /impact/employees-private-spreadsheets-official-reports-unanswered-questions-duplicated-reporting-cost/
+  - One Metric, Three Definitions: The Cost of Systems That Count Differently | /impact/systems-different-definitions-same-business-metric-conflicting-reports-cost/
+  - When Important Data Is Trapped in One Department's App | /impact/data-trapped-in-one-department-application-information-silo-cost/
 summary: The monthly pack arrives, but managers need an analyst or accountant to tell them what changed and why. Decisions wait for that explanation, and the people who give it never get to their real work.
 layout: plain
 ---

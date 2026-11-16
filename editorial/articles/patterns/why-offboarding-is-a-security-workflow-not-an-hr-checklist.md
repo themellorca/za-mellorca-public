@@ -14,8 +14,12 @@ observable_condition: A leaver is processed through an HR exit form and an email
 primary_identification: Misplaced ownership: offboarding is designed as a personnel task with HR as owner, so the security steps depend on informal requests and memory rather than on a trigger, an owner and a verified finish.
 commercial_value_dimensions: Risk, data protection compliance, continuity, licence cost and client trust
 sources:
-  - https://learn.microsoft.com/en-us/entra/id-governance/understanding-lifecycle-workflows | https://learn.microsoft.com/en-us/entra/id-governance/understanding-lifecycle-workflows
-  - https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/ | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
+  - Understanding lifecycle workflows - Microsoft Entra ID Governance | https://learn.microsoft.com/en-us/entra/id-governance/understanding-lifecycle-workflows
+  - Section 19 Security measures on integrity and confidentiality of personal information - POPIA | https://popia.co.za/section-19-security-measures-on-integrity-and-confidentiality-of-personal-information/
+related:
+  - Why do former employees still have access? | /patterns/why-do-former-employees-still-have-access/
+  - When everyone has more system access than their job needs | /patterns/when-everyone-has-more-system-access-than-their-job-needs/
+  - When AI agents can act but governance cannot see them | /patterns/when-ai-agents-can-act-but-governance-cannot-see-them/
 summary: When a leaver is handled through an HR form and a few emails, access, devices and shared secrets slip through. Why offboarding needs a security owner and a trigger.
 layout: plain
 ---

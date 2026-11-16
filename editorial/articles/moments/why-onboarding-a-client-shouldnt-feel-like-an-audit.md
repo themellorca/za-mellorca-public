@@ -15,9 +15,13 @@ human_dividend: Time: clients supply what is needed once, staff stop chasing dup
 trade_off: Compliance obligations remain and some clients need more checks; client portals cost money and need set-up; simplifying too far risks missing required information; some clients prefer paper.
 epistemic_state: HYPOTHESISED: reasoned from FIC compliance guidance, UK government data guidance and POPIA, not from measured onboarding times in South African firms; the accounting-practice example is illustrative and not compliance advice.
 sources:
-  - https://www.fic.gov.za/compliance/ | https://www.fic.gov.za/compliance/
-  - https://www.gov.uk/guidance/make-better-use-of-data | https://www.gov.uk/guidance/make-better-use-of-data
-  - https://www.gov.za/documents/protection-personal-information-act | https://www.gov.za/documents/protection-personal-information-act
+  - Compliance and supervision – FIC | https://www.fic.gov.za/compliance/
+  - Make better use of data | https://www.gov.uk/guidance/make-better-use-of-data
+  - Protection of Personal Information Act 4 of 2013 - South African Government | https://www.gov.za/documents/protection-personal-information-act
+related:
+  - Why Leaving a Job Shouldn't Take Weeks of Admin | /moments/why-leaving-a-job-shouldnt-take-weeks-of-admin/
+  - The Relief When Data Entry Simply Disappears | /moments/the-relief-when-data-entry-simply-disappears/
+  - The Small Joy of a Form That Remembers You | /moments/the-small-joy-of-a-follow-up-form-that-remembers-you/
 summary: New clients are often welcomed with a stack of forms, repeated document requests and weeks of back-and-forth. Why onboarding grows heavy, and how to keep it compliant without the interrogation.
 layout: plain
 ---

@@ -13,8 +13,12 @@ problem_domain: Contracts & Obligation Management
 problem_owner: Sales or revenue operations lead, with the commercial manager responsible for customer agreements
 budget_owner: Sales director, CFO or managing director
 sources:
-  - https://trailhead.salesforce.com/content/learn/projects/simplify-home-security-subscription-renewals/generate-renewal-opportunity-forecasting | https://trailhead.salesforce.com/content/learn/projects/simplify-home-security-subscription-renewals/generate-renewal-opportunity-forecasting
-  - https://www.acts.co.za/consumer-protection/14_expiry_and_renewal_of_fixed_term_agreements | https://www.acts.co.za/consumer-protection/14_expiry_and_renewal_of_fixed_term_agreements
+  - Generating Renewal Opportunities for Sales Forecasting | https://trailhead.salesforce.com/content/learn/projects/simplify-home-security-subscription-renewals/generate-renewal-opportunity-forecasting
+  - Consumer Protection Act, 2008 (Act No. 68 of 2008) - 14. Expiry and renewal of fixed-term agreements - Acts Online | https://www.acts.co.za/consumer-protection/14_expiry_and_renewal_of_fixed_term_agreements
+related:
+  - Nobody owns the obligations that start after a contract is signed | /discovery/nobody-owns-the-obligations-that-start-after-a-contract-is-signed/
+  - Service levels promised in contracts that nobody turns into daily work | /discovery/service-levels-promised-in-contracts-that-nobody-turns-into-daily-work/
+  - Termination notice windows missed because dates live in spreadsheets | /discovery/termination-notice-windows-missed-because-dates-live-in-spreadsheets/
 summary: Customer contracts reach their end date before anyone in sales has asked whether the customer wants to stay. How renewals slip out of the pipeline, and how to start each one on a set date with a named owner.
 layout: plain
 ---

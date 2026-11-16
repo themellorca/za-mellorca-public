@@ -13,8 +13,12 @@ problem_domain: Contracts & Obligation Management
 problem_owner: Operations manager or head of service delivery, with the commercial manager who agreed the contract
 budget_owner: COO, managing director or CFO
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/define-service-level-agreements | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/define-service-level-agreements
-  - https://aws.amazon.com/compute/sla/ | https://aws.amazon.com/compute/sla/
+  - Configure service-level agreements in Dynamics 365 Customer Service | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/define-service-level-agreements
+  - Amazon Compute Service Level Agreement | https://aws.amazon.com/compute/sla/
+related:
+  - Nobody owns the obligations that start after a contract is signed | /discovery/nobody-owns-the-obligations-that-start-after-a-contract-is-signed/
+  - Why sales teams start customer renewal conversations too late | /discovery/why-sales-teams-start-customer-renewal-conversations-too-late/
+  - Why contract renewals surprise finance and operations | /discovery/why-contract-renewals-surprise-finance-and-operations/
 summary: Response times, resolution targets, reporting duties and review meetings are written into customer contracts, but the teams doing the work never see them. How to turn each commitment into a timer, a task and an owner.
 layout: plain
 ---

@@ -13,9 +13,13 @@ problem_domain: Customer Service & Support Operations
 problem_owner: Head of customer service or support operations manager
 budget_owner: COO or customer experience director
 sources:
-  - https://support.zendesk.com/hc/en-us/articles/4408882445594-Merging-tickets | https://support.zendesk.com/hc/en-us/articles/4408882445594-Merging-tickets
-  - https://support.zendesk.com/hc/en-us/articles/4409149119514-About-omnichannel-routing | https://support.zendesk.com/hc/en-us/articles/4409149119514-About-omnichannel-routing
-  - https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/set-up-rules-to-automatically-create-or-update-records | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/set-up-rules-to-automatically-create-or-update-records
+  - Merging tickets | https://support.zendesk.com/hc/en-us/articles/4408882445594-Merging-tickets
+  - About omnichannel routing | https://support.zendesk.com/hc/en-us/articles/4409149119514-About-omnichannel-routing
+  - Set up rules to automatically create or update records | https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/set-up-rules-to-automatically-create-or-update-records
+related:
+  - Decisions lost across email, chat and meeting notes | /discovery/decisions-lost-across-email-chat-and-meeting-notes/
+  - Why procurement requests disappear into email and chat | /discovery/why-procurement-requests-disappear-into-email/
+  - Sales cannot see a customer's credit or service problems | /discovery/sales-cannot-see-a-customer-s-credit-or-service-problems/
 summary: A customer emails, then opens a chat, then phones, and the help desk now holds three cases for one problem. Why channel-based case creation splits the work, and how to design intake around the customer instead.
 layout: plain
 ---

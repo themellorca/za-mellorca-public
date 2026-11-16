@@ -14,8 +14,12 @@ observable_condition: Reps facing similar enquiries make different qualification
 primary_identification: Unwritten criteria: qualification standards live in each rep's experience rather than in shared, recorded criteria, so the same lead is judged differently depending on who receives it.
 commercial_value_dimensions: Revenue, forecast accuracy, marketing return, sales capacity and the quality of data for scoring and AI
 sources:
-  - https://learn.microsoft.com/en-us/dynamics365/sales/qualify-lead-convert-opportunity-sales | https://learn.microsoft.com/en-us/dynamics365/sales/qualify-lead-convert-opportunity-sales
-  - https://learn.microsoft.com/en-us/dynamics365/sales/configure-predictive-lead-scoring | https://learn.microsoft.com/en-us/dynamics365/sales/configure-predictive-lead-scoring
+  - Qualify and convert a lead to opportunity | https://learn.microsoft.com/en-us/dynamics365/sales/qualify-lead-convert-opportunity-sales
+  - Configure predictive lead scoring | https://learn.microsoft.com/en-us/dynamics365/sales/configure-predictive-lead-scoring
+related:
+  - When lead routing depends on someone checking an inbox | /patterns/when-lead-routing-depends-on-someone-checking-an-inbox/
+  - The Operational Cost of Manual Proposal Assembly | /patterns/the-operational-cost-of-manual-proposal-assembly/
+  - When Pipeline Hygiene Requires Constant Chasing | /patterns/when-pipeline-hygiene-requires-constant-chasing/
 summary: One rep qualifies every enquiry, another almost none. Why qualification drifts when the criteria live in people's heads, and how to make it consistent.
 layout: plain
 ---
